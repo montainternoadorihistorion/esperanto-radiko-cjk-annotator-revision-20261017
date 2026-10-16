@@ -1,0 +1,67 @@
+{
+  "verified_at_utc": "2026-10-16T15:45:32.961666+00:00",
+  "download_origin": "Actual Streamlit Cloud CSV downloads via Chrome, supplied by the parent task",
+  "verification_method": "Read local downloaded files; compare raw bytes and SHA-256 against public-repo app_data; parse reviewed CSV rows",
+  "browser_operations_performed_by_this_check": false,
+  "passed": true,
+  "files": [
+    {
+      "language": "JA",
+      "download_filename": "エスペラント語根-日本語訳ルビ対応リスト.csv",
+      "repository_path": "Esperanto-Kanji-Ruby-JA/app_data/エスペラント語根-日本語訳ルビ対応リスト.csv",
+      "download_bytes": 341257,
+      "repository_bytes": 341257,
+      "download_sha256": "33ce469efce8d77111c281df36585e981269409f1d33753da620d56c6ad5ce0e",
+      "repository_sha256": "33ce469efce8d77111c281df36585e981269409f1d33753da620d56c6ad5ce0e",
+      "bytes_identical": true
+    },
+    {
+      "language": "ZH",
+      "download_filename": "世界语词根-中文注释对应列表.csv",
+      "repository_path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-中文注释对应列表.csv",
+      "download_bytes": 274738,
+      "repository_bytes": 274738,
+      "download_sha256": "6b8255b364f8d7d8d76a8d32fc4b1f931e24dc2d8accaebfa244107814c723ac",
+      "repository_sha256": "6b8255b364f8d7d8d76a8d32fc4b1f931e24dc2d8accaebfa244107814c723ac",
+      "bytes_identical": true,
+      "reviewed_gloss": {
+        "root": "akuzativ",
+        "expected": "宾格",
+        "matches": [
+          {
+            "line": 3276,
+            "fields": [
+              "akuzativ",
+              "宾格"
+            ]
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "language": "KO",
+      "download_filename": "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+      "repository_path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+      "download_bytes": 299185,
+      "repository_bytes": 299185,
+      "download_sha256": "a5a2ba458907d5b6a3512bd7fe5d6a9c7bb6d6a84a1b23dc6652a32a0fb9866e",
+      "repository_sha256": "a5a2ba458907d5b6a3512bd7fe5d6a9c7bb6d6a84a1b23dc6652a32a0fb9866e",
+      "bytes_identical": true,
+      "reviewed_gloss": {
+        "root": "um",
+        "expected": "다의적",
+        "matches": [
+          {
+            "line": 4731,
+            "fields": [
+              "um",
+              "다의적"
+            ]
+          }
+        ],
+        "passed": true
+      }
+    }
+  ]
+}

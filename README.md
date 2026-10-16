@@ -1,6 +1,16 @@
 # エスペラント注釈ルビ・漢字化アプリ 改訂版
 
-日中韓3言語の Streamlit アプリです。エスペラント文を語根分解し、注釈ルビ・漢字ルビ・漢字化の純粋置換で表示します。2026年10月の修正を Streamlit Community Cloud で確認するための公開リポジトリです。
+日中韓3言語の Streamlit アプリです。エスペラント文を語根分解し、注釈ルビ・漢字ルビ・漢字化の純粋置換で表示します。2026年10月の修正を反映し、Streamlit Community Cloud で動作確認した公開リポジトリです。
+
+## 公開アプリ
+
+- [日本語版](https://esperanto-cjk-revision-ja-20261017.streamlit.app/)
+- [中国語版](https://esperanto-cjk-revision-zh-20261017.streamlit.app/)
+- [韓国語版](https://esperanto-cjk-revision-ko-20261017.streamlit.app/)
+
+2026年10月17日（日本時間）、実際の Cloud アプリを Chrome で操作し、3言語×3モード、手動補正・データダウンロードの計6ページ、メインページへの復帰後の再変換を確認しました。実行環境は Python **3.12.15** / Streamlit **1.50.0** / pandas **2.3.3**、確認対象のソースは `b4f7cee` です。
+
+中国語 `akuzativ/o` と韓国語 `um` の語義プレビュー、3言語のCSVダウンロードとリポジトリ内データのバイト一致、日本語版でダウンロードした注釈HTMLの本文・ルビも確認しています。[Cloud確認結果](tests/cloud_smoke.json)、[CSV照合結果](tests/cloud_download_verification.json)、[変換結果HTMLの照合結果](tests/cloud_result_download_verification.json)を収録しています。確認範囲は下記の回帰入力と記載した操作経路で、全文コーパスの精度検証や長文・同時アクセスの負荷試験は含みません。
 
 ## Streamlit Community Cloud への配備
 
@@ -19,7 +29,7 @@
 
 依存関係は、各言語版とリポジトリ直下の `requirements.txt` に記載しています。検証時の Streamlit 1.50.0 / pandas 2.3.3 を固定しています。Cloud 共通のテーマ設定は、直下の `.streamlit/config.toml` です。
 
-初回公開時点では、ローカルの Streamlit テストで検証済みです。Cloud への実配備・Cloud 上での動作確認は別途必要です。アプリ下部の「旧公開版」リンクは今回の改訂版の配備先ではありません。
+アプリ下部の「旧公開版」リンクは以前の公開先です。今回の改訂版は上記「公開アプリ」のリンクから利用できます。
 
 配置の詳細は [Streamlit公式のファイル構成](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/file-organization) と [配備手順](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/deploy) を参照してください。
 
@@ -53,6 +63,7 @@
 - 確認済みの `semajn` / `ŝakist` 語族の限定的な置換データ修正。
 - 中国語注釈CSVの `akuzativ` と韓国語注釈CSVの `um` の明確な誤り。
 - 最新データのダウンロード先を、この改訂版の `main` に変更。
+- Cloud での再実行・ページ移動時にも入口を正しく解決できるよう、作業ディレクトリを変更せず、各ファイルを基準とした絶対パスでデータを読み込むよう修正。
 
 漢字の割り当て変更は含みません。`las`、`ananas`、`prioritat` などの検討は別途継続します。
 
@@ -72,7 +83,7 @@ python -m unittest discover -s tests -p "test_*.py"
 python tests/app_ui_smoke.py
 ```
 
-`tests/app_ui_smoke.py` は実際の画面コードを Streamlit AppTest で動かし、3言語×3モードと補助ページを確認します。ブラウザの見た目や Cloud 上の動作を検証するテストではありません。
+`tests/app_ui_smoke.py` は画面コードをローカルの Streamlit AppTest で動かし、3言語×3モード、補助6ページ、同じセッションでメインページへ戻った後の再変換と作業ディレクトリの保持を確認します。[実行結果](tests/app_ui_smoke.json)を収録しています。この AppTest と、上記の実ブラウザによる Cloud 確認は別々に実施しています。
 
 ## 収録範囲と由来
 

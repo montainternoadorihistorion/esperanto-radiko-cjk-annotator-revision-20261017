@@ -1,0 +1,78 @@
+{
+  "verified_at_utc": "2026-10-16T15:47:28.136630+00:00",
+  "download_origin": "Actual Japanese annotation-result download via Chrome, supplied by the parent task",
+  "source_download_filename": "置換結果 (3).html",
+  "saved_evidence_filename": "ja_annotation_download.html",
+  "browser_operations_performed_by_this_check": false,
+  "method": "Parse HTML body, omit rt/style/script text, decode character references, trim outer whitespace; compare ruby base/annotation pairs in order",
+  "passed": true,
+  "checks": {
+    "visible_body_matches": true,
+    "six_ruby_pairs_match": true,
+    "at_markers_absent_from_whole_html": true,
+    "at_and_percent_markers_absent_from_body_and_ruby": true,
+    "raw_percent_signs_only_in_style": true
+  },
+  "visible_body": "semajntagoj & amiko ŝakisto semajntagoj",
+  "expected_body": "semajntagoj & amiko ŝakisto semajntagoj",
+  "ruby_pairs": [
+    {
+      "base": "semajn",
+      "annotation": "一週間"
+    },
+    {
+      "base": "tag",
+      "annotation": "日"
+    },
+    {
+      "base": "ŝak",
+      "annotation": "チェス"
+    },
+    {
+      "base": "ist",
+      "annotation": "従事者"
+    },
+    {
+      "base": "semajn",
+      "annotation": "週"
+    },
+    {
+      "base": "tag",
+      "annotation": "日"
+    }
+  ],
+  "expected_ruby_pairs": [
+    {
+      "base": "semajn",
+      "annotation": "一週間"
+    },
+    {
+      "base": "tag",
+      "annotation": "日"
+    },
+    {
+      "base": "ŝak",
+      "annotation": "チェス"
+    },
+    {
+      "base": "ist",
+      "annotation": "従事者"
+    },
+    {
+      "base": "semajn",
+      "annotation": "週"
+    },
+    {
+      "base": "tag",
+      "annotation": "日"
+    }
+  ],
+  "raw_at_count": 0,
+  "raw_percent_count": 5,
+  "css_percent_count": 5,
+  "percent_note": "The five remaining percent signs are CSS 100% units; no percent marker remains in body or ruby text.",
+  "bytes": 3320,
+  "source_sha256": "3fb4bd4f7452e1263980ca718d89f3681faf1b8cae6eb1b30f0451a9a5aca315",
+  "saved_sha256": "3fb4bd4f7452e1263980ca718d89f3681faf1b8cae6eb1b30f0451a9a5aca315",
+  "copy_bytes_identical": true
+}

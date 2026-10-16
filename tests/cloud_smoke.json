@@ -1,0 +1,237 @@
+{
+  "tested_at_utc": "2026-10-16T15:46:45.863Z",
+  "method": "Actual Streamlit Community Cloud pages operated through Chrome; rendered DOM and downloads checked",
+  "source_commit": "b4f7cee",
+  "source_repository": "montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017",
+  "source_branch": "main",
+  "python_runtime": "3.12.15",
+  "streamlit": "1.50.0",
+  "pandas": "2.3.3",
+  "input": "@semajn@tagoj & %amiko% ŝakisto semajntagoj",
+  "apps": {
+    "JA": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+    "ZH": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/",
+    "KO": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/"
+  },
+  "checks": [
+    {
+      "language": "JA",
+      "mode": "kanji_ruby",
+      "ruby": [
+        {
+          "base": "周",
+          "rt": "semajn"
+        },
+        {
+          "base": "日",
+          "rt": "tag"
+        },
+        {
+          "base": "棋",
+          "rt": "ŝak"
+        },
+        {
+          "base": "家",
+          "rt": "ist"
+        },
+        {
+          "base": "周",
+          "rt": "semajn"
+        },
+        {
+          "base": "日",
+          "rt": "tag"
+        }
+      ],
+      "text": "周日oj & amiko 棋家o 周日oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji_ruby",
+      "ruby": [
+        {
+          "base": "周",
+          "rt": "semajn"
+        },
+        {
+          "base": "日",
+          "rt": "tag"
+        },
+        {
+          "base": "棋",
+          "rt": "ŝak"
+        },
+        {
+          "base": "家",
+          "rt": "ist"
+        },
+        {
+          "base": "周",
+          "rt": "semajn"
+        },
+        {
+          "base": "日",
+          "rt": "tag"
+        }
+      ],
+      "text": "周日oj & amiko 棋家o 周日oj"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "text": "周日oj & amiko 棋家o 周日oj"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "text": "周日oj & amiko 棋家o 周日oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "text": "周日oj & amiko 棋家o 周日oj"
+    },
+    {
+      "language": "JA",
+      "mode": "annotation",
+      "after_page_round_trip": true,
+      "ruby": [
+        {
+          "base": "semajn",
+          "rt": "一週間"
+        },
+        {
+          "base": "tag",
+          "rt": "日"
+        },
+        {
+          "base": "ŝak",
+          "rt": "チェス"
+        },
+        {
+          "base": "ist",
+          "rt": "従事者"
+        },
+        {
+          "base": "semajn",
+          "rt": "週"
+        },
+        {
+          "base": "tag",
+          "rt": "日"
+        }
+      ],
+      "text": "semajntagoj & amiko ŝakisto semajntagoj"
+    },
+    {
+      "language": "ZH",
+      "mode": "annotation",
+      "after_page_round_trip": true,
+      "ruby": [
+        {
+          "base": "semajn",
+          "rt": "周"
+        },
+        {
+          "base": "tag",
+          "rt": "一日"
+        },
+        {
+          "base": "ŝak",
+          "rt": "国际象棋"
+        },
+        {
+          "base": "ist",
+          "rt": "者"
+        },
+        {
+          "base": "semajn",
+          "rt": "星期"
+        },
+        {
+          "base": "tag",
+          "rt": "一日"
+        }
+      ],
+      "text": "semajntagoj & amiko ŝakisto semajntagoj"
+    },
+    {
+      "language": "KO",
+      "mode": "annotation",
+      "after_page_round_trip": true,
+      "ruby": [
+        {
+          "base": "semajn",
+          "rt": "주간"
+        },
+        {
+          "base": "tag",
+          "rt": "하루"
+        },
+        {
+          "base": "ŝak",
+          "rt": "체스"
+        },
+        {
+          "base": "ist",
+          "rt": "자"
+        },
+        {
+          "base": "semajn",
+          "rt": "한 주"
+        },
+        {
+          "base": "tag",
+          "rt": "하루"
+        }
+      ],
+      "text": "semajntagoj & amiko ŝakisto semajntagoj"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji_ruby",
+      "after_page_round_trip": true,
+      "ruby": [
+        {
+          "base": "周",
+          "rt": "semajn"
+        },
+        {
+          "base": "日",
+          "rt": "tag"
+        },
+        {
+          "base": "棋",
+          "rt": "ŝak"
+        },
+        {
+          "base": "家",
+          "rt": "ist"
+        },
+        {
+          "base": "周",
+          "rt": "semajn"
+        },
+        {
+          "base": "日",
+          "rt": "tag"
+        }
+      ],
+      "text": "周日oj & amiko 棋家o 周日oj"
+    }
+  ],
+  "manual_pages": {
+    "JA": "opened successfully",
+    "ZH": "akuzativ/o preview: akuzativ=宾格",
+    "KO": "um preview: um=다의적"
+  },
+  "data_download_pages": "all three opened, five large JSON links and four small-file buttons present; CSVs downloaded and independently byte-compared to repository",
+  "page_navigation": "main -> manual correction -> latest data download -> main -> new conversion passed for all three languages",
+  "assignment_changes": false,
+  "initial_deployment_issue": "Initial JA run changed cwd and failed on a duplicated entrypoint path; fixed by absolute asset paths without os.chdir, then redeployed and tested successfully",
+  "limits": [
+    "Synthetic regression text and listed routes only; not a full corpus accuracy proof or a long-text concurrency/load test",
+    "Manual correction gloss previews checked without saving new corrections"
+  ],
+  "passed": true
+}
