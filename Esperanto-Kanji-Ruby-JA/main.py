@@ -9,10 +9,9 @@ import pandas as pd  # 必要なら使う
 from typing import List, Dict, Tuple, Optional
 import streamlit.components.v1 as components
 
-# Streamlit Cloud等では作業ディレクトリがリポジトリのルート(複数アプリの親)になるため、
-# './app_data/...' の相対パスが解決できずFileNotFoundになる。このスクリプト(アプリ)の
-# 置かれたディレクトリへCWDを固定し、ローカル/Cloudどちらでも相対パスを正しく解決する。
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
+# Resolve data from this file without changing Streamlit's working directory.
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(APP_DIR, "app_data")
 
 import multiprocessing
 # multiprocessing時のPicklingError回避のため 'spawn' を明示: streamlitでは必ず必要。
@@ -92,7 +91,7 @@ replacements_list_for_localized_string: List[Tuple[str, str, str]] = []
 replacements_list_for_2char: List[Tuple[str, str, str]] = []
 
 if selected_option == "📖 注釈ルビ（語根の上に日本語訳）":
-    default_json_path = "./app_data/置換リスト_ルビ.json"
+    default_json_path = os.path.join(DATA_DIR, '置換リスト_ルビ.json')
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(default_json_path)
         st.success("✅ 注釈ルビモードの準備ができました。このまま下の入力欄に文章を入れて「🔁 変換する」を押してください。")
@@ -100,7 +99,7 @@ if selected_option == "📖 注釈ルビ（語根の上に日本語訳）":
         st.error(f"JSONファイルの読み込みに失敗: {e}")
         st.stop()
 elif selected_option == "🈶 漢字化（漢字＋語根ルビ）":
-    kanji_json_path = "./app_data/置換リスト_漢字.json"
+    kanji_json_path = os.path.join(DATA_DIR, '置換リスト_漢字.json')
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(kanji_json_path)
         st.success("✅ 漢字化モードの準備ができました（漢字が本文・語根がルビ）。下の入力欄に文章を入れて「🔁 変換する」を押してください。")
@@ -108,7 +107,7 @@ elif selected_option == "🈶 漢字化（漢字＋語根ルビ）":
         st.error(f"漢字化版JSONの読み込みに失敗: {e}")
         st.stop()
 elif selected_option == "✂️ 漢字化・純粋置換（タグなしテキスト）":
-    pure_json_path = "./app_data/置換リスト_漢字_純粋置換.json"
+    pure_json_path = os.path.join(DATA_DIR, '置換リスト_漢字_純粋置換.json')
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(pure_json_path)
         st.success("✅ 漢字化・純粋置換モードの準備ができました（タグなしの漢字テキストに変換。例: amikeco → 友性o）。下の入力欄に文章を入れて「🔁 変換する」を押してください。")
@@ -154,10 +153,10 @@ with st.expander("📂 手動補正ファイル(user_corrections.json)を読み�
             _decs = [c.get("decomp") for c in json.load(_cor_up) if isinstance(c, dict) and c.get("decomp")]
             _new = []
             for _dc in _decs:
-                try: _new.append(_ovu.build_correction(_dc, "./app_data"))
+                try: _new.append(_ovu.build_correction(_dc, DATA_DIR))
                 except Exception: pass
             if _new:
-                _ovu.save_corrections("./app_data", _new)
+                _ovu.save_corrections(DATA_DIR, _new)
             else:
                 st.error("有効な補正が0件でした。『語根分解の手動補正』ページでダウンロードした user_corrections.json かご確認ください（現在の補正は変更していません）。")
             st.session_state["main_cor_loaded"] = getattr(_cor_up, "file_id", True)
@@ -168,7 +167,7 @@ with st.expander("📂 手動補正ファイル(user_corrections.json)を読み�
 try:
     import esp_overlay_module as _ov
     _ov_mode = "kanji" if selected_option in ("🈶 漢字化（漢字＋語根ルビ）", "✂️ 漢字化・純粋置換（タグなしテキスト）") else "ruby"
-    _ov_entries_raw = _ov.load_overlay_entries("./app_data", _ov_mode)
+    _ov_entries_raw = _ov.load_overlay_entries(DATA_DIR, _ov_mode)
     if selected_option == "✂️ 漢字化・純粋置換（タグなしテキスト）":
         import re as _re_ov
         _ov_entries = [[o, _re_ov.sub(r"</?ruby>", "", _re_ov.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_ov.DOTALL | _re_ov.IGNORECASE), flags=_re_ov.IGNORECASE), ph] for o, n, ph in _ov_entries_raw]
@@ -177,16 +176,16 @@ try:
     if _ov_entries and not str(selected_option).startswith("📤"):
         # 自作JSONモードは形式が不明のため補正オーバーレイ(HTML)は適用しない
         replacements_final_list = _ov.merge_overlay(replacements_final_list, _ov_entries)
-        st.info(f"語根分解の品質補正データ {len(_ov.load_corrections('./app_data'))} 件を自動適用中です（**操作は不要**。内容は「語根分解の手動補正」ページで確認・編集できます）。")
+        st.info(f"語根分解の品質補正データ {len(_ov.load_corrections(DATA_DIR))} 件を自動適用中です（**操作は不要**。内容は「語根分解の手動補正」ページで確認・編集できます）。")
 except Exception:
     pass  # オーバーレイは任意機能。失敗しても通常の置換は継続する。
 
 # 2) placeholders (占位符) の読み込み
 placeholders_for_skipping_replacements: List[str] = import_placeholders(
-    './app_data/placeholders_skip.txt'
+    os.path.join(DATA_DIR, 'placeholders_skip.txt')
 )
 placeholders_for_localized_replacement: List[str] = import_placeholders(
-    './app_data/placeholders_localcapture.txt'
+    os.path.join(DATA_DIR, 'placeholders_localcapture.txt')
 )
 
 st.write("---")
@@ -330,7 +329,7 @@ with st.form(key='profile_form'):
             import esp_overlay_module as _ovx
             _afmode = "kanji" if selected_option in ("🈶 漢字化（漢字＋語根ルビ）", "✂️ 漢字化・純粋置換（タグなしテキスト）") else "ruby"  # sample_btn_marker
             _auto_strip_pure = (selected_option == "✂️ 漢字化・純粋置換（タグなしテキスト）")
-            _auto = _ovx.auto_overlay_entries(processed_text, "./app_data", _afmode)
+            _auto = _ovx.auto_overlay_entries(processed_text, DATA_DIR, _afmode)
             if _auto and _auto_strip_pure:
                 import re as _re_af
                 _auto = [[o, _re_af.sub(r"</?ruby>", "", _re_af.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_af.DOTALL | _re_af.IGNORECASE), flags=_re_af.IGNORECASE), ph] for o, n, ph in _auto]

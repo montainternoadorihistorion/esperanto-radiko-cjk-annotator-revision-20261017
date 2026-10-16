@@ -10,10 +10,10 @@ from typing import List, Dict, Tuple, Optional
 import streamlit.components.v1 as components
 import os
 
-# Streamlit Cloud 등에서는 작업 디렉터리가 저장소 루트(여러 앱의 상위)가 되어
-# './app_data/...' 상대 경로를 해석하지 못해 FileNotFound가 발생한다. 이 스크립트(앱)가
-# 있는 디렉터리로 작업 디렉터리를 고정하여 로컬/클라우드 모두에서 상대 경로를 해석한다.
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
+# Resolve data from this file without changing Streamlit's working directory.
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(APP_DIR, "app_data")
+REPO_DIR = os.path.dirname(APP_DIR)
 
 import multiprocessing
 
@@ -112,7 +112,7 @@ replacements_list_for_2char: List[Tuple[str, str, str]] = []
 
 # JSONファイルの読み込み方を分岐
 if selected_option == "📖 주석 루비（어근 위에 한국어 주석）":
-    default_json_path = "./app_data/置換リスト_ルビ.json"
+    default_json_path = os.path.join(DATA_DIR, '置換リスト_ルビ.json')
     try:
         (replacements_final_list,
          replacements_list_for_localized_string,
@@ -122,7 +122,7 @@ if selected_option == "📖 주석 루비（어근 위에 한국어 주석）":
         st.error(f"JSON 파일 불러오기에 실패했습니다: {e}")
         st.stop()
 elif selected_option == "🈶 한자화（한자＋어근 루비）":
-    kanji_json_path = "./app_data/置換リスト_漢字.json"
+    kanji_json_path = os.path.join(DATA_DIR, '置換リスト_漢字.json')
     try:
         (replacements_final_list,
          replacements_list_for_localized_string,
@@ -132,7 +132,7 @@ elif selected_option == "🈶 한자화（한자＋어근 루비）":
         st.error(f"한자화 버전 JSON 불러오기에 실패했습니다: {e}")
         st.stop()
 elif selected_option == "✂️ 한자화·순수 치환（태그 없는 텍스트）":
-    pure_json_path = "../Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json"
+    pure_json_path = os.path.join(REPO_DIR, "Esperanto-Kanji-Ruby-JA", "app_data", "置換リスト_漢字_純粋置換.json")
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(pure_json_path)
         st.success("순수 치환판 JSON을 불러왔습니다. 에스페란토 문장이 태그 없는 한자 텍스트로 변환됩니다(예: amikeco → 友性o).")
@@ -178,10 +178,10 @@ with st.expander("📂 수동 보정 파일(user_corrections.json) 불러오기(
             _decs = [c.get("decomp") for c in json.load(_cor_up) if isinstance(c, dict) and c.get("decomp")]
             _new = []
             for _dc in _decs:
-                try: _new.append(_ovu.build_correction(_dc, "./app_data"))
+                try: _new.append(_ovu.build_correction(_dc, DATA_DIR))
                 except Exception: pass
             if _new:
-                _ovu.save_corrections("./app_data", _new)
+                _ovu.save_corrections(DATA_DIR, _new)
             else:
                 st.error("유효한 보정이 0건이었습니다. 「어근 분해 수동 보정」 페이지에서 다운로드한 user_corrections.json 파일인지 확인해 주세요(현재 보정은 변경되지 않았습니다).")
             st.session_state["main_cor_loaded"] = getattr(_cor_up, "file_id", True)
@@ -192,7 +192,7 @@ with st.expander("📂 수동 보정 파일(user_corrections.json) 불러오기(
 try:
     import esp_overlay_module as _ov
     _ov_mode = "kanji" if selected_option in ("🈶 한자화（한자＋어근 루비）", "✂️ 한자화·순수 치환（태그 없는 텍스트）") else "ruby"
-    _ov_entries_raw = _ov.load_overlay_entries("./app_data", _ov_mode)
+    _ov_entries_raw = _ov.load_overlay_entries(DATA_DIR, _ov_mode)
     if selected_option == "✂️ 한자화·순수 치환（태그 없는 텍스트）":
         import re as _re_ov
         _ov_entries = [[o, _re_ov.sub(r"</?ruby>", "", _re_ov.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_ov.DOTALL | _re_ov.IGNORECASE), flags=_re_ov.IGNORECASE), ph] for o, n, ph in _ov_entries_raw]
@@ -201,7 +201,7 @@ try:
     if _ov_entries and not str(selected_option).startswith("📤"):
         # 自作JSONモードは形式が不明のため補正オーバーレイ(HTML)は適用しない
         replacements_final_list = _ov.merge_overlay(replacements_final_list, _ov_entries)
-        st.info(f"어근 분해 품질 보정 데이터 {len(_ov.load_corrections('./app_data'))}건을 자동 적용 중입니다(**조작 불필요**. 내용은 「어근 분해 수동 보정」 페이지에서 확인·편집할 수 있습니다).")
+        st.info(f"어근 분해 품질 보정 데이터 {len(_ov.load_corrections(DATA_DIR))}건을 자동 적용 중입니다(**조작 불필요**. 내용은 「어근 분해 수동 보정」 페이지에서 확인·편집할 수 있습니다).")
 except Exception:
     pass
 
@@ -210,10 +210,10 @@ except Exception:
 #    %...% や @...@ で囲った文字列を守るために使用する文字列群を読み込む
 #=================================================================
 placeholders_for_skipping_replacements: List[str] = import_placeholders(
-    './app_data/placeholders_skip.txt'
+    os.path.join(DATA_DIR, 'placeholders_skip.txt')
 )
 placeholders_for_localized_replacement: List[str] = import_placeholders(
-    './app_data/placeholders_localcapture.txt'
+    os.path.join(DATA_DIR, 'placeholders_localcapture.txt')
 )
 
 st.write("---")
@@ -372,7 +372,7 @@ with st.form(key='profile_form'):
             import esp_overlay_module as _ovx
             _afmode = "kanji" if selected_option in ("🈶 한자화（한자＋어근 루비）", "✂️ 한자화·순수 치환（태그 없는 텍스트）") else "ruby"  # sample_btn_marker
             _auto_strip_pure = (selected_option == "✂️ 한자화·순수 치환（태그 없는 텍스트）")
-            _auto = _ovx.auto_overlay_entries(processed_text, "./app_data", _afmode)
+            _auto = _ovx.auto_overlay_entries(processed_text, DATA_DIR, _afmode)
             if _auto and _auto_strip_pure:
                 import re as _re_af
                 _auto = [[o, _re_af.sub(r"</?ruby>", "", _re_af.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_af.DOTALL | _re_af.IGNORECASE), flags=_re_af.IGNORECASE), ph] for o, n, ph in _auto]

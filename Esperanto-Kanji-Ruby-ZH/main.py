@@ -12,10 +12,10 @@ import pandas as pd  # 如果需要的话使用
 from typing import List, Dict, Tuple, Optional
 import streamlit.components.v1 as components
 
-# 在 Streamlit Cloud 等环境中,工作目录会是仓库根目录(多应用的父目录),
-# 导致 './app_data/...' 相对路径无法解析而 FileNotFound。将工作目录固定到本脚本
-# (应用)所在目录,使本地/云端都能正确解析相对路径。
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
+# Resolve data from this file without changing Streamlit's working directory.
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(APP_DIR, "app_data")
+REPO_DIR = os.path.dirname(APP_DIR)
 
 import multiprocessing
 # 在使用 multiprocessing 时，为避免 PicklingError，必须在 streamlit 中显式指定 "spawn"：
@@ -98,7 +98,7 @@ if "🈶" in selected_option or "✂️" in selected_option:
 
 # 在折叠框中提供一个示例 JSON 文件可下载
 with st.expander("【示例 JSON 文件（替换用）】"):
-    json_file_path = './app_data/置換リスト_ルビ.json'
+    json_file_path = os.path.join(DATA_DIR, '置換リスト_ルビ.json')
     with open(json_file_path, "rb") as file_json:
         btn_json = st.download_button(
             label="下载示例 JSON（替换用）",
@@ -113,7 +113,7 @@ replacements_list_for_localized_string: List[Tuple[str, str, str]] = []
 replacements_list_for_2char: List[Tuple[str, str, str]] = []
 
 if selected_option == "📖 注释Ruby（词根上方显示中文注释）":
-    default_json_path = "./app_data/置換リスト_ルビ.json"
+    default_json_path = os.path.join(DATA_DIR, '置換リスト_ルビ.json')
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(default_json_path)
         st.success("✅ 注释Ruby模式准备就绪。")
@@ -121,7 +121,7 @@ if selected_option == "📖 注释Ruby（词根上方显示中文注释）":
         st.error(f"读取默认 JSON 文件时出错: {e}")
         st.stop()
 elif selected_option == "🈶 汉字化（汉字＋词根Ruby）":
-    kanji_json_path = "./app_data/置換リスト_漢字.json"
+    kanji_json_path = os.path.join(DATA_DIR, '置換リスト_漢字.json')
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(kanji_json_path)
         st.success("✅ 汉字化模式准备就绪（汉字正文·词根Ruby）。")
@@ -129,7 +129,7 @@ elif selected_option == "🈶 汉字化（汉字＋词根Ruby）":
         st.error(f"读取汉字化版 JSON 时出错: {e}")
         st.stop()
 elif selected_option == "✂️ 汉字化·纯替换（无标签文本）":
-    pure_json_path = "../Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json"
+    pure_json_path = os.path.join(REPO_DIR, "Esperanto-Kanji-Ruby-JA", "app_data", "置換リスト_漢字_純粋置換.json")
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(pure_json_path)
         st.success("已读取纯替换版JSON。世界语文本将被转换为无标签的汉字文本(例: amikeco → 友性o)。")
@@ -175,10 +175,10 @@ with st.expander("📂 读取手动校正文件(user_corrections.json)(可选)")
             _decs = [c.get("decomp") for c in json.load(_cor_up) if isinstance(c, dict) and c.get("decomp")]
             _new = []
             for _dc in _decs:
-                try: _new.append(_ovu.build_correction(_dc, "./app_data"))
+                try: _new.append(_ovu.build_correction(_dc, DATA_DIR))
                 except Exception: pass
             if _new:
-                _ovu.save_corrections("./app_data", _new)
+                _ovu.save_corrections(DATA_DIR, _new)
             else:
                 st.error("有效校正为 0 条。请确认是否为在「词根分解的手动校正」页面下载的 user_corrections.json（当前校正未被更改）。")
             st.session_state["main_cor_loaded"] = getattr(_cor_up, "file_id", True)
@@ -189,7 +189,7 @@ with st.expander("📂 读取手动校正文件(user_corrections.json)(可选)")
 try:
     import esp_overlay_module as _ov
     _ov_mode = "kanji" if selected_option in ("🈶 汉字化（汉字＋词根Ruby）", "✂️ 汉字化·纯替换（无标签文本）") else "ruby"
-    _ov_entries_raw = _ov.load_overlay_entries("./app_data", _ov_mode)
+    _ov_entries_raw = _ov.load_overlay_entries(DATA_DIR, _ov_mode)
     if selected_option == "✂️ 汉字化·纯替换（无标签文本）":
         import re as _re_ov
         _ov_entries = [[o, _re_ov.sub(r"</?ruby>", "", _re_ov.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_ov.DOTALL | _re_ov.IGNORECASE), flags=_re_ov.IGNORECASE), ph] for o, n, ph in _ov_entries_raw]
@@ -198,7 +198,7 @@ try:
     if _ov_entries and not str(selected_option).startswith("📤"):
         # 自作JSONモードは形式が不明のため補正オーバーレイ(HTML)は適用しない
         replacements_final_list = _ov.merge_overlay(replacements_final_list, _ov_entries)
-        st.info(f"正在自动应用 {len(_ov.load_corrections('./app_data'))} 条词根分解质量校正（**无需操作**。可在「词根分解的手动校正」页面查看·编辑）。")
+        st.info(f"正在自动应用 {len(_ov.load_corrections(DATA_DIR))} 条词根分解质量校正（**无需操作**。可在「词根分解的手动校正」页面查看·编辑）。")
 except Exception:
     pass
 
@@ -206,10 +206,10 @@ except Exception:
 # 2) 读取一些与替换相关的 placeholder(占位符) 文件
 # --------------------------------------------------------------------
 placeholders_for_skipping_replacements: List[str] = import_placeholders(
-    './app_data/placeholders_skip.txt'
+    os.path.join(DATA_DIR, 'placeholders_skip.txt')
 )
 placeholders_for_localized_replacement: List[str] = import_placeholders(
-    './app_data/placeholders_localcapture.txt'
+    os.path.join(DATA_DIR, 'placeholders_localcapture.txt')
 )
 
 st.write("---")
@@ -364,7 +364,7 @@ with st.form(key='profile_form'):
             import esp_overlay_module as _ovx
             _afmode = "kanji" if selected_option in ("🈶 汉字化（汉字＋词根Ruby）", "✂️ 汉字化·纯替换（无标签文本）") else "ruby"  # sample_btn_marker
             _auto_strip_pure = (selected_option == "✂️ 汉字化·纯替换（无标签文本）")
-            _auto = _ovx.auto_overlay_entries(processed_text, "./app_data", _afmode)
+            _auto = _ovx.auto_overlay_entries(processed_text, DATA_DIR, _afmode)
             if _auto and _auto_strip_pure:
                 import re as _re_af
                 _auto = [[o, _re_af.sub(r"</?ruby>", "", _re_af.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_af.DOTALL | _re_af.IGNORECASE), flags=_re_af.IGNORECASE), ph] for o, n, ph in _auto]

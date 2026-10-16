@@ -13,8 +13,9 @@
 import streamlit as st
 import json, re, os
 
-# 即使 CWD 是仓库根目录,也能解析 './app_data/...':固定到应用(pages的父)目录。
-os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# Resolve data from this file without changing Streamlit's working directory.
+APP_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(APP_DIR, "app_data")
 
 from esp_text_replacement_module import (
     import_placeholders,
@@ -23,9 +24,9 @@ from esp_text_replacement_module import (
 from esp_replacement_json_make_module import convert_to_circumflex
 import esp_overlay_module as ov
 
-DATA = "./app_data"
-RUBY_JSON = DATA + "/置換リスト_ルビ.json"
-KANJI_JSON = DATA + "/置換リスト_漢字.json"
+DATA = DATA_DIR
+RUBY_JSON = os.path.join(DATA_DIR, '置換リスト_ルビ.json')
+KANJI_JSON = os.path.join(DATA_DIR, '置換リスト_漢字.json')
 RUBY_FMT = "HTML格式_Ruby文字_大小调整"
 KANJI_FMT = "HTML格式_Ruby文字_大小调整_汉字替换"
 
@@ -61,8 +62,8 @@ def _load_lists(path):
     )
 
 
-_PS = import_placeholders(DATA + "/placeholders_skip.txt")
-_PL = import_placeholders(DATA + "/placeholders_localcapture.txt")
+_PS = import_placeholders(os.path.join(DATA_DIR, 'placeholders_skip.txt'))
+_PL = import_placeholders(os.path.join(DATA_DIR, 'placeholders_localcapture.txt'))
 
 
 def _decompose(word, json_path, fmt, mode):
