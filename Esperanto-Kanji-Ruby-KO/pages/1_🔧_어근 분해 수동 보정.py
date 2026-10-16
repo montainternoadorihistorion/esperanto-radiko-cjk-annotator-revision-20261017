@@ -53,8 +53,14 @@ with st.expander("사용 방법", expanded=True):
     )
 
 
-@st.cache_data(show_spinner="치환 리스트를 읽는 중…")
 def _load_lists(path):
+    # A data-only deploy can replace a JSON without changing its path.
+    stat = os.stat(path)
+    return _load_lists_cached(path, (stat.st_mtime_ns, stat.st_size))
+
+
+@st.cache_data(show_spinner="치환 리스트를 읽는 중…", max_entries=3)
+def _load_lists_cached(path, file_stamp):
     with open(path, "r", encoding="utf-8") as f:
         d = json.load(f)
     return (
@@ -132,7 +138,7 @@ if decomp_in:
         if st.button("✅ 이 보정 저장", type="primary"):
             try:
                 entry = ov.add_correction(DATA, norm_decomp)
-                _load_lists.clear()
+                _load_lists_cached.clear()
                 st.success(
                     f"보정을 저장했습니다: `{entry['word']}` → `{entry['decomp']}`  "
                     "(루비·한자 두 모드에 즉시 반영. 메인 페이지(변환)에서 확인 가능)"

@@ -51,8 +51,14 @@ with st.expander("使用方法", expanded=True):
     )
 
 
-@st.cache_data(show_spinner="正在读取替换列表…")
 def _load_lists(path):
+    # A data-only deploy can replace a JSON without changing its path.
+    stat = os.stat(path)
+    return _load_lists_cached(path, (stat.st_mtime_ns, stat.st_size))
+
+
+@st.cache_data(show_spinner="正在读取替换列表…", max_entries=3)
+def _load_lists_cached(path, file_stamp):
     with open(path, "r", encoding="utf-8") as f:
         d = json.load(f)
     return (
@@ -130,7 +136,7 @@ if decomp_in:
         if st.button("✅ 保存此校正", type="primary"):
             try:
                 entry = ov.add_correction(DATA, norm_decomp)
-                _load_lists.clear()
+                _load_lists_cached.clear()
                 st.success(
                     f"已保存校正: `{entry['word']}` → `{entry['decomp']}`  "
                     "(已即时反映到注音与汉字两种模式,可在 主页面(转换)确认)"

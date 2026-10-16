@@ -49,8 +49,14 @@ from esp_text_replacement_module import (
 # JSONファイルのロード高速化を図る。大きなJSON(50MB程度)を都度読むと遅いので、
 # ここで呼び出す関数をキャッシュする作り。
 #=================================================================
-@st.cache_data
 def load_replacements_lists(json_path: str) -> Tuple[List, List, List]:
+    # Check the file on every rerun; a data-only deploy keeps the same path.
+    stat = os.stat(json_path)
+    return _load_replacements_lists_cached(json_path, (stat.st_mtime_ns, stat.st_size))
+
+
+@st.cache_data(max_entries=3)
+def _load_replacements_lists_cached(json_path: str, file_stamp: Tuple[int, int]) -> Tuple[List, List, List]:
     """
     JSONファイルをロードし、以下の3つのリストをタプルとして返す:
     1) replacements_final_list

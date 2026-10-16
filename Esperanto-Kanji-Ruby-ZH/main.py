@@ -45,8 +45,14 @@ from esp_text_replacement_module import (
 # 通过对函数的结果进行 cache_data，可以加快读取默认的替换用 JSON 文件(可能有 50MB左右)
 # (约 1.0 秒 -> 0.5 秒 的加速)
 # --------------------------------------------------------------------
-@st.cache_data
 def load_replacements_lists(json_path: str) -> Tuple[List, List, List]:
+    # Check the file on every rerun; a data-only deploy keeps the same path.
+    stat = os.stat(json_path)
+    return _load_replacements_lists_cached(json_path, (stat.st_mtime_ns, stat.st_size))
+
+
+@st.cache_data(max_entries=3)
+def _load_replacements_lists_cached(json_path: str, file_stamp: Tuple[int, int]) -> Tuple[List, List, List]:
     """
     从 JSON 文件中读取以下三种列表并以元组形式返回:
       1) replacements_final_list

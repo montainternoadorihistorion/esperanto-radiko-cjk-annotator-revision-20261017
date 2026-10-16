@@ -52,8 +52,14 @@ with st.expander("使い方", expanded=True):
     )
 
 
-@st.cache_data(show_spinner="置換リストを読み込み中…")
 def _load_lists(path):
+    # A data-only deploy can replace a JSON without changing its path.
+    stat = os.stat(path)
+    return _load_lists_cached(path, (stat.st_mtime_ns, stat.st_size))
+
+
+@st.cache_data(show_spinner="置換リストを読み込み中…", max_entries=3)
+def _load_lists_cached(path, file_stamp):
     with open(path, "r", encoding="utf-8") as f:
         d = json.load(f)
     return (
@@ -133,7 +139,7 @@ if decomp_in:
         if st.button("✅ この補正を保存", type="primary"):
             try:
                 entry = ov.add_correction(DATA, norm_decomp)
-                _load_lists.clear()  # キャッシュは元JSON依存なので不要だが安全のため
+                _load_lists_cached.clear()  # キャッシュは元JSON依存なので不要だが安全のため
                 st.success(
                     f"補正を保存しました: `{entry['word']}` → `{entry['decomp']}`  "
                     "(ルビ・漢字 両モードに即反映。メインページ(変換)で確認できます)"

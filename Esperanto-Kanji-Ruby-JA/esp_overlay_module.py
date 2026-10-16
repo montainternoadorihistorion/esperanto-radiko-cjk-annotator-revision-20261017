@@ -30,7 +30,7 @@ RUBY_CSV_CANDIDATES = [                         # 言語別ルビCSV(存在す�
 RUBY_FMT = "HTML格式_Ruby文字_大小调整"
 KANJI_FMT = "HTML格式_Ruby文字_大小调整_汉字替换"
 
-_ROOT_DICT_CACHE = {}   # (data_dir, csv, fmt) -> {root: <ruby>…</ruby>}
+_ROOT_DICT_CACHE = {}   # (data_dir, csv, fmt) -> (file stamps, root HTML dictionary)
 _REPLACEMENT_HELPER = None
 
 
@@ -83,15 +83,21 @@ def _build_root_dict(data_dir: str, csv_name: str, fmt: str):
     """CSV(語根→訳/漢字)から {語根: '<ruby>語根<rt…>訳</rt></ruby>'} の辞書を作る。
        50MB JSONは読まない。プロセス内キャッシュ。"""
     key = (data_dir, csv_name, fmt)
-    if key in _ROOT_DICT_CACHE:
-        return _ROOT_DICT_CACHE[key]
+    csv_path = os.path.join(data_dir, csv_name)
+    widths_path = os.path.join(data_dir, "char_widths.json")
+    csv_stat, widths_stat = os.stat(csv_path), os.stat(widths_path)
+    stamp = (csv_stat.st_mtime_ns, csv_stat.st_size,
+             widths_stat.st_mtime_ns, widths_stat.st_size)
+    cached = _ROOT_DICT_CACHE.get(key)
+    if cached is not None and cached[0] == stamp:
+        return cached[1]
     import pandas as pd
     from io import StringIO
     helper = _replacement_helper()
     convert_to_circumflex, output_format = helper.convert_to_circumflex, helper.output_format
-    with open(os.path.join(data_dir, "char_widths.json"), encoding="utf-8") as fp:
+    with open(widths_path, encoding="utf-8") as fp:
         cw = json.load(fp)
-    txt = convert_to_circumflex(open(os.path.join(data_dir, csv_name), encoding="utf-8").read())
+    txt = convert_to_circumflex(open(csv_path, encoding="utf-8").read())
     # header=None: 漢字CSV(正本再同期後)はヘッダ無し。ルビCSVのヘッダ/コメント行は
     # 「#」フィルタで除外されるため両形式に頑健。未対応(漢字未割当マーク)も除外。
     df = pd.read_csv(StringIO(txt), encoding="utf-8", usecols=[0, 1], header=None)
@@ -99,7 +105,8 @@ def _build_root_dict(data_dir: str, csv_name: str, fmt: str):
     for _, (r, mean) in df.iterrows():
         if pd.notna(r) and pd.notna(mean) and "#" not in str(r) and r != "" and mean != "" and str(mean) != "未対応":
             rd[str(r)] = output_format(str(r), str(mean), fmt, cw)
-    _ROOT_DICT_CACHE[key] = rd
+    # Replace this slot instead of retaining a dictionary for every file revision.
+    _ROOT_DICT_CACHE[key] = (stamp, rd)
     return rd
 
 
