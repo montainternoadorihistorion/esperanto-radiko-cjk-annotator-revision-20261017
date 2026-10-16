@@ -1,0 +1,193 @@
+{
+  "passed": true,
+  "language": "JA",
+  "smoke": {
+    "language": "JA",
+    "results": [
+      {
+        "language": "JA",
+        "mode": "📖 注釈ルビ（語根の上に日本語訳）",
+        "source": "@semajn@tagoj & %amiko% ŝakisto semajntagoj",
+        "result_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>エスペラント語根分解ルビ注釈テキスト</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>semajn<rt class=\"XXL_L\">一週間</rt></ruby><ruby>tag<rt class=\"XXL_L\">日</rt></ruby>oj &amp; amiko <ruby>ŝak<rt class=\"S_S\">チェス</rt></ruby><ruby>ist<rt class=\"XS_S\">従事者</rt></ruby>o <ruby>semajn<rt class=\"XXL_L\">週</rt></ruby><ruby>tag<rt class=\"XXL_L\">日</rt></ruby>oj</p></body></html>",
+        "passed": true,
+        "cwd_before_each_run": ".",
+        "cwd_after_each_run": ".",
+        "elapsed_seconds": 3.154
+      },
+      {
+        "language": "JA",
+        "mode": "🈶 漢字化（漢字＋語根ルビ）",
+        "source": "@semajn@tagoj & %amiko% ŝakisto semajntagoj",
+        "result_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>エスペラント語根分解ルビ注釈テキスト</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj &amp; amiko <ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj</p></body></html>",
+        "passed": true,
+        "cwd_before_each_run": ".",
+        "cwd_after_each_run": ".",
+        "elapsed_seconds": 3.884
+      },
+      {
+        "language": "JA",
+        "mode": "✂️ 漢字化・純粋置換（タグなしテキスト）",
+        "source": "@semajn@tagoj & %amiko% ŝakisto semajntagoj",
+        "result_html": "周日oj & amiko 棋家o 周日oj",
+        "passed": true,
+        "cwd_before_each_run": ".",
+        "cwd_after_each_run": ".",
+        "elapsed_seconds": 3.07
+      }
+    ],
+    "pages": [
+      {
+        "language": "JA",
+        "page": "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py",
+        "kind": "manual_correction",
+        "title": "語根分解の手動補正 (GUIで簡単に直す)",
+        "passed": true,
+        "cwd_before_run": ".",
+        "cwd_after_run": ".",
+        "reruns": 2,
+        "navigation_method": "AppTest.switch_page",
+        "exception_count": 0,
+        "error_count": 0,
+        "download_button_count": 0,
+        "elapsed_seconds": 0.096
+      },
+      {
+        "language": "JA",
+        "page": "Esperanto-Kanji-Ruby-JA/pages/2_📦_最新データのダウンロード.py",
+        "kind": "data_download",
+        "title": "最新データのダウンロード",
+        "passed": true,
+        "cwd_before_run": ".",
+        "cwd_after_run": ".",
+        "reruns": 2,
+        "navigation_method": "AppTest.switch_page",
+        "exception_count": 0,
+        "error_count": 0,
+        "download_button_count": 5,
+        "elapsed_seconds": 0.091
+      }
+    ],
+    "returns": [
+      {
+        "language": "JA",
+        "from_page": "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py",
+        "to_page": "Esperanto-Kanji-Ruby-JA/main.py",
+        "passed": true,
+        "navigation_method": "AppTest.switch_page, same session",
+        "cwd_before_each_run": ".",
+        "cwd_after_each_run": ".",
+        "source": "@semajn@tagoj & %amiko% ŝakisto semajntagoj",
+        "pure_result": "周日oj & amiko 棋家o 周日oj",
+        "elapsed_seconds": 3.248
+      },
+      {
+        "language": "JA",
+        "from_page": "Esperanto-Kanji-Ruby-JA/pages/2_📦_最新データのダウンロード.py",
+        "to_page": "Esperanto-Kanji-Ruby-JA/main.py",
+        "passed": true,
+        "navigation_method": "AppTest.switch_page, same session",
+        "cwd_before_each_run": ".",
+        "cwd_after_each_run": ".",
+        "source": "@semajn@tagoj & %amiko% ŝakisto semajntagoj",
+        "pure_result": "周日oj & amiko 棋家o 周日oj",
+        "elapsed_seconds": 3.256
+      }
+    ],
+    "script_sha256": {
+      "Esperanto-Kanji-Ruby-JA/main.py": "6b5c786afeeed716c768e795104181fb851b420d6ac3ad99024d850802a56819",
+      "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py": "4ec9886d7bb2d77a61c17415fe4b1bba23b0700e29c3cc9fea78c373778eb532",
+      "Esperanto-Kanji-Ruby-JA/pages/2_📦_最新データのダウンロード.py": "40b7a2256070a8c3a398afe4c17b6ddf7c3960d52a8335c86d9f7b63596aeee4"
+    },
+    "script_bytes_unchanged_during_run": true,
+    "elapsed_seconds": 21.012
+  },
+  "manual_saves": [
+    {
+      "decomposition": "las/i",
+      "word": "lasi",
+      "passed": true,
+      "session_entry": {
+        "word": "lasi",
+        "decomp": "las/i",
+        "ruby": [
+          [
+            "lasi",
+            "<ruby>las<rt class=\"XS_S\">手放す</rt></ruby>i"
+          ],
+          [
+            "LASI",
+            "<ruby>LAS<rt class=\"XS_S\">手放す</rt></ruby>I"
+          ],
+          [
+            "Lasi",
+            "<ruby>Las<rt class=\"XS_S\">手放す</rt></ruby>i"
+          ]
+        ],
+        "kanji": [
+          [
+            "lasi",
+            "<ruby>放<rt class=\"XL_L\">las</rt></ruby>i"
+          ],
+          [
+            "LASI",
+            "<ruby>放<rt class=\"XL_L\">LAS</rt></ruby>I"
+          ],
+          [
+            "Lasi",
+            "<ruby>放<rt class=\"XL_L\">Las</rt></ruby>i"
+          ]
+        ]
+      },
+      "baseline_file_unchanged": true,
+      "success_message": "補正を保存しました: `lasi` → `las/i`  (ルビ・漢字 両モードに即反映。メインページ(変換)で確認できます)"
+    },
+    {
+      "decomposition": "emancip/o",
+      "word": "emancipo",
+      "passed": true,
+      "session_entry": {
+        "word": "emancipo",
+        "decomp": "emancip/o",
+        "ruby": [
+          [
+            "emancipo",
+            "<ruby>emancip<rt class=\"XXL_L\">解放する</rt></ruby>o"
+          ],
+          [
+            "EMANCIPO",
+            "<ruby>EMANCIP<rt class=\"XXL_L\">解放する</rt></ruby>O"
+          ],
+          [
+            "Emancipo",
+            "<ruby>Emancip<rt class=\"XXL_L\">解放する</rt></ruby>o"
+          ]
+        ],
+        "kanji": [
+          [
+            "emancipo",
+            "<ruby>放ᴱ<rt class=\"XS_S\">emancip</rt></ruby>o"
+          ],
+          [
+            "EMANCIPO",
+            "<ruby>放ᴱ<rt class=\"XS_S\">EMANCIP</rt></ruby>O"
+          ],
+          [
+            "Emancipo",
+            "<ruby>放ᴱ<rt class=\"XS_S\">Emancip</rt></ruby>o"
+          ]
+        ]
+      },
+      "baseline_file_unchanged": true,
+      "success_message": "補正を保存しました: `emancipo` → `emancip/o`  (ルビ・漢字 両モードに即反映。メインページ(変換)で確認できます)"
+    }
+  ],
+  "after_save_main_pure": "放i 放ᴱo",
+  "bundled_corrections": [],
+  "bundled_correction_file_unchanged": true,
+  "source_sha256": {
+    "Esperanto-Kanji-Ruby-JA/main.py": "6b5c786afeeed716c768e795104181fb851b420d6ac3ad99024d850802a56819",
+    "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py": "4ec9886d7bb2d77a61c17415fe4b1bba23b0700e29c3cc9fea78c373778eb532",
+    "Esperanto-Kanji-Ruby-JA/esp_overlay_module.py": "ee55ddff339ea31b9297d27267bc4eda8dbbc3dcef3a49796c88f19a3a4c0a8c"
+  },
+  "method": "Streamlit AppTest; isolated session, no browser or Cloud operation"
+}

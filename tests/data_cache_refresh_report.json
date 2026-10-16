@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "language": "JA",
+      "loader": "main",
+      "same_path_same_size_refresh": true,
+      "unchanged_cache_hit": true,
+      "same_mtime_size_change_refresh": true,
+      "deleted_file_rejected": true,
+      "bounded_to_three_entries": true,
+      "json_reads": 5
+    },
+    {
+      "language": "JA",
+      "loader": "manual",
+      "same_path_same_size_refresh": true,
+      "unchanged_cache_hit": true,
+      "same_mtime_size_change_refresh": true,
+      "deleted_file_rejected": true,
+      "bounded_to_three_entries": true,
+      "json_reads": 5
+    },
+    {
+      "language": "ZH",
+      "loader": "main",
+      "same_path_same_size_refresh": true,
+      "unchanged_cache_hit": true,
+      "same_mtime_size_change_refresh": true,
+      "deleted_file_rejected": true,
+      "bounded_to_three_entries": true,
+      "json_reads": 5
+    },
+    {
+      "language": "ZH",
+      "loader": "manual",
+      "same_path_same_size_refresh": true,
+      "unchanged_cache_hit": true,
+      "same_mtime_size_change_refresh": true,
+      "deleted_file_rejected": true,
+      "bounded_to_three_entries": true,
+      "json_reads": 5
+    },
+    {
+      "language": "KO",
+      "loader": "main",
+      "same_path_same_size_refresh": true,
+      "unchanged_cache_hit": true,
+      "same_mtime_size_change_refresh": true,
+      "deleted_file_rejected": true,
+      "bounded_to_three_entries": true,
+      "json_reads": 5
+    },
+    {
+      "language": "KO",
+      "loader": "manual",
+      "same_path_same_size_refresh": true,
+      "unchanged_cache_hit": true,
+      "same_mtime_size_change_refresh": true,
+      "deleted_file_rejected": true,
+      "bounded_to_three_entries": true,
+      "json_reads": 5
+    },
+    {
+      "language": "JA",
+      "loader": "overlay_csv",
+      "same_path_same_size_refresh": true,
+      "unchanged_cache_hit": true,
+      "same_mtime_size_change_refresh": true,
+      "widths_refresh": true,
+      "cache_slots_after_four_generations": 1
+    },
+    {
+      "language": "ZH",
+      "loader": "overlay_csv",
+      "same_path_same_size_refresh": true,
+      "unchanged_cache_hit": true,
+      "same_mtime_size_change_refresh": true,
+      "widths_refresh": true,
+      "cache_slots_after_four_generations": 1
+    },
+    {
+      "language": "KO",
+      "loader": "overlay_csv",
+      "same_path_same_size_refresh": true,
+      "unchanged_cache_hit": true,
+      "same_mtime_size_change_refresh": true,
+      "widths_refresh": true,
+      "cache_slots_after_four_generations": 1
+    }
+  ]
+}

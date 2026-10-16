@@ -114,8 +114,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/esp_overlay_module.py",
-      "bytes": 22608,
-      "sha256": "67ffcd02808259350fa6c3c7111220125f63a019c64676ba200058dc17629d35"
+      "bytes": 22990,
+      "sha256": "ee55ddff339ea31b9297d27267bc4eda8dbbc3dcef3a49796c88f19a3a4c0a8c"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/esp_replacement_json_make_module.py",
@@ -229,8 +229,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/esp_overlay_module.py",
-      "bytes": 21926,
-      "sha256": "44a27d59dd3dba180df4ce58cb105bcaaa0bcabaf3fc8e40579e103fa255c6b1"
+      "bytes": 22308,
+      "sha256": "aaf5b3aac4a22b2410736bc0a79f637983071188863410423f6c62be9745aa28"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/esp_replacement_json_make_module.py",
@@ -334,8 +334,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py",
-      "bytes": 21926,
-      "sha256": "44a27d59dd3dba180df4ce58cb105bcaaa0bcabaf3fc8e40579e103fa255c6b1"
+      "bytes": 22308,
+      "sha256": "aaf5b3aac4a22b2410736bc0a79f637983071188863410423f6c62be9745aa28"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_replacement_json_make_module.py",
@@ -349,5 +349,6 @@
     }
   ],
   "assignment_revision": "las-20261017",
-  "previous_release_commit": "130d168"
+  "previous_release_commit": "130d168",
+  "runtime_cache_revision": "file-mtime-ns-size-20261017"
 }

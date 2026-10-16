@@ -1,0 +1,193 @@
+{
+  "passed": true,
+  "language": "ZH",
+  "smoke": {
+    "language": "ZH",
+    "results": [
+      {
+        "language": "ZH",
+        "mode": "📖 注释Ruby（词根上方显示中文注释）",
+        "source": "@semajn@tagoj & %amiko% ŝakisto semajntagoj",
+        "result_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ruby 显示</title>\n<style>\nhtml, body {\n  -webkit-text-size-adjust: 100%;\n  -moz-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  text-size-adjust: 100%;\n}\n:root {\n  --ruby-color: blue;\n  --ruby-font-size: 0.5em;\n}\nhtml {\n  font-size: 100%;\n}\n.text-M_M {\n  font-size: 1rem!important;\n  font-family: Arial, sans-serif;\n  line-height: 2.0 !important;\n  display: block;\n  position: relative;\n}\nruby {\n  display: inline-flex;\n  flex-direction: column;\n  align-items: center;\n  vertical-align: top !important;\n  line-height: 2.0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  font-size: 1rem !important;\n}\nrt {\n  display: block !important;\n  font-size: var(--ruby-font-size);\n  color: var(--ruby-color);\n  line-height: 1.05;\n  text-align: center;\n}\nrt.XXXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -8.3em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -7.2em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -6.1em !important;\n  transform: translateY(-0em) !important;\n}\nrt.S_S {\n  --ruby-font-size: 0.4em;\n  margin-top: -4.85em !important;\n  transform: translateY(-0em) !important;\n}\nrt.M_M {\n  --ruby-font-size: 0.5em;\n  margin-top: -4.00em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.L_L {\n  --ruby-font-size: 0.6em;\n  margin-top: -3.55em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XL_L {\n  --ruby-font-size: 0.7em;\n  margin-top: -3.20em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XXL_L {\n  --ruby-font-size: 0.8em;\n  margin-top: -2.80em !important;\n  transform: translateY(-0.0em) !important;\n}\n</style>\n</head>\n<body>\n<p class=\"text-M_M\">\n<ruby>semajn<rt class=\"XXL_L\">周</rt></ruby><ruby>tag<rt class=\"L_L\">一日</rt></ruby>oj &amp; amiko <ruby>ŝak<rt class=\"XS_S\">国际象棋</rt></ruby><ruby>ist<rt class=\"XXL_L\">者</rt></ruby>o <ruby>semajn<rt class=\"XXL_L\">星期</rt></ruby><ruby>tag<rt class=\"L_L\">一日</rt></ruby>oj</p></body></html>",
+        "passed": true,
+        "cwd_before_each_run": ".",
+        "cwd_after_each_run": ".",
+        "elapsed_seconds": 3.067
+      },
+      {
+        "language": "ZH",
+        "mode": "🈶 汉字化（汉字＋词根Ruby）",
+        "source": "@semajn@tagoj & %amiko% ŝakisto semajntagoj",
+        "result_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ruby 显示</title>\n<style>\nhtml, body {\n  -webkit-text-size-adjust: 100%;\n  -moz-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  text-size-adjust: 100%;\n}\n:root {\n  --ruby-color: blue;\n  --ruby-font-size: 0.5em;\n}\nhtml {\n  font-size: 100%;\n}\n.text-M_M {\n  font-size: 1rem!important;\n  font-family: Arial, sans-serif;\n  line-height: 2.0 !important;\n  display: block;\n  position: relative;\n}\nruby {\n  display: inline-flex;\n  flex-direction: column;\n  align-items: center;\n  vertical-align: top !important;\n  line-height: 2.0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  font-size: 1rem !important;\n}\nrt {\n  display: block !important;\n  font-size: var(--ruby-font-size);\n  color: var(--ruby-color);\n  line-height: 1.05;\n  text-align: center;\n}\nrt.XXXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -8.3em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -7.2em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -6.1em !important;\n  transform: translateY(-0em) !important;\n}\nrt.S_S {\n  --ruby-font-size: 0.4em;\n  margin-top: -4.85em !important;\n  transform: translateY(-0em) !important;\n}\nrt.M_M {\n  --ruby-font-size: 0.5em;\n  margin-top: -4.00em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.L_L {\n  --ruby-font-size: 0.6em;\n  margin-top: -3.55em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XL_L {\n  --ruby-font-size: 0.7em;\n  margin-top: -3.20em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XXL_L {\n  --ruby-font-size: 0.8em;\n  margin-top: -2.80em !important;\n  transform: translateY(-0.0em) !important;\n}\n</style>\n</head>\n<body>\n<p class=\"text-M_M\">\n<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj &amp; amiko <ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj</p></body></html>",
+        "passed": true,
+        "cwd_before_each_run": ".",
+        "cwd_after_each_run": ".",
+        "elapsed_seconds": 3.925
+      },
+      {
+        "language": "ZH",
+        "mode": "✂️ 汉字化·纯替换（无标签文本）",
+        "source": "@semajn@tagoj & %amiko% ŝakisto semajntagoj",
+        "result_html": "周日oj & amiko 棋家o 周日oj",
+        "passed": true,
+        "cwd_before_each_run": ".",
+        "cwd_after_each_run": ".",
+        "elapsed_seconds": 2.571
+      }
+    ],
+    "pages": [
+      {
+        "language": "ZH",
+        "page": "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py",
+        "kind": "manual_correction",
+        "title": "词根分解的手动校正 (在 GUI 上轻松修正)",
+        "passed": true,
+        "cwd_before_run": ".",
+        "cwd_after_run": ".",
+        "reruns": 2,
+        "navigation_method": "AppTest.switch_page",
+        "exception_count": 0,
+        "error_count": 0,
+        "download_button_count": 0,
+        "elapsed_seconds": 0.705
+      },
+      {
+        "language": "ZH",
+        "page": "Esperanto-Kanji-Ruby-ZH/pages/2_📦_最新数据下载.py",
+        "kind": "data_download",
+        "title": "最新数据下载",
+        "passed": true,
+        "cwd_before_run": ".",
+        "cwd_after_run": ".",
+        "reruns": 2,
+        "navigation_method": "AppTest.switch_page",
+        "exception_count": 0,
+        "error_count": 0,
+        "download_button_count": 5,
+        "elapsed_seconds": 0.112
+      }
+    ],
+    "returns": [
+      {
+        "language": "ZH",
+        "from_page": "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py",
+        "to_page": "Esperanto-Kanji-Ruby-ZH/main.py",
+        "passed": true,
+        "navigation_method": "AppTest.switch_page, same session",
+        "cwd_before_each_run": ".",
+        "cwd_after_each_run": ".",
+        "source": "@semajn@tagoj & %amiko% ŝakisto semajntagoj",
+        "pure_result": "周日oj & amiko 棋家o 周日oj",
+        "elapsed_seconds": 3.412
+      },
+      {
+        "language": "ZH",
+        "from_page": "Esperanto-Kanji-Ruby-ZH/pages/2_📦_最新数据下载.py",
+        "to_page": "Esperanto-Kanji-Ruby-ZH/main.py",
+        "passed": true,
+        "navigation_method": "AppTest.switch_page, same session",
+        "cwd_before_each_run": ".",
+        "cwd_after_each_run": ".",
+        "source": "@semajn@tagoj & %amiko% ŝakisto semajntagoj",
+        "pure_result": "周日oj & amiko 棋家o 周日oj",
+        "elapsed_seconds": 2.808
+      }
+    ],
+    "script_sha256": {
+      "Esperanto-Kanji-Ruby-ZH/main.py": "63740df6f0946044581183e5debb269a9750469d6a1888444db0146aa489a759",
+      "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py": "c1f8b4b949cd5d365d180ea1bf15fb1cccd4dfee42fe0a5efaf646317cbd3458",
+      "Esperanto-Kanji-Ruby-ZH/pages/2_📦_最新数据下载.py": "27eb5cd9394ea457a6385c6aab453e82751e4189d1a385e48f6a215131ba2dcb"
+    },
+    "script_bytes_unchanged_during_run": true,
+    "elapsed_seconds": 20.963
+  },
+  "manual_saves": [
+    {
+      "decomposition": "las/i",
+      "word": "lasi",
+      "passed": true,
+      "session_entry": {
+        "word": "lasi",
+        "decomp": "las/i",
+        "ruby": [
+          [
+            "lasi",
+            "<ruby>las<rt class=\"M_M\">放下</rt></ruby>i"
+          ],
+          [
+            "LASI",
+            "<ruby>LAS<rt class=\"M_M\">放下</rt></ruby>I"
+          ],
+          [
+            "Lasi",
+            "<ruby>Las<rt class=\"M_M\">放下</rt></ruby>i"
+          ]
+        ],
+        "kanji": [
+          [
+            "lasi",
+            "<ruby>放<rt class=\"XL_L\">las</rt></ruby>i"
+          ],
+          [
+            "LASI",
+            "<ruby>放<rt class=\"XL_L\">LAS</rt></ruby>I"
+          ],
+          [
+            "Lasi",
+            "<ruby>放<rt class=\"XL_L\">Las</rt></ruby>i"
+          ]
+        ]
+      },
+      "baseline_file_unchanged": true,
+      "success_message": "已保存校正: `lasi` → `las/i`  (已即时反映到注音与汉字两种模式,可在 主页面(转换)确认)"
+    },
+    {
+      "decomposition": "emancip/o",
+      "word": "emancipo",
+      "passed": true,
+      "session_entry": {
+        "word": "emancipo",
+        "decomp": "emancip/o",
+        "ruby": [
+          [
+            "emancipo",
+            "<ruby>emancip<rt class=\"XXL_L\">解放</rt></ruby>o"
+          ],
+          [
+            "EMANCIPO",
+            "<ruby>EMANCIP<rt class=\"XXL_L\">解放</rt></ruby>O"
+          ],
+          [
+            "Emancipo",
+            "<ruby>Emancip<rt class=\"XXL_L\">解放</rt></ruby>o"
+          ]
+        ],
+        "kanji": [
+          [
+            "emancipo",
+            "<ruby>放ᴱ<rt class=\"XS_S\">emancip</rt></ruby>o"
+          ],
+          [
+            "EMANCIPO",
+            "<ruby>放ᴱ<rt class=\"XS_S\">EMANCIP</rt></ruby>O"
+          ],
+          [
+            "Emancipo",
+            "<ruby>放ᴱ<rt class=\"XS_S\">Emancip</rt></ruby>o"
+          ]
+        ]
+      },
+      "baseline_file_unchanged": true,
+      "success_message": "已保存校正: `emancipo` → `emancip/o`  (已即时反映到注音与汉字两种模式,可在 主页面(转换)确认)"
+    }
+  ],
+  "after_save_main_pure": "放i 放ᴱo",
+  "bundled_corrections": [],
+  "bundled_correction_file_unchanged": true,
+  "source_sha256": {
+    "Esperanto-Kanji-Ruby-ZH/main.py": "63740df6f0946044581183e5debb269a9750469d6a1888444db0146aa489a759",
+    "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py": "c1f8b4b949cd5d365d180ea1bf15fb1cccd4dfee42fe0a5efaf646317cbd3458",
+    "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py": "aaf5b3aac4a22b2410736bc0a79f637983071188863410423f6c62be9745aa28"
+  },
+  "method": "Streamlit AppTest; isolated session, no browser or Cloud operation"
+}
