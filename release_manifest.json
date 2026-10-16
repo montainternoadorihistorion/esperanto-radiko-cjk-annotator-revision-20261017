@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "scope": "Deployed conversion data and runtime modules; matches the reviewed app revision before publication-only link/config/documentation changes.",
+  "scope": "Current deployed runtime data after the approved las=放 / emancip=放ᴱ revision. Other root assignments and annotation glosses are unchanged.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/char_widths.json",
@@ -79,8 +79,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 152797,
-      "sha256": "89abff590a9d0306534a3f7ba3de58db93cad1186fa236d2c8f3c63c78270cf3"
+      "bytes": 152800,
+      "sha256": "097e0b591cb2765b9508cab941b6bed28ee4b9d55127d100ba477fbc865d47dc"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -99,13 +99,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57346743,
-      "sha256": "b4148c106c1c52d4b3abd83405663a59fb31eecd4425cf1458857a1b9346ab97"
+      "bytes": 57346739,
+      "sha256": "590019a6f19c3d682b2a6e7c078a55e0c70517c46a2a42cbde03507e598bd16b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21489030,
-      "sha256": "aea2e8bd6f50f41b7b817730327d10f1e7820b5ab6af3d2b48c23aa715e47f97"
+      "bytes": 21489066,
+      "sha256": "773921b2e12a642afadd8483a8d88d0d5104391dc21b1b193f0652854825fbf8"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -194,8 +194,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 152797,
-      "sha256": "89abff590a9d0306534a3f7ba3de58db93cad1186fa236d2c8f3c63c78270cf3"
+      "bytes": 152800,
+      "sha256": "097e0b591cb2765b9508cab941b6bed28ee4b9d55127d100ba477fbc865d47dc"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -214,8 +214,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57354809,
-      "sha256": "1691f49fe3f4eac18f3e58403b4a577c91037a82301e028eaacc03383a09a3f9"
+      "bytes": 57354805,
+      "sha256": "dba24a9ddf6ef910959dbf02e4fab6b42cff626b6ede5ce1f29891196e1a0682"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -309,8 +309,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 152797,
-      "sha256": "89abff590a9d0306534a3f7ba3de58db93cad1186fa236d2c8f3c63c78270cf3"
+      "bytes": 152800,
+      "sha256": "097e0b591cb2765b9508cab941b6bed28ee4b9d55127d100ba477fbc865d47dc"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -329,8 +329,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57354809,
-      "sha256": "49fc7dc782834538dbf01d22ba5d21b1263904b80d15113efd5371f1ae53fb21"
+      "bytes": 57354805,
+      "sha256": "043f94bfb8c3b56d4f801800d98632b0821454bd9643f286aedb60310147788f"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py",
@@ -347,5 +347,7 @@
       "bytes": 28143,
       "sha256": "5502587bb1f68ae5760cac30a0bdb295fae868a23cdfcc211efdad99a4964e4c"
     }
-  ]
+  ],
+  "assignment_revision": "las-20261017",
+  "previous_release_commit": "130d168"
 }
