@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+**/secrets.toml
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+Claude outputs/
+_project_root_misc/
+_analysis_20260625/
+京大エス研html文書＿Github/
+*Mingeo*
+.git_broken*/
+*.zip
+*.bundle
