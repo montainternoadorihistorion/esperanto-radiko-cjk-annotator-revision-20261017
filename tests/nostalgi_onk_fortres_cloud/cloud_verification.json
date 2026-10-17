@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "cases": 9,
+  "results": [
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio nostalgio nostalgio onko onko onkogena onkogena onkologio onkologio fortreso fortreso koincidi koincidi sino tumoro fuorto burgo kombinacio karikaturo sarkasmo spermato ĉuro spermo satira",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio nostalgio nostalgio onko onko onkogena onkogena onkologio onkologio fortreso fortreso koincidi koincidi sino tumoro fuorto burgo kombinacio karikaturo sarkasmo spermato ĉuro spermo satira",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "缝ˢᴿo 缝ˢᴿo 缝ˢᴿi 卵ᶠo 卵ᶠo 卵ᶠi 蛙a 卵ᶠo 鱼ᴹ卵ᶠo 卵ᶠ行o 卵ᶠ在a 货ᶠo 货ᶠo 棱镜o 棱镜o 缝i 缝ˢo 卵o 卵ᴼᴸo 卵ᴷo 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 皱布o 绕射o 卯o 恶女o 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o 怀ᴺo 怀ᴺo 瘤ᴼo 瘤ᴼo 瘤ᴼo生ᴳa 瘤ᴼ生ᴳa 瘤ᴼo学ᴸᴳo 瘤ᴼ学ᴸᴳo 堡ᶠᴿo 堡ᶠᴿo 巧合i 巧合i 怀o 瘤ᵀo 堡o 堡ᴮo 合ᴷᶜo 讽o 讽ˢo 精液ato 精液ᶜ̂o 精液o 讽刺a",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio nostalgio nostalgio onko onko onkogena onkogena onkologio onkologio fortreso fortreso koincidi koincidi sino tumoro fuorto burgo kombinacio karikaturo sarkasmo spermato ĉuro spermo satira",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "html_output_exact": null,
+      "visible": "缝ˢᴿo 缝ˢᴿo 缝ˢᴿi 卵ᶠo 卵ᶠo 卵ᶠi 蛙a 卵ᶠo 鱼ᴹ卵ᶠo 卵ᶠ行o 卵ᶠ在a 货ᶠo 货ᶠo 棱镜o 棱镜o 缝i 缝ˢo 卵o 卵ᴼᴸo 卵ᴷo 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 皱布o 绕射o 卯o 恶女o 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o 怀ᴺo 怀ᴺo 瘤ᴼo 瘤ᴼo 瘤ᴼo生ᴳa 瘤ᴼ生ᴳa 瘤ᴼo学ᴸᴳo 瘤ᴼ学ᴸᴳo 堡ᶠᴿo 堡ᶠᴿo 巧合i 巧合i 怀o 瘤ᵀo 堡o 堡ᴮo 合ᴷᶜo 讽o 讽ˢo 精液ato 精液ᶜ̂o 精液o 讽刺a",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio nostalgio nostalgio onko onko onkogena onkogena onkologio onkologio fortreso fortreso koincidi koincidi sino tumoro fuorto burgo kombinacio karikaturo sarkasmo spermato ĉuro spermo satira",
+      "restoration_method": "Exact pure text equality; source obtained from matching captured Kanji ruby, not from reversing pure text",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio nostalgio nostalgio onko onko onkogena onkogena onkologio onkologio fortreso fortreso koincidi koincidi sino tumoro fuorto burgo kombinacio karikaturo sarkasmo spermato ĉuro spermo satira",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio nostalgio nostalgio onko onko onkogena onkogena onkologio onkologio fortreso fortreso koincidi koincidi sino tumoro fuorto burgo kombinacio karikaturo sarkasmo spermato ĉuro spermo satira",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "缝ˢᴿo 缝ˢᴿo 缝ˢᴿi 卵ᶠo 卵ᶠo 卵ᶠi 蛙a 卵ᶠo 鱼ᴹ卵ᶠo 卵ᶠ行o 卵ᶠ在a 货ᶠo 货ᶠo 棱镜o 棱镜o 缝i 缝ˢo 卵o 卵ᴼᴸo 卵ᴷo 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 皱布o 绕射o 卯o 恶女o 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o 怀ᴺo 怀ᴺo 瘤ᴼo 瘤ᴼo 瘤ᴼo生ᴳa 瘤ᴼ生ᴳa 瘤ᴼo学ᴸᴳo 瘤ᴼ学ᴸᴳo 堡ᶠᴿo 堡ᶠᴿo 巧合i 巧合i 怀o 瘤ᵀo 堡o 堡ᴮo 合ᴷᶜo 讽o 讽ˢo 精液ato 精液ᶜ̂o 精液o 讽刺a",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio nostalgio nostalgio onko onko onkogena onkogena onkologio onkologio fortreso fortreso koincidi koincidi sino tumoro fuorto burgo kombinacio karikaturo sarkasmo spermato ĉuro spermo satira",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "html_output_exact": null,
+      "visible": "缝ˢᴿo 缝ˢᴿo 缝ˢᴿi 卵ᶠo 卵ᶠo 卵ᶠi 蛙a 卵ᶠo 鱼ᴹ卵ᶠo 卵ᶠ行o 卵ᶠ在a 货ᶠo 货ᶠo 棱镜o 棱镜o 缝i 缝ˢo 卵o 卵ᴼᴸo 卵ᴷo 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 皱布o 绕射o 卯o 恶女o 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o 怀ᴺo 怀ᴺo 瘤ᴼo 瘤ᴼo 瘤ᴼo生ᴳa 瘤ᴼ生ᴳa 瘤ᴼo学ᴸᴳo 瘤ᴼ学ᴸᴳo 堡ᶠᴿo 堡ᶠᴿo 巧合i 巧合i 怀o 瘤ᵀo 堡o 堡ᴮo 合ᴷᶜo 讽o 讽ˢo 精液ato 精液ᶜ̂o 精液o 讽刺a",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio nostalgio nostalgio onko onko onkogena onkogena onkologio onkologio fortreso fortreso koincidi koincidi sino tumoro fuorto burgo kombinacio karikaturo sarkasmo spermato ĉuro spermo satira",
+      "restoration_method": "Exact pure text equality; source obtained from matching captured Kanji ruby, not from reversing pure text",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio nostalgio nostalgio onko onko onkogena onkogena onkologio onkologio fortreso fortreso koincidi koincidi sino tumoro fuorto burgo kombinacio karikaturo sarkasmo spermato ĉuro spermo satira",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio nostalgio nostalgio onko onko onkogena onkogena onkologio onkologio fortreso fortreso koincidi koincidi sino tumoro fuorto burgo kombinacio karikaturo sarkasmo spermato ĉuro spermo satira",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "缝ˢᴿo 缝ˢᴿo 缝ˢᴿi 卵ᶠo 卵ᶠo 卵ᶠi 蛙a 卵ᶠo 鱼ᴹ卵ᶠo 卵ᶠ行o 卵ᶠ在a 货ᶠo 货ᶠo 棱镜o 棱镜o 缝i 缝ˢo 卵o 卵ᴼᴸo 卵ᴷo 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 皱布o 绕射o 卯o 恶女o 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o 怀ᴺo 怀ᴺo 瘤ᴼo 瘤ᴼo 瘤ᴼo生ᴳa 瘤ᴼ生ᴳa 瘤ᴼo学ᴸᴳo 瘤ᴼ学ᴸᴳo 堡ᶠᴿo 堡ᶠᴿo 巧合i 巧合i 怀o 瘤ᵀo 堡o 堡ᴮo 合ᴷᶜo 讽o 讽ˢo 精液ato 精液ᶜ̂o 精液o 讽刺a",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio nostalgio nostalgio onko onko onkogena onkogena onkologio onkologio fortreso fortreso koincidi koincidi sino tumoro fuorto burgo kombinacio karikaturo sarkasmo spermato ĉuro spermo satira",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "html_output_exact": null,
+      "visible": "缝ˢᴿo 缝ˢᴿo 缝ˢᴿi 卵ᶠo 卵ᶠo 卵ᶠi 蛙a 卵ᶠo 鱼ᴹ卵ᶠo 卵ᶠ行o 卵ᶠ在a 货ᶠo 货ᶠo 棱镜o 棱镜o 缝i 缝ˢo 卵o 卵ᴼᴸo 卵ᴷo 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 皱布o 绕射o 卯o 恶女o 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o 怀ᴺo 怀ᴺo 瘤ᴼo 瘤ᴼo 瘤ᴼo生ᴳa 瘤ᴼ生ᴳa 瘤ᴼo学ᴸᴳo 瘤ᴼ学ᴸᴳo 堡ᶠᴿo 堡ᶠᴿo 巧合i 巧合i 怀o 瘤ᵀo 堡o 堡ᴮo 合ᴷᶜo 讽o 讽ˢo 精液ato 精液ᶜ̂o 精液o 讽刺a",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio nostalgio nostalgio onko onko onkogena onkogena onkologio onkologio fortreso fortreso koincidi koincidi sino tumoro fuorto burgo kombinacio karikaturo sarkasmo spermato ĉuro spermo satira",
+      "restoration_method": "Exact pure text equality; source obtained from matching captured Kanji ruby, not from reversing pure text",
+      "passed": true
+    }
+  ],
+  "method": "Actual connected Chrome capture compared exactly with public local-runtime fixture; complete output paragraph, visible text, and source spelling checked",
+  "source_commit_on_main": "bc18bb7de0a212718f23f452a1fc84441b41f46a",
+  "browser_profile": "AdoriHistorion (Chrome browser 5)",
+  "captured_at": "2026-10-17T13:06:49.702Z",
+  "fixture_sha256": "a637200884ea72ae13e54c11cd1b453d00a9621c2ae09518f6b2b61db1f86242",
+  "capture_sha256": "b591bc8920cf92fb16263faaa77e05008fee6aca8b736af6f491cbdcbff350db",
+  "limitations": [
+    "Pure text has no ruby source spelling. Its source field comes from the separately captured and verified Kanji ruby result; the actual inverse converter is verified separately.",
+    "Only the approved nostalgi/onk/fortres mappings and reviewed annotations are included; unrelated annotation meanings were not newly reviewed. Existing segmentation is preserved.",
+    "The commit field records the release being checked; this script does not query the Streamlit deployment commit."
+  ]
+}

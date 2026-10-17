@@ -446,3 +446,5 @@ python -B -X utf8 tests/test_nostalgi_onk_fortres_assignments.py --baseline-ref 
 python -B -X utf8 -m unittest discover -s tests -p "test_*.py"
 python -B -X utf8 tests/app_ui_smoke.py --nostalgi-onk-fortres
 ```
+
+[PR #25](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/25)をmainへ反映後、ChromeのAdoriHistorionプロフィールから日中韓Cloudの注釈ルビ・漢字ルビ・純粋置換を実際に操作し、9ケースすべての出力全文が検証済みローカル版と一致しました。[実画面から取得した出力](tests/nostalgi_onk_fortres_cloud/cloud_capture.json)、[全文・可視文字・原文復元の照合](tests/nostalgi_onk_fortres_cloud/cloud_verification.json)、[採用3語根の表示画面](tests/nostalgi_onk_fortres_cloud/cloud_ja_nostalgi_onk_fortres.jpg)を保存しています。対象mainコミットは`bc18bb7de0a212718f23f452a1fc84441b41f46a`です。これは公開main反映後に観測した出力との照合であり、Cloud内部の実行コミットを取得したという主張ではありません。
