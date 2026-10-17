@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCE = '@semajn@tagoj & %amiko% ŝakisto semajntagoj'
 EXPECTED = '周日oj & amiko 棋家o 周日oj'
 REVISION_SOURCE = 'struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso'
-REVISION_EXPECTED = '鸵o 协同o 榄o 鸵 协同 榄 螺ᴸo 丸炎o 丸炎ᵀo 石ᴸᵀ志ᴳo 周日oj & amiko 棋家o 椭圆o 椭圆ᴱo'
+REVISION_EXPECTED = '鸵o 协同o 榄o 鸵 协同 榄 螺ᴸo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 石ᴸᵀ志ᴳo 周日oj & amiko 棋家o 椭圆o 椭圆ᴱo'
 LANGUAGES = ('JA', 'ZH', 'KO')
 
 
@@ -151,7 +151,7 @@ def main():
     global SOURCE, EXPECTED
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--language', choices=LANGUAGES)
-    parser.add_argument('--revision', action='store_true', help='Exercise the local-data and three-assignment revision')
+    parser.add_argument('--revision', action='store_true', help='Exercise the current assignments and mirror identifiers')
     args = parser.parse_args()
     if args.revision:
         SOURCE, EXPECTED = REVISION_SOURCE, REVISION_EXPECTED
@@ -208,7 +208,7 @@ def main():
         'script_bytes_unchanged_during_run': True, 'script_sha256': scripts,
         'languages': language_results, 'results': rows, 'pages': pages, 'returns': returns,
     }
-    output_path = Path(__file__).with_name('app_ui_three_assignments.json') if args.revision else Path(__file__).with_suffix('.json')
+    output_path = Path(__file__).with_name('app_ui_mirror_identifiers.json') if args.revision else Path(__file__).with_suffix('.json')
     output_path.write_text(
         json.dumps(output, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
     print('Saved tests/' + output_path.name + ' (9 conversions, 6 subpages, 6 returns)', flush=True)
