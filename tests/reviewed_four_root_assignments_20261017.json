@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "private_baseline": "a1a197c",
+  "assignments": {
+    "krep": {
+      "before": "皱绸",
+      "after": "皱布"
+    },
+    "difrakt": {
+      "before": "衍射",
+      "after": "绕射"
+    },
+    "mortez": {
+      "before": "卯眼",
+      "after": "卯"
+    },
+    "meger": {
+      "before": "悍妇",
+      "after": "恶女"
+    }
+  },
+  "preserved_user_choices": {
+    "hangar": "棚库",
+    "kontest": "异议",
+    "kruc": "十字",
+    "cisticerk": "囊尾虫",
+    "risort": "簧",
+    "anĉ": "簧ᴬ",
+    "lantern": "灯ᴸᴺ",
+    "lubrik": "滑ᴸ",
+    "protez": "假体",
+    "ranc": "酸败",
+    "kanajl": "恶棍",
+    "protokanajl": "原ᴾᵀ恶棍",
+    "buf": "蛤蟆",
+    "lofi": "蛤蟆鱼",
+    "sutur": "缝合",
+    "fraj": "鱼卵",
+    "prism": "棱镜"
+  },
+  "reason": "User adopted krep=皱布 (fabric not limited to silk), difrakt=绕射 (attested diffraction synonym and shared 绕), mortez=卯 (mortise meaning in 卯), meger=恶女 (malicious woman with shared characters). Preserve existing word boundaries, false/coarse decomposition and annotation glosses.",
+  "canonical_manifest_sha256": "9096eedc0e2c5e02260a80dfb821bf1af2c2c0dc341c47c0bed2f1aebd05fad2"
+}
