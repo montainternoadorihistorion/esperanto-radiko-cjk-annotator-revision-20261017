@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "private_baseline": "4ecf504",
+  "assignments": {
+    "risort": {
+      "before": "弹簧",
+      "after": "簧"
+    },
+    "anĉ": {
+      "before": "簧",
+      "after": "簧ᴬ"
+    },
+    "lantern": {
+      "before": "灯笼",
+      "after": "灯ᴸᴺ"
+    },
+    "lubrik": {
+      "before": "润滑",
+      "after": "滑ᴸ"
+    }
+  },
+  "preserved_user_choices": {
+    "majest": "庄严",
+    "subtil": "精细",
+    "observ": "观",
+    "astronom": "星ᴬ学ᴺᴼ",
+    "astrolog": "星ᴬ学家",
+    "meteorolog": "气ᴹᴿ学家",
+    "uve": "葡膜",
+    "uveit": "葡膜炎ᵀ",
+    "uv": "葡ᵁ",
+    "vit": "葡",
+    "psitak": "鹦ᴾˢ",
+    "papag": "鹦",
+    "limon": "柠",
+    "limonad": "柠水",
+    "konkord": "和合",
+    "stafilokok": "葡球菌",
+    "turment": "虐",
+    "tortur": "虐ᵀᵀ",
+    "observatori": "观台",
+    "pland": "足底",
+    "lamp": "灯",
+    "lucern": "灯ᴸᶜ",
+    "glit": "滑",
+    "glis": "滑翔",
+    "skut": "滑ˢᵁ",
+    "ski": "滑ˢ",
+    "sket": "滑ˢᵀ",
+    "glat": "滑ᴳᴬ",
+    "sinovi": "滑ˢᴺ",
+    "sinoviit": "滑ˢᴺ炎ᵀ",
+    "puli": "滑轮",
+    "talk": "滑石"
+  },
+  "reason": "User adopted risort=簧, lantern=灯 and lubrik=滑, retaining pland=足底. Actual identifier algorithm gives risort=簧, anĉ=簧ᴬ, lantern=灯ᴸᴺ, lubrik=滑ᴸ. Only these exact labelled roots change; preserve all other roots, segmentation, original spelling and glosses. Canonical anc^ is explicitly normalized to app anĉ.",
+  "canonical_root_aliases": {
+    "anc^": "anĉ"
+  },
+  "canonical_manifest_sha256": "8631a793ccd0055cfaa0a292457553ae10c1f58bf57ed7c892183281a8f7c96b"
+}
