@@ -176,6 +176,35 @@ python -B -X utf8 tests/test_stafilokok_assignment.py --app-root . --baseline-re
 python -B -X utf8 tests/app_ui_smoke.py --stafilokok
 ```
 
+## 代表字の共用による4語根の追加採用（2026-10-17）
+
+ユーザーが選択した次の4表記を採用しました。先行する節や検証JSONは、その時点の履歴です。現在の `uv` は下表の `葡ᵁ` です。先行する割り当て変更の `--baseline-ref` 比較は、対応する変更直後のコミットで再現してください。現在のデータに対する変更前後の比較には、今回の専用テストを使います。
+
+| 語根 | 変更前 | 採用表記 | 漢字部分の画数 |
+|---|---|---|---|
+| `psitak` | 鹦鹉 | 鹦ᴾˢ | 29 → 16 |
+| `uv` | 葡萄 | 葡ᵁ | 23 → 12 |
+| `limon` | 柠檬 | 柠 | 26 → 9 |
+| `limonad` | 柠檬水 | 柠水 | 30 → 13 |
+
+既存字を代表字として共用し、識別子は現行アルゴリズムで再計算しています。`papag＝鹦` と `vit＝葡` は元のままです。柠の木偏は植物を連想する手掛かりですが、それだけでレモンを一意に示すという主張ではありません。中国語の一般的な訳語を改めるものでもなく、注釈の「鹦鹉」「葡萄」「柠檬」などは保持しています。正本の使用漢字は「鹉」「檬」が不要になることで2種類減ります。
+
+`konkord＝和合` は維持し、検討中の `observatori＝天文台`、`majest＝庄严`、`subtil＝精细`、`uve＝葡萄膜`、`uveit＝葡萄膜炎ᵀ` は変更していません。特に `uv` と `uve／uveit` は別の語根として扱い、`limonad` の既存の語根分解も保持しています。
+
+```text
+入力: psitako @psitak@o uvo @uv@o limono @limon@o limonado @limonad@o uveo uveito
+純粋置換: 鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡萄膜o 葡萄膜炎ᵀo
+```
+
+統合リポジトリの両逆変換アプリは新表記を認識し、旧表記「鹦鹉」「葡萄」「柠檬」「柠檬水」も互換用の別名として保持します。「葡萄膜」「葡萄膜炎ᵀ」のような長い既存表記を優先するため、旧「葡萄」の別名追加によって `uve／uveit` を切り崩しません。
+
+[全行照合](tests/four_shared_regression_tables.json)では、変更前の漢字JSON全1,646,955行に対し、変更が各言語の通常81行・局所12行だけであることを確認しています。純粋置換全548,985行は漢字ルビからの導出と一致します。統合リポジトリでは実処理1,638結果と手動補正270結果を前後比較し、対象外の表示・注釈・原文の復元を保持しています。[ローカル画面検証](tests/app_ui_four_shared.json)では3言語×3モード、補助6ページ、メインへ戻った後の6経路を確認しました。これらは実ブラウザのCloud確認とは別の検証です。
+
+```shell
+python -B -X utf8 tests/test_four_shared_assignments.py --app-root . --baseline-ref f8786cfcab18bb6d43b3da217c856bba4cec5c3c --tables-only --report tests/four_shared_regression_tables.json
+python -B -X utf8 tests/app_ui_smoke.py --four-shared
+```
+
 ## ローカルでの実行・検証
 
 Python 3.12 でリポジトリ直下から実行します。

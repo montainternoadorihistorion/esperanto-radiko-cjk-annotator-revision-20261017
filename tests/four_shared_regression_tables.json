@@ -1,0 +1,137 @@
+{
+  "passed": true,
+  "baseline_ref": null,
+  "baseline_snapshot": null,
+  "phase": "after",
+  "assignments": {
+    "psitak": [
+      "鹦鹉",
+      "鹦ᴾˢ"
+    ],
+    "uv": [
+      "葡萄",
+      "葡ᵁ"
+    ],
+    "limon": [
+      "柠檬",
+      "柠"
+    ],
+    "limonad": [
+      "柠檬水",
+      "柠水"
+    ]
+  },
+  "limitations": [
+    "Preserves existing annotation and segmentation; passing does not establish semantic correctness of every annotation."
+  ],
+  "tables": [
+    {
+      "language": "JA",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": null,
+          "target_pieces": {
+            "psitak": 25,
+            "uv": 29,
+            "limon": 21,
+            "limonad": 6
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": null,
+          "target_pieces": {
+            "psitak": 0,
+            "uv": 0,
+            "limon": 0,
+            "limonad": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": null,
+          "target_pieces": {
+            "psitak": 3,
+            "uv": 3,
+            "limon": 3,
+            "limonad": 3
+          }
+        }
+      },
+      "unchanged_data_files": []
+    },
+    {
+      "language": "ZH",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": null,
+          "target_pieces": {
+            "psitak": 25,
+            "uv": 29,
+            "limon": 21,
+            "limonad": 6
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": null,
+          "target_pieces": {
+            "psitak": 0,
+            "uv": 0,
+            "limon": 0,
+            "limonad": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": null,
+          "target_pieces": {
+            "psitak": 3,
+            "uv": 3,
+            "limon": 3,
+            "limonad": 3
+          }
+        }
+      },
+      "unchanged_data_files": []
+    },
+    {
+      "language": "KO",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": null,
+          "target_pieces": {
+            "psitak": 25,
+            "uv": 29,
+            "limon": 21,
+            "limonad": 6
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": null,
+          "target_pieces": {
+            "psitak": 0,
+            "uv": 0,
+            "limon": 0,
+            "limonad": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": null,
+          "target_pieces": {
+            "psitak": 3,
+            "uv": 3,
+            "limon": 3,
+            "limonad": 3
+          }
+        }
+      },
+      "unchanged_data_files": []
+    }
+  ]
+}

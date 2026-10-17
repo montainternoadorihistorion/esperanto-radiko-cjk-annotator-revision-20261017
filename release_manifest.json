@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "scope": "Current runtime data after las=放 / emancip=放ᴱ, ananas=菠 / jakv=菠蜜 / prioritat=优先, strut=鸵 / sinergi=协同 / oliv=榄, the reviewed synchronization of ten stale local root displays, and the 1,534-root mirror/component identifier synchronization. The latest approved assignment is stafilokok=葡球菌; turment=虐 / tortur=虐ᵀᵀ remain unchanged. oval/elips, annotation glosses, source-root analyses, replacement keys and ordering are preserved.",
+  "scope": "Current runtime data includes the reviewed previous assignments and component identifiers. The latest approved changes are psitak=鹦ᴾˢ, uv=葡ᵁ, limon=柠 and limonad=柠水. uve=葡萄膜, uveit=葡萄膜炎ᵀ, stafilokok=葡球菌, turment=虐 and tortur=虐ᵀᵀ remain unchanged. Source-root analyses, annotation glosses, replacement keys and ordering are preserved.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/char_widths.json",
@@ -79,8 +79,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161664,
-      "sha256": "43dd5cffa20bd7a7f689514b77867f14654d23347de6fda8d7ece41b40782001"
+      "bytes": 161660,
+      "sha256": "23030a66b6d006e9bb8318c6f08fd64cdbf7ed0b7e75b4f083c499cf6dfc8ef9"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -99,13 +99,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57372294,
-      "sha256": "7dbc8e1ccec9284ad4d626abaed966ea4ee0494bf82e687ce68df32935417d4a"
+      "bytes": 57372304,
+      "sha256": "0e7615b530ff6f667ed11133216b3cc0efcb51a10af927be055fa6cf04f34ff7"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21516104,
-      "sha256": "3b57b7b9edf66474c7ace7858b65844b0292290e8e91c28173e3cee1354646f3"
+      "bytes": 21516061,
+      "sha256": "f1b81ca8e75a958cac73f1e2ecb2d38a46bfd11b148ca2b8bbda5a7051751af8"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -194,8 +194,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161664,
-      "sha256": "43dd5cffa20bd7a7f689514b77867f14654d23347de6fda8d7ece41b40782001"
+      "bytes": 161660,
+      "sha256": "23030a66b6d006e9bb8318c6f08fd64cdbf7ed0b7e75b4f083c499cf6dfc8ef9"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -214,8 +214,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57380360,
-      "sha256": "a7658f2cfa9132da82ad0e6ec327507335361fc65bf9f0e7f43f4964ee93bcfb"
+      "bytes": 57380370,
+      "sha256": "5ab31fab08a5e4e10d97d369b0cc2f285769e4817a2ff87168bc783e06e17d50"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -309,8 +309,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161664,
-      "sha256": "43dd5cffa20bd7a7f689514b77867f14654d23347de6fda8d7ece41b40782001"
+      "bytes": 161660,
+      "sha256": "23030a66b6d006e9bb8318c6f08fd64cdbf7ed0b7e75b4f083c499cf6dfc8ef9"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -329,8 +329,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57380360,
-      "sha256": "84201088f90c6f6bc781df43c8ec97cefd0017fbf1350fb229284fd842fc2729"
+      "bytes": 57380370,
+      "sha256": "12c5f181d35145736719c318703ef6bf456a685682a439b58ce8177894dccad8"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py",
@@ -348,7 +348,7 @@
       "sha256": "5502587bb1f68ae5760cac30a0bdb295fae868a23cdfcc211efdad99a4964e4c"
     }
   ],
-  "assignment_revision": "stafilokok-20261017",
-  "previous_release_commit": "fdd15bd9212d5d944159542b08d79d83c52acea6",
+  "assignment_revision": "four-shared-20261017",
+  "previous_release_commit": "f8786cfcab18bb6d43b3da217c856bba4cec5c3c",
   "runtime_cache_revision": "file-mtime-ns-size-20261017"
 }
