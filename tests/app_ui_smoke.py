@@ -22,6 +22,9 @@ import time
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE = '@semajn@tagoj & %amiko% ŝakisto semajntagoj'
+EXPECTED = '周日oj & amiko 棋家o 周日oj'
+REVISION_SOURCE = 'struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso'
+REVISION_EXPECTED = '鸵o 协同o 榄o 鸵 协同 榄 螺ᴸo 丸炎o 丸炎ᵀo 石ᴸᵀ志ᴳo 周日oj & amiko 棋家o 椭圆o 椭圆ᴱo'
 LANGUAGES = ('JA', 'ZH', 'KO')
 
 
@@ -79,7 +82,7 @@ def run_language(language):
         assert 'amiko' in rendered and '%amiko%' not in rendered, 'The skip marker contract failed'
         assert '&' in html.unescape(rendered), 'The ampersand was not preserved'
         if index == 2:
-            assert rendered == '周日oj & amiko 棋家o 周日oj', 'Reviewed pure outputs differ'
+            assert rendered == EXPECTED, 'Reviewed pure outputs differ'
             assert '<ruby' not in rendered and '<html' not in rendered, 'Pure mode emitted HTML'
         else:
             assert '<ruby' in rendered, 'Ruby mode emitted no ruby annotations'
@@ -127,7 +130,7 @@ def run_language(language):
         submit.click()
         run_from_root(at)
         returned = at.session_state['result_html']
-        assert returned == '周日oj & amiko 棋家o 周日oj', 'Conversion after returning to main failed'
+        assert returned == EXPECTED, 'Conversion after returning to main failed'
         returns.append({
             'language': language, 'from_page': path.relative_to(ROOT).as_posix(),
             'to_page': main.relative_to(ROOT).as_posix(), 'passed': True,
@@ -145,9 +148,13 @@ def run_language(language):
 
 
 def main():
+    global SOURCE, EXPECTED
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--language', choices=LANGUAGES)
+    parser.add_argument('--revision', action='store_true', help='Exercise the local-data and three-assignment revision')
     args = parser.parse_args()
+    if args.revision:
+        SOURCE, EXPECTED = REVISION_SOURCE, REVISION_EXPECTED
     if args.language:
         try:
             result = run_language(args.language)
@@ -164,7 +171,7 @@ def main():
     for language in LANGUAGES:
         child = subprocess.run(
             [sys.executable, '-B', '-X', 'utf8', str(Path(__file__).resolve()),
-             '--language', language], cwd=ROOT, capture_output=True, text=True,
+             '--language', language, *(['--revision'] if args.revision else [])], cwd=ROOT, capture_output=True, text=True,
             encoding='utf-8', timeout=600)
         if child.returncode:
             try:
@@ -192,7 +199,7 @@ def main():
             'Subpages were checked for startup and controls, not full correction editing workflows.',
             'Remote download availability and Streamlit Cloud deployment were not tested.',
         ],
-        'command': 'python -B -X utf8 tests/app_ui_smoke.py',
+        'command': 'python -B -X utf8 tests/app_ui_smoke.py' + (' --revision' if args.revision else ''),
         'cwd': '.', 'completed_at_utc': datetime.now(timezone.utc).isoformat(),
         'environment': {'python': platform.python_version(), 'system': platform.system(),
                         'streamlit': streamlit.__version__, 'pandas': pandas.__version__},
@@ -201,9 +208,10 @@ def main():
         'script_bytes_unchanged_during_run': True, 'script_sha256': scripts,
         'languages': language_results, 'results': rows, 'pages': pages, 'returns': returns,
     }
-    Path(__file__).with_suffix('.json').write_text(
+    output_path = Path(__file__).with_name('app_ui_three_assignments.json') if args.revision else Path(__file__).with_suffix('.json')
+    output_path.write_text(
         json.dumps(output, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
-    print('Saved tests/app_ui_smoke.json (9 conversions, 6 subpages, 6 returns)', flush=True)
+    print('Saved tests/' + output_path.name + ' (9 conversions, 6 subpages, 6 returns)', flush=True)
     return 0
 
 

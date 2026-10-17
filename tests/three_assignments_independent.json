@@ -1,0 +1,5966 @@
+{
+  "result": "PASS",
+  "inputs": 277,
+  "outputs_compared": 2493,
+  "reverse_pairs_compared": 2580,
+  "new_reverse_failures": 0,
+  "preexisting_reverse_failures": [
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkidito",
+      "before": "orkidkatarᵀo",
+      "after": "orkidkatarᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkidito",
+      "before": "orkidkatarᵀo",
+      "after": "orkidkatarᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkiditoj",
+      "before": "orkidkatarᵀoj",
+      "after": "orkidkatarᵀoj"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkiditoj",
+      "before": "orkidkatarᵀoj",
+      "after": "orkidkatarᵀoj"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkiditon",
+      "before": "orkidkatarᵀon",
+      "after": "orkidkatarᵀon"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkiditon",
+      "before": "orkidkatarᵀon",
+      "after": "orkidkatarᵀon"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkiditojn",
+      "before": "orkidkatarᵀojn",
+      "after": "orkidkatarᵀojn"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkiditojn",
+      "before": "orkidkatarᵀojn",
+      "after": "orkidkatarᵀojn"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkidita",
+      "before": "orkidkatarᵀa",
+      "after": "orkidkatarᵀa"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkidita",
+      "before": "orkidkatarᵀa",
+      "after": "orkidkatarᵀa"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkidite",
+      "before": "orkidkatarᵀe",
+      "after": "orkidkatarᵀe"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkidite",
+      "before": "orkidkatarᵀe",
+      "after": "orkidkatarᵀe"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikito",
+      "before": "testikkatarᵀo",
+      "after": "testikkatarᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikito",
+      "before": "testikkatarᵀo",
+      "after": "testikkatarᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikitoj",
+      "before": "testikkatarᵀoj",
+      "after": "testikkatarᵀoj"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikitoj",
+      "before": "testikkatarᵀoj",
+      "after": "testikkatarᵀoj"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikiton",
+      "before": "testikkatarᵀon",
+      "after": "testikkatarᵀon"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikiton",
+      "before": "testikkatarᵀon",
+      "after": "testikkatarᵀon"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikitojn",
+      "before": "testikkatarᵀojn",
+      "after": "testikkatarᵀojn"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikitojn",
+      "before": "testikkatarᵀojn",
+      "after": "testikkatarᵀojn"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikita",
+      "before": "testikkatarᵀa",
+      "after": "testikkatarᵀa"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikita",
+      "before": "testikkatarᵀa",
+      "after": "testikkatarᵀa"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikite",
+      "before": "testikkatarᵀe",
+      "after": "testikkatarᵀe"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikite",
+      "before": "testikkatarᵀe",
+      "after": "testikkatarᵀe"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "paniklito",
+      "before": "paniklkatarᵀo",
+      "after": "paniklkatarᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "paniklito",
+      "before": "paniklkatarᵀo",
+      "after": "paniklkatarᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "paniklitoj",
+      "before": "paniklkatarᵀoj",
+      "after": "paniklkatarᵀoj"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "paniklitoj",
+      "before": "paniklkatarᵀoj",
+      "after": "paniklkatarᵀoj"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "panikliton",
+      "before": "paniklkatarᵀon",
+      "after": "paniklkatarᵀon"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "panikliton",
+      "before": "paniklkatarᵀon",
+      "after": "paniklkatarᵀon"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "paniklitojn",
+      "before": "paniklkatarᵀojn",
+      "after": "paniklkatarᵀojn"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "paniklitojn",
+      "before": "paniklkatarᵀojn",
+      "after": "paniklkatarᵀojn"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "paniklita",
+      "before": "paniklkatarᵀa",
+      "after": "paniklkatarᵀa"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "paniklita",
+      "before": "paniklkatarᵀa",
+      "after": "paniklkatarᵀa"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "paniklite",
+      "before": "paniklkatarᵀe",
+      "after": "paniklkatarᵀe"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "paniklite",
+      "before": "paniklkatarᵀe",
+      "after": "paniklkatarᵀe"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@telefoni@",
+      "before": "telefonᶠᴼi",
+      "after": "telefonᶠᴼi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@telefoni@",
+      "before": "telefonᶠᴼi",
+      "after": "telefonᶠᴼi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@metan@",
+      "before": "kirasan",
+      "after": "kirasan"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@metan@",
+      "before": "kirasan",
+      "after": "kirasan"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@meten@",
+      "before": "kirasen",
+      "after": "kirasen"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@meten@",
+      "before": "kirasen",
+      "after": "kirasen"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@tujon@",
+      "before": "tujanon",
+      "after": "tujanon"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@tujon@",
+      "before": "tujanon",
+      "after": "tujanon"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@met@",
+      "before": "kiras",
+      "after": "kiras"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@met@",
+      "before": "kiras",
+      "after": "kiras"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@di@",
+      "before": "di@",
+      "after": "di@"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@di@",
+      "before": "di@",
+      "after": "di@"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkidito",
+      "before": "orkidkatarᵀo",
+      "after": "orkidkatarᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkidito",
+      "before": "orkidkatarᵀo",
+      "after": "orkidkatarᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkiditoj",
+      "before": "orkidkatarᵀoj",
+      "after": "orkidkatarᵀoj"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkiditoj",
+      "before": "orkidkatarᵀoj",
+      "after": "orkidkatarᵀoj"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkiditon",
+      "before": "orkidkatarᵀon",
+      "after": "orkidkatarᵀon"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkiditon",
+      "before": "orkidkatarᵀon",
+      "after": "orkidkatarᵀon"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkiditojn",
+      "before": "orkidkatarᵀojn",
+      "after": "orkidkatarᵀojn"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkiditojn",
+      "before": "orkidkatarᵀojn",
+      "after": "orkidkatarᵀojn"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkidita",
+      "before": "orkidkatarᵀa",
+      "after": "orkidkatarᵀa"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkidita",
+      "before": "orkidkatarᵀa",
+      "after": "orkidkatarᵀa"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkidite",
+      "before": "orkidkatarᵀe",
+      "after": "orkidkatarᵀe"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkidite",
+      "before": "orkidkatarᵀe",
+      "after": "orkidkatarᵀe"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikito",
+      "before": "testikkatarᵀo",
+      "after": "testikkatarᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikito",
+      "before": "testikkatarᵀo",
+      "after": "testikkatarᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikitoj",
+      "before": "testikkatarᵀoj",
+      "after": "testikkatarᵀoj"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikitoj",
+      "before": "testikkatarᵀoj",
+      "after": "testikkatarᵀoj"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikiton",
+      "before": "testikkatarᵀon",
+      "after": "testikkatarᵀon"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikiton",
+      "before": "testikkatarᵀon",
+      "after": "testikkatarᵀon"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikitojn",
+      "before": "testikkatarᵀojn",
+      "after": "testikkatarᵀojn"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikitojn",
+      "before": "testikkatarᵀojn",
+      "after": "testikkatarᵀojn"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikita",
+      "before": "testikkatarᵀa",
+      "after": "testikkatarᵀa"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikita",
+      "before": "testikkatarᵀa",
+      "after": "testikkatarᵀa"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikite",
+      "before": "testikkatarᵀe",
+      "after": "testikkatarᵀe"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikite",
+      "before": "testikkatarᵀe",
+      "after": "testikkatarᵀe"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "paniklito",
+      "before": "paniklkatarᵀo",
+      "after": "paniklkatarᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "paniklito",
+      "before": "paniklkatarᵀo",
+      "after": "paniklkatarᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "paniklitoj",
+      "before": "paniklkatarᵀoj",
+      "after": "paniklkatarᵀoj"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "paniklitoj",
+      "before": "paniklkatarᵀoj",
+      "after": "paniklkatarᵀoj"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "panikliton",
+      "before": "paniklkatarᵀon",
+      "after": "paniklkatarᵀon"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "panikliton",
+      "before": "paniklkatarᵀon",
+      "after": "paniklkatarᵀon"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "paniklitojn",
+      "before": "paniklkatarᵀojn",
+      "after": "paniklkatarᵀojn"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "paniklitojn",
+      "before": "paniklkatarᵀojn",
+      "after": "paniklkatarᵀojn"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "paniklita",
+      "before": "paniklkatarᵀa",
+      "after": "paniklkatarᵀa"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "paniklita",
+      "before": "paniklkatarᵀa",
+      "after": "paniklkatarᵀa"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "paniklite",
+      "before": "paniklkatarᵀe",
+      "after": "paniklkatarᵀe"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "paniklite",
+      "before": "paniklkatarᵀe",
+      "after": "paniklkatarᵀe"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@telefoni@",
+      "before": "telefonᶠᴼi",
+      "after": "telefonᶠᴼi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@telefoni@",
+      "before": "telefonᶠᴼi",
+      "after": "telefonᶠᴼi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@metan@",
+      "before": "kirasan",
+      "after": "kirasan"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@metan@",
+      "before": "kirasan",
+      "after": "kirasan"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@meten@",
+      "before": "kirasen",
+      "after": "kirasen"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@meten@",
+      "before": "kirasen",
+      "after": "kirasen"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@tujon@",
+      "before": "tujanon",
+      "after": "tujanon"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@tujon@",
+      "before": "tujanon",
+      "after": "tujanon"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@met@",
+      "before": "kiras",
+      "after": "kiras"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@met@",
+      "before": "kiras",
+      "after": "kiras"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@di@",
+      "before": "di@",
+      "after": "di@"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@di@",
+      "before": "di@",
+      "after": "di@"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkidito",
+      "before": "orkidkatarᵀo",
+      "after": "orkidkatarᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkidito",
+      "before": "orkidkatarᵀo",
+      "after": "orkidkatarᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkiditoj",
+      "before": "orkidkatarᵀoj",
+      "after": "orkidkatarᵀoj"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkiditoj",
+      "before": "orkidkatarᵀoj",
+      "after": "orkidkatarᵀoj"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkiditon",
+      "before": "orkidkatarᵀon",
+      "after": "orkidkatarᵀon"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkiditon",
+      "before": "orkidkatarᵀon",
+      "after": "orkidkatarᵀon"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkiditojn",
+      "before": "orkidkatarᵀojn",
+      "after": "orkidkatarᵀojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkiditojn",
+      "before": "orkidkatarᵀojn",
+      "after": "orkidkatarᵀojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkidita",
+      "before": "orkidkatarᵀa",
+      "after": "orkidkatarᵀa"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkidita",
+      "before": "orkidkatarᵀa",
+      "after": "orkidkatarᵀa"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkidite",
+      "before": "orkidkatarᵀe",
+      "after": "orkidkatarᵀe"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkidite",
+      "before": "orkidkatarᵀe",
+      "after": "orkidkatarᵀe"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikito",
+      "before": "testikkatarᵀo",
+      "after": "testikkatarᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikito",
+      "before": "testikkatarᵀo",
+      "after": "testikkatarᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikitoj",
+      "before": "testikkatarᵀoj",
+      "after": "testikkatarᵀoj"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikitoj",
+      "before": "testikkatarᵀoj",
+      "after": "testikkatarᵀoj"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikiton",
+      "before": "testikkatarᵀon",
+      "after": "testikkatarᵀon"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikiton",
+      "before": "testikkatarᵀon",
+      "after": "testikkatarᵀon"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikitojn",
+      "before": "testikkatarᵀojn",
+      "after": "testikkatarᵀojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikitojn",
+      "before": "testikkatarᵀojn",
+      "after": "testikkatarᵀojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikita",
+      "before": "testikkatarᵀa",
+      "after": "testikkatarᵀa"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikita",
+      "before": "testikkatarᵀa",
+      "after": "testikkatarᵀa"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikite",
+      "before": "testikkatarᵀe",
+      "after": "testikkatarᵀe"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikite",
+      "before": "testikkatarᵀe",
+      "after": "testikkatarᵀe"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "paniklito",
+      "before": "paniklkatarᵀo",
+      "after": "paniklkatarᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "paniklito",
+      "before": "paniklkatarᵀo",
+      "after": "paniklkatarᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "paniklitoj",
+      "before": "paniklkatarᵀoj",
+      "after": "paniklkatarᵀoj"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "paniklitoj",
+      "before": "paniklkatarᵀoj",
+      "after": "paniklkatarᵀoj"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "panikliton",
+      "before": "paniklkatarᵀon",
+      "after": "paniklkatarᵀon"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "panikliton",
+      "before": "paniklkatarᵀon",
+      "after": "paniklkatarᵀon"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "paniklitojn",
+      "before": "paniklkatarᵀojn",
+      "after": "paniklkatarᵀojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "paniklitojn",
+      "before": "paniklkatarᵀojn",
+      "after": "paniklkatarᵀojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "paniklita",
+      "before": "paniklkatarᵀa",
+      "after": "paniklkatarᵀa"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "paniklita",
+      "before": "paniklkatarᵀa",
+      "after": "paniklkatarᵀa"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "paniklite",
+      "before": "paniklkatarᵀe",
+      "after": "paniklkatarᵀe"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "paniklite",
+      "before": "paniklkatarᵀe",
+      "after": "paniklkatarᵀe"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@telefoni@",
+      "before": "telefonᶠᴼi",
+      "after": "telefonᶠᴼi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@telefoni@",
+      "before": "telefonᶠᴼi",
+      "after": "telefonᶠᴼi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@metan@",
+      "before": "kirasan",
+      "after": "kirasan"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@metan@",
+      "before": "kirasan",
+      "after": "kirasan"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@meten@",
+      "before": "kirasen",
+      "after": "kirasen"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@meten@",
+      "before": "kirasen",
+      "after": "kirasen"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@tujon@",
+      "before": "tujanon",
+      "after": "tujanon"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@tujon@",
+      "before": "tujanon",
+      "after": "tujanon"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@met@",
+      "before": "kiras",
+      "after": "kiras"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@met@",
+      "before": "kiras",
+      "after": "kiras"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@di@",
+      "before": "di@",
+      "after": "di@"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@di@",
+      "before": "di@",
+      "after": "di@"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkidito",
+      "before": "orkidkatarᵀo",
+      "after": "orkidkatarᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkidito",
+      "before": "orkidkatarᵀo",
+      "after": "orkidkatarᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkiditoj",
+      "before": "orkidkatarᵀoj",
+      "after": "orkidkatarᵀoj"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkiditoj",
+      "before": "orkidkatarᵀoj",
+      "after": "orkidkatarᵀoj"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkiditon",
+      "before": "orkidkatarᵀon",
+      "after": "orkidkatarᵀon"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkiditon",
+      "before": "orkidkatarᵀon",
+      "after": "orkidkatarᵀon"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkiditojn",
+      "before": "orkidkatarᵀojn",
+      "after": "orkidkatarᵀojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkiditojn",
+      "before": "orkidkatarᵀojn",
+      "after": "orkidkatarᵀojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkidita",
+      "before": "orkidkatarᵀa",
+      "after": "orkidkatarᵀa"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkidita",
+      "before": "orkidkatarᵀa",
+      "after": "orkidkatarᵀa"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkidite",
+      "before": "orkidkatarᵀe",
+      "after": "orkidkatarᵀe"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkidite",
+      "before": "orkidkatarᵀe",
+      "after": "orkidkatarᵀe"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikito",
+      "before": "testikkatarᵀo",
+      "after": "testikkatarᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikito",
+      "before": "testikkatarᵀo",
+      "after": "testikkatarᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikitoj",
+      "before": "testikkatarᵀoj",
+      "after": "testikkatarᵀoj"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikitoj",
+      "before": "testikkatarᵀoj",
+      "after": "testikkatarᵀoj"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikiton",
+      "before": "testikkatarᵀon",
+      "after": "testikkatarᵀon"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikiton",
+      "before": "testikkatarᵀon",
+      "after": "testikkatarᵀon"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikitojn",
+      "before": "testikkatarᵀojn",
+      "after": "testikkatarᵀojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikitojn",
+      "before": "testikkatarᵀojn",
+      "after": "testikkatarᵀojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikita",
+      "before": "testikkatarᵀa",
+      "after": "testikkatarᵀa"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikita",
+      "before": "testikkatarᵀa",
+      "after": "testikkatarᵀa"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikite",
+      "before": "testikkatarᵀe",
+      "after": "testikkatarᵀe"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikite",
+      "before": "testikkatarᵀe",
+      "after": "testikkatarᵀe"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "paniklito",
+      "before": "paniklkatarᵀo",
+      "after": "paniklkatarᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "paniklito",
+      "before": "paniklkatarᵀo",
+      "after": "paniklkatarᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "paniklitoj",
+      "before": "paniklkatarᵀoj",
+      "after": "paniklkatarᵀoj"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "paniklitoj",
+      "before": "paniklkatarᵀoj",
+      "after": "paniklkatarᵀoj"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "panikliton",
+      "before": "paniklkatarᵀon",
+      "after": "paniklkatarᵀon"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "panikliton",
+      "before": "paniklkatarᵀon",
+      "after": "paniklkatarᵀon"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "paniklitojn",
+      "before": "paniklkatarᵀojn",
+      "after": "paniklkatarᵀojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "paniklitojn",
+      "before": "paniklkatarᵀojn",
+      "after": "paniklkatarᵀojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "paniklita",
+      "before": "paniklkatarᵀa",
+      "after": "paniklkatarᵀa"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "paniklita",
+      "before": "paniklkatarᵀa",
+      "after": "paniklkatarᵀa"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "paniklite",
+      "before": "paniklkatarᵀe",
+      "after": "paniklkatarᵀe"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "paniklite",
+      "before": "paniklkatarᵀe",
+      "after": "paniklkatarᵀe"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@telefoni@",
+      "before": "telefonᶠᴼi",
+      "after": "telefonᶠᴼi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@telefoni@",
+      "before": "telefonᶠᴼi",
+      "after": "telefonᶠᴼi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@metan@",
+      "before": "kirasan",
+      "after": "kirasan"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@metan@",
+      "before": "kirasan",
+      "after": "kirasan"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@meten@",
+      "before": "kirasen",
+      "after": "kirasen"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@meten@",
+      "before": "kirasen",
+      "after": "kirasen"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@tujon@",
+      "before": "tujanon",
+      "after": "tujanon"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@tujon@",
+      "before": "tujanon",
+      "after": "tujanon"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@met@",
+      "before": "kiras",
+      "after": "kiras"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@met@",
+      "before": "kiras",
+      "after": "kiras"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@di@",
+      "before": "di@",
+      "after": "di@"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@di@",
+      "before": "di@",
+      "after": "di@"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkidito",
+      "before": "orkidkatarᵀo",
+      "after": "orkidkatarᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkidito",
+      "before": "orkidkatarᵀo",
+      "after": "orkidkatarᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkiditoj",
+      "before": "orkidkatarᵀoj",
+      "after": "orkidkatarᵀoj"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkiditoj",
+      "before": "orkidkatarᵀoj",
+      "after": "orkidkatarᵀoj"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkiditon",
+      "before": "orkidkatarᵀon",
+      "after": "orkidkatarᵀon"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkiditon",
+      "before": "orkidkatarᵀon",
+      "after": "orkidkatarᵀon"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkiditojn",
+      "before": "orkidkatarᵀojn",
+      "after": "orkidkatarᵀojn"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkiditojn",
+      "before": "orkidkatarᵀojn",
+      "after": "orkidkatarᵀojn"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkidita",
+      "before": "orkidkatarᵀa",
+      "after": "orkidkatarᵀa"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkidita",
+      "before": "orkidkatarᵀa",
+      "after": "orkidkatarᵀa"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "orkidite",
+      "before": "orkidkatarᵀe",
+      "after": "orkidkatarᵀe"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "orkidite",
+      "before": "orkidkatarᵀe",
+      "after": "orkidkatarᵀe"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikito",
+      "before": "testikkatarᵀo",
+      "after": "testikkatarᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikito",
+      "before": "testikkatarᵀo",
+      "after": "testikkatarᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikitoj",
+      "before": "testikkatarᵀoj",
+      "after": "testikkatarᵀoj"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikitoj",
+      "before": "testikkatarᵀoj",
+      "after": "testikkatarᵀoj"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikiton",
+      "before": "testikkatarᵀon",
+      "after": "testikkatarᵀon"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikiton",
+      "before": "testikkatarᵀon",
+      "after": "testikkatarᵀon"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikitojn",
+      "before": "testikkatarᵀojn",
+      "after": "testikkatarᵀojn"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikitojn",
+      "before": "testikkatarᵀojn",
+      "after": "testikkatarᵀojn"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikita",
+      "before": "testikkatarᵀa",
+      "after": "testikkatarᵀa"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikita",
+      "before": "testikkatarᵀa",
+      "after": "testikkatarᵀa"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "testikite",
+      "before": "testikkatarᵀe",
+      "after": "testikkatarᵀe"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "testikite",
+      "before": "testikkatarᵀe",
+      "after": "testikkatarᵀe"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "paniklito",
+      "before": "paniklkatarᵀo",
+      "after": "paniklkatarᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "paniklito",
+      "before": "paniklkatarᵀo",
+      "after": "paniklkatarᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "paniklitoj",
+      "before": "paniklkatarᵀoj",
+      "after": "paniklkatarᵀoj"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "paniklitoj",
+      "before": "paniklkatarᵀoj",
+      "after": "paniklkatarᵀoj"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "panikliton",
+      "before": "paniklkatarᵀon",
+      "after": "paniklkatarᵀon"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "panikliton",
+      "before": "paniklkatarᵀon",
+      "after": "paniklkatarᵀon"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "paniklitojn",
+      "before": "paniklkatarᵀojn",
+      "after": "paniklkatarᵀojn"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "paniklitojn",
+      "before": "paniklkatarᵀojn",
+      "after": "paniklkatarᵀojn"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "paniklita",
+      "before": "paniklkatarᵀa",
+      "after": "paniklkatarᵀa"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "paniklita",
+      "before": "paniklkatarᵀa",
+      "after": "paniklkatarᵀa"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "paniklite",
+      "before": "paniklkatarᵀe",
+      "after": "paniklkatarᵀe"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "paniklite",
+      "before": "paniklkatarᵀe",
+      "after": "paniklkatarᵀe"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@telefoni@",
+      "before": "telefonᶠᴼi",
+      "after": "telefonᶠᴼi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@telefoni@",
+      "before": "telefonᶠᴼi",
+      "after": "telefonᶠᴼi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@metan@",
+      "before": "kirasan",
+      "after": "kirasan"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@metan@",
+      "before": "kirasan",
+      "after": "kirasan"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@meten@",
+      "before": "kirasen",
+      "after": "kirasen"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@meten@",
+      "before": "kirasen",
+      "after": "kirasen"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@tujon@",
+      "before": "tujanon",
+      "after": "tujanon"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@tujon@",
+      "before": "tujanon",
+      "after": "tujanon"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@met@",
+      "before": "kiras",
+      "after": "kiras"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@met@",
+      "before": "kiras",
+      "after": "kiras"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@di@",
+      "before": "di@",
+      "after": "di@"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@di@",
+      "before": "di@",
+      "after": "di@"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkidito",
+      "before": "orkidkatarᵀo",
+      "after": "orkidkatarᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkidito",
+      "before": "orkidkatarᵀo",
+      "after": "orkidkatarᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkiditoj",
+      "before": "orkidkatarᵀoj",
+      "after": "orkidkatarᵀoj"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkiditoj",
+      "before": "orkidkatarᵀoj",
+      "after": "orkidkatarᵀoj"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkiditon",
+      "before": "orkidkatarᵀon",
+      "after": "orkidkatarᵀon"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkiditon",
+      "before": "orkidkatarᵀon",
+      "after": "orkidkatarᵀon"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkiditojn",
+      "before": "orkidkatarᵀojn",
+      "after": "orkidkatarᵀojn"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkiditojn",
+      "before": "orkidkatarᵀojn",
+      "after": "orkidkatarᵀojn"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkidita",
+      "before": "orkidkatarᵀa",
+      "after": "orkidkatarᵀa"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkidita",
+      "before": "orkidkatarᵀa",
+      "after": "orkidkatarᵀa"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "orkidite",
+      "before": "orkidkatarᵀe",
+      "after": "orkidkatarᵀe"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "orkidite",
+      "before": "orkidkatarᵀe",
+      "after": "orkidkatarᵀe"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikito",
+      "before": "testikkatarᵀo",
+      "after": "testikkatarᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikito",
+      "before": "testikkatarᵀo",
+      "after": "testikkatarᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikitoj",
+      "before": "testikkatarᵀoj",
+      "after": "testikkatarᵀoj"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikitoj",
+      "before": "testikkatarᵀoj",
+      "after": "testikkatarᵀoj"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikiton",
+      "before": "testikkatarᵀon",
+      "after": "testikkatarᵀon"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikiton",
+      "before": "testikkatarᵀon",
+      "after": "testikkatarᵀon"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikitojn",
+      "before": "testikkatarᵀojn",
+      "after": "testikkatarᵀojn"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikitojn",
+      "before": "testikkatarᵀojn",
+      "after": "testikkatarᵀojn"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikita",
+      "before": "testikkatarᵀa",
+      "after": "testikkatarᵀa"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikita",
+      "before": "testikkatarᵀa",
+      "after": "testikkatarᵀa"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "testikite",
+      "before": "testikkatarᵀe",
+      "after": "testikkatarᵀe"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "testikite",
+      "before": "testikkatarᵀe",
+      "after": "testikkatarᵀe"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "paniklito",
+      "before": "paniklkatarᵀo",
+      "after": "paniklkatarᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "paniklito",
+      "before": "paniklkatarᵀo",
+      "after": "paniklkatarᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "paniklitoj",
+      "before": "paniklkatarᵀoj",
+      "after": "paniklkatarᵀoj"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "paniklitoj",
+      "before": "paniklkatarᵀoj",
+      "after": "paniklkatarᵀoj"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "panikliton",
+      "before": "paniklkatarᵀon",
+      "after": "paniklkatarᵀon"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "panikliton",
+      "before": "paniklkatarᵀon",
+      "after": "paniklkatarᵀon"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "paniklitojn",
+      "before": "paniklkatarᵀojn",
+      "after": "paniklkatarᵀojn"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "paniklitojn",
+      "before": "paniklkatarᵀojn",
+      "after": "paniklkatarᵀojn"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "paniklita",
+      "before": "paniklkatarᵀa",
+      "after": "paniklkatarᵀa"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "paniklita",
+      "before": "paniklkatarᵀa",
+      "after": "paniklkatarᵀa"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "paniklite",
+      "before": "paniklkatarᵀe",
+      "after": "paniklkatarᵀe"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "paniklite",
+      "before": "paniklkatarᵀe",
+      "after": "paniklkatarᵀe"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@telefoni@",
+      "before": "telefonᶠᴼi",
+      "after": "telefonᶠᴼi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@telefoni@",
+      "before": "telefonᶠᴼi",
+      "after": "telefonᶠᴼi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@metan@",
+      "before": "kirasan",
+      "after": "kirasan"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@metan@",
+      "before": "kirasan",
+      "after": "kirasan"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@meten@",
+      "before": "kirasen",
+      "after": "kirasen"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@meten@",
+      "before": "kirasen",
+      "after": "kirasen"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@tujon@",
+      "before": "tujanon",
+      "after": "tujanon"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@tujon@",
+      "before": "tujanon",
+      "after": "tujanon"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@met@",
+      "before": "kiras",
+      "after": "kiras"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@met@",
+      "before": "kiras",
+      "after": "kiras"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@di@",
+      "before": "di@",
+      "after": "di@"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@di@",
+      "before": "di@",
+      "after": "di@"
+    }
+  ],
+  "reverse_fixed": [
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "limake",
+      "before": "蜗bove",
+      "after": "limake"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "limake",
+      "before": "蜗bove",
+      "after": "limake"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@limak@",
+      "before": "蜗bov",
+      "after": "limak"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@limak@",
+      "before": "蜗bov",
+      "after": "limak"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@limak@o",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@limak@o",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@limako@",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@limako@",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@limak@ @limak@",
+      "before": "蜗bov 蜗bov",
+      "after": "limak limak"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@limak@ @limak@",
+      "before": "蜗bov 蜗bov",
+      "after": "limak limak"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidit@",
+      "before": "orkidkatar",
+      "after": "orkidit"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidit@",
+      "before": "orkidkatar",
+      "after": "orkidit"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidit@o",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidit@o",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidito@",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidito@",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidit@ @orkidit@",
+      "before": "orkidkatar orkidkatar",
+      "after": "orkidit orkidit"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidit@ @orkidit@",
+      "before": "orkidkatar orkidkatar",
+      "after": "orkidit orkidit"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidektomi@",
+      "before": "orkidescept",
+      "after": "orkidektomi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidektomi@",
+      "before": "orkidescept",
+      "after": "orkidektomi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidektomi@o",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidektomi@o",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidektomio@",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidektomio@",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidektomi@ @orkidektomi@",
+      "before": "orkidescept orkidescept",
+      "after": "orkidektomi orkidektomi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidektomi@ @orkidektomi@",
+      "before": "orkidescept orkidescept",
+      "after": "orkidektomi orkidektomi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidoterapi@",
+      "before": "orkidterapi",
+      "after": "orkidoterapi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@",
+      "before": "orkidterapi",
+      "after": "orkidoterapi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidoterapi@o",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@o",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidoterapio@",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidoterapio@",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidoterapi@ @orkidoterapi@",
+      "before": "orkidterapi orkidterapi",
+      "after": "orkidoterapi orkidoterapi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@ @orkidoterapi@",
+      "before": "orkidterapi orkidterapi",
+      "after": "orkidoterapi orkidoterapi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@testikit@",
+      "before": "orkidit",
+      "after": "testikit"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@testikit@",
+      "before": "orkidit",
+      "after": "testikit"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@testikit@o",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@testikit@o",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@testikito@",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@testikito@",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@testikit@ @testikit@",
+      "before": "orkidit orkidit",
+      "after": "testikit testikit"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@testikit@ @testikit@",
+      "before": "orkidit orkidit",
+      "after": "testikit testikit"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@paniklit@",
+      "before": "paniklkatar",
+      "after": "paniklit"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@paniklit@",
+      "before": "paniklkatar",
+      "after": "paniklit"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@paniklit@o",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@paniklit@o",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@paniklito@",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@paniklito@",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@paniklit@ @paniklit@",
+      "before": "paniklkatar paniklkatar",
+      "after": "paniklit paniklit"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@paniklit@ @paniklit@",
+      "before": "paniklkatar paniklkatar",
+      "after": "paniklit paniklit"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@litografi@",
+      "before": "ŝtonambici",
+      "after": "litografi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@litografi@",
+      "before": "ŝtonambici",
+      "after": "litografi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@litografi@o",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@litografi@o",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@litografio@",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@litografio@",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@litografi@ @litografi@",
+      "before": "ŝtonambici ŝtonambici",
+      "after": "litografi litografi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@litografi@ @litografi@",
+      "before": "ŝtonambici ŝtonambici",
+      "after": "litografi litografi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@fotolitografi@",
+      "before": "fotŝtonambici",
+      "after": "fotolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@fotolitografi@",
+      "before": "fotŝtonambici",
+      "after": "fotolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@fotolitografi@o",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@fotolitografi@o",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@fotolitografio@",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@fotolitografio@",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@fotolitografi@ @fotolitografi@",
+      "before": "fotŝtonambici fotŝtonambici",
+      "after": "fotolitografi fotolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@fotolitografi@ @fotolitografi@",
+      "before": "fotŝtonambici fotŝtonambici",
+      "after": "fotolitografi fotolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@kromolitografi@",
+      "before": "kolorŝtonambici",
+      "after": "kromolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@kromolitografi@",
+      "before": "kolorŝtonambici",
+      "after": "kromolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@kromolitografi@o",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@kromolitografi@o",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@kromolitografio@",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@kromolitografio@",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@kromolitografi@ @kromolitografi@",
+      "before": "kolorŝtonambici kolorŝtonambici",
+      "after": "kromolitografi kromolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@kromolitografi@ @kromolitografi@",
+      "before": "kolorŝtonambici kolorŝtonambici",
+      "after": "kromolitografi kromolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@limak@o & @testikit@o",
+      "before": "蜗bovo & orkidito",
+      "after": "limako & testikito"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@limak@o & @testikit@o",
+      "before": "蜗bovo & orkidito",
+      "after": "limako & testikito"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "limake",
+      "before": "蜗bove",
+      "after": "limake"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "limake",
+      "before": "蜗bove",
+      "after": "limake"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@limak@",
+      "before": "蜗bov",
+      "after": "limak"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@limak@",
+      "before": "蜗bov",
+      "after": "limak"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@limak@o",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@limak@o",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@limako@",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@limako@",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@limak@ @limak@",
+      "before": "蜗bov 蜗bov",
+      "after": "limak limak"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@limak@ @limak@",
+      "before": "蜗bov 蜗bov",
+      "after": "limak limak"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidit@",
+      "before": "orkidkatar",
+      "after": "orkidit"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidit@",
+      "before": "orkidkatar",
+      "after": "orkidit"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidit@o",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidit@o",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidito@",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidito@",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidit@ @orkidit@",
+      "before": "orkidkatar orkidkatar",
+      "after": "orkidit orkidit"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidit@ @orkidit@",
+      "before": "orkidkatar orkidkatar",
+      "after": "orkidit orkidit"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidektomi@",
+      "before": "orkidescept",
+      "after": "orkidektomi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidektomi@",
+      "before": "orkidescept",
+      "after": "orkidektomi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidektomi@o",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidektomi@o",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidektomio@",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidektomio@",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidektomi@ @orkidektomi@",
+      "before": "orkidescept orkidescept",
+      "after": "orkidektomi orkidektomi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidektomi@ @orkidektomi@",
+      "before": "orkidescept orkidescept",
+      "after": "orkidektomi orkidektomi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidoterapi@",
+      "before": "orkidterapi",
+      "after": "orkidoterapi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@",
+      "before": "orkidterapi",
+      "after": "orkidoterapi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidoterapi@o",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@o",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidoterapio@",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidoterapio@",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidoterapi@ @orkidoterapi@",
+      "before": "orkidterapi orkidterapi",
+      "after": "orkidoterapi orkidoterapi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@ @orkidoterapi@",
+      "before": "orkidterapi orkidterapi",
+      "after": "orkidoterapi orkidoterapi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@testikit@",
+      "before": "orkidit",
+      "after": "testikit"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@testikit@",
+      "before": "orkidit",
+      "after": "testikit"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@testikit@o",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@testikit@o",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@testikito@",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@testikito@",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@testikit@ @testikit@",
+      "before": "orkidit orkidit",
+      "after": "testikit testikit"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@testikit@ @testikit@",
+      "before": "orkidit orkidit",
+      "after": "testikit testikit"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@paniklit@",
+      "before": "paniklkatar",
+      "after": "paniklit"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@paniklit@",
+      "before": "paniklkatar",
+      "after": "paniklit"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@paniklit@o",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@paniklit@o",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@paniklito@",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@paniklito@",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@paniklit@ @paniklit@",
+      "before": "paniklkatar paniklkatar",
+      "after": "paniklit paniklit"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@paniklit@ @paniklit@",
+      "before": "paniklkatar paniklkatar",
+      "after": "paniklit paniklit"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@litografi@",
+      "before": "ŝtonambici",
+      "after": "litografi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@litografi@",
+      "before": "ŝtonambici",
+      "after": "litografi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@litografi@o",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@litografi@o",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@litografio@",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@litografio@",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@litografi@ @litografi@",
+      "before": "ŝtonambici ŝtonambici",
+      "after": "litografi litografi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@litografi@ @litografi@",
+      "before": "ŝtonambici ŝtonambici",
+      "after": "litografi litografi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@fotolitografi@",
+      "before": "fotŝtonambici",
+      "after": "fotolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@fotolitografi@",
+      "before": "fotŝtonambici",
+      "after": "fotolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@fotolitografi@o",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@fotolitografi@o",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@fotolitografio@",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@fotolitografio@",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@fotolitografi@ @fotolitografi@",
+      "before": "fotŝtonambici fotŝtonambici",
+      "after": "fotolitografi fotolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@fotolitografi@ @fotolitografi@",
+      "before": "fotŝtonambici fotŝtonambici",
+      "after": "fotolitografi fotolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@kromolitografi@",
+      "before": "kolorŝtonambici",
+      "after": "kromolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@kromolitografi@",
+      "before": "kolorŝtonambici",
+      "after": "kromolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@kromolitografi@o",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@kromolitografi@o",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@kromolitografio@",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@kromolitografio@",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@kromolitografi@ @kromolitografi@",
+      "before": "kolorŝtonambici kolorŝtonambici",
+      "after": "kromolitografi kromolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@kromolitografi@ @kromolitografi@",
+      "before": "kolorŝtonambici kolorŝtonambici",
+      "after": "kromolitografi kromolitografi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@limak@o & @testikit@o",
+      "before": "蜗bovo & orkidito",
+      "after": "limako & testikito"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@limak@o & @testikit@o",
+      "before": "蜗bovo & orkidito",
+      "after": "limako & testikito"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "limake",
+      "before": "蜗bove",
+      "after": "limake"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "limake",
+      "before": "蜗bove",
+      "after": "limake"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@limak@",
+      "before": "蜗bov",
+      "after": "limak"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@limak@",
+      "before": "蜗bov",
+      "after": "limak"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@limak@o",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@limak@o",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@limako@",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@limako@",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@limak@ @limak@",
+      "before": "蜗bov 蜗bov",
+      "after": "limak limak"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@limak@ @limak@",
+      "before": "蜗bov 蜗bov",
+      "after": "limak limak"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidit@",
+      "before": "orkidkatar",
+      "after": "orkidit"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidit@",
+      "before": "orkidkatar",
+      "after": "orkidit"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidit@o",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidit@o",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidito@",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidito@",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidit@ @orkidit@",
+      "before": "orkidkatar orkidkatar",
+      "after": "orkidit orkidit"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidit@ @orkidit@",
+      "before": "orkidkatar orkidkatar",
+      "after": "orkidit orkidit"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidektomi@",
+      "before": "orkidescept",
+      "after": "orkidektomi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidektomi@",
+      "before": "orkidescept",
+      "after": "orkidektomi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidektomi@o",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidektomi@o",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidektomio@",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidektomio@",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidektomi@ @orkidektomi@",
+      "before": "orkidescept orkidescept",
+      "after": "orkidektomi orkidektomi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidektomi@ @orkidektomi@",
+      "before": "orkidescept orkidescept",
+      "after": "orkidektomi orkidektomi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidoterapi@",
+      "before": "orkidterapi",
+      "after": "orkidoterapi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@",
+      "before": "orkidterapi",
+      "after": "orkidoterapi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidoterapi@o",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@o",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidoterapio@",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidoterapio@",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidoterapi@ @orkidoterapi@",
+      "before": "orkidterapi orkidterapi",
+      "after": "orkidoterapi orkidoterapi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@ @orkidoterapi@",
+      "before": "orkidterapi orkidterapi",
+      "after": "orkidoterapi orkidoterapi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@testikit@",
+      "before": "orkidit",
+      "after": "testikit"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@testikit@",
+      "before": "orkidit",
+      "after": "testikit"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@testikit@o",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@testikit@o",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@testikito@",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@testikito@",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@testikit@ @testikit@",
+      "before": "orkidit orkidit",
+      "after": "testikit testikit"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@testikit@ @testikit@",
+      "before": "orkidit orkidit",
+      "after": "testikit testikit"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@paniklit@",
+      "before": "paniklkatar",
+      "after": "paniklit"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@paniklit@",
+      "before": "paniklkatar",
+      "after": "paniklit"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@paniklit@o",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@paniklit@o",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@paniklito@",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@paniklito@",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@paniklit@ @paniklit@",
+      "before": "paniklkatar paniklkatar",
+      "after": "paniklit paniklit"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@paniklit@ @paniklit@",
+      "before": "paniklkatar paniklkatar",
+      "after": "paniklit paniklit"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@litografi@",
+      "before": "ŝtonambici",
+      "after": "litografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@litografi@",
+      "before": "ŝtonambici",
+      "after": "litografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@litografi@o",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@litografi@o",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@litografio@",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@litografio@",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@litografi@ @litografi@",
+      "before": "ŝtonambici ŝtonambici",
+      "after": "litografi litografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@litografi@ @litografi@",
+      "before": "ŝtonambici ŝtonambici",
+      "after": "litografi litografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@fotolitografi@",
+      "before": "fotŝtonambici",
+      "after": "fotolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@fotolitografi@",
+      "before": "fotŝtonambici",
+      "after": "fotolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@fotolitografi@o",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@fotolitografi@o",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@fotolitografio@",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@fotolitografio@",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@fotolitografi@ @fotolitografi@",
+      "before": "fotŝtonambici fotŝtonambici",
+      "after": "fotolitografi fotolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@fotolitografi@ @fotolitografi@",
+      "before": "fotŝtonambici fotŝtonambici",
+      "after": "fotolitografi fotolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@kromolitografi@",
+      "before": "kolorŝtonambici",
+      "after": "kromolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@kromolitografi@",
+      "before": "kolorŝtonambici",
+      "after": "kromolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@kromolitografi@o",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@kromolitografi@o",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@kromolitografio@",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@kromolitografio@",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@kromolitografi@ @kromolitografi@",
+      "before": "kolorŝtonambici kolorŝtonambici",
+      "after": "kromolitografi kromolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@kromolitografi@ @kromolitografi@",
+      "before": "kolorŝtonambici kolorŝtonambici",
+      "after": "kromolitografi kromolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@limak@o & @testikit@o",
+      "before": "蜗bovo & orkidito",
+      "after": "limako & testikito"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@limak@o & @testikit@o",
+      "before": "蜗bovo & orkidito",
+      "after": "limako & testikito"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "limake",
+      "before": "蜗bove",
+      "after": "limake"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "limake",
+      "before": "蜗bove",
+      "after": "limake"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@limak@",
+      "before": "蜗bov",
+      "after": "limak"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@limak@",
+      "before": "蜗bov",
+      "after": "limak"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@limak@o",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@limak@o",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@limako@",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@limako@",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@limak@ @limak@",
+      "before": "蜗bov 蜗bov",
+      "after": "limak limak"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@limak@ @limak@",
+      "before": "蜗bov 蜗bov",
+      "after": "limak limak"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidit@",
+      "before": "orkidkatar",
+      "after": "orkidit"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidit@",
+      "before": "orkidkatar",
+      "after": "orkidit"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidit@o",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidit@o",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidito@",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidito@",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidit@ @orkidit@",
+      "before": "orkidkatar orkidkatar",
+      "after": "orkidit orkidit"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidit@ @orkidit@",
+      "before": "orkidkatar orkidkatar",
+      "after": "orkidit orkidit"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidektomi@",
+      "before": "orkidescept",
+      "after": "orkidektomi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidektomi@",
+      "before": "orkidescept",
+      "after": "orkidektomi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidektomi@o",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidektomi@o",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidektomio@",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidektomio@",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidektomi@ @orkidektomi@",
+      "before": "orkidescept orkidescept",
+      "after": "orkidektomi orkidektomi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidektomi@ @orkidektomi@",
+      "before": "orkidescept orkidescept",
+      "after": "orkidektomi orkidektomi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidoterapi@",
+      "before": "orkidterapi",
+      "after": "orkidoterapi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@",
+      "before": "orkidterapi",
+      "after": "orkidoterapi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidoterapi@o",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@o",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidoterapio@",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidoterapio@",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidoterapi@ @orkidoterapi@",
+      "before": "orkidterapi orkidterapi",
+      "after": "orkidoterapi orkidoterapi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@ @orkidoterapi@",
+      "before": "orkidterapi orkidterapi",
+      "after": "orkidoterapi orkidoterapi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@testikit@",
+      "before": "orkidit",
+      "after": "testikit"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@testikit@",
+      "before": "orkidit",
+      "after": "testikit"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@testikit@o",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@testikit@o",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@testikito@",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@testikito@",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@testikit@ @testikit@",
+      "before": "orkidit orkidit",
+      "after": "testikit testikit"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@testikit@ @testikit@",
+      "before": "orkidit orkidit",
+      "after": "testikit testikit"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@paniklit@",
+      "before": "paniklkatar",
+      "after": "paniklit"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@paniklit@",
+      "before": "paniklkatar",
+      "after": "paniklit"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@paniklit@o",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@paniklit@o",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@paniklito@",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@paniklito@",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@paniklit@ @paniklit@",
+      "before": "paniklkatar paniklkatar",
+      "after": "paniklit paniklit"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@paniklit@ @paniklit@",
+      "before": "paniklkatar paniklkatar",
+      "after": "paniklit paniklit"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@litografi@",
+      "before": "ŝtonambici",
+      "after": "litografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@litografi@",
+      "before": "ŝtonambici",
+      "after": "litografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@litografi@o",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@litografi@o",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@litografio@",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@litografio@",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@litografi@ @litografi@",
+      "before": "ŝtonambici ŝtonambici",
+      "after": "litografi litografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@litografi@ @litografi@",
+      "before": "ŝtonambici ŝtonambici",
+      "after": "litografi litografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@fotolitografi@",
+      "before": "fotŝtonambici",
+      "after": "fotolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@fotolitografi@",
+      "before": "fotŝtonambici",
+      "after": "fotolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@fotolitografi@o",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@fotolitografi@o",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@fotolitografio@",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@fotolitografio@",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@fotolitografi@ @fotolitografi@",
+      "before": "fotŝtonambici fotŝtonambici",
+      "after": "fotolitografi fotolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@fotolitografi@ @fotolitografi@",
+      "before": "fotŝtonambici fotŝtonambici",
+      "after": "fotolitografi fotolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@kromolitografi@",
+      "before": "kolorŝtonambici",
+      "after": "kromolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@kromolitografi@",
+      "before": "kolorŝtonambici",
+      "after": "kromolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@kromolitografi@o",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@kromolitografi@o",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@kromolitografio@",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@kromolitografio@",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@kromolitografi@ @kromolitografi@",
+      "before": "kolorŝtonambici kolorŝtonambici",
+      "after": "kromolitografi kromolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@kromolitografi@ @kromolitografi@",
+      "before": "kolorŝtonambici kolorŝtonambici",
+      "after": "kromolitografi kromolitografi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@limak@o & @testikit@o",
+      "before": "蜗bovo & orkidito",
+      "after": "limako & testikito"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@limak@o & @testikit@o",
+      "before": "蜗bovo & orkidito",
+      "after": "limako & testikito"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "limake",
+      "before": "蜗bove",
+      "after": "limake"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "limake",
+      "before": "蜗bove",
+      "after": "limake"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@limak@",
+      "before": "蜗bov",
+      "after": "limak"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@limak@",
+      "before": "蜗bov",
+      "after": "limak"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@limak@o",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@limak@o",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@limako@",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@limako@",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@limak@ @limak@",
+      "before": "蜗bov 蜗bov",
+      "after": "limak limak"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@limak@ @limak@",
+      "before": "蜗bov 蜗bov",
+      "after": "limak limak"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidit@",
+      "before": "orkidkatar",
+      "after": "orkidit"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidit@",
+      "before": "orkidkatar",
+      "after": "orkidit"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidit@o",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidit@o",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidito@",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidito@",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidit@ @orkidit@",
+      "before": "orkidkatar orkidkatar",
+      "after": "orkidit orkidit"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidit@ @orkidit@",
+      "before": "orkidkatar orkidkatar",
+      "after": "orkidit orkidit"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidektomi@",
+      "before": "orkidescept",
+      "after": "orkidektomi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidektomi@",
+      "before": "orkidescept",
+      "after": "orkidektomi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidektomi@o",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidektomi@o",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidektomio@",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidektomio@",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidektomi@ @orkidektomi@",
+      "before": "orkidescept orkidescept",
+      "after": "orkidektomi orkidektomi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidektomi@ @orkidektomi@",
+      "before": "orkidescept orkidescept",
+      "after": "orkidektomi orkidektomi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidoterapi@",
+      "before": "orkidterapi",
+      "after": "orkidoterapi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@",
+      "before": "orkidterapi",
+      "after": "orkidoterapi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidoterapi@o",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@o",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidoterapio@",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidoterapio@",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@orkidoterapi@ @orkidoterapi@",
+      "before": "orkidterapi orkidterapi",
+      "after": "orkidoterapi orkidoterapi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@ @orkidoterapi@",
+      "before": "orkidterapi orkidterapi",
+      "after": "orkidoterapi orkidoterapi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@testikit@",
+      "before": "orkidit",
+      "after": "testikit"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@testikit@",
+      "before": "orkidit",
+      "after": "testikit"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@testikit@o",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@testikit@o",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@testikito@",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@testikito@",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@testikit@ @testikit@",
+      "before": "orkidit orkidit",
+      "after": "testikit testikit"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@testikit@ @testikit@",
+      "before": "orkidit orkidit",
+      "after": "testikit testikit"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@paniklit@",
+      "before": "paniklkatar",
+      "after": "paniklit"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@paniklit@",
+      "before": "paniklkatar",
+      "after": "paniklit"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@paniklit@o",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@paniklit@o",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@paniklito@",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@paniklito@",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@paniklit@ @paniklit@",
+      "before": "paniklkatar paniklkatar",
+      "after": "paniklit paniklit"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@paniklit@ @paniklit@",
+      "before": "paniklkatar paniklkatar",
+      "after": "paniklit paniklit"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@litografi@",
+      "before": "ŝtonambici",
+      "after": "litografi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@litografi@",
+      "before": "ŝtonambici",
+      "after": "litografi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@litografi@o",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@litografi@o",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@litografio@",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@litografio@",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@litografi@ @litografi@",
+      "before": "ŝtonambici ŝtonambici",
+      "after": "litografi litografi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@litografi@ @litografi@",
+      "before": "ŝtonambici ŝtonambici",
+      "after": "litografi litografi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@fotolitografi@",
+      "before": "fotŝtonambici",
+      "after": "fotolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@fotolitografi@",
+      "before": "fotŝtonambici",
+      "after": "fotolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@fotolitografi@o",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@fotolitografi@o",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@fotolitografio@",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@fotolitografio@",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@fotolitografi@ @fotolitografi@",
+      "before": "fotŝtonambici fotŝtonambici",
+      "after": "fotolitografi fotolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@fotolitografi@ @fotolitografi@",
+      "before": "fotŝtonambici fotŝtonambici",
+      "after": "fotolitografi fotolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@kromolitografi@",
+      "before": "kolorŝtonambici",
+      "after": "kromolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@kromolitografi@",
+      "before": "kolorŝtonambici",
+      "after": "kromolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@kromolitografi@o",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@kromolitografi@o",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@kromolitografio@",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@kromolitografio@",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@kromolitografi@ @kromolitografi@",
+      "before": "kolorŝtonambici kolorŝtonambici",
+      "after": "kromolitografi kromolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@kromolitografi@ @kromolitografi@",
+      "before": "kolorŝtonambici kolorŝtonambici",
+      "after": "kromolitografi kromolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "JA",
+      "input": "@limak@o & @testikit@o",
+      "before": "蜗bovo & orkidito",
+      "after": "limako & testikito"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "reverter": "ZH",
+      "input": "@limak@o & @testikit@o",
+      "before": "蜗bovo & orkidito",
+      "after": "limako & testikito"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "limake",
+      "before": "蜗bove",
+      "after": "limake"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "limake",
+      "before": "蜗bove",
+      "after": "limake"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@limak@",
+      "before": "蜗bov",
+      "after": "limak"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@limak@",
+      "before": "蜗bov",
+      "after": "limak"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@limak@o",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@limak@o",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@limako@",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@limako@",
+      "before": "蜗bovo",
+      "after": "limako"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@limak@ @limak@",
+      "before": "蜗bov 蜗bov",
+      "after": "limak limak"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@limak@ @limak@",
+      "before": "蜗bov 蜗bov",
+      "after": "limak limak"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidit@",
+      "before": "orkidkatar",
+      "after": "orkidit"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidit@",
+      "before": "orkidkatar",
+      "after": "orkidit"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidit@o",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidit@o",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidito@",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidito@",
+      "before": "orkidkataro",
+      "after": "orkidito"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidit@ @orkidit@",
+      "before": "orkidkatar orkidkatar",
+      "after": "orkidit orkidit"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidit@ @orkidit@",
+      "before": "orkidkatar orkidkatar",
+      "after": "orkidit orkidit"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidektomi@",
+      "before": "orkidescept",
+      "after": "orkidektomi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidektomi@",
+      "before": "orkidescept",
+      "after": "orkidektomi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidektomi@o",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidektomi@o",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidektomio@",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidektomio@",
+      "before": "orkidescepto",
+      "after": "orkidektomio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidektomi@ @orkidektomi@",
+      "before": "orkidescept orkidescept",
+      "after": "orkidektomi orkidektomi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidektomi@ @orkidektomi@",
+      "before": "orkidescept orkidescept",
+      "after": "orkidektomi orkidektomi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidoterapi@",
+      "before": "orkidterapi",
+      "after": "orkidoterapi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@",
+      "before": "orkidterapi",
+      "after": "orkidoterapi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidoterapi@o",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@o",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidoterapio@",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidoterapio@",
+      "before": "orkidterapio",
+      "after": "orkidoterapio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@orkidoterapi@ @orkidoterapi@",
+      "before": "orkidterapi orkidterapi",
+      "after": "orkidoterapi orkidoterapi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@orkidoterapi@ @orkidoterapi@",
+      "before": "orkidterapi orkidterapi",
+      "after": "orkidoterapi orkidoterapi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@testikit@",
+      "before": "orkidit",
+      "after": "testikit"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@testikit@",
+      "before": "orkidit",
+      "after": "testikit"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@testikit@o",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@testikit@o",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@testikito@",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@testikito@",
+      "before": "orkidito",
+      "after": "testikito"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@testikit@ @testikit@",
+      "before": "orkidit orkidit",
+      "after": "testikit testikit"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@testikit@ @testikit@",
+      "before": "orkidit orkidit",
+      "after": "testikit testikit"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@paniklit@",
+      "before": "paniklkatar",
+      "after": "paniklit"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@paniklit@",
+      "before": "paniklkatar",
+      "after": "paniklit"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@paniklit@o",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@paniklit@o",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@paniklito@",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@paniklito@",
+      "before": "paniklkataro",
+      "after": "paniklito"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@paniklit@ @paniklit@",
+      "before": "paniklkatar paniklkatar",
+      "after": "paniklit paniklit"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@paniklit@ @paniklit@",
+      "before": "paniklkatar paniklkatar",
+      "after": "paniklit paniklit"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@litografi@",
+      "before": "ŝtonambici",
+      "after": "litografi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@litografi@",
+      "before": "ŝtonambici",
+      "after": "litografi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@litografi@o",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@litografi@o",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@litografio@",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@litografio@",
+      "before": "ŝtonambicio",
+      "after": "litografio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@litografi@ @litografi@",
+      "before": "ŝtonambici ŝtonambici",
+      "after": "litografi litografi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@litografi@ @litografi@",
+      "before": "ŝtonambici ŝtonambici",
+      "after": "litografi litografi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@fotolitografi@",
+      "before": "fotŝtonambici",
+      "after": "fotolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@fotolitografi@",
+      "before": "fotŝtonambici",
+      "after": "fotolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@fotolitografi@o",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@fotolitografi@o",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@fotolitografio@",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@fotolitografio@",
+      "before": "fotŝtonambicio",
+      "after": "fotolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@fotolitografi@ @fotolitografi@",
+      "before": "fotŝtonambici fotŝtonambici",
+      "after": "fotolitografi fotolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@fotolitografi@ @fotolitografi@",
+      "before": "fotŝtonambici fotŝtonambici",
+      "after": "fotolitografi fotolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@kromolitografi@",
+      "before": "kolorŝtonambici",
+      "after": "kromolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@kromolitografi@",
+      "before": "kolorŝtonambici",
+      "after": "kromolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@kromolitografi@o",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@kromolitografi@o",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@kromolitografio@",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@kromolitografio@",
+      "before": "kolorŝtonambicio",
+      "after": "kromolitografio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@kromolitografi@ @kromolitografi@",
+      "before": "kolorŝtonambici kolorŝtonambici",
+      "after": "kromolitografi kromolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@kromolitografi@ @kromolitografi@",
+      "before": "kolorŝtonambici kolorŝtonambici",
+      "after": "kromolitografi kromolitografi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "JA",
+      "input": "@limak@o & @testikit@o",
+      "before": "蜗bovo & orkidito",
+      "after": "limako & testikito"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "reverter": "ZH",
+      "input": "@limak@o & @testikit@o",
+      "before": "蜗bovo & orkidito",
+      "after": "limako & testikito"
+    }
+  ],
+  "baseline_public_commit": "82036f29229b8a2a53c4c80abcc1c3c39df28f70",
+  "method": "Actual before/after annotator runtime with auto-correction, checked against original ruby and actual JA/ZH reverse converters; existing unrelated reverse failures retained and reported.",
+  "current_reverse_successes": 2292
+}

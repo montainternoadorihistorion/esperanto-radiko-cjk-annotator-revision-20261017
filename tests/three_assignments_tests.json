@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "existing_tests_passed": 19,
+  "new_tests_passed": 2,
+  "new_runtime_cases": 3645,
+  "manual_cases": 351,
+  "method": "Initial discovery passed all 19 existing tests and the new whole-table test. The new runtime test had incorrect expectations for protected text and KURI casing; those expectations were corrected without changing app data, then both new tests were rerun and passed against public baseline 82036f2.",
+  "current_test_sha256": "2f9da35eb428446771b21a44fe34c201703798480d9fe7f3c66c49bdd32f8b6c"
+}
