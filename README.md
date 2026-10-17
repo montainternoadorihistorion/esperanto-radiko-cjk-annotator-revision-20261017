@@ -410,3 +410,5 @@ python -B -X utf8 tests/app_ui_smoke.py --sutur-fraj
 [公開版のテスト記録](tests/sutur_fraj_local_checks.json)では、初回の全23テストで旧注釈SHAの期待値が1件失敗しました。承認済みのfrajだけが変わった12ファイルに限って新旧SHAを固定し、当該テストの再実行が成功しました。残り41ファイルと過去manifestは不変です。[差分の独立検証](tests/sutur_fraj_mirror_guard_delta.json)も収録しています。全suiteの二回目実行はしておらず、初回結果と修正後の単体成功を区別しています。
 
 統合側の初回全体テストは291件で、同じ期待値の失敗1件、以前からのエラー5件、skip8件でした。期待値修正後の当該テストは成功し、残る5エラーは変更前データでも再現した旧Git参照・過去の固定データ照合によるものです。未解決の新規失敗はありませんが、統合側全体の全件成功とは扱っていません。[画面コードの検証](tests/app_ui_sutur_fraj.json)では日中韓の9変換・補助ページ6経路・メイン画面へ戻った後の6変換を確認しています。
+
+[PR #23](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/23)をmainへ反映した後、ChromeのAdoriHistorionプロフィールから日中韓Cloudの注釈ルビ／漢字ルビ／純粋置換を実操作し、9ケースすべてが検証済みローカル出力と全文一致しました。対象mainコミットは`5522316dfa7cc0c11766b0a4a154794211daeebf`です。[実画面から取得した出力](tests/sutur_fraj_cloud/cloud_capture.json)、[全文照合結果](tests/sutur_fraj_cloud/cloud_verification.json)、[日本語版の画面](tests/sutur_fraj_cloud/cloud_ja_sutur_fraj.png)を保存しました。通常／`@`入力、卵塊と産卵の注釈、`frajt`・`prism`・`semajn`・既存識別子・保護範囲を含みます。Cloudの実行コミットを内部APIで取得したものではなく、公開mainへの反映後に取得した実出力とローカル版を照合した証拠です。
