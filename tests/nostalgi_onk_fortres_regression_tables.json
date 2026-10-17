@@ -1,0 +1,382 @@
+{
+  "passed": true,
+  "baseline_ref": null,
+  "baseline_snapshot": "app_before_assets.zip",
+  "phase": "after",
+  "assignments": {
+    "nostalgi": [
+      "怀旧",
+      "怀ᴺ"
+    ],
+    "onk": [
+      "肿瘤",
+      "瘤ᴼ"
+    ],
+    "fortres": [
+      "堡垒",
+      "堡ᶠᴿ"
+    ],
+    "onkogen": [
+      "肿瘤生ᴳ",
+      "瘤ᴼ生ᴳ"
+    ],
+    "onkologi": [
+      "肿瘤学ᴸᴳ",
+      "瘤ᴼ学ᴸᴳ"
+    ]
+  },
+  "limitations": [
+    "Preserves all non-target annotation pieces and segmentation; target meanings have independent literal expectations. Other annotations are not semantically re-audited."
+  ],
+  "tables": [
+    {
+      "language": "JA",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 27,
+          "target_pieces": {
+            "nostalgi": 3,
+            "onk": 21,
+            "fortres": 3,
+            "onkogen": 0,
+            "onkologi": 0
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0,
+          "target_pieces": {
+            "nostalgi": 0,
+            "onk": 0,
+            "fortres": 0,
+            "onkogen": 0,
+            "onkologi": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": 15,
+          "target_pieces": {
+            "nostalgi": 3,
+            "onk": 3,
+            "fortres": 3,
+            "onkogen": 3,
+            "onkologi": 3
+          }
+        }
+      },
+      "unchanged_data_files": [
+        "char_widths.json",
+        "E_stem.json",
+        "Mingeo先生版 世界语词根-汉字对应列表.csv",
+        "placeholders_2char.txt",
+        "placeholders_global.txt",
+        "placeholders_local.txt",
+        "placeholders_localcapture.txt",
+        "placeholders_skip.txt",
+        "root_list.txt",
+        "user_corrections.json",
+        "Корни эсперанто – список с русским переводом и руби.csv",
+        "エスペラント語根-日本語訳ルビ対応リスト(習得レベル付き).xlsx",
+        "世界语词根-汉字对应列表.csv",
+        "分解設定.json",
+        "替换后文字列(汉字)の使用者自定义设置(基本上完全不推荐).json"
+      ]
+    },
+    {
+      "language": "ZH",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 27,
+          "target_pieces": {
+            "nostalgi": 3,
+            "onk": 21,
+            "fortres": 3,
+            "onkogen": 0,
+            "onkologi": 0
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0,
+          "target_pieces": {
+            "nostalgi": 0,
+            "onk": 0,
+            "fortres": 0,
+            "onkogen": 0,
+            "onkologi": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": 15,
+          "target_pieces": {
+            "nostalgi": 3,
+            "onk": 3,
+            "fortres": 3,
+            "onkogen": 3,
+            "onkologi": 3
+          }
+        }
+      },
+      "unchanged_data_files": [
+        "char_widths.json",
+        "E_stem.json",
+        "Mingeo先生版 世界语词根-汉字对应列表.csv",
+        "placeholders_2char.txt",
+        "placeholders_global.txt",
+        "placeholders_local.txt",
+        "placeholders_localcapture.txt",
+        "placeholders_skip.txt",
+        "root_list.txt",
+        "user_corrections.json",
+        "エスペラント語根-日本語訳ルビ対応リスト(習得レベル付き).xlsx",
+        "世界语词根-汉字对应列表.csv",
+        "分解設定.json",
+        "替换后文字列(汉字)の使用者自定义设置(基本上完全不推荐).json"
+      ]
+    },
+    {
+      "language": "KO",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 27,
+          "target_pieces": {
+            "nostalgi": 3,
+            "onk": 21,
+            "fortres": 3,
+            "onkogen": 0,
+            "onkologi": 0
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0,
+          "target_pieces": {
+            "nostalgi": 0,
+            "onk": 0,
+            "fortres": 0,
+            "onkogen": 0,
+            "onkologi": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": 15,
+          "target_pieces": {
+            "nostalgi": 3,
+            "onk": 3,
+            "fortres": 3,
+            "onkogen": 3,
+            "onkologi": 3
+          }
+        }
+      },
+      "unchanged_data_files": [
+        "char_widths.json",
+        "E_stem.json",
+        "Mingeo先生版 世界语词根-汉字对应列表.csv",
+        "placeholders_2char.txt",
+        "placeholders_global.txt",
+        "placeholders_local.txt",
+        "placeholders_localcapture.txt",
+        "placeholders_skip.txt",
+        "root_list.txt",
+        "user_corrections.json",
+        "Корни эсперанто – список с русским переводом и руби.csv",
+        "世界语词根-汉字对应列表.csv",
+        "分解設定.json",
+        "替换后文字列(汉字)の使用者自定义设置(基本上完全不推荐).json",
+        "에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx"
+      ]
+    }
+  ],
+  "annotation_tables": [
+    {
+      "language": "JA",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 573313,
+          "changed": 27,
+          "target_pieces": {
+            "nostalgi": 3,
+            "onk": 21,
+            "fortres": 3
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0,
+          "target_pieces": {
+            "nostalgi": 0,
+            "onk": 0,
+            "fortres": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 50546,
+          "changed": 9,
+          "target_pieces": {
+            "nostalgi": 3,
+            "onk": 3,
+            "fortres": 3
+          }
+        }
+      },
+      "changed_word_keys": [
+        "fortres",
+        "nostalgi",
+        "onk",
+        "onk/o/gen",
+        "onk/o/logi"
+      ],
+      "csvs": [
+        {
+          "file": "エスペラント語根-日本語訳ルビ対応リスト.csv",
+          "target_roots": [
+            "nostalgi",
+            "fortres",
+            "onk"
+          ]
+        },
+        {
+          "file": "世界语词根-中文注释对应列表.csv",
+          "target_roots": [
+            "nostalgi"
+          ]
+        },
+        {
+          "file": "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+          "target_roots": [
+            "nostalgi"
+          ]
+        }
+      ]
+    },
+    {
+      "language": "ZH",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 573313,
+          "changed": 27,
+          "target_pieces": {
+            "nostalgi": 3,
+            "onk": 21,
+            "fortres": 3
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0,
+          "target_pieces": {
+            "nostalgi": 0,
+            "onk": 0,
+            "fortres": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 50549,
+          "changed": 9,
+          "target_pieces": {
+            "nostalgi": 3,
+            "onk": 3,
+            "fortres": 3
+          }
+        }
+      },
+      "changed_word_keys": [
+        "fortres",
+        "nostalgi",
+        "onk",
+        "onk/o/gen",
+        "onk/o/logi"
+      ],
+      "csvs": [
+        {
+          "file": "世界语词根-中文注释对应列表.csv",
+          "target_roots": [
+            "nostalgi",
+            "fortres",
+            "onk"
+          ]
+        }
+      ]
+    },
+    {
+      "language": "KO",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 573313,
+          "changed": 27,
+          "target_pieces": {
+            "nostalgi": 3,
+            "onk": 21,
+            "fortres": 3
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0,
+          "target_pieces": {
+            "nostalgi": 0,
+            "onk": 0,
+            "fortres": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 50540,
+          "changed": 9,
+          "target_pieces": {
+            "nostalgi": 3,
+            "onk": 3,
+            "fortres": 3
+          }
+        }
+      },
+      "changed_word_keys": [
+        "fortres",
+        "nostalgi",
+        "onk",
+        "onk/o/gen",
+        "onk/o/logi"
+      ],
+      "csvs": [
+        {
+          "file": "世界语词根-中文注释对应列表.csv",
+          "target_roots": [
+            "nostalgi"
+          ]
+        },
+        {
+          "file": "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+          "target_roots": [
+            "nostalgi",
+            "fortres",
+            "onk"
+          ]
+        }
+      ]
+    }
+  ],
+  "mirror_segmentation_checks": 24,
+  "runtime_semantics": {
+    "JA": {
+      "nostalgi": 44,
+      "onk": 47,
+      "fortres": 41
+    },
+    "ZH": {
+      "nostalgi": 44,
+      "onk": 47,
+      "fortres": 41
+    },
+    "KO": {
+      "nostalgi": 44,
+      "onk": 47,
+      "fortres": 41
+    }
+  }
+}
