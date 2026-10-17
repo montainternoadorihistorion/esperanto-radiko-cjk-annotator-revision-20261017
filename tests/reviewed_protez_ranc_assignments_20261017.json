@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "private_baseline": "1eca858",
+  "assignments": {
+    "protez": {
+      "before": "假肢",
+      "after": "假体"
+    },
+    "ranc": {
+      "before": "哈喇",
+      "after": "酸败"
+    }
+  },
+  "preserved_user_choices": {
+    "hangar": "棚库",
+    "kontest": "异议",
+    "kruc": "十字",
+    "cisticerk": "囊尾虫",
+    "risort": "簧",
+    "anĉ": "簧ᴬ",
+    "lantern": "灯ᴸᴺ",
+    "lubrik": "滑ᴸ"
+  },
+  "reason": "User adopted protez=假体 for artificial substitutes including teeth and ranc=酸败 for rancid fats/oils; preserve meanings, segmentation, other assignments and identifiers.",
+  "canonical_manifest_sha256": "770b90a735d7360348cea87ab33d2affdc1e34ce8467889b89e64f7538e52889"
+}
