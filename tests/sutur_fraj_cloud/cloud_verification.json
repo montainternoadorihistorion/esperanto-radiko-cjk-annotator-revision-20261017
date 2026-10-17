@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "cases": 9,
+  "results": [
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "缝ˢᴿo 缝ˢᴿo 缝ˢᴿi 卵ᶠo 卵ᶠo 卵ᶠi 蛙a 卵ᶠo 鱼ᴹ卵ᶠo 卵ᶠ行o 卵ᶠ在a 货ᶠo 货ᶠo 棱镜o 棱镜o 缝i 缝ˢo 卵o 卵ᴼᴸo 卵ᴷo 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 皱布o 绕射o 卯o 恶女o 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "html_output_exact": null,
+      "visible": "缝ˢᴿo 缝ˢᴿo 缝ˢᴿi 卵ᶠo 卵ᶠo 卵ᶠi 蛙a 卵ᶠo 鱼ᴹ卵ᶠo 卵ᶠ行o 卵ᶠ在a 货ᶠo 货ᶠo 棱镜o 棱镜o 缝i 缝ˢo 卵o 卵ᴼᴸo 卵ᴷo 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 皱布o 绕射o 卯o 恶女o 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio",
+      "restoration_method": "Exact pure text equality; source obtained from matching captured Kanji ruby, not from reversing pure text",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "缝ˢᴿo 缝ˢᴿo 缝ˢᴿi 卵ᶠo 卵ᶠo 卵ᶠi 蛙a 卵ᶠo 鱼ᴹ卵ᶠo 卵ᶠ行o 卵ᶠ在a 货ᶠo 货ᶠo 棱镜o 棱镜o 缝i 缝ˢo 卵o 卵ᴼᴸo 卵ᴷo 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 皱布o 绕射o 卯o 恶女o 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "html_output_exact": null,
+      "visible": "缝ˢᴿo 缝ˢᴿo 缝ˢᴿi 卵ᶠo 卵ᶠo 卵ᶠi 蛙a 卵ᶠo 鱼ᴹ卵ᶠo 卵ᶠ行o 卵ᶠ在a 货ᶠo 货ᶠo 棱镜o 棱镜o 缝i 缝ˢo 卵o 卵ᴼᴸo 卵ᴷo 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 皱布o 绕射o 卯o 恶女o 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio",
+      "restoration_method": "Exact pure text equality; source obtained from matching captured Kanji ruby, not from reversing pure text",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "缝ˢᴿo 缝ˢᴿo 缝ˢᴿi 卵ᶠo 卵ᶠo 卵ᶠi 蛙a 卵ᶠo 鱼ᴹ卵ᶠo 卵ᶠ行o 卵ᶠ在a 货ᶠo 货ᶠo 棱镜o 棱镜o 缝i 缝ˢo 卵o 卵ᴼᴸo 卵ᴷo 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 皱布o 绕射o 卯o 恶女o 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "html_output_exact": null,
+      "visible": "缝ˢᴿo 缝ˢᴿo 缝ˢᴿi 卵ᶠo 卵ᶠo 卵ᶠi 蛙a 卵ᶠo 鱼ᴹ卵ᶠo 卵ᶠ行o 卵ᶠ在a 货ᶠo 货ᶠo 棱镜o 棱镜o 缝i 缝ˢo 卵o 卵ᴼᴸo 卵ᴷo 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 皱布o 绕射o 卯o 恶女o 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o",
+      "restored_text": "suturo suturo suturi frajo frajo fraji rana frajo morufrajo frajado frajanta frajto frajto prismo prismo kudri stebo ovo ovolo kojono semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca krepo difrakto mortezo megero hangaro kontesti cisticerko bufo lofio",
+      "restoration_method": "Exact pure text equality; source obtained from matching captured Kanji ruby, not from reversing pure text",
+      "passed": true
+    }
+  ],
+  "method": "Actual connected Chrome capture compared exactly with public local-runtime fixture; complete output paragraph, visible text, and source spelling checked",
+  "source_commit_on_main": "5522316dfa7cc0c11766b0a4a154794211daeebf",
+  "browser_profile": "AdoriHistorion",
+  "captured_at": "2026-10-17T11:52:46.655Z",
+  "fixture_sha256": "706628ad16afcc4208f14711260ffe5509f5009466d0fab6034b178b7d668e9f",
+  "capture_sha256": "652900ac9cf0d12e7ed24c1de5f2d0b29e57a0b8cbaa763d12ac995d81494db3",
+  "limitations": [
+    "Pure text has no ruby source spelling. Its source field comes from the separately captured and verified Kanji ruby result; the actual inverse converter is verified separately.",
+    "Only the approved fraj annotation changes are included; other annotation meanings were not newly reviewed. Existing segmentation is preserved.",
+    "The commit field records the release being checked; this script does not query the Streamlit deployment commit."
+  ]
+}
