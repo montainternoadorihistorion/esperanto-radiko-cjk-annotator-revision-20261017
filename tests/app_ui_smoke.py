@@ -44,7 +44,9 @@ SUTUR_FRAJ_EXPECTED = FOUR_REVIEWED_EXPECTED + ' 缝ˢᴿo 缝ˢᴿo 缝ˢᴿi �
 NOSTALGI_ONK_FORTRES_SOURCE = SUTUR_FRAJ_SOURCE + ' nostalgio @nostalgi@o onko @onk@o onkogena @onkogen@a onkologio @onkologi@o fortreso @fortres@o koincidi @koincid@i'
 NOSTALGI_ONK_FORTRES_EXPECTED = SUTUR_FRAJ_EXPECTED + ' 怀ᴺo 怀ᴺo 瘤ᴼo 瘤ᴼo 瘤ᴼo生ᴳa 瘤ᴼ生ᴳa 瘤ᴼo学ᴸᴳo 瘤ᴼ学ᴸᴳo 堡ᶠᴿo 堡ᶠᴿo 巧合i 巧合i'
 SATIR_SOURCE = NOSTALGI_ONK_FORTRES_SOURCE + ' satiro @satir@o karikaturo @karikatur@o sarkasmo @sarkasm@o spermo @sperm@o ĉuro @ĉur@o spermatozoo'
-SATIR_EXPECTED = NOSTALGI_ONK_FORTRES_EXPECTED + ' 讽o 讽o 讽ᴷo 讽ᴷo 讽ˢᴿo 讽ˢᴿo 精液o 精液o 精液ᶜ̂o 精液ᶜ̂o spermatozoo'
+SATIR_EXPECTED = NOSTALGI_ONK_FORTRES_EXPECTED + ' 讽o 讽o 讽ᴷo 讽ᴷo 讽ˢᴿo 讽ˢᴿo 精液o 精液o 精液ᶜ̂o 精液ᶜ̂o 精子ˢᶻo'
+SPERM_DISTINCTION_SOURCE = SATIR_SOURCE + ' @spermatozo@o spermatozooj @spermatozo@ojn spermato @spermat@o spermatio @spermati@o spermatocito @spermatocit@o spermatofitoj @spermatofit@oj spermatogenezo @spermatogenez@o silfo @silf@o'
+SPERM_DISTINCTION_EXPECTED = SATIR_EXPECTED + ' 精子ˢᶻo 精子ˢᶻoj 精子ˢᶻojn 精子o 精子o 精子ˢᴵo 精子ˢᴵo 精子o胞ᶜᴵo 精子胞ᶜᴵo 精子o植ᶠoj 精子植ᶠoj 精子o源ᴳo 精子源ᴳo 精ˢo 精ˢo'
 LANGUAGES = ('JA', 'ZH', 'KO')
 
 
@@ -99,7 +101,7 @@ def run_language(language):
         run_from_root(at)
         rendered = at.session_state['result_html']
         assert rendered and '@' not in rendered, 'The local marker was not removed'
-        if SOURCE in (SUTUR_FRAJ_SOURCE, NOSTALGI_ONK_FORTRES_SOURCE, SATIR_SOURCE) and index == 0:
+        if SOURCE in (SUTUR_FRAJ_SOURCE, NOSTALGI_ONK_FORTRES_SOURCE, SATIR_SOURCE, SPERM_DISTINCTION_SOURCE) and index == 0:
             # Independent semantic expectations from the user-approved meaning.
             meanings = {
                 'JA': ('魚・カエルなどの卵の集まり', '産卵する'),
@@ -111,7 +113,7 @@ def run_language(language):
                          re.findall(r'<ruby>(.*?)<rt[^>]*>(.*?)</rt></ruby>', rendered, re.S)
                          if flatten(source).lower() == 'fraj'}
             assert fraj_ruby == {flatten(value) for value in meanings[language]}, (language, fraj_ruby)
-        if SOURCE in (NOSTALGI_ONK_FORTRES_SOURCE, SATIR_SOURCE) and index == 0:
+        if SOURCE in (NOSTALGI_ONK_FORTRES_SOURCE, SATIR_SOURCE, SPERM_DISTINCTION_SOURCE) and index == 0:
             meanings = {
                 'JA': {'nostalgi': '郷愁・懐かしさや憧れに伴う悲しさ', 'onk': '腫瘍（特に悪性）', 'fortres': '大規模で堅固な要塞'},
                 'ZH': {'nostalgi': '思乡、怀旧或渴望引起的悲伤', 'onk': '肿瘤（尤指恶性）', 'fortres': '大型坚固要塞'},
@@ -121,6 +123,28 @@ def run_language(language):
                      re.findall(r'<ruby>(.*?)<rt[^>]*>(.*?)</rt></ruby>', rendered, re.S)]
             for root, meaning in meanings[language].items():
                 assert {gloss for source, gloss in pairs if source == root} == {flatten(meaning)}, (language, root, pairs)
+        if SOURCE == SPERM_DISTINCTION_SOURCE and index == 0:
+            # Independently reviewed meanings: cell/liquid distinction and
+            # botanical senses survive the shared kanji spelling.
+            meaning_tokens = {
+                'JA': {'sperm': ('精液',), 'ĉur': ('精液',),
+                       'spermatozo': ('精子',), 'spermatofit': ('種子植物',),
+                       'spermati': ('植物', '不動'), 'cit': ('細胞',)},
+                'ZH': {'sperm': ('精液',), 'ĉur': ('精液',),
+                       'spermatozo': ('精子',), 'spermatofit': ('种子植物',),
+                       'spermati': ('植物', '不动'), 'cit': ('细胞',)},
+                'KO': {'sperm': ('정액',), 'ĉur': ('정액',),
+                       'spermatozo': ('정자',), 'spermatofit': ('종자식물',),
+                       'spermati': ('식물', '비운동'), 'cit': ('세포',)},
+            }
+            for root, tokens in meaning_tokens[language].items():
+                glosses = [gloss for source, gloss in pairs if source == root]
+                assert glosses and all(all(flatten(token) in gloss for token in tokens)
+                                       for gloss in glosses), (language, root, glosses)
+            for root in ('sperm', 'ĉur'):
+                cell_word = '정자' if language == 'KO' else '精子'
+                assert all(cell_word not in gloss for source, gloss in pairs
+                           if source == root), (language, root, pairs)
         assert 'amiko' in rendered and '%amiko%' not in rendered, 'The skip marker contract failed'
         assert '&' in html.unescape(rendered), 'The ampersand was not preserved'
         if index == 2:
@@ -204,7 +228,8 @@ def main():
     scenario.add_argument('--four-reviewed', action='store_true', help='Exercise krep/difrakt/mortez/meger and preserved controls')
     scenario.add_argument('--sutur-fraj', action='store_true', help='Exercise sutur/fraj and preserved prism/shared identifiers')
     scenario.add_argument('--nostalgi-onk-fortres', action='store_true', help='Exercise three approved roots, onk component identifiers and retained koincid')
-    scenario.add_argument('--satir', action='store_true', help='Exercise satir and identifier changes while retaining semen and deferred spermatozo')
+    scenario.add_argument('--satir', action='store_true', help='Exercise satir identifiers and semen controls with current spermatozo spelling')
+    scenario.add_argument('--sperm-distinction', action='store_true', help='Exercise sperm cells versus semen, spermat family, botanical meanings and shared identifiers')
     args = parser.parse_args()
     if args.revision:
         SOURCE, EXPECTED = REVISION_SOURCE, REVISION_EXPECTED
@@ -228,6 +253,8 @@ def main():
         SOURCE, EXPECTED = NOSTALGI_ONK_FORTRES_SOURCE, NOSTALGI_ONK_FORTRES_EXPECTED
     if args.satir:
         SOURCE, EXPECTED = SATIR_SOURCE, SATIR_EXPECTED
+    if args.sperm_distinction:
+        SOURCE, EXPECTED = SPERM_DISTINCTION_SOURCE, SPERM_DISTINCTION_EXPECTED
     if args.language:
         try:
             result = run_language(args.language)
@@ -244,7 +271,7 @@ def main():
     for language in LANGUAGES:
         child = subprocess.run(
             [sys.executable, '-B', '-X', 'utf8', str(Path(__file__).resolve()),
-             '--language', language, *(['--revision'] if args.revision else ['--stafilokok'] if args.stafilokok else ['--four-shared'] if args.four_shared else ['--uve'] if args.uve else ['--observatori'] if args.observatori else ['--three-short'] if args.three_short else ['--protez-ranc'] if args.protez_ranc else ['--four-reviewed'] if args.four_reviewed else ['--sutur-fraj'] if args.sutur_fraj else ['--nostalgi-onk-fortres'] if args.nostalgi_onk_fortres else ['--satir'] if args.satir else [])], cwd=ROOT, capture_output=True, text=True,
+             '--language', language, *(['--revision'] if args.revision else ['--stafilokok'] if args.stafilokok else ['--four-shared'] if args.four_shared else ['--uve'] if args.uve else ['--observatori'] if args.observatori else ['--three-short'] if args.three_short else ['--protez-ranc'] if args.protez_ranc else ['--four-reviewed'] if args.four_reviewed else ['--sutur-fraj'] if args.sutur_fraj else ['--nostalgi-onk-fortres'] if args.nostalgi_onk_fortres else ['--satir'] if args.satir else ['--sperm-distinction'] if args.sperm_distinction else [])], cwd=ROOT, capture_output=True, text=True,
             encoding='utf-8', timeout=600)
         if child.returncode:
             try:
@@ -272,7 +299,7 @@ def main():
             'Subpages were checked for startup and controls, not full correction editing workflows.',
             'Remote download availability and Streamlit Cloud deployment were not tested.',
         ],
-        'command': 'python -B -X utf8 tests/app_ui_smoke.py' + (' --revision' if args.revision else ' --stafilokok' if args.stafilokok else ' --four-shared' if args.four_shared else ' --uve' if args.uve else ' --observatori' if args.observatori else ' --three-short' if args.three_short else ' --protez-ranc' if args.protez_ranc else ' --four-reviewed' if args.four_reviewed else ' --sutur-fraj' if args.sutur_fraj else ' --nostalgi-onk-fortres' if args.nostalgi_onk_fortres else ' --satir' if args.satir else ''),
+        'command': 'python -B -X utf8 tests/app_ui_smoke.py' + (' --revision' if args.revision else ' --stafilokok' if args.stafilokok else ' --four-shared' if args.four_shared else ' --uve' if args.uve else ' --observatori' if args.observatori else ' --three-short' if args.three_short else ' --protez-ranc' if args.protez_ranc else ' --four-reviewed' if args.four_reviewed else ' --sutur-fraj' if args.sutur_fraj else ' --nostalgi-onk-fortres' if args.nostalgi_onk_fortres else ' --satir' if args.satir else ' --sperm-distinction' if args.sperm_distinction else ''),
         'cwd': '.', 'completed_at_utc': datetime.now(timezone.utc).isoformat(),
         'environment': {'python': platform.python_version(), 'system': platform.system(),
                         'streamlit': streamlit.__version__, 'pandas': pandas.__version__},
@@ -281,7 +308,7 @@ def main():
         'script_bytes_unchanged_during_run': True, 'script_sha256': scripts,
         'languages': language_results, 'results': rows, 'pages': pages, 'returns': returns,
     }
-    output_name = 'app_ui_satir.json' if args.satir else 'app_ui_nostalgi_onk_fortres.json' if args.nostalgi_onk_fortres else 'app_ui_sutur_fraj.json' if args.sutur_fraj else 'app_ui_four_reviewed.json' if args.four_reviewed else 'app_ui_protez_ranc.json' if args.protez_ranc else 'app_ui_three_short.json' if args.three_short else 'app_ui_observatori.json' if args.observatori else 'app_ui_uve.json' if args.uve else 'app_ui_four_shared.json' if args.four_shared else 'app_ui_stafilokok.json' if args.stafilokok else 'app_ui_mirror_identifiers.json' if args.revision else 'app_ui_smoke.json'
+    output_name = 'app_ui_sperm_distinction.json' if args.sperm_distinction else 'app_ui_satir.json' if args.satir else 'app_ui_nostalgi_onk_fortres.json' if args.nostalgi_onk_fortres else 'app_ui_sutur_fraj.json' if args.sutur_fraj else 'app_ui_four_reviewed.json' if args.four_reviewed else 'app_ui_protez_ranc.json' if args.protez_ranc else 'app_ui_three_short.json' if args.three_short else 'app_ui_observatori.json' if args.observatori else 'app_ui_uve.json' if args.uve else 'app_ui_four_shared.json' if args.four_shared else 'app_ui_stafilokok.json' if args.stafilokok else 'app_ui_mirror_identifiers.json' if args.revision else 'app_ui_smoke.json'
     output_path = Path(__file__).with_name(output_name)
     output_path.write_text(
         json.dumps(output, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')

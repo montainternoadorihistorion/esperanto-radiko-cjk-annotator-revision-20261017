@@ -21,6 +21,8 @@ CONTROLS={**{'krep': '皱布', 'difrakt': '绕射', 'mortez': '卯', 'meger': '�
 # Keep the older scope and recorded regression evidence unchanged.
 HISTORICAL_CONTROLS = dict(CONTROLS)
 CONTROLS.update({'satir':'讽','karikatur':'讽ᴷ','sarkasm':'讽ˢᴿ'})
+# Follow the later explicitly adopted sperm-cell assignments in current checks.
+CONTROLS.update({'spermat':'精子','spermati':'精子ˢᴵ','spermatozo':'精子ˢᶻ'})
 TARGET_WORDS=[form for root in VALUES for base in
  (root+'o',root+'oj',root+'on',root+'ojn',root+'a',root+'aj',root+'ajn',root+'e',
   '@'+root+'@o','@'+root+'o@','@'+root+'@ojn') for form in (base,base.title(),base.upper())]

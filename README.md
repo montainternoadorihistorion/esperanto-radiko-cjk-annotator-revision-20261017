@@ -468,3 +468,27 @@ python -B -X utf8 tests/app_ui_smoke.py --nostalgi-onk-fortres
 公開用の全23テストと、実Streamlit AppTestによる3言語×3モード・6補助ページ・6復帰経路を確認しました。[画面経路の検証結果](tests/app_ui_satir.json)はローカル実行であり、Cloud実画面の確認とは区別しています。
 
 [PR #27](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/27)のmain反映後、Chromeから日中韓Cloudの注釈ルビ・漢字ルビ・純粋置換を実操作し、9ケースすべてが検証済みローカル出力と一致しました。HTMLは画面のソース編集欄から取得し、ページ外枠を除いた本文を完全一致で照合しています。[取得結果と比較記録](tests/cloud_satir_verification.json)、[日本語版の実画面](tests/cloud_satir_ja.png)を保存しました。確認対象のリポジトリコミットは `a1aefc2511e6996d10b6e12e08ac4dac2c58a7dd` です。Cloud内部の実行コミットを取得したものではなく、公開main反映後の実出力による確認です。既存の `spermatozo` の強制分解の問題を解消済みとは扱いません。
+
+## 精子と精液の区別（2026-10-18）
+
+本人の明示採用により、前節の保留を解除します。`spermatozo` と既存の `spermat` 系列には「精子」、`sperm／ĉur` には「精液」を使います。植物語を含む系列共通の漢字表記を採用し、`spermatofitoj` の「種子植物」、`spermati` の植物の不動性生殖細胞など、個別の意味は注釈で保ちます。
+
+| 語根 | 旧表記 | 採用表記 |
+|---|---|---|
+| `spermat` | 精ˢ | 精子 |
+| `spermati` | 精ˢᴵ | 精子ˢᴵ |
+| `spermatozo` | 未割当 | 精子ˢᶻ |
+| `spermatocit` | 精ˢ胞ᶜᴵ | 精子胞ᶜᴵ |
+| `spermatofit` | 精ˢ植ᶠ | 精子植ᶠ |
+| `spermatogenez` | 精ˢ源ᴳ | 精子源ᴳ |
+| `silf` | 精ˢᴸ | 精ˢ |
+
+採用理由は、生殖細胞とそれを含む液体を区別し、系列の表記をそろえることです。「精」「子」は既用字を共用します。「精」14画から「精子」17画への増加は、今回の意味の区別を優先した本人の選択として記録します。`sperm＝精液` と `ĉur＝精液ᶜ̂` は維持します。
+
+上付き識別子は既存アルゴリズムによる実計算です。新規の `spermatozo` は既定の追加優先度で登録し、無印を特別に割り当てません。旧「精ˢ」は `spermat`、現行「精ˢ」は `silf` になるため、統合側の逆変換には変更前辞書を別の版として保持します。
+
+注釈も文脈ごとに確認しました。一般の `sperm／ĉur` は精液、`spermicid` の `sperm` 成分は精子、`endo/sperm`・`peri/sperm` の成分は種子の意味を保ちます。`@spermatocit@` の `cit` が一般語義の「引用する」へ戻る問題は、この複合語の中だけ「細胞」に修正しました。`spermat/o/cit` と `spermat/o/genez` の区切りを維持し、手動で語根全体を指定した場合には、それぞれ「精母細胞」「精子形成」の注釈を用います。
+
+公開用の全23テストと、ローカルの実Streamlit AppTestによる3言語×3モード・6補助ページ・6復帰経路が成功しました。通常変換・`@` 指定・手動指定の前後比較は[全件の実出力](tests/sperm_distinction_regression.json)、[全規則の比較](tests/sperm_distinction_regression_tables.json)、[画面経路の結果](tests/app_ui_sperm_distinction.json)に記録しています。
+
+統合側では、正本10,469語根を実際の識別子生成器で再生成して一致を確認しています。原辞書の語義・分解・マーカーを維持し、旧文用の逆変換辞書も保存しました。過去のGitオブジェクト欠落に依存する既存テストと、旧生成段階の固定行数の不一致は別に記録しています。今回の最終生成処理と再適用の検証を、全歴史段階の再生成が成功したという意味には扱いません。

@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-17",
-  "scope": "User-approved satir=讽 and resulting shared-character IDs karikatur=讽ᴷ and sarkasm=讽ˢᴿ. All annotation values, root segmentation, keys and order, and non-target identifiers are preserved. No new root was added; sperm, ĉur, spermatozo, greft, dot, konfisk and monark-family assignments remain unchanged.",
+  "date": "2026-10-18",
+  "scope": "User-approved spermat family=精子 with exact identifiers; new spermatozo=精子ˢᶻ, silf=精ˢ. sperm/ĉur remain semen. Seed-plant and nonmotile reproductive-cell annotations are retained or clarified. Only reviewed spermat/spermatozo recognition exceptions change boundaries; every other rule order, placeholder and identifier is checked against baseline.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/char_widths.json",
@@ -49,8 +49,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/word_anno.json",
-      "bytes": 2739759,
-      "sha256": "dadf4aeaffb802dc7db56be0ce881925682325902f572d21c2ef30a8dd89bca0"
+      "bytes": 2739873,
+      "sha256": "f618d16b431e6076f8a3a5c3e2db748acd4a7935b42ec1368be15130cfb3aa00"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/Корни эсперанто – список с русским переводом и руби.csv",
@@ -64,8 +64,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/エスペラント語根-日本語訳ルビ対応リスト.csv",
-      "bytes": 341366,
-      "sha256": "bd5191da078d6a8923269c81f896a1a3e074cf10c4e94e35326e51a2d4b7746a"
+      "bytes": 341472,
+      "sha256": "c7a0357f5c778f1bfb331c0b53cff1e8b45e3674b14c973a57353e990e818738"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-中文注释对应列表.csv",
@@ -79,8 +79,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161659,
-      "sha256": "9a22136982d4b7f9e344c50d178e495e3e09ab93ea45ff7b768400d1ccd3941b"
+      "bytes": 161686,
+      "sha256": "cabdd1c7ddc28612b13b296ae05a25159d1e53cb433bcdf556b3b6889cd2ae85"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -94,18 +94,18 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_ルビ.json",
-      "bytes": 72542721,
-      "sha256": "753a0d02b7193a3254572a65d92fefa765013f952a0d3b251f1baf3d97a8ae02"
+      "bytes": 72544218,
+      "sha256": "87899aa835f0e2e35884cc6d356947656e403cd3f893530f7ad637af73180879"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57372097,
-      "sha256": "f5dcb8cf17d5f6edb4a08f84ad20795d0e2d3e2374b91ac69aed70fa4a560eba"
+      "bytes": 57372705,
+      "sha256": "9c711b90f04e8686f51ec71f8b7c9dbeaeb6d1bafead0503f02d59ab4506c6db"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21515512,
-      "sha256": "0aee7d39d7e43b0f0051fca8ba7222f176e03a068611bbe8e06010c00f24ea1b"
+      "bytes": 21515779,
+      "sha256": "6d7c0265584b4e0a876f19086c6d8ea9eaf9ef9dc5b7b1b321bc2d1af901518f"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -174,8 +174,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/word_anno.json",
-      "bytes": 2729235,
-      "sha256": "d4cd11a060b4b942421782db53437d182d0c45aaf474fa9d55ec0b5db9c10653"
+      "bytes": 2729357,
+      "sha256": "c0b1fb5915099c14dc9bff98d05212aac16f26669fcbc653bbc578318e357cf9"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/Корни эсперанто – список с русским переводом и руби.csv",
@@ -194,8 +194,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161659,
-      "sha256": "9a22136982d4b7f9e344c50d178e495e3e09ab93ea45ff7b768400d1ccd3941b"
+      "bytes": 161686,
+      "sha256": "cabdd1c7ddc28612b13b296ae05a25159d1e53cb433bcdf556b3b6889cd2ae85"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -209,13 +209,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_ルビ.json",
-      "bytes": 71829738,
-      "sha256": "7989cabe3bee5e1365fa5eaa48d20bd3e8b40638a7fb07d6e6fd6e32c732d0a8"
+      "bytes": 71831267,
+      "sha256": "e132e8e772c8eddbd5d10e04dad4893f7ca59d35f8bdd5e3e9d2634141307110"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57380163,
-      "sha256": "b0a8f493d9e0fcca3298b04367c50bcd6684a8e90a58fe0e0e05b2391e386895"
+      "bytes": 57380771,
+      "sha256": "d3a5fa0d9831d4233f46d18e44b9ac6b0d039c6ad743bc6c5f0e5f0b38688b6d"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -224,8 +224,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
-      "bytes": 299288,
-      "sha256": "cfc7ddd482b89b78b1b0d8e859bee59b48068851ce1927be95b3290556c840af"
+      "bytes": 299401,
+      "sha256": "4abae9f5baf529a7131c20d6136724fad276b59b20069c6625b35231ebc74372"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/esp_overlay_module.py",
@@ -289,8 +289,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/word_anno.json",
-      "bytes": 2586514,
-      "sha256": "03b7563e8dbd00a5e760b46670aab0f9b3099927a77a1d9f1dedaf15ce9e3489"
+      "bytes": 2586622,
+      "sha256": "e2f202ff4cdde4e8470999cfb1abce988324066629dc7d69829aa2db9194012b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/エスペラント語根-日本語訳ルビ対応リスト(習得レベル付き).xlsx",
@@ -299,8 +299,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-中文注释对应列表.csv",
-      "bytes": 274816,
-      "sha256": "d03ea98938820a14ded0eea0291b88c9e10191707981471e9b5ea9f40e92c184"
+      "bytes": 274919,
+      "sha256": "ee5a67c89525e32521422b6ed7d9ab81aafb4eaca744e1a00c2db21aa55e59ff"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表.csv",
@@ -309,8 +309,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161659,
-      "sha256": "9a22136982d4b7f9e344c50d178e495e3e09ab93ea45ff7b768400d1ccd3941b"
+      "bytes": 161686,
+      "sha256": "cabdd1c7ddc28612b13b296ae05a25159d1e53cb433bcdf556b3b6889cd2ae85"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -324,13 +324,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_ルビ.json",
-      "bytes": 70257005,
-      "sha256": "bb2aa68b3e0f06610197862101ebd57a6a6d6f6f4093fb4b8a3ede0ece0feebd"
+      "bytes": 70258472,
+      "sha256": "24dd6b3a866dbf1f6918815cdb6aa3cdb37bc5c5a4a6dd18b0e5421936d7bbb5"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57380163,
-      "sha256": "9e02802e01c5dc825b7dd49a67d38e352159fb01073e644d6dc3ca5a6f9b0d53"
+      "bytes": 57380771,
+      "sha256": "c4d4b9ed23c3687f88510e4059738e5e280ae8a9a430de1f3c277f3e9e560e78"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py",
@@ -348,7 +348,7 @@
       "sha256": "5502587bb1f68ae5760cac30a0bdb295fae868a23cdfcc211efdad99a4964e4c"
     }
   ],
-  "assignment_revision": "satir-20261017",
-  "previous_release_commit": "b898b6a87537c6572ac82b77e521528b879fc2db",
+  "assignment_revision": "sperm-distinction-20261018",
+  "previous_release_commit": "241f6b8b72efc5532974a9176b62ad83c236aea7",
   "runtime_cache_revision": "file-mtime-ns-size-20261017"
 }

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "private_baseline": "64fd7e9f9fe6ed836fccafd4d8ad7c4ea40fcaa8",
+  "canonical_manifest_sha256": "446e46a83dd8791ab6c7427f7baa8514a50cb779b9a8592e68065043f97843d9",
+  "assignments": {
+    "spermat": {
+      "before": "精ˢ",
+      "after": "精子"
+    },
+    "spermati": {
+      "before": "精ˢᴵ",
+      "after": "精子ˢᴵ"
+    },
+    "spermatocit": {
+      "before": "精ˢ胞ᶜᴵ",
+      "after": "精子胞ᶜᴵ"
+    },
+    "spermatofit": {
+      "before": "精ˢ植ᶠ",
+      "after": "精子植ᶠ"
+    },
+    "spermatogenez": {
+      "before": "精ˢ源ᴳ",
+      "after": "精子源ᴳ"
+    },
+    "spermatozo": {
+      "before": null,
+      "after": "精子ˢᶻ"
+    },
+    "silf": {
+      "before": "精ˢᴸ",
+      "after": "精ˢ"
+    }
+  },
+  "reason": "Explicit user adoption of the spermat family as 精子, including seed plants. Add spermatozo=精子ˢᶻ; preserve sperm/ĉur semen. Preserve botanical meaning through annotations. The identifier algorithm moves silf to 精ˢ.",
+  "boundary_exceptions": [
+    "new whole spermatozo normal/@ anchor instead of Latin/false spermat+oz split",
+    "existing spermat component gains normal root anchor before shorter sperma/sperm, without replacing longer protected spermatid/spermatogoni"
+  ],
+  "preserved": [
+    "sperm=精液",
+    "ĉur=精液ᶜ̂",
+    "plant sperm=种ˢᴿ",
+    "existing spermat/o/cit, spermat/o/fit, spermat/o/genez linking vowel o",
+    "unassigned spermatid and spermatogoni whole-root identities"
+  ]
+}

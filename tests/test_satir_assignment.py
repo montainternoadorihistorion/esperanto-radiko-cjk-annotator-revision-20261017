@@ -15,6 +15,8 @@ CONTROLS={**{'krep': '皱布', 'difrakt': '绕射', 'mortez': '卯', 'meger': '�
  'turment':'虐','tortur':'虐ᵀᵀ','testikit':'丸ᵀ炎ᵀ','orkidit':'丸ᴼ炎ᵀ',
  'ananas':'菠','jakv':'菠蜜','las':'放','emancip':'放ᴱ','prioritat':'优先',
  'strut':'鸵','sinergi':'协同','oliv':'榄','oval':'椭圆','elips':'椭圆ᴱ','stafilokok':'葡球菌'}
+# Follow the later explicitly adopted sperm-cell assignments in current checks.
+CONTROLS.update({'spermat':'精子','spermati':'精子ˢᴵ','spermatozo':'精子ˢᶻ'})
 TARGET_WORDS=[form for root in VALUES for base in
  (root+'o',root+'oj',root+'on',root+'ojn',root+'a',root+'aj',root+'ajn',root+'e',
   '@'+root+'@o','@'+root+'o@','@'+root+'@ojn') for form in (base,base.title(),base.upper())]
@@ -148,8 +150,8 @@ def runtime(root,after):
             for word,value in actual.items():
                 if mode!='ruby':
                     rt=word[:-1].lower()
-                    expected=VALUES[rt][int(after)] if rt in VALUES else ('spermatozo' if rt=='spermatozo' else CONTROLS[rt])
-                    assert h.visible(value)==(word if rt=='spermatozo' else expected+word[-1]),(word,value,expected)
+                    expected=VALUES[rt][int(after)] if rt in VALUES else CONTROLS[rt]
+                    assert h.visible(value)==(expected+word[-1]),(word,value,expected)
                 manual_results.append({'language':lang,'mode':mode,'input':word,'output':value})
             print('runtime',lang,mode,len(final),'manual',len(actual),'PASS',flush=True)
             del payload;gc.collect()
