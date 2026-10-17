@@ -1,0 +1,168 @@
+{
+  "passed": true,
+  "tables": [
+    {
+      "language": "JA",
+      "groups": {
+        "kanji/全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517445,
+          "existing_changed": 33,
+          "added": [
+            "spermat",
+            "SPERMAT",
+            "Spermat"
+          ]
+        },
+        "kanji/二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "existing_changed": 0,
+          "added": []
+        },
+        "kanji/局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31216,
+          "existing_changed": 18,
+          "added": [
+            "spermatozo",
+            "SPERMATOZO",
+            "Spermatozo"
+          ]
+        },
+        "ruby/全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 573316,
+          "existing_changed": 51,
+          "added": [
+            "spermat",
+            "SPERMAT",
+            "Spermat"
+          ]
+        },
+        "ruby/二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "existing_changed": 0,
+          "added": []
+        },
+        "ruby/局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 50552,
+          "existing_changed": 6,
+          "added": [
+            "spermatocit",
+            "SPERMATOCIT",
+            "Spermatocit",
+            "spermatogenez",
+            "SPERMATOGENEZ",
+            "Spermatogenez"
+          ]
+        }
+      }
+    },
+    {
+      "language": "ZH",
+      "groups": {
+        "kanji/全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517445,
+          "existing_changed": 33,
+          "added": [
+            "spermat",
+            "SPERMAT",
+            "Spermat"
+          ]
+        },
+        "kanji/二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "existing_changed": 0,
+          "added": []
+        },
+        "kanji/局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31216,
+          "existing_changed": 18,
+          "added": [
+            "spermatozo",
+            "SPERMATOZO",
+            "Spermatozo"
+          ]
+        },
+        "ruby/全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 573316,
+          "existing_changed": 51,
+          "added": [
+            "spermat",
+            "SPERMAT",
+            "Spermat"
+          ]
+        },
+        "ruby/二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "existing_changed": 0,
+          "added": []
+        },
+        "ruby/局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 50555,
+          "existing_changed": 6,
+          "added": [
+            "spermatocit",
+            "SPERMATOCIT",
+            "Spermatocit",
+            "spermatogenez",
+            "SPERMATOGENEZ",
+            "Spermatogenez"
+          ]
+        }
+      }
+    },
+    {
+      "language": "KO",
+      "groups": {
+        "kanji/全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517445,
+          "existing_changed": 33,
+          "added": [
+            "spermat",
+            "SPERMAT",
+            "Spermat"
+          ]
+        },
+        "kanji/二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "existing_changed": 0,
+          "added": []
+        },
+        "kanji/局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31216,
+          "existing_changed": 18,
+          "added": [
+            "spermatozo",
+            "SPERMATOZO",
+            "Spermatozo"
+          ]
+        },
+        "ruby/全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 573316,
+          "existing_changed": 51,
+          "added": [
+            "spermat",
+            "SPERMAT",
+            "Spermat"
+          ]
+        },
+        "ruby/二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "existing_changed": 0,
+          "added": []
+        },
+        "ruby/局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 50546,
+          "existing_changed": 6,
+          "added": [
+            "spermatocit",
+            "SPERMATOCIT",
+            "Spermatocit",
+            "spermatogenez",
+            "SPERMATOGENEZ",
+            "Spermatogenez"
+          ]
+        }
+      }
+    }
+  ],
+  "method": "Independent full-table baseline comparison in app_refresh_context_guards.py; exact annotation and root additions, every existing key/order/placeholder and unrelated byte checked."
+}
