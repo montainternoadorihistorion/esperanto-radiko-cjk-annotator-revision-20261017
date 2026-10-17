@@ -1,0 +1,82 @@
+{
+  "method": "Actual connected Chrome UI operation; captured preview HTML or displayed pure-text result compared with local runtime fixture",
+  "source_commit_on_main": "213919ddaf91af304bc23ceb1b6dc4e8d69b2df9",
+  "browser_profile": "AdoriHistorion",
+  "captured_at": "2026-10-17T07:00:05.906Z",
+  "cases": [
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "visible": "uveo uveo uveito uveito uveoj uveitojn Uveo Uveito uvo uvo vito psitako limono limonado konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "restored_text": "uveo uveo uveito uveito uveoj uveitojn Uveo Uveito uvo uvo vito psitako limono limonado konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "visible": "葡膜o 葡膜o 葡膜炎ᵀo 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀojn 葡膜o 葡膜炎ᵀo 葡ᵁo 葡ᵁo 葡o 鹦ᴾˢo 柠o 柠水o 和合o 葡球菌o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 周日oj & amiko 棋家o",
+      "restored_text": "uveo uveo uveito uveito uveoj uveitojn Uveo Uveito uvo uvo vito psitako limono limonado konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "visible": "葡膜o 葡膜o 葡膜炎ᵀo 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀojn 葡膜o 葡膜炎ᵀo 葡ᵁo 葡ᵁo 葡o 鹦ᴾˢo 柠o 柠水o 和合o 葡球菌o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 周日oj & amiko 棋家o",
+      "restored_text": null,
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "visible": "uveo uveo uveito uveito uveoj uveitojn Uveo Uveito uvo uvo vito psitako limono limonado konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "restored_text": "uveo uveo uveito uveito uveoj uveitojn Uveo Uveito uvo uvo vito psitako limono limonado konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "visible": "葡膜o 葡膜o 葡膜炎ᵀo 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀojn 葡膜o 葡膜炎ᵀo 葡ᵁo 葡ᵁo 葡o 鹦ᴾˢo 柠o 柠水o 和合o 葡球菌o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 周日oj & amiko 棋家o",
+      "restored_text": "uveo uveo uveito uveito uveoj uveitojn Uveo Uveito uvo uvo vito psitako limono limonado konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "visible": "uveo uveo uveito uveito uveoj uveitojn Uveo Uveito uvo uvo vito psitako limono limonado konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "restored_text": "uveo uveo uveito uveito uveoj uveitojn Uveo Uveito uvo uvo vito psitako limono limonado konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "visible": "葡膜o 葡膜o 葡膜炎ᵀo 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀojn 葡膜o 葡膜炎ᵀo 葡ᵁo 葡ᵁo 葡o 鹦ᴾˢo 柠o 柠水o 和合o 葡球菌o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 周日oj & amiko 棋家o",
+      "restored_text": null,
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "visible": "葡膜o 葡膜o 葡膜炎ᵀo 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀojn 葡膜o 葡膜炎ᵀo 葡ᵁo 葡ᵁo 葡o 鹦ᴾˢo 柠o 柠水o 和合o 葡球菌o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 周日oj & amiko 棋家o",
+      "restored_text": "uveo uveo uveito uveito uveoj uveitojn Uveo Uveito uvo uvo vito psitako limono limonado konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "visible": "葡膜o 葡膜o 葡膜炎ᵀo 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀojn 葡膜o 葡膜炎ᵀo 葡ᵁo 葡ᵁo 葡o 鹦ᴾˢo 柠o 柠水o 和合o 葡球菌o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 周日oj & amiko 棋家o",
+      "restored_text": null,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitations": "Annotation results are preserved, not semantically reapproved. Pre-existing localized annotation splits, including medical it, remain. Pure text contains no source ruby; its exact output is compared here, and reversal is verified independently with the actual reverter."
+}
