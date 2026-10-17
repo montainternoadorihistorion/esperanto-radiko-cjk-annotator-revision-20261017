@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "scope": "Approved nostalgi=怀ᴺ, onk=瘤ᴼ, fortres=堡ᶠᴿ and matching onkogen/onkologi whole-root mirrors. Exact-root meanings retain nostalgic sadness, especially malignant tumor, and large strong fortification in JA/ZH/KO. Ordinary onk/o/gen and onk/o/logi linking o, other roots, identifiers, annotation pieces and rule order are preserved; koincid, satir, sperm and ĉur are unchanged.",
+  "scope": "User-approved satir=讽 and resulting shared-character IDs karikatur=讽ᴷ and sarkasm=讽ˢᴿ. All annotation values, root segmentation, keys and order, and non-target identifiers are preserved. No new root was added; sperm, ĉur, spermatozo, greft, dot, konfisk and monark-family assignments remain unchanged.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/char_widths.json",
@@ -79,8 +79,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161656,
-      "sha256": "4e62370658770e2571944195626364af0f55b341ea0c904991e60c4b31a948b7"
+      "bytes": 161659,
+      "sha256": "9a22136982d4b7f9e344c50d178e495e3e09ab93ea45ff7b768400d1ccd3941b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -99,13 +99,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57372432,
-      "sha256": "3bdebdb8d568ce1f66a16b3cc54062b0a0fe1168505e7ce7927ec9ba79b86fbe"
+      "bytes": 57372097,
+      "sha256": "f5dcb8cf17d5f6edb4a08f84ad20795d0e2d3e2374b91ac69aed70fa4a560eba"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21515719,
-      "sha256": "94184489eb25acca7e6678d3a9e777fe8b9b89b6dbbb4104c1cd66fea38894fd"
+      "bytes": 21515512,
+      "sha256": "0aee7d39d7e43b0f0051fca8ba7222f176e03a068611bbe8e06010c00f24ea1b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -194,8 +194,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161656,
-      "sha256": "4e62370658770e2571944195626364af0f55b341ea0c904991e60c4b31a948b7"
+      "bytes": 161659,
+      "sha256": "9a22136982d4b7f9e344c50d178e495e3e09ab93ea45ff7b768400d1ccd3941b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -214,8 +214,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57380498,
-      "sha256": "e6e12ef7c315dd9f2cac6372fd147d1a4ed26383fa33a5a4602927177ab4a278"
+      "bytes": 57380163,
+      "sha256": "b0a8f493d9e0fcca3298b04367c50bcd6684a8e90a58fe0e0e05b2391e386895"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -309,8 +309,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161656,
-      "sha256": "4e62370658770e2571944195626364af0f55b341ea0c904991e60c4b31a948b7"
+      "bytes": 161659,
+      "sha256": "9a22136982d4b7f9e344c50d178e495e3e09ab93ea45ff7b768400d1ccd3941b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -329,8 +329,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57380498,
-      "sha256": "adab8e820ac90eef85189bee5cd1de22c7a0a90810b649615dc68cceb873cf66"
+      "bytes": 57380163,
+      "sha256": "9e02802e01c5dc825b7dd49a67d38e352159fb01073e644d6dc3ca5a6f9b0d53"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py",
@@ -348,7 +348,7 @@
       "sha256": "5502587bb1f68ae5760cac30a0bdb295fae868a23cdfcc211efdad99a4964e4c"
     }
   ],
-  "assignment_revision": "nostalgi-onk-fortres-20261017",
-  "previous_release_commit": "187c94c99f7789911ad557bae7302ff7ae0e66f1",
+  "assignment_revision": "satir-20261017",
+  "previous_release_commit": "b898b6a87537c6572ac82b77e521528b879fc2db",
   "runtime_cache_revision": "file-mtime-ns-size-20261017"
 }

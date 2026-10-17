@@ -17,6 +17,10 @@ CONTROLS={**{'krep': '皱布', 'difrakt': '绕射', 'mortez': '卯', 'meger': '�
  'turment':'虐','tortur':'虐ᵀᵀ','testikit':'丸ᵀ炎ᵀ','orkidit':'丸ᴼ炎ᵀ',
  'ananas':'菠','jakv':'菠蜜','las':'放','emancip':'放ᴱ','prioritat':'优先',
  'strut':'鸵','sinergi':'协同','oliv':'榄','oval':'椭圆','elips':'椭圆ᴱ','stafilokok':'葡球菌'}
+# Current controls follow the later approved shared-character satir revision.
+# Keep the older scope and recorded regression evidence unchanged.
+HISTORICAL_CONTROLS = dict(CONTROLS)
+CONTROLS.update({'satir':'讽','karikatur':'讽ᴷ','sarkasm':'讽ˢᴿ'})
 TARGET_WORDS=[form for root in VALUES for base in
  (root+'o',root+'oj',root+'on',root+'ojn',root+'a',root+'aj',root+'ajn',root+'e',
   '@'+root+'@o','@'+root+'o@','@'+root+'@ojn') for form in (base,base.title(),base.upper())]
