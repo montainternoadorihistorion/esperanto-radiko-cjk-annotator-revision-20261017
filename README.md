@@ -315,6 +315,8 @@ python -B -X utf8 tests/test_protez_ranc_assignments.py --app-root . --baseline-
 python -B -X utf8 tests/app_ui_smoke.py --protez-ranc
 ```
 
+protez・rancの更新後、実際のChromeからCloudの日本語・中国語・韓国語版で注釈ルビ／漢字ルビ／純粋置換を実行し、全9ケースが検証済みローカル出力と一致しました。確認対象は [PR #19](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/19) のmainコミット `28c400376188eb5d1358ad80af5561accb439bb1` です。通常入力と `@` 入力、`semajn`、既存識別子、`%` の保護箇所を含む入力を使用しました。[取得した出力](tests/protez_ranc_cloud/cloud_capture.json)・[完全一致の検証結果](tests/protez_ranc_cloud/cloud_verification.json)・[日本語版の入出力画面](tests/protez_ranc_cloud/cloud_ja_protez_ranc.png)を保存しています。漢字ルビの原綴り復元と純粋置換の一致を確認したもので、独立した逆変換アプリのCloud配備を意味しません。
+
 ## ローカルでの実行・検証
 
 Python 3.12 でリポジトリ直下から実行します。

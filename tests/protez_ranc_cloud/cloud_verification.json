@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "cases": 9,
+  "results": [
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "protezo protezo protezoj dentprotezo ranca ranca ranci hangaro kontesti cisticerko kruco semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo lanterno lubriki",
+      "restored_text": "protezo protezo protezoj dentprotezo ranca ranca ranci hangaro kontesti cisticerko kruco semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo lanterno lubriki",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "假体o 假体o 假体oj 齿假体o 酸败a 酸败a 酸败i 棚库o 异议i 囊尾虫o 十字o 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 灯ᴸᴺo 滑ᴸi",
+      "restored_text": "protezo protezo protezoj dentprotezo ranca ranca ranci hangaro kontesti cisticerko kruco semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo lanterno lubriki",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "html_output_exact": null,
+      "visible": "假体o 假体o 假体oj 齿假体o 酸败a 酸败a 酸败i 棚库o 异议i 囊尾虫o 十字o 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 灯ᴸᴺo 滑ᴸi",
+      "restored_text": "protezo protezo protezoj dentprotezo ranca ranca ranci hangaro kontesti cisticerko kruco semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo lanterno lubriki",
+      "restoration_method": "Exact pure text equality; source obtained from matching captured Kanji ruby, not from reversing pure text",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "protezo protezo protezoj dentprotezo ranca ranca ranci hangaro kontesti cisticerko kruco semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo lanterno lubriki",
+      "restored_text": "protezo protezo protezoj dentprotezo ranca ranca ranci hangaro kontesti cisticerko kruco semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo lanterno lubriki",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "假体o 假体o 假体oj 齿假体o 酸败a 酸败a 酸败i 棚库o 异议i 囊尾虫o 十字o 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 灯ᴸᴺo 滑ᴸi",
+      "restored_text": "protezo protezo protezoj dentprotezo ranca ranca ranci hangaro kontesti cisticerko kruco semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo lanterno lubriki",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "html_output_exact": null,
+      "visible": "假体o 假体o 假体oj 齿假体o 酸败a 酸败a 酸败i 棚库o 异议i 囊尾虫o 十字o 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 灯ᴸᴺo 滑ᴸi",
+      "restored_text": "protezo protezo protezoj dentprotezo ranca ranca ranci hangaro kontesti cisticerko kruco semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo lanterno lubriki",
+      "restoration_method": "Exact pure text equality; source obtained from matching captured Kanji ruby, not from reversing pure text",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "protezo protezo protezoj dentprotezo ranca ranca ranci hangaro kontesti cisticerko kruco semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo lanterno lubriki",
+      "restored_text": "protezo protezo protezoj dentprotezo ranca ranca ranci hangaro kontesti cisticerko kruco semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo lanterno lubriki",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "假体o 假体o 假体oj 齿假体o 酸败a 酸败a 酸败i 棚库o 异议i 囊尾虫o 十字o 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 灯ᴸᴺo 滑ᴸi",
+      "restored_text": "protezo protezo protezoj dentprotezo ranca ranca ranci hangaro kontesti cisticerko kruco semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo lanterno lubriki",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "html_output_exact": null,
+      "visible": "假体o 假体o 假体oj 齿假体o 酸败a 酸败a 酸败i 棚库o 异议i 囊尾虫o 十字o 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 灯ᴸᴺo 滑ᴸi",
+      "restored_text": "protezo protezo protezoj dentprotezo ranca ranca ranci hangaro kontesti cisticerko kruco semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo lanterno lubriki",
+      "restoration_method": "Exact pure text equality; source obtained from matching captured Kanji ruby, not from reversing pure text",
+      "passed": true
+    }
+  ],
+  "method": "Actual connected Chrome capture compared exactly with public local-runtime fixture; complete output paragraph, visible text, and source spelling checked",
+  "source_commit_on_main": "28c400376188eb5d1358ad80af5561accb439bb1",
+  "browser_profile": "Chrome 5 / AdoriHistorion",
+  "captured_at": "2026-10-17T09:17:14.241Z",
+  "fixture_sha256": "49f05d065fc5f689035c9a44a5519cca3a51615027cb2f3fc416aca54218948a",
+  "capture_sha256": "4bd805f3eb3e57f8401362e267f393cc458793bf872d5aa659654ca62f854fac",
+  "limitations": [
+    "Pure text has no ruby source spelling. Its source field comes from the separately captured and verified Kanji ruby result; the actual inverse converter is verified separately.",
+    "Annotation wording and existing segmentation are preserved, not semantically reapproved.",
+    "The commit field records the release being checked; this script does not query the Streamlit deployment commit."
+  ]
+}
