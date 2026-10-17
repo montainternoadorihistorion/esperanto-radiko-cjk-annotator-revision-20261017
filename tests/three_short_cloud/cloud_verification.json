@@ -1,0 +1,82 @@
+{
+  "method": "Actual connected Chrome UI operation; captured preview HTML or displayed pure-text result compared with local runtime fixture",
+  "source_commit_on_main": "afcff374bed57386d7acc822fba2f0d17199f005",
+  "browser_profile": "Chrome 5 / AdoriHistorion",
+  "captured_at": "2026-10-17T07:40:46.922Z",
+  "cases": [
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "visible": "risorto risorto anĉo anĉo anĉo anĉo lanternoj lanterno lampo lucerno lubriki lubriki gliti glata skio plando observatorio majesta subtila semajntagoj & amiko",
+      "restored_text": "risorto risorto anĉo anĉo anĉo anĉo lanternoj lanterno lampo lucerno lubriki lubriki gliti glata skio plando observatorio majesta subtila semajntagoj & amiko",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "visible": "risorto risorto anĉo anĉo anĉo anĉo lanternoj lanterno lampo lucerno lubriki lubriki gliti glata skio plando observatorio majesta subtila semajntagoj & amiko",
+      "restored_text": "risorto risorto anĉo anĉo anĉo anĉo lanternoj lanterno lampo lucerno lubriki lubriki gliti glata skio plando observatorio majesta subtila semajntagoj & amiko",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "visible": "risorto risorto anĉo anĉo anĉo anĉo lanternoj lanterno lampo lucerno lubriki lubriki gliti glata skio plando observatorio majesta subtila semajntagoj & amiko",
+      "restored_text": "risorto risorto anĉo anĉo anĉo anĉo lanternoj lanterno lampo lucerno lubriki lubriki gliti glata skio plando observatorio majesta subtila semajntagoj & amiko",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "visible": "簧o 簧o 簧ᴬo 簧ᴬo 簧ᴬo 簧ᴬo 灯ᴸᴺoj 灯ᴸᴺo 灯o 灯ᴸᶜo 滑ᴸi 滑ᴸi 滑i 滑ᴳᴬa 滑ˢo 足底o 观台o 庄严a 精细a 周日oj & amiko",
+      "restored_text": "risorto risorto anĉo anĉo anĉo anĉo lanternoj lanterno lampo lucerno lubriki lubriki gliti glata skio plando observatorio majesta subtila semajntagoj & amiko",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "visible": "簧o 簧o 簧ᴬo 簧ᴬo 簧ᴬo 簧ᴬo 灯ᴸᴺoj 灯ᴸᴺo 灯o 灯ᴸᶜo 滑ᴸi 滑ᴸi 滑i 滑ᴳᴬa 滑ˢo 足底o 观台o 庄严a 精细a 周日oj & amiko",
+      "restored_text": "risorto risorto anĉo anĉo anĉo anĉo lanternoj lanterno lampo lucerno lubriki lubriki gliti glata skio plando observatorio majesta subtila semajntagoj & amiko",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "visible": "簧o 簧o 簧ᴬo 簧ᴬo 簧ᴬo 簧ᴬo 灯ᴸᴺoj 灯ᴸᴺo 灯o 灯ᴸᶜo 滑ᴸi 滑ᴸi 滑i 滑ᴳᴬa 滑ˢo 足底o 观台o 庄严a 精细a 周日oj & amiko",
+      "restored_text": "risorto risorto anĉo anĉo anĉo anĉo lanternoj lanterno lampo lucerno lubriki lubriki gliti glata skio plando observatorio majesta subtila semajntagoj & amiko",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "visible": "簧o 簧o 簧ᴬo 簧ᴬo 簧ᴬo 簧ᴬo 灯ᴸᴺoj 灯ᴸᴺo 灯o 灯ᴸᶜo 滑ᴸi 滑ᴸi 滑i 滑ᴳᴬa 滑ˢo 足底o 观台o 庄严a 精细a 周日oj & amiko",
+      "restored_text": null,
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "visible": "簧o 簧o 簧ᴬo 簧ᴬo 簧ᴬo 簧ᴬo 灯ᴸᴺoj 灯ᴸᴺo 灯o 灯ᴸᶜo 滑ᴸi 滑ᴸi 滑i 滑ᴳᴬa 滑ˢo 足底o 观台o 庄严a 精细a 周日oj & amiko",
+      "restored_text": null,
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "visible": "簧o 簧o 簧ᴬo 簧ᴬo 簧ᴬo 簧ᴬo 灯ᴸᴺoj 灯ᴸᴺo 灯o 灯ᴸᶜo 滑ᴸi 滑ᴸi 滑i 滑ᴳᴬa 滑ˢo 足底o 观台o 庄严a 精细a 周日oj & amiko",
+      "restored_text": null,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitations": "Annotation results are preserved, not semantically reapproved. Pre-existing localized annotation splits, including medical it, remain. Pure text contains no source ruby; its exact output is compared here, and reversal is verified independently with the actual reverter."
+}
