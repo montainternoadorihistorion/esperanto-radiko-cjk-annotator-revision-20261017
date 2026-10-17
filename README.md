@@ -376,3 +376,7 @@ python tests/app_ui_smoke.py
 検証時に、`difraktojn`と`difraktajn`は変更前から`di＋frakt`へ、`megerajn`は`meg＋er`へ分かれることを確認しました。これは今回新たに生じた退行ではなく、今回の割り当て変更では未修正の語根分解問題です。大小文字3形×3言語の計27例について、変更前後の出力HTMLが完全に同じであることを確認しています。語根を明示する`@difrakt@ojn`等とは区別して記録しています。任意の語の分解・全文逆変換が完全に正しいと主張するものではありません。
 
 非公開統合リポジトリのMonaco・日中逆変換アプリも同期し、逆変換では旧表記「皱绸・衍射・卯眼・悍妇」も保持しました。これらは統合リポジトリ内の更新で、別の旧公開サイトへの配備は含みません。
+
+4件の更新後、実際のChromeから日中韓Cloudの注釈ルビ／漢字ルビ／純粋置換を実行し、9ケースすべてが検証済みローカル出力と完全一致しました。確認対象は [PR #21](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/21) のmainコミット `e28974f490942c0161413abc496bf1747d27b9a2` です。[取得した実出力](tests/four_reviewed_cloud/cloud_capture.json)・[全文照合結果](tests/four_reviewed_cloud/cloud_verification.json)・[日本語版の確認画面](tests/four_reviewed_cloud/cloud_ja_four_reviewed.png)を保存しています。通常／`@`入力、`semajn`、既存識別子、`%`で保護した箇所、据置の候補語根を同時に確認しました。純粋置換の原綴り確認は別に取得した漢字ルビ出力との対応によるもので、独立した逆変換アプリのCloud配備を意味しません。
+
+公開版の既存unittestは23件すべて成功しました。統合側の全体テストは285件、既存エラー5件・skip8件で、変更前の保存データでも同じ5エラーを再現しました（旧Git参照3件、過去の固定データ照合2件）。今回の新規失敗はありませんが、統合側の全体テストが全件成功したとは扱っていません。

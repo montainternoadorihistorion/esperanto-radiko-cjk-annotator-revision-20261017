@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "cases": 9,
+  "results": [
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "krepo krepo kotona krepo difrakto difrakto difrakti mortezo mortezo mortezi megero megero megeri semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca hangaro kontesti cisticerko bufo lofio suturo frajo prismo",
+      "restored_text": "krepo krepo kotona krepo difrakto difrakto difrakti mortezo mortezo mortezi megero megero megeri semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca hangaro kontesti cisticerko bufo lofio suturo frajo prismo",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "皱布o 皱布o 棉ᴷa 皱布o 绕射o 绕射o 绕射i 卯o 卯o 卯i 恶女o 恶女o 恶女i 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o 缝合o 鱼卵o 棱镜o",
+      "restored_text": "krepo krepo kotona krepo difrakto difrakto difrakti mortezo mortezo mortezi megero megero megeri semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca hangaro kontesti cisticerko bufo lofio suturo frajo prismo",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "html_output_exact": null,
+      "visible": "皱布o 皱布o 棉ᴷa 皱布o 绕射o 绕射o 绕射i 卯o 卯o 卯i 恶女o 恶女o 恶女i 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o 缝合o 鱼卵o 棱镜o",
+      "restored_text": "krepo krepo kotona krepo difrakto difrakto difrakti mortezo mortezo mortezi megero megero megeri semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca hangaro kontesti cisticerko bufo lofio suturo frajo prismo",
+      "restoration_method": "Exact pure text equality; source obtained from matching captured Kanji ruby, not from reversing pure text",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "krepo krepo kotona krepo difrakto difrakto difrakti mortezo mortezo mortezi megero megero megeri semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca hangaro kontesti cisticerko bufo lofio suturo frajo prismo",
+      "restored_text": "krepo krepo kotona krepo difrakto difrakto difrakti mortezo mortezo mortezi megero megero megeri semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca hangaro kontesti cisticerko bufo lofio suturo frajo prismo",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "皱布o 皱布o 棉ᴷa 皱布o 绕射o 绕射o 绕射i 卯o 卯o 卯i 恶女o 恶女o 恶女i 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o 缝合o 鱼卵o 棱镜o",
+      "restored_text": "krepo krepo kotona krepo difrakto difrakto difrakti mortezo mortezo mortezi megero megero megeri semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca hangaro kontesti cisticerko bufo lofio suturo frajo prismo",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "html_output_exact": null,
+      "visible": "皱布o 皱布o 棉ᴷa 皱布o 绕射o 绕射o 绕射i 卯o 卯o 卯i 恶女o 恶女o 恶女i 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o 缝合o 鱼卵o 棱镜o",
+      "restored_text": "krepo krepo kotona krepo difrakto difrakto difrakti mortezo mortezo mortezi megero megero megeri semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca hangaro kontesti cisticerko bufo lofio suturo frajo prismo",
+      "restoration_method": "Exact pure text equality; source obtained from matching captured Kanji ruby, not from reversing pure text",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "krepo krepo kotona krepo difrakto difrakto difrakti mortezo mortezo mortezi megero megero megeri semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca hangaro kontesti cisticerko bufo lofio suturo frajo prismo",
+      "restored_text": "krepo krepo kotona krepo difrakto difrakto difrakti mortezo mortezo mortezi megero megero megeri semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca hangaro kontesti cisticerko bufo lofio suturo frajo prismo",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "html_output_exact": true,
+      "visible": "皱布o 皱布o 棉ᴷa 皱布o 绕射o 绕射o 绕射i 卯o 卯o 卯i 恶女o 恶女o 恶女i 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o 缝合o 鱼卵o 棱镜o",
+      "restored_text": "krepo krepo kotona krepo difrakto difrakto difrakti mortezo mortezo mortezi megero megero megeri semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca hangaro kontesti cisticerko bufo lofio suturo frajo prismo",
+      "restoration_method": "Original spelling reconstructed from complete captured ruby HTML",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "html_output_exact": null,
+      "visible": "皱布o 皱布o 棉ᴷa 皱布o 绕射o 绕射o 绕射i 卯o 卯o 卯i 恶女o 恶女o 恶女i 周日oj & amiko 棋家o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 簧o 簧ᴬo 假体o 酸败a 棚库o 异议i 囊尾虫o 蛤蟆o 蛤蟆鱼o 缝合o 鱼卵o 棱镜o",
+      "restored_text": "krepo krepo kotona krepo difrakto difrakto difrakti mortezo mortezo mortezi megero megero megeri semajntagoj & amiko ŝakisto testikito orkidito risorto anĉo protezo ranca hangaro kontesti cisticerko bufo lofio suturo frajo prismo",
+      "restoration_method": "Exact pure text equality; source obtained from matching captured Kanji ruby, not from reversing pure text",
+      "passed": true
+    }
+  ],
+  "method": "Actual connected Chrome capture compared exactly with public local-runtime fixture; complete output paragraph, visible text, and source spelling checked",
+  "source_commit_on_main": "e28974f490942c0161413abc496bf1747d27b9a2",
+  "browser_profile": "Chrome 5 / AdoriHistorion",
+  "captured_at": "2026-10-17T10:36:06.028Z",
+  "fixture_sha256": "606dfdab58750e2182a512fa66850bdda6713c21c88473aff7fa9c11b5f4c717",
+  "capture_sha256": "698446ab356cda5db9463be222421149d5505743eb8ba2f201b9008d395ccd94",
+  "limitations": [
+    "Pure text has no ruby source spelling. Its source field comes from the separately captured and verified Kanji ruby result; the actual inverse converter is verified separately.",
+    "Annotation wording and existing segmentation are preserved, not semantically reapproved.",
+    "The commit field records the release being checked; this script does not query the Streamlit deployment commit."
+  ]
+}
