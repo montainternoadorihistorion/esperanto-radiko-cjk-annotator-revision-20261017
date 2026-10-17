@@ -290,6 +290,31 @@ python -B -X utf8 tests/app_ui_smoke.py --three-short
 
 公開コミット `afcff37` の配備後、接続したChromeで日中韓3言語×3モードを実操作し、全9結果がローカルの期待値と一致しました。今回の4表記、ĉ/cx/c^入力、通常／@指定、既存の灯・滑共有語根、pland・observatori・majest・subtil、semajn・%保護を含めて確認しています。漢字ルビからの原文復元と注釈本文の保持も一致しました。[Cloud確認記録](tests/three_short_cloud/cloud_verification.json)、[採取した結果](tests/three_short_cloud/cloud_capture.json)、[日本語版の画面](tests/three_short_cloud/cloud_ja_three_short.png)を保存しています。純粋置換の辞書による逆変換は、統合側の別試験で検証しています。
 
+## protez・ranc の意味に基づく変更（2026-10-17）
+
+ユーザーが採用した `protez＝假体`、`ranc＝酸败` を日中韓の通常変換・`@`変換・純粋置換・手動補正用CSVへ反映しました。`protez` は義歯なども含むため、手足を指す「肢」から「体」に広げます。`ranc` は油脂が酸敗した状態を表し、「酸」「败」で意味を示します。一般的な注釈訳と語根の分解は保持します。
+
+| 語根 | 変更前 | 採用表記 | 漢字部分の画数 |
+|---|---|---|---|
+| `protez` | 假肢 | 假体 | 19 → 18 |
+| `ranc` | 哈喇 | 酸败 | 21 → 22 |
+
+両表記とも既存の識別子アルゴリズムによる追加識別子は不要です。`hangar＝棚库`、`kontest＝异议`、`cisticerk＝囊尾虫`、`kruc＝十字` は維持します。統合リポジトリの逆変換では旧「假肢」「哈喇」も互換表記として保持します。
+
+```text
+入力: protezo @protez@o protezoj dentprotezo ranca @ranc@a ranci
+純粋置換: 假体o 假体o 假体oj 齿假体o 酸败a 酸败a 酸败i
+```
+
+[全行比較](tests/protez_ranc_regression_tables.json)では漢字JSON全1,646,955行を照合し、変更は各言語の通常147行・局所6行、計459行だけです。置換キー・順序・原語根・対象外の表示を保持し、共有純粋置換548,985行は漢字ルビからの正式導出と一致します。[実処理の前後比較](tests/protez_ranc_regression.json)は3,852結果と手動補正675結果で、注釈ルビ出力も変更前と同一でした。既存の局所変換と正本の51件の表示差は、同綴りの別義・既存の強制分解として変更せず、新たな不一致がないことを確認しています。
+
+[ローカル画面検証](tests/app_ui_protez_ranc.json)では、3言語×3モード、補助6ページ、メインページへ戻った後の6経路を確認しました。AppTestによる画面コードの検証であり、実ブラウザのCloud確認とは区別します。全文コーパスや全注釈の意味を新たに検証したという意味ではありません。
+
+```shell
+python -B -X utf8 tests/test_protez_ranc_assignments.py --app-root . --baseline-ref 5ef51a17c70ff604ad9e75dde536a751fbe3f8d4 --tables-only --report tests/protez_ranc_regression_tables.json
+python -B -X utf8 tests/app_ui_smoke.py --protez-ranc
+```
+
 ## ローカルでの実行・検証
 
 Python 3.12 でリポジトリ直下から実行します。

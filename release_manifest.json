@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "scope": "Approved three shortenings: risort=簧, lantern=灯ᴸᴺ, lubrik=滑ᴸ; existing identifier priority makes anĉ=簧ᴬ. pland=足底 and all other reviewed assignments remain unchanged. Annotation glosses, source-root analyses, replacement keys and ordering are preserved.",
+  "scope": "Approved protez=假体 and ranc=酸败. All other roots, identifiers, annotations, segmentation and replacement ordering are retained. hangar=棚库, kontest=异议, cisticerk=囊尾虫 and kruc=十字 remain unchanged.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/char_widths.json",
@@ -80,7 +80,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
       "bytes": 161654,
-      "sha256": "2dfb16f00e2ec5f6e90104caa056a12f439fe4bbdc0aceb4cba54ba03fbd9c32"
+      "sha256": "da8460141613869b4073fd6d1ce15d8e3321dff8598da54dbd683f492c836d47"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -100,12 +100,12 @@
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
       "bytes": 57372228,
-      "sha256": "5d235ac6ab296f058245b7a3faf66307bd82ff29c82adda7cd75edcb57aeb669"
+      "sha256": "ca0b71b5fbf198a8a6963d214f86dee85cb467af7572fbcce4d625b832a8da80"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
       "bytes": 21515791,
-      "sha256": "302e74a95b15d0d5406c3b9b338c0d1854f7d2339415f53d5bf77a00c226f4c4"
+      "sha256": "0a8304a1b32e40525f72fbec78023145258cd7aca9dc412533463a2e46454cd2"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -195,7 +195,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
       "bytes": 161654,
-      "sha256": "2dfb16f00e2ec5f6e90104caa056a12f439fe4bbdc0aceb4cba54ba03fbd9c32"
+      "sha256": "da8460141613869b4073fd6d1ce15d8e3321dff8598da54dbd683f492c836d47"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -215,7 +215,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
       "bytes": 57380294,
-      "sha256": "019e1c9f5fd3efab512419609cc5fb62cf4a2b8ea27d3d04388f59682888b26f"
+      "sha256": "7650bde93301fc789ff3b2e05676705328d0457f142e7cffbfe37b7085db63db"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -310,7 +310,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
       "bytes": 161654,
-      "sha256": "2dfb16f00e2ec5f6e90104caa056a12f439fe4bbdc0aceb4cba54ba03fbd9c32"
+      "sha256": "da8460141613869b4073fd6d1ce15d8e3321dff8598da54dbd683f492c836d47"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -330,7 +330,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
       "bytes": 57380294,
-      "sha256": "6bbe4645fcd1bf9bf05642b2179532b9a511c6fe6d3dc84bed93cc1f0fc8d599"
+      "sha256": "6b79a73427e3a1695e16cda50ec3f6ef42331ab234ca0f1e326ef29016ca6de3"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py",
@@ -348,7 +348,7 @@
       "sha256": "5502587bb1f68ae5760cac30a0bdb295fae868a23cdfcc211efdad99a4964e4c"
     }
   ],
-  "assignment_revision": "three-short-20261017",
-  "previous_release_commit": "2dbbb6d037bb89433991f72f80812c2c24938b8f",
+  "assignment_revision": "protez-ranc-20261017",
+  "previous_release_commit": "5ef51a17c70ff604ad9e75dde536a751fbe3f8d4",
   "runtime_cache_revision": "file-mtime-ns-size-20261017"
 }
