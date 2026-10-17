@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "scope": "The latest approved change is observatori=观台. majest=庄严, subtil=精细, uve=葡膜, uveit=葡膜炎ᵀ and all other reviewed assignments and identifiers remain unchanged. Annotation glosses, source-root analyses, replacement keys and ordering are preserved.",
+  "scope": "Approved three shortenings: risort=簧, lantern=灯ᴸᴺ, lubrik=滑ᴸ; existing identifier priority makes anĉ=簧ᴬ. pland=足底 and all other reviewed assignments remain unchanged. Annotation glosses, source-root analyses, replacement keys and ordering are preserved.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/char_widths.json",
@@ -79,8 +79,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161651,
-      "sha256": "9950edeb483853d46cf9682002edf5819c2ea7385623480f2f04129943cc8de5"
+      "bytes": 161654,
+      "sha256": "2dfb16f00e2ec5f6e90104caa056a12f439fe4bbdc0aceb4cba54ba03fbd9c32"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -99,13 +99,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57372192,
-      "sha256": "8c6eae04152248c8c08ef29f97b7201e800f81b00fca3c908ce52313dc571a03"
+      "bytes": 57372228,
+      "sha256": "5d235ac6ab296f058245b7a3faf66307bd82ff29c82adda7cd75edcb57aeb669"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21515935,
-      "sha256": "7402ea7ba138191529b1c98777c1e790a1b5e9541e07eb43bdf2e7cf78a792f7"
+      "bytes": 21515791,
+      "sha256": "302e74a95b15d0d5406c3b9b338c0d1854f7d2339415f53d5bf77a00c226f4c4"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -194,8 +194,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161651,
-      "sha256": "9950edeb483853d46cf9682002edf5819c2ea7385623480f2f04129943cc8de5"
+      "bytes": 161654,
+      "sha256": "2dfb16f00e2ec5f6e90104caa056a12f439fe4bbdc0aceb4cba54ba03fbd9c32"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -214,8 +214,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57380258,
-      "sha256": "947ae1ef6fe0d7ee80632e8bb3d9bf2a318e1fc89fb674f9ff6b91eb7a558306"
+      "bytes": 57380294,
+      "sha256": "019e1c9f5fd3efab512419609cc5fb62cf4a2b8ea27d3d04388f59682888b26f"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -309,8 +309,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161651,
-      "sha256": "9950edeb483853d46cf9682002edf5819c2ea7385623480f2f04129943cc8de5"
+      "bytes": 161654,
+      "sha256": "2dfb16f00e2ec5f6e90104caa056a12f439fe4bbdc0aceb4cba54ba03fbd9c32"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -329,8 +329,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57380258,
-      "sha256": "750420eaf607a179b7ee400e06367521a724ea74341b349e9d02287b5ae3673a"
+      "bytes": 57380294,
+      "sha256": "6bbe4645fcd1bf9bf05642b2179532b9a511c6fe6d3dc84bed93cc1f0fc8d599"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py",
@@ -348,7 +348,7 @@
       "sha256": "5502587bb1f68ae5760cac30a0bdb295fae868a23cdfcc211efdad99a4964e4c"
     }
   ],
-  "assignment_revision": "observatori-20261017",
-  "previous_release_commit": "a1095744ce8378764c0729cc4020b6239d4f1262",
+  "assignment_revision": "three-short-20261017",
+  "previous_release_commit": "2dbbb6d037bb89433991f72f80812c2c24938b8f",
   "runtime_cache_revision": "file-mtime-ns-size-20261017"
 }
