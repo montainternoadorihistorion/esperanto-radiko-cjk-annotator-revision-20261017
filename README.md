@@ -134,6 +134,8 @@ struto sinergio olivo @limak@o @orkidit@o @testikit@o @litografi@o ovalo elipso
 
 別系統の実変換確認では、277入力×3言語×3モードの2,493結果を変更前と比較し、日中の実逆変換2,580比較で新たな不一致0を確認しました。旧来から一致しない24入力（言語・モードの組合せを含め288結果）は残っており、全例の完全往復を主張するものではありません。対象の局所表記は正しく復元され、38入力・456結果の従来の不一致が解消しています。[独立比較の記録](tests/three_assignments_independent.json)と[画面コードの操作確認](tests/app_ui_three_assignments.json)を参照してください。
 
+公開コミット `60f593d` の配備後、実際のChromeで日中韓の3モードを確認しました。今回の13語根、既存採用語根、`@`・`%`、識別子、漢字ルビからの原文復元、注釈ルビでの本文保持が一致しています。[Cloud確認記録](tests/three_assignments_cloud.json)を収録しています。この確認時にはCloudの管理枠が読み込み中のままだったため、その枠が参照しているアプリ本体を直接開いて操作しました。本体へのリンク：[日本語](https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/)、[中文](https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/)、[한국어](https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/)。
+
 ## ローカルでの実行・検証
 
 Python 3.12 でリポジトリ直下から実行します。
