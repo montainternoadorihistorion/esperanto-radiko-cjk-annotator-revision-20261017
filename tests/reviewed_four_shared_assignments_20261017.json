@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "private_baseline": "520c2c6358a5ff517fed6b7ec1ac889052e729ad",
+  "assignments": {
+    "psitak": {"before": "鹦鹉", "after": "鹦ᴾˢ"},
+    "uv": {"before": "葡萄", "after": "葡ᵁ"},
+    "limon": {"before": "柠檬", "after": "柠"},
+    "limonad": {"before": "柠檬水", "after": "柠水"}
+  },
+  "preserved_user_choices": {
+    "papag": "鹦", "vit": "葡", "uve": "葡萄膜", "uveit": "葡萄膜炎ᵀ",
+    "konkord": "和合", "observatori": "天文台", "majest": "庄严", "subtil": "精细",
+    "stafilokok": "葡球菌", "turment": "虐", "tortur": "虐ᵀᵀ"
+  },
+  "reason": "User approved these four display assignments. Existing source-root boundaries, independent limonad, annotations, and all other roots remain unchanged. Root identity must be read from labelled pieces, never inferred by replacing Chinese substrings."
+}
