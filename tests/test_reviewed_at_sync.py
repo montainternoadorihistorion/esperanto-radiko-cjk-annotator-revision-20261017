@@ -38,6 +38,9 @@ _latest_raw=(Path(__file__).resolve().parent/'reviewed_mirror_identifiers_202610
 if hashlib.sha256(_latest_raw).hexdigest()!='d0b5dfc0c31fb35bbd27308b6841651c76987e0e6da222dd118771d92878f681':
     raise ValueError('Latest reviewed mirror scope changed')
 LATEST={r['root']:r for r in json.loads(_latest_raw)['changes']}
+# Apply later reviewed displays only to current expectations. Historical
+# before-values and the pinned mirror scope remain unchanged.
+CURRENT_DISPLAY_OVERRIDES={'uveit':'葡膜炎ᵀ'}
 for _root in VALUES:
     if _root in LATEST:VALUES[_root]=(VALUES[_root][0],LATEST[_root]['after'])
 RUBY=re.compile(r'<ruby>(.*?)<rt[^>]*>(.*?)</rt></ruby>',re.S)
@@ -58,7 +61,7 @@ def neutral(value,after):
         root=plain(m[2]).lower()
         if root not in VALUES and root not in LATEST:return m[0]
         if after:
-            allowed=(LATEST[root]['after'],) if root in LATEST else (VALUES[root][1],)
+            allowed=(CURRENT_DISPLAY_OVERRIDES.get(root,LATEST[root]['after']),) if root in LATEST else (VALUES[root][1],)
         else:
             allowed=HISTORICAL_VALUES.get(root,())
             if root in LATEST:allowed+=(LATEST[root]['before'],LATEST[root]['after'])
@@ -122,7 +125,7 @@ class ReviewedLocalTests(unittest.TestCase):
                         allowed=HISTORICAL_VALUES.get(root,())
                         if root in LATEST:allowed+=(LATEST[root]['before'],LATEST[root]['after'])
                         self.assertIn(body.split(',',1)[1],allowed)
-                        display=LATEST[root]['after'] if root in LATEST else VALUES[root][1]
+                        display=CURRENT_DISPLAY_OVERRIDES.get(root,LATEST[root]['after']) if root in LATEST else VALUES[root][1]
                         line=root+','+display+ending
                     expected.append(line)
                 self.assertEqual(raw,''.join(expected).encode('utf-8'))

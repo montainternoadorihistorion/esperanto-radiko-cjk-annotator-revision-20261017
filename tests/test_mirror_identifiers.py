@@ -16,6 +16,9 @@ def norm(root):
     for a,b in zip(('c^','g^','h^','j^','s^','u^'),'ĉĝĥĵŝŭ'):root=root.replace(a,b)
     return root
 VALUES={norm(r['root']):r for r in SCOPE['changes']}
+# Current-value checks follow the later approved uve shortening. Keep the
+# historical scope and its fingerprint unchanged, including the before value.
+VALUES['uveit']={**VALUES['uveit'],'after':'葡膜炎ᵀ'}
 ABSENT=set(SCOPE.get('currently_absent_csv_roots',[]))
 PRESERVED={(norm(r['root']),r['display']) for r in SCOPE.get('preserved_senses',[])}
 
