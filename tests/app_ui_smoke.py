@@ -25,6 +25,8 @@ SOURCE = '@semajn@tagoj & %amiko% ŝakisto semajntagoj'
 EXPECTED = '周日oj & amiko 棋家o 周日oj'
 REVISION_SOURCE = 'struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso'
 REVISION_EXPECTED = '鸵o 协同o 榄o 鸵 协同 榄 螺ᴸo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 石ᴸᵀ志ᴳo 周日oj & amiko 棋家o 椭圆o 椭圆ᴱo'
+STAFILOKOK_SOURCE = REVISION_SOURCE + ' stafilokoko @stafilokok@o turmenti torturi uvo uveito'
+STAFILOKOK_EXPECTED = REVISION_EXPECTED + ' 葡球菌o 葡球菌o 虐i 虐ᵀᵀi 葡萄o 葡萄膜炎ᵀo'
 LANGUAGES = ('JA', 'ZH', 'KO')
 
 
@@ -151,10 +153,14 @@ def main():
     global SOURCE, EXPECTED
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--language', choices=LANGUAGES)
-    parser.add_argument('--revision', action='store_true', help='Exercise the current assignments and mirror identifiers')
+    scenario = parser.add_mutually_exclusive_group()
+    scenario.add_argument('--revision', action='store_true', help='Exercise the current assignments and mirror identifiers')
+    scenario.add_argument('--stafilokok', action='store_true', help='Exercise stafilokok and retained assignments; save a separate report')
     args = parser.parse_args()
     if args.revision:
         SOURCE, EXPECTED = REVISION_SOURCE, REVISION_EXPECTED
+    elif args.stafilokok:
+        SOURCE, EXPECTED = STAFILOKOK_SOURCE, STAFILOKOK_EXPECTED
     if args.language:
         try:
             result = run_language(args.language)
@@ -171,7 +177,7 @@ def main():
     for language in LANGUAGES:
         child = subprocess.run(
             [sys.executable, '-B', '-X', 'utf8', str(Path(__file__).resolve()),
-             '--language', language, *(['--revision'] if args.revision else [])], cwd=ROOT, capture_output=True, text=True,
+             '--language', language, *(['--revision'] if args.revision else ['--stafilokok'] if args.stafilokok else [])], cwd=ROOT, capture_output=True, text=True,
             encoding='utf-8', timeout=600)
         if child.returncode:
             try:
@@ -199,7 +205,7 @@ def main():
             'Subpages were checked for startup and controls, not full correction editing workflows.',
             'Remote download availability and Streamlit Cloud deployment were not tested.',
         ],
-        'command': 'python -B -X utf8 tests/app_ui_smoke.py' + (' --revision' if args.revision else ''),
+        'command': 'python -B -X utf8 tests/app_ui_smoke.py' + (' --revision' if args.revision else ' --stafilokok' if args.stafilokok else ''),
         'cwd': '.', 'completed_at_utc': datetime.now(timezone.utc).isoformat(),
         'environment': {'python': platform.python_version(), 'system': platform.system(),
                         'streamlit': streamlit.__version__, 'pandas': pandas.__version__},
@@ -208,7 +214,8 @@ def main():
         'script_bytes_unchanged_during_run': True, 'script_sha256': scripts,
         'languages': language_results, 'results': rows, 'pages': pages, 'returns': returns,
     }
-    output_path = Path(__file__).with_name('app_ui_mirror_identifiers.json') if args.revision else Path(__file__).with_suffix('.json')
+    output_name = 'app_ui_stafilokok.json' if args.stafilokok else 'app_ui_mirror_identifiers.json' if args.revision else 'app_ui_smoke.json'
+    output_path = Path(__file__).with_name(output_name)
     output_path.write_text(
         json.dumps(output, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
     print('Saved tests/' + output_path.name + ' (9 conversions, 6 subpages, 6 returns)', flush=True)

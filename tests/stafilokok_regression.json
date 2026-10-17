@@ -1,0 +1,2951 @@
+{
+  "passed": true,
+  "baseline_ref": "bdc42bfbc407ec5f1ea8a4e82134b12ec46db2e7",
+  "phase": "after",
+  "tables": [
+    {
+      "language": "JA",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 6
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": 3
+        }
+      }
+    },
+    {
+      "language": "ZH",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 6
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": 3
+        }
+      }
+    },
+    {
+      "language": "KO",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 6
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": 3
+        }
+      }
+    }
+  ],
+  "runtime": [
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "stafilokoko",
+      "first": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>o",
+      "final": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "stafilokokoj",
+      "first": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>oj",
+      "final": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>oj"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "stafilokokon",
+      "first": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>on",
+      "final": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>on"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "stafilokokojn",
+      "first": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>ojn",
+      "final": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>ojn"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "stafilokoka",
+      "first": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>a",
+      "final": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>a"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "stafilokokaj",
+      "first": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>aj",
+      "final": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>aj"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "stafilokokajn",
+      "first": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>ajn",
+      "final": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>ajn"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "stafilokoke",
+      "first": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>e",
+      "final": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>e"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "stafilokokozo",
+      "first": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby><ruby>oz<rt class=\"XXL_L\">症</rt></ruby>o",
+      "final": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby><ruby>oz<rt class=\"XXL_L\">症</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "Stafilokoko",
+      "first": "<ruby>Stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>o",
+      "final": "<ruby>Stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "STAFILOKOKO",
+      "first": "<ruby>STAFILOKOK<rt class=\"XXL_L\">ブドウ球菌</rt></ruby>O",
+      "final": "<ruby>STAFILOKOK<rt class=\"XXL_L\">ブドウ球菌</rt></ruby>O"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@stafilokok@o",
+      "first": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>o",
+      "final": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@stafilokoko@",
+      "first": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>o",
+      "final": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@stafilokok@oj",
+      "first": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>oj",
+      "final": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>oj"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@Stafilokok@o",
+      "first": "<ruby>Stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>o",
+      "final": "<ruby>Stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@STAFILOKOK@O",
+      "first": "<ruby>STAFILOKOK<rt class=\"XXL_L\">ブドウ球菌</rt></ruby>O",
+      "final": "<ruby>STAFILOKOK<rt class=\"XXL_L\">ブドウ球菌</rt></ruby>O"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "antistafilokoka",
+      "first": "anti<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>a",
+      "final": "anti<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>a"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "%stafilokoko%",
+      "first": "stafilokoko",
+      "final": "stafilokoko"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "%@stafilokok@%",
+      "first": "@stafilokok@",
+      "final": "@stafilokok@"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@stafilokok@o & %stafilokoko%",
+      "first": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>o &amp; stafilokoko",
+      "final": "<ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>o &amp; stafilokoko"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "turmenti",
+      "first": "<ruby>turment<rt class=\"XS_S\">激しい苦痛を与える</rt></ruby>i",
+      "final": "<ruby>turment<rt class=\"XS_S\">激しい苦痛を与える</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "torturi",
+      "first": "<ruby>tortur<rt class=\"XXL_L\">拷問</rt></ruby>i",
+      "final": "<ruby>tortur<rt class=\"XXL_L\">拷問</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@turment@i",
+      "first": "<ruby>turment<rt class=\"M_M\">(を)いじめる</rt></ruby>i",
+      "final": "<ruby>turment<rt class=\"M_M\">(を)いじめる</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@tortur@i",
+      "first": "<ruby>tortur<rt class=\"XXL_L\">拷問</rt></ruby>i",
+      "final": "<ruby>tortur<rt class=\"XXL_L\">拷問</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "testikito",
+      "first": "<ruby>testik<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>testik<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "orkidito",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@testikit@o",
+      "first": "<ruby>testik<rt class=\"M_M\">[解]睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o",
+      "final": "<ruby>testik<rt class=\"M_M\">[解]睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@orkidit@o",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "uvo",
+      "first": "<ruby>uv<rt class=\"XS_S\">ブドウ</rt></ruby>o",
+      "final": "<ruby>uv<rt class=\"XS_S\">ブドウ</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "uveo",
+      "first": "<ruby>uve<rt class=\"XS_S\">ぶどう膜</rt></ruby>o",
+      "final": "<ruby>uve<rt class=\"XS_S\">ぶどう膜</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "uveito",
+      "first": "<ruby>uve<rt class=\"XS_S\">ぶどう膜</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>uve<rt class=\"XS_S\">ぶどう膜</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "vito",
+      "first": "<ruby>vit<rt class=\"XS_S\">ブドウ</rt></ruby>o",
+      "final": "<ruby>vit<rt class=\"XS_S\">ブドウ</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "ananaso",
+      "first": "<ruby>ananas<rt class=\"XXL_L\">パイン</rt></ruby>o",
+      "final": "<ruby>ananas<rt class=\"XXL_L\">パイン</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "jakvo",
+      "first": "<ruby>jakv<rt class=\"XXS_S\">ジャック<br>フルーツ</rt></ruby>o",
+      "final": "<ruby>jakv<rt class=\"XXS_S\">ジャック<br>フルーツ</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "prioritato",
+      "first": "<ruby>prioritat<rt class=\"XXL_L\">優先権</rt></ruby>o",
+      "final": "<ruby>prioritat<rt class=\"XXL_L\">優先権</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "lasi",
+      "first": "<ruby>las<rt class=\"XXS_S\">放置<br>する</rt></ruby>i",
+      "final": "<ruby>las<rt class=\"XXS_S\">放置<br>する</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "emancipi",
+      "first": "<ruby>emancip<rt class=\"XXL_L\">解放</rt></ruby>i",
+      "final": "<ruby>emancip<rt class=\"XXL_L\">解放</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "struto",
+      "first": "<ruby>strut<rt class=\"S_S\">ダチョウ</rt></ruby>o",
+      "final": "<ruby>strut<rt class=\"S_S\">ダチョウ</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "sinergio",
+      "first": "<ruby>sinergi<rt class=\"L_L\">相乗作用</rt></ruby>o",
+      "final": "<ruby>sinergi<rt class=\"L_L\">相乗作用</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "olivo",
+      "first": "<ruby>oliv<rt class=\"XS_S\">オリーブ</rt></ruby>o",
+      "final": "<ruby>oliv<rt class=\"XS_S\">オリーブ</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "ovalo",
+      "first": "<ruby>oval<rt class=\"M_M\">楕円形</rt></ruby>o",
+      "final": "<ruby>oval<rt class=\"M_M\">楕円形</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "elipso",
+      "first": "<ruby>elips<rt class=\"XXL_L\">楕円</rt></ruby>o",
+      "final": "<ruby>elips<rt class=\"XXL_L\">楕円</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "semajntagoj",
+      "first": "<ruby>semajn<rt class=\"XXL_L\">週</rt></ruby><ruby>tag<rt class=\"XXL_L\">日</rt></ruby>oj",
+      "final": "<ruby>semajn<rt class=\"XXL_L\">週</rt></ruby><ruby>tag<rt class=\"XXL_L\">日</rt></ruby>oj"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@semajn@tagoj",
+      "first": "<ruby>semajn<rt class=\"XXL_L\">一週間</rt></ruby><ruby>tag<rt class=\"XXL_L\">日</rt></ruby>oj",
+      "final": "<ruby>semajn<rt class=\"XXL_L\">一週間</rt></ruby><ruby>tag<rt class=\"XXL_L\">日</rt></ruby>oj"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "ŝakisto",
+      "first": "<ruby>ŝak<rt class=\"S_S\">チェス</rt></ruby><ruby>ist<rt class=\"XS_S\">従事者</rt></ruby>o",
+      "final": "<ruby>ŝak<rt class=\"S_S\">チェス</rt></ruby><ruby>ist<rt class=\"XS_S\">従事者</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "stafilokoko",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "stafilokokoj",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>oj",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>oj"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "stafilokokon",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>on",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>on"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "stafilokokojn",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>ojn",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>ojn"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "stafilokoka",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>a",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>a"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "stafilokokaj",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>aj",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>aj"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "stafilokokajn",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>ajn",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>ajn"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "stafilokoke",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>e",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>e"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "stafilokokozo",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby><ruby>症ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby><ruby>症ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "Stafilokoko",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">Stafilokok</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">Stafilokok</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "STAFILOKOKO",
+      "first": "<ruby>葡球菌<rt class=\"S_S\">STAFILOKOK</rt></ruby>O",
+      "final": "<ruby>葡球菌<rt class=\"S_S\">STAFILOKOK</rt></ruby>O"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@stafilokok@o",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@stafilokoko@",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@stafilokok@oj",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>oj",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>oj"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@Stafilokok@o",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">Stafilokok</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">Stafilokok</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@STAFILOKOK@O",
+      "first": "<ruby>葡球菌<rt class=\"S_S\">STAFILOKOK</rt></ruby>O",
+      "final": "<ruby>葡球菌<rt class=\"S_S\">STAFILOKOK</rt></ruby>O"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "antistafilokoka",
+      "first": "anti<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>a",
+      "final": "anti<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>a"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "%stafilokoko%",
+      "first": "stafilokoko",
+      "final": "stafilokoko"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "%@stafilokok@%",
+      "first": "@stafilokok@",
+      "final": "@stafilokok@"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@stafilokok@o & %stafilokoko%",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o &amp; stafilokoko",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o &amp; stafilokoko"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "turmenti",
+      "first": "<ruby>虐<rt class=\"XXS_S\">turm<br>ent</rt></ruby>i",
+      "final": "<ruby>虐<rt class=\"XXS_S\">turm<br>ent</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "torturi",
+      "first": "<ruby>虐ᵀᵀ<rt class=\"XL_L\">tortur</rt></ruby>i",
+      "final": "<ruby>虐ᵀᵀ<rt class=\"XL_L\">tortur</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@turment@i",
+      "first": "<ruby>虐<rt class=\"XXS_S\">turm<br>ent</rt></ruby>i",
+      "final": "<ruby>虐<rt class=\"XXS_S\">turm<br>ent</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@tortur@i",
+      "first": "<ruby>虐ᵀᵀ<rt class=\"XL_L\">tortur</rt></ruby>i",
+      "final": "<ruby>虐ᵀᵀ<rt class=\"XL_L\">tortur</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "testikito",
+      "first": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "orkidito",
+      "first": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@testikit@o",
+      "first": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+      "final": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@orkidit@o",
+      "first": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>o",
+      "final": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "uvo",
+      "first": "<ruby>葡萄<rt class=\"XXL_L\">uv</rt></ruby>o",
+      "final": "<ruby>葡萄<rt class=\"XXL_L\">uv</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "uveo",
+      "first": "<ruby>葡萄膜<rt class=\"XXL_L\">uve</rt></ruby>o",
+      "final": "<ruby>葡萄膜<rt class=\"XXL_L\">uve</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "uveito",
+      "first": "<ruby>葡萄膜<rt class=\"XXL_L\">uve</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>葡萄膜<rt class=\"XXL_L\">uve</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "vito",
+      "first": "<ruby>葡<rt class=\"XXL_L\">vit</rt></ruby>o",
+      "final": "<ruby>葡<rt class=\"XXL_L\">vit</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "ananaso",
+      "first": "<ruby>菠<rt class=\"XXS_S\">ana<br>nas</rt></ruby>o",
+      "final": "<ruby>菠<rt class=\"XXS_S\">ana<br>nas</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "jakvo",
+      "first": "<ruby>菠蜜<rt class=\"XXL_L\">jakv</rt></ruby>o",
+      "final": "<ruby>菠蜜<rt class=\"XXL_L\">jakv</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "prioritato",
+      "first": "<ruby>优先<rt class=\"M_M\">prioritat</rt></ruby>o",
+      "final": "<ruby>优先<rt class=\"M_M\">prioritat</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "lasi",
+      "first": "<ruby>放<rt class=\"XL_L\">las</rt></ruby>i",
+      "final": "<ruby>放<rt class=\"XL_L\">las</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "emancipi",
+      "first": "<ruby>放ᴱ<rt class=\"XS_S\">emancip</rt></ruby>i",
+      "final": "<ruby>放ᴱ<rt class=\"XS_S\">emancip</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "struto",
+      "first": "<ruby>鸵<rt class=\"S_S\">strut</rt></ruby>o",
+      "final": "<ruby>鸵<rt class=\"S_S\">strut</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "sinergio",
+      "first": "<ruby>协同<rt class=\"L_L\">sinergi</rt></ruby>o",
+      "final": "<ruby>协同<rt class=\"L_L\">sinergi</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "olivo",
+      "first": "<ruby>榄<rt class=\"M_M\">oliv</rt></ruby>o",
+      "final": "<ruby>榄<rt class=\"M_M\">oliv</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "ovalo",
+      "first": "<ruby>椭圆<rt class=\"XXL_L\">oval</rt></ruby>o",
+      "final": "<ruby>椭圆<rt class=\"XXL_L\">oval</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "elipso",
+      "first": "<ruby>椭圆ᴱ<rt class=\"XXL_L\">elips</rt></ruby>o",
+      "final": "<ruby>椭圆ᴱ<rt class=\"XXL_L\">elips</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "semajntagoj",
+      "first": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj",
+      "final": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@semajn@tagoj",
+      "first": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj",
+      "final": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "ŝakisto",
+      "first": "<ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o",
+      "final": "<ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "stafilokoko",
+      "first": "葡球菌o",
+      "final": "葡球菌o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "stafilokokoj",
+      "first": "葡球菌oj",
+      "final": "葡球菌oj"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "stafilokokon",
+      "first": "葡球菌on",
+      "final": "葡球菌on"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "stafilokokojn",
+      "first": "葡球菌ojn",
+      "final": "葡球菌ojn"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "stafilokoka",
+      "first": "葡球菌a",
+      "final": "葡球菌a"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "stafilokokaj",
+      "first": "葡球菌aj",
+      "final": "葡球菌aj"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "stafilokokajn",
+      "first": "葡球菌ajn",
+      "final": "葡球菌ajn"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "stafilokoke",
+      "first": "葡球菌e",
+      "final": "葡球菌e"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "stafilokokozo",
+      "first": "葡球菌症ᴼo",
+      "final": "葡球菌症ᴼo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "Stafilokoko",
+      "first": "葡球菌o",
+      "final": "葡球菌o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "STAFILOKOKO",
+      "first": "葡球菌O",
+      "final": "葡球菌O"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@stafilokok@o",
+      "first": "葡球菌o",
+      "final": "葡球菌o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@stafilokoko@",
+      "first": "葡球菌o",
+      "final": "葡球菌o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@stafilokok@oj",
+      "first": "葡球菌oj",
+      "final": "葡球菌oj"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@Stafilokok@o",
+      "first": "葡球菌o",
+      "final": "葡球菌o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@STAFILOKOK@O",
+      "first": "葡球菌O",
+      "final": "葡球菌O"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "antistafilokoka",
+      "first": "anti葡球菌a",
+      "final": "anti葡球菌a"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "%stafilokoko%",
+      "first": "stafilokoko",
+      "final": "stafilokoko"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "%@stafilokok@%",
+      "first": "@stafilokok@",
+      "final": "@stafilokok@"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@stafilokok@o & %stafilokoko%",
+      "first": "葡球菌o & stafilokoko",
+      "final": "葡球菌o & stafilokoko"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "turmenti",
+      "first": "虐i",
+      "final": "虐i"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "torturi",
+      "first": "虐ᵀᵀi",
+      "final": "虐ᵀᵀi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@turment@i",
+      "first": "虐i",
+      "final": "虐i"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@tortur@i",
+      "first": "虐ᵀᵀi",
+      "final": "虐ᵀᵀi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "testikito",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "orkidito",
+      "first": "丸ᴼ炎ᵀo",
+      "final": "丸ᴼ炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@testikit@o",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@orkidit@o",
+      "first": "丸ᴼ炎ᵀo",
+      "final": "丸ᴼ炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "uvo",
+      "first": "葡萄o",
+      "final": "葡萄o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "uveo",
+      "first": "葡萄膜o",
+      "final": "葡萄膜o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "uveito",
+      "first": "葡萄膜炎ᵀo",
+      "final": "葡萄膜炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "vito",
+      "first": "葡o",
+      "final": "葡o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "ananaso",
+      "first": "菠o",
+      "final": "菠o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "jakvo",
+      "first": "菠蜜o",
+      "final": "菠蜜o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "prioritato",
+      "first": "优先o",
+      "final": "优先o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "lasi",
+      "first": "放i",
+      "final": "放i"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "emancipi",
+      "first": "放ᴱi",
+      "final": "放ᴱi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "struto",
+      "first": "鸵o",
+      "final": "鸵o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "sinergio",
+      "first": "协同o",
+      "final": "协同o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "olivo",
+      "first": "榄o",
+      "final": "榄o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "ovalo",
+      "first": "椭圆o",
+      "final": "椭圆o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "elipso",
+      "first": "椭圆ᴱo",
+      "final": "椭圆ᴱo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "semajntagoj",
+      "first": "周日oj",
+      "final": "周日oj"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@semajn@tagoj",
+      "first": "周日oj",
+      "final": "周日oj"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "ŝakisto",
+      "first": "棋家o",
+      "final": "棋家o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "stafilokoko",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>o",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "stafilokokoj",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>oj",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "stafilokokon",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>on",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>on"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "stafilokokojn",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>ojn",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>ojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "stafilokoka",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>a",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>a"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "stafilokokaj",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>aj",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>aj"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "stafilokokajn",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>ajn",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>ajn"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "stafilokoke",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>e",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>e"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "stafilokokozo",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby><ruby>oz<rt class=\"XXL_L\">症</rt></ruby>o",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby><ruby>oz<rt class=\"XXL_L\">症</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "Stafilokoko",
+      "first": "<ruby>Stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>o",
+      "final": "<ruby>Stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "STAFILOKOKO",
+      "first": "<ruby>STAFILOKOK<rt class=\"XXL_L\">葡萄球菌</rt></ruby>O",
+      "final": "<ruby>STAFILOKOK<rt class=\"XXL_L\">葡萄球菌</rt></ruby>O"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@stafilokok@o",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>o",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@stafilokoko@",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>o",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@stafilokok@oj",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>oj",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@Stafilokok@o",
+      "first": "<ruby>Stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>o",
+      "final": "<ruby>Stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@STAFILOKOK@O",
+      "first": "<ruby>STAFILOKOK<rt class=\"XXL_L\">葡萄球菌</rt></ruby>O",
+      "final": "<ruby>STAFILOKOK<rt class=\"XXL_L\">葡萄球菌</rt></ruby>O"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "antistafilokoka",
+      "first": "anti<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>a",
+      "final": "anti<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>a"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "%stafilokoko%",
+      "first": "stafilokoko",
+      "final": "stafilokoko"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "%@stafilokok@%",
+      "first": "@stafilokok@",
+      "final": "@stafilokok@"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@stafilokok@o & %stafilokoko%",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>o &amp; stafilokoko",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>o &amp; stafilokoko"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "turmenti",
+      "first": "<ruby>turment<rt class=\"XXL_L\">折磨</rt></ruby>i",
+      "final": "<ruby>turment<rt class=\"XXL_L\">折磨</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "torturi",
+      "first": "<ruby>tortur<rt class=\"XXL_L\">拷问</rt></ruby>i",
+      "final": "<ruby>tortur<rt class=\"XXL_L\">拷问</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@turment@i",
+      "first": "<ruby>turment<rt class=\"XXL_L\">折磨</rt></ruby>i",
+      "final": "<ruby>turment<rt class=\"XXL_L\">折磨</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@tortur@i",
+      "first": "<ruby>tortur<rt class=\"XXL_L\">拷问</rt></ruby>i",
+      "final": "<ruby>tortur<rt class=\"XXL_L\">拷问</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "testikito",
+      "first": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "orkidito",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@testikit@o",
+      "first": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o",
+      "final": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@orkidit@o",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "uvo",
+      "first": "<ruby>uv<rt class=\"S_S\">葡萄</rt></ruby>o",
+      "final": "<ruby>uv<rt class=\"S_S\">葡萄</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "uveo",
+      "first": "<ruby>uve<rt class=\"S_S\">葡萄膜</rt></ruby>o",
+      "final": "<ruby>uve<rt class=\"S_S\">葡萄膜</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "uveito",
+      "first": "<ruby>uve<rt class=\"S_S\">葡萄膜</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>uve<rt class=\"S_S\">葡萄膜</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "vito",
+      "first": "<ruby>vit<rt class=\"XS_S\">葡萄藤</rt></ruby>o",
+      "final": "<ruby>vit<rt class=\"XS_S\">葡萄藤</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "ananaso",
+      "first": "<ruby>ananas<rt class=\"XXL_L\">菠萝</rt></ruby>o",
+      "final": "<ruby>ananas<rt class=\"XXL_L\">菠萝</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "jakvo",
+      "first": "<ruby>jakv<rt class=\"M_M\">菠萝蜜</rt></ruby>o",
+      "final": "<ruby>jakv<rt class=\"M_M\">菠萝蜜</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "prioritato",
+      "first": "<ruby>prioritat<rt class=\"XXL_L\">优先权</rt></ruby>o",
+      "final": "<ruby>prioritat<rt class=\"XXL_L\">优先权</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "lasi",
+      "first": "<ruby>las<rt class=\"M_M\">留下</rt></ruby>i",
+      "final": "<ruby>las<rt class=\"M_M\">留下</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "emancipi",
+      "first": "<ruby>emancip<rt class=\"XXL_L\">解放</rt></ruby>i",
+      "final": "<ruby>emancip<rt class=\"XXL_L\">解放</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "struto",
+      "first": "<ruby>strut<rt class=\"XS_S\">鸵鸟属鸟类</rt></ruby>o",
+      "final": "<ruby>strut<rt class=\"XS_S\">鸵鸟属鸟类</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "sinergio",
+      "first": "<ruby>sinergi<rt class=\"L_L\">协同作用</rt></ruby>o",
+      "final": "<ruby>sinergi<rt class=\"L_L\">协同作用</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "olivo",
+      "first": "<ruby>oliv<rt class=\"S_S\">油橄榄</rt></ruby>o",
+      "final": "<ruby>oliv<rt class=\"S_S\">油橄榄</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "ovalo",
+      "first": "<ruby>oval<rt class=\"M_M\">椭圆形</rt></ruby>o",
+      "final": "<ruby>oval<rt class=\"M_M\">椭圆形</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "elipso",
+      "first": "<ruby>elips<rt class=\"XXL_L\">椭圆</rt></ruby>o",
+      "final": "<ruby>elips<rt class=\"XXL_L\">椭圆</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "semajntagoj",
+      "first": "<ruby>semajn<rt class=\"XXL_L\">星期</rt></ruby><ruby>tag<rt class=\"L_L\">一日</rt></ruby>oj",
+      "final": "<ruby>semajn<rt class=\"XXL_L\">星期</rt></ruby><ruby>tag<rt class=\"L_L\">一日</rt></ruby>oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@semajn@tagoj",
+      "first": "<ruby>semajn<rt class=\"XXL_L\">周</rt></ruby><ruby>tag<rt class=\"L_L\">一日</rt></ruby>oj",
+      "final": "<ruby>semajn<rt class=\"XXL_L\">周</rt></ruby><ruby>tag<rt class=\"L_L\">一日</rt></ruby>oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "ŝakisto",
+      "first": "<ruby>ŝak<rt class=\"XS_S\">国际象棋</rt></ruby><ruby>ist<rt class=\"XXL_L\">者</rt></ruby>o",
+      "final": "<ruby>ŝak<rt class=\"XS_S\">国际象棋</rt></ruby><ruby>ist<rt class=\"XXL_L\">者</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "stafilokoko",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "stafilokokoj",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>oj",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "stafilokokon",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>on",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>on"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "stafilokokojn",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>ojn",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>ojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "stafilokoka",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>a",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>a"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "stafilokokaj",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>aj",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>aj"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "stafilokokajn",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>ajn",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>ajn"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "stafilokoke",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>e",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>e"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "stafilokokozo",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby><ruby>症ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby><ruby>症ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "Stafilokoko",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">Stafilokok</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">Stafilokok</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "STAFILOKOKO",
+      "first": "<ruby>葡球菌<rt class=\"S_S\">STAFILOKOK</rt></ruby>O",
+      "final": "<ruby>葡球菌<rt class=\"S_S\">STAFILOKOK</rt></ruby>O"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@stafilokok@o",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@stafilokoko@",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@stafilokok@oj",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>oj",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@Stafilokok@o",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">Stafilokok</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">Stafilokok</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@STAFILOKOK@O",
+      "first": "<ruby>葡球菌<rt class=\"S_S\">STAFILOKOK</rt></ruby>O",
+      "final": "<ruby>葡球菌<rt class=\"S_S\">STAFILOKOK</rt></ruby>O"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "antistafilokoka",
+      "first": "anti<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>a",
+      "final": "anti<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>a"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "%stafilokoko%",
+      "first": "stafilokoko",
+      "final": "stafilokoko"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "%@stafilokok@%",
+      "first": "@stafilokok@",
+      "final": "@stafilokok@"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@stafilokok@o & %stafilokoko%",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o &amp; stafilokoko",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o &amp; stafilokoko"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "turmenti",
+      "first": "<ruby>虐<rt class=\"XXS_S\">turm<br>ent</rt></ruby>i",
+      "final": "<ruby>虐<rt class=\"XXS_S\">turm<br>ent</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "torturi",
+      "first": "<ruby>虐ᵀᵀ<rt class=\"XL_L\">tortur</rt></ruby>i",
+      "final": "<ruby>虐ᵀᵀ<rt class=\"XL_L\">tortur</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@turment@i",
+      "first": "<ruby>虐<rt class=\"XXS_S\">turm<br>ent</rt></ruby>i",
+      "final": "<ruby>虐<rt class=\"XXS_S\">turm<br>ent</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@tortur@i",
+      "first": "<ruby>虐ᵀᵀ<rt class=\"XL_L\">tortur</rt></ruby>i",
+      "final": "<ruby>虐ᵀᵀ<rt class=\"XL_L\">tortur</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "testikito",
+      "first": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "orkidito",
+      "first": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@testikit@o",
+      "first": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+      "final": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@orkidit@o",
+      "first": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>o",
+      "final": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "uvo",
+      "first": "<ruby>葡萄<rt class=\"XXL_L\">uv</rt></ruby>o",
+      "final": "<ruby>葡萄<rt class=\"XXL_L\">uv</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "uveo",
+      "first": "<ruby>葡萄膜<rt class=\"XXL_L\">uve</rt></ruby>o",
+      "final": "<ruby>葡萄膜<rt class=\"XXL_L\">uve</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "uveito",
+      "first": "<ruby>葡萄膜<rt class=\"XXL_L\">uve</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>葡萄膜<rt class=\"XXL_L\">uve</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "vito",
+      "first": "<ruby>葡<rt class=\"XXL_L\">vit</rt></ruby>o",
+      "final": "<ruby>葡<rt class=\"XXL_L\">vit</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "ananaso",
+      "first": "<ruby>菠<rt class=\"XXS_S\">ana<br>nas</rt></ruby>o",
+      "final": "<ruby>菠<rt class=\"XXS_S\">ana<br>nas</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "jakvo",
+      "first": "<ruby>菠蜜<rt class=\"XXL_L\">jakv</rt></ruby>o",
+      "final": "<ruby>菠蜜<rt class=\"XXL_L\">jakv</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "prioritato",
+      "first": "<ruby>优先<rt class=\"M_M\">prioritat</rt></ruby>o",
+      "final": "<ruby>优先<rt class=\"M_M\">prioritat</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "lasi",
+      "first": "<ruby>放<rt class=\"XL_L\">las</rt></ruby>i",
+      "final": "<ruby>放<rt class=\"XL_L\">las</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "emancipi",
+      "first": "<ruby>放ᴱ<rt class=\"XS_S\">emancip</rt></ruby>i",
+      "final": "<ruby>放ᴱ<rt class=\"XS_S\">emancip</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "struto",
+      "first": "<ruby>鸵<rt class=\"S_S\">strut</rt></ruby>o",
+      "final": "<ruby>鸵<rt class=\"S_S\">strut</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "sinergio",
+      "first": "<ruby>协同<rt class=\"L_L\">sinergi</rt></ruby>o",
+      "final": "<ruby>协同<rt class=\"L_L\">sinergi</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "olivo",
+      "first": "<ruby>榄<rt class=\"M_M\">oliv</rt></ruby>o",
+      "final": "<ruby>榄<rt class=\"M_M\">oliv</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "ovalo",
+      "first": "<ruby>椭圆<rt class=\"XXL_L\">oval</rt></ruby>o",
+      "final": "<ruby>椭圆<rt class=\"XXL_L\">oval</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "elipso",
+      "first": "<ruby>椭圆ᴱ<rt class=\"XXL_L\">elips</rt></ruby>o",
+      "final": "<ruby>椭圆ᴱ<rt class=\"XXL_L\">elips</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "semajntagoj",
+      "first": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj",
+      "final": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@semajn@tagoj",
+      "first": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj",
+      "final": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "ŝakisto",
+      "first": "<ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o",
+      "final": "<ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "stafilokoko",
+      "first": "葡球菌o",
+      "final": "葡球菌o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "stafilokokoj",
+      "first": "葡球菌oj",
+      "final": "葡球菌oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "stafilokokon",
+      "first": "葡球菌on",
+      "final": "葡球菌on"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "stafilokokojn",
+      "first": "葡球菌ojn",
+      "final": "葡球菌ojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "stafilokoka",
+      "first": "葡球菌a",
+      "final": "葡球菌a"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "stafilokokaj",
+      "first": "葡球菌aj",
+      "final": "葡球菌aj"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "stafilokokajn",
+      "first": "葡球菌ajn",
+      "final": "葡球菌ajn"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "stafilokoke",
+      "first": "葡球菌e",
+      "final": "葡球菌e"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "stafilokokozo",
+      "first": "葡球菌症ᴼo",
+      "final": "葡球菌症ᴼo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "Stafilokoko",
+      "first": "葡球菌o",
+      "final": "葡球菌o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "STAFILOKOKO",
+      "first": "葡球菌O",
+      "final": "葡球菌O"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@stafilokok@o",
+      "first": "葡球菌o",
+      "final": "葡球菌o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@stafilokoko@",
+      "first": "葡球菌o",
+      "final": "葡球菌o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@stafilokok@oj",
+      "first": "葡球菌oj",
+      "final": "葡球菌oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@Stafilokok@o",
+      "first": "葡球菌o",
+      "final": "葡球菌o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@STAFILOKOK@O",
+      "first": "葡球菌O",
+      "final": "葡球菌O"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "antistafilokoka",
+      "first": "anti葡球菌a",
+      "final": "anti葡球菌a"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "%stafilokoko%",
+      "first": "stafilokoko",
+      "final": "stafilokoko"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "%@stafilokok@%",
+      "first": "@stafilokok@",
+      "final": "@stafilokok@"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@stafilokok@o & %stafilokoko%",
+      "first": "葡球菌o & stafilokoko",
+      "final": "葡球菌o & stafilokoko"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "turmenti",
+      "first": "虐i",
+      "final": "虐i"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "torturi",
+      "first": "虐ᵀᵀi",
+      "final": "虐ᵀᵀi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@turment@i",
+      "first": "虐i",
+      "final": "虐i"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@tortur@i",
+      "first": "虐ᵀᵀi",
+      "final": "虐ᵀᵀi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "testikito",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "orkidito",
+      "first": "丸ᴼ炎ᵀo",
+      "final": "丸ᴼ炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@testikit@o",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@orkidit@o",
+      "first": "丸ᴼ炎ᵀo",
+      "final": "丸ᴼ炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "uvo",
+      "first": "葡萄o",
+      "final": "葡萄o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "uveo",
+      "first": "葡萄膜o",
+      "final": "葡萄膜o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "uveito",
+      "first": "葡萄膜炎ᵀo",
+      "final": "葡萄膜炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "vito",
+      "first": "葡o",
+      "final": "葡o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "ananaso",
+      "first": "菠o",
+      "final": "菠o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "jakvo",
+      "first": "菠蜜o",
+      "final": "菠蜜o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "prioritato",
+      "first": "优先o",
+      "final": "优先o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "lasi",
+      "first": "放i",
+      "final": "放i"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "emancipi",
+      "first": "放ᴱi",
+      "final": "放ᴱi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "struto",
+      "first": "鸵o",
+      "final": "鸵o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "sinergio",
+      "first": "协同o",
+      "final": "协同o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "olivo",
+      "first": "榄o",
+      "final": "榄o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "ovalo",
+      "first": "椭圆o",
+      "final": "椭圆o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "elipso",
+      "first": "椭圆ᴱo",
+      "final": "椭圆ᴱo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "semajntagoj",
+      "first": "周日oj",
+      "final": "周日oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@semajn@tagoj",
+      "first": "周日oj",
+      "final": "周日oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "ŝakisto",
+      "first": "棋家o",
+      "final": "棋家o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "stafilokoko",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>o",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "stafilokokoj",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>oj",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>oj"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "stafilokokon",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>on",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>on"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "stafilokokojn",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>ojn",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>ojn"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "stafilokoka",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>a",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>a"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "stafilokokaj",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>aj",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>aj"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "stafilokokajn",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>ajn",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>ajn"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "stafilokoke",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>e",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>e"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "stafilokokozo",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby><ruby>oz<rt class=\"XXL_L\">증</rt></ruby>o",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby><ruby>oz<rt class=\"XXL_L\">증</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "Stafilokoko",
+      "first": "<ruby>Stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>o",
+      "final": "<ruby>Stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "STAFILOKOKO",
+      "first": "<ruby>STAFILOKOK<rt class=\"XXL_L\">포도상구균</rt></ruby>O",
+      "final": "<ruby>STAFILOKOK<rt class=\"XXL_L\">포도상구균</rt></ruby>O"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@stafilokok@o",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>o",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@stafilokoko@",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>o",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@stafilokok@oj",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>oj",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>oj"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@Stafilokok@o",
+      "first": "<ruby>Stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>o",
+      "final": "<ruby>Stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@STAFILOKOK@O",
+      "first": "<ruby>STAFILOKOK<rt class=\"XXL_L\">포도상구균</rt></ruby>O",
+      "final": "<ruby>STAFILOKOK<rt class=\"XXL_L\">포도상구균</rt></ruby>O"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "antistafilokoka",
+      "first": "anti<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>a",
+      "final": "anti<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>a"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "%stafilokoko%",
+      "first": "stafilokoko",
+      "final": "stafilokoko"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "%@stafilokok@%",
+      "first": "@stafilokok@",
+      "final": "@stafilokok@"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@stafilokok@o & %stafilokoko%",
+      "first": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>o &amp; stafilokoko",
+      "final": "<ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>o &amp; stafilokoko"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "turmenti",
+      "first": "<ruby>turment<rt class=\"XXL_L\">괴롭히다</rt></ruby>i",
+      "final": "<ruby>turment<rt class=\"XXL_L\">괴롭히다</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "torturi",
+      "first": "<ruby>tortur<rt class=\"XXL_L\">고문</rt></ruby>i",
+      "final": "<ruby>tortur<rt class=\"XXL_L\">고문</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@turment@i",
+      "first": "<ruby>turment<rt class=\"XXL_L\">괴롭히다</rt></ruby>i",
+      "final": "<ruby>turment<rt class=\"XXL_L\">괴롭히다</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@tortur@i",
+      "first": "<ruby>tortur<rt class=\"XXL_L\">고문</rt></ruby>i",
+      "final": "<ruby>tortur<rt class=\"XXL_L\">고문</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "testikito",
+      "first": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o",
+      "final": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "orkidito",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@testikit@o",
+      "first": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o",
+      "final": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@orkidit@o",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "uvo",
+      "first": "<ruby>uv<rt class=\"M_M\">포도</rt></ruby>o",
+      "final": "<ruby>uv<rt class=\"M_M\">포도</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "uveo",
+      "first": "<ruby>uve<rt class=\"M_M\">포도막</rt></ruby>o",
+      "final": "<ruby>uve<rt class=\"M_M\">포도막</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "uveito",
+      "first": "<ruby>uve<rt class=\"M_M\">포도막</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o",
+      "final": "<ruby>uve<rt class=\"M_M\">포도막</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "vito",
+      "first": "<ruby>vit<rt class=\"XXS_S\">포도<br>나무</rt></ruby>o",
+      "final": "<ruby>vit<rt class=\"XXS_S\">포도<br>나무</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "ananaso",
+      "first": "<ruby>ananas<rt class=\"XXL_L\">파인애플</rt></ruby>o",
+      "final": "<ruby>ananas<rt class=\"XXL_L\">파인애플</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "jakvo",
+      "first": "<ruby>jakv<rt class=\"S_S\">잭프루트</rt></ruby>o",
+      "final": "<ruby>jakv<rt class=\"S_S\">잭프루트</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "prioritato",
+      "first": "<ruby>prioritat<rt class=\"XXL_L\">우선권</rt></ruby>o",
+      "final": "<ruby>prioritat<rt class=\"XXL_L\">우선권</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "lasi",
+      "first": "<ruby>las<rt class=\"XS_S\">놓아두다</rt></ruby>i",
+      "final": "<ruby>las<rt class=\"XS_S\">놓아두다</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "emancipi",
+      "first": "<ruby>emancip<rt class=\"XXL_L\">해방</rt></ruby>i",
+      "final": "<ruby>emancip<rt class=\"XXL_L\">해방</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "struto",
+      "first": "<ruby>strut<rt class=\"XXL_L\">타조</rt></ruby>o",
+      "final": "<ruby>strut<rt class=\"XXL_L\">타조</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "sinergio",
+      "first": "<ruby>sinergi<rt class=\"XL_L\">상승작용</rt></ruby>o",
+      "final": "<ruby>sinergi<rt class=\"XL_L\">상승작용</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "olivo",
+      "first": "<ruby>oliv<rt class=\"XXS_S\">올리브<br> 열매</rt></ruby>o",
+      "final": "<ruby>oliv<rt class=\"XXS_S\">올리브<br> 열매</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "ovalo",
+      "first": "<ruby>oval<rt class=\"M_M\">타원형</rt></ruby>o",
+      "final": "<ruby>oval<rt class=\"M_M\">타원형</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "elipso",
+      "first": "<ruby>elips<rt class=\"XXL_L\">타원</rt></ruby>o",
+      "final": "<ruby>elips<rt class=\"XXL_L\">타원</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "semajntagoj",
+      "first": "<ruby>semajn<rt class=\"XXL_L\">한 주</rt></ruby><ruby>tag<rt class=\"L_L\">하루</rt></ruby>oj",
+      "final": "<ruby>semajn<rt class=\"XXL_L\">한 주</rt></ruby><ruby>tag<rt class=\"L_L\">하루</rt></ruby>oj"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@semajn@tagoj",
+      "first": "<ruby>semajn<rt class=\"XXL_L\">주간</rt></ruby><ruby>tag<rt class=\"L_L\">하루</rt></ruby>oj",
+      "final": "<ruby>semajn<rt class=\"XXL_L\">주간</rt></ruby><ruby>tag<rt class=\"L_L\">하루</rt></ruby>oj"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "ŝakisto",
+      "first": "<ruby>ŝak<rt class=\"XL_L\">체스</rt></ruby><ruby>ist<rt class=\"XXL_L\">자</rt></ruby>o",
+      "final": "<ruby>ŝak<rt class=\"XL_L\">체스</rt></ruby><ruby>ist<rt class=\"XXL_L\">자</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "stafilokoko",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "stafilokokoj",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>oj",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>oj"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "stafilokokon",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>on",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>on"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "stafilokokojn",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>ojn",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>ojn"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "stafilokoka",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>a",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>a"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "stafilokokaj",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>aj",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>aj"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "stafilokokajn",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>ajn",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>ajn"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "stafilokoke",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>e",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>e"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "stafilokokozo",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby><ruby>症ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby><ruby>症ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "Stafilokoko",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">Stafilokok</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">Stafilokok</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "STAFILOKOKO",
+      "first": "<ruby>葡球菌<rt class=\"S_S\">STAFILOKOK</rt></ruby>O",
+      "final": "<ruby>葡球菌<rt class=\"S_S\">STAFILOKOK</rt></ruby>O"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@stafilokok@o",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@stafilokoko@",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@stafilokok@oj",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>oj",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>oj"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@Stafilokok@o",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">Stafilokok</rt></ruby>o",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">Stafilokok</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@STAFILOKOK@O",
+      "first": "<ruby>葡球菌<rt class=\"S_S\">STAFILOKOK</rt></ruby>O",
+      "final": "<ruby>葡球菌<rt class=\"S_S\">STAFILOKOK</rt></ruby>O"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "antistafilokoka",
+      "first": "anti<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>a",
+      "final": "anti<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>a"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "%stafilokoko%",
+      "first": "stafilokoko",
+      "final": "stafilokoko"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "%@stafilokok@%",
+      "first": "@stafilokok@",
+      "final": "@stafilokok@"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@stafilokok@o & %stafilokoko%",
+      "first": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o &amp; stafilokoko",
+      "final": "<ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o &amp; stafilokoko"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "turmenti",
+      "first": "<ruby>虐<rt class=\"XXS_S\">turm<br>ent</rt></ruby>i",
+      "final": "<ruby>虐<rt class=\"XXS_S\">turm<br>ent</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "torturi",
+      "first": "<ruby>虐ᵀᵀ<rt class=\"XL_L\">tortur</rt></ruby>i",
+      "final": "<ruby>虐ᵀᵀ<rt class=\"XL_L\">tortur</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@turment@i",
+      "first": "<ruby>虐<rt class=\"XXS_S\">turm<br>ent</rt></ruby>i",
+      "final": "<ruby>虐<rt class=\"XXS_S\">turm<br>ent</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@tortur@i",
+      "first": "<ruby>虐ᵀᵀ<rt class=\"XL_L\">tortur</rt></ruby>i",
+      "final": "<ruby>虐ᵀᵀ<rt class=\"XL_L\">tortur</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "testikito",
+      "first": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "orkidito",
+      "first": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@testikit@o",
+      "first": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+      "final": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@orkidit@o",
+      "first": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>o",
+      "final": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "uvo",
+      "first": "<ruby>葡萄<rt class=\"XXL_L\">uv</rt></ruby>o",
+      "final": "<ruby>葡萄<rt class=\"XXL_L\">uv</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "uveo",
+      "first": "<ruby>葡萄膜<rt class=\"XXL_L\">uve</rt></ruby>o",
+      "final": "<ruby>葡萄膜<rt class=\"XXL_L\">uve</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "uveito",
+      "first": "<ruby>葡萄膜<rt class=\"XXL_L\">uve</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>葡萄膜<rt class=\"XXL_L\">uve</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "vito",
+      "first": "<ruby>葡<rt class=\"XXL_L\">vit</rt></ruby>o",
+      "final": "<ruby>葡<rt class=\"XXL_L\">vit</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "ananaso",
+      "first": "<ruby>菠<rt class=\"XXS_S\">ana<br>nas</rt></ruby>o",
+      "final": "<ruby>菠<rt class=\"XXS_S\">ana<br>nas</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "jakvo",
+      "first": "<ruby>菠蜜<rt class=\"XXL_L\">jakv</rt></ruby>o",
+      "final": "<ruby>菠蜜<rt class=\"XXL_L\">jakv</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "prioritato",
+      "first": "<ruby>优先<rt class=\"M_M\">prioritat</rt></ruby>o",
+      "final": "<ruby>优先<rt class=\"M_M\">prioritat</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "lasi",
+      "first": "<ruby>放<rt class=\"XL_L\">las</rt></ruby>i",
+      "final": "<ruby>放<rt class=\"XL_L\">las</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "emancipi",
+      "first": "<ruby>放ᴱ<rt class=\"XS_S\">emancip</rt></ruby>i",
+      "final": "<ruby>放ᴱ<rt class=\"XS_S\">emancip</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "struto",
+      "first": "<ruby>鸵<rt class=\"S_S\">strut</rt></ruby>o",
+      "final": "<ruby>鸵<rt class=\"S_S\">strut</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "sinergio",
+      "first": "<ruby>协同<rt class=\"L_L\">sinergi</rt></ruby>o",
+      "final": "<ruby>协同<rt class=\"L_L\">sinergi</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "olivo",
+      "first": "<ruby>榄<rt class=\"M_M\">oliv</rt></ruby>o",
+      "final": "<ruby>榄<rt class=\"M_M\">oliv</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "ovalo",
+      "first": "<ruby>椭圆<rt class=\"XXL_L\">oval</rt></ruby>o",
+      "final": "<ruby>椭圆<rt class=\"XXL_L\">oval</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "elipso",
+      "first": "<ruby>椭圆ᴱ<rt class=\"XXL_L\">elips</rt></ruby>o",
+      "final": "<ruby>椭圆ᴱ<rt class=\"XXL_L\">elips</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "semajntagoj",
+      "first": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj",
+      "final": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@semajn@tagoj",
+      "first": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj",
+      "final": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "ŝakisto",
+      "first": "<ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o",
+      "final": "<ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "stafilokoko",
+      "first": "葡球菌o",
+      "final": "葡球菌o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "stafilokokoj",
+      "first": "葡球菌oj",
+      "final": "葡球菌oj"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "stafilokokon",
+      "first": "葡球菌on",
+      "final": "葡球菌on"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "stafilokokojn",
+      "first": "葡球菌ojn",
+      "final": "葡球菌ojn"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "stafilokoka",
+      "first": "葡球菌a",
+      "final": "葡球菌a"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "stafilokokaj",
+      "first": "葡球菌aj",
+      "final": "葡球菌aj"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "stafilokokajn",
+      "first": "葡球菌ajn",
+      "final": "葡球菌ajn"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "stafilokoke",
+      "first": "葡球菌e",
+      "final": "葡球菌e"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "stafilokokozo",
+      "first": "葡球菌症ᴼo",
+      "final": "葡球菌症ᴼo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "Stafilokoko",
+      "first": "葡球菌o",
+      "final": "葡球菌o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "STAFILOKOKO",
+      "first": "葡球菌O",
+      "final": "葡球菌O"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@stafilokok@o",
+      "first": "葡球菌o",
+      "final": "葡球菌o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@stafilokoko@",
+      "first": "葡球菌o",
+      "final": "葡球菌o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@stafilokok@oj",
+      "first": "葡球菌oj",
+      "final": "葡球菌oj"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@Stafilokok@o",
+      "first": "葡球菌o",
+      "final": "葡球菌o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@STAFILOKOK@O",
+      "first": "葡球菌O",
+      "final": "葡球菌O"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "antistafilokoka",
+      "first": "anti葡球菌a",
+      "final": "anti葡球菌a"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "%stafilokoko%",
+      "first": "stafilokoko",
+      "final": "stafilokoko"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "%@stafilokok@%",
+      "first": "@stafilokok@",
+      "final": "@stafilokok@"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@stafilokok@o & %stafilokoko%",
+      "first": "葡球菌o & stafilokoko",
+      "final": "葡球菌o & stafilokoko"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "turmenti",
+      "first": "虐i",
+      "final": "虐i"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "torturi",
+      "first": "虐ᵀᵀi",
+      "final": "虐ᵀᵀi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@turment@i",
+      "first": "虐i",
+      "final": "虐i"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@tortur@i",
+      "first": "虐ᵀᵀi",
+      "final": "虐ᵀᵀi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "testikito",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "orkidito",
+      "first": "丸ᴼ炎ᵀo",
+      "final": "丸ᴼ炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@testikit@o",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@orkidit@o",
+      "first": "丸ᴼ炎ᵀo",
+      "final": "丸ᴼ炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "uvo",
+      "first": "葡萄o",
+      "final": "葡萄o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "uveo",
+      "first": "葡萄膜o",
+      "final": "葡萄膜o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "uveito",
+      "first": "葡萄膜炎ᵀo",
+      "final": "葡萄膜炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "vito",
+      "first": "葡o",
+      "final": "葡o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "ananaso",
+      "first": "菠o",
+      "final": "菠o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "jakvo",
+      "first": "菠蜜o",
+      "final": "菠蜜o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "prioritato",
+      "first": "优先o",
+      "final": "优先o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "lasi",
+      "first": "放i",
+      "final": "放i"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "emancipi",
+      "first": "放ᴱi",
+      "final": "放ᴱi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "struto",
+      "first": "鸵o",
+      "final": "鸵o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "sinergio",
+      "first": "协同o",
+      "final": "协同o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "olivo",
+      "first": "榄o",
+      "final": "榄o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "ovalo",
+      "first": "椭圆o",
+      "final": "椭圆o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "elipso",
+      "first": "椭圆ᴱo",
+      "final": "椭圆ᴱo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "semajntagoj",
+      "first": "周日oj",
+      "final": "周日oj"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@semajn@tagoj",
+      "first": "周日oj",
+      "final": "周日oj"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "ŝakisto",
+      "first": "棋家o",
+      "final": "棋家o"
+    }
+  ],
+  "manual": [
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "forms": 3,
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "forms": 3,
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "forms": 3,
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "forms": 3,
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "forms": 3,
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "forms": 3,
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "forms": 3,
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "forms": 3,
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "forms": 3,
+      "passed": true
+    }
+  ]
+}
