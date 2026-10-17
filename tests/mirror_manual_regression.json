@@ -1,0 +1,2790 @@
+{
+  "passed": true,
+  "scope_sha256": "d0b5dfc0c31fb35bbd27308b6841651c76987e0e6da222dd118771d92878f681",
+  "tables": [],
+  "manual": [
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "generated_roots": 1532,
+      "generated_forms": 4596,
+      "runtime_forms": 60,
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "generated_roots": 1532,
+      "generated_forms": 4596,
+      "runtime_forms": 60,
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "generated_roots": 1532,
+      "generated_forms": 4596,
+      "runtime_forms": 60,
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "generated_roots": 1532,
+      "generated_forms": 4596,
+      "runtime_forms": 60,
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "generated_roots": 1532,
+      "generated_forms": 4596,
+      "runtime_forms": 60,
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "generated_roots": 1532,
+      "generated_forms": 4596,
+      "runtime_forms": 60,
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "generated_roots": 1532,
+      "generated_forms": 4596,
+      "runtime_forms": 60,
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "generated_roots": 1532,
+      "generated_forms": 4596,
+      "runtime_forms": 60,
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "generated_roots": 1532,
+      "generated_forms": 4596,
+      "runtime_forms": 60,
+      "passed": true
+    }
+  ],
+  "controls": [
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "testikito",
+      "first": "<ruby>testik<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>testik<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@testikit@o",
+      "first": "<ruby>testik<rt class=\"M_M\">[解]睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o",
+      "final": "<ruby>testik<rt class=\"M_M\">[解]睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "orkidito",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@orkidit@o",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@testikito@",
+      "first": "<ruby>testik<rt class=\"M_M\">[解]睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o",
+      "final": "<ruby>testik<rt class=\"M_M\">[解]睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@TESTIKIT@O",
+      "first": "<ruby>TESTIK<rt class=\"XXL_L\">[解]睾丸</rt></ruby><ruby>IT<rt class=\"XXS_S\">受動<br>完了</rt></ruby>O",
+      "final": "<ruby>TESTIK<rt class=\"XXL_L\">[解]睾丸</rt></ruby><ruby>IT<rt class=\"XXS_S\">受動<br>完了</rt></ruby>O"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "testikitoj",
+      "first": "<ruby>testik<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>oj",
+      "final": "<ruby>testik<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>oj"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "testikiton",
+      "first": "<ruby>testik<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>on",
+      "final": "<ruby>testik<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>on"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "testikitojn",
+      "first": "<ruby>testik<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>ojn",
+      "final": "<ruby>testik<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>ojn"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "Testikito",
+      "first": "<ruby>Testik<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>Testik<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "TESTIKITO",
+      "first": "<ruby>TESTIK<rt class=\"XXL_L\">精巣</rt></ruby><ruby>IT<rt class=\"XXL_L\">炎</rt></ruby>O",
+      "final": "<ruby>TESTIK<rt class=\"XXL_L\">精巣</rt></ruby><ruby>IT<rt class=\"XXL_L\">炎</rt></ruby>O"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "orkidektomio",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">精巣</rt></ruby><ruby>ektomi<rt class=\"XXL_L\">切除</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">精巣</rt></ruby><ruby>ektomi<rt class=\"XXL_L\">切除</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "orkidoterapio",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">精巣</rt></ruby>o<ruby>terapi<rt class=\"XXL_L\">治療</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">精巣</rt></ruby>o<ruby>terapi<rt class=\"XXL_L\">治療</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "paniklito",
+      "first": "<ruby>panikl<rt class=\"M_M\">皮下脂肪</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>panikl<rt class=\"M_M\">皮下脂肪</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "alkoholato",
+      "first": "<ruby>alkohol<rt class=\"M_M\">アルコール</rt></ruby><ruby>at<rt class=\"XS_S\">酸塩</rt></ruby>o",
+      "final": "<ruby>alkohol<rt class=\"M_M\">アルコール</rt></ruby><ruby>at<rt class=\"XS_S\">酸塩</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@alkoholat@o",
+      "first": "<ruby>alkohol<rt class=\"M_M\">アルコール</rt></ruby><ruby>at<rt class=\"XXS_S\">受動<br>継続</rt></ruby>o",
+      "final": "<ruby>alkohol<rt class=\"M_M\">アルコール</rt></ruby><ruby>at<rt class=\"XXS_S\">受動<br>継続</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "salpingito",
+      "first": "<ruby>salping<rt class=\"XXL_L\">卵管</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>salping<rt class=\"XXL_L\">卵管</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@salpingit@o",
+      "first": "<ruby>salping<rt class=\"XXL_L\">卵管</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o",
+      "final": "<ruby>salping<rt class=\"XXL_L\">卵管</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "otosalpingito",
+      "first": "<ruby>ot<rt class=\"XL_L\">耳</rt></ruby>o<ruby>salping<rt class=\"XXL_L\">管</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>ot<rt class=\"XL_L\">耳</rt></ruby>o<ruby>salping<rt class=\"XXL_L\">管</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@otosalpingit@o",
+      "first": "<ruby>ot<rt class=\"XXS_S\">受動<br>将然</rt></ruby>o<ruby>salping<rt class=\"XXL_L\">卵管</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o",
+      "final": "<ruby>ot<rt class=\"XXS_S\">受動<br>将然</rt></ruby>o<ruby>salping<rt class=\"XXL_L\">卵管</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "fotografio",
+      "first": "<ruby>fot<rt class=\"M_M\">写真</rt></ruby>o<ruby>grafi<rt class=\"XXL_L\">記述</rt></ruby>o",
+      "final": "<ruby>fot<rt class=\"M_M\">写真</rt></ruby>o<ruby>grafi<rt class=\"XXL_L\">記述</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@fotografi@o",
+      "first": "<ruby>fotografi<rt class=\"XXL_L\">写真術</rt></ruby>o",
+      "final": "<ruby>fotografi<rt class=\"XXL_L\">写真術</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "milio",
+      "first": "<ruby>mili<rt class=\"L_L\">ミリ</rt></ruby>o",
+      "final": "<ruby>mili<rt class=\"L_L\">ミリ</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@mili@o",
+      "first": "<ruby>mili<rt class=\"XS_S\">[植]キビ</rt></ruby>o",
+      "final": "<ruby>mili<rt class=\"XS_S\">[植]キビ</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@piroz@o",
+      "first": "<ruby>piroz<rt class=\"S_S\">[病]胸やけ</rt></ruby>o",
+      "final": "<ruby>piroz<rt class=\"S_S\">[病]胸やけ</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "pirozo",
+      "first": "<ruby>piroz<rt class=\"L_L\">胸やけ</rt></ruby>o",
+      "final": "<ruby>piroz<rt class=\"L_L\">胸やけ</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@riboz@o",
+      "first": "<ruby>rib<rt class=\"XS_S\">スグリ</rt></ruby><ruby>oz<rt class=\"XXL_L\">症</rt></ruby>o",
+      "final": "<ruby>rib<rt class=\"XS_S\">スグリ</rt></ruby><ruby>oz<rt class=\"XXL_L\">症</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "ribozo",
+      "first": "<ruby>riboz<rt class=\"S_S\">リボース</rt></ruby>o",
+      "final": "<ruby>riboz<rt class=\"S_S\">リボース</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "lasi",
+      "first": "<ruby>las<rt class=\"XXS_S\">放置<br>する</rt></ruby>i",
+      "final": "<ruby>las<rt class=\"XXS_S\">放置<br>する</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "emancipi",
+      "first": "<ruby>emancip<rt class=\"XXL_L\">解放</rt></ruby>i",
+      "final": "<ruby>emancip<rt class=\"XXL_L\">解放</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "ananaso",
+      "first": "<ruby>ananas<rt class=\"XXL_L\">パイン</rt></ruby>o",
+      "final": "<ruby>ananas<rt class=\"XXL_L\">パイン</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "jakvo",
+      "first": "<ruby>jakv<rt class=\"XXS_S\">ジャック<br>フルーツ</rt></ruby>o",
+      "final": "<ruby>jakv<rt class=\"XXS_S\">ジャック<br>フルーツ</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "prioritato",
+      "first": "<ruby>prioritat<rt class=\"XXL_L\">優先権</rt></ruby>o",
+      "final": "<ruby>prioritat<rt class=\"XXL_L\">優先権</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "struto",
+      "first": "<ruby>strut<rt class=\"S_S\">ダチョウ</rt></ruby>o",
+      "final": "<ruby>strut<rt class=\"S_S\">ダチョウ</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "sinergio",
+      "first": "<ruby>sinergi<rt class=\"L_L\">相乗作用</rt></ruby>o",
+      "final": "<ruby>sinergi<rt class=\"L_L\">相乗作用</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "olivo",
+      "first": "<ruby>oliv<rt class=\"XS_S\">オリーブ</rt></ruby>o",
+      "final": "<ruby>oliv<rt class=\"XS_S\">オリーブ</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "ovalo",
+      "first": "<ruby>oval<rt class=\"M_M\">楕円形</rt></ruby>o",
+      "final": "<ruby>oval<rt class=\"M_M\">楕円形</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "elipso",
+      "first": "<ruby>elips<rt class=\"XXL_L\">楕円</rt></ruby>o",
+      "final": "<ruby>elips<rt class=\"XXL_L\">楕円</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "semajntagoj",
+      "first": "<ruby>semajn<rt class=\"XXL_L\">週</rt></ruby><ruby>tag<rt class=\"XXL_L\">日</rt></ruby>oj",
+      "final": "<ruby>semajn<rt class=\"XXL_L\">週</rt></ruby><ruby>tag<rt class=\"XXL_L\">日</rt></ruby>oj"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@semajn@tagoj",
+      "first": "<ruby>semajn<rt class=\"XXL_L\">一週間</rt></ruby><ruby>tag<rt class=\"XXL_L\">日</rt></ruby>oj",
+      "final": "<ruby>semajn<rt class=\"XXL_L\">一週間</rt></ruby><ruby>tag<rt class=\"XXL_L\">日</rt></ruby>oj"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "ŝakisto",
+      "first": "<ruby>ŝak<rt class=\"S_S\">チェス</rt></ruby><ruby>ist<rt class=\"XS_S\">従事者</rt></ruby>o",
+      "final": "<ruby>ŝak<rt class=\"S_S\">チェス</rt></ruby><ruby>ist<rt class=\"XS_S\">従事者</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "%testikito%",
+      "first": "testikito",
+      "final": "testikito"
+    },
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "input": "@testikit@o & %amiko%",
+      "first": "<ruby>testik<rt class=\"M_M\">[解]睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o &amp; amiko",
+      "final": "<ruby>testik<rt class=\"M_M\">[解]睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o &amp; amiko"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "testikito",
+      "first": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@testikit@o",
+      "first": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+      "final": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "orkidito",
+      "first": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@orkidit@o",
+      "first": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>o",
+      "final": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@testikito@",
+      "first": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+      "final": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@TESTIKIT@O",
+      "first": "<ruby>丸ᵀ炎ᵀ<rt class=\"M_M\">TESTIKIT</rt></ruby>O",
+      "final": "<ruby>丸ᵀ炎ᵀ<rt class=\"M_M\">TESTIKIT</rt></ruby>O"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "testikitoj",
+      "first": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>oj",
+      "final": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>oj"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "testikiton",
+      "first": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>on",
+      "final": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>on"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "testikitojn",
+      "first": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>ojn",
+      "final": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>ojn"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "Testikito",
+      "first": "<ruby>丸ᵀ<rt class=\"S_S\">Testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>丸ᵀ<rt class=\"S_S\">Testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "TESTIKITO",
+      "first": "<ruby>丸ᵀ<rt class=\"XS_S\">TESTIK</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">IT</rt></ruby>O",
+      "final": "<ruby>丸ᵀ<rt class=\"XS_S\">TESTIK</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">IT</rt></ruby>O"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "orkidektomio",
+      "first": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>除ᴱᴷ<rt class=\"M_M\">ektomi</rt></ruby>o",
+      "final": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>除ᴱᴷ<rt class=\"M_M\">ektomi</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "orkidoterapio",
+      "first": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby>o<ruby>疗<rt class=\"XS_S\">terapi</rt></ruby>o",
+      "final": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby>o<ruby>疗<rt class=\"XS_S\">terapi</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "paniklito",
+      "first": "<ruby>脂ᴾ<rt class=\"S_S\">panikl</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>脂ᴾ<rt class=\"S_S\">panikl</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "alkoholato",
+      "first": "<ruby>醇<rt class=\"XXS_S\">alko<br>hol</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o",
+      "final": "<ruby>醇<rt class=\"XXS_S\">alko<br>hol</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@alkoholat@o",
+      "first": "<ruby>醇盐ᴬ<rt class=\"M_M\">alkoholat</rt></ruby>o",
+      "final": "<ruby>醇盐ᴬ<rt class=\"M_M\">alkoholat</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "salpingito",
+      "first": "<ruby>卵管<rt class=\"M_M\">salping</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>卵管<rt class=\"M_M\">salping</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@salpingit@o",
+      "first": "<ruby>卵管炎ᵀ<rt class=\"XXL_L\">salpingit</rt></ruby>o",
+      "final": "<ruby>卵管炎ᵀ<rt class=\"XXL_L\">salpingit</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "otosalpingito",
+      "first": "<ruby>耳ᴼᵀ<rt class=\"XXL_L\">ot</rt></ruby>o<ruby>管ˢ<rt class=\"XS_S\">salping</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>耳ᴼᵀ<rt class=\"XXL_L\">ot</rt></ruby>o<ruby>管ˢ<rt class=\"XS_S\">salping</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@otosalpingit@o",
+      "first": "<ruby>待<rt class=\"XXL_L\">ot</rt></ruby>o<ruby>卵管炎ᵀ<rt class=\"XXL_L\">salpingit</rt></ruby>o",
+      "final": "<ruby>待<rt class=\"XXL_L\">ot</rt></ruby>o<ruby>卵管炎ᵀ<rt class=\"XXL_L\">salpingit</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "fotografio",
+      "first": "<ruby>拍<rt class=\"XXL_L\">fot</rt></ruby>o<ruby>志ᴳ<rt class=\"L_L\">grafi</rt></ruby>o",
+      "final": "<ruby>拍<rt class=\"XXL_L\">fot</rt></ruby>o<ruby>志ᴳ<rt class=\"L_L\">grafi</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@fotografi@o",
+      "first": "<ruby>拍<rt class=\"XXL_L\">fot</rt></ruby>o<ruby>记ᴳ<rt class=\"XL_L\">graf</rt></ruby>io",
+      "final": "<ruby>拍<rt class=\"XXL_L\">fot</rt></ruby>o<ruby>记ᴳ<rt class=\"XL_L\">graf</rt></ruby>io"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "milio",
+      "first": "<ruby>粟ᴹ<rt class=\"XXL_L\">mili</rt></ruby>o",
+      "final": "<ruby>粟ᴹ<rt class=\"XXL_L\">mili</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@mili@o",
+      "first": "<ruby>毫<rt class=\"M_M\">mili</rt></ruby>o",
+      "final": "<ruby>毫<rt class=\"M_M\">mili</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@piroz@o",
+      "first": "<ruby>梨<rt class=\"XXL_L\">pir</rt></ruby><ruby>富ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o",
+      "final": "<ruby>梨<rt class=\"XXL_L\">pir</rt></ruby><ruby>富ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "pirozo",
+      "first": "<ruby>火ᴾ<rt class=\"XXL_L\">pir</rt></ruby><ruby>症ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o",
+      "final": "<ruby>火ᴾ<rt class=\"XXL_L\">pir</rt></ruby><ruby>症ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@riboz@o",
+      "first": "<ruby>醋栗<rt class=\"XXL_L\">rib</rt></ruby><ruby>富ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o",
+      "final": "<ruby>醋栗<rt class=\"XXL_L\">rib</rt></ruby><ruby>富ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "ribozo",
+      "first": "<ruby>核ᴿ<rt class=\"XXL_L\">rib</rt></ruby><ruby>糖ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o",
+      "final": "<ruby>核ᴿ<rt class=\"XXL_L\">rib</rt></ruby><ruby>糖ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "lasi",
+      "first": "<ruby>放<rt class=\"XL_L\">las</rt></ruby>i",
+      "final": "<ruby>放<rt class=\"XL_L\">las</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "emancipi",
+      "first": "<ruby>放ᴱ<rt class=\"XS_S\">emancip</rt></ruby>i",
+      "final": "<ruby>放ᴱ<rt class=\"XS_S\">emancip</rt></ruby>i"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "ananaso",
+      "first": "<ruby>菠<rt class=\"XXS_S\">ana<br>nas</rt></ruby>o",
+      "final": "<ruby>菠<rt class=\"XXS_S\">ana<br>nas</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "jakvo",
+      "first": "<ruby>菠蜜<rt class=\"XXL_L\">jakv</rt></ruby>o",
+      "final": "<ruby>菠蜜<rt class=\"XXL_L\">jakv</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "prioritato",
+      "first": "<ruby>优先<rt class=\"M_M\">prioritat</rt></ruby>o",
+      "final": "<ruby>优先<rt class=\"M_M\">prioritat</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "struto",
+      "first": "<ruby>鸵<rt class=\"S_S\">strut</rt></ruby>o",
+      "final": "<ruby>鸵<rt class=\"S_S\">strut</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "sinergio",
+      "first": "<ruby>协同<rt class=\"L_L\">sinergi</rt></ruby>o",
+      "final": "<ruby>协同<rt class=\"L_L\">sinergi</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "olivo",
+      "first": "<ruby>榄<rt class=\"M_M\">oliv</rt></ruby>o",
+      "final": "<ruby>榄<rt class=\"M_M\">oliv</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "ovalo",
+      "first": "<ruby>椭圆<rt class=\"XXL_L\">oval</rt></ruby>o",
+      "final": "<ruby>椭圆<rt class=\"XXL_L\">oval</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "elipso",
+      "first": "<ruby>椭圆ᴱ<rt class=\"XXL_L\">elips</rt></ruby>o",
+      "final": "<ruby>椭圆ᴱ<rt class=\"XXL_L\">elips</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "semajntagoj",
+      "first": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj",
+      "final": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@semajn@tagoj",
+      "first": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj",
+      "final": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "ŝakisto",
+      "first": "<ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o",
+      "final": "<ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "%testikito%",
+      "first": "testikito",
+      "final": "testikito"
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "input": "@testikit@o & %amiko%",
+      "first": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o &amp; amiko",
+      "final": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o &amp; amiko"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "testikito",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@testikit@o",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "orkidito",
+      "first": "丸ᴼ炎ᵀo",
+      "final": "丸ᴼ炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@orkidit@o",
+      "first": "丸ᴼ炎ᵀo",
+      "final": "丸ᴼ炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@testikito@",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@TESTIKIT@O",
+      "first": "丸ᵀ炎ᵀO",
+      "final": "丸ᵀ炎ᵀO"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "testikitoj",
+      "first": "丸ᵀ炎ᵀoj",
+      "final": "丸ᵀ炎ᵀoj"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "testikiton",
+      "first": "丸ᵀ炎ᵀon",
+      "final": "丸ᵀ炎ᵀon"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "testikitojn",
+      "first": "丸ᵀ炎ᵀojn",
+      "final": "丸ᵀ炎ᵀojn"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "Testikito",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "TESTIKITO",
+      "first": "丸ᵀ炎ᵀO",
+      "final": "丸ᵀ炎ᵀO"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "orkidektomio",
+      "first": "丸ᴼ除ᴱᴷo",
+      "final": "丸ᴼ除ᴱᴷo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "orkidoterapio",
+      "first": "丸ᴼo疗o",
+      "final": "丸ᴼo疗o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "paniklito",
+      "first": "脂ᴾ炎ᵀo",
+      "final": "脂ᴾ炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "alkoholato",
+      "first": "醇盐ᴬo",
+      "final": "醇盐ᴬo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@alkoholat@o",
+      "first": "醇盐ᴬo",
+      "final": "醇盐ᴬo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "salpingito",
+      "first": "卵管炎ᵀo",
+      "final": "卵管炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@salpingit@o",
+      "first": "卵管炎ᵀo",
+      "final": "卵管炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "otosalpingito",
+      "first": "耳ᴼᵀo管ˢ炎ᵀo",
+      "final": "耳ᴼᵀo管ˢ炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@otosalpingit@o",
+      "first": "待o卵管炎ᵀo",
+      "final": "待o卵管炎ᵀo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "fotografio",
+      "first": "拍o志ᴳo",
+      "final": "拍o志ᴳo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@fotografi@o",
+      "first": "拍o记ᴳio",
+      "final": "拍o记ᴳio"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "milio",
+      "first": "粟ᴹo",
+      "final": "粟ᴹo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@mili@o",
+      "first": "毫o",
+      "final": "毫o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@piroz@o",
+      "first": "梨富ᴼo",
+      "final": "梨富ᴼo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "pirozo",
+      "first": "火ᴾ症ᴼo",
+      "final": "火ᴾ症ᴼo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@riboz@o",
+      "first": "醋栗富ᴼo",
+      "final": "醋栗富ᴼo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "ribozo",
+      "first": "核ᴿ糖ᴼo",
+      "final": "核ᴿ糖ᴼo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "lasi",
+      "first": "放i",
+      "final": "放i"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "emancipi",
+      "first": "放ᴱi",
+      "final": "放ᴱi"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "ananaso",
+      "first": "菠o",
+      "final": "菠o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "jakvo",
+      "first": "菠蜜o",
+      "final": "菠蜜o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "prioritato",
+      "first": "优先o",
+      "final": "优先o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "struto",
+      "first": "鸵o",
+      "final": "鸵o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "sinergio",
+      "first": "协同o",
+      "final": "协同o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "olivo",
+      "first": "榄o",
+      "final": "榄o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "ovalo",
+      "first": "椭圆o",
+      "final": "椭圆o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "elipso",
+      "first": "椭圆ᴱo",
+      "final": "椭圆ᴱo"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "semajntagoj",
+      "first": "周日oj",
+      "final": "周日oj"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@semajn@tagoj",
+      "first": "周日oj",
+      "final": "周日oj"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "ŝakisto",
+      "first": "棋家o",
+      "final": "棋家o"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "%testikito%",
+      "first": "testikito",
+      "final": "testikito"
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "input": "@testikit@o & %amiko%",
+      "first": "丸ᵀ炎ᵀo & amiko",
+      "final": "丸ᵀ炎ᵀo & amiko"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "testikito",
+      "first": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@testikit@o",
+      "first": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o",
+      "final": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "orkidito",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@orkidit@o",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@testikito@",
+      "first": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o",
+      "final": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@TESTIKIT@O",
+      "first": "<ruby>TESTIK<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>IT<rt class=\"XXS_S\">被动<br>完了</rt></ruby>O",
+      "final": "<ruby>TESTIK<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>IT<rt class=\"XXS_S\">被动<br>完了</rt></ruby>O"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "testikitoj",
+      "first": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>oj",
+      "final": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "testikiton",
+      "first": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>on",
+      "final": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>on"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "testikitojn",
+      "first": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>ojn",
+      "final": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>ojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "Testikito",
+      "first": "<ruby>Testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>Testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "TESTIKITO",
+      "first": "<ruby>TESTIK<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>IT<rt class=\"XXL_L\">炎</rt></ruby>O",
+      "final": "<ruby>TESTIK<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>IT<rt class=\"XXL_L\">炎</rt></ruby>O"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "orkidektomio",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>ektomi<rt class=\"XXL_L\">切除</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>ektomi<rt class=\"XXL_L\">切除</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "orkidoterapio",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">睾丸</rt></ruby>o<ruby>terapi<rt class=\"XXL_L\">治疗</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">睾丸</rt></ruby>o<ruby>terapi<rt class=\"XXL_L\">治疗</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "paniklito",
+      "first": "<ruby>panikl<rt class=\"M_M\">皮下脂肪</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>panikl<rt class=\"M_M\">皮下脂肪</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "alkoholato",
+      "first": "<ruby>alkohol<rt class=\"XXL_L\">酒精</rt></ruby><ruby>at<rt class=\"XS_S\">酸盐</rt></ruby>o",
+      "final": "<ruby>alkohol<rt class=\"XXL_L\">酒精</rt></ruby><ruby>at<rt class=\"XS_S\">酸盐</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@alkoholat@o",
+      "first": "<ruby>alkohol<rt class=\"XXL_L\">酒精</rt></ruby><ruby>at<rt class=\"XXS_S\">被动<br>中</rt></ruby>o",
+      "final": "<ruby>alkohol<rt class=\"XXL_L\">酒精</rt></ruby><ruby>at<rt class=\"XXS_S\">被动<br>中</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "salpingito",
+      "first": "<ruby>salping<rt class=\"XXL_L\">输卵管</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>salping<rt class=\"XXL_L\">输卵管</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@salpingit@o",
+      "first": "<ruby>salping<rt class=\"XXL_L\">输卵管</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o",
+      "final": "<ruby>salping<rt class=\"XXL_L\">输卵管</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "otosalpingito",
+      "first": "<ruby>ot<rt class=\"XL_L\">耳</rt></ruby>o<ruby>salping<rt class=\"XXL_L\">管</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o",
+      "final": "<ruby>ot<rt class=\"XL_L\">耳</rt></ruby>o<ruby>salping<rt class=\"XXL_L\">管</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@otosalpingit@o",
+      "first": "<ruby>ot<rt class=\"XS_S\">将被</rt></ruby>o<ruby>salping<rt class=\"XXL_L\">输卵管</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o",
+      "final": "<ruby>ot<rt class=\"XS_S\">将被</rt></ruby>o<ruby>salping<rt class=\"XXL_L\">输卵管</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "fotografio",
+      "first": "<ruby>fot<rt class=\"M_M\">拍照</rt></ruby>o<ruby>grafi<rt class=\"XXL_L\">记述</rt></ruby>o",
+      "final": "<ruby>fot<rt class=\"M_M\">拍照</rt></ruby>o<ruby>grafi<rt class=\"XXL_L\">记述</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@fotografi@o",
+      "first": "<ruby>fotografi<rt class=\"XXL_L\">摄影术</rt></ruby>o",
+      "final": "<ruby>fotografi<rt class=\"XXL_L\">摄影术</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "milio",
+      "first": "<ruby>mili<rt class=\"XXL_L\">毫</rt></ruby>o",
+      "final": "<ruby>mili<rt class=\"XXL_L\">毫</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@mili@o",
+      "first": "<ruby>mili<rt class=\"XXL_L\">黍</rt></ruby>o",
+      "final": "<ruby>mili<rt class=\"XXL_L\">黍</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@piroz@o",
+      "first": "<ruby>piroz<rt class=\"XXL_L\">烧心</rt></ruby>o",
+      "final": "<ruby>piroz<rt class=\"XXL_L\">烧心</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "pirozo",
+      "first": "<ruby>piroz<rt class=\"XXL_L\">烧心</rt></ruby>o",
+      "final": "<ruby>piroz<rt class=\"XXL_L\">烧心</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@riboz@o",
+      "first": "<ruby>rib<rt class=\"XS_S\">茶藨子</rt></ruby><ruby>oz<rt class=\"XXL_L\">症</rt></ruby>o",
+      "final": "<ruby>rib<rt class=\"XS_S\">茶藨子</rt></ruby><ruby>oz<rt class=\"XXL_L\">症</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "ribozo",
+      "first": "<ruby>riboz<rt class=\"XXL_L\">核糖</rt></ruby>o",
+      "final": "<ruby>riboz<rt class=\"XXL_L\">核糖</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "lasi",
+      "first": "<ruby>las<rt class=\"M_M\">留下</rt></ruby>i",
+      "final": "<ruby>las<rt class=\"M_M\">留下</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "emancipi",
+      "first": "<ruby>emancip<rt class=\"XXL_L\">解放</rt></ruby>i",
+      "final": "<ruby>emancip<rt class=\"XXL_L\">解放</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "ananaso",
+      "first": "<ruby>ananas<rt class=\"XXL_L\">菠萝</rt></ruby>o",
+      "final": "<ruby>ananas<rt class=\"XXL_L\">菠萝</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "jakvo",
+      "first": "<ruby>jakv<rt class=\"M_M\">菠萝蜜</rt></ruby>o",
+      "final": "<ruby>jakv<rt class=\"M_M\">菠萝蜜</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "prioritato",
+      "first": "<ruby>prioritat<rt class=\"XXL_L\">优先权</rt></ruby>o",
+      "final": "<ruby>prioritat<rt class=\"XXL_L\">优先权</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "struto",
+      "first": "<ruby>strut<rt class=\"XS_S\">鸵鸟属鸟类</rt></ruby>o",
+      "final": "<ruby>strut<rt class=\"XS_S\">鸵鸟属鸟类</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "sinergio",
+      "first": "<ruby>sinergi<rt class=\"L_L\">协同作用</rt></ruby>o",
+      "final": "<ruby>sinergi<rt class=\"L_L\">协同作用</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "olivo",
+      "first": "<ruby>oliv<rt class=\"S_S\">油橄榄</rt></ruby>o",
+      "final": "<ruby>oliv<rt class=\"S_S\">油橄榄</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "ovalo",
+      "first": "<ruby>oval<rt class=\"M_M\">椭圆形</rt></ruby>o",
+      "final": "<ruby>oval<rt class=\"M_M\">椭圆形</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "elipso",
+      "first": "<ruby>elips<rt class=\"XXL_L\">椭圆</rt></ruby>o",
+      "final": "<ruby>elips<rt class=\"XXL_L\">椭圆</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "semajntagoj",
+      "first": "<ruby>semajn<rt class=\"XXL_L\">星期</rt></ruby><ruby>tag<rt class=\"L_L\">一日</rt></ruby>oj",
+      "final": "<ruby>semajn<rt class=\"XXL_L\">星期</rt></ruby><ruby>tag<rt class=\"L_L\">一日</rt></ruby>oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@semajn@tagoj",
+      "first": "<ruby>semajn<rt class=\"XXL_L\">周</rt></ruby><ruby>tag<rt class=\"L_L\">一日</rt></ruby>oj",
+      "final": "<ruby>semajn<rt class=\"XXL_L\">周</rt></ruby><ruby>tag<rt class=\"L_L\">一日</rt></ruby>oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "ŝakisto",
+      "first": "<ruby>ŝak<rt class=\"XS_S\">国际象棋</rt></ruby><ruby>ist<rt class=\"XXL_L\">者</rt></ruby>o",
+      "final": "<ruby>ŝak<rt class=\"XS_S\">国际象棋</rt></ruby><ruby>ist<rt class=\"XXL_L\">者</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "%testikito%",
+      "first": "testikito",
+      "final": "testikito"
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "input": "@testikit@o & %amiko%",
+      "first": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o &amp; amiko",
+      "final": "<ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o &amp; amiko"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "testikito",
+      "first": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@testikit@o",
+      "first": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+      "final": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "orkidito",
+      "first": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@orkidit@o",
+      "first": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>o",
+      "final": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@testikito@",
+      "first": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+      "final": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@TESTIKIT@O",
+      "first": "<ruby>丸ᵀ炎ᵀ<rt class=\"M_M\">TESTIKIT</rt></ruby>O",
+      "final": "<ruby>丸ᵀ炎ᵀ<rt class=\"M_M\">TESTIKIT</rt></ruby>O"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "testikitoj",
+      "first": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>oj",
+      "final": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "testikiton",
+      "first": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>on",
+      "final": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>on"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "testikitojn",
+      "first": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>ojn",
+      "final": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>ojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "Testikito",
+      "first": "<ruby>丸ᵀ<rt class=\"S_S\">Testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>丸ᵀ<rt class=\"S_S\">Testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "TESTIKITO",
+      "first": "<ruby>丸ᵀ<rt class=\"XS_S\">TESTIK</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">IT</rt></ruby>O",
+      "final": "<ruby>丸ᵀ<rt class=\"XS_S\">TESTIK</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">IT</rt></ruby>O"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "orkidektomio",
+      "first": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>除ᴱᴷ<rt class=\"M_M\">ektomi</rt></ruby>o",
+      "final": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>除ᴱᴷ<rt class=\"M_M\">ektomi</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "orkidoterapio",
+      "first": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby>o<ruby>疗<rt class=\"XS_S\">terapi</rt></ruby>o",
+      "final": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby>o<ruby>疗<rt class=\"XS_S\">terapi</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "paniklito",
+      "first": "<ruby>脂ᴾ<rt class=\"S_S\">panikl</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>脂ᴾ<rt class=\"S_S\">panikl</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "alkoholato",
+      "first": "<ruby>醇<rt class=\"XXS_S\">alko<br>hol</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o",
+      "final": "<ruby>醇<rt class=\"XXS_S\">alko<br>hol</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@alkoholat@o",
+      "first": "<ruby>醇盐ᴬ<rt class=\"M_M\">alkoholat</rt></ruby>o",
+      "final": "<ruby>醇盐ᴬ<rt class=\"M_M\">alkoholat</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "salpingito",
+      "first": "<ruby>卵管<rt class=\"M_M\">salping</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>卵管<rt class=\"M_M\">salping</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@salpingit@o",
+      "first": "<ruby>卵管炎ᵀ<rt class=\"XXL_L\">salpingit</rt></ruby>o",
+      "final": "<ruby>卵管炎ᵀ<rt class=\"XXL_L\">salpingit</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "otosalpingito",
+      "first": "<ruby>耳ᴼᵀ<rt class=\"XXL_L\">ot</rt></ruby>o<ruby>管ˢ<rt class=\"XS_S\">salping</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>耳ᴼᵀ<rt class=\"XXL_L\">ot</rt></ruby>o<ruby>管ˢ<rt class=\"XS_S\">salping</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@otosalpingit@o",
+      "first": "<ruby>待<rt class=\"XXL_L\">ot</rt></ruby>o<ruby>卵管炎ᵀ<rt class=\"XXL_L\">salpingit</rt></ruby>o",
+      "final": "<ruby>待<rt class=\"XXL_L\">ot</rt></ruby>o<ruby>卵管炎ᵀ<rt class=\"XXL_L\">salpingit</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "fotografio",
+      "first": "<ruby>拍<rt class=\"XXL_L\">fot</rt></ruby>o<ruby>志ᴳ<rt class=\"L_L\">grafi</rt></ruby>o",
+      "final": "<ruby>拍<rt class=\"XXL_L\">fot</rt></ruby>o<ruby>志ᴳ<rt class=\"L_L\">grafi</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@fotografi@o",
+      "first": "<ruby>拍<rt class=\"XXL_L\">fot</rt></ruby>o<ruby>记ᴳ<rt class=\"XL_L\">graf</rt></ruby>io",
+      "final": "<ruby>拍<rt class=\"XXL_L\">fot</rt></ruby>o<ruby>记ᴳ<rt class=\"XL_L\">graf</rt></ruby>io"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "milio",
+      "first": "<ruby>粟ᴹ<rt class=\"XXL_L\">mili</rt></ruby>o",
+      "final": "<ruby>粟ᴹ<rt class=\"XXL_L\">mili</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@mili@o",
+      "first": "<ruby>毫<rt class=\"M_M\">mili</rt></ruby>o",
+      "final": "<ruby>毫<rt class=\"M_M\">mili</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@piroz@o",
+      "first": "<ruby>梨<rt class=\"XXL_L\">pir</rt></ruby><ruby>富ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o",
+      "final": "<ruby>梨<rt class=\"XXL_L\">pir</rt></ruby><ruby>富ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "pirozo",
+      "first": "<ruby>火ᴾ<rt class=\"XXL_L\">pir</rt></ruby><ruby>症ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o",
+      "final": "<ruby>火ᴾ<rt class=\"XXL_L\">pir</rt></ruby><ruby>症ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@riboz@o",
+      "first": "<ruby>醋栗<rt class=\"XXL_L\">rib</rt></ruby><ruby>富ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o",
+      "final": "<ruby>醋栗<rt class=\"XXL_L\">rib</rt></ruby><ruby>富ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "ribozo",
+      "first": "<ruby>核ᴿ<rt class=\"XXL_L\">rib</rt></ruby><ruby>糖ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o",
+      "final": "<ruby>核ᴿ<rt class=\"XXL_L\">rib</rt></ruby><ruby>糖ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "lasi",
+      "first": "<ruby>放<rt class=\"XL_L\">las</rt></ruby>i",
+      "final": "<ruby>放<rt class=\"XL_L\">las</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "emancipi",
+      "first": "<ruby>放ᴱ<rt class=\"XS_S\">emancip</rt></ruby>i",
+      "final": "<ruby>放ᴱ<rt class=\"XS_S\">emancip</rt></ruby>i"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "ananaso",
+      "first": "<ruby>菠<rt class=\"XXS_S\">ana<br>nas</rt></ruby>o",
+      "final": "<ruby>菠<rt class=\"XXS_S\">ana<br>nas</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "jakvo",
+      "first": "<ruby>菠蜜<rt class=\"XXL_L\">jakv</rt></ruby>o",
+      "final": "<ruby>菠蜜<rt class=\"XXL_L\">jakv</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "prioritato",
+      "first": "<ruby>优先<rt class=\"M_M\">prioritat</rt></ruby>o",
+      "final": "<ruby>优先<rt class=\"M_M\">prioritat</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "struto",
+      "first": "<ruby>鸵<rt class=\"S_S\">strut</rt></ruby>o",
+      "final": "<ruby>鸵<rt class=\"S_S\">strut</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "sinergio",
+      "first": "<ruby>协同<rt class=\"L_L\">sinergi</rt></ruby>o",
+      "final": "<ruby>协同<rt class=\"L_L\">sinergi</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "olivo",
+      "first": "<ruby>榄<rt class=\"M_M\">oliv</rt></ruby>o",
+      "final": "<ruby>榄<rt class=\"M_M\">oliv</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "ovalo",
+      "first": "<ruby>椭圆<rt class=\"XXL_L\">oval</rt></ruby>o",
+      "final": "<ruby>椭圆<rt class=\"XXL_L\">oval</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "elipso",
+      "first": "<ruby>椭圆ᴱ<rt class=\"XXL_L\">elips</rt></ruby>o",
+      "final": "<ruby>椭圆ᴱ<rt class=\"XXL_L\">elips</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "semajntagoj",
+      "first": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj",
+      "final": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@semajn@tagoj",
+      "first": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj",
+      "final": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "ŝakisto",
+      "first": "<ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o",
+      "final": "<ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "%testikito%",
+      "first": "testikito",
+      "final": "testikito"
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "input": "@testikit@o & %amiko%",
+      "first": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o &amp; amiko",
+      "final": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o &amp; amiko"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "testikito",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@testikit@o",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "orkidito",
+      "first": "丸ᴼ炎ᵀo",
+      "final": "丸ᴼ炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@orkidit@o",
+      "first": "丸ᴼ炎ᵀo",
+      "final": "丸ᴼ炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@testikito@",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@TESTIKIT@O",
+      "first": "丸ᵀ炎ᵀO",
+      "final": "丸ᵀ炎ᵀO"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "testikitoj",
+      "first": "丸ᵀ炎ᵀoj",
+      "final": "丸ᵀ炎ᵀoj"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "testikiton",
+      "first": "丸ᵀ炎ᵀon",
+      "final": "丸ᵀ炎ᵀon"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "testikitojn",
+      "first": "丸ᵀ炎ᵀojn",
+      "final": "丸ᵀ炎ᵀojn"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "Testikito",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "TESTIKITO",
+      "first": "丸ᵀ炎ᵀO",
+      "final": "丸ᵀ炎ᵀO"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "orkidektomio",
+      "first": "丸ᴼ除ᴱᴷo",
+      "final": "丸ᴼ除ᴱᴷo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "orkidoterapio",
+      "first": "丸ᴼo疗o",
+      "final": "丸ᴼo疗o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "paniklito",
+      "first": "脂ᴾ炎ᵀo",
+      "final": "脂ᴾ炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "alkoholato",
+      "first": "醇盐ᴬo",
+      "final": "醇盐ᴬo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@alkoholat@o",
+      "first": "醇盐ᴬo",
+      "final": "醇盐ᴬo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "salpingito",
+      "first": "卵管炎ᵀo",
+      "final": "卵管炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@salpingit@o",
+      "first": "卵管炎ᵀo",
+      "final": "卵管炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "otosalpingito",
+      "first": "耳ᴼᵀo管ˢ炎ᵀo",
+      "final": "耳ᴼᵀo管ˢ炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@otosalpingit@o",
+      "first": "待o卵管炎ᵀo",
+      "final": "待o卵管炎ᵀo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "fotografio",
+      "first": "拍o志ᴳo",
+      "final": "拍o志ᴳo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@fotografi@o",
+      "first": "拍o记ᴳio",
+      "final": "拍o记ᴳio"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "milio",
+      "first": "粟ᴹo",
+      "final": "粟ᴹo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@mili@o",
+      "first": "毫o",
+      "final": "毫o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@piroz@o",
+      "first": "梨富ᴼo",
+      "final": "梨富ᴼo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "pirozo",
+      "first": "火ᴾ症ᴼo",
+      "final": "火ᴾ症ᴼo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@riboz@o",
+      "first": "醋栗富ᴼo",
+      "final": "醋栗富ᴼo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "ribozo",
+      "first": "核ᴿ糖ᴼo",
+      "final": "核ᴿ糖ᴼo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "lasi",
+      "first": "放i",
+      "final": "放i"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "emancipi",
+      "first": "放ᴱi",
+      "final": "放ᴱi"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "ananaso",
+      "first": "菠o",
+      "final": "菠o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "jakvo",
+      "first": "菠蜜o",
+      "final": "菠蜜o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "prioritato",
+      "first": "优先o",
+      "final": "优先o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "struto",
+      "first": "鸵o",
+      "final": "鸵o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "sinergio",
+      "first": "协同o",
+      "final": "协同o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "olivo",
+      "first": "榄o",
+      "final": "榄o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "ovalo",
+      "first": "椭圆o",
+      "final": "椭圆o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "elipso",
+      "first": "椭圆ᴱo",
+      "final": "椭圆ᴱo"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "semajntagoj",
+      "first": "周日oj",
+      "final": "周日oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@semajn@tagoj",
+      "first": "周日oj",
+      "final": "周日oj"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "ŝakisto",
+      "first": "棋家o",
+      "final": "棋家o"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "%testikito%",
+      "first": "testikito",
+      "final": "testikito"
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "input": "@testikit@o & %amiko%",
+      "first": "丸ᵀ炎ᵀo & amiko",
+      "final": "丸ᵀ炎ᵀo & amiko"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "testikito",
+      "first": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o",
+      "final": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@testikit@o",
+      "first": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o",
+      "final": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "orkidito",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@orkidit@o",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@testikito@",
+      "first": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o",
+      "final": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@TESTIKIT@O",
+      "first": "<ruby>TESTIK<rt class=\"XXL_L\">고환</rt></ruby><ruby>IT<rt class=\"XXS_S\">수동<br>완료</rt></ruby>O",
+      "final": "<ruby>TESTIK<rt class=\"XXL_L\">고환</rt></ruby><ruby>IT<rt class=\"XXS_S\">수동<br>완료</rt></ruby>O"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "testikitoj",
+      "first": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>oj",
+      "final": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>oj"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "testikiton",
+      "first": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>on",
+      "final": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>on"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "testikitojn",
+      "first": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>ojn",
+      "final": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>ojn"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "Testikito",
+      "first": "<ruby>Testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o",
+      "final": "<ruby>Testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "TESTIKITO",
+      "first": "<ruby>TESTIK<rt class=\"XXL_L\">고환</rt></ruby><ruby>IT<rt class=\"XXL_L\">염</rt></ruby>O",
+      "final": "<ruby>TESTIK<rt class=\"XXL_L\">고환</rt></ruby><ruby>IT<rt class=\"XXL_L\">염</rt></ruby>O"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "orkidektomio",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">고환</rt></ruby><ruby>ektomi<rt class=\"XXL_L\">절제</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">고환</rt></ruby><ruby>ektomi<rt class=\"XXL_L\">절제</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "orkidoterapio",
+      "first": "<ruby>orkid<rt class=\"XXL_L\">고환</rt></ruby>o<ruby>terapi<rt class=\"XXL_L\">치료</rt></ruby>o",
+      "final": "<ruby>orkid<rt class=\"XXL_L\">고환</rt></ruby>o<ruby>terapi<rt class=\"XXL_L\">치료</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "paniklito",
+      "first": "<ruby>panikl<rt class=\"L_L\">피하지방</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o",
+      "final": "<ruby>panikl<rt class=\"L_L\">피하지방</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "alkoholato",
+      "first": "<ruby>alkohol<rt class=\"XXL_L\">알코올</rt></ruby><ruby>at<rt class=\"S_S\">산염</rt></ruby>o",
+      "final": "<ruby>alkohol<rt class=\"XXL_L\">알코올</rt></ruby><ruby>at<rt class=\"S_S\">산염</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@alkoholat@o",
+      "first": "<ruby>alkohol<rt class=\"XXL_L\">알코올</rt></ruby><ruby>at<rt class=\"XXS_S\">받고<br> 있는</rt></ruby>o",
+      "final": "<ruby>alkohol<rt class=\"XXL_L\">알코올</rt></ruby><ruby>at<rt class=\"XXS_S\">받고<br> 있는</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "salpingito",
+      "first": "<ruby>salping<rt class=\"XXL_L\">난관</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o",
+      "final": "<ruby>salping<rt class=\"XXL_L\">난관</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@salpingit@o",
+      "first": "<ruby>salping<rt class=\"XXL_L\">난관</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o",
+      "final": "<ruby>salping<rt class=\"XXL_L\">난관</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "otosalpingito",
+      "first": "<ruby>ot<rt class=\"XXL_L\">귀</rt></ruby>o<ruby>salping<rt class=\"XXL_L\">관</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o",
+      "final": "<ruby>ot<rt class=\"XXL_L\">귀</rt></ruby>o<ruby>salping<rt class=\"XXL_L\">관</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@otosalpingit@o",
+      "first": "<ruby>ot<rt class=\"S_S\">받을</rt></ruby>o<ruby>salping<rt class=\"XXL_L\">난관</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o",
+      "final": "<ruby>ot<rt class=\"S_S\">받을</rt></ruby>o<ruby>salping<rt class=\"XXL_L\">난관</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "fotografio",
+      "first": "<ruby>fot<rt class=\"M_M\">사진</rt></ruby>o<ruby>grafi<rt class=\"XXL_L\">기술</rt></ruby>o",
+      "final": "<ruby>fot<rt class=\"M_M\">사진</rt></ruby>o<ruby>grafi<rt class=\"XXL_L\">기술</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@fotografi@o",
+      "first": "<ruby>fotografi<rt class=\"XXL_L\">사진술</rt></ruby>o",
+      "final": "<ruby>fotografi<rt class=\"XXL_L\">사진술</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "milio",
+      "first": "<ruby>mili<rt class=\"XL_L\">밀리</rt></ruby>o",
+      "final": "<ruby>mili<rt class=\"XL_L\">밀리</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@mili@o",
+      "first": "<ruby>mili<rt class=\"XXL_L\">조</rt></ruby>o",
+      "final": "<ruby>mili<rt class=\"XXL_L\">조</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@piroz@o",
+      "first": "<ruby>piroz<rt class=\"XL_L\">속쓰림</rt></ruby>o",
+      "final": "<ruby>piroz<rt class=\"XL_L\">속쓰림</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "pirozo",
+      "first": "<ruby>piroz<rt class=\"XL_L\">속쓰림</rt></ruby>o",
+      "final": "<ruby>piroz<rt class=\"XL_L\">속쓰림</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@riboz@o",
+      "first": "<ruby>rib<rt class=\"XXS_S\">까치밥나<br>무 열매</rt></ruby><ruby>oz<rt class=\"XXL_L\">증</rt></ruby>o",
+      "final": "<ruby>rib<rt class=\"XXS_S\">까치밥나<br>무 열매</rt></ruby><ruby>oz<rt class=\"XXL_L\">증</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "ribozo",
+      "first": "<ruby>riboz<rt class=\"XL_L\">리보스</rt></ruby>o",
+      "final": "<ruby>riboz<rt class=\"XL_L\">리보스</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "lasi",
+      "first": "<ruby>las<rt class=\"XS_S\">놓아두다</rt></ruby>i",
+      "final": "<ruby>las<rt class=\"XS_S\">놓아두다</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "emancipi",
+      "first": "<ruby>emancip<rt class=\"XXL_L\">해방</rt></ruby>i",
+      "final": "<ruby>emancip<rt class=\"XXL_L\">해방</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "ananaso",
+      "first": "<ruby>ananas<rt class=\"XXL_L\">파인애플</rt></ruby>o",
+      "final": "<ruby>ananas<rt class=\"XXL_L\">파인애플</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "jakvo",
+      "first": "<ruby>jakv<rt class=\"S_S\">잭프루트</rt></ruby>o",
+      "final": "<ruby>jakv<rt class=\"S_S\">잭프루트</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "prioritato",
+      "first": "<ruby>prioritat<rt class=\"XXL_L\">우선권</rt></ruby>o",
+      "final": "<ruby>prioritat<rt class=\"XXL_L\">우선권</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "struto",
+      "first": "<ruby>strut<rt class=\"XXL_L\">타조</rt></ruby>o",
+      "final": "<ruby>strut<rt class=\"XXL_L\">타조</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "sinergio",
+      "first": "<ruby>sinergi<rt class=\"XL_L\">상승작용</rt></ruby>o",
+      "final": "<ruby>sinergi<rt class=\"XL_L\">상승작용</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "olivo",
+      "first": "<ruby>oliv<rt class=\"XXS_S\">올리브<br> 열매</rt></ruby>o",
+      "final": "<ruby>oliv<rt class=\"XXS_S\">올리브<br> 열매</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "ovalo",
+      "first": "<ruby>oval<rt class=\"M_M\">타원형</rt></ruby>o",
+      "final": "<ruby>oval<rt class=\"M_M\">타원형</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "elipso",
+      "first": "<ruby>elips<rt class=\"XXL_L\">타원</rt></ruby>o",
+      "final": "<ruby>elips<rt class=\"XXL_L\">타원</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "semajntagoj",
+      "first": "<ruby>semajn<rt class=\"XXL_L\">한 주</rt></ruby><ruby>tag<rt class=\"L_L\">하루</rt></ruby>oj",
+      "final": "<ruby>semajn<rt class=\"XXL_L\">한 주</rt></ruby><ruby>tag<rt class=\"L_L\">하루</rt></ruby>oj"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@semajn@tagoj",
+      "first": "<ruby>semajn<rt class=\"XXL_L\">주간</rt></ruby><ruby>tag<rt class=\"L_L\">하루</rt></ruby>oj",
+      "final": "<ruby>semajn<rt class=\"XXL_L\">주간</rt></ruby><ruby>tag<rt class=\"L_L\">하루</rt></ruby>oj"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "ŝakisto",
+      "first": "<ruby>ŝak<rt class=\"XL_L\">체스</rt></ruby><ruby>ist<rt class=\"XXL_L\">자</rt></ruby>o",
+      "final": "<ruby>ŝak<rt class=\"XL_L\">체스</rt></ruby><ruby>ist<rt class=\"XXL_L\">자</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "%testikito%",
+      "first": "testikito",
+      "final": "testikito"
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "input": "@testikit@o & %amiko%",
+      "first": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o &amp; amiko",
+      "final": "<ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o &amp; amiko"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "testikito",
+      "first": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@testikit@o",
+      "first": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+      "final": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "orkidito",
+      "first": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@orkidit@o",
+      "first": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>o",
+      "final": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@testikito@",
+      "first": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+      "final": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@TESTIKIT@O",
+      "first": "<ruby>丸ᵀ炎ᵀ<rt class=\"M_M\">TESTIKIT</rt></ruby>O",
+      "final": "<ruby>丸ᵀ炎ᵀ<rt class=\"M_M\">TESTIKIT</rt></ruby>O"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "testikitoj",
+      "first": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>oj",
+      "final": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>oj"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "testikiton",
+      "first": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>on",
+      "final": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>on"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "testikitojn",
+      "first": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>ojn",
+      "final": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>ojn"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "Testikito",
+      "first": "<ruby>丸ᵀ<rt class=\"S_S\">Testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>丸ᵀ<rt class=\"S_S\">Testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "TESTIKITO",
+      "first": "<ruby>丸ᵀ<rt class=\"XS_S\">TESTIK</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">IT</rt></ruby>O",
+      "final": "<ruby>丸ᵀ<rt class=\"XS_S\">TESTIK</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">IT</rt></ruby>O"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "orkidektomio",
+      "first": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>除ᴱᴷ<rt class=\"M_M\">ektomi</rt></ruby>o",
+      "final": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby><ruby>除ᴱᴷ<rt class=\"M_M\">ektomi</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "orkidoterapio",
+      "first": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby>o<ruby>疗<rt class=\"XS_S\">terapi</rt></ruby>o",
+      "final": "<ruby>丸ᴼ<rt class=\"L_L\">orkid</rt></ruby>o<ruby>疗<rt class=\"XS_S\">terapi</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "paniklito",
+      "first": "<ruby>脂ᴾ<rt class=\"S_S\">panikl</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>脂ᴾ<rt class=\"S_S\">panikl</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "alkoholato",
+      "first": "<ruby>醇<rt class=\"XXS_S\">alko<br>hol</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o",
+      "final": "<ruby>醇<rt class=\"XXS_S\">alko<br>hol</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@alkoholat@o",
+      "first": "<ruby>醇盐ᴬ<rt class=\"M_M\">alkoholat</rt></ruby>o",
+      "final": "<ruby>醇盐ᴬ<rt class=\"M_M\">alkoholat</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "salpingito",
+      "first": "<ruby>卵管<rt class=\"M_M\">salping</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>卵管<rt class=\"M_M\">salping</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@salpingit@o",
+      "first": "<ruby>卵管炎ᵀ<rt class=\"XXL_L\">salpingit</rt></ruby>o",
+      "final": "<ruby>卵管炎ᵀ<rt class=\"XXL_L\">salpingit</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "otosalpingito",
+      "first": "<ruby>耳ᴼᵀ<rt class=\"XXL_L\">ot</rt></ruby>o<ruby>管ˢ<rt class=\"XS_S\">salping</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+      "final": "<ruby>耳ᴼᵀ<rt class=\"XXL_L\">ot</rt></ruby>o<ruby>管ˢ<rt class=\"XS_S\">salping</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@otosalpingit@o",
+      "first": "<ruby>待<rt class=\"XXL_L\">ot</rt></ruby>o<ruby>卵管炎ᵀ<rt class=\"XXL_L\">salpingit</rt></ruby>o",
+      "final": "<ruby>待<rt class=\"XXL_L\">ot</rt></ruby>o<ruby>卵管炎ᵀ<rt class=\"XXL_L\">salpingit</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "fotografio",
+      "first": "<ruby>拍<rt class=\"XXL_L\">fot</rt></ruby>o<ruby>志ᴳ<rt class=\"L_L\">grafi</rt></ruby>o",
+      "final": "<ruby>拍<rt class=\"XXL_L\">fot</rt></ruby>o<ruby>志ᴳ<rt class=\"L_L\">grafi</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@fotografi@o",
+      "first": "<ruby>拍<rt class=\"XXL_L\">fot</rt></ruby>o<ruby>记ᴳ<rt class=\"XL_L\">graf</rt></ruby>io",
+      "final": "<ruby>拍<rt class=\"XXL_L\">fot</rt></ruby>o<ruby>记ᴳ<rt class=\"XL_L\">graf</rt></ruby>io"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "milio",
+      "first": "<ruby>粟ᴹ<rt class=\"XXL_L\">mili</rt></ruby>o",
+      "final": "<ruby>粟ᴹ<rt class=\"XXL_L\">mili</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@mili@o",
+      "first": "<ruby>毫<rt class=\"M_M\">mili</rt></ruby>o",
+      "final": "<ruby>毫<rt class=\"M_M\">mili</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@piroz@o",
+      "first": "<ruby>梨<rt class=\"XXL_L\">pir</rt></ruby><ruby>富ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o",
+      "final": "<ruby>梨<rt class=\"XXL_L\">pir</rt></ruby><ruby>富ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "pirozo",
+      "first": "<ruby>火ᴾ<rt class=\"XXL_L\">pir</rt></ruby><ruby>症ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o",
+      "final": "<ruby>火ᴾ<rt class=\"XXL_L\">pir</rt></ruby><ruby>症ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@riboz@o",
+      "first": "<ruby>醋栗<rt class=\"XXL_L\">rib</rt></ruby><ruby>富ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o",
+      "final": "<ruby>醋栗<rt class=\"XXL_L\">rib</rt></ruby><ruby>富ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "ribozo",
+      "first": "<ruby>核ᴿ<rt class=\"XXL_L\">rib</rt></ruby><ruby>糖ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o",
+      "final": "<ruby>核ᴿ<rt class=\"XXL_L\">rib</rt></ruby><ruby>糖ᴼ<rt class=\"XXL_L\">oz</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "lasi",
+      "first": "<ruby>放<rt class=\"XL_L\">las</rt></ruby>i",
+      "final": "<ruby>放<rt class=\"XL_L\">las</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "emancipi",
+      "first": "<ruby>放ᴱ<rt class=\"XS_S\">emancip</rt></ruby>i",
+      "final": "<ruby>放ᴱ<rt class=\"XS_S\">emancip</rt></ruby>i"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "ananaso",
+      "first": "<ruby>菠<rt class=\"XXS_S\">ana<br>nas</rt></ruby>o",
+      "final": "<ruby>菠<rt class=\"XXS_S\">ana<br>nas</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "jakvo",
+      "first": "<ruby>菠蜜<rt class=\"XXL_L\">jakv</rt></ruby>o",
+      "final": "<ruby>菠蜜<rt class=\"XXL_L\">jakv</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "prioritato",
+      "first": "<ruby>优先<rt class=\"M_M\">prioritat</rt></ruby>o",
+      "final": "<ruby>优先<rt class=\"M_M\">prioritat</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "struto",
+      "first": "<ruby>鸵<rt class=\"S_S\">strut</rt></ruby>o",
+      "final": "<ruby>鸵<rt class=\"S_S\">strut</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "sinergio",
+      "first": "<ruby>协同<rt class=\"L_L\">sinergi</rt></ruby>o",
+      "final": "<ruby>协同<rt class=\"L_L\">sinergi</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "olivo",
+      "first": "<ruby>榄<rt class=\"M_M\">oliv</rt></ruby>o",
+      "final": "<ruby>榄<rt class=\"M_M\">oliv</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "ovalo",
+      "first": "<ruby>椭圆<rt class=\"XXL_L\">oval</rt></ruby>o",
+      "final": "<ruby>椭圆<rt class=\"XXL_L\">oval</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "elipso",
+      "first": "<ruby>椭圆ᴱ<rt class=\"XXL_L\">elips</rt></ruby>o",
+      "final": "<ruby>椭圆ᴱ<rt class=\"XXL_L\">elips</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "semajntagoj",
+      "first": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj",
+      "final": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@semajn@tagoj",
+      "first": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj",
+      "final": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "ŝakisto",
+      "first": "<ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o",
+      "final": "<ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "%testikito%",
+      "first": "testikito",
+      "final": "testikito"
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "input": "@testikit@o & %amiko%",
+      "first": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o &amp; amiko",
+      "final": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o &amp; amiko"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "testikito",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@testikit@o",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "orkidito",
+      "first": "丸ᴼ炎ᵀo",
+      "final": "丸ᴼ炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@orkidit@o",
+      "first": "丸ᴼ炎ᵀo",
+      "final": "丸ᴼ炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@testikito@",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@TESTIKIT@O",
+      "first": "丸ᵀ炎ᵀO",
+      "final": "丸ᵀ炎ᵀO"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "testikitoj",
+      "first": "丸ᵀ炎ᵀoj",
+      "final": "丸ᵀ炎ᵀoj"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "testikiton",
+      "first": "丸ᵀ炎ᵀon",
+      "final": "丸ᵀ炎ᵀon"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "testikitojn",
+      "first": "丸ᵀ炎ᵀojn",
+      "final": "丸ᵀ炎ᵀojn"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "Testikito",
+      "first": "丸ᵀ炎ᵀo",
+      "final": "丸ᵀ炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "TESTIKITO",
+      "first": "丸ᵀ炎ᵀO",
+      "final": "丸ᵀ炎ᵀO"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "orkidektomio",
+      "first": "丸ᴼ除ᴱᴷo",
+      "final": "丸ᴼ除ᴱᴷo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "orkidoterapio",
+      "first": "丸ᴼo疗o",
+      "final": "丸ᴼo疗o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "paniklito",
+      "first": "脂ᴾ炎ᵀo",
+      "final": "脂ᴾ炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "alkoholato",
+      "first": "醇盐ᴬo",
+      "final": "醇盐ᴬo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@alkoholat@o",
+      "first": "醇盐ᴬo",
+      "final": "醇盐ᴬo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "salpingito",
+      "first": "卵管炎ᵀo",
+      "final": "卵管炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@salpingit@o",
+      "first": "卵管炎ᵀo",
+      "final": "卵管炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "otosalpingito",
+      "first": "耳ᴼᵀo管ˢ炎ᵀo",
+      "final": "耳ᴼᵀo管ˢ炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@otosalpingit@o",
+      "first": "待o卵管炎ᵀo",
+      "final": "待o卵管炎ᵀo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "fotografio",
+      "first": "拍o志ᴳo",
+      "final": "拍o志ᴳo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@fotografi@o",
+      "first": "拍o记ᴳio",
+      "final": "拍o记ᴳio"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "milio",
+      "first": "粟ᴹo",
+      "final": "粟ᴹo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@mili@o",
+      "first": "毫o",
+      "final": "毫o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@piroz@o",
+      "first": "梨富ᴼo",
+      "final": "梨富ᴼo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "pirozo",
+      "first": "火ᴾ症ᴼo",
+      "final": "火ᴾ症ᴼo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@riboz@o",
+      "first": "醋栗富ᴼo",
+      "final": "醋栗富ᴼo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "ribozo",
+      "first": "核ᴿ糖ᴼo",
+      "final": "核ᴿ糖ᴼo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "lasi",
+      "first": "放i",
+      "final": "放i"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "emancipi",
+      "first": "放ᴱi",
+      "final": "放ᴱi"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "ananaso",
+      "first": "菠o",
+      "final": "菠o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "jakvo",
+      "first": "菠蜜o",
+      "final": "菠蜜o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "prioritato",
+      "first": "优先o",
+      "final": "优先o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "struto",
+      "first": "鸵o",
+      "final": "鸵o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "sinergio",
+      "first": "协同o",
+      "final": "协同o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "olivo",
+      "first": "榄o",
+      "final": "榄o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "ovalo",
+      "first": "椭圆o",
+      "final": "椭圆o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "elipso",
+      "first": "椭圆ᴱo",
+      "final": "椭圆ᴱo"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "semajntagoj",
+      "first": "周日oj",
+      "final": "周日oj"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@semajn@tagoj",
+      "first": "周日oj",
+      "final": "周日oj"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "ŝakisto",
+      "first": "棋家o",
+      "final": "棋家o"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "%testikito%",
+      "first": "testikito",
+      "final": "testikito"
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "input": "@testikit@o & %amiko%",
+      "first": "丸ᵀ炎ᵀo & amiko",
+      "final": "丸ᵀ炎ᵀo & amiko"
+    }
+  ]
+}

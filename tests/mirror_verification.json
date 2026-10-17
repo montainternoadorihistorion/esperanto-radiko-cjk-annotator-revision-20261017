@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "completed_at": "2026-10-17T03:08:28.876536+00:00",
+  "canonical_changes": 1534,
+  "existing_csv_target_roots": 1532,
+  "not_added_roots": [
+    "endoskopi",
+    "mikroskopi"
+  ],
+  "unit_tests": 23,
+  "generated_manual_forms": 41364,
+  "full_runtime_manual_forms": 540,
+  "runtime_control_cases": 387,
+  "normal_local_cases": 27684,
+  "runtime_changed_cases": 9216,
+  "annotation_outputs_byte_identical": true,
+  "new_normal_local_mismatches_from_previously_equal_cases": 0,
+  "unchanged_common_data_files": 53,
+  "all_public_data_identical": 60,
+  "ui_conversions": 9,
+  "ui_subpages": 6,
+  "ui_returns": 6,
+  "scope_sha256": "d0b5dfc0c31fb35bbd27308b6841651c76987e0e6da222dd118771d92878f681",
+  "canonical_decision_manifest_sha256": "546afd3bae2f3b76286d8c381ba5f8dbca1a79f4d0a3aca2be09c10c5f3761c5",
+  "test_sha256": "818370b6511020d70fdcd2b3a5716a78af291a611e4ad2ca787137eebe5c1dbb",
+  "fixture_sha256": "fe41ad17b008dcafa54355a855ead973dc1b51e458bc1837923aa09ef8e5cd1f",
+  "limitations": [
+    "Annotation data and existing forced local decompositions are unchanged. In local annotation mode, testikit/orkidit/gastrit can retain it as passive perfect and metapsiki can retain me+tapsi+ki. These existing meanings were not newly reviewed or repaired here.",
+    "Passed means reproducible output and complete source reconstruction, not that every annotation translation is semantically correct.",
+    "Pure-mode source reconstruction uses the corresponding Kanji ruby result, not the reverse dictionary. Independent reverse-dictionary checks are recorded separately.",
+    "All candidate root+o probes are synthetic morphology checks, not judgments that each generated form is a valid word.",
+    "Normal/local differences from connecting vowels, existing senses and source decomposition were preserved; no previously equal normal/local visible pair became unequal.",
+    "The local Streamlit AppTest is distinct from the parent agent's later live Cloud browser checks."
+  ]
+}
