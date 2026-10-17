@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "private_baseline": "c59c624",
+  "assignments": {
+    "uve": {
+      "before": "葡萄膜",
+      "after": "葡膜"
+    },
+    "uveit": {
+      "before": "葡萄膜炎ᵀ",
+      "after": "葡膜炎ᵀ"
+    }
+  },
+  "preserved_user_choices": {
+    "uv": "葡ᵁ",
+    "vit": "葡",
+    "psitak": "鹦ᴾˢ",
+    "papag": "鹦",
+    "limon": "柠",
+    "limonad": "柠水",
+    "konkord": "和合",
+    "observatori": "天文台",
+    "majest": "庄严",
+    "subtil": "精细",
+    "stafilokok": "葡球菌",
+    "turment": "虐",
+    "tortur": "虐ᵀᵀ"
+  },
+  "reason": "User approved uve=葡膜 and uveit=葡膜炎ᵀ. Change exact labelled roots only; preserve decomposition, original spelling, annotation, internal identifiers and every other assignment."
+}

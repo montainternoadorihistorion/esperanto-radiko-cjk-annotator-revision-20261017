@@ -9,7 +9,7 @@ OLD='葡萄球菌';NEW='葡球菌'
 CONTROLS={'turment':'虐','tortur':'虐ᵀᵀ','testikit':'丸ᵀ炎ᵀ','orkidit':'丸ᴼ炎ᵀ',
           # Current checks follow the later, separately approved uv assignment;
           # historical stafilokok captures remain unchanged.
-          'uv':'葡ᵁ','uve':'葡萄膜','uveit':'葡萄膜炎ᵀ','vit':'葡','ananas':'菠','jakv':'菠蜜','las':'放',
+          'uv':'葡ᵁ','uve':'葡膜','uveit':'葡膜炎ᵀ','vit':'葡','ananas':'菠','jakv':'菠蜜','las':'放',
           'prioritat':'优先','strut':'鸵','sinergi':'协同','oliv':'榄','oval':'椭圆','elips':'椭圆ᴱ'}
 WORDS=['stafilokoko','stafilokokoj','stafilokokon','stafilokokojn','stafilokoka','stafilokokaj',
        'stafilokokajn','stafilokoke','stafilokokozo','Stafilokoko','STAFILOKOKO',

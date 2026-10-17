@@ -26,9 +26,11 @@ EXPECTED = '周日oj & amiko 棋家o 周日oj'
 REVISION_SOURCE = 'struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso'
 REVISION_EXPECTED = '鸵o 协同o 榄o 鸵 协同 榄 螺ᴸo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 石ᴸᵀ志ᴳo 周日oj & amiko 棋家o 椭圆o 椭圆ᴱo'
 STAFILOKOK_SOURCE = REVISION_SOURCE + ' stafilokoko @stafilokok@o turmenti torturi uvo uveito'
-STAFILOKOK_EXPECTED = REVISION_EXPECTED + ' 葡球菌o 葡球菌o 虐i 虐ᵀᵀi 葡ᵁo 葡萄膜炎ᵀo'
+STAFILOKOK_EXPECTED = REVISION_EXPECTED + ' 葡球菌o 葡球菌o 虐i 虐ᵀᵀi 葡ᵁo 葡膜炎ᵀo'
 FOUR_SHARED_SOURCE = STAFILOKOK_SOURCE + ' psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo'
-FOUR_SHARED_EXPECTED = STAFILOKOK_EXPECTED + ' 鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡萄膜o'
+FOUR_SHARED_EXPECTED = STAFILOKOK_EXPECTED + ' 鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡膜o'
+UVE_SOURCE = FOUR_SHARED_SOURCE + ' @uve@o @uveit@o uveoj uveitoj @uveit@oj'
+UVE_EXPECTED = FOUR_SHARED_EXPECTED + ' 葡膜o 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀoj 葡膜炎ᵀoj'
 LANGUAGES = ('JA', 'ZH', 'KO')
 
 
@@ -159,6 +161,7 @@ def main():
     scenario.add_argument('--revision', action='store_true', help='Exercise the current assignments and mirror identifiers')
     scenario.add_argument('--stafilokok', action='store_true', help='Exercise stafilokok and retained assignments; save a separate report')
     scenario.add_argument('--four-shared', action='store_true', help='Exercise four shared assignments and retained longer forms; save a new report')
+    scenario.add_argument('--uve', action='store_true', help='Exercise uve/uveit and retained assignments; save a new report')
     args = parser.parse_args()
     if args.revision:
         SOURCE, EXPECTED = REVISION_SOURCE, REVISION_EXPECTED
@@ -166,6 +169,8 @@ def main():
         SOURCE, EXPECTED = STAFILOKOK_SOURCE, STAFILOKOK_EXPECTED
     elif args.four_shared:
         SOURCE, EXPECTED = FOUR_SHARED_SOURCE, FOUR_SHARED_EXPECTED
+    elif args.uve:
+        SOURCE, EXPECTED = UVE_SOURCE, UVE_EXPECTED
     if args.language:
         try:
             result = run_language(args.language)
@@ -182,7 +187,7 @@ def main():
     for language in LANGUAGES:
         child = subprocess.run(
             [sys.executable, '-B', '-X', 'utf8', str(Path(__file__).resolve()),
-             '--language', language, *(['--revision'] if args.revision else ['--stafilokok'] if args.stafilokok else ['--four-shared'] if args.four_shared else [])], cwd=ROOT, capture_output=True, text=True,
+             '--language', language, *(['--revision'] if args.revision else ['--stafilokok'] if args.stafilokok else ['--four-shared'] if args.four_shared else ['--uve'] if args.uve else [])], cwd=ROOT, capture_output=True, text=True,
             encoding='utf-8', timeout=600)
         if child.returncode:
             try:
@@ -210,7 +215,7 @@ def main():
             'Subpages were checked for startup and controls, not full correction editing workflows.',
             'Remote download availability and Streamlit Cloud deployment were not tested.',
         ],
-        'command': 'python -B -X utf8 tests/app_ui_smoke.py' + (' --revision' if args.revision else ' --stafilokok' if args.stafilokok else ' --four-shared' if args.four_shared else ''),
+        'command': 'python -B -X utf8 tests/app_ui_smoke.py' + (' --revision' if args.revision else ' --stafilokok' if args.stafilokok else ' --four-shared' if args.four_shared else ' --uve' if args.uve else ''),
         'cwd': '.', 'completed_at_utc': datetime.now(timezone.utc).isoformat(),
         'environment': {'python': platform.python_version(), 'system': platform.system(),
                         'streamlit': streamlit.__version__, 'pandas': pandas.__version__},
@@ -219,7 +224,7 @@ def main():
         'script_bytes_unchanged_during_run': True, 'script_sha256': scripts,
         'languages': language_results, 'results': rows, 'pages': pages, 'returns': returns,
     }
-    output_name = 'app_ui_four_shared.json' if args.four_shared else 'app_ui_stafilokok.json' if args.stafilokok else 'app_ui_mirror_identifiers.json' if args.revision else 'app_ui_smoke.json'
+    output_name = 'app_ui_uve.json' if args.uve else 'app_ui_four_shared.json' if args.four_shared else 'app_ui_stafilokok.json' if args.stafilokok else 'app_ui_mirror_identifiers.json' if args.revision else 'app_ui_smoke.json'
     output_path = Path(__file__).with_name(output_name)
     output_path.write_text(
         json.dumps(output, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')

@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "baseline_ref": null,
+  "baseline_snapshot": null,
+  "phase": "after",
+  "assignments": {
+    "uve": [
+      "葡萄膜",
+      "葡膜"
+    ],
+    "uveit": [
+      "葡萄膜炎ᵀ",
+      "葡膜炎ᵀ"
+    ]
+  },
+  "limitations": [
+    "Preserves existing annotation and segmentation; passing does not establish semantic correctness of every annotation."
+  ],
+  "tables": [
+    {
+      "language": "JA",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": null,
+          "target_pieces": {
+            "uve": 30,
+            "uveit": 0
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": null,
+          "target_pieces": {
+            "uve": 0,
+            "uveit": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": null,
+          "target_pieces": {
+            "uve": 3,
+            "uveit": 3
+          }
+        }
+      },
+      "unchanged_data_files": []
+    },
+    {
+      "language": "ZH",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": null,
+          "target_pieces": {
+            "uve": 30,
+            "uveit": 0
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": null,
+          "target_pieces": {
+            "uve": 0,
+            "uveit": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": null,
+          "target_pieces": {
+            "uve": 3,
+            "uveit": 3
+          }
+        }
+      },
+      "unchanged_data_files": []
+    },
+    {
+      "language": "KO",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": null,
+          "target_pieces": {
+            "uve": 30,
+            "uveit": 0
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": null,
+          "target_pieces": {
+            "uve": 0,
+            "uveit": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": null,
+          "target_pieces": {
+            "uve": 3,
+            "uveit": 3
+          }
+        }
+      },
+      "unchanged_data_files": []
+    }
+  ]
+}

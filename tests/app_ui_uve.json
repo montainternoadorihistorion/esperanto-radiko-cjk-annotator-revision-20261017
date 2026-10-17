@@ -1,0 +1,309 @@
+{
+  "method": "Streamlit AppTest: relative main.py entrypoint, forms, and same-session page round trips",
+  "cwd_policy": "Set repo root once per language; assert unchanged before and after every run",
+  "limitations": [
+    "AppTest is not a browser; visual layout and clipboard behavior were not tested.",
+    "Subpages were checked for startup and controls, not full correction editing workflows.",
+    "Remote download availability and Streamlit Cloud deployment were not tested."
+  ],
+  "command": "python -B -X utf8 tests/app_ui_smoke.py --uve",
+  "cwd": ".",
+  "completed_at_utc": "2026-10-17T06:54:13.917601+00:00",
+  "environment": {
+    "python": "3.12.10",
+    "system": "Windows",
+    "streamlit": "1.50.0",
+    "pandas": "2.3.3"
+  },
+  "passed": true,
+  "conversion_routes": 9,
+  "subpage_routes": 6,
+  "return_to_main_routes": 6,
+  "script_bytes_unchanged_during_run": true,
+  "script_sha256": {
+    "Esperanto-Kanji-Ruby-JA/main.py": "6b5c786afeeed716c768e795104181fb851b420d6ac3ad99024d850802a56819",
+    "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py": "4ec9886d7bb2d77a61c17415fe4b1bba23b0700e29c3cc9fea78c373778eb532",
+    "Esperanto-Kanji-Ruby-JA/pages/2_📦_最新データのダウンロード.py": "40b7a2256070a8c3a398afe4c17b6ddf7c3960d52a8335c86d9f7b63596aeee4",
+    "Esperanto-Kanji-Ruby-ZH/main.py": "63740df6f0946044581183e5debb269a9750469d6a1888444db0146aa489a759",
+    "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py": "c1f8b4b949cd5d365d180ea1bf15fb1cccd4dfee42fe0a5efaf646317cbd3458",
+    "Esperanto-Kanji-Ruby-ZH/pages/2_📦_最新数据下载.py": "27eb5cd9394ea457a6385c6aab453e82751e4189d1a385e48f6a215131ba2dcb",
+    "Esperanto-Kanji-Ruby-KO/main.py": "8cd447e80a79bef713f60898ff909aa40c8e58b22d991858591361200187eb67",
+    "Esperanto-Kanji-Ruby-KO/pages/1_🔧_어근 분해 수동 보정.py": "43c1405f2422296992938edbaa8ad3857b719367475ba60ac484c6d3d96d6764",
+    "Esperanto-Kanji-Ruby-KO/pages/2_📦_최신 데이터 다운로드.py": "2ba8444631adf9e6ae01398e317dd504a3a36f764861a364e137dc2969b92bc1"
+  },
+  "languages": [
+    {
+      "language": "JA",
+      "passed": true,
+      "elapsed_seconds": 41.036
+    },
+    {
+      "language": "ZH",
+      "passed": true,
+      "elapsed_seconds": 32.945
+    },
+    {
+      "language": "KO",
+      "passed": true,
+      "elapsed_seconds": 31.097
+    }
+  ],
+  "results": [
+    {
+      "language": "JA",
+      "mode": "📖 注釈ルビ（語根の上に日本語訳）",
+      "source": "struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso stafilokoko @stafilokok@o turmenti torturi uvo uveito psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo @uve@o @uveit@o uveoj uveitoj @uveit@oj",
+      "result_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>エスペラント語根分解ルビ注釈テキスト</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>strut<rt class=\"S_S\">ダチョウ</rt></ruby>o <ruby>sinergi<rt class=\"L_L\">相乗作用</rt></ruby>o <ruby>oliv<rt class=\"XS_S\">オリーブ</rt></ruby>o <ruby>strut<rt class=\"XS_S\">[鳥]ダチョウ</rt></ruby> <ruby>sinergi<rt class=\"L_L\">相乗作用</rt></ruby> <ruby>oliv<rt class=\"XXS_S\">[果]オリ<br>ーブ</rt></ruby> <ruby>limak<rt class=\"XS_S\">[動]ナメクジ</rt></ruby>o <ruby>orkid<rt class=\"XXL_L\">精巣</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o <ruby>testik<rt class=\"M_M\">[解]睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o <ruby>litografi<rt class=\"S_S\">[印]石版印刷術</rt></ruby>o <ruby>semajn<rt class=\"XXL_L\">一週間</rt></ruby><ruby>tag<rt class=\"XXL_L\">日</rt></ruby>oj &amp; amiko <ruby>ŝak<rt class=\"S_S\">チェス</rt></ruby><ruby>ist<rt class=\"XS_S\">従事者</rt></ruby>o <ruby>oval<rt class=\"M_M\">楕円形</rt></ruby>o <ruby>elips<rt class=\"XXL_L\">楕円</rt></ruby>o <ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>o <ruby>stafilokok<rt class=\"XL_L\">ブドウ球菌</rt></ruby>o <ruby>turment<rt class=\"XS_S\">激しい苦痛を与える</rt></ruby>i <ruby>tortur<rt class=\"XXL_L\">拷問</rt></ruby>i <ruby>uv<rt class=\"XS_S\">ブドウ</rt></ruby>o <ruby>uve<rt class=\"XS_S\">ぶどう膜</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o <ruby>psitak<rt class=\"XL_L\">オウム</rt></ruby>o <ruby>psitak<rt class=\"XL_L\">オウム</rt></ruby>o <ruby>uv<rt class=\"XS_S\">ブドウ</rt></ruby>o <ruby>limon<rt class=\"XL_L\">レモン</rt></ruby>o <ruby>limon<rt class=\"XL_L\">レモン</rt></ruby>o <ruby>limonad<rt class=\"L_L\">レモネード</rt></ruby>o <ruby>limonad<rt class=\"S_S\">[料]レモネード</rt></ruby>o <ruby>uve<rt class=\"XS_S\">ぶどう膜</rt></ruby>o <ruby>uve<rt class=\"XS_S\">ぶどう膜</rt></ruby>o <ruby>uve<rt class=\"XS_S\">ぶどう膜</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>o <ruby>uve<rt class=\"XS_S\">ぶどう膜</rt></ruby>oj <ruby>uve<rt class=\"XS_S\">ぶどう膜</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>oj <ruby>uve<rt class=\"XS_S\">ぶどう膜</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>oj</p></body></html>",
+      "passed": true,
+      "cwd_before_each_run": ".",
+      "cwd_after_each_run": ".",
+      "elapsed_seconds": 7.893
+    },
+    {
+      "language": "JA",
+      "mode": "🈶 漢字化（漢字＋語根ルビ）",
+      "source": "struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso stafilokoko @stafilokok@o turmenti torturi uvo uveito psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo @uve@o @uveit@o uveoj uveitoj @uveit@oj",
+      "result_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>エスペラント語根分解ルビ注釈テキスト</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>鸵<rt class=\"S_S\">strut</rt></ruby>o <ruby>协同<rt class=\"L_L\">sinergi</rt></ruby>o <ruby>榄<rt class=\"M_M\">oliv</rt></ruby>o <ruby>鸵<rt class=\"S_S\">strut</rt></ruby> <ruby>协同<rt class=\"L_L\">sinergi</rt></ruby> <ruby>榄<rt class=\"M_M\">oliv</rt></ruby> <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>o <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>石ᴸᵀ志ᴳ<rt class=\"XXL_L\">litografi</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj &amp; amiko <ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o <ruby>椭圆<rt class=\"XXL_L\">oval</rt></ruby>o <ruby>椭圆ᴱ<rt class=\"XXL_L\">elips</rt></ruby>o <ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o <ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o <ruby>虐<rt class=\"XXS_S\">turm<br>ent</rt></ruby>i <ruby>虐ᵀᵀ<rt class=\"XL_L\">tortur</rt></ruby>i <ruby>葡ᵁ<rt class=\"XXL_L\">uv</rt></ruby>o <ruby>葡膜<rt class=\"XXL_L\">uve</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>鹦ᴾˢ<rt class=\"L_L\">psitak</rt></ruby>o <ruby>鹦ᴾˢ<rt class=\"L_L\">psitak</rt></ruby>o <ruby>葡ᵁ<rt class=\"XXL_L\">uv</rt></ruby>o <ruby>柠<rt class=\"XS_S\">limon</rt></ruby>o <ruby>柠<rt class=\"XS_S\">limon</rt></ruby>o <ruby>柠水<rt class=\"M_M\">limonad</rt></ruby>o <ruby>柠水<rt class=\"M_M\">limonad</rt></ruby>o <ruby>葡膜<rt class=\"XXL_L\">uve</rt></ruby>o <ruby>葡膜<rt class=\"XXL_L\">uve</rt></ruby>o <ruby>葡膜炎ᵀ<rt class=\"XXL_L\">uveit</rt></ruby>o <ruby>葡膜<rt class=\"XXL_L\">uve</rt></ruby>oj <ruby>葡膜<rt class=\"XXL_L\">uve</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>oj <ruby>葡膜炎ᵀ<rt class=\"XXL_L\">uveit</rt></ruby>oj</p></body></html>",
+      "passed": true,
+      "cwd_before_each_run": ".",
+      "cwd_after_each_run": ".",
+      "elapsed_seconds": 6.144
+    },
+    {
+      "language": "JA",
+      "mode": "✂️ 漢字化・純粋置換（タグなしテキスト）",
+      "source": "struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso stafilokoko @stafilokok@o turmenti torturi uvo uveito psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo @uve@o @uveit@o uveoj uveitoj @uveit@oj",
+      "result_html": "鸵o 协同o 榄o 鸵 协同 榄 螺ᴸo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 石ᴸᵀ志ᴳo 周日oj & amiko 棋家o 椭圆o 椭圆ᴱo 葡球菌o 葡球菌o 虐i 虐ᵀᵀi 葡ᵁo 葡膜炎ᵀo 鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡膜o 葡膜o 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀoj 葡膜炎ᵀoj",
+      "passed": true,
+      "cwd_before_each_run": ".",
+      "cwd_after_each_run": ".",
+      "elapsed_seconds": 5.445
+    },
+    {
+      "language": "ZH",
+      "mode": "📖 注释Ruby（词根上方显示中文注释）",
+      "source": "struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso stafilokoko @stafilokok@o turmenti torturi uvo uveito psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo @uve@o @uveit@o uveoj uveitoj @uveit@oj",
+      "result_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ruby 显示</title>\n<style>\nhtml, body {\n  -webkit-text-size-adjust: 100%;\n  -moz-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  text-size-adjust: 100%;\n}\n:root {\n  --ruby-color: blue;\n  --ruby-font-size: 0.5em;\n}\nhtml {\n  font-size: 100%;\n}\n.text-M_M {\n  font-size: 1rem!important;\n  font-family: Arial, sans-serif;\n  line-height: 2.0 !important;\n  display: block;\n  position: relative;\n}\nruby {\n  display: inline-flex;\n  flex-direction: column;\n  align-items: center;\n  vertical-align: top !important;\n  line-height: 2.0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  font-size: 1rem !important;\n}\nrt {\n  display: block !important;\n  font-size: var(--ruby-font-size);\n  color: var(--ruby-color);\n  line-height: 1.05;\n  text-align: center;\n}\nrt.XXXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -8.3em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -7.2em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -6.1em !important;\n  transform: translateY(-0em) !important;\n}\nrt.S_S {\n  --ruby-font-size: 0.4em;\n  margin-top: -4.85em !important;\n  transform: translateY(-0em) !important;\n}\nrt.M_M {\n  --ruby-font-size: 0.5em;\n  margin-top: -4.00em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.L_L {\n  --ruby-font-size: 0.6em;\n  margin-top: -3.55em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XL_L {\n  --ruby-font-size: 0.7em;\n  margin-top: -3.20em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XXL_L {\n  --ruby-font-size: 0.8em;\n  margin-top: -2.80em !important;\n  transform: translateY(-0.0em) !important;\n}\n</style>\n</head>\n<body>\n<p class=\"text-M_M\">\n<ruby>strut<rt class=\"XS_S\">鸵鸟属鸟类</rt></ruby>o <ruby>sinergi<rt class=\"L_L\">协同作用</rt></ruby>o <ruby>oliv<rt class=\"S_S\">油橄榄</rt></ruby>o <ruby>strut<rt class=\"XXL_L\">鸵鸟</rt></ruby> <ruby>sinergi<rt class=\"L_L\">协同作用</rt></ruby> <ruby>oliv<rt class=\"L_L\">橄榄</rt></ruby> <ruby>limak<rt class=\"XXL_L\">蛞蝓</rt></ruby>o <ruby>orkid<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o <ruby>testik<rt class=\"XXL_L\">睾丸</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o <ruby>litografi<rt class=\"XL_L\">石版印刷</rt></ruby>o <ruby>semajn<rt class=\"XXL_L\">周</rt></ruby><ruby>tag<rt class=\"L_L\">一日</rt></ruby>oj &amp; amiko <ruby>ŝak<rt class=\"XS_S\">国际象棋</rt></ruby><ruby>ist<rt class=\"XXL_L\">者</rt></ruby>o <ruby>oval<rt class=\"M_M\">椭圆形</rt></ruby>o <ruby>elips<rt class=\"XXL_L\">椭圆</rt></ruby>o <ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>o <ruby>stafilokok<rt class=\"XXL_L\">葡萄球菌</rt></ruby>o <ruby>turment<rt class=\"XXL_L\">折磨</rt></ruby>i <ruby>tortur<rt class=\"XXL_L\">拷问</rt></ruby>i <ruby>uv<rt class=\"S_S\">葡萄</rt></ruby>o <ruby>uve<rt class=\"S_S\">葡萄膜</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>o <ruby>psitak<rt class=\"XXL_L\">鹦鹉</rt></ruby>o <ruby>psitak<rt class=\"XXL_L\">鹦鹉</rt></ruby>o <ruby>uv<rt class=\"S_S\">葡萄</rt></ruby>o <ruby>limon<rt class=\"XXL_L\">柠檬</rt></ruby>o <ruby>limon<rt class=\"XXL_L\">柠檬</rt></ruby>o <ruby>limonad<rt class=\"XXL_L\">柠檬水</rt></ruby>o <ruby>limonad<rt class=\"XXL_L\">柠檬水</rt></ruby>o <ruby>uve<rt class=\"S_S\">葡萄膜</rt></ruby>o <ruby>uve<rt class=\"S_S\">葡萄膜</rt></ruby>o <ruby>uve<rt class=\"S_S\">葡萄膜</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>o <ruby>uve<rt class=\"S_S\">葡萄膜</rt></ruby>oj <ruby>uve<rt class=\"S_S\">葡萄膜</rt></ruby><ruby>it<rt class=\"S_S\">炎</rt></ruby>oj <ruby>uve<rt class=\"S_S\">葡萄膜</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>oj</p></body></html>",
+      "passed": true,
+      "cwd_before_each_run": ".",
+      "cwd_after_each_run": ".",
+      "elapsed_seconds": 5.596
+    },
+    {
+      "language": "ZH",
+      "mode": "🈶 汉字化（汉字＋词根Ruby）",
+      "source": "struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso stafilokoko @stafilokok@o turmenti torturi uvo uveito psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo @uve@o @uveit@o uveoj uveitoj @uveit@oj",
+      "result_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ruby 显示</title>\n<style>\nhtml, body {\n  -webkit-text-size-adjust: 100%;\n  -moz-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  text-size-adjust: 100%;\n}\n:root {\n  --ruby-color: blue;\n  --ruby-font-size: 0.5em;\n}\nhtml {\n  font-size: 100%;\n}\n.text-M_M {\n  font-size: 1rem!important;\n  font-family: Arial, sans-serif;\n  line-height: 2.0 !important;\n  display: block;\n  position: relative;\n}\nruby {\n  display: inline-flex;\n  flex-direction: column;\n  align-items: center;\n  vertical-align: top !important;\n  line-height: 2.0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  font-size: 1rem !important;\n}\nrt {\n  display: block !important;\n  font-size: var(--ruby-font-size);\n  color: var(--ruby-color);\n  line-height: 1.05;\n  text-align: center;\n}\nrt.XXXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -8.3em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -7.2em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -6.1em !important;\n  transform: translateY(-0em) !important;\n}\nrt.S_S {\n  --ruby-font-size: 0.4em;\n  margin-top: -4.85em !important;\n  transform: translateY(-0em) !important;\n}\nrt.M_M {\n  --ruby-font-size: 0.5em;\n  margin-top: -4.00em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.L_L {\n  --ruby-font-size: 0.6em;\n  margin-top: -3.55em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XL_L {\n  --ruby-font-size: 0.7em;\n  margin-top: -3.20em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XXL_L {\n  --ruby-font-size: 0.8em;\n  margin-top: -2.80em !important;\n  transform: translateY(-0.0em) !important;\n}\n</style>\n</head>\n<body>\n<p class=\"text-M_M\">\n<ruby>鸵<rt class=\"S_S\">strut</rt></ruby>o <ruby>协同<rt class=\"L_L\">sinergi</rt></ruby>o <ruby>榄<rt class=\"M_M\">oliv</rt></ruby>o <ruby>鸵<rt class=\"S_S\">strut</rt></ruby> <ruby>协同<rt class=\"L_L\">sinergi</rt></ruby> <ruby>榄<rt class=\"M_M\">oliv</rt></ruby> <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>o <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>石ᴸᵀ志ᴳ<rt class=\"XXL_L\">litografi</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj &amp; amiko <ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o <ruby>椭圆<rt class=\"XXL_L\">oval</rt></ruby>o <ruby>椭圆ᴱ<rt class=\"XXL_L\">elips</rt></ruby>o <ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o <ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o <ruby>虐<rt class=\"XXS_S\">turm<br>ent</rt></ruby>i <ruby>虐ᵀᵀ<rt class=\"XL_L\">tortur</rt></ruby>i <ruby>葡ᵁ<rt class=\"XXL_L\">uv</rt></ruby>o <ruby>葡膜<rt class=\"XXL_L\">uve</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>鹦ᴾˢ<rt class=\"L_L\">psitak</rt></ruby>o <ruby>鹦ᴾˢ<rt class=\"L_L\">psitak</rt></ruby>o <ruby>葡ᵁ<rt class=\"XXL_L\">uv</rt></ruby>o <ruby>柠<rt class=\"XS_S\">limon</rt></ruby>o <ruby>柠<rt class=\"XS_S\">limon</rt></ruby>o <ruby>柠水<rt class=\"M_M\">limonad</rt></ruby>o <ruby>柠水<rt class=\"M_M\">limonad</rt></ruby>o <ruby>葡膜<rt class=\"XXL_L\">uve</rt></ruby>o <ruby>葡膜<rt class=\"XXL_L\">uve</rt></ruby>o <ruby>葡膜炎ᵀ<rt class=\"XXL_L\">uveit</rt></ruby>o <ruby>葡膜<rt class=\"XXL_L\">uve</rt></ruby>oj <ruby>葡膜<rt class=\"XXL_L\">uve</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>oj <ruby>葡膜炎ᵀ<rt class=\"XXL_L\">uveit</rt></ruby>oj</p></body></html>",
+      "passed": true,
+      "cwd_before_each_run": ".",
+      "cwd_after_each_run": ".",
+      "elapsed_seconds": 4.543
+    },
+    {
+      "language": "ZH",
+      "mode": "✂️ 汉字化·纯替换（无标签文本）",
+      "source": "struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso stafilokoko @stafilokok@o turmenti torturi uvo uveito psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo @uve@o @uveit@o uveoj uveitoj @uveit@oj",
+      "result_html": "鸵o 协同o 榄o 鸵 协同 榄 螺ᴸo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 石ᴸᵀ志ᴳo 周日oj & amiko 棋家o 椭圆o 椭圆ᴱo 葡球菌o 葡球菌o 虐i 虐ᵀᵀi 葡ᵁo 葡膜炎ᵀo 鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡膜o 葡膜o 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀoj 葡膜炎ᵀoj",
+      "passed": true,
+      "cwd_before_each_run": ".",
+      "cwd_after_each_run": ".",
+      "elapsed_seconds": 5.454
+    },
+    {
+      "language": "KO",
+      "mode": "📖 주석 루비（어근 위에 한국어 주석）",
+      "source": "struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso stafilokoko @stafilokok@o turmenti torturi uvo uveito psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo @uve@o @uveit@o uveoj uveitoj @uveit@oj",
+      "result_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>에스페란토 어근 분해 루비 주석 텍스트</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>strut<rt class=\"XXL_L\">타조</rt></ruby>o <ruby>sinergi<rt class=\"XL_L\">상승작용</rt></ruby>o <ruby>oliv<rt class=\"XXS_S\">올리브<br> 열매</rt></ruby>o <ruby>strut<rt class=\"XXL_L\">타조</rt></ruby> <ruby>sinergi<rt class=\"XL_L\">상승작용</rt></ruby> <ruby>oliv<rt class=\"S_S\">올리브</rt></ruby> <ruby>limak<rt class=\"M_M\">민달팽이</rt></ruby>o <ruby>orkid<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o <ruby>testik<rt class=\"XXL_L\">고환</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o <ruby>litografi<rt class=\"XXL_L\">석판술</rt></ruby>o <ruby>semajn<rt class=\"XXL_L\">주간</rt></ruby><ruby>tag<rt class=\"L_L\">하루</rt></ruby>oj &amp; amiko <ruby>ŝak<rt class=\"XL_L\">체스</rt></ruby><ruby>ist<rt class=\"XXL_L\">자</rt></ruby>o <ruby>oval<rt class=\"M_M\">타원형</rt></ruby>o <ruby>elips<rt class=\"XXL_L\">타원</rt></ruby>o <ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>o <ruby>stafilokok<rt class=\"XXL_L\">포도상구균</rt></ruby>o <ruby>turment<rt class=\"XXL_L\">괴롭히다</rt></ruby>i <ruby>tortur<rt class=\"XXL_L\">고문</rt></ruby>i <ruby>uv<rt class=\"M_M\">포도</rt></ruby>o <ruby>uve<rt class=\"M_M\">포도막</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>o <ruby>psitak<rt class=\"XXL_L\">앵무</rt></ruby>o <ruby>psitak<rt class=\"XXL_L\">앵무</rt></ruby>o <ruby>uv<rt class=\"M_M\">포도</rt></ruby>o <ruby>limon<rt class=\"XXL_L\">레몬</rt></ruby>o <ruby>limon<rt class=\"XXL_L\">레몬</rt></ruby>o <ruby>limonad<rt class=\"L_L\">레모네이드</rt></ruby>o <ruby>limonad<rt class=\"L_L\">레모네이드</rt></ruby>o <ruby>uve<rt class=\"M_M\">포도막</rt></ruby>o <ruby>uve<rt class=\"M_M\">포도막</rt></ruby>o <ruby>uve<rt class=\"M_M\">포도막</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>o <ruby>uve<rt class=\"M_M\">포도막</rt></ruby>oj <ruby>uve<rt class=\"M_M\">포도막</rt></ruby><ruby>it<rt class=\"S_S\">염</rt></ruby>oj <ruby>uve<rt class=\"M_M\">포도막</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>oj</p></body></html>",
+      "passed": true,
+      "cwd_before_each_run": ".",
+      "cwd_after_each_run": ".",
+      "elapsed_seconds": 6.175
+    },
+    {
+      "language": "KO",
+      "mode": "🈶 한자화（한자＋어근 루비）",
+      "source": "struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso stafilokoko @stafilokok@o turmenti torturi uvo uveito psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo @uve@o @uveit@o uveoj uveitoj @uveit@oj",
+      "result_html": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>에스페란토 어근 분해 루비 주석 텍스트</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>鸵<rt class=\"S_S\">strut</rt></ruby>o <ruby>协同<rt class=\"L_L\">sinergi</rt></ruby>o <ruby>榄<rt class=\"M_M\">oliv</rt></ruby>o <ruby>鸵<rt class=\"S_S\">strut</rt></ruby> <ruby>协同<rt class=\"L_L\">sinergi</rt></ruby> <ruby>榄<rt class=\"M_M\">oliv</rt></ruby> <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>o <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>石ᴸᵀ志ᴳ<rt class=\"XXL_L\">litografi</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby><ruby>日<rt class=\"L_L\">tag</rt></ruby>oj &amp; amiko <ruby>棋<rt class=\"M_M\">ŝak</rt></ruby><ruby>家<rt class=\"XXL_L\">ist</rt></ruby>o <ruby>椭圆<rt class=\"XXL_L\">oval</rt></ruby>o <ruby>椭圆ᴱ<rt class=\"XXL_L\">elips</rt></ruby>o <ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o <ruby>葡球菌<rt class=\"L_L\">stafilokok</rt></ruby>o <ruby>虐<rt class=\"XXS_S\">turm<br>ent</rt></ruby>i <ruby>虐ᵀᵀ<rt class=\"XL_L\">tortur</rt></ruby>i <ruby>葡ᵁ<rt class=\"XXL_L\">uv</rt></ruby>o <ruby>葡膜<rt class=\"XXL_L\">uve</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>鹦ᴾˢ<rt class=\"L_L\">psitak</rt></ruby>o <ruby>鹦ᴾˢ<rt class=\"L_L\">psitak</rt></ruby>o <ruby>葡ᵁ<rt class=\"XXL_L\">uv</rt></ruby>o <ruby>柠<rt class=\"XS_S\">limon</rt></ruby>o <ruby>柠<rt class=\"XS_S\">limon</rt></ruby>o <ruby>柠水<rt class=\"M_M\">limonad</rt></ruby>o <ruby>柠水<rt class=\"M_M\">limonad</rt></ruby>o <ruby>葡膜<rt class=\"XXL_L\">uve</rt></ruby>o <ruby>葡膜<rt class=\"XXL_L\">uve</rt></ruby>o <ruby>葡膜炎ᵀ<rt class=\"XXL_L\">uveit</rt></ruby>o <ruby>葡膜<rt class=\"XXL_L\">uve</rt></ruby>oj <ruby>葡膜<rt class=\"XXL_L\">uve</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>oj <ruby>葡膜炎ᵀ<rt class=\"XXL_L\">uveit</rt></ruby>oj</p></body></html>",
+      "passed": true,
+      "cwd_before_each_run": ".",
+      "cwd_after_each_run": ".",
+      "elapsed_seconds": 4.774
+    },
+    {
+      "language": "KO",
+      "mode": "✂️ 한자화·순수 치환（태그 없는 텍스트）",
+      "source": "struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso stafilokoko @stafilokok@o turmenti torturi uvo uveito psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo @uve@o @uveit@o uveoj uveitoj @uveit@oj",
+      "result_html": "鸵o 协同o 榄o 鸵 协同 榄 螺ᴸo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 石ᴸᵀ志ᴳo 周日oj & amiko 棋家o 椭圆o 椭圆ᴱo 葡球菌o 葡球菌o 虐i 虐ᵀᵀi 葡ᵁo 葡膜炎ᵀo 鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡膜o 葡膜o 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀoj 葡膜炎ᵀoj",
+      "passed": true,
+      "cwd_before_each_run": ".",
+      "cwd_after_each_run": ".",
+      "elapsed_seconds": 4.224
+    }
+  ],
+  "pages": [
+    {
+      "language": "JA",
+      "page": "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py",
+      "kind": "manual_correction",
+      "title": "語根分解の手動補正 (GUIで簡単に直す)",
+      "passed": true,
+      "cwd_before_run": ".",
+      "cwd_after_run": ".",
+      "reruns": 2,
+      "navigation_method": "AppTest.switch_page",
+      "exception_count": 0,
+      "error_count": 0,
+      "download_button_count": 0,
+      "elapsed_seconds": 0.218
+    },
+    {
+      "language": "JA",
+      "page": "Esperanto-Kanji-Ruby-JA/pages/2_📦_最新データのダウンロード.py",
+      "kind": "data_download",
+      "title": "最新データのダウンロード",
+      "passed": true,
+      "cwd_before_run": ".",
+      "cwd_after_run": ".",
+      "reruns": 2,
+      "navigation_method": "AppTest.switch_page",
+      "exception_count": 0,
+      "error_count": 0,
+      "download_button_count": 5,
+      "elapsed_seconds": 0.223
+    },
+    {
+      "language": "ZH",
+      "page": "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py",
+      "kind": "manual_correction",
+      "title": "词根分解的手动校正 (在 GUI 上轻松修正)",
+      "passed": true,
+      "cwd_before_run": ".",
+      "cwd_after_run": ".",
+      "reruns": 2,
+      "navigation_method": "AppTest.switch_page",
+      "exception_count": 0,
+      "error_count": 0,
+      "download_button_count": 0,
+      "elapsed_seconds": 0.165
+    },
+    {
+      "language": "ZH",
+      "page": "Esperanto-Kanji-Ruby-ZH/pages/2_📦_最新数据下载.py",
+      "kind": "data_download",
+      "title": "最新数据下载",
+      "passed": true,
+      "cwd_before_run": ".",
+      "cwd_after_run": ".",
+      "reruns": 2,
+      "navigation_method": "AppTest.switch_page",
+      "exception_count": 0,
+      "error_count": 0,
+      "download_button_count": 5,
+      "elapsed_seconds": 0.204
+    },
+    {
+      "language": "KO",
+      "page": "Esperanto-Kanji-Ruby-KO/pages/1_🔧_어근 분해 수동 보정.py",
+      "kind": "manual_correction",
+      "title": "어근 분해 수동 보정 (GUI에서 간단히 수정)",
+      "passed": true,
+      "cwd_before_run": ".",
+      "cwd_after_run": ".",
+      "reruns": 2,
+      "navigation_method": "AppTest.switch_page",
+      "exception_count": 0,
+      "error_count": 0,
+      "download_button_count": 0,
+      "elapsed_seconds": 0.146
+    },
+    {
+      "language": "KO",
+      "page": "Esperanto-Kanji-Ruby-KO/pages/2_📦_최신 데이터 다운로드.py",
+      "kind": "data_download",
+      "title": "최신 데이터 다운로드",
+      "passed": true,
+      "cwd_before_run": ".",
+      "cwd_after_run": ".",
+      "reruns": 2,
+      "navigation_method": "AppTest.switch_page",
+      "exception_count": 0,
+      "error_count": 0,
+      "download_button_count": 5,
+      "elapsed_seconds": 0.132
+    }
+  ],
+  "returns": [
+    {
+      "language": "JA",
+      "from_page": "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py",
+      "to_page": "Esperanto-Kanji-Ruby-JA/main.py",
+      "passed": true,
+      "navigation_method": "AppTest.switch_page, same session",
+      "cwd_before_each_run": ".",
+      "cwd_after_each_run": ".",
+      "source": "struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso stafilokoko @stafilokok@o turmenti torturi uvo uveito psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo @uve@o @uveit@o uveoj uveitoj @uveit@oj",
+      "pure_result": "鸵o 协同o 榄o 鸵 协同 榄 螺ᴸo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 石ᴸᵀ志ᴳo 周日oj & amiko 棋家o 椭圆o 椭圆ᴱo 葡球菌o 葡球菌o 虐i 虐ᵀᵀi 葡ᵁo 葡膜炎ᵀo 鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡膜o 葡膜o 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀoj 葡膜炎ᵀoj",
+      "elapsed_seconds": 5.317
+    },
+    {
+      "language": "JA",
+      "from_page": "Esperanto-Kanji-Ruby-JA/pages/2_📦_最新データのダウンロード.py",
+      "to_page": "Esperanto-Kanji-Ruby-JA/main.py",
+      "passed": true,
+      "navigation_method": "AppTest.switch_page, same session",
+      "cwd_before_each_run": ".",
+      "cwd_after_each_run": ".",
+      "source": "struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso stafilokoko @stafilokok@o turmenti torturi uvo uveito psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo @uve@o @uveit@o uveoj uveitoj @uveit@oj",
+      "pure_result": "鸵o 协同o 榄o 鸵 协同 榄 螺ᴸo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 石ᴸᵀ志ᴳo 周日oj & amiko 棋家o 椭圆o 椭圆ᴱo 葡球菌o 葡球菌o 虐i 虐ᵀᵀi 葡ᵁo 葡膜炎ᵀo 鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡膜o 葡膜o 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀoj 葡膜炎ᵀoj",
+      "elapsed_seconds": 5.917
+    },
+    {
+      "language": "ZH",
+      "from_page": "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py",
+      "to_page": "Esperanto-Kanji-Ruby-ZH/main.py",
+      "passed": true,
+      "navigation_method": "AppTest.switch_page, same session",
+      "cwd_before_each_run": ".",
+      "cwd_after_each_run": ".",
+      "source": "struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso stafilokoko @stafilokok@o turmenti torturi uvo uveito psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo @uve@o @uveit@o uveoj uveitoj @uveit@oj",
+      "pure_result": "鸵o 协同o 榄o 鸵 协同 榄 螺ᴸo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 石ᴸᵀ志ᴳo 周日oj & amiko 棋家o 椭圆o 椭圆ᴱo 葡球菌o 葡球菌o 虐i 虐ᵀᵀi 葡ᵁo 葡膜炎ᵀo 鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡膜o 葡膜o 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀoj 葡膜炎ᵀoj",
+      "elapsed_seconds": 5.048
+    },
+    {
+      "language": "ZH",
+      "from_page": "Esperanto-Kanji-Ruby-ZH/pages/2_📦_最新数据下载.py",
+      "to_page": "Esperanto-Kanji-Ruby-ZH/main.py",
+      "passed": true,
+      "navigation_method": "AppTest.switch_page, same session",
+      "cwd_before_each_run": ".",
+      "cwd_after_each_run": ".",
+      "source": "struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso stafilokoko @stafilokok@o turmenti torturi uvo uveito psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo @uve@o @uveit@o uveoj uveitoj @uveit@oj",
+      "pure_result": "鸵o 协同o 榄o 鸵 协同 榄 螺ᴸo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 石ᴸᵀ志ᴳo 周日oj & amiko 棋家o 椭圆o 椭圆ᴱo 葡球菌o 葡球菌o 虐i 虐ᵀᵀi 葡ᵁo 葡膜炎ᵀo 鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡膜o 葡膜o 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀoj 葡膜炎ᵀoj",
+      "elapsed_seconds": 5.208
+    },
+    {
+      "language": "KO",
+      "from_page": "Esperanto-Kanji-Ruby-KO/pages/1_🔧_어근 분해 수동 보정.py",
+      "to_page": "Esperanto-Kanji-Ruby-KO/main.py",
+      "passed": true,
+      "navigation_method": "AppTest.switch_page, same session",
+      "cwd_before_each_run": ".",
+      "cwd_after_each_run": ".",
+      "source": "struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso stafilokoko @stafilokok@o turmenti torturi uvo uveito psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo @uve@o @uveit@o uveoj uveitoj @uveit@oj",
+      "pure_result": "鸵o 协同o 榄o 鸵 协同 榄 螺ᴸo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 石ᴸᵀ志ᴳo 周日oj & amiko 棋家o 椭圆o 椭圆ᴱo 葡球菌o 葡球菌o 虐i 虐ᵀᵀi 葡ᵁo 葡膜炎ᵀo 鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡膜o 葡膜o 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀoj 葡膜炎ᵀoj",
+      "elapsed_seconds": 4.301
+    },
+    {
+      "language": "KO",
+      "from_page": "Esperanto-Kanji-Ruby-KO/pages/2_📦_최신 데이터 다운로드.py",
+      "to_page": "Esperanto-Kanji-Ruby-KO/main.py",
+      "passed": true,
+      "navigation_method": "AppTest.switch_page, same session",
+      "cwd_before_each_run": ".",
+      "cwd_after_each_run": ".",
+      "source": "struto sinergio olivo @strut@ @sinergi@ @oliv@ @limak@o @orkidit@o @testikit@o @litografi@o @semajn@tagoj & %amiko% ŝakisto ovalo elipso stafilokoko @stafilokok@o turmenti torturi uvo uveito psitako @psitak@o @uv@o limono @limon@o limonado @limonad@o uveo @uve@o @uveit@o uveoj uveitoj @uveit@oj",
+      "pure_result": "鸵o 协同o 榄o 鸵 协同 榄 螺ᴸo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 石ᴸᵀ志ᴳo 周日oj & amiko 棋家o 椭圆o 椭圆ᴱo 葡球菌o 葡球菌o 虐i 虐ᵀᵀi 葡ᵁo 葡膜炎ᵀo 鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡膜o 葡膜o 葡膜炎ᵀo 葡膜oj 葡膜炎ᵀoj 葡膜炎ᵀoj",
+      "elapsed_seconds": 4.065
+    }
+  ]
+}
