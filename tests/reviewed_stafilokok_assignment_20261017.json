@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "private_baseline": "bdc42bfbc407ec5f1ea8a4e82134b12ec46db2e7",
+  "public_baseline": "fdd15bd9212d5d944159542b08d79d83c52acea6",
+  "assignments": {"stafilokok": {"before": "葡萄球菌", "after": "葡球菌"}},
+  "preserved_user_choices": {"turment": "虐", "tortur": "虐ᵀᵀ", "testikit": "丸ᵀ炎ᵀ", "orkidit": "丸ᴼ炎ᵀ"},
+  "reason": "User adopted 葡球菌 as a project-specific representative-character abbreviation: 葡 for the grape-like grouping, 球 for shape, 菌 for the organism category. Four characters/45 strokes become three/34, with no new character and no reduction in the global character inventory. Do not alter uv/uve/uveit or any decomposition.",
+  "preservation_reason": "User prefers keeping turment/tortur together under 虐 rather than moving turment to 苦. The etymological similarity was expressed tentatively; the decision does not require identical modern meanings."
+}

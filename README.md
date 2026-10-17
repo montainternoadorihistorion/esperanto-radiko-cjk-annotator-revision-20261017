@@ -161,6 +161,21 @@ struto sinergio olivo @limak@o @orkidit@o @testikit@o @litografi@o ovalo elipso
 
 公開コミット `53cc500` の配備後、接続したChromeで日中韓の3モードを実操作しました。通常／`@`、衝突保護9組に関係する語、既採用値、`semajn`・`ŝakist`を含む入力を使い、全9結果がローカル実行と一致しました。漢字ルビからの原文復元と注釈ルビの本文保持も一致しています。[Cloud確認記録](tests/mirror_cloud_verification.json)と[採取した表示データ](tests/mirror_cloud_capture.json)を保存しています。管理枠を介さず既存のアプリ本体URLで確認した結果です。
 
+## stafilokok の追加採用（2026-10-17）
+
+ユーザーの選択により、`stafilokok＝葡萄球菌` を **`葡球菌`** に短縮しました。葡はブドウ状の集まり、球は形、菌は生物の種類を表す、本プロジェクト用の代表字表記です。中国語の一般用語を書き換えるものではありません。4字・45画から3字・34画になり、新しい漢字は増えません。「萄」は `uv＝葡萄` などで引き続き使うため、使用漢字の種類数も変わりません。
+
+正本の他10,467語根と識別子は不変です。`turment＝虐`、`tortur＝虐ᵀᵀ` の共有字も維持します。注釈の訳語・既存の語根分解は変更していません。確認用入力 `stafilokoko @stafilokok@o turmenti torturi uvo uveito` は、純粋置換で `葡球菌o 葡球菌o 虐i 虐ᵀᵀi 葡萄o 葡萄膜炎ᵀo` になります。統合リポジトリの逆変換アプリでは、旧表記「葡萄球菌」も同じ語根へ復元できます。
+
+3言語の漢字JSONを変更前の全1,646,955行と比較し、各言語の変更は通常6行・局所3行だけに限定しました。純粋置換用JSONと手動補正用CSVにも反映し、対象外の出力・順序・置換キーを保持しています。[全行照合結果](tests/stafilokok_regression_tables.json)、[実処理405結果・手動補正27結果](tests/stafilokok_regression.json)、[再実行できるテスト](tests/test_stafilokok_assignment.py)を収録しています。
+
+[今回のローカルUI検証](tests/app_ui_stafilokok.json)では、Streamlit AppTestで3言語×3モード、補助6ページ、復帰後の再変換6経路を確認しました。過去のCloud実測記録とは別の検証です。
+
+```shell
+python -B -X utf8 tests/test_stafilokok_assignment.py --app-root . --baseline-ref fdd15bd9212d5d944159542b08d79d83c52acea6 --tables-only --report tests/stafilokok_regression_tables.json
+python -B -X utf8 tests/app_ui_smoke.py --stafilokok
+```
+
 ## ローカルでの実行・検証
 
 Python 3.12 でリポジトリ直下から実行します。

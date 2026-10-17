@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "scope": "Current runtime data after las=放 / emancip=放ᴱ, ananas=菠 / jakv=菠蜜 / prioritat=优先, strut=鸵 / sinergi=协同 / oliv=榄, and the reviewed synchronization of ten stale local root displays. oval/elips, annotation glosses, source-root analyses, replacement keys and ordering are preserved.",
+  "scope": "Current runtime data after las=放 / emancip=放ᴱ, ananas=菠 / jakv=菠蜜 / prioritat=优先, strut=鸵 / sinergi=协同 / oliv=榄, the reviewed synchronization of ten stale local root displays, and the 1,534-root mirror/component identifier synchronization. The latest approved assignment is stafilokok=葡球菌; turment=虐 / tortur=虐ᵀᵀ remain unchanged. oval/elips, annotation glosses, source-root analyses, replacement keys and ordering are preserved.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/char_widths.json",
@@ -79,8 +79,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 152833,
-      "sha256": "64a20050aba8013f54dd1e1aac95b8b3e4f12f2a47296f8ed582f76ec811104a"
+      "bytes": 161664,
+      "sha256": "43dd5cffa20bd7a7f689514b77867f14654d23347de6fda8d7ece41b40782001"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -99,13 +99,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57346797,
-      "sha256": "e47b9ea9393f73969e8fbca8acfa986f54a568c8e645ab9a882a2ad46b0d7e4f"
+      "bytes": 57372294,
+      "sha256": "7dbc8e1ccec9284ad4d626abaed966ea4ee0494bf82e687ce68df32935417d4a"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21488808,
-      "sha256": "efd02bbe093fb718b0d9bac7a89a0143a70a7499311c5ad335bd6279b5d94724"
+      "bytes": 21516104,
+      "sha256": "3b57b7b9edf66474c7ace7858b65844b0292290e8e91c28173e3cee1354646f3"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -194,8 +194,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 152833,
-      "sha256": "64a20050aba8013f54dd1e1aac95b8b3e4f12f2a47296f8ed582f76ec811104a"
+      "bytes": 161664,
+      "sha256": "43dd5cffa20bd7a7f689514b77867f14654d23347de6fda8d7ece41b40782001"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -214,8 +214,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57354863,
-      "sha256": "3399d2e9ce46c5b874ca0589ef2457641ed7969d0149ac06f9651d4191eff457"
+      "bytes": 57380360,
+      "sha256": "a7658f2cfa9132da82ad0e6ec327507335361fc65bf9f0e7f43f4964ee93bcfb"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -309,8 +309,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 152833,
-      "sha256": "64a20050aba8013f54dd1e1aac95b8b3e4f12f2a47296f8ed582f76ec811104a"
+      "bytes": 161664,
+      "sha256": "43dd5cffa20bd7a7f689514b77867f14654d23347de6fda8d7ece41b40782001"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -329,8 +329,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57354863,
-      "sha256": "643c653c74e29c4fadfc6970903e20759370bf4393d255938cbf1090874ed6d5"
+      "bytes": 57380360,
+      "sha256": "84201088f90c6f6bc781df43c8ec97cefd0017fbf1350fb229284fd842fc2729"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py",
@@ -348,7 +348,7 @@
       "sha256": "5502587bb1f68ae5760cac30a0bdb295fae868a23cdfcc211efdad99a4964e4c"
     }
   ],
-  "assignment_revision": "las-fruit-priority-20261017",
-  "previous_release_commit": "5c99201dd0650ace97c7980b43e1e98093ac49f1",
+  "assignment_revision": "stafilokok-20261017",
+  "previous_release_commit": "fdd15bd9212d5d944159542b08d79d83c52acea6",
   "runtime_cache_revision": "file-mtime-ns-size-20261017"
 }
