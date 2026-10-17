@@ -1,0 +1,67 @@
+{
+  "passed_after_targeted_recheck": true,
+  "full_suite": {
+    "tests": 23,
+    "seconds": 350.697,
+    "passed": false,
+    "failures": 1,
+    "reason": "Historical annotation SHA expectations superseded by the approved fraj change.",
+    "log_sha256": "ba5e304f7d11f1d396000c4a2d7085037ab8ce0acfaaa7eea0f72f033255b74e"
+  },
+  "targeted_recheck": {
+    "passed": true,
+    "command": [
+      "python",
+      "-B",
+      "-X",
+      "utf8",
+      "-m",
+      "unittest",
+      "-v",
+      "test_mirror_identifiers.MirrorTests.test_all_rows_and_csv"
+    ],
+    "cwd": "D:/esperanto-radiko-cjk-annotator-revision-20261017/tests",
+    "exit_code": 0,
+    "output": "test_all_rows_and_csv (test_mirror_identifiers.MirrorTests.test_all_rows_and_csv) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 1 test in 11.671s\r\n\r\nOK\r\n",
+    "initial_full_suite": {
+      "log": "public_unittest.log",
+      "tests": 23,
+      "failures": 1,
+      "seconds": 350.697,
+      "reason": "Historical unchanged-annotation SHA guard lacked later approved fraj-only annotations"
+    },
+    "delta_evidence": "public_mirror_guard_fraj_delta_verification.json",
+    "production_data_modified": false,
+    "historical_manifest_modified": false,
+    "tests_rerun": "Only the initially failing test; not a second full-suite run"
+  },
+  "unresolved_failures": 0,
+  "full_suite_rerun_after_test_only_repair": false,
+  "production_bytes_unchanged_by_test_repair": true,
+  "app_ui": {
+    "passed": true,
+    "conversion_routes": 9,
+    "subpage_routes": 6,
+    "return_routes": 6
+  },
+  "all_rule_comparison_passed": true,
+  "tables_sha256": "a1c81fbf637c6f502480b477c478e8a67a8f0fba3359b5f1a3822c4b6b41fe34",
+  "final_test_sha256": {
+    "test_data_cache_refresh.py": "b46b8626c2132a2dba5812c5c4e97db89c059fc3059dfc1c000c0352797b74bf",
+    "test_data_cache_save_ui.py": "628ff118bedc948a09f5ef330d855e28a5aa14212ab48d2984005dd76a7bb945",
+    "test_four_reviewed_assignments.py": "17419d745fbb574250b75d73e27f750608ac1110195e963007031d36123a5419",
+    "test_four_shared_assignments.py": "f6b524933d2c412a726297dc3429db817aca7176910bcc76a9d86352cb6539ec",
+    "test_fruit_priority_assignment.py": "90b669d390be8f6513b28a94a5caccddcaf89d237b1b9cd0d144bbd170fe5e53",
+    "test_las_assignment.py": "f04f38f56546f6f5fcce8299641e002ab0f90a2097b48e46992e0d187cda0f43",
+    "test_las_overlay.py": "36bd643bd831ce47ec191677e37b459ee11638e03cdc96e8eb68babf2f078df4",
+    "test_marker_runtime.py": "32557355760c8a53ac94b61daa0dbfbcfb8634a9987d2580581ddcdcccb56005",
+    "test_mirror_identifiers.py": "720c9dce04faed4230e92b97079c4957c1aff8799ea6709b095d9f91b886b9fa",
+    "test_observatori_assignment.py": "2d5b5b8cda15984f39d69e1468471ba93738291942091dee2e12702e71634193",
+    "test_protez_ranc_assignments.py": "36613fb3e4dfd1ed658d8bae8cb712510e752043b5e44166aaa39e0701523a14",
+    "test_reviewed_at_sync.py": "4e5716ff451c756280aba4bf96b6e03b92818506c52590e35febb0017f027ac1",
+    "test_stafilokok_assignment.py": "40c39ff44609f8d7a50b4291dd5577f5a5f814dfab6d07e5259f667b4680778a",
+    "test_sutur_fraj_assignments.py": "f5b17346fd934cbedd53e8118d6457a53fcd4a9b5b4544bb177af32231ff3bcc",
+    "test_three_short_assignments.py": "edb885237da82467f0f4969a59f551b1b6795928f92b0c5f1c9546850f83c4fa",
+    "test_uve_assignments.py": "5213ae89fbc46bde90a50587c2fd4982cca4f8f053deec140decdea06abdefcd"
+  }
+}

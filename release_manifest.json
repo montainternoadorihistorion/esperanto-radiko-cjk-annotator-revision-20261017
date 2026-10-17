@@ -1,6 +1,6 @@
 {
   "date": "2026-10-17",
-  "scope": "Approved krep=皱布, difrakt=绕射, mortez=卯, meger=恶女. All other roots, identifiers, annotations, segmentation and rule ordering are retained, including existing alternate decomposition of difraktojn/difraktajn/megerajn.",
+  "scope": "Approved sutur=缝ˢᴿ and fraj=卵ᶠ, preserving prism=棱镜. Explicit fish/frog egg-mass fraj noun/root glosses and spawning verb-context glosses in JA/ZH/KO; all non-target roots, identifiers, annotation pieces, segmentation and rule ordering are retained.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/char_widths.json",
@@ -49,8 +49,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/word_anno.json",
-      "bytes": 2739561,
-      "sha256": "6ce53f8b589aff7be20cb1c952974eab0054279e37566d6add1e891859d991d9"
+      "bytes": 2739642,
+      "sha256": "f07e289b475a13bd08c3f53aa6d6a3f8f010886d3a19d9ab345773133da96f6a"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/Корни эсперанто – список с русским переводом и руби.csv",
@@ -64,13 +64,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/エスペラント語根-日本語訳ルビ対応リスト.csv",
-      "bytes": 341257,
-      "sha256": "33ce469efce8d77111c281df36585e981269409f1d33753da620d56c6ad5ce0e"
+      "bytes": 341285,
+      "sha256": "0c3b4d2dc71f2c458e2ed2d50caa33f6a4d6887cfddd732d9b1f8daa19073f4a"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-中文注释对应列表.csv",
-      "bytes": 64868,
-      "sha256": "908effbda970c0a54690c8c464e1f7a9905f67c40021fa290ce7ac41d73e4657"
+      "bytes": 64883,
+      "sha256": "71e31ab74e56c08ea4a13e27a233a1cb122686334ad87b290352d0597704a4b3"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表.csv",
@@ -79,8 +79,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161651,
-      "sha256": "b508eed2a3e34e3b8081cd7562b2add9f78eac893be6cb20712df4e5e3e1608f"
+      "bytes": 161653,
+      "sha256": "7c57a216e72d948dafe270b07e025b733aa9aae4b45baddb8f294b090076a063"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -94,23 +94,23 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_ルビ.json",
-      "bytes": 72540493,
-      "sha256": "daf095b589e04434ff5067e7d446c6d2f563aa13e4077f4b97f26037a01ae018"
+      "bytes": 72541781,
+      "sha256": "097a0dc04fb7f3dcb1efb64975fae6fc6cf3580989743887fcef4bb6cb84c776"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57372462,
-      "sha256": "cbd4b4099b505ef7da4177588e979579c4145d1a1460475233f46be5528143e2"
+      "bytes": 57372427,
+      "sha256": "5e6618823e00b7de2a13198ebb7df72a53c5a506b8ef8fe54be0a116deb6ad35"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21515557,
-      "sha256": "fda6c2f19b9529511916ce58da3b844bbd97929d09479f168e59c478090b7cda"
+      "bytes": 21515701,
+      "sha256": "198562d0575de18a5026c8fe32b39f3c50d3aff08c354bbc1181a69d75d737b1"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
-      "bytes": 77684,
-      "sha256": "b9f64f8594d757412c25d645c21180a4648294b7c4fac61b7926f1e875b0b9dd"
+      "bytes": 77712,
+      "sha256": "767d74f4fa5fe826484da9a0b70569399f2ac30b7335cc2a59a94c4f72756129"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/esp_overlay_module.py",
@@ -174,8 +174,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/word_anno.json",
-      "bytes": 2729009,
-      "sha256": "8d2664e4e926a2260e3e0c3a15b0adac76ab1dcb3d120131fcaa145028c56f18"
+      "bytes": 2729132,
+      "sha256": "f21832d98283ff917fe23776c652f78f76e4e09d377c2464caab7e5d62e31e49"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/Корни эсперанто – список с русским переводом и руби.csv",
@@ -184,8 +184,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-中文注释对应列表.csv",
-      "bytes": 64868,
-      "sha256": "908effbda970c0a54690c8c464e1f7a9905f67c40021fa290ce7ac41d73e4657"
+      "bytes": 64883,
+      "sha256": "71e31ab74e56c08ea4a13e27a233a1cb122686334ad87b290352d0597704a4b3"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表.csv",
@@ -194,8 +194,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161651,
-      "sha256": "b508eed2a3e34e3b8081cd7562b2add9f78eac893be6cb20712df4e5e3e1608f"
+      "bytes": 161653,
+      "sha256": "7c57a216e72d948dafe270b07e025b733aa9aae4b45baddb8f294b090076a063"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -209,13 +209,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_ルビ.json",
-      "bytes": 71826826,
-      "sha256": "e4e03fa2608ebd30644fba2d113b43f5938b05a5262d4be8883d3d14a04ab921"
+      "bytes": 71828920,
+      "sha256": "78ba62b0c77186cd113fbedc9bb51890b425c177aff715fcc7754ec306e24354"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57380528,
-      "sha256": "1176067ccd90e14dd97efac884994431fb2cd232d01e109ac2e8d499300ac934"
+      "bytes": 57380493,
+      "sha256": "a0958f18919e842cb0fb37e43113eed0e5f7e874d16d01088ef267bdd494f02d"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -224,8 +224,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
-      "bytes": 299185,
-      "sha256": "a5a2ba458907d5b6a3512bd7fe5d6a9c7bb6d6a84a1b23dc6652a32a0fb9866e"
+      "bytes": 299223,
+      "sha256": "56783ebb5a1a0ce5782e213c0509eaf44e7a37a235a2060a36447adf8b9a1986"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/esp_overlay_module.py",
@@ -289,8 +289,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/word_anno.json",
-      "bytes": 2586358,
-      "sha256": "7ca2a850f7f9a71552145912368921bb7bea75fe4367909668ac46f21f452837"
+      "bytes": 2586415,
+      "sha256": "3dae711b271bfbe17ef0666e1b420f2ab5cc88fd40042110f92b3622d967bf57"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/エスペラント語根-日本語訳ルビ対応リスト(習得レベル付き).xlsx",
@@ -299,8 +299,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-中文注释对应列表.csv",
-      "bytes": 274738,
-      "sha256": "6b8255b364f8d7d8d76a8d32fc4b1f931e24dc2d8accaebfa244107814c723ac"
+      "bytes": 274753,
+      "sha256": "7cbd98b2fb545d6d6d3eede4d401862cb10a9d89dbf535ae6f28bdc14ef2f673"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表.csv",
@@ -309,8 +309,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161651,
-      "sha256": "b508eed2a3e34e3b8081cd7562b2add9f78eac893be6cb20712df4e5e3e1608f"
+      "bytes": 161653,
+      "sha256": "7c57a216e72d948dafe270b07e025b733aa9aae4b45baddb8f294b090076a063"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -324,13 +324,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_ルビ.json",
-      "bytes": 70255343,
-      "sha256": "fb524e3401700f5e8ecba705502c34e1cd37cfe7d93505474f4e9c3e9b887e83"
+      "bytes": 70256195,
+      "sha256": "a313d4ba8c3b60d750c034976d665ccf64fbe97705ded0dcdc4d5ab7e508c84f"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57380528,
-      "sha256": "f51705a5992953bba7e1d4af56588f03d5053876d6aa8f634325a64b4294d92f"
+      "bytes": 57380493,
+      "sha256": "2eed18b1eebe0c3c66b37da08021e1a5ec609b81e29cfb8e641fedce0d3a3eed"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py",
@@ -348,7 +348,7 @@
       "sha256": "5502587bb1f68ae5760cac30a0bdb295fae868a23cdfcc211efdad99a4964e4c"
     }
   ],
-  "assignment_revision": "four-reviewed-20261017",
-  "previous_release_commit": "7278d50311c8e037bd43bb31077ae1bdacae99bb",
+  "assignment_revision": "sutur-fraj-20261017",
+  "previous_release_commit": "4190185b92f064eeb30249e146080c309683b28d",
   "runtime_cache_revision": "file-mtime-ns-size-20261017"
 }

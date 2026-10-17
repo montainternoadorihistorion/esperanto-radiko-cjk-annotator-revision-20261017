@@ -39,6 +39,8 @@ PROTEZ_RANC_SOURCE = THREE_SHORT_SOURCE + ' protezo @protez@o protezoj dentprote
 PROTEZ_RANC_EXPECTED = THREE_SHORT_EXPECTED + ' 假体o 假体o 假体oj 齿假体o 酸败a 酸败a 酸败i 棚库o 异议i 囊尾虫o 十字o'
 FOUR_REVIEWED_SOURCE = PROTEZ_RANC_SOURCE + ' krepo @krep@o difrakto @difrakt@o mortezo @mortez@o megero @meger@o'
 FOUR_REVIEWED_EXPECTED = PROTEZ_RANC_EXPECTED + ' 皱布o 皱布o 绕射o 绕射o 卯o 卯o 恶女o 恶女o'
+SUTUR_FRAJ_SOURCE = FOUR_REVIEWED_SOURCE + ' suturo @sutur@o suturi frajo @fraj@o fraji prismo @prism@o kudri stebo ovo ovolo'
+SUTUR_FRAJ_EXPECTED = FOUR_REVIEWED_EXPECTED + ' 缝ˢᴿo 缝ˢᴿo 缝ˢᴿi 卵ᶠo 卵ᶠo 卵ᶠi 棱镜o 棱镜o 缝i 缝ˢo 卵o 卵ᴼᴸo'
 LANGUAGES = ('JA', 'ZH', 'KO')
 
 
@@ -93,6 +95,18 @@ def run_language(language):
         run_from_root(at)
         rendered = at.session_state['result_html']
         assert rendered and '@' not in rendered, 'The local marker was not removed'
+        if SOURCE == SUTUR_FRAJ_SOURCE and index == 0:
+            # Independent semantic expectations from the user-approved meaning.
+            meanings = {
+                'JA': ('魚・カエルなどの卵の集まり', '産卵する'),
+                'ZH': ('鱼、蛙等的卵块', '产卵'),
+                'KO': ('물고기·개구리 등의 알 덩어리', '산란하다'),
+            }
+            flatten = lambda value: re.sub(r'\s+', '', html.unescape(re.sub(r'<[^>]*>', '', value)))
+            fraj_ruby = {flatten(gloss) for source, gloss in
+                         re.findall(r'<ruby>(.*?)<rt[^>]*>(.*?)</rt></ruby>', rendered, re.S)
+                         if flatten(source).lower() == 'fraj'}
+            assert fraj_ruby == {flatten(value) for value in meanings[language]}, (language, fraj_ruby)
         assert 'amiko' in rendered and '%amiko%' not in rendered, 'The skip marker contract failed'
         assert '&' in html.unescape(rendered), 'The ampersand was not preserved'
         if index == 2:
@@ -174,6 +188,7 @@ def main():
     scenario.add_argument('--three-short', action='store_true', help='Exercise three shortened assignments and retained controls; save a new report')
     scenario.add_argument('--protez-ranc', action='store_true', help='Exercise protez/ranc and preserved controls; save a new report')
     scenario.add_argument('--four-reviewed', action='store_true', help='Exercise krep/difrakt/mortez/meger and preserved controls')
+    scenario.add_argument('--sutur-fraj', action='store_true', help='Exercise sutur/fraj and preserved prism/shared identifiers')
     args = parser.parse_args()
     if args.revision:
         SOURCE, EXPECTED = REVISION_SOURCE, REVISION_EXPECTED
@@ -191,6 +206,8 @@ def main():
         SOURCE, EXPECTED = PROTEZ_RANC_SOURCE, PROTEZ_RANC_EXPECTED
     if args.four_reviewed:
         SOURCE, EXPECTED = FOUR_REVIEWED_SOURCE, FOUR_REVIEWED_EXPECTED
+    if args.sutur_fraj:
+        SOURCE, EXPECTED = SUTUR_FRAJ_SOURCE, SUTUR_FRAJ_EXPECTED
     if args.language:
         try:
             result = run_language(args.language)
@@ -207,7 +224,7 @@ def main():
     for language in LANGUAGES:
         child = subprocess.run(
             [sys.executable, '-B', '-X', 'utf8', str(Path(__file__).resolve()),
-             '--language', language, *(['--revision'] if args.revision else ['--stafilokok'] if args.stafilokok else ['--four-shared'] if args.four_shared else ['--uve'] if args.uve else ['--observatori'] if args.observatori else ['--three-short'] if args.three_short else ['--protez-ranc'] if args.protez_ranc else ['--four-reviewed'] if args.four_reviewed else [])], cwd=ROOT, capture_output=True, text=True,
+             '--language', language, *(['--revision'] if args.revision else ['--stafilokok'] if args.stafilokok else ['--four-shared'] if args.four_shared else ['--uve'] if args.uve else ['--observatori'] if args.observatori else ['--three-short'] if args.three_short else ['--protez-ranc'] if args.protez_ranc else ['--four-reviewed'] if args.four_reviewed else ['--sutur-fraj'] if args.sutur_fraj else [])], cwd=ROOT, capture_output=True, text=True,
             encoding='utf-8', timeout=600)
         if child.returncode:
             try:
@@ -235,7 +252,7 @@ def main():
             'Subpages were checked for startup and controls, not full correction editing workflows.',
             'Remote download availability and Streamlit Cloud deployment were not tested.',
         ],
-        'command': 'python -B -X utf8 tests/app_ui_smoke.py' + (' --revision' if args.revision else ' --stafilokok' if args.stafilokok else ' --four-shared' if args.four_shared else ' --uve' if args.uve else ' --observatori' if args.observatori else ' --three-short' if args.three_short else ' --protez-ranc' if args.protez_ranc else ' --four-reviewed' if args.four_reviewed else ''),
+        'command': 'python -B -X utf8 tests/app_ui_smoke.py' + (' --revision' if args.revision else ' --stafilokok' if args.stafilokok else ' --four-shared' if args.four_shared else ' --uve' if args.uve else ' --observatori' if args.observatori else ' --three-short' if args.three_short else ' --protez-ranc' if args.protez_ranc else ' --four-reviewed' if args.four_reviewed else ' --sutur-fraj' if args.sutur_fraj else ''),
         'cwd': '.', 'completed_at_utc': datetime.now(timezone.utc).isoformat(),
         'environment': {'python': platform.python_version(), 'system': platform.system(),
                         'streamlit': streamlit.__version__, 'pandas': pandas.__version__},
@@ -244,7 +261,7 @@ def main():
         'script_bytes_unchanged_during_run': True, 'script_sha256': scripts,
         'languages': language_results, 'results': rows, 'pages': pages, 'returns': returns,
     }
-    output_name = 'app_ui_four_reviewed.json' if args.four_reviewed else 'app_ui_protez_ranc.json' if args.protez_ranc else 'app_ui_three_short.json' if args.three_short else 'app_ui_observatori.json' if args.observatori else 'app_ui_uve.json' if args.uve else 'app_ui_four_shared.json' if args.four_shared else 'app_ui_stafilokok.json' if args.stafilokok else 'app_ui_mirror_identifiers.json' if args.revision else 'app_ui_smoke.json'
+    output_name = 'app_ui_sutur_fraj.json' if args.sutur_fraj else 'app_ui_four_reviewed.json' if args.four_reviewed else 'app_ui_protez_ranc.json' if args.protez_ranc else 'app_ui_three_short.json' if args.three_short else 'app_ui_observatori.json' if args.observatori else 'app_ui_uve.json' if args.uve else 'app_ui_four_shared.json' if args.four_shared else 'app_ui_stafilokok.json' if args.stafilokok else 'app_ui_mirror_identifiers.json' if args.revision else 'app_ui_smoke.json'
     output_path = Path(__file__).with_name(output_name)
     output_path.write_text(
         json.dumps(output, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "private_baseline": "bb6cddb",
+  "assignments": {
+    "sutur": {
+      "before": "缝合",
+      "after": "缝ˢᴿ"
+    },
+    "fraj": {
+      "before": "鱼卵",
+      "after": "卵ᶠ"
+    }
+  },
+  "preserved_user_choices": {
+    "kudr": "缝",
+    "steb": "缝ˢ",
+    "ov": "卵",
+    "ovol": "卵ᴼᴸ",
+    "kojon": "卵ᴷ",
+    "prism": "棱镜",
+    "krep": "皱布",
+    "difrakt": "绕射",
+    "mortez": "卯",
+    "meger": "恶女",
+    "hangar": "棚库",
+    "kontest": "异议",
+    "kruc": "十字",
+    "cisticerk": "囊尾虫",
+    "risort": "簧",
+    "anĉ": "簧ᴬ",
+    "lantern": "灯ᴸᴺ",
+    "lubrik": "滑ᴸ",
+    "protez": "假体",
+    "ranc": "酸败",
+    "kanajl": "恶棍",
+    "protokanajl": "原ᴾᵀ恶棍",
+    "buf": "蛤蟆",
+    "lofi": "蛤蟆鱼"
+  },
+  "reason": "User adopted sutur=缝ˢᴿ and fraj=卵ᶠ, preserving prism=棱镜 and all existing identifiers. fraj nominal/root annotations explicitly mean egg masses of fish, frogs, etc.; ordinary verbal/participle/ad/causative contexts retain spawning. Existing word boundaries and false/coarse decomposition remain unchanged.",
+  "canonical_manifest_sha256": "d9dc519540a27654cca26a3de0ca2cfb4b7d50b1c72bdd03c8ca205c1e0a9ad3"
+}

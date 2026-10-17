@@ -1,0 +1,124 @@
+{
+  "passed": true,
+  "scope_sha256": "d0b5dfc0c31fb35bbd27308b6841651c76987e0e6da222dd118771d92878f681",
+  "baseline_archive_sha256": "c5702a4606ad490b33b51a651f98d775eee32e7afc5f07b211beb9b26be1907c",
+  "changed": [
+    {
+      "path": "Esperanto-Kanji-Ruby-JA/app_data/word_anno.json",
+      "before_sha256": "6ce53f8b589aff7be20cb1c952974eab0054279e37566d6add1e891859d991d9",
+      "after_sha256": "f07e289b475a13bd08c3f53aa6d6a3f8f010886d3a19d9ab345773133da96f6a",
+      "approved_piece_or_row_changes": 3
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-JA/app_data/エスペラント語根-日本語訳ルビ対応リスト.csv",
+      "before_sha256": "33ce469efce8d77111c281df36585e981269409f1d33753da620d56c6ad5ce0e",
+      "after_sha256": "0c3b4d2dc71f2c458e2ed2d50caa33f6a4d6887cfddd732d9b1f8daa19073f4a",
+      "approved_piece_or_row_changes": 1
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-中文注释对应列表.csv",
+      "before_sha256": "908effbda970c0a54690c8c464e1f7a9905f67c40021fa290ce7ac41d73e4657",
+      "after_sha256": "71e31ab74e56c08ea4a13e27a233a1cb122686334ad87b290352d0597704a4b3",
+      "approved_piece_or_row_changes": 1
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_ルビ.json",
+      "before_sha256": "daf095b589e04434ff5067e7d446c6d2f563aa13e4077f4b97f26037a01ae018",
+      "after_sha256": "097a0dc04fb7f3dcb1efb64975fae6fc6cf3580989743887fcef4bb6cb84c776",
+      "approved_piece_or_row_changes": 36
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+      "before_sha256": "b9f64f8594d757412c25d645c21180a4648294b7c4fac61b7926f1e875b0b9dd",
+      "after_sha256": "767d74f4fa5fe826484da9a0b70569399f2ac30b7335cc2a59a94c4f72756129",
+      "approved_piece_or_row_changes": 1
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-KO/app_data/word_anno.json",
+      "before_sha256": "8d2664e4e926a2260e3e0c3a15b0adac76ab1dcb3d120131fcaa145028c56f18",
+      "after_sha256": "f21832d98283ff917fe23776c652f78f76e4e09d377c2464caab7e5d62e31e49",
+      "approved_piece_or_row_changes": 4
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-中文注释对应列表.csv",
+      "before_sha256": "908effbda970c0a54690c8c464e1f7a9905f67c40021fa290ce7ac41d73e4657",
+      "after_sha256": "71e31ab74e56c08ea4a13e27a233a1cb122686334ad87b290352d0597704a4b3",
+      "approved_piece_or_row_changes": 1
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_ルビ.json",
+      "before_sha256": "e4e03fa2608ebd30644fba2d113b43f5938b05a5262d4be8883d3d14a04ab921",
+      "after_sha256": "78ba62b0c77186cd113fbedc9bb51890b425c177aff715fcc7754ec306e24354",
+      "approved_piece_or_row_changes": 99
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+      "before_sha256": "a5a2ba458907d5b6a3512bd7fe5d6a9c7bb6d6a84a1b23dc6652a32a0fb9866e",
+      "after_sha256": "56783ebb5a1a0ce5782e213c0509eaf44e7a37a235a2060a36447adf8b9a1986",
+      "approved_piece_or_row_changes": 1
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-ZH/app_data/word_anno.json",
+      "before_sha256": "7ca2a850f7f9a71552145912368921bb7bea75fe4367909668ac46f21f452837",
+      "after_sha256": "3dae711b271bfbe17ef0666e1b420f2ab5cc88fd40042110f92b3622d967bf57",
+      "approved_piece_or_row_changes": 4
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-中文注释对应列表.csv",
+      "before_sha256": "6b8255b364f8d7d8d76a8d32fc4b1f931e24dc2d8accaebfa244107814c723ac",
+      "after_sha256": "7cbd98b2fb545d6d6d3eede4d401862cb10a9d89dbf535ae6f28bdc14ef2f673",
+      "approved_piece_or_row_changes": 1
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_ルビ.json",
+      "before_sha256": "fb524e3401700f5e8ecba705502c34e1cd37cfe7d93505474f4e9c3e9b887e83",
+      "after_sha256": "a313d4ba8c3b60d750c034976d665ccf64fbe97705ded0dcdc4d5ab7e508c84f",
+      "approved_piece_or_row_changes": 99
+    }
+  ],
+  "unchanged_count": 41,
+  "unchanged_paths": [
+    "Esperanto-Kanji-Ruby-JA/app_data/char_widths.json",
+    "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
+    "Esperanto-Kanji-Ruby-JA/app_data/placeholders_2char.txt",
+    "Esperanto-Kanji-Ruby-JA/app_data/placeholders_global.txt",
+    "Esperanto-Kanji-Ruby-JA/app_data/placeholders_local.txt",
+    "Esperanto-Kanji-Ruby-JA/app_data/placeholders_localcapture.txt",
+    "Esperanto-Kanji-Ruby-JA/app_data/placeholders_skip.txt",
+    "Esperanto-Kanji-Ruby-JA/app_data/root_list.txt",
+    "Esperanto-Kanji-Ruby-JA/app_data/user_corrections.json",
+    "Esperanto-Kanji-Ruby-JA/app_data/Корни эсперанто – список с русским переводом и руби.csv",
+    "Esperanto-Kanji-Ruby-JA/app_data/エスペラント語根-日本語訳ルビ対応リスト(習得レベル付き).xlsx",
+    "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表.csv",
+    "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
+    "Esperanto-Kanji-Ruby-JA/app_data/替换后文字列(汉字)の使用者自定义设置(基本上完全不推荐).json",
+    "Esperanto-Kanji-Ruby-KO/app_data/char_widths.json",
+    "Esperanto-Kanji-Ruby-KO/app_data/E_stem.json",
+    "Esperanto-Kanji-Ruby-KO/app_data/placeholders_2char.txt",
+    "Esperanto-Kanji-Ruby-KO/app_data/placeholders_global.txt",
+    "Esperanto-Kanji-Ruby-KO/app_data/placeholders_local.txt",
+    "Esperanto-Kanji-Ruby-KO/app_data/placeholders_localcapture.txt",
+    "Esperanto-Kanji-Ruby-KO/app_data/placeholders_skip.txt",
+    "Esperanto-Kanji-Ruby-KO/app_data/root_list.txt",
+    "Esperanto-Kanji-Ruby-KO/app_data/user_corrections.json",
+    "Esperanto-Kanji-Ruby-KO/app_data/Корни эсперанто – список с русским переводом и руби.csv",
+    "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表.csv",
+    "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
+    "Esperanto-Kanji-Ruby-KO/app_data/替换后文字列(汉字)の使用者自定义设置(基本上完全不推荐).json",
+    "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
+    "Esperanto-Kanji-Ruby-ZH/app_data/char_widths.json",
+    "Esperanto-Kanji-Ruby-ZH/app_data/E_stem.json",
+    "Esperanto-Kanji-Ruby-ZH/app_data/placeholders_2char.txt",
+    "Esperanto-Kanji-Ruby-ZH/app_data/placeholders_global.txt",
+    "Esperanto-Kanji-Ruby-ZH/app_data/placeholders_local.txt",
+    "Esperanto-Kanji-Ruby-ZH/app_data/placeholders_localcapture.txt",
+    "Esperanto-Kanji-Ruby-ZH/app_data/placeholders_skip.txt",
+    "Esperanto-Kanji-Ruby-ZH/app_data/root_list.txt",
+    "Esperanto-Kanji-Ruby-ZH/app_data/user_corrections.json",
+    "Esperanto-Kanji-Ruby-ZH/app_data/エスペラント語根-日本語訳ルビ対応リスト(習得レベル付き).xlsx",
+    "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表.csv",
+    "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
+    "Esperanto-Kanji-Ruby-ZH/app_data/替换后文字列(汉字)の使用者自定义设置(基本上完全不推荐).json"
+  ],
+  "method": "Compare full frozen pre-sutur/fraj bytes (equal historical mirror hashes) with current bytes; require all non-fraj fields, keys, order, counts, HTML and CSV rows to remain unchanged. Explicit current gloss whitelist; not a data-to-itself hash check."
+}
