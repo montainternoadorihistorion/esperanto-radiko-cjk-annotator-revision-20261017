@@ -205,6 +205,8 @@ python -B -X utf8 tests/test_four_shared_assignments.py --app-root . --baseline-
 python -B -X utf8 tests/app_ui_smoke.py --four-shared
 ```
 
+公開コミット `6d166ec` の配備後、接続したChromeで日中韓の注釈ルビ・漢字ルビ・純粋置換を実操作し、全9結果がローカル期待値と一致しました。4語根の通常／@表記、維持した周辺語根、構成識別子、semajn、%保護を含みます。漢字ルビからの原文復元と注釈ルビの本文保持も確認しました。[実画面の確認記録](tests/four_shared_cloud/cloud_verification.json)、[採取した結果](tests/four_shared_cloud/cloud_capture.json)、[日本語版の画面](tests/four_shared_cloud/cloud_ja_four_shared.png)を保存しています。一般の注釈語義をすべて再審査した試験ではありません。
+
 ## ローカルでの実行・検証
 
 Python 3.12 でリポジトリ直下から実行します。

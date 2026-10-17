@@ -1,0 +1,82 @@
+{
+  "method": "Actual connected Chrome UI operation; captured preview HTML or displayed pure-text result compared with local runtime fixture",
+  "source_commit_on_main": "6d166ecc81ceec3fe94abc7da39462c341c8e61c",
+  "browser_profile": "Chrome / AdoriHistorion",
+  "captured_at": "2026-10-17T06:35:35.315Z",
+  "cases": [
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "visible": "psitako psitako uvo uvo limono limono limonado limonado uveo uveito vito papago observatorio majesta subtila konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "restored_text": "psitako psitako uvo uvo limono limono limonado limonado uveo uveito vito papago observatorio majesta subtila konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "visible": "psitako psitako uvo uvo limono limono limonado limonado uveo uveito vito papago observatorio majesta subtila konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "restored_text": "psitako psitako uvo uvo limono limono limonado limonado uveo uveito vito papago observatorio majesta subtila konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "visible": "psitako psitako uvo uvo limono limono limonado limonado uveo uveito vito papago observatorio majesta subtila konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "restored_text": "psitako psitako uvo uvo limono limono limonado limonado uveo uveito vito papago observatorio majesta subtila konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "visible": "鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡萄膜o 葡萄膜炎ᵀo 葡o 鹦o 天文台o 庄严a 精细a 和合o 葡球菌o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 周日oj & amiko 棋家o",
+      "restored_text": "psitako psitako uvo uvo limono limono limonado limonado uveo uveito vito papago observatorio majesta subtila konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "visible": "鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡萄膜o 葡萄膜炎ᵀo 葡o 鹦o 天文台o 庄严a 精细a 和合o 葡球菌o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 周日oj & amiko 棋家o",
+      "restored_text": "psitako psitako uvo uvo limono limono limonado limonado uveo uveito vito papago observatorio majesta subtila konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "visible": "鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡萄膜o 葡萄膜炎ᵀo 葡o 鹦o 天文台o 庄严a 精细a 和合o 葡球菌o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 周日oj & amiko 棋家o",
+      "restored_text": "psitako psitako uvo uvo limono limono limonado limonado uveo uveito vito papago observatorio majesta subtila konkordo stafilokoko testikito orkidito testikito orkidito semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "visible": "鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡萄膜o 葡萄膜炎ᵀo 葡o 鹦o 天文台o 庄严a 精细a 和合o 葡球菌o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 周日oj & amiko 棋家o",
+      "restored_text": null,
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "visible": "鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡萄膜o 葡萄膜炎ᵀo 葡o 鹦o 天文台o 庄严a 精细a 和合o 葡球菌o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 周日oj & amiko 棋家o",
+      "restored_text": null,
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "visible": "鹦ᴾˢo 鹦ᴾˢo 葡ᵁo 葡ᵁo 柠o 柠o 柠水o 柠水o 葡萄膜o 葡萄膜炎ᵀo 葡o 鹦o 天文台o 庄严a 精细a 和合o 葡球菌o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 周日oj & amiko 棋家o",
+      "restored_text": null,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitations": "Annotation results are preserved, not semantically reapproved. Pre-existing localized annotation splits, including medical it, remain. Pure text contains no source ruby; its exact output is compared here, and reversal is verified independently with the actual reverter."
+}
