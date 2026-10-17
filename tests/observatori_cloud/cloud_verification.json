@@ -1,0 +1,82 @@
+{
+  "method": "Actual connected Chrome UI operation; captured preview HTML or displayed pure-text result compared with local runtime fixture",
+  "source_commit_on_main": "c8897cbce87e24998d0a9e067da51de8c157465b",
+  "browser_profile": "Chrome 5 / AdoriHistorion",
+  "captured_at": "2026-10-17T07:19:43.438Z",
+  "cases": [
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "visible": "observatorio observatorio observatoriojn Observatorio astronomio observi meteologio meteorologio majesta subtila uveo uveito psitako uvo limono limonado semajntagoj & amiko ŝakisto",
+      "restored_text": "observatorio observatorio observatoriojn Observatorio astronomio observi meteologio meteorologio majesta subtila uveo uveito psitako uvo limono limonado semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "visible": "observatorio observatorio observatoriojn Observatorio astronomio observi meteologio meteorologio majesta subtila uveo uveito psitako uvo limono limonado semajntagoj & amiko ŝakisto",
+      "restored_text": "observatorio observatorio observatoriojn Observatorio astronomio observi meteologio meteorologio majesta subtila uveo uveito psitako uvo limono limonado semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "visible": "observatorio observatorio observatoriojn Observatorio astronomio observi meteologio meteorologio majesta subtila uveo uveito psitako uvo limono limonado semajntagoj & amiko ŝakisto",
+      "restored_text": "observatorio observatorio observatoriojn Observatorio astronomio observi meteologio meteorologio majesta subtila uveo uveito psitako uvo limono limonado semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "visible": "观台o 观台o 观台ojn 观台o 星ᴬo学ᴺo 观i 气ᴹ学ᴸᴳo 气ᴹᴿo学ᴸᴳo 庄严a 精细a 葡膜o 葡膜炎ᵀo 鹦ᴾˢo 葡ᵁo 柠o 柠水o 周日oj & amiko 棋家o",
+      "restored_text": "observatorio observatorio observatoriojn Observatorio astronomio observi meteologio meteorologio majesta subtila uveo uveito psitako uvo limono limonado semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "visible": "观台o 观台o 观台ojn 观台o 星ᴬo学ᴺo 观i 气ᴹ学ᴸᴳo 气ᴹᴿo学ᴸᴳo 庄严a 精细a 葡膜o 葡膜炎ᵀo 鹦ᴾˢo 葡ᵁo 柠o 柠水o 周日oj & amiko 棋家o",
+      "restored_text": "observatorio observatorio observatoriojn Observatorio astronomio observi meteologio meteorologio majesta subtila uveo uveito psitako uvo limono limonado semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "visible": "观台o 观台o 观台ojn 观台o 星ᴬo学ᴺo 观i 气ᴹ学ᴸᴳo 气ᴹᴿo学ᴸᴳo 庄严a 精细a 葡膜o 葡膜炎ᵀo 鹦ᴾˢo 葡ᵁo 柠o 柠水o 周日oj & amiko 棋家o",
+      "restored_text": "observatorio observatorio observatoriojn Observatorio astronomio observi meteologio meteorologio majesta subtila uveo uveito psitako uvo limono limonado semajntagoj & amiko ŝakisto",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "visible": "观台o 观台o 观台ojn 观台o 星ᴬo学ᴺo 观i 气ᴹ学ᴸᴳo 气ᴹᴿo学ᴸᴳo 庄严a 精细a 葡膜o 葡膜炎ᵀo 鹦ᴾˢo 葡ᵁo 柠o 柠水o 周日oj & amiko 棋家o",
+      "restored_text": null,
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "visible": "观台o 观台o 观台ojn 观台o 星ᴬo学ᴺo 观i 气ᴹ学ᴸᴳo 气ᴹᴿo学ᴸᴳo 庄严a 精细a 葡膜o 葡膜炎ᵀo 鹦ᴾˢo 葡ᵁo 柠o 柠水o 周日oj & amiko 棋家o",
+      "restored_text": null,
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "visible": "观台o 观台o 观台ojn 观台o 星ᴬo学ᴺo 观i 气ᴹ学ᴸᴳo 气ᴹᴿo学ᴸᴳo 庄严a 精细a 葡膜o 葡膜炎ᵀo 鹦ᴾˢo 葡ᵁo 柠o 柠水o 周日oj & amiko 棋家o",
+      "restored_text": null,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitations": "Annotation results are preserved, not semantically reapproved. Pre-existing localized annotation splits, including medical it, remain. Pure text contains no source ruby; its exact output is compared here, and reversal is verified independently with the actual reverter."
+}

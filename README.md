@@ -256,6 +256,8 @@ python -B -X utf8 tests/app_ui_smoke.py --observatori
 
 正本は他10,467語根の表記・識別子を維持し、両注入辞書の差は各4行のobservatori描画だけです。統合リポジトリの逆変換では旧入力63,906比較と両辞書全文207,844比較で新たな結果差はありません。もともとある曖昧な連続表記や不一致を解決したという意味ではありません。
 
+公開コミット `c8897cb` の配備後、接続したChromeで日中韓3言語×3モードを実操作し、全9結果がローカル期待値と一致しました。通常／@指定・複数／対格・大文字、majest／subtil、既採用の語根、semajn・%保護を含む入力で確認しています。漢字ルビからの原文復元と注釈本文の保持も一致しました。[Cloud確認記録](tests/observatori_cloud/cloud_verification.json)、[採取した結果](tests/observatori_cloud/cloud_capture.json)、[日本語版の画面](tests/observatori_cloud/cloud_ja_observatori.png)を保存しています。純粋置換は漢字ルビの可視文字列と一致することをここで確認し、辞書による逆変換は統合側の別試験で検証しています。
+
 ## ローカルでの実行・検証
 
 Python 3.12 でリポジトリ直下から実行します。
