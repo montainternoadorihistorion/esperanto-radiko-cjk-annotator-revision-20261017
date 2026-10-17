@@ -11,7 +11,7 @@ spec=importlib.util.spec_from_file_location('uve_helpers',HERE/'test_reviewed_at
 h=importlib.util.module_from_spec(spec);spec.loader.exec_module(h)
 VALUES={'uve': ('葡萄膜', '葡膜'), 'uveit': ('葡萄膜炎ᵀ', '葡膜炎ᵀ')}
 CONTROLS={'vit':'葡','uv':'葡ᵁ','psitak':'鹦ᴾˢ','limon':'柠','limonad':'柠水','papag':'鹦',
- 'konkord':'和合','observatori':'天文台','majest':'庄严','subtil':'精细',
+ 'konkord':'和合','observatori':'观台','majest':'庄严','subtil':'精细',
  'turment':'虐','tortur':'虐ᵀᵀ','testikit':'丸ᵀ炎ᵀ','orkidit':'丸ᴼ炎ᵀ',
  'ananas':'菠','jakv':'菠蜜','las':'放','emancip':'放ᴱ','prioritat':'优先',
  'strut':'鸵','sinergi':'协同','oliv':'榄','oval':'椭圆','elips':'椭圆ᴱ','stafilokok':'葡球菌'}
