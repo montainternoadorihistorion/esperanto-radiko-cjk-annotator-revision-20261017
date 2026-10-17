@@ -31,6 +31,15 @@ VALUES={'strut':('鸵鸟','鸵'),'sinergi':('协同作用','协同'),'oliv':('�
         'orkidoterapi':('兰疗','丸疗'),'testikit':('丸炎','丸炎ᵀ'),'paniklit':('圆锥炎','脂炎'),
         'kuriterapi':('廷疗','kuri疗'),'litografi':('石志','石ᴸᵀ志ᴳ'),
         'fotolitografi':('拍石志','拍石ᴸᵀ志ᴳ'),'kromolitografi':('色石志','色ᴷᴹ石ᴸᵀ志ᴳ')}
+# Keep the original scope above as historical evidence, while current checks
+# follow the separately reviewed component-identifier revision.
+HISTORICAL_VALUES=dict(VALUES)
+_latest_raw=(Path(__file__).resolve().parent/'reviewed_mirror_identifiers_20261017.json').read_bytes()
+if hashlib.sha256(_latest_raw).hexdigest()!='d0b5dfc0c31fb35bbd27308b6841651c76987e0e6da222dd118771d92878f681':
+    raise ValueError('Latest reviewed mirror scope changed')
+LATEST={r['root']:r for r in json.loads(_latest_raw)['changes']}
+for _root in VALUES:
+    if _root in LATEST:VALUES[_root]=(VALUES[_root][0],LATEST[_root]['after'])
 RUBY=re.compile(r'<ruby>(.*?)<rt[^>]*>(.*?)</rt></ruby>',re.S)
 
 def plain(value):
@@ -47,8 +56,12 @@ def original(value,mode):
 def neutral(value,after):
     def visit(m):
         root=plain(m[2]).lower()
-        if root not in VALUES:return m[0]
-        allowed=(VALUES[root][1],) if after else VALUES[root]
+        if root not in VALUES and root not in LATEST:return m[0]
+        if after:
+            allowed=(LATEST[root]['after'],) if root in LATEST else (VALUES[root][1],)
+        else:
+            allowed=HISTORICAL_VALUES.get(root,())
+            if root in LATEST:allowed+=(LATEST[root]['before'],LATEST[root]['after'])
         if m[1] not in allowed:raise AssertionError((root,m[1],allowed))
         return '<reviewed>'+plain(m[2])+'</reviewed>'
     return RUBY.sub(visit,value)
@@ -104,9 +117,13 @@ class ReviewedLocalTests(unittest.TestCase):
                 before=baseline_bytes(data/CSV_NAME).decode('utf-8');expected=[]
                 for line in before.splitlines(keepends=True):
                     root=line.split(',',1)[0]
-                    if root in VALUES:
+                    if root in VALUES or root in LATEST:
                         body=line.rstrip('\r\n');ending=line[len(body):]
-                        self.assertIn(body.split(',',1)[1],VALUES[root]);line=root+','+VALUES[root][1]+ending
+                        allowed=HISTORICAL_VALUES.get(root,())
+                        if root in LATEST:allowed+=(LATEST[root]['before'],LATEST[root]['after'])
+                        self.assertIn(body.split(',',1)[1],allowed)
+                        display=LATEST[root]['after'] if root in LATEST else VALUES[root][1]
+                        line=root+','+display+ending
                     expected.append(line)
                 self.assertEqual(raw,''.join(expected).encode('utf-8'))
                 anno=data/MODES['ruby'][0];self.assertEqual(anno.read_bytes(),baseline_bytes(anno))

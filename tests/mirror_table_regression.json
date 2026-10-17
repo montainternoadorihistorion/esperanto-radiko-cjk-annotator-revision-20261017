@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "scope_sha256": "d0b5dfc0c31fb35bbd27308b6841651c76987e0e6da222dd118771d92878f681",
+  "tables": [
+    {
+      "language": "JA",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 148
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": 4590
+        }
+      },
+      "sha256": "98e21c24b4f15721ecb0054cd6a453c7434b45f57daa5755325410d8d6b2ea8c"
+    },
+    {
+      "language": "ZH",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 148
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": 4590
+        }
+      },
+      "sha256": "d55f1557da90c716e241949fff4a98c0927e62e3032834da3662fc4aa416dba4"
+    },
+    {
+      "language": "KO",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 148
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": 4590
+        }
+      },
+      "sha256": "c902c16eab17bdc23b772b8b2d079fdf15d174eabe6b2369a93fc0b20edf94f8"
+    }
+  ],
+  "manual": [],
+  "controls": []
+}
