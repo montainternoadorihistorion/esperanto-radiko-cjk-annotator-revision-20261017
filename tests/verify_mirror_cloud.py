@@ -51,7 +51,7 @@ def main():
         results.append({'language': row['language'], 'mode': row['mode'], 'url': row['url'],
                         'visible': text, 'restored_text': restored, 'passed': True})
     assert not lookup
-    report = {'method': 'Actual connected Chrome UI operation; captured preview HTML or output textarea compared with local runtime fixture',
+    report = {'method': 'Actual connected Chrome UI operation; captured preview HTML or displayed pure-text result compared with local runtime fixture',
               'source_commit_on_main': args.commit, 'browser_profile': captured['browser_profile'],
               'captured_at': captured['captured_at'], 'cases': results,
               'passed': True,

@@ -1,0 +1,82 @@
+{
+  "method": "Actual connected Chrome UI operation; captured preview HTML or displayed pure-text result compared with local runtime fixture",
+  "source_commit_on_main": "53cc5009d8936875654136aede18c4971515d397",
+  "browser_profile": "Chrome / AdoriHistorion (id 5)",
+  "captured_at": "2026-10-17T03:11:52.318Z",
+  "cases": [
+    {
+      "language": "JA",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "visible": "testikito testikito orkidito orkidito gastrito gastrito metapsikio metapsikio pedofilio pedofilio polifonio polifonio endoskopio mikroskopio\nsemajntagoj & amiko ŝakisto semajntagoj lasi emancipi ananaso jakvo prioritato struto sinergio olivo ovalo elipso\ntripanosomo tripanosomo deismo deismo deisto deisto dodekaedro dodekaedro",
+      "restored_text": "testikito testikito orkidito orkidito gastrito gastrito metapsikio metapsikio pedofilio pedofilio polifonio polifonio endoskopio mikroskopio\nsemajntagoj & amiko ŝakisto semajntagoj lasi emancipi ananaso jakvo prioritato struto sinergio olivo ovalo elipso\ntripanosomo tripanosomo deismo deismo deisto deisto dodekaedro dodekaedro",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "visible": "testikito testikito orkidito orkidito gastrito gastrito metapsikio metapsikio pedofilio pedofilio polifonio polifonio endoskopio mikroskopio\nsemajntagoj & amiko ŝakisto semajntagoj lasi emancipi ananaso jakvo prioritato struto sinergio olivo ovalo elipso\ntripanosomo tripanosomo deismo deismo deisto deisto dodekaedro dodekaedro",
+      "restored_text": "testikito testikito orkidito orkidito gastrito gastrito metapsikio metapsikio pedofilio pedofilio polifonio polifonio endoskopio mikroskopio\nsemajntagoj & amiko ŝakisto semajntagoj lasi emancipi ananaso jakvo prioritato struto sinergio olivo ovalo elipso\ntripanosomo tripanosomo deismo deismo deisto deisto dodekaedro dodekaedro",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "visible": "testikito testikito orkidito orkidito gastrito gastrito metapsikio metapsikio pedofilio pedofilio polifonio polifonio endoskopio mikroskopio\nsemajntagoj & amiko ŝakisto semajntagoj lasi emancipi ananaso jakvo prioritato struto sinergio olivo ovalo elipso\ntripanosomo tripanosomo deismo deismo deisto deisto dodekaedro dodekaedro",
+      "restored_text": "testikito testikito orkidito orkidito gastrito gastrito metapsikio metapsikio pedofilio pedofilio polifonio polifonio endoskopio mikroskopio\nsemajntagoj & amiko ŝakisto semajntagoj lasi emancipi ananaso jakvo prioritato struto sinergio olivo ovalo elipso\ntripanosomo tripanosomo deismo deismo deisto deisto dodekaedro dodekaedro",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "visible": "丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᴼ炎ᵀo 胃ᴳ炎ᵀo 胃ᴳ炎ᵀo 超ᴹ心ᴾˢio 超ᴹ心ᴾˢᴹo 童ᴾ爱ᶠio 童ᴾ爱ᶠᴾo 多ᴾ声ᶠᴼio 多ᴾ声ᶠᴼᴾo 内ᴱᴰ镜ˢᴷio 微镜ˢᴷio\n周日oj & amiko 棋家o 周日oj 放i 放ᴱi 菠o 菠蜜o 优先o 鸵o 协同o 榄o 椭圆o 椭圆ᴱo\n原兽ᵀo 原兽ᵀo 神主义ᴰo 神主义ᴰo 神家ᴰo 神家ᴰo 十二面ᴱo 十二面ᴱᴰo",
+      "restored_text": "testikito testikito orkidito orkidito gastrito gastrito metapsikio metapsikio pedofilio pedofilio polifonio polifonio endoskopio mikroskopio\nsemajntagoj & amiko ŝakisto semajntagoj lasi emancipi ananaso jakvo prioritato struto sinergio olivo ovalo elipso\ntripanosomo tripanosomo deismo deismo deisto deisto dodekaedro dodekaedro",
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "visible": "丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᴼ炎ᵀo 胃ᴳ炎ᵀo 胃ᴳ炎ᵀo 超ᴹ心ᴾˢio 超ᴹ心ᴾˢᴹo 童ᴾ爱ᶠio 童ᴾ爱ᶠᴾo 多ᴾ声ᶠᴼio 多ᴾ声ᶠᴼᴾo 内ᴱᴰ镜ˢᴷio 微镜ˢᴷio\n周日oj & amiko 棋家o 周日oj 放i 放ᴱi 菠o 菠蜜o 优先o 鸵o 协同o 榄o 椭圆o 椭圆ᴱo\n原兽ᵀo 原兽ᵀo 神主义ᴰo 神主义ᴰo 神家ᴰo 神家ᴰo 十二面ᴱo 十二面ᴱᴰo",
+      "restored_text": "testikito testikito orkidito orkidito gastrito gastrito metapsikio metapsikio pedofilio pedofilio polifonio polifonio endoskopio mikroskopio\nsemajntagoj & amiko ŝakisto semajntagoj lasi emancipi ananaso jakvo prioritato struto sinergio olivo ovalo elipso\ntripanosomo tripanosomo deismo deismo deisto deisto dodekaedro dodekaedro",
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "visible": "丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᴼ炎ᵀo 胃ᴳ炎ᵀo 胃ᴳ炎ᵀo 超ᴹ心ᴾˢio 超ᴹ心ᴾˢᴹo 童ᴾ爱ᶠio 童ᴾ爱ᶠᴾo 多ᴾ声ᶠᴼio 多ᴾ声ᶠᴼᴾo 内ᴱᴰ镜ˢᴷio 微镜ˢᴷio\n周日oj & amiko 棋家o 周日oj 放i 放ᴱi 菠o 菠蜜o 优先o 鸵o 协同o 榄o 椭圆o 椭圆ᴱo\n原兽ᵀo 原兽ᵀo 神主义ᴰo 神主义ᴰo 神家ᴰo 神家ᴰo 十二面ᴱo 十二面ᴱᴰo",
+      "restored_text": "testikito testikito orkidito orkidito gastrito gastrito metapsikio metapsikio pedofilio pedofilio polifonio polifonio endoskopio mikroskopio\nsemajntagoj & amiko ŝakisto semajntagoj lasi emancipi ananaso jakvo prioritato struto sinergio olivo ovalo elipso\ntripanosomo tripanosomo deismo deismo deisto deisto dodekaedro dodekaedro",
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "visible": "丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᴼ炎ᵀo 胃ᴳ炎ᵀo 胃ᴳ炎ᵀo 超ᴹ心ᴾˢio 超ᴹ心ᴾˢᴹo 童ᴾ爱ᶠio 童ᴾ爱ᶠᴾo 多ᴾ声ᶠᴼio 多ᴾ声ᶠᴼᴾo 内ᴱᴰ镜ˢᴷio 微镜ˢᴷio\n周日oj & amiko 棋家o 周日oj 放i 放ᴱi 菠o 菠蜜o 优先o 鸵o 协同o 榄o 椭圆o 椭圆ᴱo\n原兽ᵀo 原兽ᵀo 神主义ᴰo 神主义ᴰo 神家ᴰo 神家ᴰo 十二面ᴱo 十二面ᴱᴰo",
+      "restored_text": null,
+      "passed": true
+    },
+    {
+      "language": "ZH",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "visible": "丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᴼ炎ᵀo 胃ᴳ炎ᵀo 胃ᴳ炎ᵀo 超ᴹ心ᴾˢio 超ᴹ心ᴾˢᴹo 童ᴾ爱ᶠio 童ᴾ爱ᶠᴾo 多ᴾ声ᶠᴼio 多ᴾ声ᶠᴼᴾo 内ᴱᴰ镜ˢᴷio 微镜ˢᴷio\n周日oj & amiko 棋家o 周日oj 放i 放ᴱi 菠o 菠蜜o 优先o 鸵o 协同o 榄o 椭圆o 椭圆ᴱo\n原兽ᵀo 原兽ᵀo 神主义ᴰo 神主义ᴰo 神家ᴰo 神家ᴰo 十二面ᴱo 十二面ᴱᴰo",
+      "restored_text": null,
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "visible": "丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 丸ᴼ炎ᵀo 胃ᴳ炎ᵀo 胃ᴳ炎ᵀo 超ᴹ心ᴾˢio 超ᴹ心ᴾˢᴹo 童ᴾ爱ᶠio 童ᴾ爱ᶠᴾo 多ᴾ声ᶠᴼio 多ᴾ声ᶠᴼᴾo 内ᴱᴰ镜ˢᴷio 微镜ˢᴷio\n周日oj & amiko 棋家o 周日oj 放i 放ᴱi 菠o 菠蜜o 优先o 鸵o 协同o 榄o 椭圆o 椭圆ᴱo\n原兽ᵀo 原兽ᵀo 神主义ᴰo 神主义ᴰo 神家ᴰo 神家ᴰo 十二面ᴱo 十二面ᴱᴰo",
+      "restored_text": null,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "limitations": "Annotation results are preserved, not semantically reapproved. Pre-existing localized annotation splits, including medical it and metapsiki, remain. Pure text contains no source ruby; its exact output is compared here, and reversal is verified independently with the actual reverter."
+}
