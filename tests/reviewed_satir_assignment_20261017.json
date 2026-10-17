@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "private_baseline": "3e08a1adb73bfd3fc1cfa7af8fa389cf1d6c3970",
+  "canonical_manifest_sha256": "fc9f73e9a3743e2d60c2e240c56081dffb23f877039c7aa2d2158159f8ed5a49",
+  "assignments": {
+    "satir": {
+      "before": "讽刺",
+      "after": "讽"
+    },
+    "karikatur": {
+      "before": "讽",
+      "after": "讽ᴷ"
+    },
+    "sarkasm": {
+      "before": "讽ˢ",
+      "after": "讽ˢᴿ"
+    }
+  },
+  "reason": "User approved satir=讽. Shared-character priority yields karikatur=讽ᴷ and sarkasm=讽ˢᴿ. Update exact complete-root displays only. Preserve every annotation, all non-target identifiers and segmentation, satirus and every unapproved assignment.",
+  "preserved_user_choices": {
+    "sperm": "精液",
+    "c^ur": "精液ᶜ̂",
+    "greft": "嫁接",
+    "dot": "嫁妆",
+    "konfisk": "没收",
+    "monark": "君主",
+    "monarki": "君主ᴹᴵ",
+    "koincid": "巧合",
+    "nostalgi": "怀ᴺ",
+    "onk": "瘤ᴼ",
+    "fortres": "堡ᶠᴿ",
+    "sutur": "缝ˢᴿ",
+    "fraj": "卵ᶠ"
+  }
+}

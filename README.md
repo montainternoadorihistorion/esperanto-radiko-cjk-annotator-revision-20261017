@@ -448,3 +448,21 @@ python -B -X utf8 tests/app_ui_smoke.py --nostalgi-onk-fortres
 ```
 
 [PR #25](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/25)をmainへ反映後、ChromeのAdoriHistorionプロフィールから日中韓Cloudの注釈ルビ・漢字ルビ・純粋置換を実際に操作し、9ケースすべての出力全文が検証済みローカル版と一致しました。[実画面から取得した出力](tests/nostalgi_onk_fortres_cloud/cloud_capture.json)、[全文・可視文字・原文復元の照合](tests/nostalgi_onk_fortres_cloud/cloud_verification.json)、[採用3語根の表示画面](tests/nostalgi_onk_fortres_cloud/cloud_ja_nostalgi_onk_fortres.jpg)を保存しています。対象mainコミットは`bc18bb7de0a212718f23f452a1fc84441b41f46a`です。これは公開main反映後に観測した出力との照合であり、Cloud内部の実行コミットを取得したという主張ではありません。
+
+## satir の単字化（2026-10-17）
+
+本人の採用により、`satir＝讽刺` を `讽` に変更しました。風刺を表す既存字を共用し、漢字本体を14画から6画へ減らします。識別子は既存の優先順位アルゴリズムで再計算した結果です。
+
+| 語根 | 旧表記 | 現行表記 |
+|---|---|---|
+| `satir` | 讽刺 | 讽 |
+| `karikatur` | 讽 | 讽ᴷ |
+| `sarkasm` | 讽ˢ | 讽ˢᴿ |
+
+通常変換と `@` 指定の双方を同期しました。精子と精液を区別する方針を保ち、`sperm＝精液`、`ĉur＝精液ᶜ̂` は維持します。`spermatozo` の新規割り当てと内部の `at` / `oz` の扱いは再検討中で、今回の更新には含めません。`dot＝嫁妆`、`greft＝嫁接`、`konfisk＝没收`、`monark` 系列の `君主`、既存の注釈と語根分解も維持します。
+
+旧文の無印「讽」は `karikatur`、現行の無印「讽」は `satir` を表します。統合リポジトリの逆変換アプリには「satir変更前」の辞書を追加し、旧文はその版を選択して復元できるようにしています。この公開リポジトリは前方変換アプリであり、旧公開先の逆変換サービスの更新を意味しません。
+
+検証資料：[全規則・実出力比較](tests/satir_assignment_regression.json)、[表の照合](tests/satir_assignment_regression_tables.json)、[Cloud用の期待結果](tests/satir_assignment_cloud_fixture.json)。`@spermatozo@o` が従来の `精ˢ富ᴼoo` のままであることも変更範囲の対照として記録していますが、この分解を正しい解析として採用したものではありません。
+
+公開用の全23テストと、実Streamlit AppTestによる3言語×3モード・6補助ページ・6復帰経路を確認しました。[画面経路の検証結果](tests/app_ui_satir.json)はローカル実行であり、Cloud実画面の確認とは区別しています。
