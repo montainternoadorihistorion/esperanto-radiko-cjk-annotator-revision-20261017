@@ -231,6 +231,8 @@ python -B -X utf8 tests/test_uve_assignments.py --app-root . --baseline-ref 6d13
 python -B -X utf8 tests/app_ui_smoke.py --uve
 ```
 
+公開コミット `213919d` の配備後、接続したChromeで日中韓3言語×3モードを実操作し、全9結果がローカル期待値と一致しました。通常／@指定・複数／対格・大文字・既存識別子を含む入力で、漢字ルビからの原文復元と注釈本文の保持も確認しています。[Cloud確認記録](tests/uve_cloud/cloud_verification.json)、[採取した出力](tests/uve_cloud/cloud_capture.json)、[日本語版の画面](tests/uve_cloud/cloud_ja_uve.png)を保存しています。
+
 ## ローカルでの実行・検証
 
 Python 3.12 でリポジトリ直下から実行します。
