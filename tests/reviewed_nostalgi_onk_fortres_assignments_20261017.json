@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "private_baseline": "b1178c1f17697ece1b74d0fae97d086823fcff75",
+  "assignments": {
+    "nostalgi": {
+      "before": "怀旧",
+      "after": "怀ᴺ"
+    },
+    "onk": {
+      "before": "肿瘤",
+      "after": "瘤ᴼ"
+    },
+    "fortres": {
+      "before": "堡垒",
+      "after": "堡ᶠᴿ"
+    },
+    "onkogen": {
+      "before": "肿瘤生ᴳ",
+      "after": "瘤ᴼ生ᴳ"
+    },
+    "onkologi": {
+      "before": "肿瘤学ᴸᴳ",
+      "after": "瘤ᴼ学ᴸᴳ"
+    }
+  },
+  "reason": "User adopted nostalgi=怀ᴺ, onk=瘤ᴼ and fortres=堡ᶠᴿ; onkogen/onkologi mirror the reviewed constituent ID. Preserve ordinary onk/o/gen and onk/o/logi linking vowels, all other segmentation/identifiers and koincid/satir/sperm/ĉur. Exact three-root annotations retain full reviewed senses.",
+  "preserved_user_choices": {
+    "koincid": "巧合",
+    "satir": "讽刺",
+    "sperm": "精液",
+    "c^ur": "精液ᶜ̂",
+    "prism": "棱镜",
+    "sutur": "缝ˢᴿ",
+    "fraj": "卵ᶠ"
+  },
+  "canonical_manifest_sha256": "50600687570a90eea5289d291b432d93565049de08d5e13a8ce7bda0ba7c1d90"
+}

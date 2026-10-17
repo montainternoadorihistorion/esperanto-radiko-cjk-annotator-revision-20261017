@@ -19,6 +19,9 @@ VALUES={norm(r['root']):r for r in SCOPE['changes']}
 # Current-value checks follow the later approved uve shortening. Keep the
 # historical scope and its fingerprint unchanged, including the before value.
 VALUES['uveit']={**VALUES['uveit'],'after':'葡膜炎ᵀ'}
+# Later user-approved onk component propagates only to these two whole-root mirrors.
+VALUES['onkogen']={**VALUES['onkogen'],'after':'瘤ᴼ生ᴳ'}
+VALUES['onkologi']={**VALUES['onkologi'],'after':'瘤ᴼ学ᴸᴳ'}
 ABSENT=set(SCOPE.get('currently_absent_csv_roots',[]))
 PRESERVED={(norm(r['root']),r['display']) for r in SCOPE.get('preserved_senses',[])}
 
@@ -43,6 +46,12 @@ FRAJ_ANNOTATION_HASHES = {
     'Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_ルビ.json': ('fb524e3401700f5e8ecba705502c34e1cd37cfe7d93505474f4e9c3e9b887e83', 'a313d4ba8c3b60d750c034976d665ccf64fbe97705ded0dcdc4d5ab7e508c84f'),
 }
 assert set(FRAJ_ANNOTATION_HASHES) <= set(SCOPE['unchanged_app_data_sha256'])
+
+# Exact complete-root gloss deltas proved by test_nostalgi_onk_fortres_assignments.py.
+# Each pair is the already-reviewed fraj identity and the subsequent 3-root identity.
+# Preserve SCOPE and the previous FRAJ layer unchanged.
+NOF_ANNOTATION_HASHES = {'Esperanto-Kanji-Ruby-JA/app_data/word_anno.json': ('f07e289b475a13bd08c3f53aa6d6a3f8f010886d3a19d9ab345773133da96f6a', 'dadf4aeaffb802dc7db56be0ce881925682325902f572d21c2ef30a8dd89bca0'), 'Esperanto-Kanji-Ruby-JA/app_data/エスペラント語根-日本語訳ルビ対応リスト.csv': ('0c3b4d2dc71f2c458e2ed2d50caa33f6a4d6887cfddd732d9b1f8daa19073f4a', 'bd5191da078d6a8923269c81f896a1a3e074cf10c4e94e35326e51a2d4b7746a'), 'Esperanto-Kanji-Ruby-JA/app_data/世界语词根-中文注释对应列表.csv': ('71e31ab74e56c08ea4a13e27a233a1cb122686334ad87b290352d0597704a4b3', 'e6c09e35a6b6da19c7caf2e4ae56ddb2c0e39f74b6d17df2e4f329f7d5640c0b'), 'Esperanto-Kanji-Ruby-JA/app_data/置換リスト_ルビ.json': ('097a0dc04fb7f3dcb1efb64975fae6fc6cf3580989743887fcef4bb6cb84c776', '753a0d02b7193a3254572a65d92fefa765013f952a0d3b251f1baf3d97a8ae02'), 'Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv': ('767d74f4fa5fe826484da9a0b70569399f2ac30b7335cc2a59a94c4f72756129', 'a45f48c48be3b117dc41ebe0af93bbda29668ceb4a956fc19b7683acbee9d1a6'), 'Esperanto-Kanji-Ruby-KO/app_data/word_anno.json': ('f21832d98283ff917fe23776c652f78f76e4e09d377c2464caab7e5d62e31e49', 'd4cd11a060b4b942421782db53437d182d0c45aaf474fa9d55ec0b5db9c10653'), 'Esperanto-Kanji-Ruby-KO/app_data/世界语词根-中文注释对应列表.csv': ('71e31ab74e56c08ea4a13e27a233a1cb122686334ad87b290352d0597704a4b3', 'e6c09e35a6b6da19c7caf2e4ae56ddb2c0e39f74b6d17df2e4f329f7d5640c0b'), 'Esperanto-Kanji-Ruby-KO/app_data/置換リスト_ルビ.json': ('78ba62b0c77186cd113fbedc9bb51890b425c177aff715fcc7754ec306e24354', '7989cabe3bee5e1365fa5eaa48d20bd3e8b40638a7fb07d6e6fd6e32c732d0a8'), 'Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv': ('56783ebb5a1a0ce5782e213c0509eaf44e7a37a235a2060a36447adf8b9a1986', 'cfc7ddd482b89b78b1b0d8e859bee59b48068851ce1927be95b3290556c840af'), 'Esperanto-Kanji-Ruby-ZH/app_data/word_anno.json': ('3dae711b271bfbe17ef0666e1b420f2ab5cc88fd40042110f92b3622d967bf57', '03b7563e8dbd00a5e760b46670aab0f9b3099927a77a1d9f1dedaf15ce9e3489'), 'Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-中文注释对应列表.csv': ('7cbd98b2fb545d6d6d3eede4d401862cb10a9d89dbf535ae6f28bdc14ef2f673', 'd03ea98938820a14ded0eea0291b88c9e10191707981471e9b5ea9f40e92c184'), 'Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_ルビ.json': ('a313d4ba8c3b60d750c034976d665ccf64fbe97705ded0dcdc4d5ab7e508c84f', 'bb2aa68b3e0f06610197862101ebd57a6a6d6f6f4093fb4b8a3ede0ece0feebd')}
+assert set(NOF_ANNOTATION_HASHES) == set(FRAJ_ANNOTATION_HASHES)
 
 def neutral(value,phase,context):
     def visit(m):
@@ -93,6 +102,10 @@ class MirrorTests(unittest.TestCase):
                     if rel in FRAJ_ANNOTATION_HASHES:
                         historical, current_expected = FRAJ_ANNOTATION_HASHES[rel]
                         self.assertEqual(expected, historical, rel)
+                        expected = current_expected
+                    if rel in NOF_ANNOTATION_HASHES:
+                        prior_expected, current_expected = NOF_ANNOTATION_HASHES[rel]
+                        self.assertEqual(expected, prior_expected, rel)
                         expected = current_expected
                     self.assertEqual(hashlib.sha256((ROOT/rel).read_bytes()).hexdigest(),expected,rel)
             if lang=='JA':

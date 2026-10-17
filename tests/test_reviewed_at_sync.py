@@ -40,7 +40,7 @@ if hashlib.sha256(_latest_raw).hexdigest()!='d0b5dfc0c31fb35bbd27308b6841651c769
 LATEST={r['root']:r for r in json.loads(_latest_raw)['changes']}
 # Apply later reviewed displays only to current expectations. Historical
 # before-values and the pinned mirror scope remain unchanged.
-CURRENT_DISPLAY_OVERRIDES={'uveit':'葡膜炎ᵀ'}
+CURRENT_DISPLAY_OVERRIDES={'uveit':'葡膜炎ᵀ','onkogen':'瘤ᴼ生ᴳ','onkologi':'瘤ᴼ学ᴸᴳ'}
 for _root in VALUES:
     if _root in LATEST:VALUES[_root]=(VALUES[_root][0],LATEST[_root]['after'])
 RUBY=re.compile(r'<ruby>(.*?)<rt[^>]*>(.*?)</rt></ruby>',re.S)
