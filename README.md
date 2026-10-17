@@ -159,6 +159,8 @@ struto sinergio olivo @limak@o @orkidit@o @testikit@o @litografi@o ovalo elipso
 
 今回の[全行・実変換テスト](tests/test_mirror_identifiers.py)では、変更前の漢字JSON全1,646,955行と比較し、各言語4,738行（通常148・局所4,590）の変更以外を保持したことを確認しています。実コードで27,684ケースを前後比較し、手動補正の41,364生成値と代表540入力も確認しました。[画面コードの検証記録](tests/app_ui_mirror_identifiers.json)には、日中韓3モードと補助ページからの復帰を収録しています。注釈ルビの出力は変更しておらず、その意味を全件再審査したという意味ではありません。
 
+公開コミット `53cc500` の配備後、接続したChromeで日中韓の3モードを実操作しました。通常／`@`、衝突保護9組に関係する語、既採用値、`semajn`・`ŝakist`を含む入力を使い、全9結果がローカル実行と一致しました。漢字ルビからの原文復元と注釈ルビの本文保持も一致しています。[Cloud確認記録](tests/mirror_cloud_verification.json)と[採取した表示データ](tests/mirror_cloud_capture.json)を保存しています。管理枠を介さず既存のアプリ本体URLで確認した結果です。
+
 ## ローカルでの実行・検証
 
 Python 3.12 でリポジトリ直下から実行します。
