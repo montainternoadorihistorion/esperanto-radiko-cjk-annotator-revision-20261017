@@ -233,6 +233,29 @@ python -B -X utf8 tests/app_ui_smoke.py --uve
 
 公開コミット `213919d` の配備後、接続したChromeで日中韓3言語×3モードを実操作し、全9結果がローカル期待値と一致しました。通常／@指定・複数／対格・大文字・既存識別子を含む入力で、漢字ルビからの原文復元と注釈本文の保持も確認しています。[Cloud確認記録](tests/uve_cloud/cloud_verification.json)、[採取した出力](tests/uve_cloud/cloud_capture.json)、[日本語版の画面](tests/uve_cloud/cloud_ja_uve.png)を保存しています。
 
+## observatori の追加採用（2026-10-17）
+
+ユーザーの選択により `observatori＝天文台` を **`观台`** に変更しました。「观」で観測、「台」で観測を行う施設を表す、本プロジェクト内の漢字割り当てです。`observ＝观` と字を共用し、一般的な注釈訳の「天文台」「観測所」等は元のまま保持します。語根を `observ` 等へ分解し直す変更ではありません。
+
+3字・13画から2字・11画になり、新しい漢字は増えません。識別子の既存アルゴリズムを全件再実行した結果、追加識別子は不要でした。ほかの語根の「天」「文」は保持します。`majest＝庄严`、`subtil＝精细` はユーザーの確認どおり維持します。
+
+通常変換と `@observatori@` の局所変換を同期し、統合リポジトリの逆変換では新しい「观台」に加えて旧「天文台」も `observatori` へ復元できるようにします。前段階の節にある検討中・未変更の記述や検証結果は、各段階の履歴です。
+
+
+```text
+入力: observatorio @observatori@o majesta subtila
+純粋置換: 观台o 观台o 庄严a 精细a
+```
+
+```shell
+python -B -X utf8 tests/test_observatori_assignment.py --app-root . --baseline-ref a1095744ce8378764c0729cc4020b6239d4f1262 --tables-only --report tests/observatori_regression_tables.json
+python -B -X utf8 tests/app_ui_smoke.py --observatori
+```
+
+[全行比較](tests/observatori_regression_tables.json)の対象は漢字JSON全1,646,955行で、変更は各言語の通常3行・局所3行、計18行だけです。共有の純粋置換548,985行は正式な導出と一致します。統合リポジトリでは実処理2,736出力・手動補正378出力を変更前と比較し、注釈・原文・既存の語根分解・対象外の表示を保持しています。以前の4語根とuve／uveitの回帰も成功しました。
+
+正本は他10,467語根の表記・識別子を維持し、両注入辞書の差は各4行のobservatori描画だけです。統合リポジトリの逆変換では旧入力63,906比較と両辞書全文207,844比較で新たな結果差はありません。もともとある曖昧な連続表記や不一致を解決したという意味ではありません。
+
 ## ローカルでの実行・検証
 
 Python 3.12 でリポジトリ直下から実行します。

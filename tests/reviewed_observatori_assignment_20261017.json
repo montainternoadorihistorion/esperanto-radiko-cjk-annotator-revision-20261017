@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "private_baseline": "9b97c35",
+  "assignments": {
+    "observatori": {
+      "before": "天文台",
+      "after": "观台"
+    }
+  },
+  "preserved_user_choices": {
+    "majest": "庄严",
+    "subtil": "精细",
+    "observ": "观",
+    "astronom": "星ᴬ学ᴺᴼ",
+    "astrolog": "星ᴬ学家",
+    "meteorolog": "气ᴹᴿ学家",
+    "uve": "葡膜",
+    "uveit": "葡膜炎ᵀ",
+    "uv": "葡ᵁ",
+    "vit": "葡",
+    "psitak": "鹦ᴾˢ",
+    "papag": "鹦",
+    "limon": "柠",
+    "limonad": "柠水",
+    "konkord": "和合",
+    "stafilokok": "葡球菌",
+    "turment": "虐",
+    "tortur": "虐ᵀᵀ"
+  },
+  "reason": "User approved observatori=观台 and explicitly retained majest=庄严 and subtil=精细. Only exact labelled observatori pieces change; preserve all other roots, segmentation, original spelling, glosses and identifiers."
+}
