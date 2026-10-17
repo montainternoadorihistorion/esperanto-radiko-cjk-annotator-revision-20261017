@@ -466,3 +466,5 @@ python -B -X utf8 tests/app_ui_smoke.py --nostalgi-onk-fortres
 検証資料：[全規則・実出力比較](tests/satir_assignment_regression.json)、[表の照合](tests/satir_assignment_regression_tables.json)、[Cloud用の期待結果](tests/satir_assignment_cloud_fixture.json)。`@spermatozo@o` が従来の `精ˢ富ᴼoo` のままであることも変更範囲の対照として記録していますが、この分解を正しい解析として採用したものではありません。
 
 公開用の全23テストと、実Streamlit AppTestによる3言語×3モード・6補助ページ・6復帰経路を確認しました。[画面経路の検証結果](tests/app_ui_satir.json)はローカル実行であり、Cloud実画面の確認とは区別しています。
+
+[PR #27](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/27)のmain反映後、Chromeから日中韓Cloudの注釈ルビ・漢字ルビ・純粋置換を実操作し、9ケースすべてが検証済みローカル出力と一致しました。HTMLは画面のソース編集欄から取得し、ページ外枠を除いた本文を完全一致で照合しています。[取得結果と比較記録](tests/cloud_satir_verification.json)、[日本語版の実画面](tests/cloud_satir_ja.png)を保存しました。確認対象のリポジトリコミットは `a1aefc2511e6996d10b6e12e08ac4dac2c58a7dd` です。Cloud内部の実行コミットを取得したものではなく、公開main反映後の実出力による確認です。既存の `spermatozo` の強制分解の問題を解消済みとは扱いません。
