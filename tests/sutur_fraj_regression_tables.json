@@ -1,0 +1,282 @@
+{
+  "passed": true,
+  "baseline_ref": "4190185b92f064eeb30249e146080c309683b28d",
+  "baseline_snapshot": null,
+  "phase": "after",
+  "assignments": {
+    "sutur": [
+      "缝合",
+      "缝ˢᴿ"
+    ],
+    "fraj": [
+      "鱼卵",
+      "卵ᶠ"
+    ]
+  },
+  "limitations": [
+    "Preserves segmentation and non-target annotations; only fraj glosses are reviewed. Passing does not establish semantic correctness of every annotation."
+  ],
+  "tables": [
+    {
+      "language": "JA",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 165,
+          "target_pieces": {
+            "sutur": 69,
+            "fraj": 96
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0,
+          "target_pieces": {
+            "sutur": 0,
+            "fraj": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": 6,
+          "target_pieces": {
+            "sutur": 3,
+            "fraj": 3
+          }
+        }
+      },
+      "unchanged_data_files": [
+        "char_widths.json",
+        "E_stem.json",
+        "placeholders_2char.txt",
+        "placeholders_global.txt",
+        "placeholders_local.txt",
+        "placeholders_localcapture.txt",
+        "placeholders_skip.txt",
+        "root_list.txt",
+        "user_corrections.json",
+        "Корни эсперанто – список с русским переводом и руби.csv",
+        "エスペラント語根-日本語訳ルビ対応リスト(習得レベル付き).xlsx",
+        "世界语词根-汉字对应列表.csv",
+        "分解設定.json",
+        "替换后文字列(汉字)の使用者自定义设置(基本上完全不推荐).json"
+      ]
+    },
+    {
+      "language": "ZH",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 165,
+          "target_pieces": {
+            "sutur": 69,
+            "fraj": 96
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0,
+          "target_pieces": {
+            "sutur": 0,
+            "fraj": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": 6,
+          "target_pieces": {
+            "sutur": 3,
+            "fraj": 3
+          }
+        }
+      },
+      "unchanged_data_files": [
+        "char_widths.json",
+        "E_stem.json",
+        "placeholders_2char.txt",
+        "placeholders_global.txt",
+        "placeholders_local.txt",
+        "placeholders_localcapture.txt",
+        "placeholders_skip.txt",
+        "root_list.txt",
+        "user_corrections.json",
+        "エスペラント語根-日本語訳ルビ対応リスト(習得レベル付き).xlsx",
+        "世界语词根-汉字对应列表.csv",
+        "分解設定.json",
+        "替换后文字列(汉字)の使用者自定义设置(基本上完全不推荐).json"
+      ]
+    },
+    {
+      "language": "KO",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 165,
+          "target_pieces": {
+            "sutur": 69,
+            "fraj": 96
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0,
+          "target_pieces": {
+            "sutur": 0,
+            "fraj": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31213,
+          "changed": 6,
+          "target_pieces": {
+            "sutur": 3,
+            "fraj": 3
+          }
+        }
+      },
+      "unchanged_data_files": [
+        "char_widths.json",
+        "E_stem.json",
+        "placeholders_2char.txt",
+        "placeholders_global.txt",
+        "placeholders_local.txt",
+        "placeholders_localcapture.txt",
+        "placeholders_skip.txt",
+        "root_list.txt",
+        "user_corrections.json",
+        "Корни эсперанто – список с русским переводом и руби.csv",
+        "世界语词根-汉字对应列表.csv",
+        "分解設定.json",
+        "替换后文字列(汉字)の使用者自定义设置(基本上完全不推荐).json",
+        "에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx"
+      ]
+    }
+  ],
+  "annotation_tables": [
+    {
+      "language": "JA",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 573313,
+          "changed": 33,
+          "fraj_pieces": 96,
+          "kinds": {
+            "noun": 33,
+            "verb": 63
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0,
+          "fraj_pieces": 0,
+          "kinds": {
+            "noun": 0,
+            "verb": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 50546,
+          "changed": 3,
+          "fraj_pieces": 3,
+          "kinds": {
+            "noun": 3,
+            "verb": 0
+          }
+        }
+      },
+      "changed_word_keys": [
+        "fraj",
+        "moru/fraj",
+        "fraj/aĵ"
+      ],
+      "csvs": [
+        "エスペラント語根-日本語訳ルビ対応リスト.csv",
+        "世界语词根-中文注释对应列表.csv",
+        "에스페란토 어근-한국어 번역 루비 대응 목록.csv"
+      ]
+    },
+    {
+      "language": "ZH",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 573313,
+          "changed": 96,
+          "fraj_pieces": 96,
+          "kinds": {
+            "noun": 33,
+            "verb": 63
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0,
+          "fraj_pieces": 0,
+          "kinds": {
+            "noun": 0,
+            "verb": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 50549,
+          "changed": 3,
+          "fraj_pieces": 3,
+          "kinds": {
+            "noun": 3,
+            "verb": 0
+          }
+        }
+      },
+      "changed_word_keys": [
+        "fraj/ad",
+        "fraj",
+        "moru/fraj",
+        "fraj/aĵ"
+      ],
+      "csvs": [
+        "世界语词根-中文注释对应列表.csv"
+      ]
+    },
+    {
+      "language": "KO",
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 573313,
+          "changed": 96,
+          "fraj_pieces": 96,
+          "kinds": {
+            "noun": 33,
+            "verb": 63
+          }
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0,
+          "fraj_pieces": 0,
+          "kinds": {
+            "noun": 0,
+            "verb": 0
+          }
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 50540,
+          "changed": 3,
+          "fraj_pieces": 3,
+          "kinds": {
+            "noun": 3,
+            "verb": 0
+          }
+        }
+      },
+      "changed_word_keys": [
+        "fraj/ad",
+        "fraj",
+        "moru/fraj",
+        "fraj/aĵ"
+      ],
+      "csvs": [
+        "世界语词根-中文注释对应列表.csv",
+        "에스페란토 어근-한국어 번역 루비 대응 목록.csv"
+      ]
+    }
+  ]
+}

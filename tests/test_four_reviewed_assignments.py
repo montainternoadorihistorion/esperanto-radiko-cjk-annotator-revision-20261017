@@ -10,7 +10,7 @@ HERE=Path(__file__).resolve().parent
 spec=importlib.util.spec_from_file_location('four_reviewed_helpers',HERE/'test_reviewed_at_sync.py')
 h=importlib.util.module_from_spec(spec);spec.loader.exec_module(h)
 VALUES={'krep': ('皱绸','皱布'), 'difrakt': ('衍射','绕射'), 'mortez': ('卯眼','卯'), 'meger': ('悍妇','恶女')}
-CONTROLS={'buf':'蛤蟆','lofi':'蛤蟆鱼','sutur':'缝合','fraj':'鱼卵','prism':'棱镜','protez':'假体','ranc':'酸败','kanajl':'恶棍','boks':'拳击','impertinent':'放肆','galer':'桨船','risort':'簧','anĉ':'簧ᴬ','lantern':'灯ᴸᴺ','lubrik':'滑ᴸ','hangar':'棚库','kontest':'异议','cisticerk':'囊尾虫','kruc':'十字','observatori':'观台','pland':'足底','lamp':'灯','lucern':'灯ᴸᶜ','glit':'滑','sinoviit':'滑ˢᴺ炎ᵀ','vit':'葡','uv':'葡ᵁ','psitak':'鹦ᴾˢ','limon':'柠','limonad':'柠水','papag':'鹦',
+CONTROLS={'buf':'蛤蟆','lofi':'蛤蟆鱼','sutur':'缝ˢᴿ','fraj':'卵ᶠ','prism':'棱镜','protez':'假体','ranc':'酸败','kanajl':'恶棍','boks':'拳击','impertinent':'放肆','galer':'桨船','risort':'簧','anĉ':'簧ᴬ','lantern':'灯ᴸᴺ','lubrik':'滑ᴸ','hangar':'棚库','kontest':'异议','cisticerk':'囊尾虫','kruc':'十字','observatori':'观台','pland':'足底','lamp':'灯','lucern':'灯ᴸᶜ','glit':'滑','sinoviit':'滑ˢᴺ炎ᵀ','vit':'葡','uv':'葡ᵁ','psitak':'鹦ᴾˢ','limon':'柠','limonad':'柠水','papag':'鹦',
  'konkord':'和合','uve':'葡膜','uveit':'葡膜炎ᵀ','observ':'观','astronom':'星ᴬ学ᴺᴼ','astrolog':'星ᴬ学家','meteorolog':'气ᴹᴿ学家','majest':'庄严','subtil':'精细',
  'turment':'虐','tortur':'虐ᵀᵀ','testikit':'丸ᵀ炎ᵀ','orkidit':'丸ᴼ炎ᵀ',
  'ananas':'菠','jakv':'菠蜜','las':'放','emancip':'放ᴱ','prioritat':'优先',

@@ -22,6 +22,28 @@ VALUES['uveit']={**VALUES['uveit'],'after':'葡膜炎ᵀ'}
 ABSENT=set(SCOPE.get('currently_absent_csv_roots',[]))
 PRESERVED={(norm(r['root']),r['display']) for r in SCOPE.get('preserved_senses',[])}
 
+# Later approved fraj annotations are the only changes to these historical
+# mirror-guard files. Keep the old SCOPE and its fingerprint intact; pin both
+# reviewed byte identities here instead of accepting hashes from current data.
+# Full non-fraj comparisons: test_sutur_fraj_assignments.py and its regression
+# report; independent frozen-baseline proof is recorded in the integrated repo
+# at sutur_fraj_assignments_20261017/public_mirror_guard_fraj_delta_verification.json.
+FRAJ_ANNOTATION_HASHES = {
+    'Esperanto-Kanji-Ruby-JA/app_data/word_anno.json': ('6ce53f8b589aff7be20cb1c952974eab0054279e37566d6add1e891859d991d9', 'f07e289b475a13bd08c3f53aa6d6a3f8f010886d3a19d9ab345773133da96f6a'),
+    'Esperanto-Kanji-Ruby-JA/app_data/エスペラント語根-日本語訳ルビ対応リスト.csv': ('33ce469efce8d77111c281df36585e981269409f1d33753da620d56c6ad5ce0e', '0c3b4d2dc71f2c458e2ed2d50caa33f6a4d6887cfddd732d9b1f8daa19073f4a'),
+    'Esperanto-Kanji-Ruby-JA/app_data/世界语词根-中文注释对应列表.csv': ('908effbda970c0a54690c8c464e1f7a9905f67c40021fa290ce7ac41d73e4657', '71e31ab74e56c08ea4a13e27a233a1cb122686334ad87b290352d0597704a4b3'),
+    'Esperanto-Kanji-Ruby-JA/app_data/置換リスト_ルビ.json': ('daf095b589e04434ff5067e7d446c6d2f563aa13e4077f4b97f26037a01ae018', '097a0dc04fb7f3dcb1efb64975fae6fc6cf3580989743887fcef4bb6cb84c776'),
+    'Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv': ('b9f64f8594d757412c25d645c21180a4648294b7c4fac61b7926f1e875b0b9dd', '767d74f4fa5fe826484da9a0b70569399f2ac30b7335cc2a59a94c4f72756129'),
+    'Esperanto-Kanji-Ruby-KO/app_data/word_anno.json': ('8d2664e4e926a2260e3e0c3a15b0adac76ab1dcb3d120131fcaa145028c56f18', 'f21832d98283ff917fe23776c652f78f76e4e09d377c2464caab7e5d62e31e49'),
+    'Esperanto-Kanji-Ruby-KO/app_data/世界语词根-中文注释对应列表.csv': ('908effbda970c0a54690c8c464e1f7a9905f67c40021fa290ce7ac41d73e4657', '71e31ab74e56c08ea4a13e27a233a1cb122686334ad87b290352d0597704a4b3'),
+    'Esperanto-Kanji-Ruby-KO/app_data/置換リスト_ルビ.json': ('e4e03fa2608ebd30644fba2d113b43f5938b05a5262d4be8883d3d14a04ab921', '78ba62b0c77186cd113fbedc9bb51890b425c177aff715fcc7754ec306e24354'),
+    'Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv': ('a5a2ba458907d5b6a3512bd7fe5d6a9c7bb6d6a84a1b23dc6652a32a0fb9866e', '56783ebb5a1a0ce5782e213c0509eaf44e7a37a235a2060a36447adf8b9a1986'),
+    'Esperanto-Kanji-Ruby-ZH/app_data/word_anno.json': ('7ca2a850f7f9a71552145912368921bb7bea75fe4367909668ac46f21f452837', '3dae711b271bfbe17ef0666e1b420f2ab5cc88fd40042110f92b3622d967bf57'),
+    'Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-中文注释对应列表.csv': ('6b8255b364f8d7d8d76a8d32fc4b1f931e24dc2d8accaebfa244107814c723ac', '7cbd98b2fb545d6d6d3eede4d401862cb10a9d89dbf535ae6f28bdc14ef2f673'),
+    'Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_ルビ.json': ('fb524e3401700f5e8ecba705502c34e1cd37cfe7d93505474f4e9c3e9b887e83', 'a313d4ba8c3b60d750c034976d665ccf64fbe97705ded0dcdc4d5ab7e508c84f'),
+}
+assert set(FRAJ_ANNOTATION_HASHES) <= set(SCOPE['unchanged_app_data_sha256'])
+
 def neutral(value,phase,context):
     def visit(m):
         root=norm(h.plain(m[2]));display=m[1]
@@ -68,6 +90,10 @@ class MirrorTests(unittest.TestCase):
                 anno=data/h.MODES['ruby'][0];self.assertEqual(anno.read_bytes(),h.baseline_bytes(anno))
             for rel,expected in SCOPE['unchanged_app_data_sha256'].items():
                 if rel.startswith(f'Esperanto-Kanji-Ruby-{lang}/'):
+                    if rel in FRAJ_ANNOTATION_HASHES:
+                        historical, current_expected = FRAJ_ANNOTATION_HASHES[rel]
+                        self.assertEqual(expected, historical, rel)
+                        expected = current_expected
                     self.assertEqual(hashlib.sha256((ROOT/rel).read_bytes()).hexdigest(),expected,rel)
             if lang=='JA':
                 pure=json.loads((data/h.MODES['pure'][0]).read_bytes())
