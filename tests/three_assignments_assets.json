@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "baseline_public_commit": "82036f29229b8a2a53c4c80abcc1c3c39df28f70",
+  "all_app_files_compared": 98,
+  "changed_files": [
+    "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+    "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
+    "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
+    "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+    "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
+    "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+    "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json"
+  ],
+  "source_code_and_unlisted_data_unchanged": true,
+  "changed_app_data_identical_to_private": true,
+  "release_manifest_hashes_valid": true
+}
