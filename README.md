@@ -286,6 +286,8 @@ python -B -X utf8 tests/app_ui_smoke.py --three-short
 
 統合側の逆変換では旧10,652項目×3語尾×2言語の63,912比較を実施しました。旧辞書を選んだ場合の復元先の変化は0件です。新辞書で旧文章を読む場合の差は、承認された裸の「簧」のanĉ→risortだけでした。両注入辞書は各62,313行中33行の描画のみ変わり、元の語義・分解は保持しています。辞書全文の逆変換にも新たな退行はなく、既存の曖昧な連続表記や不一致まで解消したという意味ではありません。
 
+公開コミット `afcff37` の配備後、接続したChromeで日中韓3言語×3モードを実操作し、全9結果がローカルの期待値と一致しました。今回の4表記、ĉ/cx/c^入力、通常／@指定、既存の灯・滑共有語根、pland・observatori・majest・subtil、semajn・%保護を含めて確認しています。漢字ルビからの原文復元と注釈本文の保持も一致しました。[Cloud確認記録](tests/three_short_cloud/cloud_verification.json)、[採取した結果](tests/three_short_cloud/cloud_capture.json)、[日本語版の画面](tests/three_short_cloud/cloud_ja_three_short.png)を保存しています。純粋置換の辞書による逆変換は、統合側の別試験で検証しています。
+
 ## ローカルでの実行・検証
 
 Python 3.12 でリポジトリ直下から実行します。
