@@ -492,3 +492,5 @@ python -B -X utf8 tests/app_ui_smoke.py --nostalgi-onk-fortres
 公開用の全23テストと、ローカルの実Streamlit AppTestによる3言語×3モード・6補助ページ・6復帰経路が成功しました。通常変換・`@` 指定・手動指定の前後比較は[全件の実出力](tests/sperm_distinction_regression.json)、[全規則の比較](tests/sperm_distinction_regression_tables.json)、[画面経路の結果](tests/app_ui_sperm_distinction.json)に記録しています。
 
 統合側では、正本10,469語根を実際の識別子生成器で再生成して一致を確認しています。原辞書の語義・分解・マーカーを維持し、旧文用の逆変換辞書も保存しました。過去のGitオブジェクト欠落に依存する既存テストと、旧生成段階の固定行数の不一致は別に記録しています。今回の最終生成処理と再適用の検証を、全歴史段階の再生成が成功したという意味には扱いません。
+
+[PR #29](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/29)のmain反映後、Chromeから日中韓Cloudの注釈ルビ・漢字ルビ・純粋置換を実操作し、9ケースすべてが検証済みローカル出力と全文一致しました。[実測結果](tests/cloud_sperm_distinction_verification.json)と[日本語版の実画面](tests/cloud_sperm_distinction_ja.png)を保存しています。確認対象のリポジトリコミットは `bf5ad5521d293f20fa88c89ee294fe5a9acc591e` です。Cloud内部の実行コミットを取得したものではなく、公開main反映後の実出力による確認です。
