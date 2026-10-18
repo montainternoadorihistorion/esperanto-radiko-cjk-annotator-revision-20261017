@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "revision": "legacy-inverse-aliases-20261018-v1",
+  "source_id": "pre-las-20261017",
+  "fixed_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+  "canonical_commit": "4c16c8937c601fdc149ccb8cbba1b6085cc94692",
+  "aliases": [
+    {
+      "kanji": "丸ᵀ炎ᵀ",
+      "esperanto": "testikit"
+    },
+    {
+      "kanji": "丸ᴼ炎ᵀ",
+      "esperanto": "orkidit"
+    },
+    {
+      "kanji": "兰炎ᵀ",
+      "esperanto": "orkidit"
+    }
+  ],
+  "reason": "Restore the fixed-old forward app renderings without changing old assignments, identifiers, canonical inverse CSVs, or the generic conversion algorithm.",
+  "scope": "Inverse-only exact full-key aliases for pre-las-20261017; no automatic application to current, archived, or custom dictionaries.",
+  "evidence": {
+    "reported_words": [
+      "testikito",
+      "orkidito"
+    ],
+    "existing_fixed_old_keys_retained": {
+      "丸炎ᵀ": "testikit",
+      "丸炎": "orkidit"
+    },
+    "approval": "User requested restoration of fixed-old normal testikito/orkidito while retaining the original assignments; exactly three observed renderings are covered."
+  }
+}
