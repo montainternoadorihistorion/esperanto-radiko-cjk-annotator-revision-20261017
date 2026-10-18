@@ -1,0 +1,11 @@
+{
+  "public_main_at_observation": "730f2d0",
+  "source_of_main_identity": "Deployment parent report; PR38 merged.",
+  "cloud_internal_commit_directly_obtained": false,
+  "cloud_management_updated_app_text": "02:46:52",
+  "management_timestamp_source": "Deployment parent report; all final browser measurements were made after this update.",
+  "scope": "This records the published source revision and observed Cloud behavior separately. It does not claim an independently retrieved internal Cloud commit.",
+  "local_tests_per_language": 154,
+  "reported_ci_jobs_passed": 4,
+  "ci_status_source": "Deployment parent report."
+}

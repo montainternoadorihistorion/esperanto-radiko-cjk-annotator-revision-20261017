@@ -1,0 +1,8 @@
+{
+  "result": "FAIL with the same Cloud AttributeError (expected)",
+  "cause": "Streamlit cache_data attempted to unpickle MappingIndex defined in a replaced __main__ module.",
+  "private_log_name": "cache_reproduction_before_ZH.log",
+  "private_log_sha256": "f95c58da22bfc518ba64f4b88e96e5b99376a5cc2215c420d610791e283fad95",
+  "raw_log_published": false,
+  "reason": "The original traceback includes local filesystem paths. Its checksum and reproduction result are retained."
+}

@@ -1,0 +1,27 @@
+{
+  "review_method": "Images inspected visually by the independent verification agent after exact text/download verification.",
+  "screenshots": [
+    {
+      "file": "screenshots/cloud_normal_ja_legacy.png",
+      "sha256": "e4b7dc44a7c65895862b004b0dd455e4e94df3321f9e1b986a7d9210bf46e81f",
+      "language": "JA",
+      "observations": [
+        "Fixed old edition visibly selected.",
+        "Result caption shows 4c16c8937c60 / eed2a8bfc21a.",
+        "The paired-sentence result visibly matches the expected Esperanto text.",
+        "No personal local path, account email, or private browser chrome is visible."
+      ]
+    },
+    {
+      "file": "screenshots/cloud_normal_zh_legacy.png",
+      "sha256": "5991732a20478d56eca2893074a625fff5d05c53b3bc7de83bfbe221cf6a3434",
+      "language": "ZH",
+      "observations": [
+        "Fixed old edition visibly selected.",
+        "Result caption shows 4c16c8937c60 / eed2a8bfc21a.",
+        "The paired-sentence result visibly matches the expected Esperanto text.",
+        "No personal local path, account email, or private browser chrome is visible."
+      ]
+    }
+  ]
+}

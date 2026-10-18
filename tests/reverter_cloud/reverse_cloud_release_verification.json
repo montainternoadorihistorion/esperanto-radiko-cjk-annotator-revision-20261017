@@ -1,0 +1,199 @@
+{
+  "status": "passed",
+  "passed": true,
+  "coverage": {
+    "cloud_results": 14,
+    "cloud_csv": 8,
+    "cloud_guards": 2,
+    "cloud_normal_results": 4
+  },
+  "case_kinds": {
+    "paired_sentence": 4,
+    "plain": 4,
+    "raw_html_constraint": 4,
+    "legacy_known_constraints": 2
+  },
+  "successful_original_lower_roundtrips": 4,
+  "mixed_form_behavior_cases": 4,
+  "html_tags_preserved_constraint_cases": 4,
+  "known_legacy_failure_and_at_success_controls": 2,
+  "normal_public_url_paired_checks": 4,
+  "download_full_bytes_and_sha_verified": 22,
+  "filename_rule": "Expected edition/revision/hash filename; only a browser-added final (positive integer) suffix is accepted.",
+  "captions_independently_checked_from_text": 20,
+  "ui_guard_observations": "Options and selection values verified. Disabled/reconvert states are browser observations supplied by the executing parent. Caption text is independently matched when recorded.",
+  "cache_fix_local_evidence": {
+    "validation_sha256": "a4adc33cf7b4d18323229bbb4d61313e84d2de00249ed67acdaf1f244428bc64",
+    "invariants_sha256": "a6fde8b6f5bb19001ddce908affe74197398c52f197dec19c4ff16f454a6de84",
+    "local_suites_passed_each": 154,
+    "historical_cloud_pending_note_preserved": true,
+    "available_runtime_entrypoints_verified": [
+      {
+        "language": "JA",
+        "path": "Esperanto-Reverter-JA/esperanto_converter.py",
+        "sha256": "0eb9e3007015c78c33697f7943aafbf2dde1582b4bb934c91261427ecf7c017e"
+      },
+      {
+        "language": "ZH",
+        "path": "Esperanto-Reverter-ZH/esperanto_converter_zh.py",
+        "sha256": "ca946976dd354f5c3d3f991df6186d094bdc973270c9f3051f4d7b1384f124f3"
+      }
+    ]
+  },
+  "cache_fix_cloud_note": "cache_fix_validation.json records the earlier local-only stage, including its original pending Cloud note. The present report verifies the later actual Cloud observations.",
+  "universal_restoration_claimed": false,
+  "fixture_sha256": "a1602cc0d700f7b1fd541dfdf50cf5de9e0b74ae31195c340de932f38c91c9ad",
+  "download_expectations_sha256": "3e128408c6d7304e50b208b6ea8f27f6fc881b603a9cb6fec4df1d0de0b3d071",
+  "inputs": [
+    {
+      "file": "cloud_results.json",
+      "sha256": "d90369be3feced51bb1032f842ad577235ef12efec69f348555d063cc137a9b9"
+    },
+    {
+      "file": "cloud_csv.json",
+      "sha256": "567a7819dcfe94e7d04318ae559dd7298c575fa2c7fc7491cc03505061a8e96a"
+    },
+    {
+      "file": "cloud_guards.json",
+      "sha256": "1f065ea6a61eeadaa1b32611e7c22f3da06cbef193da42904f2df218fb75a69e"
+    },
+    {
+      "file": "cloud_normal_results.json",
+      "sha256": "93525d1f5a3d605dcf7d564a32f278bbf40af985dd56fea14f4923990f3cbdf3"
+    }
+  ],
+  "download_files": [
+    {
+      "source_record_path": "cloud_outputs/JA-current-paired_sentence.txt",
+      "export_path": "cloud_outputs/JA-current-paired_sentence.txt",
+      "sha256": "0837651929bb23c02ff54b8ed1c218937b7989377762b341a92be07aae46f663"
+    },
+    {
+      "source_record_path": "cloud_outputs/ZH-current-paired_sentence.txt",
+      "export_path": "cloud_outputs/ZH-current-paired_sentence.txt",
+      "sha256": "0837651929bb23c02ff54b8ed1c218937b7989377762b341a92be07aae46f663"
+    },
+    {
+      "source_record_path": "cloud_outputs/JA-current-plain.txt",
+      "export_path": "cloud_outputs/JA-current-plain.txt",
+      "sha256": "e2b9bcf8621bda95d2ff5ff6cbfb057b907303d8ec335e48b55e460200d4b69a"
+    },
+    {
+      "source_record_path": "cloud_outputs/ZH-current-plain.txt",
+      "export_path": "cloud_outputs/ZH-current-plain.txt",
+      "sha256": "e2b9bcf8621bda95d2ff5ff6cbfb057b907303d8ec335e48b55e460200d4b69a"
+    },
+    {
+      "source_record_path": "cloud_outputs/JA-current-raw_html_constraint.txt",
+      "export_path": "cloud_outputs/JA-current-raw_html_constraint.txt",
+      "sha256": "41eef28e3d47ee49bf8a477f42d41435ac44927bca136ce12bd4c32e15f1ef4b"
+    },
+    {
+      "source_record_path": "cloud_outputs/ZH-current-raw_html_constraint.txt",
+      "export_path": "cloud_outputs/ZH-current-raw_html_constraint.txt",
+      "sha256": "41eef28e3d47ee49bf8a477f42d41435ac44927bca136ce12bd4c32e15f1ef4b"
+    },
+    {
+      "source_record_path": "cloud_outputs/JA-legacy-paired_sentence.txt",
+      "export_path": "cloud_outputs/JA-legacy-paired_sentence.txt",
+      "sha256": "0837651929bb23c02ff54b8ed1c218937b7989377762b341a92be07aae46f663"
+    },
+    {
+      "source_record_path": "cloud_outputs/ZH-legacy-paired_sentence.txt",
+      "export_path": "cloud_outputs/ZH-legacy-paired_sentence.txt",
+      "sha256": "0837651929bb23c02ff54b8ed1c218937b7989377762b341a92be07aae46f663"
+    },
+    {
+      "source_record_path": "cloud_outputs/JA-legacy-plain.txt",
+      "export_path": "cloud_outputs/JA-legacy-plain.txt",
+      "sha256": "1a186a433ac60b6cc325c4ffda3ed10f4af7920fe46fe417823996ddbf8eaeee"
+    },
+    {
+      "source_record_path": "cloud_outputs/ZH-legacy-plain.txt",
+      "export_path": "cloud_outputs/ZH-legacy-plain.txt",
+      "sha256": "1a186a433ac60b6cc325c4ffda3ed10f4af7920fe46fe417823996ddbf8eaeee"
+    },
+    {
+      "source_record_path": "cloud_outputs/JA-legacy-raw_html_constraint.txt",
+      "export_path": "cloud_outputs/JA-legacy-raw_html_constraint.txt",
+      "sha256": "ac289f78a666dee53f33add951d4d6a5897f5a807115bc8adca39873f0d3292f"
+    },
+    {
+      "source_record_path": "cloud_outputs/ZH-legacy-raw_html_constraint.txt",
+      "export_path": "cloud_outputs/ZH-legacy-raw_html_constraint.txt",
+      "sha256": "ac289f78a666dee53f33add951d4d6a5897f5a807115bc8adca39873f0d3292f"
+    },
+    {
+      "source_record_path": "cloud_outputs/JA-legacy-known_constraints.txt",
+      "export_path": "cloud_outputs/JA-legacy-known_constraints.txt",
+      "sha256": "d74cc8cca307c7a6b10fdfc93214a0d9bcf17fd2c0910548c54bb28ae807ee99"
+    },
+    {
+      "source_record_path": "cloud_outputs/ZH-legacy-known_constraints.txt",
+      "export_path": "cloud_outputs/ZH-legacy-known_constraints.txt",
+      "sha256": "d74cc8cca307c7a6b10fdfc93214a0d9bcf17fd2c0910548c54bb28ae807ee99"
+    },
+    {
+      "source_record_path": "cloud_outputs/JA-current-full.csv",
+      "export_path": "cloud_outputs/JA-current-full.csv",
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074"
+    },
+    {
+      "source_record_path": "cloud_outputs/JA-current-two_column.csv",
+      "export_path": "cloud_outputs/JA-current-two_column.csv",
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4"
+    },
+    {
+      "source_record_path": "cloud_outputs/ZH-current-full.csv",
+      "export_path": "cloud_outputs/ZH-current-full.csv",
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074"
+    },
+    {
+      "source_record_path": "cloud_outputs/ZH-current-two_column.csv",
+      "export_path": "cloud_outputs/ZH-current-two_column.csv",
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4"
+    },
+    {
+      "source_record_path": "cloud_outputs/JA-legacy-full.csv",
+      "export_path": "cloud_outputs/JA-legacy-full.csv",
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+    },
+    {
+      "source_record_path": "cloud_outputs/JA-legacy-two_column.csv",
+      "export_path": "cloud_outputs/JA-legacy-two_column.csv",
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19"
+    },
+    {
+      "source_record_path": "cloud_outputs/ZH-legacy-full.csv",
+      "export_path": "cloud_outputs/ZH-legacy-full.csv",
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+    },
+    {
+      "source_record_path": "cloud_outputs/ZH-legacy-two_column.csv",
+      "export_path": "cloud_outputs/ZH-legacy-two_column.csv",
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19"
+    }
+  ],
+  "paired_roundtrip_comparison_rule": "Exact match against the same original Esperanto lowercased. Preservation of original capitalization is not claimed.",
+  "actual_forward_paired_evidence": {
+    "file": "reverse_paired_verification.json",
+    "sha256": "4ad41e1d2af9a149ccb62d427529709e30a74217a0094c2947b362eb34a54b8f",
+    "cases": 4
+  },
+  "deployment_observation_context": {
+    "public_main_at_observation": "730f2d0",
+    "source_of_main_identity": "Deployment parent report; PR38 merged.",
+    "cloud_internal_commit_directly_obtained": false,
+    "cloud_management_updated_app_text": "02:46:52",
+    "management_timestamp_source": "Deployment parent report; all final browser measurements were made after this update.",
+    "scope": "This records the published source revision and observed Cloud behavior separately. It does not claim an independently retrieved internal Cloud commit.",
+    "local_tests_per_language": 154,
+    "reported_ci_jobs_passed": 4,
+    "ci_status_source": "Deployment parent report."
+  },
+  "visual_review": {
+    "report": "reverse_cloud_visual_review.json",
+    "sha256": "87ceed92b84dc9023dc7059d23f159f40ac716ab969f811f201a29b97e16b5d1",
+    "screenshots": 2
+  }
+}

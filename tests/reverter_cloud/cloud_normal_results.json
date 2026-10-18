@@ -1,0 +1,46 @@
+[
+  {
+    "case_id": "JA-current-paired_sentence",
+    "language": "JA",
+    "edition": "current",
+    "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+    "visible_output": "mi lasis la ananason kaj jakvon sur la tablo. la teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. la libro klarigas la vorton spermato.",
+    "visible_exact": true,
+    "provenance_caption": "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590",
+    "provenance_caption_exact": true,
+    "utc": "2026-10-18T02:48:53.605Z"
+  },
+  {
+    "case_id": "ZH-current-paired_sentence",
+    "language": "ZH",
+    "edition": "current",
+    "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/",
+    "visible_output": "mi lasis la ananason kaj jakvon sur la tablo. la teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. la libro klarigas la vorton spermato.",
+    "visible_exact": true,
+    "provenance_caption": "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590",
+    "provenance_caption_exact": true,
+    "utc": "2026-10-18T02:48:53.669Z"
+  },
+  {
+    "case_id": "JA-legacy-paired_sentence",
+    "language": "JA",
+    "edition": "legacy",
+    "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+    "visible_output": "mi lasis la ananason kaj jakvon sur la tablo. la teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. la libro klarigas la vorton spermato.",
+    "visible_exact": true,
+    "provenance_caption": "変換結果の版: 旧版（固定） / 4c16c8937c60 / eed2a8bfc21a",
+    "provenance_caption_exact": true,
+    "utc": "2026-10-18T02:49:06.947Z"
+  },
+  {
+    "case_id": "ZH-legacy-paired_sentence",
+    "language": "ZH",
+    "edition": "legacy",
+    "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/",
+    "visible_output": "mi lasis la ananason kaj jakvon sur la tablo. la teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. la libro klarigas la vorton spermato.",
+    "visible_exact": true,
+    "provenance_caption": "转换结果使用的版本: 旧版（固定） / 4c16c8937c60 / eed2a8bfc21a",
+    "provenance_caption_exact": true,
+    "utc": "2026-10-18T02:49:07.007Z"
+  }
+]
