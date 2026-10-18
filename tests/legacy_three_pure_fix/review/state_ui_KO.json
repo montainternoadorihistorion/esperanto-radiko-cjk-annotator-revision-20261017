@@ -1,0 +1,238 @@
+{
+  "passed": true,
+  "language": "KO",
+  "conversions": [
+    {
+      "edition": "current",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d",
+      "download_sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d",
+      "mime": "text/plain",
+      "filename": "치환결과_current_c5fcc2ca540b.txt"
+    },
+    {
+      "edition": "current",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d",
+      "download_sha256": "ef1d053c42d65d7f6c3b6c88ad556e620d1d7648108ddbafe685f1161c166c20",
+      "mime": "text/plain",
+      "filename": "치환결과_current_c5fcc2ca540b.txt"
+    },
+    {
+      "edition": "current",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d",
+      "download_sha256": "ef1d053c42d65d7f6c3b6c88ad556e620d1d7648108ddbafe685f1161c166c20",
+      "mime": "text/plain",
+      "filename": "치환결과_current_c5fcc2ca540b.txt"
+    },
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "9d83f7a97cdf845094e771ce145b1490b2b18ec5913107a95913b16073fb582d",
+      "download_sha256": "88f79e4a4ff73f70ba11cc87ebfdd1550855a8d5941140daaf693183389ef292",
+      "mime": "text/html",
+      "filename": "치환결과_current_7f500a9f2d9e.html"
+    },
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "9d83f7a97cdf845094e771ce145b1490b2b18ec5913107a95913b16073fb582d",
+      "download_sha256": "02b3f53f31b85bd375af766a81a4746ca72dd119a2f5151c5711edba081d8210",
+      "mime": "text/html",
+      "filename": "치환결과_current_7f500a9f2d9e.html"
+    },
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "9d83f7a97cdf845094e771ce145b1490b2b18ec5913107a95913b16073fb582d",
+      "download_sha256": "02b3f53f31b85bd375af766a81a4746ca72dd119a2f5151c5711edba081d8210",
+      "mime": "text/html",
+      "filename": "치환결과_current_7f500a9f2d9e.html"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "6dae5ca6c1b03325b6b09196944767fc0131d39e4cd0d45f83ecc8678de5ef54",
+      "download_sha256": "6d77263028ce237d68ab01f1d2e19f84d998796097ff6ff2574f4c4e662516cf",
+      "mime": "text/html",
+      "filename": "치환결과_current_21a4f909136a.html"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "6dae5ca6c1b03325b6b09196944767fc0131d39e4cd0d45f83ecc8678de5ef54",
+      "download_sha256": "68f0df8dbcc9ad16fab1aea26df332d1aea72fdcf8378cdd2ddf2b6e883d9522",
+      "mime": "text/html",
+      "filename": "치환결과_current_21a4f909136a.html"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "6dae5ca6c1b03325b6b09196944767fc0131d39e4cd0d45f83ecc8678de5ef54",
+      "download_sha256": "68f0df8dbcc9ad16fab1aea26df332d1aea72fdcf8378cdd2ddf2b6e883d9522",
+      "mime": "text/html",
+      "filename": "치환결과_current_21a4f909136a.html"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "input": "lasis @lasis@",
+      "result_sha256": "7db59e44ad80029ffc97b7f7c7cbbdf24a79c70ddabeac4821fdb36d6b6c6d20",
+      "download_sha256": "2c3adc278b456059bddf34267929bc45ce08ff0a06570b444e6fcd92aa8119f7",
+      "mime": "text/html",
+      "filename": "치환결과_current_21a4f909136a.html"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "input": "semajno @semajno@",
+      "result_sha256": "ffd65254693e4810c70c71bd0d55e2808f5dc642e96de49a4cfb70b93f0a1389",
+      "download_sha256": "75fc0df5190fd15bacb76379b148558305c63bb0005ee3ffac6b800c3fc5d07b",
+      "mime": "text/html",
+      "filename": "치환결과_current_21a4f909136a.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6",
+      "download_sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6",
+      "mime": "text/plain",
+      "filename": "치환결과_legacy_a39e34d131e8.txt"
+    },
+    {
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6",
+      "download_sha256": "8071bfeedfd9a18e54a4e193e719b8ffc7e0282e4d0a83bafe4117c90af45035",
+      "mime": "text/plain",
+      "filename": "치환결과_legacy_a39e34d131e8.txt"
+    },
+    {
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6",
+      "download_sha256": "8071bfeedfd9a18e54a4e193e719b8ffc7e0282e4d0a83bafe4117c90af45035",
+      "mime": "text/plain",
+      "filename": "치환결과_legacy_a39e34d131e8.txt"
+    },
+    {
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "ba344f691f90bfb9cc4b48c6b4049e29fb980d4de2ee75b8d98dece16270e13b",
+      "download_sha256": "053584c1546e8c09abd05235ca4f09f60dbe9a0de6a0a081abce2fa19458a4b2",
+      "mime": "text/html",
+      "filename": "치환결과_legacy_b22e692e291e.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "ba344f691f90bfb9cc4b48c6b4049e29fb980d4de2ee75b8d98dece16270e13b",
+      "download_sha256": "594b5f23d08c93764e5008c817dd2017d590024a43d20e90144804949e59aafd",
+      "mime": "text/html",
+      "filename": "치환결과_legacy_b22e692e291e.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "ba344f691f90bfb9cc4b48c6b4049e29fb980d4de2ee75b8d98dece16270e13b",
+      "download_sha256": "594b5f23d08c93764e5008c817dd2017d590024a43d20e90144804949e59aafd",
+      "mime": "text/html",
+      "filename": "치환결과_legacy_b22e692e291e.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "6dae5ca6c1b03325b6b09196944767fc0131d39e4cd0d45f83ecc8678de5ef54",
+      "download_sha256": "27f8b9fba53aaa21e7d027e76e15910d65b9215a3e26286937e249ec43bfd7be",
+      "mime": "text/html",
+      "filename": "치환결과_legacy_f7173b03727d.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "6dae5ca6c1b03325b6b09196944767fc0131d39e4cd0d45f83ecc8678de5ef54",
+      "download_sha256": "25c1215a9a26730615e5f59ee1d7b9b224c56b89f1413351232e001e9261ab91",
+      "mime": "text/html",
+      "filename": "치환결과_legacy_f7173b03727d.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "6dae5ca6c1b03325b6b09196944767fc0131d39e4cd0d45f83ecc8678de5ef54",
+      "download_sha256": "25c1215a9a26730615e5f59ee1d7b9b224c56b89f1413351232e001e9261ab91",
+      "mime": "text/html",
+      "filename": "치환결과_legacy_f7173b03727d.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "lasis @lasis@",
+      "result_sha256": "7db59e44ad80029ffc97b7f7c7cbbdf24a79c70ddabeac4821fdb36d6b6c6d20",
+      "download_sha256": "e36a7859283469a6a15dc17497261e1592e8ad32ba346782811bc324cacbef65",
+      "mime": "text/html",
+      "filename": "치환결과_legacy_f7173b03727d.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "semajno @semajno@",
+      "result_sha256": "ffd65254693e4810c70c71bd0d55e2808f5dc642e96de49a4cfb70b93f0a1389",
+      "download_sha256": "3ccc3b56d4773845c961816e1a654bba0249ea33fa7bb5e5cb81fb94fb051f55",
+      "mime": "text/html",
+      "filename": "치환결과_legacy_f7173b03727d.html"
+    }
+  ],
+  "state_checks": [
+    "current/pure: sample invalidates previous input",
+    "current/pure: direct edit invalidates previous input",
+    "current/kanji: sample invalidates previous input",
+    "current/kanji: direct edit invalidates previous input",
+    "current/ruby: sample invalidates previous input",
+    "current/ruby: direct edit invalidates previous input",
+    "current: valid upload replaces input and invalidates old result",
+    "current: editing uploaded text invalidates download",
+    "current: changed upload bytes invalidate result",
+    "current: invalid UTF8 preserves draft and blocks conversion/save",
+    "current: valid empty file clears draft and old download",
+    "current: empty conversion cannot expose old download",
+    "current: removing upload preserves draft and blocks conversion/save",
+    "current: early-stop mode switch retains input/source/letters/edition",
+    "current: manual input retains draft after upload switch",
+    "legacy/pure: sample invalidates previous input",
+    "legacy/pure: direct edit invalidates previous input",
+    "legacy/kanji: sample invalidates previous input",
+    "legacy/kanji: direct edit invalidates previous input",
+    "legacy/ruby: sample invalidates previous input",
+    "legacy/ruby: direct edit invalidates previous input",
+    "legacy: valid upload replaces input and invalidates old result",
+    "legacy: editing uploaded text invalidates download",
+    "legacy: changed upload bytes invalidate result",
+    "legacy: invalid UTF8 preserves draft and blocks conversion/save",
+    "legacy: valid empty file clears draft and old download",
+    "legacy: empty conversion cannot expose old download",
+    "legacy: removing upload preserves draft and blocks conversion/save",
+    "legacy: early-stop mode switch retains input/source/letters/edition",
+    "legacy: manual input retains draft after upload switch"
+  ],
+  "bundled_corrections_unchanged": true,
+  "method": "Local real Streamlit AppTest; actual engines/data; mocked source-file and download transport only"
+}

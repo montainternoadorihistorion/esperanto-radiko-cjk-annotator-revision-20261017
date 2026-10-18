@@ -1,0 +1,11 @@
+{
+  "baseline_commit": "7f24a8ddb1ccea042e5c26a7ac7f19a95e3f2e0b",
+  "implementation_commit": "01063f5",
+  "date": "2026-10-19",
+  "command": "python -B -X utf8 -m pytest -q -p no:cacheprovider",
+  "results": [
+    {"app": "Esperanto-Reverter-JA", "passed": 311, "failed": 0, "duration_seconds": 223.69},
+    {"app": "Esperanto-Reverter-ZH", "passed": 311, "failed": 0, "duration_seconds": 223.62}
+  ],
+  "scope": "Existing complete inverse-app test suites, including plain inverse, standard HTML restoration and UI state. Local execution, not Cloud."
+}

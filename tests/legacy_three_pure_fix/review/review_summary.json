@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "baseline": "7f24a8ddb1ccea042e5c26a7ac7f19a95e3f2e0b",
+  "source_sha256": "e0baf553a1c85a1aa8272837b5a664a6687a973aaff0e391316c3fe6860e98e7",
+  "source_sha256_by_language": {
+    "JA": "e0baf553a1c85a1aa8272837b5a664a6687a973aaff0e391316c3fe6860e98e7",
+    "ZH": "e0baf553a1c85a1aa8272837b5a664a6687a973aaff0e391316c3fe6860e98e7",
+    "KO": "e0baf553a1c85a1aa8272837b5a664a6687a973aaff0e391316c3fe6860e98e7"
+  },
+  "issues": [],
+  "independent_comparison": {
+    "languages": [
+      "JA",
+      "ZH",
+      "KO"
+    ],
+    "contexts_per_route": 99,
+    "routes": 18,
+    "context_comparisons": 1782,
+    "changed_approved_contexts": 54,
+    "completely_unchanged_routes": 15,
+    "inverse_control_checks": 972,
+    "target_inverse_checks": 18,
+    "html_documents_checked_against_baseline": 24,
+    "parallel_matches": 6,
+    "manual_priority_checks": 6,
+    "custom_loader_checks": 6
+  },
+  "target_ui": {
+    "conversion_and_download_checks": 27,
+    "state_guards": 33
+  },
+  "existing_state_ui": {
+    "download_checks": 66,
+    "state_checks": 90
+  },
+  "cloud_fixture": {
+    "routes": 18,
+    "is_cloud_observation": false
+  },
+  "notes": [
+    "Only old edition bundled normal pure text targets change. Existing @ decomposition is explicitly unchanged.",
+    "Batch comparisons use 99 separately newline-delimited contexts per route, not 99 isolated calls.",
+    "AppTests use actual apps and tables; source upload and download transport are instrumented in the state test.",
+    "All production saved correction files remain byte-identical."
+  ]
+}
