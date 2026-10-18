@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "public_unittest": {
+    "passed": true,
+    "tests": 31,
+    "elapsed_seconds": 314.875,
+    "failures": [],
+    "errors": [],
+    "method": "Actual local unittest execution against public application checkout"
+  },
+  "streamlit_app_test": {
+    "languages": [
+      "JA",
+      "ZH",
+      "KO"
+    ],
+    "routes": 18,
+    "cross_page_edition_preserved": true,
+    "stale_results_blocked": true,
+    "saved_corrections_rerendered": true,
+    "public_checkout_JA_six_routes_independently_verified": true
+  },
+  "legacy_asset_tests": {
+    "tests": 5,
+    "passed": true,
+    "all_replacement_rows_compared": 2195928
+  },
+  "current_integrated_assets_unchanged": 132,
+  "forward_regression": {
+    "runtime_cases": 1998,
+    "manual_cases": 2754,
+    "current_nine_routes_byte_identical": true,
+    "pure_kanji_differences_in_fixture": 0
+  },
+  "reverse_conversion": {
+    "languages": [
+      "JA",
+      "ZH"
+    ],
+    "tests_per_language": 149,
+    "internal_dictionary_sources": 8,
+    "keys_per_language_checked": 85300
+  },
+  "scope": "Edition selection, exact preservation of existing data, normal/localized conversion, overlays, provenance and reverse dictionary keys. Arbitrary ambiguous concatenations are not guaranteed to round-trip.",
+  "legacy_manifest_sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3"
+}

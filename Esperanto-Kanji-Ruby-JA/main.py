@@ -1,6 +1,7 @@
 # メインの Streamlit アプリ (機能拡充版202502)
 
 import streamlit as st
+import esp_assignment_edition as editions
 import re
 import io
 import os
@@ -38,37 +39,8 @@ from esp_text_replacement_module import (
 
 ## 関数のキャッシュを活用することで、デフォルトの置換用JSONファイル(50MB程度)の読み込みを早くする。(約1.0秒→0.5秒 の短縮)
 def load_replacements_lists(json_path: str) -> Tuple[List, List, List]:
-    # Check the file on every rerun; a data-only deploy keeps the same path.
-    stat = os.stat(json_path)
-    return _load_replacements_lists_cached(json_path, (stat.st_mtime_ns, stat.st_size))
+    return editions.load_lists_path(json_path)
 
-
-@st.cache_data(max_entries=3)
-def _load_replacements_lists_cached(json_path: str, file_stamp: Tuple[int, int]) -> Tuple[List, List, List]:
-    """
-    JSONファイルをロードし、以下の3つのリストをタプルとして返す:
-      1) replacements_final_list
-      2) replacements_list_for_localized_string
-      3) replacements_list_for_2char
-    """
-    with open(json_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-
-    replacements_final_list = data.get(
-        "全域替换用のリスト(列表)型配列(replacements_final_list)", []
-    )
-    replacements_list_for_localized_string = data.get(
-        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)", []
-    )
-    replacements_list_for_2char = data.get(
-        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)", []
-    )
-
-    return (
-        replacements_final_list,
-        replacements_list_for_localized_string,
-        replacements_list_for_2char,
-    )
 
 # ページ設定
 st.set_page_config(page_title="エスペラント文の注釈ルビ・漢字化ツール", page_icon="📖", layout="wide")
@@ -80,6 +52,9 @@ st.markdown("📘 [**プロジェクト早わかりガイド**](https://takataka
 st.write("---")
 
 # 1) JSONファイル (置換ルール) をロードする (デフォルト or アップロード)
+assignment_edition = editions.select_edition(DATA_DIR)
+_custom_json_sha = None
+
 selected_option = st.radio(
     "変換モードを選択:",
     ("📖 注釈ルビ（語根の上に日本語訳）", "🈶 漢字化（漢字＋語根ルビ）", "✂️ 漢字化・純粋置換（タグなしテキスト）", "📤 自作JSONを使う（上級）")
@@ -105,7 +80,7 @@ if selected_option == "📖 注釈ルビ（語根の上に日本語訳）":
         st.error(f"JSONファイルの読み込みに失敗: {e}")
         st.stop()
 elif selected_option == "🈶 漢字化（漢字＋語根ルビ）":
-    kanji_json_path = os.path.join(DATA_DIR, '置換リスト_漢字.json')
+    kanji_json_path = editions.resolve_path(DATA_DIR, "kanji", assignment_edition)
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(kanji_json_path)
         st.success("✅ 漢字化モードの準備ができました（漢字が本文・語根がルビ）。下の入力欄に文章を入れて「🔁 変換する」を押してください。")
@@ -113,7 +88,7 @@ elif selected_option == "🈶 漢字化（漢字＋語根ルビ）":
         st.error(f"漢字化版JSONの読み込みに失敗: {e}")
         st.stop()
 elif selected_option == "✂️ 漢字化・純粋置換（タグなしテキスト）":
-    pure_json_path = os.path.join(DATA_DIR, '置換リスト_漢字_純粋置換.json')
+    pure_json_path = editions.resolve_path(DATA_DIR, "pure", assignment_edition)
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(pure_json_path)
         st.success("✅ 漢字化・純粋置換モードの準備ができました（タグなしの漢字テキストに変換。例: amikeco → 友性o）。下の入力欄に文章を入れて「🔁 変換する」を押してください。")
@@ -125,6 +100,8 @@ else:
     if uploaded_file is not None:
         try:
             combined_data = json.load(uploaded_file)
+            _custom_json_sha = editions.hashlib.sha256(uploaded_file.getvalue()).hexdigest()
+            st.caption({"JA": "自作JSON本体に割り当て版の選択は適用されません。自動語根補正には共通の最新注釈を使います。", "ZH": "所选分配版本不应用于自定义JSON本体。自动词根校正使用共用的最新注释。", "KO": "선택한 배정 판은 사용자 JSON 자체에 적용되지 않습니다. 자동 어근 보정에는 공통 최신 주석을 사용합니다。"}[editions.language(DATA_DIR)])
             replacements_final_list = combined_data.get(
                 "全域替换用のリスト(列表)型配列(replacements_final_list)", [])
             replacements_list_for_localized_string = combined_data.get(
@@ -159,7 +136,7 @@ with st.expander("📂 手動補正ファイル(user_corrections.json)を読み�
             _decs = [c.get("decomp") for c in json.load(_cor_up) if isinstance(c, dict) and c.get("decomp")]
             _new = []
             for _dc in _decs:
-                try: _new.append(_ovu.build_correction(_dc, DATA_DIR))
+                try: _new.append(_ovu.build_correction(_dc, DATA_DIR, assignment_edition))
                 except Exception: pass
             if _new:
                 _ovu.save_corrections(DATA_DIR, _new)
@@ -173,7 +150,7 @@ with st.expander("📂 手動補正ファイル(user_corrections.json)を読み�
 try:
     import esp_overlay_module as _ov
     _ov_mode = "kanji" if selected_option in ("🈶 漢字化（漢字＋語根ルビ）", "✂️ 漢字化・純粋置換（タグなしテキスト）") else "ruby"
-    _ov_entries_raw = _ov.load_overlay_entries(DATA_DIR, _ov_mode)
+    _ov_entries_raw = _ov.load_overlay_entries(DATA_DIR, _ov_mode, assignment_edition)
     if selected_option == "✂️ 漢字化・純粋置換（タグなしテキスト）":
         import re as _re_ov
         _ov_entries = [[o, _re_ov.sub(r"</?ruby>", "", _re_ov.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_ov.DOTALL | _re_ov.IGNORECASE), flags=_re_ov.IGNORECASE), ph] for o, n, ph in _ov_entries_raw]
@@ -335,7 +312,7 @@ with st.form(key='profile_form'):
             import esp_overlay_module as _ovx
             _afmode = "kanji" if selected_option in ("🈶 漢字化（漢字＋語根ルビ）", "✂️ 漢字化・純粋置換（タグなしテキスト）") else "ruby"  # sample_btn_marker
             _auto_strip_pure = (selected_option == "✂️ 漢字化・純粋置換（タグなしテキスト）")
-            _auto = _ovx.auto_overlay_entries(processed_text, DATA_DIR, _afmode)
+            _auto = _ovx.auto_overlay_entries(processed_text, DATA_DIR, _afmode, assignment_edition)
             if _auto and _auto_strip_pure:
                 import re as _re_af
                 _auto = [[o, _re_af.sub(r"</?ruby>", "", _re_af.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_af.DOTALL | _re_af.IGNORECASE), flags=_re_af.IGNORECASE), ph] for o, n, ph in _auto]
@@ -377,6 +354,7 @@ with st.form(key='profile_form'):
 
         # 結果を session_state に保存（再実行で消えない＋結果を編集可能にするため）
         st.session_state["result_html"] = processed_text
+        st.session_state["result_assignment_metadata"] = editions.result_metadata(DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type})
         st.session_state["edited_html"] = processed_text          # 編集用の初期値＝生成結果
         st.session_state["result_is_html"] = ("HTML" in format_type)
         st.toast("✅ 変換が完了しました。下に結果が表示されています。")
@@ -389,7 +367,12 @@ def _reset_edited_html():
     #  エラーになるため、コールバック内で生成結果へ戻す）
     st.session_state["edited_html"] = st.session_state.get("result_html", "")
 
-if st.session_state.get("result_html"):
+_result_meta = st.session_state.get("result_assignment_metadata")
+_matching_result = editions.result_matches(_result_meta, DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type})
+if st.session_state.get("result_html") and not _matching_result:
+    editions.stale_result_notice(DATA_DIR, _result_meta)
+
+if st.session_state.get("result_html") and _matching_result:
     # st.stop()経路(自作JSON未アップロード等)のwidget cleanupで edited_html が消えた場合の再シード
     if "edited_html" not in st.session_state:
         st.session_state["edited_html"] = st.session_state["result_html"]
@@ -433,7 +416,10 @@ if st.session_state.get("result_html"):
             st.button("編集を破棄して生成結果に戻す", on_click=_reset_edited_html)
         download_name = "置換結果.txt"
 
-    download_data = current_html.encode('utf-8')
+    _extension = "html" if st.session_state.get("result_is_html") else "txt"
+    download_name = editions.download_filename(os.path.splitext(download_name)[0], _result_meta, _extension)
+    _download_text = (editions.html_download_metadata(_result_meta) if _extension == "html" else "") + current_html
+    download_data = _download_text.encode('utf-8')
     st.download_button(
         label="置換結果のダウンロード（編集を反映）",
         data=download_data,
@@ -446,7 +432,7 @@ if st.session_state.get("result_html"):
 st.write("---")
 st.header("Ligilo-oj (URL-oj) / 言語版・语言版本・언어판")
 st.markdown("""
-#### 旧公開版 / Previous releases / 旧版 / 이전 버전
+#### 日中韓 三言語版 ⇓ (Japana / Ĉina / Korea)
 - **日本語版 (Japana)**: https://esperanto-radiko-cjk-annotator.streamlit.app/
 - **中文版 (Ĉina)**: https://esperanto-radiko-cjk-annotator-zh.streamlit.app/
 - **한국어판 (Korea)**: https://esperanto-radiko-cjk-annotator-ko.streamlit.app/

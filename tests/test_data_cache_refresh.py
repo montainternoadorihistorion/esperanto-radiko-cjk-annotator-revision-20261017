@@ -28,8 +28,7 @@ logging.disable(logging.WARNING)  # Expected bare-mode Streamlit notices only.
 
 
 def loaders(path, main):
-    names = ({"load_replacements_lists", "_load_replacements_lists_cached"} if main
-             else {"_load_lists", "_load_lists_cached"})
+    names = {"load_replacements_lists" if main else "_load_lists"}
     tree = ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
     functions = [node for node in tree.body if isinstance(node, ast.FunctionDef) and node.name in names]
     if {node.name for node in functions} != names:
@@ -38,11 +37,17 @@ def loaders(path, main):
     def read_json(stream):
         calls.append(str(stream.name))
         return json.load(stream)
-    namespace = {"__name__": "cache_test_" + path.parent.name, "st": st, "os": os,
-                 "json": SimpleNamespace(load=read_json), "Tuple": Tuple, "List": List}
+    app = path.parent if main else path.parent.parent
+    spec = importlib.util.spec_from_file_location("cache_editions_" + app.name,
+                                                app / "esp_assignment_edition.py")
+    helper = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(helper)
+    helper.json = SimpleNamespace(load=read_json)
+    namespace = {"__name__": "cache_test_" + path.parent.name, "editions": helper,
+                 "Tuple": Tuple, "List": List}
     exec(compile(ast.Module(body=functions, type_ignores=[]), str(path), "exec"), namespace)
     wrapper = namespace["load_replacements_lists" if main else "_load_lists"]
-    cached = namespace["_load_replacements_lists_cached" if main else "_load_lists_cached"]
+    cached = helper._load_lists_cached
     return wrapper, cached, calls
 
 
@@ -100,7 +105,7 @@ class DataCacheRefreshTests(unittest.TestCase):
                             REPORT.append({"language": language, "loader": "main" if main else "manual",
                                            "same_path_same_size_refresh": True, "unchanged_cache_hit": True,
                                            "same_mtime_size_change_refresh": True, "deleted_file_rejected": True,
-                                           "bounded_to_three_entries": True,
+                                           "bounded_to_one_entry": True,
                                            "json_reads": len(calls)})
                     finally:
                         cached.clear()

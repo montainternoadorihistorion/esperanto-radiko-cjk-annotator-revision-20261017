@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "edition_id": "legacy",
+  "canonical_commit": "4c16c8937c601fdc149ccb8cbba1b6085cc94692",
+  "sidecar_sha256": "8ee9e27651413f87f1404eb5c328e7ad8ba4bda3be61a442ac9585911a4a9600",
+  "master_sha256": "8260593759caf4403e61e88ba54b15eb4486dd499467aff8db95cf8058ec50f8",
+  "canonical_roots": 10467,
+  "policy": "Fixed before the first las assignment change. Ordinary rules and identifiers are historical. Only ten confirmed stale @ labels and corresponding manual CSV cells are aligned to that same old canonical table. Current annotations and engine fixes are shared.",
+  "newly_assigned_roots_absent": [
+    "prioritat",
+    "spermatozo"
+  ],
+  "local_corrections": {
+    "limak": {
+      "before": "蜗牛",
+      "after": "螺ᴸ"
+    },
+    "orkidit": {
+      "before": "兰炎",
+      "after": "丸炎"
+    },
+    "orkidektomi": {
+      "before": "兰除",
+      "after": "丸除"
+    },
+    "orkidoterapi": {
+      "before": "兰疗",
+      "after": "丸疗"
+    },
+    "testikit": {
+      "before": "丸炎",
+      "after": "丸炎ᵀ"
+    },
+    "paniklit": {
+      "before": "圆锥炎",
+      "after": "脂炎"
+    },
+    "kuriterapi": {
+      "before": "廷疗",
+      "after": "kuri疗"
+    },
+    "litografi": {
+      "before": "石志",
+      "after": "石ᴸᵀ志ᴳ"
+    },
+    "fotolitografi": {
+      "before": "拍石志",
+      "after": "拍石ᴸᵀ志ᴳ"
+    },
+    "kromolitografi": {
+      "before": "色石志",
+      "after": "色ᴷᴹ石ᴸᵀ志ᴳ"
+    }
+  },
+  "preserved_existing_differences": {
+    "inflection_or_forced_decomposition": 42,
+    "homograph_sense": 9
+  },
+  "known_reverse_missing_canonical_roots": [
+    "endoskopi",
+    "mikroskopi",
+    "asistoli",
+    "eu^foni"
+  ],
+  "files": [
+    {
+      "path": "legacy/_identifier_sidecar.tsv",
+      "sha256": "8ee9e27651413f87f1404eb5c328e7ad8ba4bda3be61a442ac9585911a4a9600",
+      "decoded_sha256": "8ee9e27651413f87f1404eb5c328e7ad8ba4bda3be61a442ac9585911a4a9600",
+      "bytes": 572391,
+      "decoded_bytes": 572391,
+      "role": "canonical_sidecar",
+      "lang": null,
+      "source_git_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
+      "source_sha256": "8ee9e27651413f87f1404eb5c328e7ad8ba4bda3be61a442ac9585911a4a9600",
+      "source_bytes": 572391
+    },
+    {
+      "path": "legacy/_kanji_map_master.tsv",
+      "sha256": "8260593759caf4403e61e88ba54b15eb4486dd499467aff8db95cf8058ec50f8",
+      "decoded_sha256": "8260593759caf4403e61e88ba54b15eb4486dd499467aff8db95cf8058ec50f8",
+      "bytes": 209155,
+      "decoded_bytes": 209155,
+      "role": "canonical_master",
+      "lang": null,
+      "source_git_path": "エスペラント語根＿漢字割り当て＿20260630/_kanji_map_master.tsv",
+      "source_sha256": "8260593759caf4403e61e88ba54b15eb4486dd499467aff8db95cf8058ec50f8",
+      "source_bytes": 209155
+    },
+    {
+      "path": "legacy/JA/kanji.json.gz",
+      "sha256": "215f0c297bf73efe29f4b323a982adb63a181d42e202dbed63f52c954baeb0fe",
+      "decoded_sha256": "9828f0c55f4853bb4b3c7c49cd7e05b9313679ca5e97f81282f024ba8fde177a",
+      "bytes": 6384631,
+      "decoded_bytes": 57346836,
+      "role": "kanji",
+      "lang": "JA",
+      "source_git_path": "語根分解、注釈ルビ振り、漢字化アプリ徹底ブラッシュアップ20260630/Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
+      "source_sha256": "b4148c106c1c52d4b3abd83405663a59fb31eecd4425cf1458857a1b9346ab97",
+      "source_bytes": 57346743,
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 0,
+          "source_rows_sha256": "9178d66a8c5872ac8ba90e8232bdbb568e335009a7bf987a87c8e07aa9a95892",
+          "decoded_rows_sha256": "9178d66a8c5872ac8ba90e8232bdbb568e335009a7bf987a87c8e07aa9a95892",
+          "identities_sha256": "14ac6331c9e030078b83b47cf0e76b5310f2f3ac92d4c8e49b8f281329cfded7"
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0,
+          "source_rows_sha256": "e4c5b31bc5727b6cf5a35a684136738835dfbaef332efe4e3a0693fc25dddd54",
+          "decoded_rows_sha256": "e4c5b31bc5727b6cf5a35a684136738835dfbaef332efe4e3a0693fc25dddd54",
+          "identities_sha256": "d1b26e961a2028476eb25cd4c429ec808c9b326d2ea20d2845ecd0402ab54158"
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31210,
+          "changed": 30,
+          "source_rows_sha256": "cadc05242120cca503a6622c8eed7b543d1ef354c7d48ad60f99fafc77000ff3",
+          "decoded_rows_sha256": "f1f6f4a983cbe9044d1945cb183249b5371f8175de904c3fed8d22315a450aef",
+          "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
+        }
+      }
+    },
+    {
+      "path": "legacy/JA/pure.json.gz",
+      "sha256": "3ef2efd50fbb13a834f7421c3e85bd406d2926dd304028b19e1de3264ec3fb40",
+      "decoded_sha256": "3a8153310fc09a324a9c62ad8d49aec98d9031e34ef825030ae98726d2e0ca56",
+      "bytes": 4169688,
+      "decoded_bytes": 21489132,
+      "role": "pure",
+      "lang": "JA",
+      "source_git_path": "語根分解、注釈ルビ振り、漢字化アプリ徹底ブラッシュアップ20260630/Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
+      "source_sha256": "aea2e8bd6f50f41b7b817730327d10f1e7820b5ab6af3d2b48c23aa715e47f97",
+      "source_bytes": 21489030
+    },
+    {
+      "path": "legacy/JA/kanji.csv",
+      "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+      "decoded_sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+      "bytes": 152831,
+      "decoded_bytes": 152831,
+      "role": "kanji_csv",
+      "lang": "JA",
+      "source_git_path": "語根分解、注釈ルビ振り、漢字化アプリ徹底ブラッシュアップ20260630/Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+      "source_sha256": "89abff590a9d0306534a3f7ba3de58db93cad1186fa236d2c8f3c63c78270cf3",
+      "source_bytes": 152797
+    },
+    {
+      "path": "legacy/ZH/kanji.json.gz",
+      "sha256": "f05e779677489ebcf5d00b00389e841eb89cc8bf7af87bbf1d1e65309c0fd594",
+      "decoded_sha256": "f6e02a9f55d57b66c0dbbb1c19ff1bda4b2ffe4df850c8763bdadf328f09fae4",
+      "bytes": 6385065,
+      "decoded_bytes": 57354902,
+      "role": "kanji",
+      "lang": "ZH",
+      "source_git_path": "語根分解、注釈ルビ振り、漢字化アプリ徹底ブラッシュアップ20260630/Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
+      "source_sha256": "49fc7dc782834538dbf01d22ba5d21b1263904b80d15113efd5371f1ae53fb21",
+      "source_bytes": 57354809,
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 0,
+          "source_rows_sha256": "d04d05cac9caa1769ca18f6cda8031e857d9574c95d65cd2a1f616dbd0b6a793",
+          "decoded_rows_sha256": "d04d05cac9caa1769ca18f6cda8031e857d9574c95d65cd2a1f616dbd0b6a793",
+          "identities_sha256": "30f78d6ac597d122004c31db67fe73340c8c1b81d0823a27973404b7a1632dfb"
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0,
+          "source_rows_sha256": "e4c5b31bc5727b6cf5a35a684136738835dfbaef332efe4e3a0693fc25dddd54",
+          "decoded_rows_sha256": "e4c5b31bc5727b6cf5a35a684136738835dfbaef332efe4e3a0693fc25dddd54",
+          "identities_sha256": "d1b26e961a2028476eb25cd4c429ec808c9b326d2ea20d2845ecd0402ab54158"
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31210,
+          "changed": 30,
+          "source_rows_sha256": "cadc05242120cca503a6622c8eed7b543d1ef354c7d48ad60f99fafc77000ff3",
+          "decoded_rows_sha256": "f1f6f4a983cbe9044d1945cb183249b5371f8175de904c3fed8d22315a450aef",
+          "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
+        }
+      }
+    },
+    {
+      "path": "legacy/ZH/kanji.csv",
+      "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+      "decoded_sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+      "bytes": 152831,
+      "decoded_bytes": 152831,
+      "role": "kanji_csv",
+      "lang": "ZH",
+      "source_git_path": "語根分解、注釈ルビ振り、漢字化アプリ徹底ブラッシュアップ20260630/Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+      "source_sha256": "89abff590a9d0306534a3f7ba3de58db93cad1186fa236d2c8f3c63c78270cf3",
+      "source_bytes": 152797
+    },
+    {
+      "path": "legacy/KO/kanji.json.gz",
+      "sha256": "8005ecf215185aa8fe9b8f482305f9fb1ec17aaf0d1c9c4fbbbb7928ef97508c",
+      "decoded_sha256": "6ed899f1da480bc5387c8a8ba8ef730348c786e5983acef2f9e57709904c6fcd",
+      "bytes": 6385064,
+      "decoded_bytes": 57354902,
+      "role": "kanji",
+      "lang": "KO",
+      "source_git_path": "語根分解、注釈ルビ振り、漢字化アプリ徹底ブラッシュアップ20260630/Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
+      "source_sha256": "1691f49fe3f4eac18f3e58403b4a577c91037a82301e028eaacc03383a09a3f9",
+      "source_bytes": 57354809,
+      "groups": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 0,
+          "source_rows_sha256": "40124c5e9fdd39340ebc6648e961458a649ff5450acf75f2a3640ebd5acd2356",
+          "decoded_rows_sha256": "40124c5e9fdd39340ebc6648e961458a649ff5450acf75f2a3640ebd5acd2356",
+          "identities_sha256": "5fdf52ebec6fa29f667aa5636bc621f14f7b807fc18231bdf1d1254e739c56c8"
+        },
+        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
+          "rows": 330,
+          "changed": 0,
+          "source_rows_sha256": "e4c5b31bc5727b6cf5a35a684136738835dfbaef332efe4e3a0693fc25dddd54",
+          "decoded_rows_sha256": "e4c5b31bc5727b6cf5a35a684136738835dfbaef332efe4e3a0693fc25dddd54",
+          "identities_sha256": "d1b26e961a2028476eb25cd4c429ec808c9b326d2ea20d2845ecd0402ab54158"
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31210,
+          "changed": 30,
+          "source_rows_sha256": "cadc05242120cca503a6622c8eed7b543d1ef354c7d48ad60f99fafc77000ff3",
+          "decoded_rows_sha256": "f1f6f4a983cbe9044d1945cb183249b5371f8175de904c3fed8d22315a450aef",
+          "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
+        }
+      }
+    },
+    {
+      "path": "legacy/KO/kanji.csv",
+      "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+      "decoded_sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+      "bytes": 152831,
+      "decoded_bytes": 152831,
+      "role": "kanji_csv",
+      "lang": "KO",
+      "source_git_path": "語根分解、注釈ルビ振り、漢字化アプリ徹底ブラッシュアップ20260630/Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+      "source_sha256": "89abff590a9d0306534a3f7ba3de58db93cad1186fa236d2c8f3c63c78270cf3",
+      "source_bytes": 152797
+    }
+  ]
+}
