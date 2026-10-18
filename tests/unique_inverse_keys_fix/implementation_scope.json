@@ -1,0 +1,94 @@
+{
+  "current_new": {
+    "盐ᴬ": "at",
+    "盐ᴵ": "it",
+    "炎ᵀ": "it",
+    "兄ᶠᴿ": "fra",
+    "父ᴾᴬ": "pa",
+    "插ᴾ": "pol",
+    "白ᴸᴱ": "leŭk"
+  },
+  "legacy_new": {
+    "盐ᴬ": "at",
+    "盐ᴵ": "it",
+    "炎ᵀ": "it",
+    "兄ᶠᴿ": "fra",
+    "父ᴾᴬ": "pa",
+    "插ᴾ": "pol",
+    "白ᴸᴱ": "leŭk",
+    "两ᴴ": "herm",
+    "名ᴺᴵ": "nim",
+    "远声ᶠᴼ": "telefon",
+    "微镜ˢᴷ": "mikroskop",
+    "氧生ᴳ": "oksigen",
+    "间学ᴸᴺ": "interlingvistik",
+    "越形具ᴬ": "transformator",
+    "单色ᴷᴿ": "monokromat"
+  },
+  "current_all": {
+    "兰炎ᵀ": "orkidit",
+    "盐ᴬ": "at",
+    "盐ᴵ": "it",
+    "炎ᵀ": "it",
+    "兄ᶠᴿ": "fra",
+    "父ᴾᴬ": "pa",
+    "插ᴾ": "pol",
+    "白ᴸᴱ": "leŭk"
+  },
+  "legacy_all": {
+    "丸ᵀ炎ᵀ": "testikit",
+    "丸ᴼ炎ᵀ": "orkidit",
+    "兰炎ᵀ": "orkidit",
+    "盐ᴬ": "at",
+    "盐ᴵ": "it",
+    "炎ᵀ": "it",
+    "兄ᶠᴿ": "fra",
+    "父ᴾᴬ": "pa",
+    "插ᴾ": "pol",
+    "白ᴸᴱ": "leŭk",
+    "两ᴴ": "herm",
+    "名ᴺᴵ": "nim",
+    "远声ᶠᴼ": "telefon",
+    "微镜ˢᴷ": "mikroskop",
+    "氧生ᴳ": "oksigen",
+    "间学ᴸᴺ": "interlingvistik",
+    "越形具ᴬ": "transformator",
+    "单色ᴷᴿ": "monokromat"
+  },
+  "revisions": {
+    "current": "current-unique-inverse-20261018-v2",
+    "legacy": "legacy-unique-inverse-20261018-v2"
+  },
+  "changes": [
+    {
+      "path": "Esperanto-Reverter-JA/esperanto_converter.py",
+      "sha256": "af39b06a6ef8b659f4c5e58cb198e2ae5a1fdb7d45d2a2770938b3da7f720b17",
+      "bytes": 32309
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/current_inverse_aliases.json",
+      "sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+      "bytes": 2035
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/legacy_inverse_aliases.json",
+      "sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+      "bytes": 3250
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/esperanto_converter_zh.py",
+      "sha256": "b3fa1333e8762561520654551dfb5c0ccc2c304364a0168106e6318df4c59a34",
+      "bytes": 31456
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/current_inverse_aliases.json",
+      "sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+      "bytes": 2035
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/legacy_inverse_aliases.json",
+      "sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+      "bytes": 3250
+    }
+  ]
+}

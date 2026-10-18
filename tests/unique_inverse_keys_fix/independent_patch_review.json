@@ -1,0 +1,997 @@
+{
+  "completed": true,
+  "passed": true,
+  "candidate_decisions": {
+    "current": {
+      "accepted": [
+        {
+          "key": "盐ᴬ",
+          "target": "at",
+          "observed_runtime_improvements_single_alias": 223,
+          "observed_ruby_unit_targets": [
+            "at"
+          ],
+          "observed_whole_rule_targets": [],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "盐ᴵ",
+          "target": "it",
+          "observed_runtime_improvements_single_alias": 4,
+          "observed_ruby_unit_targets": [
+            "it"
+          ],
+          "observed_whole_rule_targets": [],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "炎ᵀ",
+          "target": "it",
+          "observed_runtime_improvements_single_alias": 121,
+          "observed_ruby_unit_targets": [
+            "it"
+          ],
+          "observed_whole_rule_targets": [],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "兄ᶠᴿ",
+          "target": "fra",
+          "observed_runtime_improvements_single_alias": 12,
+          "observed_ruby_unit_targets": [
+            "fra"
+          ],
+          "observed_whole_rule_targets": [],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "父ᴾᴬ",
+          "target": "pa",
+          "observed_runtime_improvements_single_alias": 12,
+          "observed_ruby_unit_targets": [
+            "pa"
+          ],
+          "observed_whole_rule_targets": [],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "插ᴾ",
+          "target": "pol",
+          "observed_runtime_improvements_single_alias": 190,
+          "observed_ruby_unit_targets": [
+            "pol"
+          ],
+          "observed_whole_rule_targets": [
+            "pol"
+          ],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "白ᴸᴱ",
+          "target": "leŭk",
+          "observed_runtime_improvements_single_alias": 26,
+          "observed_ruby_unit_targets": [
+            "leŭk"
+          ],
+          "observed_whole_rule_targets": [],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        }
+      ],
+      "excluded": [
+        {
+          "key": "两ᴴ",
+          "target": "herm",
+          "runtime_improvements": 0,
+          "alternative_known_segmentations": [],
+          "reason": "no complete improvement among observed failing runtime inputs"
+        },
+        {
+          "key": "名ᴺᴵ",
+          "target": "nim",
+          "runtime_improvements": 0,
+          "alternative_known_segmentations": [],
+          "reason": "no complete improvement among observed failing runtime inputs"
+        },
+        {
+          "key": "切ᵀᴼ",
+          "target": "tom",
+          "runtime_improvements": 0,
+          "alternative_known_segmentations": [],
+          "reason": "no complete improvement among observed failing runtime inputs"
+        },
+        {
+          "key": "醇馏",
+          "target": "alkoholat",
+          "reason": "No observed ruby unit or whole-rendering improvement; known 醇+馏 composition spells alkoholdistil."
+        }
+      ]
+    },
+    "legacy": {
+      "accepted": [
+        {
+          "key": "盐ᴬ",
+          "target": "at",
+          "observed_runtime_improvements_single_alias": 614,
+          "observed_ruby_unit_targets": [
+            "at"
+          ],
+          "observed_whole_rule_targets": [],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "盐ᴵ",
+          "target": "it",
+          "observed_runtime_improvements_single_alias": 52,
+          "observed_ruby_unit_targets": [
+            "it"
+          ],
+          "observed_whole_rule_targets": [],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "炎ᵀ",
+          "target": "it",
+          "observed_runtime_improvements_single_alias": 1378,
+          "observed_ruby_unit_targets": [
+            "it"
+          ],
+          "observed_whole_rule_targets": [],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "兄ᶠᴿ",
+          "target": "fra",
+          "observed_runtime_improvements_single_alias": 12,
+          "observed_ruby_unit_targets": [
+            "fra"
+          ],
+          "observed_whole_rule_targets": [],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "父ᴾᴬ",
+          "target": "pa",
+          "observed_runtime_improvements_single_alias": 12,
+          "observed_ruby_unit_targets": [
+            "pa"
+          ],
+          "observed_whole_rule_targets": [],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "插ᴾ",
+          "target": "pol",
+          "observed_runtime_improvements_single_alias": 190,
+          "observed_ruby_unit_targets": [
+            "pol"
+          ],
+          "observed_whole_rule_targets": [
+            "pol"
+          ],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "白ᴸᴱ",
+          "target": "leŭk",
+          "observed_runtime_improvements_single_alias": 26,
+          "observed_ruby_unit_targets": [
+            "leŭk"
+          ],
+          "observed_whole_rule_targets": [],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "两ᴴ",
+          "target": "herm",
+          "observed_runtime_improvements_single_alias": 35,
+          "observed_ruby_unit_targets": [
+            "herm"
+          ],
+          "observed_whole_rule_targets": [],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "名ᴺᴵ",
+          "target": "nim",
+          "observed_runtime_improvements_single_alias": 52,
+          "observed_ruby_unit_targets": [
+            "nim"
+          ],
+          "observed_whole_rule_targets": [],
+          "known_complete_key_segmentations": [],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "远声ᶠᴼ",
+          "target": "telefon",
+          "observed_runtime_improvements_single_alias": 212,
+          "observed_ruby_unit_targets": [],
+          "observed_whole_rule_targets": [
+            "telefon"
+          ],
+          "known_complete_key_segmentations": [
+            [
+              [
+                "远",
+                "tele"
+              ],
+              [
+                "声ᶠᴼ",
+                "fon"
+              ]
+            ]
+          ],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "微镜ˢᴷ",
+          "target": "mikroskop",
+          "observed_runtime_improvements_single_alias": 89,
+          "observed_ruby_unit_targets": [],
+          "observed_whole_rule_targets": [
+            "mikroskop"
+          ],
+          "known_complete_key_segmentations": [
+            [
+              [
+                "微",
+                "mikro"
+              ],
+              [
+                "镜ˢᴷ",
+                "skop"
+              ]
+            ]
+          ],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "氧生ᴳ",
+          "target": "oksigen",
+          "observed_runtime_improvements_single_alias": 32,
+          "observed_ruby_unit_targets": [],
+          "observed_whole_rule_targets": [
+            "oksigen"
+          ],
+          "known_complete_key_segmentations": [
+            [
+              [
+                "氧",
+                "oksi"
+              ],
+              [
+                "生ᴳ",
+                "gen"
+              ]
+            ]
+          ],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "间学ᴸᴺ",
+          "target": "interlingvistik",
+          "observed_runtime_improvements_single_alias": 26,
+          "observed_ruby_unit_targets": [],
+          "observed_whole_rule_targets": [
+            "interlingvistik"
+          ],
+          "known_complete_key_segmentations": [
+            [
+              [
+                "间",
+                "inter"
+              ],
+              [
+                "学ᴸᴺ",
+                "lingvistik"
+              ]
+            ]
+          ],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "越形具ᴬ",
+          "target": "transformator",
+          "observed_runtime_improvements_single_alias": 26,
+          "observed_ruby_unit_targets": [],
+          "observed_whole_rule_targets": [
+            "transformator"
+          ],
+          "known_complete_key_segmentations": [
+            [
+              [
+                "越",
+                "trans"
+              ],
+              [
+                "形",
+                "form"
+              ],
+              [
+                "具ᴬ",
+                "ator"
+              ]
+            ]
+          ],
+          "existing_exact_owner": null
+        },
+        {
+          "key": "单色ᴷᴿ",
+          "target": "monokromat",
+          "observed_runtime_improvements_single_alias": 32,
+          "observed_ruby_unit_targets": [],
+          "observed_whole_rule_targets": [
+            "monokromat"
+          ],
+          "known_complete_key_segmentations": [
+            [
+              [
+                "单",
+                "mono"
+              ],
+              [
+                "色ᴷᴿ",
+                "kromat"
+              ]
+            ]
+          ],
+          "existing_exact_owner": null
+        }
+      ],
+      "excluded": [
+        {
+          "key": "切ᵀᴼ",
+          "target": "tom",
+          "runtime_improvements": 0,
+          "alternative_known_segmentations": [],
+          "reason": "no complete improvement among observed failing runtime inputs"
+        },
+        {
+          "key": "囊室除ᴱᴷ",
+          "target": "divertikulektomi",
+          "runtime_improvements": 26,
+          "alternative_known_segmentations": [
+            {
+              "pieces": [
+                [
+                  "囊",
+                  "vezik"
+                ],
+                [
+                  "室",
+                  "ĉambr"
+                ],
+                [
+                  "除ᴱᴷ",
+                  "ektomi"
+                ]
+              ],
+              "concatenated_root": "vezikĉambrektomi"
+            }
+          ],
+          "reason": "alternative known segmentation yields a different spelling"
+        },
+        {
+          "key": "戏法员ᴬᵀ",
+          "target": "prestidigitator",
+          "runtime_improvements": 26,
+          "alternative_known_segmentations": [
+            {
+              "pieces": [
+                [
+                  "戏",
+                  "spektakl"
+                ],
+                [
+                  "法",
+                  "jur"
+                ],
+                [
+                  "员ᴬᵀ",
+                  "ator"
+                ]
+              ],
+              "concatenated_root": "spektakljurator"
+            }
+          ],
+          "reason": "alternative known segmentation yields a different spelling"
+        },
+        {
+          "key": "醇馏",
+          "target": "alkoholat",
+          "reason": "No observed ruby unit or whole-rendering improvement; known 醇+馏 composition spells alkoholdistil."
+        },
+        {
+          "key": "内ᴱᴰ镜ˢᴷ",
+          "target": "endoskop",
+          "reason": "Already restores correctly without an alias; no improvement."
+        }
+      ]
+    }
+  },
+  "apps": [
+    {
+      "language": "JA",
+      "private_relative_directory": "kanjized-esperanto-reverter",
+      "changed_files": [
+        "data/current_inverse_aliases.json",
+        "data/legacy_inverse_aliases.json",
+        "esperanto_converter.py",
+        "README.md",
+        "tests/test_current_inverse_aliases.py",
+        "tests/test_legacy_inverse_aliases.py"
+      ],
+      "changed_functions": [
+        "load_legacy_inverse_aliases",
+        "render_sidebar",
+        "load_current_inverse_aliases"
+      ],
+      "canonical_and_other_data_unchanged": [
+        {
+          "path": "data/current_dictionary_source.json",
+          "sha256": "70a37e51852bf58740204ace6c680edce89c4b419692fa51727f511b5d9f48ad"
+        },
+        {
+          "path": "data/dot-greft-20261018.json",
+          "sha256": "b343dcaa9eaf1d7e5fb35c57cbca3c63ae8626cd453692ca86f57d2007f0d762"
+        },
+        {
+          "path": "data/four-reviewed-assignments-20261017.json",
+          "sha256": "eadc8645b5c049440bf34a45cca975ba6ae394cc2589186af34049ed04217013"
+        },
+        {
+          "path": "data/four-shared-assignments-20261017.json",
+          "sha256": "b1d1f2781e4131a88499722fc9309ddc783554505f131cd75409d4a84b5b4d75"
+        },
+        {
+          "path": "data/mirror-identifiers-20261017.json",
+          "sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60"
+        },
+        {
+          "path": "data/monaco_source_20261017.json",
+          "sha256": "8e99e85a6a78cf99f7692b2727d7a86d48f47d1bc912276fb0abda71f0bb565a"
+        },
+        {
+          "path": "data/nostalgi-onk-fortres-assignments-20261017.json",
+          "sha256": "aae9162c2d1b8ce253af1bf6be927f8dbb45752fc9137dd0093f53e2220e06a1"
+        },
+        {
+          "path": "data/observatori-assignment-20261017.json",
+          "sha256": "d8b61e22f040212b1619ef1fcaa1a39f58e1735ed92e356a5be094e900b5ecd7"
+        },
+        {
+          "path": "data/pejvo_piv_20260620_reverter.csv",
+          "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074"
+        },
+        {
+          "path": "data/pejvo_piv_pre_dot_greft_20261018.csv",
+          "sha256": "3219d77284ddf21c90b6d33a580ead00a3c38b2628b09ed205883c9255f6bd65"
+        },
+        {
+          "path": "data/pejvo_piv_pre_las_20261017.csv",
+          "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+        },
+        {
+          "path": "data/pejvo_piv_pre_mirror_20261017.csv",
+          "sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a"
+        },
+        {
+          "path": "data/pejvo_piv_pre_satir_20261017.csv",
+          "sha256": "ec6d04c11d3bee9fc2063342b73b884c1fc02819a736dc033f5b6e99e320f6c8"
+        },
+        {
+          "path": "data/pejvo_piv_pre_sperm_distinction_20261018.csv",
+          "sha256": "87e9317a0fc35ef1ae50462002ec8143b129c3e64112f4eda360336796fe50fb"
+        },
+        {
+          "path": "data/pejvo_piv_pre_three_short_20261017.csv",
+          "sha256": "4d32d2eb5331c8d0d90e8d3995b6a27c1e8a108eb09c281c54c598db21cf48fd"
+        },
+        {
+          "path": "data/protez-ranc-assignments-20261017.json",
+          "sha256": "3491328f8d6d1c32534b844731d5ebabd0de4db03c69b9dad0112a9131b206bd"
+        },
+        {
+          "path": "data/satir-assignment-20261017.json",
+          "sha256": "8ad557482504a6e48cf5ef0142e95c3febc3022289bf2fe64a8105fee026b439"
+        },
+        {
+          "path": "data/snippet_pre_dot_greft_20261018.csv",
+          "sha256": "22ef2de51e53bd19314b6c7f140aa8d82b0914bd71bfdd0b2c943cbc71591f07"
+        },
+        {
+          "path": "data/snippet_pre_satir_20261017.csv",
+          "sha256": "803a60e0b5b7017601378681876b30f15d926d4b2028694f116c009e0f7ec416"
+        },
+        {
+          "path": "data/snippet_pre_sperm_distinction_20261018.csv",
+          "sha256": "d9aa07044691264d371b2e526b7167264e3cc41790e8e6bb948ed829997d7ff7"
+        },
+        {
+          "path": "data/snippet_pre_three_short_20261017.csv",
+          "sha256": "22536c3a1348f2da787fadd86468dc1a8779f520dadff15abc93b7b2b339c30e"
+        },
+        {
+          "path": "data/sperm-distinction-20261018.json",
+          "sha256": "3c91b271b07d7ffe7a664887c726239a249b67084a0c2e8b49c202c18a52ce42"
+        },
+        {
+          "path": "data/stafilokok-assignment-20261017.json",
+          "sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a"
+        },
+        {
+          "path": "data/sutur-fraj-assignments-20261017.json",
+          "sha256": "19205ad78fbd88208119a3e03ed30bc7104d2e66a542a7646a5c95996c5c4d64"
+        },
+        {
+          "path": "data/three-short-assignments-20261017.json",
+          "sha256": "8c681933fa1bc5e4a127da385ff3dbf4bf3adf7ad513291d6f467f80069effe4"
+        },
+        {
+          "path": "data/two_editions_policy.json",
+          "sha256": "41c12930485b31d02499965eeb7b8f73f80ec7361aea2252b79fe1c074034762"
+        },
+        {
+          "path": "data/uve-assignments-20261017.json",
+          "sha256": "fc3acc1523d35c94e1955c29ec92ff04684e69c564ca39da4881d5bc4e2244ad"
+        },
+        {
+          "path": "エスペラント語根-漢字対応表_スニペット用最小限.csv",
+          "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4"
+        }
+      ],
+      "editions": [
+        {
+          "source_id": "pejvo-piv-20260620",
+          "before_rows": 10679,
+          "after_rows": 10686,
+          "added_exact_keys": {
+            "兄ᶠᴿ": "fra",
+            "父ᴾᴬ": "pa",
+            "白ᴸᴱ": "leŭk",
+            "盐ᴬ": "at",
+            "盐ᴵ": "it",
+            "炎ᵀ": "it",
+            "插ᴾ": "pol"
+          },
+          "existing_exact_owners_unchanged": 10679,
+          "canonical_download_bytes_unchanged": true,
+          "effective_download_roundtrip_index_equal": true,
+          "effective_csv_sha256": "be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2",
+          "manifest_sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+          "provenance": {
+            "source_id": "pejvo-piv-20260620",
+            "edition": "new",
+            "revision": "2026-10-18-dot-greft",
+            "edition_id": "current",
+            "dictionary_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+            "identity": "pejvo-piv-20260620:2026-10-18-dot-greft:4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074:current-unique-inverse-20261018-v2:e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+            "label": "新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-unique-inverse-20261018-v2 / e0bd60ad6221",
+            "result_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.txt",
+            "dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+            "snippet_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+            "inverse_compatibility_revision": "current-unique-inverse-20261018-v2",
+            "inverse_compatibility_sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+            "effective_dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.csv"
+          }
+        },
+        {
+          "source_id": "legacy-minimal",
+          "before_rows": 10678,
+          "after_rows": 10678,
+          "added_exact_keys": {},
+          "existing_exact_owners_unchanged": 10678
+        },
+        {
+          "source_id": "pre-three-short-20261017",
+          "before_rows": 10652,
+          "after_rows": 10652,
+          "added_exact_keys": {},
+          "existing_exact_owners_unchanged": 10652
+        },
+        {
+          "source_id": "pre-dot-greft-20261018",
+          "before_rows": 10676,
+          "after_rows": 10676,
+          "added_exact_keys": {},
+          "existing_exact_owners_unchanged": 10676
+        },
+        {
+          "source_id": "pre-sperm-distinction-20261018",
+          "before_rows": 10670,
+          "after_rows": 10670,
+          "added_exact_keys": {},
+          "existing_exact_owners_unchanged": 10670
+        },
+        {
+          "source_id": "pre-satir-20261017",
+          "before_rows": 10668,
+          "after_rows": 10668,
+          "added_exact_keys": {},
+          "existing_exact_owners_unchanged": 10668
+        },
+        {
+          "source_id": "pre-mirror-20261017",
+          "before_rows": 10642,
+          "after_rows": 10642,
+          "added_exact_keys": {},
+          "existing_exact_owners_unchanged": 10642
+        },
+        {
+          "source_id": "pre-las-20261017",
+          "before_rows": 10639,
+          "after_rows": 10654,
+          "added_exact_keys": {
+            "远声ᶠᴼ": "telefon",
+            "微镜ˢᴷ": "mikroskop",
+            "间学ᴸᴺ": "interlingvistik",
+            "越形具ᴬ": "transformator",
+            "单色ᴷᴿ": "monokromat",
+            "兄ᶠᴿ": "fra",
+            "父ᴾᴬ": "pa",
+            "白ᴸᴱ": "leŭk",
+            "名ᴺᴵ": "nim",
+            "氧生ᴳ": "oksigen",
+            "盐ᴬ": "at",
+            "盐ᴵ": "it",
+            "炎ᵀ": "it",
+            "插ᴾ": "pol",
+            "两ᴴ": "herm"
+          },
+          "existing_exact_owners_unchanged": 10639,
+          "canonical_download_bytes_unchanged": true,
+          "effective_download_roundtrip_index_equal": true,
+          "effective_csv_sha256": "5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3",
+          "manifest_sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+          "provenance": {
+            "source_id": "pre-las-20261017",
+            "edition": "old",
+            "revision": "4c16c8937c60",
+            "edition_id": "legacy",
+            "dictionary_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+            "identity": "pre-las-20261017:4c16c8937c60:eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14:legacy-unique-inverse-20261018-v2:31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+            "label": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-unique-inverse-20261018-v2 / 31b2f361d71e",
+            "result_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.txt",
+            "dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+            "snippet_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+            "inverse_compatibility_revision": "legacy-unique-inverse-20261018-v2",
+            "inverse_compatibility_sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+            "effective_dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.csv"
+          }
+        }
+      ],
+      "custom_dictionary_not_silently_augmented": true,
+      "runtime_manifest_mirrors": [
+        {
+          "path": "esperanto_converter.py",
+          "sha256": "af39b06a6ef8b659f4c5e58cb198e2ae5a1fdb7d45d2a2770938b3da7f720b17"
+        },
+        {
+          "path": "data/current_inverse_aliases.json",
+          "sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3"
+        },
+        {
+          "path": "data/legacy_inverse_aliases.json",
+          "sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7"
+        },
+        {
+          "path": "tests/test_current_inverse_aliases.py",
+          "sha256": "57c4efbbe026923dab27b7b5e607afeded2fe18a0468567e87360339bac3dfed"
+        },
+        {
+          "path": "tests/test_legacy_inverse_aliases.py",
+          "sha256": "c4726c4e2ede17f6bf78d204751c793e0667f770fc8df274a077fc8a5c3f2333"
+        },
+        {
+          "path": "tests/test_unique_inverse_keys.py",
+          "sha256": "d0322a2bee5ff6a6e395117c0cae931d0fdc468e7204c74e2ac882147b5b6951"
+        }
+      ]
+    },
+    {
+      "language": "ZH",
+      "private_relative_directory": "hanzized-esperanto-reverter-zh_更新版20260822",
+      "changed_files": [
+        "data/current_inverse_aliases.json",
+        "data/legacy_inverse_aliases.json",
+        "esperanto_converter_zh.py",
+        "README.md",
+        "tests/test_current_inverse_aliases.py",
+        "tests/test_legacy_inverse_aliases.py"
+      ],
+      "changed_functions": [
+        "load_legacy_inverse_aliases",
+        "render_sidebar",
+        "load_current_inverse_aliases"
+      ],
+      "canonical_and_other_data_unchanged": [
+        {
+          "path": "data/current_dictionary_source.json",
+          "sha256": "70a37e51852bf58740204ace6c680edce89c4b419692fa51727f511b5d9f48ad"
+        },
+        {
+          "path": "data/dot-greft-20261018.json",
+          "sha256": "b343dcaa9eaf1d7e5fb35c57cbca3c63ae8626cd453692ca86f57d2007f0d762"
+        },
+        {
+          "path": "data/four-reviewed-assignments-20261017.json",
+          "sha256": "eadc8645b5c049440bf34a45cca975ba6ae394cc2589186af34049ed04217013"
+        },
+        {
+          "path": "data/four-shared-assignments-20261017.json",
+          "sha256": "b1d1f2781e4131a88499722fc9309ddc783554505f131cd75409d4a84b5b4d75"
+        },
+        {
+          "path": "data/mirror-identifiers-20261017.json",
+          "sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60"
+        },
+        {
+          "path": "data/monaco_source_20261017.json",
+          "sha256": "8e99e85a6a78cf99f7692b2727d7a86d48f47d1bc912276fb0abda71f0bb565a"
+        },
+        {
+          "path": "data/nostalgi-onk-fortres-assignments-20261017.json",
+          "sha256": "aae9162c2d1b8ce253af1bf6be927f8dbb45752fc9137dd0093f53e2220e06a1"
+        },
+        {
+          "path": "data/observatori-assignment-20261017.json",
+          "sha256": "d8b61e22f040212b1619ef1fcaa1a39f58e1735ed92e356a5be094e900b5ecd7"
+        },
+        {
+          "path": "data/pejvo_piv_20260620_reverter.csv",
+          "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074"
+        },
+        {
+          "path": "data/pejvo_piv_pre_dot_greft_20261018.csv",
+          "sha256": "3219d77284ddf21c90b6d33a580ead00a3c38b2628b09ed205883c9255f6bd65"
+        },
+        {
+          "path": "data/pejvo_piv_pre_las_20261017.csv",
+          "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+        },
+        {
+          "path": "data/pejvo_piv_pre_mirror_20261017.csv",
+          "sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a"
+        },
+        {
+          "path": "data/pejvo_piv_pre_satir_20261017.csv",
+          "sha256": "ec6d04c11d3bee9fc2063342b73b884c1fc02819a736dc033f5b6e99e320f6c8"
+        },
+        {
+          "path": "data/pejvo_piv_pre_sperm_distinction_20261018.csv",
+          "sha256": "87e9317a0fc35ef1ae50462002ec8143b129c3e64112f4eda360336796fe50fb"
+        },
+        {
+          "path": "data/pejvo_piv_pre_three_short_20261017.csv",
+          "sha256": "4d32d2eb5331c8d0d90e8d3995b6a27c1e8a108eb09c281c54c598db21cf48fd"
+        },
+        {
+          "path": "data/protez-ranc-assignments-20261017.json",
+          "sha256": "3491328f8d6d1c32534b844731d5ebabd0de4db03c69b9dad0112a9131b206bd"
+        },
+        {
+          "path": "data/satir-assignment-20261017.json",
+          "sha256": "8ad557482504a6e48cf5ef0142e95c3febc3022289bf2fe64a8105fee026b439"
+        },
+        {
+          "path": "data/snippet_pre_dot_greft_20261018.csv",
+          "sha256": "22ef2de51e53bd19314b6c7f140aa8d82b0914bd71bfdd0b2c943cbc71591f07"
+        },
+        {
+          "path": "data/snippet_pre_satir_20261017.csv",
+          "sha256": "803a60e0b5b7017601378681876b30f15d926d4b2028694f116c009e0f7ec416"
+        },
+        {
+          "path": "data/snippet_pre_sperm_distinction_20261018.csv",
+          "sha256": "d9aa07044691264d371b2e526b7167264e3cc41790e8e6bb948ed829997d7ff7"
+        },
+        {
+          "path": "data/snippet_pre_three_short_20261017.csv",
+          "sha256": "22536c3a1348f2da787fadd86468dc1a8779f520dadff15abc93b7b2b339c30e"
+        },
+        {
+          "path": "data/sperm-distinction-20261018.json",
+          "sha256": "3c91b271b07d7ffe7a664887c726239a249b67084a0c2e8b49c202c18a52ce42"
+        },
+        {
+          "path": "data/stafilokok-assignment-20261017.json",
+          "sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a"
+        },
+        {
+          "path": "data/sutur-fraj-assignments-20261017.json",
+          "sha256": "19205ad78fbd88208119a3e03ed30bc7104d2e66a542a7646a5c95996c5c4d64"
+        },
+        {
+          "path": "data/three-short-assignments-20261017.json",
+          "sha256": "8c681933fa1bc5e4a127da385ff3dbf4bf3adf7ad513291d6f467f80069effe4"
+        },
+        {
+          "path": "data/two_editions_policy.json",
+          "sha256": "41c12930485b31d02499965eeb7b8f73f80ec7361aea2252b79fe1c074034762"
+        },
+        {
+          "path": "data/uve-assignments-20261017.json",
+          "sha256": "fc3acc1523d35c94e1955c29ec92ff04684e69c564ca39da4881d5bc4e2244ad"
+        },
+        {
+          "path": "エスペラント語根-漢字対応表_スニペット用最小限.csv",
+          "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4"
+        }
+      ],
+      "editions": [
+        {
+          "source_id": "pejvo-piv-20260620",
+          "before_rows": 10679,
+          "after_rows": 10686,
+          "added_exact_keys": {
+            "兄ᶠᴿ": "fra",
+            "父ᴾᴬ": "pa",
+            "白ᴸᴱ": "leŭk",
+            "盐ᴬ": "at",
+            "盐ᴵ": "it",
+            "炎ᵀ": "it",
+            "插ᴾ": "pol"
+          },
+          "existing_exact_owners_unchanged": 10679,
+          "canonical_download_bytes_unchanged": true,
+          "effective_download_roundtrip_index_equal": true,
+          "effective_csv_sha256": "be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2",
+          "manifest_sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+          "provenance": {
+            "source_id": "pejvo-piv-20260620",
+            "edition": "new",
+            "revision": "2026-10-18-dot-greft",
+            "edition_id": "current",
+            "dictionary_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+            "identity": "pejvo-piv-20260620:2026-10-18-dot-greft:4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074:current-unique-inverse-20261018-v2:e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+            "label": "新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-unique-inverse-20261018-v2 / e0bd60ad6221",
+            "result_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.txt",
+            "dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+            "snippet_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+            "inverse_compatibility_revision": "current-unique-inverse-20261018-v2",
+            "inverse_compatibility_sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+            "effective_dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.csv"
+          }
+        },
+        {
+          "source_id": "legacy-minimal",
+          "before_rows": 10678,
+          "after_rows": 10678,
+          "added_exact_keys": {},
+          "existing_exact_owners_unchanged": 10678
+        },
+        {
+          "source_id": "pre-three-short-20261017",
+          "before_rows": 10652,
+          "after_rows": 10652,
+          "added_exact_keys": {},
+          "existing_exact_owners_unchanged": 10652
+        },
+        {
+          "source_id": "pre-dot-greft-20261018",
+          "before_rows": 10676,
+          "after_rows": 10676,
+          "added_exact_keys": {},
+          "existing_exact_owners_unchanged": 10676
+        },
+        {
+          "source_id": "pre-sperm-distinction-20261018",
+          "before_rows": 10670,
+          "after_rows": 10670,
+          "added_exact_keys": {},
+          "existing_exact_owners_unchanged": 10670
+        },
+        {
+          "source_id": "pre-satir-20261017",
+          "before_rows": 10668,
+          "after_rows": 10668,
+          "added_exact_keys": {},
+          "existing_exact_owners_unchanged": 10668
+        },
+        {
+          "source_id": "pre-mirror-20261017",
+          "before_rows": 10642,
+          "after_rows": 10642,
+          "added_exact_keys": {},
+          "existing_exact_owners_unchanged": 10642
+        },
+        {
+          "source_id": "pre-las-20261017",
+          "before_rows": 10639,
+          "after_rows": 10654,
+          "added_exact_keys": {
+            "远声ᶠᴼ": "telefon",
+            "微镜ˢᴷ": "mikroskop",
+            "间学ᴸᴺ": "interlingvistik",
+            "越形具ᴬ": "transformator",
+            "单色ᴷᴿ": "monokromat",
+            "兄ᶠᴿ": "fra",
+            "父ᴾᴬ": "pa",
+            "白ᴸᴱ": "leŭk",
+            "名ᴺᴵ": "nim",
+            "氧生ᴳ": "oksigen",
+            "盐ᴬ": "at",
+            "盐ᴵ": "it",
+            "炎ᵀ": "it",
+            "插ᴾ": "pol",
+            "两ᴴ": "herm"
+          },
+          "existing_exact_owners_unchanged": 10639,
+          "canonical_download_bytes_unchanged": true,
+          "effective_download_roundtrip_index_equal": true,
+          "effective_csv_sha256": "5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3",
+          "manifest_sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+          "provenance": {
+            "source_id": "pre-las-20261017",
+            "edition": "old",
+            "revision": "4c16c8937c60",
+            "edition_id": "legacy",
+            "dictionary_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+            "identity": "pre-las-20261017:4c16c8937c60:eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14:legacy-unique-inverse-20261018-v2:31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+            "label": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-unique-inverse-20261018-v2 / 31b2f361d71e",
+            "result_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.txt",
+            "dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+            "snippet_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+            "inverse_compatibility_revision": "legacy-unique-inverse-20261018-v2",
+            "inverse_compatibility_sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+            "effective_dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.csv"
+          }
+        }
+      ],
+      "custom_dictionary_not_silently_augmented": true,
+      "runtime_manifest_mirrors": [
+        {
+          "path": "esperanto_converter_zh.py",
+          "sha256": "b3fa1333e8762561520654551dfb5c0ccc2c304364a0168106e6318df4c59a34"
+        },
+        {
+          "path": "data/current_inverse_aliases.json",
+          "sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3"
+        },
+        {
+          "path": "data/legacy_inverse_aliases.json",
+          "sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7"
+        },
+        {
+          "path": "tests/test_current_inverse_aliases.py",
+          "sha256": "05781b88d207a1e508ce74e9cf3e3f9770b46f1c4e6cedf5d9bdd1df9d038c45"
+        },
+        {
+          "path": "tests/test_legacy_inverse_aliases.py",
+          "sha256": "35a9c0b75288516e66d78e4885eddfd23edbfd14d26eaf05f8d9cdc9b149daf9"
+        },
+        {
+          "path": "tests/test_unique_inverse_keys.py",
+          "sha256": "3dc5dfd908b863ec4a6c84bba1c84c6e1c12914ebc849999181efbac095924b5"
+        }
+      ]
+    }
+  ],
+  "known_limits": [
+    "No existing exact inverse key owner is overwritten. That does not prove arbitrary compounds cannot form a new long match across boundaries.",
+    "Accepted candidates have observed runtime improvements and no conflicting known-key segmentation; full finite-corpus replay remains the separate release gate.",
+    "A previously failing input that changes but remains wrong is not counted as a successful fix.",
+    "Legacy canonical CSV and both canonical download formats remain fixed; inverse-only supplement and provenance revisions advance."
+  ],
+  "source_evidence": {
+    "implementation_before.json": "eadd9664d3e5b84485f9805e168d24556edf9307e35d31327f11be1e552c7dec",
+    "implementation_before.zip": "7d02d208e54467950618b8923751d50e86c268432614f8db6b43b6602a5d6158",
+    "implementation_scope_candidates.json": "d0ee60b770dcc07eb1d5be22e400c7dc864eded6af63457cf959f5bbdd3bb5b4"
+  },
+  "reviewer_script_sha256": "f78ba88c4647e0bd9411163dd4383b2be373a6749dbc3c5779a0022882797576"
+}

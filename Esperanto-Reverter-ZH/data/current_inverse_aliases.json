@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "current-orkidit-inverse-20261018-v1",
+  "revision": "current-unique-inverse-20261018-v2",
   "source_id": "pejvo-piv-20260620",
   "dictionary_revision": "2026-10-18-dot-greft",
   "current_csv_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
@@ -12,9 +12,51 @@
     {
       "kanji": "兰炎ᵀ",
       "esperanto": "orkidit"
+    },
+    {
+      "kanji": "盐ᴬ",
+      "esperanto": "at"
+    },
+    {
+      "kanji": "盐ᴵ",
+      "esperanto": "it"
+    },
+    {
+      "kanji": "炎ᵀ",
+      "esperanto": "it"
+    },
+    {
+      "kanji": "兄ᶠᴿ",
+      "esperanto": "fra"
+    },
+    {
+      "kanji": "父ᴾᴬ",
+      "esperanto": "pa"
+    },
+    {
+      "kanji": "插ᴾ",
+      "esperanto": "pol"
+    },
+    {
+      "kanji": "白ᴸᴱ",
+      "esperanto": "leŭk"
     }
   ],
-  "reason": "Restore the current forward app output of bare/adjectival/verbal orkidit forms without changing assignments, decomposition, identifiers, canonical CSV, or the generic conversion algorithm.",
-  "scope": "Exact full-key inverse-only alias for primary current edition; legacy supplement, archived sources and custom inputs remain independent.",
-  "update_policy": "Pin the reviewed current CSV bytes and dictionary revision. A subsequent dictionary update must re-audit all existing keys and boundary collisions before updating this pin; do not advance it automatically."
+  "reason": "Restore reviewed missing inverse keys found in actual old/new forward output, preserving all assignments, identifiers, decomposition, canonical CSV bytes and generic longest-match conversion.",
+  "scope": "Exact reviewed supplement for this edition only. Prior testikit/orkidit aliases retained. No automatic application to archived sources or uploaded custom dictionaries.",
+  "update_policy": "Pin the reviewed current CSV bytes and dictionary revision. A subsequent dictionary update must re-audit all existing keys and boundary collisions before updating this pin; do not advance it automatically.",
+  "reviewed_additions": {
+    "audit": "full-roundtrip-audit-20261018",
+    "repair": "unique-inverse-keys-20261018",
+    "new_keys": [
+      "盐ᴬ",
+      "盐ᴵ",
+      "炎ᵀ",
+      "兄ᶠᴿ",
+      "父ᴾᴬ",
+      "插ᴾ",
+      "白ᴸᴱ"
+    ],
+    "evidence": "Unique observed ruby/whole-root spelling, positive actual-corpus improvement, no competing complete known-key segmentation. Full existing-output regression is required before release."
+  }
 }

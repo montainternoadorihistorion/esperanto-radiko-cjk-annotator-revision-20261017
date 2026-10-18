@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "legacy-inverse-aliases-20261018-v1",
+  "revision": "legacy-unique-inverse-20261018-v2",
   "source_id": "pre-las-20261017",
   "fixed_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "canonical_commit": "4c16c8937c601fdc149ccb8cbba1b6085cc94692",
@@ -16,10 +16,70 @@
     {
       "kanji": "兰炎ᵀ",
       "esperanto": "orkidit"
+    },
+    {
+      "kanji": "盐ᴬ",
+      "esperanto": "at"
+    },
+    {
+      "kanji": "盐ᴵ",
+      "esperanto": "it"
+    },
+    {
+      "kanji": "炎ᵀ",
+      "esperanto": "it"
+    },
+    {
+      "kanji": "兄ᶠᴿ",
+      "esperanto": "fra"
+    },
+    {
+      "kanji": "父ᴾᴬ",
+      "esperanto": "pa"
+    },
+    {
+      "kanji": "插ᴾ",
+      "esperanto": "pol"
+    },
+    {
+      "kanji": "白ᴸᴱ",
+      "esperanto": "leŭk"
+    },
+    {
+      "kanji": "两ᴴ",
+      "esperanto": "herm"
+    },
+    {
+      "kanji": "名ᴺᴵ",
+      "esperanto": "nim"
+    },
+    {
+      "kanji": "远声ᶠᴼ",
+      "esperanto": "telefon"
+    },
+    {
+      "kanji": "微镜ˢᴷ",
+      "esperanto": "mikroskop"
+    },
+    {
+      "kanji": "氧生ᴳ",
+      "esperanto": "oksigen"
+    },
+    {
+      "kanji": "间学ᴸᴺ",
+      "esperanto": "interlingvistik"
+    },
+    {
+      "kanji": "越形具ᴬ",
+      "esperanto": "transformator"
+    },
+    {
+      "kanji": "单色ᴷᴿ",
+      "esperanto": "monokromat"
     }
   ],
-  "reason": "Restore the fixed-old forward app renderings without changing old assignments, identifiers, canonical inverse CSVs, or the generic conversion algorithm.",
-  "scope": "Inverse-only exact full-key aliases for pre-las-20261017; no automatic application to current, archived, or custom dictionaries.",
+  "reason": "Restore reviewed missing inverse keys found in actual old/new forward output, preserving all assignments, identifiers, decomposition, canonical CSV bytes and generic longest-match conversion.",
+  "scope": "Exact reviewed supplement for this edition only. Prior testikit/orkidit aliases retained. No automatic application to archived sources or uploaded custom dictionaries.",
   "evidence": {
     "reported_words": [
       "testikito",
@@ -29,6 +89,29 @@
       "丸炎ᵀ": "testikit",
       "丸炎": "orkidit"
     },
-    "approval": "User requested restoration of fixed-old normal testikito/orkidito while retaining the original assignments; exactly three observed renderings are covered."
-  }
+    "approval": "The initial testikit/orkidit repair covered three observed renderings; those three aliases are retained. The user subsequently authorized this independently reviewed set of 15 missing unique inverse keys without assignment, decomposition or identifier changes."
+  },
+  "reviewed_additions": {
+    "audit": "full-roundtrip-audit-20261018",
+    "repair": "unique-inverse-keys-20261018",
+    "new_keys": [
+      "盐ᴬ",
+      "盐ᴵ",
+      "炎ᵀ",
+      "兄ᶠᴿ",
+      "父ᴾᴬ",
+      "插ᴾ",
+      "白ᴸᴱ",
+      "两ᴴ",
+      "名ᴺᴵ",
+      "远声ᶠᴼ",
+      "微镜ˢᴷ",
+      "氧生ᴳ",
+      "间学ᴸᴺ",
+      "越形具ᴬ",
+      "单色ᴷᴿ"
+    ],
+    "evidence": "Unique observed ruby/whole-root spelling, positive actual-corpus improvement, no competing complete known-key segmentation. Full existing-output regression is required before release."
+  },
+  "update_policy": "The old canonical CSV stays fixed. Expand this closed supplement only after independent collision and complete saved-output regression; do not derive aliases mechanically from canonical root names."
 }

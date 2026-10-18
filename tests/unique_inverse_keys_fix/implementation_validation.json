@@ -1,0 +1,187 @@
+{
+  "completed": true,
+  "runtime_frozen": true,
+  "scope": {
+    "current_new": 7,
+    "legacy_new": 15,
+    "current_total_aliases": 8,
+    "legacy_total_aliases": 18
+  },
+  "runtime_files": [
+    {
+      "path": "Esperanto-Reverter-JA/esperanto_converter.py",
+      "sha256": "af39b06a6ef8b659f4c5e58cb198e2ae5a1fdb7d45d2a2770938b3da7f720b17",
+      "bytes": 32309
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/current_inverse_aliases.json",
+      "sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+      "bytes": 2035
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/legacy_inverse_aliases.json",
+      "sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+      "bytes": 3250
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/esperanto_converter_zh.py",
+      "sha256": "b3fa1333e8762561520654551dfb5c0ccc2c304364a0168106e6318df4c59a34",
+      "bytes": 31456
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/current_inverse_aliases.json",
+      "sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+      "bytes": 2035
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/legacy_inverse_aliases.json",
+      "sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+      "bytes": 3250
+    }
+  ],
+  "fixed_data_files_unchanged": 54,
+  "fixed_data_files": [
+    "Esperanto-Reverter-JA/data/current_dictionary_source.json",
+    "Esperanto-Reverter-JA/data/dot-greft-20261018.json",
+    "Esperanto-Reverter-JA/data/four-reviewed-assignments-20261017.json",
+    "Esperanto-Reverter-JA/data/four-shared-assignments-20261017.json",
+    "Esperanto-Reverter-JA/data/mirror-identifiers-20261017.json",
+    "Esperanto-Reverter-JA/data/monaco_source_20261017.json",
+    "Esperanto-Reverter-JA/data/nostalgi-onk-fortres-assignments-20261017.json",
+    "Esperanto-Reverter-JA/data/observatori-assignment-20261017.json",
+    "Esperanto-Reverter-JA/data/pejvo_piv_20260620_reverter.csv",
+    "Esperanto-Reverter-JA/data/pejvo_piv_pre_dot_greft_20261018.csv",
+    "Esperanto-Reverter-JA/data/pejvo_piv_pre_las_20261017.csv",
+    "Esperanto-Reverter-JA/data/pejvo_piv_pre_mirror_20261017.csv",
+    "Esperanto-Reverter-JA/data/pejvo_piv_pre_satir_20261017.csv",
+    "Esperanto-Reverter-JA/data/pejvo_piv_pre_sperm_distinction_20261018.csv",
+    "Esperanto-Reverter-JA/data/pejvo_piv_pre_three_short_20261017.csv",
+    "Esperanto-Reverter-JA/data/protez-ranc-assignments-20261017.json",
+    "Esperanto-Reverter-JA/data/satir-assignment-20261017.json",
+    "Esperanto-Reverter-JA/data/snippet_pre_dot_greft_20261018.csv",
+    "Esperanto-Reverter-JA/data/snippet_pre_satir_20261017.csv",
+    "Esperanto-Reverter-JA/data/snippet_pre_sperm_distinction_20261018.csv",
+    "Esperanto-Reverter-JA/data/snippet_pre_three_short_20261017.csv",
+    "Esperanto-Reverter-JA/data/sperm-distinction-20261018.json",
+    "Esperanto-Reverter-JA/data/stafilokok-assignment-20261017.json",
+    "Esperanto-Reverter-JA/data/sutur-fraj-assignments-20261017.json",
+    "Esperanto-Reverter-JA/data/three-short-assignments-20261017.json",
+    "Esperanto-Reverter-JA/data/two_editions_policy.json",
+    "Esperanto-Reverter-JA/data/uve-assignments-20261017.json",
+    "Esperanto-Reverter-ZH/data/current_dictionary_source.json",
+    "Esperanto-Reverter-ZH/data/dot-greft-20261018.json",
+    "Esperanto-Reverter-ZH/data/four-reviewed-assignments-20261017.json",
+    "Esperanto-Reverter-ZH/data/four-shared-assignments-20261017.json",
+    "Esperanto-Reverter-ZH/data/mirror-identifiers-20261017.json",
+    "Esperanto-Reverter-ZH/data/monaco_source_20261017.json",
+    "Esperanto-Reverter-ZH/data/nostalgi-onk-fortres-assignments-20261017.json",
+    "Esperanto-Reverter-ZH/data/observatori-assignment-20261017.json",
+    "Esperanto-Reverter-ZH/data/pejvo_piv_20260620_reverter.csv",
+    "Esperanto-Reverter-ZH/data/pejvo_piv_pre_dot_greft_20261018.csv",
+    "Esperanto-Reverter-ZH/data/pejvo_piv_pre_las_20261017.csv",
+    "Esperanto-Reverter-ZH/data/pejvo_piv_pre_mirror_20261017.csv",
+    "Esperanto-Reverter-ZH/data/pejvo_piv_pre_satir_20261017.csv",
+    "Esperanto-Reverter-ZH/data/pejvo_piv_pre_sperm_distinction_20261018.csv",
+    "Esperanto-Reverter-ZH/data/pejvo_piv_pre_three_short_20261017.csv",
+    "Esperanto-Reverter-ZH/data/protez-ranc-assignments-20261017.json",
+    "Esperanto-Reverter-ZH/data/satir-assignment-20261017.json",
+    "Esperanto-Reverter-ZH/data/snippet_pre_dot_greft_20261018.csv",
+    "Esperanto-Reverter-ZH/data/snippet_pre_satir_20261017.csv",
+    "Esperanto-Reverter-ZH/data/snippet_pre_sperm_distinction_20261018.csv",
+    "Esperanto-Reverter-ZH/data/snippet_pre_three_short_20261017.csv",
+    "Esperanto-Reverter-ZH/data/sperm-distinction-20261018.json",
+    "Esperanto-Reverter-ZH/data/stafilokok-assignment-20261017.json",
+    "Esperanto-Reverter-ZH/data/sutur-fraj-assignments-20261017.json",
+    "Esperanto-Reverter-ZH/data/three-short-assignments-20261017.json",
+    "Esperanto-Reverter-ZH/data/two_editions_policy.json",
+    "Esperanto-Reverter-ZH/data/uve-assignments-20261017.json"
+  ],
+  "function_ast_checks": [
+    {
+      "language": "JA",
+      "functions": 25,
+      "changed_functions": [
+        "load_current_inverse_aliases",
+        "load_legacy_inverse_aliases",
+        "render_sidebar"
+      ],
+      "all_other_functions_ast_unchanged": true,
+      "changes": "Closed-set length validation and current docstring; sidebar counts dynamically follow validated closed alias sets."
+    },
+    {
+      "language": "ZH",
+      "functions": 25,
+      "changed_functions": [
+        "load_current_inverse_aliases",
+        "load_legacy_inverse_aliases",
+        "render_sidebar"
+      ],
+      "all_other_functions_ast_unchanged": true,
+      "changes": "Closed-set length validation and current docstring; sidebar counts dynamically follow validated closed alias sets."
+    }
+  ],
+  "tests": {
+    "JA": {
+      "full_pytest": {
+        "passed": 193,
+        "log": "implementation_full_JA.log",
+        "sha256": "b463f58c16b353949d88672a7aa163a974a956533b636ab63614cad6f8ff1e2d",
+        "last_line": "193 passed in 163.61s (0:02:43)"
+      },
+      "dictionary_sync": {
+        "exit_code": 0,
+        "log": "implementation_dictionary_sync_JA.log",
+        "sha256": "e28921698b5b8e8926fef0ad605be486f71e5649be5f5f3f91e6f4bf572319c3"
+      },
+      "test_files": [
+        {
+          "path": "Esperanto-Reverter-JA/tests/test_current_inverse_aliases.py",
+          "sha256": "57c4efbbe026923dab27b7b5e607afeded2fe18a0468567e87360339bac3dfed"
+        },
+        {
+          "path": "Esperanto-Reverter-JA/tests/test_legacy_inverse_aliases.py",
+          "sha256": "c4726c4e2ede17f6bf78d204751c793e0667f770fc8df274a077fc8a5c3f2333"
+        },
+        {
+          "path": "Esperanto-Reverter-JA/tests/test_unique_inverse_keys.py",
+          "sha256": "d0322a2bee5ff6a6e395117c0cae931d0fdc468e7204c74e2ac882147b5b6951"
+        }
+      ]
+    },
+    "ZH": {
+      "full_pytest": {
+        "passed": 193,
+        "log": "implementation_full_ZH.log",
+        "sha256": "8ce16247057b34a8badd00d4163d8f9b419aab9a49cb949151cae57e20fb02de",
+        "last_line": "193 passed in 165.84s (0:02:45)"
+      },
+      "dictionary_sync": {
+        "exit_code": 0,
+        "log": "implementation_dictionary_sync_ZH.log",
+        "sha256": "43a3a6f9ed041f7a8170428643667ca7f58ae09fad3f6a9b68e58c4c7f04289e"
+      },
+      "test_files": [
+        {
+          "path": "Esperanto-Reverter-ZH/tests/test_current_inverse_aliases.py",
+          "sha256": "05781b88d207a1e508ce74e9cf3e3f9770b46f1c4e6cedf5d9bdd1df9d038c45"
+        },
+        {
+          "path": "Esperanto-Reverter-ZH/tests/test_legacy_inverse_aliases.py",
+          "sha256": "35a9c0b75288516e66d78e4885eddfd23edbfd14d26eaf05f8d9cdc9b149daf9"
+        },
+        {
+          "path": "Esperanto-Reverter-ZH/tests/test_unique_inverse_keys.py",
+          "sha256": "3dc5dfd908b863ec4a6c84bba1c84c6e1c12914ebc849999181efbac095924b5"
+        }
+      ]
+    }
+  },
+  "cloud_fixture": {
+    "path": "cloud_fixture.json",
+    "sha256": "4dd8877c1acf30e9bae1d89751185c2fc6bf08ff0a3320f957e7fd2d3a4d48da"
+  },
+  "before_zip_sha256": "7d02d208e54467950618b8923751d50e86c268432614f8db6b43b6602a5d6158",
+  "full_saved_output_regression": "separate common-agent verification; not claimed by this unit-test report",
+  "cloud_deployment": "pending parent deployment; no Cloud actions performed here",
+  "no_git_actions": true
+}
