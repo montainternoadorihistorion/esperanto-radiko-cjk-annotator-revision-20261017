@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "cases": 4,
+  "same_original": "Mi lasis la ananason kaj jakvon sur la tablo. La teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. La libro klarigas la vorton spermato.",
+  "actual_forward_roundtrip_exact": true,
+  "real_inverse_apptest_exact": true,
+  "captures": [
+    {
+      "language": "JA",
+      "edition": "current",
+      "source_id": "pejvo-piv-20260620",
+      "original": "Mi lasis la ananason kaj jakvon sur la tablo. La teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. La libro klarigas la vorton spermato.",
+      "expected_original_lower": "mi lasis la ananason kaj jakvon sur la tablo. la teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. la libro klarigas la vorton spermato.",
+      "forward_first": "我 放is la 菠on 和ᴷ 菠蜜on 上 la 桌o. La 文ᵀo 题as 于 放ᴱo, 簧o, 簧ᴬo, 讽o, 讽ᴷo, 移植o, 妆o 和ᴷ 妆ᵀo. La 书o 清使as la 词on 精子o.",
+      "forward_output": "我 放is la 菠on 和ᴷ 菠蜜on 上 la 桌o. La 文ᵀo 题as 于 放ᴱo, 簧o, 簧ᴬo, 讽o, 讽ᴷo, 移植o, 妆o 和ᴷ 妆ᵀo. La 书o 清使as la 词on 精子o.",
+      "forward_automatic_overlay_rows": 0,
+      "restored": "mi lasis la ananason kaj jakvon sur la tablo. la teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. la libro klarigas la vorton spermato.",
+      "roundtrip_exact": true,
+      "forward_signature": "a70be6156d122b139e9d7ae92446195e91250877746fdb1d989deab1bc06025d",
+      "pure_asset_sha256": "108c0ff48dd6dd7363bba9f1b07eb15f6b69738afa0628590e5e0c8fd9986883"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "source_id": "pre-las-20261017",
+      "original": "Mi lasis la ananason kaj jakvon sur la tablo. La teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. La libro klarigas la vorton spermato.",
+      "expected_original_lower": "mi lasis la ananason kaj jakvon sur la tablo. la teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. la libro klarigas la vorton spermato.",
+      "forward_first": "我 留is la 菠萝on 和ᴷ 菠萝蜜on 上 la 桌o. La 文ᵀo 题as 于 放o, 弹簧o, 簧o, 讽刺o, 讽o, 嫁接o, 嫁妆o 和ᴷ 妆o. La 书o 清使as la 词on 精液ato.",
+      "forward_output": "我 留is la 菠萝on 和ᴷ 菠萝蜜on 上 la 桌o. La 文ᵀo 题as 于 放o, 弹簧o, 簧o, 讽刺o, 讽o, 嫁接o, 嫁妆o 和ᴷ 妆o. La 书o 清使as la 词on 精液ato.",
+      "forward_automatic_overlay_rows": 0,
+      "restored": "mi lasis la ananason kaj jakvon sur la tablo. la teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. la libro klarigas la vorton spermato.",
+      "roundtrip_exact": true,
+      "forward_signature": "795f609916e441ece485b0ad3e3ba8c452746e4aff9ffd905b34ebb7c653b85e",
+      "pure_asset_sha256": "3ef2efd50fbb13a834f7421c3e85bd406d2926dd304028b19e1de3264ec3fb40"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "source_id": "pejvo-piv-20260620",
+      "original": "Mi lasis la ananason kaj jakvon sur la tablo. La teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. La libro klarigas la vorton spermato.",
+      "expected_original_lower": "mi lasis la ananason kaj jakvon sur la tablo. la teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. la libro klarigas la vorton spermato.",
+      "forward_first": "我 放is la 菠on 和ᴷ 菠蜜on 上 la 桌o. La 文ᵀo 题as 于 放ᴱo, 簧o, 簧ᴬo, 讽o, 讽ᴷo, 移植o, 妆o 和ᴷ 妆ᵀo. La 书o 清使as la 词on 精子o.",
+      "forward_output": "我 放is la 菠on 和ᴷ 菠蜜on 上 la 桌o. La 文ᵀo 题as 于 放ᴱo, 簧o, 簧ᴬo, 讽o, 讽ᴷo, 移植o, 妆o 和ᴷ 妆ᵀo. La 书o 清使as la 词on 精子o.",
+      "forward_automatic_overlay_rows": 0,
+      "restored": "mi lasis la ananason kaj jakvon sur la tablo. la teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. la libro klarigas la vorton spermato.",
+      "roundtrip_exact": true,
+      "forward_signature": "3d3290d7a545d31c3e7fd975159d338bf4a6a3ab513d0ed590a5a20f62b143d2",
+      "pure_asset_sha256": "108c0ff48dd6dd7363bba9f1b07eb15f6b69738afa0628590e5e0c8fd9986883"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "source_id": "pre-las-20261017",
+      "original": "Mi lasis la ananason kaj jakvon sur la tablo. La teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. La libro klarigas la vorton spermato.",
+      "expected_original_lower": "mi lasis la ananason kaj jakvon sur la tablo. la teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. la libro klarigas la vorton spermato.",
+      "forward_first": "我 留is la 菠萝on 和ᴷ 菠萝蜜on 上 la 桌o. La 文ᵀo 题as 于 放o, 弹簧o, 簧o, 讽刺o, 讽o, 嫁接o, 嫁妆o 和ᴷ 妆o. La 书o 清使as la 词on 精液ato.",
+      "forward_output": "我 留is la 菠萝on 和ᴷ 菠萝蜜on 上 la 桌o. La 文ᵀo 题as 于 放o, 弹簧o, 簧o, 讽刺o, 讽o, 嫁接o, 嫁妆o 和ᴷ 妆o. La 书o 清使as la 词on 精液ato.",
+      "forward_automatic_overlay_rows": 0,
+      "restored": "mi lasis la ananason kaj jakvon sur la tablo. la teksto temas pri emancipo, risorto, anĉo, satiro, karikaturo, grefto, doto kaj tualeto. la libro klarigas la vorton spermato.",
+      "roundtrip_exact": true,
+      "forward_signature": "244f200ce3c74ae89c9b7c11ad98a930a928046adf36faaf91fc6271e7e44fc3",
+      "pure_asset_sha256": "3ef2efd50fbb13a834f7421c3e85bd406d2926dd304028b19e1de3264ec3fb40"
+    }
+  ],
+  "fixture_sha256": "7af43f21cde9db04a89c106edf5a9c4d5621bfc1addee1b71dba26eacc4bb644",
+  "publication_note": {
+    "comparison_rule": "restored == original.lower(); exact capitalization preservation is not claimed.",
+    "fixture_hash_at_capture": "7af43f21cde9db04a89c106edf5a9c4d5621bfc1addee1b71dba26eacc4bb644",
+    "final_cloud_fixture_sha256": "a1602cc0d700f7b1fd541dfdf50cf5de9e0b74ae31195c340de932f38c91c9ad",
+    "source_paired_report_sha256": "e8560373569f8ed8713e0d9a3fae09fe49e6f44e206fdba6af28e4ad0b6fa379"
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "passed": true,
+  "logical_downloads": 8,
+  "unique_files": 4,
+  "languages_same_bytes": true,
+  "source": "Actual integrated edition_download_data() output, not reconstructed from a different format",
+  "records": [
+    {
+      "language": "JA",
+      "edition": "current",
+      "source_id": "pejvo-piv-20260620",
+      "kind": "full",
+      "file": "reverse_download_current_full.csv",
+      "bytes": 317760,
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "expected_download_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+      "provenance": {
+        "source_id": "pejvo-piv-20260620",
+        "edition": "new",
+        "revision": "2026-10-18-dot-greft",
+        "edition_id": "current",
+        "dictionary_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+        "identity": "pejvo-piv-20260620:2026-10-18-dot-greft:4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+        "label": "新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590",
+        "result_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590.txt",
+        "dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+        "snippet_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv"
+      }
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "source_id": "pejvo-piv-20260620",
+      "kind": "two_column",
+      "file": "reverse_download_current_two_column.csv",
+      "bytes": 176571,
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+      "expected_download_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+      "provenance": {
+        "source_id": "pejvo-piv-20260620",
+        "edition": "new",
+        "revision": "2026-10-18-dot-greft",
+        "edition_id": "current",
+        "dictionary_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+        "identity": "pejvo-piv-20260620:2026-10-18-dot-greft:4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+        "label": "新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590",
+        "result_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590.txt",
+        "dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+        "snippet_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv"
+      }
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "source_id": "pre-las-20261017",
+      "kind": "full",
+      "file": "reverse_download_legacy_full.csv",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "expected_download_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+      "provenance": {
+        "source_id": "pre-las-20261017",
+        "edition": "old",
+        "revision": "4c16c8937c60",
+        "edition_id": "legacy",
+        "dictionary_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "identity": "pre-las-20261017:4c16c8937c60:eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "label": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a",
+        "result_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a.txt",
+        "dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+        "snippet_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv"
+      }
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "source_id": "pre-las-20261017",
+      "kind": "two_column",
+      "file": "reverse_download_legacy_two_column.csv",
+      "bytes": 166998,
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+      "expected_download_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+      "provenance": {
+        "source_id": "pre-las-20261017",
+        "edition": "old",
+        "revision": "4c16c8937c60",
+        "edition_id": "legacy",
+        "dictionary_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "identity": "pre-las-20261017:4c16c8937c60:eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "label": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a",
+        "result_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a.txt",
+        "dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+        "snippet_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv"
+      }
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "source_id": "pejvo-piv-20260620",
+      "kind": "full",
+      "file": "reverse_download_current_full.csv",
+      "bytes": 317760,
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "expected_download_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+      "provenance": {
+        "source_id": "pejvo-piv-20260620",
+        "edition": "new",
+        "revision": "2026-10-18-dot-greft",
+        "edition_id": "current",
+        "dictionary_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+        "identity": "pejvo-piv-20260620:2026-10-18-dot-greft:4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+        "label": "新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590",
+        "result_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590.txt",
+        "dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+        "snippet_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv"
+      }
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "source_id": "pejvo-piv-20260620",
+      "kind": "two_column",
+      "file": "reverse_download_current_two_column.csv",
+      "bytes": 176571,
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+      "expected_download_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+      "provenance": {
+        "source_id": "pejvo-piv-20260620",
+        "edition": "new",
+        "revision": "2026-10-18-dot-greft",
+        "edition_id": "current",
+        "dictionary_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+        "identity": "pejvo-piv-20260620:2026-10-18-dot-greft:4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+        "label": "新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590",
+        "result_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590.txt",
+        "dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+        "snippet_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv"
+      }
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "source_id": "pre-las-20261017",
+      "kind": "full",
+      "file": "reverse_download_legacy_full.csv",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "expected_download_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+      "provenance": {
+        "source_id": "pre-las-20261017",
+        "edition": "old",
+        "revision": "4c16c8937c60",
+        "edition_id": "legacy",
+        "dictionary_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "identity": "pre-las-20261017:4c16c8937c60:eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "label": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a",
+        "result_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a.txt",
+        "dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+        "snippet_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv"
+      }
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "source_id": "pre-las-20261017",
+      "kind": "two_column",
+      "file": "reverse_download_legacy_two_column.csv",
+      "bytes": 166998,
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+      "expected_download_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+      "provenance": {
+        "source_id": "pre-las-20261017",
+        "edition": "old",
+        "revision": "4c16c8937c60",
+        "edition_id": "legacy",
+        "dictionary_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "identity": "pre-las-20261017:4c16c8937c60:eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "label": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a",
+        "result_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a.txt",
+        "dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+        "snippet_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv"
+      }
+    }
+  ]
+}

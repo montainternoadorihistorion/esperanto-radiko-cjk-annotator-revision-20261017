@@ -1,0 +1,72 @@
+{
+  "apps": [
+    {
+      "label": "public_JA",
+      "entrypoint_sha256_before": "a7081fdef48677a88a2322c1e0e551bdabe08d9f3b02dc5b947da6a43689eae8",
+      "entrypoint_sha256_after": "0eb9e3007015c78c33697f7943aafbf2dde1582b4bb934c91261427ecf7c017e",
+      "test_sha256": "6d6ded52b52d8c68d6a619474edb0f0bd36241e5407ecb14e2a7f9a7940cadb0",
+      "unchanged_non_cache_ast_nodes": 55,
+      "assets_checked": 32,
+      "entrypoint_line_endings_before": {
+        "CRLF": 0,
+        "LF": 464
+      },
+      "entrypoint_line_endings_after": {
+        "CRLF": 0,
+        "LF": 482
+      }
+    },
+    {
+      "label": "public_ZH",
+      "entrypoint_sha256_before": "4f6d7b88fec338381b33d9bebe7f8372a0ee7e971f09eca256cd6e8a74fa7596",
+      "entrypoint_sha256_after": "ca946976dd354f5c3d3f991df6186d094bdc973270c9f3051f4d7b1384f124f3",
+      "test_sha256": "0747540e80ff8d4ba8b96d1eb2f546695b922555c0a209779cff9b76d22caa63",
+      "unchanged_non_cache_ast_nodes": 56,
+      "assets_checked": 32,
+      "entrypoint_line_endings_before": {
+        "CRLF": 0,
+        "LF": 469
+      },
+      "entrypoint_line_endings_after": {
+        "CRLF": 0,
+        "LF": 487
+      }
+    },
+    {
+      "label": "private_JA",
+      "entrypoint_sha256_before": "a7081fdef48677a88a2322c1e0e551bdabe08d9f3b02dc5b947da6a43689eae8",
+      "entrypoint_sha256_after": "0eb9e3007015c78c33697f7943aafbf2dde1582b4bb934c91261427ecf7c017e",
+      "test_sha256": "6d6ded52b52d8c68d6a619474edb0f0bd36241e5407ecb14e2a7f9a7940cadb0",
+      "unchanged_non_cache_ast_nodes": 55,
+      "assets_checked": 32,
+      "entrypoint_line_endings_before": {
+        "CRLF": 0,
+        "LF": 464
+      },
+      "entrypoint_line_endings_after": {
+        "CRLF": 0,
+        "LF": 482
+      }
+    },
+    {
+      "label": "private_ZH",
+      "entrypoint_sha256_before": "4f6d7b88fec338381b33d9bebe7f8372a0ee7e971f09eca256cd6e8a74fa7596",
+      "entrypoint_sha256_after": "ca946976dd354f5c3d3f991df6186d094bdc973270c9f3051f4d7b1384f124f3",
+      "test_sha256": "0747540e80ff8d4ba8b96d1eb2f546695b922555c0a209779cff9b76d22caa63",
+      "unchanged_non_cache_ast_nodes": 56,
+      "assets_checked": 32,
+      "entrypoint_line_endings_before": {
+        "CRLF": 0,
+        "LF": 469
+      },
+      "entrypoint_line_endings_after": {
+        "CRLF": 0,
+        "LF": 487
+      }
+    }
+  ],
+  "dictionary_or_tool_changes": [],
+  "unrelated_ast_changes": [],
+  "public_private_entrypoint_and_test_bytes_equal": true,
+  "status": "PASS"
+}

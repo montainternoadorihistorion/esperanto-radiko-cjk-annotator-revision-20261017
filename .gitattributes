@@ -29,3 +29,4 @@
 
 # Reverter snapshots and source hashes must retain exact bytes.
 /Esperanto-Reverter-*/** -text
+/tests/reverter_cloud/** -text
