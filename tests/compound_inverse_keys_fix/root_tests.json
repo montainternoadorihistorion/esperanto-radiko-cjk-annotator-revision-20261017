@@ -1,0 +1,10 @@
+{
+  "command": "python -X utf8 -m unittest discover -s tests -p test_*.py",
+  "working_directory": "D:/esperanto-radiko-cjk-annotator-revision-20261017",
+  "tests": 36,
+  "skipped": 1,
+  "elapsed_seconds": 291.275,
+  "exit_code": 0,
+  "status": "OK (skipped=1)",
+  "note": "Actual public-root suite execution. Existing ResourceWarnings about forward overlay file handles were emitted. No forward code or data was modified."
+}

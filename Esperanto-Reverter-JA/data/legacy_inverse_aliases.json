@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "legacy-unique-inverse-20261018-v2",
+  "revision": "legacy-compound-inverse-20261018-v3",
   "source_id": "pre-las-20261017",
   "fixed_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "canonical_commit": "4c16c8937c601fdc149ccb8cbba1b6085cc94692",
@@ -76,10 +76,570 @@
     {
       "kanji": "单色ᴷᴿ",
       "esperanto": "monokromat"
+    },
+    {
+      "kanji": "醋盐ᴬ",
+      "esperanto": "acetat"
+    },
+    {
+      "kanji": "气血ᴱ",
+      "esperanto": "aeremi"
+    },
+    {
+      "kanji": "锐名ᴼ",
+      "esperanto": "akronim"
+    },
+    {
+      "kanji": "醇盐ᴬ",
+      "esperanto": "alkoholat"
+    },
+    {
+      "kanji": "醇血ᴱ",
+      "esperanto": "alkoholemi"
+    },
+    {
+      "kanji": "替具ᴬ",
+      "esperanto": "alternator"
+    },
+    {
+      "kanji": "铝盐ᴬ",
+      "esperanto": "aluminiat"
+    },
+    {
+      "kanji": "担子菌ᴹᶜ",
+      "esperanto": "bazidimicet"
+    },
+    {
+      "kanji": "担子菌ᴹᴵ",
+      "esperanto": "bazidimikot"
+    },
+    {
+      "kanji": "青盐ᴬ",
+      "esperanto": "cianat"
+    },
+    {
+      "kanji": "青植ᶠ",
+      "esperanto": "cianfit"
+    },
+    {
+      "kanji": "青化ᴵᴰ",
+      "esperanto": "cianid"
+    },
+    {
+      "kanji": "三角洲似ᴼ",
+      "esperanto": "deltoid"
+    },
+    {
+      "kanji": "从氧糖ᴼ",
+      "esperanto": "deoksioz"
+    },
+    {
+      "kanji": "节学ᴵ",
+      "esperanto": "dietik"
+    },
+    {
+      "kanji": "二ᴰᴵ氯化ᴵᴰ",
+      "esperanto": "diklorid"
+    },
+    {
+      "kanji": "膨具ᴬ",
+      "esperanto": "dilatator"
+    },
+    {
+      "kanji": "二ᴰᴵ硫化ᴵᴰ",
+      "esperanto": "disulfid"
+    },
+    {
+      "kanji": "甘苦ᴬ",
+      "esperanto": "dolĉamar"
+    },
+    {
+      "kanji": "胚植ᶠ",
+      "esperanto": "embrifit"
+    },
+    {
+      "kanji": "胚源ᴳ",
+      "esperanto": "embrigenez"
+    },
+    {
+      "kanji": "胚切ᵀᴹ",
+      "esperanto": "embritomi"
+    },
+    {
+      "kanji": "骨端炎ᵀ",
+      "esperanto": "epifizit"
+    },
+    {
+      "kanji": "咽炎ᵀ",
+      "esperanto": "faringit"
+    },
+    {
+      "kanji": "磷盐ᴬ",
+      "esperanto": "fosfat"
+    },
+    {
+      "kanji": "磷盐ᴬ血ᴱ",
+      "esperanto": "fosfatemi"
+    },
+    {
+      "kanji": "磷化ᴵᴰ",
+      "esperanto": "fosfid"
+    },
+    {
+      "kanji": "磷盐ᴵ",
+      "esperanto": "fosfit"
+    },
+    {
+      "kanji": "果糖ᴼ",
+      "esperanto": "fruktoz"
+    },
+    {
+      "kanji": "牙肉炎ᵀ",
+      "esperanto": "gingivit"
+    },
+    {
+      "kanji": "土源ᴳ",
+      "esperanto": "grundgenez"
+    },
+    {
+      "kanji": "卤化ᴵᴰ",
+      "esperanto": "halogenid"
+    },
+    {
+      "kanji": "半盲ᴬ",
+      "esperanto": "hemianopsi"
+    },
+    {
+      "kanji": "半瘫ᴾᴸ",
+      "esperanto": "hemiplegi"
+    },
+    {
+      "kanji": "半球ˢ",
+      "esperanto": "hemisfer"
+    },
+    {
+      "kanji": "肝炎ᵀ",
+      "esperanto": "hepatit"
+    },
+    {
+      "kanji": "超血ᴱ",
+      "esperanto": "hiperemi"
+    },
+    {
+      "kanji": "超感ᴱ",
+      "esperanto": "hiperestez"
+    },
+    {
+      "kanji": "超名ᴼ",
+      "esperanto": "hiperonim"
+    },
+    {
+      "kanji": "超压ᵀ",
+      "esperanto": "hipertensi"
+    },
+    {
+      "kanji": "超养ᵀ",
+      "esperanto": "hipertrofi"
+    },
+    {
+      "kanji": "亚皮ᴰ",
+      "esperanto": "hipoderm"
+    },
+    {
+      "kanji": "亚感ᴱ",
+      "esperanto": "hipoestez"
+    },
+    {
+      "kanji": "亚胃ᴳ",
+      "esperanto": "hipogastr"
+    },
+    {
+      "kanji": "亚舌ᴳ",
+      "esperanto": "hipoglos"
+    },
+    {
+      "kanji": "亚软骨ᴷᴺ",
+      "esperanto": "hipokondr"
+    },
+    {
+      "kanji": "亚名ᴺᴵ",
+      "esperanto": "hiponim"
+    },
+    {
+      "kanji": "亚滞ˢᶻ",
+      "esperanto": "hipostaz"
+    },
+    {
+      "kanji": "亚压ᵀ",
+      "esperanto": "hipotensi"
+    },
+    {
+      "kanji": "亚题ᵀᶻ",
+      "esperanto": "hipotez"
+    },
+    {
+      "kanji": "间声ᶠᴼ",
+      "esperanto": "interfon"
+    },
+    {
+      "kanji": "等ᴵ青盐ᴬ",
+      "esperanto": "izocianat"
+    },
+    {
+      "kanji": "隔计ᴹ",
+      "esperanto": "izolmetr"
+    },
+    {
+      "kanji": "碘化ᴵᴰ",
+      "esperanto": "jodid"
+    },
+    {
+      "kanji": "碘基ᴵ",
+      "esperanto": "jodil"
+    },
+    {
+      "kanji": "算计ᴹ",
+      "esperanto": "kalkulmetr"
+    },
+    {
+      "kanji": "炭化ᴵᴰ",
+      "esperanto": "karbid"
+    },
+    {
+      "kanji": "碳盐ᴬ",
+      "esperanto": "karbonat"
+    },
+    {
+      "kanji": "碳化ᴵᴰ",
+      "esperanto": "karbonid"
+    },
+    {
+      "kanji": "碳基ᴵ",
+      "esperanto": "karbonil"
+    },
+    {
+      "kanji": "阴蒂除ᴱᴷ",
+      "esperanto": "klitorektomi"
+    },
+    {
+      "kanji": "氯盐ᴬ",
+      "esperanto": "klorat"
+    },
+    {
+      "kanji": "氯血ᴱ",
+      "esperanto": "kloremi"
+    },
+    {
+      "kanji": "氯化ᴵᴰ",
+      "esperanto": "klorid"
+    },
+    {
+      "kanji": "氯化ᴵᴰ血ᴱ",
+      "esperanto": "kloridemi"
+    },
+    {
+      "kanji": "氯盐ᴵ",
+      "esperanto": "klorit"
+    },
+    {
+      "kanji": "股痛ᴬ",
+      "esperanto": "koksalgi"
+    },
+    {
+      "kanji": "股炎ᵀ",
+      "esperanto": "koksit"
+    },
+    {
+      "kanji": "色计ᴹ",
+      "esperanto": "kolormetr"
+    },
+    {
+      "kanji": "色测ᴹᵀ",
+      "esperanto": "kolormetri"
+    },
+    {
+      "kanji": "换具ᴬ",
+      "esperanto": "komutator"
+    },
+    {
+      "kanji": "弦炎ᵀ",
+      "esperanto": "kordit"
+    },
+    {
+      "kanji": "冻测ᴹᵀ",
+      "esperanto": "kriometri"
+    },
+    {
+      "kanji": "栽具ᴬ",
+      "esperanto": "kultivator"
+    },
+    {
+      "kanji": "乳糖ᴼ",
+      "esperanto": "laktoz"
+    },
+    {
+      "kanji": "举具ᴬ",
+      "esperanto": "levator"
+    },
+    {
+      "kanji": "脾除ᴱᴷ",
+      "esperanto": "lienektomi"
+    },
+    {
+      "kanji": "脾炎ᵀ",
+      "esperanto": "lienit"
+    },
+    {
+      "kanji": "蜗牛",
+      "esperanto": "limak"
+    },
+    {
+      "kanji": "纵隔炎ᵀ",
+      "esperanto": "mediastinit"
+    },
+    {
+      "kanji": "米学ᴵ",
+      "esperanto": "metrik"
+    },
+    {
+      "kanji": "肌炎ᵀ",
+      "esperanto": "miit"
+    },
+    {
+      "kanji": "微影ᶠ",
+      "esperanto": "mikrofilm"
+    },
+    {
+      "kanji": "微声ᶠᴼ",
+      "esperanto": "mikrofon"
+    },
+    {
+      "kanji": "微粒ᴳ",
+      "esperanto": "mikrograjn"
+    },
+    {
+      "kanji": "微槽ᴷ",
+      "esperanto": "mikrokanel"
+    },
+    {
+      "kanji": "微菌ᴷᴷ",
+      "esperanto": "mikrokok"
+    },
+    {
+      "kanji": "微石ᴸᵀ",
+      "esperanto": "mikrolit"
+    },
+    {
+      "kanji": "微切ᵀᴼ",
+      "esperanto": "mikrotom"
+    },
+    {
+      "kanji": "万足ᴾᴼ",
+      "esperanto": "miriapod"
+    },
+    {
+      "kanji": "髓炎ᵀ",
+      "esperanto": "mjelit"
+    },
+    {
+      "kanji": "单配ᴳ",
+      "esperanto": "monogami"
+    },
+    {
+      "kanji": "单志ᴳ",
+      "esperanto": "monografi"
+    },
+    {
+      "kanji": "单字ᴳᴹ",
+      "esperanto": "monogram"
+    },
+    {
+      "kanji": "单石ᴸᵀ",
+      "esperanto": "monolit"
+    },
+    {
+      "kanji": "单话ᴸ",
+      "esperanto": "monolog"
+    },
+    {
+      "kanji": "单形ᴹᴵ",
+      "esperanto": "monomorfi"
+    },
+    {
+      "kanji": "单瓣ᴾ",
+      "esperanto": "monopetal"
+    },
+    {
+      "kanji": "单体ˢᴹ",
+      "esperanto": "monosom"
+    },
+    {
+      "kanji": "粘症ᴼ",
+      "esperanto": "mukoz"
+    },
+    {
+      "kanji": "筋症ᴼ",
+      "esperanto": "muskoloz"
+    },
+    {
+      "kanji": "氮化ᴵᴰ",
+      "esperanto": "nitrid"
+    },
+    {
+      "kanji": "号具ᴬ",
+      "esperanto": "numerator"
+    },
+    {
+      "kanji": "渗计ᴹ",
+      "esperanto": "osmozmetr"
+    },
+    {
+      "kanji": "骨痛ᴬ",
+      "esperanto": "ostalgi"
+    },
+    {
+      "kanji": "骨除ᴱᴷ",
+      "esperanto": "ostektomi"
+    },
+    {
+      "kanji": "骨炎ᵀ",
+      "esperanto": "ostit"
+    },
+    {
+      "kanji": "胰除ᴱᴷ",
+      "esperanto": "pankreatektomi"
+    },
+    {
+      "kanji": "胰炎ᵀ",
+      "esperanto": "pankreatit"
+    },
+    {
+      "kanji": "雨计ᴹ",
+      "esperanto": "pluvmetr"
+    },
+    {
+      "kanji": "谓能ᴵ",
+      "esperanto": "predikativ"
+    },
+    {
+      "kanji": "肺炎ᵀ",
+      "esperanto": "pulmit"
+    },
+    {
+      "kanji": "瓤炎ᵀ",
+      "esperanto": "pulpit"
+    },
+    {
+      "kanji": "刨具ᴬ",
+      "esperanto": "rabotator"
+    },
+    {
+      "kanji": "规具ᴬ",
+      "esperanto": "regulator"
+    },
+    {
+      "kanji": "蔗盐ᴬ",
+      "esperanto": "sakarat"
+    },
+    {
+      "kanji": "蔗糖ᴼ",
+      "esperanto": "sakaroz"
+    },
+    {
+      "kanji": "柳盐ᴬ",
+      "esperanto": "salikat"
+    },
+    {
+      "kanji": "无感ᴱ",
+      "esperanto": "senestez"
+    },
+    {
+      "kanji": "巩膜炎ᵀ",
+      "esperanto": "sklerotit"
+    },
+    {
+      "kanji": "刮具ᴬ",
+      "esperanto": "skrapator"
+    },
+    {
+      "kanji": "声计ᴹ",
+      "esperanto": "sonmetr"
+    },
+    {
+      "kanji": "水苏糖ᴼ",
+      "esperanto": "stakioz"
+    },
+    {
+      "kanji": "胃炎ᵀ",
+      "esperanto": "stomakit"
+    },
+    {
+      "kanji": "硫盐ᴬ",
+      "esperanto": "sulfat"
+    },
+    {
+      "kanji": "硫青盐ᴬ",
+      "esperanto": "sulfcianat"
+    },
+    {
+      "kanji": "硫化ᴵᴰ",
+      "esperanto": "sulfid"
+    },
+    {
+      "kanji": "硫盐ᴵ",
+      "esperanto": "sulfit"
+    },
+    {
+      "kanji": "远影ᶠ",
+      "esperanto": "telefilm"
+    },
+    {
+      "kanji": "远动ᴷᶻ",
+      "esperanto": "telekinez"
+    },
+    {
+      "kanji": "远令ᴷ",
+      "esperanto": "telekomand"
+    },
+    {
+      "kanji": "远复ᴷ",
+      "esperanto": "telekopi"
+    },
+    {
+      "kanji": "远计ᴹ",
+      "esperanto": "telemetr"
+    },
+    {
+      "kanji": "疹似ᴼ",
+      "esperanto": "tifoid"
+    },
+    {
+      "kanji": "三体ˢᴹ",
+      "esperanto": "trisom"
+    },
+    {
+      "kanji": "篡员ᴬᵀ",
+      "esperanto": "uzurpator"
+    },
+    {
+      "kanji": "汽计ᴹ",
+      "esperanto": "vapormetr"
+    },
+    {
+      "kanji": "精丘炎ᵀ",
+      "esperanto": "verumontanit"
+    },
+    {
+      "kanji": "振具ᴬ",
+      "esperanto": "vibrator"
+    },
+    {
+      "kanji": "载具ᴬ",
+      "esperanto": "ŝarĝator"
     }
   ],
-  "reason": "Restore reviewed missing inverse keys found in actual old/new forward output, preserving all assignments, identifiers, decomposition, canonical CSV bytes and generic longest-match conversion.",
-  "scope": "Exact reviewed supplement for this edition only. Prior testikit/orkidit aliases retained. No automatic application to archived sources or uploaded custom dictionaries.",
+  "reason": "Restore the approved observed compound renderings with a unique active original spelling, without changing forward output, assignments, identifiers, canonical CSV bytes, or existing full-key ownership. Keep the independently approved earlier supplements.",
+  "scope": "Exact reviewed supplement for this edition only. Preserve complete superscript identifiers when matching: an approved shorter identifier must not consume a prefix of a longer one. No automatic aliases for archived sources or uploaded custom dictionaries. The shared legacy rendering 中肠ᴱ remains excluded.",
   "evidence": {
     "reported_words": [
       "testikito",
@@ -113,5 +673,174 @@
     ],
     "evidence": "Unique observed ruby/whole-root spelling, positive actual-corpus improvement, no competing complete known-key segmentation. Full existing-output regression is required before release."
   },
-  "update_policy": "The old canonical CSV stays fixed. Expand this closed supplement only after independent collision and complete saved-output regression; do not derive aliases mechanically from canonical root names."
+  "update_policy": "The old canonical CSV stays fixed. Expand this closed supplement only after independent collision and complete saved-output regression; do not derive aliases mechanically from canonical root names.",
+  "compound_review": {
+    "audit": "remaining-inverse-review-20261018",
+    "repair": "compound-inverse-keys-20261018",
+    "previous_revision": "legacy-unique-inverse-20261018-v2",
+    "previous_manifest_sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+    "previous_alias_count": 18,
+    "added_alias_count": 140,
+    "total_alias_count": 158,
+    "new_keys": [
+      "醋盐ᴬ",
+      "气血ᴱ",
+      "锐名ᴼ",
+      "醇盐ᴬ",
+      "醇血ᴱ",
+      "替具ᴬ",
+      "铝盐ᴬ",
+      "担子菌ᴹᶜ",
+      "担子菌ᴹᴵ",
+      "青盐ᴬ",
+      "青植ᶠ",
+      "青化ᴵᴰ",
+      "三角洲似ᴼ",
+      "从氧糖ᴼ",
+      "节学ᴵ",
+      "二ᴰᴵ氯化ᴵᴰ",
+      "膨具ᴬ",
+      "二ᴰᴵ硫化ᴵᴰ",
+      "甘苦ᴬ",
+      "胚植ᶠ",
+      "胚源ᴳ",
+      "胚切ᵀᴹ",
+      "骨端炎ᵀ",
+      "咽炎ᵀ",
+      "磷盐ᴬ",
+      "磷盐ᴬ血ᴱ",
+      "磷化ᴵᴰ",
+      "磷盐ᴵ",
+      "果糖ᴼ",
+      "牙肉炎ᵀ",
+      "土源ᴳ",
+      "卤化ᴵᴰ",
+      "半盲ᴬ",
+      "半瘫ᴾᴸ",
+      "半球ˢ",
+      "肝炎ᵀ",
+      "超血ᴱ",
+      "超感ᴱ",
+      "超名ᴼ",
+      "超压ᵀ",
+      "超养ᵀ",
+      "亚皮ᴰ",
+      "亚感ᴱ",
+      "亚胃ᴳ",
+      "亚舌ᴳ",
+      "亚软骨ᴷᴺ",
+      "亚名ᴺᴵ",
+      "亚滞ˢᶻ",
+      "亚压ᵀ",
+      "亚题ᵀᶻ",
+      "间声ᶠᴼ",
+      "等ᴵ青盐ᴬ",
+      "隔计ᴹ",
+      "碘化ᴵᴰ",
+      "碘基ᴵ",
+      "算计ᴹ",
+      "炭化ᴵᴰ",
+      "碳盐ᴬ",
+      "碳化ᴵᴰ",
+      "碳基ᴵ",
+      "阴蒂除ᴱᴷ",
+      "氯盐ᴬ",
+      "氯血ᴱ",
+      "氯化ᴵᴰ",
+      "氯化ᴵᴰ血ᴱ",
+      "氯盐ᴵ",
+      "股痛ᴬ",
+      "股炎ᵀ",
+      "色计ᴹ",
+      "色测ᴹᵀ",
+      "换具ᴬ",
+      "弦炎ᵀ",
+      "冻测ᴹᵀ",
+      "栽具ᴬ",
+      "乳糖ᴼ",
+      "举具ᴬ",
+      "脾除ᴱᴷ",
+      "脾炎ᵀ",
+      "蜗牛",
+      "纵隔炎ᵀ",
+      "米学ᴵ",
+      "肌炎ᵀ",
+      "微影ᶠ",
+      "微声ᶠᴼ",
+      "微粒ᴳ",
+      "微槽ᴷ",
+      "微菌ᴷᴷ",
+      "微石ᴸᵀ",
+      "微切ᵀᴼ",
+      "万足ᴾᴼ",
+      "髓炎ᵀ",
+      "单配ᴳ",
+      "单志ᴳ",
+      "单字ᴳᴹ",
+      "单石ᴸᵀ",
+      "单话ᴸ",
+      "单形ᴹᴵ",
+      "单瓣ᴾ",
+      "单体ˢᴹ",
+      "粘症ᴼ",
+      "筋症ᴼ",
+      "氮化ᴵᴰ",
+      "号具ᴬ",
+      "渗计ᴹ",
+      "骨痛ᴬ",
+      "骨除ᴱᴷ",
+      "骨炎ᵀ",
+      "胰除ᴱᴷ",
+      "胰炎ᵀ",
+      "雨计ᴹ",
+      "谓能ᴵ",
+      "肺炎ᵀ",
+      "瓤炎ᵀ",
+      "刨具ᴬ",
+      "规具ᴬ",
+      "蔗盐ᴬ",
+      "蔗糖ᴼ",
+      "柳盐ᴬ",
+      "无感ᴱ",
+      "巩膜炎ᵀ",
+      "刮具ᴬ",
+      "声计ᴹ",
+      "水苏糖ᴼ",
+      "胃炎ᵀ",
+      "硫盐ᴬ",
+      "硫青盐ᴬ",
+      "硫化ᴵᴰ",
+      "硫盐ᴵ",
+      "远影ᶠ",
+      "远动ᴷᶻ",
+      "远令ᴷ",
+      "远复ᴷ",
+      "远计ᴹ",
+      "疹似ᴼ",
+      "三体ˢᴹ",
+      "篡员ᴬᵀ",
+      "汽计ᴹ",
+      "精丘炎ᵀ",
+      "振具ᴬ",
+      "载具ᴬ"
+    ],
+    "approval": "The user approved the final reviewed set: one current and 140 legacy additions. Historical approvals remain recorded separately.",
+    "source_scope": {
+      "file": "active_owner_refined_scope.json",
+      "sha256": "31692ba397e6599d5610b609d13ef6a3d43998a1ce284c1cbf7fcd64b3af5734"
+    },
+    "source_trial": {
+      "file": "active_owner_refined_trial.json",
+      "sha256": "d95e6d496d824d9c1fcb551ef42b03757c95eb06e061be961ae43ca167f6bde7"
+    },
+    "source_summary": {
+      "file": "final_repair_candidates_summary.json",
+      "sha256": "3561e2c664e3068601b66c6322e924a5e5b52138a0f400a6f326f326b363dfaf"
+    },
+    "evidence": "Check the original ruby spelling only where the production matcher actually selects the key. An earlier longer match makes an overlapping substring inert. Finite saved-output trials are evidence for this selected set, not for arbitrary new text.",
+    "excluded": {
+      "中肠ᴱ": "Multiple observed original spellings; no automatic owner chosen."
+    },
+    "release_gate": "Recheck complete existing keys and every saved old/new forward output with the final runtime, including the superscript-identifier boundary guard, before release."
+  }
 }

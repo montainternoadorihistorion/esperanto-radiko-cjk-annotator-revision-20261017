@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "scope": "Approved inverse supplements and tests only; source runtime is owned and tested separately.",
+  "candidate_source_sha256": "31692ba397e6599d5610b609d13ef6a3d43998a1ce284c1cbf7fcd64b3af5734",
+  "counts": {
+    "current": {
+      "before": 8,
+      "added": 1,
+      "after": 9,
+      "effective_rows": 10687
+    },
+    "legacy": {
+      "before": 18,
+      "added": 140,
+      "after": 158,
+      "effective_rows": 10794
+    }
+  },
+  "excluded_shared_key": "中肠ᴱ",
+  "existing_alias_rows_and_order_preserved": true,
+  "canonical_dictionary_and_provenance_pins_unchanged": true,
+  "other_data_assets_unchanged": 54,
+  "localized_alias_json_and_test_fixture_byte_equal": true,
+  "test_sources_differ_only_in_module_import": true,
+  "runtime_data_frozen_during_all_tests": true,
+  "data_validation_sha256": "ed1785a7c9425ee0c50ef9a00a201957df53334d779a049b5e68dfc7fda1bb07",
+  "files": {
+    "Esperanto-Reverter-JA/data/current_inverse_aliases.json": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+    "Esperanto-Reverter-ZH/data/current_inverse_aliases.json": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+    "Esperanto-Reverter-JA/data/legacy_inverse_aliases.json": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+    "Esperanto-Reverter-ZH/data/legacy_inverse_aliases.json": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+    "Esperanto-Reverter-JA/tests/fixtures/compound_inverse_additions_20261018.json": "8b0ff00762bd0daeca7de7563ef8a6668c2a47b177249dc44b869d66acd6615f",
+    "Esperanto-Reverter-ZH/tests/fixtures/compound_inverse_additions_20261018.json": "8b0ff00762bd0daeca7de7563ef8a6668c2a47b177249dc44b869d66acd6615f",
+    "Esperanto-Reverter-JA/tests/test_current_inverse_aliases.py": "45f1432d39f6b64e395616ec35fca73475e4d07d4c24ded507a008cb95a7595d",
+    "Esperanto-Reverter-ZH/tests/test_current_inverse_aliases.py": "f6b29ec32bbc9ee6de13e73ef6f06a061336f85e52122d507707099403695b57",
+    "Esperanto-Reverter-JA/tests/test_legacy_inverse_aliases.py": "1f44dd4ee4bf419ab02edcf4c23a4477f8a304da634bc732a79b7bb2b34ee0c5",
+    "Esperanto-Reverter-ZH/tests/test_legacy_inverse_aliases.py": "1bab48b85625a76d9b7f935fff268c80770af641e6de0511517f9ee416ddd879",
+    "Esperanto-Reverter-JA/tests/test_unique_inverse_keys.py": "6007f81cb3c4c119bc132ae5c0640d9c3ba585577ddaea626950f238c3f611cd",
+    "Esperanto-Reverter-ZH/tests/test_unique_inverse_keys.py": "694af703b7675320e7cec7ceee7d13b8920a44f8ea331c62c4ea38f37a18406c",
+    "Esperanto-Reverter-JA/tests/test_assignment_versions.py": "fbbc36c59ad9050bbaf239783b35950be3d1cbfe212c7ed26c218f0679ba6a75",
+    "Esperanto-Reverter-ZH/tests/test_assignment_versions.py": "adc102cfaf4fcd62e94292396f93454fa047db20e4791a7177f560fabe98c70d",
+    "Esperanto-Reverter-JA/tests/test_dot_greft_assignments.py": "ac8a9c62ad8e9002bf5c7564ada9ce4934d05daa258f97fbc18881fd607fc30a",
+    "Esperanto-Reverter-ZH/tests/test_dot_greft_assignments.py": "c5246da9fe6b8c1b927fe4c430b988c3a65d626dcbed6d281dcfe0a4471ee5b2",
+    "Esperanto-Reverter-JA/tests/test_fruit_priority_assignment.py": "246e08275279219f2b8dc642b91f227bdbcc18437bf405862831ddd6a0e14a92",
+    "Esperanto-Reverter-ZH/tests/test_fruit_priority_assignment.py": "4151e05a699568320242b88196c3acfc51e8f668e7dd45f20778429caf178e2b"
+  },
+  "tests": {
+    "JA": {
+      "targeted": {
+        "counts": {
+          "passed": 18
+        },
+        "seconds": 15.703,
+        "source_sha256": {
+          "Esperanto-Reverter-JA/esperanto_converter.py": "c1317c9b2c6300e435c62e48c81b7bdef98014318f9ea440dcbacbe7f69063f3",
+          "Esperanto-Reverter-JA/data/current_inverse_aliases.json": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+          "Esperanto-Reverter-JA/data/legacy_inverse_aliases.json": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee"
+        },
+        "report_sha256": "2c9b50368737e5fc01249cb2f3e177db521c2bc0b7f358f91f55d6562007fa76",
+        "log_sha256": "e1011d3930944330b62cf52e46e95cdbb4d507c56eb44243d96c5b1708c0a52b"
+      },
+      "full": {
+        "counts": {
+          "passed": 210
+        },
+        "seconds": 155.515,
+        "source_sha256": {
+          "Esperanto-Reverter-JA/esperanto_converter.py": "c1317c9b2c6300e435c62e48c81b7bdef98014318f9ea440dcbacbe7f69063f3",
+          "Esperanto-Reverter-JA/data/current_inverse_aliases.json": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+          "Esperanto-Reverter-JA/data/legacy_inverse_aliases.json": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee"
+        },
+        "report_sha256": "2cfce0f25a017a7f18b38ac6e9e6facef87e7016cc904560f385cc86be4e5732",
+        "log_sha256": "4e4c13fcef0982330e718c20f5a02212c96f654dc3d45e2e14dde6d142ef058b"
+      }
+    },
+    "ZH": {
+      "targeted": {
+        "counts": {
+          "passed": 18
+        },
+        "seconds": 15.718,
+        "source_sha256": {
+          "Esperanto-Reverter-ZH/esperanto_converter_zh.py": "875d56733c41ce9a84ebf731c06a65eb175c2ad4403dadee9c28a483e53a527c",
+          "Esperanto-Reverter-ZH/data/current_inverse_aliases.json": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+          "Esperanto-Reverter-ZH/data/legacy_inverse_aliases.json": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee"
+        },
+        "report_sha256": "ba574260a4b3e6fff2c986eb1bb4343feb609bc660ab8728998d89561b5b7710",
+        "log_sha256": "5bdda21d981eb3b0677472007df37ccc4898120c1609cd7a152f97aebe9ec2f1"
+      },
+      "full": {
+        "counts": {
+          "passed": 210
+        },
+        "seconds": 155.078,
+        "source_sha256": {
+          "Esperanto-Reverter-ZH/esperanto_converter_zh.py": "875d56733c41ce9a84ebf731c06a65eb175c2ad4403dadee9c28a483e53a527c",
+          "Esperanto-Reverter-ZH/data/current_inverse_aliases.json": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+          "Esperanto-Reverter-ZH/data/legacy_inverse_aliases.json": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee"
+        },
+        "report_sha256": "10a5b8b8a46104b7fbe97bb6cda2db827c851dfc488e6e82d29011ede1c77121",
+        "log_sha256": "8030f33524957a5266968a77b194a31248b0aac35dd21ccbf58d4c36c5980f0c"
+      }
+    }
+  },
+  "method_limit": "This local suite complements the separately executed full saved-output replay; it does not claim Cloud execution.",
+  "private_mirror_sync": "Owned by the parent agent after final implementation review.",
+  "obsolete_expectations_review": {
+    "initial_result_per_language": {
+      "passed": 206,
+      "failed": 4
+    },
+    "review_sha256": "5c3f9a6fa62ab2c614dd3bedca976a3081e06f9da4ef56d39ba9e069e0e3d1aa",
+    "approved_change": "Only previous partial-identifier expectations were updated: unsupported legacy 放ᴱ is preserved, and 移植ᶠ uses the already registered 移 plus 植ᶠ components.",
+    "runtime_or_data_changed_during_repair": false,
+    "initial_logs_preserved": {
+      "JA": {
+        "report_sha256": "328b97c101f0eaeb38515e92a0681abb2986b88850ee3dd55cdfb49fc8dd019b",
+        "log_sha256": "60cc18995f9e37a31caf0bbc7afd985f203c47cdb12e9ce9a2021cd47a79b1c6"
+      },
+      "ZH": {
+        "report_sha256": "c59abc15a6b6aca9b2220fd0c817027e771f93a13ae4640f4c1bcdcd4449d08b",
+        "log_sha256": "e6b59d4948a8a21079dfaa9bad9d6db18e851dde5339dc500e642f49686a6f56"
+      }
+    }
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "utc": "2026-10-18T09:54:35.294748+00:00",
+  "passed_file_sync": true,
+  "git_metadata_excluded_from_inventory": true,
+  "changes": [
+    {
+      "language": "JA",
+      "file": "esperanto_converter.py",
+      "source": "Esperanto-Reverter-JA/esperanto_converter.py",
+      "destination": "kanjized-esperanto-reverter/esperanto_converter.py",
+      "before_sha256": "af39b06a6ef8b659f4c5e58cb198e2ae5a1fdb7d45d2a2770938b3da7f720b17",
+      "after_sha256": "c1317c9b2c6300e435c62e48c81b7bdef98014318f9ea440dcbacbe7f69063f3",
+      "source_sha256": "c1317c9b2c6300e435c62e48c81b7bdef98014318f9ea440dcbacbe7f69063f3",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "JA",
+      "file": "data/current_inverse_aliases.json",
+      "source": "Esperanto-Reverter-JA/data/current_inverse_aliases.json",
+      "destination": "kanjized-esperanto-reverter/data/current_inverse_aliases.json",
+      "before_sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+      "after_sha256": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+      "source_sha256": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "JA",
+      "file": "data/legacy_inverse_aliases.json",
+      "source": "Esperanto-Reverter-JA/data/legacy_inverse_aliases.json",
+      "destination": "kanjized-esperanto-reverter/data/legacy_inverse_aliases.json",
+      "before_sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+      "after_sha256": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+      "source_sha256": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "JA",
+      "file": "tests/test_unique_inverse_keys.py",
+      "source": "Esperanto-Reverter-JA/tests/test_unique_inverse_keys.py",
+      "destination": "kanjized-esperanto-reverter/tests/test_unique_inverse_keys.py",
+      "before_sha256": "d0322a2bee5ff6a6e395117c0cae931d0fdc468e7204c74e2ac882147b5b6951",
+      "after_sha256": "6007f81cb3c4c119bc132ae5c0640d9c3ba585577ddaea626950f238c3f611cd",
+      "source_sha256": "6007f81cb3c4c119bc132ae5c0640d9c3ba585577ddaea626950f238c3f611cd",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "JA",
+      "file": "tests/test_current_inverse_aliases.py",
+      "source": "Esperanto-Reverter-JA/tests/test_current_inverse_aliases.py",
+      "destination": "kanjized-esperanto-reverter/tests/test_current_inverse_aliases.py",
+      "before_sha256": "57c4efbbe026923dab27b7b5e607afeded2fe18a0468567e87360339bac3dfed",
+      "after_sha256": "45f1432d39f6b64e395616ec35fca73475e4d07d4c24ded507a008cb95a7595d",
+      "source_sha256": "45f1432d39f6b64e395616ec35fca73475e4d07d4c24ded507a008cb95a7595d",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "JA",
+      "file": "tests/test_legacy_inverse_aliases.py",
+      "source": "Esperanto-Reverter-JA/tests/test_legacy_inverse_aliases.py",
+      "destination": "kanjized-esperanto-reverter/tests/test_legacy_inverse_aliases.py",
+      "before_sha256": "c4726c4e2ede17f6bf78d204751c793e0667f770fc8df274a077fc8a5c3f2333",
+      "after_sha256": "1f44dd4ee4bf419ab02edcf4c23a4477f8a304da634bc732a79b7bb2b34ee0c5",
+      "source_sha256": "1f44dd4ee4bf419ab02edcf4c23a4477f8a304da634bc732a79b7bb2b34ee0c5",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "JA",
+      "file": "tests/test_assignment_versions.py",
+      "source": "Esperanto-Reverter-JA/tests/test_assignment_versions.py",
+      "destination": "kanjized-esperanto-reverter/tests/test_assignment_versions.py",
+      "before_sha256": "5885ff45038f405257afe094fab4d88478f80d0019fb2405a59d5dcd6646c702",
+      "after_sha256": "fbbc36c59ad9050bbaf239783b35950be3d1cbfe212c7ed26c218f0679ba6a75",
+      "source_sha256": "fbbc36c59ad9050bbaf239783b35950be3d1cbfe212c7ed26c218f0679ba6a75",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "JA",
+      "file": "tests/test_dot_greft_assignments.py",
+      "source": "Esperanto-Reverter-JA/tests/test_dot_greft_assignments.py",
+      "destination": "kanjized-esperanto-reverter/tests/test_dot_greft_assignments.py",
+      "before_sha256": "ea33d5b197eeb59d6737f6681b2016b6a3a9362cd14629c6556fd3af4066dafc",
+      "after_sha256": "ac8a9c62ad8e9002bf5c7564ada9ce4934d05daa258f97fbc18881fd607fc30a",
+      "source_sha256": "ac8a9c62ad8e9002bf5c7564ada9ce4934d05daa258f97fbc18881fd607fc30a",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "JA",
+      "file": "tests/test_fruit_priority_assignment.py",
+      "source": "Esperanto-Reverter-JA/tests/test_fruit_priority_assignment.py",
+      "destination": "kanjized-esperanto-reverter/tests/test_fruit_priority_assignment.py",
+      "before_sha256": "65169e5303afe9ef5ba562c1943d6e08bc6be7fa0f42d64643c77aee6763f3b9",
+      "after_sha256": "246e08275279219f2b8dc642b91f227bdbcc18437bf405862831ddd6a0e14a92",
+      "source_sha256": "246e08275279219f2b8dc642b91f227bdbcc18437bf405862831ddd6a0e14a92",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "JA",
+      "file": "tests/test_identifier_boundaries.py",
+      "source": "Esperanto-Reverter-JA/tests/test_identifier_boundaries.py",
+      "destination": "kanjized-esperanto-reverter/tests/test_identifier_boundaries.py",
+      "before_sha256": null,
+      "after_sha256": "66508b6e73a53ebb1370943399a7270e91fa3e6eed139bfbb30faa61c01a8c11",
+      "source_sha256": "66508b6e73a53ebb1370943399a7270e91fa3e6eed139bfbb30faa61c01a8c11",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "JA",
+      "file": "tests/fixtures/compound_inverse_additions_20261018.json",
+      "source": "Esperanto-Reverter-JA/tests/fixtures/compound_inverse_additions_20261018.json",
+      "destination": "kanjized-esperanto-reverter/tests/fixtures/compound_inverse_additions_20261018.json",
+      "before_sha256": null,
+      "after_sha256": "8b0ff00762bd0daeca7de7563ef8a6668c2a47b177249dc44b869d66acd6615f",
+      "source_sha256": "8b0ff00762bd0daeca7de7563ef8a6668c2a47b177249dc44b869d66acd6615f",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "ZH",
+      "file": "esperanto_converter_zh.py",
+      "source": "Esperanto-Reverter-ZH/esperanto_converter_zh.py",
+      "destination": "hanzized-esperanto-reverter-zh_更新版20260822/esperanto_converter_zh.py",
+      "before_sha256": "b3fa1333e8762561520654551dfb5c0ccc2c304364a0168106e6318df4c59a34",
+      "after_sha256": "875d56733c41ce9a84ebf731c06a65eb175c2ad4403dadee9c28a483e53a527c",
+      "source_sha256": "875d56733c41ce9a84ebf731c06a65eb175c2ad4403dadee9c28a483e53a527c",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "ZH",
+      "file": "data/current_inverse_aliases.json",
+      "source": "Esperanto-Reverter-ZH/data/current_inverse_aliases.json",
+      "destination": "hanzized-esperanto-reverter-zh_更新版20260822/data/current_inverse_aliases.json",
+      "before_sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+      "after_sha256": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+      "source_sha256": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "ZH",
+      "file": "data/legacy_inverse_aliases.json",
+      "source": "Esperanto-Reverter-ZH/data/legacy_inverse_aliases.json",
+      "destination": "hanzized-esperanto-reverter-zh_更新版20260822/data/legacy_inverse_aliases.json",
+      "before_sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+      "after_sha256": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+      "source_sha256": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "ZH",
+      "file": "tests/test_unique_inverse_keys.py",
+      "source": "Esperanto-Reverter-ZH/tests/test_unique_inverse_keys.py",
+      "destination": "hanzized-esperanto-reverter-zh_更新版20260822/tests/test_unique_inverse_keys.py",
+      "before_sha256": "3dc5dfd908b863ec4a6c84bba1c84c6e1c12914ebc849999181efbac095924b5",
+      "after_sha256": "694af703b7675320e7cec7ceee7d13b8920a44f8ea331c62c4ea38f37a18406c",
+      "source_sha256": "694af703b7675320e7cec7ceee7d13b8920a44f8ea331c62c4ea38f37a18406c",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "ZH",
+      "file": "tests/test_current_inverse_aliases.py",
+      "source": "Esperanto-Reverter-ZH/tests/test_current_inverse_aliases.py",
+      "destination": "hanzized-esperanto-reverter-zh_更新版20260822/tests/test_current_inverse_aliases.py",
+      "before_sha256": "05781b88d207a1e508ce74e9cf3e3f9770b46f1c4e6cedf5d9bdd1df9d038c45",
+      "after_sha256": "f6b29ec32bbc9ee6de13e73ef6f06a061336f85e52122d507707099403695b57",
+      "source_sha256": "f6b29ec32bbc9ee6de13e73ef6f06a061336f85e52122d507707099403695b57",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "ZH",
+      "file": "tests/test_legacy_inverse_aliases.py",
+      "source": "Esperanto-Reverter-ZH/tests/test_legacy_inverse_aliases.py",
+      "destination": "hanzized-esperanto-reverter-zh_更新版20260822/tests/test_legacy_inverse_aliases.py",
+      "before_sha256": "35a9c0b75288516e66d78e4885eddfd23edbfd14d26eaf05f8d9cdc9b149daf9",
+      "after_sha256": "1bab48b85625a76d9b7f935fff268c80770af641e6de0511517f9ee416ddd879",
+      "source_sha256": "1bab48b85625a76d9b7f935fff268c80770af641e6de0511517f9ee416ddd879",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "ZH",
+      "file": "tests/test_assignment_versions.py",
+      "source": "Esperanto-Reverter-ZH/tests/test_assignment_versions.py",
+      "destination": "hanzized-esperanto-reverter-zh_更新版20260822/tests/test_assignment_versions.py",
+      "before_sha256": "9e1f7b49301247a77b950e98a818c4be0be2f8defafff79de563879735f356ec",
+      "after_sha256": "adc102cfaf4fcd62e94292396f93454fa047db20e4791a7177f560fabe98c70d",
+      "source_sha256": "adc102cfaf4fcd62e94292396f93454fa047db20e4791a7177f560fabe98c70d",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "ZH",
+      "file": "tests/test_dot_greft_assignments.py",
+      "source": "Esperanto-Reverter-ZH/tests/test_dot_greft_assignments.py",
+      "destination": "hanzized-esperanto-reverter-zh_更新版20260822/tests/test_dot_greft_assignments.py",
+      "before_sha256": "67cb2c3adce35e5563106426aab2dcae0ea2d1a5f3ea90671859638a84c6a3a4",
+      "after_sha256": "c5246da9fe6b8c1b927fe4c430b988c3a65d626dcbed6d281dcfe0a4471ee5b2",
+      "source_sha256": "c5246da9fe6b8c1b927fe4c430b988c3a65d626dcbed6d281dcfe0a4471ee5b2",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "ZH",
+      "file": "tests/test_fruit_priority_assignment.py",
+      "source": "Esperanto-Reverter-ZH/tests/test_fruit_priority_assignment.py",
+      "destination": "hanzized-esperanto-reverter-zh_更新版20260822/tests/test_fruit_priority_assignment.py",
+      "before_sha256": "41fb2f1ccf507de924450e32d3e0aaef62c53c780a22f89182cd0be7110ee152",
+      "after_sha256": "4151e05a699568320242b88196c3acfc51e8f668e7dd45f20778429caf178e2b",
+      "source_sha256": "4151e05a699568320242b88196c3acfc51e8f668e7dd45f20778429caf178e2b",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "ZH",
+      "file": "tests/test_identifier_boundaries.py",
+      "source": "Esperanto-Reverter-ZH/tests/test_identifier_boundaries.py",
+      "destination": "hanzized-esperanto-reverter-zh_更新版20260822/tests/test_identifier_boundaries.py",
+      "before_sha256": null,
+      "after_sha256": "37e847e3e74d8de3422e5e9e19c2cb4d6515c86fac4dbe41bf6207e3de27a240",
+      "source_sha256": "37e847e3e74d8de3422e5e9e19c2cb4d6515c86fac4dbe41bf6207e3de27a240",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "ZH",
+      "file": "tests/fixtures/compound_inverse_additions_20261018.json",
+      "source": "Esperanto-Reverter-ZH/tests/fixtures/compound_inverse_additions_20261018.json",
+      "destination": "hanzized-esperanto-reverter-zh_更新版20260822/tests/fixtures/compound_inverse_additions_20261018.json",
+      "before_sha256": null,
+      "after_sha256": "8b0ff00762bd0daeca7de7563ef8a6668c2a47b177249dc44b869d66acd6615f",
+      "source_sha256": "8b0ff00762bd0daeca7de7563ef8a6668c2a47b177249dc44b869d66acd6615f",
+      "exact_source_bytes": true
+    },
+    {
+      "language": "JA",
+      "file": "README.md",
+      "destination": "kanjized-esperanto-reverter/README.md",
+      "before_sha256": "502a359ab7b6884f3bef688bf161d335059a006ffe21fadb3037ca379fa2d317",
+      "after_sha256": "1a06ffef3bdaaada30ecc09bf10fa52ca372031d903c2932c10989a364f030b3",
+      "append_only": true,
+      "original_prefix_bytes_preserved": 28626,
+      "public_section_sha256": "5e272d712c1f413d13a18db171102ef9a057a590ddf3d379de5ee78796ddef64"
+    },
+    {
+      "language": "ZH",
+      "file": "README.md",
+      "destination": "hanzized-esperanto-reverter-zh_更新版20260822/README.md",
+      "before_sha256": "af83ed3c431d2693bd75939215c8a08476bc7100b5164e9b9eaf7b1822c217b1",
+      "after_sha256": "317ceeee4b10d897ea0429c28844f8833f61374c13edc47c13ff3224e3a47e59",
+      "append_only": true,
+      "original_prefix_bytes_preserved": 25730,
+      "public_section_sha256": "4354b73706226bb6d5dfe8be086a92f2264a844c6fc6b7d9753bce4b58dfa9af"
+    }
+  ],
+  "non_target": {
+    "JA": {
+      "count": 60,
+      "all_sha256_equal": true
+    },
+    "ZH": {
+      "count": 60,
+      "all_sha256_equal": true
+    }
+  },
+  "before_inventory_sha256": "0efc88338a1591d81e9d927fe1ca94c8fd1ff885d249efc58850661b1606a9b1",
+  "passed": true,
+  "smoke": {
+    "JA": {
+      "passed": true,
+      "public_private_all_results_and_metadata_equal": true,
+      "representative_inputs": 8,
+      "editions": 2,
+      "download_signatures": 6,
+      "effective_custom_imports": 2,
+      "public_report_sha256": "0212a4e92b0a3a8ba60d8cf4d0ef1d15b89c22f65fe67753babdfed617ff1c74",
+      "private_report_sha256": "0212a4e92b0a3a8ba60d8cf4d0ef1d15b89c22f65fe67753babdfed617ff1c74"
+    },
+    "ZH": {
+      "passed": true,
+      "public_private_all_results_and_metadata_equal": true,
+      "representative_inputs": 8,
+      "editions": 2,
+      "download_signatures": 6,
+      "effective_custom_imports": 2,
+      "public_report_sha256": "8ac7cdf6e4fa5fd677ef24fb634c6e5036a7be9142f39c4fc259a8df86d70e38",
+      "private_report_sha256": "8ac7cdf6e4fa5fd677ef24fb634c6e5036a7be9142f39c4fc259a8df86d70e38"
+    }
+  },
+  "all_private_files_unchanged_during_smoke": true,
+  "public_data_validation_sha256": "ed1785a7c9425ee0c50ef9a00a201957df53334d779a049b5e68dfc7fda1bb07",
+  "source_test_summary_sha256": "6691dc8e3262c0f8d1eaba143428e050849c3c0aa67605d4a2ca432946bf772b",
+  "scope": "22 exact source files plus two append-only README sections; all other private application files are unchanged."
+}

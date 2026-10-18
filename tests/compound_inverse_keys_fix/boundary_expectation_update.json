@@ -1,0 +1,136 @@
+{
+  "reason": "Approved boundary protection must not partially consume an unknown longer superscript identifier.",
+  "runtime_or_data_changes": false,
+  "initial_suites": {
+    "JA": {
+      "language": "JA",
+      "suite": "full",
+      "utc": "2026-10-18T09:46:49.450842+00:00",
+      "seconds": 151.25,
+      "exit_code": 1,
+      "counts": {
+        "failed": 4,
+        "passed": 206
+      },
+      "source_sha256": {
+        "Esperanto-Reverter-JA/esperanto_converter.py": "c1317c9b2c6300e435c62e48c81b7bdef98014318f9ea440dcbacbe7f69063f3",
+        "Esperanto-Reverter-JA/data/current_inverse_aliases.json": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+        "Esperanto-Reverter-JA/data/legacy_inverse_aliases.json": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee"
+      },
+      "unchanged_during_test": true,
+      "log_sha256": "60cc18995f9e37a31caf0bbc7afd985f203c47cdb12e9ce9a2021cd47a79b1c6",
+      "passed": false
+    },
+    "ZH": {
+      "language": "ZH",
+      "suite": "full",
+      "utc": "2026-10-18T09:46:49.455296+00:00",
+      "seconds": 151.281,
+      "exit_code": 1,
+      "counts": {
+        "failed": 4,
+        "passed": 206
+      },
+      "source_sha256": {
+        "Esperanto-Reverter-ZH/esperanto_converter_zh.py": "875d56733c41ce9a84ebf731c06a65eb175c2ad4403dadee9c28a483e53a527c",
+        "Esperanto-Reverter-ZH/data/current_inverse_aliases.json": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+        "Esperanto-Reverter-ZH/data/legacy_inverse_aliases.json": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee"
+      },
+      "unchanged_during_test": true,
+      "log_sha256": "e6b59d4948a8a21079dfaa9bad9d6db18e851dde5339dc500e642f49686a6f56",
+      "passed": false
+    }
+  },
+  "changes": [
+    {
+      "path": "Esperanto-Reverter-JA/tests/test_assignment_versions.py",
+      "old": "lasis emancipis emancipᴱis",
+      "new": "lasis emancipis 放ᴱis",
+      "replacement_count": 2,
+      "reason": "Remove the obsolete expectation that a short key consumes part of an unknown marked identifier.",
+      "before_sha256": "5885ff45038f405257afe094fab4d88478f80d0019fb2405a59d5dcd6646c702",
+      "after_sha256": "fbbc36c59ad9050bbaf239783b35950be3d1cbfe212c7ed26c218f0679ba6a75"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/tests/test_fruit_priority_assignment.py",
+      "old": "lasis emancipis emancipᴱis",
+      "new": "lasis emancipis 放ᴱis",
+      "replacement_count": 1,
+      "reason": "Remove the obsolete expectation that a short key consumes part of an unknown marked identifier.",
+      "before_sha256": "65169e5303afe9ef5ba562c1943d6e08bc6be7fa0f42d64643c77aee6763f3b9",
+      "after_sha256": "246e08275279219f2b8dc642b91f227bdbcc18437bf405862831ddd6a0e14a92"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/tests/test_dot_greft_assignments.py",
+      "old": "'移植ᶠo':('translacifito','greftᶠo')",
+      "new": "'移植ᶠo':('translacifito','translacifito')",
+      "replacement_count": 1,
+      "reason": "Remove the obsolete expectation that a short key consumes part of an unknown marked identifier.",
+      "before_sha256": "ea33d5b197eeb59d6737f6681b2016b6a3a9362cd14629c6556fd3af4066dafc",
+      "after_sha256": "ac8a9c62ad8e9002bf5c7564ada9ce4934d05daa258f97fbc18881fd607fc30a"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/tests/test_assignment_versions.py",
+      "old": "lasis emancipis emancipᴱis",
+      "new": "lasis emancipis 放ᴱis",
+      "replacement_count": 2,
+      "reason": "Remove the obsolete expectation that a short key consumes part of an unknown marked identifier.",
+      "before_sha256": "9e1f7b49301247a77b950e98a818c4be0be2f8defafff79de563879735f356ec",
+      "after_sha256": "adc102cfaf4fcd62e94292396f93454fa047db20e4791a7177f560fabe98c70d"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/tests/test_fruit_priority_assignment.py",
+      "old": "lasis emancipis emancipᴱis",
+      "new": "lasis emancipis 放ᴱis",
+      "replacement_count": 1,
+      "reason": "Remove the obsolete expectation that a short key consumes part of an unknown marked identifier.",
+      "before_sha256": "41fb2f1ccf507de924450e32d3e0aaef62c53c780a22f89182cd0be7110ee152",
+      "after_sha256": "4151e05a699568320242b88196c3acfc51e8f668e7dd45f20778429caf178e2b"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/tests/test_dot_greft_assignments.py",
+      "old": "'移植ᶠo':('translacifito','greftᶠo')",
+      "new": "'移植ᶠo':('translacifito','translacifito')",
+      "replacement_count": 1,
+      "reason": "Remove the obsolete expectation that a short key consumes part of an unknown marked identifier.",
+      "before_sha256": "67cb2c3adce35e5563106426aab2dcae0ea2d1a5f3ea90671859638a84c6a3a4",
+      "after_sha256": "c5246da9fe6b8c1b927fe4c430b988c3a65d626dcbed6d281dcfe0a4471ee5b2"
+    }
+  ],
+  "dictionary_evidence": {
+    "JA": {
+      "legacy_unknown": "放ᴱ",
+      "legacy_known_short": {
+        "放": "emancip"
+      },
+      "current_known_full": {
+        "放ᴱ": "emancip"
+      },
+      "current_unknown_whole": "移植ᶠ",
+      "current_short_whole": {
+        "移植": "greft"
+      },
+      "current_valid_components": {
+        "移": "translaci",
+        "植ᶠ": "fit"
+      }
+    },
+    "ZH": {
+      "legacy_unknown": "放ᴱ",
+      "legacy_known_short": {
+        "放": "emancip"
+      },
+      "current_known_full": {
+        "放ᴱ": "emancip"
+      },
+      "current_unknown_whole": "移植ᶠ",
+      "current_short_whole": {
+        "移植": "greft"
+      },
+      "current_valid_components": {
+        "移": "translaci",
+        "植ᶠ": "fit"
+      }
+    }
+  }
+}

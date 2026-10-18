@@ -16,8 +16,8 @@ CURRENT = 'pejvo-piv-20260620'
 OLD = 'pre-las-20261017'
 CURRENT_SHA = '4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074'
 CURRENT_TWO_SHA = '60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4'
-OLD_EFFECTIVE_SHA = '5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3'
-OLD_SUPPLEMENT_SHA = '31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7'
+OLD_EFFECTIVE_SHA = '0f861144f2b5dc81334ca684e7798e6abfa3fc4f62e3474c6775920159fa02d0'
+OLD_SUPPLEMENT_SHA = '59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee'
 SUFFIXES = ('', 'o', 'oj', 'on', 'ojn', 'a', 'aj', 'an', 'ajn', 'e', 'i', 'as', 'is', 'os', 'us', 'u', 'igi', 'igxi', 'A')
 
 
@@ -52,8 +52,8 @@ def test_reviewed_old_supplement_metadata_archives_and_custom_are_isolated():
     assert hashlib.sha256(app.legacy_effective_download_data(OLD)).hexdigest() == OLD_EFFECTIVE_SHA
     meta = app.source_provenance(OLD)
     assert meta['inverse_compatibility_sha256'] == OLD_SUPPLEMENT_SHA
-    assert meta['inverse_compatibility_revision'] == 'legacy-unique-inverse-20261018-v2'
-    assert meta['result_filename'] == 'esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.txt'
+    assert meta['inverse_compatibility_revision'] == 'legacy-compound-inverse-20261018-v3'
+    assert meta['result_filename'] == 'esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.txt'
     old_records = app.dataframe_to_mapping_records(app.load_dictionary_source(OLD))
     assert app.effective_mapping_records(OLD, app.load_dictionary_source(OLD)) == old_records + tuple((root, key, '0') for key, root in app.LEGACY_INVERSE_ALIAS_PAIRS.items())
     for source in app.DICTIONARY_SOURCES:
@@ -116,7 +116,7 @@ def test_fixed_exports_and_effective_custom_csv_all_key_equivalence():
     raw = app.current_effective_download_data(CURRENT)
     assert raw.startswith(b'esperanto,kanji,priority\r\n')
     custom = app.read_assignment_csv(io.BytesIO(raw))
-    assert len(custom) == 10686 and effective_index('custom', custom) == effective_index(CURRENT)
+    assert len(custom) == 10687 and effective_index('custom', custom) == effective_index(CURRENT)
     meta = app.source_provenance(CURRENT)
     assert meta['dictionary_filename'] == 'dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv'
     assert meta['snippet_filename'] == 'dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv'
@@ -150,7 +150,7 @@ def test_ui_previous_current_result_is_not_relabelled_and_new_download_matches()
     with patch.object(app.st, 'download_button', side_effect=capture):
         at = AppTest.from_file(str(Path(app.__file__)), default_timeout=20).run()
         assert not at.exception and len(at.sidebar.selectbox[0].options) == 2
-        assert any('8件の復元補助' in item.value or '8条还原补充' in item.value for item in at.sidebar.caption)
+        assert any('9件の復元補助' in item.value or '9条还原补充' in item.value for item in at.sidebar.caption)
         assert len(at.get('download_button')) == 3
         text = '兰炎ᵀ 兰炎ᵀa 兰炎ᵀi 丸ᴼ炎ᵀo 兰o 炎o'
         at.text_area[0].set_value(text); at.button[0].click().run()

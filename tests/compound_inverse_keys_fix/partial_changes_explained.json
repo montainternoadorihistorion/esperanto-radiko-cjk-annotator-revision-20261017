@@ -1,0 +1,348 @@
+{
+  "completed": true,
+  "edition": "legacy",
+  "mode": "pure",
+  "changed_but_still_wrong_unique_inputs": 175,
+  "all_are_preserved_as_failures": true,
+  "changes_file_sha256": "a89852dde7081b7f5c80f47f06860094423e95f90b6de821afdec24ad63109ab",
+  "examples": [
+    {
+      "input": "citrato",
+      "expected": "citrato",
+      "visible": "柑盐ᴬo",
+      "before": "citratᴬo",
+      "after": "citrusato",
+      "remains_mismatch": true,
+      "before_trace": [
+        {
+          "kind": "key",
+          "text": "柑盐",
+          "owner": "citrat",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "kind": "literal",
+          "text": "ᴬ",
+          "owner": "ᴬ",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "kind": "literal",
+          "text": "o",
+          "owner": "o",
+          "start": 3,
+          "end": 4
+        }
+      ],
+      "after_trace": [
+        {
+          "kind": "key",
+          "text": "柑",
+          "owner": "citrus",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "kind": "key",
+          "text": "盐ᴬ",
+          "owner": "at",
+          "start": 1,
+          "end": 3
+        },
+        {
+          "kind": "literal",
+          "text": "o",
+          "owner": "o",
+          "start": 3,
+          "end": 4
+        }
+      ],
+      "explanation_ja": "識別子ᴬを残す短いwholeキーは使わなくなるが、柑の既存owner citrus と元のcitrが異なる。"
+    },
+    {
+      "input": "fosfaturio",
+      "expected": "fosfaturio",
+      "visible": "磷盐ᴬ尿o",
+      "before": "fosfatᴬurino",
+      "after": "fosfaturino",
+      "remains_mismatch": true,
+      "before_trace": [
+        {
+          "kind": "key",
+          "text": "磷盐",
+          "owner": "fosfat",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "kind": "literal",
+          "text": "ᴬ",
+          "owner": "ᴬ",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "kind": "key",
+          "text": "尿",
+          "owner": "urin",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "kind": "literal",
+          "text": "o",
+          "owner": "o",
+          "start": 4,
+          "end": 5
+        }
+      ],
+      "after_trace": [
+        {
+          "kind": "key",
+          "text": "磷盐ᴬ",
+          "owner": "fosfat",
+          "start": 0,
+          "end": 3
+        },
+        {
+          "kind": "key",
+          "text": "尿",
+          "owner": "urin",
+          "start": 3,
+          "end": 4
+        },
+        {
+          "kind": "literal",
+          "text": "o",
+          "owner": "o",
+          "start": 4,
+          "end": 5
+        }
+      ],
+      "explanation_ja": "磷盐ᴬ=fosfatの新しい全体キーでᴬ残存は解消する。尿の既存owner urinと元のuriの違いは残る。"
+    },
+    {
+      "input": "hipodromo",
+      "expected": "hipodromo",
+      "visible": "马道ᴰo",
+      "before": "hipodromᴰo",
+      "after": "ĉevaldromo",
+      "remains_mismatch": true,
+      "before_trace": [
+        {
+          "kind": "key",
+          "text": "马道",
+          "owner": "hipodrom",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "kind": "literal",
+          "text": "ᴰ",
+          "owner": "ᴰ",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "kind": "literal",
+          "text": "o",
+          "owner": "o",
+          "start": 3,
+          "end": 4
+        }
+      ],
+      "after_trace": [
+        {
+          "kind": "key",
+          "text": "马",
+          "owner": "ĉeval",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "kind": "key",
+          "text": "道ᴰ",
+          "owner": "drom",
+          "start": 1,
+          "end": 3
+        },
+        {
+          "kind": "literal",
+          "text": "o",
+          "owner": "o",
+          "start": 3,
+          "end": 4
+        }
+      ],
+      "explanation_ja": "途中でᴰを切り離す問題はなくなるが、馬を示す文脈上のhipoが既存owner ĉevalへ戻る。"
+    },
+    {
+      "input": "hipopotamo",
+      "expected": "hipopotamo",
+      "visible": "马河ᴾo",
+      "before": "hipopotamᴾo",
+      "after": "ĉevalpotamo",
+      "remains_mismatch": true,
+      "before_trace": [
+        {
+          "kind": "key",
+          "text": "马河",
+          "owner": "hipopotam",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "kind": "literal",
+          "text": "ᴾ",
+          "owner": "ᴾ",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "kind": "literal",
+          "text": "o",
+          "owner": "o",
+          "start": 3,
+          "end": 4
+        }
+      ],
+      "after_trace": [
+        {
+          "kind": "key",
+          "text": "马",
+          "owner": "ĉeval",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "kind": "key",
+          "text": "河ᴾ",
+          "owner": "potam",
+          "start": 1,
+          "end": 3
+        },
+        {
+          "kind": "literal",
+          "text": "o",
+          "owner": "o",
+          "start": 3,
+          "end": 4
+        }
+      ],
+      "explanation_ja": "途中でᴾを切り離す問題はなくなるが、馬を示す文脈上のhipoが既存owner ĉevalへ戻る。"
+    },
+    {
+      "input": "mesentero",
+      "expected": "mesentero",
+      "visible": "中肠ᴱo",
+      "before": "mesenterᴱo",
+      "after": "mezentero",
+      "remains_mismatch": true,
+      "before_trace": [
+        {
+          "kind": "key",
+          "text": "中肠",
+          "owner": "mesenter",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "kind": "literal",
+          "text": "ᴱ",
+          "owner": "ᴱ",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "kind": "literal",
+          "text": "o",
+          "owner": "o",
+          "start": 3,
+          "end": 4
+        }
+      ],
+      "after_trace": [
+        {
+          "kind": "key",
+          "text": "中",
+          "owner": "mez",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "kind": "key",
+          "text": "肠ᴱ",
+          "owner": "enter",
+          "start": 1,
+          "end": 3
+        },
+        {
+          "kind": "literal",
+          "text": "o",
+          "owner": "o",
+          "start": 3,
+          "end": 4
+        }
+      ],
+      "explanation_ja": "ᴱを残す短いwholeキーは使わなくなる。中=mezと肠ᴱ=enterの組合せでmezenteroへ戻るため、元のmesenteroとは綴りが違う。"
+    },
+    {
+      "input": "mesoentero",
+      "expected": "mesoentero",
+      "visible": "中肠ᴱo",
+      "before": "mesenterᴱo",
+      "after": "mezentero",
+      "remains_mismatch": true,
+      "before_trace": [
+        {
+          "kind": "key",
+          "text": "中肠",
+          "owner": "mesenter",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "kind": "literal",
+          "text": "ᴱ",
+          "owner": "ᴱ",
+          "start": 2,
+          "end": 3
+        },
+        {
+          "kind": "literal",
+          "text": "o",
+          "owner": "o",
+          "start": 3,
+          "end": 4
+        }
+      ],
+      "after_trace": [
+        {
+          "kind": "key",
+          "text": "中",
+          "owner": "mez",
+          "start": 0,
+          "end": 1
+        },
+        {
+          "kind": "key",
+          "text": "肠ᴱ",
+          "owner": "enter",
+          "start": 1,
+          "end": 3
+        },
+        {
+          "kind": "literal",
+          "text": "o",
+          "owner": "o",
+          "start": 3,
+          "end": 4
+        }
+      ],
+      "explanation_ja": "同じ中肠ᴱoからmezenteroへ戻る。異綴りの合流を解消したわけではない。"
+    }
+  ],
+  "scope": "Examples explain actual observed key choices only. No new assignment, decomposition or alias correction is proposed/applied here. Counts include surface forms and case variants, not root count."
+}

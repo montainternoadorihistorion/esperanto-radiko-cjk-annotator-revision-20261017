@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "all_other_data_files_unchanged": 54,
+  "source_scope_sha256": "31692ba397e6599d5610b609d13ef6a3d43998a1ce284c1cbf7fcd64b3af5734",
+  "source_scope_file": "active_owner_refined_scope.json",
+  "editions": {
+    "current": {
+      "before": 8,
+      "added": 1,
+      "after": 9,
+      "existing_rows_and_order_unchanged": true,
+      "all_pins_and_historical_evidence_unchanged": true,
+      "revision": "current-compound-inverse-20261018-v3",
+      "sha256": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+      "canonical_csv_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "canonical_rows": 10678,
+      "effective_rows": 10687,
+      "canonical_exact_key_conflicts": 0
+    },
+    "legacy": {
+      "before": 18,
+      "added": 140,
+      "after": 158,
+      "existing_rows_and_order_unchanged": true,
+      "all_pins_and_historical_evidence_unchanged": true,
+      "revision": "legacy-compound-inverse-20261018-v3",
+      "sha256": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+      "canonical_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "canonical_rows": 10636,
+      "effective_rows": 10794,
+      "canonical_exact_key_conflicts": 0
+    }
+  },
+  "files": {
+    "Esperanto-Reverter-JA/data/current_inverse_aliases.json": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+    "Esperanto-Reverter-ZH/data/current_inverse_aliases.json": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+    "Esperanto-Reverter-JA/data/legacy_inverse_aliases.json": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+    "Esperanto-Reverter-ZH/data/legacy_inverse_aliases.json": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+    "Esperanto-Reverter-JA/tests/fixtures/compound_inverse_additions_20261018.json": "8b0ff00762bd0daeca7de7563ef8a6668c2a47b177249dc44b869d66acd6615f",
+    "Esperanto-Reverter-ZH/tests/fixtures/compound_inverse_additions_20261018.json": "8b0ff00762bd0daeca7de7563ef8a6668c2a47b177249dc44b869d66acd6615f",
+    "Esperanto-Reverter-JA/tests/test_current_inverse_aliases.py": "45f1432d39f6b64e395616ec35fca73475e4d07d4c24ded507a008cb95a7595d",
+    "Esperanto-Reverter-ZH/tests/test_current_inverse_aliases.py": "f6b29ec32bbc9ee6de13e73ef6f06a061336f85e52122d507707099403695b57",
+    "Esperanto-Reverter-JA/tests/test_legacy_inverse_aliases.py": "1f44dd4ee4bf419ab02edcf4c23a4477f8a304da634bc732a79b7bb2b34ee0c5",
+    "Esperanto-Reverter-ZH/tests/test_legacy_inverse_aliases.py": "1bab48b85625a76d9b7f935fff268c80770af641e6de0511517f9ee416ddd879",
+    "Esperanto-Reverter-JA/tests/test_unique_inverse_keys.py": "6007f81cb3c4c119bc132ae5c0640d9c3ba585577ddaea626950f238c3f611cd",
+    "Esperanto-Reverter-ZH/tests/test_unique_inverse_keys.py": "694af703b7675320e7cec7ceee7d13b8920a44f8ea331c62c4ea38f37a18406c",
+    "Esperanto-Reverter-JA/tests/test_assignment_versions.py": "fbbc36c59ad9050bbaf239783b35950be3d1cbfe212c7ed26c218f0679ba6a75",
+    "Esperanto-Reverter-ZH/tests/test_assignment_versions.py": "adc102cfaf4fcd62e94292396f93454fa047db20e4791a7177f560fabe98c70d",
+    "Esperanto-Reverter-JA/tests/test_dot_greft_assignments.py": "ac8a9c62ad8e9002bf5c7564ada9ce4934d05daa258f97fbc18881fd607fc30a",
+    "Esperanto-Reverter-ZH/tests/test_dot_greft_assignments.py": "c5246da9fe6b8c1b927fe4c430b988c3a65d626dcbed6d281dcfe0a4471ee5b2",
+    "Esperanto-Reverter-JA/tests/test_fruit_priority_assignment.py": "246e08275279219f2b8dc642b91f227bdbcc18437bf405862831ddd6a0e14a92",
+    "Esperanto-Reverter-ZH/tests/test_fruit_priority_assignment.py": "4151e05a699568320242b88196c3acfc51e8f668e7dd45f20778429caf178e2b"
+  },
+  "fixture_sha256": "8b0ff00762bd0daeca7de7563ef8a6668c2a47b177249dc44b869d66acd6615f",
+  "localized_tests_differ_only_in_module_import": true
+}

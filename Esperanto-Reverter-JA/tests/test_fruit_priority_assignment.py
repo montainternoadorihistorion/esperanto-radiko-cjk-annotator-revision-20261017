@@ -43,6 +43,6 @@ def test_all_dictionary_menu_choices_convert_with_the_selected_profile():
         at.button[0].click().run()
         assert not at.exception
         if source_id == "pre-las-20261017":
-            assert at.text_area[1].value == "ananaso jakvon 菠o 菠mielo avantaĝaprioro avantaĝa apriora lasis emancipis emancipᴱis"
+            assert at.text_area[1].value == "ananaso jakvon 菠o 菠mielo avantaĝaprioro avantaĝa apriora lasis emancipis 放ᴱis"
         else:
             assert at.text_area[1].value == "ananaso jakvon ananaso jakvo prioritato avantaĝa apriora 留is lasis emancipis"

@@ -92,6 +92,12 @@ CONVERTED_SOURCE_KEY = "converted_source_signature"
 # so this never breaks a match; kanji and superscript identifiers (ᴬᴰ…) are left untouched.
 _ASCII_LOWER = str.maketrans(string.ascii_uppercase, string.ascii_lowercase)
 
+# A displayed kanji identifier is one complete run: e.g. ᴷˢ, ᴷᴹ, ᶜ̂, ᵁ̆.
+# These are the modifier letters used by the assignment alphabet plus its two
+# combining marks. Do not treat unrelated punctuation as part of an identifier.
+_IDENTIFIER_CONTINUATION_CHARS = frozenset("ᴬᴮᶜᴰᴱᶠᴳᴴᴵᴶᴷᴸᴹᴺᴼᴾᴿˢᵀᵁⱽᶻ\u0302\u0306")
+
+
 # Defensive cap for user-uploaded custom dictionaries (the bundled dict is ~0.17 MB).
 # Streamlit's default maxUploadSize is 200 MB; a few-MB CSV can still hold millions of rows
 # and freeze the worker, so reject oversized uploads before parsing.
@@ -233,6 +239,7 @@ CURRENT_INVERSE_ALIAS_PAIRS = {
     '父ᴾᴬ': 'pa',
     '插ᴾ': 'pol',
     '白ᴸᴱ': 'leŭk',
+    '远复ᴷ': 'telekopi',
 }
 
 
@@ -308,6 +315,146 @@ LEGACY_INVERSE_ALIAS_PAIRS = {
     '间学ᴸᴺ': 'interlingvistik',
     '越形具ᴬ': 'transformator',
     '单色ᴷᴿ': 'monokromat',
+    '醋盐ᴬ': 'acetat',
+    '气血ᴱ': 'aeremi',
+    '锐名ᴼ': 'akronim',
+    '醇盐ᴬ': 'alkoholat',
+    '醇血ᴱ': 'alkoholemi',
+    '替具ᴬ': 'alternator',
+    '铝盐ᴬ': 'aluminiat',
+    '担子菌ᴹᶜ': 'bazidimicet',
+    '担子菌ᴹᴵ': 'bazidimikot',
+    '青盐ᴬ': 'cianat',
+    '青植ᶠ': 'cianfit',
+    '青化ᴵᴰ': 'cianid',
+    '三角洲似ᴼ': 'deltoid',
+    '从氧糖ᴼ': 'deoksioz',
+    '节学ᴵ': 'dietik',
+    '二ᴰᴵ氯化ᴵᴰ': 'diklorid',
+    '膨具ᴬ': 'dilatator',
+    '二ᴰᴵ硫化ᴵᴰ': 'disulfid',
+    '甘苦ᴬ': 'dolĉamar',
+    '胚植ᶠ': 'embrifit',
+    '胚源ᴳ': 'embrigenez',
+    '胚切ᵀᴹ': 'embritomi',
+    '骨端炎ᵀ': 'epifizit',
+    '咽炎ᵀ': 'faringit',
+    '磷盐ᴬ': 'fosfat',
+    '磷盐ᴬ血ᴱ': 'fosfatemi',
+    '磷化ᴵᴰ': 'fosfid',
+    '磷盐ᴵ': 'fosfit',
+    '果糖ᴼ': 'fruktoz',
+    '牙肉炎ᵀ': 'gingivit',
+    '土源ᴳ': 'grundgenez',
+    '卤化ᴵᴰ': 'halogenid',
+    '半盲ᴬ': 'hemianopsi',
+    '半瘫ᴾᴸ': 'hemiplegi',
+    '半球ˢ': 'hemisfer',
+    '肝炎ᵀ': 'hepatit',
+    '超血ᴱ': 'hiperemi',
+    '超感ᴱ': 'hiperestez',
+    '超名ᴼ': 'hiperonim',
+    '超压ᵀ': 'hipertensi',
+    '超养ᵀ': 'hipertrofi',
+    '亚皮ᴰ': 'hipoderm',
+    '亚感ᴱ': 'hipoestez',
+    '亚胃ᴳ': 'hipogastr',
+    '亚舌ᴳ': 'hipoglos',
+    '亚软骨ᴷᴺ': 'hipokondr',
+    '亚名ᴺᴵ': 'hiponim',
+    '亚滞ˢᶻ': 'hipostaz',
+    '亚压ᵀ': 'hipotensi',
+    '亚题ᵀᶻ': 'hipotez',
+    '间声ᶠᴼ': 'interfon',
+    '等ᴵ青盐ᴬ': 'izocianat',
+    '隔计ᴹ': 'izolmetr',
+    '碘化ᴵᴰ': 'jodid',
+    '碘基ᴵ': 'jodil',
+    '算计ᴹ': 'kalkulmetr',
+    '炭化ᴵᴰ': 'karbid',
+    '碳盐ᴬ': 'karbonat',
+    '碳化ᴵᴰ': 'karbonid',
+    '碳基ᴵ': 'karbonil',
+    '阴蒂除ᴱᴷ': 'klitorektomi',
+    '氯盐ᴬ': 'klorat',
+    '氯血ᴱ': 'kloremi',
+    '氯化ᴵᴰ': 'klorid',
+    '氯化ᴵᴰ血ᴱ': 'kloridemi',
+    '氯盐ᴵ': 'klorit',
+    '股痛ᴬ': 'koksalgi',
+    '股炎ᵀ': 'koksit',
+    '色计ᴹ': 'kolormetr',
+    '色测ᴹᵀ': 'kolormetri',
+    '换具ᴬ': 'komutator',
+    '弦炎ᵀ': 'kordit',
+    '冻测ᴹᵀ': 'kriometri',
+    '栽具ᴬ': 'kultivator',
+    '乳糖ᴼ': 'laktoz',
+    '举具ᴬ': 'levator',
+    '脾除ᴱᴷ': 'lienektomi',
+    '脾炎ᵀ': 'lienit',
+    '蜗牛': 'limak',
+    '纵隔炎ᵀ': 'mediastinit',
+    '米学ᴵ': 'metrik',
+    '肌炎ᵀ': 'miit',
+    '微影ᶠ': 'mikrofilm',
+    '微声ᶠᴼ': 'mikrofon',
+    '微粒ᴳ': 'mikrograjn',
+    '微槽ᴷ': 'mikrokanel',
+    '微菌ᴷᴷ': 'mikrokok',
+    '微石ᴸᵀ': 'mikrolit',
+    '微切ᵀᴼ': 'mikrotom',
+    '万足ᴾᴼ': 'miriapod',
+    '髓炎ᵀ': 'mjelit',
+    '单配ᴳ': 'monogami',
+    '单志ᴳ': 'monografi',
+    '单字ᴳᴹ': 'monogram',
+    '单石ᴸᵀ': 'monolit',
+    '单话ᴸ': 'monolog',
+    '单形ᴹᴵ': 'monomorfi',
+    '单瓣ᴾ': 'monopetal',
+    '单体ˢᴹ': 'monosom',
+    '粘症ᴼ': 'mukoz',
+    '筋症ᴼ': 'muskoloz',
+    '氮化ᴵᴰ': 'nitrid',
+    '号具ᴬ': 'numerator',
+    '渗计ᴹ': 'osmozmetr',
+    '骨痛ᴬ': 'ostalgi',
+    '骨除ᴱᴷ': 'ostektomi',
+    '骨炎ᵀ': 'ostit',
+    '胰除ᴱᴷ': 'pankreatektomi',
+    '胰炎ᵀ': 'pankreatit',
+    '雨计ᴹ': 'pluvmetr',
+    '谓能ᴵ': 'predikativ',
+    '肺炎ᵀ': 'pulmit',
+    '瓤炎ᵀ': 'pulpit',
+    '刨具ᴬ': 'rabotator',
+    '规具ᴬ': 'regulator',
+    '蔗盐ᴬ': 'sakarat',
+    '蔗糖ᴼ': 'sakaroz',
+    '柳盐ᴬ': 'salikat',
+    '无感ᴱ': 'senestez',
+    '巩膜炎ᵀ': 'sklerotit',
+    '刮具ᴬ': 'skrapator',
+    '声计ᴹ': 'sonmetr',
+    '水苏糖ᴼ': 'stakioz',
+    '胃炎ᵀ': 'stomakit',
+    '硫盐ᴬ': 'sulfat',
+    '硫青盐ᴬ': 'sulfcianat',
+    '硫化ᴵᴰ': 'sulfid',
+    '硫盐ᴵ': 'sulfit',
+    '远影ᶠ': 'telefilm',
+    '远动ᴷᶻ': 'telekinez',
+    '远令ᴷ': 'telekomand',
+    '远复ᴷ': 'telekopi',
+    '远计ᴹ': 'telemetr',
+    '疹似ᴼ': 'tifoid',
+    '三体ˢᴹ': 'trisom',
+    '篡员ᴬᵀ': 'uzurpator',
+    '汽计ᴹ': 'vapormetr',
+    '精丘炎ᵀ': 'verumontanit',
+    '振具ᴬ': 'vibrator',
+    '载具ᴬ': 'ŝarĝator',
 }
 
 
@@ -398,7 +545,12 @@ def convert_kanji_esperanto_to_alphabet(text: str, mapping: MappingIndex) -> str
         for length in mapping.lengths_desc:
             if length > len(text) - i:
                 continue
-            substring = text[i : i + length]
+            end = i + length
+            # This applies to every key, including older whole-word keys. Merely
+            # rejecting an added alias could fall back to the same truncated ID.
+            if end < len(text) and text[end] in _IDENTIFIER_CONTINUATION_CHARS:
+                continue
+            substring = text[i:end]
             replacement = mapping.by_length[length].get(substring)
             if replacement is None:
                 continue
@@ -408,8 +560,14 @@ def convert_kanji_esperanto_to_alphabet(text: str, mapping: MappingIndex) -> str
             break
 
         if not matched:
-            result.append(text[i])
-            i += 1
+            end = i + 1
+            if text[i] in _IDENTIFIER_CONTINUATION_CHARS:
+                # Preserve an unknown run together; do not restart matching in
+                # its middle and accidentally consume a recognized short suffix.
+                while end < len(text) and text[end] in _IDENTIFIER_CONTINUATION_CHARS:
+                    end += 1
+            result.append(text[i:end])
+            i = end
 
     return "".join(result).lower()
 

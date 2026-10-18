@@ -64,7 +64,7 @@ def test_profile_roots_and_inflections_round_trip(source_id):
 
 def test_ambiguous_bare_character_requires_the_selected_profile():
     assert app.convert_kanji_esperanto_to_alphabet("留is 放is 放ᴱis", mapping("pejvo-piv-20260620")) == "留is lasis emancipis"
-    assert app.convert_kanji_esperanto_to_alphabet("留is 放is 放ᴱis", mapping("pre-las-20261017")) == "lasis emancipis emancipᴱis"
+    assert app.convert_kanji_esperanto_to_alphabet("留is 放is 放ᴱis", mapping("pre-las-20261017")) == "lasis emancipis 放ᴱis"
     assert mapping("legacy-minimal") == mapping("pejvo-piv-20260620")
 
 
@@ -108,7 +108,7 @@ def test_ui_selects_old_and_new_without_guessing_and_invalidates_stale_result():
     assert at.warning
     at.button[0].click().run()
     assert not at.exception
-    assert at.text_area[1].value == "lasis emancipis emancipᴱis"
+    assert at.text_area[1].value == "lasis emancipis 放ᴱis"
     assert not at.warning
     at.sidebar.selectbox[0].set_value("pejvo-piv-20260620").run()
     assert at.warning

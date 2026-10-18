@@ -1,0 +1,395 @@
+{
+  "completed": true,
+  "passed_no_new_failures": true,
+  "runtime_files": [
+    {
+      "path": "Esperanto-Reverter-JA/data/current_dictionary_source.json",
+      "sha256": "70a37e51852bf58740204ace6c680edce89c4b419692fa51727f511b5d9f48ad",
+      "bytes": 9834
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/current_inverse_aliases.json",
+      "sha256": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+      "bytes": 3870
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/dot-greft-20261018.json",
+      "sha256": "b343dcaa9eaf1d7e5fb35c57cbca3c63ae8626cd453692ca86f57d2007f0d762",
+      "bytes": 4340
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/four-reviewed-assignments-20261017.json",
+      "sha256": "eadc8645b5c049440bf34a45cca975ba6ae394cc2589186af34049ed04217013",
+      "bytes": 5013
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/four-shared-assignments-20261017.json",
+      "sha256": "b1d1f2781e4131a88499722fc9309ddc783554505f131cd75409d4a84b5b4d75",
+      "bytes": 791
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/legacy_inverse_aliases.json",
+      "sha256": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+      "bytes": 18041
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/mirror-identifiers-20261017.json",
+      "sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
+      "bytes": 311898
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/monaco_source_20261017.json",
+      "sha256": "8e99e85a6a78cf99f7692b2727d7a86d48f47d1bc912276fb0abda71f0bb565a",
+      "bytes": 5359824
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/nostalgi-onk-fortres-assignments-20261017.json",
+      "sha256": "aae9162c2d1b8ce253af1bf6be927f8dbb45752fc9137dd0093f53e2220e06a1",
+      "bytes": 6313
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/observatori-assignment-20261017.json",
+      "sha256": "d8b61e22f040212b1619ef1fcaa1a39f58e1735ed92e356a5be094e900b5ecd7",
+      "bytes": 619
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/pejvo_piv_20260620_reverter.csv",
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "bytes": 317760
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/pejvo_piv_pre_dot_greft_20261018.csv",
+      "sha256": "3219d77284ddf21c90b6d33a580ead00a3c38b2628b09ed205883c9255f6bd65",
+      "bytes": 317676
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/pejvo_piv_pre_las_20261017.csv",
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "bytes": 306934
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/pejvo_piv_pre_mirror_20261017.csv",
+      "sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
+      "bytes": 307185
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/pejvo_piv_pre_satir_20261017.csv",
+      "sha256": "ec6d04c11d3bee9fc2063342b73b884c1fc02819a736dc033f5b6e99e320f6c8",
+      "bytes": 317250
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/pejvo_piv_pre_sperm_distinction_20261018.csv",
+      "sha256": "87e9317a0fc35ef1ae50462002ec8143b129c3e64112f4eda360336796fe50fb",
+      "bytes": 317344
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/pejvo_piv_pre_three_short_20261017.csv",
+      "sha256": "4d32d2eb5331c8d0d90e8d3995b6a27c1e8a108eb09c281c54c598db21cf48fd",
+      "bytes": 316500
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/protez-ranc-assignments-20261017.json",
+      "sha256": "3491328f8d6d1c32534b844731d5ebabd0de4db03c69b9dad0112a9131b206bd",
+      "bytes": 2819
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/satir-assignment-20261017.json",
+      "sha256": "8ad557482504a6e48cf5ef0142e95c3febc3022289bf2fe64a8105fee026b439",
+      "bytes": 3999
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/snippet_pre_dot_greft_20261018.csv",
+      "sha256": "22ef2de51e53bd19314b6c7f140aa8d82b0914bd71bfdd0b2c943cbc71591f07",
+      "bytes": 176545
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/snippet_pre_satir_20261017.csv",
+      "sha256": "803a60e0b5b7017601378681876b30f15d926d4b2028694f116c009e0f7ec416",
+      "bytes": 176371
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/snippet_pre_sperm_distinction_20261018.csv",
+      "sha256": "d9aa07044691264d371b2e526b7167264e3cc41790e8e6bb948ed829997d7ff7",
+      "bytes": 176403
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/snippet_pre_three_short_20261017.csv",
+      "sha256": "22536c3a1348f2da787fadd86468dc1a8779f520dadff15abc93b7b2b339c30e",
+      "bytes": 176114
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/sperm-distinction-20261018.json",
+      "sha256": "3c91b271b07d7ffe7a664887c726239a249b67084a0c2e8b49c202c18a52ce42",
+      "bytes": 8702
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/stafilokok-assignment-20261017.json",
+      "sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
+      "bytes": 623
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/sutur-fraj-assignments-20261017.json",
+      "sha256": "19205ad78fbd88208119a3e03ed30bc7104d2e66a542a7646a5c95996c5c4d64",
+      "bytes": 2758
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/three-short-assignments-20261017.json",
+      "sha256": "8c681933fa1bc5e4a127da385ff3dbf4bf3adf7ad513291d6f467f80069effe4",
+      "bytes": 5202
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/two_editions_policy.json",
+      "sha256": "41c12930485b31d02499965eeb7b8f73f80ec7361aea2252b79fe1c074034762",
+      "bytes": 1068
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/uve-assignments-20261017.json",
+      "sha256": "fc3acc1523d35c94e1955c29ec92ff04684e69c564ca39da4881d5bc4e2244ad",
+      "bytes": 678
+    },
+    {
+      "path": "Esperanto-Reverter-JA/esperanto_converter.py",
+      "sha256": "c1317c9b2c6300e435c62e48c81b7bdef98014318f9ea440dcbacbe7f69063f3",
+      "bytes": 37610
+    },
+    {
+      "path": "Esperanto-Reverter-JA/エスペラント語根-漢字対応表_スニペット用最小限.csv",
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+      "bytes": 176571
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/current_dictionary_source.json",
+      "sha256": "70a37e51852bf58740204ace6c680edce89c4b419692fa51727f511b5d9f48ad",
+      "bytes": 9834
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/current_inverse_aliases.json",
+      "sha256": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+      "bytes": 3870
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/dot-greft-20261018.json",
+      "sha256": "b343dcaa9eaf1d7e5fb35c57cbca3c63ae8626cd453692ca86f57d2007f0d762",
+      "bytes": 4340
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/four-reviewed-assignments-20261017.json",
+      "sha256": "eadc8645b5c049440bf34a45cca975ba6ae394cc2589186af34049ed04217013",
+      "bytes": 5013
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/four-shared-assignments-20261017.json",
+      "sha256": "b1d1f2781e4131a88499722fc9309ddc783554505f131cd75409d4a84b5b4d75",
+      "bytes": 791
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/legacy_inverse_aliases.json",
+      "sha256": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+      "bytes": 18041
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/mirror-identifiers-20261017.json",
+      "sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
+      "bytes": 311898
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/monaco_source_20261017.json",
+      "sha256": "8e99e85a6a78cf99f7692b2727d7a86d48f47d1bc912276fb0abda71f0bb565a",
+      "bytes": 5359824
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/nostalgi-onk-fortres-assignments-20261017.json",
+      "sha256": "aae9162c2d1b8ce253af1bf6be927f8dbb45752fc9137dd0093f53e2220e06a1",
+      "bytes": 6313
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/observatori-assignment-20261017.json",
+      "sha256": "d8b61e22f040212b1619ef1fcaa1a39f58e1735ed92e356a5be094e900b5ecd7",
+      "bytes": 619
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/pejvo_piv_20260620_reverter.csv",
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "bytes": 317760
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/pejvo_piv_pre_dot_greft_20261018.csv",
+      "sha256": "3219d77284ddf21c90b6d33a580ead00a3c38b2628b09ed205883c9255f6bd65",
+      "bytes": 317676
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/pejvo_piv_pre_las_20261017.csv",
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "bytes": 306934
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/pejvo_piv_pre_mirror_20261017.csv",
+      "sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
+      "bytes": 307185
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/pejvo_piv_pre_satir_20261017.csv",
+      "sha256": "ec6d04c11d3bee9fc2063342b73b884c1fc02819a736dc033f5b6e99e320f6c8",
+      "bytes": 317250
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/pejvo_piv_pre_sperm_distinction_20261018.csv",
+      "sha256": "87e9317a0fc35ef1ae50462002ec8143b129c3e64112f4eda360336796fe50fb",
+      "bytes": 317344
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/pejvo_piv_pre_three_short_20261017.csv",
+      "sha256": "4d32d2eb5331c8d0d90e8d3995b6a27c1e8a108eb09c281c54c598db21cf48fd",
+      "bytes": 316500
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/protez-ranc-assignments-20261017.json",
+      "sha256": "3491328f8d6d1c32534b844731d5ebabd0de4db03c69b9dad0112a9131b206bd",
+      "bytes": 2819
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/satir-assignment-20261017.json",
+      "sha256": "8ad557482504a6e48cf5ef0142e95c3febc3022289bf2fe64a8105fee026b439",
+      "bytes": 3999
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/snippet_pre_dot_greft_20261018.csv",
+      "sha256": "22ef2de51e53bd19314b6c7f140aa8d82b0914bd71bfdd0b2c943cbc71591f07",
+      "bytes": 176545
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/snippet_pre_satir_20261017.csv",
+      "sha256": "803a60e0b5b7017601378681876b30f15d926d4b2028694f116c009e0f7ec416",
+      "bytes": 176371
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/snippet_pre_sperm_distinction_20261018.csv",
+      "sha256": "d9aa07044691264d371b2e526b7167264e3cc41790e8e6bb948ed829997d7ff7",
+      "bytes": 176403
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/snippet_pre_three_short_20261017.csv",
+      "sha256": "22536c3a1348f2da787fadd86468dc1a8779f520dadff15abc93b7b2b339c30e",
+      "bytes": 176114
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/sperm-distinction-20261018.json",
+      "sha256": "3c91b271b07d7ffe7a664887c726239a249b67084a0c2e8b49c202c18a52ce42",
+      "bytes": 8702
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/stafilokok-assignment-20261017.json",
+      "sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
+      "bytes": 623
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/sutur-fraj-assignments-20261017.json",
+      "sha256": "19205ad78fbd88208119a3e03ed30bc7104d2e66a542a7646a5c95996c5c4d64",
+      "bytes": 2758
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/three-short-assignments-20261017.json",
+      "sha256": "8c681933fa1bc5e4a127da385ff3dbf4bf3adf7ad513291d6f467f80069effe4",
+      "bytes": 5202
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/two_editions_policy.json",
+      "sha256": "41c12930485b31d02499965eeb7b8f73f80ec7361aea2252b79fe1c074034762",
+      "bytes": 1068
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/uve-assignments-20261017.json",
+      "sha256": "fc3acc1523d35c94e1955c29ec92ff04684e69c564ca39da4881d5bc4e2244ad",
+      "bytes": 678
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/esperanto_converter_zh.py",
+      "sha256": "875d56733c41ce9a84ebf731c06a65eb175c2ad4403dadee9c28a483e53a527c",
+      "bytes": 36757
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/エスペラント語根-漢字対応表_スニペット用最小限.csv",
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+      "bytes": 176571
+    }
+  ],
+  "canonical": [
+    {
+      "path": "エスペラント語根＿漢字割り当て＿20260630/_kanji_map_master.tsv",
+      "bytes": 218483,
+      "sha256": "b3151577135ce273e7d78b4ae1a014043ffc687f647bcd4e482f49e6ff34cbc5"
+    },
+    {
+      "path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
+      "bytes": 599295,
+      "sha256": "b651ade3c363b96173d2f23bc6404bc67c2b4cfd3e9ce2aa69e6e24eb78ce33e"
+    },
+    {
+      "path": "エスペラント語根＿漢字割り当て＿20260630/_context_identifier_sidecar.tsv",
+      "bytes": 6599,
+      "sha256": "aa8b96cbef372d77f83868906eca8d4a06453e688cb67f34bc94ee47b413bf08"
+    },
+    {
+      "path": "エスペラント語根＿漢字割り当て＿20260630/_base_override.tsv",
+      "bytes": 7338,
+      "sha256": "f1116756d55da9ff9dd131eaf2e33ffa7954f5d041d904dfa1c41fcd7c168f9d"
+    },
+    {
+      "path": "エスペラント語根＿漢字割り当て＿20260630/漢字注入_学習者版_20260620.txt",
+      "bytes": 5286427,
+      "sha256": "c769f64cab5b4118ed22a23daee3de6867ae5f872d7e91eb3e9ae0197e94dbd4"
+    },
+    {
+      "path": "エスペラント語根＿漢字割り当て＿20260630/漢字注入_学術版_20260620.txt",
+      "bytes": 5171960,
+      "sha256": "9a135a16c56ebcd7a3e205aa9ef320cd00b8a390bde0ac896d265cf1311f5e92"
+    }
+  ],
+  "reports": [
+    {
+      "path": "baseline.json",
+      "bytes": 117858,
+      "sha256": "3ac8c67f19b59dd148f53bbd8ebddd379a353392358843d5fe77820436a80697"
+    },
+    {
+      "path": "capture_reference_manifest.json",
+      "bytes": 57255,
+      "sha256": "fd0bb5fd79fbeb12d993e795fb97fe80c6603a53e68bf71177f0205e1d9e19b6"
+    },
+    {
+      "path": "replay_harness_derivation.json",
+      "bytes": 534,
+      "sha256": "5165282d1d1365487cb6ac8a9ca4c86b891a6c5ce67663deeb2c0ff77b34b6d6"
+    },
+    {
+      "path": "engine_runtime_freeze.json",
+      "bytes": 2018,
+      "sha256": "e7ff65e06f319120d05b919cf3e912efb6fc371f0fd9b18fc3095362a1eeb90d"
+    },
+    {
+      "path": "forward_unchanged_validation.json",
+      "bytes": 33540,
+      "sha256": "5c06f4f5c3525d17e671ffb7c0fde101b7f5775ec976c9e376f861f0a7752b0b"
+    },
+    {
+      "path": "independent_key_stress.json",
+      "bytes": 28133,
+      "sha256": "96efe05251f38aa2c57285d4dabf9be1708a45cce755b75140dc8828767ade8a"
+    },
+    {
+      "path": "partial_changes_explained.json",
+      "bytes": 8488,
+      "sha256": "ed811060516471d97bc36fe9a14ebbdf41c2fbc9ab0e0af2a7140f8550f7541e"
+    },
+    {
+      "path": "full_audit_replay_validation.json",
+      "bytes": 81273,
+      "sha256": "cf8f316fa878a43758c96637309ea53af9291131dff0b585fd562fa13da5c3c6"
+    },
+    {
+      "path": "regression_summary_ja.txt",
+      "bytes": 2419,
+      "sha256": "20cbaf9e5cc615ad7f9ccb3193a4f12ef6b895f83d58950a4618c26d24ebc303"
+    }
+  ]
+}
