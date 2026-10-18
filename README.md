@@ -25,7 +25,9 @@
 
 2026-10-18、`6f1955e`のCloud配備をChromeから実操作し、日中韓×新旧×3モードの**18通りすべて**で、通常・`@`を含む画面出力と実ダウンロード本文が期待値と完全一致しました。ファイル名・HTML内の版と署名、6組の新旧CSV、版切替時の古い結果のダウンロード停止も確認しています。`semajntagoj`・`@semajn@tagoj`・`limak`・`testikit`は追加6通りで一致しました。配布ページで観測した12個の固定URLは、別途HTTPSで取得し全バイトのSHAを照合しました（大JSONはブラウザ取得とは区別）。[Cloud実機検証記録と出力ファイル](tests/cloud_assignment_editions/cloud_verification.json)を保存しました。[前回の部分確認記録](tests/cloud_assignment_editions_partial.json)は履歴として残しています。
 
-日本語版は実行エラーから再起動後、アプリ本体が正常動作しました。ただしCloudの外枠は読み込み中表示が続くため、この表示問題は解消済みとは扱いません。検証した本体はこちらです：[日本語](https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/)、[中文](https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/)、[한국어](https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/)。今回の作業では漢字割り当て・注釈・分解・アプリのソースを変更していません。統合リポジトリの日中逆変換アプリは実装と実テストまでで、旧公開逆変換サイトへの配備は含みません。
+追加確認では、同じChromeでユーザーが[日本語版の通常URL](https://esperanto-cjk-revision-ja-20261017.streamlit.app/)を手動で開くと正常に表示され、その既存タブに接続した自動操作でも正常に動作しました。Codexの内蔵ブラウザでも通常URLの正常表示を確認しています。読み込み中表示が続いた現象は、検証用に自動作成した日本語版・中国語版のタブで観測されたものです。詳しい発生条件は未特定で、通常URLが一律に利用できないという意味ではありません。日本語版の通常URLから新旧×3モードの6出力と実ダウンロード、新旧2個のCSV、版切替時の古い結果の保護、配布ページから復帰後の再変換を確認しました。[追加検証の記録と出力ファイル](tests/cloud_normal_url/verification.json)を保存しています。
+
+先の18経路検証に使用したアプリ本体URLはこちらです：[日本語](https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/)、[中文](https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/)、[한국어](https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/)。今回の作業では漢字割り当て・注釈・分解・アプリのソースを変更していません。統合リポジトリの日中逆変換アプリは実装と実テストまでで、旧公開逆変換サイトへの配備は含みません。
 
 ## greft・dotの割り当て更新（2026-10-18）
 
