@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "baseline": "bb6cddb3ae44d7c990904b164d482d2c31c4d0f9",
+  "changes": {
+    "sutur": [
+      "缝合",
+      "缝ˢᴿ"
+    ],
+    "fraj": [
+      "鱼卵",
+      "卵ᶠ"
+    ]
+  },
+  "canonical_sidecar_sha256": "809e9ab23d8ef3d4649cb069e754b590ef9e648c908cd63a2cc28d023e027734",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "cf2267cb7f8eaaf512d10a9194a2c99fdfe3e9450b63a2631f0f8548d9c74aca",
+  "baseline_target_items": {
+    "sutur": {
+      "prefix": "sutur",
+      "body": "缝合",
+      "kanji": "缝合",
+      "detail": "sutur → 缝合 (piv, F=3, 基本形)",
+      "documentation": "語根: sutur\n入力: sutur\n最終形: 缝合\n漢字: 缝合\n識別子: なし\n型: piv\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7202",
+      "priority": 0,
+      "sourceRoot": "sutur",
+      "type": "piv",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7202
+    },
+    "fraj": {
+      "prefix": "fraj",
+      "body": "鱼卵",
+      "kanji": "鱼卵",
+      "detail": "fraj → 鱼卵 (pejvo, F=6, 基本形)",
+      "documentation": "語根: fraj\n入力: fraj\n最終形: 鱼卵\n漢字: 鱼卵\n識別子: なし\n型: pejvo\nF(汎用性): 6\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6560",
+      "priority": 0,
+      "sourceRoot": "fraj",
+      "type": "pejvo",
+      "frequency": 6,
+      "base": true,
+      "sourceLine": 6560
+    }
+  },
+  "expected_target_items": {
+    "sutur": {
+      "prefix": "sutur",
+      "body": "缝ˢᴿ",
+      "kanji": "缝",
+      "detail": "sutur → 缝ˢᴿ (piv, F=3)",
+      "documentation": "語根: sutur\n入力: sutur\n最終形: 缝ˢᴿ\n漢字: 缝\n識別子: sr\n型: piv\nF(汎用性): 3\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:7202",
+      "priority": 0,
+      "sourceRoot": "sutur",
+      "type": "piv",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 7202
+    },
+    "fraj": {
+      "prefix": "fraj",
+      "body": "卵ᶠ",
+      "kanji": "卵",
+      "detail": "fraj → 卵ᶠ (pejvo, F=6)",
+      "documentation": "語根: fraj\n入力: fraj\n最終形: 卵ᶠ\n漢字: 卵\n識別子: f\n型: pejvo\nF(汎用性): 6\nグループ数: 4\n基本形: no\n出典: _identifier_sidecar.tsv:6560",
+      "priority": 0,
+      "sourceRoot": "fraj",
+      "type": "pejvo",
+      "frequency": 6,
+      "base": false,
+      "sourceLine": 6560
+    }
+  },
+  "unrelated_items_sha256": "43768f99b8c5b9ab6c39d203f2bc936a76a97f50e842d684254d888dc4745510",
+  "unrelated_items_count": 10637,
+  "current_item_count": 10639,
+  "safe_reverse_aliases": {
+    "缝合": "sutur",
+    "鱼卵": "fraj"
+  }
+}

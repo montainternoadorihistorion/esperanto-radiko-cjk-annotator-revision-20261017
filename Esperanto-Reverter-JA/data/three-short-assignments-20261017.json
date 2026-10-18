@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "baseline": "4ecf504a845534cd7eb8bdbe6cafdd4d2a42e4af",
+  "changes": {
+    "risort": [
+      "弹簧",
+      "簧"
+    ],
+    "anc^": [
+      "簧",
+      "簧ᴬ"
+    ],
+    "lantern": [
+      "灯笼",
+      "灯ᴸᴺ"
+    ],
+    "lubrik": [
+      "润滑",
+      "滑ᴸ"
+    ]
+  },
+  "canonical_manifest_sha256": "8631a793ccd0055cfaa0a292457553ae10c1f58bf57ed7c892183281a8f7c96b",
+  "canonical_sidecar_sha256": "34377a1bf8afd916fa76a1d1fb0d159858153ebaaa6b9ed23a7532a3c98f5884",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "5ef4d87e6953cb70febabce533852ddd04fef54dfb03ffca01d9d5c2894afbf4",
+  "baseline_target_items": {
+    "risort": {
+      "prefix": "risort",
+      "body": "弹簧",
+      "kanji": "弹簧",
+      "detail": "risort → 弹簧 (pejvo, F=17, 基本形)",
+      "documentation": "語根: risort\n入力: risort\n最終形: 弹簧\n漢字: 弹簧\n識別子: なし\n型: pejvo\nF(汎用性): 17\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6048",
+      "priority": 0,
+      "sourceRoot": "risort",
+      "type": "pejvo",
+      "frequency": 17,
+      "base": true,
+      "sourceLine": 6048
+    },
+    "anc^": {
+      "prefix": "ancx",
+      "body": "簧",
+      "kanji": "簧",
+      "detail": "anc^ → 簧 (pejvo, F=2, 基本形)",
+      "documentation": "語根: anc^\n入力: ancx\n最終形: 簧\n漢字: 簧\n識別子: なし\n型: pejvo\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8242",
+      "priority": 0,
+      "sourceRoot": "anc^",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8242
+    },
+    "lantern": {
+      "prefix": "lantern",
+      "body": "灯笼",
+      "kanji": "灯笼",
+      "detail": "lantern → 灯笼 (basic, F=10, 基本形)",
+      "documentation": "語根: lantern\n入力: lantern\n最終形: 灯笼\n漢字: 灯笼\n識別子: なし\n型: basic\nF(汎用性): 10\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:5858",
+      "priority": 0,
+      "sourceRoot": "lantern",
+      "type": "basic",
+      "frequency": 10,
+      "base": true,
+      "sourceLine": 5858
+    },
+    "lubrik": {
+      "prefix": "lubrik",
+      "body": "润滑",
+      "kanji": "润滑",
+      "detail": "lubrik → 润滑 (basic, F=4, 基本形)",
+      "documentation": "語根: lubrik\n入力: lubrik\n最終形: 润滑\n漢字: 润滑\n識別子: なし\n型: basic\nF(汎用性): 4\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:5874",
+      "priority": 0,
+      "sourceRoot": "lubrik",
+      "type": "basic",
+      "frequency": 4,
+      "base": true,
+      "sourceLine": 5874
+    }
+  },
+  "expected_target_items": {
+    "risort": {
+      "prefix": "risort",
+      "body": "簧",
+      "kanji": "簧",
+      "detail": "risort → 簧 (pejvo, F=17, 基本形)",
+      "documentation": "語根: risort\n入力: risort\n最終形: 簧\n漢字: 簧\n識別子: なし\n型: pejvo\nF(汎用性): 17\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:6048",
+      "priority": 0,
+      "sourceRoot": "risort",
+      "type": "pejvo",
+      "frequency": 17,
+      "base": true,
+      "sourceLine": 6048
+    },
+    "anc^": {
+      "prefix": "ancx",
+      "body": "簧ᴬ",
+      "kanji": "簧",
+      "detail": "anc^ → 簧ᴬ (pejvo, F=2)",
+      "documentation": "語根: anc^\n入力: ancx\n最終形: 簧ᴬ\n漢字: 簧\n識別子: a\n型: pejvo\nF(汎用性): 2\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:8242",
+      "priority": 0,
+      "sourceRoot": "anc^",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 8242
+    },
+    "lantern": {
+      "prefix": "lantern",
+      "body": "灯ᴸᴺ",
+      "kanji": "灯",
+      "detail": "lantern → 灯ᴸᴺ (basic, F=10)",
+      "documentation": "語根: lantern\n入力: lantern\n最終形: 灯ᴸᴺ\n漢字: 灯\n識別子: ln\n型: basic\nF(汎用性): 10\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:5858",
+      "priority": 0,
+      "sourceRoot": "lantern",
+      "type": "basic",
+      "frequency": 10,
+      "base": false,
+      "sourceLine": 5858
+    },
+    "lubrik": {
+      "prefix": "lubrik",
+      "body": "滑ᴸ",
+      "kanji": "滑",
+      "detail": "lubrik → 滑ᴸ (basic, F=4)",
+      "documentation": "語根: lubrik\n入力: lubrik\n最終形: 滑ᴸ\n漢字: 滑\n識別子: l\n型: basic\nF(汎用性): 4\nグループ数: 8\n基本形: no\n出典: _identifier_sidecar.tsv:5874",
+      "priority": 0,
+      "sourceRoot": "lubrik",
+      "type": "basic",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 5874
+    }
+  },
+  "unrelated_items_sha256": "2c69c5e1e2c0094f842563ed4ab19918d5ede0dbab3ec20c2eab4fd264a7e3d3",
+  "unrelated_items_count": 10635,
+  "current_item_count": 10639,
+  "safe_reverse_aliases": {
+    "弹簧": "risort",
+    "灯笼": "lantern",
+    "润滑": "lubrik"
+  },
+  "reinterpreted_bare_display": {
+    "display": "簧",
+    "old_root": "anc^",
+    "new_root": "risort",
+    "old_profile": "pre-three-short-20261017"
+  }
+}

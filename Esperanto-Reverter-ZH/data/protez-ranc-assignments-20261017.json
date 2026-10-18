@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "baseline": "1eca8583a06a712e734b5193b715463b05a4685f",
+  "changes": {
+    "protez": [
+      "假肢",
+      "假体"
+    ],
+    "ranc": [
+      "哈喇",
+      "酸败"
+    ]
+  },
+  "canonical_sidecar_sha256": "0c537f7c9a04e0659af4f28b58512a04d0641037acadabdcdd649466962fd023",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "96b186d0449dad2da5f97c61bdcccbc90bbcfcd5d23ae29e289b5237c41214a8",
+  "baseline_target_items": {
+    "protez": {
+      "prefix": "protez",
+      "body": "假肢",
+      "kanji": "假肢",
+      "detail": "protez → 假肢 (pejvo, F=7, 基本形)",
+      "documentation": "語根: protez\n入力: protez\n最終形: 假肢\n漢字: 假肢\n識別子: なし\n型: pejvo\nF(汎用性): 7\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6444",
+      "priority": 0,
+      "sourceRoot": "protez",
+      "type": "pejvo",
+      "frequency": 7,
+      "base": true,
+      "sourceLine": 6444
+    },
+    "ranc": {
+      "prefix": "ranc",
+      "body": "哈喇",
+      "kanji": "哈喇",
+      "detail": "ranc → 哈喇 (pejvo, F=3, 基本形)",
+      "documentation": "語根: ranc\n入力: ranc\n最終形: 哈喇\n漢字: 哈喇\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7393",
+      "priority": 0,
+      "sourceRoot": "ranc",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7393
+    }
+  },
+  "expected_target_items": {
+    "protez": {
+      "prefix": "protez",
+      "body": "假体",
+      "kanji": "假体",
+      "detail": "protez → 假体 (pejvo, F=7, 基本形)",
+      "documentation": "語根: protez\n入力: protez\n最終形: 假体\n漢字: 假体\n識別子: なし\n型: pejvo\nF(汎用性): 7\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6444",
+      "priority": 0,
+      "sourceRoot": "protez",
+      "type": "pejvo",
+      "frequency": 7,
+      "base": true,
+      "sourceLine": 6444
+    },
+    "ranc": {
+      "prefix": "ranc",
+      "body": "酸败",
+      "kanji": "酸败",
+      "detail": "ranc → 酸败 (pejvo, F=3, 基本形)",
+      "documentation": "語根: ranc\n入力: ranc\n最終形: 酸败\n漢字: 酸败\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7393",
+      "priority": 0,
+      "sourceRoot": "ranc",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7393
+    }
+  },
+  "unrelated_items_sha256": "c5c14d1d0bac57888d69f3f55d07df5ad8a8925adb34dfecf661dc0f41a0ad02",
+  "unrelated_items_count": 10637,
+  "current_item_count": 10639,
+  "safe_reverse_aliases": {
+    "假肢": "protez",
+    "哈喇": "ranc"
+  }
+}

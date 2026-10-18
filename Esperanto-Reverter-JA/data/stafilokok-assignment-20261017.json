@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "baseline_user_supplied": "bdc42bf",
+  "root": "stafilokok",
+  "old": "葡萄球菌",
+  "current": "葡球菌",
+  "canonical_sidecar_sha256": "7a87155a6690bac4a71f743edce5a1e3c460bb838147499f15ef7a61cdb16966",
+  "baseline_all_sha256": "7cc5f4c62547233d4e0b5ed669ea0230b6e4fb3416db07f6e0c54a1001d4ff24",
+  "unrelated_items_sha256": "8994545bd1b779518d2e0cd048aafa7e9a9dcdb67c669714c3f5ad4c1bfa898f",
+  "unrelated_items_count": 10638,
+  "current_item_count": 10639,
+  "compatibility": "Old spelling is a reverse-only alias, never an extra forward completion; pre-las/pre-mirror files remain byte-exact."
+}

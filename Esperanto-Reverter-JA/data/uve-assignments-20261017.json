@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "baseline_user_supplied": "c59c624",
+  "changes": {
+    "uve": [
+      "葡萄膜",
+      "葡膜"
+    ],
+    "uveit": [
+      "葡萄膜炎ᵀ",
+      "葡膜炎ᵀ"
+    ]
+  },
+  "canonical_sidecar_sha256": "72d30bf82acd57f5ba2d5f876dcc05571cfa3e7437e8fbba6d5b5ef48b5ca23d",
+  "baseline_all_sha256": "6607b4f11356bc4936ea9777b4399961c4467bc84f8878e1c514079c23e28f0a",
+  "unrelated_items_sha256": "d064420083c6d95ff1580281f90796368fa64d0edfe6411e0862bbfe0812f443",
+  "unrelated_items_count": 10637,
+  "current_item_count": 10639,
+  "compatibility": "Old uve/uveit forms are reverse-only aliases; all other roots and historical profile CSVs stay unchanged."
+}

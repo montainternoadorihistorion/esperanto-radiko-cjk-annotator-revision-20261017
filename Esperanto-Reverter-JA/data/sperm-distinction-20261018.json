@@ -1,0 +1,231 @@
+{
+  "schema": 1,
+  "revision": "2026-10-18-sperm-distinction",
+  "baseline": "64fd7e9f9fe6ed836fccafd4d8ad7c4ea40fcaa8",
+  "changes": {
+    "spermat": [
+      "精ˢ",
+      "精子"
+    ],
+    "spermati": [
+      "精ˢᴵ",
+      "精子ˢᴵ"
+    ],
+    "silf": [
+      "精ˢᴸ",
+      "精ˢ"
+    ],
+    "spermatocit": [
+      "精ˢ胞ᶜᴵ",
+      "精子胞ᶜᴵ"
+    ],
+    "spermatofit": [
+      "精ˢ植ᶠ",
+      "精子植ᶠ"
+    ],
+    "spermatogenez": [
+      "精ˢ源ᴳ",
+      "精子源ᴳ"
+    ],
+    "spermatozo": [
+      null,
+      "精子ˢᶻ"
+    ]
+  },
+  "canonical_sidecar_sha256": "cacf4516b6bd8faad5d272c61b1d042ca4b980469167dcad3bbf26d753b5b1c1",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "0c4cea817925ed44ca096faf70a52a315d6ca552fdb802e365f0dbab33bf248a",
+  "baseline_target_items": {
+    "spermat": {
+      "prefix": "spermat",
+      "body": "精ˢ",
+      "kanji": "精",
+      "detail": "spermat → 精ˢ (piv, F=2)",
+      "documentation": "語根: spermat\n入力: spermat\n最終形: 精ˢ\n漢字: 精\n識別子: s\n型: piv\nF(汎用性): 2\nグループ数: 8\n基本形: no\n出典: _identifier_sidecar.tsv:4999",
+      "priority": 0,
+      "sourceRoot": "spermat",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 4999
+    },
+    "spermati": {
+      "prefix": "spermati",
+      "body": "精ˢᴵ",
+      "kanji": "精",
+      "detail": "spermati → 精ˢᴵ (piv, F=2)",
+      "documentation": "語根: spermati\n入力: spermati\n最終形: 精ˢᴵ\n漢字: 精\n識別子: si\n型: piv\nF(汎用性): 2\nグループ数: 8\n基本形: no\n出典: _identifier_sidecar.tsv:5000",
+      "priority": 0,
+      "sourceRoot": "spermati",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 5000
+    },
+    "silf": {
+      "prefix": "silf",
+      "body": "精ˢᴸ",
+      "kanji": "精",
+      "detail": "silf → 精ˢᴸ (pejvo, F=1)",
+      "documentation": "語根: silf\n入力: silf\n最終形: 精ˢᴸ\n漢字: 精\n識別子: sl\n型: pejvo\nF(汎用性): 1\nグループ数: 8\n基本形: no\n出典: _identifier_sidecar.tsv:4998",
+      "priority": 0,
+      "sourceRoot": "silf",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 4998
+    },
+    "spermatocit": {
+      "prefix": "spermatocit",
+      "body": "精ˢ胞ᶜᴵ",
+      "kanji": "精ˢ胞ᶜᴵ",
+      "detail": "spermatocit → 精ˢ胞ᶜᴵ (piv, F=1, 基本形)",
+      "documentation": "語根: spermatocit\n入力: spermatocit\n最終形: 精ˢ胞ᶜᴵ\n漢字: 精ˢ胞ᶜᴵ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:10033",
+      "priority": 0,
+      "sourceRoot": "spermatocit",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 10033
+    },
+    "spermatofit": {
+      "prefix": "spermatofit",
+      "body": "精ˢ植ᶠ",
+      "kanji": "精ˢ植ᶠ",
+      "detail": "spermatofit → 精ˢ植ᶠ (piv, F=1, 基本形)",
+      "documentation": "語根: spermatofit\n入力: spermatofit\n最終形: 精ˢ植ᶠ\n漢字: 精ˢ植ᶠ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:10034",
+      "priority": 0,
+      "sourceRoot": "spermatofit",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 10034
+    },
+    "spermatogenez": {
+      "prefix": "spermatogenez",
+      "body": "精ˢ源ᴳ",
+      "kanji": "精ˢ源ᴳ",
+      "detail": "spermatogenez → 精ˢ源ᴳ (piv, F=1, 基本形)",
+      "documentation": "語根: spermatogenez\n入力: spermatogenez\n最終形: 精ˢ源ᴳ\n漢字: 精ˢ源ᴳ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:10035",
+      "priority": 0,
+      "sourceRoot": "spermatogenez",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 10035
+    },
+    "spermatozo": null
+  },
+  "expected_target_items": {
+    "spermat": {
+      "prefix": "spermat",
+      "body": "精子",
+      "kanji": "精子",
+      "detail": "spermat → 精子 (piv, F=2, 基本形)",
+      "documentation": "語根: spermat\n入力: spermat\n最終形: 精子\n漢字: 精子\n識別子: なし\n型: piv\nF(汎用性): 2\nグループ数: 3\n基本形: yes\n出典: _identifier_sidecar.tsv:4999",
+      "priority": 0,
+      "sourceRoot": "spermat",
+      "type": "piv",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 4999
+    },
+    "spermati": {
+      "prefix": "spermati",
+      "body": "精子ˢᴵ",
+      "kanji": "精子",
+      "detail": "spermati → 精子ˢᴵ (piv, F=2)",
+      "documentation": "語根: spermati\n入力: spermati\n最終形: 精子ˢᴵ\n漢字: 精子\n識別子: si\n型: piv\nF(汎用性): 2\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:5000",
+      "priority": 0,
+      "sourceRoot": "spermati",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 5000
+    },
+    "silf": {
+      "prefix": "silf",
+      "body": "精ˢ",
+      "kanji": "精",
+      "detail": "silf → 精ˢ (pejvo, F=1)",
+      "documentation": "語根: silf\n入力: silf\n最終形: 精ˢ\n漢字: 精\n識別子: s\n型: pejvo\nF(汎用性): 1\nグループ数: 6\n基本形: no\n出典: _identifier_sidecar.tsv:4998",
+      "priority": 0,
+      "sourceRoot": "silf",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 4998
+    },
+    "spermatocit": {
+      "prefix": "spermatocit",
+      "body": "精子胞ᶜᴵ",
+      "kanji": "精子胞ᶜᴵ",
+      "detail": "spermatocit → 精子胞ᶜᴵ (piv, F=1, 基本形)",
+      "documentation": "語根: spermatocit\n入力: spermatocit\n最終形: 精子胞ᶜᴵ\n漢字: 精子胞ᶜᴵ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:10033",
+      "priority": 0,
+      "sourceRoot": "spermatocit",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 10033
+    },
+    "spermatofit": {
+      "prefix": "spermatofit",
+      "body": "精子植ᶠ",
+      "kanji": "精子植ᶠ",
+      "detail": "spermatofit → 精子植ᶠ (piv, F=1, 基本形)",
+      "documentation": "語根: spermatofit\n入力: spermatofit\n最終形: 精子植ᶠ\n漢字: 精子植ᶠ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:10034",
+      "priority": 0,
+      "sourceRoot": "spermatofit",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 10034
+    },
+    "spermatogenez": {
+      "prefix": "spermatogenez",
+      "body": "精子源ᴳ",
+      "kanji": "精子源ᴳ",
+      "detail": "spermatogenez → 精子源ᴳ (piv, F=1, 基本形)",
+      "documentation": "語根: spermatogenez\n入力: spermatogenez\n最終形: 精子源ᴳ\n漢字: 精子源ᴳ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:10035",
+      "priority": 0,
+      "sourceRoot": "spermatogenez",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 10035
+    },
+    "spermatozo": {
+      "prefix": "spermatozo",
+      "body": "精子ˢᶻ",
+      "kanji": "精子",
+      "detail": "spermatozo → 精子ˢᶻ (piv, F=1)",
+      "documentation": "語根: spermatozo\n入力: spermatozo\n最終形: 精子ˢᶻ\n漢字: 精子\n識別子: sz\n型: piv\nF(汎用性): 1\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:10470",
+      "priority": 0,
+      "sourceRoot": "spermatozo",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 10470
+    }
+  },
+  "unrelated_items_sha256": "6d1e1a5135cb4d8713650009b2f122e055b002e53efc5ab8864793621b1c8990",
+  "unrelated_items_count": 10633,
+  "baseline_item_count": 10639,
+  "current_item_count": 10640,
+  "safe_reverse_aliases": {
+    "精ˢᴵ": "spermati",
+    "精ˢᴸ": "silf",
+    "精ˢ胞ᶜᴵ": "spermatocit",
+    "精ˢ植ᶠ": "spermatofit",
+    "精ˢ源ᴳ": "spermatogenez"
+  },
+  "ownership_transfers": {
+    "精ˢ": [
+      "spermat",
+      "silf"
+    ]
+  },
+  "preserved_profile": "pre-sperm-distinction-20261018",
+  "rationale": "Explicit user decision includes botanical spermat-family compounds. 精子 is a fixed shared rendering; original botanical and cell definitions remain unchanged in annotations. sperm and ĉur retain semen spellings."
+}

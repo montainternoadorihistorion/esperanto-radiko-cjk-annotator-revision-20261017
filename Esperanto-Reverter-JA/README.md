@@ -1,0 +1,243 @@
+# 漢字化エスペラント → アルファベット変換アプリ
+
+## 概要
+
+漢字化エスペラント文を、小文字のエスペラントへ戻すStreamlitアプリです。通常画面の版選択は **新版（更新中）** と **旧版（固定）** の2つです。
+
+## 機能
+
+- **新版（更新中）**：検討期間中の採用済み変更を反映します。今後の修正もこの版へ反映します。
+- **旧版（固定）**：一連の漢字割当変更を始める前の10,636行を保持します。`las=留`、`emancip=放` などの割当を更新しません。
+- 選択した版の辞書を、全列CSVまたはスニペット用2列CSVとしてダウンロードできます。2列CSVは形式の違いで、別の変換モードではありません。
+- 独自の対応表は、サイドバーの **上級：カスタムCSV** から使用できます。
+- 漢字・アルファベットの混在、上付き識別子、語尾に対応し、結果をすべて小文字で出力します。
+- 結果の表示とダウンロードファイル名に、生成時の版・改訂番号・辞書ハッシュを記録します。
+- 版・入力・辞書の改訂が変わった場合、再変換するまで以前の結果をダウンロードできません。
+
+中間スナップショットは内部に保存していますが、通常の版選択には表示しません。今後も新しい `pre-*` を通常画面へ増やしません。
+
+## インストールと実行
+
+アプリフォルダーを `data/`、`tools/` などの付属ファイルごと配置してください。`data/` には現行辞書、固定旧辞書、版方針・出典のJSON、中間スナップショットが含まれます。旧アプリを保存した `legacy/` フォルダーは、画面の「旧版（固定）」とは別のものです。
+
+```bash
+pip install -r requirements.txt
+streamlit run esperanto_converter.py
+```
+
+ブラウザが開かない場合は `http://localhost:8501` にアクセスしてください。
+
+## 使い方
+
+1. サイドバーで、文章を作成したときの **新版（更新中）** または **旧版（固定）** を選びます。
+2. 漢字化エスペラント文を入力し、「変換する」を押します。
+3. 復元した本文と、結果に表示された版・改訂番号を確認します。
+4. 「テキストをダウンロード」で保存します。ファイル名にも生成時の版情報が入ります。
+
+独自CSVを使う場合は「上級：カスタムCSV」を開き、「カスタムCSVを使用する」を有効にしてアップロードします。この間は通常の版選択を変換に使いません。
+
+選択版の全列CSV・2列CSVは、サイドバーの各ダウンロードボタンから取得できます。旧版の2列CSVも固定旧辞書から作成されます。
+
+**入力例：**
+
+```text
+何时 西o 遇as 东on 和ᴷ 上置as 东an 衣on, 一 唯a 语o 获as 二 显ojn — 两 美ajn —, 和ᴷ 生成as 新a 解o.
+```
+
+**出力例：**
+
+```text
+kiam okcidento renkontas orienton kaj surmetas orientan veston, unu sola lingvo akiras du aspektojn — ambaŭ belajn —, kaj naskiĝas nova kompreno.
+```
+
+## 版の選択と限界
+
+新旧を自動判定しません。同じ `放` は固定旧版では `emancip`、新版では `las` に戻ります。途中版や新旧混在文は、2版のどちらでも意図どおりに戻らない場合があります。たとえば `放is 精ˢo` は固定旧版で `emancipis spermato`、現在の新版で `lasis silfo`、ある中間版では `lasis spermato` を表します。作成時の版情報と文脈を確認してください。
+
+変換は上付き識別子を含む最長一致で行い、同じ長さなら `priority` の小さい候補を優先します。変換されない文字も含めて最後に小文字化します。語根の境界がない連結では別の長いキーと一致することがあり（例：`酸乳`、`移植`）、任意の文章の一意な復元を保証しません。詳細は `置換アルゴリズム詳細.md` を参照してください。
+
+## カスタムCSV形式
+
+```csv
+esperanto,kanji,priority
+bon,良,0
+fic,藻ᶠᶜ,0
+bangi,藻ᴮ,0
+```
+
+UTF-8で、1列目はエスペラント語根、2列目は漢字表記、任意の3列目は優先順位です。ヘッダーはあってもなくても使えます。標準辞書の `source_root`、`source_line` は同期確認用の追加列です。
+
+## 新版辞書の再生成
+
+統合修正リポジトリでは兄弟フォルダーの `kanji-esperanto-monaco/all.json`、単独配置では同一内容の `data/monaco_source_20261017.json` を使用します。`data/current_dictionary_source.json` の承認済みSHA256と一致することを確認してから生成します。存在する兄弟ソースのハッシュが異なる場合、同梱版へ黙って切り替えません。
+
+```bash
+python tools/build_reverter_dictionary_from_all_json.py
+python tools/build_snippet_csv_from_reverter_csv.py
+python tools/check_dictionary_sync.py
+python -m pytest -q -p no:cacheprovider
+```
+
+固定旧辞書 `data/pejvo_piv_pre_las_20261017.csv` と中間スナップショットは再生成しません。`monaco-commit.txt` は過去の出典記録です。統合リポジトリ内のサブフォルダーにあるCI設定は、自動実行されるトップレベルのworkflowではありません。
+
+## トラブルシューティング
+
+標準辞書が見つからない場合は、アプリフォルダーと付属 `data/` を復元してください。独自CSVは上級機能から使用できます。復元結果が意図と違う場合は、文章の作成時の版、上付き識別子、語根の連結を確認してください。
+
+## ライセンス・お問い合わせ
+
+自由に使用・改変できます。問題や提案は開発者へお知らせください。
+
+## 更新履歴（当時の記録）
+
+以下は各更新時点の実装・検証記録です。過去の中間版選択、行数、旧画面の説明は当時の仕様であり、現在の操作方法は上記の2版運用に従います。
+
+## 2026-10-17 果物・優先語根の承認更新
+
+現行辞書（5列CSV、スニペット用2列CSV）は `ananas=菠`、`jakv=菠蜜`、`prioritat=优先`、`las=放`、`emancip=放ᴱ` です。旧果物表記 `菠萝` / `菠萝蜜` は逆変換専用の別名として同じ語根へ復元します。新しい入力候補への重複登録はしません。`pre-las-20261017` の旧辞書と歴史資料は変更していません。
+
+辞書更新後の自己完結した再生成手順は次のとおりです。兄弟Monacoがなければ、承認済みハッシュ付きの同梱 `data/monaco_source_20261017.json` を使います。未承認ソースは書込み前に拒否します。
+
+```bash
+python tools/build_reverter_dictionary_from_all_json.py
+python tools/build_snippet_csv_from_reverter_csv.py
+python tools/check_dictionary_sync.py
+python -m pytest -q -p no:cacheprovider
+```
+
+最長一致によって `菠蜜` / `菠萝蜜` を jakv、`菠菜` を spinac、`优先` を prioritat として復元します。`优` (avantaĝ)、`先` (aprior)、`蜜` (miel) の独立使用と、語尾・空白で区切られた連結は保持します。ただし漢字だけで `avantaĝ+aprior` を無区切りで書いた `优先` は prioritat と字面が同じです。辞書は任意の無区切り連結の作者意図を推測しません。必要なら元のラテン表記・明示的な区切りを使用してください。
+
+## 2026-10-17 3語根の承認更新
+
+ユーザー承認により `strut=鸵`、`sinergi=协同`、`oliv=榄` に更新しました。`oval=椭圆` / `elips=椭圆ᴱ` は据置です。日中逆変換では旧正表記 `鸵鸟` / `协同作用` / `橄榄` も同じ語根へ復元し、旧果物表記の互換も維持します。旧記事・旧CSVのbytesは変更しません。
+
+現行CSVは更新済みMonacoソースのハッシュを固定して再生成します。旧3表記は逆変換専用aliasであり、Monacoの入力候補は新表記のみです。旧割当を選ぶ操作は従来どおり明示的な版選択です。
+
+## 2026-10-17 構成語根の識別子修正
+
+現行辞書では `testikit=丸ᵀ炎ᵀ`、`orkidit=丸ᴼ炎ᵀ` のように、構成語根の上付き識別子を保持します。既存の成分連結や異綴語と同字面になる9語根では、正本の語根全体の識別子を付与または保持しています。たとえば `超ᴹ心ᴾˢa` は従来どおり metapsika、`超ᴹ心ᴾˢᴹa` は metapsikia に戻ります。
+
+修正前の `丸炎ᵀ` / `丸炎` などを使う文書は、サイドバーの「構成語根の識別子修正前（2026-10-17）」を選びます。この辞書は修正直前の10,642行をそのまま保存したものです。さらに古い las=留 / emancip=放 の文書は従来の旧割当を選びます。作者の意図や版を自動推測せず、曖昧な旧表記を現行辞書へ一括追加しません。辞書を切り替えると前の結果が無効となるため、再度変換してください。
+
+`data/mirror-identifiers-20261017.json` に正本のハッシュと変更対象を記録しています。現行CSVの通常再生成コマンドは上記と同じで、同梱Monacoソースも同期済みです。保存旧版CSVは再生成しません。`tests/test_mirror_identifiers.py` は全対象キー、旧辞書全キー、衝突した通常分解、活用語尾、明示的な版選択を検証します。既存の無区切り複合語の曖昧性がすべて解消したわけではありません。
+
+## 2026-10-17 stafilokok の承認更新
+
+現行辞書と「スニペット」では、新表記 `葡球菌` と旧表記 `葡萄球菌` のどちらも `stafilokok` に復元します。入力候補用Monacoには新表記だけを収録し、旧表記は逆変換専用です。旧プロファイルCSVと従来の識別子・割り当ては保存しています。
+
+現行辞書は10,645行です。`data/current_dictionary_source.json` が承認済みMonaco sourceと生成CSVのSHA256を記録します。兄弟Monacoがある場合はその検証済み `all.json`、単独配布時は同梱 `data/monaco_source_20261017.json` を使用します。旧上流pinへ自動で戻しません。
+
+```bash
+python -B tools/build_reverter_dictionary_from_all_json.py
+python -B tools/build_snippet_csv_from_reverter_csv.py
+python -B tools/check_dictionary_sync.py
+python -B -m pytest -q -p no:cacheprovider
+```
+
+今回の更新根拠は `data/stafilokok-assignment-20261017.json`、回帰テストは `tests/test_stafilokok_assignment.py` です。旧表記が別語根と衝突する入力では生成を拒否します。
+
+## 2026-10-17 4語根の承認更新と旧表記の読取り
+
+現行辞書は `psitak=鹦ᴾˢ`、`uv=葡ᵁ`、`limon=柠`、`limonad=柠水` を使います。
+旧 `鹦鹉`、`葡萄`、`柠檬`、`柠檬水` は逆変換専用の別名として残し、同じ語根へ戻します。
+`葡萄膜=uve` と `葡萄膜炎ᵀ=uveit` は変更していません。長い表記を優先する既存処理を使い、`葡萄` に途中で分断しません。
+`葡=vit`、`葡ᴬ=ampelops`、`鹦=papag` 等の既存識別子と過去の辞書選択も維持しています。
+
+現行CSVは10,649行（Monacoの10,639項目と逆変換専用の旧表記10行）です。
+`data/current_dictionary_source.json` と `data/four-shared-assignments-20261017.json` が再生成元を固定します。
+通常の `python tools/build_reverter_dictionary_from_all_json.py` と `python tools/build_snippet_csv_from_reverter_csv.py` は、同梱または隣接する承認済み新辞書から再生成します。
+旧 `pre-las` / `pre-mirror` CSVと以前のmanifestは変更していません。過去の生テキストに文脈上の曖昧さがある場合まで、一意な復元を保証するものではありません。
+
+今回の回帰: `python -m pytest -q -p no:cacheprovider`。全現行キー、旧キーの3語尾、両注入辞書の全描画を前後比較した記録は統合repoの `_再点検_20261016/four_shared_assignments_20261017/` に保存しています。
+
+## 2026-10-17 uve / uveit の追加承認
+
+現行形は `uve=葡膜`、`uveit=葡膜炎ᵀ` です。旧 `葡萄膜` / `葡萄膜炎ᵀ` は逆変換専用aliasとして残し、同じ語根に戻します。
+`uv=葡ᵁ`、`vit=葡`、`stafilokok=葡球菌` や他の既存識別子は維持しています。長い語根と内部識別子を優先する既存の処理は変更していません。
+現行CSVは10,651行（Monacoの10,639項目と旧表記12行）です。`data/current_dictionary_source.json` と `data/uve-assignments-20261017.json` が正本と同梱生成元を固定します。
+通常の `python tools/build_reverter_dictionary_from_all_json.py` と `python tools/build_snippet_csv_from_reverter_csv.py` で同じCSVを再生成できます。
+旧 `pre-las` / `pre-mirror` CSVと以前のmanifestはbyte不変です。直前の4根更新節のuve据置は当時の範囲であり、この追加承認が現行値です。
+回帰検証は `python -m pytest -q -p no:cacheprovider`。全文・旧キー互換の記録は統合repoの `_再点検_20261016/uve_assignments_20261017/` にあります。
+
+## 2026-10-17 observatori の承認更新
+
+現行形は `observatori=观台` です。旧 `天文台` は逆変換専用aliasとして保持し、同じ語根へ復元します。`majest=庄严`、`subtil=精细`、その他の割当・識別子・語根分解は変えていません。
+現行CSVは10,652行（Monaco 10,639項目＋旧表記13行）。`data/current_dictionary_source.json` と `data/observatori-assignment-20261017.json` が正本・同梱生成元を固定します。
+通常の `python tools/build_reverter_dictionary_from_all_json.py` と `python tools/build_snippet_csv_from_reverter_csv.py` で同じCSVを再生成できます。
+旧 `pre-las` / `pre-mirror` CSVと過去manifestはbyte不変です。検証は `python -m pytest -q -p no:cacheprovider`。全文と旧キー互換の記録は統合repoの `_再点検_20261016/observatori_assignment_20261017/` に保存します。
+
+## 2026-10-17 3語根の短縮と旧文用辞書
+
+現行形は `risort=簧`、`anĉ=簧ᴬ`、`lantern=灯ᴸᴺ`、`lubrik=滑ᴸ`。`pland=足底` や他の識別子は維持します。
+旧 `弹簧` / `灯笼` / `润滑` は現行辞書の逆変換専用aliasで保持します。一方、旧無印 `簧` はanĉでしたが現行ではrisortです。旧文を読むときは **「3語根の短縮前（簧=anĉ、2026-10-17）」** を選んでください。自動推定や両義の同時alias化は行いません。
+この選択肢は変更直前の全10,652行CSVをそのまま保存したものです。画面から旧CSVと旧スニペットをダウンロードできます。[旧全CSV](data/pejvo_piv_pre_three_short_20261017.csv) / [旧2列CSV](data/snippet_pre_three_short_20261017.csv)。割当案を変えたら再変換してください。
+現行CSVは10,655行（Monaco10,639項目＋旧表記16行）。`data/current_dictionary_source.json` と `data/three-short-assignments-20261017.json` が正本・生成元・旧profileのSHAを固定します。
+通常の `python tools/build_reverter_dictionary_from_all_json.py` と `python tools/build_snippet_csv_from_reverter_csv.py` で現行CSVを再生成できます。pre-las/pre-mirrorと過去manifestはbyte不変です。
+検証: `python -m pytest -q -p no:cacheprovider`。全文・旧キー・旧辞書選択の証拠は統合repo `_再点検_20261016/three_short_assignments_20261017/` に保存しています。
+
+
+
+## 2026-10-17 protez / ranc の承認更新
+
+現行辞書を `protez=假体`、`ranc=酸败` に更新しました。義肢だけでなく義歯なども含む意味範囲、および油脂の酸敗を表す字義に合わせた承認済み変更です。両語根に追加の識別子は不要です。`hangar=棚库`、`kontest=异议`、`cisticerk=囊尾虫`、`kruc=十字` は維持します。
+
+旧 `假肢` と `哈喇` は逆変換専用の互換キーとして残し、同じ語根へ戻します。旧辞書プロファイルと変換アルゴリズムは変更していません。現行10,657行はMonaco10,639項目と旧表記18行です。生成元とSHA256は `data/current_dictionary_source.json`、今回の対象限定manifestは `data/protez-ranc-assignments-20261017.json` に記録しています。
+
+
+## 2026-10-17 krep / difrakt / mortez / meger の承認更新
+
+現行辞書を `krep=皱布`、`difrakt=绕射`、`mortez=卯`、`meger=恶女` に更新しました。絹に限定しない縮緬状の布、回り込みという回折の手掛かり、ほぞ穴を指せる単字「卯」、性格を表す「恶」と女性を表す「女」という承認理由に基づきます。4語根とも追加識別子は不要です。
+
+旧 `皱绸`、`衍射`、`卯眼`、`悍妇` は逆変換専用の互換キーとして保持します。変換アルゴリズムと旧辞書プロファイルは変更しません。現行10,661行はMonaco10,639項目と旧表記22行です。生成元・SHA256は `data/current_dictionary_source.json`、対象限定manifestは `data/four-reviewed-assignments-20261017.json` に記録しています。
+
+
+## 2026-10-17 sutur / fraj の承認更新
+
+現行辞書を `sutur=缝ˢᴿ`、`fraj=卵ᶠ` に更新しました。傷の縫合・接合線を既存「缝」と共有し、魚やカエルなどの卵の集まりを魚に限定せず「卵」で表す承認済み変更です。`prism=棱镜` は維持します。
+
+旧 `缝合`、`鱼卵` は逆変換専用キーとして残し、同じ語根へ戻します。`kudr=缝`、`steb=缝ˢ`、`ov=卵`、`ovol=卵ᴼᴸ`、`kojon=卵ᴷ` を含む既存対応・識別子と旧辞書プロファイルを保持します。現行10,663行はMonaco10,639項目と旧表記24行です。生成元・SHA256は `data/current_dictionary_source.json`、対象限定manifestは `data/sutur-fraj-assignments-20261017.json` に記録しています。
+
+
+## 2026-10-17 nostalgi / onk / fortres の承認更新
+
+`nostalgi=怀ᴺ`、`onk=瘤ᴼ`、`fortres=堡ᶠᴿ` を採用し、忠実な成分描画を保つため `onkogen=瘤ᴼ生ᴳ`、`onkologi=瘤ᴼ学ᴸᴳ` へ同期します。故郷等を懐かしむ意味を怀、腫瘍を瘤、要塞を堡で示す既用字共有です。`koincid=巧合` を維持し、未承認のsatir/sperm/ĉur等は変更しません。
+
+旧 `怀旧`、`肿瘤`、`堡垒`、`肿瘤生ᴳ`、`肿瘤学ᴸᴳ` は逆変換専用キーとして保持し、現在の各語根へ戻します。旧キーの所有者移動はありません。現在の10,668行はMonaco10,639項目と旧表記29行です。`data/current_dictionary_source.json` と `data/nostalgi-onk-fortres-assignments-20261017.json` に生成元とSHAを保存し、旧プロファイルは不変です。通常の入力語根分解を新設する変更ではありません。
+
+
+## 2026-10-17 satir の短縮と識別子の同期
+
+`讽` 自体の風刺の意味を採用し、`satir=讽` とします。現行識別子の算法に従い `karikatur=讽ᴷ`、`sarkasm=讽ˢᴿ` へ同期します。spermatozo の新規割当は偽分解の再検討が必要なため保留します。`sperm=精液`、`ĉur=精液ᶜ̂`、`spermat=精ˢ` は維持し、greft/dot/konfisk/monark 系列も変更しません。
+
+**旧文の `讽` を karikatur に戻す場合は、画面で「satir変更前（2026-10-17）」を選択してください。** 中国語画面では「satir修改前（2026-10-17）」です。この版は変更直前の全10,668行と2列CSVをそのまま保存し。版の自動推定は行いません。現行での無印 `讽` は satir です。版を切り替えた直後には前回結果を無効にし、再変換するまで結果ダウンロードを無効にします。
+
+旧 `讽刺→satir`、`讽ˢ→sarkasm` は衝突しない逆変換専用キーとして現行にも保持します。旧 `讽→karikatur` は現行aliasに追加せず、保存済み旧版で保護します。現行はMonaco10,639項目と旧表記31行の計10,670行。`data/current_dictionary_source.json` と `data/satir-assignment-20261017.json` に出典・旧版SHA・所有移動を記録しています。
+
+
+## 2026-10-18 精子と精液の区別
+
+最新のユーザー指定に従い、植物語を含めてspermat系列の共用表記を「精子」とします。spermat=精子、spermati=精子ˢᴵ、新規spermatozo=精子ˢᶻ、鏡像3根spermatocit=精子胞ᶜᴵ、spermatofit=精子植ᶠ、spermatogenez=精子源ᴳを同期しました。固定表記の採用であり、種子植物を動物の精子と定義する変更ではありません。正本と前方アプリの注釈は元の植物語義を保持します。sperm=精液、ĉur=精液ᶜ̂、植物別義の种ˢᴿ→spermは維持します。
+
+実算法でsilf=精ˢᴸ→精ˢとなり、旧精ˢの復元先がspermatからsilfへ移ります。**旧文で精ˢがspermatを表す場合は「精子・精液の区別変更前（2026-10-18）」を選択してください。** 中国語画面は「精子与精液区分修改前（2026-10-18）」です。変更直前の全10,670行と2列CSVを保存し、版選択で前回結果とそのダウンロードを再変換まで無効化します。自動判定はしません。
+
+衝突しない旧精ˢᴸ→silf、精ˢᴵ→spermati、鏡像3根の旧形は現行の逆変換専用aliasとして保持します。現行はMonaco10,640項目＋旧表記36行＝10,676行です。今回manifestはdata/sperm-distinction-20261018.json。以前の保留記録や版別辞書はその時点の記録として変更していません。
+
+
+## 2026-10-18 移植・妆の割当
+
+ユーザーの採用に従い、greft=移植、dot=妆、実識別子算法に従うtualet=妆ᵀを同期しました。旧嫁接→greft、嫁妆→dotは現行辞書の逆変換専用別名として保持します。現行はMonaco10,640項目と旧表記38行の計10,678行です。注釈の接ぎ木・組織や器官の移植、持参金・天賦の語義を変更するものではありません。
+
+**旧文の妆をtualetへ戻す場合は「移植・妆の割当変更前（2026-10-18）」を選択してください。** 中国語画面では「移植与妆分配修改前（2026-10-18）」です。変更直前の全10,676行と2列CSVを保存し、精子系列を含むその時点の割当を保ちます。版変更後は再変換するまで旧結果のダウンロードを無効にします。版の自動判定はしません。
+
+旧文で移(translaci)＋植(plant)が連続する場合も、この旧版で復元してください。現行の最長一致では移植をgreftと読みます。既存配信コーパスで移植の連続は検出されませんでしたが、任意の連結文すべてが一意に復元できるという保証ではありません。たとえば人工的な境界試験の移植oは旧版でtranslaciplanto、現行でgreftoとなります。通常のtransplanti=越植iは不変です。以前の版別辞書はそのまま保存しています。今回manifest: data/dot-greft-20261018.json。
+
+
+## 2026-10-18 通常画面を2版に統一
+
+通常の版選択は **新版（更新中）** と **旧版（固定）** の2つです。新版は今後約1.5か月の検討期間も採用済み修正を反映し続けます。旧版は一連の漢字割当変更を始める前の `4c16c8937c601fdc149ccb8cbba1b6085cc94692` に固定し、`pre-las-20261017` の10,636行を元バイトのまま使います。旧CSV SHA256は `eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14` です。以後、新たなpre-*を通常画面の版選択へ追加しません。
+
+既存API ID `pejvo-piv-20260620` / `pre-las-20261017` を維持し、結果metadataに共通edition_id=current/legacyを記録します。全中間snapshotとそのAPIは内部保存します。過去のREADME節に書かれた中間版の画面選択は、その当時の仕様です。現行画面からは選択しません。2列CSVは選択版のダウンロード形式で、第三の版ではありません。カスタムCSVは独立した上級機能として残します。
+
+結果には生成時の版・改訂番号・辞書SHAを表示し、ファイル名にも記録します。版・辞書・改訂番号・カスタムCSV内容が変わったら、再変換するまで前回の結果をダウンロードできません。表示中の過去結果を新しい版としてラベル変更しません。既存の変換結果本文や変換算法は変更しません。
+
+2版だけで途中版や混在文を自動判定できるとは主張しません。例：`放is 精ˢo` は固定旧版で `emancipis spermato`、現行新版で `lasis silfo`、ある中間版では `lasis spermato` です。作成時の版情報と文脈の確認が必要です。中間snapshotはこうした履歴調査・復元のために保管します。

@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "baseline": "a1a197c7f3f0e47f2f3f499438d4b23ed74d78b7",
+  "changes": {
+    "krep": [
+      "皱绸",
+      "皱布"
+    ],
+    "difrakt": [
+      "衍射",
+      "绕射"
+    ],
+    "mortez": [
+      "卯眼",
+      "卯"
+    ],
+    "meger": [
+      "悍妇",
+      "恶女"
+    ]
+  },
+  "canonical_sidecar_sha256": "7705466171c52c3967c0948371327cdba9239bae61e34c3ca3e36f6fd63bc3cb",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "616abbd1be14d49d8da8cd14fa163c65d604238dca229debfc614e01ac82844d",
+  "baseline_target_items": {
+    "krep": {
+      "prefix": "krep",
+      "body": "皱绸",
+      "kanji": "皱绸",
+      "detail": "krep → 皱绸 (pejvo, F=6, 基本形)",
+      "documentation": "語根: krep\n入力: krep\n最終形: 皱绸\n漢字: 皱绸\n識別子: なし\n型: pejvo\nF(汎用性): 6\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6619",
+      "priority": 0,
+      "sourceRoot": "krep",
+      "type": "pejvo",
+      "frequency": 6,
+      "base": true,
+      "sourceLine": 6619
+    },
+    "difrakt": {
+      "prefix": "difrakt",
+      "body": "衍射",
+      "kanji": "衍射",
+      "detail": "difrakt → 衍射 (pejvo, F=6, 基本形)",
+      "documentation": "語根: difrakt\n入力: difrakt\n最終形: 衍射\n漢字: 衍射\n識別子: なし\n型: pejvo\nF(汎用性): 6\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6540",
+      "priority": 0,
+      "sourceRoot": "difrakt",
+      "type": "pejvo",
+      "frequency": 6,
+      "base": true,
+      "sourceLine": 6540
+    },
+    "mortez": {
+      "prefix": "mortez",
+      "body": "卯眼",
+      "kanji": "卯眼",
+      "detail": "mortez → 卯眼 (pejvo, F=5, 基本形)",
+      "documentation": "語根: mortez\n入力: mortez\n最終形: 卯眼\n漢字: 卯眼\n識別子: なし\n型: pejvo\nF(汎用性): 5\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6801",
+      "priority": 0,
+      "sourceRoot": "mortez",
+      "type": "pejvo",
+      "frequency": 5,
+      "base": true,
+      "sourceLine": 6801
+    },
+    "meger": {
+      "prefix": "meger",
+      "body": "悍妇",
+      "kanji": "悍妇",
+      "detail": "meger → 悍妇 (pejvo, F=3, 基本形)",
+      "documentation": "語根: meger\n入力: meger\n最終形: 悍妇\n漢字: 悍妇\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7350",
+      "priority": 0,
+      "sourceRoot": "meger",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7350
+    }
+  },
+  "expected_target_items": {
+    "krep": {
+      "prefix": "krep",
+      "body": "皱布",
+      "kanji": "皱布",
+      "detail": "krep → 皱布 (pejvo, F=6, 基本形)",
+      "documentation": "語根: krep\n入力: krep\n最終形: 皱布\n漢字: 皱布\n識別子: なし\n型: pejvo\nF(汎用性): 6\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6619",
+      "priority": 0,
+      "sourceRoot": "krep",
+      "type": "pejvo",
+      "frequency": 6,
+      "base": true,
+      "sourceLine": 6619
+    },
+    "difrakt": {
+      "prefix": "difrakt",
+      "body": "绕射",
+      "kanji": "绕射",
+      "detail": "difrakt → 绕射 (pejvo, F=6, 基本形)",
+      "documentation": "語根: difrakt\n入力: difrakt\n最終形: 绕射\n漢字: 绕射\n識別子: なし\n型: pejvo\nF(汎用性): 6\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6540",
+      "priority": 0,
+      "sourceRoot": "difrakt",
+      "type": "pejvo",
+      "frequency": 6,
+      "base": true,
+      "sourceLine": 6540
+    },
+    "mortez": {
+      "prefix": "mortez",
+      "body": "卯",
+      "kanji": "卯",
+      "detail": "mortez → 卯 (pejvo, F=5, 基本形)",
+      "documentation": "語根: mortez\n入力: mortez\n最終形: 卯\n漢字: 卯\n識別子: なし\n型: pejvo\nF(汎用性): 5\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6801",
+      "priority": 0,
+      "sourceRoot": "mortez",
+      "type": "pejvo",
+      "frequency": 5,
+      "base": true,
+      "sourceLine": 6801
+    },
+    "meger": {
+      "prefix": "meger",
+      "body": "恶女",
+      "kanji": "恶女",
+      "detail": "meger → 恶女 (pejvo, F=3, 基本形)",
+      "documentation": "語根: meger\n入力: meger\n最終形: 恶女\n漢字: 恶女\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7350",
+      "priority": 0,
+      "sourceRoot": "meger",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7350
+    }
+  },
+  "unrelated_items_sha256": "069ece75312a13404b3c4c7261daf6eaceb9eebc7648cd745f29ace43c19346d",
+  "unrelated_items_count": 10635,
+  "current_item_count": 10639,
+  "safe_reverse_aliases": {
+    "皱绸": "krep",
+    "衍射": "difrakt",
+    "卯眼": "mortez",
+    "悍妇": "meger"
+  }
+}

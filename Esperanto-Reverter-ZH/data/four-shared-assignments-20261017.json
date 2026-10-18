@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "baseline_user_supplied": "520c2c6358a5ff517fed6b7ec1ac889052e729ad",
+  "changes": {
+    "psitak": [
+      "鹦鹉",
+      "鹦ᴾˢ"
+    ],
+    "uv": [
+      "葡萄",
+      "葡ᵁ"
+    ],
+    "limon": [
+      "柠檬",
+      "柠"
+    ],
+    "limonad": [
+      "柠檬水",
+      "柠水"
+    ]
+  },
+  "canonical_sidecar_sha256": "c72c481260c73f0798be5bd5c489153ec018a0d8f66cca0865c9f12a8119e1f9",
+  "baseline_all_sha256": "ae634faa8c6fb18d877c22b68f0d322bdb407c13192c62149009af3db66eae84",
+  "unrelated_items_sha256": "054f19f6d4ee1c6d8958505e1d83511321f97f735933aea325be1267befe93db",
+  "unrelated_items_count": 10635,
+  "current_item_count": 10639,
+  "compatibility": "Old forms are reverse-only aliases; uve/uveit and all historical profile CSVs stay unchanged."
+}

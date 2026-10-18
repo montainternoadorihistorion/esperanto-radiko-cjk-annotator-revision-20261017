@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "baseline_user_supplied": "9b97c35",
+  "changes": {
+    "observatori": [
+      "天文台",
+      "观台"
+    ]
+  },
+  "canonical_sidecar_sha256": "30296a2bf3bfdbb19727b0b7ae2aec55d9fb4d94db09ccf63103f45d24fa4024",
+  "baseline_all_sha256": "452074262fe468ee2edb6d2b1a15493843337e304ceb0110c4431d7357a97769",
+  "unrelated_items_sha256": "8d886772643fbe6665c48c4cdf6233b68eb88ff5a6d0826be0dd776e267f09aa",
+  "unrelated_items_count": 10638,
+  "current_item_count": 10639,
+  "compatibility": "Old observatori form are reverse-only aliases; all other roots and historical profile CSVs stay unchanged."
+}
