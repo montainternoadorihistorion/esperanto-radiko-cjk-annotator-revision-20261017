@@ -1,0 +1,101 @@
+<!-- assignment-edition:legacy signature:68d8ed1cd65d1d0080218d54e39aa0752a5b2e9b4199a97788c87ddef9f91f7c created-utc:2026-10-18T01:28:29.623749+00:00 -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에스페란토 어근 분해 루비 주석 텍스트</title>
+    <style>
+
+    html, body {
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+  
+      :root {
+        --ruby-color: blue;
+        --ruby-font-size: 0.5em;
+      }
+      html {
+        font-size: 100%; /* 多くのブラウザは16px相当が標準 */
+      }
+
+      .text-M_M {
+        font-size: 1rem!important; 
+        font-family: Arial, sans-serif;
+        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */
+        display: block; /* ブロック要素として扱う */
+        position: relative;
+      }
+  
+      /* ▼ ルビ（フレックスでルビを上に表示） */
+      ruby {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        vertical-align: top !important;
+        line-height: 2.0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 1rem !important;
+      }
+  
+      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */
+      rt {
+        display: block !important;
+        font-size: var(--ruby-font-size);
+        color: var(--ruby-color);
+        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/
+        text-align: center;
+        /* margin-top: 0.2em !important;   
+        transform: translateY(0.4em) !important; */
+      }
+      rt.XXXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }    
+      rt.XXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }
+      rt.XS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -6.1em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.S_S {
+        --ruby-font-size: 0.4em;
+        margin-top: -4.85em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.M_M {
+        --ruby-font-size: 0.5em;
+        margin-top: -4.00em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.L_L {
+        --ruby-font-size: 0.6em; 
+        margin-top: -3.55em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XL_L {
+        --ruby-font-size: 0.7em;
+        margin-top: -3.20em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XXL_L {
+        --ruby-font-size: 0.8em;
+        margin-top: -2.80em !important;
+        transform: translateY(-0.0em) !important;
+      }
+  
+    </style>
+  </head>
+  <body>
+  <p class="text-M_M">
+<ruby>las<rt class="XS_S">놓아두다</rt></ruby>o <ruby>las<rt class="S_S">놔두다</rt></ruby>o <ruby>ananas<rt class="XXL_L">파인애플</rt></ruby>o <ruby>ananas<rt class="XXL_L">파인애플</rt></ruby>o <ruby>greft<rt class="XXS_S">접목／조직<br>·기관 이식</rt></ruby>i <ruby>greft<rt class="XXS_S">접목／조직<br>·기관 이식</rt></ruby>i <ruby>dot<rt class="XXXS_S">지참금·혼인 재산<br>／（비유）자질<br> 등을 부여하다</rt></ruby>o <ruby>dot<rt class="XXXS_S">지참금·혼인 재산<br>／（비유）자질<br> 등을 부여하다</rt></ruby>o <ruby>tualet<rt class="XS_S">여성의 옷차림</rt></ruby>o <ruby>tualet<rt class="XL_L">화장대</rt></ruby>o <ruby>semajn<rt class="XXL_L">주간</rt></ruby><ruby>tag<rt class="L_L">하루</rt></ruby>oj &amp; amiko</p></body></html>

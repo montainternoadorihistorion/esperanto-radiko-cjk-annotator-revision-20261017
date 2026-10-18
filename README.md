@@ -23,7 +23,9 @@
 
 二版化では現在の漢字割り当て・注釈データを変更していません。新版の9経路は作業前と出力が完全一致し、日中韓の新旧18経路を実Streamlit AppTestで検証しました。公開用の31テスト（失敗0、統合版専用の資産照合1件はスキップ）と旧版固定データの5テストが成功しています。旧版保護テストは通常の `python -m unittest discover -s tests` にも含まれます。[検証結果](tests/assignment_edition_validation.json)と[再現用入力・出力](tests/assignment_edition_ui_fixture.json)を保存しています。
 
-`26865b7`を公開mainへ反映後、ChromeでCloudの中国語・韓国語版の新版選択欄と注釈結果を確認しました。その後ブラウザ接続が応答しなくなり、Cloud上の全経路・旧版変換・ダウンロードの最終検証は未完了です。[Cloudで実施できた範囲](tests/cloud_assignment_editions_partial.json)を、ローカル検証と区別して記録しています。統合リポジトリの日中逆変換アプリは実装と実テストまでで、旧公開逆変換サイトへの配備は含みません。
+2026-10-18、`6f1955e`のCloud配備をChromeから実操作し、日中韓×新旧×3モードの**18通りすべて**で、通常・`@`を含む画面出力と実ダウンロード本文が期待値と完全一致しました。ファイル名・HTML内の版と署名、6組の新旧CSV、版切替時の古い結果のダウンロード停止も確認しています。`semajntagoj`・`@semajn@tagoj`・`limak`・`testikit`は追加6通りで一致しました。配布ページで観測した12個の固定URLは、別途HTTPSで取得し全バイトのSHAを照合しました（大JSONはブラウザ取得とは区別）。[Cloud実機検証記録と出力ファイル](tests/cloud_assignment_editions/cloud_verification.json)を保存しました。[前回の部分確認記録](tests/cloud_assignment_editions_partial.json)は履歴として残しています。
+
+日本語版は実行エラーから再起動後、アプリ本体が正常動作しました。ただしCloudの外枠は読み込み中表示が続くため、この表示問題は解消済みとは扱いません。検証した本体はこちらです：[日本語](https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/)、[中文](https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/)、[한국어](https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/)。今回の作業では漢字割り当て・注釈・分解・アプリのソースを変更していません。統合リポジトリの日中逆変換アプリは実装と実テストまでで、旧公開逆変換サイトへの配備は含みません。
 
 ## greft・dotの割り当て更新（2026-10-18）
 
