@@ -4,6 +4,7 @@
 # --------------------------------------------------------------------
 
 import streamlit as st
+import esp_assignment_edition as editions
 import re
 import io
 import os
@@ -46,37 +47,8 @@ from esp_text_replacement_module import (
 # (约 1.0 秒 -> 0.5 秒 的加速)
 # --------------------------------------------------------------------
 def load_replacements_lists(json_path: str) -> Tuple[List, List, List]:
-    # Check the file on every rerun; a data-only deploy keeps the same path.
-    stat = os.stat(json_path)
-    return _load_replacements_lists_cached(json_path, (stat.st_mtime_ns, stat.st_size))
+    return editions.load_lists_path(json_path)
 
-
-@st.cache_data(max_entries=3)
-def _load_replacements_lists_cached(json_path: str, file_stamp: Tuple[int, int]) -> Tuple[List, List, List]:
-    """
-    从 JSON 文件中读取以下三种列表并以元组形式返回:
-      1) replacements_final_list
-      2) replacements_list_for_localized_string
-      3) replacements_list_for_2char
-    """
-    with open(json_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-
-    replacements_final_list = data.get(
-        "全域替换用のリスト(列表)型配列(replacements_final_list)", []
-    )
-    replacements_list_for_localized_string = data.get(
-        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)", []
-    )
-    replacements_list_for_2char = data.get(
-        "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)", []
-    )
-
-    return (
-        replacements_final_list,
-        replacements_list_for_localized_string,
-        replacements_list_for_2char,
-    )
 
 # 设置页面基本信息
 st.set_page_config(page_title="世界语文本 注释Ruby·汉字化工具", page_icon="📖", layout="wide")
@@ -92,6 +64,9 @@ st.write("---")
 # 第1步：读取 JSON 文件（替换规则）。
 #   用户可选择“使用默认”或“上传自定义 JSON”
 # --------------------------------------------------------------------
+assignment_edition = editions.select_edition(DATA_DIR)
+_custom_json_sha = None
+
 selected_option = st.radio(
     "选择转换模式:",
     ("📖 注释Ruby（词根上方显示中文注释）", "🈶 汉字化（汉字＋词根Ruby）", "✂️ 汉字化·纯替换（无标签文本）", "📤 使用自定义JSON（高级）")
@@ -127,7 +102,7 @@ if selected_option == "📖 注释Ruby（词根上方显示中文注释）":
         st.error(f"读取默认 JSON 文件时出错: {e}")
         st.stop()
 elif selected_option == "🈶 汉字化（汉字＋词根Ruby）":
-    kanji_json_path = os.path.join(DATA_DIR, '置換リスト_漢字.json')
+    kanji_json_path = editions.resolve_path(DATA_DIR, "kanji", assignment_edition)
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(kanji_json_path)
         st.success("✅ 汉字化模式准备就绪（汉字正文·词根Ruby）。")
@@ -135,7 +110,7 @@ elif selected_option == "🈶 汉字化（汉字＋词根Ruby）":
         st.error(f"读取汉字化版 JSON 时出错: {e}")
         st.stop()
 elif selected_option == "✂️ 汉字化·纯替换（无标签文本）":
-    pure_json_path = os.path.join(REPO_DIR, "Esperanto-Kanji-Ruby-JA", "app_data", "置換リスト_漢字_純粋置換.json")
+    pure_json_path = editions.resolve_path(DATA_DIR, "pure", assignment_edition)
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(pure_json_path)
         st.success("已读取纯替换版JSON。世界语文本将被转换为无标签的汉字文本(例: amikeco → 友性o)。")
@@ -147,6 +122,8 @@ else:
     if uploaded_file is not None:
         try:
             combined_data = json.load(uploaded_file)
+            _custom_json_sha = editions.hashlib.sha256(uploaded_file.getvalue()).hexdigest()
+            st.caption({"JA": "自作JSON本体に割り当て版の選択は適用されません。自動語根補正には共通の最新注釈を使います。", "ZH": "所选分配版本不应用于自定义JSON本体。自动词根校正使用共用的最新注释。", "KO": "선택한 배정 판은 사용자 JSON 자체에 적용되지 않습니다. 자동 어근 보정에는 공통 최신 주석을 사용합니다。"}[editions.language(DATA_DIR)])
             replacements_final_list = combined_data.get(
                 "全域替换用のリスト(列表)型配列(replacements_final_list)", [])
             replacements_list_for_localized_string = combined_data.get(
@@ -181,7 +158,7 @@ with st.expander("📂 读取手动校正文件(user_corrections.json)(可选)")
             _decs = [c.get("decomp") for c in json.load(_cor_up) if isinstance(c, dict) and c.get("decomp")]
             _new = []
             for _dc in _decs:
-                try: _new.append(_ovu.build_correction(_dc, DATA_DIR))
+                try: _new.append(_ovu.build_correction(_dc, DATA_DIR, assignment_edition))
                 except Exception: pass
             if _new:
                 _ovu.save_corrections(DATA_DIR, _new)
@@ -195,7 +172,7 @@ with st.expander("📂 读取手动校正文件(user_corrections.json)(可选)")
 try:
     import esp_overlay_module as _ov
     _ov_mode = "kanji" if selected_option in ("🈶 汉字化（汉字＋词根Ruby）", "✂️ 汉字化·纯替换（无标签文本）") else "ruby"
-    _ov_entries_raw = _ov.load_overlay_entries(DATA_DIR, _ov_mode)
+    _ov_entries_raw = _ov.load_overlay_entries(DATA_DIR, _ov_mode, assignment_edition)
     if selected_option == "✂️ 汉字化·纯替换（无标签文本）":
         import re as _re_ov
         _ov_entries = [[o, _re_ov.sub(r"</?ruby>", "", _re_ov.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_ov.DOTALL | _re_ov.IGNORECASE), flags=_re_ov.IGNORECASE), ph] for o, n, ph in _ov_entries_raw]
@@ -370,7 +347,7 @@ with st.form(key='profile_form'):
             import esp_overlay_module as _ovx
             _afmode = "kanji" if selected_option in ("🈶 汉字化（汉字＋词根Ruby）", "✂️ 汉字化·纯替换（无标签文本）") else "ruby"  # sample_btn_marker
             _auto_strip_pure = (selected_option == "✂️ 汉字化·纯替换（无标签文本）")
-            _auto = _ovx.auto_overlay_entries(processed_text, DATA_DIR, _afmode)
+            _auto = _ovx.auto_overlay_entries(processed_text, DATA_DIR, _afmode, assignment_edition)
             if _auto and _auto_strip_pure:
                 import re as _re_af
                 _auto = [[o, _re_af.sub(r"</?ruby>", "", _re_af.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_af.DOTALL | _re_af.IGNORECASE), flags=_re_af.IGNORECASE), ph] for o, n, ph in _auto]
@@ -412,6 +389,7 @@ with st.form(key='profile_form'):
 
         # 将结果保存到 session_state（避免重跑时丢失，并使结果可编辑）
         st.session_state["result_html"] = processed_text
+        st.session_state["result_assignment_metadata"] = editions.result_metadata(DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type})
         st.session_state["edited_html"] = processed_text          # 编辑用初始值＝生成结果
         st.session_state["result_is_html"] = ("HTML" in format_type)
         st.toast("✅ 转换完成,结果已显示在下方。")
@@ -423,7 +401,12 @@ def _reset_edited_html():
     # “放弃编辑”回调（控件实例化后修改 session_state 会报错，故在回调里恢复为生成结果）
     st.session_state["edited_html"] = st.session_state.get("result_html", "")
 
-if st.session_state.get("result_html"):
+_result_meta = st.session_state.get("result_assignment_metadata")
+_matching_result = editions.result_matches(_result_meta, DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type})
+if st.session_state.get("result_html") and not _matching_result:
+    editions.stale_result_notice(DATA_DIR, _result_meta)
+
+if st.session_state.get("result_html") and _matching_result:
     # st.stop()経路(自作JSON未アップロード等)のwidget cleanupで edited_html が消えた場合の再シード
     if "edited_html" not in st.session_state:
         st.session_state["edited_html"] = st.session_state["result_html"]
@@ -464,7 +447,10 @@ if st.session_state.get("result_html"):
             st.button("放弃编辑，恢复生成结果", on_click=_reset_edited_html)
         download_name = "转换结果.txt"
 
-    download_data = current_html.encode('utf-8')
+    _extension = "html" if st.session_state.get("result_is_html") else "txt"
+    download_name = editions.download_filename(os.path.splitext(download_name)[0], _result_meta, _extension)
+    _download_text = (editions.html_download_metadata(_result_meta) if _extension == "html" else "") + current_html
+    download_data = _download_text.encode('utf-8')
     st.download_button(
         label="下载转换结果（已反映编辑）",
         data=download_data,
@@ -476,7 +462,7 @@ if st.session_state.get("result_html"):
 st.write("---")
 st.header("Ligilo-oj (URL-oj) / 言語版・语言版本・언어판")
 st.markdown("""
-#### 旧公開版 / Previous releases / 旧版 / 이전 버전
+#### 日中韓 三言語版 ⇓ (Japana / Ĉina / Korea)
 - **日本語版 (Japana)**: https://esperanto-radiko-cjk-annotator.streamlit.app/
 - **中文版 (Ĉina)**: https://esperanto-radiko-cjk-annotator-zh.streamlit.app/
 - **한국어판 (Korea)**: https://esperanto-radiko-cjk-annotator-ko.streamlit.app/

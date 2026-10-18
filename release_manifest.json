@@ -1,16 +1,16 @@
 {
   "date": "2026-10-18",
-  "scope": "User-approved greft=移植 and dot=妆, shared-character tualet=妆ᵀ. Dot annotations retain marriage property and figurative endowment; greft annotations retain plant grafting and tissue/organ transplantation. All input keys, segmentation boundaries and non-target identifiers remain unchanged.",
+  "scope": "Two user-facing assignment editions: fixed legacy before the review series and current updated edition. Current assignment and annotation data are unchanged. Both editions share the current engine and learning annotations.",
   "files": [
-    {
-      "path": "Esperanto-Kanji-Ruby-JA/app_data/char_widths.json",
-      "bytes": 1122864,
-      "sha256": "ac009c26af1d7fae05e8969d86042b5baff5f482b226c575e1cef8d27aea2c7b"
-    },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
       "bytes": 2626958,
       "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-JA/app_data/char_widths.json",
+      "bytes": 1122864,
+      "sha256": "ac009c26af1d7fae05e8969d86042b5baff5f482b226c575e1cef8d27aea2c7b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/placeholders_2char.txt",
@@ -113,9 +113,14 @@
       "sha256": "015eb5968a673a950c8454a7b316dc6bbd086fec4a4d3963645e9aed77cc05a4"
     },
     {
+      "path": "Esperanto-Kanji-Ruby-JA/esp_assignment_edition.py",
+      "bytes": 10475,
+      "sha256": "fef1620b1e233955e833b3202d840c7e7eb216299655d9c36d5ca7b4c3ecc178"
+    },
+    {
       "path": "Esperanto-Kanji-Ruby-JA/esp_overlay_module.py",
-      "bytes": 22990,
-      "sha256": "ee55ddff339ea31b9297d27267bc4eda8dbbc3dcef3a49796c88f19a3a4c0a8c"
+      "bytes": 24061,
+      "sha256": "0f778e1cc8cd2cc4c6e7541fc72d199ab86a2853f5ef52e19d9bc30445a878a6"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/esp_replacement_json_make_module.py",
@@ -128,14 +133,29 @@
       "sha256": "10ea0dd58942d7b869a85359f1728319e58b8ab92033dfca958334cd179bbf66"
     },
     {
-      "path": "Esperanto-Kanji-Ruby-KO/app_data/char_widths.json",
-      "bytes": 1122864,
-      "sha256": "ac009c26af1d7fae05e8969d86042b5baff5f482b226c575e1cef8d27aea2c7b"
+      "path": "Esperanto-Kanji-Ruby-JA/main.py",
+      "bytes": 29223,
+      "sha256": "efce2875ce1863f1f1a92234c7edb4b4f6fbe1879832b8a9e664ffd1016e6ade"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py",
+      "bytes": 10657,
+      "sha256": "9b3ebca0a72bdf21071b80612a0d8b79dcb5e76dac427866a8c6f59e147d1351"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-JA/pages/2_📦_最新データのダウンロード.py",
+      "bytes": 3522,
+      "sha256": "b31c3cdf6548892318c8a0bbe02601e90b9db18dd5eac702840870b664d10f28"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/E_stem.json",
       "bytes": 2626958,
       "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-KO/app_data/char_widths.json",
+      "bytes": 1122864,
+      "sha256": "ac009c26af1d7fae05e8969d86042b5baff5f482b226c575e1cef8d27aea2c7b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/placeholders_2char.txt",
@@ -228,9 +248,14 @@
       "sha256": "5a868c02499ae7447710dac0d894542aacb2303cec125cc53978d280f5e172ab"
     },
     {
+      "path": "Esperanto-Kanji-Ruby-KO/esp_assignment_edition.py",
+      "bytes": 10475,
+      "sha256": "fef1620b1e233955e833b3202d840c7e7eb216299655d9c36d5ca7b4c3ecc178"
+    },
+    {
       "path": "Esperanto-Kanji-Ruby-KO/esp_overlay_module.py",
-      "bytes": 22308,
-      "sha256": "aaf5b3aac4a22b2410736bc0a79f637983071188863410423f6c62be9745aa28"
+      "bytes": 23379,
+      "sha256": "9ebdaf4cd1bedf0c325d389726f9bebf1bbb5aa7b8e834d25380c9416b04a33c"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/esp_replacement_json_make_module.py",
@@ -243,14 +268,29 @@
       "sha256": "425456ad9d70943ed6323a2eaca2226e6159fe085e5c40d4e2d1b8421de0d4a1"
     },
     {
-      "path": "Esperanto-Kanji-Ruby-ZH/app_data/char_widths.json",
-      "bytes": 1122864,
-      "sha256": "ac009c26af1d7fae05e8969d86042b5baff5f482b226c575e1cef8d27aea2c7b"
+      "path": "Esperanto-Kanji-Ruby-KO/main.py",
+      "bytes": 30832,
+      "sha256": "45b17233ff91ff5fa9f81fc4e2a02060e033a4816b2eb3dfebc45cb21a9cd484"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-KO/pages/1_🔧_어근 분해 수동 보정.py",
+      "bytes": 10256,
+      "sha256": "10d1b0f6d961695f47c4c73e334d3ce2058a478f0a1cd51978bd932e128bb80b"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-KO/pages/2_📦_최신 데이터 다운로드.py",
+      "bytes": 3522,
+      "sha256": "b31c3cdf6548892318c8a0bbe02601e90b9db18dd5eac702840870b664d10f28"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/E_stem.json",
       "bytes": 2626958,
       "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-ZH/app_data/char_widths.json",
+      "bytes": 1122864,
+      "sha256": "ac009c26af1d7fae05e8969d86042b5baff5f482b226c575e1cef8d27aea2c7b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/placeholders_2char.txt",
@@ -333,9 +373,14 @@
       "sha256": "ca572bd1fc1feffbe65643e66fb1441b6cf82d137676e474ad48ba50a72a9bd7"
     },
     {
+      "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
+      "bytes": 10475,
+      "sha256": "fef1620b1e233955e833b3202d840c7e7eb216299655d9c36d5ca7b4c3ecc178"
+    },
+    {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py",
-      "bytes": 22308,
-      "sha256": "aaf5b3aac4a22b2410736bc0a79f637983071188863410423f6c62be9745aa28"
+      "bytes": 23379,
+      "sha256": "9ebdaf4cd1bedf0c325d389726f9bebf1bbb5aa7b8e834d25380c9416b04a33c"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_replacement_json_make_module.py",
@@ -346,9 +391,91 @@
       "path": "Esperanto-Kanji-Ruby-ZH/esp_text_replacement_module.py",
       "bytes": 28143,
       "sha256": "5502587bb1f68ae5760cac30a0bdb295fae868a23cdfcc211efdad99a4964e4c"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-ZH/main.py",
+      "bytes": 27784,
+      "sha256": "270b2a4e8cd8b99a7cbe68ae1096f3402c7b25edeb645de3c9ec8f6e7c2d55b5"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py",
+      "bytes": 9488,
+      "sha256": "9b996b1e62fa600004499c2e4ec0f31bb68475b5866ce6a01c7ca01f3154fb07"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-ZH/pages/2_📦_最新数据下载.py",
+      "bytes": 3522,
+      "sha256": "b31c3cdf6548892318c8a0bbe02601e90b9db18dd5eac702840870b664d10f28"
+    },
+    {
+      "path": "assignment_editions/README.md",
+      "bytes": 3202,
+      "sha256": "f1d588bbd6e048ebfa16fa57fb592b9d9f564e669ea3f25fabc91e6fd4126fe7"
+    },
+    {
+      "path": "assignment_editions/legacy/JA/kanji.csv",
+      "bytes": 152831,
+      "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53"
+    },
+    {
+      "path": "assignment_editions/legacy/JA/kanji.json.gz",
+      "bytes": 6384631,
+      "sha256": "215f0c297bf73efe29f4b323a982adb63a181d42e202dbed63f52c954baeb0fe"
+    },
+    {
+      "path": "assignment_editions/legacy/JA/pure.json.gz",
+      "bytes": 4169688,
+      "sha256": "3ef2efd50fbb13a834f7421c3e85bd406d2926dd304028b19e1de3264ec3fb40"
+    },
+    {
+      "path": "assignment_editions/legacy/KO/kanji.csv",
+      "bytes": 152831,
+      "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53"
+    },
+    {
+      "path": "assignment_editions/legacy/KO/kanji.json.gz",
+      "bytes": 6385064,
+      "sha256": "8005ecf215185aa8fe9b8f482305f9fb1ec17aaf0d1c9c4fbbbb7928ef97508c"
+    },
+    {
+      "path": "assignment_editions/legacy/README.md",
+      "bytes": 1866,
+      "sha256": "16c5d7f46a12fa899f0e7d8e4f28ab52dcf260ca6f724b687279f84f31d4381b"
+    },
+    {
+      "path": "assignment_editions/legacy/ZH/kanji.csv",
+      "bytes": 152831,
+      "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53"
+    },
+    {
+      "path": "assignment_editions/legacy/ZH/kanji.json.gz",
+      "bytes": 6385065,
+      "sha256": "f05e779677489ebcf5d00b00389e841eb89cc8bf7af87bbf1d1e65309c0fd594"
+    },
+    {
+      "path": "assignment_editions/legacy/_identifier_sidecar.tsv",
+      "bytes": 572391,
+      "sha256": "8ee9e27651413f87f1404eb5c328e7ad8ba4bda3be61a442ac9585911a4a9600"
+    },
+    {
+      "path": "assignment_editions/legacy/_kanji_map_master.tsv",
+      "bytes": 209155,
+      "sha256": "8260593759caf4403e61e88ba54b15eb4486dd499467aff8db95cf8058ec50f8"
+    },
+    {
+      "path": "assignment_editions/legacy/manifest.json",
+      "bytes": 11597,
+      "sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3"
+    },
+    {
+      "path": "assignment_editions/legacy/test_legacy_assets.py",
+      "bytes": 7704,
+      "sha256": "b29d79bac49e2b8ca61c653a2e4648344ecd31486d66de0db21f1180bdf3e992"
     }
   ],
   "assignment_revision": "dot-greft-20261018",
-  "previous_release_commit": "39fdafc578466af2ba26237a93740085a967fd90",
-  "runtime_cache_revision": "file-mtime-ns-size-20261017"
+  "previous_release_commit": "1cfcfc99af70c727062678afa7803e3e569201b6",
+  "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
+  "feature_revision": "two-editions-20261018",
+  "legacy_manifest_sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3"
 }

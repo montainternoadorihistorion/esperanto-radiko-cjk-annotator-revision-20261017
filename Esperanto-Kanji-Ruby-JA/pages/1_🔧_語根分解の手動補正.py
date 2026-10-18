@@ -12,6 +12,7 @@
     壊さない。
 """
 import streamlit as st
+import esp_assignment_edition as editions
 import json, re, os
 
 # Resolve data from this file without changing Streamlit's working directory.
@@ -33,6 +34,9 @@ KANJI_FMT = "HTML格式_Ruby文字_大小调整_汉字替换"
 
 st.set_page_config(page_title="語根分解の手動補正", page_icon="🔧", layout="wide")
 st.title("語根分解の手動補正 (GUIで簡単に直す)")
+assignment_edition = editions.select_edition(DATA_DIR)
+KANJI_JSON = str(editions.resolve_path(DATA_DIR, "kanji", assignment_edition))
+
 
 with st.expander("使い方", expanded=True):
     st.markdown(
@@ -53,20 +57,8 @@ with st.expander("使い方", expanded=True):
 
 
 def _load_lists(path):
-    # A data-only deploy can replace a JSON without changing its path.
-    stat = os.stat(path)
-    return _load_lists_cached(path, (stat.st_mtime_ns, stat.st_size))
-
-
-@st.cache_data(show_spinner="置換リストを読み込み中…", max_entries=3)
-def _load_lists_cached(path, file_stamp):
-    with open(path, "r", encoding="utf-8") as f:
-        d = json.load(f)
-    return (
-        d.get("局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)", []),
-        d.get("二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)", []),
-        d.get("全域替换用のリスト(列表)型配列(replacements_final_list)", []),
-    )
+    GG, GL, G2 = editions.load_lists_path(path)
+    return GL, G2, GG
 
 
 _PS = import_placeholders(os.path.join(DATA_DIR, 'placeholders_skip.txt'))
@@ -76,7 +68,7 @@ _PL = import_placeholders(os.path.join(DATA_DIR, 'placeholders_localcapture.txt'
 def _decompose(word, json_path, fmt, mode):
     """現在のJSON(＋保存済み補正のオーバーレイ)で word を分解し 'r1/r2/…' を返す。"""
     GL, G2, GG = _load_lists(json_path)
-    GG = ov.merge_overlay(GG, ov.load_overlay_entries(DATA, mode))
+    GG = ov.merge_overlay(GG, ov.load_overlay_entries(DATA, mode, assignment_edition))
     h = orchestrate_comprehensive_esperanto_text_replacement(" " + word + " ", _PS, GL, _PL, GG, G2, fmt)
     toks, pos = [], 0
     for mm in re.finditer(r"<ruby>(.*?)<rt[^>]*>.*?</rt></ruby>", h):
@@ -101,7 +93,7 @@ if st.button("現在の分解を見る") and word_in:
         with st.expander("👀 実際の表示を見る(ルビ/漢字)", expanded=False):
             import streamlit.components.v1 as _components
             _GLr, _G2r, _GGr = _load_lists(RUBY_JSON)
-            _GGr = ov.merge_overlay(_GGr, ov.load_overlay_entries(DATA, "ruby"))
+            _GGr = ov.merge_overlay(_GGr, ov.load_overlay_entries(DATA, "ruby", assignment_edition))
             _hr = orchestrate_comprehensive_esperanto_text_replacement(" " + w + " ", _PS, _GLr, _PL, _GGr, _G2r, RUBY_FMT)
             from esp_text_replacement_module import apply_ruby_html_header_and_footer as _hf
             _components.html(_hf(_hr, RUBY_FMT), height=90, scrolling=True)
@@ -122,7 +114,7 @@ if decomp_in:
     word_of_decomp = norm_decomp.replace("/", "").replace(" ", "")
     # プレビュー: 各セグメントの訳/漢字
     try:
-        segs = ov.segment_glosses(norm_decomp, DATA)
+        segs = ov.segment_glosses(norm_decomp, DATA, assignment_edition)
         rows = []
         for seg, rhtml, khtml in segs:
             rgloss = re.sub(r"<[^>]+>", "", rhtml).replace(seg, "", 1) if rhtml else "—(訳なし)"
@@ -138,8 +130,7 @@ if decomp_in:
     with col2:
         if st.button("✅ この補正を保存", type="primary"):
             try:
-                entry = ov.add_correction(DATA, norm_decomp)
-                _load_lists_cached.clear()  # キャッシュは元JSON依存なので不要だが安全のため
+                entry = ov.add_correction(DATA, norm_decomp, assignment_edition)
                 st.success(
                     f"補正を保存しました: `{entry['word']}` → `{entry['decomp']}`  "
                     "(ルビ・漢字 両モードに即反映。メインページ(変換)で確認できます)"
@@ -164,8 +155,11 @@ else:
 
     st.download_button(
         "⬇ 補正一覧(user_corrections.json)をダウンロード",
-        data=json.dumps(cors, ensure_ascii=False, indent=1).encode("utf-8"),
-        file_name="user_corrections.json",
+        data=json.dumps([dict(ov.build_correction(c["decomp"], DATA, assignment_edition),
+                             assignment_edition=assignment_edition,
+                             assignment_signature=editions.edition_signature(DATA_DIR, assignment_edition))
+                         if c.get("decomp") else c for c in cors], ensure_ascii=False, indent=1).encode("utf-8"),
+        file_name=editions.download_filename("user_corrections", editions.result_metadata(DATA_DIR, assignment_edition), "json"),
         mime="application/json",
     )
 
@@ -196,7 +190,7 @@ if up is not None:
             new = []
             for d in decomps:
                 try:
-                    new.append(ov.build_correction(d, DATA))
+                    new.append(ov.build_correction(d, DATA, assignment_edition))
                 except Exception:
                     pass
             if not new:

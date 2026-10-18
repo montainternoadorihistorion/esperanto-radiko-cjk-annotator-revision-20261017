@@ -1,5 +1,6 @@
 # Preserve runtime and generated-data bytes across platforms.
 /Esperanto-Kanji-Ruby-*/main.py text eol=lf
+/Esperanto-Kanji-Ruby-*/esp_assignment_edition.py text eol=lf
 /Esperanto-Kanji-Ruby-*/esp_generation_module.py text eol=lf
 /Esperanto-Kanji-Ruby-*/esp_overlay_module.py text eol=lf
 /Esperanto-Kanji-Ruby-*/esp_replacement_json_make_module.py text eol=lf
@@ -14,3 +15,6 @@
 /Esperanto-Kanji-Ruby-*/app_data/char_widths.json text eol=lf
 /Esperanto-Kanji-Ruby-*/app_data/user_corrections.json text eol=lf
 /Esperanto-Kanji-Ruby-*/app_data/*.csv text eol=lf
+
+# Fixed edition hashes are byte-level contracts, including original line endings.
+/assignment_editions/legacy/** -text

@@ -79,11 +79,17 @@ def _ruby_csv(data_dir: str) -> str:
     raise FileNotFoundError("ルビ用CSVが app_data に見つかりません")
 
 
-def _build_root_dict(data_dir: str, csv_name: str, fmt: str):
+def _build_root_dict(data_dir: str, csv_name: str, fmt: str, edition="current"):
     """CSV(語根→訳/漢字)から {語根: '<ruby>語根<rt…>訳</rt></ruby>'} の辞書を作る。
        50MB JSONは読まない。プロセス内キャッシュ。"""
-    key = (data_dir, csv_name, fmt)
+    if edition not in ("current", "legacy"):
+        raise ValueError("Unknown assignment edition: " + repr(edition))
     csv_path = os.path.join(data_dir, csv_name)
+    if csv_name == KANJI_CSV and edition == "legacy":
+        app_dir = os.path.dirname(os.path.abspath(data_dir))
+        language = os.path.basename(app_dir).rsplit("-", 1)[-1]
+        csv_path = os.path.join(os.path.dirname(app_dir), "assignment_editions", "legacy", language, "kanji.csv")
+    key = (os.path.abspath(csv_path), fmt, edition)
     widths_path = os.path.join(data_dir, "char_widths.json")
     csv_stat, widths_stat = os.stat(csv_path), os.stat(widths_path)
     stamp = (csv_stat.st_mtime_ns, csv_stat.st_size,
@@ -140,7 +146,7 @@ def _variants(old: str, new: str):
     return out
 
 
-def build_correction(decomp: str, data_dir: str) -> dict:
+def build_correction(decomp: str, data_dir: str, edition="current") -> dict:
     """分解形(スラッシュ区切り, 例 'sport/i')から、ルビ・漢字両モードの補正エントリを生成。
        戻り値: {word, decomp, ruby:[[old,new],...], kanji:[[old,new],...]}"""
     convert_to_circumflex = _replacement_helper().convert_to_circumflex
@@ -150,7 +156,7 @@ def build_correction(decomp: str, data_dir: str) -> dict:
     if not word or not re.search(r"[a-zĉĝĥĵŝŭ]", word):
         raise ValueError(f"invalid decomposition: {decomp!r}")
     ruby_dict = _build_root_dict(data_dir, _ruby_csv(data_dir), RUBY_FMT)
-    kanji_dict = _build_root_dict(data_dir, KANJI_CSV, KANJI_FMT)
+    kanji_dict = _build_root_dict(data_dir, KANJI_CSV, KANJI_FMT, edition)
     ruby_new = _build_new(decomp, ruby_dict)
     kanji_new = _build_new(decomp, kanji_dict)
     return {
@@ -161,12 +167,12 @@ def build_correction(decomp: str, data_dir: str) -> dict:
     }
 
 
-def segment_glosses(decomp: str, data_dir: str):
+def segment_glosses(decomp: str, data_dir: str, edition="current"):
     """各セグメントに ルビ訳/漢字 が登録済みかを返す。
        戻り値: [(seg, ruby_html or None, kanji_html or None), ...]。
        Noneの語根は訳/漢字が無く、補正しても裸で表示される(文法語尾 i/o/a 等は通常None)。"""
     rd = _build_root_dict(data_dir, _ruby_csv(data_dir), RUBY_FMT)
-    kd = _build_root_dict(data_dir, KANJI_CSV, KANJI_FMT)
+    kd = _build_root_dict(data_dir, KANJI_CSV, KANJI_FMT, edition)
     out = []
     for seg in decomp.strip().strip("/").split("/"):
         if seg:
@@ -231,9 +237,9 @@ def save_corrections(data_dir: str, corrections: List[dict]) -> None:
     ses.extend(list({c.get("word"): c for c in corrections if isinstance(c, dict)}.values()))
 
 
-def add_correction(data_dir: str, decomp: str) -> dict:
+def add_correction(data_dir: str, decomp: str, edition="current") -> dict:
     """補正を生成し、セッションに保存(同名語は置き換え)。生成した補正dictを返す。"""
-    entry = build_correction(decomp, data_dir)
+    entry = build_correction(decomp, data_dir, edition)
     ses = _session_list()
     ses[:] = [c for c in ses if c.get("word") != entry["word"]]
     ses.append(entry)
@@ -248,7 +254,7 @@ def remove_correction(data_dir: str, word: str) -> None:
         ses.append({"word": word, "_disabled": True})
 
 
-def load_overlay_entries(data_dir: str, mode: str) -> List[list]:
+def load_overlay_entries(data_dir: str, mode: str, edition="current") -> List[list]:
     """mode='ruby' or 'kanji'。保存済み補正から [old,new,placeholder] の平坦リストを構築。
        placeholderは毎回ここで一意に再採番する(削除・並べ替えに頑健)。
        placeholderは**純数字**($9NNNNNN$)にする。文字を含む形($OV…)は2文字語根置換系
@@ -256,6 +262,13 @@ def load_overlay_entries(data_dir: str, mode: str) -> List[list]:
     cors = load_corrections(data_dir)
     out = []
     for i, c in enumerate(cors):
+        # A correction stores segmentation, not ownership of a historical glyph.
+        # Re-render valid decompositions for this edition; never reuse stale
+        # kanji HTML saved before a version switch or a dictionary update.
+        if c.get("decomp"):
+            c = build_correction(c["decomp"], data_dir, edition)
+        elif edition != "current" and mode == "kanji":
+            raise ValueError("Legacy correction requires an explicit decomposition")
         for j, pair in enumerate(c.get(mode, [])):
             if len(pair) >= 2 and pair[0] and pair[1]:
                 out.append([pair[0], pair[1], f"${9000000 + i * 10 + j}$"])
@@ -408,7 +421,7 @@ def find_stranded_words(html):
     return out
 
 
-def auto_overlay_entries(html_pass1, data_dir, mode):
+def auto_overlay_entries(html_pass1, data_dir, mode, edition="current"):
     """pass1のhtmlから孤立語を検出 → 各語の正しい分解を自動算出 → build_correctionでmode別
        エントリ化。返り値は merge_overlay 用 [old, new, placeholder] のリスト($911NNNN$帯)。"""
     entries = []
@@ -417,7 +430,7 @@ def auto_overlay_entries(html_pass1, data_dir, mode):
             d = autofix_decomp(w, data_dir)
             if not d or d.replace("/", "").lower() != w.lower():
                 continue
-            corr = build_correction(d, data_dir)
+            corr = build_correction(d, data_dir, edition)
             for pair in corr.get(mode, []):
                 if len(pair) >= 2 and pair[0] and pair[1]:
                     entries.append(pair)
@@ -426,13 +439,13 @@ def auto_overlay_entries(html_pass1, data_dir, mode):
     return [[old, new, f"${9110000 + i}$"] for i, (old, new) in enumerate(entries)]
 
 
-def autofix_render(text, ps, GL, pl, GG, G2, fmt, data_dir, mode, orchestrate_fn):
+def autofix_render(text, ps, GL, pl, GG, G2, fmt, data_dir, mode, orchestrate_fn, edition="current"):
     """1パス目を描画し、先頭1字孤立語があれば自動補正をmerge_overlayして2パス目を描画して返す。
        孤立語が無ければ1パスのみ(通常テキストは大半がこれ=高速)。"""
     html = orchestrate_fn(text, ps, GL, pl, GG, G2, fmt)
     if "<ruby>" not in html:
         return html
-    auto = auto_overlay_entries(html, data_dir, mode)
+    auto = auto_overlay_entries(html, data_dir, mode, edition)
     if not auto:
         return html
     return orchestrate_fn(text, ps, GL, pl, merge_overlay(GG, auto), G2, fmt)
