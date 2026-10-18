@@ -219,9 +219,27 @@ def dataframe_to_mapping_records(df: pd.DataFrame) -> tuple[tuple[str, str, str]
 
 
 @st.cache_data(show_spinner=False)
-def build_mapping_index_cached(records: tuple[tuple[str, str, str], ...]) -> MappingIndex:
+def _build_mapping_index_payload_cached(
+    records: tuple[tuple[str, str, str], ...],
+) -> tuple[Dict[int, Dict[str, str]], List[int], int]:
     df = pd.DataFrame(records, columns=["esperanto", "kanji", "priority"])
-    return build_mapping_index(df)
+    mapping = build_mapping_index(df)
+    return mapping.by_length, mapping.lengths_desc, mapping.entry_count
+
+
+def build_mapping_index_cached(records: tuple[tuple[str, str, str], ...]) -> MappingIndex:
+    # Streamlit replaces __main__ between runs/sessions. Cache only builtins,
+    # then reconstruct the class belonging to this invocation.
+    by_length, lengths_desc, entry_count = _build_mapping_index_payload_cached(records)
+    return MappingIndex(
+        by_length=by_length,
+        lengths_desc=lengths_desc,
+        entry_count=entry_count,
+    )
+
+
+# Preserve the public cache-clearing API, including per-record invalidation.
+build_mapping_index_cached.clear = _build_mapping_index_payload_cached.clear
 
 
 def convert_kanji_esperanto_to_alphabet(text: str, mapping: MappingIndex) -> str:
