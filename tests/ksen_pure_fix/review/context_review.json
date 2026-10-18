@@ -1,0 +1,2212 @@
+{
+  "method": "Original actual source renderer, raw before-loader snapshot vs current after-loader; full active lists, existing manual and automatic passes, batch newline contexts. No application files changed.",
+  "rows": [
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "ksenas",
+      "before": "k无as",
+      "after": "外ᴷˢas",
+      "required": "外ᴷˢas"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "kseno",
+      "before": "k无o",
+      "after": "外ᴷˢo",
+      "required": "外ᴷˢo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "ksenoj",
+      "before": "k无oj",
+      "after": "外ᴷˢoj",
+      "required": "外ᴷˢoj"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "ksenojn",
+      "before": "k无ojn",
+      "after": "外ᴷˢojn",
+      "required": "外ᴷˢojn"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "ksenos",
+      "before": "k无os",
+      "after": "外ᴷˢos",
+      "required": "外ᴷˢos"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "ksenu",
+      "before": "k无u",
+      "after": "外ᴷˢu",
+      "required": "外ᴷˢu"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "ksenulo",
+      "before": "k无ulo",
+      "after": "外ᴷˢ者o",
+      "required": "外ᴷˢ者o"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "ksenus",
+      "before": "k无us",
+      "after": "外ᴷˢus",
+      "required": "外ᴷˢus"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "kseno kseno kseno",
+      "before": "k无o k无o k无o",
+      "after": "外ᴷˢo 外ᴷˢo 外ᴷˢo",
+      "required": "外ᴷˢo 外ᴷˢo 外ᴷˢo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "kseno, kseno. (ksenoj) [ksenas]",
+      "before": "k无o, k无o. (k无oj) [k无as]",
+      "after": "外ᴷˢo, 外ᴷˢo. (外ᴷˢoj) [外ᴷˢas]",
+      "required": "外ᴷˢo, 外ᴷˢo. (外ᴷˢoj) [外ᴷˢas]"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "sene senaj senon ksenon ksena ksene",
+      "before": "s内e s内aj 无on 气ᴷˢ k决明 ks内e",
+      "after": "s内e s内aj 无on 气ᴷˢ k决明 ks内e",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "xkseno ksenox 3kseno kseno3 Kseno KSENO kSeNo",
+      "before": "xk无o k无ox 3k无o k无o3 K无o K无O kSeNo",
+      "after": "xk无o k无ox 3k无o k无o3 K无o K无O kSeNo",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "%kseno% %@kseno@% %kseno sene% %kseno% kseno",
+      "before": "kseno @kseno@ kseno sene kseno k无o",
+      "after": "kseno @kseno@ kseno sene kseno 外ᴷˢo",
+      "required": "kseno @kseno@ kseno sene kseno 外ᴷˢo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "@kseno@ @ksen@o @ksenulo@ @sene@",
+      "before": "外ᴷˢo 外ᴷˢo 外ᴷˢ者o 无e",
+      "after": "外ᴷˢo 外ᴷˢo 外ᴷˢ者o 无e",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "kseno@example.org name@ksenoj.eo",
+      "before": "k无o@example.org name@k无oj.eo",
+      "after": "k无o@example.org name@k无oj.eo",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "kseno' ksenoj’",
+      "before": "k无o' k无oj’",
+      "after": "k无o' k无oj’",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "kseno-kseno kseno_ksenoj",
+      "before": "k无o-k无o k无o_k无oj",
+      "after": "外ᴷˢo-外ᴷˢo 外ᴷˢo_外ᴷˢoj",
+      "required": "外ᴷˢo-外ᴷˢo 外ᴷˢo_外ᴷˢoj"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "Fokseno",
+      "before": "鱼ᶠᴷo",
+      "after": "鱼ᶠᴷo",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "Foksenoj",
+      "before": "鱼ᶠᴷoj",
+      "after": "鱼ᶠᴷoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "Foksenojn",
+      "before": "鱼ᶠᴷojn",
+      "after": "鱼ᶠᴷojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "Foksenon",
+      "before": "鱼ᶠᴷon",
+      "after": "鱼ᶠᴷon",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "Pont-Eŭkseno",
+      "before": "桥-Eŭkseno",
+      "after": "桥-Eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "Pont-Eŭksenoj",
+      "before": "桥-Eŭksenoj",
+      "after": "桥-Eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "Pont-Eŭksenojn",
+      "before": "桥-Eŭksenojn",
+      "after": "桥-Eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "Pont-Eŭksenon",
+      "before": "桥-Eŭksenon",
+      "after": "桥-Eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "Pont-eŭkseno",
+      "before": "桥-eŭkseno",
+      "after": "桥-eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "Pont-eŭksenoj",
+      "before": "桥-eŭksenoj",
+      "after": "桥-eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "Pont-eŭksenojn",
+      "before": "桥-eŭksenojn",
+      "after": "桥-eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "Pont-eŭksenon",
+      "before": "桥-eŭksenon",
+      "after": "桥-eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "fokseno",
+      "before": "鱼ᶠᴷo",
+      "after": "鱼ᶠᴷo",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "foksenoj",
+      "before": "鱼ᶠᴷoj",
+      "after": "鱼ᶠᴷoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "foksenojn",
+      "before": "鱼ᶠᴷojn",
+      "after": "鱼ᶠᴷojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "foksenon",
+      "before": "鱼ᶠᴷon",
+      "after": "鱼ᶠᴷon",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "ksenofob",
+      "before": "外ᴷˢo怕ᶠ",
+      "after": "外ᴷˢo怕ᶠ",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "ksenofobi",
+      "before": "外ᴷˢo症",
+      "after": "外ᴷˢo症",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "ksenofon",
+      "before": "ksenofon",
+      "after": "ksenofon",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "ksenon",
+      "before": "气ᴷˢ",
+      "after": "气ᴷˢ",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "ksenono",
+      "before": "气ᴷˢo",
+      "after": "气ᴷˢo",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "ksenonoj",
+      "before": "气ᴷˢoj",
+      "after": "气ᴷˢoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "ksenonojn",
+      "before": "气ᴷˢojn",
+      "after": "气ᴷˢojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "ksenonon",
+      "before": "气ᴷˢon",
+      "after": "气ᴷˢon",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "pont-eŭkseno",
+      "before": "桥-eŭkseno",
+      "after": "桥-eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "pont-eŭksenoj",
+      "before": "桥-eŭksenoj",
+      "after": "桥-eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "pont-eŭksenojn",
+      "before": "桥-eŭksenojn",
+      "after": "桥-eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "pont-eŭksenon",
+      "before": "桥-eŭksenon",
+      "after": "桥-eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "session_override": "k/sen/o",
+      "output": "k无o",
+      "expected": "k无o"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "ksenas",
+      "before": "k无as",
+      "after": "外ᴷˢas",
+      "required": "外ᴷˢas"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "kseno",
+      "before": "k无o",
+      "after": "外ᴷˢo",
+      "required": "外ᴷˢo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "ksenoj",
+      "before": "k无oj",
+      "after": "外ᴷˢoj",
+      "required": "外ᴷˢoj"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "ksenojn",
+      "before": "k无ojn",
+      "after": "外ᴷˢojn",
+      "required": "外ᴷˢojn"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "ksenos",
+      "before": "k无os",
+      "after": "外ᴷˢos",
+      "required": "外ᴷˢos"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "ksenu",
+      "before": "k无u",
+      "after": "外ᴷˢu",
+      "required": "外ᴷˢu"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "ksenulo",
+      "before": "k无ulo",
+      "after": "外ᴷˢ者o",
+      "required": "外ᴷˢ者o"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "ksenus",
+      "before": "k无us",
+      "after": "外ᴷˢus",
+      "required": "外ᴷˢus"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "kseno kseno kseno",
+      "before": "k无o k无o k无o",
+      "after": "外ᴷˢo 外ᴷˢo 外ᴷˢo",
+      "required": "外ᴷˢo 外ᴷˢo 外ᴷˢo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "kseno, kseno. (ksenoj) [ksenas]",
+      "before": "k无o, k无o. (k无oj) [k无as]",
+      "after": "外ᴷˢo, 外ᴷˢo. (外ᴷˢoj) [外ᴷˢas]",
+      "required": "外ᴷˢo, 外ᴷˢo. (外ᴷˢoj) [外ᴷˢas]"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "sene senaj senon ksenon ksena ksene",
+      "before": "s内e s内aj 无on 气ᴷˢ k决明 ks内e",
+      "after": "s内e s内aj 无on 气ᴷˢ k决明 ks内e",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "xkseno ksenox 3kseno kseno3 Kseno KSENO kSeNo",
+      "before": "xk无o k无ox 3k无o k无o3 K无o K无O kSeNo",
+      "after": "xk无o k无ox 3k无o k无o3 K无o K无O kSeNo",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "%kseno% %@kseno@% %kseno sene% %kseno% kseno",
+      "before": "kseno @kseno@ kseno sene kseno k无o",
+      "after": "kseno @kseno@ kseno sene kseno 外ᴷˢo",
+      "required": "kseno @kseno@ kseno sene kseno 外ᴷˢo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "@kseno@ @ksen@o @ksenulo@ @sene@",
+      "before": "外ᴷˢo 外ᴷˢo 外ᴷˢ者o 无e",
+      "after": "外ᴷˢo 外ᴷˢo 外ᴷˢ者o 无e",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "kseno@example.org name@ksenoj.eo",
+      "before": "k无o@example.org name@k无oj.eo",
+      "after": "k无o@example.org name@k无oj.eo",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "kseno' ksenoj’",
+      "before": "k无o' k无oj’",
+      "after": "k无o' k无oj’",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "kseno-kseno kseno_ksenoj",
+      "before": "k无o-k无o k无o_k无oj",
+      "after": "外ᴷˢo-外ᴷˢo 外ᴷˢo_外ᴷˢoj",
+      "required": "外ᴷˢo-外ᴷˢo 外ᴷˢo_外ᴷˢoj"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "Fokseno",
+      "before": "鱼ᶠᴷo",
+      "after": "鱼ᶠᴷo",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "Foksenoj",
+      "before": "鱼ᶠᴷoj",
+      "after": "鱼ᶠᴷoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "Foksenojn",
+      "before": "鱼ᶠᴷojn",
+      "after": "鱼ᶠᴷojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "Foksenon",
+      "before": "鱼ᶠᴷon",
+      "after": "鱼ᶠᴷon",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "Pont-Eŭkseno",
+      "before": "桥-Eŭkseno",
+      "after": "桥-Eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "Pont-Eŭksenoj",
+      "before": "桥-Eŭksenoj",
+      "after": "桥-Eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "Pont-Eŭksenojn",
+      "before": "桥-Eŭksenojn",
+      "after": "桥-Eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "Pont-Eŭksenon",
+      "before": "桥-Eŭksenon",
+      "after": "桥-Eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "Pont-eŭkseno",
+      "before": "桥-eŭkseno",
+      "after": "桥-eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "Pont-eŭksenoj",
+      "before": "桥-eŭksenoj",
+      "after": "桥-eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "Pont-eŭksenojn",
+      "before": "桥-eŭksenojn",
+      "after": "桥-eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "Pont-eŭksenon",
+      "before": "桥-eŭksenon",
+      "after": "桥-eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "fokseno",
+      "before": "鱼ᶠᴷo",
+      "after": "鱼ᶠᴷo",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "foksenoj",
+      "before": "鱼ᶠᴷoj",
+      "after": "鱼ᶠᴷoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "foksenojn",
+      "before": "鱼ᶠᴷojn",
+      "after": "鱼ᶠᴷojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "foksenon",
+      "before": "鱼ᶠᴷon",
+      "after": "鱼ᶠᴷon",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "ksenofob",
+      "before": "外ᴷˢo怕ᶠ",
+      "after": "外ᴷˢo怕ᶠ",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "ksenofobi",
+      "before": "外ᴷˢo症",
+      "after": "外ᴷˢo症",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "ksenofon",
+      "before": "ksenofon",
+      "after": "ksenofon",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "ksenon",
+      "before": "气ᴷˢ",
+      "after": "气ᴷˢ",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "ksenono",
+      "before": "气ᴷˢo",
+      "after": "气ᴷˢo",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "ksenonoj",
+      "before": "气ᴷˢoj",
+      "after": "气ᴷˢoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "ksenonojn",
+      "before": "气ᴷˢojn",
+      "after": "气ᴷˢojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "ksenonon",
+      "before": "气ᴷˢon",
+      "after": "气ᴷˢon",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "pont-eŭkseno",
+      "before": "桥-eŭkseno",
+      "after": "桥-eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "pont-eŭksenoj",
+      "before": "桥-eŭksenoj",
+      "after": "桥-eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "pont-eŭksenojn",
+      "before": "桥-eŭksenojn",
+      "after": "桥-eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "pont-eŭksenon",
+      "before": "桥-eŭksenon",
+      "after": "桥-eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "session_override": "k/sen/o",
+      "output": "k无o",
+      "expected": "k无o"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "ksenas",
+      "before": "k无as",
+      "after": "外ᴷˢas",
+      "required": "外ᴷˢas"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "kseno",
+      "before": "k无o",
+      "after": "外ᴷˢo",
+      "required": "外ᴷˢo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "ksenoj",
+      "before": "k无oj",
+      "after": "外ᴷˢoj",
+      "required": "外ᴷˢoj"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "ksenojn",
+      "before": "k无ojn",
+      "after": "外ᴷˢojn",
+      "required": "外ᴷˢojn"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "ksenos",
+      "before": "k无os",
+      "after": "外ᴷˢos",
+      "required": "外ᴷˢos"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "ksenu",
+      "before": "k无u",
+      "after": "外ᴷˢu",
+      "required": "外ᴷˢu"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "ksenulo",
+      "before": "k无ulo",
+      "after": "外ᴷˢ者o",
+      "required": "外ᴷˢ者o"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "ksenus",
+      "before": "k无us",
+      "after": "外ᴷˢus",
+      "required": "外ᴷˢus"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "kseno kseno kseno",
+      "before": "k无o k无o k无o",
+      "after": "外ᴷˢo 外ᴷˢo 外ᴷˢo",
+      "required": "外ᴷˢo 外ᴷˢo 外ᴷˢo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "kseno, kseno. (ksenoj) [ksenas]",
+      "before": "k无o, k无o. (k无oj) [k无as]",
+      "after": "外ᴷˢo, 外ᴷˢo. (外ᴷˢoj) [外ᴷˢas]",
+      "required": "外ᴷˢo, 外ᴷˢo. (外ᴷˢoj) [外ᴷˢas]"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "sene senaj senon ksenon ksena ksene",
+      "before": "s内e s内aj 无on 气ᴷˢ k决明 ks内e",
+      "after": "s内e s内aj 无on 气ᴷˢ k决明 ks内e",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "xkseno ksenox 3kseno kseno3 Kseno KSENO kSeNo",
+      "before": "xk无o k无ox 3k无o k无o3 K无o K无O kSeNo",
+      "after": "xk无o k无ox 3k无o k无o3 K无o K无O kSeNo",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "%kseno% %@kseno@% %kseno sene% %kseno% kseno",
+      "before": "kseno @kseno@ kseno sene kseno k无o",
+      "after": "kseno @kseno@ kseno sene kseno 外ᴷˢo",
+      "required": "kseno @kseno@ kseno sene kseno 外ᴷˢo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "@kseno@ @ksen@o @ksenulo@ @sene@",
+      "before": "外ᴷˢo 外ᴷˢo 外ᴷˢ者o 无e",
+      "after": "外ᴷˢo 外ᴷˢo 外ᴷˢ者o 无e",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "kseno@example.org name@ksenoj.eo",
+      "before": "k无o@example.org name@k无oj.eo",
+      "after": "k无o@example.org name@k无oj.eo",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "kseno' ksenoj’",
+      "before": "k无o' k无oj’",
+      "after": "k无o' k无oj’",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "kseno-kseno kseno_ksenoj",
+      "before": "k无o-k无o k无o_k无oj",
+      "after": "外ᴷˢo-外ᴷˢo 外ᴷˢo_外ᴷˢoj",
+      "required": "外ᴷˢo-外ᴷˢo 外ᴷˢo_外ᴷˢoj"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "Fokseno",
+      "before": "鱼ᶠᴷo",
+      "after": "鱼ᶠᴷo",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "Foksenoj",
+      "before": "鱼ᶠᴷoj",
+      "after": "鱼ᶠᴷoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "Foksenojn",
+      "before": "鱼ᶠᴷojn",
+      "after": "鱼ᶠᴷojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "Foksenon",
+      "before": "鱼ᶠᴷon",
+      "after": "鱼ᶠᴷon",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "Pont-Eŭkseno",
+      "before": "桥-Eŭkseno",
+      "after": "桥-Eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "Pont-Eŭksenoj",
+      "before": "桥-Eŭksenoj",
+      "after": "桥-Eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "Pont-Eŭksenojn",
+      "before": "桥-Eŭksenojn",
+      "after": "桥-Eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "Pont-Eŭksenon",
+      "before": "桥-Eŭksenon",
+      "after": "桥-Eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "Pont-eŭkseno",
+      "before": "桥-eŭkseno",
+      "after": "桥-eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "Pont-eŭksenoj",
+      "before": "桥-eŭksenoj",
+      "after": "桥-eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "Pont-eŭksenojn",
+      "before": "桥-eŭksenojn",
+      "after": "桥-eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "Pont-eŭksenon",
+      "before": "桥-eŭksenon",
+      "after": "桥-eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "fokseno",
+      "before": "鱼ᶠᴷo",
+      "after": "鱼ᶠᴷo",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "foksenoj",
+      "before": "鱼ᶠᴷoj",
+      "after": "鱼ᶠᴷoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "foksenojn",
+      "before": "鱼ᶠᴷojn",
+      "after": "鱼ᶠᴷojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "foksenon",
+      "before": "鱼ᶠᴷon",
+      "after": "鱼ᶠᴷon",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "ksenofob",
+      "before": "外ᴷˢo怕ᶠ",
+      "after": "外ᴷˢo怕ᶠ",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "ksenofobi",
+      "before": "外ᴷˢo症",
+      "after": "外ᴷˢo症",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "ksenofon",
+      "before": "ksenofon",
+      "after": "ksenofon",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "ksenon",
+      "before": "气ᴷˢ",
+      "after": "气ᴷˢ",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "ksenono",
+      "before": "气ᴷˢo",
+      "after": "气ᴷˢo",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "ksenonoj",
+      "before": "气ᴷˢoj",
+      "after": "气ᴷˢoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "ksenonojn",
+      "before": "气ᴷˢojn",
+      "after": "气ᴷˢojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "ksenonon",
+      "before": "气ᴷˢon",
+      "after": "气ᴷˢon",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "pont-eŭkseno",
+      "before": "桥-eŭkseno",
+      "after": "桥-eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "pont-eŭksenoj",
+      "before": "桥-eŭksenoj",
+      "after": "桥-eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "pont-eŭksenojn",
+      "before": "桥-eŭksenojn",
+      "after": "桥-eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "pont-eŭksenon",
+      "before": "桥-eŭksenon",
+      "after": "桥-eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "session_override": "k/sen/o",
+      "output": "k无o",
+      "expected": "k无o"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "ksenas",
+      "before": "k无as",
+      "after": "外ᴷˢas",
+      "required": "外ᴷˢas"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "kseno",
+      "before": "k无o",
+      "after": "外ᴷˢo",
+      "required": "外ᴷˢo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "ksenoj",
+      "before": "k无oj",
+      "after": "外ᴷˢoj",
+      "required": "外ᴷˢoj"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "ksenojn",
+      "before": "k无ojn",
+      "after": "外ᴷˢojn",
+      "required": "外ᴷˢojn"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "ksenos",
+      "before": "k无os",
+      "after": "外ᴷˢos",
+      "required": "外ᴷˢos"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "ksenu",
+      "before": "k无u",
+      "after": "外ᴷˢu",
+      "required": "外ᴷˢu"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "ksenulo",
+      "before": "k无ulo",
+      "after": "外ᴷˢ者o",
+      "required": "外ᴷˢ者o"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "ksenus",
+      "before": "k无us",
+      "after": "外ᴷˢus",
+      "required": "外ᴷˢus"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "kseno kseno kseno",
+      "before": "k无o k无o k无o",
+      "after": "外ᴷˢo 外ᴷˢo 外ᴷˢo",
+      "required": "外ᴷˢo 外ᴷˢo 外ᴷˢo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "kseno, kseno. (ksenoj) [ksenas]",
+      "before": "k无o, k无o. (k无oj) [k无as]",
+      "after": "外ᴷˢo, 外ᴷˢo. (外ᴷˢoj) [外ᴷˢas]",
+      "required": "外ᴷˢo, 外ᴷˢo. (外ᴷˢoj) [外ᴷˢas]"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "sene senaj senon ksenon ksena ksene",
+      "before": "s内e s内aj 无on 气ᴷˢ k决明 ks内e",
+      "after": "s内e s内aj 无on 气ᴷˢ k决明 ks内e",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "xkseno ksenox 3kseno kseno3 Kseno KSENO kSeNo",
+      "before": "xk无o k无ox 3k无o k无o3 K无o K无O kSeNo",
+      "after": "xk无o k无ox 3k无o k无o3 K无o K无O kSeNo",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "%kseno% %@kseno@% %kseno sene% %kseno% kseno",
+      "before": "kseno @kseno@ kseno sene kseno k无o",
+      "after": "kseno @kseno@ kseno sene kseno 外ᴷˢo",
+      "required": "kseno @kseno@ kseno sene kseno 外ᴷˢo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "@kseno@ @ksen@o @ksenulo@ @sene@",
+      "before": "外ᴷˢo 外ᴷˢo 外ᴷˢ者o 无e",
+      "after": "外ᴷˢo 外ᴷˢo 外ᴷˢ者o 无e",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "kseno@example.org name@ksenoj.eo",
+      "before": "k无o@example.org name@k无oj.eo",
+      "after": "k无o@example.org name@k无oj.eo",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "kseno' ksenoj’",
+      "before": "k无o' k无oj’",
+      "after": "k无o' k无oj’",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "kseno-kseno kseno_ksenoj",
+      "before": "k无o-k无o k无o_k无oj",
+      "after": "外ᴷˢo-外ᴷˢo 外ᴷˢo_外ᴷˢoj",
+      "required": "外ᴷˢo-外ᴷˢo 外ᴷˢo_外ᴷˢoj"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "Fokseno",
+      "before": "鱼ᶠᴷo",
+      "after": "鱼ᶠᴷo",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "Foksenoj",
+      "before": "鱼ᶠᴷoj",
+      "after": "鱼ᶠᴷoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "Foksenojn",
+      "before": "鱼ᶠᴷojn",
+      "after": "鱼ᶠᴷojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "Foksenon",
+      "before": "鱼ᶠᴷon",
+      "after": "鱼ᶠᴷon",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "Pont-Eŭkseno",
+      "before": "桥-Eŭkseno",
+      "after": "桥-Eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "Pont-Eŭksenoj",
+      "before": "桥-Eŭksenoj",
+      "after": "桥-Eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "Pont-Eŭksenojn",
+      "before": "桥-Eŭksenojn",
+      "after": "桥-Eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "Pont-Eŭksenon",
+      "before": "桥-Eŭksenon",
+      "after": "桥-Eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "Pont-eŭkseno",
+      "before": "桥-eŭkseno",
+      "after": "桥-eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "Pont-eŭksenoj",
+      "before": "桥-eŭksenoj",
+      "after": "桥-eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "Pont-eŭksenojn",
+      "before": "桥-eŭksenojn",
+      "after": "桥-eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "Pont-eŭksenon",
+      "before": "桥-eŭksenon",
+      "after": "桥-eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "fokseno",
+      "before": "鱼ᶠᴷo",
+      "after": "鱼ᶠᴷo",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "foksenoj",
+      "before": "鱼ᶠᴷoj",
+      "after": "鱼ᶠᴷoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "foksenojn",
+      "before": "鱼ᶠᴷojn",
+      "after": "鱼ᶠᴷojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "foksenon",
+      "before": "鱼ᶠᴷon",
+      "after": "鱼ᶠᴷon",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "ksenofob",
+      "before": "外ᴷˢo怕ᶠ",
+      "after": "外ᴷˢo怕ᶠ",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "ksenofobi",
+      "before": "外ᴷˢo症",
+      "after": "外ᴷˢo症",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "ksenofon",
+      "before": "ksenofon",
+      "after": "ksenofon",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "ksenon",
+      "before": "气ᴷˢ",
+      "after": "气ᴷˢ",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "ksenono",
+      "before": "气ᴷˢo",
+      "after": "气ᴷˢo",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "ksenonoj",
+      "before": "气ᴷˢoj",
+      "after": "气ᴷˢoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "ksenonojn",
+      "before": "气ᴷˢojn",
+      "after": "气ᴷˢojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "ksenonon",
+      "before": "气ᴷˢon",
+      "after": "气ᴷˢon",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "pont-eŭkseno",
+      "before": "桥-eŭkseno",
+      "after": "桥-eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "pont-eŭksenoj",
+      "before": "桥-eŭksenoj",
+      "after": "桥-eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "pont-eŭksenojn",
+      "before": "桥-eŭksenojn",
+      "after": "桥-eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "pont-eŭksenon",
+      "before": "桥-eŭksenon",
+      "after": "桥-eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "session_override": "k/sen/o",
+      "output": "k无o",
+      "expected": "k无o"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "ksenas",
+      "before": "k无as",
+      "after": "外ᴷˢas",
+      "required": "外ᴷˢas"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "kseno",
+      "before": "k无o",
+      "after": "外ᴷˢo",
+      "required": "外ᴷˢo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "ksenoj",
+      "before": "k无oj",
+      "after": "外ᴷˢoj",
+      "required": "外ᴷˢoj"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "ksenojn",
+      "before": "k无ojn",
+      "after": "外ᴷˢojn",
+      "required": "外ᴷˢojn"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "ksenos",
+      "before": "k无os",
+      "after": "外ᴷˢos",
+      "required": "外ᴷˢos"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "ksenu",
+      "before": "k无u",
+      "after": "外ᴷˢu",
+      "required": "外ᴷˢu"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "ksenulo",
+      "before": "k无ulo",
+      "after": "外ᴷˢ者o",
+      "required": "外ᴷˢ者o"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "ksenus",
+      "before": "k无us",
+      "after": "外ᴷˢus",
+      "required": "外ᴷˢus"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "kseno kseno kseno",
+      "before": "k无o k无o k无o",
+      "after": "外ᴷˢo 外ᴷˢo 外ᴷˢo",
+      "required": "外ᴷˢo 外ᴷˢo 外ᴷˢo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "kseno, kseno. (ksenoj) [ksenas]",
+      "before": "k无o, k无o. (k无oj) [k无as]",
+      "after": "外ᴷˢo, 外ᴷˢo. (外ᴷˢoj) [外ᴷˢas]",
+      "required": "外ᴷˢo, 外ᴷˢo. (外ᴷˢoj) [外ᴷˢas]"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "sene senaj senon ksenon ksena ksene",
+      "before": "s内e s内aj 无on 气ᴷˢ k决明 ks内e",
+      "after": "s内e s内aj 无on 气ᴷˢ k决明 ks内e",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "xkseno ksenox 3kseno kseno3 Kseno KSENO kSeNo",
+      "before": "xk无o k无ox 3k无o k无o3 K无o K无O kSeNo",
+      "after": "xk无o k无ox 3k无o k无o3 K无o K无O kSeNo",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "%kseno% %@kseno@% %kseno sene% %kseno% kseno",
+      "before": "kseno @kseno@ kseno sene kseno k无o",
+      "after": "kseno @kseno@ kseno sene kseno 外ᴷˢo",
+      "required": "kseno @kseno@ kseno sene kseno 外ᴷˢo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "@kseno@ @ksen@o @ksenulo@ @sene@",
+      "before": "外ᴷˢo 外ᴷˢo 外ᴷˢ者o 无e",
+      "after": "外ᴷˢo 外ᴷˢo 外ᴷˢ者o 无e",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "kseno@example.org name@ksenoj.eo",
+      "before": "k无o@example.org name@k无oj.eo",
+      "after": "k无o@example.org name@k无oj.eo",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "kseno' ksenoj’",
+      "before": "k无o' k无oj’",
+      "after": "k无o' k无oj’",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "kseno-kseno kseno_ksenoj",
+      "before": "k无o-k无o k无o_k无oj",
+      "after": "外ᴷˢo-外ᴷˢo 外ᴷˢo_外ᴷˢoj",
+      "required": "外ᴷˢo-外ᴷˢo 外ᴷˢo_外ᴷˢoj"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "Fokseno",
+      "before": "鱼ᶠᴷo",
+      "after": "鱼ᶠᴷo",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "Foksenoj",
+      "before": "鱼ᶠᴷoj",
+      "after": "鱼ᶠᴷoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "Foksenojn",
+      "before": "鱼ᶠᴷojn",
+      "after": "鱼ᶠᴷojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "Foksenon",
+      "before": "鱼ᶠᴷon",
+      "after": "鱼ᶠᴷon",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "Pont-Eŭkseno",
+      "before": "桥-Eŭkseno",
+      "after": "桥-Eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "Pont-Eŭksenoj",
+      "before": "桥-Eŭksenoj",
+      "after": "桥-Eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "Pont-Eŭksenojn",
+      "before": "桥-Eŭksenojn",
+      "after": "桥-Eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "Pont-Eŭksenon",
+      "before": "桥-Eŭksenon",
+      "after": "桥-Eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "Pont-eŭkseno",
+      "before": "桥-eŭkseno",
+      "after": "桥-eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "Pont-eŭksenoj",
+      "before": "桥-eŭksenoj",
+      "after": "桥-eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "Pont-eŭksenojn",
+      "before": "桥-eŭksenojn",
+      "after": "桥-eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "Pont-eŭksenon",
+      "before": "桥-eŭksenon",
+      "after": "桥-eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "fokseno",
+      "before": "鱼ᶠᴷo",
+      "after": "鱼ᶠᴷo",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "foksenoj",
+      "before": "鱼ᶠᴷoj",
+      "after": "鱼ᶠᴷoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "foksenojn",
+      "before": "鱼ᶠᴷojn",
+      "after": "鱼ᶠᴷojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "foksenon",
+      "before": "鱼ᶠᴷon",
+      "after": "鱼ᶠᴷon",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "ksenofob",
+      "before": "外ᴷˢo怕ᶠ",
+      "after": "外ᴷˢo怕ᶠ",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "ksenofobi",
+      "before": "外ᴷˢo症",
+      "after": "外ᴷˢo症",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "ksenofon",
+      "before": "ksenofon",
+      "after": "ksenofon",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "ksenon",
+      "before": "气ᴷˢ",
+      "after": "气ᴷˢ",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "ksenono",
+      "before": "气ᴷˢo",
+      "after": "气ᴷˢo",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "ksenonoj",
+      "before": "气ᴷˢoj",
+      "after": "气ᴷˢoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "ksenonojn",
+      "before": "气ᴷˢojn",
+      "after": "气ᴷˢojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "ksenonon",
+      "before": "气ᴷˢon",
+      "after": "气ᴷˢon",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "pont-eŭkseno",
+      "before": "桥-eŭkseno",
+      "after": "桥-eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "pont-eŭksenoj",
+      "before": "桥-eŭksenoj",
+      "after": "桥-eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "pont-eŭksenojn",
+      "before": "桥-eŭksenojn",
+      "after": "桥-eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "pont-eŭksenon",
+      "before": "桥-eŭksenon",
+      "after": "桥-eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "session_override": "k/sen/o",
+      "output": "k无o",
+      "expected": "k无o"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "ksenas",
+      "before": "k无as",
+      "after": "外ᴷˢas",
+      "required": "外ᴷˢas"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "kseno",
+      "before": "k无o",
+      "after": "外ᴷˢo",
+      "required": "外ᴷˢo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "ksenoj",
+      "before": "k无oj",
+      "after": "外ᴷˢoj",
+      "required": "外ᴷˢoj"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "ksenojn",
+      "before": "k无ojn",
+      "after": "外ᴷˢojn",
+      "required": "外ᴷˢojn"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "ksenos",
+      "before": "k无os",
+      "after": "外ᴷˢos",
+      "required": "外ᴷˢos"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "ksenu",
+      "before": "k无u",
+      "after": "外ᴷˢu",
+      "required": "外ᴷˢu"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "ksenulo",
+      "before": "k无ulo",
+      "after": "外ᴷˢ者o",
+      "required": "外ᴷˢ者o"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "ksenus",
+      "before": "k无us",
+      "after": "外ᴷˢus",
+      "required": "外ᴷˢus"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "kseno kseno kseno",
+      "before": "k无o k无o k无o",
+      "after": "外ᴷˢo 外ᴷˢo 外ᴷˢo",
+      "required": "外ᴷˢo 外ᴷˢo 外ᴷˢo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "kseno, kseno. (ksenoj) [ksenas]",
+      "before": "k无o, k无o. (k无oj) [k无as]",
+      "after": "外ᴷˢo, 外ᴷˢo. (外ᴷˢoj) [外ᴷˢas]",
+      "required": "外ᴷˢo, 外ᴷˢo. (外ᴷˢoj) [外ᴷˢas]"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "sene senaj senon ksenon ksena ksene",
+      "before": "s内e s内aj 无on 气ᴷˢ k决明 ks内e",
+      "after": "s内e s内aj 无on 气ᴷˢ k决明 ks内e",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "xkseno ksenox 3kseno kseno3 Kseno KSENO kSeNo",
+      "before": "xk无o k无ox 3k无o k无o3 K无o K无O kSeNo",
+      "after": "xk无o k无ox 3k无o k无o3 K无o K无O kSeNo",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "%kseno% %@kseno@% %kseno sene% %kseno% kseno",
+      "before": "kseno @kseno@ kseno sene kseno k无o",
+      "after": "kseno @kseno@ kseno sene kseno 外ᴷˢo",
+      "required": "kseno @kseno@ kseno sene kseno 外ᴷˢo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "@kseno@ @ksen@o @ksenulo@ @sene@",
+      "before": "外ᴷˢo 外ᴷˢo 外ᴷˢ者o 无e",
+      "after": "外ᴷˢo 外ᴷˢo 外ᴷˢ者o 无e",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "kseno@example.org name@ksenoj.eo",
+      "before": "k无o@example.org name@k无oj.eo",
+      "after": "k无o@example.org name@k无oj.eo",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "kseno' ksenoj’",
+      "before": "k无o' k无oj’",
+      "after": "k无o' k无oj’",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "kseno-kseno kseno_ksenoj",
+      "before": "k无o-k无o k无o_k无oj",
+      "after": "外ᴷˢo-外ᴷˢo 外ᴷˢo_外ᴷˢoj",
+      "required": "外ᴷˢo-外ᴷˢo 外ᴷˢo_外ᴷˢoj"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "Fokseno",
+      "before": "鱼ᶠᴷo",
+      "after": "鱼ᶠᴷo",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "Foksenoj",
+      "before": "鱼ᶠᴷoj",
+      "after": "鱼ᶠᴷoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "Foksenojn",
+      "before": "鱼ᶠᴷojn",
+      "after": "鱼ᶠᴷojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "Foksenon",
+      "before": "鱼ᶠᴷon",
+      "after": "鱼ᶠᴷon",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "Pont-Eŭkseno",
+      "before": "桥-Eŭkseno",
+      "after": "桥-Eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "Pont-Eŭksenoj",
+      "before": "桥-Eŭksenoj",
+      "after": "桥-Eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "Pont-Eŭksenojn",
+      "before": "桥-Eŭksenojn",
+      "after": "桥-Eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "Pont-Eŭksenon",
+      "before": "桥-Eŭksenon",
+      "after": "桥-Eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "Pont-eŭkseno",
+      "before": "桥-eŭkseno",
+      "after": "桥-eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "Pont-eŭksenoj",
+      "before": "桥-eŭksenoj",
+      "after": "桥-eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "Pont-eŭksenojn",
+      "before": "桥-eŭksenojn",
+      "after": "桥-eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "Pont-eŭksenon",
+      "before": "桥-eŭksenon",
+      "after": "桥-eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "fokseno",
+      "before": "鱼ᶠᴷo",
+      "after": "鱼ᶠᴷo",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "foksenoj",
+      "before": "鱼ᶠᴷoj",
+      "after": "鱼ᶠᴷoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "foksenojn",
+      "before": "鱼ᶠᴷojn",
+      "after": "鱼ᶠᴷojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "foksenon",
+      "before": "鱼ᶠᴷon",
+      "after": "鱼ᶠᴷon",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "ksenofob",
+      "before": "外ᴷˢo怕ᶠ",
+      "after": "外ᴷˢo怕ᶠ",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "ksenofobi",
+      "before": "外ᴷˢo症",
+      "after": "外ᴷˢo症",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "ksenofon",
+      "before": "ksenofon",
+      "after": "ksenofon",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "ksenon",
+      "before": "气ᴷˢ",
+      "after": "气ᴷˢ",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "ksenono",
+      "before": "气ᴷˢo",
+      "after": "气ᴷˢo",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "ksenonoj",
+      "before": "气ᴷˢoj",
+      "after": "气ᴷˢoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "ksenonojn",
+      "before": "气ᴷˢojn",
+      "after": "气ᴷˢojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "ksenonon",
+      "before": "气ᴷˢon",
+      "after": "气ᴷˢon",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "pont-eŭkseno",
+      "before": "桥-eŭkseno",
+      "after": "桥-eŭkseno",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "pont-eŭksenoj",
+      "before": "桥-eŭksenoj",
+      "after": "桥-eŭksenoj",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "pont-eŭksenojn",
+      "before": "桥-eŭksenojn",
+      "after": "桥-eŭksenojn",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "pont-eŭksenon",
+      "before": "桥-eŭksenon",
+      "after": "桥-eŭksenon",
+      "required": "unchanged"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "session_override": "k/sen/o",
+      "output": "k无o",
+      "expected": "k无o"
+    }
+  ],
+  "failures": [],
+  "checks": 276,
+  "status": "PASS",
+  "source_sha256": "c051eefbbe40bff6124e481b1dacc839b01b293c00619967cb30561dc4c387f5",
+  "validated_rows": 276
+}

@@ -624,3 +624,7 @@ python -B -X utf8 tests/app_ui_smoke.py --nostalgi-onk-fortres
 新旧・純粋置換／日中韓漢字ルビの全保存入力を、日中逆変換で25,903,552回再生し、以前正しかった入力の退行は0件でした。Cloudでも前方12経路、配備後の逆変換4経路、実ダウンロード16ファイル、新旧切り替え時の結果保護を確認しています。詳細と確認範囲は [採用理由と全件検証](tests/compound_inverse_keys_fix/decision.md) を参照してください。
 
 検証したアプリ本体: [日本語逆変換](https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/)、[中国語逆変換](https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/)。日本語のCloud外枠の自動読み込みは別の制約として記録しており、今回の変更で外枠を修正したという主張はしていません。
+
+## ksen 系列の純粋置換補正（2026-10-18）
+
+確認済みの小文字8入力に限り、通常の純粋置換でも既存の `ksen＝外ᴷˢ` を使います。たとえば `kseno → 外ᴷˢo → kseno` と往復できます。新旧の割り当て・識別子・元の置換JSON・逆変換表を保ち、`sene` や長い既存語、`@`・`%`、ユーザーの手動補正を変更範囲から分けています。[修正範囲と検証記録](tests/ksen_pure_fix/decision.md)を参照してください。

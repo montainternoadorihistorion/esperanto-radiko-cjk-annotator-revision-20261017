@@ -22,6 +22,70 @@ TWO = "二文字词根替换用のリスト(列表)型配列(replacements_list_f
 KANJI_CSV = "世界语词根-汉字对应列表_参照2新割当_7791.csv"
 RUBY_CSV = {"JA": "エスペラント語根-日本語訳ルビ対応リスト.csv", "ZH": "世界语词根-中文注释对应列表.csv", "KO": "에스페란토 어근-한국어 번역 루비 대응 목록.csv"}
 
+# Only these lowercase surfaces were reviewed against the existing kanji-ruby
+# correction. Pure text has no ruby spelling from which the generic stranded-
+# letter detector can recover them. Do not broaden this to all auto-corrections
+# (for example, sene must retain its existing pure-mode behavior).
+REVIEWED_PURE_DECOMPOSITIONS = (
+    "ksen/as", "ksen/o", "ksen/oj", "ksen/ojn",
+    "ksen/os", "ksen/u", "ksen/ul/o", "ksen/us",
+)
+
+
+def _is_bundled_pure_path(path):
+    root = Path(__file__).resolve().parent.parent
+    return Path(path).resolve() in (
+        root / "Esperanto-Kanji-Ruby-JA" / "app_data" / "置換リスト_漢字_純粋置換.json",
+        root / "assignment_editions" / "legacy" / "JA" / "pure.json.gz",
+    )
+
+
+def _with_reviewed_pure_corrections(global_rules, local_rules):
+    """Add boundary-only rules, using this edition's existing @ root glyphs.
+
+    The frozen JSON, root assignments and @ rules remain untouched. No bare
+    rule is added or shadowed, so an unreviewed compound cannot be caught by a
+    substring replacement. Longer existing entries keep their precedence;
+    later user/session overlays can still shadow these exact-word rules.
+    """
+    roots = {}
+    for old, new, _ in local_rules:
+        if old in ("ksen", "ul"):
+            if old in roots and roots[old] != new:
+                raise ValueError("Conflicting reviewed pure root: " + old)
+            roots[old] = new
+    if set(roots) != {"ksen", "ul"}:
+        raise ValueError("Reviewed pure correction requires ksen and ul roots")
+
+    corrections = []
+    used = {rule[2].strip() for rule in global_rules}
+    for index, decomp in enumerate(REVIEWED_PURE_DECOMPOSITIONS):
+        word = decomp.replace("/", "")
+        rendered = "".join(roots.get(part, part) for part in decomp.split("/"))
+        token = f"${9120000 + index}$"
+        if token in used:
+            raise ValueError("Reviewed pure placeholder is already in use: " + token)
+        corrections.append((word, [" " + word + " ", " " + rendered + " ", " " + token + " "]))
+
+    # Compute positions against the original ordering, then insert together.
+    # This mirrors the longer-entry precedence used by manual corrections,
+    # without their broad shadowing of any existing bare-word entry.
+    positions = [0] * len(corrections)
+    for index, rule in enumerate(global_rules):
+        candidate = rule[0].strip()
+        for correction_index, (word, _) in enumerate(corrections):
+            if len(candidate) > len(word) and word in candidate:
+                positions[correction_index] = index + 1
+    additions = {}
+    for position, (_, rule) in zip(positions, corrections):
+        additions.setdefault(position, []).append(rule)
+    output = []
+    for index, rule in enumerate(global_rules):
+        output.extend(additions.get(index, ()))
+        output.append(rule)
+    output.extend(additions.get(len(global_rules), ()))
+    return output
+
 
 def checked_edition(edition):
     if edition not in EDITIONS:
@@ -82,7 +146,11 @@ def _load_lists_cached(path, stamp):
     opener = gzip.open if path.endswith(".gz") else open
     with opener(path, "rt", encoding="utf-8") as f:
         payload = json.load(f)
-    return payload.get(GLOBAL, []), payload.get(LOCAL, []), payload.get(TWO, [])
+    global_rules = payload.get(GLOBAL, [])
+    local_rules = payload.get(LOCAL, [])
+    if _is_bundled_pure_path(path):
+        global_rules = _with_reviewed_pure_corrections(global_rules, local_rules)
+    return global_rules, local_rules, payload.get(TWO, [])
 
 
 def load_lists_path(path):

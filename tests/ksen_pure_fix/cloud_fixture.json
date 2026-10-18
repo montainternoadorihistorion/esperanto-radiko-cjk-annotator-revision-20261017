@@ -1,0 +1,272 @@
+{
+  "method": "Actual unmodified engine; each input rendered individually with application overlays and automatic second pass. HTML presentation wrapper whitespace stripped; inverse uses visible base text.",
+  "rows": [
+    {
+      "edition": "current",
+      "forward_language": "JA",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "expected": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene sene semajno semajno testikito testikito orkidita orkidita\n%kseno% kseno ksenologio",
+      "forward_output": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io",
+      "visible": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io",
+      "restored": {
+        "JA": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio",
+        "ZH": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio"
+      },
+      "matches": {
+        "JA": false,
+        "ZH": false
+      },
+      "auto_rows": 0,
+      "rendered": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io",
+      "output_sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d"
+    },
+    {
+      "edition": "current",
+      "forward_language": "JA",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "expected": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene sene semajno semajno testikito testikito orkidita orkidita\n%kseno% kseno ksenologio",
+      "forward_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io",
+      "visible": "外ᴷˢas kseno 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu ksenulo 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n无e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io",
+      "restored": {
+        "JA": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio",
+        "ZH": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio"
+      },
+      "matches": {
+        "JA": false,
+        "ZH": false
+      },
+      "auto_rows": 30,
+      "rendered": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>エスペラント語根分解ルビ注釈テキスト</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io</p></body></html>",
+      "output_sha256": "4296488ae15b616620971df4cf2f3b4095c686d82e36bb0364ed0d4c98a93f98"
+    },
+    {
+      "edition": "legacy",
+      "forward_language": "JA",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "expected": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene sene semajno semajno testikito testikito orkidita orkidita\n%kseno% kseno ksenologio",
+      "forward_output": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io",
+      "visible": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io",
+      "restored": {
+        "JA": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio",
+        "ZH": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio"
+      },
+      "matches": {
+        "JA": false,
+        "ZH": false
+      },
+      "auto_rows": 0,
+      "rendered": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io",
+      "output_sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6"
+    },
+    {
+      "edition": "legacy",
+      "forward_language": "JA",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "expected": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene sene semajno semajno testikito testikito orkidita orkidita\n%kseno% kseno ksenologio",
+      "forward_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io",
+      "visible": "外ᴷˢas kseno 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu ksenulo 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n无e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io",
+      "restored": {
+        "JA": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio",
+        "ZH": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio"
+      },
+      "matches": {
+        "JA": false,
+        "ZH": false
+      },
+      "auto_rows": 30,
+      "rendered": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>エスペラント語根分解ルビ注釈テキスト</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io</p></body></html>",
+      "output_sha256": "2961f18d6eacaeb9a65ae8b1650475992e4846b727cd7cf78c75e635cfd07834"
+    },
+    {
+      "edition": "current",
+      "forward_language": "ZH",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "expected": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene sene semajno semajno testikito testikito orkidita orkidita\n%kseno% kseno ksenologio",
+      "forward_output": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io",
+      "visible": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io",
+      "restored": {
+        "JA": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio",
+        "ZH": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio"
+      },
+      "matches": {
+        "JA": false,
+        "ZH": false
+      },
+      "auto_rows": 0,
+      "rendered": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io",
+      "output_sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d"
+    },
+    {
+      "edition": "current",
+      "forward_language": "ZH",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "expected": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene sene semajno semajno testikito testikito orkidita orkidita\n%kseno% kseno ksenologio",
+      "forward_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io",
+      "visible": "外ᴷˢas kseno 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu ksenulo 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n无e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io",
+      "restored": {
+        "JA": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio",
+        "ZH": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio"
+      },
+      "matches": {
+        "JA": false,
+        "ZH": false
+      },
+      "auto_rows": 30,
+      "rendered": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ruby 显示</title>\n<style>\nhtml, body {\n  -webkit-text-size-adjust: 100%;\n  -moz-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  text-size-adjust: 100%;\n}\n:root {\n  --ruby-color: blue;\n  --ruby-font-size: 0.5em;\n}\nhtml {\n  font-size: 100%;\n}\n.text-M_M {\n  font-size: 1rem!important;\n  font-family: Arial, sans-serif;\n  line-height: 2.0 !important;\n  display: block;\n  position: relative;\n}\nruby {\n  display: inline-flex;\n  flex-direction: column;\n  align-items: center;\n  vertical-align: top !important;\n  line-height: 2.0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  font-size: 1rem !important;\n}\nrt {\n  display: block !important;\n  font-size: var(--ruby-font-size);\n  color: var(--ruby-color);\n  line-height: 1.05;\n  text-align: center;\n}\nrt.XXXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -8.3em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -7.2em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -6.1em !important;\n  transform: translateY(-0em) !important;\n}\nrt.S_S {\n  --ruby-font-size: 0.4em;\n  margin-top: -4.85em !important;\n  transform: translateY(-0em) !important;\n}\nrt.M_M {\n  --ruby-font-size: 0.5em;\n  margin-top: -4.00em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.L_L {\n  --ruby-font-size: 0.6em;\n  margin-top: -3.55em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XL_L {\n  --ruby-font-size: 0.7em;\n  margin-top: -3.20em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XXL_L {\n  --ruby-font-size: 0.8em;\n  margin-top: -2.80em !important;\n  transform: translateY(-0.0em) !important;\n}\n</style>\n</head>\n<body>\n<p class=\"text-M_M\">\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io</p></body></html>",
+      "output_sha256": "2cb1e672328664c0f73cfee728bdf9c6526f5c651109fecb1334554e232b819e"
+    },
+    {
+      "edition": "legacy",
+      "forward_language": "ZH",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "expected": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene sene semajno semajno testikito testikito orkidita orkidita\n%kseno% kseno ksenologio",
+      "forward_output": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io",
+      "visible": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io",
+      "restored": {
+        "JA": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio",
+        "ZH": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio"
+      },
+      "matches": {
+        "JA": false,
+        "ZH": false
+      },
+      "auto_rows": 0,
+      "rendered": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io",
+      "output_sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6"
+    },
+    {
+      "edition": "legacy",
+      "forward_language": "ZH",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "expected": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene sene semajno semajno testikito testikito orkidita orkidita\n%kseno% kseno ksenologio",
+      "forward_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io",
+      "visible": "外ᴷˢas kseno 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu ksenulo 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n无e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io",
+      "restored": {
+        "JA": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio",
+        "ZH": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio"
+      },
+      "matches": {
+        "JA": false,
+        "ZH": false
+      },
+      "auto_rows": 30,
+      "rendered": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ruby 显示</title>\n<style>\nhtml, body {\n  -webkit-text-size-adjust: 100%;\n  -moz-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  text-size-adjust: 100%;\n}\n:root {\n  --ruby-color: blue;\n  --ruby-font-size: 0.5em;\n}\nhtml {\n  font-size: 100%;\n}\n.text-M_M {\n  font-size: 1rem!important;\n  font-family: Arial, sans-serif;\n  line-height: 2.0 !important;\n  display: block;\n  position: relative;\n}\nruby {\n  display: inline-flex;\n  flex-direction: column;\n  align-items: center;\n  vertical-align: top !important;\n  line-height: 2.0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  font-size: 1rem !important;\n}\nrt {\n  display: block !important;\n  font-size: var(--ruby-font-size);\n  color: var(--ruby-color);\n  line-height: 1.05;\n  text-align: center;\n}\nrt.XXXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -8.3em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -7.2em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -6.1em !important;\n  transform: translateY(-0em) !important;\n}\nrt.S_S {\n  --ruby-font-size: 0.4em;\n  margin-top: -4.85em !important;\n  transform: translateY(-0em) !important;\n}\nrt.M_M {\n  --ruby-font-size: 0.5em;\n  margin-top: -4.00em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.L_L {\n  --ruby-font-size: 0.6em;\n  margin-top: -3.55em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XL_L {\n  --ruby-font-size: 0.7em;\n  margin-top: -3.20em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XXL_L {\n  --ruby-font-size: 0.8em;\n  margin-top: -2.80em !important;\n  transform: translateY(-0.0em) !important;\n}\n</style>\n</head>\n<body>\n<p class=\"text-M_M\">\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io</p></body></html>",
+      "output_sha256": "5fe91819e21179b31360977f02548131e5638210293cc7aa9f301a55aea01f98"
+    },
+    {
+      "edition": "current",
+      "forward_language": "KO",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "expected": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene sene semajno semajno testikito testikito orkidita orkidita\n%kseno% kseno ksenologio",
+      "forward_output": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io",
+      "visible": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io",
+      "restored": {
+        "JA": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio",
+        "ZH": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio"
+      },
+      "matches": {
+        "JA": false,
+        "ZH": false
+      },
+      "auto_rows": 0,
+      "rendered": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io",
+      "output_sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d"
+    },
+    {
+      "edition": "current",
+      "forward_language": "KO",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "expected": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene sene semajno semajno testikito testikito orkidita orkidita\n%kseno% kseno ksenologio",
+      "forward_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io",
+      "visible": "外ᴷˢas kseno 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu ksenulo 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n无e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io",
+      "restored": {
+        "JA": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio",
+        "ZH": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio"
+      },
+      "matches": {
+        "JA": false,
+        "ZH": false
+      },
+      "auto_rows": 30,
+      "rendered": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>에스페란토 어근 분해 루비 주석 텍스트</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io</p></body></html>",
+      "output_sha256": "9d83f7a97cdf845094e771ce145b1490b2b18ec5913107a95913b16073fb582d"
+    },
+    {
+      "edition": "legacy",
+      "forward_language": "KO",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "expected": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene sene semajno semajno testikito testikito orkidita orkidita\n%kseno% kseno ksenologio",
+      "forward_output": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io",
+      "visible": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io",
+      "restored": {
+        "JA": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio",
+        "ZH": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio"
+      },
+      "matches": {
+        "JA": false,
+        "ZH": false
+      },
+      "auto_rows": 0,
+      "rendered": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io",
+      "output_sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6"
+    },
+    {
+      "edition": "legacy",
+      "forward_language": "KO",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "expected": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene sene semajno semajno testikito testikito orkidita orkidita\n%kseno% kseno ksenologio",
+      "forward_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io",
+      "visible": "外ᴷˢas kseno 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu ksenulo 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n无e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io",
+      "restored": {
+        "JA": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio",
+        "ZH": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio"
+      },
+      "matches": {
+        "JA": false,
+        "ZH": false
+      },
+      "auto_rows": 30,
+      "rendered": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>에스페란토 어근 분해 루비 주석 텍스트</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io</p></body></html>",
+      "output_sha256": "ba344f691f90bfb9cc4b48c6b4049e29fb980d4de2ee75b8d98dece16270e13b"
+    }
+  ],
+  "reverse_rows": [
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io\n\n外ᴷˢas kseno 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu ksenulo 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n无e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io\n远复ᴷˢo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo",
+      "output": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\n\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\ntelekomplekso testikito orkidito"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io\n\n外ᴷˢas kseno 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu ksenulo 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n无e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io\n远复ᴷˢo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo",
+      "output": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\n\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\ntelekomplekso testikito orkidito"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io\n\n外ᴷˢas kseno 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu ksenulo 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n无e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io\n远复ᴷˢo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo",
+      "output": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\n\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\ntelekomplekso testikito orkidito"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io\n\n外ᴷˢas kseno 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu ksenulo 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n无e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io\n远复ᴷˢo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo",
+      "output": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\n\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\ntelekomplekso testikito orkidito"
+    }
+  ],
+  "note": "Local full-rule expected outputs, not Cloud observations. Existing ambiguous outputs remain expected."
+}

@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "blocking_findings": [],
+  "reviewed_production_files": {
+    "Esperanto-Kanji-Ruby-JA/esp_assignment_edition.py": "c051eefbbe40bff6124e481b1dacc839b01b293c00619967cb30561dc4c387f5",
+    "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py": "c051eefbbe40bff6124e481b1dacc839b01b293c00619967cb30561dc4c387f5",
+    "Esperanto-Kanji-Ruby-KO/esp_assignment_edition.py": "c051eefbbe40bff6124e481b1dacc839b01b293c00619967cb30561dc4c387f5"
+  },
+  "implementation_scope": "Eight lowercase exact surfaces only; pure built-in data loaders only; boundary rules added from existing selected-edition local ksen and ul glyphs; no original global/local/two-character row changes.",
+  "architecture_checks": [
+    "Three helper copies identical; narrow path allowlist excludes custom JSON and kanji/ruby tables.",
+    "All eight surfaces absent as existing exact global rows; larger global entries containing kseno/ksenoj/ksenojn retain their earlier precedence.",
+    "Metadata includes changed helper hash, so saved results are invalidated and downloads require correct current render.",
+    "Raw JSON downloads unchanged by design; as before they do not contain runtime user/manual or automatic corrections. App result-text downloads contain current corrected rendering.",
+    "Protected percent and at-marker regions preserved by unchanged actual renderer; explicit user correction retains priority.",
+    "Reserved new placeholders do not occur in either edition local or two-character data."
+  ],
+  "tests": {
+    "public_root_unittest": {
+      "tests": 36,
+      "skipped": 1,
+      "failures": 0,
+      "seconds": 363.918,
+      "log": "public_root_unittest.log",
+      "note": "Existing baseline-manifest opt-in test skipped; existing overlay file ResourceWarnings, no failures. New ksen test added after discovery start, covered separately by implementation agent."
+    },
+    "inverse_JA_pytest": {
+      "passed": 210,
+      "seconds": 167.4,
+      "log": "inverse_JA_pytest.log"
+    },
+    "inverse_ZH_pytest": {
+      "passed": 210,
+      "seconds": 166.51,
+      "log": "inverse_ZH_pytest.log"
+    },
+    "independent_actual_engine_contexts": {
+      "validated_rows": 276,
+      "failures": 0,
+      "evidence": "context_review.json",
+      "routes": "JA/ZH/KO x current/legacy; before-loader snapshot vs current helper with actual global rules, existing overlays and renderer"
+    }
+  },
+  "test_fixture_correction": "Initial independent expectations assumed ul was 人; source data confirmed existing 者. Underscore is an existing renderer word boundary, so kseno_ksenoj correctly changes both exact words. Expectations corrected; all 276 final outputs explicitly asserted; no production edit required."
+}

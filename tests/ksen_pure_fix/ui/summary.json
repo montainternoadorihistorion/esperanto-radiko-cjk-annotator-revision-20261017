@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "method": "Local Streamlit AppTest in fresh processes per language; not browser or Cloud evidence",
+  "languages": [
+    "JA",
+    "ZH",
+    "KO"
+  ],
+  "exact_forward_forms": 12,
+  "exact_result_download_payloads_and_names": 12,
+  "edition_or_mode_stale_guards": 12,
+  "manual_and_data_download_pages": 12,
+  "manual_session_override_checks": 6,
+  "baseline_corrections_unchanged": true,
+  "report_sha256": {
+    "app_ui_JA.json": "2d441c6e1dde39d64c9969c19c4e746a0d332404925dfa159d8a0c342f648bce",
+    "app_ui_ZH.json": "f2ae3e9912ec3bca4f0aac3b1bb5e01d8b975f7b03d1e3c9727c257917423653",
+    "app_ui_KO.json": "9b412572586569c08c56d0d7979339607186231b6268b29ae33f26d34eac6325"
+  },
+  "script_sha256": "2ffa48d4b5596bad25e5521f39ef5fb6903789dd011d2b889600a34d2e3fb2f3"
+}
