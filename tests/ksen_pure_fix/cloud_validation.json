@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "forward_routes": 12,
+  "inverse_routes": 4,
+  "real_text_downloads": [
+    {
+      "language": "ZH",
+      "edition": "current",
+      "sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d",
+      "bytes": 277
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6",
+      "bytes": 268
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d",
+      "bytes": 277
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6",
+      "bytes": 268
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d",
+      "bytes": 277
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6",
+      "bytes": 268
+    }
+  ],
+  "switch_guards": 3,
+  "scope": "Cloud observations after public main deployment; expected existing ambiguous restorations are preserved. This does not inspect the running Cloud commit."
+}
