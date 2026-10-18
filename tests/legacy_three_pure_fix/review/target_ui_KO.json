@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "language": "KO",
+  "input": "greganta preganta kordonita\n@greganta@ @preganta@ @kordonita@\nsene kseno",
+  "rows": [
+    {
+      "edition": "current",
+      "mode": "pure",
+      "output_sha256": "e049c2cd35809f8b8aa3069bb8933bb6c5a48264c823d888ad372185abba23d9",
+      "download_sha256": "e049c2cd35809f8b8aa3069bb8933bb6c5a48264c823d888ad372185abba23d9",
+      "filename": "치환결과_current_c5fcc2ca540b.txt",
+      "mime": "text/plain"
+    },
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "output_sha256": "d9f6e58bf4425c6ac9a64e30b7571afffdf03915ded7c906c4f5e95751f4552e",
+      "download_sha256": "66fa3b3ea9d9ee0c28f1270525314d01c2ddfd8700e1b82f2f3725af5a55344d",
+      "filename": "치환결과_current_7f500a9f2d9e.html",
+      "mime": "text/html"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "output_sha256": "02dc5e61ca25758886b74815d43dfee99d264338cf9b09168248ddd4373ff237",
+      "download_sha256": "2cf1d3f71ad1a468f03369c060b7bc5a94e14b8507f18a7b309aff24e2c917c6",
+      "filename": "치환결과_current_21a4f909136a.html",
+      "mime": "text/html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "pure",
+      "output_sha256": "c4ca0377eb82d54b56f8a9186017a31248a7cb9bec09d500f77da193e1c4fd61",
+      "download_sha256": "c4ca0377eb82d54b56f8a9186017a31248a7cb9bec09d500f77da193e1c4fd61",
+      "filename": "치환결과_legacy_a39e34d131e8.txt",
+      "mime": "text/plain"
+    },
+    {
+      "edition": "legacy",
+      "mode": "kanji",
+      "output_sha256": "d9f6e58bf4425c6ac9a64e30b7571afffdf03915ded7c906c4f5e95751f4552e",
+      "download_sha256": "24ebf4c4dd21b8e16cac39e2a5b728cd635cbd5fdf5e39faefc3a9ffa0406c6f",
+      "filename": "치환결과_legacy_b22e692e291e.html",
+      "mime": "text/html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "ruby",
+      "output_sha256": "02dc5e61ca25758886b74815d43dfee99d264338cf9b09168248ddd4373ff237",
+      "download_sha256": "e52a8762e2d3a7cac94ae9149a6e077d9251a666512342a15b1f79e182a76b9d",
+      "filename": "치환결과_legacy_f7173b03727d.html",
+      "mime": "text/html"
+    },
+    {
+      "edition": "current",
+      "mode": "pure",
+      "output_sha256": "e049c2cd35809f8b8aa3069bb8933bb6c5a48264c823d888ad372185abba23d9",
+      "download_sha256": "e049c2cd35809f8b8aa3069bb8933bb6c5a48264c823d888ad372185abba23d9",
+      "filename": "치환결과_current_c5fcc2ca540b.txt",
+      "mime": "text/plain"
+    },
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "output_sha256": "d9f6e58bf4425c6ac9a64e30b7571afffdf03915ded7c906c4f5e95751f4552e",
+      "download_sha256": "c7c1b568d558dabc9880c69c4110a8bfa955669277726f783d62c5694806a3d9",
+      "filename": "치환결과_current_7f500a9f2d9e.html",
+      "mime": "text/html"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "output_sha256": "02dc5e61ca25758886b74815d43dfee99d264338cf9b09168248ddd4373ff237",
+      "download_sha256": "148119f0995de3b2b5e6641438ee9a629b34aac6c6e957609dbb111149ea88b5",
+      "filename": "치환결과_current_21a4f909136a.html",
+      "mime": "text/html"
+    }
+  ],
+  "guards": [
+    "current/pure: changed input cannot save previous output",
+    "current/kanji: changed input cannot save previous output",
+    "current/ruby: changed input cannot save previous output",
+    "edition switch invalidated previous result and retained draft: legacy",
+    "legacy/pure: changed input cannot save previous output",
+    "legacy/kanji: changed input cannot save previous output",
+    "legacy/ruby: changed input cannot save previous output",
+    "edition switch invalidated previous result and retained draft: current",
+    "current/pure: changed input cannot save previous output",
+    "current/kanji: changed input cannot save previous output",
+    "current/ruby: changed input cannot save previous output"
+  ],
+  "saved_corrections_unchanged": true,
+  "method": "Local real Streamlit AppTest; download transport captured; no Cloud claim."
+}

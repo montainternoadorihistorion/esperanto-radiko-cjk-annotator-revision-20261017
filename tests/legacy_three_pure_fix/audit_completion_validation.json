@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "date_jst": "2026-10-19",
+  "baseline_commit": "7f24a8ddb1ccea042e5c26a7ac7f19a95e3f2e0b",
+  "production_assets_checked": 185,
+  "unchanged_production_assets": 182,
+  "changed_production_assets": [
+    "Esperanto-Kanji-Ruby-JA/esp_assignment_edition.py",
+    "Esperanto-Kanji-Ruby-KO/esp_assignment_edition.py",
+    "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py"
+  ],
+  "unchanged_canonical_assets": 6,
+  "unique_input_route_pairs": 12951664,
+  "actual_plain_inverse_calls": 25903552,
+  "actual_legacy_pure_forward_inputs": 1618905,
+  "regressions": 0,
+  "improvements": 3,
+  "only_changed_inputs": {
+    "greganta": "群ᴳ在a",
+    "preganta": "压ᴾᴳ在a",
+    "kordonita": "kordonita"
+  },
+  "at_whole_and_root_plus_suffix_unchanged_both_editions": true,
+  "actual_HTML_recovery_calls": 23354,
+  "HTML_documents": 11677,
+  "HTML_failures": 0,
+  "reference_gates": [
+    {
+      "subcorpus": "primary",
+      "inputs": 1618621,
+      "full_rule_reference_cases": 141,
+      "single_input_batch_checks": 21,
+      "summary_sha256": "185a282cfa29a1b5a8fc57a7375408e1cb1e58a4d3d63c8d35f153ed4821fe36"
+    },
+    {
+      "subcorpus": "canonical_addendum",
+      "inputs": 284,
+      "full_rule_reference_cases": 141,
+      "single_input_batch_checks": 21,
+      "summary_sha256": "5fe20ee10fa38fe1138507cc222b2b2b2e1dc4e7b3cc829000ab1ff0f42a08f9"
+    }
+  ],
+  "pure_language_equivalence": "Identical effective lists, stripped manual overlays, reachable engine AST, globals AST, and placeholder bytes for JA/ZH/KO; no automatic overlays occurred in the entire pure rerun.",
+  "capture_reuse": "Current pure and JA/ZH/KO kanji forward outputs reuse complete prior captures after runtime/data/effective-list equality proof. Both actual current plain inverse functions were reexecuted over all 12,951,776 stored rows (12,951,664 unique input-route pairs). HTML recovery reexecuted for every document of the full saved HTML residual corpus, not all plain/visible-surface routes.",
+  "evidence": [
+    {
+      "file": "audit_baseline.json",
+      "sha256": "4d51ad5ca31b1ba67e3085e5a371521589914ceeeb84e3277dae06518aa35f4a"
+    },
+    {
+      "file": "audit_runtime_proof.json",
+      "sha256": "3312314d6ef47e68ef6d3b85500476d0ae5ce03a09b9e9a106a01cfa6d887f70"
+    },
+    {
+      "file": "audit_full_comparison.json",
+      "sha256": "4982f8fc08d92748e11c8847f88588551d3bbf6f34995650477a54771a4ad504"
+    },
+    {
+      "file": "audit_saved_html_validation.json",
+      "sha256": "04e46a6e84377363a0e467fb69334c8913b40f495ccf41c137707f99bdadab8c"
+    },
+    {
+      "file": "audit_actual_forward.py",
+      "sha256": "fe68bd90cc95c194491265869946fae82b2a9dfcbbdce26235e3df6af42a833e"
+    },
+    {
+      "file": "audit_compare_full.py",
+      "sha256": "6008febc737c6710e93a587e605195c2e66c1da1a7d20027e66213cb608dd973"
+    },
+    {
+      "file": "audit_runtime_proof.py",
+      "sha256": "c31216a59ad848b8f6b94f1c74be05c512de4056b655b4097e48cee667ed2332"
+    },
+    {
+      "file": "audit_saved_html.py",
+      "sha256": "d1c7a262a5e13c7138372ac38120a881de9adcd70068093c0f7e48c15735ccba"
+    }
+  ]
+}
