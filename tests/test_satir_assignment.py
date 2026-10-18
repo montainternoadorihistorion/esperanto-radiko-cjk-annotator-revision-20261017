@@ -17,6 +17,7 @@ CONTROLS={**{'krep': '皱布', 'difrakt': '绕射', 'mortez': '卯', 'meger': '�
  'strut':'鸵','sinergi':'协同','oliv':'榄','oval':'椭圆','elips':'椭圆ᴱ','stafilokok':'葡球菌'}
 # Follow the later explicitly adopted sperm-cell assignments in current checks.
 CONTROLS.update({'spermat':'精子','spermati':'精子ˢᴵ','spermatozo':'精子ˢᶻ'})
+CONTROLS.update({'greft':'移植','dot':'妆','tualet':'妆ᵀ'})
 TARGET_WORDS=[form for root in VALUES for base in
  (root+'o',root+'oj',root+'on',root+'ojn',root+'a',root+'aj',root+'ajn',root+'e',
   '@'+root+'@o','@'+root+'o@','@'+root+'@ojn') for form in (base,base.title(),base.upper())]

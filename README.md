@@ -8,6 +8,23 @@
 - [中国語版](https://esperanto-cjk-revision-zh-20261017.streamlit.app/)
 - [韓国語版](https://esperanto-cjk-revision-ko-20261017.streamlit.app/)
 
+## greft・dotの割り当て更新（2026-10-18）
+
+ユーザーの選択により `greft＝移植`、`dot＝妆` を採用しました。3文字の短い `dot` を1字にし、19画から6画へ減らします。`greft` は既存の「移」「植」を共用して24画から23画へ減らします。両変更で現行割り当ての使用漢字を1種類減らせます。
+
+識別子は既存の優先順位規則に従い、`tualet＝妆ᵀ` に更新します。`ŝmink＝妆ˢ̂`、`kosmetik＝妆ᴷ` はそのままです。注釈では `dot` の婚姻財産・資質を与える転義、`greft` の接ぎ木・組織や器官の移植を残します。
+
+```text
+grefti @greft@i doto @dot@o tualeto @tualet@o
+移植i 移植i 妆o 妆o 妆ᵀo 妆ᵀo
+```
+
+旧文書の「妆」は `tualet` を表していました。統合リポジトリの逆変換アプリでは「移植・妆の割当変更前（2026-10-18）」を選ぶことで旧文書の読みを保持します。旧表記「嫁接」「嫁妆」は現行辞書でも復元できます。[採用理由と互換性の説明](tests/dot_greft_decision.md)に記録しています。
+
+ローカル検証では、置換データ全3,519,564行の入力キー・順序・語根境界を比較し、通常・`@`変換3,375ケースと手動補正756ケース、対象外90ケースを確認しました。公開用テスト23件、実StreamlitコードによるAppTestで日中韓の9変換経路・6補助ページ・復帰後6経路が成功しています。[変換比較](tests/dot_greft_regression.json)、[AppTest結果](tests/app_ui_dot_greft.json)に結果を収録しています。
+
+以下の節はそれぞれの改訂時点の実施記録です。
+
 2026年10月17日（日本時間）、実際の Cloud アプリを Chrome で操作し、3言語×3モード、手動補正・データダウンロードの計6ページ、メインページへの復帰後の再変換を確認しました。実行環境は Python **3.12.15** / Streamlit **1.50.0** / pandas **2.3.3**、確認対象のソースは `b4f7cee` です。
 
 中国語 `akuzativ/o` と韓国語 `um` の語義プレビュー、3言語のCSVダウンロードとリポジトリ内データのバイト一致、日本語版でダウンロードした注釈HTMLの本文・ルビも確認しています。[Cloud確認結果](tests/cloud_smoke.json)、[CSV照合結果](tests/cloud_download_verification.json)、[変換結果HTMLの照合結果](tests/cloud_result_download_verification.json)を収録しています。確認範囲は下記の回帰入力と記載した操作経路で、全文コーパスの精度検証や長文・同時アクセスの負荷試験は含みません。

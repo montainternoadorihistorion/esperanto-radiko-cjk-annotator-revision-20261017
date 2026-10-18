@@ -58,6 +58,9 @@ SPERM_ANNOTATION_HASHES = {'Esperanto-Kanji-Ruby-JA/app_data/word_anno.json': ('
 assert set(SPERM_ANNOTATION_HASHES) <= set(NOF_ANNOTATION_HASHES)
 for _r,_v in {'spermatocit': '精子胞ᶜᴵ', 'spermatofit': '精子植ᶠ', 'spermatogenez': '精子源ᴳ'}.items():VALUES[_r]={**VALUES[_r],'after':_v}
 
+# Strict current-byte chain; full non-target proof is test_dot_greft.
+DOT_GREFT_ANNOTATION_HASHES = {'Esperanto-Kanji-Ruby-JA/app_data/word_anno.json': ('f618d16b431e6076f8a3a5c3e2db748acd4a7935b42ec1368be15130cfb3aa00', '7377498c0e03cbc7a2c4847423a35a11174b028e6cad1d4d9eb169233342c5f7'), 'Esperanto-Kanji-Ruby-JA/app_data/エスペラント語根-日本語訳ルビ対応リスト.csv': ('c7a0357f5c778f1bfb331c0b53cff1e8b45e3674b14c973a57353e990e818738', '9ca45ed392676dbc82a4e0a3c415da6aa436a12ce6f661297c6848640eb0812d'), 'Esperanto-Kanji-Ruby-JA/app_data/世界语词根-中文注释对应列表.csv': ('e6c09e35a6b6da19c7caf2e4ae56ddb2c0e39f74b6d17df2e4f329f7d5640c0b', '837ecfed98cbb61c469d1c60d84d339a95286358880c5df93024bb908e804c6a'), 'Esperanto-Kanji-Ruby-JA/app_data/置換リスト_ルビ.json': ('87899aa835f0e2e35884cc6d356947656e403cd3f893530f7ad637af73180879', 'd02fd6ef33ab2da0d59e3e170f152e219d289de39e0bf358e05f6384bc292dca'), 'Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv': ('a45f48c48be3b117dc41ebe0af93bbda29668ceb4a956fc19b7683acbee9d1a6', '015eb5968a673a950c8454a7b316dc6bbd086fec4a4d3963645e9aed77cc05a4'), 'Esperanto-Kanji-Ruby-ZH/app_data/word_anno.json': ('e2f202ff4cdde4e8470999cfb1abce988324066629dc7d69829aa2db9194012b', 'c469442ac632c00ba4d4d14112617a9133d7e13b26ae3b53bc0df59676226a3d'), 'Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-中文注释对应列表.csv': ('ee5a67c89525e32521422b6ed7d9ab81aafb4eaca744e1a00c2db21aa55e59ff', 'f98beb1f6e096936850a479cf10a9563df5b815b4970d5959d356e47a3b83f2c'), 'Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_ルビ.json': ('24dd6b3a866dbf1f6918815cdb6aa3cdb37bc5c5a4a6dd18b0e5421936d7bbb5', 'a20a2d89b4f9f44a7be82a6a18ee94858a74ea205988f49b0e7c05c2c138e4de'), 'Esperanto-Kanji-Ruby-KO/app_data/word_anno.json': ('c0b1fb5915099c14dc9bff98d05212aac16f26669fcbc653bbc578318e357cf9', '544b2998afb59b9da6d907b17afe69a616005a235383dd0473a8038b755e64ef'), 'Esperanto-Kanji-Ruby-KO/app_data/世界语词根-中文注释对应列表.csv': ('e6c09e35a6b6da19c7caf2e4ae56ddb2c0e39f74b6d17df2e4f329f7d5640c0b', '837ecfed98cbb61c469d1c60d84d339a95286358880c5df93024bb908e804c6a'), 'Esperanto-Kanji-Ruby-KO/app_data/置換リスト_ルビ.json': ('e132e8e772c8eddbd5d10e04dad4893f7ca59d35f8bdd5e3e9d2634141307110', '1a5a36d92494308458e40ec41f16c44de8d02d7e6b7eb2c2bfe5ebcd10157e8c'), 'Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv': ('4abae9f5baf529a7131c20d6136724fad276b59b20069c6625b35231ebc74372', '5a868c02499ae7447710dac0d894542aacb2303cec125cc53978d280f5e172ab')}
+
 def neutral(value,phase,context):
     def visit(m):
         root=norm(h.plain(m[2]));display=m[1]
@@ -114,6 +117,10 @@ class MirrorTests(unittest.TestCase):
                         expected = current_expected
                     if rel in SPERM_ANNOTATION_HASHES:
                         prior_expected,current_expected=SPERM_ANNOTATION_HASHES[rel]
+                        self.assertEqual(expected,prior_expected,rel)
+                        expected=current_expected
+                    if rel in DOT_GREFT_ANNOTATION_HASHES:
+                        prior_expected,current_expected=DOT_GREFT_ANNOTATION_HASHES[rel]
                         self.assertEqual(expected,prior_expected,rel)
                         expected=current_expected
                     self.assertEqual(hashlib.sha256((ROOT/rel).read_bytes()).hexdigest(),expected,rel)
