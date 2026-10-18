@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "baseline_commit": "95ff643",
+  "production_changes_in_this_review": false,
+  "scope": "Local independent analysis and production-API verification; no Cloud interaction performed by this audit.",
+  "per_inverse_app": [
+    {
+      "language": "JA",
+      "parser_sha256": "314a3dbbdabef617d032eb6de7035020387c30afb96646ba07c8fa97490d5bec",
+      "counts": {
+        "residual_current": 4668,
+        "residual_legacy": 7009,
+        "prior_generated_export": 12,
+        "archived_cloud_export": 12,
+        "fresh_export": 36,
+        "malformed_rejected": 10
+      },
+      "failures": 0
+    },
+    {
+      "language": "ZH",
+      "parser_sha256": "314a3dbbdabef617d032eb6de7035020387c30afb96646ba07c8fa97490d5bec",
+      "counts": {
+        "residual_current": 4668,
+        "residual_legacy": 7009,
+        "prior_generated_export": 12,
+        "archived_cloud_export": 12,
+        "fresh_export": 36,
+        "malformed_rejected": 10
+      },
+      "failures": 0
+    }
+  ],
+  "preserved_assets": {
+    "existing_files_checked": 247,
+    "changed_existing_paths": [
+      "Esperanto-Reverter-JA/README.md",
+      "Esperanto-Reverter-JA/esperanto_converter.py",
+      "Esperanto-Reverter-ZH/README.md",
+      "Esperanto-Reverter-ZH/esperanto_converter_zh.py"
+    ],
+    "all_forward_runtime_and_assignment_assets_unchanged": true,
+    "all_inverse_dictionary_assets_unchanged": true,
+    "inverse_ast": [
+      {
+        "path": "Esperanto-Reverter-JA/esperanto_converter.py",
+        "changed_existing_definitions": [
+          "main"
+        ],
+        "new_definitions": [
+          "_clear_html_recovery_result",
+          "render_html_recovery"
+        ],
+        "all_existing_core_except_main_unchanged": true,
+        "all_original_top_level_nonimport_nodes_except_main_preserved_in_order": true,
+        "all_original_main_statements_preserved_in_order": true
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/esperanto_converter_zh.py",
+        "changed_existing_definitions": [
+          "main"
+        ],
+        "new_definitions": [
+          "_clear_html_recovery_result",
+          "render_html_recovery"
+        ],
+        "all_existing_core_except_main_unchanged": true,
+        "all_original_top_level_nonimport_nodes_except_main_preserved_in_order": true,
+        "all_original_main_statements_preserved_in_order": true
+      }
+    ]
+  },
+  "independent_review": {
+    "html_structure": "Body paragraph alone; unsupported elements, missing closes, duplicate structural elements and misplaced metadata rejected in targeted probes.",
+    "whitespace": "Fresh exports preserve leading/trailing ordinary spaces, empty lines and final LF; rt layout br joins while body br plus generated LF represents one newline.",
+    "entity_handling": "Escaped literal ruby markup, nested amp strings and numeric reference spellings survive one decode without second interpretation.",
+    "stale_download_static_review": "Input method, source and ruby direction included in identity; input callbacks clear result; identity checked before showing download.",
+    "plain_route": "Existing definitions except main and all original main statements preserved structurally and in order; old dictionary and conversion algorithms unchanged."
+  },
+  "limitations": [
+    "Residual corpus covers JA kanji actual fragments, not arbitrary sentences or all language-specific annotation dictionaries.",
+    "Each inverse module processes 11677 residual fragments and 60 whole export fixtures; these are finite tests, not a guarantee for arbitrary edited HTML.",
+    "The 12 Cloud downloads are historical saved files re-read locally, not a fresh browser run.",
+    "Wrong direction or plausible edited readings may be structurally indistinguishable; the caller must explicitly choose the original ruby format.",
+    "Source spelling prior to circumflex normalization and consumed @/% markers are not restored."
+  ]
+}

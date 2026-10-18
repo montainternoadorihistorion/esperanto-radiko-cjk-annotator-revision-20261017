@@ -724,6 +724,78 @@ def sample_text() -> str:
     )
 
 
+def _clear_html_recovery_result() -> None:
+    st.session_state.pop("html_recovery_result", None)
+
+
+def render_html_recovery() -> None:
+    # This path reads recorded Esperanto, without loading or applying a dictionary.
+    from html_source_recovery import (
+        HtmlRecoveryError, decode_html_upload, recover_standard_html,
+    )
+
+    st.subheader("从标准HTML还原原文")
+    st.caption("读取本项目标准HTML中保留的世界语拼写，不反查汉字，因此无需选择新版或旧版词典。")
+    st.caption("请选择创建HTML时使用的Ruby形式。无法完全自动识别选错的形式。转换时已去除的 @、% 标记和统一前的字符写法不会还原。")
+    st.caption("文件和粘贴输入均支持UTF-8编码10 MiB以内的标准HTML。")
+    direction = st.radio(
+        "创建HTML时使用的Ruby形式", ("kanji", "annotation"),
+        format_func={"kanji": "汉字Ruby（汉字上方为世界语）", "annotation": "注释Ruby（世界语上方为译文）"}.__getitem__,
+        key="html_recovery_direction", on_change=_clear_html_recovery_result,
+    )
+    source_kind = st.radio(
+        "HTML输入方式", ("paste", "upload"),
+        format_func={"paste": "粘贴HTML源码", "upload": "上传HTML文件"}.__getitem__,
+        key="html_recovery_source_kind", on_change=_clear_html_recovery_result,
+        horizontal=True,
+    )
+    source = None
+    if source_kind == "paste":
+        source = st.text_area(
+            "HTML源码", height=280, key="html_recovery_paste",
+            help="请粘贴应用输出的HTML源码，而非浏览器显示的正文。",
+            on_change=_clear_html_recovery_result,
+        )
+    else:
+        uploaded_html = st.file_uploader(
+            "标准HTML文件（UTF-8）", type=["html", "htm"],
+            key="html_recovery_upload", on_change=_clear_html_recovery_result,
+        )
+        if uploaded_html is not None:
+            try:
+                source = decode_html_upload(uploaded_html.getvalue())
+            except HtmlRecoveryError as exc:
+                _clear_html_recovery_result()
+                st.error(f"无法读取HTML文件: {exc}")
+    identity = hashlib.sha256(json.dumps(
+        [source_kind, direction, source], ensure_ascii=False,
+    ).encode("utf-8")).hexdigest()
+    if st.button("从HTML还原", type="primary", disabled=not source,
+                 key="html_recovery_submit"):
+        _clear_html_recovery_result()
+        try:
+            result = recover_standard_html(source, direction)
+            st.session_state["html_recovery_result"] = {**result, "identity": identity}
+        except HtmlRecoveryError as exc:
+            st.error(f"无法还原HTML: {exc}")
+
+    result = st.session_state.get("html_recovery_result")
+    if result and result.get("identity") != identity:
+        _clear_html_recovery_result()
+        result = None
+    if result:
+        edition = result.get("assignment_edition", "unknown")
+        edition_label = {"current": "新版", "legacy": "旧版", "custom_json": "自定义JSON", "unknown": "未知（无版本记录）"}.get(edition, "未知")
+        st.caption(f"HTML记录的版本: {edition_label} ／ 已读取的Ruby: {result['ruby_count']}个")
+        st.text_area("还原的原文", value=result["text"], height=280, disabled=True,
+                     help="保留HTML中记录的大小写和空白。")
+        st.download_button(
+            "下载还原的原文", data=result["text"].encode("utf-8"),
+            file_name=f"esperanto_html_{edition}_{direction}_{identity[:12]}.txt",
+            mime="text/plain", key="html_recovery_download",
+        )
+
+
 def main() -> None:
     st.set_page_config(
         page_title="汉字化世界语 → 字母转换器",
@@ -739,6 +811,16 @@ def main() -> None:
         "[한국어](https://takatakatake.github.io/kanji_assign/index.ko.html)"
     )
     st.markdown("---")
+
+    input_mode = st.radio(
+        "输入形式", ("plain", "html"),
+        format_func={"plain": "逆转换汉字化纯文本", "html": "从标准HTML还原原文"}.__getitem__,
+        key="reverter_input_mode", horizontal=True,
+        on_change=_clear_html_recovery_result,
+    )
+    if input_mode == "html":
+        render_html_recovery()
+        return
 
     source_id, uploaded_file = render_sidebar()
     df = load_selected_dataframe(source_id, uploaded_file)
