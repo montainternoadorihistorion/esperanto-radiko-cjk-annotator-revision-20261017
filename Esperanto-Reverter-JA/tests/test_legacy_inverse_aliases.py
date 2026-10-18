@@ -24,8 +24,8 @@ def effective_index(source, frame=None):
     return app.build_mapping_index_cached(app.effective_mapping_records(source, frame))
 
 
-def result_download(at):
-    return next(item for item in at.get('download_button') if item.proto.label in ('テキストをダウンロード', '📥 下载文本'))
+def result_save_control(at):
+    return at.button(key='plain_prepare_save')
 
 
 def test_reviewed_aliases_and_existing_fixed_keys_are_preserved():
@@ -141,14 +141,18 @@ def test_ui_old_result_stays_old_until_reconverted_and_effective_csv_download_ma
         at.session_state[app.CONVERTED_PROVENANCE_KEY] = old
         at.session_state[app.CONVERTED_TEXT_KEY] = app.convert_kanji_esperanto_to_alphabet(text, app.build_mapping_index(app.load_dictionary_source(OLD)))
         at.run()
-        assert not at.exception and at.warning and result_download(at).proto.disabled
+        assert not at.exception and at.warning and result_save_control(at).proto.disabled
         assert at.session_state[app.CONVERTED_PROVENANCE_KEY] == old
         assert any(old['label'] in caption.value and 'inverse:' not in caption.value for caption in at.caption)
-        assert captures[-1]['file_name'] == old['result_filename'] and captures[-1]['disabled']
+        assert not any(b.proto.label in ('テキストをダウンロード', '📥 下载文本') for b in at.get('download_button'))
         at.button[0].click().run()
-        assert not at.exception and not result_download(at).proto.disabled
+        assert not at.exception and not result_save_control(at).proto.disabled
         assert at.session_state[app.CONVERTED_PROVENANCE_KEY] == meta
         assert at.text_area[1].value == 'testikito orkidito orkidito testikito orkidito'
+        result_save_control(at).click().run()
+        assert not at.exception
+        assert captures[-1]['file_name'] == meta['result_filename']
+        assert captures[-1]['data'].decode('utf-8') == at.text_area(key='result_save_preview').value
 
 
 def test_supplement_revision_and_hash_invalidate_saved_results(tmp_path):
@@ -166,10 +170,10 @@ def test_supplement_revision_and_hash_invalidate_saved_results(tmp_path):
     manifest['revision'] += '-test'
     path.write_text(json.dumps(manifest, ensure_ascii=False), encoding='utf-8')
     at.run()
-    assert not at.exception and at.warning and result_download(at).proto.disabled
+    assert not at.exception and at.warning and result_save_control(at).proto.disabled
     assert at.session_state[app.CONVERTED_PROVENANCE_KEY] == created
     at.button[0].click().run()
-    assert not at.exception and not result_download(at).proto.disabled
+    assert not at.exception and not result_save_control(at).proto.disabled
     after = at.session_state[app.CONVERTED_PROVENANCE_KEY]
     assert after['inverse_compatibility_revision'] == manifest['revision']
     assert after['inverse_compatibility_sha256'] != created['inverse_compatibility_sha256']
@@ -193,4 +197,4 @@ def test_effective_csv_uploaded_as_custom_uses_the_same_ui_result():
         meta = at.session_state[app.CONVERTED_PROVENANCE_KEY]
         assert meta['edition_id'] == 'custom'
         assert 'inverse_compatibility_revision' not in meta
-        assert not result_download(at).proto.disabled
+        assert not result_save_control(at).proto.disabled
