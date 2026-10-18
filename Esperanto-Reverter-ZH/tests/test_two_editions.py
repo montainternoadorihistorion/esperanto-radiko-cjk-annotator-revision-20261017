@@ -79,6 +79,8 @@ def test_revision_change_keeps_old_result_label_until_reconversion(tmp_path):
  created=dict(at.session_state[app.CONVERTED_PROVENANCE_KEY])
  metadata=tmp_path/'data/current_dictionary_source.json';value=json.loads(metadata.read_bytes());value['revision']+='-next-review'
  metadata.write_text(json.dumps(value,ensure_ascii=False),encoding='utf-8')
+ # Simulate a reviewed dictionary revision together with its supplement pin.
+ supplement=tmp_path/'data/current_inverse_aliases.json';pin=json.loads(supplement.read_bytes());pin['dictionary_revision']=value['revision'];supplement.write_text(json.dumps(pin,ensure_ascii=False),encoding='utf-8')
  at.run();assert not at.exception and at.warning and result_download(at).proto.disabled
  assert at.session_state[app.CONVERTED_PROVENANCE_KEY]==created
  assert any(created['label'] in c.value for c in at.caption)

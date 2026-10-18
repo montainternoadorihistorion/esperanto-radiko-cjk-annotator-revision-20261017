@@ -218,6 +218,62 @@ def dataframe_to_mapping_records(df: pd.DataFrame) -> tuple[tuple[str, str, str]
     return tuple(zip(column("esperanto"), column("kanji"), column("priority")))
 
 
+CURRENT_INVERSE_SOURCE_ID = "pejvo-piv-20260620"
+CURRENT_INVERSE_ALIAS_PAIRS = {"兰炎ᵀ": "orkidit"}
+
+
+def load_current_inverse_aliases() -> tuple[dict, str]:
+    """Require a reviewed current dictionary before enabling the single alias."""
+    raw = (ROOT / "data" / "current_inverse_aliases.json").read_bytes()
+    manifest = json.loads(raw)
+    aliases = manifest.get("aliases", [])
+    pairs = {row["kanji"]: row["esperanto"] for row in aliases}
+    if (manifest.get("schema_version") != 1
+            or manifest.get("source_id") != CURRENT_INVERSE_SOURCE_ID
+            or len(aliases) != 1 or pairs != CURRENT_INVERSE_ALIAS_PAIRS
+            or manifest.get("required_canonical_owner") != {"kanji": "丸ᴼ炎ᵀ", "esperanto": "orkidit"}
+            or not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]{0,63}", manifest.get("revision", ""))):
+        raise ValueError("Invalid current inverse alias supplement")
+    metadata = json.loads((ROOT / "data" / "current_dictionary_source.json").read_bytes())
+    actual = hashlib.sha256(DICTIONARY_SOURCES[CURRENT_INVERSE_SOURCE_ID]["path"].read_bytes()).hexdigest()
+    if (actual != manifest.get("current_csv_sha256")
+            or actual != metadata.get("current_csv_sha256")
+            or metadata.get("revision") != manifest.get("dictionary_revision")):
+        raise ValueError("Current inverse supplement requires re-audit: dictionary revision or SHA256 changed")
+    return manifest, hashlib.sha256(raw).hexdigest()
+
+
+def current_inverse_mapping_records(records: tuple[tuple[str, str, str], ...]) -> tuple[tuple[str, str, str], ...]:
+    manifest, _ = load_current_inverse_aliases()
+    owners = {}
+    for root, key, _priority_value in records:
+        owners.setdefault(key.strip(), set()).add(root.strip().lower())
+    owner = manifest["required_canonical_owner"]
+    if owners.get(owner["kanji"]) != {owner["esperanto"]}:
+        raise ValueError("Current inverse supplement requires re-audit: canonical orkidit owner changed")
+    additions = []
+    for row in manifest["aliases"]:
+        key, root = row["kanji"], row["esperanto"]
+        if key in owners:
+            if owners[key] != {root}:
+                raise ValueError(f"Current inverse alias conflicts with an existing root: {key}")
+        else:
+            additions.append((root, key, "0"))
+    return records + tuple(additions)
+
+
+def current_effective_download_data(source_id: str) -> bytes:
+    """Export the current UI records without changing the canonical CSV exports."""
+    if source_id != CURRENT_INVERSE_SOURCE_ID:
+        raise ValueError("The current inverse supplement belongs only to the primary current edition")
+    records = effective_mapping_records(source_id, load_dictionary_source(source_id))
+    output = io.StringIO(newline="")
+    writer = csv.writer(output, lineterminator="\r\n")
+    writer.writerow(("esperanto", "kanji", "priority"))
+    writer.writerows(records)
+    return output.getvalue().encode("utf-8")
+
+
 LEGACY_INVERSE_SOURCE_ID = "pre-las-20261017"
 LEGACY_INVERSE_ALIAS_PAIRS = {
     "丸ᵀ炎ᵀ": "testikit",
@@ -245,8 +301,10 @@ def load_legacy_inverse_aliases() -> tuple[dict, str]:
 
 
 def effective_mapping_records(source_id: str, df: pd.DataFrame) -> tuple[tuple[str, str, str], ...]:
-    """Keep generic loaders intact; supplement only the explicitly selected old edition."""
+    """Keep generic loaders intact; apply only the explicitly selected edition supplement."""
     records = dataframe_to_mapping_records(df)
+    if source_id == CURRENT_INVERSE_SOURCE_ID:
+        return current_inverse_mapping_records(records)
     if source_id != LEGACY_INVERSE_SOURCE_ID:
         return records
     manifest, _ = load_legacy_inverse_aliases()
@@ -413,6 +471,18 @@ def source_provenance(source_id: str, uploaded_file=None) -> dict:
             "result_filename": f"esperanto_{stamp}_{supplement_stamp}.txt",
             "effective_dictionary_filename": f"dictionary_{stamp}_{supplement_stamp}.csv",
         })
+    elif source_id == CURRENT_INVERSE_SOURCE_ID:
+        supplement, supplement_sha = load_current_inverse_aliases()
+        supplement_revision = supplement["revision"]
+        supplement_stamp = f"inverse_{supplement_revision}_{supplement_sha[:12]}"
+        result.update({
+            "inverse_compatibility_revision": supplement_revision,
+            "inverse_compatibility_sha256": supplement_sha,
+            "identity": result["identity"] + f":{supplement_revision}:{supplement_sha}",
+            "label": result["label"] + f" / inverse: {supplement_revision} / {supplement_sha[:12]}",
+            "result_filename": f"esperanto_{stamp}_{supplement_stamp}.txt",
+            "effective_dictionary_filename": f"dictionary_{stamp}_{supplement_stamp}.csv",
+        })
     return result
 
 
@@ -453,6 +523,9 @@ def render_sidebar() -> tuple[str, object | None]:
             if source_id == LEGACY_INVERSE_SOURCE_ID:
                 st.caption("上の2つのCSVは固定旧版の原本で、3件の復元補助を含みません。このアプリと同じ逆変換には、下の補助込みCSVを使えます。")
                 st.download_button("旧版の逆変換辞書（復元補助込み）をダウンロード", legacy_effective_download_data(source_id), file_name=provenance["effective_dictionary_filename"], mime="text/csv")
+            elif source_id == CURRENT_INVERSE_SOURCE_ID:
+                st.caption("上の2つのCSVは新版の正本で、1件の復元補助を含みません。このアプリと同じ逆変換には、下の補助込みCSVを使えます。")
+                st.download_button("新版の逆変換辞書（復元補助込み）をダウンロード", current_effective_download_data(source_id), file_name=provenance["effective_dictionary_filename"], mime="text/csv")
         st.caption("新版・旧版を自動判定しません。変更途中の版で書いた文章や新旧が混在する文章は、この2版だけでは意図どおりに戻らない場合があります。作成時の版情報と文脈を確認してください。")
         st.markdown("1. 文章を作成した版を選びます。\n2. 漢字化エスペラント文を入力します。\n3. 変換し、結果に表示された版・改訂番号を確認します。")
     return source_id, uploaded_file
