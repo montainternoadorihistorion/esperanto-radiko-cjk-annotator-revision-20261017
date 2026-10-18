@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "source_assets_unchanged_through_completion": true,
+  "unique_input_route_pairs": 12951664,
+  "actual_inverse_calls": 25903552,
+  "actual_pure_forward_inputs": 3237944,
+  "regressions": 0,
+  "improvements": 16,
+  "changes_are_exact_approved_eight_lowercase_surfaces_per_edition": true,
+  "sene_pure_roundtrip_preserved_both_editions": true,
+  "at_whole_and_root_plus_suffix_outputs_unchanged": true,
+  "pure_language_equivalence": "Proven for JA/ZH/KO by equal lists, stripped overlays, reachable engine AST, global AST, placeholder bytes, and zero automatic overlays in all pure inputs.",
+  "kanji_routes": "Forward capture reuse justified by complete runtime/data/list equality; both real inverse functions rerun over every captured input.",
+  "full_rule_reference_gates": [
+    {
+      "edition": "current",
+      "subcorpus": "primary",
+      "inputs": 1618897,
+      "full_rule_reference_cases": 141,
+      "single_input_batch_checks": 21,
+      "summary_sha256": "c1e49aa3acba0b7a51dceb11c193259ec320ee38422a927c3d33c2dae1126a68"
+    },
+    {
+      "edition": "current",
+      "subcorpus": "canonical_addendum",
+      "inputs": 142,
+      "full_rule_reference_cases": 141,
+      "single_input_batch_checks": 21,
+      "summary_sha256": "655cb6d91acf73296dae37c88996cc10cc69c0d6a4e7b679912a18964c12c0b1"
+    },
+    {
+      "edition": "legacy",
+      "subcorpus": "primary",
+      "inputs": 1618621,
+      "full_rule_reference_cases": 141,
+      "single_input_batch_checks": 21,
+      "summary_sha256": "c20507feb85de3ec98c5539b24f6c9493a27dbe901b1e619d29df3f77220c120"
+    },
+    {
+      "edition": "legacy",
+      "subcorpus": "canonical_addendum",
+      "inputs": 284,
+      "full_rule_reference_cases": 141,
+      "single_input_batch_checks": 21,
+      "summary_sha256": "a7ddf1b65f193be4fe943548cb9a448559f31918d72b37f70d44b30f9417a78f"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "private-audit/audit_baseline.json",
+      "sha256": "6c365823c6d69c98c55a91aa53e6f9c80c47aff7c3a975cfd74693bddd891ca4"
+    },
+    {
+      "path": "private-audit/audit_runtime_proof.json",
+      "sha256": "a6c76ecd485bc8613a926aa1a8d600e7f0ada8cd813ce6ec37f3ddcefdee5c40"
+    },
+    {
+      "path": "private-audit/audit_full_comparison.json",
+      "sha256": "c0058bfb3d6395648fefb8111fd77433fdb66b9118c5fb091975097850d6f3d5"
+    },
+    {
+      "path": "private-audit/audit_actual_forward.py",
+      "sha256": "fe68bd90cc95c194491265869946fae82b2a9dfcbbdce26235e3df6af42a833e"
+    },
+    {
+      "path": "private-audit/audit_compare_full.py",
+      "sha256": "25f7c14c562b087c283ce70fd45406a759109e5c5b2f8e4720f88b64a10dfe63"
+    },
+    {
+      "path": "private-audit/audit_runtime_proof.py",
+      "sha256": "1ef5f949ef27e993458a4f5cd832e0c2106a62f5134816096821f89ed2af6095"
+    },
+    {
+      "path": "prior-full-audit/current/runtime_accelerator.py",
+      "sha256": "4a4ea22795303e9981598d31e8a913bfdba65cdc71507e488a5982f000437065"
+    },
+    {
+      "path": "prior-full-audit/legacy/local_accelerator.py",
+      "sha256": "0259ac8eb728bdf82a74093829b827fbc66adfb6c643bc68e2ceb0539a919614"
+    }
+  ]
+}

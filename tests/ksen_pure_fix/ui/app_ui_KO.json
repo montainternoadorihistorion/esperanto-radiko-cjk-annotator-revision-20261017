@@ -1,0 +1,211 @@
+{
+  "passed": true,
+  "language": "KO",
+  "method": "Local Streamlit AppTest; no browser or Cloud",
+  "forms": [
+    {
+      "edition": "current",
+      "mode": "pure",
+      "output_sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d",
+      "output_matches_fixture": true,
+      "metadata": {
+        "schema_version": 1,
+        "edition_id": "current",
+        "requested_edition": "current",
+        "source_id": "current",
+        "edition_label": "신판（갱신 중）",
+        "signature": "20c27ea6cb6207d64dd5b9477eb41b60d9018c1d104226173901fde93cdf4a4f",
+        "assignment_signature": "64d830781b37399710c2e4dc91d4bff01e77e70e90a8e29ad0bab716f02e8d34",
+        "corrections_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "custom_json_sha256": null,
+        "render_options": {
+          "mode": "✂️ 한자화·순수 치환（태그 없는 텍스트）",
+          "format": "替换后文字列のみ(仅)保留(简单替换)",
+          "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (표준)"
+        },
+        "automatic_correction": "selected_edition",
+        "created_utc": "2026-10-18T11:54:32.863205+00:00"
+      },
+      "download": {
+        "label": "치환 결과 다운로드(편집 반영)",
+        "name": "치환결과_current_20c27ea6cb62.txt",
+        "sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d",
+        "size": 277
+      }
+    },
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "output_sha256": "9d83f7a97cdf845094e771ce145b1490b2b18ec5913107a95913b16073fb582d",
+      "output_matches_fixture": true,
+      "metadata": {
+        "schema_version": 1,
+        "edition_id": "current",
+        "requested_edition": "current",
+        "source_id": "current",
+        "edition_label": "신판（갱신 중）",
+        "signature": "d3859186aa75b37b8919514759c655facc6bfe6b1d74b7cd87b24c0cb6c27791",
+        "assignment_signature": "64d830781b37399710c2e4dc91d4bff01e77e70e90a8e29ad0bab716f02e8d34",
+        "corrections_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "custom_json_sha256": null,
+        "render_options": {
+          "mode": "🈶 한자화（한자＋어근 루비）",
+          "format": "HTML格式_Ruby文字_大小调整_汉字替换",
+          "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (표준)"
+        },
+        "automatic_correction": "selected_edition",
+        "created_utc": "2026-10-18T11:54:41.416608+00:00"
+      },
+      "download": {
+        "label": "치환 결과 다운로드(편집 반영)",
+        "name": "치환결과_current_d3859186aa75.html",
+        "sha256": "e1bce19557c578bf4d790fc54aa166bc877aed802efe350e6b488f83a7fb3701",
+        "size": 4529
+      }
+    },
+    {
+      "edition": "legacy",
+      "mode": "pure",
+      "output_sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6",
+      "output_matches_fixture": true,
+      "metadata": {
+        "schema_version": 1,
+        "edition_id": "legacy",
+        "requested_edition": "legacy",
+        "source_id": "legacy",
+        "edition_label": "구판（고정）",
+        "signature": "847ac8d9d620923b8841ad4cf3b86c62c7a71c670224825f56b8d25317ec8274",
+        "assignment_signature": "5e2d72927bf2f1b74cf4cc1a40af8a1c0c716a7aa2ab905e5aeaae84e0d24e13",
+        "corrections_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "custom_json_sha256": null,
+        "render_options": {
+          "mode": "✂️ 한자화·순수 치환（태그 없는 텍스트）",
+          "format": "替换后文字列のみ(仅)保留(简单替换)",
+          "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (표준)"
+        },
+        "automatic_correction": "selected_edition",
+        "created_utc": "2026-10-18T11:54:50.763534+00:00"
+      },
+      "download": {
+        "label": "치환 결과 다운로드(편집 반영)",
+        "name": "치환결과_legacy_847ac8d9d620.txt",
+        "sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6",
+        "size": 268
+      }
+    },
+    {
+      "edition": "legacy",
+      "mode": "kanji",
+      "output_sha256": "ba344f691f90bfb9cc4b48c6b4049e29fb980d4de2ee75b8d98dece16270e13b",
+      "output_matches_fixture": true,
+      "metadata": {
+        "schema_version": 1,
+        "edition_id": "legacy",
+        "requested_edition": "legacy",
+        "source_id": "legacy",
+        "edition_label": "구판（고정）",
+        "signature": "9e0dc2b1368ed91832a03f838857b941f9374ff962f4fe7a563d1077dc96241b",
+        "assignment_signature": "5e2d72927bf2f1b74cf4cc1a40af8a1c0c716a7aa2ab905e5aeaae84e0d24e13",
+        "corrections_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "custom_json_sha256": null,
+        "render_options": {
+          "mode": "🈶 한자화（한자＋어근 루비）",
+          "format": "HTML格式_Ruby文字_大小调整_汉字替换",
+          "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (표준)"
+        },
+        "automatic_correction": "selected_edition",
+        "created_utc": "2026-10-18T11:54:57.807087+00:00"
+      },
+      "download": {
+        "label": "치환 결과 다운로드(편집 반영)",
+        "name": "치환결과_legacy_9e0dc2b1368e.html",
+        "sha256": "0d380fe49cc4c0636750b3936942a729ca6e6029d07da51d1e9f1b93cfc7cfe5",
+        "size": 4516
+      }
+    }
+  ],
+  "stale_guards": [
+    {
+      "reason": "mode switch",
+      "selected_edition": "current",
+      "selected_mode": "kanji",
+      "editor_hidden": true,
+      "download_absent": true
+    },
+    {
+      "reason": "edition switch",
+      "previous": "current",
+      "selected": "legacy",
+      "editor_hidden": true,
+      "download_absent": true
+    },
+    {
+      "reason": "mode switch",
+      "selected_edition": "legacy",
+      "selected_mode": "pure",
+      "editor_hidden": true,
+      "download_absent": true
+    },
+    {
+      "reason": "mode switch",
+      "selected_edition": "legacy",
+      "selected_mode": "kanji",
+      "editor_hidden": true,
+      "download_absent": true
+    }
+  ],
+  "pages": [
+    {
+      "edition": "current",
+      "page": "manual",
+      "selected_edition_kept": true,
+      "existing_ksen_ul_glyphs": true
+    },
+    {
+      "edition": "current",
+      "page": "download",
+      "selected_edition_kept": true,
+      "csv_download": {
+        "label": "한자 배정 CSV",
+        "name": "kanji_assignments_current_2d313fe25f42.csv",
+        "sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede",
+        "size": 161686
+      },
+      "selected_pure_link_matches": true
+    },
+    {
+      "edition": "legacy",
+      "page": "manual",
+      "selected_edition_kept": true,
+      "existing_ksen_ul_glyphs": true
+    },
+    {
+      "edition": "legacy",
+      "page": "download",
+      "selected_edition_kept": true,
+      "csv_download": {
+        "label": "한자 배정 CSV",
+        "name": "kanji_assignments_legacy_9ced4a78190e.csv",
+        "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+        "size": 152831
+      },
+      "selected_pure_link_matches": true
+    }
+  ],
+  "manual_session_checks": [
+    {
+      "edition": "current",
+      "output": "k无o 外ᴷˢo kseno s内e",
+      "session_override_wins": true,
+      "at_percent_sene_preserved": true
+    },
+    {
+      "edition": "legacy",
+      "output": "k无o 外ᴷˢo kseno s内e",
+      "session_override_wins": true,
+      "at_percent_sene_preserved": true
+    }
+  ],
+  "baseline_corrections_unchanged": true,
+  "fixture_sha256": "c7c5290e28280c5202b9585c46e833b5a3504f672847098a85863fbcc59cc7eb"
+}

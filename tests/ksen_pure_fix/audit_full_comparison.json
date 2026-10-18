@@ -1,0 +1,2139 @@
+{
+  "passed": true,
+  "baseline_commit": "d6d1446783eb62ab7edb398b12deb3b52f96f5b5",
+  "runtime_proof_sha256": "a6c76ecd485bc8613a926aa1a8d600e7f0ada8cd813ce6ec37f3ddcefdee5c40",
+  "routes": [
+    {
+      "edition": "current",
+      "language": "JA",
+      "mode": "pure",
+      "saved_rows": 1619039,
+      "unique_inputs": 1619027,
+      "counts": {
+        "total": 1619027,
+        "before_match": 1614352,
+        "after_match": 1614360,
+        "before_mismatch": 4675,
+        "after_mismatch": 4667,
+        "improved": 8,
+        "regressed": 0,
+        "forward_changed": 8,
+        "inverse_changed": 8,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688982,
+          "before_match": 685750,
+          "after_match": 685758,
+          "before_mismatch": 3232,
+          "after_mismatch": 3224,
+          "improved": 8,
+          "regressed": 0,
+          "forward_changed": 8,
+          "inverse_changed": 8,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688982,
+          "before_match": 687686,
+          "after_match": 687686,
+          "before_mismatch": 1296,
+          "after_mismatch": 1296,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241063,
+          "before_match": 240916,
+          "after_match": 240916,
+          "before_mismatch": 147,
+          "after_mismatch": 147,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [
+        {
+          "origin": "primary",
+          "id": 372983,
+          "input": "kseno",
+          "expected": "kseno",
+          "before_output": "k无o",
+          "after_output": "外ᴷˢo",
+          "before_inverse": [
+            "knenio",
+            "knenio"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 372986,
+          "input": "ksenoj",
+          "expected": "ksenoj",
+          "before_output": "k无oj",
+          "after_output": "外ᴷˢoj",
+          "before_inverse": [
+            "knenioj",
+            "knenioj"
+          ],
+          "after_inverse": [
+            "ksenoj",
+            "ksenoj"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 372992,
+          "input": "ksenojn",
+          "expected": "ksenojn",
+          "before_output": "k无ojn",
+          "after_output": "外ᴷˢojn",
+          "before_inverse": [
+            "kneniojn",
+            "kneniojn"
+          ],
+          "after_inverse": [
+            "ksenojn",
+            "ksenojn"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 373013,
+          "input": "ksenas",
+          "expected": "ksenas",
+          "before_output": "k无as",
+          "after_output": "外ᴷˢas",
+          "before_inverse": [
+            "knenias",
+            "knenias"
+          ],
+          "after_inverse": [
+            "ksenas",
+            "ksenas"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 373019,
+          "input": "ksenos",
+          "expected": "ksenos",
+          "before_output": "k无os",
+          "after_output": "外ᴷˢos",
+          "before_inverse": [
+            "knenios",
+            "knenios"
+          ],
+          "after_inverse": [
+            "ksenos",
+            "ksenos"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 373022,
+          "input": "ksenus",
+          "expected": "ksenus",
+          "before_output": "k无us",
+          "after_output": "外ᴷˢus",
+          "before_inverse": [
+            "knenius",
+            "knenius"
+          ],
+          "after_inverse": [
+            "ksenus",
+            "ksenus"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 373025,
+          "input": "ksenu",
+          "expected": "ksenu",
+          "before_output": "k无u",
+          "after_output": "外ᴷˢu",
+          "before_inverse": [
+            "kneniu",
+            "kneniu"
+          ],
+          "after_inverse": [
+            "ksenu",
+            "ksenu"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 373046,
+          "input": "ksenulo",
+          "expected": "ksenulo",
+          "before_output": "k无ulo",
+          "after_output": "外ᴷˢ者o",
+          "before_inverse": [
+            "kneniulo",
+            "kneniulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "duplicate": false
+        }
+      ],
+      "controls": [
+        {
+          "input": "orkidita",
+          "forward_before": "兰炎ᵀa",
+          "forward_after": "兰炎ᵀa",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "forward_before": "丸ᴼ炎ᵀa",
+          "forward_after": "丸ᴼ炎ᵀa",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "forward_before": "丸ᴼ炎ᵀa",
+          "forward_after": "丸ᴼ炎ᵀa",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "semajno",
+          "forward_before": "周o",
+          "forward_after": "周o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "forward_before": "周o",
+          "forward_after": "周o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "forward_before": "周o",
+          "forward_after": "周o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "forward_before": "s内e",
+          "forward_after": "s内e",
+          "inverse_before": [
+            "sene",
+            "sene"
+          ],
+          "inverse_after": [
+            "sene",
+            "sene"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "forward_before": "无e",
+          "forward_after": "无e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "forward_before": "无e",
+          "forward_after": "无e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "forward_before": "丸ᵀ炎ᵀo",
+          "forward_after": "丸ᵀ炎ᵀo",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "forward_before": "丸ᵀ炎ᵀo",
+          "forward_after": "丸ᵀ炎ᵀo",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "forward_before": "丸ᵀ炎ᵀo",
+          "forward_after": "丸ᵀ炎ᵀo",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        }
+      ],
+      "ksen_containing_rows": null,
+      "method": "Every pure input actually rerendered with unchanged production interpreter and conservative rule selection; both real inverse functions executed. Kanji forward captures reused only after equality proof of lists, engine, overlays and auxiliary data; both real inverse functions reexecuted for every capture."
+    },
+    {
+      "edition": "current",
+      "language": "JA",
+      "mode": "kanji",
+      "saved_rows": 1619039,
+      "unique_inputs": 1619027,
+      "counts": {
+        "total": 1619027,
+        "before_match": 1614359,
+        "after_match": 1614359,
+        "before_mismatch": 4668,
+        "after_mismatch": 4668,
+        "improved": 0,
+        "regressed": 0,
+        "forward_changed": 0,
+        "inverse_changed": 0,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688982,
+          "before_match": 685757,
+          "after_match": 685757,
+          "before_mismatch": 3225,
+          "after_mismatch": 3225,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688982,
+          "before_match": 687686,
+          "after_match": 687686,
+          "before_mismatch": 1296,
+          "after_mismatch": 1296,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241063,
+          "before_match": 240916,
+          "after_match": 240916,
+          "before_mismatch": 147,
+          "after_mismatch": 147,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [],
+      "controls": [
+        {
+          "input": "orkidita",
+          "forward_before": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "forward_after": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "forward_before": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "forward_after": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "forward_before": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "forward_after": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "semajno",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "forward_before": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "forward_after": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "forward_before": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "forward_after": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "forward_before": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "forward_after": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        }
+      ],
+      "ksen_containing_rows": null,
+      "method": "Every pure input actually rerendered with unchanged production interpreter and conservative rule selection; both real inverse functions executed. Kanji forward captures reused only after equality proof of lists, engine, overlays and auxiliary data; both real inverse functions reexecuted for every capture."
+    },
+    {
+      "edition": "current",
+      "language": "ZH",
+      "mode": "kanji",
+      "saved_rows": 1619039,
+      "unique_inputs": 1619027,
+      "counts": {
+        "total": 1619027,
+        "before_match": 1614359,
+        "after_match": 1614359,
+        "before_mismatch": 4668,
+        "after_mismatch": 4668,
+        "improved": 0,
+        "regressed": 0,
+        "forward_changed": 0,
+        "inverse_changed": 0,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688982,
+          "before_match": 685757,
+          "after_match": 685757,
+          "before_mismatch": 3225,
+          "after_mismatch": 3225,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688982,
+          "before_match": 687686,
+          "after_match": 687686,
+          "before_mismatch": 1296,
+          "after_mismatch": 1296,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241063,
+          "before_match": 240916,
+          "after_match": 240916,
+          "before_mismatch": 147,
+          "after_mismatch": 147,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [],
+      "controls": [
+        {
+          "input": "orkidita",
+          "forward_before": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "forward_after": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "forward_before": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "forward_after": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "forward_before": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "forward_after": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "semajno",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "forward_before": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "forward_after": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "forward_before": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "forward_after": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "forward_before": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "forward_after": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        }
+      ],
+      "ksen_containing_rows": null,
+      "method": "Every pure input actually rerendered with unchanged production interpreter and conservative rule selection; both real inverse functions executed. Kanji forward captures reused only after equality proof of lists, engine, overlays and auxiliary data; both real inverse functions reexecuted for every capture."
+    },
+    {
+      "edition": "current",
+      "language": "KO",
+      "mode": "kanji",
+      "saved_rows": 1619039,
+      "unique_inputs": 1619027,
+      "counts": {
+        "total": 1619027,
+        "before_match": 1614359,
+        "after_match": 1614359,
+        "before_mismatch": 4668,
+        "after_mismatch": 4668,
+        "improved": 0,
+        "regressed": 0,
+        "forward_changed": 0,
+        "inverse_changed": 0,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688982,
+          "before_match": 685757,
+          "after_match": 685757,
+          "before_mismatch": 3225,
+          "after_mismatch": 3225,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688982,
+          "before_match": 687686,
+          "after_match": 687686,
+          "before_mismatch": 1296,
+          "after_mismatch": 1296,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241063,
+          "before_match": 240916,
+          "after_match": 240916,
+          "before_mismatch": 147,
+          "after_mismatch": 147,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [],
+      "controls": [
+        {
+          "input": "orkidita",
+          "forward_before": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "forward_after": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "forward_before": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "forward_after": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "forward_before": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "forward_after": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "semajno",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "forward_before": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "forward_after": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "forward_before": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "forward_after": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "forward_before": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "forward_after": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        }
+      ],
+      "ksen_containing_rows": null,
+      "method": "Every pure input actually rerendered with unchanged production interpreter and conservative rule selection; both real inverse functions executed. Kanji forward captures reused only after equality proof of lists, engine, overlays and auxiliary data; both real inverse functions reexecuted for every capture."
+    },
+    {
+      "edition": "legacy",
+      "language": "JA",
+      "mode": "pure",
+      "saved_rows": 1618905,
+      "unique_inputs": 1618889,
+      "counts": {
+        "total": 1618889,
+        "before_match": 1611870,
+        "after_match": 1611878,
+        "before_mismatch": 7019,
+        "after_mismatch": 7011,
+        "improved": 8,
+        "regressed": 0,
+        "forward_changed": 8,
+        "inverse_changed": 8,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688936,
+          "before_match": 683938,
+          "after_match": 683946,
+          "before_mismatch": 4998,
+          "after_mismatch": 4990,
+          "improved": 8,
+          "regressed": 0,
+          "forward_changed": 8,
+          "inverse_changed": 8,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688936,
+          "before_match": 687071,
+          "after_match": 687071,
+          "before_mismatch": 1865,
+          "after_mismatch": 1865,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241017,
+          "before_match": 240861,
+          "after_match": 240861,
+          "before_mismatch": 156,
+          "after_mismatch": 156,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [
+        {
+          "origin": "primary",
+          "id": 372914,
+          "input": "kseno",
+          "expected": "kseno",
+          "before_output": "k无o",
+          "after_output": "外ᴷˢo",
+          "before_inverse": [
+            "knenio",
+            "knenio"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 372917,
+          "input": "ksenoj",
+          "expected": "ksenoj",
+          "before_output": "k无oj",
+          "after_output": "外ᴷˢoj",
+          "before_inverse": [
+            "knenioj",
+            "knenioj"
+          ],
+          "after_inverse": [
+            "ksenoj",
+            "ksenoj"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 372923,
+          "input": "ksenojn",
+          "expected": "ksenojn",
+          "before_output": "k无ojn",
+          "after_output": "外ᴷˢojn",
+          "before_inverse": [
+            "kneniojn",
+            "kneniojn"
+          ],
+          "after_inverse": [
+            "ksenojn",
+            "ksenojn"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 372944,
+          "input": "ksenas",
+          "expected": "ksenas",
+          "before_output": "k无as",
+          "after_output": "外ᴷˢas",
+          "before_inverse": [
+            "knenias",
+            "knenias"
+          ],
+          "after_inverse": [
+            "ksenas",
+            "ksenas"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 372950,
+          "input": "ksenos",
+          "expected": "ksenos",
+          "before_output": "k无os",
+          "after_output": "外ᴷˢos",
+          "before_inverse": [
+            "knenios",
+            "knenios"
+          ],
+          "after_inverse": [
+            "ksenos",
+            "ksenos"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 372953,
+          "input": "ksenus",
+          "expected": "ksenus",
+          "before_output": "k无us",
+          "after_output": "外ᴷˢus",
+          "before_inverse": [
+            "knenius",
+            "knenius"
+          ],
+          "after_inverse": [
+            "ksenus",
+            "ksenus"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 372956,
+          "input": "ksenu",
+          "expected": "ksenu",
+          "before_output": "k无u",
+          "after_output": "外ᴷˢu",
+          "before_inverse": [
+            "kneniu",
+            "kneniu"
+          ],
+          "after_inverse": [
+            "ksenu",
+            "ksenu"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 372977,
+          "input": "ksenulo",
+          "expected": "ksenulo",
+          "before_output": "k无ulo",
+          "after_output": "外ᴷˢ者o",
+          "before_inverse": [
+            "kneniulo",
+            "kneniulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "duplicate": false
+        }
+      ],
+      "controls": [
+        {
+          "input": "orkidita",
+          "forward_before": "兰炎ᵀa",
+          "forward_after": "兰炎ᵀa",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "forward_before": "丸炎a",
+          "forward_after": "丸炎a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "forward_before": "丸炎a",
+          "forward_after": "丸炎a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "semajno",
+          "forward_before": "周o",
+          "forward_after": "周o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "forward_before": "周o",
+          "forward_after": "周o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "forward_before": "周o",
+          "forward_after": "周o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "forward_before": "s内e",
+          "forward_after": "s内e",
+          "inverse_before": [
+            "sene",
+            "sene"
+          ],
+          "inverse_after": [
+            "sene",
+            "sene"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "forward_before": "无e",
+          "forward_after": "无e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "forward_before": "无e",
+          "forward_after": "无e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "forward_before": "丸ᵀ炎ᵀo",
+          "forward_after": "丸ᵀ炎ᵀo",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "forward_before": "丸炎ᵀo",
+          "forward_after": "丸炎ᵀo",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "forward_before": "丸炎ᵀo",
+          "forward_after": "丸炎ᵀo",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        }
+      ],
+      "ksen_containing_rows": null,
+      "method": "Every pure input actually rerendered with unchanged production interpreter and conservative rule selection; both real inverse functions executed. Kanji forward captures reused only after equality proof of lists, engine, overlays and auxiliary data; both real inverse functions reexecuted for every capture."
+    },
+    {
+      "edition": "legacy",
+      "language": "JA",
+      "mode": "kanji",
+      "saved_rows": 1618905,
+      "unique_inputs": 1618889,
+      "counts": {
+        "total": 1618889,
+        "before_match": 1611880,
+        "after_match": 1611880,
+        "before_mismatch": 7009,
+        "after_mismatch": 7009,
+        "improved": 0,
+        "regressed": 0,
+        "forward_changed": 0,
+        "inverse_changed": 0,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688936,
+          "before_match": 683948,
+          "after_match": 683948,
+          "before_mismatch": 4988,
+          "after_mismatch": 4988,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688936,
+          "before_match": 687071,
+          "after_match": 687071,
+          "before_mismatch": 1865,
+          "after_mismatch": 1865,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241017,
+          "before_match": 240861,
+          "after_match": 240861,
+          "before_mismatch": 156,
+          "after_mismatch": 156,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [],
+      "controls": [
+        {
+          "input": "orkidita",
+          "forward_before": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "forward_after": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "forward_before": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "forward_after": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "forward_before": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "forward_after": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "semajno",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "forward_before": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "forward_after": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "forward_before": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "forward_after": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "forward_before": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "forward_after": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        }
+      ],
+      "ksen_containing_rows": null,
+      "method": "Every pure input actually rerendered with unchanged production interpreter and conservative rule selection; both real inverse functions executed. Kanji forward captures reused only after equality proof of lists, engine, overlays and auxiliary data; both real inverse functions reexecuted for every capture."
+    },
+    {
+      "edition": "legacy",
+      "language": "ZH",
+      "mode": "kanji",
+      "saved_rows": 1618905,
+      "unique_inputs": 1618889,
+      "counts": {
+        "total": 1618889,
+        "before_match": 1611880,
+        "after_match": 1611880,
+        "before_mismatch": 7009,
+        "after_mismatch": 7009,
+        "improved": 0,
+        "regressed": 0,
+        "forward_changed": 0,
+        "inverse_changed": 0,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688936,
+          "before_match": 683948,
+          "after_match": 683948,
+          "before_mismatch": 4988,
+          "after_mismatch": 4988,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688936,
+          "before_match": 687071,
+          "after_match": 687071,
+          "before_mismatch": 1865,
+          "after_mismatch": 1865,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241017,
+          "before_match": 240861,
+          "after_match": 240861,
+          "before_mismatch": 156,
+          "after_mismatch": 156,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [],
+      "controls": [
+        {
+          "input": "orkidita",
+          "forward_before": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "forward_after": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "forward_before": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "forward_after": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "forward_before": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "forward_after": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "semajno",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "forward_before": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "forward_after": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "forward_before": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "forward_after": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "forward_before": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "forward_after": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        }
+      ],
+      "ksen_containing_rows": null,
+      "method": "Every pure input actually rerendered with unchanged production interpreter and conservative rule selection; both real inverse functions executed. Kanji forward captures reused only after equality proof of lists, engine, overlays and auxiliary data; both real inverse functions reexecuted for every capture."
+    },
+    {
+      "edition": "legacy",
+      "language": "KO",
+      "mode": "kanji",
+      "saved_rows": 1618905,
+      "unique_inputs": 1618889,
+      "counts": {
+        "total": 1618889,
+        "before_match": 1611880,
+        "after_match": 1611880,
+        "before_mismatch": 7009,
+        "after_mismatch": 7009,
+        "improved": 0,
+        "regressed": 0,
+        "forward_changed": 0,
+        "inverse_changed": 0,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688936,
+          "before_match": 683948,
+          "after_match": 683948,
+          "before_mismatch": 4988,
+          "after_mismatch": 4988,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688936,
+          "before_match": 687071,
+          "after_match": 687071,
+          "before_mismatch": 1865,
+          "after_mismatch": 1865,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241017,
+          "before_match": 240861,
+          "after_match": 240861,
+          "before_mismatch": 156,
+          "after_mismatch": 156,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [],
+      "controls": [
+        {
+          "input": "orkidita",
+          "forward_before": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "forward_after": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "forward_before": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "forward_after": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "forward_before": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "forward_after": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "inverse_before": [
+            "orkidita",
+            "orkidita"
+          ],
+          "inverse_after": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "semajno",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "forward_before": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "forward_after": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "inverse_before": [
+            "semajno",
+            "semajno"
+          ],
+          "inverse_after": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "forward_before": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "forward_after": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "inverse_before": [
+            "nenie",
+            "nenie"
+          ],
+          "inverse_after": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "forward_before": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "forward_after": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "forward_before": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "forward_after": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "forward_before": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "forward_after": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "inverse_before": [
+            "testikito",
+            "testikito"
+          ],
+          "inverse_after": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        }
+      ],
+      "ksen_containing_rows": null,
+      "method": "Every pure input actually rerendered with unchanged production interpreter and conservative rule selection; both real inverse functions executed. Kanji forward captures reused only after equality proof of lists, engine, overlays and auxiliary data; both real inverse functions reexecuted for every capture."
+    }
+  ],
+  "saved_rows": 12951776,
+  "unique_input_route_pairs": 12951664,
+  "actual_inverse_calls": 25903552,
+  "actual_pure_forward_inputs": 3237944,
+  "regressions": 0,
+  "improvements": 16,
+  "pure_changed_words_each_edition": [
+    "ksenas",
+    "kseno",
+    "ksenoj",
+    "ksenojn",
+    "ksenos",
+    "ksenu",
+    "ksenulo",
+    "ksenus"
+  ],
+  "seconds": 476.81,
+  "limitations": "Finite original full audit domain includes generated suffixes, capitalization, normal, @whole, and @root+suffix forms. Kanji forward results structurally reused, not freshly rerendered en masse; inverse actually rerun. Pure full forward rerun uses audit-only candidate selection proven against full-rule reference."
+}

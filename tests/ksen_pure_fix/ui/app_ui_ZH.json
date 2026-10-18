@@ -1,0 +1,211 @@
+{
+  "passed": true,
+  "language": "ZH",
+  "method": "Local Streamlit AppTest; no browser or Cloud",
+  "forms": [
+    {
+      "edition": "current",
+      "mode": "pure",
+      "output_sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d",
+      "output_matches_fixture": true,
+      "metadata": {
+        "schema_version": 1,
+        "edition_id": "current",
+        "requested_edition": "current",
+        "source_id": "current",
+        "edition_label": "新版（更新中）",
+        "signature": "7977885d7662e424bc0a44ade8bd17da63af0859658f6e8729a9167af62499f1",
+        "assignment_signature": "9db98406cfa0d0869ca4c0fbbbe92f9a2bdf289daba42947888c7b27b71f3fa0",
+        "corrections_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "custom_json_sha256": null,
+        "render_options": {
+          "mode": "✂️ 汉字化·纯替换（无标签文本）",
+          "format": "替换后文字列のみ(仅)保留(简单替换)",
+          "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (标准)"
+        },
+        "automatic_correction": "selected_edition",
+        "created_utc": "2026-10-18T11:53:18.308112+00:00"
+      },
+      "download": {
+        "label": "下载转换结果（已反映编辑）",
+        "name": "转换结果_current_7977885d7662.txt",
+        "sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d",
+        "size": 277
+      }
+    },
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "output_sha256": "2cb1e672328664c0f73cfee728bdf9c6526f5c651109fecb1334554e232b819e",
+      "output_matches_fixture": true,
+      "metadata": {
+        "schema_version": 1,
+        "edition_id": "current",
+        "requested_edition": "current",
+        "source_id": "current",
+        "edition_label": "新版（更新中）",
+        "signature": "519e3b54b38ff3295c57886653393f89db06c3c82ae20730f66280e54ee1f110",
+        "assignment_signature": "9db98406cfa0d0869ca4c0fbbbe92f9a2bdf289daba42947888c7b27b71f3fa0",
+        "corrections_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "custom_json_sha256": null,
+        "render_options": {
+          "mode": "🈶 汉字化（汉字＋词根Ruby）",
+          "format": "HTML格式_Ruby文字_大小调整_汉字替换",
+          "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (标准)"
+        },
+        "automatic_correction": "selected_edition",
+        "created_utc": "2026-10-18T11:53:26.718243+00:00"
+      },
+      "download": {
+        "label": "下载转换结果（已反映编辑）",
+        "name": "转换结果_current_519e3b54b38f.html",
+        "sha256": "3608375765238cf7816e7bd8fb6817841bba37f738bbadb49d32635950fb8738",
+        "size": 3401
+      }
+    },
+    {
+      "edition": "legacy",
+      "mode": "pure",
+      "output_sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6",
+      "output_matches_fixture": true,
+      "metadata": {
+        "schema_version": 1,
+        "edition_id": "legacy",
+        "requested_edition": "legacy",
+        "source_id": "legacy",
+        "edition_label": "旧版（固定）",
+        "signature": "d91efd7a574e08ca6478594d71ee96f617ce391c1654f434300a3153e8e6cdb2",
+        "assignment_signature": "6c8f0677091343fa9b03e19ca0b02964137cbbcc80b5ef1ed7b4a8a8c3a2e8a4",
+        "corrections_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "custom_json_sha256": null,
+        "render_options": {
+          "mode": "✂️ 汉字化·纯替换（无标签文本）",
+          "format": "替换后文字列のみ(仅)保留(简单替换)",
+          "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (标准)"
+        },
+        "automatic_correction": "selected_edition",
+        "created_utc": "2026-10-18T11:53:37.516418+00:00"
+      },
+      "download": {
+        "label": "下载转换结果（已反映编辑）",
+        "name": "转换结果_legacy_d91efd7a574e.txt",
+        "sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6",
+        "size": 268
+      }
+    },
+    {
+      "edition": "legacy",
+      "mode": "kanji",
+      "output_sha256": "5fe91819e21179b31360977f02548131e5638210293cc7aa9f301a55aea01f98",
+      "output_matches_fixture": true,
+      "metadata": {
+        "schema_version": 1,
+        "edition_id": "legacy",
+        "requested_edition": "legacy",
+        "source_id": "legacy",
+        "edition_label": "旧版（固定）",
+        "signature": "7b3b5d7b5084e986e22ab17d4f867217b3e6eae89279634d34b0f043f271b382",
+        "assignment_signature": "6c8f0677091343fa9b03e19ca0b02964137cbbcc80b5ef1ed7b4a8a8c3a2e8a4",
+        "corrections_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "custom_json_sha256": null,
+        "render_options": {
+          "mode": "🈶 汉字化（汉字＋词根Ruby）",
+          "format": "HTML格式_Ruby文字_大小调整_汉字替换",
+          "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (标准)"
+        },
+        "automatic_correction": "selected_edition",
+        "created_utc": "2026-10-18T11:53:45.613013+00:00"
+      },
+      "download": {
+        "label": "下载转换结果（已反映编辑）",
+        "name": "转换结果_legacy_7b3b5d7b5084.html",
+        "sha256": "81886a31738d9693383e3cfccc518bc48292a11c75215e66bcebcff82389cde4",
+        "size": 3388
+      }
+    }
+  ],
+  "stale_guards": [
+    {
+      "reason": "mode switch",
+      "selected_edition": "current",
+      "selected_mode": "kanji",
+      "editor_hidden": true,
+      "download_absent": true
+    },
+    {
+      "reason": "edition switch",
+      "previous": "current",
+      "selected": "legacy",
+      "editor_hidden": true,
+      "download_absent": true
+    },
+    {
+      "reason": "mode switch",
+      "selected_edition": "legacy",
+      "selected_mode": "pure",
+      "editor_hidden": true,
+      "download_absent": true
+    },
+    {
+      "reason": "mode switch",
+      "selected_edition": "legacy",
+      "selected_mode": "kanji",
+      "editor_hidden": true,
+      "download_absent": true
+    }
+  ],
+  "pages": [
+    {
+      "edition": "current",
+      "page": "manual",
+      "selected_edition_kept": true,
+      "existing_ksen_ul_glyphs": true
+    },
+    {
+      "edition": "current",
+      "page": "download",
+      "selected_edition_kept": true,
+      "csv_download": {
+        "label": "汉字分配CSV",
+        "name": "kanji_assignments_current_603b4bbdd1fa.csv",
+        "sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede",
+        "size": 161686
+      },
+      "selected_pure_link_matches": true
+    },
+    {
+      "edition": "legacy",
+      "page": "manual",
+      "selected_edition_kept": true,
+      "existing_ksen_ul_glyphs": true
+    },
+    {
+      "edition": "legacy",
+      "page": "download",
+      "selected_edition_kept": true,
+      "csv_download": {
+        "label": "汉字分配CSV",
+        "name": "kanji_assignments_legacy_2623cbb702a6.csv",
+        "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+        "size": 152831
+      },
+      "selected_pure_link_matches": true
+    }
+  ],
+  "manual_session_checks": [
+    {
+      "edition": "current",
+      "output": "k无o 外ᴷˢo kseno s内e",
+      "session_override_wins": true,
+      "at_percent_sene_preserved": true
+    },
+    {
+      "edition": "legacy",
+      "output": "k无o 外ᴷˢo kseno s内e",
+      "session_override_wins": true,
+      "at_percent_sene_preserved": true
+    }
+  ],
+  "baseline_corrections_unchanged": true,
+  "fixture_sha256": "c7c5290e28280c5202b9585c46e833b5a3504f672847098a85863fbcc59cc7eb"
+}
