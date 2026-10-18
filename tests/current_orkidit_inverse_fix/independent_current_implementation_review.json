@@ -1,0 +1,3088 @@
+{
+  "status": "PASS",
+  "production_writes": 0,
+  "languages": {
+    "JA": {
+      "status": "PASS",
+      "source_sha256": "977b99f9204b56af084353ee048dba79e068b1444839fd33fca9ab058d0de893",
+      "unchanged_algorithm_and_legacy_definitions": [
+        "MappingEntry",
+        "MappingIndex",
+        "_priority",
+        "create_mapping_entries",
+        "build_mapping_index",
+        "dataframe_to_mapping_records",
+        "convert_kanji_esperanto_to_alphabet",
+        "_build_mapping_index_payload_cached",
+        "build_mapping_index_cached",
+        "load_legacy_inverse_aliases",
+        "legacy_effective_download_data",
+        "edition_download_data"
+      ],
+      "unchanged_assets": [
+        "data/current_dictionary_source.json",
+        "data/dot-greft-20261018.json",
+        "data/four-reviewed-assignments-20261017.json",
+        "data/four-shared-assignments-20261017.json",
+        "data/legacy_inverse_aliases.json",
+        "data/mirror-identifiers-20261017.json",
+        "data/monaco_source_20261017.json",
+        "data/nostalgi-onk-fortres-assignments-20261017.json",
+        "data/observatori-assignment-20261017.json",
+        "data/pejvo_piv_20260620_reverter.csv",
+        "data/pejvo_piv_pre_dot_greft_20261018.csv",
+        "data/pejvo_piv_pre_las_20261017.csv",
+        "data/pejvo_piv_pre_mirror_20261017.csv",
+        "data/pejvo_piv_pre_satir_20261017.csv",
+        "data/pejvo_piv_pre_sperm_distinction_20261018.csv",
+        "data/pejvo_piv_pre_three_short_20261017.csv",
+        "data/protez-ranc-assignments-20261017.json",
+        "data/satir-assignment-20261017.json",
+        "data/snippet_pre_dot_greft_20261018.csv",
+        "data/snippet_pre_satir_20261017.csv",
+        "data/snippet_pre_sperm_distinction_20261018.csv",
+        "data/snippet_pre_three_short_20261017.csv",
+        "data/sperm-distinction-20261018.json",
+        "data/stafilokok-assignment-20261017.json",
+        "data/sutur-fraj-assignments-20261017.json",
+        "data/three-short-assignments-20261017.json",
+        "data/two_editions_policy.json",
+        "data/uve-assignments-20261017.json",
+        "エスペラント語根-漢字対応表_スニペット用最小限.csv"
+      ],
+      "only_added_current_record": [
+        "orkidit",
+        "兰炎ᵀ",
+        "0"
+      ],
+      "old_and_all_archive_effective_records_and_metadata_unchanged": true,
+      "original_downloads_all_unchanged": true,
+      "current_effective_download_records_equal_ui": true,
+      "old_effective_download_bytes_unchanged": true,
+      "custom_owner_preserved": true,
+      "future_csv_or_revision_change_rejected": true,
+      "conflicting_owner_rejected": true,
+      "supplement_sha256": "b9c55a7fd649a40c002e49755babe565b04ea2f488d7a61ec2a35f43b58e61e0",
+      "actual_forward_target_cases": [
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkidit",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkidito",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@o",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidito@",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditoj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@oj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditoj@",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditon",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@on",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditon@",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@ojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditojn@",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkidita",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@a",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidita@",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditaj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@aj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditaj@",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditan",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@an",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditan@",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@ajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditajn@",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkidite",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@e",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidite@",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditi",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@i",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditi@",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditas",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@as",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditas@",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditis",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@is",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditis@",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditos",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@os",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditos@",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkidit",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkidito",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@o",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidito@",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditoj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@oj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditoj@",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditon",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@on",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditon@",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@ojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditojn@",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkidita",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@a",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidita@",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditaj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@aj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditaj@",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditan",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@an",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditan@",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@ajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditajn@",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkidite",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@e",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidite@",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditi",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@i",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditi@",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditas",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@as",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditas@",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditis",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@is",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditis@",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditos",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@os",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditos@",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkidit",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkidito",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@o",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidito@",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditoj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@oj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditoj@",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditon",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@on",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditon@",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@ojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditojn@",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkidita",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@a",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidita@",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditaj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@aj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditaj@",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditan",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@an",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditan@",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@ajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditajn@",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkidite",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@e",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidite@",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditi",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@i",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditi@",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditas",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@as",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditas@",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditis",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@is",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditis@",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditos",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@os",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditos@",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkidit",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkidito",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@o",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidito@",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditoj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@oj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditoj@",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditon",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@on",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditon@",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@ojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditojn@",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkidita",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@a",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidita@",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditaj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@aj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditaj@",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditan",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@an",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditan@",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@ajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditajn@",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkidite",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@e",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidite@",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditi",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@i",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditi@",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditas",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@as",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditas@",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditis",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@is",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditis@",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditos",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@os",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditos@",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkidit",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkidito",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@o",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidito@",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditoj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@oj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditoj@",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditon",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@on",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditon@",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@ojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditojn@",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkidita",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@a",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidita@",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditaj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@aj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditaj@",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditan",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@an",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditan@",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@ajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditajn@",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkidite",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@e",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidite@",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditi",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@i",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditi@",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditas",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@as",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditas@",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditis",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@is",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditis@",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditos",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@os",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditos@",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkidit",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkidito",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@o",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidito@",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditoj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@oj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditoj@",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditon",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@on",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditon@",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@ojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditojn@",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkidita",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@a",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidita@",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditaj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@aj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditaj@",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditan",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@an",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditan@",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@ajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditajn@",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkidite",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@e",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidite@",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditi",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@i",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditi@",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditas",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@as",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditas@",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditis",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@is",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditis@",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditos",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@os",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditos@",
+          "restored": "orkiditos"
+        }
+      ]
+    },
+    "ZH": {
+      "status": "PASS",
+      "source_sha256": "43c0846e739cd790eb7fcea1765375b86ad30ad3e28485473c71121520af77b1",
+      "unchanged_algorithm_and_legacy_definitions": [
+        "MappingEntry",
+        "MappingIndex",
+        "_priority",
+        "create_mapping_entries",
+        "build_mapping_index",
+        "dataframe_to_mapping_records",
+        "convert_kanji_esperanto_to_alphabet",
+        "_build_mapping_index_payload_cached",
+        "build_mapping_index_cached",
+        "load_legacy_inverse_aliases",
+        "legacy_effective_download_data",
+        "edition_download_data"
+      ],
+      "unchanged_assets": [
+        "data/current_dictionary_source.json",
+        "data/dot-greft-20261018.json",
+        "data/four-reviewed-assignments-20261017.json",
+        "data/four-shared-assignments-20261017.json",
+        "data/legacy_inverse_aliases.json",
+        "data/mirror-identifiers-20261017.json",
+        "data/monaco_source_20261017.json",
+        "data/nostalgi-onk-fortres-assignments-20261017.json",
+        "data/observatori-assignment-20261017.json",
+        "data/pejvo_piv_20260620_reverter.csv",
+        "data/pejvo_piv_pre_dot_greft_20261018.csv",
+        "data/pejvo_piv_pre_las_20261017.csv",
+        "data/pejvo_piv_pre_mirror_20261017.csv",
+        "data/pejvo_piv_pre_satir_20261017.csv",
+        "data/pejvo_piv_pre_sperm_distinction_20261018.csv",
+        "data/pejvo_piv_pre_three_short_20261017.csv",
+        "data/protez-ranc-assignments-20261017.json",
+        "data/satir-assignment-20261017.json",
+        "data/snippet_pre_dot_greft_20261018.csv",
+        "data/snippet_pre_satir_20261017.csv",
+        "data/snippet_pre_sperm_distinction_20261018.csv",
+        "data/snippet_pre_three_short_20261017.csv",
+        "data/sperm-distinction-20261018.json",
+        "data/stafilokok-assignment-20261017.json",
+        "data/sutur-fraj-assignments-20261017.json",
+        "data/three-short-assignments-20261017.json",
+        "data/two_editions_policy.json",
+        "data/uve-assignments-20261017.json",
+        "エスペラント語根-漢字対応表_スニペット用最小限.csv"
+      ],
+      "only_added_current_record": [
+        "orkidit",
+        "兰炎ᵀ",
+        "0"
+      ],
+      "old_and_all_archive_effective_records_and_metadata_unchanged": true,
+      "original_downloads_all_unchanged": true,
+      "current_effective_download_records_equal_ui": true,
+      "old_effective_download_bytes_unchanged": true,
+      "custom_owner_preserved": true,
+      "future_csv_or_revision_change_rejected": true,
+      "conflicting_owner_rejected": true,
+      "supplement_sha256": "b9c55a7fd649a40c002e49755babe565b04ea2f488d7a61ec2a35f43b58e61e0",
+      "actual_forward_target_cases": [
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkidit",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkidito",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@o",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidito@",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditoj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@oj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditoj@",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditon",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@on",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditon@",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@ojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditojn@",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkidita",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@a",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidita@",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditaj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@aj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditaj@",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditan",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@an",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditan@",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@ajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditajn@",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkidite",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@e",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidite@",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditi",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@i",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditi@",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditas",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@as",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditas@",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditis",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@is",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditis@",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "orkiditos",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkidit@os",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "current",
+          "input": "@orkiditos@",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkidit",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkidito",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@o",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidito@",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditoj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@oj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditoj@",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditon",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@on",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditon@",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@ojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditojn@",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkidita",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@a",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidita@",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditaj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@aj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditaj@",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditan",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@an",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditan@",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@ajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditajn@",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkidite",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@e",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidite@",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditi",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@i",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditi@",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditas",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@as",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditas@",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditis",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@is",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditis@",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "orkiditos",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkidit@os",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "JA",
+          "edition": "legacy",
+          "input": "@orkiditos@",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkidit",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkidito",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@o",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidito@",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditoj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@oj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditoj@",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditon",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@on",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditon@",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@ojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditojn@",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkidita",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@a",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidita@",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditaj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@aj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditaj@",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditan",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@an",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditan@",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@ajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditajn@",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkidite",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@e",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidite@",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditi",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@i",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditi@",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditas",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@as",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditas@",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditis",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@is",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditis@",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "orkiditos",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkidit@os",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "current",
+          "input": "@orkiditos@",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkidit",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkidito",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@o",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidito@",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditoj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@oj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditoj@",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditon",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@on",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditon@",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@ojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditojn@",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkidita",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@a",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidita@",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditaj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@aj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditaj@",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditan",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@an",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditan@",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@ajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditajn@",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkidite",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@e",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidite@",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditi",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@i",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditi@",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditas",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@as",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditas@",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditis",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@is",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditis@",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "orkiditos",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkidit@os",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "ZH",
+          "edition": "legacy",
+          "input": "@orkiditos@",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkidit",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkidito",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@o",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidito@",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditoj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@oj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditoj@",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditon",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@on",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditon@",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@ojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditojn@",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkidita",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@a",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidita@",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditaj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@aj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditaj@",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditan",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@an",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditan@",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@ajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditajn@",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkidite",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@e",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidite@",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditi",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@i",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditi@",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditas",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@as",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditas@",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditis",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@is",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditis@",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "orkiditos",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkidit@os",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "current",
+          "input": "@orkiditos@",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkidit",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@",
+          "restored": "orkidit"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkidito",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@o",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidito@",
+          "restored": "orkidito"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditoj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@oj",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditoj@",
+          "restored": "orkiditoj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditon",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@on",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditon@",
+          "restored": "orkiditon"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@ojn",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditojn@",
+          "restored": "orkiditojn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkidita",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@a",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidita@",
+          "restored": "orkidita"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditaj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@aj",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditaj@",
+          "restored": "orkiditaj"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditan",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@an",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditan@",
+          "restored": "orkiditan"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@ajn",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditajn@",
+          "restored": "orkiditajn"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkidite",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@e",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidite@",
+          "restored": "orkidite"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditi",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@i",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditi@",
+          "restored": "orkiditi"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditas",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@as",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditas@",
+          "restored": "orkiditas"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditis",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@is",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditis@",
+          "restored": "orkiditis"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "orkiditos",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkidit@os",
+          "restored": "orkiditos"
+        },
+        {
+          "forward_language": "KO",
+          "edition": "legacy",
+          "input": "@orkiditos@",
+          "restored": "orkiditos"
+        }
+      ]
+    }
+  },
+  "captured_forward_sha256": "cae177004aee0a83cc76d5d1507b2e9a706b0b542fe7f96e149b5c14e5f8c446",
+  "script_sha256": "3d64f5f8e6c37aac1ff9fe107ced08b93d704df69436d710449783cd281ace5e"
+}

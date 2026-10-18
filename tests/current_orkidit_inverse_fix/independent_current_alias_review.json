@@ -1,0 +1,242 @@
+{
+  "status": "PASS",
+  "alias": {
+    "兰炎ᵀ": "orkidit"
+  },
+  "production_writes": 0,
+  "script_sha256": "f072fd55b173532149c459f144312d16dfabb52aaf1b265735475c3632e238a7",
+  "languages": {
+    "JA": {
+      "status": "PASS",
+      "current_csv_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "entrypoint_sha256": "b80f5a45aa9a9f9a8c21f0ba8800a33b33ba02e6aae0089b19ce4da046ca7ee3",
+      "current_rows": 10678,
+      "unique_keys": 10678,
+      "collisions": {
+        "existing_exact_owners": [],
+        "contained_in_existing_keys": [],
+        "segmentations_including_partial_final_key": []
+      },
+      "existing_key_suffix_cases": 181526,
+      "existing_output_changes": 0,
+      "single_alias_suffix_cases": [
+        {
+          "input": "兰炎ᵀ",
+          "before": "orkidkatarᵀ",
+          "after": "orkidit"
+        },
+        {
+          "input": "兰炎ᵀo",
+          "before": "orkidkatarᵀo",
+          "after": "orkidito"
+        },
+        {
+          "input": "兰炎ᵀoj",
+          "before": "orkidkatarᵀoj",
+          "after": "orkiditoj"
+        },
+        {
+          "input": "兰炎ᵀon",
+          "before": "orkidkatarᵀon",
+          "after": "orkiditon"
+        },
+        {
+          "input": "兰炎ᵀojn",
+          "before": "orkidkatarᵀojn",
+          "after": "orkiditojn"
+        },
+        {
+          "input": "兰炎ᵀa",
+          "before": "orkidkatarᵀa",
+          "after": "orkidita"
+        },
+        {
+          "input": "兰炎ᵀaj",
+          "before": "orkidkatarᵀaj",
+          "after": "orkiditaj"
+        },
+        {
+          "input": "兰炎ᵀan",
+          "before": "orkidkatarᵀan",
+          "after": "orkiditan"
+        },
+        {
+          "input": "兰炎ᵀajn",
+          "before": "orkidkatarᵀajn",
+          "after": "orkiditajn"
+        },
+        {
+          "input": "兰炎ᵀe",
+          "before": "orkidkatarᵀe",
+          "after": "orkidite"
+        },
+        {
+          "input": "兰炎ᵀi",
+          "before": "orkidkatarᵀi",
+          "after": "orkiditi"
+        },
+        {
+          "input": "兰炎ᵀas",
+          "before": "orkidkatarᵀas",
+          "after": "orkiditas"
+        },
+        {
+          "input": "兰炎ᵀis",
+          "before": "orkidkatarᵀis",
+          "after": "orkiditis"
+        },
+        {
+          "input": "兰炎ᵀos",
+          "before": "orkidkatarᵀos",
+          "after": "orkiditos"
+        },
+        {
+          "input": "兰炎ᵀus",
+          "before": "orkidkatarᵀus",
+          "after": "orkiditus"
+        },
+        {
+          "input": "兰炎ᵀu",
+          "before": "orkidkatarᵀu",
+          "after": "orkiditu"
+        },
+        {
+          "input": "兰炎ᵀOJ",
+          "before": "orkidkatarᵀoj",
+          "after": "orkiditoj"
+        }
+      ],
+      "negative_controls": [
+        "兰o",
+        "丸ᴼo",
+        "兰ᴼᴱo",
+        "炎o",
+        "炎ᵀo",
+        "炎ᴵo",
+        "兰炎o",
+        "兰 炎ᵀo",
+        "兰/炎ᵀo",
+        "丸ᴼ炎ᵀo",
+        "丸ᵀ炎ᵀo"
+      ],
+      "new_key_count": 1,
+      "scope": "Hypothetical single-row layer only; arbitrary malformed/mixed text is outside the known-key concatenation guarantee."
+    },
+    "ZH": {
+      "status": "PASS",
+      "current_csv_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "entrypoint_sha256": "ecb2f3ba65ac296984f4d66b0d7fa5cc0d22f01d957659c6318ae8578c739509",
+      "current_rows": 10678,
+      "unique_keys": 10678,
+      "collisions": {
+        "existing_exact_owners": [],
+        "contained_in_existing_keys": [],
+        "segmentations_including_partial_final_key": []
+      },
+      "existing_key_suffix_cases": 181526,
+      "existing_output_changes": 0,
+      "single_alias_suffix_cases": [
+        {
+          "input": "兰炎ᵀ",
+          "before": "orkidkatarᵀ",
+          "after": "orkidit"
+        },
+        {
+          "input": "兰炎ᵀo",
+          "before": "orkidkatarᵀo",
+          "after": "orkidito"
+        },
+        {
+          "input": "兰炎ᵀoj",
+          "before": "orkidkatarᵀoj",
+          "after": "orkiditoj"
+        },
+        {
+          "input": "兰炎ᵀon",
+          "before": "orkidkatarᵀon",
+          "after": "orkiditon"
+        },
+        {
+          "input": "兰炎ᵀojn",
+          "before": "orkidkatarᵀojn",
+          "after": "orkiditojn"
+        },
+        {
+          "input": "兰炎ᵀa",
+          "before": "orkidkatarᵀa",
+          "after": "orkidita"
+        },
+        {
+          "input": "兰炎ᵀaj",
+          "before": "orkidkatarᵀaj",
+          "after": "orkiditaj"
+        },
+        {
+          "input": "兰炎ᵀan",
+          "before": "orkidkatarᵀan",
+          "after": "orkiditan"
+        },
+        {
+          "input": "兰炎ᵀajn",
+          "before": "orkidkatarᵀajn",
+          "after": "orkiditajn"
+        },
+        {
+          "input": "兰炎ᵀe",
+          "before": "orkidkatarᵀe",
+          "after": "orkidite"
+        },
+        {
+          "input": "兰炎ᵀi",
+          "before": "orkidkatarᵀi",
+          "after": "orkiditi"
+        },
+        {
+          "input": "兰炎ᵀas",
+          "before": "orkidkatarᵀas",
+          "after": "orkiditas"
+        },
+        {
+          "input": "兰炎ᵀis",
+          "before": "orkidkatarᵀis",
+          "after": "orkiditis"
+        },
+        {
+          "input": "兰炎ᵀos",
+          "before": "orkidkatarᵀos",
+          "after": "orkiditos"
+        },
+        {
+          "input": "兰炎ᵀus",
+          "before": "orkidkatarᵀus",
+          "after": "orkiditus"
+        },
+        {
+          "input": "兰炎ᵀu",
+          "before": "orkidkatarᵀu",
+          "after": "orkiditu"
+        },
+        {
+          "input": "兰炎ᵀOJ",
+          "before": "orkidkatarᵀoj",
+          "after": "orkiditoj"
+        }
+      ],
+      "negative_controls": [
+        "兰o",
+        "丸ᴼo",
+        "兰ᴼᴱo",
+        "炎o",
+        "炎ᵀo",
+        "炎ᴵo",
+        "兰炎o",
+        "兰 炎ᵀo",
+        "兰/炎ᵀo",
+        "丸ᴼ炎ᵀo",
+        "丸ᵀ炎ᵀo"
+      ],
+      "new_key_count": 1,
+      "scope": "Hypothetical single-row layer only; arbitrary malformed/mixed text is outside the known-key concatenation guarantee."
+    }
+  }
+}

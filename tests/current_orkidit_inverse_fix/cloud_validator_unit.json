@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "tests": 7,
+  "exit_code": 0,
+  "test_sha256": "9810f821968c8e82ec96c8a2069ef0cf557e816f6154f0fa39bb3d5d39d79634",
+  "validator_sha256": "c400a8d1d14c04f85d797af33a5d4638130ecea3ed81122ab21ebfd419d87fdc",
+  "log_sha256": "b17cee1766e2f32c6f61c9d5ef4d0cbf38a08a9150af946e4f7a96f89fddf8a1"
+}

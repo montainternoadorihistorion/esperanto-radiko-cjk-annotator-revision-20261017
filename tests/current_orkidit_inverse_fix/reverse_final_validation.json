@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "scope": "Local independent regression of a current-edition-only inverse compatibility layer; Cloud is verified separately.",
+  "aliases": {
+    "兰炎ᵀ": "orkidit"
+  },
+  "existing_dictionary_queries": 511818,
+  "existing_dictionary_query_changes": 0,
+  "dictionary_sources_per_language": 8,
+  "dictionary_keys_per_language": 85303,
+  "query_variants_per_key": [
+    "",
+    "o",
+    "ojn"
+  ],
+  "languages": [
+    "JA",
+    "ZH"
+  ],
+  "old_effective_aliases_included_in_baseline": true,
+  "approved_alias_probes_changed": 36,
+  "legacy_and_intermediate_sources_unchanged": true,
+  "fixed_csv_rows_unchanged": true,
+  "effective_current_keys_added": 1,
+  "old_fixed_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+  "all_existing_inverse_data_assets_unchanged": {
+    "private": 58,
+    "public": 58
+  },
+  "forward_assets_unchanged": {
+    "private": 87,
+    "public": 84
+  },
+  "forward_cases_exact_before_after": 3114,
+  "forward_changes": 0,
+  "actual_forward_inverse_comparisons": 4152,
+  "approved_current_inverse_improvements": 180,
+  "unapproved_inverse_changes": 0,
+  "legacy_inverse_changes": 0,
+  "remaining_nonwhitespace_mismatches_for_esperanto_inputs": 0,
+  "local_cloud_fixture_success_cases": {
+    "forward": 6,
+    "inverse": 4
+  },
+  "limitations": [
+    "Case is lowercased; @ control markers are removed.",
+    "Outer HTML wrapper/batch whitespace is classified separately from exact restoration.",
+    "Mixed already-kanjized controls are not Esperanto-original roundtrip cases.",
+    "No universal guarantee for arbitrary text, mixed editions, raw HTML, or concatenation ambiguity."
+  ],
+  "universal_roundtrip_claimed": false,
+  "runtime_sha256": {
+    "kanjized-esperanto-reverter/esperanto_converter.py": "977b99f9204b56af084353ee048dba79e068b1444839fd33fca9ab058d0de893",
+    "kanjized-esperanto-reverter/data/current_inverse_aliases.json": "b9c55a7fd649a40c002e49755babe565b04ea2f488d7a61ec2a35f43b58e61e0",
+    "kanjized-esperanto-reverter/data/legacy_inverse_aliases.json": "2ccba60edaebf72286c211c29126a57829df0c16abe0eea5d778e005d9248107",
+    "hanzized-esperanto-reverter-zh_更新版20260822/esperanto_converter_zh.py": "43c0846e739cd790eb7fcea1765375b86ad30ad3e28485473c71121520af77b1",
+    "hanzized-esperanto-reverter-zh_更新版20260822/data/current_inverse_aliases.json": "b9c55a7fd649a40c002e49755babe565b04ea2f488d7a61ec2a35f43b58e61e0",
+    "hanzized-esperanto-reverter-zh_更新版20260822/data/legacy_inverse_aliases.json": "2ccba60edaebf72286c211c29126a57829df0c16abe0eea5d778e005d9248107"
+  },
+  "evidence_sha256": {
+    "reverse_forward_independent_summary.json": "dea12d00374b7cb2e572a670ad1e58f857d254ea03a58c5ec831fd80b3e270aa",
+    "reverse_inverse_after_summary.json": "1dd392d3b1bff2a31a6f08a3b0fe15351753fca8309018a0d4a4dfb9f6dc13a9",
+    "reverse_cloud_fixture.json": "8a428aa99a8c89642569bb11738a494fc45140d380ffe437af8af4e1deb0a4f0",
+    "reverse_cloud_forward_cases.json": "93b96f276731d5948c2733bae9a908cf44db29ff85a79c40c703810209622cec"
+  },
+  "private_raw_evidence_sha256": {
+    "reverse_baseline_manifest.json": "34511360d4b7fe29b60cde23092189568a5041b21a2b2fab665bac1a8d4bf43f",
+    "reverse_public_baseline_manifest.json": "a4465f46b44940281beb076f4f3a797c768f7a7fec56951e1824c774ec01b30c",
+    "reverse_inverse_before.json.gz": "9a6627ffaf7da33458a03e139b3a8f0c633bca12a3e8cab9e49c6735717edcf3",
+    "reverse_inverse_after.json.gz": "a289e54757d1bafde50003d4e4cbe96d37a8f417eeebb9f1c9e4b1e75706b1c3",
+    "reverse_forward_before.json.gz": "cae177004aee0a83cc76d5d1507b2e9a706b0b542fe7f96e149b5c14e5f8c446",
+    "reverse_forward_after.json.gz": "98a3ad2be5df167c95e8731812e393fd67021925506d07d0eeb47488bc64e1ed"
+  }
+}

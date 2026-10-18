@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "review": "Read-only review; pytest execution is recorded by the implementation owner in app_validation.json",
+  "languages": {
+    "JA": {
+      "test_current_inverse_aliases.py": {
+        "sha256": "983e55211e2d76bf0fa0fa0ceb54d1206d46af603459578cf91f4af118d913d7",
+        "public_integrated_bytes_equal": true
+      },
+      "test_legacy_inverse_aliases.py": {
+        "sha256": "c58416dde6c6af40e53cdc205078d1a742ea2b393b1c4db82cb426553d850609",
+        "public_integrated_bytes_equal": true
+      },
+      "test_two_editions.py": {
+        "sha256": "b8034923c3c8e333d0e149550429f146de10673449f9b3f9bf946383f60432b0",
+        "public_integrated_bytes_equal": true
+      }
+    },
+    "ZH": {
+      "test_current_inverse_aliases.py": {
+        "sha256": "6686f2b8ef93da25ac8254040aef3c38d49c515fd69a2338aea7797249b2fc68",
+        "public_integrated_bytes_equal": true
+      },
+      "test_legacy_inverse_aliases.py": {
+        "sha256": "7a4ac469bdfa0105ad1450534aa979bd28d7b61deb4d36de746184ce4311ca30",
+        "public_integrated_bytes_equal": true
+      },
+      "test_two_editions.py": {
+        "sha256": "efcf8d808c46c7cf09c0e178c2bc8def9ad2f3ba05f85899ab04af7f8c7fcf55",
+        "public_integrated_bytes_equal": true
+      }
+    }
+  },
+  "new_test_cases": 15,
+  "new_tests_same_except_language_import": true,
+  "blocking_findings": [],
+  "reviewed_guards": [
+    "only one current whole-key alias; broad component mapping unchanged",
+    "legacy manifest/effective bytes retained and archived/custom sources untouched",
+    "exact owner/canonical owner conflicts rejected",
+    "current CSV bytes and metadata revision must retain reviewed pins",
+    "same records for UI and effective CSV export",
+    "canonical generator rerun retains canonical CSV bytes",
+    "saved result retains old label until reconverted",
+    "supplement revision/hash invalidates old result downloads",
+    "effective CSV explicitly uploaded as custom",
+    "existing legacy test permits exactly the later one-key current change",
+    "revision UI test updates the temporary supplement pin as a reviewed-update simulation"
+  ]
+}

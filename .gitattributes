@@ -31,3 +31,4 @@
 /Esperanto-Reverter-*/** -text
 /tests/reverter_cloud/** -text
 /tests/legacy_inverse_alias_fix/** -text
+/tests/current_orkidit_inverse_fix/** -text

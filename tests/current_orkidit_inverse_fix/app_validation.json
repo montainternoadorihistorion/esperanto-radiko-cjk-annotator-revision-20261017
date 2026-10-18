@@ -1,0 +1,194 @@
+{
+  "status": "PASS",
+  "apps": [
+    {
+      "language": "JA",
+      "mirror_file_sha256": {
+        "esperanto_converter.py": "977b99f9204b56af084353ee048dba79e068b1444839fd33fca9ab058d0de893",
+        "data/current_inverse_aliases.json": "b9c55a7fd649a40c002e49755babe565b04ea2f488d7a61ec2a35f43b58e61e0",
+        "data/legacy_inverse_aliases.json": "2ccba60edaebf72286c211c29126a57829df0c16abe0eea5d778e005d9248107",
+        "tests/test_current_inverse_aliases.py": "983e55211e2d76bf0fa0fa0ceb54d1206d46af603459578cf91f4af118d913d7",
+        "tests/test_legacy_inverse_aliases.py": "c58416dde6c6af40e53cdc205078d1a742ea2b393b1c4db82cb426553d850609",
+        "tests/test_two_editions.py": "b8034923c3c8e333d0e149550429f146de10673449f9b3f9bf946383f60432b0",
+        "tests/test_cache_entrypoint_lifecycle.py": "6d6ded52b52d8c68d6a619474edb0f0bd36241e5407ecb14e2a7f9a7940cadb0"
+      },
+      "canonical_rows": 10678,
+      "effective_rows": 10679,
+      "canonical_csv_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "canonical_two_column_sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+      "effective_csv_sha256": "5031b700165d305364574a9815fc091b1b32f8782c7bc684c26837b855b8bb7f",
+      "effective_csv_bytes": 197974,
+      "metadata": {
+        "source_id": "pejvo-piv-20260620",
+        "edition": "new",
+        "revision": "2026-10-18-dot-greft",
+        "edition_id": "current",
+        "dictionary_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+        "identity": "pejvo-piv-20260620:2026-10-18-dot-greft:4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074:current-orkidit-inverse-20261018-v1:b9c55a7fd649a40c002e49755babe565b04ea2f488d7a61ec2a35f43b58e61e0",
+        "label": "新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-orkidit-inverse-20261018-v1 / b9c55a7fd649",
+        "result_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-orkidit-inverse-20261018-v1_b9c55a7fd649.txt",
+        "dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+        "snippet_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+        "inverse_compatibility_revision": "current-orkidit-inverse-20261018-v1",
+        "inverse_compatibility_sha256": "b9c55a7fd649a40c002e49755babe565b04ea2f488d7a61ec2a35f43b58e61e0",
+        "effective_dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-orkidit-inverse-20261018-v1_b9c55a7fd649.csv"
+      },
+      "old_metadata_unchanged": {
+        "source_id": "pre-las-20261017",
+        "edition": "old",
+        "revision": "4c16c8937c60",
+        "edition_id": "legacy",
+        "dictionary_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "identity": "pre-las-20261017:4c16c8937c60:eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14:legacy-inverse-aliases-20261018-v1:2ccba60edaebf72286c211c29126a57829df0c16abe0eea5d778e005d9248107",
+        "label": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-inverse-aliases-20261018-v1 / 2ccba60edaeb",
+        "result_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb.txt",
+        "dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+        "snippet_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+        "inverse_compatibility_revision": "legacy-inverse-aliases-20261018-v1",
+        "inverse_compatibility_sha256": "2ccba60edaebf72286c211c29126a57829df0c16abe0eea5d778e005d9248107",
+        "effective_dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb.csv"
+      },
+      "unchanged_nonprimary_provenance_sources": [
+        "legacy-minimal",
+        "pre-three-short-20261017",
+        "pre-dot-greft-20261018",
+        "pre-sperm-distinction-20261018",
+        "pre-satir-20261017",
+        "pre-mirror-20261017",
+        "pre-las-20261017"
+      ],
+      "old_effective_csv_sha256": "137eb963f9dfbb69e5d989c806c17cf1e1bbc3d66c6654a27c94a24aff8cfde1",
+      "examples": {
+        "兰炎ᵀ": {
+          "before": "orkidkatarᵀ",
+          "after": "orkidit"
+        },
+        "兰炎ᵀa": {
+          "before": "orkidkatarᵀa",
+          "after": "orkidita"
+        },
+        "兰炎ᵀi": {
+          "before": "orkidkatarᵀi",
+          "after": "orkiditi"
+        },
+        "兰炎ᵀas": {
+          "before": "orkidkatarᵀas",
+          "after": "orkiditas"
+        },
+        "丸ᴼ炎ᵀo": {
+          "before": "orkidito",
+          "after": "orkidito"
+        },
+        "兰o": {
+          "before": "orkido",
+          "after": "orkido"
+        },
+        "炎ᵀo": {
+          "before": "katarᵀo",
+          "after": "katarᵀo"
+        }
+      },
+      "full_pytest_passed": 177,
+      "seconds": 112.85,
+      "pytest_log_sha256": "8ac7573917ca6a00f011b944353cb15fee0c11046b2dbce43ff043abcfb9f176"
+    },
+    {
+      "language": "ZH",
+      "mirror_file_sha256": {
+        "esperanto_converter_zh.py": "43c0846e739cd790eb7fcea1765375b86ad30ad3e28485473c71121520af77b1",
+        "data/current_inverse_aliases.json": "b9c55a7fd649a40c002e49755babe565b04ea2f488d7a61ec2a35f43b58e61e0",
+        "data/legacy_inverse_aliases.json": "2ccba60edaebf72286c211c29126a57829df0c16abe0eea5d778e005d9248107",
+        "tests/test_current_inverse_aliases.py": "6686f2b8ef93da25ac8254040aef3c38d49c515fd69a2338aea7797249b2fc68",
+        "tests/test_legacy_inverse_aliases.py": "7a4ac469bdfa0105ad1450534aa979bd28d7b61deb4d36de746184ce4311ca30",
+        "tests/test_two_editions.py": "efcf8d808c46c7cf09c0e178c2bc8def9ad2f3ba05f85899ab04af7f8c7fcf55",
+        "tests/test_cache_entrypoint_lifecycle.py": "0747540e80ff8d4ba8b96d1eb2f546695b922555c0a209779cff9b76d22caa63"
+      },
+      "canonical_rows": 10678,
+      "effective_rows": 10679,
+      "canonical_csv_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "canonical_two_column_sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+      "effective_csv_sha256": "5031b700165d305364574a9815fc091b1b32f8782c7bc684c26837b855b8bb7f",
+      "effective_csv_bytes": 197974,
+      "metadata": {
+        "source_id": "pejvo-piv-20260620",
+        "edition": "new",
+        "revision": "2026-10-18-dot-greft",
+        "edition_id": "current",
+        "dictionary_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+        "identity": "pejvo-piv-20260620:2026-10-18-dot-greft:4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074:current-orkidit-inverse-20261018-v1:b9c55a7fd649a40c002e49755babe565b04ea2f488d7a61ec2a35f43b58e61e0",
+        "label": "新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-orkidit-inverse-20261018-v1 / b9c55a7fd649",
+        "result_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-orkidit-inverse-20261018-v1_b9c55a7fd649.txt",
+        "dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+        "snippet_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+        "inverse_compatibility_revision": "current-orkidit-inverse-20261018-v1",
+        "inverse_compatibility_sha256": "b9c55a7fd649a40c002e49755babe565b04ea2f488d7a61ec2a35f43b58e61e0",
+        "effective_dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-orkidit-inverse-20261018-v1_b9c55a7fd649.csv"
+      },
+      "old_metadata_unchanged": {
+        "source_id": "pre-las-20261017",
+        "edition": "old",
+        "revision": "4c16c8937c60",
+        "edition_id": "legacy",
+        "dictionary_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "identity": "pre-las-20261017:4c16c8937c60:eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14:legacy-inverse-aliases-20261018-v1:2ccba60edaebf72286c211c29126a57829df0c16abe0eea5d778e005d9248107",
+        "label": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-inverse-aliases-20261018-v1 / 2ccba60edaeb",
+        "result_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb.txt",
+        "dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+        "snippet_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+        "inverse_compatibility_revision": "legacy-inverse-aliases-20261018-v1",
+        "inverse_compatibility_sha256": "2ccba60edaebf72286c211c29126a57829df0c16abe0eea5d778e005d9248107",
+        "effective_dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb.csv"
+      },
+      "unchanged_nonprimary_provenance_sources": [
+        "legacy-minimal",
+        "pre-three-short-20261017",
+        "pre-dot-greft-20261018",
+        "pre-sperm-distinction-20261018",
+        "pre-satir-20261017",
+        "pre-mirror-20261017",
+        "pre-las-20261017"
+      ],
+      "old_effective_csv_sha256": "137eb963f9dfbb69e5d989c806c17cf1e1bbc3d66c6654a27c94a24aff8cfde1",
+      "examples": {
+        "兰炎ᵀ": {
+          "before": "orkidkatarᵀ",
+          "after": "orkidit"
+        },
+        "兰炎ᵀa": {
+          "before": "orkidkatarᵀa",
+          "after": "orkidita"
+        },
+        "兰炎ᵀi": {
+          "before": "orkidkatarᵀi",
+          "after": "orkiditi"
+        },
+        "兰炎ᵀas": {
+          "before": "orkidkatarᵀas",
+          "after": "orkiditas"
+        },
+        "丸ᴼ炎ᵀo": {
+          "before": "orkidito",
+          "after": "orkidito"
+        },
+        "兰o": {
+          "before": "orkido",
+          "after": "orkido"
+        },
+        "炎ᵀo": {
+          "before": "katarᵀo",
+          "after": "katarᵀo"
+        }
+      },
+      "full_pytest_passed": 177,
+      "seconds": 112.43,
+      "pytest_log_sha256": "52eadd22705aecd1cc858d8624ddbf39a49267527f78ddbdf97c7e9045187917"
+    }
+  ],
+  "asset_changes": [],
+  "algorithm_changes": [],
+  "immutable_baseline_assets_checked": 58,
+  "scope": "One primary-current inverse-only alias. Canonical CSV, old supplement/data/downloads/provenance, generic loaders/builders/converter/cache, and other source paths remain unchanged.",
+  "future_update_guard": "Current CSV bytes and metadata revision must match the explicitly reviewed supplement pin; future changes stop with a re-audit error until the pin is reviewed.",
+  "local_validation": "Full public JA/ZH suites once each; private runtime/data/test files byte-identical. Existing canonical generator regenerated to a temporary file within the test and retained exact CSV bytes.",
+  "cloud_verification": "Pending parent deployment and browser observations."
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "case_id": "JA-current-effective",
+    "language": "JA",
+    "edition": "current",
+    "input": "我 读is 于 丸ᴼ炎ᵀo 和ᴷ 丸ᵀ炎ᵀo 期ᴰᴹ 一 周o.\n兰炎ᵀ 兰炎ᵀa 兰炎ᵀaj 兰炎ᵀan 兰炎ᵀajn 兰炎ᵀe 兰炎ᵀi 兰炎ᵀas 兰炎ᵀis 兰炎ᵀos\n丸ᴼ炎ᵀ 丸ᴼ炎ᵀa 丸ᴼ炎ᵀi 丸ᴼ炎ᵀa 丸ᴼ炎ᵀi\n兰炎ᵀ者o 兰炎ᵀ性o 兰炎ᵀ反健o 兰炎ᵀ医行o 丸ᴼ炎ᵀ者o 丸ᴼ炎ᵀ者o\n丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀon 丸ᴼ炎ᵀojn 丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀo 丸ᴼ炎ᵀojn\n丸ᵀ炎ᵀ 丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 丸ᵀ 兰o it 炎 草ᴷᴿ\n放o 放ᴱo 讽o 讽ᴷo 讽ˢᴿo 周o.",
+    "output": "mi legis pri orkidito kaj testikito dum unu semajno.\norkidit orkidita orkiditaj orkiditan orkiditajn orkidite orkiditi orkiditas orkiditis orkiditos\norkidit orkidita orkiditi orkidita orkiditi\norkiditulo orkiditeco orkiditmalsano orkiditkuracado orkiditulo orkiditulo\norkidito orkiditoj orkiditon orkiditojn orkidito orkiditoj orkidito orkiditojn\ntestikit testikito testikitoj testikito testikito testik orkido it katar katari\nlaso emancipo satiro karikaturo sarkasmo semajno.",
+    "bytes": 476,
+    "sha256": "f33dbaf116b827a937d57118dd6c93b19803a1d04ff73e04ff103954ef3afcd0",
+    "filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-orkidit-inverse-20261018-v1_b9c55a7fd649.txt",
+    "provenance_caption": "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-orkidit-inverse-20261018-v1 / b9c55a7fd649",
+    "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:20:47.598Z",
+    "local_path": "cloud_outputs/JA-current-effective.txt"
+  },
+  {
+    "case_id": "ZH-current-effective",
+    "language": "ZH",
+    "edition": "current",
+    "input": "我 读is 于 丸ᴼ炎ᵀo 和ᴷ 丸ᵀ炎ᵀo 期ᴰᴹ 一 周o.\n兰炎ᵀ 兰炎ᵀa 兰炎ᵀaj 兰炎ᵀan 兰炎ᵀajn 兰炎ᵀe 兰炎ᵀi 兰炎ᵀas 兰炎ᵀis 兰炎ᵀos\n丸ᴼ炎ᵀ 丸ᴼ炎ᵀa 丸ᴼ炎ᵀi 丸ᴼ炎ᵀa 丸ᴼ炎ᵀi\n兰炎ᵀ者o 兰炎ᵀ性o 兰炎ᵀ反健o 兰炎ᵀ医行o 丸ᴼ炎ᵀ者o 丸ᴼ炎ᵀ者o\n丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀon 丸ᴼ炎ᵀojn 丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀo 丸ᴼ炎ᵀojn\n丸ᵀ炎ᵀ 丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 丸ᵀ 兰o it 炎 草ᴷᴿ\n放o 放ᴱo 讽o 讽ᴷo 讽ˢᴿo 周o.",
+    "output": "mi legis pri orkidito kaj testikito dum unu semajno.\norkidit orkidita orkiditaj orkiditan orkiditajn orkidite orkiditi orkiditas orkiditis orkiditos\norkidit orkidita orkiditi orkidita orkiditi\norkiditulo orkiditeco orkiditmalsano orkiditkuracado orkiditulo orkiditulo\norkidito orkiditoj orkiditon orkiditojn orkidito orkiditoj orkidito orkiditojn\ntestikit testikito testikitoj testikito testikito testik orkido it katar katari\nlaso emancipo satiro karikaturo sarkasmo semajno.",
+    "bytes": 476,
+    "sha256": "f33dbaf116b827a937d57118dd6c93b19803a1d04ff73e04ff103954ef3afcd0",
+    "filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-orkidit-inverse-20261018-v1_b9c55a7fd649 (1).txt",
+    "provenance_caption": "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-orkidit-inverse-20261018-v1 / b9c55a7fd649",
+    "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:20:48.161Z",
+    "local_path": "cloud_outputs/ZH-current-effective.txt"
+  },
+  {
+    "case_id": "JA-legacy-effective",
+    "language": "JA",
+    "edition": "legacy",
+    "input": "我 读is 于 丸ᴼ炎ᵀo 和ᴷ 丸ᵀ炎ᵀo 期ᴰᴹ 一 周o.\n兰炎ᵀ 兰炎ᵀa 兰炎ᵀaj 兰炎ᵀan 兰炎ᵀajn 兰炎ᵀe 兰炎ᵀi 兰炎ᵀas 兰炎ᵀis 兰炎ᵀos\n丸炎 丸炎a 丸炎i 丸炎a 丸炎i\n兰炎ᵀ者o 兰炎ᵀ性o 兰炎ᵀ反健o 兰炎ᵀ医行o 丸炎者o 丸炎者o\n丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀon 丸ᴼ炎ᵀojn 丸炎o 丸炎oj 丸炎o 丸炎ojn\n丸ᵀ炎ᵀ 丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸炎ᵀo 丸炎ᵀo 丸ᵀ 兰o it 炎 草ᴷᴿ\n留o 放o 讽刺o 讽o 讽ˢo 周o.",
+    "output": "mi legis pri orkidito kaj testikito dum unu semajno.\norkidit orkidita orkiditaj orkiditan orkiditajn orkidite orkiditi orkiditas orkiditis orkiditos\norkidit orkidita orkiditi orkidita orkiditi\norkiditulo orkiditeco orkiditmalsano orkiditkuracado orkiditulo orkiditulo\norkidito orkiditoj orkiditon orkiditojn orkidito orkiditoj orkidito orkiditojn\ntestikit testikito testikitoj testikito testikito testik orkido it katar katari\nlaso emancipo satiro karikaturo sarkasmo semajno.",
+    "bytes": 476,
+    "sha256": "f33dbaf116b827a937d57118dd6c93b19803a1d04ff73e04ff103954ef3afcd0",
+    "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb (4).txt",
+    "provenance_caption": "変換結果の版: 旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-inverse-aliases-20261018-v1 / 2ccba60edaeb",
+    "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:22:14.427Z",
+    "local_path": "cloud_outputs/JA-legacy-effective.txt"
+  },
+  {
+    "case_id": "ZH-legacy-effective",
+    "language": "ZH",
+    "edition": "legacy",
+    "input": "我 读is 于 丸ᴼ炎ᵀo 和ᴷ 丸ᵀ炎ᵀo 期ᴰᴹ 一 周o.\n兰炎ᵀ 兰炎ᵀa 兰炎ᵀaj 兰炎ᵀan 兰炎ᵀajn 兰炎ᵀe 兰炎ᵀi 兰炎ᵀas 兰炎ᵀis 兰炎ᵀos\n丸炎 丸炎a 丸炎i 丸炎a 丸炎i\n兰炎ᵀ者o 兰炎ᵀ性o 兰炎ᵀ反健o 兰炎ᵀ医行o 丸炎者o 丸炎者o\n丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀon 丸ᴼ炎ᵀojn 丸炎o 丸炎oj 丸炎o 丸炎ojn\n丸ᵀ炎ᵀ 丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸炎ᵀo 丸炎ᵀo 丸ᵀ 兰o it 炎 草ᴷᴿ\n留o 放o 讽刺o 讽o 讽ˢo 周o.",
+    "output": "mi legis pri orkidito kaj testikito dum unu semajno.\norkidit orkidita orkiditaj orkiditan orkiditajn orkidite orkiditi orkiditas orkiditis orkiditos\norkidit orkidita orkiditi orkidita orkiditi\norkiditulo orkiditeco orkiditmalsano orkiditkuracado orkiditulo orkiditulo\norkidito orkiditoj orkiditon orkiditojn orkidito orkiditoj orkidito orkiditojn\ntestikit testikito testikitoj testikito testikito testik orkido it katar katari\nlaso emancipo satiro karikaturo sarkasmo semajno.",
+    "bytes": 476,
+    "sha256": "f33dbaf116b827a937d57118dd6c93b19803a1d04ff73e04ff103954ef3afcd0",
+    "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb (5).txt",
+    "provenance_caption": "转换结果使用的版本: 旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-inverse-aliases-20261018-v1 / 2ccba60edaeb",
+    "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:22:15.014Z",
+    "local_path": "cloud_outputs/ZH-legacy-effective.txt"
+  }
+]
