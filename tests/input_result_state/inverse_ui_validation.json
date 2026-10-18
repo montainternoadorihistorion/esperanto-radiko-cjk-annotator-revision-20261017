@@ -1,0 +1,166 @@
+{
+  "passed": true,
+  "baseline_commit": "1665ea2",
+  "tested_commit": "953efb691c4666424b0105e033985bf421489a5d",
+  "rows": [
+    {
+      "language": "JA",
+      "modified_existing_functions": [
+        "render_sidebar",
+        "render_html_recovery",
+        "main"
+      ],
+      "unchanged_existing_functions_and_classes": [
+        "MappingEntry",
+        "MappingIndex",
+        "read_assignment_csv",
+        "read_assignment_csv_from_path",
+        "load_dictionary_source",
+        "_priority",
+        "create_mapping_entries",
+        "build_mapping_index",
+        "dataframe_to_mapping_records",
+        "load_current_inverse_aliases",
+        "current_inverse_mapping_records",
+        "current_effective_download_data",
+        "load_legacy_inverse_aliases",
+        "effective_mapping_records",
+        "legacy_effective_download_data",
+        "_build_mapping_index_payload_cached",
+        "build_mapping_index_cached",
+        "convert_kanji_esperanto_to_alphabet",
+        "load_selected_dataframe",
+        "dictionary_options",
+        "dictionary_label",
+        "selected_source_signature",
+        "source_provenance",
+        "edition_download_data",
+        "sample_text",
+        "_clear_html_recovery_result"
+      ],
+      "added_helpers": [
+        "_change_recovery_input_mode",
+        "_forget_html_upload",
+        "_remember_input_widget",
+        "_restore_input_widget",
+        "show_result_save_dialog"
+      ],
+      "data_and_html_parser_unchanged": true,
+      "entrypoint_sha256": "9138537f3638ab7c3752835ba7c0394c869050179db2b444c2be85226aba4390",
+      "regression_test_sha256": "3d0dfd58fc4a415ba551767e793b974635e5a6a70e00654c8404ded5ee934c38"
+    },
+    {
+      "language": "ZH",
+      "modified_existing_functions": [
+        "render_sidebar",
+        "render_html_recovery",
+        "main"
+      ],
+      "unchanged_existing_functions_and_classes": [
+        "MappingEntry",
+        "MappingIndex",
+        "read_assignment_csv",
+        "read_assignment_csv_from_path",
+        "load_dictionary_source",
+        "_priority",
+        "create_mapping_entries",
+        "build_mapping_index",
+        "dataframe_to_mapping_records",
+        "load_current_inverse_aliases",
+        "current_inverse_mapping_records",
+        "current_effective_download_data",
+        "load_legacy_inverse_aliases",
+        "effective_mapping_records",
+        "legacy_effective_download_data",
+        "_build_mapping_index_payload_cached",
+        "build_mapping_index_cached",
+        "convert_kanji_esperanto_to_alphabet",
+        "load_selected_dataframe",
+        "dictionary_options",
+        "dictionary_label",
+        "selected_source_signature",
+        "source_provenance",
+        "edition_download_data",
+        "sample_text",
+        "_clear_html_recovery_result"
+      ],
+      "added_helpers": [
+        "_change_recovery_input_mode",
+        "_forget_html_upload",
+        "_remember_input_widget",
+        "_restore_input_widget",
+        "show_result_save_dialog"
+      ],
+      "data_and_html_parser_unchanged": true,
+      "entrypoint_sha256": "fc7505b5092ba01bd3a8f4122fbdd4bec6364b4af543d3a80dc5709cbb149dcd",
+      "regression_test_sha256": "b60da47db5f88dea82f94f6cef92d953bf20ec022b24d86b065ef3b6f88f6dcc"
+    }
+  ],
+  "validation": {
+    "new_regression_AppTests": {
+      "JA": {
+        "passed": 19,
+        "log": "dialog_state_JA.log"
+      },
+      "ZH": {
+        "passed": 19,
+        "log": "dialog_state_ZH.log"
+      }
+    },
+    "existing_HTML_UI_tests": {
+      "JA": 10,
+      "ZH": 10
+    },
+    "existing_two_edition_UI_tests": {
+      "JA": 6,
+      "ZH": 6
+    },
+    "legacy_UI_save_flow_followup": {
+      "JA": {
+        "passed": 3,
+        "log": "dialog_legacy_JA.log"
+      },
+      "ZH": {
+        "passed": 3,
+        "log": "dialog_legacy_ZH.log"
+      }
+    },
+    "full_inverse_pytest": {
+      "JA": {
+        "passed": 311,
+        "seconds": 183.37,
+        "log": "pytest_JA.log"
+      },
+      "ZH": {
+        "passed": 311,
+        "seconds": 183.81,
+        "log": "pytest_ZH.log"
+      }
+    },
+    "dictionary_sync": {
+      "JA": {
+        "passed": true,
+        "checks": 3,
+        "log": "dictionary_sync_JA.log"
+      },
+      "ZH": {
+        "passed": true,
+        "checks": 3,
+        "log": "dictionary_sync_ZH.log"
+      }
+    },
+    "method": "Local Streamlit AppTest. File uploader interactions use the registered real callback with test upload objects because AppTest has no file-upload driver. No browser or Cloud test in this subtask."
+  },
+  "changes": [
+    "Read-only plain result matches the unchanged download payload.",
+    "Result download is available only inside the modal after server validation of the current input and edition.",
+    "The modal shows the readonly snapshot and filename; its download uses that exact UTF-8 text without rerunning.",
+    "Pending input, edition, HTML direction or source selection changes cannot open a stale save dialog.",
+    "Closing the save dialog reruns the full app and retains inputs while removing the direct download control.",
+    "Persist plain draft, standard edition, custom CSV enabled state outside widget keys.",
+    "Persist HTML pasted source, direction and source choice; changing workflow invalidates results.",
+    "Retain validated <=10MiB HTML upload source/name across widget cleanup, with explicit release.",
+    "Removed, invalid UTF-8 or oversized replacement files clear retained input and cannot fall back.",
+    "Custom CSV bytes are not cached; its selected mode survives and requires re-upload after cleanup."
+  ]
+}

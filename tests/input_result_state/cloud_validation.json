@@ -1,0 +1,609 @@
+{
+  "forward": [
+    {
+      "case": "JA_current_pure",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "19189bc7e961e2facdcf3a607a72426c4c5bfeae5bebefda945fcc9780376888",
+      "download_file": "JA_current_pure.txt"
+    },
+    {
+      "case": "ZH_current_pure",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "19189bc7e961e2facdcf3a607a72426c4c5bfeae5bebefda945fcc9780376888",
+      "download_file": "ZH_current_pure.txt"
+    },
+    {
+      "case": "KO_current_pure",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "19189bc7e961e2facdcf3a607a72426c4c5bfeae5bebefda945fcc9780376888",
+      "download_file": "KO_current_pure.txt"
+    },
+    {
+      "case": "JA_legacy_pure",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "adad0460e321dc9a1ae59784aa8863d8626f2c27d5b516c79e7eb51d78400e09",
+      "download_file": "JA_legacy_pure.txt"
+    },
+    {
+      "case": "ZH_legacy_pure",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "adad0460e321dc9a1ae59784aa8863d8626f2c27d5b516c79e7eb51d78400e09",
+      "download_file": "ZH_legacy_pure.txt"
+    },
+    {
+      "case": "KO_legacy_pure",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "adad0460e321dc9a1ae59784aa8863d8626f2c27d5b516c79e7eb51d78400e09",
+      "download_file": "KO_legacy_pure.txt"
+    },
+    {
+      "case": "JA_current_kanji",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "1aac82540ec2e816d227e39460a9e608b10747e2e85503716699d368b4f9d59c",
+      "download_file": "JA_current_kanji.html"
+    },
+    {
+      "case": "ZH_current_kanji",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "d5d0bba95055ead9d001660ef9a4bf3e37b9016b8155db0c054cccc07f2b7c80",
+      "download_file": "ZH_current_kanji.html"
+    },
+    {
+      "case": "JA_legacy_kanji",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "15d756c8f8da307b052149734cff1bbb98a234a9d430ae1e2714f138e84aa022",
+      "download_file": "JA_legacy_kanji.html"
+    },
+    {
+      "case": "KO_legacy_kanji",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "2d5f0d6d0ede396c997d36e9430f14dc7b3087035a29ec2112b964bb20b9c8e3",
+      "download_file": "KO_legacy_kanji.html"
+    },
+    {
+      "case": "ZH_legacy_kanji",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "67fd410e1cf326963d1a451d147dc3df3e787a22f4b860ae50f2e8043295efee",
+      "download_file": "ZH_legacy_kanji.html"
+    },
+    {
+      "case": "JA_legacy_ruby",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "a3f7195866605ffd46806901e6a0d2c245e126a13f06bf463adbd47b3c13f232",
+      "download_file": "JA_legacy_ruby.html"
+    },
+    {
+      "case": "KO_current_kanji",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "f6c8c6632e1c48d52d26347e55a92520a83ad6d8eec1165b9be6c93e9ff9140e",
+      "download_file": "KO_current_kanji.html"
+    },
+    {
+      "case": "ZH_legacy_ruby",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "52f235f4e6cda67e01bbed674ce5ab75a162a23229f4c8723c75d18173abcf0e",
+      "download_file": "ZH_legacy_ruby.html"
+    },
+    {
+      "case": "JA_current_ruby",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "9003f95053747383f0c60402278e8a07170269eb8cec813384b5ffaaa5c7dae1",
+      "download_file": "JA_current_ruby.html"
+    },
+    {
+      "case": "KO_current_ruby",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "518812733b98ecca5788407901111b6fd3d84dcdc171b28971ea3015fbbd815c",
+      "download_file": "KO_current_ruby.html"
+    },
+    {
+      "case": "ZH_current_ruby",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "af68b9350c64c1db5c79ef1295f48aeaa9554cfdea9fbc5ccca3d841dac72559",
+      "download_file": "ZH_current_ruby.html"
+    },
+    {
+      "case": "KO_legacy_ruby",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "body_matches": true,
+      "edition_matches": true,
+      "filename_edition_matches": true,
+      "sha256": "a49d97b56b49a6af37b7914e4f9d471408c139cf443494d3959b85295af0e0af",
+      "download_file": "KO_legacy_ruby.html"
+    }
+  ],
+  "inverse": [
+    {
+      "case": "inverse_JA_current_plain",
+      "kind": "plain",
+      "language": "JA",
+      "edition": "current",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "sha256": "24f7c56f09caa63ad1e2333d59b02c43413ba086d4a0a59ccc010bc178d5e15c",
+      "filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e (4).txt"
+    },
+    {
+      "case": "inverse_ZH_current_plain",
+      "kind": "plain",
+      "language": "ZH",
+      "edition": "current",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "sha256": "24f7c56f09caa63ad1e2333d59b02c43413ba086d4a0a59ccc010bc178d5e15c",
+      "filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e (5).txt"
+    },
+    {
+      "case": "inverse_JA_legacy_plain",
+      "kind": "plain",
+      "language": "JA",
+      "edition": "legacy",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "sha256": "24f7c56f09caa63ad1e2333d59b02c43413ba086d4a0a59ccc010bc178d5e15c",
+      "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69 (4).txt"
+    },
+    {
+      "case": "inverse_ZH_legacy_plain",
+      "kind": "plain",
+      "language": "ZH",
+      "edition": "legacy",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "sha256": "24f7c56f09caa63ad1e2333d59b02c43413ba086d4a0a59ccc010bc178d5e15c",
+      "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69 (5).txt"
+    },
+    {
+      "case": "html_inverse_JA_from_JA_current_kanji",
+      "kind": "html",
+      "language": "JA",
+      "edition": "current",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_current_kanji_44d78a244e64 (1).txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_ZH_from_JA_current_kanji",
+      "kind": "html",
+      "language": "ZH",
+      "edition": "current",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_current_kanji_44d78a244e64 (2).txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_JA_from_JA_legacy_kanji",
+      "kind": "html",
+      "language": "JA",
+      "edition": "legacy",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_legacy_kanji_b7e84fb31b9c.txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_ZH_from_JA_legacy_kanji",
+      "kind": "html",
+      "language": "ZH",
+      "edition": "legacy",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_legacy_kanji_b7e84fb31b9c (1).txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_JA_from_ZH_current_kanji",
+      "kind": "html",
+      "language": "JA",
+      "edition": "current",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_current_kanji_641bf4ef664b.txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_ZH_from_ZH_current_kanji",
+      "kind": "html",
+      "language": "ZH",
+      "edition": "current",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_current_kanji_641bf4ef664b (1).txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_JA_from_ZH_legacy_kanji",
+      "kind": "html",
+      "language": "JA",
+      "edition": "legacy",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_legacy_kanji_cfef6d74afac.txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_ZH_from_ZH_legacy_kanji",
+      "kind": "html",
+      "language": "ZH",
+      "edition": "legacy",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_legacy_kanji_cfef6d74afac (1).txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_JA_from_KO_current_kanji",
+      "kind": "html",
+      "language": "JA",
+      "edition": "current",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_current_kanji_e22ddbd96ea6.txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_ZH_from_KO_current_kanji",
+      "kind": "html",
+      "language": "ZH",
+      "edition": "current",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_current_kanji_e22ddbd96ea6 (1).txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_JA_from_KO_legacy_kanji",
+      "kind": "html",
+      "language": "JA",
+      "edition": "legacy",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_legacy_kanji_a2c0699038be.txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_ZH_from_KO_legacy_kanji",
+      "kind": "html",
+      "language": "ZH",
+      "edition": "legacy",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_legacy_kanji_a2c0699038be (1).txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_JA_from_JA_current_ruby",
+      "kind": "html",
+      "language": "JA",
+      "edition": "current",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_current_annotation_2bee196e1820.txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_ZH_from_JA_current_ruby",
+      "kind": "html",
+      "language": "ZH",
+      "edition": "current",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_current_annotation_2bee196e1820 (1).txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_JA_from_JA_legacy_ruby",
+      "kind": "html",
+      "language": "JA",
+      "edition": "legacy",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_legacy_annotation_7a521981d8a8.txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_ZH_from_JA_legacy_ruby",
+      "kind": "html",
+      "language": "ZH",
+      "edition": "legacy",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_legacy_annotation_7a521981d8a8 (1).txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_JA_from_ZH_current_ruby",
+      "kind": "html",
+      "language": "JA",
+      "edition": "current",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_current_annotation_40ebe017cb30.txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_ZH_from_ZH_current_ruby",
+      "kind": "html",
+      "language": "ZH",
+      "edition": "current",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_current_annotation_40ebe017cb30 (1).txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_JA_from_ZH_legacy_ruby",
+      "kind": "html",
+      "language": "JA",
+      "edition": "legacy",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_legacy_annotation_c15214e6dac8.txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_ZH_from_ZH_legacy_ruby",
+      "kind": "html",
+      "language": "ZH",
+      "edition": "legacy",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_legacy_annotation_c15214e6dac8 (1).txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_JA_from_KO_current_ruby",
+      "kind": "html",
+      "language": "JA",
+      "edition": "current",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_current_annotation_03a59dba9c17.txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_ZH_from_KO_current_ruby",
+      "kind": "html",
+      "language": "ZH",
+      "edition": "current",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_current_annotation_03a59dba9c17 (1).txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_JA_from_KO_legacy_ruby",
+      "kind": "html",
+      "language": "JA",
+      "edition": "legacy",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_legacy_annotation_5d7b55c489dd.txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    },
+    {
+      "case": "html_inverse_ZH_from_KO_legacy_ruby",
+      "kind": "html",
+      "language": "ZH",
+      "edition": "legacy",
+      "display_matches": true,
+      "readonly": true,
+      "modal_matches": true,
+      "download_matches": true,
+      "filename": "esperanto_html_legacy_annotation_5d7b55c489dd (1).txt",
+      "sha256": "07c6eb0257e87cbb1ce27b2f6bceaaa7c8a7220d38e8cfea6fc7a0b7b14f8bc6"
+    }
+  ],
+  "guards": [
+    {
+      "case": "forward_pending_input_edit_blocks_save",
+      "pass": true,
+      "alerts": [
+        "✅ 注釈ルビモードの準備ができました。このまま下の入力欄に文章を入れて「🔁 変換する」を押してください。",
+        "出力形式: HTMLルビ形式(幅調整つき) — 同梱の注釈ルビJSONに合わせて自動選択済み。語根の上に訳がルビ表示されます。",
+        "入力または入力方法が変わりました。もう一度変換してから保存してください。"
+      ]
+    },
+    {
+      "case": "forward_draft_survives_mode_switch",
+      "pass": true
+    },
+    {
+      "case": "inverse_JA_plain_html_roundtrip",
+      "pass": true,
+      "input_preserved": true,
+      "edition_preserved": true,
+      "requires_reconversion": true
+    },
+    {
+      "case": "inverse_ZH_plain_html_roundtrip",
+      "pass": true,
+      "input_preserved": true,
+      "edition_preserved": true,
+      "requires_reconversion": true
+    },
+    {
+      "case": "inverse_JA_HTML_draft_and_direction_preserved",
+      "pass": true,
+      "html_draft_preserved": true,
+      "direction_preserved": true
+    },
+    {
+      "case": "inverse_ZH_HTML_draft_and_direction_preserved",
+      "pass": true,
+      "html_draft_preserved": true,
+      "direction_preserved": true
+    },
+    {
+      "case": "forward_pending_result_edit_snapshot_matches_file",
+      "pass": true,
+      "modal": "放is  %保護%\nĉ",
+      "download": "放is  %保護%\nĉ"
+    },
+    {
+      "case": "HTML_upload_JA_recovery",
+      "pass": true
+    },
+    {
+      "case": "HTML_upload_ZH_recovery",
+      "pass": true
+    },
+    {
+      "case": "forward_empty_upload_clears_draft_and_stale_save",
+      "pass": true
+    },
+    {
+      "case": "HTML_upload_JA_retained_after_plain_mode",
+      "pass": true,
+      "retained_filename": "KO_legacy_ruby.html"
+    },
+    {
+      "case": "HTML_upload_ZH_retained_after_plain_mode",
+      "pass": true,
+      "retained_filename": "KO_legacy_ruby.html"
+    },
+    {
+      "case": "forward_invalid_UTF8_blocks_old_save",
+      "pass": true
+    },
+    {
+      "case": "HTML_upload_JA_retained_source_recovers",
+      "pass": true
+    },
+    {
+      "case": "HTML_upload_ZH_retained_source_recovers",
+      "pass": true
+    },
+    {
+      "case": "HTML_retained_upload_explicit_clear",
+      "pass": true
+    },
+    {
+      "case": "HTML_invalid_UTF8_replacement_clears_old_source",
+      "pass": true,
+      "alerts": [
+        "无法读取HTML文件: The HTML file must be valid UTF-8."
+      ]
+    }
+  ],
+  "downloads": [],
+  "screenshots": [
+    "cloud_save_confirmation.png"
+  ],
+  "baseline": "1665ea2",
+  "deployed_commit": "542c2405c949850b666b562deb21e70b203b2566",
+  "summary": {
+    "forward_routes": 18,
+    "plain_inverse_routes": 4,
+    "html_inverse_routes": 24,
+    "state_guards": 17,
+    "all_pass": true
+  }
+}

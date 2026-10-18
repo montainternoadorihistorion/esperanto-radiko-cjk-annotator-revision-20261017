@@ -12,6 +12,14 @@
       "modal": "菠o  %保護%\nĉ",
       "actual": "菠o  %保護%\nĉ",
       "pass": true
+    },
+    {
+      "case": "empty_upload_clears_input",
+      "pass": true
+    },
+    {
+      "case": "invalid_utf8_hides_save",
+      "pass": true
     }
   ]
 }

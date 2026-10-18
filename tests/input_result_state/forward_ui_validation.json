@@ -33,6 +33,6 @@
     "snapshot_download_bytes_checked": true
   },
   "source_invariants": "forward_source_invariants.json",
-  "limitations": "AppTest does not simulate frontend blur/download races. Root independently verified the actual local browser behavior; see ../local_modal_probe.json. No browser operation or deployment performed by this subagent.",
+  "limitations": "AppTest does not simulate frontend blur/download races. Actual local-browser verification is recorded in local_browser_validation.json; deployed Chrome verification is recorded in cloud_validation.json.",
   "successful_conversion_submissions": 30
 }
