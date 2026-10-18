@@ -1,0 +1,129 @@
+{
+  "passed_local": true,
+  "records": [
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "full",
+      "bytes": 317760,
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+      "source_id": "pejvo-piv-20260620",
+      "entrypoint_sha256": "977b99f9204b56af084353ee048dba79e068b1444839fd33fca9ab058d0de893"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "two_column",
+      "bytes": 176571,
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+      "source_id": "pejvo-piv-20260620",
+      "entrypoint_sha256": "977b99f9204b56af084353ee048dba79e068b1444839fd33fca9ab058d0de893"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "effective",
+      "bytes": 197974,
+      "sha256": "5031b700165d305364574a9815fc091b1b32f8782c7bc684c26837b855b8bb7f",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-orkidit-inverse-20261018-v1_b9c55a7fd649.csv",
+      "source_id": "pejvo-piv-20260620",
+      "entrypoint_sha256": "977b99f9204b56af084353ee048dba79e068b1444839fd33fca9ab058d0de893"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "full",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+      "source_id": "pre-las-20261017",
+      "entrypoint_sha256": "977b99f9204b56af084353ee048dba79e068b1444839fd33fca9ab058d0de893"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "two_column",
+      "bytes": 166998,
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+      "source_id": "pre-las-20261017",
+      "entrypoint_sha256": "977b99f9204b56af084353ee048dba79e068b1444839fd33fca9ab058d0de893"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "effective",
+      "bytes": 188366,
+      "sha256": "137eb963f9dfbb69e5d989c806c17cf1e1bbc3d66c6654a27c94a24aff8cfde1",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb.csv",
+      "source_id": "pre-las-20261017",
+      "entrypoint_sha256": "977b99f9204b56af084353ee048dba79e068b1444839fd33fca9ab058d0de893"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "full",
+      "bytes": 317760,
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+      "source_id": "pejvo-piv-20260620",
+      "entrypoint_sha256": "43c0846e739cd790eb7fcea1765375b86ad30ad3e28485473c71121520af77b1"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "two_column",
+      "bytes": 176571,
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+      "source_id": "pejvo-piv-20260620",
+      "entrypoint_sha256": "43c0846e739cd790eb7fcea1765375b86ad30ad3e28485473c71121520af77b1"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "effective",
+      "bytes": 197974,
+      "sha256": "5031b700165d305364574a9815fc091b1b32f8782c7bc684c26837b855b8bb7f",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-orkidit-inverse-20261018-v1_b9c55a7fd649.csv",
+      "source_id": "pejvo-piv-20260620",
+      "entrypoint_sha256": "43c0846e739cd790eb7fcea1765375b86ad30ad3e28485473c71121520af77b1"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "full",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+      "source_id": "pre-las-20261017",
+      "entrypoint_sha256": "43c0846e739cd790eb7fcea1765375b86ad30ad3e28485473c71121520af77b1"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "two_column",
+      "bytes": 166998,
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+      "source_id": "pre-las-20261017",
+      "entrypoint_sha256": "43c0846e739cd790eb7fcea1765375b86ad30ad3e28485473c71121520af77b1"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "effective",
+      "bytes": 188366,
+      "sha256": "137eb963f9dfbb69e5d989c806c17cf1e1bbc3d66c6654a27c94a24aff8cfde1",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb.csv",
+      "source_id": "pre-las-20261017",
+      "entrypoint_sha256": "43c0846e739cd790eb7fcea1765375b86ad30ad3e28485473c71121520af77b1"
+    }
+  ],
+  "fixture_sha256": "8a428aa99a8c89642569bb11738a494fc45140d380ffe437af8af4e1deb0a4f0",
+  "app_validation_sha256": "348c4acd699435e13e2ab19bf5ad20833e3c99d168c1b3aeb9013ecb39168ee7",
+  "stage": "Local CSV bytes checked; Cloud measurements are separate.",
+  "script_sha256": "01d91cdb0df2b9b1c0e887e94ecf4333be6e3b0d008e2b9be06efd1eb69bf71c"
+}

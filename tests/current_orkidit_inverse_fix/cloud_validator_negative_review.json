@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "name": "missing_forward_case",
+      "rejected": true,
+      "status": "incomplete"
+    },
+    {
+      "name": "duplicate_forward_case",
+      "rejected": true
+    },
+    {
+      "name": "wrong_inverse_text",
+      "rejected": true
+    },
+    {
+      "name": "wrong_csv_digest",
+      "rejected": true
+    },
+    {
+      "name": "wrong_csv_filename",
+      "rejected": true
+    },
+    {
+      "name": "wrong_custom_upload",
+      "rejected": true
+    },
+    {
+      "name": "lost_old_caption",
+      "rejected": true
+    },
+    {
+      "name": "wrong_reconversion",
+      "rejected": true
+    },
+    {
+      "name": "outside_evidence_file",
+      "rejected": true
+    },
+    {
+      "name": "fixture_text_digest_mismatch",
+      "rejected": true
+    },
+    {
+      "name": "modified_download_bytes",
+      "rejected": true
+    }
+  ],
+  "production_and_observation_writes": 0,
+  "validator_sha256": "c400a8d1d14c04f85d797af33a5d4638130ecea3ed81122ab21ebfd419d87fdc",
+  "source_observation_sha256": {
+    "cloud_forward.json": "c222f8ac158ccabb231f0466e96bd6f77c407ddf03bea145887c5b71a42374e9",
+    "cloud_inverse.json": "c79c1cf08e6cb3b62b3a4229b6715b6f298cf530992c8b202e843ff561b242e8",
+    "cloud_downloads.json": "55f5f0cb4841bf5b80176a5108a2e7c975d275fa307850592d1e1a6ac707914b",
+    "cloud_custom.json": "f5bdbbccb2c77ff39ec27ebc572a39fcc7f4f382f81cad5e98cf0d88301179cf",
+    "cloud_guards.json": "a3d10954e98a0b6c4b51f492c9c0a865890c88e860f5a2fc272e3f2cbb695097"
+  }
+}

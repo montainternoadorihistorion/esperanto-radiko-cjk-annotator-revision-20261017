@@ -1,0 +1,20 @@
+[
+  {
+    "language": "ZH",
+    "kind": "deployment_update",
+    "old_caption": "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590",
+    "download_disabled": true,
+    "output": "orkidkatarᵀ orkidkatarᵀa orkidkatarᵀaj orkidkatarᵀe orkidkatarᵀi orkidkatarᵀis\norkidito testikito orkido katarᵀ",
+    "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:20:38.914Z"
+  },
+  {
+    "language": "JA",
+    "kind": "deployment_update",
+    "old_caption": "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590",
+    "download_disabled": true,
+    "output": "orkidkatarᵀ orkidkatarᵀa orkidkatarᵀaj orkidkatarᵀe orkidkatarᵀi orkidkatarᵀis\norkidito testikito orkido katarᵀ",
+    "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:20:39.019Z"
+  }
+]

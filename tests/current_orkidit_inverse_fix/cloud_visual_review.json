@@ -1,0 +1,14 @@
+{
+  "reviewed_utc": "2026-10-18T06:23:37.329Z",
+  "review": "Both actual Cloud screenshots visually checked: new edition selected; unchanged kanjized inputs, restored root/adjective/verb/compound/noun forms, and supplement provenance visible.",
+  "screenshots": [
+    {
+      "file": "screenshots/cloud_ja_current.png",
+      "sha256": "746524a922ac041346270483ce0a8ac02347b9d316ba490db8184f06edf759cb"
+    },
+    {
+      "file": "screenshots/cloud_zh_current.png",
+      "sha256": "0f5c7254cb2b8b6104c2e17ece6fc09895a8a837b6cf292986d0322b19df8f20"
+    }
+  ]
+}

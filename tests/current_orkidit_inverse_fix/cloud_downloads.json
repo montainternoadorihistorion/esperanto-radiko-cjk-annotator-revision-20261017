@@ -1,0 +1,134 @@
+[
+  {
+    "kind": "full",
+    "language": "JA",
+    "edition": "current",
+    "bytes": 317760,
+    "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+    "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (2).csv",
+    "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:20:59.360Z",
+    "local_path": "cloud_outputs/JA-current-full.csv"
+  },
+  {
+    "kind": "two_column",
+    "language": "JA",
+    "edition": "current",
+    "bytes": 176571,
+    "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+    "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (2).csv",
+    "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:21:00.041Z",
+    "local_path": "cloud_outputs/JA-current-two_column.csv"
+  },
+  {
+    "kind": "effective",
+    "language": "JA",
+    "edition": "current",
+    "bytes": 197974,
+    "sha256": "5031b700165d305364574a9815fc091b1b32f8782c7bc684c26837b855b8bb7f",
+    "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-orkidit-inverse-20261018-v1_b9c55a7fd649.csv",
+    "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:21:00.751Z",
+    "local_path": "cloud_outputs/JA-current-effective.csv"
+  },
+  {
+    "kind": "full",
+    "language": "ZH",
+    "edition": "current",
+    "bytes": 317760,
+    "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+    "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (3).csv",
+    "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:21:01.386Z",
+    "local_path": "cloud_outputs/ZH-current-full.csv"
+  },
+  {
+    "kind": "two_column",
+    "language": "ZH",
+    "edition": "current",
+    "bytes": 176571,
+    "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+    "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (3).csv",
+    "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:21:02.001Z",
+    "local_path": "cloud_outputs/ZH-current-two_column.csv"
+  },
+  {
+    "kind": "effective",
+    "language": "ZH",
+    "edition": "current",
+    "bytes": 197974,
+    "sha256": "5031b700165d305364574a9815fc091b1b32f8782c7bc684c26837b855b8bb7f",
+    "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-orkidit-inverse-20261018-v1_b9c55a7fd649 (1).csv",
+    "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:21:02.684Z",
+    "local_path": "cloud_outputs/ZH-current-effective.csv"
+  },
+  {
+    "kind": "full",
+    "language": "JA",
+    "edition": "legacy",
+    "bytes": 306934,
+    "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+    "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a (4).csv",
+    "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:22:15.884Z",
+    "local_path": "cloud_outputs/JA-legacy-full.csv"
+  },
+  {
+    "kind": "two_column",
+    "language": "JA",
+    "edition": "legacy",
+    "bytes": 166998,
+    "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+    "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (4).csv",
+    "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:22:16.472Z",
+    "local_path": "cloud_outputs/JA-legacy-two_column.csv"
+  },
+  {
+    "kind": "effective",
+    "language": "JA",
+    "edition": "legacy",
+    "bytes": 188366,
+    "sha256": "137eb963f9dfbb69e5d989c806c17cf1e1bbc3d66c6654a27c94a24aff8cfde1",
+    "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb (2).csv",
+    "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:22:17.196Z",
+    "local_path": "cloud_outputs/JA-legacy-effective.csv"
+  },
+  {
+    "kind": "full",
+    "language": "ZH",
+    "edition": "legacy",
+    "bytes": 306934,
+    "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+    "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a (5).csv",
+    "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:22:17.823Z",
+    "local_path": "cloud_outputs/ZH-legacy-full.csv"
+  },
+  {
+    "kind": "two_column",
+    "language": "ZH",
+    "edition": "legacy",
+    "bytes": 166998,
+    "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+    "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (5).csv",
+    "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:22:18.451Z",
+    "local_path": "cloud_outputs/ZH-legacy-two_column.csv"
+  },
+  {
+    "kind": "effective",
+    "language": "ZH",
+    "edition": "legacy",
+    "bytes": 188366,
+    "sha256": "137eb963f9dfbb69e5d989c806c17cf1e1bbc3d66c6654a27c94a24aff8cfde1",
+    "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb (3).csv",
+    "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:22:19.008Z",
+    "local_path": "cloud_outputs/ZH-legacy-effective.csv"
+  }
+]

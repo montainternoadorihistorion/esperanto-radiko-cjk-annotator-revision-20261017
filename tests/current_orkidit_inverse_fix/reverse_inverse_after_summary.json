@@ -1,0 +1,277 @@
+{
+  "passed": true,
+  "phase": "after",
+  "old_dictionary_key_output_changes": [],
+  "control_changes": [],
+  "approved_probe_changes": [
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀ",
+      "before": "orkidkatarᵀ",
+      "after": "orkidit"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀo",
+      "before": "orkidkatarᵀo",
+      "after": "orkidito"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀoj",
+      "before": "orkidkatarᵀoj",
+      "after": "orkiditoj"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀon",
+      "before": "orkidkatarᵀon",
+      "after": "orkiditon"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀojn",
+      "before": "orkidkatarᵀojn",
+      "after": "orkiditojn"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀa",
+      "before": "orkidkatarᵀa",
+      "after": "orkidita"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀaj",
+      "before": "orkidkatarᵀaj",
+      "after": "orkiditaj"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀan",
+      "before": "orkidkatarᵀan",
+      "after": "orkiditan"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀajn",
+      "before": "orkidkatarᵀajn",
+      "after": "orkiditajn"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀe",
+      "before": "orkidkatarᵀe",
+      "after": "orkidite"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀi",
+      "before": "orkidkatarᵀi",
+      "after": "orkiditi"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀas",
+      "before": "orkidkatarᵀas",
+      "after": "orkiditas"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀis",
+      "before": "orkidkatarᵀis",
+      "after": "orkiditis"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀos",
+      "before": "orkidkatarᵀos",
+      "after": "orkiditos"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀulo",
+      "before": "orkidkatarᵀulo",
+      "after": "orkiditulo"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀeco",
+      "before": "orkidkatarᵀeco",
+      "after": "orkiditeco"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀmalsano",
+      "before": "orkidkatarᵀmalsano",
+      "after": "orkiditmalsano"
+    },
+    {
+      "language": "JA",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀkuracado",
+      "before": "orkidkatarᵀkuracado",
+      "after": "orkiditkuracado"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀ",
+      "before": "orkidkatarᵀ",
+      "after": "orkidit"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀo",
+      "before": "orkidkatarᵀo",
+      "after": "orkidito"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀoj",
+      "before": "orkidkatarᵀoj",
+      "after": "orkiditoj"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀon",
+      "before": "orkidkatarᵀon",
+      "after": "orkiditon"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀojn",
+      "before": "orkidkatarᵀojn",
+      "after": "orkiditojn"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀa",
+      "before": "orkidkatarᵀa",
+      "after": "orkidita"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀaj",
+      "before": "orkidkatarᵀaj",
+      "after": "orkiditaj"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀan",
+      "before": "orkidkatarᵀan",
+      "after": "orkiditan"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀajn",
+      "before": "orkidkatarᵀajn",
+      "after": "orkiditajn"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀe",
+      "before": "orkidkatarᵀe",
+      "after": "orkidite"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀi",
+      "before": "orkidkatarᵀi",
+      "after": "orkiditi"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀas",
+      "before": "orkidkatarᵀas",
+      "after": "orkiditas"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀis",
+      "before": "orkidkatarᵀis",
+      "after": "orkiditis"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀos",
+      "before": "orkidkatarᵀos",
+      "after": "orkiditos"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀulo",
+      "before": "orkidkatarᵀulo",
+      "after": "orkiditulo"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀeco",
+      "before": "orkidkatarᵀeco",
+      "after": "orkiditeco"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀmalsano",
+      "before": "orkidkatarᵀmalsano",
+      "after": "orkiditmalsano"
+    },
+    {
+      "language": "ZH",
+      "source": "pejvo-piv-20260620",
+      "input": "兰炎ᵀkuracado",
+      "before": "orkidkatarᵀkuracado",
+      "after": "orkiditkuracado"
+    }
+  ],
+  "legacy_and_all_intermediate_sources_unchanged": true,
+  "fixed_csv_rows_unchanged": true,
+  "effective_current_keys_added": 1,
+  "languages": [
+    {
+      "language": "JA",
+      "sources": 8,
+      "dictionary_keys": 85303,
+      "key_suffix_queries": 255909
+    },
+    {
+      "language": "ZH",
+      "sources": 8,
+      "dictionary_keys": 85303,
+      "key_suffix_queries": 255909
+    }
+  ]
+}

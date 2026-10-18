@@ -1,0 +1,274 @@
+{
+  "passed": true,
+  "scope": "Exactly one new-edition inverse alias, 兰炎ᵀ -> orkidit; previous fixed-old aliases and all forward results retained.",
+  "forward_routes": 18,
+  "inputs_per_route": 173,
+  "forward_before_after_exact_cases": 3114,
+  "forward_before_after_changes": 0,
+  "forward_assets_unchanged": {
+    "private": 87,
+    "public": 84
+  },
+  "inverse_results_compared": 4152,
+  "approved_current_inverse_improvements": 180,
+  "approved_improvements_exact_original_lower": 96,
+  "approved_improvements_only_outer_whitespace": 84,
+  "unapproved_inverse_changes": 0,
+  "legacy_inverse_changes": 0,
+  "existing_original_lower_results_regressed": 0,
+  "after_result_classification": {
+    "exact_original_lower": 2172,
+    "only_outer_whitespace_difference": 1956,
+    "mixed_cjk_control_not_original_esperanto_roundtrip": 24
+  },
+  "classification_by_route": {
+    "JA/current/ruby": {},
+    "JA/current/kanji": {
+      "exact_original_lower": 18,
+      "only_outer_whitespace_difference": 326,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "JA/current/pure": {
+      "exact_original_lower": 344,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "JA/legacy/ruby": {},
+    "JA/legacy/kanji": {
+      "exact_original_lower": 18,
+      "only_outer_whitespace_difference": 326,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "JA/legacy/pure": {
+      "exact_original_lower": 344,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "ZH/current/ruby": {},
+    "ZH/current/kanji": {
+      "exact_original_lower": 18,
+      "only_outer_whitespace_difference": 326,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "ZH/current/pure": {
+      "exact_original_lower": 344,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "ZH/legacy/ruby": {},
+    "ZH/legacy/kanji": {
+      "exact_original_lower": 18,
+      "only_outer_whitespace_difference": 326,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "ZH/legacy/pure": {
+      "exact_original_lower": 344,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "KO/current/ruby": {},
+    "KO/current/kanji": {
+      "exact_original_lower": 18,
+      "only_outer_whitespace_difference": 326,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "KO/current/pure": {
+      "exact_original_lower": 344,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "KO/legacy/ruby": {},
+    "KO/legacy/kanji": {
+      "exact_original_lower": 18,
+      "only_outer_whitespace_difference": 326,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "KO/legacy/pure": {
+      "exact_original_lower": 344,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    }
+  },
+  "remaining_nonwhitespace_mismatches_for_esperanto_inputs": 0,
+  "approved_unique_input_changes": [
+    {
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "orkidit",
+      "forward_visible": "\n兰炎ᵀ",
+      "inverse_language": "JA",
+      "before": "\norkidkatarᵀ",
+      "after": "\norkidit",
+      "exact_original_lower": false
+    },
+    {
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "orkidita",
+      "forward_visible": "\n兰炎ᵀa",
+      "inverse_language": "JA",
+      "before": "\norkidkatarᵀa",
+      "after": "\norkidita",
+      "exact_original_lower": false
+    },
+    {
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "orkiditaj",
+      "forward_visible": "\n兰炎ᵀaj",
+      "inverse_language": "JA",
+      "before": "\norkidkatarᵀaj",
+      "after": "\norkiditaj",
+      "exact_original_lower": false
+    },
+    {
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "orkiditan",
+      "forward_visible": "\n兰炎ᵀan",
+      "inverse_language": "JA",
+      "before": "\norkidkatarᵀan",
+      "after": "\norkiditan",
+      "exact_original_lower": false
+    },
+    {
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "orkiditajn",
+      "forward_visible": "\n兰炎ᵀajn",
+      "inverse_language": "JA",
+      "before": "\norkidkatarᵀajn",
+      "after": "\norkiditajn",
+      "exact_original_lower": false
+    },
+    {
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "orkidite",
+      "forward_visible": "\n兰炎ᵀe",
+      "inverse_language": "JA",
+      "before": "\norkidkatarᵀe",
+      "after": "\norkidite",
+      "exact_original_lower": false
+    },
+    {
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "orkiditi",
+      "forward_visible": "\n兰炎ᵀi",
+      "inverse_language": "JA",
+      "before": "\norkidkatarᵀi",
+      "after": "\norkiditi",
+      "exact_original_lower": false
+    },
+    {
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "orkiditas",
+      "forward_visible": "\n兰炎ᵀas",
+      "inverse_language": "JA",
+      "before": "\norkidkatarᵀas",
+      "after": "\norkiditas",
+      "exact_original_lower": false
+    },
+    {
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "orkiditis",
+      "forward_visible": "\n兰炎ᵀis",
+      "inverse_language": "JA",
+      "before": "\norkidkatarᵀis",
+      "after": "\norkiditis",
+      "exact_original_lower": false
+    },
+    {
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "orkiditos",
+      "forward_visible": "\n兰炎ᵀos",
+      "inverse_language": "JA",
+      "before": "\norkidkatarᵀos",
+      "after": "\norkiditos",
+      "exact_original_lower": false
+    },
+    {
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "orkiditulo",
+      "forward_visible": "\n兰炎ᵀ者o",
+      "inverse_language": "JA",
+      "before": "\norkidkatarᵀulo",
+      "after": "\norkiditulo",
+      "exact_original_lower": false
+    },
+    {
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "orkiditeco",
+      "forward_visible": "\n兰炎ᵀ性o",
+      "inverse_language": "JA",
+      "before": "\norkidkatarᵀeco",
+      "after": "\norkiditeco",
+      "exact_original_lower": false
+    },
+    {
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "orkiditmalsano",
+      "forward_visible": "\n兰炎ᵀ反健o",
+      "inverse_language": "JA",
+      "before": "\norkidkatarᵀmalsano",
+      "after": "\norkiditmalsano",
+      "exact_original_lower": false
+    },
+    {
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "orkiditkuracado",
+      "forward_visible": "\n兰炎ᵀ医行o",
+      "inverse_language": "JA",
+      "before": "\norkidkatarᵀkuracado",
+      "after": "\norkiditkuracado",
+      "exact_original_lower": false
+    },
+    {
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "Mi legis pri orkidito kaj testikito dum unu semajno.\norkidit orkidita orkiditaj orkiditan orkiditajn orkidite orkiditi orkiditas orkiditis orkiditos\n@orkidit@ @orkidit@a @orkidit@i @orkidita@ @orkiditi@\norkiditulo orkiditeco orkiditmalsano orkiditkuracado @orkidit@ulo @orkiditulo@\norkidito orkiditoj orkiditon orkiditojn @orkidit@o @orkidit@oj @orkidito@ @orkiditojn@\ntestikit testikito testikitoj @testikit@o @testikito@ testik orkido it katar katari\nlaso emancipo satiro karikaturo sarkasmo semajno.",
+      "forward_visible": "我 读is 于 丸ᴼ炎ᵀo 和ᴷ 丸ᵀ炎ᵀo 期ᴰᴹ 一 周o.\n兰炎ᵀ 兰炎ᵀa 兰炎ᵀaj 兰炎ᵀan 兰炎ᵀajn 兰炎ᵀe 兰炎ᵀi 兰炎ᵀas 兰炎ᵀis 兰炎ᵀos\n丸ᴼ炎ᵀ 丸ᴼ炎ᵀa 丸ᴼ炎ᵀi 丸ᴼ炎ᵀa 丸ᴼ炎ᵀi\n兰炎ᵀ者o 兰炎ᵀ性o 兰炎ᵀ反健o 兰炎ᵀ医行o 丸ᴼ炎ᵀ者o 丸ᴼ炎ᵀ者o\n丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀon 丸ᴼ炎ᵀojn 丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀo 丸ᴼ炎ᵀojn\n丸ᵀ炎ᵀ 丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 丸ᵀ 兰o it 炎 草ᴷᴿ\n放o 放ᴱo 讽o 讽ᴷo 讽ˢᴿo 周o.",
+      "inverse_language": "JA",
+      "before": "mi legis pri orkidito kaj testikito dum unu semajno.\norkidkatarᵀ orkidkatarᵀa orkidkatarᵀaj orkidkatarᵀan orkidkatarᵀajn orkidkatarᵀe orkidkatarᵀi orkidkatarᵀas orkidkatarᵀis orkidkatarᵀos\norkidit orkidita orkiditi orkidita orkiditi\norkidkatarᵀulo orkidkatarᵀeco orkidkatarᵀmalsano orkidkatarᵀkuracado orkiditulo orkiditulo\norkidito orkiditoj orkiditon orkiditojn orkidito orkiditoj orkidito orkiditojn\ntestikit testikito testikitoj testikito testikito testik orkido it katar katari\nlaso emancipo satiro karikaturo sarkasmo semajno.",
+      "after": "mi legis pri orkidito kaj testikito dum unu semajno.\norkidit orkidita orkiditaj orkiditan orkiditajn orkidite orkiditi orkiditas orkiditis orkiditos\norkidit orkidita orkiditi orkidita orkiditi\norkiditulo orkiditeco orkiditmalsano orkiditkuracado orkiditulo orkiditulo\norkidito orkiditoj orkiditon orkiditojn orkidito orkiditoj orkidito orkiditojn\ntestikit testikito testikitoj testikito testikito testik orkido it katar katari\nlaso emancipo satiro karikaturo sarkasmo semajno.",
+      "exact_original_lower": true
+    }
+  ],
+  "method": [
+    "Both frozen-before and current-after use the UI effective_mapping_records helper; the previous old-edition three-alias layer is already included in the baseline.",
+    "Actual selected-edition forward runtime plus manual/automatic overlays. Scalar probes are batched with separators; documents rendered independently. First/final outputs are compared byte for byte.",
+    "HTML kanji results have ruby annotations/tags removed before inverse conversion. The retained outer newline is classified separately from exact original restoration.",
+    "Expected inverse is the Esperanto original with @ control markers removed and lowercased. Original case is not recovered.",
+    "Already-kanjized mixed controls only assert unchanged behavior; they are not tested as Esperanto originals."
+  ],
+  "universal_roundtrip_claimed": false,
+  "cloud_success_fixture": {
+    "forward_cases": 6,
+    "inverse_cases": 4,
+    "sha256": "8a428aa99a8c89642569bb11738a494fc45140d380ffe437af8af4e1deb0a4f0",
+    "local_exact_original_lower": true,
+    "cloud_verification_by_parent": "separate evidence"
+  },
+  "raw_capture_evidence": {
+    "reverse_forward_before.json.gz": "cae177004aee0a83cc76d5d1507b2e9a706b0b542fe7f96e149b5c14e5f8c446",
+    "reverse_forward_after.json.gz": "98a3ad2be5df167c95e8731812e393fd67021925506d07d0eeb47488bc64e1ed",
+    "reverse_forward_after_summary.json": "10a2e01b8efd62d48e1cdda190b5248163cb6c01f2b6a30438708cf6bd3e5666"
+  }
+}

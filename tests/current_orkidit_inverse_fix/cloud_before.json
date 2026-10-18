@@ -1,0 +1,18 @@
+[
+  {
+    "language": "JA",
+    "edition": "current",
+    "input": "兰炎ᵀ 兰炎ᵀa 兰炎ᵀaj 兰炎ᵀe 兰炎ᵀi 兰炎ᵀis\n丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 兰o 炎ᵀ",
+    "output": "orkidkatarᵀ orkidkatarᵀa orkidkatarᵀaj orkidkatarᵀe orkidkatarᵀi orkidkatarᵀis\norkidito testikito orkido katarᵀ",
+    "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:10:53.947Z"
+  },
+  {
+    "language": "ZH",
+    "edition": "current",
+    "input": "兰炎ᵀ 兰炎ᵀa 兰炎ᵀaj 兰炎ᵀe 兰炎ᵀi 兰炎ᵀis\n丸ᴼ炎ᵀo 丸ᵀ炎ᵀo 兰o 炎ᵀ",
+    "output": "orkidkatarᵀ orkidkatarᵀa orkidkatarᵀaj orkidkatarᵀe orkidkatarᵀi orkidkatarᵀis\norkidito testikito orkido katarᵀ",
+    "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/",
+    "utc": "2026-10-18T06:10:53.988Z"
+  }
+]

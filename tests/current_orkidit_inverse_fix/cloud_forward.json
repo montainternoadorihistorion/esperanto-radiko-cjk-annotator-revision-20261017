@@ -1,0 +1,80 @@
+[
+  {
+    "case_id": "JA-legacy-pure",
+    "language": "JA",
+    "edition": "legacy",
+    "input": "Mi legis pri orkidito kaj testikito dum unu semajno.\norkidit orkidita orkiditaj orkiditan orkiditajn orkidite orkiditi orkiditas orkiditis orkiditos\n@orkidit@ @orkidit@a @orkidit@i @orkidita@ @orkiditi@\norkiditulo orkiditeco orkiditmalsano orkiditkuracado @orkidit@ulo @orkiditulo@\norkidito orkiditoj orkiditon orkiditojn @orkidit@o @orkidit@oj @orkidito@ @orkiditojn@\ntestikit testikito testikitoj @testikit@o @testikito@ testik orkido it katar katari\nlaso emancipo satiro karikaturo sarkasmo semajno.",
+    "output": "我 读is 于 丸ᴼ炎ᵀo 和ᴷ 丸ᵀ炎ᵀo 期ᴰᴹ 一 周o.\n兰炎ᵀ 兰炎ᵀa 兰炎ᵀaj 兰炎ᵀan 兰炎ᵀajn 兰炎ᵀe 兰炎ᵀi 兰炎ᵀas 兰炎ᵀis 兰炎ᵀos\n丸炎 丸炎a 丸炎i 丸炎a 丸炎i\n兰炎ᵀ者o 兰炎ᵀ性o 兰炎ᵀ反健o 兰炎ᵀ医行o 丸炎者o 丸炎者o\n丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀon 丸ᴼ炎ᵀojn 丸炎o 丸炎oj 丸炎o 丸炎ojn\n丸ᵀ炎ᵀ 丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸炎ᵀo 丸炎ᵀo 丸ᵀ 兰o it 炎 草ᴷᴿ\n留o 放o 讽刺o 讽o 讽ˢo 周o.",
+    "bytes": 531,
+    "sha256": "e3175d9e8bcece1d5975586f522b0afb78ddda7d0dd19113dde9cf808f27b97b",
+    "filename": "置換結果_legacy_8c876d0c3776 (3).txt",
+    "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+    "utc": "2026-10-18T06:14:03.746Z",
+    "local_path": "cloud_outputs/JA-legacy-pure.txt"
+  },
+  {
+    "case_id": "ZH-legacy-pure",
+    "language": "ZH",
+    "edition": "legacy",
+    "input": "Mi legis pri orkidito kaj testikito dum unu semajno.\norkidit orkidita orkiditaj orkiditan orkiditajn orkidite orkiditi orkiditas orkiditis orkiditos\n@orkidit@ @orkidit@a @orkidit@i @orkidita@ @orkiditi@\norkiditulo orkiditeco orkiditmalsano orkiditkuracado @orkidit@ulo @orkiditulo@\norkidito orkiditoj orkiditon orkiditojn @orkidit@o @orkidit@oj @orkidito@ @orkiditojn@\ntestikit testikito testikitoj @testikit@o @testikito@ testik orkido it katar katari\nlaso emancipo satiro karikaturo sarkasmo semajno.",
+    "output": "我 读is 于 丸ᴼ炎ᵀo 和ᴷ 丸ᵀ炎ᵀo 期ᴰᴹ 一 周o.\n兰炎ᵀ 兰炎ᵀa 兰炎ᵀaj 兰炎ᵀan 兰炎ᵀajn 兰炎ᵀe 兰炎ᵀi 兰炎ᵀas 兰炎ᵀis 兰炎ᵀos\n丸炎 丸炎a 丸炎i 丸炎a 丸炎i\n兰炎ᵀ者o 兰炎ᵀ性o 兰炎ᵀ反健o 兰炎ᵀ医行o 丸炎者o 丸炎者o\n丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀon 丸ᴼ炎ᵀojn 丸炎o 丸炎oj 丸炎o 丸炎ojn\n丸ᵀ炎ᵀ 丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸炎ᵀo 丸炎ᵀo 丸ᵀ 兰o it 炎 草ᴷᴿ\n留o 放o 讽刺o 讽o 讽ˢo 周o.",
+    "bytes": 531,
+    "sha256": "e3175d9e8bcece1d5975586f522b0afb78ddda7d0dd19113dde9cf808f27b97b",
+    "filename": "转换结果_legacy_cfff38d0af3e (2).txt",
+    "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+    "utc": "2026-10-18T06:14:05.234Z",
+    "local_path": "cloud_outputs/ZH-legacy-pure.txt"
+  },
+  {
+    "case_id": "JA-current-pure",
+    "language": "JA",
+    "edition": "current",
+    "input": "Mi legis pri orkidito kaj testikito dum unu semajno.\norkidit orkidita orkiditaj orkiditan orkiditajn orkidite orkiditi orkiditas orkiditis orkiditos\n@orkidit@ @orkidit@a @orkidit@i @orkidita@ @orkiditi@\norkiditulo orkiditeco orkiditmalsano orkiditkuracado @orkidit@ulo @orkiditulo@\norkidito orkiditoj orkiditon orkiditojn @orkidit@o @orkidit@oj @orkidito@ @orkiditojn@\ntestikit testikito testikitoj @testikit@o @testikito@ testik orkido it katar katari\nlaso emancipo satiro karikaturo sarkasmo semajno.",
+    "output": "我 读is 于 丸ᴼ炎ᵀo 和ᴷ 丸ᵀ炎ᵀo 期ᴰᴹ 一 周o.\n兰炎ᵀ 兰炎ᵀa 兰炎ᵀaj 兰炎ᵀan 兰炎ᵀajn 兰炎ᵀe 兰炎ᵀi 兰炎ᵀas 兰炎ᵀis 兰炎ᵀos\n丸ᴼ炎ᵀ 丸ᴼ炎ᵀa 丸ᴼ炎ᵀi 丸ᴼ炎ᵀa 丸ᴼ炎ᵀi\n兰炎ᵀ者o 兰炎ᵀ性o 兰炎ᵀ反健o 兰炎ᵀ医行o 丸ᴼ炎ᵀ者o 丸ᴼ炎ᵀ者o\n丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀon 丸ᴼ炎ᵀojn 丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀo 丸ᴼ炎ᵀojn\n丸ᵀ炎ᵀ 丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 丸ᵀ 兰o it 炎 草ᴷᴿ\n放o 放ᴱo 讽o 讽ᴷo 讽ˢᴿo 周o.",
+    "bytes": 609,
+    "sha256": "4a78cf0425bd5e9535cf13af9c440f526e64311602ab6e191885dee2c5099d5e",
+    "filename": "置換結果_current_d3968a14a0a3 (3).txt",
+    "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+    "utc": "2026-10-18T06:14:54.098Z",
+    "local_path": "cloud_outputs/JA-current-pure.txt"
+  },
+  {
+    "case_id": "ZH-current-pure",
+    "language": "ZH",
+    "edition": "current",
+    "input": "Mi legis pri orkidito kaj testikito dum unu semajno.\norkidit orkidita orkiditaj orkiditan orkiditajn orkidite orkiditi orkiditas orkiditis orkiditos\n@orkidit@ @orkidit@a @orkidit@i @orkidita@ @orkiditi@\norkiditulo orkiditeco orkiditmalsano orkiditkuracado @orkidit@ulo @orkiditulo@\norkidito orkiditoj orkiditon orkiditojn @orkidit@o @orkidit@oj @orkidito@ @orkiditojn@\ntestikit testikito testikitoj @testikit@o @testikito@ testik orkido it katar katari\nlaso emancipo satiro karikaturo sarkasmo semajno.",
+    "output": "我 读is 于 丸ᴼ炎ᵀo 和ᴷ 丸ᵀ炎ᵀo 期ᴰᴹ 一 周o.\n兰炎ᵀ 兰炎ᵀa 兰炎ᵀaj 兰炎ᵀan 兰炎ᵀajn 兰炎ᵀe 兰炎ᵀi 兰炎ᵀas 兰炎ᵀis 兰炎ᵀos\n丸ᴼ炎ᵀ 丸ᴼ炎ᵀa 丸ᴼ炎ᵀi 丸ᴼ炎ᵀa 丸ᴼ炎ᵀi\n兰炎ᵀ者o 兰炎ᵀ性o 兰炎ᵀ反健o 兰炎ᵀ医行o 丸ᴼ炎ᵀ者o 丸ᴼ炎ᵀ者o\n丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀon 丸ᴼ炎ᵀojn 丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀo 丸ᴼ炎ᵀojn\n丸ᵀ炎ᵀ 丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 丸ᵀ 兰o it 炎 草ᴷᴿ\n放o 放ᴱo 讽o 讽ᴷo 讽ˢᴿo 周o.",
+    "bytes": 609,
+    "sha256": "4a78cf0425bd5e9535cf13af9c440f526e64311602ab6e191885dee2c5099d5e",
+    "filename": "转换结果_current_3a8ce52d6043 (2).txt",
+    "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+    "utc": "2026-10-18T06:14:55.305Z",
+    "local_path": "cloud_outputs/ZH-current-pure.txt"
+  },
+  {
+    "case_id": "KO-legacy-pure",
+    "language": "KO",
+    "edition": "legacy",
+    "input": "Mi legis pri orkidito kaj testikito dum unu semajno.\norkidit orkidita orkiditaj orkiditan orkiditajn orkidite orkiditi orkiditas orkiditis orkiditos\n@orkidit@ @orkidit@a @orkidit@i @orkidita@ @orkiditi@\norkiditulo orkiditeco orkiditmalsano orkiditkuracado @orkidit@ulo @orkiditulo@\norkidito orkiditoj orkiditon orkiditojn @orkidit@o @orkidit@oj @orkidito@ @orkiditojn@\ntestikit testikito testikitoj @testikit@o @testikito@ testik orkido it katar katari\nlaso emancipo satiro karikaturo sarkasmo semajno.",
+    "output": "我 读is 于 丸ᴼ炎ᵀo 和ᴷ 丸ᵀ炎ᵀo 期ᴰᴹ 一 周o.\n兰炎ᵀ 兰炎ᵀa 兰炎ᵀaj 兰炎ᵀan 兰炎ᵀajn 兰炎ᵀe 兰炎ᵀi 兰炎ᵀas 兰炎ᵀis 兰炎ᵀos\n丸炎 丸炎a 丸炎i 丸炎a 丸炎i\n兰炎ᵀ者o 兰炎ᵀ性o 兰炎ᵀ反健o 兰炎ᵀ医行o 丸炎者o 丸炎者o\n丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀon 丸ᴼ炎ᵀojn 丸炎o 丸炎oj 丸炎o 丸炎ojn\n丸ᵀ炎ᵀ 丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸炎ᵀo 丸炎ᵀo 丸ᵀ 兰o it 炎 草ᴷᴿ\n留o 放o 讽刺o 讽o 讽ˢo 周o.",
+    "bytes": 531,
+    "sha256": "e3175d9e8bcece1d5975586f522b0afb78ddda7d0dd19113dde9cf808f27b97b",
+    "filename": "치환결과_legacy_3261b1b40bc5 (2).txt",
+    "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+    "utc": "2026-10-18T06:15:12.330Z",
+    "local_path": "cloud_outputs/KO-legacy-pure.txt"
+  },
+  {
+    "case_id": "KO-current-pure",
+    "language": "KO",
+    "edition": "current",
+    "input": "Mi legis pri orkidito kaj testikito dum unu semajno.\norkidit orkidita orkiditaj orkiditan orkiditajn orkidite orkiditi orkiditas orkiditis orkiditos\n@orkidit@ @orkidit@a @orkidit@i @orkidita@ @orkiditi@\norkiditulo orkiditeco orkiditmalsano orkiditkuracado @orkidit@ulo @orkiditulo@\norkidito orkiditoj orkiditon orkiditojn @orkidit@o @orkidit@oj @orkidito@ @orkiditojn@\ntestikit testikito testikitoj @testikit@o @testikito@ testik orkido it katar katari\nlaso emancipo satiro karikaturo sarkasmo semajno.",
+    "output": "我 读is 于 丸ᴼ炎ᵀo 和ᴷ 丸ᵀ炎ᵀo 期ᴰᴹ 一 周o.\n兰炎ᵀ 兰炎ᵀa 兰炎ᵀaj 兰炎ᵀan 兰炎ᵀajn 兰炎ᵀe 兰炎ᵀi 兰炎ᵀas 兰炎ᵀis 兰炎ᵀos\n丸ᴼ炎ᵀ 丸ᴼ炎ᵀa 丸ᴼ炎ᵀi 丸ᴼ炎ᵀa 丸ᴼ炎ᵀi\n兰炎ᵀ者o 兰炎ᵀ性o 兰炎ᵀ反健o 兰炎ᵀ医行o 丸ᴼ炎ᵀ者o 丸ᴼ炎ᵀ者o\n丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀon 丸ᴼ炎ᵀojn 丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀo 丸ᴼ炎ᵀojn\n丸ᵀ炎ᵀ 丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 丸ᵀ 兰o it 炎 草ᴷᴿ\n放o 放ᴱo 讽o 讽ᴷo 讽ˢᴿo 周o.",
+    "bytes": 609,
+    "sha256": "4a78cf0425bd5e9535cf13af9c440f526e64311602ab6e191885dee2c5099d5e",
+    "filename": "치환결과_current_592911064670 (2).txt",
+    "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+    "utc": "2026-10-18T06:16:00.253Z",
+    "local_path": "cloud_outputs/KO-current-pure.txt"
+  }
+]

@@ -1,0 +1,255 @@
+{
+  "status": "passed",
+  "passed": true,
+  "coverage": {
+    "cloud_forward.json": 6,
+    "cloud_inverse.json": 4,
+    "cloud_downloads.json": 12,
+    "cloud_custom.json": 2,
+    "cloud_guards.json": 2
+  },
+  "full_byte_downloads_checked": 22,
+  "matching_edition_roundtrips": 4,
+  "current_and_legacy_targets_all_in_success_fixture": true,
+  "custom_effective_csv_matches": 2,
+  "two_edition_guard_observations": 2,
+  "deployment_update_guard_observations": 2,
+  "observed_normal_root_url_cases": [
+    "JA-legacy-pure",
+    "JA-current-pure",
+    "JA-current-effective",
+    "ZH-current-effective",
+    "JA-legacy-effective",
+    "ZH-legacy-effective"
+  ],
+  "filename_rule": "Exact expected inverse-result/dictionary filename; only a final browser-added positive-integer collision suffix is allowed. Forward filenames are retained as observations; their output bytes are independently checked.",
+  "scope": "Actual browser outputs/download bytes compared with frozen local expectations. No universal restoration or original capitalization claim.",
+  "fixture_stage_note": "The fixture and app_validation retain their original local-only / Cloud-pending notes. This separate report validates the later observed Cloud files.",
+  "limitations": [
+    "This bounded repair does not claim universal recovery of raw HTML, original capitalization, arbitrary mixed-edition text or ambiguous compound boundaries."
+  ],
+  "guards_scope": "Disabled and re-enabled controls are browser observations; retained current captions and reconverted legacy input/output/captions are independently compared.",
+  "custom_scope": "Browser upload/result observation matched against the downloaded effective CSV SHA and the same current-edition sample; exhaustive custom index equivalence is covered by local tests.",
+  "inputs": [
+    {
+      "file": "reverse_cloud_fixture.json",
+      "sha256": "8a428aa99a8c89642569bb11738a494fc45140d380ffe437af8af4e1deb0a4f0"
+    },
+    {
+      "file": "cloud_download_expectations.json",
+      "sha256": "653f41c8376eac78c701d475c59119c0c21de7ca460bc2b707176d457bcdfb25"
+    },
+    {
+      "file": "cloud_forward.json",
+      "sha256": "1f3c796162ef07e006bcb867f58dff0f54a1a012905b0922ff076c5f7d2ca825"
+    },
+    {
+      "file": "cloud_inverse.json",
+      "sha256": "9d32b6003e9a901e79e006956ab29f01d544cebb80786130b0d7fe9fba44d253"
+    },
+    {
+      "file": "cloud_downloads.json",
+      "sha256": "7b437386912adbf56337fdb597673db06d0a20c068ea722a98805fe495952646"
+    },
+    {
+      "file": "cloud_custom.json",
+      "sha256": "1672d7a31e064600baaa34078f254378ad12649f5175a8f67f09b383c8b10d1a"
+    },
+    {
+      "file": "cloud_guards.json",
+      "sha256": "d5d4cdafad246d831a0cb63f70fcc7d8fa1baa8e92144627364aa6d856c679c8"
+    },
+    {
+      "file": "app_validation.json",
+      "sha256": "348c4acd699435e13e2ab19bf5ad20833e3c99d168c1b3aeb9013ecb39168ee7"
+    },
+    {
+      "file": "independent_current_added_tests_review.json",
+      "sha256": "0b62313eb37c4abf0271f7a4fe80652b334c33b7a900fa710a1538dc1148f70f"
+    },
+    {
+      "file": "independent_current_alias_review.json",
+      "sha256": "9fb95d9401c9d164b86be759c99559697b307871d255d8c7283114941df1ee03"
+    },
+    {
+      "file": "independent_current_implementation_review.json",
+      "sha256": "ae6ffd890409149766534b0c7d414696cc6ce70f04a3efffbe868b563adf84d8"
+    },
+    {
+      "file": "reverse_forward_independent_summary.json",
+      "sha256": "dea12d00374b7cb2e572a670ad1e58f857d254ea03a58c5ec831fd80b3e270aa"
+    },
+    {
+      "file": "reverse_inverse_after_summary.json",
+      "sha256": "1dd392d3b1bff2a31a6f08a3b0fe15351753fca8309018a0d4a4dfb9f6dc13a9"
+    },
+    {
+      "file": "reverse_final_validation.json",
+      "sha256": "c83ff9b6f71d262e02c5c4a56c4e2f6010d5dfcf3ec87f199fcc210bd60705b0"
+    },
+    {
+      "file": "cloud_update_guard.json",
+      "sha256": "140e571e475b6e02f9e318424f6e64c9994bd3be6ad4396cd129537c72111bf6"
+    },
+    {
+      "file": "cloud_before.json",
+      "sha256": "f934336b41e0fa070c675ad498fc833d683c85f4cb1756fed0a50fc531a050de"
+    }
+  ],
+  "downloads": [
+    {
+      "observation": "cloud_forward.json",
+      "identity": "JA-legacy-pure",
+      "source": "cloud_outputs/JA-legacy-pure.txt",
+      "target": "cloud_outputs/JA-legacy-pure.txt",
+      "sha256": "e3175d9e8bcece1d5975586f522b0afb78ddda7d0dd19113dde9cf808f27b97b"
+    },
+    {
+      "observation": "cloud_forward.json",
+      "identity": "ZH-legacy-pure",
+      "source": "cloud_outputs/ZH-legacy-pure.txt",
+      "target": "cloud_outputs/ZH-legacy-pure.txt",
+      "sha256": "e3175d9e8bcece1d5975586f522b0afb78ddda7d0dd19113dde9cf808f27b97b"
+    },
+    {
+      "observation": "cloud_forward.json",
+      "identity": "JA-current-pure",
+      "source": "cloud_outputs/JA-current-pure.txt",
+      "target": "cloud_outputs/JA-current-pure.txt",
+      "sha256": "4a78cf0425bd5e9535cf13af9c440f526e64311602ab6e191885dee2c5099d5e"
+    },
+    {
+      "observation": "cloud_forward.json",
+      "identity": "ZH-current-pure",
+      "source": "cloud_outputs/ZH-current-pure.txt",
+      "target": "cloud_outputs/ZH-current-pure.txt",
+      "sha256": "4a78cf0425bd5e9535cf13af9c440f526e64311602ab6e191885dee2c5099d5e"
+    },
+    {
+      "observation": "cloud_forward.json",
+      "identity": "KO-legacy-pure",
+      "source": "cloud_outputs/KO-legacy-pure.txt",
+      "target": "cloud_outputs/KO-legacy-pure.txt",
+      "sha256": "e3175d9e8bcece1d5975586f522b0afb78ddda7d0dd19113dde9cf808f27b97b"
+    },
+    {
+      "observation": "cloud_forward.json",
+      "identity": "KO-current-pure",
+      "source": "cloud_outputs/KO-current-pure.txt",
+      "target": "cloud_outputs/KO-current-pure.txt",
+      "sha256": "4a78cf0425bd5e9535cf13af9c440f526e64311602ab6e191885dee2c5099d5e"
+    },
+    {
+      "observation": "cloud_inverse.json",
+      "identity": "JA-current-effective",
+      "source": "cloud_outputs/JA-current-effective.txt",
+      "target": "cloud_outputs/JA-current-effective.txt",
+      "sha256": "f33dbaf116b827a937d57118dd6c93b19803a1d04ff73e04ff103954ef3afcd0"
+    },
+    {
+      "observation": "cloud_inverse.json",
+      "identity": "ZH-current-effective",
+      "source": "cloud_outputs/ZH-current-effective.txt",
+      "target": "cloud_outputs/ZH-current-effective.txt",
+      "sha256": "f33dbaf116b827a937d57118dd6c93b19803a1d04ff73e04ff103954ef3afcd0"
+    },
+    {
+      "observation": "cloud_inverse.json",
+      "identity": "JA-legacy-effective",
+      "source": "cloud_outputs/JA-legacy-effective.txt",
+      "target": "cloud_outputs/JA-legacy-effective.txt",
+      "sha256": "f33dbaf116b827a937d57118dd6c93b19803a1d04ff73e04ff103954ef3afcd0"
+    },
+    {
+      "observation": "cloud_inverse.json",
+      "identity": "ZH-legacy-effective",
+      "source": "cloud_outputs/ZH-legacy-effective.txt",
+      "target": "cloud_outputs/ZH-legacy-effective.txt",
+      "sha256": "f33dbaf116b827a937d57118dd6c93b19803a1d04ff73e04ff103954ef3afcd0"
+    },
+    {
+      "observation": "cloud_downloads.json",
+      "identity": "JA-current-full",
+      "source": "cloud_outputs/JA-current-full.csv",
+      "target": "cloud_outputs/JA-current-full.csv",
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074"
+    },
+    {
+      "observation": "cloud_downloads.json",
+      "identity": "JA-current-two_column",
+      "source": "cloud_outputs/JA-current-two_column.csv",
+      "target": "cloud_outputs/JA-current-two_column.csv",
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4"
+    },
+    {
+      "observation": "cloud_downloads.json",
+      "identity": "JA-current-effective",
+      "source": "cloud_outputs/JA-current-effective.csv",
+      "target": "cloud_outputs/JA-current-effective.csv",
+      "sha256": "5031b700165d305364574a9815fc091b1b32f8782c7bc684c26837b855b8bb7f"
+    },
+    {
+      "observation": "cloud_downloads.json",
+      "identity": "ZH-current-full",
+      "source": "cloud_outputs/ZH-current-full.csv",
+      "target": "cloud_outputs/ZH-current-full.csv",
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074"
+    },
+    {
+      "observation": "cloud_downloads.json",
+      "identity": "ZH-current-two_column",
+      "source": "cloud_outputs/ZH-current-two_column.csv",
+      "target": "cloud_outputs/ZH-current-two_column.csv",
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4"
+    },
+    {
+      "observation": "cloud_downloads.json",
+      "identity": "ZH-current-effective",
+      "source": "cloud_outputs/ZH-current-effective.csv",
+      "target": "cloud_outputs/ZH-current-effective.csv",
+      "sha256": "5031b700165d305364574a9815fc091b1b32f8782c7bc684c26837b855b8bb7f"
+    },
+    {
+      "observation": "cloud_downloads.json",
+      "identity": "JA-legacy-full",
+      "source": "cloud_outputs/JA-legacy-full.csv",
+      "target": "cloud_outputs/JA-legacy-full.csv",
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+    },
+    {
+      "observation": "cloud_downloads.json",
+      "identity": "JA-legacy-two_column",
+      "source": "cloud_outputs/JA-legacy-two_column.csv",
+      "target": "cloud_outputs/JA-legacy-two_column.csv",
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19"
+    },
+    {
+      "observation": "cloud_downloads.json",
+      "identity": "JA-legacy-effective",
+      "source": "cloud_outputs/JA-legacy-effective.csv",
+      "target": "cloud_outputs/JA-legacy-effective.csv",
+      "sha256": "137eb963f9dfbb69e5d989c806c17cf1e1bbc3d66c6654a27c94a24aff8cfde1"
+    },
+    {
+      "observation": "cloud_downloads.json",
+      "identity": "ZH-legacy-full",
+      "source": "cloud_outputs/ZH-legacy-full.csv",
+      "target": "cloud_outputs/ZH-legacy-full.csv",
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+    },
+    {
+      "observation": "cloud_downloads.json",
+      "identity": "ZH-legacy-two_column",
+      "source": "cloud_outputs/ZH-legacy-two_column.csv",
+      "target": "cloud_outputs/ZH-legacy-two_column.csv",
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19"
+    },
+    {
+      "observation": "cloud_downloads.json",
+      "identity": "ZH-legacy-effective",
+      "source": "cloud_outputs/ZH-legacy-effective.csv",
+      "target": "cloud_outputs/ZH-legacy-effective.csv",
+      "sha256": "137eb963f9dfbb69e5d989c806c17cf1e1bbc3d66c6654a27c94a24aff8cfde1"
+    }
+  ]
+}
