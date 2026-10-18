@@ -6,7 +6,7 @@ import pytest
 from streamlit.testing.v1 import AppTest
 import esperanto_converter as app
 CURRENT='pejvo-piv-20260620';OLD='pre-las-20261017'
-def result_download(at):return next(b for b in at.get('download_button') if b.proto.label in ('テキストをダウンロード','📥 下载文本'))
+def result_save_control(at):return at.button(key='plain_prepare_save')
 def test_only_two_editions_archive_api_and_selected_csv_formats():
  assert app.dictionary_options()==[CURRENT,OLD]
  assert [app.dictionary_label(v) for v in app.dictionary_options()]==['新版（更新中）','旧版（固定）']
@@ -41,19 +41,25 @@ def test_ui_two_editions_preserves_created_label_and_download_names():
   assert at.text_area[1].value=='留is lasis risorto satiro silfo doto grefto grefti doto'
   newmeta=app.source_provenance(CURRENT);oldmeta=app.source_provenance(OLD)
   assert at.session_state[app.CONVERTED_PROVENANCE_KEY]==newmeta
-  assert not result_download(at).proto.disabled
-  assert any(c['file_name']==newmeta['result_filename'] and not c['disabled'] for c in captured)
+  assert not result_save_control(at).proto.disabled
+  result_save_control(at).click().run();assert not at.exception
+  assert captured[-1]['file_name']==newmeta['result_filename']
+  assert captured[-1]['data'].decode('utf-8')==at.text_area(key='result_save_preview').value
+  at.button(key='close_result_save_dialog').click().run()
   at.sidebar.selectbox[0].set_value(OLD).run();assert not at.exception and at.warning
-  assert result_download(at).proto.disabled and at.session_state[app.CONVERTED_PROVENANCE_KEY]==newmeta
+  assert result_save_control(at).proto.disabled and at.session_state[app.CONVERTED_PROVENANCE_KEY]==newmeta
   assert any(newmeta['label'] in c.value for c in at.caption)
-  assert captured[-1]['file_name']==newmeta['result_filename'] and captured[-1]['disabled']
+  assert not any(b.proto.label in ('テキストをダウンロード','📥 下载文本') for b in at.get('download_button'))
   assert any(c['file_name']==oldmeta['dictionary_filename'] for c in captured)
   assert any(c['file_name']==oldmeta['snippet_filename'] for c in captured)
   at.button[0].click().run();assert not at.exception
   assert at.text_area[1].value=='lasis emancipis anĉo karikaturo spermato tualeto translaciplanto grefti doto'
-  assert at.session_state[app.CONVERTED_PROVENANCE_KEY]==oldmeta and not result_download(at).proto.disabled
+  assert at.session_state[app.CONVERTED_PROVENANCE_KEY]==oldmeta and not result_save_control(at).proto.disabled
+  result_save_control(at).click().run();assert not at.exception
   assert captured[-1]['file_name']==oldmeta['result_filename']
-  at.sidebar.selectbox[0].set_value(CURRENT).run();assert at.warning and result_download(at).proto.disabled
+  assert captured[-1]['data'].decode('utf-8')==at.text_area(key='result_save_preview').value
+  at.button(key='close_result_save_dialog').click().run()
+  at.sidebar.selectbox[0].set_value(CURRENT).run();assert at.warning and result_save_control(at).proto.disabled
 def test_custom_csv_is_independent_of_two_editions_and_content_is_tracked():
  at=AppTest.from_file(str(Path(app.__file__)),default_timeout=20).run();assert not at.exception
  at.checkbox[0].check().run();assert not at.exception
@@ -65,11 +71,11 @@ def test_custom_csv_is_independent_of_two_editions_and_content_is_tracked():
   at.run();assert not at.exception
   at.text_area[0].set_value('良a');at.button[0].click().run();assert not at.exception
   assert at.text_area[1].value=='bona' and at.session_state[app.CONVERTED_PROVENANCE_KEY]['edition_id']=='custom'
-  assert not result_download(at).proto.disabled
+  assert not result_save_control(at).proto.disabled
  other=io.BytesIO('bad,良\n'.encode());other.name=custom.name;other.size=custom.size
  assert app.source_provenance('custom',custom)['identity']!=app.source_provenance('custom',other)['identity']
  with patch.object(app.st,'file_uploader',side_effect=lambda *a,**k:(other.seek(0),other)[1]):
-  at.run();assert not at.exception and at.warning and result_download(at).proto.disabled
+  at.run();assert not at.exception and at.warning and result_save_control(at).proto.disabled
  at.checkbox[0].uncheck().run();assert not at.exception and not at.sidebar.selectbox[0].disabled
 def test_revision_change_keeps_old_result_label_until_reconversion(tmp_path):
  shutil.copytree(app.ROOT/'data',tmp_path/'data')
@@ -81,17 +87,17 @@ def test_revision_change_keeps_old_result_label_until_reconversion(tmp_path):
  metadata.write_text(json.dumps(value,ensure_ascii=False),encoding='utf-8')
  # Simulate a reviewed dictionary revision together with its supplement pin.
  supplement=tmp_path/'data/current_inverse_aliases.json';pin=json.loads(supplement.read_bytes());pin['dictionary_revision']=value['revision'];supplement.write_text(json.dumps(pin,ensure_ascii=False),encoding='utf-8')
- at.run();assert not at.exception and at.warning and result_download(at).proto.disabled
+ at.run();assert not at.exception and at.warning and result_save_control(at).proto.disabled
  assert at.session_state[app.CONVERTED_PROVENANCE_KEY]==created
  assert any(created['label'] in c.value for c in at.caption)
- at.button[0].click().run();assert not at.exception and not result_download(at).proto.disabled
+ at.button[0].click().run();assert not at.exception and not result_save_control(at).proto.disabled
  assert at.session_state[app.CONVERTED_PROVENANCE_KEY]['revision']==value['revision']
  assert at.session_state[app.CONVERTED_PROVENANCE_KEY]['result_filename']!=created['result_filename']
 def test_unversioned_previous_session_cannot_be_relabelled():
  at=AppTest.from_file(str(Path(app.__file__)),default_timeout=20).run()
  at.text_area[0].set_value('移植i');at.button[0].click().run();assert not at.exception
  at.session_state[app.CONVERTED_PROVENANCE_KEY]={}
- at.run();assert not at.exception and at.warning and result_download(at).proto.disabled
+ at.run();assert not at.exception and at.warning and result_save_control(at).proto.disabled
  assert any(('版情報のない' in c.value or '没有版本记录' in c.value) for c in at.caption)
 def test_fixed_dictionary_tampering_is_rejected(tmp_path,monkeypatch):
  wrong=tmp_path/'old.csv';wrong.write_text('bon,良\n',encoding='utf-8')

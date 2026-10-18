@@ -26,8 +26,8 @@ def effective_index(source, frame=None):
     return app.build_mapping_index_cached(app.effective_mapping_records(source, frame))
 
 
-def result_download(at):
-    return next(item for item in at.get('download_button') if item.proto.label in ('テキストをダウンロード', '📥 下载文本'))
+def result_save_control(at):
+    return at.button(key='plain_prepare_save')
 
 
 def test_reviewed_current_keys_added_and_every_existing_key_retained():
@@ -164,12 +164,15 @@ def test_ui_previous_current_result_is_not_relabelled_and_new_download_matches()
         at.session_state[app.CONVERTED_PROVENANCE_KEY] = prior
         at.session_state[app.CONVERTED_TEXT_KEY] = app.convert_kanji_esperanto_to_alphabet(text, app.build_mapping_index(app.load_dictionary_source(CURRENT)))
         at.run()
-        assert not at.exception and at.warning and result_download(at).proto.disabled
+        assert not at.exception and at.warning and result_save_control(at).proto.disabled
         assert at.session_state[app.CONVERTED_PROVENANCE_KEY] == prior
-        assert captured[-1]['file'] == prior['result_filename'] and captured[-1]['disabled']
+        assert not any(b.proto.label in ('テキストをダウンロード', '📥 下载文本') for b in at.get('download_button'))
         at.button[0].click().run()
-        assert not at.exception and not result_download(at).proto.disabled
+        assert not at.exception and not result_save_control(at).proto.disabled
         assert at.session_state[app.CONVERTED_PROVENANCE_KEY] == meta
+        result_save_control(at).click().run()
+        assert not at.exception and captured[-1]['file'] == meta['result_filename']
+        assert captured[-1]['data'].decode('utf-8') == at.text_area(key='result_save_preview').value
 
 
 def test_current_supplement_revision_change_invalidates_result(tmp_path):
@@ -184,10 +187,10 @@ def test_current_supplement_revision_change_invalidates_result(tmp_path):
     value = json.loads(path.read_bytes()); value['revision'] += '-test'
     path.write_text(json.dumps(value), encoding='utf-8')
     at.run()
-    assert not at.exception and at.warning and result_download(at).proto.disabled
+    assert not at.exception and at.warning and result_save_control(at).proto.disabled
     assert at.session_state[app.CONVERTED_PROVENANCE_KEY] == old
     at.button[0].click().run()
-    assert not at.exception and not result_download(at).proto.disabled
+    assert not at.exception and not result_save_control(at).proto.disabled
     new = at.session_state[app.CONVERTED_PROVENANCE_KEY]
     assert new['inverse_compatibility_sha256'] != old['inverse_compatibility_sha256']
     assert new['result_filename'] != old['result_filename']
@@ -203,4 +206,4 @@ def test_current_effective_csv_custom_ui_conversion():
         at.run(); at.text_area[0].set_value('兰炎ᵀ 兰炎ᵀa 兰炎ᵀi 放is'); at.button[0].click().run()
         assert not at.exception and at.text_area[1].value == 'orkidit orkidita orkiditi lasis'
         assert at.session_state[app.CONVERTED_PROVENANCE_KEY]['edition_id'] == 'custom'
-        assert not result_download(at).proto.disabled
+        assert not result_save_control(at).proto.disabled

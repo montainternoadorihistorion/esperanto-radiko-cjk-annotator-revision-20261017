@@ -1,0 +1,141 @@
+{
+  "status": "passed_for_conversion_invariants_and_local_expected_outputs",
+  "baseline_commit": "1665ea2",
+  "scope": "Independent local audit. Browser and Cloud verification are recorded separately by the main task.",
+  "existing_asset_hash_audit": {
+    "files_checked_excluding_markdown_and_tests_directories": 182,
+    "files_unchanged": 177,
+    "changed_UI_entries": [
+      "Esperanto-Kanji-Ruby-JA/main.py",
+      "Esperanto-Kanji-Ruby-KO/main.py",
+      "Esperanto-Kanji-Ruby-ZH/main.py",
+      "Esperanto-Reverter-JA/esperanto_converter.py",
+      "Esperanto-Reverter-ZH/esperanto_converter_zh.py"
+    ],
+    "unexpected_existing_asset_changes": [],
+    "existing_conversion_function_class_ASTs_unchanged": true,
+    "ordered_forward_conversion_statements_preserved": [
+      {
+        "language": "JA",
+        "all_original_conversion_block_statements_preserved_in_order": true
+      },
+      {
+        "language": "ZH",
+        "all_original_conversion_block_statements_preserved_in_order": true
+      },
+      {
+        "language": "KO",
+        "all_original_conversion_block_statements_preserved_in_order": true
+      }
+    ],
+    "prior_comprehensive_18_route_sources_and_loaders_still_identical": true
+  },
+  "actual_baseline_replay": {
+    "full_rule_forward_routes": 12,
+    "plain_inverse_calls": 24,
+    "passed": true,
+    "languages": [
+      "JA",
+      "ZH",
+      "KO"
+    ],
+    "editions": [
+      "current",
+      "legacy"
+    ],
+    "forward_modes": [
+      "pure",
+      "kanji"
+    ],
+    "baseline_fixture_sha256": "c7c5290e28280c5202b9585c46e833b5a3504f672847098a85863fbcc59cc7eb"
+  },
+  "actual_saved_HTML_recovery": {
+    "saved_unique_fragments": 11677,
+    "fragment_counts_by_edition": {
+      "current": 4668,
+      "legacy": 7009
+    },
+    "actual_recovery_calls": 23354,
+    "inverse_languages": [
+      "JA",
+      "ZH"
+    ],
+    "failures": 0,
+    "scope": "Previously saved Japanese kanji-ruby residual surface fragments wrapped with the native standard HTML wrapper. These are not arbitrary HTML documents or unique-root counts.",
+    "source_sha256": "4b66cc7dbd8f12b6c1ff064931f8ac8c9c6df5cd552a7bc227eee5d09a58746a"
+  },
+  "Cloud_expected_fixture": {
+    "actual_local_full_rule_forward_routes": 18,
+    "actual_local_plain_inverse_calls": 12,
+    "actual_local_HTML_recovery_calls": 24,
+    "languages": [
+      "JA",
+      "ZH",
+      "KO"
+    ],
+    "editions": [
+      "current",
+      "legacy"
+    ],
+    "forward_modes": [
+      "pure",
+      "kanji",
+      "ruby"
+    ],
+    "contains_normal_and_at_conversion": true,
+    "contains_protected_CJK_literal_at_literal_HTML_entities_spaces_final_linefeed": true,
+    "protected_HTML_is_recovered_directly_without_plain_inverse_afterward": true,
+    "scope": "Local expected bytes and recovery output for browser comparison; not Cloud observations.",
+    "sha256": "e40f847b21d7eab0a1757b92e1887a506f6413b6822a018603f3ff2c9d6feffd"
+  },
+  "UI_helper_hashes": [
+    {
+      "language": "JA",
+      "sha256": "80f78e3b575cd936dcef5ae36fc356798fb59471389d1d36481d3be3cf1e3c91"
+    },
+    {
+      "language": "ZH",
+      "sha256": "80f78e3b575cd936dcef5ae36fc356798fb59471389d1d36481d3be3cf1e3c91"
+    },
+    {
+      "language": "KO",
+      "sha256": "80f78e3b575cd936dcef5ae36fc356798fb59471389d1d36481d3be3cf1e3c91"
+    }
+  ],
+  "unchanged_HTML_parser_sha256": "314a3dbbdabef617d032eb6de7035020387c30afb96646ba07c8fa97490d5bec",
+  "UI_review": {
+    "strict_UTF8_and_empty_upload_semantics_reviewed": true,
+    "source_edition_format_identity_guards_reviewed": true,
+    "draft_restoration_and_HTML_upload_cache_invalidation_reviewed": true,
+    "custom_CSV_missing_input_has_no_standard_dictionary_fallback": true,
+    "plain_inverse_result_is_read_only": true,
+    "immediate_download_after_pending_text_edit": "Independent review identified the documented race and the parent reproduced it in a browser. The final implementation was reviewed: ordinary save-confirmation buttons validate fresh state before opening a fixed-content dialog; actual result downloads exist only inside that dialog, use on_click=ignore, and dismissal reruns the app. Direct browser verification is recorded separately by the parent.",
+    "final_save_dialog_design_reviewed": true,
+    "forward_confirmation_text_payload_filename_edition_are_snapshots": true,
+    "inverse_confirmation_readonly_text_and_download_use_same_snapshot": true,
+    "dialog_dismissal_reruns_and_requires_new_preparation": true,
+    "official_download_race_reference": "https://docs.streamlit.io/develop/api-reference/widgets/st.download_button",
+    "official_pinned_dialog_API_reference": "https://docs.streamlit.io/1.50.0/develop/api-reference/execution-flow/st.dialog"
+  },
+  "limits": [
+    "The prior million-case forward corpus was not rerun in this UI task. Its frozen source/data identities were rechecked, supplemented by actual selected pipelines.",
+    "Shared-spelling plain inverse ambiguities remain intentionally unchanged.",
+    "Widget synchronization tests do not alone prove browser event timing; the parent records actual direct-click and Cloud checks."
+  ],
+  "reviewed_UI_entrypoint_sha256": {
+    "Esperanto-Kanji-Ruby-JA/main.py": "6b16609bafaafe320b16538c527985bdb760befc013fe7c341a5062444b8727c",
+    "Esperanto-Kanji-Ruby-KO/main.py": "82059f97dfcc71f55b4b370699603c0e69d8c8f18da30b2494451b2761eef7c1",
+    "Esperanto-Kanji-Ruby-ZH/main.py": "dc8983afaaaf3f9cbdc27555f7cd4a2450fa718ee3f0e9262cc01eadbadd48f9",
+    "Esperanto-Reverter-JA/esperanto_converter.py": "9138537f3638ab7c3752835ba7c0394c869050179db2b444c2be85226aba4390",
+    "Esperanto-Reverter-ZH/esperanto_converter_zh.py": "fc7505b5092ba01bd3a8f4122fbdd4bec6364b4af543d3a80dc5709cbb149dcd"
+  },
+  "local_evidence_sha256": {
+    "core_and_saved_html_validation.json": "5900b077714c79b9ba44319c465369559b7d895c3e08d270326b1e3e93f2e93f",
+    "baseline_representative_validation.json": "f254a279250291cc4b68cd62cf7fe1ba66909caddeedabcb255581b1bed1b395",
+    "cloud_fixture.json": "e40f847b21d7eab0a1757b92e1887a506f6413b6822a018603f3ff2c9d6feffd",
+    "verify_core_and_saved_html.py": "1a995051a5e3885db351ad2f373911c9148b4b2825a1c48230db44d7933d91f5",
+    "replay_baseline_examples.py": "624a88061044c80617960721f761846c234359e1b26c7438c584ba6d6b5545d9",
+    "build_cloud_fixture.py": "f5b4ddcc1d44e81828303d61a0cd4fba6f1f179a9dcbf27077d118432edb579e",
+    "ui_review_notes.txt": "c93d59548c6718b15284e0a40be6b4b0695c6f8dc9c8d5efdfa0f451b6a6b59d"
+  }
+}

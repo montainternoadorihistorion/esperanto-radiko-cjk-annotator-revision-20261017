@@ -23,7 +23,7 @@ def run(lang):
   for mode in range(3):
    at.radio[0].set_value(at.radio[0].options[mode]);execute()
    at.text_area(key='text0_value').set_value(SOURCE)
-   next(b for b in at.button if str(b.key).startswith('FormSubmitter:profile_form-')).click();execute()
+   at.button(key='convert_text').click();execute()
    result=at.session_state['result_html'];meta=dict(at.session_state['result_assignment_metadata'])
    assert meta['edition_id']==edition and meta['signature'] and meta['assignment_signature']
    if mode==2:assert result==EXPECT[edition],(lang,edition,result)
@@ -50,7 +50,7 @@ def run(lang):
  assert len(at.text_area)==1,'A changed manual correction invalidates the prior result'
  at.selectbox(key='_assignment_edition_widget').set_value('current');execute()
  at.radio[0].set_value(at.radio[0].options[2]);execute();at.text_area(key='text0_value').set_value('laso')
- next(b for b in at.button if str(b.key).startswith('FormSubmitter:profile_form-')).click();execute()
+ at.button(key='convert_text').click();execute()
  assert at.session_state['result_html']=='放o'
  return {'language':lang,'passed':True,'forms':rows,'cross_page_selection':True,'stale_result_hidden':True,'saved_manual_rerendered':True}
 

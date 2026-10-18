@@ -678,7 +678,22 @@ def edition_download_data(source_id: str) -> tuple[bytes, bytes]:
     writer.writerows((row["esperanto"], row["kanji"]) for row in rows)
     return raw, output.getvalue().encode("utf-8")
 
+def _restore_input_widget(key: str, default) -> None:
+    # Hidden widgets are cleaned up by Streamlit. Keep user input separately
+    # from widget state, without treating a restored input as a fresh result.
+    if key not in st.session_state:
+        st.session_state[key] = st.session_state.get("saved_" + key, default)
+
+
+def _remember_input_widget(key: str, clear_html: bool = False) -> None:
+    st.session_state["saved_" + key] = st.session_state[key]
+    if clear_html:
+        _clear_html_recovery_result()
+
+
 def render_sidebar() -> tuple[str, object | None]:
+    _restore_input_widget("plain_edition", DEFAULT_DICTIONARY_ID)
+    _restore_input_widget("use_custom_csv", False)
     with st.sidebar:
         st.header("使用する版")
         source_id = st.selectbox(
@@ -686,10 +701,13 @@ def render_sidebar() -> tuple[str, object | None]:
             index=dictionary_options().index(DEFAULT_DICTIONARY_ID),
             format_func=dictionary_label,
             disabled=bool(st.session_state.get("use_custom_csv", False)),
+            key="plain_edition", on_change=_remember_input_widget,
+            args=("plain_edition",),
         )
         uploaded_file = None
         with st.expander("上級：カスタムCSV"):
-            use_custom = st.checkbox("カスタムCSVを使用する", key="use_custom_csv")
+            use_custom = st.checkbox("カスタムCSVを使用する", key="use_custom_csv",
+                                     on_change=_remember_input_widget, args=("use_custom_csv",))
             if use_custom:
                 uploaded_file = st.file_uploader("対応表 CSV をアップロード", type=["csv"], help="CSV形式: esperanto,kanji または esperanto,kanji,priority")
         if use_custom:
@@ -723,11 +741,38 @@ def _clear_html_recovery_result() -> None:
     st.session_state.pop("html_recovery_result", None)
 
 
+def _change_recovery_input_mode() -> None:
+    _clear_html_recovery_result()
+    # Preserve inputs, but require a fresh conversion after changing workflows.
+    st.session_state.pop(CONVERTED_INPUT_KEY, None)
+
+
+def _forget_html_upload() -> None:
+    # Also runs when the user removes/replaces a file: never fall back to it.
+    st.session_state.pop("saved_html_recovery_file", None)
+    _clear_html_recovery_result()
+
+
+@st.dialog("保存内容の確認", width="large", on_dismiss="rerun")
+def show_result_save_dialog(text: str, filename: str, label: str, key: str) -> None:
+    # Immutable arguments are the server-validated snapshot. The modal blocks
+    # background edits; downloading itself must not rerun an input workflow.
+    st.caption(filename)
+    st.text_area("保存する本文", value=text, height=320, disabled=True,
+                 key="result_save_preview")
+    st.download_button(label, data=text.encode("utf-8"), file_name=filename,
+                       mime="text/plain", on_click="ignore", key=key)
+    if st.button("閉じる", key="close_result_save_dialog"):
+        st.rerun()
+
+
 def render_html_recovery() -> None:
     # This path reads recorded Esperanto, without loading or applying a dictionary.
     from html_source_recovery import (
         HtmlRecoveryError, decode_html_upload, recover_standard_html,
     )
+    _restore_input_widget("html_recovery_direction", "kanji")
+    _restore_input_widget("html_recovery_source_kind", "paste")
 
     st.subheader("標準HTMLから原語を復元")
     st.caption("このプロジェクトの標準HTMLに残っているエスペラントを読み取ります。漢字の逆引きをしないため、辞書の新版・旧版を選ぶ必要はありません。")
@@ -736,32 +781,44 @@ def render_html_recovery() -> None:
     direction = st.radio(
         "HTML作成時のルビ形式", ("kanji", "annotation"),
         format_func={"kanji": "漢字ルビ（漢字の上にエスペラント）", "annotation": "注釈ルビ（エスペラントの上に訳）"}.__getitem__,
-        key="html_recovery_direction", on_change=_clear_html_recovery_result,
+        key="html_recovery_direction", on_change=_remember_input_widget,
+        args=("html_recovery_direction", True),
     )
     source_kind = st.radio(
         "HTMLの入力方法", ("paste", "upload"),
         format_func={"paste": "HTMLソースを貼り付ける", "upload": "HTMLファイルをアップロードする"}.__getitem__,
-        key="html_recovery_source_kind", on_change=_clear_html_recovery_result,
+        key="html_recovery_source_kind", on_change=_remember_input_widget,
+        args=("html_recovery_source_kind", True),
         horizontal=True,
     )
     source = None
     if source_kind == "paste":
+        _restore_input_widget("html_recovery_paste", "")
         source = st.text_area(
             "HTMLソース", height=280, key="html_recovery_paste",
             help="ブラウザに表示された文章ではなく、アプリのHTMLソースを貼り付けてください。",
-            on_change=_clear_html_recovery_result,
+            on_change=_remember_input_widget, args=("html_recovery_paste", True),
         )
     else:
         uploaded_html = st.file_uploader(
             "標準HTMLファイル（UTF-8）", type=["html", "htm"],
-            key="html_recovery_upload", on_change=_clear_html_recovery_result,
+            key="html_recovery_upload", on_change=_forget_html_upload,
         )
         if uploaded_html is not None:
             try:
                 source = decode_html_upload(uploaded_html.getvalue())
+                st.session_state["saved_html_recovery_file"] = {
+                    "source": source, "name": uploaded_html.name,
+                }
             except HtmlRecoveryError as exc:
-                _clear_html_recovery_result()
+                _forget_html_upload()
                 st.error(f"HTMLファイルを読み込めません: {exc}")
+        elif st.session_state.get("saved_html_recovery_file"):
+            saved = st.session_state["saved_html_recovery_file"]
+            source = saved["source"]
+            st.caption("保持中のファイル: " + saved["name"])
+            st.button("保持中のファイルを解除", key="html_recovery_forget_upload",
+                      on_click=_forget_html_upload)
     identity = hashlib.sha256(json.dumps(
         [source_kind, direction, source], ensure_ascii=False,
     ).encode("utf-8")).hexdigest()
@@ -784,11 +841,11 @@ def render_html_recovery() -> None:
         st.caption(f"HTMLに記録された版: {edition_label} ／ 読み取ったルビ: {result['ruby_count']}個")
         st.text_area("復元した原語", value=result["text"], height=280, disabled=True,
                      help="HTMLに残る大文字・空白を保持した結果です。")
-        st.download_button(
-            "復元した原語をダウンロード", data=result["text"].encode("utf-8"),
-            file_name=f"esperanto_html_{edition}_{direction}_{identity[:12]}.txt",
-            mime="text/plain", key="html_recovery_download",
-        )
+        if st.button("保存内容を確認", key="html_recovery_prepare_save") and result.get("identity") == identity:
+            show_result_save_dialog(
+                result["text"], f"esperanto_html_{edition}_{direction}_{identity[:12]}.txt",
+                "復元した原語をダウンロード", "html_recovery_download",
+            )
 
 
 def main() -> None:
@@ -811,7 +868,7 @@ def main() -> None:
         "入力形式", ("plain", "html"),
         format_func={"plain": "漢字化された平文を逆変換", "html": "標準HTMLから原語を復元"}.__getitem__,
         key="reverter_input_mode", horizontal=True,
-        on_change=_clear_html_recovery_result,
+        on_change=_change_recovery_input_mode,
     )
     if input_mode == "html":
         render_html_recovery()
@@ -825,11 +882,13 @@ def main() -> None:
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("入力（漢字化エスペラント）")
+        _restore_input_widget("plain_input_text", sample_text())
         input_text = st.text_area(
             "漢字化エスペラント文",
-            value=sample_text(),
             height=320,
             help="漢字とアルファベットが混在した文章を入力してください。",
+            key="plain_input_text", on_change=_remember_input_widget,
+            args=("plain_input_text",),
         )
 
     with col2:
@@ -864,16 +923,15 @@ def main() -> None:
                 "変換結果",
                 value=converted_text,
                 height=320,
+                disabled=True,
                 help="すべて小文字のエスペラント語根として出力します。",
             )
-            st.download_button(
-                label="テキストをダウンロード",
-                data=converted_text,
-                file_name=result_provenance.get("result_filename", "esperanto_unversioned_reconvert.txt"),
-                mime="text/plain",
-                disabled=not result_is_current,
-                use_container_width=True,
-            )
+            if st.button("保存内容を確認", key="plain_prepare_save",
+                         disabled=not result_is_current, use_container_width=True) and result_is_current:
+                show_result_save_dialog(
+                    converted_text, result_provenance.get("result_filename", "esperanto_unversioned_reconvert.txt"),
+                    "テキストをダウンロード", "plain_confirmed_download",
+                )
 
             if result_is_current:
                 st.markdown("---")

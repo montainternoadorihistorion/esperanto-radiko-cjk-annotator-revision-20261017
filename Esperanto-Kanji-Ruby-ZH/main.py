@@ -5,6 +5,7 @@
 
 import streamlit as st
 import esp_assignment_edition as editions
+import esp_input_state as input_state
 import re
 import io
 import os
@@ -67,9 +68,10 @@ st.write("---")
 assignment_edition = editions.select_edition(DATA_DIR)
 _custom_json_sha = None
 
-selected_option = st.radio(
+selected_option = input_state.persistent_radio(
     "选择转换模式:",
-    ("📖 注释Ruby（词根上方显示中文注释）", "🈶 汉字化（汉字＋词根Ruby）", "✂️ 汉字化·纯替换（无标签文本）", "📤 使用自定义JSON（高级）")
+    ("📖 注释Ruby（词根上方显示中文注释）", "🈶 汉字化（汉字＋词根Ruby）", "✂️ 汉字化·纯替换（无标签文本）", "📤 使用自定义JSON（高级）"),
+    key="_conversion_mode_widget",
 )
 
 st.caption("初次使用保持默认的 **「📖 注释Ruby」** 即可（原文不变，词根上方显示中文注释）。")
@@ -249,31 +251,31 @@ processed_text = ""
 # 4) 选择如何输入待转换的文本（手动输入或上传文件）
 # --------------------------------------------------------------------
 st.subheader("输入文本来源")
-source_option = st.radio("请选择输入文本的方式：", ("手动输入", "上传文件"))
+source_option = input_state.persistent_radio(
+    "请选择输入文本的方式：",
+    ("手动输入", "上传文件"),
+    key="_source_option_widget",
+)
 
-uploaded_text = ""
-if source_option == "上传文件":
-    text_file = st.file_uploader("上传文本文件 (UTF-8 编码)", type=["txt", "csv", "md"])
+# Source uploads are applied before the editor; invalid files never replace a draft.
+_source_ready = True
+_source_upload_identity = None
+if source_option == '上传文件':
+    text_file = st.file_uploader('上传文本文件 (UTF-8 编码)', type=["txt", "csv", "md"], key="_source_text_upload")
     if text_file is not None:
-        uploaded_text = text_file.read().decode("utf-8", errors="replace")
-        st.info("文件已读取。")
+        try:
+            _source_upload_identity = input_state.apply_text_upload(text_file)
+            st.info('文件已读取。')
+        except UnicodeDecodeError:
+            _source_ready = False
+            st.error('文件不是有效的 UTF-8，输入内容未被替换。请另存为 UTF-8 后重新上传。')
     else:
-        st.warning("尚未上传文本文件，请重新上传或切换为手动输入。")
-
-# --------------------------------------------------------------------
-# 使用表单的方式，让用户输入文本并提交
-# --------------------------------------------------------------------
-# 如果上传了文本，则在生成表单前写入 session_state（作为 key 绑定的初始值）
-if uploaded_text:
-    # 同一ファイルの再セットは初回のみ(欄内の手動修正が毎rerunで上書き破棄されるのを防ぐ)
-    _tfid = getattr(text_file, "file_id", True)
-    if st.session_state.get("_last_text_upload") != _tfid:
-        st.session_state["text0_value"] = uploaded_text
-        st.session_state["_last_text_upload"] = _tfid
+        _source_ready = False
+        st.warning('尚未上传文本文件，请重新上传或切换为手动输入。')
 
 _c1, _c2 = st.columns([1, 3])
 with _c1:
-    st.button("📝 填入示例文本", on_click=lambda: st.session_state.update(text0_value='Saluton! Ĉu vi jam aŭdis, ke Esperanto estas internacia lingvo? Mi eĉ komencis lerni ĝin hodiaŭ, ĉar la komputilo kaj la telefono faciligas la lernadon. La amikeco inter la popoloj kreskas ĉiutage.'))
+    st.button("📝 填入示例文本", on_click=lambda: input_state.set_text('Saluton! Ĉu vi jam aŭdis, ke Esperanto estas internacia lingvo? Mi eĉ komencis lerni ĝin hodiaŭ, ĉar la komputilo kaj la telefono faciligas la lernadon. La amikeco inter la popoloj kreskas ĉiutage.'))
 with _c2:
     st.caption("初次使用: 点击按钮填入示例文本,即可立即体验转换。")
 
@@ -281,20 +283,20 @@ with _c2:
 if "text0_value" not in st.session_state and "_text0_keep" in st.session_state:
     st.session_state["text0_value"] = st.session_state["_text0_keep"]
 
-with st.form(key='profile_form'):
-    # 用 key="text0_value" 将 text_area 与 session_state 双向绑定。
-    # 旧方式(value=initial_text)会在提交时把控件重置为上一次的值，导致
-    # “提交后使用的是上一次输入(滞后一步)”的 bug；key= 方式可让提交时立即反映当前输入。
-    text0 = st.text_area(
-        "请输入世界语文章",
-        height=150,
-        key="text0_value"
-    )
-    st.session_state["_text0_keep"] = text0  # st.stop経路のwidget cleanup対策(非ウィジェットキーは生存)
-    st.caption("💡 帽符字母可用 **cx / c^ / ĉ** 任意一种写法输入(例: sxatas·s^atas·ŝatas)。长文(数千行)转换可能需要数十秒。")
+# 用 key="text0_value" 将 text_area 与 session_state 双向绑定。
+# 旧方式(value=initial_text)会在提交时把控件重置为上一次的值，导致
+# “提交后使用的是上一次输入(滞后一步)”的 bug；key= 方式可让提交时立即反映当前输入。
+text0 = st.text_area(
+    "请输入世界语文章",
+    height=150,
+    key="text0_value",
+    on_change=input_state.remember_text,
+)
+st.session_state["_text0_keep"] = text0  # st.stop経路のwidget cleanup対策(非ウィジェットキーは生存)
+st.caption("💡 帽符字母可用 **cx / c^ / ĉ** 任意一种写法输入(例: sxatas·s^atas·ŝatas)。长文(数千行)转换可能需要数十秒。")
 
-    with st.expander("🔖 调整局部转换(%与@标记)"):
-        st.markdown("""
+with st.expander("🔖 调整局部转换(%与@标记)"):
+    st.markdown("""
 - 用 `%...%` 包裹的部分**跳过词根转换**(同一行，50字符以内；仍会统一字帽及空格格式)。
   例: `%Universala Kongreso% okazos.`
 - 用 `@...@` 包裹的部分**按局部替换列表处理，并去掉两端的@**(同一行，也可指定词内的一部分)。
@@ -302,97 +304,104 @@ with st.form(key='profile_form'):
 - 电子邮箱地址中的@不作为标记。需要保留整段文字时，请用 `%...%`。
 """)
 
-    # 让用户选择“输出字符形式”（上标形式、x 形式、^ 形式）
-    letter_type = st.radio('世界语字母的书写形式(输出)', ('ĉ ĝ ĥ ĵ ŝ ŭ (标准)', 'cx gx hx jx sx ux (x形式)', 'c^ g^ h^ j^ s^ u^ (^形式)'))
+# 让用户选择“输出字符形式”（上标形式、x 形式、^ 形式）
+letter_type = input_state.persistent_radio(
+    '世界语字母的书写形式(输出)',
+    ('ĉ ĝ ĥ ĵ ŝ ŭ (标准)', 'cx gx hx jx sx ux (x形式)', 'c^ g^ h^ j^ s^ u^ (^形式)'),
+    key="_letter_type_widget",
+)
 
-    # 提交、取消按钮
-    submit_btn = st.form_submit_button('🔁 开始转换', type="primary")
+# 提交、取消按钮
+_current_input_signature = input_state.input_signature(text0, source_option, _source_upload_identity)
+submit_btn = st.button('🔁 开始转换', type="primary", key="convert_text", disabled=not _source_ready)
 
 
-    # 如果点击了“提交”
-    if submit_btn and not (text0 or "").strip():
-        st.warning("文本为空。请输入世界语文本后再点击「开始转换」。")
-        st.stop()
+# 如果点击了“提交”
+if submit_btn and not (text0 or "").strip():
+    st.warning("文本为空。请输入世界语文本后再点击「开始转换」。")
+    st.stop()
 
-    if submit_btn:
-        # text0 已通过 key="text0_value" 与 session_state 双向绑定，
-        # 此处手动赋值会在控件实例化后修改 session_state 而报错，故不再赋值。
+if submit_btn:
+    # text0 已通过 key="text0_value" 与 session_state 双向绑定，
+    # 此处手动赋值会在控件实例化后修改 session_state 而报错，故不再赋值。
 
-        # 根据是否勾选并行处理，调用不同函数
-        if use_parallel:
-            processed_text = parallel_process(
-                text=text0,
-                num_processes=num_processes,
-                placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
-                replacements_list_for_localized_string=replacements_list_for_localized_string,
-                placeholders_for_localized_replacement=placeholders_for_localized_replacement,
-                replacements_final_list=replacements_final_list,
-                replacements_list_for_2char=replacements_list_for_2char,
-                format_type=format_type
-            )
-        else:
-            processed_text = orchestrate_comprehensive_esperanto_text_replacement(
-                text=text0,
-                placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
-                replacements_list_for_localized_string=replacements_list_for_localized_string,
-                placeholders_for_localized_replacement=placeholders_for_localized_replacement,
-                replacements_final_list=replacements_final_list,
-                replacements_list_for_2char=replacements_list_for_2char,
-                format_type=format_type
-            )
+    # 根据是否勾选并行处理，调用不同函数
+    if use_parallel:
+        processed_text = parallel_process(
+            text=text0,
+            num_processes=num_processes,
+            placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
+            replacements_list_for_localized_string=replacements_list_for_localized_string,
+            placeholders_for_localized_replacement=placeholders_for_localized_replacement,
+            replacements_final_list=replacements_final_list,
+            replacements_list_for_2char=replacements_list_for_2char,
+            format_type=format_type
+        )
+    else:
+        processed_text = orchestrate_comprehensive_esperanto_text_replacement(
+            text=text0,
+            placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
+            replacements_list_for_localized_string=replacements_list_for_localized_string,
+            placeholders_for_localized_replacement=placeholders_for_localized_replacement,
+            replacements_final_list=replacements_final_list,
+            replacements_list_for_2char=replacements_list_for_2char,
+            format_type=format_type
+        )
 
-        # 第1遍若出现「词首单字游离」过度分解(辅音单字游离: fero->f/er/o 等),
-        # 以最高优先级 merge 自动校正并渲染第2遍(在机制层面清除该缺陷类)。无游离则不处理。
-        try:
-            import esp_overlay_module as _ovx
-            _afmode = "kanji" if selected_option in ("🈶 汉字化（汉字＋词根Ruby）", "✂️ 汉字化·纯替换（无标签文本）") else "ruby"  # sample_btn_marker
-            _auto_strip_pure = (selected_option == "✂️ 汉字化·纯替换（无标签文本）")
-            _auto = _ovx.auto_overlay_entries(processed_text, DATA_DIR, _afmode, assignment_edition)
-            if _auto and _auto_strip_pure:
-                import re as _re_af
-                _auto = [[o, _re_af.sub(r"</?ruby>", "", _re_af.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_af.DOTALL | _re_af.IGNORECASE), flags=_re_af.IGNORECASE), ph] for o, n, ph in _auto]
-            if _auto:
-                _GGx = _ovx.merge_overlay(replacements_final_list, _auto)
-                if use_parallel:
-                    processed_text = parallel_process(
-                        text=text0, num_processes=num_processes,
-                        placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
-                        replacements_list_for_localized_string=replacements_list_for_localized_string,
-                        placeholders_for_localized_replacement=placeholders_for_localized_replacement,
-                        replacements_final_list=_GGx,
-                        replacements_list_for_2char=replacements_list_for_2char,
-                        format_type=format_type)
-                else:
-                    processed_text = orchestrate_comprehensive_esperanto_text_replacement(
-                        text=text0,
-                        placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
-                        replacements_list_for_localized_string=replacements_list_for_localized_string,
-                        placeholders_for_localized_replacement=placeholders_for_localized_replacement,
-                        replacements_final_list=_GGx,
-                        replacements_list_for_2char=replacements_list_for_2char,
-                        format_type=format_type)
-        except Exception:
-            pass
+    # 第1遍若出现「词首单字游离」过度分解(辅音单字游离: fero->f/er/o 等),
+    # 以最高优先级 merge 自动校正并渲染第2遍(在机制层面清除该缺陷类)。无游离则不处理。
+    try:
+        import esp_overlay_module as _ovx
+        _afmode = "kanji" if selected_option in ("🈶 汉字化（汉字＋词根Ruby）", "✂️ 汉字化·纯替换（无标签文本）") else "ruby"  # sample_btn_marker
+        _auto_strip_pure = (selected_option == "✂️ 汉字化·纯替换（无标签文本）")
+        _auto = _ovx.auto_overlay_entries(processed_text, DATA_DIR, _afmode, assignment_edition)
+        if _auto and _auto_strip_pure:
+            import re as _re_af
+            _auto = [[o, _re_af.sub(r"</?ruby>", "", _re_af.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_af.DOTALL | _re_af.IGNORECASE), flags=_re_af.IGNORECASE), ph] for o, n, ph in _auto]
+        if _auto:
+            _GGx = _ovx.merge_overlay(replacements_final_list, _auto)
+            if use_parallel:
+                processed_text = parallel_process(
+                    text=text0, num_processes=num_processes,
+                    placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
+                    replacements_list_for_localized_string=replacements_list_for_localized_string,
+                    placeholders_for_localized_replacement=placeholders_for_localized_replacement,
+                    replacements_final_list=_GGx,
+                    replacements_list_for_2char=replacements_list_for_2char,
+                    format_type=format_type)
+            else:
+                processed_text = orchestrate_comprehensive_esperanto_text_replacement(
+                    text=text0,
+                    placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
+                    replacements_list_for_localized_string=replacements_list_for_localized_string,
+                    placeholders_for_localized_replacement=placeholders_for_localized_replacement,
+                    replacements_final_list=_GGx,
+                    replacements_list_for_2char=replacements_list_for_2char,
+                    format_type=format_type)
+    except Exception:
+        pass
 
-        # 将上标形式等应用到结果中
-        if letter_type == 'ĉ ĝ ĥ ĵ ŝ ŭ (标准)':
-            processed_text = replace_esperanto_chars(processed_text, x_to_circumflex)
-            processed_text = replace_esperanto_chars(processed_text, hat_to_circumflex)
-        elif letter_type == 'cx gx hx jx sx ux (x形式)':
-            processed_text = replace_esperanto_chars(processed_text, circumflex_to_x)
-            processed_text = replace_esperanto_chars(processed_text, hat_to_x)
-        elif letter_type == 'c^ g^ h^ j^ s^ u^ (^形式)':
-            processed_text = replace_esperanto_chars(processed_text, x_to_hat)
-            processed_text = replace_esperanto_chars(processed_text, circumflex_to_hat)
+    # 将上标形式等应用到结果中
+    if letter_type == 'ĉ ĝ ĥ ĵ ŝ ŭ (标准)':
+        processed_text = replace_esperanto_chars(processed_text, x_to_circumflex)
+        processed_text = replace_esperanto_chars(processed_text, hat_to_circumflex)
+    elif letter_type == 'cx gx hx jx sx ux (x形式)':
+        processed_text = replace_esperanto_chars(processed_text, circumflex_to_x)
+        processed_text = replace_esperanto_chars(processed_text, hat_to_x)
+    elif letter_type == 'c^ g^ h^ j^ s^ u^ (^形式)':
+        processed_text = replace_esperanto_chars(processed_text, x_to_hat)
+        processed_text = replace_esperanto_chars(processed_text, circumflex_to_hat)
 
-        processed_text = apply_ruby_html_header_and_footer(processed_text, format_type)
+    processed_text = apply_ruby_html_header_and_footer(processed_text, format_type)
 
-        # 将结果保存到 session_state（避免重跑时丢失，并使结果可编辑）
-        st.session_state["result_html"] = processed_text
-        st.session_state["result_assignment_metadata"] = editions.result_metadata(DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type})
-        st.session_state["edited_html"] = processed_text          # 编辑用初始值＝生成结果
-        st.session_state["result_is_html"] = ("HTML" in format_type)
-        st.toast("✅ 转换完成,结果已显示在下方。")
+    # 将结果保存到 session_state（避免重跑时丢失，并使结果可编辑）
+    st.session_state["result_html"] = processed_text
+    st.session_state["result_input_signature"] = _current_input_signature
+    st.session_state["_edited_html_keep"] = processed_text
+    st.session_state["result_assignment_metadata"] = editions.result_metadata(DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type})
+    st.session_state["edited_html"] = processed_text          # 编辑用初始值＝生成结果
+    st.session_state["result_is_html"] = ("HTML" in format_type)
+    st.toast("✅ 转换完成,结果已显示在下方。")
 
 # --------------------------------------------------------------------
 # 表单外：结果预览 / 编辑 / 下载
@@ -400,16 +409,21 @@ with st.form(key='profile_form'):
 def _reset_edited_html():
     # “放弃编辑”回调（控件实例化后修改 session_state 会报错，故在回调里恢复为生成结果）
     st.session_state["edited_html"] = st.session_state.get("result_html", "")
+    st.session_state["_edited_html_keep"] = st.session_state["edited_html"]
 
 _result_meta = st.session_state.get("result_assignment_metadata")
-_matching_result = editions.result_matches(_result_meta, DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type})
+_matching_input = _source_ready and st.session_state.get("result_input_signature") == _current_input_signature
+_matching_result = editions.result_matches(_result_meta, DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type}) and _matching_input
 if st.session_state.get("result_html") and not _matching_result:
-    editions.stale_result_notice(DATA_DIR, _result_meta)
+    if not _matching_input:
+        st.info('输入内容或输入方式已更改。请重新转换后再保存。')
+    else:
+        editions.stale_result_notice(DATA_DIR, _result_meta)
 
 if st.session_state.get("result_html") and _matching_result:
     # st.stop()経路(自作JSON未アップロード等)のwidget cleanupで edited_html が消えた場合の再シード
     if "edited_html" not in st.session_state:
-        st.session_state["edited_html"] = st.session_state["result_html"]
+        st.session_state["edited_html"] = st.session_state.get("_edited_html_keep", st.session_state["result_html"])
     st.caption("可在「HTML 源码（可编辑）」标签页直接修改输出，修改会反映到预览与下载（重新转换则恢复生成结果）。")
 
     # 编辑后的内容（没有则为生成结果）。预览与下载都使用该内容。
@@ -434,6 +448,7 @@ if st.session_state.get("result_html") and _matching_result:
             st.text_area(
                 "可直接编辑输出的 HTML（编辑后会反映到预览与下载）",
                 key="edited_html",
+                on_change=input_state.remember_edited_text,
                 height=300
             )
             st.button("放弃编辑，恢复生成结果", on_click=_reset_edited_html)
@@ -443,7 +458,7 @@ if st.session_state.get("result_html") and _matching_result:
         with tab3_list[0]:
             st.code(preview_text, language=None)
         with tab3_list[1]:
-            st.text_area("可直接编辑输出", key="edited_html", height=300)
+            st.text_area("可直接编辑输出", key="edited_html", on_change=input_state.remember_edited_text, height=300)
             st.button("放弃编辑，恢复生成结果", on_click=_reset_edited_html)
         download_name = "转换结果.txt"
 
@@ -451,12 +466,14 @@ if st.session_state.get("result_html") and _matching_result:
     download_name = editions.download_filename(os.path.splitext(download_name)[0], _result_meta, _extension)
     _download_text = (editions.html_download_metadata(_result_meta) if _extension == "html" else "") + current_html
     download_data = _download_text.encode('utf-8')
-    st.download_button(
-        label="下载转换结果（已反映编辑）",
-        data=download_data,
-        file_name=download_name,
-        mime="text/html"
-    )
+    if st.button("确认保存内容", key="confirm_download"):
+        input_state.confirm_download(
+            text=current_html, data=download_data, filename=download_name,
+            is_html=(_extension == "html"),
+            edition_label=_result_meta["edition_label"],
+            title="将要保存的内容", content_label="将要保存的文本",
+            download_label="下载转换结果（已反映编辑）",
+        )
     st.page_link("pages/1_🔧_词根分解的手动校正.py", label="🔧 发现错误的分解 → 前往手动校正页面修正(即时生效)")
 
 st.write("---")

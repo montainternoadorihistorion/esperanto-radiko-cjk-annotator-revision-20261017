@@ -46,7 +46,7 @@ def check(language):
     at.radio[0].set_value(at.radio[0].options[2])
     run_from_root(at)
     at.text_area(key="text0_value").set_value("lasi emancipo")
-    next(button for button in at.button if str(button.key).startswith("FormSubmitter:profile_form-")).click()
+    at.button(key="convert_text").click()
     run_from_root(at)
     assert at.session_state["result_html"] == "放i 放ᴱo"
     assert baseline_file.read_bytes() == baseline_bytes
