@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "assignments": {
+    "greft": {
+      "before": "嫁接",
+      "after": "移植"
+    },
+    "dot": {
+      "before": "嫁妆",
+      "after": "妆"
+    },
+    "tualet": {
+      "before": "妆",
+      "after": "妆ᵀ"
+    }
+  },
+  "decision": "User approved greft=移植 and dot=妆. Re-run existing identifier algorithm moves tualet to 妆ᵀ; every other root remains unchanged. Preserve plant grafting and medical transplantation and both spouses' marriage-property plus figurative endowment meanings in annotations. No root addition or decomposition-boundary change.",
+  "canonical_manifest_sha256": "a6c67111edc1690f20c5172ff4c6a61cd1fd925d0287e9ed2bc1887d18eec7cf"
+}
