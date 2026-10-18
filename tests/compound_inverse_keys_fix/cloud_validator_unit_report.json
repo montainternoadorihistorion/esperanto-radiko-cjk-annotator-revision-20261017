@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "tests": 6,
+  "elapsed_seconds": 3.935,
+  "command": "python -X utf8 -m unittest test_cloud_validator -v",
+  "synthetic_only": true,
+  "cloud_observation_verified": false,
+  "coverage": [
+    "synthetic complete set accepted and Chrome duplicate filename allowed",
+    "missing observation incomplete",
+    "duplicate identity and wrong edition rejected",
+    "mutated or missing actual download rejected",
+    "stale caption and enabled stale download rejected",
+    "wrong filename and wrong forward visible rejected"
+  ],
+  "sources": [
+    {
+      "path": "verify_cloud_evidence.py",
+      "sha256": "c5adc4a50ee1f083736634fc778228b5ad6bbe04684a2e866a4f613ce4b4b44d"
+    },
+    {
+      "path": "test_cloud_validator.py",
+      "sha256": "6fae2eda3f1c304584d2f7c8bbcb9c9174cd91252512eb3cd8cfa0499bacdda8"
+    }
+  ],
+  "predeployment_report": "cloud_validation_predeployment.json"
+}

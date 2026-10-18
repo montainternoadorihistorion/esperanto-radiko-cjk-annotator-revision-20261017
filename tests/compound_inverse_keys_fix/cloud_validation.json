@@ -1,0 +1,265 @@
+{
+  "completed": true,
+  "passed": true,
+  "status": "passed",
+  "fixture_sha256": "9d4b4675d5a251a1625f9cecc42278bcba2553947c1249b1513e9313ca4458aa",
+  "evidence_sha256": "740a5ddf1360130f5f3263b25f550eefdbdcfa5555010da3fa9eb7a3c5ba39ba",
+  "checks": 340,
+  "errors": [],
+  "missing": [],
+  "observed_counts": {
+    "forward": 12,
+    "inverse": 4,
+    "downloads": 16,
+    "guards": 2
+  },
+  "verified_forward": [
+    {
+      "case_id": "JA_current_kanji",
+      "visible_sha256": "f0e0287012cd292db187292399dc565e67ed705b66654ecfcc2a759ae9ee8ce3",
+      "verification": "observed visible base text; no raw HTML DOM equality claimed"
+    },
+    {
+      "case_id": "KO_current_pure",
+      "visible_sha256": "f0e0287012cd292db187292399dc565e67ed705b66654ecfcc2a759ae9ee8ce3",
+      "verification": "observed visible base text; no raw HTML DOM equality claimed"
+    },
+    {
+      "case_id": "ZH_current_pure",
+      "visible_sha256": "f0e0287012cd292db187292399dc565e67ed705b66654ecfcc2a759ae9ee8ce3",
+      "verification": "observed visible base text; no raw HTML DOM equality claimed"
+    },
+    {
+      "case_id": "JA_legacy_kanji",
+      "visible_sha256": "5bdffbb7a62e6eff9d56d14623e9276d143e0e4f278cfa98a5365380f29fec8f",
+      "verification": "observed visible base text; no raw HTML DOM equality claimed"
+    },
+    {
+      "case_id": "ZH_current_kanji",
+      "visible_sha256": "f0e0287012cd292db187292399dc565e67ed705b66654ecfcc2a759ae9ee8ce3",
+      "verification": "observed visible base text; no raw HTML DOM equality claimed"
+    },
+    {
+      "case_id": "KO_current_kanji",
+      "visible_sha256": "f0e0287012cd292db187292399dc565e67ed705b66654ecfcc2a759ae9ee8ce3",
+      "verification": "observed visible base text; no raw HTML DOM equality claimed"
+    },
+    {
+      "case_id": "JA_legacy_pure",
+      "visible_sha256": "5bdffbb7a62e6eff9d56d14623e9276d143e0e4f278cfa98a5365380f29fec8f",
+      "verification": "observed visible base text; no raw HTML DOM equality claimed"
+    },
+    {
+      "case_id": "ZH_legacy_kanji",
+      "visible_sha256": "5bdffbb7a62e6eff9d56d14623e9276d143e0e4f278cfa98a5365380f29fec8f",
+      "verification": "observed visible base text; no raw HTML DOM equality claimed"
+    },
+    {
+      "case_id": "KO_legacy_kanji",
+      "visible_sha256": "5bdffbb7a62e6eff9d56d14623e9276d143e0e4f278cfa98a5365380f29fec8f",
+      "verification": "observed visible base text; no raw HTML DOM equality claimed"
+    },
+    {
+      "case_id": "JA_current_pure",
+      "visible_sha256": "f0e0287012cd292db187292399dc565e67ed705b66654ecfcc2a759ae9ee8ce3",
+      "verification": "observed visible base text; no raw HTML DOM equality claimed"
+    },
+    {
+      "case_id": "ZH_legacy_pure",
+      "visible_sha256": "5bdffbb7a62e6eff9d56d14623e9276d143e0e4f278cfa98a5365380f29fec8f",
+      "verification": "observed visible base text; no raw HTML DOM equality claimed"
+    },
+    {
+      "case_id": "KO_legacy_pure",
+      "visible_sha256": "5bdffbb7a62e6eff9d56d14623e9276d143e0e4f278cfa98a5365380f29fec8f",
+      "verification": "observed visible base text; no raw HTML DOM equality claimed"
+    }
+  ],
+  "verified_inverse": [
+    {
+      "case_id": "ZH_current",
+      "output_sha256": "2a17d22a167944ca2457b85eb0f90f9940686ab600b4c9af522b721d885e8ba9",
+      "caption": "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-compound-inverse-20261018-v3 / 6ec3a6d43d2e"
+    },
+    {
+      "case_id": "JA_current",
+      "output_sha256": "2a17d22a167944ca2457b85eb0f90f9940686ab600b4c9af522b721d885e8ba9",
+      "caption": "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-compound-inverse-20261018-v3 / 6ec3a6d43d2e"
+    },
+    {
+      "case_id": "ZH_legacy",
+      "output_sha256": "35131af75ea7efde1f6678666d96fb77d005bc2e821365c2be370637e3978629",
+      "caption": "转换结果使用的版本: 旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261018-v3 / 59e2c3cd9f69"
+    },
+    {
+      "case_id": "JA_legacy",
+      "output_sha256": "35131af75ea7efde1f6678666d96fb77d005bc2e821365c2be370637e3978629",
+      "caption": "変換結果の版: 旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261018-v3 / 59e2c3cd9f69"
+    }
+  ],
+  "verified_downloads": [
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "full",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+      "path": "cloud_actual/ZH_current_full/dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (6).csv",
+      "bytes": 317760,
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "two_column",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+      "path": "cloud_actual/ZH_current_two_column/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (6).csv",
+      "bytes": 176571,
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "effective",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.csv",
+      "path": "cloud_actual/ZH_current_effective/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.csv",
+      "bytes": 198101,
+      "sha256": "cf756f5dbc300391270b88b190d719ee6f22902e148c2670b762fb9bb348e377"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "result",
+      "expected_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.txt",
+      "path": "cloud_actual/ZH_current_result/esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.txt",
+      "bytes": 235,
+      "sha256": "2a17d22a167944ca2457b85eb0f90f9940686ab600b4c9af522b721d885e8ba9"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "full",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+      "path": "cloud_actual/JA_current_full/dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (7).csv",
+      "bytes": 317760,
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "two_column",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+      "path": "cloud_actual/JA_current_two_column/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (7).csv",
+      "bytes": 176571,
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "effective",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.csv",
+      "path": "cloud_actual/JA_current_effective/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e (1).csv",
+      "bytes": 198101,
+      "sha256": "cf756f5dbc300391270b88b190d719ee6f22902e148c2670b762fb9bb348e377"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "result",
+      "expected_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.txt",
+      "path": "cloud_actual/JA_current_result/esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e (1).txt",
+      "bytes": 235,
+      "sha256": "2a17d22a167944ca2457b85eb0f90f9940686ab600b4c9af522b721d885e8ba9"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "full",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+      "path": "cloud_actual/ZH_legacy_full/dictionary_old_4c16c8937c60_eed2a8bfc21a (8).csv",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "two_column",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+      "path": "cloud_actual/ZH_legacy_two_column/dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (8).csv",
+      "bytes": 166998,
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "effective",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.csv",
+      "path": "cloud_actual/ZH_legacy_effective/dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.csv",
+      "bytes": 191934,
+      "sha256": "0f861144f2b5dc81334ca684e7798e6abfa3fc4f62e3474c6775920159fa02d0"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "result",
+      "expected_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.txt",
+      "path": "cloud_actual/ZH_legacy_result/esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.txt",
+      "bytes": 1732,
+      "sha256": "35131af75ea7efde1f6678666d96fb77d005bc2e821365c2be370637e3978629"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "full",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+      "path": "cloud_actual/JA_legacy_full/dictionary_old_4c16c8937c60_eed2a8bfc21a (9).csv",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "two_column",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+      "path": "cloud_actual/JA_legacy_two_column/dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (9).csv",
+      "bytes": 166998,
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "effective",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.csv",
+      "path": "cloud_actual/JA_legacy_effective/dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69 (1).csv",
+      "bytes": 191934,
+      "sha256": "0f861144f2b5dc81334ca684e7798e6abfa3fc4f62e3474c6775920159fa02d0"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "result",
+      "expected_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.txt",
+      "path": "cloud_actual/JA_legacy_result/esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69 (1).txt",
+      "bytes": 1732,
+      "sha256": "35131af75ea7efde1f6678666d96fb77d005bc2e821365c2be370637e3978629"
+    }
+  ],
+  "verified_guards": [
+    {
+      "language": "ZH",
+      "kind": "edition_switch",
+      "retained_caption": "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-compound-inverse-20261018-v3 / 6ec3a6d43d2e",
+      "download_disabled": true
+    },
+    {
+      "language": "JA",
+      "kind": "edition_switch",
+      "retained_caption": "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-compound-inverse-20261018-v3 / 6ec3a6d43d2e",
+      "download_disabled": true
+    }
+  ],
+  "limits": [
+    "Recorded observations and saved bytes are verified; this script does not itself operate the browser.",
+    "Forward validation checks visible base text, not browser-specific HTML wrapper serialization.",
+    "No Cloud custom-upload claim is made for this repair."
+  ]
+}

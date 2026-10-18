@@ -1,0 +1,371 @@
+{
+  "inverse": [
+    {
+      "case_id": "ZH_current",
+      "language": "ZH",
+      "edition": "current",
+      "input": "兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 远复ᴷo\n远复ᴷˢo 远复ᴷᴹo 金ᴱᵁ̆o 在ᶜ̂o 全a 再见i 草o\n远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "output": "orkidito ato ito ito frao pao polo leŭko telekopio\ntelekomplekso telekompliko eŭropio ĉeo ĉia adiaŭi herbo\ntelekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "captions": [
+        "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-compound-inverse-20261018-v3 / 6ec3a6d43d2e"
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:10:03.260Z"
+    },
+    {
+      "case_id": "JA_current",
+      "language": "JA",
+      "edition": "current",
+      "input": "兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 远复ᴷo\n远复ᴷˢo 远复ᴷᴹo 金ᴱᵁ̆o 在ᶜ̂o 全a 再见i 草o\n远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "output": "orkidito ato ito ito frao pao polo leŭko telekopio\ntelekomplekso telekompliko eŭropio ĉeo ĉia adiaŭi herbo\ntelekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "captions": [
+        "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-compound-inverse-20261018-v3 / 6ec3a6d43d2e"
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:11:02.693Z"
+    },
+    {
+      "case_id": "ZH_legacy",
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 两ᴴo 名ᴺᴵo 远声ᶠᴼo 微镜ˢᴷo 氧生ᴳo 间学ᴸᴺo 越形具ᴬo 单色ᴷᴿo 醋盐ᴬo 气血ᴱo 锐名ᴼo 醇盐ᴬo 醇血ᴱo 替具ᴬo 铝盐ᴬo 担子菌ᴹᶜo 担子菌ᴹᴵo 青盐ᴬo 青植ᶠo 青化ᴵᴰo 三角洲似ᴼo 从氧糖ᴼo 节学ᴵo 二ᴰᴵ氯化ᴵᴰo 膨具ᴬo 二ᴰᴵ硫化ᴵᴰo 甘苦ᴬo 胚植ᶠo 胚源ᴳo 胚切ᵀᴹo 骨端炎ᵀo 咽炎ᵀo 磷盐ᴬo 磷盐ᴬ血ᴱo 磷化ᴵᴰo 磷盐ᴵo 果糖ᴼo 牙肉炎ᵀo 土源ᴳo 卤化ᴵᴰo 半盲ᴬo 半瘫ᴾᴸo 半球ˢo 肝炎ᵀo 超血ᴱo 超感ᴱo 超名ᴼo 超压ᵀo 超养ᵀo 亚皮ᴰo 亚感ᴱo 亚胃ᴳo 亚舌ᴳo 亚软骨ᴷᴺo 亚名ᴺᴵo 亚滞ˢᶻo 亚压ᵀo 亚题ᵀᶻo 间声ᶠᴼo 等ᴵ青盐ᴬo 隔计ᴹo 碘化ᴵᴰo 碘基ᴵo 算计ᴹo 炭化ᴵᴰo 碳盐ᴬo 碳化ᴵᴰo 碳基ᴵo 阴蒂除ᴱᴷo 氯盐ᴬo 氯血ᴱo 氯化ᴵᴰo 氯化ᴵᴰ血ᴱo 氯盐ᴵo 股痛ᴬo 股炎ᵀo 色计ᴹo 色测ᴹᵀo 换具ᴬo 弦炎ᵀo 冻测ᴹᵀo 栽具ᴬo 乳糖ᴼo 举具ᴬo 脾除ᴱᴷo 脾炎ᵀo 蜗牛o 纵隔炎ᵀo 米学ᴵo 肌炎ᵀo 微影ᶠo 微声ᶠᴼo 微粒ᴳo 微槽ᴷo 微菌ᴷᴷo 微石ᴸᵀo 微切ᵀᴼo 万足ᴾᴼo 髓炎ᵀo 单配ᴳo 单志ᴳo 单字ᴳᴹo 单石ᴸᵀo 单话ᴸo 单形ᴹᴵo 单瓣ᴾo 单体ˢᴹo 粘症ᴼo 筋症ᴼo 氮化ᴵᴰo 号具ᴬo 渗计ᴹo 骨痛ᴬo 骨除ᴱᴷo 骨炎ᵀo 胰除ᴱᴷo 胰炎ᵀo 雨计ᴹo 谓能ᴵo 肺炎ᵀo 瓤炎ᵀo 刨具ᴬo 规具ᴬo 蔗盐ᴬo 蔗糖ᴼo 柳盐ᴬo 无感ᴱo 巩膜炎ᵀo 刮具ᴬo 声计ᴹo 水苏糖ᴼo 胃炎ᵀo 硫盐ᴬo 硫青盐ᴬo 硫化ᴵᴰo 硫盐ᴵo 远影ᶠo 远动ᴷᶻo 远令ᴷo 远复ᴷo 远计ᴹo 疹似ᴼo 三体ˢᴹo 篡员ᴬᵀo 汽计ᴹo 精丘炎ᵀo 振具ᴬo 载具ᴬo\n远复ᴷˢo 远复ᴷᴹo 金ᴱᵁ̆o 在ᶜ̂o 全a 再见i 草o\n远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "output": "testikito orkidito orkidito ato ito ito frao pao polo leŭko hermo nimo telefono mikroskopo oksigeno interlingvistiko transformatoro monokromato acetato aeremio akronimo alkoholato alkoholemio alternatoro aluminiato bazidimiceto bazidimikoto cianato cianfito cianido deltoido deoksiozo dietiko diklorido dilatatoro disulfido dolĉamaro embrifito embrigenezo embritomio epifizito faringito fosfato fosfatemio fosfido fosfito fruktozo gingivito grundgenezo halogenido hemianopsio hemiplegio hemisfero hepatito hiperemio hiperestezo hiperonimo hipertensio hipertrofio hipodermo hipoestezo hipogastro hipogloso hipokondro hiponimo hipostazo hipotensio hipotezo interfono izocianato izolmetro jodido jodilo kalkulmetro karbido karbonato karbonido karbonilo klitorektomio klorato kloremio klorido kloridemio klorito koksalgio koksito kolormetro kolormetrio komutatoro kordito kriometrio kultivatoro laktozo levatoro lienektomio lienito limako mediastinito metriko miito mikrofilmo mikrofono mikrograjno mikrokanelo mikrokoko mikrolito mikrotomo miriapodo mjelito monogamio monografio monogramo monolito monologo monomorfio monopetalo monosomo mukozo muskolozo nitrido numeratoro osmozmetro ostalgio ostektomio ostito pankreatektomio pankreatito pluvmetro predikativo pulmito pulpito rabotatoro regulatoro sakarato sakarozo salikato senestezo sklerotito skrapatoro sonmetro stakiozo stomakito sulfato sulfcianato sulfido sulfito telefilmo telekinezo telekomando telekopio telemetro tifoido trisomo uzurpatoro vapormetro verumontanito vibratoro ŝarĝatoro\ntelekomplekso telekompliko eŭropio ĉeo ĉia adiaŭi herbo\ntelekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "captions": [
+        "转换结果使用的版本: 旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261018-v3 / 59e2c3cd9f69"
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:11:15.969Z"
+    },
+    {
+      "case_id": "JA_legacy",
+      "language": "JA",
+      "edition": "legacy",
+      "input": "丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 两ᴴo 名ᴺᴵo 远声ᶠᴼo 微镜ˢᴷo 氧生ᴳo 间学ᴸᴺo 越形具ᴬo 单色ᴷᴿo 醋盐ᴬo 气血ᴱo 锐名ᴼo 醇盐ᴬo 醇血ᴱo 替具ᴬo 铝盐ᴬo 担子菌ᴹᶜo 担子菌ᴹᴵo 青盐ᴬo 青植ᶠo 青化ᴵᴰo 三角洲似ᴼo 从氧糖ᴼo 节学ᴵo 二ᴰᴵ氯化ᴵᴰo 膨具ᴬo 二ᴰᴵ硫化ᴵᴰo 甘苦ᴬo 胚植ᶠo 胚源ᴳo 胚切ᵀᴹo 骨端炎ᵀo 咽炎ᵀo 磷盐ᴬo 磷盐ᴬ血ᴱo 磷化ᴵᴰo 磷盐ᴵo 果糖ᴼo 牙肉炎ᵀo 土源ᴳo 卤化ᴵᴰo 半盲ᴬo 半瘫ᴾᴸo 半球ˢo 肝炎ᵀo 超血ᴱo 超感ᴱo 超名ᴼo 超压ᵀo 超养ᵀo 亚皮ᴰo 亚感ᴱo 亚胃ᴳo 亚舌ᴳo 亚软骨ᴷᴺo 亚名ᴺᴵo 亚滞ˢᶻo 亚压ᵀo 亚题ᵀᶻo 间声ᶠᴼo 等ᴵ青盐ᴬo 隔计ᴹo 碘化ᴵᴰo 碘基ᴵo 算计ᴹo 炭化ᴵᴰo 碳盐ᴬo 碳化ᴵᴰo 碳基ᴵo 阴蒂除ᴱᴷo 氯盐ᴬo 氯血ᴱo 氯化ᴵᴰo 氯化ᴵᴰ血ᴱo 氯盐ᴵo 股痛ᴬo 股炎ᵀo 色计ᴹo 色测ᴹᵀo 换具ᴬo 弦炎ᵀo 冻测ᴹᵀo 栽具ᴬo 乳糖ᴼo 举具ᴬo 脾除ᴱᴷo 脾炎ᵀo 蜗牛o 纵隔炎ᵀo 米学ᴵo 肌炎ᵀo 微影ᶠo 微声ᶠᴼo 微粒ᴳo 微槽ᴷo 微菌ᴷᴷo 微石ᴸᵀo 微切ᵀᴼo 万足ᴾᴼo 髓炎ᵀo 单配ᴳo 单志ᴳo 单字ᴳᴹo 单石ᴸᵀo 单话ᴸo 单形ᴹᴵo 单瓣ᴾo 单体ˢᴹo 粘症ᴼo 筋症ᴼo 氮化ᴵᴰo 号具ᴬo 渗计ᴹo 骨痛ᴬo 骨除ᴱᴷo 骨炎ᵀo 胰除ᴱᴷo 胰炎ᵀo 雨计ᴹo 谓能ᴵo 肺炎ᵀo 瓤炎ᵀo 刨具ᴬo 规具ᴬo 蔗盐ᴬo 蔗糖ᴼo 柳盐ᴬo 无感ᴱo 巩膜炎ᵀo 刮具ᴬo 声计ᴹo 水苏糖ᴼo 胃炎ᵀo 硫盐ᴬo 硫青盐ᴬo 硫化ᴵᴰo 硫盐ᴵo 远影ᶠo 远动ᴷᶻo 远令ᴷo 远复ᴷo 远计ᴹo 疹似ᴼo 三体ˢᴹo 篡员ᴬᵀo 汽计ᴹo 精丘炎ᵀo 振具ᴬo 载具ᴬo\n远复ᴷˢo 远复ᴷᴹo 金ᴱᵁ̆o 在ᶜ̂o 全a 再见i 草o\n远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "output": "testikito orkidito orkidito ato ito ito frao pao polo leŭko hermo nimo telefono mikroskopo oksigeno interlingvistiko transformatoro monokromato acetato aeremio akronimo alkoholato alkoholemio alternatoro aluminiato bazidimiceto bazidimikoto cianato cianfito cianido deltoido deoksiozo dietiko diklorido dilatatoro disulfido dolĉamaro embrifito embrigenezo embritomio epifizito faringito fosfato fosfatemio fosfido fosfito fruktozo gingivito grundgenezo halogenido hemianopsio hemiplegio hemisfero hepatito hiperemio hiperestezo hiperonimo hipertensio hipertrofio hipodermo hipoestezo hipogastro hipogloso hipokondro hiponimo hipostazo hipotensio hipotezo interfono izocianato izolmetro jodido jodilo kalkulmetro karbido karbonato karbonido karbonilo klitorektomio klorato kloremio klorido kloridemio klorito koksalgio koksito kolormetro kolormetrio komutatoro kordito kriometrio kultivatoro laktozo levatoro lienektomio lienito limako mediastinito metriko miito mikrofilmo mikrofono mikrograjno mikrokanelo mikrokoko mikrolito mikrotomo miriapodo mjelito monogamio monografio monogramo monolito monologo monomorfio monopetalo monosomo mukozo muskolozo nitrido numeratoro osmozmetro ostalgio ostektomio ostito pankreatektomio pankreatito pluvmetro predikativo pulmito pulpito rabotatoro regulatoro sakarato sakarozo salikato senestezo sklerotito skrapatoro sonmetro stakiozo stomakito sulfato sulfcianato sulfido sulfito telefilmo telekinezo telekomando telekopio telemetro tifoido trisomo uzurpatoro vapormetro verumontanito vibratoro ŝarĝatoro\ntelekomplekso telekompliko eŭropio ĉeo ĉia adiaŭi herbo\ntelekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "captions": [
+        "変換結果の版: 旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261018-v3 / 59e2c3cd9f69"
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:13:13.266Z"
+    }
+  ],
+  "forward": [
+    {
+      "case_id": "JA_current_kanji",
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "observed_preview": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>エスペラント語根分解ルビ注釈テキスト</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切ᵀᴼ<rt class=\"L_L\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐ᴬ<rt class=\"XXL_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a</p></body></html>",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T09:51:27.777Z"
+    },
+    {
+      "case_id": "KO_current_pure",
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "observed_preview": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T09:51:27.882Z"
+    },
+    {
+      "case_id": "ZH_current_pure",
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "observed_preview": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T09:51:40.087Z"
+    },
+    {
+      "case_id": "JA_legacy_kanji",
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "observed_preview": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>エスペラント語根分解ルビ注釈テキスト</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>蜗牛<rt class=\"XL_L\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切<rt class=\"S_S\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐<rt class=\"L_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a</p></body></html>",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T09:52:18.410Z"
+    },
+    {
+      "case_id": "ZH_current_kanji",
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "observed_preview": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ruby 显示</title>\n<style>\nhtml, body {\n  -webkit-text-size-adjust: 100%;\n  -moz-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  text-size-adjust: 100%;\n}\n:root {\n  --ruby-color: blue;\n  --ruby-font-size: 0.5em;\n}\nhtml {\n  font-size: 100%;\n}\n.text-M_M {\n  font-size: 1rem!important;\n  font-family: Arial, sans-serif;\n  line-height: 2.0 !important;\n  display: block;\n  position: relative;\n}\nruby {\n  display: inline-flex;\n  flex-direction: column;\n  align-items: center;\n  vertical-align: top !important;\n  line-height: 2.0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  font-size: 1rem !important;\n}\nrt {\n  display: block !important;\n  font-size: var(--ruby-font-size);\n  color: var(--ruby-color);\n  line-height: 1.05;\n  text-align: center;\n}\nrt.XXXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -8.3em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -7.2em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -6.1em !important;\n  transform: translateY(-0em) !important;\n}\nrt.S_S {\n  --ruby-font-size: 0.4em;\n  margin-top: -4.85em !important;\n  transform: translateY(-0em) !important;\n}\nrt.M_M {\n  --ruby-font-size: 0.5em;\n  margin-top: -4.00em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.L_L {\n  --ruby-font-size: 0.6em;\n  margin-top: -3.55em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XL_L {\n  --ruby-font-size: 0.7em;\n  margin-top: -3.20em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XXL_L {\n  --ruby-font-size: 0.8em;\n  margin-top: -2.80em !important;\n  transform: translateY(-0.0em) !important;\n}\n</style>\n</head>\n<body>\n<p class=\"text-M_M\">\n<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切ᵀᴼ<rt class=\"L_L\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐ᴬ<rt class=\"XXL_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a</p></body></html>",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T09:52:18.498Z"
+    },
+    {
+      "case_id": "KO_current_kanji",
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "observed_preview": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>에스페란토 어근 분해 루비 주석 텍스트</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切ᵀᴼ<rt class=\"L_L\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐ᴬ<rt class=\"XXL_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a</p></body></html>",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T09:52:18.595Z"
+    },
+    {
+      "case_id": "JA_legacy_pure",
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "observed_preview": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T09:52:56.085Z"
+    },
+    {
+      "case_id": "ZH_legacy_kanji",
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "observed_preview": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ruby 显示</title>\n<style>\nhtml, body {\n  -webkit-text-size-adjust: 100%;\n  -moz-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  text-size-adjust: 100%;\n}\n:root {\n  --ruby-color: blue;\n  --ruby-font-size: 0.5em;\n}\nhtml {\n  font-size: 100%;\n}\n.text-M_M {\n  font-size: 1rem!important;\n  font-family: Arial, sans-serif;\n  line-height: 2.0 !important;\n  display: block;\n  position: relative;\n}\nruby {\n  display: inline-flex;\n  flex-direction: column;\n  align-items: center;\n  vertical-align: top !important;\n  line-height: 2.0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  font-size: 1rem !important;\n}\nrt {\n  display: block !important;\n  font-size: var(--ruby-font-size);\n  color: var(--ruby-color);\n  line-height: 1.05;\n  text-align: center;\n}\nrt.XXXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -8.3em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -7.2em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -6.1em !important;\n  transform: translateY(-0em) !important;\n}\nrt.S_S {\n  --ruby-font-size: 0.4em;\n  margin-top: -4.85em !important;\n  transform: translateY(-0em) !important;\n}\nrt.M_M {\n  --ruby-font-size: 0.5em;\n  margin-top: -4.00em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.L_L {\n  --ruby-font-size: 0.6em;\n  margin-top: -3.55em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XL_L {\n  --ruby-font-size: 0.7em;\n  margin-top: -3.20em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XXL_L {\n  --ruby-font-size: 0.8em;\n  margin-top: -2.80em !important;\n  transform: translateY(-0.0em) !important;\n}\n</style>\n</head>\n<body>\n<p class=\"text-M_M\">\n<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>蜗牛<rt class=\"XL_L\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切<rt class=\"S_S\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐<rt class=\"L_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a</p></body></html>",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T09:53:06.560Z"
+    },
+    {
+      "case_id": "KO_legacy_kanji",
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "observed_preview": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>에스페란토 어근 분해 루비 주석 텍스트</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>蜗牛<rt class=\"XL_L\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切<rt class=\"S_S\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐<rt class=\"L_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a</p></body></html>",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T09:53:06.652Z"
+    },
+    {
+      "case_id": "JA_current_pure",
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:05:59.452Z"
+    },
+    {
+      "case_id": "ZH_legacy_pure",
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:05:59.527Z"
+    },
+    {
+      "case_id": "KO_legacy_pure",
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:05:59.599Z"
+    }
+  ],
+  "downloads": [
+    {
+      "case_id": "ZH_current_full",
+      "language": "ZH",
+      "edition": "current",
+      "kind": "full",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (6).csv",
+      "path": "cloud_actual/ZH_current_full/dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (6).csv",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:10:14.577Z"
+    },
+    {
+      "case_id": "ZH_current_two_column",
+      "language": "ZH",
+      "edition": "current",
+      "kind": "two_column",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (6).csv",
+      "path": "cloud_actual/ZH_current_two_column/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (6).csv",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:10:15.854Z"
+    },
+    {
+      "case_id": "ZH_current_effective",
+      "language": "ZH",
+      "edition": "current",
+      "kind": "effective",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.csv",
+      "path": "cloud_actual/ZH_current_effective/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.csv",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:10:27.979Z"
+    },
+    {
+      "case_id": "ZH_current_result",
+      "language": "ZH",
+      "edition": "current",
+      "kind": "result",
+      "filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.txt",
+      "path": "cloud_actual/ZH_current_result/esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.txt",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:10:29.379Z"
+    },
+    {
+      "case_id": "JA_current_full",
+      "language": "JA",
+      "edition": "current",
+      "kind": "full",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (7).csv",
+      "path": "cloud_actual/JA_current_full/dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (7).csv",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:11:04.142Z"
+    },
+    {
+      "case_id": "JA_current_two_column",
+      "language": "JA",
+      "edition": "current",
+      "kind": "two_column",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (7).csv",
+      "path": "cloud_actual/JA_current_two_column/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (7).csv",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:11:05.233Z"
+    },
+    {
+      "case_id": "JA_current_effective",
+      "language": "JA",
+      "edition": "current",
+      "kind": "effective",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e (1).csv",
+      "path": "cloud_actual/JA_current_effective/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e (1).csv",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:11:11.249Z"
+    },
+    {
+      "case_id": "JA_current_result",
+      "language": "JA",
+      "edition": "current",
+      "kind": "result",
+      "filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e (1).txt",
+      "path": "cloud_actual/JA_current_result/esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e (1).txt",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:11:12.642Z"
+    },
+    {
+      "case_id": "ZH_legacy_full",
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "full",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a (8).csv",
+      "path": "cloud_actual/ZH_legacy_full/dictionary_old_4c16c8937c60_eed2a8bfc21a (8).csv",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:11:31.347Z"
+    },
+    {
+      "case_id": "ZH_legacy_two_column",
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "two_column",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (8).csv",
+      "path": "cloud_actual/ZH_legacy_two_column/dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (8).csv",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:11:32.768Z"
+    },
+    {
+      "case_id": "ZH_legacy_effective",
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "effective",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.csv",
+      "path": "cloud_actual/ZH_legacy_effective/dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.csv",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:11:45.514Z"
+    },
+    {
+      "case_id": "ZH_legacy_result",
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "result",
+      "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.txt",
+      "path": "cloud_actual/ZH_legacy_result/esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.txt",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:11:46.659Z"
+    },
+    {
+      "case_id": "JA_legacy_full",
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "full",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a (9).csv",
+      "path": "cloud_actual/JA_legacy_full/dictionary_old_4c16c8937c60_eed2a8bfc21a (9).csv",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:11:56.716Z"
+    },
+    {
+      "case_id": "JA_legacy_two_column",
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "two_column",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (9).csv",
+      "path": "cloud_actual/JA_legacy_two_column/dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (9).csv",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:11:58.277Z"
+    },
+    {
+      "case_id": "JA_legacy_effective",
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "effective",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69 (1).csv",
+      "path": "cloud_actual/JA_legacy_effective/dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69 (1).csv",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:12:05.689Z"
+    },
+    {
+      "case_id": "JA_legacy_result",
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "result",
+      "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69 (1).txt",
+      "path": "cloud_actual/JA_legacy_result/esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69 (1).txt",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:13:24.003Z"
+    }
+  ],
+  "guards": [
+    {
+      "language": "ZH",
+      "kind": "edition_switch",
+      "from_edition": "current",
+      "to_edition": "legacy",
+      "caption_before": "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-compound-inverse-20261018-v3 / 6ec3a6d43d2e",
+      "caption_after_switch": "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-compound-inverse-20261018-v3 / 6ec3a6d43d2e",
+      "output": "orkidito ato ito ito frao pao polo leŭko telekopio\ntelekomplekso telekompliko eŭropio ĉeo ĉia adiaŭi herbo\ntelekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "download_disabled": true,
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:10:53.027Z"
+    },
+    {
+      "language": "JA",
+      "kind": "edition_switch",
+      "from_edition": "current",
+      "to_edition": "legacy",
+      "caption_before": "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-compound-inverse-20261018-v3 / 6ec3a6d43d2e",
+      "caption_after_switch": "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-compound-inverse-20261018-v3 / 6ec3a6d43d2e",
+      "output": "orkidito ato ito ito frao pao polo leŭko telekopio\ntelekomplekso telekompliko eŭropio ĉeo ĉia adiaŭi herbo\ntelekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "download_disabled": true,
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T10:11:54.800Z"
+    }
+  ]
+}
