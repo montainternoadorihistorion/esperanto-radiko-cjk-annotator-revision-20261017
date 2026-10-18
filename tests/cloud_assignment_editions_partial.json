@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-18",
+  "published_commit": "26865b7b0e0c8c9526a9c527dc4d39db297343fd",
+  "pull_request": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/33",
+  "method": "Actual Chrome UI through the connected browser",
+  "complete": false,
+  "observations": [
+    {"language": "ZH", "edition_selector_visible": true, "selected_label": "新版（更新中）", "current_annotation_conversion_rendered": true},
+    {"language": "KO", "edition_selector_visible": true, "selected_label": "신판（갱신 중）", "current_annotation_conversion_rendered": true},
+    {"language": "JA", "after_update_conversion_verified": false, "initial_error": "ERR_BLOCKED_BY_CLIENT on reloading the embedded route", "normal_public_entry_navigation": "Loading iframe; completion not observed"}
+  ],
+  "input": "laso @las@o ananaso @ananas@o grefti @greft@i doto @dot@o tualeto @tualet@o @semajn@tagoj & %amiko%",
+  "unverified": ["Cloud output byte equality", "Cloud legacy conversion", "Cloud result download", "Cloud commit-pinned data links", "Cloud screenshot"],
+  "blocker": "The browser tool stopped responding. A subsequent read-only tab inventory also timed out. No browser security settings were changed.",
+  "local_verification": "All 18 application routes, public JA 6 routes, 31 public unit tests (one integration-only asset check skipped), 5 immutable legacy asset tests, and JA/ZH 149 reverse tests each passed within their documented scope."
+}
