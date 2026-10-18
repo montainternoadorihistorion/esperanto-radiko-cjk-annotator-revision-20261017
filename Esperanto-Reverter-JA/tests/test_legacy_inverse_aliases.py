@@ -51,10 +51,15 @@ def test_exact_three_aliases_and_existing_fixed_keys_are_preserved():
 
 def test_no_automatic_aliases_in_current_archives_or_custom():
     for source in app.DICTIONARY_SOURCES:
-        if source != OLD:
+        if source not in (OLD, CURRENT):
             frame = app.load_dictionary_source(source)
             assert app.effective_mapping_records(source, frame) == app.dataframe_to_mapping_records(frame)
             assert 'inverse_compatibility_sha256' not in app.source_provenance(source)
+    # The later current-only repair adds its one approved key, not the old supplement.
+    current = app.load_dictionary_source(CURRENT)
+    current_records = app.dataframe_to_mapping_records(current)
+    assert app.effective_mapping_records(CURRENT, current) == current_records + (("orkidit", "兰炎ᵀ", "0"),)
+    assert app.source_provenance(CURRENT)["inverse_compatibility_revision"].startswith("current-orkidit-")
     # Even a custom copy of the old original must not silently acquire the supplement.
     frame = app.read_assignment_csv(io.BytesIO(app.edition_download_data(OLD)[0]))
     assert app.effective_mapping_records('custom', frame) == app.dataframe_to_mapping_records(frame)
@@ -116,7 +121,7 @@ def test_ui_old_result_stays_old_until_reconverted_and_effective_csv_download_ma
         at = AppTest.from_file(str(Path(app.__file__)), default_timeout=20).run()
         assert not at.exception
         assert len(at.sidebar.selectbox[0].options) == 2
-        assert len(at.get('download_button')) == 2
+        assert len(at.get('download_button')) == 3
         at.sidebar.selectbox[0].set_value(OLD).run()
         assert not at.exception and len(at.get('download_button')) == 3
         text = '丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 兰炎ᵀo 丸炎ᵀo 丸炎o'
