@@ -1,0 +1,644 @@
+{
+  "verified_date_jst": "2026-10-18",
+  "reference_commit": "d20d7803d165aa26983fed74f28df9edbd1ce78d",
+  "language": "JA",
+  "normal_url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+  "method": "User opened the normal URL manually in Chrome. The agent then attached to that existing tab and used actual Cloud UI controls; this is not the direct /~/+/ app-body URL.",
+  "input": "laso @las@o ananaso @ananas@o grefti @greft@i doto @dot@o tualeto @tualet@o @semajn@tagoj & %amiko%",
+  "observations": {
+    "user_manual_chrome_normal_url_loaded": true,
+    "same_chrome_tab_agent_operations_worked": true,
+    "in_app_browser_normal_url_loaded": true,
+    "agent_created_chrome_ja_and_zh_tabs_remained_loading": true,
+    "exact_mechanism_identified": false,
+    "conclusion": "The observed loading failure is limited to agent-created Chrome tabs in these checks. The earlier statement that the Japanese normal URL remained unusable was too broad. No evidence justifies an app-side connection/security workaround.",
+    "runtime_code_config_or_assignment_data_changed": false
+  },
+  "counts": {
+    "result_paths": 6,
+    "csv_downloads": 2,
+    "return_conversion": 1
+  },
+  "comparison_notes": [
+    "HTML bodies compared exactly after separating the app-generated first-line edition/signature/timestamp comment; the full comment and full-file SHA are retained.",
+    "Chrome added (1) to already-existing filenames. Only that collision suffix is normalized for filename comparisons; actual bytes and actual filenames are preserved.",
+    "Large-asset URLs were read from the normal-URL data page and checked for the selected edition and fixed commit. They were not downloaded again in this follow-up.",
+    "The earlier three-language 18-path app-body verification remains a separate dated record; this follow-up verifies Japanese normal-URL operation."
+  ],
+  "result_downloads": [
+    {
+      "edition": "current",
+      "mode": 0,
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+      "filename": "置換結果_current_77d5ffd1f714 (1).html",
+      "local_path": "JA_current_0_置換結果_current_77d5ffd1f714 (1).html",
+      "sha256": "19bd0571c3f9589593e34ffcc5799a457c59f716d9a5fc9079f61ba59fb37137",
+      "bytes": 4007,
+      "visible_exact": true,
+      "download_exact": true,
+      "filename_exact": true,
+      "header": "<!-- assignment-edition:current signature:77d5ffd1f71463dda3a89d305d24c046067bdbb875ec600e70fdd93ada9fdcef created-utc:2026-10-18T01:45:00.747746+00:00 -->",
+      "signature": "77d5ffd1f71463dda3a89d305d24c046067bdbb875ec600e70fdd93ada9fdcef",
+      "signature_exact": true,
+      "utc": "2026-10-18T01:45:26.262Z"
+    },
+    {
+      "edition": "current",
+      "mode": 1,
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+      "filename": "置換結果_current_6e9644b2eae1 (1).html",
+      "local_path": "JA_current_1_置換結果_current_6e9644b2eae1 (1).html",
+      "sha256": "9d3610ef72ca8b8d98ae6c6ecf694341a690bff403d175f4c5484a540af14a46",
+      "bytes": 3752,
+      "visible_exact": true,
+      "download_exact": true,
+      "filename_exact": true,
+      "header": "<!-- assignment-edition:current signature:6e9644b2eae170e5bbb8a9111f4a025c956fb10f2db47fe6042f964e4aeec256 created-utc:2026-10-18T01:47:44.649115+00:00 -->",
+      "signature": "6e9644b2eae170e5bbb8a9111f4a025c956fb10f2db47fe6042f964e4aeec256",
+      "signature_exact": true,
+      "utc": "2026-10-18T01:47:56.723Z"
+    },
+    {
+      "edition": "current",
+      "mode": 2,
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+      "filename": "置換結果_current_d3968a14a0a3 (1).txt",
+      "local_path": "JA_current_2_置換結果_current_d3968a14a0a3 (1).txt",
+      "sha256": "99885d4e011eb956f11a1e3b5ec7c3fd41c1ab476d327891e7556d648d321626",
+      "bytes": 78,
+      "visible_exact": true,
+      "download_exact": true,
+      "filename_exact": true,
+      "header": null,
+      "signature": "d3968a14a0a324cac22b32e14185c25d188603c14f50c318f0e78d2d76f159a0",
+      "signature_exact": true,
+      "utc": "2026-10-18T01:48:23.619Z"
+    },
+    {
+      "edition": "legacy",
+      "mode": 2,
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+      "filename": "置換結果_legacy_8c876d0c3776 (1).txt",
+      "local_path": "JA_legacy_2_置換結果_legacy_8c876d0c3776 (1).txt",
+      "sha256": "609edeb14d545c094b026eee79b65abc03896b68dbb65f1b3667503f3bc9753c",
+      "bytes": 84,
+      "visible_exact": true,
+      "download_exact": true,
+      "filename_exact": true,
+      "header": null,
+      "signature": "8c876d0c3776c90249f7bc1d51dbe6ecd6bbd51b24cdea434dc1f41e2efc9132",
+      "signature_exact": true,
+      "utc": "2026-10-18T01:48:42.554Z"
+    },
+    {
+      "edition": "legacy",
+      "mode": 1,
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+      "filename": "置換結果_legacy_67185b5009d8 (1).html",
+      "local_path": "JA_legacy_1_置換結果_legacy_67185b5009d8 (1).html",
+      "sha256": "13e5fcac939de5124f01aa353ded7f1126ab810af94f15cf4d9155ad460e5723",
+      "bytes": 3751,
+      "visible_exact": true,
+      "download_exact": true,
+      "filename_exact": true,
+      "header": "<!-- assignment-edition:legacy signature:67185b5009d885325a26a64cbf7f3ff939a718e59713ba46a6177b5097885f42 created-utc:2026-10-18T01:48:52.570908+00:00 -->",
+      "signature": "67185b5009d885325a26a64cbf7f3ff939a718e59713ba46a6177b5097885f42",
+      "signature_exact": true,
+      "utc": "2026-10-18T01:48:56.031Z"
+    },
+    {
+      "edition": "legacy",
+      "mode": 0,
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+      "filename": "置換結果_legacy_9a5923e26ddc (1).html",
+      "local_path": "JA_legacy_0_置換結果_legacy_9a5923e26ddc (1).html",
+      "sha256": "b307a62c3045552bbeb7ecb54ccbae78d027f7348f1f855e55872c61c5226e9d",
+      "bytes": 4006,
+      "visible_exact": true,
+      "download_exact": true,
+      "filename_exact": true,
+      "header": "<!-- assignment-edition:legacy signature:9a5923e26ddcafc086e90fe2fcf954fe97948027d5dec9ee2433d4fa5f09f3d9 created-utc:2026-10-18T01:49:02.841339+00:00 -->",
+      "signature": "9a5923e26ddcafc086e90fe2fcf954fe97948027d5dec9ee2433d4fa5f09f3d9",
+      "signature_exact": true,
+      "utc": "2026-10-18T01:49:13.821Z"
+    }
+  ],
+  "csv_downloads": [
+    {
+      "edition": "legacy",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89",
+      "filename": "kanji_assignments_legacy_7f1ed0ed8802 (1).csv",
+      "local_path": "JA_legacy_kanji_assignments_legacy_7f1ed0ed8802 (1).csv",
+      "bytes": 152831,
+      "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+      "bytes_exact": true,
+      "filename_exact": true,
+      "page_signature_exact": true,
+      "links": [
+        {
+          "text": "main",
+          "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/"
+        },
+        {
+          "text": "🔧語根分解の手動補正",
+          "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/%E8%AA%9E%E6%A0%B9%E5%88%86%E8%A7%A3%E3%81%AE%E6%89%8B%E5%8B%95%E8%A3%9C%E6%AD%A3"
+        },
+        {
+          "text": "📦最新データのダウンロード",
+          "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89"
+        },
+        {
+          "text": "漢字＋語根ルビ (6.38 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/assignment_editions/legacy/JA/kanji.json.gz"
+        },
+        {
+          "text": "漢字化・純粋置換 (4.17 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/assignment_editions/legacy/JA/pure.json.gz"
+        },
+        {
+          "text": "注釈ルビ（共通・最新） (72.55 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json"
+        },
+        {
+          "text": "旧版の固定データ・検証情報",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/assignment_editions/legacy/manifest.json"
+        }
+      ],
+      "utc": "2026-10-18T01:49:32.649Z"
+    },
+    {
+      "edition": "current",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89",
+      "filename": "kanji_assignments_current_bf8268539ad1 (1).csv",
+      "local_path": "JA_current_kanji_assignments_current_bf8268539ad1 (1).csv",
+      "bytes": 161686,
+      "sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede",
+      "bytes_exact": true,
+      "filename_exact": true,
+      "page_signature_exact": true,
+      "links": [
+        {
+          "text": "main",
+          "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/"
+        },
+        {
+          "text": "🔧語根分解の手動補正",
+          "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/%E8%AA%9E%E6%A0%B9%E5%88%86%E8%A7%A3%E3%81%AE%E6%89%8B%E5%8B%95%E8%A3%9C%E6%AD%A3"
+        },
+        {
+          "text": "📦最新データのダウンロード",
+          "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89"
+        },
+        {
+          "text": "漢字＋語根ルビ (57.37 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json"
+        },
+        {
+          "text": "漢字化・純粋置換 (21.52 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json"
+        },
+        {
+          "text": "注釈ルビ（共通・最新） (72.55 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json"
+        },
+        {
+          "text": "旧版の固定データ・検証情報",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/assignment_editions/legacy/manifest.json"
+        }
+      ],
+      "utc": "2026-10-18T01:49:43.103Z"
+    }
+  ],
+  "edition_switch_guard": {
+    "edition": "legacy",
+    "old_result_download_count": 0,
+    "warning_present": true,
+    "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/"
+  },
+  "return_to_main": {
+    "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+    "edition_current": true,
+    "output": "放o 放o 菠o 菠o 移植i 移植i 妆o 妆o 妆ᵀo 妆ᵀo 周日oj & amiko",
+    "output_exact": true
+  },
+  "independent_validation": {
+    "method": "Independent reread of eight browser-saved files; no browser or network operation by this reviewer",
+    "fixed_link_commit": "d20d7803d165aa26983fed74f28df9edbd1ce78d",
+    "frozen_reference_commit": "6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b",
+    "reference_evidence": {
+      "frozen_download_reference": {
+        "path": "download_reference.json",
+        "sha256": "d935ab20206a57a62ef60d7d85b8efca2cfe20aaf7b1229fd928b4120ff8286f"
+      },
+      "public_ui_fixture": {
+        "path": "assignment_edition_ui_fixture.json",
+        "sha256": "ae48b218b9e8e9beff3c815052650bda43719cfbabfb5a71cf3fa5549d286685"
+      },
+      "normal_url_downloads": {
+        "path": "normal_url_downloads.json",
+        "sha256": "f67125491d2ef9be5e38668432adb30ccfbcfa1d6db0ae798163610e7616c4b5"
+      },
+      "normal_url_csv": {
+        "path": "normal_url_csv.json",
+        "sha256": "751cccbaf6099cc5c9bfb47912bf27bc886cb53e20e90ca1dc727738b3ee6df0"
+      }
+    },
+    "source_checks": {
+      "public_fixture_matches_frozen_reference": true,
+      "six_unique_result_paths": true,
+      "two_unique_csv_paths": true,
+      "public_JA_and_fixed_legacy_references_unchanged": true,
+      "eight_asset_link_occurrences": true
+    },
+    "current_reference_files": [
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/esp_assignment_edition.py",
+        "expected_sha256": "fef1620b1e233955e833b3202d840c7e7eb216299655d9c36d5ca7b4c3ecc178",
+        "actual_sha256": "fef1620b1e233955e833b3202d840c7e7eb216299655d9c36d5ca7b4c3ecc178",
+        "unchanged": true
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/main.py",
+        "expected_sha256": "efce2875ce1863f1f1a92234c7edb4b4f6fbe1879832b8a9e664ffd1016e6ade",
+        "actual_sha256": "efce2875ce1863f1f1a92234c7edb4b4f6fbe1879832b8a9e664ffd1016e6ade",
+        "unchanged": true
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py",
+        "expected_sha256": "9b3ebca0a72bdf21071b80612a0d8b79dcb5e76dac427866a8c6f59e147d1351",
+        "actual_sha256": "9b3ebca0a72bdf21071b80612a0d8b79dcb5e76dac427866a8c6f59e147d1351",
+        "unchanged": true
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/pages/2_📦_最新データのダウンロード.py",
+        "expected_sha256": "b31c3cdf6548892318c8a0bbe02601e90b9db18dd5eac702840870b664d10f28",
+        "actual_sha256": "b31c3cdf6548892318c8a0bbe02601e90b9db18dd5eac702840870b664d10f28",
+        "unchanged": true
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
+        "expected_sha256": "4c37a67286ac8846a6419888d1a15dbad6747f99aad8f4afb813d99c39dd5fb4",
+        "actual_sha256": "4c37a67286ac8846a6419888d1a15dbad6747f99aad8f4afb813d99c39dd5fb4",
+        "unchanged": true
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
+        "expected_sha256": "108c0ff48dd6dd7363bba9f1b07eb15f6b69738afa0628590e5e0c8fd9986883",
+        "actual_sha256": "108c0ff48dd6dd7363bba9f1b07eb15f6b69738afa0628590e5e0c8fd9986883",
+        "unchanged": true
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+        "expected_sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede",
+        "actual_sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede",
+        "unchanged": true
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_ルビ.json",
+        "expected_sha256": "d02fd6ef33ab2da0d59e3e170f152e219d289de39e0bf358e05f6384bc292dca",
+        "actual_sha256": "d02fd6ef33ab2da0d59e3e170f152e219d289de39e0bf358e05f6384bc292dca",
+        "unchanged": true
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/エスペラント語根-日本語訳ルビ対応リスト.csv",
+        "expected_sha256": "9ca45ed392676dbc82a4e0a3c415da6aa436a12ce6f661297c6848640eb0812d",
+        "actual_sha256": "9ca45ed392676dbc82a4e0a3c415da6aa436a12ce6f661297c6848640eb0812d",
+        "unchanged": true
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/char_widths.json",
+        "expected_sha256": "ac009c26af1d7fae05e8969d86042b5baff5f482b226c575e1cef8d27aea2c7b",
+        "actual_sha256": "ac009c26af1d7fae05e8969d86042b5baff5f482b226c575e1cef8d27aea2c7b",
+        "unchanged": true
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/user_corrections.json",
+        "expected_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "actual_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "unchanged": true
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/esp_text_replacement_module.py",
+        "expected_sha256": "10ea0dd58942d7b869a85359f1728319e58b8ab92033dfca958334cd179bbf66",
+        "actual_sha256": "10ea0dd58942d7b869a85359f1728319e58b8ab92033dfca958334cd179bbf66",
+        "unchanged": true
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/esp_overlay_module.py",
+        "expected_sha256": "0f778e1cc8cd2cc4c6e7541fc72d199ab86a2853f5ef52e19d9bc30445a878a6",
+        "actual_sha256": "0f778e1cc8cd2cc4c6e7541fc72d199ab86a2853f5ef52e19d9bc30445a878a6",
+        "unchanged": true
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/esp_replacement_json_make_module.py",
+        "expected_sha256": "e26060a2b811d38d65de9788947ac5e844bcba15e44c5c7dae4c34b9d84b65fb",
+        "actual_sha256": "e26060a2b811d38d65de9788947ac5e844bcba15e44c5c7dae4c34b9d84b65fb",
+        "unchanged": true
+      },
+      {
+        "path": "assignment_editions/legacy/manifest.json",
+        "expected_sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3",
+        "actual_sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3",
+        "unchanged": true
+      },
+      {
+        "path": "assignment_editions/legacy/JA/kanji.json.gz",
+        "expected_sha256": "215f0c297bf73efe29f4b323a982adb63a181d42e202dbed63f52c954baeb0fe",
+        "actual_sha256": "215f0c297bf73efe29f4b323a982adb63a181d42e202dbed63f52c954baeb0fe",
+        "unchanged": true
+      },
+      {
+        "path": "assignment_editions/legacy/JA/pure.json.gz",
+        "expected_sha256": "3ef2efd50fbb13a834f7421c3e85bd406d2926dd304028b19e1de3264ec3fb40",
+        "actual_sha256": "3ef2efd50fbb13a834f7421c3e85bd406d2926dd304028b19e1de3264ec3fb40",
+        "unchanged": true
+      },
+      {
+        "path": "assignment_editions/legacy/JA/kanji.csv",
+        "expected_sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+        "actual_sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+        "unchanged": true
+      },
+      {
+        "path": "assignment_editions/legacy/ZH/kanji.json.gz",
+        "expected_sha256": "f05e779677489ebcf5d00b00389e841eb89cc8bf7af87bbf1d1e65309c0fd594",
+        "actual_sha256": "f05e779677489ebcf5d00b00389e841eb89cc8bf7af87bbf1d1e65309c0fd594",
+        "unchanged": true
+      },
+      {
+        "path": "assignment_editions/legacy/ZH/kanji.csv",
+        "expected_sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+        "actual_sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+        "unchanged": true
+      },
+      {
+        "path": "assignment_editions/legacy/KO/kanji.json.gz",
+        "expected_sha256": "8005ecf215185aa8fe9b8f482305f9fb1ec17aaf0d1c9c4fbbbb7928ef97508c",
+        "actual_sha256": "8005ecf215185aa8fe9b8f482305f9fb1ec17aaf0d1c9c4fbbbb7928ef97508c",
+        "unchanged": true
+      },
+      {
+        "path": "assignment_editions/legacy/KO/kanji.csv",
+        "expected_sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+        "actual_sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+        "unchanged": true
+      }
+    ],
+    "result_checks": [
+      {
+        "edition": "current",
+        "mode": 0,
+        "local_path": "JA_current_0_置換結果_current_77d5ffd1f714 (1).html",
+        "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+        "download_filename": "置換結果_current_77d5ffd1f714 (1).html",
+        "normalized_filename": "置換結果_current_77d5ffd1f714.html",
+        "raw_sha256": "19bd0571c3f9589593e34ffcc5799a457c59f716d9a5fc9079f61ba59fb37137",
+        "raw_bytes": 4007,
+        "body_sha256": "ac0a4556ec81d58fb1753f396e945a93f89a70790934a7fd7647659c204fc14f",
+        "body_bytes": 3851,
+        "header": "<!-- assignment-edition:current signature:77d5ffd1f71463dda3a89d305d24c046067bdbb875ec600e70fdd93ada9fdcef created-utc:2026-10-18T01:45:00.747746+00:00 -->",
+        "created_utc": "2026-10-18T01:45:00.747746+00:00",
+        "expected_signature": "77d5ffd1f71463dda3a89d305d24c046067bdbb875ec600e70fdd93ada9fdcef",
+        "checks": {
+          "normal_root_url": true,
+          "raw_sha256_matches_observation": true,
+          "raw_bytes_match_observation": true,
+          "filename_only_collision_suffix_normalized": true,
+          "recorded_signature_matches_reference": true,
+          "metadata_header_present": true,
+          "metadata_edition_exact": true,
+          "metadata_signature_exact": true,
+          "metadata_header_matches_observer_record": true,
+          "metadata_timestamp_UTC_and_before_download": true,
+          "full_body_bytes_match_frozen_reference": true,
+          "full_body_bytes_match_public_ui_fixture": true,
+          "full_body_sha256_matches_reference": true
+        },
+        "passed": true
+      },
+      {
+        "edition": "current",
+        "mode": 1,
+        "local_path": "JA_current_1_置換結果_current_6e9644b2eae1 (1).html",
+        "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+        "download_filename": "置換結果_current_6e9644b2eae1 (1).html",
+        "normalized_filename": "置換結果_current_6e9644b2eae1.html",
+        "raw_sha256": "9d3610ef72ca8b8d98ae6c6ecf694341a690bff403d175f4c5484a540af14a46",
+        "raw_bytes": 3752,
+        "body_sha256": "a085ca4afd9aaaea78adb891d6b45bfc7d66641fbdc8e8dd97a58093e180b7f3",
+        "body_bytes": 3596,
+        "header": "<!-- assignment-edition:current signature:6e9644b2eae170e5bbb8a9111f4a025c956fb10f2db47fe6042f964e4aeec256 created-utc:2026-10-18T01:47:44.649115+00:00 -->",
+        "created_utc": "2026-10-18T01:47:44.649115+00:00",
+        "expected_signature": "6e9644b2eae170e5bbb8a9111f4a025c956fb10f2db47fe6042f964e4aeec256",
+        "checks": {
+          "normal_root_url": true,
+          "raw_sha256_matches_observation": true,
+          "raw_bytes_match_observation": true,
+          "filename_only_collision_suffix_normalized": true,
+          "recorded_signature_matches_reference": true,
+          "metadata_header_present": true,
+          "metadata_edition_exact": true,
+          "metadata_signature_exact": true,
+          "metadata_header_matches_observer_record": true,
+          "metadata_timestamp_UTC_and_before_download": true,
+          "full_body_bytes_match_frozen_reference": true,
+          "full_body_bytes_match_public_ui_fixture": true,
+          "full_body_sha256_matches_reference": true
+        },
+        "passed": true
+      },
+      {
+        "edition": "current",
+        "mode": 2,
+        "local_path": "JA_current_2_置換結果_current_d3968a14a0a3 (1).txt",
+        "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+        "download_filename": "置換結果_current_d3968a14a0a3 (1).txt",
+        "normalized_filename": "置換結果_current_d3968a14a0a3.txt",
+        "raw_sha256": "99885d4e011eb956f11a1e3b5ec7c3fd41c1ab476d327891e7556d648d321626",
+        "raw_bytes": 78,
+        "body_sha256": "99885d4e011eb956f11a1e3b5ec7c3fd41c1ab476d327891e7556d648d321626",
+        "body_bytes": 78,
+        "header": null,
+        "created_utc": null,
+        "expected_signature": "d3968a14a0a324cac22b32e14185c25d188603c14f50c318f0e78d2d76f159a0",
+        "checks": {
+          "normal_root_url": true,
+          "raw_sha256_matches_observation": true,
+          "raw_bytes_match_observation": true,
+          "filename_only_collision_suffix_normalized": true,
+          "recorded_signature_matches_reference": true,
+          "pure_no_metadata_header": true,
+          "full_body_bytes_match_frozen_reference": true,
+          "full_body_bytes_match_public_ui_fixture": true,
+          "full_body_sha256_matches_reference": true
+        },
+        "passed": true
+      },
+      {
+        "edition": "legacy",
+        "mode": 2,
+        "local_path": "JA_legacy_2_置換結果_legacy_8c876d0c3776 (1).txt",
+        "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+        "download_filename": "置換結果_legacy_8c876d0c3776 (1).txt",
+        "normalized_filename": "置換結果_legacy_8c876d0c3776.txt",
+        "raw_sha256": "609edeb14d545c094b026eee79b65abc03896b68dbb65f1b3667503f3bc9753c",
+        "raw_bytes": 84,
+        "body_sha256": "609edeb14d545c094b026eee79b65abc03896b68dbb65f1b3667503f3bc9753c",
+        "body_bytes": 84,
+        "header": null,
+        "created_utc": null,
+        "expected_signature": "8c876d0c3776c90249f7bc1d51dbe6ecd6bbd51b24cdea434dc1f41e2efc9132",
+        "checks": {
+          "normal_root_url": true,
+          "raw_sha256_matches_observation": true,
+          "raw_bytes_match_observation": true,
+          "filename_only_collision_suffix_normalized": true,
+          "recorded_signature_matches_reference": true,
+          "pure_no_metadata_header": true,
+          "full_body_bytes_match_frozen_reference": true,
+          "full_body_bytes_match_public_ui_fixture": true,
+          "full_body_sha256_matches_reference": true
+        },
+        "passed": true
+      },
+      {
+        "edition": "legacy",
+        "mode": 1,
+        "local_path": "JA_legacy_1_置換結果_legacy_67185b5009d8 (1).html",
+        "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+        "download_filename": "置換結果_legacy_67185b5009d8 (1).html",
+        "normalized_filename": "置換結果_legacy_67185b5009d8.html",
+        "raw_sha256": "13e5fcac939de5124f01aa353ded7f1126ab810af94f15cf4d9155ad460e5723",
+        "raw_bytes": 3751,
+        "body_sha256": "910666a7c6c367ff9f1e8651d26a73353f19dbfc6e9cd3e0c524f137c6813776",
+        "body_bytes": 3596,
+        "header": "<!-- assignment-edition:legacy signature:67185b5009d885325a26a64cbf7f3ff939a718e59713ba46a6177b5097885f42 created-utc:2026-10-18T01:48:52.570908+00:00 -->",
+        "created_utc": "2026-10-18T01:48:52.570908+00:00",
+        "expected_signature": "67185b5009d885325a26a64cbf7f3ff939a718e59713ba46a6177b5097885f42",
+        "checks": {
+          "normal_root_url": true,
+          "raw_sha256_matches_observation": true,
+          "raw_bytes_match_observation": true,
+          "filename_only_collision_suffix_normalized": true,
+          "recorded_signature_matches_reference": true,
+          "metadata_header_present": true,
+          "metadata_edition_exact": true,
+          "metadata_signature_exact": true,
+          "metadata_header_matches_observer_record": true,
+          "metadata_timestamp_UTC_and_before_download": true,
+          "full_body_bytes_match_frozen_reference": true,
+          "full_body_bytes_match_public_ui_fixture": true,
+          "full_body_sha256_matches_reference": true
+        },
+        "passed": true
+      },
+      {
+        "edition": "legacy",
+        "mode": 0,
+        "local_path": "JA_legacy_0_置換結果_legacy_9a5923e26ddc (1).html",
+        "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+        "download_filename": "置換結果_legacy_9a5923e26ddc (1).html",
+        "normalized_filename": "置換結果_legacy_9a5923e26ddc.html",
+        "raw_sha256": "b307a62c3045552bbeb7ecb54ccbae78d027f7348f1f855e55872c61c5226e9d",
+        "raw_bytes": 4006,
+        "body_sha256": "ac0a4556ec81d58fb1753f396e945a93f89a70790934a7fd7647659c204fc14f",
+        "body_bytes": 3851,
+        "header": "<!-- assignment-edition:legacy signature:9a5923e26ddcafc086e90fe2fcf954fe97948027d5dec9ee2433d4fa5f09f3d9 created-utc:2026-10-18T01:49:02.841339+00:00 -->",
+        "created_utc": "2026-10-18T01:49:02.841339+00:00",
+        "expected_signature": "9a5923e26ddcafc086e90fe2fcf954fe97948027d5dec9ee2433d4fa5f09f3d9",
+        "checks": {
+          "normal_root_url": true,
+          "raw_sha256_matches_observation": true,
+          "raw_bytes_match_observation": true,
+          "filename_only_collision_suffix_normalized": true,
+          "recorded_signature_matches_reference": true,
+          "metadata_header_present": true,
+          "metadata_edition_exact": true,
+          "metadata_signature_exact": true,
+          "metadata_header_matches_observer_record": true,
+          "metadata_timestamp_UTC_and_before_download": true,
+          "full_body_bytes_match_frozen_reference": true,
+          "full_body_bytes_match_public_ui_fixture": true,
+          "full_body_sha256_matches_reference": true
+        },
+        "passed": true
+      }
+    ],
+    "csv_checks": [
+      {
+        "edition": "legacy",
+        "local_path": "JA_legacy_kanji_assignments_legacy_7f1ed0ed8802 (1).csv",
+        "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89",
+        "download_filename": "kanji_assignments_legacy_7f1ed0ed8802 (1).csv",
+        "normalized_filename": "kanji_assignments_legacy_7f1ed0ed8802.csv",
+        "raw_sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+        "raw_bytes": 152831,
+        "expected_page_signature": "7f1ed0ed8802ff819e8bfc5552b4ca7379ab3859a6fe5997eec66e19bf78a245",
+        "page_signature_evidence": "Full page signature is not captured in this manifest; its prefix is independently checked through the CSV filename. Browser observer also records page_signature_exact=true.",
+        "links": [
+          "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/assignment_editions/legacy/JA/kanji.json.gz",
+          "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/assignment_editions/legacy/JA/pure.json.gz",
+          "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+          "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/assignment_editions/legacy/manifest.json"
+        ],
+        "checks": {
+          "normal_root_data_page_url": true,
+          "raw_sha256_matches_observation": true,
+          "raw_bytes_match_observation": true,
+          "full_bytes_match_public_csv": true,
+          "full_sha256_matches_frozen_reference": true,
+          "full_length_matches_frozen_reference": true,
+          "filename_only_collision_suffix_normalized": true,
+          "four_fixed_asset_links": true,
+          "normal_root_main_navigation_present": true
+        },
+        "passed": true
+      },
+      {
+        "edition": "current",
+        "local_path": "JA_current_kanji_assignments_current_bf8268539ad1 (1).csv",
+        "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89",
+        "download_filename": "kanji_assignments_current_bf8268539ad1 (1).csv",
+        "normalized_filename": "kanji_assignments_current_bf8268539ad1.csv",
+        "raw_sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede",
+        "raw_bytes": 161686,
+        "expected_page_signature": "bf8268539ad18d2f54b1147704d3525d35d6cc9daa19e296a7edb3ab6bee5b8c",
+        "page_signature_evidence": "Full page signature is not captured in this manifest; its prefix is independently checked through the CSV filename. Browser observer also records page_signature_exact=true.",
+        "links": [
+          "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+          "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+          "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+          "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/d20d7803d165aa26983fed74f28df9edbd1ce78d/assignment_editions/legacy/manifest.json"
+        ],
+        "checks": {
+          "normal_root_data_page_url": true,
+          "raw_sha256_matches_observation": true,
+          "raw_bytes_match_observation": true,
+          "full_bytes_match_public_csv": true,
+          "full_sha256_matches_frozen_reference": true,
+          "full_length_matches_frozen_reference": true,
+          "filename_only_collision_suffix_normalized": true,
+          "four_fixed_asset_links": true,
+          "normal_root_main_navigation_present": true
+        },
+        "passed": true
+      }
+    ],
+    "counts": {
+      "result_files": 6,
+      "csv_files": 2,
+      "html_files": 4,
+      "pure_text_files": 2,
+      "asset_link_occurrences": 8,
+      "unique_asset_urls": 6
+    },
+    "normalization": "Only filename suffix (1) immediately before html/txt/csv extension is removed; no payload normalization. HTML header is independently validated before only that line is removed for body comparison.",
+    "limitations": [
+      "URLs are browser observation evidence. This check does not reopen the browser or fetch the d20d780 assets over HTTP.",
+      "The observed normal-page success does not prove the underlying cause of the separately observed auto-created-tab spinner."
+    ],
+    "passed": true,
+    "mismatch_count": 0,
+    "script_sha256": "7dab92b458d674cc24dc3aa80ae1463631a398f0c319afbfbbe9682141ad83e6"
+  }
+}
