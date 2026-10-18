@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "current-unique-inverse-20261018-v2",
+  "revision": "current-compound-inverse-20261018-v3",
   "source_id": "pejvo-piv-20260620",
   "dictionary_revision": "2026-10-18-dot-greft",
   "current_csv_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
@@ -40,10 +40,14 @@
     {
       "kanji": "白ᴸᴱ",
       "esperanto": "leŭk"
+    },
+    {
+      "kanji": "远复ᴷ",
+      "esperanto": "telekopi"
     }
   ],
-  "reason": "Restore reviewed missing inverse keys found in actual old/new forward output, preserving all assignments, identifiers, decomposition, canonical CSV bytes and generic longest-match conversion.",
-  "scope": "Exact reviewed supplement for this edition only. Prior testikit/orkidit aliases retained. No automatic application to archived sources or uploaded custom dictionaries.",
+  "reason": "Restore the approved observed compound renderings with a unique active original spelling, without changing forward output, assignments, identifiers, canonical CSV bytes, or existing full-key ownership. Keep the independently approved earlier supplements.",
+  "scope": "Exact reviewed supplement for this edition only. Preserve complete superscript identifiers when matching: an approved shorter identifier must not consume a prefix of a longer one. No automatic aliases for archived sources or uploaded custom dictionaries. The shared legacy rendering 中肠ᴱ remains excluded.",
   "update_policy": "Pin the reviewed current CSV bytes and dictionary revision. A subsequent dictionary update must re-audit all existing keys and boundary collisions before updating this pin; do not advance it automatically.",
   "reviewed_additions": {
     "audit": "full-roundtrip-audit-20261018",
@@ -58,5 +62,35 @@
       "白ᴸᴱ"
     ],
     "evidence": "Unique observed ruby/whole-root spelling, positive actual-corpus improvement, no competing complete known-key segmentation. Full existing-output regression is required before release."
+  },
+  "compound_review": {
+    "audit": "remaining-inverse-review-20261018",
+    "repair": "compound-inverse-keys-20261018",
+    "previous_revision": "current-unique-inverse-20261018-v2",
+    "previous_manifest_sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+    "previous_alias_count": 8,
+    "added_alias_count": 1,
+    "total_alias_count": 9,
+    "new_keys": [
+      "远复ᴷ"
+    ],
+    "approval": "The user approved the final reviewed set: one current and 140 legacy additions. Historical approvals remain recorded separately.",
+    "source_scope": {
+      "file": "active_owner_refined_scope.json",
+      "sha256": "31692ba397e6599d5610b609d13ef6a3d43998a1ce284c1cbf7fcd64b3af5734"
+    },
+    "source_trial": {
+      "file": "active_owner_refined_trial.json",
+      "sha256": "d95e6d496d824d9c1fcb551ef42b03757c95eb06e061be961ae43ca167f6bde7"
+    },
+    "source_summary": {
+      "file": "final_repair_candidates_summary.json",
+      "sha256": "3561e2c664e3068601b66c6322e924a5e5b52138a0f400a6f326f326b363dfaf"
+    },
+    "evidence": "Check the original ruby spelling only where the production matcher actually selects the key. An earlier longer match makes an overlapping substring inert. Finite saved-output trials are evidence for this selected set, not for arbitrary new text.",
+    "excluded": {
+      "中肠ᴱ": "Multiple observed original spellings; no automatic owner chosen."
+    },
+    "release_gate": "Recheck complete existing keys and every saved old/new forward output with the final runtime, including the superscript-identifier boundary guard, before release."
   }
 }

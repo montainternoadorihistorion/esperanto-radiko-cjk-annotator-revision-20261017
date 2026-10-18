@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "languages": {
+    "JA": {
+      "changed_functions": [
+        "convert_kanji_esperanto_to_alphabet"
+      ],
+      "unchanged_function_and_class_count": 26,
+      "alias_counts": {
+        "current": 9,
+        "legacy": 158
+      },
+      "source_sha256": "c1317c9b2c6300e435c62e48c81b7bdef98014318f9ea440dcbacbe7f69063f3"
+    },
+    "ZH": {
+      "changed_functions": [
+        "convert_kanji_esperanto_to_alphabet"
+      ],
+      "unchanged_function_and_class_count": 26,
+      "alias_counts": {
+        "current": 9,
+        "legacy": 158
+      },
+      "source_sha256": "875d56733c41ce9a84ebf731c06a65eb175c2ad4403dadee9c28a483e53a527c"
+    }
+  },
+  "boundary_scope": "Project superscript identifier alphabet plus combining hat/breve. All dictionaries share the boundary rule; complete custom keys, duplicate-key priority and longest-first ordering stay intact. Unknown final identifiers stay intact, while preceding independent CJK components may still convert. No assignment or forward data changed."
+}

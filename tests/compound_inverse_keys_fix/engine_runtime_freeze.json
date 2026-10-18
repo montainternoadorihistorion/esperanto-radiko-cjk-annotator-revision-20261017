@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "status": "runtime_frozen_after_boundary_tests",
+  "at": "2026-10-18T09:46:30.483707+00:00",
+  "files": [
+    {
+      "path": "Esperanto-Reverter-JA/esperanto_converter.py",
+      "sha256": "c1317c9b2c6300e435c62e48c81b7bdef98014318f9ea440dcbacbe7f69063f3",
+      "bytes": 37610
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/current_inverse_aliases.json",
+      "sha256": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+      "bytes": 3870
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/legacy_inverse_aliases.json",
+      "sha256": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+      "bytes": 18041
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/esperanto_converter_zh.py",
+      "sha256": "875d56733c41ce9a84ebf731c06a65eb175c2ad4403dadee9c28a483e53a527c",
+      "bytes": 36757
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/current_inverse_aliases.json",
+      "sha256": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+      "bytes": 3870
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/legacy_inverse_aliases.json",
+      "sha256": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+      "bytes": 18041
+    }
+  ],
+  "targeted_tests": {
+    "JA": "15 passed in 11.86s",
+    "ZH": "15 passed in 11.77s"
+  },
+  "tests": [
+    {
+      "path": "Esperanto-Reverter-JA/tests/test_identifier_boundaries.py",
+      "sha256": "66508b6e73a53ebb1370943399a7270e91fa3e6eed139bfbb30faa61c01a8c11"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/tests/test_identifier_boundaries.py",
+      "sha256": "37e847e3e74d8de3422e5e9e19c2cb4d6515c86fac4dbe41bf6207e3de27a240"
+    }
+  ],
+  "note": "Production code and manifests will not change during the full replay. Initial JA failure was an overbroad custom-test expectation; original log retained. Unknown final identifier stays intact, while preceding independent CJK components may convert."
+}

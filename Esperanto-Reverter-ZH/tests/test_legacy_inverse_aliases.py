@@ -60,7 +60,7 @@ def test_no_automatic_aliases_in_current_archives_or_custom():
     current = app.load_dictionary_source(CURRENT)
     current_records = app.dataframe_to_mapping_records(current)
     assert app.effective_mapping_records(CURRENT, current) == current_records + tuple((root, key, "0") for key, root in app.CURRENT_INVERSE_ALIAS_PAIRS.items())
-    assert app.source_provenance(CURRENT)["inverse_compatibility_revision"].startswith("current-unique-inverse-")
+    assert app.source_provenance(CURRENT)["inverse_compatibility_revision"].startswith("current-compound-inverse-")
     # Even a custom copy of the old original must not silently acquire the supplement.
     frame = app.read_assignment_csv(io.BytesIO(app.edition_download_data(OLD)[0]))
     assert app.effective_mapping_records('custom', frame) == app.dataframe_to_mapping_records(frame)
@@ -101,7 +101,7 @@ def test_fixed_download_bytes_and_effective_csv_custom_roundtrip():
     effective = app.legacy_effective_download_data(OLD)
     assert effective.startswith(b'esperanto,kanji,priority\r\n')
     frame = app.read_assignment_csv(io.BytesIO(effective))
-    assert len(frame) == 10654
+    assert len(frame) == 10794
     assert effective_index('custom', frame) == effective_index(OLD)
     meta = app.source_provenance(OLD)
     assert meta['effective_dictionary_filename'] not in (meta['dictionary_filename'], meta['snippet_filename'])
@@ -125,7 +125,7 @@ def test_ui_old_result_stays_old_until_reconverted_and_effective_csv_download_ma
         assert len(at.get('download_button')) == 3
         at.sidebar.selectbox[0].set_value(OLD).run()
         assert not at.exception and len(at.get('download_button')) == 3
-        assert any('18件の復元補助' in item.value or '18条还原补充' in item.value for item in at.sidebar.caption)
+        assert any('158件の復元補助' in item.value or '158条还原补充' in item.value for item in at.sidebar.caption)
         text = '丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 兰炎ᵀo 丸炎ᵀo 丸炎o'
         at.text_area[0].set_value(text)
         at.button[0].click().run()

@@ -32,7 +32,7 @@ def test_full_snapshot_all_keys_and_only_approved_transfer():
  assert [r['kanji'] for r in oldrows if app.convert_kanji_esperanto_to_alphabet(r['kanji'],now)!=r['esperanto']]==['妆']
 def test_version_specific_boundary_and_suffix_examples():
  old=index(PROFILE);now=index('pejvo-piv-20260620')
- pairs={'妆o':('tualeto','doto'),'妆水o':('tualetakvo','dotakvo'),'移植o':('translaciplanto','grefto'),'移植ᶠo':('translacifito','greftᶠo'),'移o植o':('translacioplanto','translacioplanto'),'越植i':('transplanti','transplanti'),'嫁接物o':('greftaĵo','greftaĵo'),'嫁妆o':('doto','doto')}
+ pairs={'妆o':('tualeto','doto'),'妆水o':('tualetakvo','dotakvo'),'移植o':('translaciplanto','grefto'),'移植ᶠo':('translacifito','translacifito'),'移o植o':('translacioplanto','translacioplanto'),'越植i':('transplanti','transplanti'),'嫁接物o':('greftaĵo','greftaĵo'),'嫁妆o':('doto','doto')}
  for text,(a,b) in pairs.items():assert (app.convert_kanji_esperanto_to_alphabet(text,old),app.convert_kanji_esperanto_to_alphabet(text,now))==(a,b)
  for text,want in {'妆ᵀ水o':'tualetakvo','心移植o':'korgrefto','移植物o':'greftaĵo','移植o基o':'greftobazo','然妆受a':'naturdotita','无妆a':'sendota'}.items():assert app.convert_kanji_esperanto_to_alphabet(text,now)==want
 def test_aliases_reject_conflicts_and_current_source_is_pinned():
