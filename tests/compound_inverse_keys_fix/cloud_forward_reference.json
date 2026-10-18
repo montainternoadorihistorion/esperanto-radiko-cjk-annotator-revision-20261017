@@ -1,0 +1,221 @@
+{
+  "method": "Actual unmodified engine; each input rendered individually with application overlays and automatic second pass. HTML presentation wrapper whitespace stripped; inverse uses visible base text.",
+  "rows": [
+    {
+      "edition": "current",
+      "forward_language": "JA",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "forward_output": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "restored": {
+        "JA": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+        "ZH": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+      },
+      "matches": {
+        "JA": true,
+        "ZH": true
+      },
+      "auto_rows": 0
+    },
+    {
+      "edition": "current",
+      "forward_language": "JA",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "forward_output": "<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切ᵀᴼ<rt class=\"L_L\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐ᴬ<rt class=\"XXL_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+      "visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "restored": {
+        "JA": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+        "ZH": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+      },
+      "matches": {
+        "JA": true,
+        "ZH": true
+      },
+      "auto_rows": 0
+    },
+    {
+      "edition": "legacy",
+      "forward_language": "JA",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "forward_output": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "restored": {
+        "JA": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+        "ZH": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+      },
+      "matches": {
+        "JA": true,
+        "ZH": true
+      },
+      "auto_rows": 0
+    },
+    {
+      "edition": "legacy",
+      "forward_language": "JA",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "forward_output": "<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>蜗牛<rt class=\"XL_L\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切<rt class=\"S_S\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐<rt class=\"L_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+      "visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "restored": {
+        "JA": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+        "ZH": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+      },
+      "matches": {
+        "JA": true,
+        "ZH": true
+      },
+      "auto_rows": 0
+    },
+    {
+      "edition": "current",
+      "forward_language": "ZH",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "forward_output": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "restored": {
+        "JA": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+        "ZH": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+      },
+      "matches": {
+        "JA": true,
+        "ZH": true
+      },
+      "auto_rows": 0
+    },
+    {
+      "edition": "current",
+      "forward_language": "ZH",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "forward_output": "<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切ᵀᴼ<rt class=\"L_L\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐ᴬ<rt class=\"XXL_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+      "visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "restored": {
+        "JA": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+        "ZH": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+      },
+      "matches": {
+        "JA": true,
+        "ZH": true
+      },
+      "auto_rows": 0
+    },
+    {
+      "edition": "legacy",
+      "forward_language": "ZH",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "forward_output": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "restored": {
+        "JA": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+        "ZH": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+      },
+      "matches": {
+        "JA": true,
+        "ZH": true
+      },
+      "auto_rows": 0
+    },
+    {
+      "edition": "legacy",
+      "forward_language": "ZH",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "forward_output": "<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>蜗牛<rt class=\"XL_L\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切<rt class=\"S_S\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐<rt class=\"L_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+      "visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "restored": {
+        "JA": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+        "ZH": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+      },
+      "matches": {
+        "JA": true,
+        "ZH": true
+      },
+      "auto_rows": 0
+    },
+    {
+      "edition": "current",
+      "forward_language": "KO",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "forward_output": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "restored": {
+        "JA": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+        "ZH": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+      },
+      "matches": {
+        "JA": true,
+        "ZH": true
+      },
+      "auto_rows": 0
+    },
+    {
+      "edition": "current",
+      "forward_language": "KO",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "forward_output": "<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切ᵀᴼ<rt class=\"L_L\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐ᴬ<rt class=\"XXL_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+      "visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "restored": {
+        "JA": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+        "ZH": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+      },
+      "matches": {
+        "JA": true,
+        "ZH": true
+      },
+      "auto_rows": 0
+    },
+    {
+      "edition": "legacy",
+      "forward_language": "KO",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "forward_output": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "restored": {
+        "JA": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+        "ZH": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+      },
+      "matches": {
+        "JA": true,
+        "ZH": true
+      },
+      "auto_rows": 0
+    },
+    {
+      "edition": "legacy",
+      "forward_language": "KO",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "forward_output": "<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>蜗牛<rt class=\"XL_L\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切<rt class=\"S_S\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐<rt class=\"L_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+      "visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "restored": {
+        "JA": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+        "ZH": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+      },
+      "matches": {
+        "JA": true,
+        "ZH": true
+      },
+      "auto_rows": 0
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "browser": "Chrome AdoriHistorion",
+  "method": "Actual UI interaction via the connected browser, with observed text and real file downloads.",
+  "forward_routes": "Twelve unchanged forward routes were checked while inverse regression and deployment proceeded. Their source/data hashes remained identical before and after the merge.",
+  "inverse_routes": "Four routes were checked after public main publication; v3 revision and alias hashes were observed in result captions.",
+  "japanese_cloud_wrapper": "After reload, the ordinary URL's Cloud outer wrapper remained at appLoadingSpinner during automation. The iframe's observed /~/+/ app URL loaded and all JA checks were completed there. This does not claim that the outer wrapper issue was repaired by this inverse-key change.",
+  "browser_recovery": "A transport timeout required resetting the browser-control session; all saved observations were retained.",
+  "transient_result_retry": "The first JA legacy result read occurred before the new result was ready; the previous current caption and output remained, and its result download was disabled. The strict validator rejected that observation. After explicitly converting and verifying the legacy caption and full output, the final record and actual result download passed. No application code was changed for this browser timing issue.",
+  "custom_upload": "No Cloud custom-upload test is claimed. Local effective-CSV reimport and custom-dictionary isolation are covered by app and mirror tests."
+}

@@ -1,0 +1,10 @@
+{
+  "repository": "montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017",
+  "pull_request": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/46",
+  "implementation_commit": "c7b7e210913586c46fb3a9763af9027796757d14",
+  "main_merge_commit": "1b0a3221692f2138458c27741f1d7f9e9ccf4e5a",
+  "merged_at": "2026-10-18T10:08:42Z",
+  "github_checks_before_merge": "All four JA/ZH checks on push and pull request completed SUCCESS",
+  "cloud_execution_commit_obtained": false,
+  "cloud_verification": "Recorded separately from the actual browser UI after main publication."
+}

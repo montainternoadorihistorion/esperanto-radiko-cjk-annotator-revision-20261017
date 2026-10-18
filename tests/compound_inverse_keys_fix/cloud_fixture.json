@@ -1,0 +1,356 @@
+{
+  "schema_version": 1,
+  "repair": "compound-inverse-keys-20261018",
+  "approved_additions": {
+    "current": 1,
+    "legacy": 140
+  },
+  "inverse_cases": [
+    {
+      "case_id": "JA_current",
+      "language": "JA",
+      "edition": "current",
+      "source_id": "pejvo-piv-20260620",
+      "input": "兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 远复ᴷo\n远复ᴷˢo 远复ᴷᴹo 金ᴱᵁ̆o 在ᶜ̂o 全a 再见i 草o\n远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "expected_output": "orkidito ato ito ito frao pao polo leŭko telekopio\ntelekomplekso telekompliko eŭropio ĉeo ĉia adiaŭi herbo\ntelekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "expected_output_sha256": "2a17d22a167944ca2457b85eb0f90f9940686ab600b4c9af522b721d885e8ba9",
+      "provenance": {
+        "source_id": "pejvo-piv-20260620",
+        "edition": "new",
+        "revision": "2026-10-18-dot-greft",
+        "edition_id": "current",
+        "dictionary_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+        "identity": "pejvo-piv-20260620:2026-10-18-dot-greft:4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074:current-compound-inverse-20261018-v3:6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+        "label": "新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-compound-inverse-20261018-v3 / 6ec3a6d43d2e",
+        "result_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.txt",
+        "dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+        "snippet_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+        "inverse_compatibility_revision": "current-compound-inverse-20261018-v3",
+        "inverse_compatibility_sha256": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+        "effective_dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.csv"
+      },
+      "expected_caption_count": 9,
+      "all_declared_aliases_exercised": true,
+      "identifier_boundary_controls": "远复ᴷˢo 远复ᴷᴹo 金ᴱᵁ̆o 在ᶜ̂o 全a 再见i 草o",
+      "forward_case_id": "JA_current_pure"
+    },
+    {
+      "case_id": "JA_legacy",
+      "language": "JA",
+      "edition": "legacy",
+      "source_id": "pre-las-20261017",
+      "input": "丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 两ᴴo 名ᴺᴵo 远声ᶠᴼo 微镜ˢᴷo 氧生ᴳo 间学ᴸᴺo 越形具ᴬo 单色ᴷᴿo 醋盐ᴬo 气血ᴱo 锐名ᴼo 醇盐ᴬo 醇血ᴱo 替具ᴬo 铝盐ᴬo 担子菌ᴹᶜo 担子菌ᴹᴵo 青盐ᴬo 青植ᶠo 青化ᴵᴰo 三角洲似ᴼo 从氧糖ᴼo 节学ᴵo 二ᴰᴵ氯化ᴵᴰo 膨具ᴬo 二ᴰᴵ硫化ᴵᴰo 甘苦ᴬo 胚植ᶠo 胚源ᴳo 胚切ᵀᴹo 骨端炎ᵀo 咽炎ᵀo 磷盐ᴬo 磷盐ᴬ血ᴱo 磷化ᴵᴰo 磷盐ᴵo 果糖ᴼo 牙肉炎ᵀo 土源ᴳo 卤化ᴵᴰo 半盲ᴬo 半瘫ᴾᴸo 半球ˢo 肝炎ᵀo 超血ᴱo 超感ᴱo 超名ᴼo 超压ᵀo 超养ᵀo 亚皮ᴰo 亚感ᴱo 亚胃ᴳo 亚舌ᴳo 亚软骨ᴷᴺo 亚名ᴺᴵo 亚滞ˢᶻo 亚压ᵀo 亚题ᵀᶻo 间声ᶠᴼo 等ᴵ青盐ᴬo 隔计ᴹo 碘化ᴵᴰo 碘基ᴵo 算计ᴹo 炭化ᴵᴰo 碳盐ᴬo 碳化ᴵᴰo 碳基ᴵo 阴蒂除ᴱᴷo 氯盐ᴬo 氯血ᴱo 氯化ᴵᴰo 氯化ᴵᴰ血ᴱo 氯盐ᴵo 股痛ᴬo 股炎ᵀo 色计ᴹo 色测ᴹᵀo 换具ᴬo 弦炎ᵀo 冻测ᴹᵀo 栽具ᴬo 乳糖ᴼo 举具ᴬo 脾除ᴱᴷo 脾炎ᵀo 蜗牛o 纵隔炎ᵀo 米学ᴵo 肌炎ᵀo 微影ᶠo 微声ᶠᴼo 微粒ᴳo 微槽ᴷo 微菌ᴷᴷo 微石ᴸᵀo 微切ᵀᴼo 万足ᴾᴼo 髓炎ᵀo 单配ᴳo 单志ᴳo 单字ᴳᴹo 单石ᴸᵀo 单话ᴸo 单形ᴹᴵo 单瓣ᴾo 单体ˢᴹo 粘症ᴼo 筋症ᴼo 氮化ᴵᴰo 号具ᴬo 渗计ᴹo 骨痛ᴬo 骨除ᴱᴷo 骨炎ᵀo 胰除ᴱᴷo 胰炎ᵀo 雨计ᴹo 谓能ᴵo 肺炎ᵀo 瓤炎ᵀo 刨具ᴬo 规具ᴬo 蔗盐ᴬo 蔗糖ᴼo 柳盐ᴬo 无感ᴱo 巩膜炎ᵀo 刮具ᴬo 声计ᴹo 水苏糖ᴼo 胃炎ᵀo 硫盐ᴬo 硫青盐ᴬo 硫化ᴵᴰo 硫盐ᴵo 远影ᶠo 远动ᴷᶻo 远令ᴷo 远复ᴷo 远计ᴹo 疹似ᴼo 三体ˢᴹo 篡员ᴬᵀo 汽计ᴹo 精丘炎ᵀo 振具ᴬo 载具ᴬo\n远复ᴷˢo 远复ᴷᴹo 金ᴱᵁ̆o 在ᶜ̂o 全a 再见i 草o\n远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "expected_output": "testikito orkidito orkidito ato ito ito frao pao polo leŭko hermo nimo telefono mikroskopo oksigeno interlingvistiko transformatoro monokromato acetato aeremio akronimo alkoholato alkoholemio alternatoro aluminiato bazidimiceto bazidimikoto cianato cianfito cianido deltoido deoksiozo dietiko diklorido dilatatoro disulfido dolĉamaro embrifito embrigenezo embritomio epifizito faringito fosfato fosfatemio fosfido fosfito fruktozo gingivito grundgenezo halogenido hemianopsio hemiplegio hemisfero hepatito hiperemio hiperestezo hiperonimo hipertensio hipertrofio hipodermo hipoestezo hipogastro hipogloso hipokondro hiponimo hipostazo hipotensio hipotezo interfono izocianato izolmetro jodido jodilo kalkulmetro karbido karbonato karbonido karbonilo klitorektomio klorato kloremio klorido kloridemio klorito koksalgio koksito kolormetro kolormetrio komutatoro kordito kriometrio kultivatoro laktozo levatoro lienektomio lienito limako mediastinito metriko miito mikrofilmo mikrofono mikrograjno mikrokanelo mikrokoko mikrolito mikrotomo miriapodo mjelito monogamio monografio monogramo monolito monologo monomorfio monopetalo monosomo mukozo muskolozo nitrido numeratoro osmozmetro ostalgio ostektomio ostito pankreatektomio pankreatito pluvmetro predikativo pulmito pulpito rabotatoro regulatoro sakarato sakarozo salikato senestezo sklerotito skrapatoro sonmetro stakiozo stomakito sulfato sulfcianato sulfido sulfito telefilmo telekinezo telekomando telekopio telemetro tifoido trisomo uzurpatoro vapormetro verumontanito vibratoro ŝarĝatoro\ntelekomplekso telekompliko eŭropio ĉeo ĉia adiaŭi herbo\ntelekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "expected_output_sha256": "35131af75ea7efde1f6678666d96fb77d005bc2e821365c2be370637e3978629",
+      "provenance": {
+        "source_id": "pre-las-20261017",
+        "edition": "old",
+        "revision": "4c16c8937c60",
+        "edition_id": "legacy",
+        "dictionary_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "identity": "pre-las-20261017:4c16c8937c60:eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14:legacy-compound-inverse-20261018-v3:59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+        "label": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261018-v3 / 59e2c3cd9f69",
+        "result_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.txt",
+        "dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+        "snippet_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+        "inverse_compatibility_revision": "legacy-compound-inverse-20261018-v3",
+        "inverse_compatibility_sha256": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+        "effective_dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.csv"
+      },
+      "expected_caption_count": 158,
+      "all_declared_aliases_exercised": true,
+      "identifier_boundary_controls": "远复ᴷˢo 远复ᴷᴹo 金ᴱᵁ̆o 在ᶜ̂o 全a 再见i 草o",
+      "forward_case_id": "JA_legacy_pure"
+    },
+    {
+      "case_id": "ZH_current",
+      "language": "ZH",
+      "edition": "current",
+      "source_id": "pejvo-piv-20260620",
+      "input": "兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 远复ᴷo\n远复ᴷˢo 远复ᴷᴹo 金ᴱᵁ̆o 在ᶜ̂o 全a 再见i 草o\n远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "expected_output": "orkidito ato ito ito frao pao polo leŭko telekopio\ntelekomplekso telekompliko eŭropio ĉeo ĉia adiaŭi herbo\ntelekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "expected_output_sha256": "2a17d22a167944ca2457b85eb0f90f9940686ab600b4c9af522b721d885e8ba9",
+      "provenance": {
+        "source_id": "pejvo-piv-20260620",
+        "edition": "new",
+        "revision": "2026-10-18-dot-greft",
+        "edition_id": "current",
+        "dictionary_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+        "identity": "pejvo-piv-20260620:2026-10-18-dot-greft:4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074:current-compound-inverse-20261018-v3:6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+        "label": "新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-compound-inverse-20261018-v3 / 6ec3a6d43d2e",
+        "result_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.txt",
+        "dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+        "snippet_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+        "inverse_compatibility_revision": "current-compound-inverse-20261018-v3",
+        "inverse_compatibility_sha256": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7",
+        "effective_dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.csv"
+      },
+      "expected_caption_count": 9,
+      "all_declared_aliases_exercised": true,
+      "identifier_boundary_controls": "远复ᴷˢo 远复ᴷᴹo 金ᴱᵁ̆o 在ᶜ̂o 全a 再见i 草o",
+      "forward_case_id": "ZH_current_pure"
+    },
+    {
+      "case_id": "ZH_legacy",
+      "language": "ZH",
+      "edition": "legacy",
+      "source_id": "pre-las-20261017",
+      "input": "丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 两ᴴo 名ᴺᴵo 远声ᶠᴼo 微镜ˢᴷo 氧生ᴳo 间学ᴸᴺo 越形具ᴬo 单色ᴷᴿo 醋盐ᴬo 气血ᴱo 锐名ᴼo 醇盐ᴬo 醇血ᴱo 替具ᴬo 铝盐ᴬo 担子菌ᴹᶜo 担子菌ᴹᴵo 青盐ᴬo 青植ᶠo 青化ᴵᴰo 三角洲似ᴼo 从氧糖ᴼo 节学ᴵo 二ᴰᴵ氯化ᴵᴰo 膨具ᴬo 二ᴰᴵ硫化ᴵᴰo 甘苦ᴬo 胚植ᶠo 胚源ᴳo 胚切ᵀᴹo 骨端炎ᵀo 咽炎ᵀo 磷盐ᴬo 磷盐ᴬ血ᴱo 磷化ᴵᴰo 磷盐ᴵo 果糖ᴼo 牙肉炎ᵀo 土源ᴳo 卤化ᴵᴰo 半盲ᴬo 半瘫ᴾᴸo 半球ˢo 肝炎ᵀo 超血ᴱo 超感ᴱo 超名ᴼo 超压ᵀo 超养ᵀo 亚皮ᴰo 亚感ᴱo 亚胃ᴳo 亚舌ᴳo 亚软骨ᴷᴺo 亚名ᴺᴵo 亚滞ˢᶻo 亚压ᵀo 亚题ᵀᶻo 间声ᶠᴼo 等ᴵ青盐ᴬo 隔计ᴹo 碘化ᴵᴰo 碘基ᴵo 算计ᴹo 炭化ᴵᴰo 碳盐ᴬo 碳化ᴵᴰo 碳基ᴵo 阴蒂除ᴱᴷo 氯盐ᴬo 氯血ᴱo 氯化ᴵᴰo 氯化ᴵᴰ血ᴱo 氯盐ᴵo 股痛ᴬo 股炎ᵀo 色计ᴹo 色测ᴹᵀo 换具ᴬo 弦炎ᵀo 冻测ᴹᵀo 栽具ᴬo 乳糖ᴼo 举具ᴬo 脾除ᴱᴷo 脾炎ᵀo 蜗牛o 纵隔炎ᵀo 米学ᴵo 肌炎ᵀo 微影ᶠo 微声ᶠᴼo 微粒ᴳo 微槽ᴷo 微菌ᴷᴷo 微石ᴸᵀo 微切ᵀᴼo 万足ᴾᴼo 髓炎ᵀo 单配ᴳo 单志ᴳo 单字ᴳᴹo 单石ᴸᵀo 单话ᴸo 单形ᴹᴵo 单瓣ᴾo 单体ˢᴹo 粘症ᴼo 筋症ᴼo 氮化ᴵᴰo 号具ᴬo 渗计ᴹo 骨痛ᴬo 骨除ᴱᴷo 骨炎ᵀo 胰除ᴱᴷo 胰炎ᵀo 雨计ᴹo 谓能ᴵo 肺炎ᵀo 瓤炎ᵀo 刨具ᴬo 规具ᴬo 蔗盐ᴬo 蔗糖ᴼo 柳盐ᴬo 无感ᴱo 巩膜炎ᵀo 刮具ᴬo 声计ᴹo 水苏糖ᴼo 胃炎ᵀo 硫盐ᴬo 硫青盐ᴬo 硫化ᴵᴰo 硫盐ᴵo 远影ᶠo 远动ᴷᶻo 远令ᴷo 远复ᴷo 远计ᴹo 疹似ᴼo 三体ˢᴹo 篡员ᴬᵀo 汽计ᴹo 精丘炎ᵀo 振具ᴬo 载具ᴬo\n远复ᴷˢo 远复ᴷᴹo 金ᴱᵁ̆o 在ᶜ̂o 全a 再见i 草o\n远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "expected_output": "testikito orkidito orkidito ato ito ito frao pao polo leŭko hermo nimo telefono mikroskopo oksigeno interlingvistiko transformatoro monokromato acetato aeremio akronimo alkoholato alkoholemio alternatoro aluminiato bazidimiceto bazidimikoto cianato cianfito cianido deltoido deoksiozo dietiko diklorido dilatatoro disulfido dolĉamaro embrifito embrigenezo embritomio epifizito faringito fosfato fosfatemio fosfido fosfito fruktozo gingivito grundgenezo halogenido hemianopsio hemiplegio hemisfero hepatito hiperemio hiperestezo hiperonimo hipertensio hipertrofio hipodermo hipoestezo hipogastro hipogloso hipokondro hiponimo hipostazo hipotensio hipotezo interfono izocianato izolmetro jodido jodilo kalkulmetro karbido karbonato karbonido karbonilo klitorektomio klorato kloremio klorido kloridemio klorito koksalgio koksito kolormetro kolormetrio komutatoro kordito kriometrio kultivatoro laktozo levatoro lienektomio lienito limako mediastinito metriko miito mikrofilmo mikrofono mikrograjno mikrokanelo mikrokoko mikrolito mikrotomo miriapodo mjelito monogamio monografio monogramo monolito monologo monomorfio monopetalo monosomo mukozo muskolozo nitrido numeratoro osmozmetro ostalgio ostektomio ostito pankreatektomio pankreatito pluvmetro predikativo pulmito pulpito rabotatoro regulatoro sakarato sakarozo salikato senestezo sklerotito skrapatoro sonmetro stakiozo stomakito sulfato sulfcianato sulfido sulfito telefilmo telekinezo telekomando telekopio telemetro tifoido trisomo uzurpatoro vapormetro verumontanito vibratoro ŝarĝatoro\ntelekomplekso telekompliko eŭropio ĉeo ĉia adiaŭi herbo\ntelekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita",
+      "expected_output_sha256": "35131af75ea7efde1f6678666d96fb77d005bc2e821365c2be370637e3978629",
+      "provenance": {
+        "source_id": "pre-las-20261017",
+        "edition": "old",
+        "revision": "4c16c8937c60",
+        "edition_id": "legacy",
+        "dictionary_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "identity": "pre-las-20261017:4c16c8937c60:eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14:legacy-compound-inverse-20261018-v3:59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+        "label": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261018-v3 / 59e2c3cd9f69",
+        "result_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.txt",
+        "dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+        "snippet_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+        "inverse_compatibility_revision": "legacy-compound-inverse-20261018-v3",
+        "inverse_compatibility_sha256": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+        "effective_dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.csv"
+      },
+      "expected_caption_count": 158,
+      "all_declared_aliases_exercised": true,
+      "identifier_boundary_controls": "远复ᴷˢo 远复ᴷᴹo 金ᴱᵁ̆o 在ᶜ̂o 全a 再见i 草o",
+      "forward_case_id": "ZH_legacy_pure"
+    }
+  ],
+  "forward_cases": [
+    {
+      "case_id": "JA_current_pure",
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected_output": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "expected_visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "expected_restored": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+    },
+    {
+      "case_id": "JA_current_kanji",
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected_output": "<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切ᵀᴼ<rt class=\"L_L\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐ᴬ<rt class=\"XXL_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+      "expected_visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "expected_restored": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+    },
+    {
+      "case_id": "JA_legacy_pure",
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected_output": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "expected_visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "expected_restored": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+    },
+    {
+      "case_id": "JA_legacy_kanji",
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected_output": "<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>蜗牛<rt class=\"XL_L\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切<rt class=\"S_S\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐<rt class=\"L_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+      "expected_visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "expected_restored": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+    },
+    {
+      "case_id": "ZH_current_pure",
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected_output": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "expected_visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "expected_restored": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+    },
+    {
+      "case_id": "ZH_current_kanji",
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected_output": "<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切ᵀᴼ<rt class=\"L_L\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐ᴬ<rt class=\"XXL_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+      "expected_visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "expected_restored": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+    },
+    {
+      "case_id": "ZH_legacy_pure",
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected_output": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "expected_visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "expected_restored": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+    },
+    {
+      "case_id": "ZH_legacy_kanji",
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected_output": "<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>蜗牛<rt class=\"XL_L\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切<rt class=\"S_S\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐<rt class=\"L_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+      "expected_visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "expected_restored": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+    },
+    {
+      "case_id": "KO_current_pure",
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected_output": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "expected_visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "expected_restored": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+    },
+    {
+      "case_id": "KO_current_kanji",
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected_output": "<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切ᵀᴼ<rt class=\"L_L\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐ᴬ<rt class=\"XXL_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+      "expected_visible": "远复ᴷo 远复o 螺ᴸe 螺ᴸe 微切ᵀᴼo 微切ᵀᴼo 醋盐ᴬo 醋盐ᴬo 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa",
+      "expected_restored": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+    },
+    {
+      "case_id": "KO_legacy_pure",
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected_output": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "expected_visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "expected_restored": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+    },
+    {
+      "case_id": "KO_legacy_kanji",
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "telekopio @telekopio@ limake @limake@ mikrotomo @mikrotomo@ acetato @acetato@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@",
+      "expected_output": "<ruby>远<rt class=\"M_M\">tele</rt></ruby><ruby>复ᴷ<rt class=\"L_L\">kopi</rt></ruby>o <ruby>远复<rt class=\"M_M\">telekopi</rt></ruby>o <ruby>蜗牛<rt class=\"XL_L\">limak</rt></ruby>e <ruby>螺ᴸ<rt class=\"M_M\">limak</rt></ruby>e <ruby>微<rt class=\"XS_S\">mikro</rt></ruby><ruby>切ᵀᴼ<rt class=\"XXL_L\">tom</rt></ruby>o <ruby>微切<rt class=\"S_S\">mikrotom</rt></ruby>o <ruby>醋<rt class=\"S_S\">acet</rt></ruby><ruby>盐ᴬ<rt class=\"XXL_L\">at</rt></ruby>o <ruby>醋盐<rt class=\"L_L\">acetat</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+      "expected_visible": "远复ᴷo 远复o 蜗牛e 螺ᴸe 微切ᵀᴼo 微切o 醋盐ᴬo 醋盐o 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a",
+      "expected_restored": "telekopio telekopio limake limake mikrotomo mikrotomo acetato acetato semajno semajno testikito testikito orkidita orkidita"
+    }
+  ],
+  "downloads": [
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "full",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+      "expected_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "expected_bytes": 317760,
+      "expected_file": "cloud_expected/JA_current_full.csv"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "two_column",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+      "expected_sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+      "expected_bytes": 176571,
+      "expected_file": "cloud_expected/JA_current_two_column.csv"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "effective",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.csv",
+      "expected_sha256": "cf756f5dbc300391270b88b190d719ee6f22902e148c2670b762fb9bb348e377",
+      "expected_bytes": 198101,
+      "expected_file": "cloud_expected/JA_current_effective.csv"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "full",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+      "expected_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "expected_bytes": 306934,
+      "expected_file": "cloud_expected/JA_legacy_full.csv"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "two_column",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+      "expected_sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+      "expected_bytes": 166998,
+      "expected_file": "cloud_expected/JA_legacy_two_column.csv"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "effective",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.csv",
+      "expected_sha256": "0f861144f2b5dc81334ca684e7798e6abfa3fc4f62e3474c6775920159fa02d0",
+      "expected_bytes": 191934,
+      "expected_file": "cloud_expected/JA_legacy_effective.csv"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "full",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+      "expected_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "expected_bytes": 317760,
+      "expected_file": "cloud_expected/ZH_current_full.csv"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "two_column",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+      "expected_sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+      "expected_bytes": 176571,
+      "expected_file": "cloud_expected/ZH_current_two_column.csv"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "effective",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e.csv",
+      "expected_sha256": "cf756f5dbc300391270b88b190d719ee6f22902e148c2670b762fb9bb348e377",
+      "expected_bytes": 198101,
+      "expected_file": "cloud_expected/ZH_current_effective.csv"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "full",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+      "expected_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "expected_bytes": 306934,
+      "expected_file": "cloud_expected/ZH_legacy_full.csv"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "two_column",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+      "expected_sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+      "expected_bytes": 166998,
+      "expected_file": "cloud_expected/ZH_legacy_two_column.csv"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "effective",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69.csv",
+      "expected_sha256": "0f861144f2b5dc81334ca684e7798e6abfa3fc4f62e3474c6775920159fa02d0",
+      "expected_bytes": 191934,
+      "expected_file": "cloud_expected/ZH_legacy_effective.csv"
+    }
+  ],
+  "forward_reference_sha256": "10065c890febce8bb473d29d74268b453acb24593259bb671ff8773ecf17e729",
+  "method": "Actual full-rule forward, approved overlays and automatic second pass for combined normal/@ inputs. Actual inverse functions compared with original Esperanto plus declared boundary/ambiguity controls. No Cloud result inferred."
+}

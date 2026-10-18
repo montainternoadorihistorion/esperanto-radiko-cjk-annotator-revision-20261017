@@ -615,3 +615,12 @@ python -B -X utf8 tests/app_ui_smoke.py --nostalgi-onk-fortres
 統合側では、正本10,469語根を実際の識別子生成器で再生成して一致を確認しています。原辞書の語義・分解・マーカーを維持し、旧文用の逆変換辞書も保存しました。過去のGitオブジェクト欠落に依存する既存テストと、旧生成段階の固定行数の不一致は別に記録しています。今回の最終生成処理と再適用の検証を、全歴史段階の再生成が成功したという意味には扱いません。
 
 [PR #29](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/29)のmain反映後、Chromeから日中韓Cloudの注釈ルビ・漢字ルビ・純粋置換を実操作し、9ケースすべてが検証済みローカル出力と全文一致しました。[実測結果](tests/cloud_sperm_distinction_verification.json)と[日本語版の実画面](tests/cloud_sperm_distinction_ja.png)を保存しています。確認対象のリポジトリコミットは `bf5ad5521d293f20fa88c89ee294fe5a9acc591e` です。Cloud内部の実行コミットを取得したものではなく、公開main反映後の実出力による確認です。
+
+
+## 複合表記の逆変換キー補完（2026-10-18）
+
+新版1件・固定旧版140件の不足逆キーを追加し、長い上付き識別子の途中で短いキーを消費しないようにしました。補助の総数は新版9件・旧版158件です。漢字割り当て・識別子・語根分解・正本CSVは変更していません。表記の共用による曖昧さは引き続き許容します。
+
+新旧・純粋置換／日中韓漢字ルビの全保存入力を、日中逆変換で25,903,552回再生し、以前正しかった入力の退行は0件でした。Cloudでも前方12経路、配備後の逆変換4経路、実ダウンロード16ファイル、新旧切り替え時の結果保護を確認しています。詳細と確認範囲は [採用理由と全件検証](tests/compound_inverse_keys_fix/decision.md) を参照してください。
+
+検証したアプリ本体: [日本語逆変換](https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/)、[中国語逆変換](https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/)。日本語のCloud外枠の自動読み込みは別の制約として記録しており、今回の変更で外枠を修正したという主張はしていません。
