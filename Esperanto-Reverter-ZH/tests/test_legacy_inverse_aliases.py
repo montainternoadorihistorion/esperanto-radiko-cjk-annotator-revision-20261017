@@ -13,7 +13,8 @@ import esperanto_converter_zh as app
 
 OLD = 'pre-las-20261017'
 CURRENT = 'pejvo-piv-20260620'
-ALIASES = {'丸ᵀ炎ᵀ': 'testikit', '丸ᴼ炎ᵀ': 'orkidit', '兰炎ᵀ': 'orkidit'}
+# The complete adopted set is independently pinned in test_unique_inverse_keys.
+ALIASES = app.LEGACY_INVERSE_ALIAS_PAIRS
 SUFFIXES = ('', 'o', 'on', 'oj', 'ojn', 'a', 'aj', 'ajn', 'e', 'i', 'is', 'as', 'os', 'us', 'u', 'O')
 
 
@@ -27,7 +28,7 @@ def result_download(at):
     return next(item for item in at.get('download_button') if item.proto.label in ('テキストをダウンロード', '📥 下载文本'))
 
 
-def test_exact_three_aliases_and_existing_fixed_keys_are_preserved():
+def test_reviewed_aliases_and_existing_fixed_keys_are_preserved():
     frame = app.load_dictionary_source(OLD)
     before = app.build_mapping_index(frame)
     after = effective_index(OLD, frame)
@@ -44,8 +45,8 @@ def test_exact_three_aliases_and_existing_fixed_keys_are_preserved():
     for key, root in {'丸炎ᵀ': 'testikit', '丸炎': 'orkidit'}.items():
         for suffix in SUFFIXES:
             assert app.convert_kanji_esperanto_to_alphabet(key + suffix, after) == root + suffix.lower()
-    # No replacement of the shared inflammation component or ordinary identifiers.
-    for text in ('炎ᵀo', '丸ᵀo', '兰o', '丸ᵀ/炎ᵀo', '丸ᴼ 炎ᵀo'):
+    # The newly approved marked component is tested separately; ordinary identifiers stay unchanged.
+    for text in ('炎o', '丸ᵀo', '兰o'):
         assert app.convert_kanji_esperanto_to_alphabet(text, after) == app.convert_kanji_esperanto_to_alphabet(text, before)
 
 
@@ -55,11 +56,11 @@ def test_no_automatic_aliases_in_current_archives_or_custom():
             frame = app.load_dictionary_source(source)
             assert app.effective_mapping_records(source, frame) == app.dataframe_to_mapping_records(frame)
             assert 'inverse_compatibility_sha256' not in app.source_provenance(source)
-    # The later current-only repair adds its one approved key, not the old supplement.
+    # The primary current source receives exactly its separately approved set.
     current = app.load_dictionary_source(CURRENT)
     current_records = app.dataframe_to_mapping_records(current)
-    assert app.effective_mapping_records(CURRENT, current) == current_records + (("orkidit", "兰炎ᵀ", "0"),)
-    assert app.source_provenance(CURRENT)["inverse_compatibility_revision"].startswith("current-orkidit-")
+    assert app.effective_mapping_records(CURRENT, current) == current_records + tuple((root, key, "0") for key, root in app.CURRENT_INVERSE_ALIAS_PAIRS.items())
+    assert app.source_provenance(CURRENT)["inverse_compatibility_revision"].startswith("current-unique-inverse-")
     # Even a custom copy of the old original must not silently acquire the supplement.
     frame = app.read_assignment_csv(io.BytesIO(app.edition_download_data(OLD)[0]))
     assert app.effective_mapping_records('custom', frame) == app.dataframe_to_mapping_records(frame)
@@ -100,7 +101,7 @@ def test_fixed_download_bytes_and_effective_csv_custom_roundtrip():
     effective = app.legacy_effective_download_data(OLD)
     assert effective.startswith(b'esperanto,kanji,priority\r\n')
     frame = app.read_assignment_csv(io.BytesIO(effective))
-    assert len(frame) == 10639
+    assert len(frame) == 10654
     assert effective_index('custom', frame) == effective_index(OLD)
     meta = app.source_provenance(OLD)
     assert meta['effective_dictionary_filename'] not in (meta['dictionary_filename'], meta['snippet_filename'])
@@ -124,6 +125,7 @@ def test_ui_old_result_stays_old_until_reconverted_and_effective_csv_download_ma
         assert len(at.get('download_button')) == 3
         at.sidebar.selectbox[0].set_value(OLD).run()
         assert not at.exception and len(at.get('download_button')) == 3
+        assert any('18件の復元補助' in item.value or '18条还原补充' in item.value for item in at.sidebar.caption)
         text = '丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 兰炎ᵀo 丸炎ᵀo 丸炎o'
         at.text_area[0].set_value(text)
         at.button[0].click().run()

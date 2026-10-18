@@ -1,0 +1,1654 @@
+{
+  "completed": true,
+  "passed_no_new_failures": true,
+  "all_roundtrips_passed": false,
+  "original_audit_commit": "0d7891ec62939bab93c12639525b58b9e491ac87",
+  "actual_inverse_calls": 25903552,
+  "actual_route_count": 8,
+  "inverse_languages": [
+    "JA",
+    "ZH"
+  ],
+  "total_saved_rows_replayed": 12951776,
+  "total_unique_input_route_pairs": 12951664,
+  "unique_inputs_per_current_route": 1619027,
+  "unique_inputs_per_legacy_route": 1618889,
+  "regressions_previously_correct": 0,
+  "forward_source_assets_unchanged": 114,
+  "actual_forward_reference_probes": 96,
+  "forward_validation_sha256": "1ff9fbd6fa5fa04042a836332d75f4a186123ff3991684203d88d1d04583975b",
+  "replay_baseline_sha256": "e9da9525eaa143f67ed08b1872c725f892fbbef620f93f79b340fbc573aea8fc",
+  "implementation_scope_sha256": "4672e4aeb66ed205e0c124f443d5baa23b550ee1da1c7f285b35f0eb71aa5f1d",
+  "unchanged_inverse_runtime_assets": 56,
+  "kanji_replay_language_comparison": {
+    "current": {
+      "all_three_replayed_languages_identical": true,
+      "ordered_inverse_outputs_sha256": {
+        "JA": "b6bad8ea7b3b8b1d4e5b9720034a20a6538725a5fe488200e9c669e7cd112e31",
+        "ZH": "b6bad8ea7b3b8b1d4e5b9720034a20a6538725a5fe488200e9c669e7cd112e31"
+      }
+    },
+    "legacy": {
+      "all_three_replayed_languages_identical": true,
+      "ordered_inverse_outputs_sha256": {
+        "JA": "3589161fd9a9be1c1523e1c7620133ebe18fd878d36f08d2f3f42de776084600",
+        "ZH": "3589161fd9a9be1c1523e1c7620133ebe18fd878d36f08d2f3f42de776084600"
+      }
+    }
+  },
+  "inherited_unchanged_pure_language_equivalence": {
+    "current": {
+      "path": "current/pure_language_equivalence.json",
+      "sha256": "219d7628e00a2ad354f3a46300a95c9844b5a66f3e04f0df0f40f7869bb51eb0",
+      "coverage": "JA pure capture actually replayed; unchanged shared engine/assets/stripped overlay and zero automatic overlays establish the same forward input for ZH/KO."
+    },
+    "legacy": {
+      "path": "legacy/pure_language_equivalence.json",
+      "sha256": "06e97d470b3da1d3ca18164b1cca06e3053fe5977c220d23f6fa47fcd203ad50",
+      "coverage": "JA pure capture actually replayed; unchanged shared engine/assets/stripped overlay and zero automatic overlays establish the same forward input for ZH/KO."
+    }
+  },
+  "method": "Each previously captured row is restored anew by both updated production inverse functions. The previous full forward captures are reused only after byte equality of all shipped forward sources and data, plus direct unfiltered singleton forward probes. Primary/addendum overlaps are executed again, compared, and deduplicated in per-route unique totals. Pure language equivalence proofs from the unchanged prior audit cover JA/ZH/KO; kanji captures for all three languages are replayed separately.",
+  "criterion": "Stored expected circumflex/lower source compared with raw after output, no output normalization or identifier/whitespace removal.",
+  "limitations": [
+    "All finite previous canonical/root+24suffix and runtime-key probes, not arbitrary sentences or all future compounds.",
+    "Remaining mismatches and changes that remain wrong are retained and distinguished from complete improvements.",
+    "No forward assignment, decomposition, identifier or runtime data was changed by this validation task."
+  ],
+  "full_private_report_sha256": "0b77b62fa03f2e64c584ab34db87725b697a9db921a049b887dec66e2cd1cdcb",
+  "unchanged_canonical_sidecar_sha256": "b651ade3c363b96173d2f23bc6404bc67c2b4cfd3e9ce2aa69e6e24eb78ce33e",
+  "routes": [
+    {
+      "edition": "current",
+      "actual_forward_language": "JA",
+      "mode": "pure",
+      "executed_saved_rows": 1619039,
+      "unique_inputs": 1619027,
+      "addendum_overlap_inputs": 12,
+      "counts": {
+        "total": 1619027,
+        "before_match": 1613319,
+        "after_match": 1613907,
+        "before_mismatch": 5708,
+        "after_mismatch": 5120,
+        "improved": 588,
+        "regressed": 0,
+        "changed_any": 594,
+        "changed_still_wrong": 6,
+        "unchanged_wrong": 5114,
+        "inverse_language_differences": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688982,
+          "before_match": 684831,
+          "after_match": 685417,
+          "before_mismatch": 4151,
+          "after_mismatch": 3565,
+          "improved": 586,
+          "regressed": 0,
+          "changed_any": 592,
+          "changed_still_wrong": 6,
+          "unchanged_wrong": 3559,
+          "inverse_language_differences": 0
+        },
+        "marker_whole": {
+          "total": 688982,
+          "before_match": 687572,
+          "after_match": 687574,
+          "before_mismatch": 1410,
+          "after_mismatch": 1408,
+          "improved": 2,
+          "regressed": 0,
+          "changed_any": 2,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 1408,
+          "inverse_language_differences": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241063,
+          "before_match": 240916,
+          "after_match": 240916,
+          "before_mismatch": 147,
+          "after_mismatch": 147,
+          "improved": 0,
+          "regressed": 0,
+          "changed_any": 0,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 147,
+          "inverse_language_differences": 0
+        }
+      },
+      "letter_cases": {
+        "lowercase": {
+          "total": 959159,
+          "before_match": 956444,
+          "after_match": 956820,
+          "before_mismatch": 2715,
+          "after_mismatch": 2339,
+          "improved": 376,
+          "regressed": 0,
+          "changed_any": 378,
+          "changed_still_wrong": 2,
+          "unchanged_wrong": 2337,
+          "inverse_language_differences": 0
+        },
+        "mixedcase": {
+          "total": 2512,
+          "before_match": 2479,
+          "after_match": 2491,
+          "before_mismatch": 33,
+          "after_mismatch": 21,
+          "improved": 12,
+          "regressed": 0,
+          "changed_any": 12,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 21,
+          "inverse_language_differences": 0
+        },
+        "titlecase": {
+          "total": 330022,
+          "before_match": 328547,
+          "after_match": 328645,
+          "before_mismatch": 1475,
+          "after_mismatch": 1377,
+          "improved": 98,
+          "regressed": 0,
+          "changed_any": 100,
+          "changed_still_wrong": 2,
+          "unchanged_wrong": 1375,
+          "inverse_language_differences": 0
+        },
+        "uppercase": {
+          "total": 327334,
+          "before_match": 325849,
+          "after_match": 325951,
+          "before_mismatch": 1485,
+          "after_mismatch": 1383,
+          "improved": 102,
+          "regressed": 0,
+          "changed_any": 104,
+          "changed_still_wrong": 2,
+          "unchanged_wrong": 1381,
+          "inverse_language_differences": 0
+        }
+      },
+      "logical_reference_counts": {
+        "root": {
+          "total": 754632,
+          "before_match": 753181,
+          "after_match": 753476,
+          "before_mismatch": 1451,
+          "after_mismatch": 1156,
+          "improved": 295,
+          "regressed": 0,
+          "changed_any": 295,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 1156,
+          "inverse_language_differences": 0
+        },
+        "lexeme": {
+          "total": 989178,
+          "before_match": 984690,
+          "after_match": 985013,
+          "before_mismatch": 4488,
+          "after_mismatch": 4165,
+          "improved": 323,
+          "regressed": 0,
+          "changed_any": 329,
+          "changed_still_wrong": 6,
+          "unchanged_wrong": 4159,
+          "inverse_language_differences": 0
+        }
+      },
+      "known_fix_controls": {
+        "logical_cases": 144,
+        "unique_inputs": 142,
+        "failures": []
+      },
+      "summary_sha256": "19475bcd67d2320ed7ad8a5f4be097e9fc55054a8d62eee313c0ecc2878a90a1"
+    },
+    {
+      "edition": "current",
+      "actual_forward_language": "JA",
+      "mode": "kanji",
+      "executed_saved_rows": 1619039,
+      "unique_inputs": 1619027,
+      "addendum_overlap_inputs": 12,
+      "counts": {
+        "total": 1619027,
+        "before_match": 1613326,
+        "after_match": 1613914,
+        "before_mismatch": 5701,
+        "after_mismatch": 5113,
+        "improved": 588,
+        "regressed": 0,
+        "changed_any": 594,
+        "changed_still_wrong": 6,
+        "unchanged_wrong": 5107,
+        "inverse_language_differences": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688982,
+          "before_match": 684838,
+          "after_match": 685424,
+          "before_mismatch": 4144,
+          "after_mismatch": 3558,
+          "improved": 586,
+          "regressed": 0,
+          "changed_any": 592,
+          "changed_still_wrong": 6,
+          "unchanged_wrong": 3552,
+          "inverse_language_differences": 0
+        },
+        "marker_whole": {
+          "total": 688982,
+          "before_match": 687572,
+          "after_match": 687574,
+          "before_mismatch": 1410,
+          "after_mismatch": 1408,
+          "improved": 2,
+          "regressed": 0,
+          "changed_any": 2,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 1408,
+          "inverse_language_differences": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241063,
+          "before_match": 240916,
+          "after_match": 240916,
+          "before_mismatch": 147,
+          "after_mismatch": 147,
+          "improved": 0,
+          "regressed": 0,
+          "changed_any": 0,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 147,
+          "inverse_language_differences": 0
+        }
+      },
+      "letter_cases": {
+        "lowercase": {
+          "total": 959159,
+          "before_match": 956451,
+          "after_match": 956827,
+          "before_mismatch": 2708,
+          "after_mismatch": 2332,
+          "improved": 376,
+          "regressed": 0,
+          "changed_any": 378,
+          "changed_still_wrong": 2,
+          "unchanged_wrong": 2330,
+          "inverse_language_differences": 0
+        },
+        "mixedcase": {
+          "total": 2512,
+          "before_match": 2479,
+          "after_match": 2491,
+          "before_mismatch": 33,
+          "after_mismatch": 21,
+          "improved": 12,
+          "regressed": 0,
+          "changed_any": 12,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 21,
+          "inverse_language_differences": 0
+        },
+        "titlecase": {
+          "total": 330022,
+          "before_match": 328547,
+          "after_match": 328645,
+          "before_mismatch": 1475,
+          "after_mismatch": 1377,
+          "improved": 98,
+          "regressed": 0,
+          "changed_any": 100,
+          "changed_still_wrong": 2,
+          "unchanged_wrong": 1375,
+          "inverse_language_differences": 0
+        },
+        "uppercase": {
+          "total": 327334,
+          "before_match": 325849,
+          "after_match": 325951,
+          "before_mismatch": 1485,
+          "after_mismatch": 1383,
+          "improved": 102,
+          "regressed": 0,
+          "changed_any": 104,
+          "changed_still_wrong": 2,
+          "unchanged_wrong": 1381,
+          "inverse_language_differences": 0
+        }
+      },
+      "logical_reference_counts": {
+        "root": {
+          "total": 754632,
+          "before_match": 753188,
+          "after_match": 753483,
+          "before_mismatch": 1444,
+          "after_mismatch": 1149,
+          "improved": 295,
+          "regressed": 0,
+          "changed_any": 295,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 1149,
+          "inverse_language_differences": 0
+        },
+        "lexeme": {
+          "total": 989178,
+          "before_match": 984690,
+          "after_match": 985013,
+          "before_mismatch": 4488,
+          "after_mismatch": 4165,
+          "improved": 323,
+          "regressed": 0,
+          "changed_any": 329,
+          "changed_still_wrong": 6,
+          "unchanged_wrong": 4159,
+          "inverse_language_differences": 0
+        }
+      },
+      "known_fix_controls": {
+        "logical_cases": 144,
+        "unique_inputs": 142,
+        "failures": []
+      },
+      "summary_sha256": "e41fd76ae72a09224dc3a5e6819cdb2cf0e92bd80a88cf3553dda19a1a25eec2"
+    },
+    {
+      "edition": "current",
+      "actual_forward_language": "ZH",
+      "mode": "kanji",
+      "executed_saved_rows": 1619039,
+      "unique_inputs": 1619027,
+      "addendum_overlap_inputs": 12,
+      "counts": {
+        "total": 1619027,
+        "before_match": 1613326,
+        "after_match": 1613914,
+        "before_mismatch": 5701,
+        "after_mismatch": 5113,
+        "improved": 588,
+        "regressed": 0,
+        "changed_any": 594,
+        "changed_still_wrong": 6,
+        "unchanged_wrong": 5107,
+        "inverse_language_differences": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688982,
+          "before_match": 684838,
+          "after_match": 685424,
+          "before_mismatch": 4144,
+          "after_mismatch": 3558,
+          "improved": 586,
+          "regressed": 0,
+          "changed_any": 592,
+          "changed_still_wrong": 6,
+          "unchanged_wrong": 3552,
+          "inverse_language_differences": 0
+        },
+        "marker_whole": {
+          "total": 688982,
+          "before_match": 687572,
+          "after_match": 687574,
+          "before_mismatch": 1410,
+          "after_mismatch": 1408,
+          "improved": 2,
+          "regressed": 0,
+          "changed_any": 2,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 1408,
+          "inverse_language_differences": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241063,
+          "before_match": 240916,
+          "after_match": 240916,
+          "before_mismatch": 147,
+          "after_mismatch": 147,
+          "improved": 0,
+          "regressed": 0,
+          "changed_any": 0,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 147,
+          "inverse_language_differences": 0
+        }
+      },
+      "letter_cases": {
+        "lowercase": {
+          "total": 959159,
+          "before_match": 956451,
+          "after_match": 956827,
+          "before_mismatch": 2708,
+          "after_mismatch": 2332,
+          "improved": 376,
+          "regressed": 0,
+          "changed_any": 378,
+          "changed_still_wrong": 2,
+          "unchanged_wrong": 2330,
+          "inverse_language_differences": 0
+        },
+        "mixedcase": {
+          "total": 2512,
+          "before_match": 2479,
+          "after_match": 2491,
+          "before_mismatch": 33,
+          "after_mismatch": 21,
+          "improved": 12,
+          "regressed": 0,
+          "changed_any": 12,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 21,
+          "inverse_language_differences": 0
+        },
+        "titlecase": {
+          "total": 330022,
+          "before_match": 328547,
+          "after_match": 328645,
+          "before_mismatch": 1475,
+          "after_mismatch": 1377,
+          "improved": 98,
+          "regressed": 0,
+          "changed_any": 100,
+          "changed_still_wrong": 2,
+          "unchanged_wrong": 1375,
+          "inverse_language_differences": 0
+        },
+        "uppercase": {
+          "total": 327334,
+          "before_match": 325849,
+          "after_match": 325951,
+          "before_mismatch": 1485,
+          "after_mismatch": 1383,
+          "improved": 102,
+          "regressed": 0,
+          "changed_any": 104,
+          "changed_still_wrong": 2,
+          "unchanged_wrong": 1381,
+          "inverse_language_differences": 0
+        }
+      },
+      "logical_reference_counts": {
+        "root": {
+          "total": 754632,
+          "before_match": 753188,
+          "after_match": 753483,
+          "before_mismatch": 1444,
+          "after_mismatch": 1149,
+          "improved": 295,
+          "regressed": 0,
+          "changed_any": 295,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 1149,
+          "inverse_language_differences": 0
+        },
+        "lexeme": {
+          "total": 989178,
+          "before_match": 984690,
+          "after_match": 985013,
+          "before_mismatch": 4488,
+          "after_mismatch": 4165,
+          "improved": 323,
+          "regressed": 0,
+          "changed_any": 329,
+          "changed_still_wrong": 6,
+          "unchanged_wrong": 4159,
+          "inverse_language_differences": 0
+        }
+      },
+      "known_fix_controls": {
+        "logical_cases": 144,
+        "unique_inputs": 142,
+        "failures": []
+      },
+      "summary_sha256": "91d834aae0865fccbd2df9a3eabe01aa344f05294d73d13871402e500663a154"
+    },
+    {
+      "edition": "current",
+      "actual_forward_language": "KO",
+      "mode": "kanji",
+      "executed_saved_rows": 1619039,
+      "unique_inputs": 1619027,
+      "addendum_overlap_inputs": 12,
+      "counts": {
+        "total": 1619027,
+        "before_match": 1613326,
+        "after_match": 1613914,
+        "before_mismatch": 5701,
+        "after_mismatch": 5113,
+        "improved": 588,
+        "regressed": 0,
+        "changed_any": 594,
+        "changed_still_wrong": 6,
+        "unchanged_wrong": 5107,
+        "inverse_language_differences": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688982,
+          "before_match": 684838,
+          "after_match": 685424,
+          "before_mismatch": 4144,
+          "after_mismatch": 3558,
+          "improved": 586,
+          "regressed": 0,
+          "changed_any": 592,
+          "changed_still_wrong": 6,
+          "unchanged_wrong": 3552,
+          "inverse_language_differences": 0
+        },
+        "marker_whole": {
+          "total": 688982,
+          "before_match": 687572,
+          "after_match": 687574,
+          "before_mismatch": 1410,
+          "after_mismatch": 1408,
+          "improved": 2,
+          "regressed": 0,
+          "changed_any": 2,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 1408,
+          "inverse_language_differences": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241063,
+          "before_match": 240916,
+          "after_match": 240916,
+          "before_mismatch": 147,
+          "after_mismatch": 147,
+          "improved": 0,
+          "regressed": 0,
+          "changed_any": 0,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 147,
+          "inverse_language_differences": 0
+        }
+      },
+      "letter_cases": {
+        "lowercase": {
+          "total": 959159,
+          "before_match": 956451,
+          "after_match": 956827,
+          "before_mismatch": 2708,
+          "after_mismatch": 2332,
+          "improved": 376,
+          "regressed": 0,
+          "changed_any": 378,
+          "changed_still_wrong": 2,
+          "unchanged_wrong": 2330,
+          "inverse_language_differences": 0
+        },
+        "mixedcase": {
+          "total": 2512,
+          "before_match": 2479,
+          "after_match": 2491,
+          "before_mismatch": 33,
+          "after_mismatch": 21,
+          "improved": 12,
+          "regressed": 0,
+          "changed_any": 12,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 21,
+          "inverse_language_differences": 0
+        },
+        "titlecase": {
+          "total": 330022,
+          "before_match": 328547,
+          "after_match": 328645,
+          "before_mismatch": 1475,
+          "after_mismatch": 1377,
+          "improved": 98,
+          "regressed": 0,
+          "changed_any": 100,
+          "changed_still_wrong": 2,
+          "unchanged_wrong": 1375,
+          "inverse_language_differences": 0
+        },
+        "uppercase": {
+          "total": 327334,
+          "before_match": 325849,
+          "after_match": 325951,
+          "before_mismatch": 1485,
+          "after_mismatch": 1383,
+          "improved": 102,
+          "regressed": 0,
+          "changed_any": 104,
+          "changed_still_wrong": 2,
+          "unchanged_wrong": 1381,
+          "inverse_language_differences": 0
+        }
+      },
+      "logical_reference_counts": {
+        "root": {
+          "total": 754632,
+          "before_match": 753188,
+          "after_match": 753483,
+          "before_mismatch": 1444,
+          "after_mismatch": 1149,
+          "improved": 295,
+          "regressed": 0,
+          "changed_any": 295,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 1149,
+          "inverse_language_differences": 0
+        },
+        "lexeme": {
+          "total": 989178,
+          "before_match": 984690,
+          "after_match": 985013,
+          "before_mismatch": 4488,
+          "after_mismatch": 4165,
+          "improved": 323,
+          "regressed": 0,
+          "changed_any": 329,
+          "changed_still_wrong": 6,
+          "unchanged_wrong": 4159,
+          "inverse_language_differences": 0
+        }
+      },
+      "known_fix_controls": {
+        "logical_cases": 144,
+        "unique_inputs": 142,
+        "failures": []
+      },
+      "summary_sha256": "0a060fa77c278ca0e15d97f3975156f076e016a874885e2bdc22bf58a38c2f37"
+    },
+    {
+      "edition": "legacy",
+      "actual_forward_language": "JA",
+      "mode": "pure",
+      "executed_saved_rows": 1618905,
+      "unique_inputs": 1618889,
+      "addendum_overlap_inputs": 16,
+      "counts": {
+        "total": 1618889,
+        "before_match": 1601549,
+        "after_match": 1604337,
+        "before_mismatch": 17340,
+        "after_mismatch": 14552,
+        "improved": 2788,
+        "regressed": 0,
+        "changed_any": 2797,
+        "changed_still_wrong": 9,
+        "unchanged_wrong": 14543,
+        "inverse_language_differences": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688936,
+          "before_match": 673991,
+          "after_match": 676704,
+          "before_mismatch": 14945,
+          "after_mismatch": 12232,
+          "improved": 2713,
+          "regressed": 0,
+          "changed_any": 2722,
+          "changed_still_wrong": 9,
+          "unchanged_wrong": 12223,
+          "inverse_language_differences": 0
+        },
+        "marker_whole": {
+          "total": 688936,
+          "before_match": 686720,
+          "after_match": 686772,
+          "before_mismatch": 2216,
+          "after_mismatch": 2164,
+          "improved": 52,
+          "regressed": 0,
+          "changed_any": 52,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 2164,
+          "inverse_language_differences": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241017,
+          "before_match": 240838,
+          "after_match": 240861,
+          "before_mismatch": 179,
+          "after_mismatch": 156,
+          "improved": 23,
+          "regressed": 0,
+          "changed_any": 23,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 156,
+          "inverse_language_differences": 0
+        }
+      },
+      "letter_cases": {
+        "lowercase": {
+          "total": 959021,
+          "before_match": 947767,
+          "after_match": 949895,
+          "before_mismatch": 11254,
+          "after_mismatch": 9126,
+          "improved": 2128,
+          "regressed": 0,
+          "changed_any": 2131,
+          "changed_still_wrong": 3,
+          "unchanged_wrong": 9123,
+          "inverse_language_differences": 0
+        },
+        "mixedcase": {
+          "total": 2512,
+          "before_match": 2475,
+          "after_match": 2487,
+          "before_mismatch": 37,
+          "after_mismatch": 25,
+          "improved": 12,
+          "regressed": 0,
+          "changed_any": 12,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 25,
+          "inverse_language_differences": 0
+        },
+        "titlecase": {
+          "total": 330022,
+          "before_match": 327002,
+          "after_match": 327324,
+          "before_mismatch": 3020,
+          "after_mismatch": 2698,
+          "improved": 322,
+          "regressed": 0,
+          "changed_any": 325,
+          "changed_still_wrong": 3,
+          "unchanged_wrong": 2695,
+          "inverse_language_differences": 0
+        },
+        "uppercase": {
+          "total": 327334,
+          "before_match": 324305,
+          "after_match": 324631,
+          "before_mismatch": 3029,
+          "after_mismatch": 2703,
+          "improved": 326,
+          "regressed": 0,
+          "changed_any": 329,
+          "changed_still_wrong": 3,
+          "unchanged_wrong": 2700,
+          "inverse_language_differences": 0
+        }
+      },
+      "logical_reference_counts": {
+        "root": {
+          "total": 754488,
+          "before_match": 745153,
+          "after_match": 747186,
+          "before_mismatch": 9335,
+          "after_mismatch": 7302,
+          "improved": 2033,
+          "regressed": 0,
+          "changed_any": 2033,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 7302,
+          "inverse_language_differences": 0
+        },
+        "lexeme": {
+          "total": 989178,
+          "before_match": 980035,
+          "after_match": 981037,
+          "before_mismatch": 9143,
+          "after_mismatch": 8141,
+          "improved": 1002,
+          "regressed": 0,
+          "changed_any": 1011,
+          "changed_still_wrong": 9,
+          "unchanged_wrong": 8132,
+          "inverse_language_differences": 0
+        }
+      },
+      "known_fix_controls": {
+        "logical_cases": 144,
+        "unique_inputs": 142,
+        "failures": []
+      },
+      "summary_sha256": "a37e12be1c85db71b6dea2706301c37816274f6e9c01b75eee0a0ddfcf38d30a"
+    },
+    {
+      "edition": "legacy",
+      "actual_forward_language": "JA",
+      "mode": "kanji",
+      "executed_saved_rows": 1618905,
+      "unique_inputs": 1618889,
+      "addendum_overlap_inputs": 16,
+      "counts": {
+        "total": 1618889,
+        "before_match": 1601584,
+        "after_match": 1604352,
+        "before_mismatch": 17305,
+        "after_mismatch": 14537,
+        "improved": 2768,
+        "regressed": 0,
+        "changed_any": 2777,
+        "changed_still_wrong": 9,
+        "unchanged_wrong": 14528,
+        "inverse_language_differences": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688936,
+          "before_match": 674026,
+          "after_match": 676719,
+          "before_mismatch": 14910,
+          "after_mismatch": 12217,
+          "improved": 2693,
+          "regressed": 0,
+          "changed_any": 2702,
+          "changed_still_wrong": 9,
+          "unchanged_wrong": 12208,
+          "inverse_language_differences": 0
+        },
+        "marker_whole": {
+          "total": 688936,
+          "before_match": 686720,
+          "after_match": 686772,
+          "before_mismatch": 2216,
+          "after_mismatch": 2164,
+          "improved": 52,
+          "regressed": 0,
+          "changed_any": 52,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 2164,
+          "inverse_language_differences": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241017,
+          "before_match": 240838,
+          "after_match": 240861,
+          "before_mismatch": 179,
+          "after_mismatch": 156,
+          "improved": 23,
+          "regressed": 0,
+          "changed_any": 23,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 156,
+          "inverse_language_differences": 0
+        }
+      },
+      "letter_cases": {
+        "lowercase": {
+          "total": 959021,
+          "before_match": 947800,
+          "after_match": 949910,
+          "before_mismatch": 11221,
+          "after_mismatch": 9111,
+          "improved": 2110,
+          "regressed": 0,
+          "changed_any": 2113,
+          "changed_still_wrong": 3,
+          "unchanged_wrong": 9108,
+          "inverse_language_differences": 0
+        },
+        "mixedcase": {
+          "total": 2512,
+          "before_match": 2475,
+          "after_match": 2487,
+          "before_mismatch": 37,
+          "after_mismatch": 25,
+          "improved": 12,
+          "regressed": 0,
+          "changed_any": 12,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 25,
+          "inverse_language_differences": 0
+        },
+        "titlecase": {
+          "total": 330022,
+          "before_match": 327003,
+          "after_match": 327324,
+          "before_mismatch": 3019,
+          "after_mismatch": 2698,
+          "improved": 321,
+          "regressed": 0,
+          "changed_any": 324,
+          "changed_still_wrong": 3,
+          "unchanged_wrong": 2695,
+          "inverse_language_differences": 0
+        },
+        "uppercase": {
+          "total": 327334,
+          "before_match": 324306,
+          "after_match": 324631,
+          "before_mismatch": 3028,
+          "after_mismatch": 2703,
+          "improved": 325,
+          "regressed": 0,
+          "changed_any": 328,
+          "changed_still_wrong": 3,
+          "unchanged_wrong": 2700,
+          "inverse_language_differences": 0
+        }
+      },
+      "logical_reference_counts": {
+        "root": {
+          "total": 754488,
+          "before_match": 745186,
+          "after_match": 747201,
+          "before_mismatch": 9302,
+          "after_mismatch": 7287,
+          "improved": 2015,
+          "regressed": 0,
+          "changed_any": 2015,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 7287,
+          "inverse_language_differences": 0
+        },
+        "lexeme": {
+          "total": 989178,
+          "before_match": 980038,
+          "after_match": 981037,
+          "before_mismatch": 9140,
+          "after_mismatch": 8141,
+          "improved": 999,
+          "regressed": 0,
+          "changed_any": 1008,
+          "changed_still_wrong": 9,
+          "unchanged_wrong": 8132,
+          "inverse_language_differences": 0
+        }
+      },
+      "known_fix_controls": {
+        "logical_cases": 144,
+        "unique_inputs": 142,
+        "failures": []
+      },
+      "summary_sha256": "c8289855ab94511178cb5b3892fd593f2844ad6fed76ae1446ac5a1de579d22f"
+    },
+    {
+      "edition": "legacy",
+      "actual_forward_language": "ZH",
+      "mode": "kanji",
+      "executed_saved_rows": 1618905,
+      "unique_inputs": 1618889,
+      "addendum_overlap_inputs": 16,
+      "counts": {
+        "total": 1618889,
+        "before_match": 1601584,
+        "after_match": 1604352,
+        "before_mismatch": 17305,
+        "after_mismatch": 14537,
+        "improved": 2768,
+        "regressed": 0,
+        "changed_any": 2777,
+        "changed_still_wrong": 9,
+        "unchanged_wrong": 14528,
+        "inverse_language_differences": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688936,
+          "before_match": 674026,
+          "after_match": 676719,
+          "before_mismatch": 14910,
+          "after_mismatch": 12217,
+          "improved": 2693,
+          "regressed": 0,
+          "changed_any": 2702,
+          "changed_still_wrong": 9,
+          "unchanged_wrong": 12208,
+          "inverse_language_differences": 0
+        },
+        "marker_whole": {
+          "total": 688936,
+          "before_match": 686720,
+          "after_match": 686772,
+          "before_mismatch": 2216,
+          "after_mismatch": 2164,
+          "improved": 52,
+          "regressed": 0,
+          "changed_any": 52,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 2164,
+          "inverse_language_differences": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241017,
+          "before_match": 240838,
+          "after_match": 240861,
+          "before_mismatch": 179,
+          "after_mismatch": 156,
+          "improved": 23,
+          "regressed": 0,
+          "changed_any": 23,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 156,
+          "inverse_language_differences": 0
+        }
+      },
+      "letter_cases": {
+        "lowercase": {
+          "total": 959021,
+          "before_match": 947800,
+          "after_match": 949910,
+          "before_mismatch": 11221,
+          "after_mismatch": 9111,
+          "improved": 2110,
+          "regressed": 0,
+          "changed_any": 2113,
+          "changed_still_wrong": 3,
+          "unchanged_wrong": 9108,
+          "inverse_language_differences": 0
+        },
+        "mixedcase": {
+          "total": 2512,
+          "before_match": 2475,
+          "after_match": 2487,
+          "before_mismatch": 37,
+          "after_mismatch": 25,
+          "improved": 12,
+          "regressed": 0,
+          "changed_any": 12,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 25,
+          "inverse_language_differences": 0
+        },
+        "titlecase": {
+          "total": 330022,
+          "before_match": 327003,
+          "after_match": 327324,
+          "before_mismatch": 3019,
+          "after_mismatch": 2698,
+          "improved": 321,
+          "regressed": 0,
+          "changed_any": 324,
+          "changed_still_wrong": 3,
+          "unchanged_wrong": 2695,
+          "inverse_language_differences": 0
+        },
+        "uppercase": {
+          "total": 327334,
+          "before_match": 324306,
+          "after_match": 324631,
+          "before_mismatch": 3028,
+          "after_mismatch": 2703,
+          "improved": 325,
+          "regressed": 0,
+          "changed_any": 328,
+          "changed_still_wrong": 3,
+          "unchanged_wrong": 2700,
+          "inverse_language_differences": 0
+        }
+      },
+      "logical_reference_counts": {
+        "root": {
+          "total": 754488,
+          "before_match": 745186,
+          "after_match": 747201,
+          "before_mismatch": 9302,
+          "after_mismatch": 7287,
+          "improved": 2015,
+          "regressed": 0,
+          "changed_any": 2015,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 7287,
+          "inverse_language_differences": 0
+        },
+        "lexeme": {
+          "total": 989178,
+          "before_match": 980038,
+          "after_match": 981037,
+          "before_mismatch": 9140,
+          "after_mismatch": 8141,
+          "improved": 999,
+          "regressed": 0,
+          "changed_any": 1008,
+          "changed_still_wrong": 9,
+          "unchanged_wrong": 8132,
+          "inverse_language_differences": 0
+        }
+      },
+      "known_fix_controls": {
+        "logical_cases": 144,
+        "unique_inputs": 142,
+        "failures": []
+      },
+      "summary_sha256": "8733ec6392909de663e6a652f3b47302a1f21b6105a2db018c27bfa31e8efb88"
+    },
+    {
+      "edition": "legacy",
+      "actual_forward_language": "KO",
+      "mode": "kanji",
+      "executed_saved_rows": 1618905,
+      "unique_inputs": 1618889,
+      "addendum_overlap_inputs": 16,
+      "counts": {
+        "total": 1618889,
+        "before_match": 1601584,
+        "after_match": 1604352,
+        "before_mismatch": 17305,
+        "after_mismatch": 14537,
+        "improved": 2768,
+        "regressed": 0,
+        "changed_any": 2777,
+        "changed_still_wrong": 9,
+        "unchanged_wrong": 14528,
+        "inverse_language_differences": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688936,
+          "before_match": 674026,
+          "after_match": 676719,
+          "before_mismatch": 14910,
+          "after_mismatch": 12217,
+          "improved": 2693,
+          "regressed": 0,
+          "changed_any": 2702,
+          "changed_still_wrong": 9,
+          "unchanged_wrong": 12208,
+          "inverse_language_differences": 0
+        },
+        "marker_whole": {
+          "total": 688936,
+          "before_match": 686720,
+          "after_match": 686772,
+          "before_mismatch": 2216,
+          "after_mismatch": 2164,
+          "improved": 52,
+          "regressed": 0,
+          "changed_any": 52,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 2164,
+          "inverse_language_differences": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241017,
+          "before_match": 240838,
+          "after_match": 240861,
+          "before_mismatch": 179,
+          "after_mismatch": 156,
+          "improved": 23,
+          "regressed": 0,
+          "changed_any": 23,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 156,
+          "inverse_language_differences": 0
+        }
+      },
+      "letter_cases": {
+        "lowercase": {
+          "total": 959021,
+          "before_match": 947800,
+          "after_match": 949910,
+          "before_mismatch": 11221,
+          "after_mismatch": 9111,
+          "improved": 2110,
+          "regressed": 0,
+          "changed_any": 2113,
+          "changed_still_wrong": 3,
+          "unchanged_wrong": 9108,
+          "inverse_language_differences": 0
+        },
+        "mixedcase": {
+          "total": 2512,
+          "before_match": 2475,
+          "after_match": 2487,
+          "before_mismatch": 37,
+          "after_mismatch": 25,
+          "improved": 12,
+          "regressed": 0,
+          "changed_any": 12,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 25,
+          "inverse_language_differences": 0
+        },
+        "titlecase": {
+          "total": 330022,
+          "before_match": 327003,
+          "after_match": 327324,
+          "before_mismatch": 3019,
+          "after_mismatch": 2698,
+          "improved": 321,
+          "regressed": 0,
+          "changed_any": 324,
+          "changed_still_wrong": 3,
+          "unchanged_wrong": 2695,
+          "inverse_language_differences": 0
+        },
+        "uppercase": {
+          "total": 327334,
+          "before_match": 324306,
+          "after_match": 324631,
+          "before_mismatch": 3028,
+          "after_mismatch": 2703,
+          "improved": 325,
+          "regressed": 0,
+          "changed_any": 328,
+          "changed_still_wrong": 3,
+          "unchanged_wrong": 2700,
+          "inverse_language_differences": 0
+        }
+      },
+      "logical_reference_counts": {
+        "root": {
+          "total": 754488,
+          "before_match": 745186,
+          "after_match": 747201,
+          "before_mismatch": 9302,
+          "after_mismatch": 7287,
+          "improved": 2015,
+          "regressed": 0,
+          "changed_any": 2015,
+          "changed_still_wrong": 0,
+          "unchanged_wrong": 7287,
+          "inverse_language_differences": 0
+        },
+        "lexeme": {
+          "total": 989178,
+          "before_match": 980038,
+          "after_match": 981037,
+          "before_mismatch": 9140,
+          "after_mismatch": 8141,
+          "improved": 999,
+          "regressed": 0,
+          "changed_any": 1008,
+          "changed_still_wrong": 9,
+          "unchanged_wrong": 8132,
+          "inverse_language_differences": 0
+        }
+      },
+      "known_fix_controls": {
+        "logical_cases": 144,
+        "unique_inputs": 142,
+        "failures": []
+      },
+      "summary_sha256": "7850568f5c034d530aaedf8a81c0f0499ac2424eb0fc76cb3acdae236479bdd2"
+    }
+  ],
+  "partial_improvement_examples": [
+    {
+      "edition": "current",
+      "language": "JA",
+      "mode": "pure",
+      "origin": "primary",
+      "id": 877675,
+      "input": "ETANOLAT",
+      "expected": "etanolat",
+      "visible": "乙ANOL盐ᴬ",
+      "before": [
+        "etilanolsalᴬ",
+        "etilanolsalᴬ"
+      ],
+      "after": [
+        "etilanolat",
+        "etilanolat"
+      ],
+      "refs": [
+        [
+          "lexeme",
+          68026,
+          0
+        ]
+      ],
+      "unique_input_counted": true
+    },
+    {
+      "edition": "current",
+      "language": "JA",
+      "mode": "pure",
+      "origin": "primary",
+      "id": 897485,
+      "input": "Etanolat",
+      "expected": "etanolat",
+      "visible": "乙anol盐ᴬ",
+      "before": [
+        "etilanolsalᴬ",
+        "etilanolsalᴬ"
+      ],
+      "after": [
+        "etilanolat",
+        "etilanolat"
+      ],
+      "refs": [
+        [
+          "lexeme",
+          77931,
+          0
+        ]
+      ],
+      "unique_input_counted": true
+    },
+    {
+      "edition": "current",
+      "language": "JA",
+      "mode": "pure",
+      "origin": "primary",
+      "id": 1181559,
+      "input": "PROPENAT",
+      "expected": "propenat",
+      "visible": "丙EN盐ᴬ",
+      "before": [
+        "propilensalᴬ",
+        "propilensalᴬ"
+      ],
+      "after": [
+        "propilenat",
+        "propilenat"
+      ],
+      "refs": [
+        [
+          "lexeme",
+          219968,
+          0
+        ]
+      ],
+      "unique_input_counted": true
+    },
+    {
+      "edition": "current",
+      "language": "JA",
+      "mode": "pure",
+      "origin": "primary",
+      "id": 1210019,
+      "input": "Propenat",
+      "expected": "propenat",
+      "visible": "丙en盐ᴬ",
+      "before": [
+        "propilensalᴬ",
+        "propilensalᴬ"
+      ],
+      "after": [
+        "propilenat",
+        "propilenat"
+      ],
+      "refs": [
+        [
+          "lexeme",
+          234198,
+          0
+        ]
+      ],
+      "unique_input_counted": true
+    },
+    {
+      "edition": "current",
+      "language": "JA",
+      "mode": "pure",
+      "origin": "primary",
+      "id": 1427765,
+      "input": "etanolat",
+      "expected": "etanolat",
+      "visible": "乙anol盐ᴬ",
+      "before": [
+        "etilanolsalᴬ",
+        "etilanolsalᴬ"
+      ],
+      "after": [
+        "etilanolat",
+        "etilanolat"
+      ],
+      "refs": [
+        [
+          "lexeme",
+          355686,
+          0
+        ]
+      ],
+      "unique_input_counted": true
+    },
+    {
+      "edition": "current",
+      "language": "JA",
+      "mode": "pure",
+      "origin": "primary",
+      "id": 1527435,
+      "input": "propenat",
+      "expected": "propenat",
+      "visible": "丙en盐ᴬ",
+      "before": [
+        "propilensalᴬ",
+        "propilensalᴬ"
+      ],
+      "after": [
+        "propilenat",
+        "propilenat"
+      ],
+      "refs": [
+        [
+          "lexeme",
+          432951,
+          0
+        ]
+      ],
+      "unique_input_counted": true
+    },
+    {
+      "edition": "legacy",
+      "language": "JA",
+      "mode": "pure",
+      "origin": "primary",
+      "id": 866007,
+      "input": "ELEKTRONMIKROSKOP",
+      "expected": "elektronmikroskop",
+      "visible": "电子ᴼ微镜ˢᴷ",
+      "before": [
+        "elektronᴼmikroskopˢᴷ",
+        "elektronᴼmikroskopˢᴷ"
+      ],
+      "after": [
+        "elektronᴼmikroskop",
+        "elektronᴼmikroskop"
+      ],
+      "refs": [
+        [
+          "lexeme",
+          62332,
+          0
+        ]
+      ],
+      "unique_input_counted": true
+    },
+    {
+      "edition": "legacy",
+      "language": "JA",
+      "mode": "pure",
+      "origin": "primary",
+      "id": 877395,
+      "input": "ETANOLAT",
+      "expected": "etanolat",
+      "visible": "乙ANOL盐ᴬ",
+      "before": [
+        "etilanolsalᴬ",
+        "etilanolsalᴬ"
+      ],
+      "after": [
+        "etilanolat",
+        "etilanolat"
+      ],
+      "refs": [
+        [
+          "lexeme",
+          68026,
+          0
+        ]
+      ],
+      "unique_input_counted": true
+    },
+    {
+      "edition": "legacy",
+      "language": "JA",
+      "mode": "pure",
+      "origin": "primary",
+      "id": 885725,
+      "input": "Elektronmikroskop",
+      "expected": "elektronmikroskop",
+      "visible": "电子ᴼ微镜ˢᴷ",
+      "before": [
+        "elektronᴼmikroskopˢᴷ",
+        "elektronᴼmikroskopˢᴷ"
+      ],
+      "after": [
+        "elektronᴼmikroskop",
+        "elektronᴼmikroskop"
+      ],
+      "refs": [
+        [
+          "lexeme",
+          72191,
+          0
+        ]
+      ],
+      "unique_input_counted": true
+    },
+    {
+      "edition": "legacy",
+      "language": "JA",
+      "mode": "pure",
+      "origin": "primary",
+      "id": 897205,
+      "input": "Etanolat",
+      "expected": "etanolat",
+      "visible": "乙anol盐ᴬ",
+      "before": [
+        "etilanolsalᴬ",
+        "etilanolsalᴬ"
+      ],
+      "after": [
+        "etilanolat",
+        "etilanolat"
+      ],
+      "refs": [
+        [
+          "lexeme",
+          77931,
+          0
+        ]
+      ],
+      "unique_input_counted": true
+    },
+    {
+      "edition": "legacy",
+      "language": "JA",
+      "mode": "pure",
+      "origin": "primary",
+      "id": 1181279,
+      "input": "PROPENAT",
+      "expected": "propenat",
+      "visible": "丙EN盐ᴬ",
+      "before": [
+        "propilensalᴬ",
+        "propilensalᴬ"
+      ],
+      "after": [
+        "propilenat",
+        "propilenat"
+      ],
+      "refs": [
+        [
+          "lexeme",
+          219968,
+          0
+        ]
+      ],
+      "unique_input_counted": true
+    },
+    {
+      "edition": "legacy",
+      "language": "JA",
+      "mode": "pure",
+      "origin": "primary",
+      "id": 1209739,
+      "input": "Propenat",
+      "expected": "propenat",
+      "visible": "丙en盐ᴬ",
+      "before": [
+        "propilensalᴬ",
+        "propilensalᴬ"
+      ],
+      "after": [
+        "propilenat",
+        "propilenat"
+      ],
+      "refs": [
+        [
+          "lexeme",
+          234198,
+          0
+        ]
+      ],
+      "unique_input_counted": true
+    },
+    {
+      "edition": "legacy",
+      "language": "JA",
+      "mode": "pure",
+      "origin": "primary",
+      "id": 1418355,
+      "input": "elektronmikroskop",
+      "expected": "elektronmikroskop",
+      "visible": "电子ᴼ微镜ˢᴷ",
+      "before": [
+        "elektronᴼmikroskopˢᴷ",
+        "elektronᴼmikroskopˢᴷ"
+      ],
+      "after": [
+        "elektronᴼmikroskop",
+        "elektronᴼmikroskop"
+      ],
+      "refs": [
+        [
+          "lexeme",
+          349981,
+          0
+        ]
+      ],
+      "unique_input_counted": true
+    },
+    {
+      "edition": "legacy",
+      "language": "JA",
+      "mode": "pure",
+      "origin": "primary",
+      "id": 1427485,
+      "input": "etanolat",
+      "expected": "etanolat",
+      "visible": "乙anol盐ᴬ",
+      "before": [
+        "etilanolsalᴬ",
+        "etilanolsalᴬ"
+      ],
+      "after": [
+        "etilanolat",
+        "etilanolat"
+      ],
+      "refs": [
+        [
+          "lexeme",
+          355686,
+          0
+        ]
+      ],
+      "unique_input_counted": true
+    },
+    {
+      "edition": "legacy",
+      "language": "JA",
+      "mode": "pure",
+      "origin": "primary",
+      "id": 1527157,
+      "input": "propenat",
+      "expected": "propenat",
+      "visible": "丙en盐ᴬ",
+      "before": [
+        "propilensalᴬ",
+        "propilensalᴬ"
+      ],
+      "after": [
+        "propilenat",
+        "propilenat"
+      ],
+      "refs": [
+        [
+          "lexeme",
+          432951,
+          0
+        ]
+      ],
+      "unique_input_counted": true
+    }
+  ]
+}

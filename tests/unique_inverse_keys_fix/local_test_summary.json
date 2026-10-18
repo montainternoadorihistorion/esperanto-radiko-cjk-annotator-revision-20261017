@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "inverse_test_suites": {
+    "JA": {
+      "passed": 193,
+      "failed": 0
+    },
+    "ZH": {
+      "passed": 193,
+      "failed": 0
+    }
+  },
+  "public_root_unittest": {
+    "run": 36,
+    "failed": 0,
+    "skipped": 1,
+    "skip_reason": "optional baseline manifest not supplied; forward file hashes separately verified by full-audit replay"
+  },
+  "dictionary_sync": {
+    "JA": true,
+    "ZH": true
+  },
+  "full_replay_status": "complete; all eight final-byte routes replayed, with zero regressions of previously correct inputs",
+  "logs": {
+    "implementation_full_JA.log": "b463f58c16b353949d88672a7aa163a974a956533b636ab63614cad6f8ff1e2d",
+    "implementation_full_ZH.log": "8ce16247057b34a8badd00d4163d8f9b419aab9a49cb949151cae57e20fb02de",
+    "public_root_tests.log": "1b61384417ec84df7782bf6b0894bbf4445ac5c7b5ec24de6708e7765a7b984c"
+  },
+  "full_audit_replay": {
+    "report": "full_audit_replay_validation.json",
+    "sha256": "30a3d708b4d75fa6bcad68a673a93d5f66ab526b991de348a9a924c4ac2c8295",
+    "actual_inverse_calls": 25903552,
+    "actual_routes": 8,
+    "current_unique_inputs_per_route": 1619027,
+    "legacy_unique_inputs_per_route": 1618889,
+    "regressions": 0,
+    "all_roundtrips_passed": false,
+    "unchanged_forward_assets": 114,
+    "actual_forward_reference_probes": 96
+  }
+}

@@ -224,18 +224,27 @@ def dataframe_to_mapping_records(df: pd.DataFrame) -> tuple[tuple[str, str, str]
 
 
 CURRENT_INVERSE_SOURCE_ID = "pejvo-piv-20260620"
-CURRENT_INVERSE_ALIAS_PAIRS = {"兰炎ᵀ": "orkidit"}
+CURRENT_INVERSE_ALIAS_PAIRS = {
+    '兰炎ᵀ': 'orkidit',
+    '盐ᴬ': 'at',
+    '盐ᴵ': 'it',
+    '炎ᵀ': 'it',
+    '兄ᶠᴿ': 'fra',
+    '父ᴾᴬ': 'pa',
+    '插ᴾ': 'pol',
+    '白ᴸᴱ': 'leŭk',
+}
 
 
 def load_current_inverse_aliases() -> tuple[dict, str]:
-    """Require a reviewed current dictionary before enabling the single alias."""
+    """Require a reviewed current dictionary before enabling the closed alias set."""
     raw = (ROOT / "data" / "current_inverse_aliases.json").read_bytes()
     manifest = json.loads(raw)
     aliases = manifest.get("aliases", [])
     pairs = {row["kanji"]: row["esperanto"] for row in aliases}
     if (manifest.get("schema_version") != 1
             or manifest.get("source_id") != CURRENT_INVERSE_SOURCE_ID
-            or len(aliases) != 1 or pairs != CURRENT_INVERSE_ALIAS_PAIRS
+            or len(aliases) != len(CURRENT_INVERSE_ALIAS_PAIRS) or pairs != CURRENT_INVERSE_ALIAS_PAIRS
             or manifest.get("required_canonical_owner") != {"kanji": "丸ᴼ炎ᵀ", "esperanto": "orkidit"}
             or not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]{0,63}", manifest.get("revision", ""))):
         raise ValueError("Invalid current inverse alias supplement")
@@ -281,9 +290,24 @@ def current_effective_download_data(source_id: str) -> bytes:
 
 LEGACY_INVERSE_SOURCE_ID = "pre-las-20261017"
 LEGACY_INVERSE_ALIAS_PAIRS = {
-    "丸ᵀ炎ᵀ": "testikit",
-    "丸ᴼ炎ᵀ": "orkidit",
-    "兰炎ᵀ": "orkidit",
+    '丸ᵀ炎ᵀ': 'testikit',
+    '丸ᴼ炎ᵀ': 'orkidit',
+    '兰炎ᵀ': 'orkidit',
+    '盐ᴬ': 'at',
+    '盐ᴵ': 'it',
+    '炎ᵀ': 'it',
+    '兄ᶠᴿ': 'fra',
+    '父ᴾᴬ': 'pa',
+    '插ᴾ': 'pol',
+    '白ᴸᴱ': 'leŭk',
+    '两ᴴ': 'herm',
+    '名ᴺᴵ': 'nim',
+    '远声ᶠᴼ': 'telefon',
+    '微镜ˢᴷ': 'mikroskop',
+    '氧生ᴳ': 'oksigen',
+    '间学ᴸᴺ': 'interlingvistik',
+    '越形具ᴬ': 'transformator',
+    '单色ᴷᴿ': 'monokromat',
 }
 
 
@@ -295,7 +319,7 @@ def load_legacy_inverse_aliases() -> tuple[dict, str]:
     pairs = {row["kanji"]: row["esperanto"] for row in aliases}
     if (manifest.get("schema_version") != 1
             or manifest.get("source_id") != LEGACY_INVERSE_SOURCE_ID
-            or len(aliases) != 3 or pairs != LEGACY_INVERSE_ALIAS_PAIRS
+            or len(aliases) != len(LEGACY_INVERSE_ALIAS_PAIRS) or pairs != LEGACY_INVERSE_ALIAS_PAIRS
             or not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]{0,63}", manifest.get("revision", ""))):
         raise ValueError("Invalid fixed-old inverse alias supplement")
     expected = EDITION_POLICY["fixed_csv_sha256"]
@@ -526,10 +550,10 @@ def render_sidebar() -> tuple[str, object | None]:
             st.download_button("下载所选版本的完整词典（CSV）", full_csv, file_name=provenance["dictionary_filename"], mime="text/csv")
             st.download_button("下载所选版本的两列CSV", two_column_csv, file_name=provenance["snippet_filename"], mime="text/csv")
             if source_id == LEGACY_INVERSE_SOURCE_ID:
-                st.caption("上方两个CSV保持固定旧版原样，不含3条还原补充。下方补充版CSV可用于获得与本应用相同的旧版还原结果。")
+                st.caption(f"上方两个CSV保持固定旧版原样，不含{len(LEGACY_INVERSE_ALIAS_PAIRS)}条还原补充。下方补充版CSV可用于获得与本应用相同的旧版还原结果。")
                 st.download_button("下载旧版逆转换词典（含还原补充）", legacy_effective_download_data(source_id), file_name=provenance["effective_dictionary_filename"], mime="text/csv")
             elif source_id == CURRENT_INVERSE_SOURCE_ID:
-                st.caption("上方两个CSV保持新版正本原样，不含1条还原补充。下方补充版CSV可获得与本应用相同的新版还原结果。")
+                st.caption(f"上方两个CSV保持新版正本原样，不含{len(CURRENT_INVERSE_ALIAS_PAIRS)}条还原补充。下方补充版CSV可获得与本应用相同的新版还原结果。")
                 st.download_button("下载新版逆转换词典（含还原补充）", current_effective_download_data(source_id), file_name=provenance["effective_dictionary_filename"], mime="text/csv")
         st.caption("不自动判断新版、旧版。使用中间版本写成或混合新旧分配的文本，可能无法仅凭这两个版本准确还原。请核对创建时的版本记录和上下文。")
         st.markdown("1. 选择文本创建时使用的版本。\n2. 输入汉字化世界语文本。\n3. 转换后核对结果标示的版本和修订编号。")
