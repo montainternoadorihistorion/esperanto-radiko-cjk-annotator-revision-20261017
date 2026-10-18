@@ -1,0 +1,815 @@
+{
+  "verified_date_jst": "2026-10-18",
+  "reference_commit": "6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b",
+  "browser": "Chrome; montainternoadorihistorion Streamlit workspace",
+  "method": "Actual Streamlit Cloud app-body UI operations; visible output and actual browser-saved result files compared byte for byte. CSV downloaded in browser. Large linked repository assets verified separately by CLI HTTPS, not presented as browser downloads.",
+  "input": "laso @las@o ananaso @ananas@o grefti @greft@i doto @dot@o tualeto @tualet@o @semajn@tagoj & %amiko%",
+  "counts": {
+    "result_paths": 18,
+    "csv_language_edition_pairs": 6,
+    "data_page_language_edition_pairs": 6,
+    "unique_https_assets": 12,
+    "supplement_paths": 6
+  },
+  "result_downloads": [
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": 0,
+      "filename": "转换结果_current_9a8937e39ccf.html",
+      "bytes": 2802,
+      "sha256": "6ba3fe2b5eb5bd676f2dbbe36f56b94f726dc88fae04ea4918186e9e654e94f2",
+      "html_comment": "<!-- assignment-edition:current signature:9a8937e39ccf4820e0fdde1f7d88adc0149e05c5711fd0d9af1446b3a11381de created-utc:2026-10-18T01:24:59.348464+00:00 -->",
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "ZH_current_0_转换结果_current_9a8937e39ccf.html",
+      "utc": "2026-10-18T01:25:23.849Z",
+      "expected_signature": "9a8937e39ccf4820e0fdde1f7d88adc0149e05c5711fd0d9af1446b3a11381de"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": 1,
+      "filename": "转换结果_current_b93dffd36d87.html",
+      "bytes": 2623,
+      "sha256": "6b9913d87bfb29f425bd70893fd6142f7accb3226e3de69203e53c1e4918c6b9",
+      "html_comment": "<!-- assignment-edition:current signature:b93dffd36d8766183ca3c6b94e1a4eef00266a359dff4ff1bf4b7cdb45636aa8 created-utc:2026-10-18T01:25:31.385347+00:00 -->",
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "ZH_current_1_转换结果_current_b93dffd36d87.html",
+      "utc": "2026-10-18T01:25:53.194Z",
+      "expected_signature": "b93dffd36d8766183ca3c6b94e1a4eef00266a359dff4ff1bf4b7cdb45636aa8"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": 0,
+      "filename": "치환결과_current_a27e910ef209.html",
+      "bytes": 3997,
+      "sha256": "aa33e4996f0cf1574bb8bd0bd53ef4c1f3d701e8534a1c013da5f5e0bce3f2cf",
+      "html_comment": "<!-- assignment-edition:current signature:a27e910ef209c1ac4cfb541f591168d9c219bbb28c37fd508b05efab59b4c4fa created-utc:2026-10-18T01:26:02.239237+00:00 -->",
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "KO_current_0_치환결과_current_a27e910ef209.html",
+      "utc": "2026-10-18T01:26:16.472Z",
+      "expected_signature": "a27e910ef209c1ac4cfb541f591168d9c219bbb28c37fd508b05efab59b4c4fa"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": 2,
+      "filename": "转换结果_current_3a8ce52d6043.txt",
+      "bytes": 78,
+      "sha256": "99885d4e011eb956f11a1e3b5ec7c3fd41c1ab476d327891e7556d648d321626",
+      "html_comment": null,
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "ZH_current_2_转换结果_current_3a8ce52d6043.txt",
+      "utc": "2026-10-18T01:26:33.311Z",
+      "expected_signature": "3a8ce52d60432cd8d214d9831f41b6011d6bca1fccf644054c93c7fe7e111871"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": 1,
+      "filename": "치환결과_current_3d3429445695.html",
+      "bytes": 3751,
+      "sha256": "852b8fdcc10c71b052fb46a2be313591f1ebba324b9dcd23306b8256936704e0",
+      "html_comment": "<!-- assignment-edition:current signature:3d3429445695f02acd369899d120f41d417a3c93ac0faa8aac5d3d561522f095 created-utc:2026-10-18T01:26:35.862799+00:00 -->",
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "KO_current_1_치환결과_current_3d3429445695.html",
+      "utc": "2026-10-18T01:26:42.437Z",
+      "expected_signature": "3d3429445695f02acd369899d120f41d417a3c93ac0faa8aac5d3d561522f095"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": 2,
+      "filename": "转换结果_legacy_cfff38d0af3e.txt",
+      "bytes": 84,
+      "sha256": "609edeb14d545c094b026eee79b65abc03896b68dbb65f1b3667503f3bc9753c",
+      "html_comment": null,
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "ZH_legacy_2_转换结果_legacy_cfff38d0af3e.txt",
+      "utc": "2026-10-18T01:27:07.420Z",
+      "expected_signature": "cfff38d0af3e420009843619adff61a4d0beb1b2a03220687fd7274ab79b5111"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": 2,
+      "filename": "치환결과_current_592911064670.txt",
+      "bytes": 78,
+      "sha256": "99885d4e011eb956f11a1e3b5ec7c3fd41c1ab476d327891e7556d648d321626",
+      "html_comment": null,
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "KO_current_2_치환결과_current_592911064670.txt",
+      "utc": "2026-10-18T01:27:08.819Z",
+      "expected_signature": "592911064670cbb0c60ac322d74e478c3895ef8c078c01912489855f9d5522e5"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": 1,
+      "filename": "转换结果_legacy_f9baefc2291d.html",
+      "bytes": 2622,
+      "sha256": "9edb002b6882d50a097843b52f68b7edfd4b956f665de3d036473525e305fcfa",
+      "html_comment": "<!-- assignment-edition:legacy signature:f9baefc2291d5331d8f49b7e729d6f319f3549f8d334cfae82ba600ed521a8a9 created-utc:2026-10-18T01:27:16.978714+00:00 -->",
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "ZH_legacy_1_转换结果_legacy_f9baefc2291d.html",
+      "utc": "2026-10-18T01:27:26.254Z",
+      "expected_signature": "f9baefc2291d5331d8f49b7e729d6f319f3549f8d334cfae82ba600ed521a8a9"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": 2,
+      "filename": "치환결과_legacy_3261b1b40bc5.txt",
+      "bytes": 84,
+      "sha256": "609edeb14d545c094b026eee79b65abc03896b68dbb65f1b3667503f3bc9753c",
+      "html_comment": null,
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "KO_legacy_2_치환결과_legacy_3261b1b40bc5.txt",
+      "utc": "2026-10-18T01:27:34.723Z",
+      "expected_signature": "3261b1b40bc5018aa59803105642cc93eb6009638351d1f19a9326f29a6c4cbc"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": 0,
+      "filename": "转换结果_legacy_53d56fe1b5b0.html",
+      "bytes": 2801,
+      "sha256": "0ea1b7d557324aa283426945d04ffbb6b3833e09357008b011cba51c46d3b6f4",
+      "html_comment": "<!-- assignment-edition:legacy signature:53d56fe1b5b00766116a29aec211f08700a6897cce5a3d4136583ce1422c102a created-utc:2026-10-18T01:27:34.830282+00:00 -->",
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "ZH_legacy_0_转换结果_legacy_53d56fe1b5b0.html",
+      "utc": "2026-10-18T01:27:48.216Z",
+      "expected_signature": "53d56fe1b5b00766116a29aec211f08700a6897cce5a3d4136583ce1422c102a"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": 0,
+      "filename": "置換結果_current_77d5ffd1f714.html",
+      "bytes": 4007,
+      "sha256": "0a0adbebdf0570aac38d9259ea73f05d91f9d33986af368d627ff7d01ad176b6",
+      "html_comment": "<!-- assignment-edition:current signature:77d5ffd1f71463dda3a89d305d24c046067bdbb875ec600e70fdd93ada9fdcef created-utc:2026-10-18T01:27:48.189215+00:00 -->",
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "JA_current_0_置換結果_current_77d5ffd1f714.html",
+      "utc": "2026-10-18T01:28:12.519Z",
+      "expected_signature": "77d5ffd1f71463dda3a89d305d24c046067bdbb875ec600e70fdd93ada9fdcef"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": 1,
+      "filename": "치환결과_legacy_e095f6822629.html",
+      "bytes": 3750,
+      "sha256": "4e270a0721defda6987232a829500abe4bf4ef5e0b05e89f56cba38436b30583",
+      "html_comment": "<!-- assignment-edition:legacy signature:e095f6822629da581a4fca866590bb2abe535146408661c207feaf2250e507ab created-utc:2026-10-18T01:27:50.205409+00:00 -->",
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "KO_legacy_1_치환결과_legacy_e095f6822629.html",
+      "utc": "2026-10-18T01:28:15.672Z",
+      "expected_signature": "e095f6822629da581a4fca866590bb2abe535146408661c207feaf2250e507ab"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": 1,
+      "filename": "置換結果_current_6e9644b2eae1.html",
+      "bytes": 3752,
+      "sha256": "cd2c56b438a2896ce7aba9250526ff4e044b829de878ff3e02ee79fa7d83f02b",
+      "html_comment": "<!-- assignment-edition:current signature:6e9644b2eae170e5bbb8a9111f4a025c956fb10f2db47fe6042f964e4aeec256 created-utc:2026-10-18T01:28:28.644894+00:00 -->",
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "JA_current_1_置換結果_current_6e9644b2eae1.html",
+      "utc": "2026-10-18T01:28:43.977Z",
+      "expected_signature": "6e9644b2eae170e5bbb8a9111f4a025c956fb10f2db47fe6042f964e4aeec256"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": 0,
+      "filename": "치환결과_legacy_68d8ed1cd65d.html",
+      "bytes": 3996,
+      "sha256": "e91231f7869e0c416ce54d67017413efe8ff596e10c5ab662b51a0aa8b440b40",
+      "html_comment": "<!-- assignment-edition:legacy signature:68d8ed1cd65d1d0080218d54e39aa0752a5b2e9b4199a97788c87ddef9f91f7c created-utc:2026-10-18T01:28:29.623749+00:00 -->",
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "KO_legacy_0_치환결과_legacy_68d8ed1cd65d.html",
+      "utc": "2026-10-18T01:28:47.135Z",
+      "expected_signature": "68d8ed1cd65d1d0080218d54e39aa0752a5b2e9b4199a97788c87ddef9f91f7c"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": 2,
+      "filename": "置換結果_current_d3968a14a0a3.txt",
+      "bytes": 78,
+      "sha256": "99885d4e011eb956f11a1e3b5ec7c3fd41c1ab476d327891e7556d648d321626",
+      "html_comment": null,
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "JA_current_2_置換結果_current_d3968a14a0a3.txt",
+      "utc": "2026-10-18T01:30:14.764Z",
+      "expected_signature": "d3968a14a0a324cac22b32e14185c25d188603c14f50c318f0e78d2d76f159a0"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": 2,
+      "filename": "置換結果_legacy_8c876d0c3776.txt",
+      "bytes": 84,
+      "sha256": "609edeb14d545c094b026eee79b65abc03896b68dbb65f1b3667503f3bc9753c",
+      "html_comment": null,
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "JA_legacy_2_置換結果_legacy_8c876d0c3776.txt",
+      "utc": "2026-10-18T01:31:39.304Z",
+      "expected_signature": "8c876d0c3776c90249f7bc1d51dbe6ecd6bbd51b24cdea434dc1f41e2efc9132"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": 1,
+      "filename": "置換結果_legacy_67185b5009d8.html",
+      "bytes": 3751,
+      "sha256": "8d969c2e4a52556cad72509901fe0beb0d8b10f8f8e5abff70bbef584f8a86d5",
+      "html_comment": "<!-- assignment-edition:legacy signature:67185b5009d885325a26a64cbf7f3ff939a718e59713ba46a6177b5097885f42 created-utc:2026-10-18T01:31:48.389339+00:00 -->",
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "JA_legacy_1_置換結果_legacy_67185b5009d8.html",
+      "utc": "2026-10-18T01:32:11.976Z",
+      "expected_signature": "67185b5009d885325a26a64cbf7f3ff939a718e59713ba46a6177b5097885f42"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": 0,
+      "filename": "置換結果_legacy_9a5923e26ddc.html",
+      "bytes": 4006,
+      "sha256": "b499e4f0dc704d1b283bb97bc9c255eab6fdfb8e2a6fba17f49df26735095cb3",
+      "html_comment": "<!-- assignment-edition:legacy signature:9a5923e26ddcafc086e90fe2fcf954fe97948027d5dec9ee2433d4fa5f09f3d9 created-utc:2026-10-18T01:32:24.255121+00:00 -->",
+      "body_exact": true,
+      "visible_exact": true,
+      "local_path": "JA_legacy_0_置換結果_legacy_9a5923e26ddc.html",
+      "utc": "2026-10-18T01:32:37.313Z",
+      "expected_signature": "9a5923e26ddcafc086e90fe2fcf954fe97948027d5dec9ee2433d4fa5f09f3d9"
+    }
+  ],
+  "csv_downloads": [
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "kanji_csv",
+      "filename": "kanji_assignments_legacy_9eb988e2665c.csv",
+      "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "kind": "kanji_csv",
+      "filename": "kanji_assignments_legacy_b1204bf3e2d0.csv",
+      "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "kind": "kanji_csv",
+      "filename": "kanji_assignments_current_65b040d439b4.csv",
+      "sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "kanji_csv",
+      "filename": "kanji_assignments_current_d535f6583bd0.csv",
+      "sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "kanji_csv",
+      "filename": "kanji_assignments_legacy_7f1ed0ed8802.csv",
+      "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "kanji_csv",
+      "filename": "kanji_assignments_current_bf8268539ad1.csv",
+      "sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede"
+    }
+  ],
+  "data_pages": [
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "links": [
+        {
+          "label": "汉字＋词根Ruby (6.39 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/ZH/kanji.json.gz"
+        },
+        {
+          "label": "汉字化·纯替换 (4.17 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/JA/pure.json.gz"
+        },
+        {
+          "label": "注释Ruby（共用·最新） (70.27 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json"
+        },
+        {
+          "label": "旧版固定数据及验证信息",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/manifest.json"
+        }
+      ],
+      "signature_present": true,
+      "urls_match": true
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "links": [
+        {
+          "label": "한자＋어근 루비 (6.39 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/KO/kanji.json.gz"
+        },
+        {
+          "label": "한자화·순수 치환 (4.17 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/JA/pure.json.gz"
+        },
+        {
+          "label": "주석 루비（공통·최신） (71.84 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json"
+        },
+        {
+          "label": "구판 고정 데이터 및 검증 정보",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/manifest.json"
+        }
+      ],
+      "signature_present": true,
+      "urls_match": true
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "links": [
+        {
+          "label": "汉字＋词根Ruby (57.38 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json"
+        },
+        {
+          "label": "汉字化·纯替换 (21.52 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json"
+        },
+        {
+          "label": "注释Ruby（共用·最新） (70.27 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json"
+        },
+        {
+          "label": "旧版固定数据及验证信息",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/manifest.json"
+        }
+      ],
+      "signature_present": true,
+      "urls_match": true
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "links": [
+        {
+          "label": "한자＋어근 루비 (57.38 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json"
+        },
+        {
+          "label": "한자화·순수 치환 (21.52 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json"
+        },
+        {
+          "label": "주석 루비（공통·최신） (71.84 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json"
+        },
+        {
+          "label": "구판 고정 데이터 및 검증 정보",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/manifest.json"
+        }
+      ],
+      "signature_present": true,
+      "urls_match": true
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "links": [
+        {
+          "label": "漢字＋語根ルビ (6.38 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/JA/kanji.json.gz"
+        },
+        {
+          "label": "漢字化・純粋置換 (4.17 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/JA/pure.json.gz"
+        },
+        {
+          "label": "注釈ルビ（共通・最新） (72.55 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json"
+        },
+        {
+          "label": "旧版の固定データ・検証情報",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/manifest.json"
+        }
+      ],
+      "signature_present": true,
+      "urls_match": true
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "links": [
+        {
+          "label": "漢字＋語根ルビ (57.37 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json"
+        },
+        {
+          "label": "漢字化・純粋置換 (21.52 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json"
+        },
+        {
+          "label": "注釈ルビ（共通・最新） (72.55 MB)",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json"
+        },
+        {
+          "label": "旧版の固定データ・検証情報",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/manifest.json"
+        }
+      ],
+      "signature_present": true,
+      "urls_match": true
+    }
+  ],
+  "https_assets": [
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+      "expected_sha256": "d02fd6ef33ab2da0d59e3e170f152e219d289de39e0bf358e05f6384bc292dca",
+      "expected_bytes": 72553994,
+      "role": "ruby",
+      "source_path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_ルビ.json",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+      "content_type": "text/plain; charset=utf-8",
+      "content_encoding": null,
+      "content_length": "72553994",
+      "sha256": "d02fd6ef33ab2da0d59e3e170f152e219d289de39e0bf358e05f6384bc292dca",
+      "bytes": 72553994,
+      "checks": {
+        "status_200": true,
+        "fixed_url_preserved": true,
+        "exact_bytes": true,
+        "exact_sha256": true
+      },
+      "passed": true,
+      "elapsed_seconds": 8.344
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+      "expected_sha256": "4c37a67286ac8846a6419888d1a15dbad6747f99aad8f4afb813d99c39dd5fb4",
+      "expected_bytes": 57372181,
+      "role": "kanji",
+      "source_path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+      "content_type": "text/plain; charset=utf-8",
+      "content_encoding": null,
+      "content_length": "57372181",
+      "sha256": "4c37a67286ac8846a6419888d1a15dbad6747f99aad8f4afb813d99c39dd5fb4",
+      "bytes": 57372181,
+      "checks": {
+        "status_200": true,
+        "fixed_url_preserved": true,
+        "exact_bytes": true,
+        "exact_sha256": true
+      },
+      "passed": true,
+      "elapsed_seconds": 6.891
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+      "expected_sha256": "108c0ff48dd6dd7363bba9f1b07eb15f6b69738afa0628590e5e0c8fd9986883",
+      "expected_bytes": 21515761,
+      "role": "pure",
+      "source_path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+      "content_type": "text/plain; charset=utf-8",
+      "content_encoding": null,
+      "content_length": "21515761",
+      "sha256": "108c0ff48dd6dd7363bba9f1b07eb15f6b69738afa0628590e5e0c8fd9986883",
+      "bytes": 21515761,
+      "checks": {
+        "status_200": true,
+        "fixed_url_preserved": true,
+        "exact_bytes": true,
+        "exact_sha256": true
+      },
+      "passed": true,
+      "elapsed_seconds": 2.125
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+      "expected_sha256": "1a5a36d92494308458e40ec41f16c44de8d02d7e6b7eb2c2bfe5ebcd10157e8c",
+      "expected_bytes": 71840614,
+      "role": "ruby",
+      "source_path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_ルビ.json",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+      "content_type": "text/plain; charset=utf-8",
+      "content_encoding": null,
+      "content_length": "71840614",
+      "sha256": "1a5a36d92494308458e40ec41f16c44de8d02d7e6b7eb2c2bfe5ebcd10157e8c",
+      "bytes": 71840614,
+      "checks": {
+        "status_200": true,
+        "fixed_url_preserved": true,
+        "exact_bytes": true,
+        "exact_sha256": true
+      },
+      "passed": true,
+      "elapsed_seconds": 6.235
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+      "expected_sha256": "ace688d35d01096350bea0af49d33139e5645b58222dde507aea0b639f9735fc",
+      "expected_bytes": 57380247,
+      "role": "kanji",
+      "source_path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+      "content_type": "text/plain; charset=utf-8",
+      "content_encoding": null,
+      "content_length": "57380247",
+      "sha256": "ace688d35d01096350bea0af49d33139e5645b58222dde507aea0b639f9735fc",
+      "bytes": 57380247,
+      "checks": {
+        "status_200": true,
+        "fixed_url_preserved": true,
+        "exact_bytes": true,
+        "exact_sha256": true
+      },
+      "passed": true,
+      "elapsed_seconds": 4.312
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+      "expected_sha256": "a20a2d89b4f9f44a7be82a6a18ee94858a74ea205988f49b0e7c05c2c138e4de",
+      "expected_bytes": 70266508,
+      "role": "ruby",
+      "source_path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_ルビ.json",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+      "content_type": "text/plain; charset=utf-8",
+      "content_encoding": null,
+      "content_length": "70266508",
+      "sha256": "a20a2d89b4f9f44a7be82a6a18ee94858a74ea205988f49b0e7c05c2c138e4de",
+      "bytes": 70266508,
+      "checks": {
+        "status_200": true,
+        "fixed_url_preserved": true,
+        "exact_bytes": true,
+        "exact_sha256": true
+      },
+      "passed": true,
+      "elapsed_seconds": 8.328
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+      "expected_sha256": "ca572bd1fc1feffbe65643e66fb1441b6cf82d137676e474ad48ba50a72a9bd7",
+      "expected_bytes": 57380247,
+      "role": "kanji",
+      "source_path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+      "content_type": "text/plain; charset=utf-8",
+      "content_encoding": null,
+      "content_length": "57380247",
+      "sha256": "ca572bd1fc1feffbe65643e66fb1441b6cf82d137676e474ad48ba50a72a9bd7",
+      "bytes": 57380247,
+      "checks": {
+        "status_200": true,
+        "fixed_url_preserved": true,
+        "exact_bytes": true,
+        "exact_sha256": true
+      },
+      "passed": true,
+      "elapsed_seconds": 5.359
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/JA/kanji.json.gz",
+      "expected_sha256": "215f0c297bf73efe29f4b323a982adb63a181d42e202dbed63f52c954baeb0fe",
+      "expected_bytes": 6384631,
+      "role": "kanji",
+      "source_path": "assignment_editions/legacy/JA/kanji.json.gz",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/JA/kanji.json.gz",
+      "content_type": "application/octet-stream",
+      "content_encoding": null,
+      "content_length": "6384631",
+      "sha256": "215f0c297bf73efe29f4b323a982adb63a181d42e202dbed63f52c954baeb0fe",
+      "bytes": 6384631,
+      "decoded_sha256": "9828f0c55f4853bb4b3c7c49cd7e05b9313679ca5e97f81282f024ba8fde177a",
+      "checks": {
+        "status_200": true,
+        "fixed_url_preserved": true,
+        "exact_bytes": true,
+        "exact_sha256": true,
+        "exact_decoded_sha256": true
+      },
+      "passed": true,
+      "elapsed_seconds": 0.922
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/JA/pure.json.gz",
+      "expected_sha256": "3ef2efd50fbb13a834f7421c3e85bd406d2926dd304028b19e1de3264ec3fb40",
+      "expected_bytes": 4169688,
+      "role": "pure",
+      "source_path": "assignment_editions/legacy/JA/pure.json.gz",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/JA/pure.json.gz",
+      "content_type": "application/octet-stream",
+      "content_encoding": null,
+      "content_length": "4169688",
+      "sha256": "3ef2efd50fbb13a834f7421c3e85bd406d2926dd304028b19e1de3264ec3fb40",
+      "bytes": 4169688,
+      "decoded_sha256": "3a8153310fc09a324a9c62ad8d49aec98d9031e34ef825030ae98726d2e0ca56",
+      "checks": {
+        "status_200": true,
+        "fixed_url_preserved": true,
+        "exact_bytes": true,
+        "exact_sha256": true,
+        "exact_decoded_sha256": true
+      },
+      "passed": true,
+      "elapsed_seconds": 0.813
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/KO/kanji.json.gz",
+      "expected_sha256": "8005ecf215185aa8fe9b8f482305f9fb1ec17aaf0d1c9c4fbbbb7928ef97508c",
+      "expected_bytes": 6385064,
+      "role": "kanji",
+      "source_path": "assignment_editions/legacy/KO/kanji.json.gz",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/KO/kanji.json.gz",
+      "content_type": "application/octet-stream",
+      "content_encoding": null,
+      "content_length": "6385064",
+      "sha256": "8005ecf215185aa8fe9b8f482305f9fb1ec17aaf0d1c9c4fbbbb7928ef97508c",
+      "bytes": 6385064,
+      "decoded_sha256": "6ed899f1da480bc5387c8a8ba8ef730348c786e5983acef2f9e57709904c6fcd",
+      "checks": {
+        "status_200": true,
+        "fixed_url_preserved": true,
+        "exact_bytes": true,
+        "exact_sha256": true,
+        "exact_decoded_sha256": true
+      },
+      "passed": true,
+      "elapsed_seconds": 0.859
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/ZH/kanji.json.gz",
+      "expected_sha256": "f05e779677489ebcf5d00b00389e841eb89cc8bf7af87bbf1d1e65309c0fd594",
+      "expected_bytes": 6385065,
+      "role": "kanji",
+      "source_path": "assignment_editions/legacy/ZH/kanji.json.gz",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/ZH/kanji.json.gz",
+      "content_type": "application/octet-stream",
+      "content_encoding": null,
+      "content_length": "6385065",
+      "sha256": "f05e779677489ebcf5d00b00389e841eb89cc8bf7af87bbf1d1e65309c0fd594",
+      "bytes": 6385065,
+      "decoded_sha256": "f6e02a9f55d57b66c0dbbb1c19ff1bda4b2ffe4df850c8763bdadf328f09fae4",
+      "checks": {
+        "status_200": true,
+        "fixed_url_preserved": true,
+        "exact_bytes": true,
+        "exact_sha256": true,
+        "exact_decoded_sha256": true
+      },
+      "passed": true,
+      "elapsed_seconds": 0.75
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/manifest.json",
+      "expected_sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3",
+      "expected_bytes": 11597,
+      "role": "manifest",
+      "source_path": "assignment_editions/legacy/manifest.json",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/6f1955e2ecb4a9376773fb3a7391e598cd2b8f5b/assignment_editions/legacy/manifest.json",
+      "content_type": "text/plain; charset=utf-8",
+      "content_encoding": null,
+      "content_length": "11597",
+      "sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3",
+      "bytes": 11597,
+      "checks": {
+        "status_200": true,
+        "fixed_url_preserved": true,
+        "exact_bytes": true,
+        "exact_sha256": true
+      },
+      "passed": true,
+      "elapsed_seconds": 0.234
+    }
+  ],
+  "supplement_observations": [
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "semajntagoj @semajn@tagoj @limak@o @testikit@o",
+      "output": "周日oj 周日oj 螺ᴸo 丸ᵀ炎ᵀo",
+      "passed": true,
+      "utc": "2026-10-18T01:32:49.479Z"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "semajntagoj @semajn@tagoj @limak@o @testikit@o",
+      "output": "周日oj 周日oj 螺ᴸo 丸ᵀ炎ᵀo",
+      "passed": true,
+      "utc": "2026-10-18T01:32:49.551Z"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "semajntagoj @semajn@tagoj @limak@o @testikit@o",
+      "output": "周日oj 周日oj 螺ᴸo 丸炎ᵀo",
+      "passed": true,
+      "utc": "2026-10-18T01:33:34.043Z"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "semajntagoj @semajn@tagoj @limak@o @testikit@o",
+      "output": "周日oj 周日oj 螺ᴸo 丸炎ᵀo",
+      "passed": true,
+      "utc": "2026-10-18T01:33:34.120Z"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "semajntagoj @semajn@tagoj @limak@o @testikit@o",
+      "output": "周日oj 周日oj 螺ᴸo 丸ᵀ炎ᵀo",
+      "passed": true,
+      "utc": "2026-10-18T01:33:47.272Z"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "semajntagoj @semajn@tagoj @limak@o @testikit@o",
+      "output": "周日oj 周日oj 螺ᴸo 丸炎ᵀo",
+      "passed": true,
+      "utc": "2026-10-18T01:34:45.478Z"
+    }
+  ],
+  "edition_switch_stale_download_guards": [
+    {
+      "language": "ZH",
+      "to": "legacy",
+      "download_count": 0
+    },
+    {
+      "language": "KO",
+      "to": "legacy",
+      "download_count": 0
+    },
+    {
+      "language": "JA",
+      "to": "legacy",
+      "download_count": 0
+    }
+  ],
+  "duplicate_download_note": "ZH legacy CSV was downloaded twice. Chrome added (1) to the second name. Both contents match; the first original filename is used above.",
+  "availability": {
+    "JA_initial_error": "Cloud reported Error running app; logs included a health-check connection reset. Restarted the JA deployment. Cause not established.",
+    "app_bodies": "JA, ZH and KO /~/+/ all completed the functional checks.",
+    "JA_outer_wrapper": "Root URL still showed appLoadingSpinner after restart and fresh-tab retry. Direct app-body URL remains usable. This outer wrapper issue is not claimed fixed.",
+    "ZH_csv_reconnect": "Current CSV download timed out, then succeeded after reloading the data page.",
+    "large_browser_download": "downloadMedia on a raw GitHub gzip link timed out; exact observed URLs were instead retrieved using CLI HTTPS and checked against repository bytes."
+  },
+  "scope_limits": [
+    "Synthetic regression inputs, not a full-corpus or concurrent-load test.",
+    "No additional inverse-conversion Cloud deployment or testing in this task.",
+    "No assignment, identifier, decomposition, annotation, or application source edits."
+  ],
+  "functional_checks_passed": true,
+  "all_cloud_surface_issues_resolved": false,
+  "screenshot": "JA_current_screen.png"
+}
