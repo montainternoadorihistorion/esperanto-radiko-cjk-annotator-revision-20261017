@@ -1,0 +1,314 @@
+{
+  "schema": 1,
+  "revision": "2026-10-18-dot-greft",
+  "integrated_repository": "esperanto-kanji-project-revision-20261016",
+  "monaco_all_path": "kanji-esperanto-monaco/all.json",
+  "monaco_all_sha256": "8e99e85a6a78cf99f7692b2727d7a86d48f47d1bc912276fb0abda71f0bb565a",
+  "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
+  "canonical_sidecar_sha256": "b651ade3c363b96173d2f23bc6404bc67c2b4cfd3e9ce2aa69e6e24eb78ce33e",
+  "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
+  "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+  "assignment_changes": {
+    "las": {
+      "old": "留",
+      "current": "放"
+    },
+    "emancip": {
+      "old": "放",
+      "current": "放ᴱ"
+    },
+    "ananas": {
+      "old": "菠萝",
+      "current": "菠"
+    },
+    "jakv": {
+      "old": "菠萝蜜",
+      "current": "菠蜜"
+    },
+    "prioritat": {
+      "old": null,
+      "current": "优先"
+    },
+    "strut": {
+      "old": "鸵鸟",
+      "current": "鸵"
+    },
+    "sinergi": {
+      "old": "协同作用",
+      "current": "协同"
+    },
+    "oliv": {
+      "old": "橄榄",
+      "current": "榄"
+    },
+    "stafilokok": {
+      "old": "葡萄球菌",
+      "current": "葡球菌"
+    },
+    "psitak": {
+      "old": "鹦鹉",
+      "current": "鹦ᴾˢ"
+    },
+    "uv": {
+      "old": "葡萄",
+      "current": "葡ᵁ"
+    },
+    "limon": {
+      "old": "柠檬",
+      "current": "柠"
+    },
+    "limonad": {
+      "old": "柠檬水",
+      "current": "柠水"
+    },
+    "uve": {
+      "old": "葡萄膜",
+      "current": "葡膜"
+    },
+    "uveit": {
+      "old": "葡萄膜炎ᵀ",
+      "current": "葡膜炎ᵀ"
+    },
+    "observatori": {
+      "old": "天文台",
+      "current": "观台"
+    },
+    "risort": {
+      "old": "弹簧",
+      "current": "簧"
+    },
+    "anc^": {
+      "old": "簧",
+      "current": "簧ᴬ"
+    },
+    "lantern": {
+      "old": "灯笼",
+      "current": "灯ᴸᴺ"
+    },
+    "lubrik": {
+      "old": "润滑",
+      "current": "滑ᴸ"
+    },
+    "protez": {
+      "old": "假肢",
+      "current": "假体"
+    },
+    "ranc": {
+      "old": "哈喇",
+      "current": "酸败"
+    },
+    "krep": {
+      "old": "皱绸",
+      "current": "皱布"
+    },
+    "difrakt": {
+      "old": "衍射",
+      "current": "绕射"
+    },
+    "mortez": {
+      "old": "卯眼",
+      "current": "卯"
+    },
+    "meger": {
+      "old": "悍妇",
+      "current": "恶女"
+    },
+    "sutur": {
+      "old": "缝合",
+      "current": "缝ˢᴿ"
+    },
+    "fraj": {
+      "old": "鱼卵",
+      "current": "卵ᶠ"
+    },
+    "nostalgi": {
+      "old": "怀旧",
+      "current": "怀ᴺ"
+    },
+    "onk": {
+      "old": "肿瘤",
+      "current": "瘤ᴼ"
+    },
+    "fortres": {
+      "old": "堡垒",
+      "current": "堡ᶠᴿ"
+    },
+    "onkogen": {
+      "old": "肿瘤生ᴳ",
+      "current": "瘤ᴼ生ᴳ"
+    },
+    "onkologi": {
+      "old": "肿瘤学ᴸᴳ",
+      "current": "瘤ᴼ学ᴸᴳ"
+    },
+    "satir": {
+      "old": "讽刺",
+      "current": "讽"
+    },
+    "karikatur": {
+      "old": "讽",
+      "current": "讽ᴷ"
+    },
+    "sarkasm": {
+      "old": "讽ˢ",
+      "current": "讽ˢᴿ"
+    },
+    "spermat": {
+      "old": "精ˢ",
+      "current": "精子"
+    },
+    "spermati": {
+      "old": "精ˢᴵ",
+      "current": "精子ˢᴵ"
+    },
+    "silf": {
+      "old": "精ˢᴸ",
+      "current": "精ˢ"
+    },
+    "spermatocit": {
+      "old": "精ˢ胞ᶜᴵ",
+      "current": "精子胞ᶜᴵ"
+    },
+    "spermatofit": {
+      "old": "精ˢ植ᶠ",
+      "current": "精子植ᶠ"
+    },
+    "spermatogenez": {
+      "old": "精ˢ源ᴳ",
+      "current": "精子源ᴳ"
+    },
+    "spermatozo": {
+      "old": null,
+      "current": "精子ˢᶻ"
+    },
+    "greft": {
+      "old": "嫁接",
+      "current": "移植"
+    },
+    "dot": {
+      "old": "嫁妆",
+      "current": "妆"
+    },
+    "tualet": {
+      "old": "妆",
+      "current": "妆ᵀ"
+    }
+  },
+  "current_csv_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+  "current_snippet_csv_sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+  "bundled_monaco_source": "data/monaco_source_20261017.json",
+  "reverse_only_aliases": {
+    "菠萝": "ananas",
+    "菠萝蜜": "jakv",
+    "鸵鸟": "strut",
+    "协同作用": "sinergi",
+    "橄榄": "oliv",
+    "葡萄球菌": "stafilokok",
+    "鹦鹉": "psitak",
+    "葡萄": "uv",
+    "柠檬": "limon",
+    "柠檬水": "limonad",
+    "葡萄膜": "uve",
+    "葡萄膜炎ᵀ": "uveit",
+    "天文台": "observatori",
+    "弹簧": "risort",
+    "灯笼": "lantern",
+    "润滑": "lubrik",
+    "假肢": "protez",
+    "哈喇": "ranc",
+    "皱绸": "krep",
+    "衍射": "difrakt",
+    "卯眼": "mortez",
+    "悍妇": "meger",
+    "缝合": "sutur",
+    "鱼卵": "fraj",
+    "怀旧": "nostalgi",
+    "肿瘤": "onk",
+    "堡垒": "fortres",
+    "肿瘤生ᴳ": "onkogen",
+    "肿瘤学ᴸᴳ": "onkologi",
+    "讽刺": "satir",
+    "讽ˢ": "sarkasm",
+    "精ˢᴵ": "spermati",
+    "精ˢᴸ": "silf",
+    "精ˢ胞ᶜᴵ": "spermatocit",
+    "精ˢ植ᶠ": "spermatofit",
+    "精ˢ源ᴳ": "spermatogenez",
+    "嫁接": "greft",
+    "嫁妆": "dot"
+  },
+  "mirror_identifier_manifest": "data/mirror-identifiers-20261017.json",
+  "mirror_identifier_manifest_sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
+  "pre_mirror_csv_sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
+  "current_item_count": 10640,
+  "current_csv_count": 10678,
+  "stafilokok_assignment_manifest": "data/stafilokok-assignment-20261017.json",
+  "stafilokok_assignment_manifest_sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
+  "four_shared_assignment_manifest": "data/four-shared-assignments-20261017.json",
+  "four_shared_assignment_manifest_sha256": "b1d1f2781e4131a88499722fc9309ddc783554505f131cd75409d4a84b5b4d75",
+  "uve_assignment_manifest": "data/uve-assignments-20261017.json",
+  "uve_assignment_manifest_sha256": "fc3acc1523d35c94e1955c29ec92ff04684e69c564ca39da4881d5bc4e2244ad",
+  "observatori_assignment_manifest": "data/observatori-assignment-20261017.json",
+  "observatori_assignment_manifest_sha256": "d8b61e22f040212b1619ef1fcaa1a39f58e1735ed92e356a5be094e900b5ecd7",
+  "three_short_assignment_manifest": "data/three-short-assignments-20261017.json",
+  "three_short_assignment_manifest_sha256": "8c681933fa1bc5e4a127da385ff3dbf4bf3adf7ad513291d6f467f80069effe4",
+  "pre_three_short_profile": {
+    "id": "pre-three-short-20261017",
+    "csv": "data/pejvo_piv_pre_three_short_20261017.csv",
+    "snippet_csv": "data/snippet_pre_three_short_20261017.csv",
+    "csv_sha256": "4d32d2eb5331c8d0d90e8d3995b6a27c1e8a108eb09c281c54c598db21cf48fd",
+    "snippet_csv_sha256": "22536c3a1348f2da787fadd86468dc1a8779f520dadff15abc93b7b2b339c30e"
+  },
+  "protez_ranc_assignment_manifest": "data/protez-ranc-assignments-20261017.json",
+  "protez_ranc_assignment_manifest_sha256": "3491328f8d6d1c32534b844731d5ebabd0de4db03c69b9dad0112a9131b206bd",
+  "four_reviewed_assignment_manifest": "data/four-reviewed-assignments-20261017.json",
+  "four_reviewed_assignment_manifest_sha256": "eadc8645b5c049440bf34a45cca975ba6ae394cc2589186af34049ed04217013",
+  "sutur_fraj_assignment_manifest": "data/sutur-fraj-assignments-20261017.json",
+  "sutur_fraj_assignment_manifest_sha256": "19205ad78fbd88208119a3e03ed30bc7104d2e66a542a7646a5c95996c5c4d64",
+  "nostalgi_onk_fortres_assignment_manifest": "data/nostalgi-onk-fortres-assignments-20261017.json",
+  "nostalgi_onk_fortres_assignment_manifest_sha256": "aae9162c2d1b8ce253af1bf6be927f8dbb45752fc9137dd0093f53e2220e06a1",
+  "satir_assignment_manifest": "data/satir-assignment-20261017.json",
+  "satir_assignment_manifest_sha256": "8ad557482504a6e48cf5ef0142e95c3febc3022289bf2fe64a8105fee026b439",
+  "pre_satir_profile": {
+    "id": "pre-satir-20261017",
+    "csv": "data/pejvo_piv_pre_satir_20261017.csv",
+    "snippet_csv": "data/snippet_pre_satir_20261017.csv",
+    "csv_sha256": "ec6d04c11d3bee9fc2063342b73b884c1fc02819a736dc033f5b6e99e320f6c8",
+    "snippet_csv_sha256": "803a60e0b5b7017601378681876b30f15d926d4b2028694f116c009e0f7ec416"
+  },
+  "ownership_transfers": {
+    "讽": {
+      "old": "karikatur",
+      "current": "satir",
+      "old_profile": "pre-satir-20261017"
+    },
+    "精ˢ": {
+      "old": "spermat",
+      "current": "silf",
+      "old_profile": "pre-sperm-distinction-20261018"
+    },
+    "妆": {
+      "old": "tualet",
+      "current": "dot",
+      "old_profile": "pre-dot-greft-20261018"
+    }
+  },
+  "sperm_distinction_manifest": "data/sperm-distinction-20261018.json",
+  "sperm_distinction_manifest_sha256": "3c91b271b07d7ffe7a664887c726239a249b67084a0c2e8b49c202c18a52ce42",
+  "pre_sperm_distinction_profile": {
+    "id": "pre-sperm-distinction-20261018",
+    "csv": "data/pejvo_piv_pre_sperm_distinction_20261018.csv",
+    "snippet_csv": "data/snippet_pre_sperm_distinction_20261018.csv",
+    "csv_sha256": "87e9317a0fc35ef1ae50462002ec8143b129c3e64112f4eda360336796fe50fb",
+    "snippet_csv_sha256": "d9aa07044691264d371b2e526b7167264e3cc41790e8e6bb948ed829997d7ff7"
+  },
+  "dot_greft_manifest": "data/dot-greft-20261018.json",
+  "dot_greft_manifest_sha256": "b343dcaa9eaf1d7e5fb35c57cbca3c63ae8626cd453692ca86f57d2007f0d762",
+  "pre_dot_greft_profile": {
+    "id": "pre-dot-greft-20261018",
+    "csv": "data/pejvo_piv_pre_dot_greft_20261018.csv",
+    "snippet_csv": "data/snippet_pre_dot_greft_20261018.csv",
+    "csv_sha256": "3219d77284ddf21c90b6d33a580ead00a3c38b2628b09ed205883c9255f6bd65",
+    "snippet_csv_sha256": "22ef2de51e53bd19314b6c7f140aa8d82b0914bd71bfdd0b2c943cbc71591f07"
+  }
+}

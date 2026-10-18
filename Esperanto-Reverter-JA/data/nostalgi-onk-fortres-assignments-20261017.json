@@ -1,0 +1,173 @@
+{
+  "schema": 1,
+  "baseline": "b1178c1f17697ece1b74d0fae97d086823fcff75",
+  "changes": {
+    "nostalgi": [
+      "怀旧",
+      "怀ᴺ"
+    ],
+    "onk": [
+      "肿瘤",
+      "瘤ᴼ"
+    ],
+    "fortres": [
+      "堡垒",
+      "堡ᶠᴿ"
+    ],
+    "onkogen": [
+      "肿瘤生ᴳ",
+      "瘤ᴼ生ᴳ"
+    ],
+    "onkologi": [
+      "肿瘤学ᴸᴳ",
+      "瘤ᴼ学ᴸᴳ"
+    ]
+  },
+  "canonical_sidecar_sha256": "8e14f8ae0b164c252db8cd13bbe8e2f8041ca9c1256c748bdc3eafd144e18959",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "58e183623fabe6f08fcd63fb00f9b7ce28aa681f42a05274f40646e980453fbd",
+  "baseline_target_items": {
+    "nostalgi": {
+      "prefix": "nostalgi",
+      "body": "怀旧",
+      "kanji": "怀旧",
+      "detail": "nostalgi → 怀旧 (pejvo, F=2, 基本形)",
+      "documentation": "語根: nostalgi\n入力: nostalgi\n最終形: 怀旧\n漢字: 怀旧\n識別子: なし\n型: pejvo\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8373",
+      "priority": 0,
+      "sourceRoot": "nostalgi",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8373
+    },
+    "onk": {
+      "prefix": "onk",
+      "body": "肿瘤",
+      "kanji": "肿瘤",
+      "detail": "onk → 肿瘤 (piv, F=3, 基本形)",
+      "documentation": "語根: onk\n入力: onk\n最終形: 肿瘤\n漢字: 肿瘤\n識別子: なし\n型: piv\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7220",
+      "priority": 0,
+      "sourceRoot": "onk",
+      "type": "piv",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7220
+    },
+    "fortres": {
+      "prefix": "fortres",
+      "body": "堡垒",
+      "kanji": "堡垒",
+      "detail": "fortres → 堡垒 (pejvo, F=1, 基本形)",
+      "documentation": "語根: fortres\n入力: fortres\n最終形: 堡垒\n漢字: 堡垒\n識別子: なし\n型: pejvo\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8644",
+      "priority": 0,
+      "sourceRoot": "fortres",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 8644
+    },
+    "onkogen": {
+      "prefix": "onkogen",
+      "body": "肿瘤生ᴳ",
+      "kanji": "肿瘤生ᴳ",
+      "detail": "onkogen → 肿瘤生ᴳ (piv, F=1, 基本形)",
+      "documentation": "語根: onkogen\n入力: onkogen\n最終形: 肿瘤生ᴳ\n漢字: 肿瘤生ᴳ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9743",
+      "priority": 0,
+      "sourceRoot": "onkogen",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9743
+    },
+    "onkologi": {
+      "prefix": "onkologi",
+      "body": "肿瘤学ᴸᴳ",
+      "kanji": "肿瘤学ᴸᴳ",
+      "detail": "onkologi → 肿瘤学ᴸᴳ (piv, F=1, 基本形)",
+      "documentation": "語根: onkologi\n入力: onkologi\n最終形: 肿瘤学ᴸᴳ\n漢字: 肿瘤学ᴸᴳ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9744",
+      "priority": 0,
+      "sourceRoot": "onkologi",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9744
+    }
+  },
+  "expected_target_items": {
+    "nostalgi": {
+      "prefix": "nostalgi",
+      "body": "怀ᴺ",
+      "kanji": "怀",
+      "detail": "nostalgi → 怀ᴺ (pejvo, F=2)",
+      "documentation": "語根: nostalgi\n入力: nostalgi\n最終形: 怀ᴺ\n漢字: 怀\n識別子: n\n型: pejvo\nF(汎用性): 2\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:8373",
+      "priority": 0,
+      "sourceRoot": "nostalgi",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 8373
+    },
+    "onk": {
+      "prefix": "onk",
+      "body": "瘤ᴼ",
+      "kanji": "瘤",
+      "detail": "onk → 瘤ᴼ (piv, F=3)",
+      "documentation": "語根: onk\n入力: onk\n最終形: 瘤ᴼ\n漢字: 瘤\n識別子: o\n型: piv\nF(汎用性): 3\nグループ数: 5\n基本形: no\n出典: _identifier_sidecar.tsv:7220",
+      "priority": 0,
+      "sourceRoot": "onk",
+      "type": "piv",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 7220
+    },
+    "fortres": {
+      "prefix": "fortres",
+      "body": "堡ᶠᴿ",
+      "kanji": "堡",
+      "detail": "fortres → 堡ᶠᴿ (pejvo, F=1)",
+      "documentation": "語根: fortres\n入力: fortres\n最終形: 堡ᶠᴿ\n漢字: 堡\n識別子: fr\n型: pejvo\nF(汎用性): 1\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:8644",
+      "priority": 0,
+      "sourceRoot": "fortres",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 8644
+    },
+    "onkogen": {
+      "prefix": "onkogen",
+      "body": "瘤ᴼ生ᴳ",
+      "kanji": "瘤ᴼ生ᴳ",
+      "detail": "onkogen → 瘤ᴼ生ᴳ (piv, F=1, 基本形)",
+      "documentation": "語根: onkogen\n入力: onkogen\n最終形: 瘤ᴼ生ᴳ\n漢字: 瘤ᴼ生ᴳ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9743",
+      "priority": 0,
+      "sourceRoot": "onkogen",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9743
+    },
+    "onkologi": {
+      "prefix": "onkologi",
+      "body": "瘤ᴼ学ᴸᴳ",
+      "kanji": "瘤ᴼ学ᴸᴳ",
+      "detail": "onkologi → 瘤ᴼ学ᴸᴳ (piv, F=1, 基本形)",
+      "documentation": "語根: onkologi\n入力: onkologi\n最終形: 瘤ᴼ学ᴸᴳ\n漢字: 瘤ᴼ学ᴸᴳ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9744",
+      "priority": 0,
+      "sourceRoot": "onkologi",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9744
+    }
+  },
+  "unrelated_items_sha256": "15b7e7fc4d4a1a2250fef54b255d4fb871c7156019fdc89f080cc29c5907eb50",
+  "unrelated_items_count": 10634,
+  "current_item_count": 10639,
+  "safe_reverse_aliases": {
+    "怀旧": "nostalgi",
+    "肿瘤": "onk",
+    "堡垒": "fortres",
+    "肿瘤生ᴳ": "onkogen",
+    "肿瘤学ᴸᴳ": "onkologi"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "visible_edition_ids": [
+    "pejvo-piv-20260620",
+    "pre-las-20261017"
+  ],
+  "current_edition": "pejvo-piv-20260620",
+  "fixed_edition": "pre-las-20261017",
+  "baseline_commit": "4c16c8937c601fdc149ccb8cbba1b6085cc94692",
+  "baseline_date": "2026-10-17",
+  "fixed_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+  "fixed_two_column_sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+  "fixed_row_count": 10636,
+  "baseline_sidecar_sha256": "8ee9e27651413f87f1404eb5c328e7ad8ba4bda3be61a442ac9585911a4a9600",
+  "baseline_monaco_sha256": "372476f83a61b5691e0da95240c490509996f8142c5b837fc928f49ec94de089",
+  "policy": "Keep the pre-assignment edition frozen. Continue updating only the current edition during the review period. Intermediate snapshots remain archived and programmatically loadable, never automatically guessed or added to normal edition choices. Custom CSV is an independent advanced tool. Revision identity is retained in result labels and filenames."
+}

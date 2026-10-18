@@ -1,0 +1,120 @@
+{
+  "schema": 1,
+  "revision": "2026-10-18-dot-greft",
+  "baseline": "7bae3713a50d13387d9e25ea62a257b0aeb7b15e",
+  "changes": {
+    "greft": [
+      "嫁接",
+      "移植"
+    ],
+    "dot": [
+      "嫁妆",
+      "妆"
+    ],
+    "tualet": [
+      "妆",
+      "妆ᵀ"
+    ]
+  },
+  "canonical_sidecar_sha256": "b651ade3c363b96173d2f23bc6404bc67c2b4cfd3e9ce2aa69e6e24eb78ce33e",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "fd699dcbdaafcc0148919a57c71b2f422f9a526048e9c58d7b818aa727695c22",
+  "baseline_target_items": {
+    "greft": {
+      "prefix": "greft",
+      "body": "嫁接",
+      "kanji": "嫁接",
+      "detail": "greft → 嫁接 (pejvo, F=10, 基本形)",
+      "documentation": "語根: greft\n入力: greft\n最終形: 嫁接\n漢字: 嫁接\n識別子: なし\n型: pejvo\nF(汎用性): 10\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6228",
+      "priority": 0,
+      "sourceRoot": "greft",
+      "type": "pejvo",
+      "frequency": 10,
+      "base": true,
+      "sourceLine": 6228
+    },
+    "dot": {
+      "prefix": "dot",
+      "body": "嫁妆",
+      "kanji": "嫁妆",
+      "detail": "dot → 嫁妆 (basic, F=10, 基本形)",
+      "documentation": "語根: dot\n入力: dot\n最終形: 嫁妆\n漢字: 嫁妆\n識別子: なし\n型: basic\nF(汎用性): 10\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:5617",
+      "priority": 0,
+      "sourceRoot": "dot",
+      "type": "basic",
+      "frequency": 10,
+      "base": true,
+      "sourceLine": 5617
+    },
+    "tualet": {
+      "prefix": "tualet",
+      "body": "妆",
+      "kanji": "妆",
+      "detail": "tualet → 妆 (basic, F=15, 基本形)",
+      "documentation": "語根: tualet\n入力: tualet\n最終形: 妆\n漢字: 妆\n識別子: なし\n型: basic\nF(汎用性): 15\nグループ数: 3\n基本形: yes\n出典: _identifier_sidecar.tsv:3904",
+      "priority": 0,
+      "sourceRoot": "tualet",
+      "type": "basic",
+      "frequency": 15,
+      "base": true,
+      "sourceLine": 3904
+    }
+  },
+  "expected_target_items": {
+    "greft": {
+      "prefix": "greft",
+      "body": "移植",
+      "kanji": "移植",
+      "detail": "greft → 移植 (pejvo, F=10, 基本形)",
+      "documentation": "語根: greft\n入力: greft\n最終形: 移植\n漢字: 移植\n識別子: なし\n型: pejvo\nF(汎用性): 10\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6228",
+      "priority": 0,
+      "sourceRoot": "greft",
+      "type": "pejvo",
+      "frequency": 10,
+      "base": true,
+      "sourceLine": 6228
+    },
+    "dot": {
+      "prefix": "dot",
+      "body": "妆",
+      "kanji": "妆",
+      "detail": "dot → 妆 (basic, F=10, 基本形)",
+      "documentation": "語根: dot\n入力: dot\n最終形: 妆\n漢字: 妆\n識別子: なし\n型: basic\nF(汎用性): 10\nグループ数: 4\n基本形: yes\n出典: _identifier_sidecar.tsv:5617",
+      "priority": 0,
+      "sourceRoot": "dot",
+      "type": "basic",
+      "frequency": 10,
+      "base": true,
+      "sourceLine": 5617
+    },
+    "tualet": {
+      "prefix": "tualet",
+      "body": "妆ᵀ",
+      "kanji": "妆",
+      "detail": "tualet → 妆ᵀ (basic, F=15)",
+      "documentation": "語根: tualet\n入力: tualet\n最終形: 妆ᵀ\n漢字: 妆\n識別子: t\n型: basic\nF(汎用性): 15\nグループ数: 4\n基本形: no\n出典: _identifier_sidecar.tsv:3904",
+      "priority": 0,
+      "sourceRoot": "tualet",
+      "type": "basic",
+      "frequency": 15,
+      "base": false,
+      "sourceLine": 3904
+    }
+  },
+  "unrelated_items_sha256": "b6c44c6200846eeb31ba9f0887db206e329f95c7d25758ed869073462942ccfa",
+  "unrelated_items_count": 10637,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "safe_reverse_aliases": {
+    "嫁接": "greft",
+    "嫁妆": "dot"
+  },
+  "ownership_transfers": {
+    "妆": [
+      "tualet",
+      "dot"
+    ]
+  },
+  "preserved_profile": "pre-dot-greft-20261018",
+  "rationale": "Explicit user adoption: greft=移植, dot=妆; actual identifier algorithm moves tualet to 妆ᵀ. Grafting/medical and dowry/endowment definitions remain in annotations. The full immediate old profile preserves 妆=tualet and translaci+plant concatenations; no automatic version detection."
+}

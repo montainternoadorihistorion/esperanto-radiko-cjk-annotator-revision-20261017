@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "baseline": "3e08a1adb73bfd3fc1cfa7af8fa389cf1d6c3970",
+  "changes": {
+    "satir": [
+      "讽刺",
+      "讽"
+    ],
+    "karikatur": [
+      "讽",
+      "讽ᴷ"
+    ],
+    "sarkasm": [
+      "讽ˢ",
+      "讽ˢᴿ"
+    ]
+  },
+  "canonical_sidecar_sha256": "174672d343cfb39ca1209b824a4d33b75e25b7c2f19d00fd333a76560896e7e1",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "6165d9357bc02c4099577e99d988085c636344c7800c5f8e0ba4a5b8ca090a2e",
+  "baseline_target_items": {
+    "satir": {
+      "prefix": "satir",
+      "body": "讽刺",
+      "kanji": "讽刺",
+      "detail": "satir → 讽刺 (basic, F=4, 基本形)",
+      "documentation": "語根: satir\n入力: satir\n最終形: 讽刺\n漢字: 讽刺\n識別子: なし\n型: basic\nF(汎用性): 4\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:5927",
+      "priority": 0,
+      "sourceRoot": "satir",
+      "type": "basic",
+      "frequency": 4,
+      "base": true,
+      "sourceLine": 5927
+    },
+    "karikatur": {
+      "prefix": "karikatur",
+      "body": "讽",
+      "kanji": "讽",
+      "detail": "karikatur → 讽 (basic, F=4, 基本形)",
+      "documentation": "語根: karikatur\n入力: karikatur\n最終形: 讽\n漢字: 讽\n識別子: なし\n型: basic\nF(汎用性): 4\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:4810",
+      "priority": 0,
+      "sourceRoot": "karikatur",
+      "type": "basic",
+      "frequency": 4,
+      "base": true,
+      "sourceLine": 4810
+    },
+    "sarkasm": {
+      "prefix": "sarkasm",
+      "body": "讽ˢ",
+      "kanji": "讽",
+      "detail": "sarkasm → 讽ˢ (pejvo, F=2)",
+      "documentation": "語根: sarkasm\n入力: sarkasm\n最終形: 讽ˢ\n漢字: 讽\n識別子: s\n型: pejvo\nF(汎用性): 2\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:4811",
+      "priority": 0,
+      "sourceRoot": "sarkasm",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 4811
+    }
+  },
+  "expected_target_items": {
+    "satir": {
+      "prefix": "satir",
+      "body": "讽",
+      "kanji": "讽",
+      "detail": "satir → 讽 (basic, F=4, 基本形)",
+      "documentation": "語根: satir\n入力: satir\n最終形: 讽\n漢字: 讽\n識別子: なし\n型: basic\nF(汎用性): 4\nグループ数: 3\n基本形: yes\n出典: _identifier_sidecar.tsv:5927",
+      "priority": 0,
+      "sourceRoot": "satir",
+      "type": "basic",
+      "frequency": 4,
+      "base": true,
+      "sourceLine": 5927
+    },
+    "karikatur": {
+      "prefix": "karikatur",
+      "body": "讽ᴷ",
+      "kanji": "讽",
+      "detail": "karikatur → 讽ᴷ (basic, F=4)",
+      "documentation": "語根: karikatur\n入力: karikatur\n最終形: 讽ᴷ\n漢字: 讽\n識別子: k\n型: basic\nF(汎用性): 4\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:4810",
+      "priority": 0,
+      "sourceRoot": "karikatur",
+      "type": "basic",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 4810
+    },
+    "sarkasm": {
+      "prefix": "sarkasm",
+      "body": "讽ˢᴿ",
+      "kanji": "讽",
+      "detail": "sarkasm → 讽ˢᴿ (pejvo, F=2)",
+      "documentation": "語根: sarkasm\n入力: sarkasm\n最終形: 讽ˢᴿ\n漢字: 讽\n識別子: sr\n型: pejvo\nF(汎用性): 2\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:4811",
+      "priority": 0,
+      "sourceRoot": "sarkasm",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 4811
+    }
+  },
+  "unrelated_items_sha256": "0b962237b2f25e9da27fb4480e7a29e396a189c7b2590098ec1e01bc733d50bf",
+  "unrelated_items_count": 10636,
+  "current_item_count": 10639,
+  "safe_reverse_aliases": {
+    "讽刺": "satir",
+    "讽ˢ": "sarkasm"
+  },
+  "ownership_transfers": {
+    "讽": [
+      "karikatur",
+      "satir"
+    ]
+  },
+  "preserved_profile": "pre-satir-20261017"
+}

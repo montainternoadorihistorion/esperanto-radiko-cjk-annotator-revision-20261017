@@ -26,3 +26,6 @@
 /tests/cloud_normal_url/*.html -text
 /tests/cloud_normal_url/*.txt -text
 /tests/cloud_normal_url/*.csv -text
+
+# Reverter snapshots and source hashes must retain exact bytes.
+/Esperanto-Reverter-*/** -text
