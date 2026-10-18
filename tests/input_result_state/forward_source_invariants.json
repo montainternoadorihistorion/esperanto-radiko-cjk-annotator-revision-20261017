@@ -1,0 +1,17 @@
+{
+  "JA": {
+    "conversion_submit_ast_unchanged": true,
+    "main_sha256": "6b16609bafaafe320b16538c527985bdb760befc013fe7c341a5062444b8727c",
+    "helper_sha256": "80f78e3b575cd936dcef5ae36fc356798fb59471389d1d36481d3be3cf1e3c91"
+  },
+  "ZH": {
+    "conversion_submit_ast_unchanged": true,
+    "main_sha256": "dc8983afaaaf3f9cbdc27555f7cd4a2450fa718ee3f0e9262cc01eadbadd48f9",
+    "helper_sha256": "80f78e3b575cd936dcef5ae36fc356798fb59471389d1d36481d3be3cf1e3c91"
+  },
+  "KO": {
+    "conversion_submit_ast_unchanged": true,
+    "main_sha256": "82059f97dfcc71f55b4b370699603c0e69d8c8f18da30b2494451b2761eef7c1",
+    "helper_sha256": "80f78e3b575cd936dcef5ae36fc356798fb59471389d1d36481d3be3cf1e3c91"
+  }
+}

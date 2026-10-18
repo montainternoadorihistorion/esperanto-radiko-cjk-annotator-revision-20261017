@@ -1,0 +1,238 @@
+{
+  "passed": true,
+  "language": "ZH",
+  "conversions": [
+    {
+      "edition": "current",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d",
+      "download_sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d",
+      "mime": "text/plain",
+      "filename": "转换结果_current_7977885d7662.txt"
+    },
+    {
+      "edition": "current",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d",
+      "download_sha256": "ef1d053c42d65d7f6c3b6c88ad556e620d1d7648108ddbafe685f1161c166c20",
+      "mime": "text/plain",
+      "filename": "转换结果_current_7977885d7662.txt"
+    },
+    {
+      "edition": "current",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "7363dbd2581ec7b24f506946d08111b8c89ba383c1b3d37c06f6530c9928ae2d",
+      "download_sha256": "ef1d053c42d65d7f6c3b6c88ad556e620d1d7648108ddbafe685f1161c166c20",
+      "mime": "text/plain",
+      "filename": "转换结果_current_7977885d7662.txt"
+    },
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "2cb1e672328664c0f73cfee728bdf9c6526f5c651109fecb1334554e232b819e",
+      "download_sha256": "022df1e471d421f5c4988545301df158cca319628141e15ec59b5878ddc5727d",
+      "mime": "text/html",
+      "filename": "转换结果_current_519e3b54b38f.html"
+    },
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "2cb1e672328664c0f73cfee728bdf9c6526f5c651109fecb1334554e232b819e",
+      "download_sha256": "75cf2729dd1188898ddc101b4516141c22b09c7bdf3134cb603a46abf88d5521",
+      "mime": "text/html",
+      "filename": "转换结果_current_519e3b54b38f.html"
+    },
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "2cb1e672328664c0f73cfee728bdf9c6526f5c651109fecb1334554e232b819e",
+      "download_sha256": "75cf2729dd1188898ddc101b4516141c22b09c7bdf3134cb603a46abf88d5521",
+      "mime": "text/html",
+      "filename": "转换结果_current_519e3b54b38f.html"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "754f28458706894da49faf969f59d6a72993f2c9d478e5a2cfc04ab25fe1e2de",
+      "download_sha256": "82ca1e34bc2c1414f582c0a817bc4c6434dc99f90768b2100aef94055a78ee8e",
+      "mime": "text/html",
+      "filename": "转换结果_current_fb7302cd485a.html"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "754f28458706894da49faf969f59d6a72993f2c9d478e5a2cfc04ab25fe1e2de",
+      "download_sha256": "b7713ddf5dbbbe97a9f1b2e53bb6fd3e074a4dc6123beba732d1cc61c5637dd6",
+      "mime": "text/html",
+      "filename": "转换结果_current_fb7302cd485a.html"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "754f28458706894da49faf969f59d6a72993f2c9d478e5a2cfc04ab25fe1e2de",
+      "download_sha256": "b7713ddf5dbbbe97a9f1b2e53bb6fd3e074a4dc6123beba732d1cc61c5637dd6",
+      "mime": "text/html",
+      "filename": "转换结果_current_fb7302cd485a.html"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "input": "lasis @lasis@",
+      "result_sha256": "de78c077c4c9f703524dd6ee08ba559a892ccdf2415be33031b63ea4332c4cf3",
+      "download_sha256": "e10b322a7ac286bdb8fc2d475dbdae4ccf6786e0b7f06ff8b3ef48d1cd41482d",
+      "mime": "text/html",
+      "filename": "转换结果_current_fb7302cd485a.html"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "input": "semajno @semajno@",
+      "result_sha256": "6acc226bfa2c7090707e29dc833394a4df4d1ff609c24ec267c0f3759d45d321",
+      "download_sha256": "ac1a7f548ddbb03920b69331a7eb74f5264eb4605fc53d6c4e3e0891d93e26ae",
+      "mime": "text/html",
+      "filename": "转换结果_current_fb7302cd485a.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6",
+      "download_sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6",
+      "mime": "text/plain",
+      "filename": "转换结果_legacy_d91efd7a574e.txt"
+    },
+    {
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6",
+      "download_sha256": "8071bfeedfd9a18e54a4e193e719b8ffc7e0282e4d0a83bafe4117c90af45035",
+      "mime": "text/plain",
+      "filename": "转换结果_legacy_d91efd7a574e.txt"
+    },
+    {
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "64cd856a4744bb597529106981078c2a3d75c3ed6628147d48e0fe61751f51d6",
+      "download_sha256": "8071bfeedfd9a18e54a4e193e719b8ffc7e0282e4d0a83bafe4117c90af45035",
+      "mime": "text/plain",
+      "filename": "转换结果_legacy_d91efd7a574e.txt"
+    },
+    {
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "5fe91819e21179b31360977f02548131e5638210293cc7aa9f301a55aea01f98",
+      "download_sha256": "61ece09add28267c779776beff6a132e165cf155372339c5f0b8c29ab1f098cb",
+      "mime": "text/html",
+      "filename": "转换结果_legacy_7b3b5d7b5084.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "5fe91819e21179b31360977f02548131e5638210293cc7aa9f301a55aea01f98",
+      "download_sha256": "24df494eb0d53e09106a66dc5df7f1ad5b1e3109828d79ed7c885a59153c73e4",
+      "mime": "text/html",
+      "filename": "转换结果_legacy_7b3b5d7b5084.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "5fe91819e21179b31360977f02548131e5638210293cc7aa9f301a55aea01f98",
+      "download_sha256": "24df494eb0d53e09106a66dc5df7f1ad5b1e3109828d79ed7c885a59153c73e4",
+      "mime": "text/html",
+      "filename": "转换结果_legacy_7b3b5d7b5084.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "754f28458706894da49faf969f59d6a72993f2c9d478e5a2cfc04ab25fe1e2de",
+      "download_sha256": "68612db1aca6641d112d4070650a40480b9cf0d38d428784321fbe8dc384b670",
+      "mime": "text/html",
+      "filename": "转换结果_legacy_5447caefc548.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "754f28458706894da49faf969f59d6a72993f2c9d478e5a2cfc04ab25fe1e2de",
+      "download_sha256": "f7601b5e63a423fc5d0727125e0275b12a25fadfac8e850c36740b723dd5dac7",
+      "mime": "text/html",
+      "filename": "转换结果_legacy_5447caefc548.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "result_sha256": "754f28458706894da49faf969f59d6a72993f2c9d478e5a2cfc04ab25fe1e2de",
+      "download_sha256": "f7601b5e63a423fc5d0727125e0275b12a25fadfac8e850c36740b723dd5dac7",
+      "mime": "text/html",
+      "filename": "转换结果_legacy_5447caefc548.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "lasis @lasis@",
+      "result_sha256": "de78c077c4c9f703524dd6ee08ba559a892ccdf2415be33031b63ea4332c4cf3",
+      "download_sha256": "3f16e21d04cbe4f0f2d387233333bf31a79500bbd7902eb866c0e48b2dd6757d",
+      "mime": "text/html",
+      "filename": "转换结果_legacy_5447caefc548.html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "semajno @semajno@",
+      "result_sha256": "6acc226bfa2c7090707e29dc833394a4df4d1ff609c24ec267c0f3759d45d321",
+      "download_sha256": "818fe5f123d46685444ccd759047d81319b7b714dc1726c5f3b2113f7bcead03",
+      "mime": "text/html",
+      "filename": "转换结果_legacy_5447caefc548.html"
+    }
+  ],
+  "state_checks": [
+    "current/pure: sample invalidates previous input",
+    "current/pure: direct edit invalidates previous input",
+    "current/kanji: sample invalidates previous input",
+    "current/kanji: direct edit invalidates previous input",
+    "current/ruby: sample invalidates previous input",
+    "current/ruby: direct edit invalidates previous input",
+    "current: valid upload replaces input and invalidates old result",
+    "current: editing uploaded text invalidates download",
+    "current: changed upload bytes invalidate result",
+    "current: invalid UTF8 preserves draft and blocks conversion/save",
+    "current: valid empty file clears draft and old download",
+    "current: empty conversion cannot expose old download",
+    "current: removing upload preserves draft and blocks conversion/save",
+    "current: early-stop mode switch retains input/source/letters/edition",
+    "current: manual input retains draft after upload switch",
+    "legacy/pure: sample invalidates previous input",
+    "legacy/pure: direct edit invalidates previous input",
+    "legacy/kanji: sample invalidates previous input",
+    "legacy/kanji: direct edit invalidates previous input",
+    "legacy/ruby: sample invalidates previous input",
+    "legacy/ruby: direct edit invalidates previous input",
+    "legacy: valid upload replaces input and invalidates old result",
+    "legacy: editing uploaded text invalidates download",
+    "legacy: changed upload bytes invalidate result",
+    "legacy: invalid UTF8 preserves draft and blocks conversion/save",
+    "legacy: valid empty file clears draft and old download",
+    "legacy: empty conversion cannot expose old download",
+    "legacy: removing upload preserves draft and blocks conversion/save",
+    "legacy: early-stop mode switch retains input/source/letters/edition",
+    "legacy: manual input retains draft after upload switch"
+  ],
+  "bundled_corrections_unchanged": true,
+  "method": "Local real Streamlit AppTest; actual engines/data; mocked source-file and download transport only"
+}
