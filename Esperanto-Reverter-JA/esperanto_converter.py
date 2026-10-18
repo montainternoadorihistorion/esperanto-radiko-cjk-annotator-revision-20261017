@@ -719,6 +719,78 @@ def sample_text() -> str:
     )
 
 
+def _clear_html_recovery_result() -> None:
+    st.session_state.pop("html_recovery_result", None)
+
+
+def render_html_recovery() -> None:
+    # This path reads recorded Esperanto, without loading or applying a dictionary.
+    from html_source_recovery import (
+        HtmlRecoveryError, decode_html_upload, recover_standard_html,
+    )
+
+    st.subheader("標準HTMLから原語を復元")
+    st.caption("このプロジェクトの標準HTMLに残っているエスペラントを読み取ります。漢字の逆引きをしないため、辞書の新版・旧版を選ぶ必要はありません。")
+    st.caption("作成時のルビ形式を選んでください。形式の選び間違いは完全には自動判別できません。変換時に使い終えた @・% の目印や、統一前の文字表記は復元しません。")
+    st.caption("ファイル・貼り付けとも、UTF-8で10 MiBまでの標準HTMLに対応します。")
+    direction = st.radio(
+        "HTML作成時のルビ形式", ("kanji", "annotation"),
+        format_func={"kanji": "漢字ルビ（漢字の上にエスペラント）", "annotation": "注釈ルビ（エスペラントの上に訳）"}.__getitem__,
+        key="html_recovery_direction", on_change=_clear_html_recovery_result,
+    )
+    source_kind = st.radio(
+        "HTMLの入力方法", ("paste", "upload"),
+        format_func={"paste": "HTMLソースを貼り付ける", "upload": "HTMLファイルをアップロードする"}.__getitem__,
+        key="html_recovery_source_kind", on_change=_clear_html_recovery_result,
+        horizontal=True,
+    )
+    source = None
+    if source_kind == "paste":
+        source = st.text_area(
+            "HTMLソース", height=280, key="html_recovery_paste",
+            help="ブラウザに表示された文章ではなく、アプリのHTMLソースを貼り付けてください。",
+            on_change=_clear_html_recovery_result,
+        )
+    else:
+        uploaded_html = st.file_uploader(
+            "標準HTMLファイル（UTF-8）", type=["html", "htm"],
+            key="html_recovery_upload", on_change=_clear_html_recovery_result,
+        )
+        if uploaded_html is not None:
+            try:
+                source = decode_html_upload(uploaded_html.getvalue())
+            except HtmlRecoveryError as exc:
+                _clear_html_recovery_result()
+                st.error(f"HTMLファイルを読み込めません: {exc}")
+    identity = hashlib.sha256(json.dumps(
+        [source_kind, direction, source], ensure_ascii=False,
+    ).encode("utf-8")).hexdigest()
+    if st.button("HTMLから復元する", type="primary", disabled=not source,
+                 key="html_recovery_submit"):
+        _clear_html_recovery_result()
+        try:
+            result = recover_standard_html(source, direction)
+            st.session_state["html_recovery_result"] = {**result, "identity": identity}
+        except HtmlRecoveryError as exc:
+            st.error(f"HTMLを復元できません: {exc}")
+
+    result = st.session_state.get("html_recovery_result")
+    if result and result.get("identity") != identity:
+        _clear_html_recovery_result()
+        result = None
+    if result:
+        edition = result.get("assignment_edition", "unknown")
+        edition_label = {"current": "新版", "legacy": "旧版", "custom_json": "自作JSON", "unknown": "不明（版情報なし）"}.get(edition, "不明")
+        st.caption(f"HTMLに記録された版: {edition_label} ／ 読み取ったルビ: {result['ruby_count']}個")
+        st.text_area("復元した原語", value=result["text"], height=280, disabled=True,
+                     help="HTMLに残る大文字・空白を保持した結果です。")
+        st.download_button(
+            "復元した原語をダウンロード", data=result["text"].encode("utf-8"),
+            file_name=f"esperanto_html_{edition}_{direction}_{identity[:12]}.txt",
+            mime="text/plain", key="html_recovery_download",
+        )
+
+
 def main() -> None:
     st.set_page_config(
         page_title="漢字化エスペラント → アルファベット変換",
@@ -734,6 +806,16 @@ def main() -> None:
         "[中文](https://takatakatake.github.io/kanji_assign/index.zh.html)"
     )
     st.markdown("---")
+
+    input_mode = st.radio(
+        "入力形式", ("plain", "html"),
+        format_func={"plain": "漢字化された平文を逆変換", "html": "標準HTMLから原語を復元"}.__getitem__,
+        key="reverter_input_mode", horizontal=True,
+        on_change=_clear_html_recovery_result,
+    )
+    if input_mode == "html":
+        render_html_recovery()
+        return
 
     source_id, uploaded_file = render_sidebar()
     df = load_selected_dataframe(source_id, uploaded_file)
