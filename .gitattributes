@@ -18,3 +18,7 @@
 
 # Fixed edition hashes are byte-level contracts, including original line endings.
 /assignment_editions/legacy/** -text
+
+# Browser download evidence must retain the original bytes and whitespace.
+/tests/cloud_assignment_editions/*.html -text
+/tests/cloud_assignment_editions/*.txt -text
