@@ -24,6 +24,10 @@ def fixture(direction="kanji", edition="current"):
     return source.replace("assignment-edition:current", f"assignment-edition:{edition}", 1)
 
 
+def save_available(at):
+    return any(b.key == "html_recovery_prepare_save" for b in at.button)
+
+
 def start_html():
     at = AppTest.from_file(app.__file__, default_timeout=30).run()
     assert not at.exception
@@ -32,7 +36,7 @@ def start_html():
     at.radio(key="reverter_input_mode").set_value("html").run()
     assert not at.exception
     assert not at.sidebar.selectbox
-    assert not at.get("download_button")
+    assert not save_available(at) and not at.get("download_button")
     return at
 
 
@@ -58,6 +62,9 @@ def test_actual_standard_html_and_download_preserve_source(direction, edition):
     with patch.object(app.st, "download_button", side_effect=capture):
         at = start_html()
         result = convert(at, fixture(direction, edition), direction)
+        assert save_available(at) and not at.get("download_button")
+        at.button(key="html_recovery_prepare_save").click().run()
+        assert not at.exception
     assert result["text"] == EXPECTED
     assert result["assignment_edition"] == edition
     assert result["mode"] == direction
@@ -73,24 +80,24 @@ def test_actual_standard_html_and_download_preserve_source(direction, edition):
 def test_input_direction_source_and_mode_changes_remove_html_download():
     at = start_html()
     convert(at, fixture())
-    assert at.get("download_button")
+    assert save_available(at) and not at.get("download_button")
     at.text_area(key="html_recovery_paste").set_value(fixture(edition="legacy")).run()
-    assert not at.get("download_button")
+    assert not save_available(at) and not at.get("download_button")
     at.button(key="html_recovery_submit").click().run()
     assert at.session_state["html_recovery_result"]["assignment_edition"] == "legacy"
     at.radio(key="html_recovery_direction").set_value("annotation").run()
-    assert not at.get("download_button")
+    assert not save_available(at) and not at.get("download_button")
     convert(at, fixture("annotation"), "annotation")
     at.radio(key="html_recovery_source_kind").set_value("upload").run()
-    assert not at.get("download_button") and not at.text_area
+    assert not save_available(at) and not at.get("download_button") and not at.text_area
     at.radio(key="html_recovery_source_kind").set_value("paste").run()
-    assert not at.get("download_button")
+    assert not save_available(at) and not at.get("download_button")
     convert(at, fixture())
     at.radio(key="reverter_input_mode").set_value("plain").run()
     assert not at.exception
     assert not any(button.proto.label in ("復元した原語をダウンロード", "下载还原的原文") for button in at.get("download_button"))
     at.radio(key="reverter_input_mode").set_value("html").run()
-    assert not at.get("download_button")
+    assert not save_available(at) and not at.get("download_button")
 
 
 def upload_file(raw):
@@ -110,19 +117,19 @@ def test_upload_content_switch_and_invalid_utf8_cannot_reuse_result():
         at.button(key="html_recovery_submit").click().run()
     assert not at.exception
     assert at.session_state["html_recovery_result"]["text"] == EXPECTED
-    assert at.get("download_button")
+    assert save_available(at) and not at.get("download_button")
     old = upload_file(b"\xef\xbb\xbf" + fixture(edition="legacy").replace(" signature:", "  signature:", 1).encode("utf-8"))
     assert old.size == current.size and old.name == current.name
     with patch.object(app.st, "file_uploader", return_value=old):
         at.run()
-        assert not at.get("download_button")
+        assert not save_available(at) and not at.get("download_button")
         at.button(key="html_recovery_submit").click().run()
     assert at.session_state["html_recovery_result"]["assignment_edition"] == "legacy"
     with patch.object(app.st, "file_uploader", return_value=upload_file(b"\xff")):
         at.run()
     assert not at.exception and at.error
     assert at.button(key="html_recovery_submit").disabled
-    assert not at.get("download_button")
+    assert not save_available(at) and not at.get("download_button")
 
 
 def test_parse_failure_does_not_offer_previous_success():
@@ -131,7 +138,7 @@ def test_parse_failure_does_not_offer_previous_success():
     at.text_area(key="html_recovery_paste").set_value("This is plain text")
     at.button(key="html_recovery_submit").click().run()
     assert not at.exception and at.error
-    assert not at.get("download_button")
+    assert not save_available(at) and not at.get("download_button")
 
 
 def test_html_mode_bypasses_dictionary_sidebar_loading_and_conversion():

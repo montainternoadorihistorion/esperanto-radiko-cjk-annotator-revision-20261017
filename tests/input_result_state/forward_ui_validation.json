@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "languages": [
+    {
+      "language": "JA",
+      "passed": true,
+      "download_checks": 22,
+      "state_checks": 30,
+      "report": "app_ui_dialog_JA.json"
+    },
+    {
+      "language": "ZH",
+      "passed": true,
+      "download_checks": 22,
+      "state_checks": 30,
+      "report": "app_ui_dialog_ZH.json"
+    },
+    {
+      "language": "KO",
+      "passed": true,
+      "download_checks": 22,
+      "state_checks": 30,
+      "report": "app_ui_dialog_KO.json"
+    }
+  ],
+  "total_download_checks": 66,
+  "total_state_checks": 90,
+  "language_edition_mode_routes": 18,
+  "modal": {
+    "editing_page_has_no_native_result_download": true,
+    "prepare_with_pending_input_checked": true,
+    "dismiss_requires_new_confirmation": true,
+    "snapshot_download_bytes_checked": true
+  },
+  "source_invariants": "forward_source_invariants.json",
+  "limitations": "AppTest does not simulate frontend blur/download races. Root independently verified the actual local browser behavior; see ../local_modal_probe.json. No browser operation or deployment performed by this subagent.",
+  "successful_conversion_submissions": 30
+}

@@ -3,6 +3,7 @@
 
 import streamlit as st
 import esp_assignment_edition as editions
+import esp_input_state as input_state
 import re
 import io
 import json
@@ -73,9 +74,10 @@ st.write("---")
 assignment_edition = editions.select_edition(DATA_DIR)
 _custom_json_sha = None
 
-selected_option = st.radio(
+selected_option = input_state.persistent_radio(
     "변환 모드 선택:",
-    ("📖 주석 루비（어근 위에 한국어 주석）", "🈶 한자화（한자＋어근 루비）", "✂️ 한자화·순수 치환（태그 없는 텍스트）", "📤 사용자 JSON 사용（고급）")
+    ("📖 주석 루비（어근 위에 한국어 주석）", "🈶 한자화（한자＋어근 루비）", "✂️ 한자화·순수 치환（태그 없는 텍스트）", "📤 사용자 JSON 사용（고급）"),
+    key="_conversion_mode_widget",
 )
 
 st.caption("처음이라면 기본값인 **「📖 주석 루비」** 그대로 진행하세요(원문은 그대로, 어근 위에 한국어 주석이 표시됩니다).")
@@ -249,40 +251,37 @@ else:
     format_type = dict(_FMT_CHOICES)[_sel]
 
 
-# フォーム外で、変数 processed_text を初期化しておく
+# 入力表示前に、変数 processed_text を初期化しておく
 processed_text = ""
 
 #=================================================================
 # 4) 入力テキストのソースを選択 (手動入力 or ファイルアップロード)
 #=================================================================
 st.subheader("입력 텍스트의 소스")
-source_option = st.radio("입력 텍스트를 어떻게 하시겠습니까?", ("직접 입력", "파일 업로드"))
-uploaded_text = ""
-
-# ファイルアップロードが選択された場合
-if source_option == "파일 업로드":
-    text_file = st.file_uploader("텍스트 파일을 업로드하십시오 (UTF-8)", type=["txt", "csv", "md"])
+source_option = input_state.persistent_radio(
+    "입력 텍스트를 어떻게 하시겠습니까?",
+    ("직접 입력", "파일 업로드"),
+    key="_source_option_widget",
+)
+# Source uploads are applied before the editor; invalid files never replace a draft.
+_source_ready = True
+_source_upload_identity = None
+if source_option == '파일 업로드':
+    text_file = st.file_uploader('텍스트 파일을 업로드하십시오 (UTF-8)', type=["txt", "csv", "md"], key="_source_text_upload")
     if text_file is not None:
-        uploaded_text = text_file.read().decode("utf-8", errors="replace")
-        st.info("파일을 불러왔습니다.")
+        try:
+            _source_upload_identity = input_state.apply_text_upload(text_file)
+            st.info('파일을 불러왔습니다.')
+        except UnicodeDecodeError:
+            _source_ready = False
+            st.error('올바른 UTF-8 파일이 아니므로 입력 내용을 바꾸지 않았습니다. UTF-8로 저장한 후 다시 업로드해 주세요.')
     else:
-        st.warning("텍스트 파일이 업로드되지 않았습니다. 직접 입력으로 전환하거나 파일을 업로드해 주십시오.")
-
-#=================================================================
-# フォーム: 実行ボタン(送信/キャンセル)を配置
-#  - テキストエリアにエスペラント文を入力してもらう
-#=================================================================
-# 업로드가 있으면 폼 생성 전에 session_state 에 반영 (key 바인딩의 초기값으로)
-if uploaded_text:
-    # 同一ファイルの再セットは初回のみ(欄内の手動修正が毎rerunで上書き破棄されるのを防ぐ)
-    _tfid = getattr(text_file, "file_id", True)
-    if st.session_state.get("_last_text_upload") != _tfid:
-        st.session_state["text0_value"] = uploaded_text
-        st.session_state["_last_text_upload"] = _tfid
+        _source_ready = False
+        st.warning('텍스트 파일이 업로드되지 않았습니다. 직접 입력으로 전환하거나 파일을 업로드해 주십시오.')
 
 _c1, _c2 = st.columns([1, 3])
 with _c1:
-    st.button("📝 샘플 문장 넣기", on_click=lambda: st.session_state.update(text0_value='Saluton! Ĉu vi jam aŭdis, ke Esperanto estas internacia lingvo? Mi eĉ komencis lerni ĝin hodiaŭ, ĉar la komputilo kaj la telefono faciligas la lernadon. La amikeco inter la popoloj kreskas ĉiutage.'))
+    st.button("📝 샘플 문장 넣기", on_click=lambda: input_state.set_text('Saluton! Ĉu vi jam aŭdis, ke Esperanto estas internacia lingvo? Mi eĉ komencis lerni ĝin hodiaŭ, ĉar la komputilo kaj la telefono faciligas la lernadon. La amikeco inter la popoloj kreskas ĉiutage.'))
 with _c2:
     st.caption("처음이신가요? 버튼을 누르면 샘플 문장이 입력되어 바로 변환을 체험할 수 있습니다.")
 
@@ -290,22 +289,22 @@ with _c2:
 if "text0_value" not in st.session_state and "_text0_keep" in st.session_state:
     st.session_state["text0_value"] = st.session_state["_text0_keep"]
 
-with st.form(key='profile_form'):
 
-    # text_area 를 key="text0_value" 로 session_state 와 양방향 바인딩한다.
-    # 기존 방식(value=initial_text)은 제출 시 위젯이 이전 값으로 되돌려져
-    # "제출하면 한 번은 이전 입력으로 변환된다(한 스텝 지연)" 버그의 원인이었다.
-    # key= 방식은 제출 시 현재 입력이 즉시 반영된다.
-    text0 = st.text_area(
-        "에스페란토 문장을 입력해 주십시오",
-        height=150,
-        key="text0_value"
-    )
-    st.session_state["_text0_keep"] = text0  # st.stop経路のwidget cleanup対策(非ウィジェットキーは生存)
-    st.caption("💡 모자 기호 문자는 **cx / c^ / ĉ** 어느 표기로도 입력할 수 있습니다(예: sxatas·s^atas·ŝatas). 긴 글(수천 행)은 변환에 수십 초 걸릴 수 있습니다.")
+# text_area 를 key="text0_value" 로 session_state 와 양방향 바인딩한다.
+# 기존 방식(value=initial_text)은 제출 시 위젯이 이전 값으로 되돌려져
+# "제출하면 한 번은 이전 입력으로 변환된다(한 스텝 지연)" 버그의 원인이었다.
+# key= 방식은 제출 시 현재 입력이 즉시 반영된다.
+text0 = st.text_area(
+    "에스페란토 문장을 입력해 주십시오",
+    height=150,
+    key="text0_value",
+    on_change=input_state.remember_text,
+)
+st.session_state["_text0_keep"] = text0  # st.stop経路のwidget cleanup対策(非ウィジェットキーは生存)
+st.caption("💡 모자 기호 문자는 **cx / c^ / ĉ** 어느 표기로도 입력할 수 있습니다(예: sxatas·s^atas·ŝatas). 긴 글(수천 행)은 변환에 수십 초 걸릴 수 있습니다.")
 
-    with st.expander("🔖 부분 변환 조정(%·@ 마커)"):
-        st.markdown("""
+with st.expander("🔖 부분 변환 조정(%·@ 마커)"):
+    st.markdown("""
 - `%...%` 로 감싼 부분은 **어근 변환을 건너뜁니다**(같은 줄에서 50자 이내. 문자 표기와 공백은 정규화됩니다).
   예: `%Universala Kongreso% okazos.`
 - `@...@` 로 감싼 부분은 **국소 치환 목록으로 처리하고 양 끝의 @를 제거합니다**(같은 줄에서 단어의 일부도 지정할 수 있습니다).
@@ -314,94 +313,101 @@ with st.form(key='profile_form'):
 """)
 
 
-    # 출力文字形式 (エスペラント特有文字の表記形式)
-    letter_type = st.radio('에스페란토 문자 표기(출력)', ('ĉ ĝ ĥ ĵ ŝ ŭ (표준)', 'cx gx hx jx sx ux (x형식)', 'c^ g^ h^ j^ s^ u^ (^형식)'))
+# 출力文字形式 (エスペラント特有文字の表記形式)
+letter_type = input_state.persistent_radio(
+    '에스페란토 문자 표기(출력)',
+    ('ĉ ĝ ĥ ĵ ŝ ŭ (표준)', 'cx gx hx jx sx ux (x형식)', 'c^ g^ h^ j^ s^ u^ (^형식)'),
+    key="_letter_type_widget",
+)
 
-    submit_btn = st.form_submit_button('🔁 변환하기', type="primary")
+_current_input_signature = input_state.input_signature(text0, source_option, _source_upload_identity)
+submit_btn = st.button('🔁 변환하기', type="primary", key="convert_text", disabled=not _source_ready)
 
 
-    if submit_btn and not (text0 or "").strip():
-        st.warning("텍스트가 비어 있습니다. 에스페란토 문장을 입력한 뒤 「변환하기」를 눌러주세요.")
-        st.stop()
+if submit_btn and not (text0 or "").strip():
+    st.warning("텍스트가 비어 있습니다. 에스페란토 문장을 입력한 뒤 「변환하기」를 눌러주세요.")
+    st.stop()
 
-    if submit_btn:
-        # text0 는 key="text0_value" 로 session_state 와 양방향 바인딩되어 있다.
-        # 여기서 수동 대입하면 위젯 생성 후 session_state 변경이 되어 오류가 나므로 하지 않는다.
+if submit_btn:
+    # text0 는 key="text0_value" 로 session_state 와 양방향 바인딩되어 있다.
+    # 여기서 수동 대입하면 위젯 생성 후 session_state 변경이 되어 오류가 나므로 하지 않는다.
 
-        if use_parallel:
-            processed_text = parallel_process(
-                text=text0,
-                num_processes=num_processes,
-                placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
-                replacements_list_for_localized_string=replacements_list_for_localized_string,
-                placeholders_for_localized_replacement=placeholders_for_localized_replacement,
-                replacements_final_list=replacements_final_list,
-                replacements_list_for_2char=replacements_list_for_2char,
-                format_type=format_type
-            )
-        else:
-            processed_text = orchestrate_comprehensive_esperanto_text_replacement(
-                text=text0,
-                placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
-                replacements_list_for_localized_string=replacements_list_for_localized_string,
-                placeholders_for_localized_replacement=placeholders_for_localized_replacement,
-                replacements_final_list=replacements_final_list,
-                replacements_list_for_2char=replacements_list_for_2char,
-                format_type=format_type
-            )
+    if use_parallel:
+        processed_text = parallel_process(
+            text=text0,
+            num_processes=num_processes,
+            placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
+            replacements_list_for_localized_string=replacements_list_for_localized_string,
+            placeholders_for_localized_replacement=placeholders_for_localized_replacement,
+            replacements_final_list=replacements_final_list,
+            replacements_list_for_2char=replacements_list_for_2char,
+            format_type=format_type
+        )
+    else:
+        processed_text = orchestrate_comprehensive_esperanto_text_replacement(
+            text=text0,
+            placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
+            replacements_list_for_localized_string=replacements_list_for_localized_string,
+            placeholders_for_localized_replacement=placeholders_for_localized_replacement,
+            replacements_final_list=replacements_final_list,
+            replacements_list_for_2char=replacements_list_for_2char,
+            format_type=format_type
+        )
 
-        # 1차 결과에 「어두 1자 고립」 과분해(자음 1자 고립: fero->f/er/o 등)가 있으면,
-        # 자동 보정을 최우선으로 merge 하여 2차 렌더링(메커니즘 차원에서 결함 클래스 제거). 고립 없으면 미처리.
-        try:
-            import esp_overlay_module as _ovx
-            _afmode = "kanji" if selected_option in ("🈶 한자화（한자＋어근 루비）", "✂️ 한자화·순수 치환（태그 없는 텍스트）") else "ruby"  # sample_btn_marker
-            _auto_strip_pure = (selected_option == "✂️ 한자화·순수 치환（태그 없는 텍스트）")
-            _auto = _ovx.auto_overlay_entries(processed_text, DATA_DIR, _afmode, assignment_edition)
-            if _auto and _auto_strip_pure:
-                import re as _re_af
-                _auto = [[o, _re_af.sub(r"</?ruby>", "", _re_af.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_af.DOTALL | _re_af.IGNORECASE), flags=_re_af.IGNORECASE), ph] for o, n, ph in _auto]
-            if _auto:
-                _GGx = _ovx.merge_overlay(replacements_final_list, _auto)
-                if use_parallel:
-                    processed_text = parallel_process(
-                        text=text0, num_processes=num_processes,
-                        placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
-                        replacements_list_for_localized_string=replacements_list_for_localized_string,
-                        placeholders_for_localized_replacement=placeholders_for_localized_replacement,
-                        replacements_final_list=_GGx,
-                        replacements_list_for_2char=replacements_list_for_2char,
-                        format_type=format_type)
-                else:
-                    processed_text = orchestrate_comprehensive_esperanto_text_replacement(
-                        text=text0,
-                        placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
-                        replacements_list_for_localized_string=replacements_list_for_localized_string,
-                        placeholders_for_localized_replacement=placeholders_for_localized_replacement,
-                        replacements_final_list=_GGx,
-                        replacements_list_for_2char=replacements_list_for_2char,
-                        format_type=format_type)
-        except Exception:
-            pass
+    # 1차 결과에 「어두 1자 고립」 과분해(자음 1자 고립: fero->f/er/o 등)가 있으면,
+    # 자동 보정을 최우선으로 merge 하여 2차 렌더링(메커니즘 차원에서 결함 클래스 제거). 고립 없으면 미처리.
+    try:
+        import esp_overlay_module as _ovx
+        _afmode = "kanji" if selected_option in ("🈶 한자화（한자＋어근 루비）", "✂️ 한자화·순수 치환（태그 없는 텍스트）") else "ruby"  # sample_btn_marker
+        _auto_strip_pure = (selected_option == "✂️ 한자화·순수 치환（태그 없는 텍스트）")
+        _auto = _ovx.auto_overlay_entries(processed_text, DATA_DIR, _afmode, assignment_edition)
+        if _auto and _auto_strip_pure:
+            import re as _re_af
+            _auto = [[o, _re_af.sub(r"</?ruby>", "", _re_af.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_af.DOTALL | _re_af.IGNORECASE), flags=_re_af.IGNORECASE), ph] for o, n, ph in _auto]
+        if _auto:
+            _GGx = _ovx.merge_overlay(replacements_final_list, _auto)
+            if use_parallel:
+                processed_text = parallel_process(
+                    text=text0, num_processes=num_processes,
+                    placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
+                    replacements_list_for_localized_string=replacements_list_for_localized_string,
+                    placeholders_for_localized_replacement=placeholders_for_localized_replacement,
+                    replacements_final_list=_GGx,
+                    replacements_list_for_2char=replacements_list_for_2char,
+                    format_type=format_type)
+            else:
+                processed_text = orchestrate_comprehensive_esperanto_text_replacement(
+                    text=text0,
+                    placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
+                    replacements_list_for_localized_string=replacements_list_for_localized_string,
+                    placeholders_for_localized_replacement=placeholders_for_localized_replacement,
+                    replacements_final_list=_GGx,
+                    replacements_list_for_2char=replacements_list_for_2char,
+                    format_type=format_type)
+    except Exception:
+        pass
 
-        # letter_type에 따라 최종 에스페란토 문자 표기를 변환
-        if letter_type == 'ĉ ĝ ĥ ĵ ŝ ŭ (표준)':
-            processed_text = replace_esperanto_chars(processed_text, x_to_circumflex)
-            processed_text = replace_esperanto_chars(processed_text, hat_to_circumflex)
-        elif letter_type == 'cx gx hx jx sx ux (x형식)':
-            processed_text = replace_esperanto_chars(processed_text, circumflex_to_x)
-            processed_text = replace_esperanto_chars(processed_text, hat_to_x)
-        elif letter_type == 'c^ g^ h^ j^ s^ u^ (^형식)':
-            processed_text = replace_esperanto_chars(processed_text, x_to_hat)
-            processed_text = replace_esperanto_chars(processed_text, circumflex_to_hat)
+    # letter_type에 따라 최종 에스페란토 문자 표기를 변환
+    if letter_type == 'ĉ ĝ ĥ ĵ ŝ ŭ (표준)':
+        processed_text = replace_esperanto_chars(processed_text, x_to_circumflex)
+        processed_text = replace_esperanto_chars(processed_text, hat_to_circumflex)
+    elif letter_type == 'cx gx hx jx sx ux (x형식)':
+        processed_text = replace_esperanto_chars(processed_text, circumflex_to_x)
+        processed_text = replace_esperanto_chars(processed_text, hat_to_x)
+    elif letter_type == 'c^ g^ h^ j^ s^ u^ (^형식)':
+        processed_text = replace_esperanto_chars(processed_text, x_to_hat)
+        processed_text = replace_esperanto_chars(processed_text, circumflex_to_hat)
 
-        processed_text = apply_ruby_html_header_and_footer(processed_text, format_type)
+    processed_text = apply_ruby_html_header_and_footer(processed_text, format_type)
 
-        # 결과를 session_state 에 저장(재실행 시 사라지지 않도록＋결과를 편집 가능하게)
-        st.session_state["result_html"] = processed_text
-        st.session_state["result_assignment_metadata"] = editions.result_metadata(DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type})
-        st.session_state["edited_html"] = processed_text          # 편집용 초기값＝생성 결과
-        st.session_state["result_is_html"] = ("HTML" in format_type)
-        st.toast("✅ 변환 완료! 아래에 결과가 표시됩니다.")
+    # 결과를 session_state 에 저장(재실행 시 사라지지 않도록＋결과를 편집 가능하게)
+    st.session_state["result_html"] = processed_text
+    st.session_state["result_input_signature"] = _current_input_signature
+    st.session_state["_edited_html_keep"] = processed_text
+    st.session_state["result_assignment_metadata"] = editions.result_metadata(DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type})
+    st.session_state["edited_html"] = processed_text          # 편집용 초기값＝생성 결과
+    st.session_state["result_is_html"] = ("HTML" in format_type)
+    st.toast("✅ 변환 완료! 아래에 결과가 표시됩니다.")
 
 #=================================================================
 # フォーム外의 処理: 結果 미리보기・편집・다운로드
@@ -409,16 +415,21 @@ with st.form(key='profile_form'):
 def _reset_edited_html():
     # “편집 취소” 콜백(위젯 생성 후 session_state 변경은 오류가 나므로 콜백에서 생성 결과로 되돌림)
     st.session_state["edited_html"] = st.session_state.get("result_html", "")
+    st.session_state["_edited_html_keep"] = st.session_state["edited_html"]
 
 _result_meta = st.session_state.get("result_assignment_metadata")
-_matching_result = editions.result_matches(_result_meta, DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type})
+_matching_input = _source_ready and st.session_state.get("result_input_signature") == _current_input_signature
+_matching_result = editions.result_matches(_result_meta, DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type}) and _matching_input
 if st.session_state.get("result_html") and not _matching_result:
-    editions.stale_result_notice(DATA_DIR, _result_meta)
+    if not _matching_input:
+        st.info('입력 내용 또는 입력 방식이 변경되었습니다. 다시 변환한 후 저장해 주세요.')
+    else:
+        editions.stale_result_notice(DATA_DIR, _result_meta)
 
 if st.session_state.get("result_html") and _matching_result:
     # st.stop()経路(自作JSON未アップロード等)のwidget cleanupで edited_html が消えた場合の再シード
     if "edited_html" not in st.session_state:
-        st.session_state["edited_html"] = st.session_state["result_html"]
+        st.session_state["edited_html"] = st.session_state.get("_edited_html_keep", st.session_state["result_html"])
     st.caption("「치환 결과(HTML 소스, 편집 가능)」탭에서 출력을 직접 수정할 수 있습니다. "
                "수정은 미리보기와 다운로드에 반영됩니다(다시 변환하면 생성 결과로 돌아갑니다).")
 
@@ -444,6 +455,7 @@ if st.session_state.get("result_html") and _matching_result:
             st.text_area(
                 "출력 HTML을 직접 편집할 수 있습니다(편집 후 미리보기와 다운로드에 반영됩니다)",
                 key="edited_html",
+                on_change=input_state.remember_edited_text,
                 height=300
             )
             st.button("편집을 취소하고 생성 결과로 되돌리기", on_click=_reset_edited_html)
@@ -453,7 +465,7 @@ if st.session_state.get("result_html") and _matching_result:
         with tab3_list[0]:
             st.code(preview_text, language=None)
         with tab3_list[1]:
-            st.text_area("출력을 직접 편집할 수 있습니다", key="edited_html", height=300)
+            st.text_area("출력을 직접 편집할 수 있습니다", key="edited_html", on_change=input_state.remember_edited_text, height=300)
             st.button("편집을 취소하고 생성 결과로 되돌리기", on_click=_reset_edited_html)
         download_name = "치환결과.txt"
 
@@ -461,12 +473,14 @@ if st.session_state.get("result_html") and _matching_result:
     download_name = editions.download_filename(os.path.splitext(download_name)[0], _result_meta, _extension)
     _download_text = (editions.html_download_metadata(_result_meta) if _extension == "html" else "") + current_html
     download_data = _download_text.encode('utf-8')
-    st.download_button(
-        label="치환 결과 다운로드(편집 반영)",
-        data=download_data,
-        file_name=download_name,
-        mime="text/html"
-    )
+    if st.button("저장 내용 확인", key="confirm_download"):
+        input_state.confirm_download(
+            text=current_html, data=download_data, filename=download_name,
+            is_html=(_extension == "html"),
+            edition_label=_result_meta["edition_label"],
+            title="저장할 내용", content_label="저장할 텍스트",
+            download_label="치환 결과 다운로드(편집 반영)",
+        )
     st.caption("※ 다운로드한 .html 파일은 **더블클릭하면 브라우저에서 루비가 표시된 상태로** 열립니다. Word 등에 붙여넣으려면 브라우저에서 연 뒤 복사하세요.")
     st.page_link("pages/1_🔧_어근 분해 수동 보정.py", label="🔧 잘못된 분해 발견 → 수동 보정 페이지에서 수정(즉시 반영)")
 

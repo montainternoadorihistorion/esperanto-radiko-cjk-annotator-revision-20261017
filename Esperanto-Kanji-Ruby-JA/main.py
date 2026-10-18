@@ -2,6 +2,7 @@
 
 import streamlit as st
 import esp_assignment_edition as editions
+import esp_input_state as input_state
 import re
 import io
 import os
@@ -55,9 +56,10 @@ st.write("---")
 assignment_edition = editions.select_edition(DATA_DIR)
 _custom_json_sha = None
 
-selected_option = st.radio(
+selected_option = input_state.persistent_radio(
     "変換モードを選択:",
-    ("📖 注釈ルビ（語根の上に日本語訳）", "🈶 漢字化（漢字＋語根ルビ）", "✂️ 漢字化・純粋置換（タグなしテキスト）", "📤 自作JSONを使う（上級）")
+    ("📖 注釈ルビ（語根の上に日本語訳）", "🈶 漢字化（漢字＋語根ルビ）", "✂️ 漢字化・純粋置換（タグなしテキスト）", "📤 自作JSONを使う（上級）"),
+    key="_conversion_mode_widget",
 )
 
 st.caption("はじめての方は **「📖 注釈ルビ」のまま**でOKです（原文はそのまま、語根の上に日本語訳が付きます）。")
@@ -213,34 +215,36 @@ else:
     )
     format_type = dict(_FMT_CHOICES)[_sel]
 
-# フォーム外で、変数 processed_text を初期化
+# 入力表示前に、変数 processed_text を初期化
 processed_text = ""
 
 # 4) 入力テキストのソースを選択 (アップロード or テキストエリア)
 st.subheader("入力テキストのソース")
-source_option = st.radio("入力テキストをどうしますか？", ("手動入力", "ファイルアップロード"))
+source_option = input_state.persistent_radio(
+    "入力テキストをどうしますか？",
+    ("手動入力", "ファイルアップロード"),
+    key="_source_option_widget",
+)
 
-uploaded_text = ""
-if source_option == "ファイルアップロード":
-    text_file = st.file_uploader("テキストファイルをアップロード (UTF-8)", type=["txt", "csv", "md"])
+# Source uploads are applied before the editor; invalid files never replace a draft.
+_source_ready = True
+_source_upload_identity = None
+if source_option == 'ファイルアップロード':
+    text_file = st.file_uploader('テキストファイルをアップロード (UTF-8)', type=["txt", "csv", "md"], key="_source_text_upload")
     if text_file is not None:
-        uploaded_text = text_file.read().decode("utf-8", errors="replace")
-        st.info("ファイルを読み込みました。")
+        try:
+            _source_upload_identity = input_state.apply_text_upload(text_file)
+            st.info('ファイルを読み込みました。')
+        except UnicodeDecodeError:
+            _source_ready = False
+            st.error('UTF-8として読み込めないファイルです。入力欄は変更していません。UTF-8で保存し直してアップロードしてください。')
     else:
-        st.warning("テキストファイルがアップロードされていません。手動入力に切り替えるかファイルをアップロードしてください。")
-
-
-# アップロードがあれば、フォーム生成前に session_state へ反映(key バインドの初期値として)
-if uploaded_text:
-    # 同一ファイルの再セットは初回のみ(欄内の手動修正が毎rerunで上書き破棄されるのを防ぐ)
-    _tfid = getattr(text_file, "file_id", True)
-    if st.session_state.get("_last_text_upload") != _tfid:
-        st.session_state["text0_value"] = uploaded_text
-        st.session_state["_last_text_upload"] = _tfid
+        _source_ready = False
+        st.warning('テキストファイルがアップロードされていません。手動入力に切り替えるかファイルをアップロードしてください。')
 
 _c1, _c2 = st.columns([1, 3])
 with _c1:
-    st.button("📝 サンプル文を入力する", on_click=lambda: st.session_state.update(text0_value='Saluton! Ĉu vi jam aŭdis, ke Esperanto estas internacia lingvo? Mi eĉ komencis lerni ĝin hodiaŭ, ĉar la komputilo kaj la telefono faciligas la lernadon. La amikeco inter la popoloj kreskas ĉiutage.'))
+    st.button("📝 サンプル文を入力する", on_click=lambda: input_state.set_text('Saluton! Ĉu vi jam aŭdis, ke Esperanto estas internacia lingvo? Mi eĉ komencis lerni ĝin hodiaŭ, ĉar la komputilo kaj la telefono faciligas la lernadon. La amikeco inter la popoloj kreskas ĉiutage.'))
 with _c2:
     st.caption("はじめての方へ: ボタンを押すとサンプル文が入り、すぐ変換を試せます。")
 
@@ -248,21 +252,21 @@ with _c2:
 if "text0_value" not in st.session_state and "_text0_keep" in st.session_state:
     st.session_state["text0_value"] = st.session_state["_text0_keep"]
 
-with st.form(key='profile_form'):
-    # text_area を key="text0_value" で session_state と双方向バインドする。
-    # 旧方式(value=initial_text で session_state を初期値にする)は、送信時にウィジェットが
-    # value= で前回値に戻され「1つ前の入力で変換される(1ステップ遅延)」バグの原因だった。
-    # key= 方式では送信時に現在の入力がそのまま反映される。
-    text0 = st.text_area(
-        "エスペラントの文章を入力してください",
-        height=150,
-        key="text0_value"
-    )
-    st.session_state["_text0_keep"] = text0  # st.stop経路のwidget cleanup対策(非ウィジェットキーは生存)
-    st.caption("💡 字上符付き文字は **cx / c^ / ĉ** のどの表記でも入力できます(例: sxatas・s^atas・ŝatas)。長文(数千行)は変換に数十秒かかることがあります。")
+# text_area を key="text0_value" で session_state と双方向バインドする。
+# 旧方式(value=initial_text で session_state を初期値にする)は、送信時にウィジェットが
+# value= で前回値に戻され「1つ前の入力で変換される(1ステップ遅延)」バグの原因だった。
+# key= 方式では送信時に現在の入力がそのまま反映される。
+text0 = st.text_area(
+    "エスペラントの文章を入力してください",
+    height=150,
+    key="text0_value",
+    on_change=input_state.remember_text,
+)
+st.session_state["_text0_keep"] = text0  # st.stop経路のwidget cleanup対策(非ウィジェットキーは生存)
+st.caption("💡 字上符付き文字は **cx / c^ / ĉ** のどの表記でも入力できます(例: sxatas・s^atas・ŝatas)。長文(数千行)は変換に数十秒かかることがあります。")
 
-    with st.expander("🔖 一部の変換を調整する(%・@マーカー)"):
-        st.markdown("""
+with st.expander("🔖 一部の変換を調整する(%・@マーカー)"):
+    st.markdown("""
 - `%...%` で囲んだ部分は**語根変換せずに保持**します(同一行・50文字以内。字上符と空白の正規化は行います)。
   例: `%Universala Kongreso% okazos.` → **Universala Kongreso** はそのまま
 - `@...@` で囲んだ部分を**局所置換リストで処理し、囲みの@を除きます**(同一行。語の一部分も指定できます)。
@@ -270,94 +274,101 @@ with st.form(key='profile_form'):
 - メールアドレスの@は囲みとして扱いません。文字列全体をそのまま残す場合は `%...%` を使ってください。
 """)
 
-    letter_type = st.radio('エスペラント文字の表記(出力)', ('ĉ ĝ ĥ ĵ ŝ ŭ (標準)', 'cx gx hx jx sx ux (x形式)', 'c^ g^ h^ j^ s^ u^ (^形式)'))
+letter_type = input_state.persistent_radio(
+    'エスペラント文字の表記(出力)',
+    ('ĉ ĝ ĥ ĵ ŝ ŭ (標準)', 'cx gx hx jx sx ux (x形式)', 'c^ g^ h^ j^ s^ u^ (^形式)'),
+    key="_letter_type_widget",
+)
 
-    submit_btn = st.form_submit_button('🔁 変換する', type="primary")
+_current_input_signature = input_state.input_signature(text0, source_option, _source_upload_identity)
+submit_btn = st.button('🔁 変換する', type="primary", key="convert_text", disabled=not _source_ready)
 
 
-    if submit_btn and not (text0 or "").strip():
-        st.warning("テキストが空です。エスペラント文を入力してから「変換する」を押してください。")
-        st.stop()
+if submit_btn and not (text0 or "").strip():
+    st.warning("テキストが空です。エスペラント文を入力してから「変換する」を押してください。")
+    st.stop()
 
-    if submit_btn:
-        # text0 は key="text0_value" で session_state と双方向バインド済み。
-        # ここで手動代入するとウィジェット生成後の session_state 変更となりエラーになるため行わない。
+if submit_btn:
+    # text0 は key="text0_value" で session_state と双方向バインド済み。
+    # ここで手動代入するとウィジェット生成後の session_state 変更となりエラーになるため行わない。
 
-        if use_parallel:
-            processed_text = parallel_process(
-                text=text0,
-                num_processes=num_processes,
-                placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
-                replacements_list_for_localized_string=replacements_list_for_localized_string,
-                placeholders_for_localized_replacement=placeholders_for_localized_replacement,
-                replacements_final_list=replacements_final_list,
-                replacements_list_for_2char=replacements_list_for_2char,
-                format_type=format_type
-            )
-        else:
-            processed_text = orchestrate_comprehensive_esperanto_text_replacement(
-                text=text0,
-                placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
-                replacements_list_for_localized_string=replacements_list_for_localized_string,
-                placeholders_for_localized_replacement=placeholders_for_localized_replacement,
-                replacements_final_list=replacements_final_list,
-                replacements_list_for_2char=replacements_list_for_2char,
-                format_type=format_type
-            )
+    if use_parallel:
+        processed_text = parallel_process(
+            text=text0,
+            num_processes=num_processes,
+            placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
+            replacements_list_for_localized_string=replacements_list_for_localized_string,
+            placeholders_for_localized_replacement=placeholders_for_localized_replacement,
+            replacements_final_list=replacements_final_list,
+            replacements_list_for_2char=replacements_list_for_2char,
+            format_type=format_type
+        )
+    else:
+        processed_text = orchestrate_comprehensive_esperanto_text_replacement(
+            text=text0,
+            placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
+            replacements_list_for_localized_string=replacements_list_for_localized_string,
+            placeholders_for_localized_replacement=placeholders_for_localized_replacement,
+            replacements_final_list=replacements_final_list,
+            replacements_list_for_2char=replacements_list_for_2char,
+            format_type=format_type
+        )
 
-        # 1パス目に「先頭1字孤立」過分解(子音1字の遊離: fero->f/er/o 等)があれば、
-        # 自動補正を最優先でmergeして2パス目を描画(機構レベルで欠陥クラスを一掃)。
-        # 孤立が無ければ何もしない(通常テキストは大半がこれ)。
-        try:
-            import esp_overlay_module as _ovx
-            _afmode = "kanji" if selected_option in ("🈶 漢字化（漢字＋語根ルビ）", "✂️ 漢字化・純粋置換（タグなしテキスト）") else "ruby"  # sample_btn_marker
-            _auto_strip_pure = (selected_option == "✂️ 漢字化・純粋置換（タグなしテキスト）")
-            _auto = _ovx.auto_overlay_entries(processed_text, DATA_DIR, _afmode, assignment_edition)
-            if _auto and _auto_strip_pure:
-                import re as _re_af
-                _auto = [[o, _re_af.sub(r"</?ruby>", "", _re_af.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_af.DOTALL | _re_af.IGNORECASE), flags=_re_af.IGNORECASE), ph] for o, n, ph in _auto]
-            if _auto:
-                _GGx = _ovx.merge_overlay(replacements_final_list, _auto)
-                if use_parallel:
-                    processed_text = parallel_process(
-                        text=text0, num_processes=num_processes,
-                        placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
-                        replacements_list_for_localized_string=replacements_list_for_localized_string,
-                        placeholders_for_localized_replacement=placeholders_for_localized_replacement,
-                        replacements_final_list=_GGx,
-                        replacements_list_for_2char=replacements_list_for_2char,
-                        format_type=format_type)
-                else:
-                    processed_text = orchestrate_comprehensive_esperanto_text_replacement(
-                        text=text0,
-                        placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
-                        replacements_list_for_localized_string=replacements_list_for_localized_string,
-                        placeholders_for_localized_replacement=placeholders_for_localized_replacement,
-                        replacements_final_list=_GGx,
-                        replacements_list_for_2char=replacements_list_for_2char,
-                        format_type=format_type)
-        except Exception:
-            pass  # 自動補正は任意。失敗しても1パス目の結果をそのまま使う。
+    # 1パス目に「先頭1字孤立」過分解(子音1字の遊離: fero->f/er/o 等)があれば、
+    # 自動補正を最優先でmergeして2パス目を描画(機構レベルで欠陥クラスを一掃)。
+    # 孤立が無ければ何もしない(通常テキストは大半がこれ)。
+    try:
+        import esp_overlay_module as _ovx
+        _afmode = "kanji" if selected_option in ("🈶 漢字化（漢字＋語根ルビ）", "✂️ 漢字化・純粋置換（タグなしテキスト）") else "ruby"  # sample_btn_marker
+        _auto_strip_pure = (selected_option == "✂️ 漢字化・純粋置換（タグなしテキスト）")
+        _auto = _ovx.auto_overlay_entries(processed_text, DATA_DIR, _afmode, assignment_edition)
+        if _auto and _auto_strip_pure:
+            import re as _re_af
+            _auto = [[o, _re_af.sub(r"</?ruby>", "", _re_af.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_af.DOTALL | _re_af.IGNORECASE), flags=_re_af.IGNORECASE), ph] for o, n, ph in _auto]
+        if _auto:
+            _GGx = _ovx.merge_overlay(replacements_final_list, _auto)
+            if use_parallel:
+                processed_text = parallel_process(
+                    text=text0, num_processes=num_processes,
+                    placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
+                    replacements_list_for_localized_string=replacements_list_for_localized_string,
+                    placeholders_for_localized_replacement=placeholders_for_localized_replacement,
+                    replacements_final_list=_GGx,
+                    replacements_list_for_2char=replacements_list_for_2char,
+                    format_type=format_type)
+            else:
+                processed_text = orchestrate_comprehensive_esperanto_text_replacement(
+                    text=text0,
+                    placeholders_for_skipping_replacements=placeholders_for_skipping_replacements,
+                    replacements_list_for_localized_string=replacements_list_for_localized_string,
+                    placeholders_for_localized_replacement=placeholders_for_localized_replacement,
+                    replacements_final_list=_GGx,
+                    replacements_list_for_2char=replacements_list_for_2char,
+                    format_type=format_type)
+    except Exception:
+        pass  # 自動補正は任意。失敗しても1パス目の結果をそのまま使う。
 
-        # letter_typeに応じて再変換
-        if letter_type == 'ĉ ĝ ĥ ĵ ŝ ŭ (標準)':
-            processed_text = replace_esperanto_chars(processed_text, x_to_circumflex)
-            processed_text = replace_esperanto_chars(processed_text, hat_to_circumflex)
-        elif letter_type == 'cx gx hx jx sx ux (x形式)':
-            processed_text = replace_esperanto_chars(processed_text, circumflex_to_x)
-            processed_text = replace_esperanto_chars(processed_text, hat_to_x)
-        elif letter_type == 'c^ g^ h^ j^ s^ u^ (^形式)':
-            processed_text = replace_esperanto_chars(processed_text, x_to_hat)
-            processed_text = replace_esperanto_chars(processed_text, circumflex_to_hat)
+    # letter_typeに応じて再変換
+    if letter_type == 'ĉ ĝ ĥ ĵ ŝ ŭ (標準)':
+        processed_text = replace_esperanto_chars(processed_text, x_to_circumflex)
+        processed_text = replace_esperanto_chars(processed_text, hat_to_circumflex)
+    elif letter_type == 'cx gx hx jx sx ux (x形式)':
+        processed_text = replace_esperanto_chars(processed_text, circumflex_to_x)
+        processed_text = replace_esperanto_chars(processed_text, hat_to_x)
+    elif letter_type == 'c^ g^ h^ j^ s^ u^ (^形式)':
+        processed_text = replace_esperanto_chars(processed_text, x_to_hat)
+        processed_text = replace_esperanto_chars(processed_text, circumflex_to_hat)
 
-        processed_text = apply_ruby_html_header_and_footer(processed_text, format_type)
+    processed_text = apply_ruby_html_header_and_footer(processed_text, format_type)
 
-        # 結果を session_state に保存（再実行で消えない＋結果を編集可能にするため）
-        st.session_state["result_html"] = processed_text
-        st.session_state["result_assignment_metadata"] = editions.result_metadata(DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type})
-        st.session_state["edited_html"] = processed_text          # 編集用の初期値＝生成結果
-        st.session_state["result_is_html"] = ("HTML" in format_type)
-        st.toast("✅ 変換が完了しました。下に結果が表示されています。")
+    # 結果を session_state に保存（再実行で消えない＋結果を編集可能にするため）
+    st.session_state["result_html"] = processed_text
+    st.session_state["result_input_signature"] = _current_input_signature
+    st.session_state["_edited_html_keep"] = processed_text
+    st.session_state["result_assignment_metadata"] = editions.result_metadata(DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type})
+    st.session_state["edited_html"] = processed_text          # 編集用の初期値＝生成結果
+    st.session_state["result_is_html"] = ("HTML" in format_type)
+    st.toast("✅ 変換が完了しました。下に結果が表示されています。")
 
 # =========================================
 # フォーム外の処理: 結果のプレビュー・編集・ダウンロード
@@ -366,16 +377,21 @@ def _reset_edited_html():
     # 「編集を破棄」用コールバック（ウィジェット生成後に session_state を変更すると
     #  エラーになるため、コールバック内で生成結果へ戻す）
     st.session_state["edited_html"] = st.session_state.get("result_html", "")
+    st.session_state["_edited_html_keep"] = st.session_state["edited_html"]
 
 _result_meta = st.session_state.get("result_assignment_metadata")
-_matching_result = editions.result_matches(_result_meta, DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type})
+_matching_input = _source_ready and st.session_state.get("result_input_signature") == _current_input_signature
+_matching_result = editions.result_matches(_result_meta, DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type}) and _matching_input
 if st.session_state.get("result_html") and not _matching_result:
-    editions.stale_result_notice(DATA_DIR, _result_meta)
+    if not _matching_input:
+        st.info('入力または入力方法が変わりました。もう一度変換してから保存してください。')
+    else:
+        editions.stale_result_notice(DATA_DIR, _result_meta)
 
 if st.session_state.get("result_html") and _matching_result:
     # st.stop()経路(自作JSON未アップロード等)のwidget cleanupで edited_html が消えた場合の再シード
     if "edited_html" not in st.session_state:
-        st.session_state["edited_html"] = st.session_state["result_html"]
+        st.session_state["edited_html"] = st.session_state.get("_edited_html_keep", st.session_state["result_html"])
     st.caption("**結果の見方**: 「HTMLプレビュー」タブが完成イメージです（各語根の上の小さい文字が日本語訳のルビ）。"
                "「HTMLソース（編集可）」タブは中身のHTML文字列で、ブログ等への貼り付けや直接修正ができます。"
                "修正はプレビューとダウンロードに反映されます（再変換すると生成結果に戻ります）。")
@@ -403,6 +419,7 @@ if st.session_state.get("result_html") and _matching_result:
             st.text_area(
                 "出力HTMLを直接編集できます（編集後、プレビューとダウンロードに反映されます）",
                 key="edited_html",
+                on_change=input_state.remember_edited_text,
                 height=300
             )
             st.button("編集を破棄して生成結果に戻す", on_click=_reset_edited_html)
@@ -412,7 +429,7 @@ if st.session_state.get("result_html") and _matching_result:
         with tab3_list[0]:
             st.code(preview_text, language=None)
         with tab3_list[1]:
-            st.text_area("出力を直接編集できます", key="edited_html", height=300)
+            st.text_area("出力を直接編集できます", key="edited_html", on_change=input_state.remember_edited_text, height=300)
             st.button("編集を破棄して生成結果に戻す", on_click=_reset_edited_html)
         download_name = "置換結果.txt"
 
@@ -420,12 +437,14 @@ if st.session_state.get("result_html") and _matching_result:
     download_name = editions.download_filename(os.path.splitext(download_name)[0], _result_meta, _extension)
     _download_text = (editions.html_download_metadata(_result_meta) if _extension == "html" else "") + current_html
     download_data = _download_text.encode('utf-8')
-    st.download_button(
-        label="置換結果のダウンロード（編集を反映）",
-        data=download_data,
-        file_name=download_name,
-        mime="text/html"
-    )
+    if st.button("保存内容を確認", key="confirm_download"):
+        input_state.confirm_download(
+            text=current_html, data=download_data, filename=download_name,
+            is_html=(_extension == "html"),
+            edition_label=_result_meta["edition_label"],
+            title="保存する内容", content_label="保存するテキスト",
+            download_label="置換結果のダウンロード（編集を反映）",
+        )
     st.caption("※ ダウンロードした .html ファイルは、**ダブルクリックするとブラウザでルビ付きのまま**開けます。Word等に貼りたい場合はブラウザで開いてからコピーしてください。")
     st.page_link("pages/1_🔧_語根分解の手動補正.py", label="🔧 分解がおかしい箇所があった → 手動補正ページで直す(即反映)")
 

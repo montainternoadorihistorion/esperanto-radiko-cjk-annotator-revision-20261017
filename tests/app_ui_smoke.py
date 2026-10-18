@@ -95,8 +95,7 @@ def run_language(language):
         at.radio[0].set_value(mode)
         run_from_root(at)
         at.text_area(key='text0_value').set_value(SOURCE)
-        submit = next(button for button in at.button
-                      if str(button.key).startswith('FormSubmitter:profile_form-'))
+        submit = at.button(key='convert_text')
         submit.click()
         run_from_root(at)
         rendered = at.session_state['result_html']
@@ -191,8 +190,7 @@ def run_language(language):
         at.radio[0].set_value(at.radio[0].options[2])
         run_from_root(at)
         at.text_area(key='text0_value').set_value(SOURCE)
-        submit = next(button for button in at.button
-                      if str(button.key).startswith('FormSubmitter:profile_form-'))
+        submit = at.button(key='convert_text')
         submit.click()
         run_from_root(at)
         returned = at.session_state['result_html']
