@@ -1,0 +1,135 @@
+{
+  "completed": true,
+  "passed": true,
+  "verification_kind": "local_production_reimport_of_actual_cloud_downloads",
+  "not_a_cloud_upload_test": true,
+  "cloud_upload_verified": false,
+  "reason": "Chrome file URL permission blocks browser upload; this verifies downloaded content and production import/conversion locally only.",
+  "utc": "2026-10-18T08:59:24.507910+00:00",
+  "fixture_sha256": "c96044df9cb5aa0f7777e297b941c778bcc97ae67ec47692b3ee96068baf3b25",
+  "cases": [
+    {
+      "case_id": "JA_current_effective_local_reimport",
+      "language": "JA",
+      "edition": "current",
+      "download_case_id": "JA_current_effective",
+      "downloaded_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.csv",
+      "downloaded_sha256": "be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2",
+      "downloaded_bytes": 198079,
+      "input": "兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 全o 无o 性ˢ学家 良ᴱ声ᶠᴼio 盐o 炎o\n兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "expected_output": "orkidito ato ito ito frao pao polo leŭko ĉio nenio seksolog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "actual_output": "orkidito ato ito ito frao pao polo leŭko ĉio nenio seksolog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "custom_provenance": {
+        "source_id": "custom",
+        "edition": "custom",
+        "revision": "uploaded",
+        "edition_id": "custom",
+        "dictionary_sha256": "be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2",
+        "identity": "custom:uploaded:be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2",
+        "label": "カスタム CSV / uploaded / be2d782cf2b0",
+        "result_filename": "esperanto_custom_uploaded_be2d782cf2b0.txt",
+        "dictionary_filename": "dictionary_custom_uploaded_be2d782cf2b0.csv",
+        "snippet_filename": "dictionary_custom_uploaded_be2d782cf2b0_2col.csv"
+      },
+      "entire_mapping_matches_selected_ui_dictionary": true,
+      "mapping_entries": 10686,
+      "automatic_alias_injection_into_custom": false,
+      "passed": true
+    },
+    {
+      "case_id": "JA_legacy_effective_local_reimport",
+      "language": "JA",
+      "edition": "legacy",
+      "download_case_id": "JA_legacy_effective",
+      "downloaded_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.csv",
+      "downloaded_sha256": "5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3",
+      "downloaded_bytes": 188662,
+      "input": "丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 两ᴴo 名ᴺᴵo 远声ᶠᴼo 微镜ˢᴷo 氧生ᴳo 间学ᴸᴺo 越形具ᴬo 单色ᴷᴿo 全o 无o 性ˢ学家 良ᴱ声ᶠᴼio 盐o 炎o\n兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "expected_output": "testikito orkidito orkidito ato ito ito frao pao polo leŭko hermo nimo telefono mikroskopo oksigeno interlingvistiko transformatoro monokromato ĉio nenio sekslog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "actual_output": "testikito orkidito orkidito ato ito ito frao pao polo leŭko hermo nimo telefono mikroskopo oksigeno interlingvistiko transformatoro monokromato ĉio nenio sekslog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "custom_provenance": {
+        "source_id": "custom",
+        "edition": "custom",
+        "revision": "uploaded",
+        "edition_id": "custom",
+        "dictionary_sha256": "5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3",
+        "identity": "custom:uploaded:5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3",
+        "label": "カスタム CSV / uploaded / 5ea4fe310f43",
+        "result_filename": "esperanto_custom_uploaded_5ea4fe310f43.txt",
+        "dictionary_filename": "dictionary_custom_uploaded_5ea4fe310f43.csv",
+        "snippet_filename": "dictionary_custom_uploaded_5ea4fe310f43_2col.csv"
+      },
+      "entire_mapping_matches_selected_ui_dictionary": true,
+      "mapping_entries": 10654,
+      "automatic_alias_injection_into_custom": false,
+      "passed": true
+    },
+    {
+      "case_id": "ZH_current_effective_local_reimport",
+      "language": "ZH",
+      "edition": "current",
+      "download_case_id": "ZH_current_effective",
+      "downloaded_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221 (1).csv",
+      "downloaded_sha256": "be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2",
+      "downloaded_bytes": 198079,
+      "input": "兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 全o 无o 性ˢ学家 良ᴱ声ᶠᴼio 盐o 炎o\n兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "expected_output": "orkidito ato ito ito frao pao polo leŭko ĉio nenio seksolog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "actual_output": "orkidito ato ito ito frao pao polo leŭko ĉio nenio seksolog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "custom_provenance": {
+        "source_id": "custom",
+        "edition": "custom",
+        "revision": "uploaded",
+        "edition_id": "custom",
+        "dictionary_sha256": "be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2",
+        "identity": "custom:uploaded:be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2",
+        "label": "自定义 CSV / uploaded / be2d782cf2b0",
+        "result_filename": "esperanto_custom_uploaded_be2d782cf2b0.txt",
+        "dictionary_filename": "dictionary_custom_uploaded_be2d782cf2b0.csv",
+        "snippet_filename": "dictionary_custom_uploaded_be2d782cf2b0_2col.csv"
+      },
+      "entire_mapping_matches_selected_ui_dictionary": true,
+      "mapping_entries": 10686,
+      "automatic_alias_injection_into_custom": false,
+      "passed": true
+    },
+    {
+      "case_id": "ZH_legacy_effective_local_reimport",
+      "language": "ZH",
+      "edition": "legacy",
+      "download_case_id": "ZH_legacy_effective",
+      "downloaded_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e (1).csv",
+      "downloaded_sha256": "5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3",
+      "downloaded_bytes": 188662,
+      "input": "丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 两ᴴo 名ᴺᴵo 远声ᶠᴼo 微镜ˢᴷo 氧生ᴳo 间学ᴸᴺo 越形具ᴬo 单色ᴷᴿo 全o 无o 性ˢ学家 良ᴱ声ᶠᴼio 盐o 炎o\n兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "expected_output": "testikito orkidito orkidito ato ito ito frao pao polo leŭko hermo nimo telefono mikroskopo oksigeno interlingvistiko transformatoro monokromato ĉio nenio sekslog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "actual_output": "testikito orkidito orkidito ato ito ito frao pao polo leŭko hermo nimo telefono mikroskopo oksigeno interlingvistiko transformatoro monokromato ĉio nenio sekslog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "custom_provenance": {
+        "source_id": "custom",
+        "edition": "custom",
+        "revision": "uploaded",
+        "edition_id": "custom",
+        "dictionary_sha256": "5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3",
+        "identity": "custom:uploaded:5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3",
+        "label": "自定义 CSV / uploaded / 5ea4fe310f43",
+        "result_filename": "esperanto_custom_uploaded_5ea4fe310f43.txt",
+        "dictionary_filename": "dictionary_custom_uploaded_5ea4fe310f43.csv",
+        "snippet_filename": "dictionary_custom_uploaded_5ea4fe310f43_2col.csv"
+      },
+      "entire_mapping_matches_selected_ui_dictionary": true,
+      "mapping_entries": 10654,
+      "automatic_alias_injection_into_custom": false,
+      "passed": true
+    }
+  ],
+  "source_files": [
+    {
+      "path": "Esperanto-Reverter-JA/esperanto_converter.py",
+      "sha256": "af39b06a6ef8b659f4c5e58cb198e2ae5a1fdb7d45d2a2770938b3da7f720b17"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/esperanto_converter_zh.py",
+      "sha256": "b3fa1333e8762561520654551dfb5c0ccc2c304364a0168106e6318df4c59a34"
+    }
+  ],
+  "script_sha256": "2f62f83a4a55e6499b067da5434799872e3e093e86580bfd93d7436bde41f3ef"
+}

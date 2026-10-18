@@ -1,0 +1,357 @@
+{
+  "before": [
+    {
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+      "edition": "current",
+      "input": "盐ᴬ 盐ᴵ 炎ᵀ 兄ᶠᴿ 父ᴾᴬ 两ᴴ 插ᴾ 名ᴺᴵ 白ᴸᴱ 切ᵀᴼ\n丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 兰炎ᵀa\n全o 性ˢ学家 良ᴱ声ᶠᴼio",
+      "output": "salᴬ salᴵ katarᵀ fratᶠᴿ patrᴾᴬ ambaŭᴴ stikᴾ nomᴺᴵ leŭkoᴱ tranĉᵀᴼ\ntestikito orkidito orkidita\nĉio seksolog eŭfonio",
+      "captions": [
+        "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-orkidit-inverse-20261018-v1 / b9c55a7fd649"
+      ],
+      "utc": "2026-10-18T08:26:40.124Z",
+      "language": "JA"
+    },
+    {
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "edition": "current",
+      "input": "盐ᴬ 盐ᴵ 炎ᵀ 兄ᶠᴿ 父ᴾᴬ 两ᴴ 插ᴾ 名ᴺᴵ 白ᴸᴱ 切ᵀᴼ\n丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 兰炎ᵀa\n全o 性ˢ学家 良ᴱ声ᶠᴼio",
+      "output": "salᴬ salᴵ katarᵀ fratᶠᴿ patrᴾᴬ ambaŭᴴ stikᴾ nomᴺᴵ leŭkoᴱ tranĉᵀᴼ\ntestikito orkidito orkidita\nĉio seksolog eŭfonio",
+      "captions": [
+        "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-orkidit-inverse-20261018-v1 / b9c55a7fd649"
+      ],
+      "utc": "2026-10-18T08:35:02.644Z",
+      "language": "ZH"
+    }
+  ],
+  "inverse": [
+    {
+      "case_id": "JA_current",
+      "language": "JA",
+      "edition": "current",
+      "input": "兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 全o 无o 性ˢ学家 良ᴱ声ᶠᴼio 盐o 炎o\n兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "output": "orkidito ato ito ito frao pao polo leŭko ĉio nenio seksolog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "captions": [
+        "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-unique-inverse-20261018-v2 / e0bd60ad6221"
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+      "utc": "2026-10-18T08:54:11.844Z"
+    },
+    {
+      "case_id": "ZH_current",
+      "language": "ZH",
+      "edition": "current",
+      "input": "兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 全o 无o 性ˢ学家 良ᴱ声ᶠᴼio 盐o 炎o\n兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "output": "orkidito ato ito ito frao pao polo leŭko ĉio nenio seksolog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "captions": [
+        "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-unique-inverse-20261018-v2 / e0bd60ad6221"
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:54:11.962Z"
+    },
+    {
+      "case_id": "JA_legacy",
+      "language": "JA",
+      "edition": "legacy",
+      "input": "丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 两ᴴo 名ᴺᴵo 远声ᶠᴼo 微镜ˢᴷo 氧生ᴳo 间学ᴸᴺo 越形具ᴬo 单色ᴷᴿo 全o 无o 性ˢ学家 良ᴱ声ᶠᴼio 盐o 炎o\n兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "output": "testikito orkidito orkidito ato ito ito frao pao polo leŭko hermo nimo telefono mikroskopo oksigeno interlingvistiko transformatoro monokromato ĉio nenio sekslog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "captions": [
+        "変換結果の版: 旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-unique-inverse-20261018-v2 / 31b2f361d71e"
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+      "utc": "2026-10-18T08:56:07.579Z"
+    },
+    {
+      "case_id": "ZH_legacy",
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 两ᴴo 名ᴺᴵo 远声ᶠᴼo 微镜ˢᴷo 氧生ᴳo 间学ᴸᴺo 越形具ᴬo 单色ᴷᴿo 全o 无o 性ˢ学家 良ᴱ声ᶠᴼio 盐o 炎o\n兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "output": "testikito orkidito orkidito ato ito ito frao pao polo leŭko hermo nimo telefono mikroskopo oksigeno interlingvistiko transformatoro monokromato ĉio nenio sekslog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "captions": [
+        "转换结果使用的版本: 旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-unique-inverse-20261018-v2 / 31b2f361d71e"
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:56:07.693Z"
+    }
+  ],
+  "downloads": [
+    {
+      "case_id": "JA_current_full",
+      "language": "JA",
+      "edition": "current",
+      "kind": "full",
+      "path": "cloud_actual/downloads/00/dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (4).csv",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (4).csv",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+      "utc": "2026-10-18T08:54:12.773Z"
+    },
+    {
+      "case_id": "JA_current_two_column",
+      "language": "JA",
+      "edition": "current",
+      "kind": "two_column",
+      "path": "cloud_actual/downloads/01/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (4).csv",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (4).csv",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+      "utc": "2026-10-18T08:54:14.191Z"
+    },
+    {
+      "case_id": "JA_current_effective",
+      "language": "JA",
+      "edition": "current",
+      "kind": "effective",
+      "path": "cloud_actual/downloads/02/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.csv",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.csv",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+      "utc": "2026-10-18T08:54:15.706Z"
+    },
+    {
+      "case_id": "JA_current_result",
+      "language": "JA",
+      "edition": "current",
+      "kind": "result",
+      "path": "cloud_actual/downloads/03/esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.txt",
+      "filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.txt",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+      "utc": "2026-10-18T08:54:16.966Z"
+    },
+    {
+      "case_id": "ZH_current_full",
+      "language": "ZH",
+      "edition": "current",
+      "kind": "full",
+      "path": "cloud_actual/downloads/04/dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (5).csv",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (5).csv",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:54:18.661Z"
+    },
+    {
+      "case_id": "ZH_current_two_column",
+      "language": "ZH",
+      "edition": "current",
+      "kind": "two_column",
+      "path": "cloud_actual/downloads/05/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (5).csv",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (5).csv",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:54:19.865Z"
+    },
+    {
+      "case_id": "ZH_current_effective",
+      "language": "ZH",
+      "edition": "current",
+      "kind": "effective",
+      "path": "cloud_actual/downloads/06/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221 (1).csv",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221 (1).csv",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:54:21.402Z"
+    },
+    {
+      "case_id": "ZH_current_result",
+      "language": "ZH",
+      "edition": "current",
+      "kind": "result",
+      "path": "cloud_actual/downloads/07/esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221 (1).txt",
+      "filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221 (1).txt",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:54:22.572Z"
+    },
+    {
+      "case_id": "JA_legacy_full",
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "full",
+      "path": "cloud_actual/downloads/08/dictionary_old_4c16c8937c60_eed2a8bfc21a (6).csv",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a (6).csv",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+      "utc": "2026-10-18T08:56:09.263Z"
+    },
+    {
+      "case_id": "JA_legacy_two_column",
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "two_column",
+      "path": "cloud_actual/downloads/09/dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (6).csv",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (6).csv",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+      "utc": "2026-10-18T08:56:10.709Z"
+    },
+    {
+      "case_id": "JA_legacy_effective",
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "effective",
+      "path": "cloud_actual/downloads/10/dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.csv",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.csv",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+      "utc": "2026-10-18T08:56:12.015Z"
+    },
+    {
+      "case_id": "JA_legacy_result",
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "result",
+      "path": "cloud_actual/downloads/11/esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.txt",
+      "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.txt",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+      "utc": "2026-10-18T08:56:13.505Z"
+    },
+    {
+      "case_id": "ZH_legacy_full",
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "full",
+      "path": "cloud_actual/downloads/12/dictionary_old_4c16c8937c60_eed2a8bfc21a (7).csv",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a (7).csv",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:56:15.259Z"
+    },
+    {
+      "case_id": "ZH_legacy_two_column",
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "two_column",
+      "path": "cloud_actual/downloads/13/dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (7).csv",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (7).csv",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:56:16.612Z"
+    },
+    {
+      "case_id": "ZH_legacy_effective",
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "effective",
+      "path": "cloud_actual/downloads/14/dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e (1).csv",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e (1).csv",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:56:17.877Z"
+    },
+    {
+      "case_id": "ZH_legacy_result",
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "result",
+      "path": "cloud_actual/downloads/15/esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e (1).txt",
+      "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e (1).txt",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:56:19.324Z"
+    }
+  ],
+  "guards": [
+    {
+      "language": "ZH",
+      "kind": "deployment_update",
+      "old_caption": "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-orkidit-inverse-20261018-v1 / b9c55a7fd649",
+      "output": "salᴬ salᴵ katarᵀ fratᶠᴿ patrᴾᴬ ambaŭᴴ stikᴾ nomᴺᴵ leŭkoᴱ tranĉᵀᴼ\ntestikito orkidito orkidita\nĉio seksolog eŭfonio",
+      "download_disabled": true,
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:53:27.544Z"
+    },
+    {
+      "language": "JA",
+      "kind": "deployment_update",
+      "old_caption": "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-orkidit-inverse-20261018-v1 / b9c55a7fd649",
+      "output": "salᴬ salᴵ katarᵀ fratᶠᴿ patrᴾᴬ ambaŭᴴ stikᴾ nomᴺᴵ leŭkoᴱ tranĉᵀᴼ\ntestikito orkidito orkidita\nĉio seksolog eŭfonio",
+      "download_disabled": true,
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+      "utc": "2026-10-18T08:53:36.801Z"
+    },
+    {
+      "language": "JA",
+      "kind": "edition_switch",
+      "old_caption": "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-unique-inverse-20261018-v2 / e0bd60ad6221",
+      "output": "orkidito ato ito ito frao pao polo leŭko ĉio nenio seksolog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "download_disabled": true,
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+      "utc": "2026-10-18T08:55:36.492Z"
+    },
+    {
+      "language": "ZH",
+      "kind": "edition_switch",
+      "old_caption": "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-unique-inverse-20261018-v2 / e0bd60ad6221",
+      "output": "orkidito ato ito ito frao pao polo leŭko ĉio nenio seksolog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "download_disabled": true,
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:55:36.583Z"
+    }
+  ],
+  "forward": [
+    {
+      "case_id": "JA_current_combined",
+      "language": "JA",
+      "edition": "current",
+      "input": "fraĉjo @ksenartrita@",
+      "visible": "兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:45:09.834Z"
+    },
+    {
+      "case_id": "KO_current_combined",
+      "language": "KO",
+      "edition": "current",
+      "input": "fraĉjo @ksenartrita@",
+      "visible": "兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:45:09.869Z"
+    },
+    {
+      "case_id": "JA_legacy_combined",
+      "language": "JA",
+      "edition": "legacy",
+      "input": "fraĉjo @ksenartrita@",
+      "visible": "兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:45:40.631Z"
+    },
+    {
+      "case_id": "KO_legacy_combined",
+      "language": "KO",
+      "edition": "legacy",
+      "input": "fraĉjo @ksenartrita@",
+      "visible": "兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:45:40.660Z"
+    },
+    {
+      "case_id": "ZH_current_combined",
+      "language": "ZH",
+      "edition": "current",
+      "input": "fraĉjo @ksenartrita@",
+      "visible": "兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:46:21.992Z"
+    },
+    {
+      "case_id": "ZH_legacy_combined",
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "fraĉjo @ksenartrita@",
+      "visible": "兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:46:51.944Z"
+    }
+  ],
+  "custom": [],
+  "custom_blocked": [
+    {
+      "language": "JA",
+      "status": "blocked",
+      "reason": "Chrome extension file chooser rejected setFiles because Allow access to file URLs is disabled. No extension permissions were changed.",
+      "attempted": true,
+      "operation": "PlaywrightFileChooser.setFiles",
+      "error": "To enable file upload, go to chrome://extensions in Google Chrome, click Details under the ChatGPT extension, and enable \"Allow access to file URLs.\"",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+      "utc": "2026-10-18T08:58:12.087Z",
+      "local_fallback": "Verify the actual downloaded effective CSVs using production importer and inverse functions; Cloud reupload itself remains unverified."
+    },
+    {
+      "language": "ZH",
+      "status": "blocked",
+      "reason": "Chrome extension file chooser rejected setFiles because Allow access to file URLs is disabled. No extension permissions were changed.",
+      "attempted": false,
+      "operation": "PlaywrightFileChooser.setFiles",
+      "error": "To enable file upload, go to chrome://extensions in Google Chrome, click Details under the ChatGPT extension, and enable \"Allow access to file URLs.\"",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:58:12.087Z",
+      "local_fallback": "Verify the actual downloaded effective CSVs using production importer and inverse functions; Cloud reupload itself remains unverified."
+    }
+  ]
+}
