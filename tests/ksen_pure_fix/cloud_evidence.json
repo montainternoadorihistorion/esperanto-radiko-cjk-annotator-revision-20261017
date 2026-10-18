@@ -1,0 +1,240 @@
+{
+  "before": [
+    {
+      "phase": "before",
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "output": "k无as k无o k无oj k无ojn k无os k无u k无ulo k无us\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io"
+    }
+  ],
+  "forward": [
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "output": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "time": "2026-10-18T12:03:44.423Z"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "output": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "time": "2026-10-18T12:04:29.929Z"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "output": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ruby 显示</title>\n<style>\nhtml, body {\n  -webkit-text-size-adjust: 100%;\n  -moz-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  text-size-adjust: 100%;\n}\n:root {\n  --ruby-color: blue;\n  --ruby-font-size: 0.5em;\n}\nhtml {\n  font-size: 100%;\n}\n.text-M_M {\n  font-size: 1rem!important;\n  font-family: Arial, sans-serif;\n  line-height: 2.0 !important;\n  display: block;\n  position: relative;\n}\nruby {\n  display: inline-flex;\n  flex-direction: column;\n  align-items: center;\n  vertical-align: top !important;\n  line-height: 2.0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  font-size: 1rem !important;\n}\nrt {\n  display: block !important;\n  font-size: var(--ruby-font-size);\n  color: var(--ruby-color);\n  line-height: 1.05;\n  text-align: center;\n}\nrt.XXXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -8.3em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -7.2em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -6.1em !important;\n  transform: translateY(-0em) !important;\n}\nrt.S_S {\n  --ruby-font-size: 0.4em;\n  margin-top: -4.85em !important;\n  transform: translateY(-0em) !important;\n}\nrt.M_M {\n  --ruby-font-size: 0.5em;\n  margin-top: -4.00em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.L_L {\n  --ruby-font-size: 0.6em;\n  margin-top: -3.55em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XL_L {\n  --ruby-font-size: 0.7em;\n  margin-top: -3.20em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XXL_L {\n  --ruby-font-size: 0.8em;\n  margin-top: -2.80em !important;\n  transform: translateY(-0.0em) !important;\n}\n</style>\n</head>\n<body>\n<p class=\"text-M_M\">\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io</p></body></html>",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "time": "2026-10-18T12:05:05.576Z"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "output": "<!DOCTYPE html>\n<html lang=\"ja\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Ruby 显示</title>\n<style>\nhtml, body {\n  -webkit-text-size-adjust: 100%;\n  -moz-text-size-adjust: 100%;\n  -ms-text-size-adjust: 100%;\n  text-size-adjust: 100%;\n}\n:root {\n  --ruby-color: blue;\n  --ruby-font-size: 0.5em;\n}\nhtml {\n  font-size: 100%;\n}\n.text-M_M {\n  font-size: 1rem!important;\n  font-family: Arial, sans-serif;\n  line-height: 2.0 !important;\n  display: block;\n  position: relative;\n}\nruby {\n  display: inline-flex;\n  flex-direction: column;\n  align-items: center;\n  vertical-align: top !important;\n  line-height: 2.0 !important;\n  margin: 0 !important;\n  padding: 0 !important;\n  font-size: 1rem !important;\n}\nrt {\n  display: block !important;\n  font-size: var(--ruby-font-size);\n  color: var(--ruby-color);\n  line-height: 1.05;\n  text-align: center;\n}\nrt.XXXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -8.3em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XXS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -7.2em !important;\n  transform: translateY(-0em) !important;\n}\nrt.XS_S {\n  --ruby-font-size: 0.3em;\n  margin-top: -6.1em !important;\n  transform: translateY(-0em) !important;\n}\nrt.S_S {\n  --ruby-font-size: 0.4em;\n  margin-top: -4.85em !important;\n  transform: translateY(-0em) !important;\n}\nrt.M_M {\n  --ruby-font-size: 0.5em;\n  margin-top: -4.00em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.L_L {\n  --ruby-font-size: 0.6em;\n  margin-top: -3.55em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XL_L {\n  --ruby-font-size: 0.7em;\n  margin-top: -3.20em !important;\n  transform: translateY(-0.0em) !important;\n}\nrt.XXL_L {\n  --ruby-font-size: 0.8em;\n  margin-top: -2.80em !important;\n  transform: translateY(-0.0em) !important;\n}\n</style>\n</head>\n<body>\n<p class=\"text-M_M\">\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io</p></body></html>",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "time": "2026-10-18T12:05:52.439Z"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "output": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io",
+      "selected": "Selected 新版（更新中）. 漢字割り当ての版",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "time": "2026-10-18T12:07:31.920Z"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "output": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io",
+      "selected": "Selected 旧版（固定）. 漢字割り当ての版",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "time": "2026-10-18T12:07:53.901Z"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "output": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io",
+      "selected": "Selected 신판（갱신 중）. 한자 배정 판",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "time": "2026-10-18T12:08:02.513Z"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "output": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>エスペラント語根分解ルビ注釈テキスト</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io</p></body></html>",
+      "selected": "Selected 旧版（固定）. 漢字割り当ての版",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "time": "2026-10-18T12:08:22.800Z"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "output": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io",
+      "selected": "Selected 구판（고정）. 한자 배정 판",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "time": "2026-10-18T12:08:36.991Z"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "output": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>エスペラント語根分解ルビ注釈テキスト</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io</p></body></html>",
+      "selected": "Selected 新版（更新中）. 漢字割り当ての版",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "time": "2026-10-18T12:08:44.879Z"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "output": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>에스페란토 어근 분해 루비 주석 텍스트</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io</p></body></html>",
+      "selected": "Selected 구판（고정）. 한자 배정 판",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "time": "2026-10-18T12:09:09.952Z"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\n@ksenas@ @kseno@ @ksenoj@ @ksenojn@ @ksenos@ @ksenu@ @ksenulo@ @ksenus@\nsene @sene@ semajno @semajno@ testikito @testikito@ orkidita @orkidita@\n%kseno% KsenO ksenologio",
+      "output": "<!DOCTYPE html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>에스페란토 어근 분해 루비 주석 텍스트</title>\n    <style>\n\n    html, body {\n      -webkit-text-size-adjust: 100%;\n      -moz-text-size-adjust: 100%;\n      -ms-text-size-adjust: 100%;\n      text-size-adjust: 100%;\n    }\n\n  \n      :root {\n        --ruby-color: blue;\n        --ruby-font-size: 0.5em;\n      }\n      html {\n        font-size: 100%; /* 多くのブラウザは16px相当が標準 */\n      }\n\n      .text-M_M {\n        font-size: 1rem!important; \n        font-family: Arial, sans-serif;\n        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */\n        display: block; /* ブロック要素として扱う */\n        position: relative;\n      }\n  \n      /* ▼ ルビ（フレックスでルビを上に表示） */\n      ruby {\n        display: inline-flex;\n        flex-direction: column;\n        align-items: center;\n        vertical-align: top !important;\n        line-height: 2.0 !important;\n        margin: 0 !important;\n        padding: 0 !important;\n        font-size: 1rem !important;\n      }\n  \n      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */\n      rt {\n        display: block !important;\n        font-size: var(--ruby-font-size);\n        color: var(--ruby-color);\n        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/\n        text-align: center;\n        /* margin-top: 0.2em !important;   \n        transform: translateY(0.4em) !important; */\n      }\n      rt.XXXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }    \n      rt.XXS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */\n        transform: translateY(-0em) !important;\n      }\n      rt.XS_S {\n        --ruby-font-size: 0.3em;\n        margin-top: -6.1em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.S_S {\n        --ruby-font-size: 0.4em;\n        margin-top: -4.85em !important;\n        transform: translateY(-0em) !important;\n      }\n      rt.M_M {\n        --ruby-font-size: 0.5em;\n        margin-top: -4.00em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.L_L {\n        --ruby-font-size: 0.6em; \n        margin-top: -3.55em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XL_L {\n        --ruby-font-size: 0.7em;\n        margin-top: -3.20em !important;\n        transform: translateY(-0.0em) !important;\n      }\n      rt.XXL_L {\n        --ruby-font-size: 0.8em;\n        margin-top: -2.80em !important;\n        transform: translateY(-0.0em) !important;\n      }\n  \n    </style>\n  </head>\n  <body>\n  <p class=\"text-M_M\">\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as kseno <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u ksenulo <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>as <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>oj <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>ojn <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>os <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>u <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o <ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>us<br>\n<ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>无<rt class=\"M_M\">sen</rt></ruby>e <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o <ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o <ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a <ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a<br>\nkseno K<ruby>无<rt class=\"M_M\">sen</rt></ruby>O kseno<ruby>学家<rt class=\"XXL_L\">log</rt></ruby>io</p></body></html>",
+      "selected": "Selected 신판（갱신 중）. 한자 배정 판",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "time": "2026-10-18T12:09:31.369Z"
+    }
+  ],
+  "reverse": [
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io\n\n外ᴷˢas kseno 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu ksenulo 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n无e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io\n远复ᴷˢo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo",
+      "output": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\n\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\ntelekomplekso testikito orkidito",
+      "selected": "Selected 旧版（固定）. 新版・旧版を選択",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T12:10:33.387Z"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io\n\n外ᴷˢas kseno 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu ksenulo 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n无e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io\n远复ᴷˢo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo",
+      "output": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\n\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\ntelekomplekso testikito orkidito",
+      "selected": "Selected 新版（更新中）. 选择新版或旧版",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T12:10:33.501Z"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io\n\n外ᴷˢas kseno 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu ksenulo 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n无e 无e 周o 周o 丸ᵀ炎ᵀo 丸ᵀ炎ᵀo 兰炎ᵀa 丸ᴼ炎ᵀa\nkseno K无O kseno学家io\n远复ᴷˢo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo",
+      "output": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\n\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\ntelekomplekso testikito orkidito",
+      "selected": "Selected 新版（更新中）. 新版・旧版を選択",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T12:11:22.618Z"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\ns内e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io\n\n外ᴷˢas kseno 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu ksenulo 外ᴷˢus\n外ᴷˢas 外ᴷˢo 外ᴷˢoj 外ᴷˢojn 外ᴷˢos 外ᴷˢu 外ᴷˢ者o 外ᴷˢus\n无e 无e 周o 周o 丸ᵀ炎ᵀo 丸炎ᵀo 兰炎ᵀa 丸炎a\nkseno K无O kseno学家io\n远复ᴷˢo 丸ᵀ炎ᵀo 丸ᴼ炎ᵀo",
+      "output": "ksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nsene nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\n\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nksenas kseno ksenoj ksenojn ksenos ksenu ksenulo ksenus\nnenie nenie semajno semajno testikito testikito orkidita orkidita\nkseno knenio ksenologio\ntelekomplekso testikito orkidito",
+      "selected": "Selected 旧版（固定）. 选择新版或旧版",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T12:11:22.732Z"
+    }
+  ],
+  "downloads": [
+    {
+      "language": "ZH",
+      "edition": "current",
+      "path": "downloads/ZH_current.txt",
+      "filename": "转换结果_current_7977885d7662.txt"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "path": "downloads/ZH_legacy.txt",
+      "filename": "转换结果_legacy_d91efd7a574e.txt"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "path": "downloads/JA_current.txt",
+      "filename": "置換結果_current_0b730cfba1a0.txt"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "path": "downloads/JA_legacy.txt",
+      "filename": "置換結果_legacy_705e6f6102a7.txt"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "path": "downloads/KO_current.txt",
+      "filename": "치환결과_current_20c27ea6cb62.txt"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "path": "downloads/KO_legacy.txt",
+      "filename": "치환결과_legacy_847ac8d9d620.txt"
+    }
+  ],
+  "edition_switch_guards": [
+    {
+      "language": "ZH",
+      "from": "current",
+      "to": "legacy",
+      "old_download_absent": true
+    },
+    {
+      "language": "JA",
+      "from": "current",
+      "to": "legacy",
+      "old_download_absent": true
+    },
+    {
+      "language": "KO",
+      "from": "current",
+      "to": "legacy",
+      "old_download_absent": true
+    }
+  ],
+  "public_merge_commit": "355bb7f6032db6b235fab3973b746063812b7c8b",
+  "note": "Forward and inverse Cloud observations after public main deployment. Inverse apps are unchanged. Running Cloud commit is not directly exposed.",
+  "deployment_actions": [
+    {
+      "language": "JA",
+      "action": "Cloud Reboot app after automatic pull still returned pre-fix output",
+      "time": "2026-10-18T12:06:07.791Z"
+    },
+    {
+      "language": "KO",
+      "action": "Cloud Reboot app after automatic pull still returned pre-fix output",
+      "time": "2026-10-18T12:06:07.791Z"
+    }
+  ]
+}
