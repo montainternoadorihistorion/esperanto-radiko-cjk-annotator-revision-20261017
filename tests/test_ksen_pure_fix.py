@@ -101,6 +101,8 @@ class KsenPureTests(unittest.TestCase):
                 before = read_raw(path)
                 after = editions.load_lists_path(path)
                 added = {f"${9120000 + index}$" for index in range(8)}
+                if edition == "legacy":
+                    added.update(f"${9130000 + index}$" for index in range(3))
                 self.assertEqual([row for row in after[0] if row[2].strip() not in added], before[0])
                 self.assertEqual(after[1:], before[1:])
                 old_output = render(source, before).splitlines()

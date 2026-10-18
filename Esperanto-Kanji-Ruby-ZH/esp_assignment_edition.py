@@ -31,6 +31,10 @@ REVIEWED_PURE_DECOMPOSITIONS = (
     "ksen/os", "ksen/u", "ksen/ul/o", "ksen/us",
 )
 
+# Legacy-only synthetic audit surfaces. Match the existing kanji-ruby
+# correction; kordonita stays wholly Latin rather than adopting a new split.
+LEGACY_REVIEWED_PURE_DECOMPOSITIONS = ("greg/ant/a", "preg/ant/a", "kordonita")
+
 
 def _is_bundled_pure_path(path):
     root = Path(__file__).resolve().parent.parent
@@ -38,6 +42,11 @@ def _is_bundled_pure_path(path):
         root / "Esperanto-Kanji-Ruby-JA" / "app_data" / "置換リスト_漢字_純粋置換.json",
         root / "assignment_editions" / "legacy" / "JA" / "pure.json.gz",
     )
+
+
+def _is_bundled_legacy_pure_path(path):
+    root = Path(__file__).resolve().parent.parent
+    return Path(path).resolve() == root / "assignment_editions" / "legacy" / "JA" / "pure.json.gz"
 
 
 def _with_reviewed_pure_corrections(global_rules, local_rules):
@@ -66,6 +75,39 @@ def _with_reviewed_pure_corrections(global_rules, local_rules):
         if token in used:
             raise ValueError("Reviewed pure placeholder is already in use: " + token)
         corrections.append((word, [" " + word + " ", " " + rendered + " ", " " + token + " "]))
+
+    return _insert_reviewed_pure_corrections(global_rules, corrections)
+
+
+def _with_legacy_reviewed_pure_corrections(global_rules, local_rules):
+    """Repair only three reviewed legacy whole words, never reverse keys or @.
+
+    Read the glyphs and identifiers from the selected edition. This prevents
+    internal reganta/ordonit rules from leaving a stranded prefix in plain
+    output, where the existing ruby-based auto-correction cannot detect it.
+    """
+    roots = {}
+    for old, new, _ in local_rules:
+        if old in ("greg", "preg", "ant"):
+            if old in roots and roots[old] != new:
+                raise ValueError("Conflicting reviewed legacy pure root: " + old)
+            roots[old] = new
+    if set(roots) != {"greg", "preg", "ant"}:
+        raise ValueError("Reviewed legacy pure correction requires greg, preg and ant roots")
+
+    corrections = []
+    used = {rule[2].strip() for rules in (global_rules, local_rules) for rule in rules}
+    for index, decomp in enumerate(LEGACY_REVIEWED_PURE_DECOMPOSITIONS):
+        word = decomp.replace("/", "")
+        rendered = "".join(roots.get(part, part) for part in decomp.split("/"))
+        token = f"${9130000 + index}$"
+        if token in used:
+            raise ValueError("Reviewed legacy pure placeholder is already in use: " + token)
+        corrections.append((word, [" " + word + " ", " " + rendered + " ", " " + token + " "]))
+    return _insert_reviewed_pure_corrections(global_rules, corrections)
+
+
+def _insert_reviewed_pure_corrections(global_rules, corrections):
 
     # Compute positions against the original ordering, then insert together.
     # This mirrors the longer-entry precedence used by manual corrections,
@@ -150,6 +192,8 @@ def _load_lists_cached(path, stamp):
     local_rules = payload.get(LOCAL, [])
     if _is_bundled_pure_path(path):
         global_rules = _with_reviewed_pure_corrections(global_rules, local_rules)
+    if _is_bundled_legacy_pure_path(path):
+        global_rules = _with_legacy_reviewed_pure_corrections(global_rules, local_rules)
     return global_rules, local_rules, payload.get(TWO, [])
 
 

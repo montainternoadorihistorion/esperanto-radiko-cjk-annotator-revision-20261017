@@ -1,0 +1,31 @@
+{
+  "date_jst": "2026-10-19",
+  "baseline_commit": "7f24a8ddb1ccea042e5c26a7ac7f19a95e3f2e0b",
+  "command": "python -B -X utf8 -m unittest discover -s tests -p test_*pure_fix.py -v",
+  "tests_run": 9,
+  "new_target_tests": 6,
+  "existing_ksen_tests": 3,
+  "failures": 0,
+  "errors": 0,
+  "status": "passed",
+  "runtime_seconds": 47.787,
+  "scope": [
+    "Exact legacy bundled path and custom gzip exclusion",
+    "JA, ZH and KO helper byte equality",
+    "Whole-word insertion, longer rule precedence and manual override",
+    "Existing root glyphs and identifiers, identity preservation for kordonita",
+    "Missing or conflicting roots and placeholder collision rejection",
+    "Current pure table and output unchanged",
+    "Legacy only three approved lowercase surfaces changed in focused matrix",
+    "At-mark, percent protection, case, longer words and unapproved inflections unchanged",
+    "Whitespace, line breaks, punctuation and multiprocessing",
+    "Correct inverse recovery of corrected words and preservation of existing inverse collisions",
+    "Agreement with existing kanji-ruby correction",
+    "Existing ksen correction behavior"
+  ],
+  "notes": [
+    "This file records focused local tests only; full-corpus and Cloud checks are separate.",
+    "Existing esp_overlay_module.py emitted ResourceWarning for open CSV readers; no production change was made for that unrelated warning.",
+    "An initial test-only expected value incorrectly assumed nov rendered as 新; it was corrected to the pre-existing n卵 output before this successful run."
+  ]
+}
