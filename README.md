@@ -77,7 +77,11 @@ Cloudでは、日中韓・新旧6通りの実順変換出力（通常・`@`・�
 
 完全改善とは別に、新版6入力・旧版9入力は一部だけ直って不一致が残ります（各表示経路で同数）。`etanolat`・`propenat` の末尾は直っても前半の共有字の復元問題が残り、旧 `elektronmikroskop` では `mikroskop` 部分が直っても前半の識別子が残る例です。これらを成功件数へ混ぜていません。同じ漢字本文への合流や、語根・語尾境界をまたぐ既存の曖昧さは引き続き別途検討します。任意の文章が完全に戻るという保証ではありません。
 
-日中の全テストは各193件成功、公開ルートの36テストは失敗0・任意の基準データ指定1件をスキップ、両辞書同期検査も成功しました。[ローカル検証一覧](tests/unique_inverse_keys_fix/local_test_summary.json)に記録しています。Cloudの配備後実測は、このローカル全件検証と区別して記録します。
+日中の全テストは各193件成功、公開ルートの36テストは失敗0・任意の基準データ指定1件をスキップ、両辞書同期検査も成功しました。[ローカル検証一覧](tests/unique_inverse_keys_fix/local_test_summary.json)に記録しています。
+
+[PR #44](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/44)のmain反映（`1d46373fa71328f685ba2a2eda0442ab91077e0b`）後、Cloudの日中・新旧4通りで補助改訂 `v2` と実逆変換の期待値一致を確認しました。日中韓・新旧の順変換6画面（通常・`@`を含む）、辞書CSV12本・結果TXT4本の全バイトとファイル名、配備更新・版切替後の古い結果の保護4件も照合しました。既存の曖昧な復元を保持する対照例を含むため、すべてが元のエスペラント文へ戻るという意味ではありません。[Cloud実測記録](tests/unique_inverse_keys_fix/cloud_verification.json)と[確認画面](tests/unique_inverse_keys_fix/screenshots/cloud_ja_current.png)を保存しています。Cloud内部の実行コミットを直接取得したものではなく、公開main反映後の改訂表示・実出力・配布内容による確認です。
+
+今回のCloud上での補助込みCSV再アップロードは未確認です。日本語版で試行しましたが、Chrome拡張機能のファイルURLアクセス権限によりアップロード操作が拒否され、中国語版も同じ制限のため省略しました。代替として、実際にダウンロードした日中・新旧4個の補助込みCSVをローカルでアプリの実処理へ読み込み、対応表全件と試験文の出力一致を確認しました。[ローカル再読込の記録](tests/unique_inverse_keys_fix/cloud_custom_local_fallback.json)は、Cloud再アップロードの成功を示すものではありません。
 
 ## 公開アプリ
 

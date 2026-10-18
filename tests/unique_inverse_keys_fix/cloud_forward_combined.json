@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "completed": true,
+  "passed": true,
+  "method": "Each combined input was individually passed to the unmodified production orchestrator with the complete GG/GL/G2 lists, saved overlay and automatic-correction check. No candidate filtering, memo accelerator, or joining of separately rendered results was used. Actual raw output is compared without trimming.",
+  "original_fixture_sha256": "4dd8877c1acf30e9bae1d89751185c2fc6bf08ff0a3320f957e7fd2d3a4d48da",
+  "original_fixture_unchanged": true,
+  "input": "fraĉjo @ksenartrita@",
+  "expected_restored": "fraĉjo ksenartrita",
+  "cases": [
+    {
+      "case_id": "JA_current_combined",
+      "language": "JA",
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "fraĉjo @ksenartrita@",
+      "expected_output": "兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "actual_output": "兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "expected_output_sha256": "95dc1ec06d852cd541fe9dc91a2a3336a0ed5fe7febcd79e9ad1c3cc5202f5a4",
+      "expected_restored": "fraĉjo ksenartrita",
+      "actual_restored": {
+        "JA": "fraĉjo ksenartrita",
+        "ZH": "fraĉjo ksenartrita"
+      },
+      "auto_rows": 0,
+      "passed": true
+    },
+    {
+      "case_id": "JA_legacy_combined",
+      "language": "JA",
+      "forward_language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "fraĉjo @ksenartrita@",
+      "expected_output": "兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "actual_output": "兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "expected_output_sha256": "b77023a96461beb1e4ca687df46956b89c8fcf853b7e1ffc407eb2bbf3684632",
+      "expected_restored": "fraĉjo ksenartrita",
+      "actual_restored": {
+        "JA": "fraĉjo ksenartrita",
+        "ZH": "fraĉjo ksenartrita"
+      },
+      "auto_rows": 0,
+      "passed": true
+    },
+    {
+      "case_id": "ZH_current_combined",
+      "language": "ZH",
+      "forward_language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "fraĉjo @ksenartrita@",
+      "expected_output": "兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "actual_output": "兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "expected_output_sha256": "95dc1ec06d852cd541fe9dc91a2a3336a0ed5fe7febcd79e9ad1c3cc5202f5a4",
+      "expected_restored": "fraĉjo ksenartrita",
+      "actual_restored": {
+        "JA": "fraĉjo ksenartrita",
+        "ZH": "fraĉjo ksenartrita"
+      },
+      "auto_rows": 0,
+      "passed": true
+    },
+    {
+      "case_id": "ZH_legacy_combined",
+      "language": "ZH",
+      "forward_language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "fraĉjo @ksenartrita@",
+      "expected_output": "兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "actual_output": "兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "expected_output_sha256": "b77023a96461beb1e4ca687df46956b89c8fcf853b7e1ffc407eb2bbf3684632",
+      "expected_restored": "fraĉjo ksenartrita",
+      "actual_restored": {
+        "JA": "fraĉjo ksenartrita",
+        "ZH": "fraĉjo ksenartrita"
+      },
+      "auto_rows": 0,
+      "passed": true
+    },
+    {
+      "case_id": "KO_current_combined",
+      "language": "KO",
+      "forward_language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "fraĉjo @ksenartrita@",
+      "expected_output": "兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "actual_output": "兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "expected_output_sha256": "95dc1ec06d852cd541fe9dc91a2a3336a0ed5fe7febcd79e9ad1c3cc5202f5a4",
+      "expected_restored": "fraĉjo ksenartrita",
+      "actual_restored": {
+        "JA": "fraĉjo ksenartrita",
+        "ZH": "fraĉjo ksenartrita"
+      },
+      "auto_rows": 0,
+      "passed": true
+    },
+    {
+      "case_id": "KO_legacy_combined",
+      "language": "KO",
+      "forward_language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "fraĉjo @ksenartrita@",
+      "expected_output": "兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "actual_output": "兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "expected_output_sha256": "b77023a96461beb1e4ca687df46956b89c8fcf853b7e1ffc407eb2bbf3684632",
+      "expected_restored": "fraĉjo ksenartrita",
+      "actual_restored": {
+        "JA": "fraĉjo ksenartrita",
+        "ZH": "fraĉjo ksenartrita"
+      },
+      "auto_rows": 0,
+      "passed": true
+    }
+  ],
+  "source_files": [
+    {
+      "path": "Esperanto-Kanji-Ruby-JA/esp_assignment_edition.py",
+      "sha256": "fef1620b1e233955e833b3202d840c7e7eb216299655d9c36d5ca7b4c3ecc178"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-JA/esp_text_replacement_module.py",
+      "sha256": "10ea0dd58942d7b869a85359f1728319e58b8ab92033dfca958334cd179bbf66"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-JA/esp_overlay_module.py",
+      "sha256": "0f778e1cc8cd2cc4c6e7541fc72d199ab86a2853f5ef52e19d9bc30445a878a6"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
+      "sha256": "fef1620b1e233955e833b3202d840c7e7eb216299655d9c36d5ca7b4c3ecc178"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-ZH/esp_text_replacement_module.py",
+      "sha256": "5502587bb1f68ae5760cac30a0bdb295fae868a23cdfcc211efdad99a4964e4c"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py",
+      "sha256": "9ebdaf4cd1bedf0c325d389726f9bebf1bbb5aa7b8e834d25380c9416b04a33c"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-KO/esp_assignment_edition.py",
+      "sha256": "fef1620b1e233955e833b3202d840c7e7eb216299655d9c36d5ca7b4c3ecc178"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-KO/esp_text_replacement_module.py",
+      "sha256": "425456ad9d70943ed6323a2eaca2226e6159fe085e5c40d4e2d1b8421de0d4a1"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-KO/esp_overlay_module.py",
+      "sha256": "9ebdaf4cd1bedf0c325d389726f9bebf1bbb5aa7b8e834d25380c9416b04a33c"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/esperanto_converter.py",
+      "sha256": "af39b06a6ef8b659f4c5e58cb198e2ae5a1fdb7d45d2a2770938b3da7f720b17"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/current_inverse_aliases.json",
+      "sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/legacy_inverse_aliases.json",
+      "sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/esperanto_converter_zh.py",
+      "sha256": "b3fa1333e8762561520654551dfb5c0ccc2c304364a0168106e6318df4c59a34"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/current_inverse_aliases.json",
+      "sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/legacy_inverse_aliases.json",
+      "sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7"
+    }
+  ],
+  "reference_script_sha256": "9c89315fb779e4594ee1e0094124069a7efadfb0f7798ac71ca55d6b0c195d1b",
+  "probe_script_sha256": "0d92b864fedf2d3e7f69d00411dc2ef2e20d4f34a96c4c8b74e4416965ce42b6",
+  "no_production_change": true
+}

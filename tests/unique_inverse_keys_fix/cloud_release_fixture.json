@@ -1,0 +1,321 @@
+{
+  "schema_version": 2,
+  "repair": "unique-inverse-keys-20261018",
+  "scope": "Primary current and fixed old only; 7/15 new inverse keys, retained prior 1/3; fixed CSVs and all forward output unchanged.",
+  "inverse_cases": [
+    {
+      "case_id": "JA_current",
+      "language": "JA",
+      "edition": "current",
+      "source_id": "pejvo-piv-20260620",
+      "input": "兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 全o 无o 性ˢ学家 良ᴱ声ᶠᴼio 盐o 炎o\n兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "expected_output": "orkidito ato ito ito frao pao polo leŭko ĉio nenio seksolog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "expected_output_sha256": "ae46f5eccda1240137eaabb4469b6dbec7cdeb98dec181ac0ac0201ae2be3041",
+      "provenance": {
+        "source_id": "pejvo-piv-20260620",
+        "edition": "new",
+        "revision": "2026-10-18-dot-greft",
+        "edition_id": "current",
+        "dictionary_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+        "identity": "pejvo-piv-20260620:2026-10-18-dot-greft:4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074:current-unique-inverse-20261018-v2:e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+        "label": "新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-unique-inverse-20261018-v2 / e0bd60ad6221",
+        "result_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.txt",
+        "dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+        "snippet_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+        "inverse_compatibility_revision": "current-unique-inverse-20261018-v2",
+        "inverse_compatibility_sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+        "effective_dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.csv"
+      },
+      "expected_caption_count": 8,
+      "forward_roundtrip_input": "fraĉjo @ksenartrita@",
+      "forward_roundtrip_visible": "兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "forward_roundtrip_expected_restored": "fraĉjo ksenartrita",
+      "forward_roundtrip_case_id": "JA_current_combined"
+    },
+    {
+      "case_id": "JA_legacy",
+      "language": "JA",
+      "edition": "legacy",
+      "source_id": "pre-las-20261017",
+      "input": "丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 两ᴴo 名ᴺᴵo 远声ᶠᴼo 微镜ˢᴷo 氧生ᴳo 间学ᴸᴺo 越形具ᴬo 单色ᴷᴿo 全o 无o 性ˢ学家 良ᴱ声ᶠᴼio 盐o 炎o\n兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "expected_output": "testikito orkidito orkidito ato ito ito frao pao polo leŭko hermo nimo telefono mikroskopo oksigeno interlingvistiko transformatoro monokromato ĉio nenio sekslog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "expected_output_sha256": "b1e8c93c5593b6be0102cf8d2896600a848314b8b2b21e0a86635d0f1ffe5208",
+      "provenance": {
+        "source_id": "pre-las-20261017",
+        "edition": "old",
+        "revision": "4c16c8937c60",
+        "edition_id": "legacy",
+        "dictionary_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "identity": "pre-las-20261017:4c16c8937c60:eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14:legacy-unique-inverse-20261018-v2:31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+        "label": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-unique-inverse-20261018-v2 / 31b2f361d71e",
+        "result_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.txt",
+        "dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+        "snippet_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+        "inverse_compatibility_revision": "legacy-unique-inverse-20261018-v2",
+        "inverse_compatibility_sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+        "effective_dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.csv"
+      },
+      "expected_caption_count": 18,
+      "forward_roundtrip_input": "fraĉjo @ksenartrita@",
+      "forward_roundtrip_visible": "兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "forward_roundtrip_expected_restored": "fraĉjo ksenartrita",
+      "forward_roundtrip_case_id": "JA_legacy_combined"
+    },
+    {
+      "case_id": "ZH_current",
+      "language": "ZH",
+      "edition": "current",
+      "source_id": "pejvo-piv-20260620",
+      "input": "兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 全o 无o 性ˢ学家 良ᴱ声ᶠᴼio 盐o 炎o\n兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "expected_output": "orkidito ato ito ito frao pao polo leŭko ĉio nenio seksolog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "expected_output_sha256": "ae46f5eccda1240137eaabb4469b6dbec7cdeb98dec181ac0ac0201ae2be3041",
+      "provenance": {
+        "source_id": "pejvo-piv-20260620",
+        "edition": "new",
+        "revision": "2026-10-18-dot-greft",
+        "edition_id": "current",
+        "dictionary_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+        "identity": "pejvo-piv-20260620:2026-10-18-dot-greft:4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074:current-unique-inverse-20261018-v2:e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+        "label": "新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-unique-inverse-20261018-v2 / e0bd60ad6221",
+        "result_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.txt",
+        "dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+        "snippet_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+        "inverse_compatibility_revision": "current-unique-inverse-20261018-v2",
+        "inverse_compatibility_sha256": "e0bd60ad6221c9e6a24d94ecdf1a45f4389151f8bf715c4ed979b0f34cf006a3",
+        "effective_dictionary_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.csv"
+      },
+      "expected_caption_count": 8,
+      "forward_roundtrip_input": "fraĉjo @ksenartrita@",
+      "forward_roundtrip_visible": "兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "forward_roundtrip_expected_restored": "fraĉjo ksenartrita",
+      "forward_roundtrip_case_id": "ZH_current_combined"
+    },
+    {
+      "case_id": "ZH_legacy",
+      "language": "ZH",
+      "edition": "legacy",
+      "source_id": "pre-las-20261017",
+      "input": "丸ᵀ炎ᵀo 丸ᴼ炎ᵀo 兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 两ᴴo 名ᴺᴵo 远声ᶠᴼo 微镜ˢᴷo 氧生ᴳo 间学ᴸᴺo 越形具ᴬo 单色ᴷᴿo 全o 无o 性ˢ学家 良ᴱ声ᶠᴼio 盐o 炎o\n兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "expected_output": "testikito orkidito orkidito ato ito ito frao pao polo leŭko hermo nimo telefono mikroskopo oksigeno interlingvistiko transformatoro monokromato ĉio nenio sekslog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "expected_output_sha256": "b1e8c93c5593b6be0102cf8d2896600a848314b8b2b21e0a86635d0f1ffe5208",
+      "provenance": {
+        "source_id": "pre-las-20261017",
+        "edition": "old",
+        "revision": "4c16c8937c60",
+        "edition_id": "legacy",
+        "dictionary_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "identity": "pre-las-20261017:4c16c8937c60:eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14:legacy-unique-inverse-20261018-v2:31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+        "label": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-unique-inverse-20261018-v2 / 31b2f361d71e",
+        "result_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.txt",
+        "dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+        "snippet_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+        "inverse_compatibility_revision": "legacy-unique-inverse-20261018-v2",
+        "inverse_compatibility_sha256": "31b2f361d71eaf8b178053adbc66387914b14dd375e0e225095f9b95eab0abb7",
+        "effective_dictionary_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.csv"
+      },
+      "expected_caption_count": 18,
+      "forward_roundtrip_input": "fraĉjo @ksenartrita@",
+      "forward_roundtrip_visible": "兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "forward_roundtrip_expected_restored": "fraĉjo ksenartrita",
+      "forward_roundtrip_case_id": "ZH_legacy_combined"
+    }
+  ],
+  "forward_cases": [
+    {
+      "case_id": "JA_current_combined",
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "fraĉjo @ksenartrita@",
+      "expected_output": "兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "expected_output_sha256": "95dc1ec06d852cd541fe9dc91a2a3336a0ed5fe7febcd79e9ad1c3cc5202f5a4",
+      "expected_restored": "fraĉjo ksenartrita"
+    },
+    {
+      "case_id": "JA_legacy_combined",
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "fraĉjo @ksenartrita@",
+      "expected_output": "兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "expected_output_sha256": "b77023a96461beb1e4ca687df46956b89c8fcf853b7e1ffc407eb2bbf3684632",
+      "expected_restored": "fraĉjo ksenartrita"
+    },
+    {
+      "case_id": "ZH_current_combined",
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "fraĉjo @ksenartrita@",
+      "expected_output": "兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "expected_output_sha256": "95dc1ec06d852cd541fe9dc91a2a3336a0ed5fe7febcd79e9ad1c3cc5202f5a4",
+      "expected_restored": "fraĉjo ksenartrita"
+    },
+    {
+      "case_id": "ZH_legacy_combined",
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "fraĉjo @ksenartrita@",
+      "expected_output": "兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "expected_output_sha256": "b77023a96461beb1e4ca687df46956b89c8fcf853b7e1ffc407eb2bbf3684632",
+      "expected_restored": "fraĉjo ksenartrita"
+    },
+    {
+      "case_id": "KO_current_combined",
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "fraĉjo @ksenartrita@",
+      "expected_output": "兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "expected_output_sha256": "95dc1ec06d852cd541fe9dc91a2a3336a0ed5fe7febcd79e9ad1c3cc5202f5a4",
+      "expected_restored": "fraĉjo ksenartrita"
+    },
+    {
+      "case_id": "KO_legacy_combined",
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "fraĉjo @ksenartrita@",
+      "expected_output": "兄ᶠᴿĉjo 外ᴷˢ节炎a",
+      "expected_output_sha256": "b77023a96461beb1e4ca687df46956b89c8fcf853b7e1ffc407eb2bbf3684632",
+      "expected_restored": "fraĉjo ksenartrita"
+    }
+  ],
+  "downloads": [
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "full",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+      "expected_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "expected_bytes": 317760,
+      "expected_file": "cloud_expected/JA_current_full.csv"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "two_column",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+      "expected_sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+      "expected_bytes": 176571,
+      "expected_file": "cloud_expected/JA_current_two_column.csv"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "effective",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.csv",
+      "expected_sha256": "be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2",
+      "expected_bytes": 198079,
+      "expected_file": "cloud_expected/JA_current_effective.csv"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "full",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+      "expected_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "expected_bytes": 306934,
+      "expected_file": "cloud_expected/JA_legacy_full.csv"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "two_column",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+      "expected_sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+      "expected_bytes": 166998,
+      "expected_file": "cloud_expected/JA_legacy_two_column.csv"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "effective",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.csv",
+      "expected_sha256": "5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3",
+      "expected_bytes": 188662,
+      "expected_file": "cloud_expected/JA_legacy_effective.csv"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "full",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+      "expected_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "expected_bytes": 317760,
+      "expected_file": "cloud_expected/ZH_current_full.csv"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "two_column",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+      "expected_sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+      "expected_bytes": 176571,
+      "expected_file": "cloud_expected/ZH_current_two_column.csv"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "effective",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.csv",
+      "expected_sha256": "be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2",
+      "expected_bytes": 198079,
+      "expected_file": "cloud_expected/ZH_current_effective.csv"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "full",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+      "expected_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "expected_bytes": 306934,
+      "expected_file": "cloud_expected/ZH_legacy_full.csv"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "two_column",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+      "expected_sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+      "expected_bytes": 166998,
+      "expected_file": "cloud_expected/ZH_legacy_two_column.csv"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "effective",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.csv",
+      "expected_sha256": "5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3",
+      "expected_bytes": 188662,
+      "expected_file": "cloud_expected/ZH_legacy_effective.csv"
+    }
+  ],
+  "custom_upload_cases": [
+    {
+      "language": "JA",
+      "upload_kind": "current_effective",
+      "input": "兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 全o 无o 性ˢ学家 良ᴱ声ᶠᴼio 盐o 炎o\n兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "expected_output": "orkidito ato ito ito frao pao polo leŭko ĉio nenio seksolog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "expected_output_sha256": "ae46f5eccda1240137eaabb4469b6dbec7cdeb98dec181ac0ac0201ae2be3041"
+    },
+    {
+      "language": "ZH",
+      "upload_kind": "current_effective",
+      "input": "兰炎ᵀo 盐ᴬo 盐ᴵo 炎ᵀo 兄ᶠᴿo 父ᴾᴬo 插ᴾo 白ᴸᴱo 全o 无o 性ˢ学家 良ᴱ声ᶠᴼio 盐o 炎o\n兄ᶠᴿĉjo 外ᴷˢ节ᴬᴿ炎ᵀa",
+      "expected_output": "orkidito ato ito ito frao pao polo leŭko ĉio nenio seksolog eŭfonio salo kataro\nfraĉjo ksenartrita",
+      "expected_output_sha256": "ae46f5eccda1240137eaabb4469b6dbec7cdeb98dec181ac0ac0201ae2be3041"
+    }
+  ],
+  "excluded_ambiguity_controls": {
+    "current_sekslog_restoration": "seksolog",
+    "legacy_sekslog_restoration": "sekslog",
+    "correlative_integr_plus_o": "ĉio",
+    "correlative_sen_plus_o": "nenio"
+  },
+  "candidate_scope_file": "implementation_scope_final.json",
+  "base_fixture_sha256": "4dd8877c1acf30e9bae1d89751185c2fc6bf08ff0a3320f957e7fd2d3a4d48da",
+  "combined_forward_proof_sha256": "5523e992c93953e06e3e2e8665e1af28cb09eea22f0dc0fb3d40cb6fafbc9ebc",
+  "release_derivation": "Each inverse case preserves its original key and ambiguity-control probes, followed by a newline and an actually rendered combined normal/@ sentence. Provenance and all dictionary download expectations are unchanged."
+}

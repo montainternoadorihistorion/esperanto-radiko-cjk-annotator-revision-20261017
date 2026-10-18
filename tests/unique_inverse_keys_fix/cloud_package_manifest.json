@@ -1,0 +1,213 @@
+{
+  "scope": "Cloud evidence package only; source source-file hashes are recorded in combined/fallback evidence. This manifest does not claim to include all repository files.",
+  "core_passed": true,
+  "cloud_custom_completed": false,
+  "all_requested_checks_passed": false,
+  "files": [
+    {
+      "path": "cloud_fixture.json",
+      "bytes": 15601,
+      "sha256": "4dd8877c1acf30e9bae1d89751185c2fc6bf08ff0a3320f957e7fd2d3a4d48da"
+    },
+    {
+      "path": "cloud_release_fixture.json",
+      "bytes": 17982,
+      "sha256": "c96044df9cb5aa0f7777e297b941c778bcc97ae67ec47692b3ee96068baf3b25"
+    },
+    {
+      "path": "cloud_forward_combined.json",
+      "bytes": 7254,
+      "sha256": "5523e992c93953e06e3e2e8665e1af28cb09eea22f0dc0fb3d40cb6fafbc9ebc"
+    },
+    {
+      "path": "cloud_before.json",
+      "bytes": 639,
+      "sha256": "6a69221e3fb3e90cda245192a38c25a23c88349f8a5ca73b570565c312bca3a0"
+    },
+    {
+      "path": "cloud_evidence.json",
+      "bytes": 18336,
+      "sha256": "3c90f07ac3de411f58da57141b9b14a13155f865bb7c77a28f55fafb54126292"
+    },
+    {
+      "path": "cloud_verification.json",
+      "bytes": 16669,
+      "sha256": "94ce214a51b7e3a62e35df09502c80176a1a51deb3be4cdd7c178e310b0c5cda"
+    },
+    {
+      "path": "implementation_scope_final.json",
+      "bytes": 2681,
+      "sha256": "4672e4aeb66ed205e0c124f443d5baa23b550ee1da1c7f285b35f0eb71aa5f1d"
+    },
+    {
+      "path": "build_cloud_release_fixture.py",
+      "bytes": 3095,
+      "sha256": "95227d34d3cdf5def8090e8edfe4289bdf2de8621df33b8cbed42312354f7455"
+    },
+    {
+      "path": "cloud_validator_unit_tests.json",
+      "bytes": 3833,
+      "sha256": "ead980be5865c2894cb1d3ac988a06a986cf9a4ed191ef700ec626e9e9b1c3b0"
+    },
+    {
+      "path": "cloud_custom_local_fallback.json",
+      "bytes": 8515,
+      "sha256": "e5c0fcb221ed4003d90743716211d611777cdf35afc3468a82dbf094b37014e6"
+    },
+    {
+      "path": "verify_downloaded_custom_local.py",
+      "bytes": 4225,
+      "sha256": "2f62f83a4a55e6499b067da5434799872e3e093e86580bfd93d7436bde41f3ef"
+    },
+    {
+      "path": "verify_cloud_evidence.py",
+      "bytes": 25034,
+      "sha256": "2713c37929058eb20cd70cc6b4e8b3c6f8c94b2150e28038c25b8b5eaaf0e5af"
+    },
+    {
+      "path": "test_cloud_evidence_validator.py",
+      "bytes": 11817,
+      "sha256": "f9d5a62329962e12798d691d83bf7cad559ba68224d7615718e981477a2b721b"
+    },
+    {
+      "path": "cloud_actual/downloads/00/dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (4).csv",
+      "bytes": 317760,
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074"
+    },
+    {
+      "path": "cloud_actual/downloads/01/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (4).csv",
+      "bytes": 176571,
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4"
+    },
+    {
+      "path": "cloud_actual/downloads/02/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.csv",
+      "bytes": 198079,
+      "sha256": "be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2"
+    },
+    {
+      "path": "cloud_actual/downloads/03/esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.txt",
+      "bytes": 102,
+      "sha256": "ae46f5eccda1240137eaabb4469b6dbec7cdeb98dec181ac0ac0201ae2be3041"
+    },
+    {
+      "path": "cloud_actual/downloads/04/dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (5).csv",
+      "bytes": 317760,
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074"
+    },
+    {
+      "path": "cloud_actual/downloads/05/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (5).csv",
+      "bytes": 176571,
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4"
+    },
+    {
+      "path": "cloud_actual/downloads/06/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221 (1).csv",
+      "bytes": 198079,
+      "sha256": "be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2"
+    },
+    {
+      "path": "cloud_actual/downloads/07/esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221 (1).txt",
+      "bytes": 102,
+      "sha256": "ae46f5eccda1240137eaabb4469b6dbec7cdeb98dec181ac0ac0201ae2be3041"
+    },
+    {
+      "path": "cloud_actual/downloads/08/dictionary_old_4c16c8937c60_eed2a8bfc21a (6).csv",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+    },
+    {
+      "path": "cloud_actual/downloads/09/dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (6).csv",
+      "bytes": 166998,
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19"
+    },
+    {
+      "path": "cloud_actual/downloads/10/dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.csv",
+      "bytes": 188662,
+      "sha256": "5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3"
+    },
+    {
+      "path": "cloud_actual/downloads/11/esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.txt",
+      "bytes": 204,
+      "sha256": "b1e8c93c5593b6be0102cf8d2896600a848314b8b2b21e0a86635d0f1ffe5208"
+    },
+    {
+      "path": "cloud_actual/downloads/12/dictionary_old_4c16c8937c60_eed2a8bfc21a (7).csv",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+    },
+    {
+      "path": "cloud_actual/downloads/13/dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (7).csv",
+      "bytes": 166998,
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19"
+    },
+    {
+      "path": "cloud_actual/downloads/14/dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e (1).csv",
+      "bytes": 188662,
+      "sha256": "5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3"
+    },
+    {
+      "path": "cloud_actual/downloads/15/esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e (1).txt",
+      "bytes": 204,
+      "sha256": "b1e8c93c5593b6be0102cf8d2896600a848314b8b2b21e0a86635d0f1ffe5208"
+    },
+    {
+      "path": "cloud_expected/JA_current_effective.csv",
+      "bytes": 198079,
+      "sha256": "be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2"
+    },
+    {
+      "path": "cloud_expected/JA_current_full.csv",
+      "bytes": 317760,
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074"
+    },
+    {
+      "path": "cloud_expected/JA_current_two_column.csv",
+      "bytes": 176571,
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4"
+    },
+    {
+      "path": "cloud_expected/JA_legacy_effective.csv",
+      "bytes": 188662,
+      "sha256": "5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3"
+    },
+    {
+      "path": "cloud_expected/JA_legacy_full.csv",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+    },
+    {
+      "path": "cloud_expected/JA_legacy_two_column.csv",
+      "bytes": 166998,
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19"
+    },
+    {
+      "path": "cloud_expected/ZH_current_effective.csv",
+      "bytes": 198079,
+      "sha256": "be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2"
+    },
+    {
+      "path": "cloud_expected/ZH_current_full.csv",
+      "bytes": 317760,
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074"
+    },
+    {
+      "path": "cloud_expected/ZH_current_two_column.csv",
+      "bytes": 176571,
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4"
+    },
+    {
+      "path": "cloud_expected/ZH_legacy_effective.csv",
+      "bytes": 188662,
+      "sha256": "5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3"
+    },
+    {
+      "path": "cloud_expected/ZH_legacy_full.csv",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+    },
+    {
+      "path": "cloud_expected/ZH_legacy_two_column.csv",
+      "bytes": 166998,
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19"
+    }
+  ]
+}

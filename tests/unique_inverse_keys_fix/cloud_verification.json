@@ -1,0 +1,338 @@
+{
+  "completed": false,
+  "passed": false,
+  "core_completed": true,
+  "core_passed": true,
+  "cloud_custom_completed": false,
+  "cloud_custom_passed": false,
+  "all_requested_checks_passed": false,
+  "evidence_package_allowed": true,
+  "status": "CORE_PASS_CUSTOM_BLOCKED",
+  "checks": 347,
+  "errors": [],
+  "coverage": {
+    "inverse": 4,
+    "dictionary_downloads": 12,
+    "result_downloads": 4,
+    "forward": 6,
+    "guards": 4,
+    "custom": 0,
+    "before": 2
+  },
+  "inverse": [
+    {
+      "case_id": "JA_current",
+      "language": "JA",
+      "edition": "current",
+      "output_sha256": "ae46f5eccda1240137eaabb4469b6dbec7cdeb98dec181ac0ac0201ae2be3041",
+      "expected_caption": "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-unique-inverse-20261018-v2 / e0bd60ad6221",
+      "known_collision_controls_retained_by_full_output": true
+    },
+    {
+      "case_id": "ZH_current",
+      "language": "ZH",
+      "edition": "current",
+      "output_sha256": "ae46f5eccda1240137eaabb4469b6dbec7cdeb98dec181ac0ac0201ae2be3041",
+      "expected_caption": "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-unique-inverse-20261018-v2 / e0bd60ad6221",
+      "known_collision_controls_retained_by_full_output": true
+    },
+    {
+      "case_id": "JA_legacy",
+      "language": "JA",
+      "edition": "legacy",
+      "output_sha256": "b1e8c93c5593b6be0102cf8d2896600a848314b8b2b21e0a86635d0f1ffe5208",
+      "expected_caption": "変換結果の版: 旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-unique-inverse-20261018-v2 / 31b2f361d71e",
+      "known_collision_controls_retained_by_full_output": true
+    },
+    {
+      "case_id": "ZH_legacy",
+      "language": "ZH",
+      "edition": "legacy",
+      "output_sha256": "b1e8c93c5593b6be0102cf8d2896600a848314b8b2b21e0a86635d0f1ffe5208",
+      "expected_caption": "转换结果使用的版本: 旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-unique-inverse-20261018-v2 / 31b2f361d71e",
+      "known_collision_controls_retained_by_full_output": true
+    }
+  ],
+  "downloads": [
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "full",
+      "path": "cloud_actual/downloads/00/dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (4).csv",
+      "bytes": 317760,
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (4).csv",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+      "duplicate_suffix_only": true
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "two_column",
+      "path": "cloud_actual/downloads/01/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (4).csv",
+      "bytes": 176571,
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (4).csv",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+      "duplicate_suffix_only": true
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "effective",
+      "path": "cloud_actual/downloads/02/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.csv",
+      "bytes": 198079,
+      "sha256": "be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.csv",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.csv",
+      "duplicate_suffix_only": false
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "kind": "result",
+      "path": "cloud_actual/downloads/03/esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.txt",
+      "bytes": 102,
+      "sha256": "ae46f5eccda1240137eaabb4469b6dbec7cdeb98dec181ac0ac0201ae2be3041",
+      "filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.txt",
+      "expected_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.txt",
+      "duplicate_suffix_only": false
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "full",
+      "path": "cloud_actual/downloads/04/dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (5).csv",
+      "bytes": 317760,
+      "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590 (5).csv",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590.csv",
+      "duplicate_suffix_only": true
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "two_column",
+      "path": "cloud_actual/downloads/05/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (5).csv",
+      "bytes": 176571,
+      "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col (5).csv",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_2col.csv",
+      "duplicate_suffix_only": true
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "effective",
+      "path": "cloud_actual/downloads/06/dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221 (1).csv",
+      "bytes": 198079,
+      "sha256": "be2d782cf2b0a0cf4abba384564a7bf8aff0ea2e587bd6b64a01de2e2ece5fd2",
+      "filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221 (1).csv",
+      "expected_filename": "dictionary_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.csv",
+      "duplicate_suffix_only": true
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "kind": "result",
+      "path": "cloud_actual/downloads/07/esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221 (1).txt",
+      "bytes": 102,
+      "sha256": "ae46f5eccda1240137eaabb4469b6dbec7cdeb98dec181ac0ac0201ae2be3041",
+      "filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221 (1).txt",
+      "expected_filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-unique-inverse-20261018-v2_e0bd60ad6221.txt",
+      "duplicate_suffix_only": true
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "full",
+      "path": "cloud_actual/downloads/08/dictionary_old_4c16c8937c60_eed2a8bfc21a (6).csv",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a (6).csv",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+      "duplicate_suffix_only": true
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "two_column",
+      "path": "cloud_actual/downloads/09/dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (6).csv",
+      "bytes": 166998,
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (6).csv",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+      "duplicate_suffix_only": true
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "effective",
+      "path": "cloud_actual/downloads/10/dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.csv",
+      "bytes": 188662,
+      "sha256": "5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.csv",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.csv",
+      "duplicate_suffix_only": false
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "result",
+      "path": "cloud_actual/downloads/11/esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.txt",
+      "bytes": 204,
+      "sha256": "b1e8c93c5593b6be0102cf8d2896600a848314b8b2b21e0a86635d0f1ffe5208",
+      "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.txt",
+      "expected_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.txt",
+      "duplicate_suffix_only": false
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "full",
+      "path": "cloud_actual/downloads/12/dictionary_old_4c16c8937c60_eed2a8bfc21a (7).csv",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a (7).csv",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv",
+      "duplicate_suffix_only": true
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "two_column",
+      "path": "cloud_actual/downloads/13/dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (7).csv",
+      "bytes": 166998,
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col (7).csv",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv",
+      "duplicate_suffix_only": true
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "effective",
+      "path": "cloud_actual/downloads/14/dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e (1).csv",
+      "bytes": 188662,
+      "sha256": "5ea4fe310f432bba6d77695cbb213ca28464b74649e75b5bf67104d5828ca7d3",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e (1).csv",
+      "expected_filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.csv",
+      "duplicate_suffix_only": true
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "result",
+      "path": "cloud_actual/downloads/15/esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e (1).txt",
+      "bytes": 204,
+      "sha256": "b1e8c93c5593b6be0102cf8d2896600a848314b8b2b21e0a86635d0f1ffe5208",
+      "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e (1).txt",
+      "expected_filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-unique-inverse-20261018-v2_31b2f361d71e.txt",
+      "duplicate_suffix_only": true
+    }
+  ],
+  "forward": [
+    {
+      "case_id": "JA_current_combined",
+      "language": "JA",
+      "edition": "current",
+      "visible_sha256": "95dc1ec06d852cd541fe9dc91a2a3336a0ed5fe7febcd79e9ad1c3cc5202f5a4"
+    },
+    {
+      "case_id": "KO_current_combined",
+      "language": "KO",
+      "edition": "current",
+      "visible_sha256": "95dc1ec06d852cd541fe9dc91a2a3336a0ed5fe7febcd79e9ad1c3cc5202f5a4"
+    },
+    {
+      "case_id": "JA_legacy_combined",
+      "language": "JA",
+      "edition": "legacy",
+      "visible_sha256": "b77023a96461beb1e4ca687df46956b89c8fcf853b7e1ffc407eb2bbf3684632"
+    },
+    {
+      "case_id": "KO_legacy_combined",
+      "language": "KO",
+      "edition": "legacy",
+      "visible_sha256": "b77023a96461beb1e4ca687df46956b89c8fcf853b7e1ffc407eb2bbf3684632"
+    },
+    {
+      "case_id": "ZH_current_combined",
+      "language": "ZH",
+      "edition": "current",
+      "visible_sha256": "95dc1ec06d852cd541fe9dc91a2a3336a0ed5fe7febcd79e9ad1c3cc5202f5a4"
+    },
+    {
+      "case_id": "ZH_legacy_combined",
+      "language": "ZH",
+      "edition": "legacy",
+      "visible_sha256": "b77023a96461beb1e4ca687df46956b89c8fcf853b7e1ffc407eb2bbf3684632"
+    }
+  ],
+  "guards": [
+    {
+      "language": "ZH",
+      "kind": "deployment_update",
+      "retained_caption": "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-orkidit-inverse-20261018-v1 / b9c55a7fd649",
+      "retained_output_sha256": "33399584c7f582841278bc703a0704050561c76340d0844b2f5eb1f0634114b3",
+      "download_disabled": true
+    },
+    {
+      "language": "JA",
+      "kind": "deployment_update",
+      "retained_caption": "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-orkidit-inverse-20261018-v1 / b9c55a7fd649",
+      "retained_output_sha256": "33399584c7f582841278bc703a0704050561c76340d0844b2f5eb1f0634114b3",
+      "download_disabled": true
+    },
+    {
+      "language": "JA",
+      "kind": "edition_switch",
+      "retained_caption": "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-unique-inverse-20261018-v2 / e0bd60ad6221",
+      "retained_output_sha256": "ae46f5eccda1240137eaabb4469b6dbec7cdeb98dec181ac0ac0201ae2be3041",
+      "download_disabled": true
+    },
+    {
+      "language": "ZH",
+      "kind": "edition_switch",
+      "retained_caption": "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590 / inverse: current-unique-inverse-20261018-v2 / e0bd60ad6221",
+      "retained_output_sha256": "ae46f5eccda1240137eaabb4469b6dbec7cdeb98dec181ac0ac0201ae2be3041",
+      "download_disabled": true
+    }
+  ],
+  "custom": [],
+  "custom_blocked": [
+    {
+      "language": "JA",
+      "status": "blocked",
+      "reason": "Chrome extension file chooser rejected setFiles because Allow access to file URLs is disabled. No extension permissions were changed.",
+      "attempted": true,
+      "operation": "PlaywrightFileChooser.setFiles",
+      "error": "To enable file upload, go to chrome://extensions in Google Chrome, click Details under the ChatGPT extension, and enable \"Allow access to file URLs.\"",
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+      "utc": "2026-10-18T08:58:12.087Z",
+      "local_fallback": "Verify the actual downloaded effective CSVs using production importer and inverse functions; Cloud reupload itself remains unverified."
+    },
+    {
+      "language": "ZH",
+      "status": "blocked",
+      "reason": "Chrome extension file chooser rejected setFiles because Allow access to file URLs is disabled. No extension permissions were changed.",
+      "attempted": false,
+      "operation": "PlaywrightFileChooser.setFiles",
+      "error": "To enable file upload, go to chrome://extensions in Google Chrome, click Details under the ChatGPT extension, and enable \"Allow access to file URLs.\"",
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "utc": "2026-10-18T08:58:12.087Z",
+      "local_fallback": "Verify the actual downloaded effective CSVs using production importer and inverse functions; Cloud reupload itself remains unverified."
+    }
+  ],
+  "custom_local_fallback": {
+    "passed": true,
+    "file": "cloud_custom_local_fallback.json",
+    "sha256": "e5c0fcb221ed4003d90743716211d611777cdf35afc3468a82dbf094b37014e6",
+    "cases": 4,
+    "cloud_upload_verified": false
+  },
+  "fixture_sha256": "c96044df9cb5aa0f7777e297b941c778bcc97ae67ec47692b3ee96068baf3b25",
+  "evidence_sha256": "3c90f07ac3de411f58da57141b9b14a13155f865bb7c77a28f55fafb54126292",
+  "validator_sha256": "2713c37929058eb20cd70cc6b4e8b3c6f8c94b2150e28038c25b8b5eaaf0e5af",
+  "scope": "Exact browser-observed outputs, provenance captions, actual saved dictionary/result file bytes, six combined normal/@ forward samples, custom upload and stale-result guards. Known ambiguous outputs are required unchanged. This does not claim arbitrary text has a unique inverse or identify the internal Cloud deployed commit."
+}
