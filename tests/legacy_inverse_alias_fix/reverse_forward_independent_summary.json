@@ -1,0 +1,299 @@
+{
+  "passed": true,
+  "scope": "Independent regression: exactly three old-edition inverse aliases. No forward or canonical dictionary changes.",
+  "forward_routes": 18,
+  "inputs_per_route": 173,
+  "forward_before_after_exact_cases": 3114,
+  "forward_before_after_changes": 0,
+  "forward_assets_unchanged": 87,
+  "inverse_results_compared": 4152,
+  "approved_legacy_inverse_improvements": 504,
+  "approved_improvements_exact_original_lower": 276,
+  "approved_improvements_only_outer_whitespace": 228,
+  "unapproved_inverse_changes": 0,
+  "existing_original_lower_results_regressed": 0,
+  "after_result_classification": {
+    "exact_original_lower": 2076,
+    "only_outer_whitespace_difference": 1872,
+    "preserved_preexisting_current_orkidit_limit": 180,
+    "mixed_cjk_control_not_original_esperanto_roundtrip": 24
+  },
+  "classification_by_route": {
+    "JA/current/ruby": {},
+    "JA/current/kanji": {
+      "exact_original_lower": 16,
+      "only_outer_whitespace_difference": 298,
+      "preserved_preexisting_current_orkidit_limit": 30,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "JA/current/pure": {
+      "exact_original_lower": 314,
+      "preserved_preexisting_current_orkidit_limit": 30,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "JA/legacy/ruby": {},
+    "JA/legacy/kanji": {
+      "exact_original_lower": 18,
+      "only_outer_whitespace_difference": 326,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "JA/legacy/pure": {
+      "exact_original_lower": 344,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "ZH/current/ruby": {},
+    "ZH/current/kanji": {
+      "exact_original_lower": 16,
+      "only_outer_whitespace_difference": 298,
+      "preserved_preexisting_current_orkidit_limit": 30,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "ZH/current/pure": {
+      "exact_original_lower": 314,
+      "preserved_preexisting_current_orkidit_limit": 30,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "ZH/legacy/ruby": {},
+    "ZH/legacy/kanji": {
+      "exact_original_lower": 18,
+      "only_outer_whitespace_difference": 326,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "ZH/legacy/pure": {
+      "exact_original_lower": 344,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "KO/current/ruby": {},
+    "KO/current/kanji": {
+      "exact_original_lower": 16,
+      "only_outer_whitespace_difference": 298,
+      "preserved_preexisting_current_orkidit_limit": 30,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "KO/current/pure": {
+      "exact_original_lower": 314,
+      "preserved_preexisting_current_orkidit_limit": 30,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "KO/legacy/ruby": {},
+    "KO/legacy/kanji": {
+      "exact_original_lower": 18,
+      "only_outer_whitespace_difference": 326,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    },
+    "KO/legacy/pure": {
+      "exact_original_lower": 344,
+      "mixed_cjk_control_not_original_esperanto_roundtrip": 2
+    }
+  },
+  "method": [
+    "Actual forward runtime and edition-specific data plus approved manual/automatic overlays; before and after first/final HTML or text are compared byte for byte.",
+    "Compact scalar probes are batched with separators; documents are rendered independently. HTML kanji output is stripped of ruby annotations/tags before inverse conversion.",
+    "The raw captures retain outer newlines introduced by HTML markup/batching. Those are reported separately, not counted as exact original restoration.",
+    "Roundtrip expectation removes @ control markers and lowercases the Esperanto original. Original letter case is not restored.",
+    "The already-kanjized mixed-input control has no Esperanto-original expectation; only its unchanged behavior is asserted."
+  ],
+  "approved_change_examples": [
+    {
+      "input": "testikit",
+      "forward_visible": "丸ᵀ炎ᵀ",
+      "before": "testikkatarᵀ",
+      "after": "testikit",
+      "after_exact_original_lower": true,
+      "after_original_lower_ignoring_outer_whitespace": true
+    },
+    {
+      "input": "testikito",
+      "forward_visible": "\n丸ᵀ炎ᵀo",
+      "before": "\ntestikkatarᵀo",
+      "after": "\ntestikito",
+      "after_exact_original_lower": false,
+      "after_original_lower_ignoring_outer_whitespace": true
+    },
+    {
+      "input": "testikitoj",
+      "forward_visible": "\n丸ᵀ炎ᵀoj",
+      "before": "\ntestikkatarᵀoj",
+      "after": "\ntestikitoj",
+      "after_exact_original_lower": false,
+      "after_original_lower_ignoring_outer_whitespace": true
+    },
+    {
+      "input": "testikiton",
+      "forward_visible": "\n丸ᵀ炎ᵀon",
+      "before": "\ntestikkatarᵀon",
+      "after": "\ntestikiton",
+      "after_exact_original_lower": false,
+      "after_original_lower_ignoring_outer_whitespace": true
+    },
+    {
+      "input": "testikitojn",
+      "forward_visible": "\n丸ᵀ炎ᵀojn",
+      "before": "\ntestikkatarᵀojn",
+      "after": "\ntestikitojn",
+      "after_exact_original_lower": false,
+      "after_original_lower_ignoring_outer_whitespace": true
+    },
+    {
+      "input": "testikita",
+      "forward_visible": "\n丸ᵀ炎ᵀa",
+      "before": "\ntestikkatarᵀa",
+      "after": "\ntestikita",
+      "after_exact_original_lower": false,
+      "after_original_lower_ignoring_outer_whitespace": true
+    },
+    {
+      "input": "testikitaj",
+      "forward_visible": "\n丸ᵀ炎ᵀaj",
+      "before": "\ntestikkatarᵀaj",
+      "after": "\ntestikitaj",
+      "after_exact_original_lower": false,
+      "after_original_lower_ignoring_outer_whitespace": true
+    },
+    {
+      "input": "testikitan",
+      "forward_visible": "\n丸ᵀ炎ᵀan",
+      "before": "\ntestikkatarᵀan",
+      "after": "\ntestikitan",
+      "after_exact_original_lower": false,
+      "after_original_lower_ignoring_outer_whitespace": true
+    },
+    {
+      "input": "testikitajn",
+      "forward_visible": "\n丸ᵀ炎ᵀajn",
+      "before": "\ntestikkatarᵀajn",
+      "after": "\ntestikitajn",
+      "after_exact_original_lower": false,
+      "after_original_lower_ignoring_outer_whitespace": true
+    },
+    {
+      "input": "testikite",
+      "forward_visible": "\n丸ᵀ炎ᵀe",
+      "before": "\ntestikkatarᵀe",
+      "after": "\ntestikite",
+      "after_exact_original_lower": false,
+      "after_original_lower_ignoring_outer_whitespace": true
+    }
+  ],
+  "remaining_preexisting_current_limits_unique_inputs": 15,
+  "remaining_preexisting_current_limits": [
+    {
+      "edition": "current",
+      "input": "orkidit",
+      "forward_visible": "兰炎ᵀ",
+      "restored": "orkidkatarᵀ",
+      "before_equals_after": true
+    },
+    {
+      "edition": "current",
+      "input": "orkidita",
+      "forward_visible": "兰炎ᵀa",
+      "restored": "orkidkatarᵀa",
+      "before_equals_after": true
+    },
+    {
+      "edition": "current",
+      "input": "orkiditaj",
+      "forward_visible": "兰炎ᵀaj",
+      "restored": "orkidkatarᵀaj",
+      "before_equals_after": true
+    },
+    {
+      "edition": "current",
+      "input": "orkiditan",
+      "forward_visible": "兰炎ᵀan",
+      "restored": "orkidkatarᵀan",
+      "before_equals_after": true
+    },
+    {
+      "edition": "current",
+      "input": "orkiditajn",
+      "forward_visible": "兰炎ᵀajn",
+      "restored": "orkidkatarᵀajn",
+      "before_equals_after": true
+    },
+    {
+      "edition": "current",
+      "input": "orkidite",
+      "forward_visible": "兰炎ᵀe",
+      "restored": "orkidkatarᵀe",
+      "before_equals_after": true
+    },
+    {
+      "edition": "current",
+      "input": "orkiditi",
+      "forward_visible": "兰炎ᵀi",
+      "restored": "orkidkatarᵀi",
+      "before_equals_after": true
+    },
+    {
+      "edition": "current",
+      "input": "orkiditas",
+      "forward_visible": "兰炎ᵀas",
+      "restored": "orkidkatarᵀas",
+      "before_equals_after": true
+    },
+    {
+      "edition": "current",
+      "input": "orkiditis",
+      "forward_visible": "兰炎ᵀis",
+      "restored": "orkidkatarᵀis",
+      "before_equals_after": true
+    },
+    {
+      "edition": "current",
+      "input": "orkiditos",
+      "forward_visible": "兰炎ᵀos",
+      "restored": "orkidkatarᵀos",
+      "before_equals_after": true
+    },
+    {
+      "edition": "current",
+      "input": "orkiditulo",
+      "forward_visible": "兰炎ᵀ者o",
+      "restored": "orkidkatarᵀulo",
+      "before_equals_after": true
+    },
+    {
+      "edition": "current",
+      "input": "orkiditeco",
+      "forward_visible": "兰炎ᵀ性o",
+      "restored": "orkidkatarᵀeco",
+      "before_equals_after": true
+    },
+    {
+      "edition": "current",
+      "input": "orkiditmalsano",
+      "forward_visible": "兰炎ᵀ反健o",
+      "restored": "orkidkatarᵀmalsano",
+      "before_equals_after": true
+    },
+    {
+      "edition": "current",
+      "input": "orkiditkuracado",
+      "forward_visible": "兰炎ᵀ医行o",
+      "restored": "orkidkatarᵀkuracado",
+      "before_equals_after": true
+    },
+    {
+      "edition": "current",
+      "input": "Mi legis pri testikito kaj orkidito dum unu semajno.\ntestikito testikitoj testikiton testikitojn orkidito orkiditoj orkiditon orkiditojn\n@testikit@o @testikit@oj @testikit@on @testikit@ojn @orkidit@o @orkidit@oj @orkidit@on @orkidit@ojn\n@testikito@ @testikitoj@ @testikiton@ @testikitojn@ @orkidito@ @orkiditoj@ @orkiditon@ @orkiditojn@\ntestikit orkidit testik orkido it katar katari laso emancipo satiro karikaturo sarkasmo semajno.",
+      "forward_visible": "我 读is 于 丸ᵀ炎ᵀo 和ᴷ 丸ᴼ炎ᵀo 期ᴰᴹ 一 周o.\n丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸ᵀ炎ᵀon 丸ᵀ炎ᵀojn 丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀon 丸ᴼ炎ᵀojn\n丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸ᵀ炎ᵀon 丸ᵀ炎ᵀojn 丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀon 丸ᴼ炎ᵀojn\n丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸ᵀ炎ᵀ分 丸ᵀ炎ᵀojn 丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀ分 丸ᴼ炎ᵀojn\n丸ᵀ炎ᵀ 兰炎ᵀ 丸ᵀ 兰o it 炎 草ᴷᴿ 放o 放ᴱo 讽o 讽ᴷo 讽ˢᴿo 周o.",
+      "restored": "mi legis pri testikito kaj orkidito dum unu semajno.\ntestikito testikitoj testikiton testikitojn orkidito orkiditoj orkiditon orkiditojn\ntestikito testikitoj testikiton testikitojn orkidito orkiditoj orkiditon orkiditojn\ntestikito testikitoj testikiton testikitojn orkidito orkiditoj orkiditon orkiditojn\ntestikit orkidkatarᵀ testik orkido it katar katari laso emancipo satiro karikaturo sarkasmo semajno.",
+      "before_equals_after": true
+    }
+  ],
+  "cloud_success_fixture": {
+    "forward_cases": 6,
+    "inverse_cases": 4,
+    "sha256": "2031805ee8541629b6c837263cb5942f9488f27b4af01b7f8059e7a23f1a9d53",
+    "local_exact_original_lower": true,
+    "cloud_verification_by_parent": "separate evidence"
+  },
+  "universal_roundtrip_claimed": false,
+  "raw_capture_evidence": {
+    "reverse_forward_before.json.gz": "eba65bdeb6e975bdc16195b011e9a651e789ca069625363203ef49812d8ed37b",
+    "reverse_forward_after.json.gz": "82c47581f7b8527836c130ab7e5d33ae6b627ce3569b4e42366a7dde1c7aff7d",
+    "reverse_forward_after_summary.json": "8572c3a15f92286f1d7ce4408567098b38db6479e91276e6574a11435236ffbf"
+  }
+}

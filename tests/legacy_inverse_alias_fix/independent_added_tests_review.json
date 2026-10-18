@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "review": "Read-only source review; actual pytest execution owned by implementation agent",
+  "languages": {
+    "JA": {
+      "path": "Esperanto-Reverter-JA/tests/test_legacy_inverse_aliases.py",
+      "sha256": "6763247f5f21bc72a1b6f234b6edfcf249efad09d372f9164cbb24ce623fce61",
+      "public_integrated_bytes_equal": true,
+      "test_functions": 8
+    },
+    "ZH": {
+      "path": "Esperanto-Reverter-ZH/tests/test_legacy_inverse_aliases.py",
+      "sha256": "92c691660e9870e7f1da99f9f19b5e9583db5ae04bd2adad75bdb192e009f227",
+      "public_integrated_bytes_equal": true,
+      "test_functions": 8
+    }
+  },
+  "same_tests_except_language_import": true,
+  "blocking_findings": [],
+  "reviewed_behaviour": [
+    "closed three-alias scope and fixed CSV hash rejection",
+    "all fixed keys plus suffix unchanged",
+    "nonlegacy and custom no automatic aliases",
+    "effective CSV full index equivalence",
+    "UI stale provenance and disabled downloads until reconversion",
+    "revision and content hash invalidation",
+    "effective CSV explicitly uploaded as custom"
+  ]
+}

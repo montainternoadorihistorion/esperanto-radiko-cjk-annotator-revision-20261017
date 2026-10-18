@@ -1,0 +1,56 @@
+{
+  "passed_local": true,
+  "method": "Exact bytes from the released edition_download_data and legacy_effective_download_data helpers; no dictionary generation or edits.",
+  "fixture_sha256": "2031805ee8541629b6c837263cb5942f9488f27b4af01b7f8059e7a23f1a9d53",
+  "app_validation_sha256": "adb61001984dda49ab10cc29b60d8a8fa00b8e2507bf78cf3589c6b9874da8b8",
+  "records": [
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "full",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "two_column",
+      "bytes": 166998,
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "kind": "effective",
+      "bytes": 188366,
+      "sha256": "137eb963f9dfbb69e5d989c806c17cf1e1bbc3d66c6654a27c94a24aff8cfde1",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb.csv"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "full",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a.csv"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "two_column",
+      "bytes": 166998,
+      "sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_2col.csv"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "kind": "effective",
+      "bytes": 188366,
+      "sha256": "137eb963f9dfbb69e5d989c806c17cf1e1bbc3d66c6654a27c94a24aff8cfde1",
+      "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb.csv"
+    }
+  ]
+}

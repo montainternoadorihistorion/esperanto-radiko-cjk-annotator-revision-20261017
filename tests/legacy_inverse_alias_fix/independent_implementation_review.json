@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "production_writes": 0,
+  "script_sha256": "b10287cc9bbebba9a2616003471ead1cf79958b9b516ffb00dff4ff9e0503cfa",
+  "languages": {
+    "JA": {
+      "status": "PASS",
+      "public_integrated_source_bytes_equal": true,
+      "core_seven_definitions_unchanged": true,
+      "source_sha256": "b80f5a45aa9a9f9a8c21f0ba8800a33b33ba02e6aae0089b19ce4da046ca7ee3",
+      "legacy_original_records_retained": 10636,
+      "exact_added_records": [
+        [
+          "testikit",
+          "丸ᵀ炎ᵀ",
+          "0"
+        ],
+        [
+          "orkidit",
+          "丸ᴼ炎ᵀ",
+          "0"
+        ],
+        [
+          "orkidit",
+          "兰炎ᵀ",
+          "0"
+        ]
+      ],
+      "same_effective_records_and_all_key_index_in_download": true,
+      "effective_download_sha256": "137eb963f9dfbb69e5d989c806c17cf1e1bbc3d66c6654a27c94a24aff8cfde1",
+      "fixed_csv_and_two_column_hashes_unchanged": true,
+      "current_and_archive_sources_unchanged": [
+        "pejvo-piv-20260620",
+        "legacy-minimal",
+        "pre-three-short-20261017",
+        "pre-dot-greft-20261018",
+        "pre-sperm-distinction-20261018",
+        "pre-satir-20261017",
+        "pre-mirror-20261017"
+      ],
+      "custom_explicit_alias_owner_not_overridden": true,
+      "supplement_revision_in_identity_and_filenames": true,
+      "supplement_sha256": "2ccba60edaebf72286c211c29126a57829df0c16abe0eea5d778e005d9248107",
+      "only_two_visible_editions": true
+    },
+    "ZH": {
+      "status": "PASS",
+      "public_integrated_source_bytes_equal": true,
+      "core_seven_definitions_unchanged": true,
+      "source_sha256": "ecb2f3ba65ac296984f4d66b0d7fa5cc0d22f01d957659c6318ae8578c739509",
+      "legacy_original_records_retained": 10636,
+      "exact_added_records": [
+        [
+          "testikit",
+          "丸ᵀ炎ᵀ",
+          "0"
+        ],
+        [
+          "orkidit",
+          "丸ᴼ炎ᵀ",
+          "0"
+        ],
+        [
+          "orkidit",
+          "兰炎ᵀ",
+          "0"
+        ]
+      ],
+      "same_effective_records_and_all_key_index_in_download": true,
+      "effective_download_sha256": "137eb963f9dfbb69e5d989c806c17cf1e1bbc3d66c6654a27c94a24aff8cfde1",
+      "fixed_csv_and_two_column_hashes_unchanged": true,
+      "current_and_archive_sources_unchanged": [
+        "pejvo-piv-20260620",
+        "legacy-minimal",
+        "pre-three-short-20261017",
+        "pre-dot-greft-20261018",
+        "pre-sperm-distinction-20261018",
+        "pre-satir-20261017",
+        "pre-mirror-20261017"
+      ],
+      "custom_explicit_alias_owner_not_overridden": true,
+      "supplement_revision_in_identity_and_filenames": true,
+      "supplement_sha256": "2ccba60edaebf72286c211c29126a57829df0c16abe0eea5d778e005d9248107",
+      "only_two_visible_editions": true
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "scope": "Local independent validation of legacy-only inverse aliases; cloud observations are published separately.",
+  "aliases": {
+    "丸ᵀ炎ᵀ": "testikit",
+    "丸ᴼ炎ᵀ": "orkidit",
+    "兰炎ᵀ": "orkidit"
+  },
+  "existing_dictionary_queries": 511800,
+  "existing_dictionary_query_changes": 0,
+  "dictionary_sources_per_language": 8,
+  "dictionary_keys_per_language": 85300,
+  "languages": [
+    "JA",
+    "ZH"
+  ],
+  "query_variants_per_key": [
+    "",
+    "o",
+    "ojn"
+  ],
+  "approved_alias_probes_changed": 96,
+  "control_queries_changed": 0,
+  "current_and_intermediate_sources_unchanged": true,
+  "canonical_rows_old": 10636,
+  "effective_rows_old": 10639,
+  "fixed_old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+  "fixed_old_two_column_csv_sha256": "535ba2b65eb799ccbb6cc8400a705f23b06fe2e5207ccf3c3d460641d53d1a19",
+  "effective_old_csv_sha256": "137eb963f9dfbb69e5d989c806c17cf1e1bbc3d66c6654a27c94a24aff8cfde1",
+  "fixed_old_dictionary_and_downloads_unchanged": true,
+  "all_existing_inverse_data_assets_unchanged": 56,
+  "forward_assets_unchanged": 87,
+  "forward_cases_exact_before_after": 3114,
+  "forward_changes": 0,
+  "actual_forward_inverse_comparisons": 4152,
+  "approved_legacy_inverse_improvements": 504,
+  "unapproved_inverse_changes": 0,
+  "local_cloud_fixture_success_cases": {
+    "forward": 6,
+    "inverse": 4
+  },
+  "full_suite_results_by_implementation_owner": {
+    "JA": 162,
+    "ZH": 162
+  },
+  "remaining_limits": [
+    "The current-edition normal orkidit bare/adjectival/verbal and some compound forms can still emit 兰炎ᵀ and restore as orkidkatarᵀ; this preexisting behavior is unchanged and separately captured.",
+    "Raw HTML, uppercase restoration, arbitrary mixed-edition text and ambiguous compound boundaries are not guaranteed by this change.",
+    "Forward HTML wrapper whitespace is distinguished from exact original-lower restoration. Mixed already-kanjized controls are not original-Esperanto roundtrip cases."
+  ],
+  "universal_roundtrip_claimed": false,
+  "runtime_and_test_sha256": {
+    "kanjized-esperanto-reverter/esperanto_converter.py": "b80f5a45aa9a9f9a8c21f0ba8800a33b33ba02e6aae0089b19ce4da046ca7ee3",
+    "kanjized-esperanto-reverter/data/legacy_inverse_aliases.json": "2ccba60edaebf72286c211c29126a57829df0c16abe0eea5d778e005d9248107",
+    "kanjized-esperanto-reverter/tests/test_legacy_inverse_aliases.py": "6763247f5f21bc72a1b6f234b6edfcf249efad09d372f9164cbb24ce623fce61",
+    "kanjized-esperanto-reverter/tests/test_cache_entrypoint_lifecycle.py": "6d6ded52b52d8c68d6a619474edb0f0bd36241e5407ecb14e2a7f9a7940cadb0",
+    "hanzized-esperanto-reverter-zh_更新版20260822/esperanto_converter_zh.py": "ecb2f3ba65ac296984f4d66b0d7fa5cc0d22f01d957659c6318ae8578c739509",
+    "hanzized-esperanto-reverter-zh_更新版20260822/data/legacy_inverse_aliases.json": "2ccba60edaebf72286c211c29126a57829df0c16abe0eea5d778e005d9248107",
+    "hanzized-esperanto-reverter-zh_更新版20260822/tests/test_legacy_inverse_aliases.py": "92c691660e9870e7f1da99f9f19b5e9583db5ae04bd2adad75bdb192e009f227",
+    "hanzized-esperanto-reverter-zh_更新版20260822/tests/test_cache_entrypoint_lifecycle.py": "0747540e80ff8d4ba8b96d1eb2f546695b922555c0a209779cff9b76d22caa63"
+  },
+  "evidence_sha256": {
+    "reverse_forward_independent_summary.json": "1bdd4f8ce96aeb18a4aa73b0c0b26b5fcf905fe28a1016c2bef78872ba305c86",
+    "reverse_inverse_after_summary.json": "6e3b727197b39391e6715f76d3b0979ccc2558557c5a8c60bebcbbc86d0be7c3",
+    "reverse_cloud_fixture.json": "2031805ee8541629b6c837263cb5942f9488f27b4af01b7f8059e7a23f1a9d53",
+    "reverse_cloud_forward_cases.json": "b5a9ac38ba6a1223694689ef0c6c784a618fd51539bafd86eaf25cbc46345700",
+    "app_validation.json": "adb61001984dda49ab10cc29b60d8a8fa00b8e2507bf78cf3589c6b9874da8b8"
+  },
+  "private_raw_evidence_sha256": {
+    "reverse_baseline_manifest.json": "6db9c28e01ece7e33965806a6d17a825530c5a5c3cff94d8580ca9bb0007f8bd",
+    "reverse_inverse_before.json.gz": "79b0a183fc6c28a847ad658d91ac200e32824980473796a9b3dd0f72325e57fe",
+    "reverse_inverse_after.json.gz": "3963bbd62ddd219d17e7c13dff6b400229a20d77a0615b18563682a04cb33e83",
+    "reverse_forward_before.json.gz": "eba65bdeb6e975bdc16195b011e9a651e789ca069625363203ef49812d8ed37b",
+    "reverse_forward_after.json.gz": "82c47581f7b8527836c130ab7e5d33ae6b627ce3569b4e42366a7dde1c7aff7d"
+  }
+}
