@@ -1,0 +1,983 @@
+{
+  "html_cases": [
+    {
+      "app_language": "JA",
+      "id": "JA_current_kanji",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 新版 ／ 読み取ったルビ: 11個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:23:01.741Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "JA_current_kanji",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 新版 ／ 已读取的Ruby: 11个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:23:21.496Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "JA_legacy_kanji",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 旧版 ／ 読み取ったルビ: 11個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:23:25.928Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "JA_legacy_kanji",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 旧版 ／ 已读取的Ruby: 11个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:23:28.173Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "ZH_current_kanji",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 新版 ／ 読み取ったルビ: 11個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:23:31.590Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "ZH_current_kanji",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 新版 ／ 已读取的Ruby: 11个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:23:33.805Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "ZH_legacy_kanji",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 旧版 ／ 読み取ったルビ: 11個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:23:38.543Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "ZH_legacy_kanji",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 旧版 ／ 已读取的Ruby: 11个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:23:40.754Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "KO_current_kanji",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 新版 ／ 読み取ったルビ: 11個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:23:43.908Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "KO_current_kanji",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 新版 ／ 已读取的Ruby: 11个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:23:46.138Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "KO_legacy_kanji",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 旧版 ／ 読み取ったルビ: 11個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:23:49.447Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "KO_legacy_kanji",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 旧版 ／ 已读取的Ruby: 11个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:23:51.640Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "JA_current_ruby",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 新版 ／ 読み取ったルビ: 11個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:24:02.636Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "JA_current_ruby",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 新版 ／ 已读取的Ruby: 11个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:24:04.795Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "JA_legacy_ruby",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 旧版 ／ 読み取ったルビ: 11個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:24:07.953Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "JA_legacy_ruby",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 旧版 ／ 已读取的Ruby: 11个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:24:10.216Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "ZH_current_ruby",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 新版 ／ 読み取ったルビ: 11個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:24:14.670Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "ZH_current_ruby",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 新版 ／ 已读取的Ruby: 11个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:24:17.051Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "ZH_legacy_ruby",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 旧版 ／ 読み取ったルビ: 11個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:24:20.806Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "ZH_legacy_ruby",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 旧版 ／ 已读取的Ruby: 11个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:24:23.187Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "KO_current_ruby",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 新版 ／ 読み取ったルビ: 11個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:24:27.255Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "KO_current_ruby",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 新版 ／ 已读取的Ruby: 11个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:24:29.614Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "KO_legacy_ruby",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 旧版 ／ 読み取ったルビ: 11個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:24:34.001Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "KO_legacy_ruby",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 旧版 ／ 已读取的Ruby: 11个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:24:36.687Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "live_JA_current_kanji_paste",
+      "text": "  \nrevidi adiaŭi dekdu etilo afonio magneto sene\nsemajno testikito testikito orkidita orkidita\n放 lasis @literala@ <b>&amp;</b>\nĈapelo  fino\n\n  ",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 新版 ／ 読み取ったルビ: 20個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:25:49.217Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "live_JA_current_kanji_paste",
+      "text": "  \nrevidi adiaŭi dekdu etilo afonio magneto sene\nsemajno testikito testikito orkidita orkidita\n放 lasis @literala@ <b>&amp;</b>\nĈapelo  fino\n\n  ",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 新版 ／ 已读取的Ruby: 20个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:25:51.509Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "live_JA_legacy_kanji_paste",
+      "text": "  \nrevidi adiaŭi dekdu etilo afonio magneto sene\nsemajno testikito testikito orkidita orkidita\n放 lasis @literala@ <b>&amp;</b>\nĈapelo  fino\n\n  ",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 旧版 ／ 読み取ったルビ: 20個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:26:33.083Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "live_JA_legacy_kanji_paste",
+      "text": "  \nrevidi adiaŭi dekdu etilo afonio magneto sene\nsemajno testikito testikito orkidita orkidita\n放 lasis @literala@ <b>&amp;</b>\nĈapelo  fino\n\n  ",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 旧版 ／ 已读取的Ruby: 20个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:26:35.343Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "live_JA_current_kanji_upload",
+      "text": "  \nrevidi adiaŭi dekdu etilo afonio magneto sene\nsemajno testikito testikito orkidita orkidita\n放 lasis @literala@ <b>&amp;</b>\nĈapelo  fino\n\n  ",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 新版 ／ 読み取ったルビ: 20個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:27:45.348Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "live_JA_current_kanji_upload",
+      "text": "  \nrevidi adiaŭi dekdu etilo afonio magneto sene\nsemajno testikito testikito orkidita orkidita\n放 lasis @literala@ <b>&amp;</b>\nĈapelo  fino\n\n  ",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 新版 ／ 已读取的Ruby: 20个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:27:50.552Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "live_JA_legacy_kanji_upload",
+      "text": "  \nrevidi adiaŭi dekdu etilo afonio magneto sene\nsemajno testikito testikito orkidita orkidita\n放 lasis @literala@ <b>&amp;</b>\nĈapelo  fino\n\n  ",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 旧版 ／ 読み取ったルビ: 20個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:28:03.870Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "live_JA_legacy_kanji_upload",
+      "text": "  \nrevidi adiaŭi dekdu etilo afonio magneto sene\nsemajno testikito testikito orkidita orkidita\n放 lasis @literala@ <b>&amp;</b>\nĈapelo  fino\n\n  ",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 旧版 ／ 已读取的Ruby: 20个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:28:07.719Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "KO_legacy_annotation_bom_upload",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 旧版 ／ 読み取ったルビ: 11個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:28:26.406Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "KO_legacy_annotation_bom_upload",
+      "text": "dekdu etilo magneto sene\nsemajno 再见 @literala@ <b>&amp;</b>\nĈapelo ĉapelo ĉapelo  fino\nFino\n",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 旧版 ／ 已读取的Ruby: 11个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:28:29.916Z",
+      "passed": true
+    },
+    {
+      "app_language": "JA",
+      "id": "unknown_metadata",
+      "text": "  \nrevidi adiaŭi dekdu etilo afonio magneto sene\nsemajno testikito testikito orkidita orkidita\n放 lasis @literala@ <b>&amp;</b>\nĈapelo  fino\n\n  ",
+      "recorded_version": [
+        "- paragraph: \"HTMLに記録された版: 不明（版情報なし） ／ 読み取ったルビ: 20個\""
+      ],
+      "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:28:48.033Z",
+      "passed": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "unknown_metadata",
+      "text": "  \nrevidi adiaŭi dekdu etilo afonio magneto sene\nsemajno testikito testikito orkidita orkidita\n放 lasis @literala@ <b>&amp;</b>\nĈapelo  fino\n\n  ",
+      "recorded_version": [
+        "- paragraph: \"HTML记录的版本: 未知（无版本记录） ／ 已读取的Ruby: 20个\""
+      ],
+      "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/",
+      "time": "2026-10-18T13:28:53.780Z",
+      "passed": true
+    }
+  ],
+  "downloads": [
+    {
+      "app_language": "JA",
+      "id": "JA_current_kanji",
+      "filename": "esperanto_html_current_kanji_22efeefd829f.txt",
+      "path": "downloads/JA_JA_current_kanji.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "ZH",
+      "id": "JA_current_kanji",
+      "filename": "esperanto_html_current_kanji_22efeefd829f (1).txt",
+      "path": "downloads/ZH_JA_current_kanji.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "JA",
+      "id": "JA_legacy_kanji",
+      "filename": "esperanto_html_legacy_kanji_c32a4ef3541b.txt",
+      "path": "downloads/JA_JA_legacy_kanji.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "ZH",
+      "id": "JA_legacy_kanji",
+      "filename": "esperanto_html_legacy_kanji_c32a4ef3541b (1).txt",
+      "path": "downloads/ZH_JA_legacy_kanji.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "JA",
+      "id": "ZH_current_kanji",
+      "filename": "esperanto_html_current_kanji_66cc051de0cf.txt",
+      "path": "downloads/JA_ZH_current_kanji.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "ZH",
+      "id": "ZH_current_kanji",
+      "filename": "esperanto_html_current_kanji_66cc051de0cf (1).txt",
+      "path": "downloads/ZH_ZH_current_kanji.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "JA",
+      "id": "ZH_legacy_kanji",
+      "filename": "esperanto_html_legacy_kanji_3026f3e1195d.txt",
+      "path": "downloads/JA_ZH_legacy_kanji.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "ZH",
+      "id": "ZH_legacy_kanji",
+      "filename": "esperanto_html_legacy_kanji_3026f3e1195d (1).txt",
+      "path": "downloads/ZH_ZH_legacy_kanji.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "JA",
+      "id": "KO_current_kanji",
+      "filename": "esperanto_html_current_kanji_7ef8ff8f0a73.txt",
+      "path": "downloads/JA_KO_current_kanji.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "ZH",
+      "id": "KO_current_kanji",
+      "filename": "esperanto_html_current_kanji_7ef8ff8f0a73 (1).txt",
+      "path": "downloads/ZH_KO_current_kanji.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "JA",
+      "id": "KO_legacy_kanji",
+      "filename": "esperanto_html_legacy_kanji_ced89eab0ec0.txt",
+      "path": "downloads/JA_KO_legacy_kanji.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "ZH",
+      "id": "KO_legacy_kanji",
+      "filename": "esperanto_html_legacy_kanji_ced89eab0ec0 (1).txt",
+      "path": "downloads/ZH_KO_legacy_kanji.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "JA",
+      "id": "JA_current_ruby",
+      "filename": "esperanto_html_current_annotation_8a698b8d7e97.txt",
+      "path": "downloads/JA_JA_current_ruby.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "ZH",
+      "id": "JA_current_ruby",
+      "filename": "esperanto_html_current_annotation_8a698b8d7e97 (1).txt",
+      "path": "downloads/ZH_JA_current_ruby.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "JA",
+      "id": "JA_legacy_ruby",
+      "filename": "esperanto_html_legacy_annotation_c85aac66fe42.txt",
+      "path": "downloads/JA_JA_legacy_ruby.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "ZH",
+      "id": "JA_legacy_ruby",
+      "filename": "esperanto_html_legacy_annotation_c85aac66fe42 (1).txt",
+      "path": "downloads/ZH_JA_legacy_ruby.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "JA",
+      "id": "ZH_current_ruby",
+      "filename": "esperanto_html_current_annotation_4116f9933eaf.txt",
+      "path": "downloads/JA_ZH_current_ruby.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "ZH",
+      "id": "ZH_current_ruby",
+      "filename": "esperanto_html_current_annotation_4116f9933eaf (1).txt",
+      "path": "downloads/ZH_ZH_current_ruby.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "JA",
+      "id": "ZH_legacy_ruby",
+      "filename": "esperanto_html_legacy_annotation_5a80b0caa454.txt",
+      "path": "downloads/JA_ZH_legacy_ruby.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "ZH",
+      "id": "ZH_legacy_ruby",
+      "filename": "esperanto_html_legacy_annotation_5a80b0caa454 (1).txt",
+      "path": "downloads/ZH_ZH_legacy_ruby.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "JA",
+      "id": "KO_current_ruby",
+      "filename": "esperanto_html_current_annotation_d988c8ab115a.txt",
+      "path": "downloads/JA_KO_current_ruby.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "ZH",
+      "id": "KO_current_ruby",
+      "filename": "esperanto_html_current_annotation_d988c8ab115a (1).txt",
+      "path": "downloads/ZH_KO_current_ruby.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "JA",
+      "id": "KO_legacy_ruby",
+      "filename": "esperanto_html_legacy_annotation_65fcac1e8247.txt",
+      "path": "downloads/JA_KO_legacy_ruby.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "ZH",
+      "id": "KO_legacy_ruby",
+      "filename": "esperanto_html_legacy_annotation_65fcac1e8247 (1).txt",
+      "path": "downloads/ZH_KO_legacy_ruby.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "JA",
+      "id": "live_JA_current_kanji_paste",
+      "filename": "esperanto_html_current_kanji_ddb5f1f327ec.txt",
+      "path": "downloads/JA_live_JA_current_kanji_paste.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "b66414c9c8a3df5bdb6f81b4db342dfa16ef7e48f8e590cdd8bc4270dd6bd5fb"
+    },
+    {
+      "app_language": "ZH",
+      "id": "live_JA_current_kanji_paste",
+      "filename": "esperanto_html_current_kanji_ddb5f1f327ec (1).txt",
+      "path": "downloads/ZH_live_JA_current_kanji_paste.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "b66414c9c8a3df5bdb6f81b4db342dfa16ef7e48f8e590cdd8bc4270dd6bd5fb"
+    },
+    {
+      "app_language": "JA",
+      "id": "live_JA_legacy_kanji_paste",
+      "filename": "esperanto_html_legacy_kanji_bc9a6497a8ee.txt",
+      "path": "downloads/JA_live_JA_legacy_kanji_paste.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "b66414c9c8a3df5bdb6f81b4db342dfa16ef7e48f8e590cdd8bc4270dd6bd5fb"
+    },
+    {
+      "app_language": "ZH",
+      "id": "live_JA_legacy_kanji_paste",
+      "filename": "esperanto_html_legacy_kanji_bc9a6497a8ee (1).txt",
+      "path": "downloads/ZH_live_JA_legacy_kanji_paste.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "b66414c9c8a3df5bdb6f81b4db342dfa16ef7e48f8e590cdd8bc4270dd6bd5fb"
+    },
+    {
+      "app_language": "JA",
+      "id": "live_JA_current_kanji_upload",
+      "filename": "esperanto_html_current_kanji_96557a34d494.txt",
+      "path": "downloads/JA_live_JA_current_kanji_upload.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "b66414c9c8a3df5bdb6f81b4db342dfa16ef7e48f8e590cdd8bc4270dd6bd5fb"
+    },
+    {
+      "app_language": "ZH",
+      "id": "live_JA_current_kanji_upload",
+      "filename": "esperanto_html_current_kanji_96557a34d494 (1).txt",
+      "path": "downloads/ZH_live_JA_current_kanji_upload.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "b66414c9c8a3df5bdb6f81b4db342dfa16ef7e48f8e590cdd8bc4270dd6bd5fb"
+    },
+    {
+      "app_language": "JA",
+      "id": "live_JA_legacy_kanji_upload",
+      "filename": "esperanto_html_legacy_kanji_d73e655a3202.txt",
+      "path": "downloads/JA_live_JA_legacy_kanji_upload.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "b66414c9c8a3df5bdb6f81b4db342dfa16ef7e48f8e590cdd8bc4270dd6bd5fb"
+    },
+    {
+      "app_language": "ZH",
+      "id": "live_JA_legacy_kanji_upload",
+      "filename": "esperanto_html_legacy_kanji_d73e655a3202 (1).txt",
+      "path": "downloads/ZH_live_JA_legacy_kanji_upload.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "b66414c9c8a3df5bdb6f81b4db342dfa16ef7e48f8e590cdd8bc4270dd6bd5fb"
+    },
+    {
+      "app_language": "JA",
+      "id": "KO_legacy_annotation_bom_upload",
+      "filename": "esperanto_html_legacy_annotation_0a92047c512f.txt",
+      "path": "downloads/JA_KO_legacy_annotation_bom_upload.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "ZH",
+      "id": "KO_legacy_annotation_bom_upload",
+      "filename": "esperanto_html_legacy_annotation_0a92047c512f (1).txt",
+      "path": "downloads/ZH_KO_legacy_annotation_bom_upload.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "f4ebf3c72e42916145382316dc9b70457d3eb923b0ea103e84bbc645815c08c6"
+    },
+    {
+      "app_language": "JA",
+      "id": "unknown_metadata",
+      "filename": "esperanto_html_unknown_kanji_9069eb615e9d.txt",
+      "path": "downloads/JA_unknown_metadata.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "b66414c9c8a3df5bdb6f81b4db342dfa16ef7e48f8e590cdd8bc4270dd6bd5fb"
+    },
+    {
+      "app_language": "ZH",
+      "id": "unknown_metadata",
+      "filename": "esperanto_html_unknown_kanji_9069eb615e9d (1).txt",
+      "path": "downloads/ZH_unknown_metadata.txt",
+      "utf8_bytes_equal": true,
+      "sha256": "b66414c9c8a3df5bdb6f81b4db342dfa16ef7e48f8e590cdd8bc4270dd6bd5fb"
+    }
+  ],
+  "guards": [
+    {
+      "app_language": "JA",
+      "id": "JA_legacy_kanji",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "JA_legacy_kanji",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "ZH_current_kanji",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "ZH_current_kanji",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "ZH_legacy_kanji",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "ZH_legacy_kanji",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "KO_current_kanji",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "KO_current_kanji",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "KO_legacy_kanji",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "KO_legacy_kanji",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "JA_current_ruby",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "JA_current_ruby",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "JA_legacy_ruby",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "JA_legacy_ruby",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "ZH_current_ruby",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "ZH_current_ruby",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "ZH_legacy_ruby",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "ZH_legacy_ruby",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "KO_current_ruby",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "KO_current_ruby",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "KO_legacy_ruby",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "KO_legacy_ruby",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "live_JA_current_kanji_paste",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "live_JA_current_kanji_paste",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "live_JA_legacy_kanji_paste",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "live_JA_legacy_kanji_paste",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "upload_current_to_legacy",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "upload_current_to_legacy",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "invalid_utf8_upload",
+      "old_download_absent": true,
+      "errors": [
+        "HTMLファイルを読み込めません: The HTML file must be valid UTF-8."
+      ]
+    },
+    {
+      "app_language": "JA",
+      "id": "unknown_metadata",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "invalid_utf8_upload",
+      "old_download_absent": true,
+      "errors": [
+        "无法读取HTML文件: The HTML file must be valid UTF-8."
+      ]
+    },
+    {
+      "app_language": "ZH",
+      "id": "unknown_metadata",
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "fragment_rejected",
+      "errors": [
+        "HTMLを復元できません: Nested or misplaced ruby is not supported."
+      ],
+      "old_download_absent": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "fragment_rejected",
+      "errors": [
+        "无法还原HTML: Nested or misplaced ruby is not supported."
+      ],
+      "old_download_absent": true
+    },
+    {
+      "app_language": "JA",
+      "id": "plain_current_to_legacy",
+      "old_download_disabled": true
+    },
+    {
+      "app_language": "ZH",
+      "id": "plain_current_to_legacy",
+      "old_download_disabled": true
+    }
+  ],
+  "plain_cases": [
+    {
+      "app_language": "JA",
+      "edition": "current",
+      "input": "留is 放is 簧o 讽o 精ˢo 妆o 移植o 嫁接i 嫁妆o\n外ᴷˢas s内e 无e 周o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀa 丸炎ᵀo 丸炎a\n再见i 精子ˢᶻo 精液ᶜ̂o 丸ᴼ炎ᵀᴿo",
+      "expected": "留is lasis risorto satiro silfo doto grefto grefti doto\nksenas sene nenie semajno testikito orkidita pilolito pilolkatara\nadiaŭi spermatozoo ĉuro orkid炎ᵀᴿo",
+      "actual": "留is lasis risorto satiro silfo doto grefto grefti doto\nksenas sene nenie semajno testikito orkidita pilolito pilolkatara\nadiaŭi spermatozoo ĉuro orkid炎ᵀᴿo",
+      "passed": true,
+      "filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e (2).txt",
+      "download_path": "downloads/plain_JA_current.txt",
+      "sha256": "695879b68e9889b54adc114e8dcffb55b694cdaa52b1882c4caa238eba46d689"
+    },
+    {
+      "app_language": "ZH",
+      "edition": "current",
+      "input": "留is 放is 簧o 讽o 精ˢo 妆o 移植o 嫁接i 嫁妆o\n外ᴷˢas s内e 无e 周o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀa 丸炎ᵀo 丸炎a\n再见i 精子ˢᶻo 精液ᶜ̂o 丸ᴼ炎ᵀᴿo",
+      "expected": "留is lasis risorto satiro silfo doto grefto grefti doto\nksenas sene nenie semajno testikito orkidita pilolito pilolkatara\nadiaŭi spermatozoo ĉuro orkid炎ᵀᴿo",
+      "actual": "留is lasis risorto satiro silfo doto grefto grefti doto\nksenas sene nenie semajno testikito orkidita pilolito pilolkatara\nadiaŭi spermatozoo ĉuro orkid炎ᵀᴿo",
+      "passed": true,
+      "filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590_inverse_current-compound-inverse-20261018-v3_6ec3a6d43d2e (3).txt",
+      "download_path": "downloads/plain_ZH_current.txt",
+      "sha256": "695879b68e9889b54adc114e8dcffb55b694cdaa52b1882c4caa238eba46d689"
+    },
+    {
+      "app_language": "JA",
+      "edition": "legacy",
+      "input": "留is 放is 簧o 讽o 精ˢo 妆o 移植o 嫁接i 嫁妆o\n外ᴷˢas s内e 无e 周o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀa 丸炎ᵀo 丸炎a\n再见i 精子ˢᶻo 精液ᶜ̂o 丸ᴼ炎ᵀᴿo",
+      "expected": "lasis emancipis anĉo karikaturo spermato tualeto translaciplanto grefti doto\nksenas sene nenie semajno testikito orkidita testikito orkidita\nadiaŭi ekzakt子ˢᶻo ĉuro orkid炎ᵀᴿo",
+      "actual": "lasis emancipis anĉo karikaturo spermato tualeto translaciplanto grefti doto\nksenas sene nenie semajno testikito orkidita testikito orkidita\nadiaŭi ekzakt子ˢᶻo ĉuro orkid炎ᵀᴿo",
+      "passed": true,
+      "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69 (2).txt",
+      "download_path": "downloads/plain_JA_legacy.txt",
+      "sha256": "1e25a2643c6080d6992f60ea133b91ddaee7a5d1627e89dfee893fdd11120715"
+    },
+    {
+      "app_language": "ZH",
+      "edition": "legacy",
+      "input": "留is 放is 簧o 讽o 精ˢo 妆o 移植o 嫁接i 嫁妆o\n外ᴷˢas s内e 无e 周o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀa 丸炎ᵀo 丸炎a\n再见i 精子ˢᶻo 精液ᶜ̂o 丸ᴼ炎ᵀᴿo",
+      "expected": "lasis emancipis anĉo karikaturo spermato tualeto translaciplanto grefti doto\nksenas sene nenie semajno testikito orkidita testikito orkidita\nadiaŭi ekzakt子ˢᶻo ĉuro orkid炎ᵀᴿo",
+      "actual": "lasis emancipis anĉo karikaturo spermato tualeto translaciplanto grefti doto\nksenas sene nenie semajno testikito orkidita testikito orkidita\nadiaŭi ekzakt子ˢᶻo ĉuro orkid炎ᵀᴿo",
+      "passed": true,
+      "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261018-v3_59e2c3cd9f69 (3).txt",
+      "download_path": "downloads/plain_ZH_legacy.txt",
+      "sha256": "1e25a2643c6080d6992f60ea133b91ddaee7a5d1627e89dfee893fdd11120715"
+    }
+  ],
+  "note": "Actual Chrome Cloud UI and downloaded files; runtime commit not directly exposed.",
+  "forward_live": {
+    "input": "  \nrevidi adiaŭi dekdu etilo afonio magneto sene\n@semajno@ testikito @testikito@ orkidita @orkidita@\n%放% lasis %@literala@% %<b>&amp;</b>%\nĈapelo  fino\n\n  ",
+    "expected": "  \nrevidi adiaŭi dekdu etilo afonio magneto sene\nsemajno testikito testikito orkidita orkidita\n放 lasis @literala@ <b>&amp;</b>\nĈapelo  fino\n\n  ",
+    "files": [
+      "live_JA_current_kanji.html",
+      "live_JA_legacy_kanji.html"
+    ],
+    "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/"
+  },
+  "public_merge_commit": "0b8ee3fc76db25a2116fb2fb6c4f2843e98e8207",
+  "screenshots": [
+    "screenshots/html_recovery_ja.png"
+  ],
+  "completed_at": "2026-10-18T13:31:37.071Z",
+  "validation_summary": {
+    "html_cases": 36,
+    "html_downloads_utf8_exact": 36,
+    "plain_regression_cases": 4,
+    "plain_downloads_utf8_exact": 4,
+    "guard_checks": 36,
+    "local_pytest": {
+      "JA": 292,
+      "ZH": 292
+    },
+    "forward_marker_tests": 11,
+    "forward_ksen_tests": 3,
+    "ci_checks": [
+      {
+        "bucket": "pass",
+        "name": "test (Esperanto-Reverter-JA)",
+        "state": "SUCCESS"
+      },
+      {
+        "bucket": "pass",
+        "name": "test (Esperanto-Reverter-ZH)",
+        "state": "SUCCESS"
+      },
+      {
+        "bucket": "pass",
+        "name": "test (Esperanto-Reverter-JA)",
+        "state": "SUCCESS"
+      },
+      {
+        "bucket": "pass",
+        "name": "test (Esperanto-Reverter-ZH)",
+        "state": "SUCCESS"
+      }
+    ],
+    "passed": true,
+    "scope": "HTML cases recover stored original text. Plain cases include deliberately mixed-edition and ambiguous strings and check unchanged existing behavior, not unique restoration of every original."
+  },
+  "upload_verification": "Actual Chrome filechooser upload succeeded after the user enabled file URL access; includes new/old kanji HTML and BOM-prefixed Korean annotation HTML in both reverse apps."
+}

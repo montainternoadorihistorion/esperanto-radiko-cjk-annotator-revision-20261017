@@ -1,0 +1,12 @@
+[
+  {
+    "edition": "current",
+    "input": "留is 放is 簧o 讽o 精ˢo 妆o 移植o 嫁接i 嫁妆o\n外ᴷˢas s内e 无e 周o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀa 丸炎ᵀo 丸炎a\n再见i 精子ˢᶻo 精液ᶜ̂o 丸ᴼ炎ᵀᴿo",
+    "expected": "留is lasis risorto satiro silfo doto grefto grefti doto\nksenas sene nenie semajno testikito orkidita pilolito pilolkatara\nadiaŭi spermatozoo ĉuro orkid炎ᵀᴿo"
+  },
+  {
+    "edition": "legacy",
+    "input": "留is 放is 簧o 讽o 精ˢo 妆o 移植o 嫁接i 嫁妆o\n外ᴷˢas s内e 无e 周o 丸ᵀ炎ᵀo 丸ᴼ炎ᵀa 丸炎ᵀo 丸炎a\n再见i 精子ˢᶻo 精液ᶜ̂o 丸ᴼ炎ᵀᴿo",
+    "expected": "lasis emancipis anĉo karikaturo spermato tualeto translaciplanto grefti doto\nksenas sene nenie semajno testikito orkidita testikito orkidita\nadiaŭi ekzakt子ˢᶻo ĉuro orkid炎ᵀᴿo"
+  }
+]
