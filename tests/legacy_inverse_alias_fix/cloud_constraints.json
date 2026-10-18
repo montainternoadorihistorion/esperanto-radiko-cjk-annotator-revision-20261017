@@ -1,0 +1,54 @@
+[
+  {
+    "case_id": "JA-legacy-bare_orkidit",
+    "language": "JA",
+    "edition": "legacy",
+    "input": "兰炎ᵀ",
+    "output": "orkidit",
+    "sha256": "297e164f999afd9d4a478721234c76c342cb4a7d7857899bb682d6e830862f97",
+    "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb (2).txt",
+    "provenance_caption": "変換結果の版: 旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-inverse-aliases-20261018-v1 / 2ccba60edaeb",
+    "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+    "utc": "2026-10-18T03:55:43.062Z",
+    "local_path": "cloud_outputs/JA-legacy-bare_orkidit.txt"
+  },
+  {
+    "case_id": "ZH-legacy-bare_orkidit",
+    "language": "ZH",
+    "edition": "legacy",
+    "input": "兰炎ᵀ",
+    "output": "orkidit",
+    "sha256": "297e164f999afd9d4a478721234c76c342cb4a7d7857899bb682d6e830862f97",
+    "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb (3).txt",
+    "provenance_caption": "转换结果使用的版本: 旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-inverse-aliases-20261018-v1 / 2ccba60edaeb",
+    "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/",
+    "utc": "2026-10-18T03:55:43.708Z",
+    "local_path": "cloud_outputs/ZH-legacy-bare_orkidit.txt"
+  },
+  {
+    "case_id": "JA-current-bare_orkidit",
+    "language": "JA",
+    "edition": "current",
+    "input": "兰炎ᵀ",
+    "output": "orkidkatarᵀ",
+    "sha256": "2e9bcded5133b13f5e3a542a7cbdfd6aea69f072ff4b2140f8c72ace5c1a1e72",
+    "filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590 (11).txt",
+    "provenance_caption": "変換結果の版: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590",
+    "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+    "utc": "2026-10-18T03:56:45.777Z",
+    "local_path": "cloud_outputs/JA-current-bare_orkidit.txt"
+  },
+  {
+    "case_id": "ZH-current-bare_orkidit",
+    "language": "ZH",
+    "edition": "current",
+    "input": "兰炎ᵀ",
+    "output": "orkidkatarᵀ",
+    "sha256": "2e9bcded5133b13f5e3a542a7cbdfd6aea69f072ff4b2140f8c72ace5c1a1e72",
+    "filename": "esperanto_new_2026-10-18-dot-greft_4718bbd7f590 (12).txt",
+    "provenance_caption": "转换结果使用的版本: 新版（更新中） / 2026-10-18-dot-greft / 4718bbd7f590",
+    "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/",
+    "utc": "2026-10-18T03:56:46.366Z",
+    "local_path": "cloud_outputs/ZH-current-bare_orkidit.txt"
+  }
+]

@@ -36,6 +36,12 @@ Cloud検証で、別セッションの実行後にキャッシュ済み `Mapping
 
 固定旧CSVとその2列版は、修正前の全バイトを維持します。旧版の画面には、補助対応を含む逆変換用CSVのダウンロードも用意します。このCSVを独自CSVとして読み込むと、アプリと同じ復元内容を再現できます。結果の版情報とファイル名には復元補助の改訂とハッシュも含め、修正前に作った結果は再変換が必要です。
 
+[PR #40](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/40)をmain（`8a88f8790536dd6a571884a9376c8886b9e480ea`）へ反映後、Cloudの実画面で検証しました。日中韓×新旧の純粋置換6出力には通常・`@`の両経路を含め、日中×新旧の逆変換4出力は元のエスペラント文を小文字化した期待値と一致しました。実テキスト・CSV計20ダウンロードの本文・ファイル名・版情報を照合し、日中それぞれで復元補助込みCSVの再アップロードと再変換、版切替時の古い結果のダウンロード停止も確認しています。逆変換は内蔵ブラウザの通常URLから、順変換はChromeの日本語通常URL・中韓アプリ本体URLから操作しました。Cloud内部の実行コミットを直接取得したという意味ではありません。
+
+ローカルでは日中各162テストとCIの4ジョブが成功しました。既存8辞書の51万1,800比較は出力変更0、日中韓・新旧・3モードの3,114順変換結果も変更前と全文一致です。実際の順変換出力を逆変換した4,152比較のうち、変化は今回承認した旧版3対応による504件の改善だけでした。HTMLの外側改行は本文の復元と分けて評価しています。[採用理由](tests/legacy_inverse_alias_fix/decision.md)、[ローカル全件検証](tests/legacy_inverse_alias_fix/reverse_final_validation.json)、[Cloud実測とダウンロード照合](tests/legacy_inverse_alias_fix/cloud_verification.json)、[修正後の画面](tests/legacy_inverse_alias_fix/screenshots/cloud_ja_legacy.png)を保存しました。
+
+検証で見つかった別の既存制約として、新版の通常変換では語尾なしの `orkidit`、`orkidita`・`orkiditi`・`orkiditulo` など一部の形が `兰炎ᵀ` を含む表記になり、`orkidkatarᵀ` を含む形へ復元されます。新版の `orkidito` と今回の `@` 検証例は正常です。新版にこの旧版用補助を自動適用せず、制約例4件（日中×新旧）の実出力も成功例とは分けて記録しています。上記検証件数は任意の文章の完全復元を保証するものではありません。
+
 ## 公開アプリ
 
 - [日本語版](https://esperanto-cjk-revision-ja-20261017.streamlit.app/)

@@ -1,0 +1,20 @@
+[
+  {
+    "language": "JA",
+    "input": "我 读is 于 丸ᵀ炎ᵀo 和ᴷ 丸ᴼ炎ᵀo 期ᴰᴹ 一 周o.\n丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸ᵀ炎ᵀon 丸ᵀ炎ᵀojn 丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀon 丸ᴼ炎ᵀojn\n丸炎ᵀo 丸炎ᵀoj 丸炎ᵀon 丸炎ᵀojn 丸炎o 丸炎oj 丸炎on 丸炎ojn\n丸炎ᵀo 丸炎ᵀoj 丸炎ᵀ分 丸炎ᵀojn 丸炎o 丸炎oj 丸炎分 丸炎ojn\n丸ᵀ炎ᵀ 丸ᵀ 兰o it 炎 草ᴷᴿ 留o 放o 讽刺o 讽o 讽ˢo 周o.",
+    "output": "mi legis pri testikito kaj orkidito dum unu semajno.\ntestikito testikitoj testikiton testikitojn orkidito orkiditoj orkiditon orkiditojn\ntestikito testikitoj testikiton testikitojn orkidito orkiditoj orkiditon orkiditojn\ntestikito testikitoj testikiton testikitojn orkidito orkiditoj orkiditon orkiditojn\ntestikit testik orkido it katar katari laso emancipo satiro karikaturo sarkasmo semajno.",
+    "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb.csv",
+    "upload_sha256": "137eb963f9dfbb69e5d989c806c17cf1e1bbc3d66c6654a27c94a24aff8cfde1",
+    "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/",
+    "utc": "2026-10-18T03:57:48.416Z"
+  },
+  {
+    "language": "ZH",
+    "input": "我 读is 于 丸ᵀ炎ᵀo 和ᴷ 丸ᴼ炎ᵀo 期ᴰᴹ 一 周o.\n丸ᵀ炎ᵀo 丸ᵀ炎ᵀoj 丸ᵀ炎ᵀon 丸ᵀ炎ᵀojn 丸ᴼ炎ᵀo 丸ᴼ炎ᵀoj 丸ᴼ炎ᵀon 丸ᴼ炎ᵀojn\n丸炎ᵀo 丸炎ᵀoj 丸炎ᵀon 丸炎ᵀojn 丸炎o 丸炎oj 丸炎on 丸炎ojn\n丸炎ᵀo 丸炎ᵀoj 丸炎ᵀ分 丸炎ᵀojn 丸炎o 丸炎oj 丸炎分 丸炎ojn\n丸ᵀ炎ᵀ 丸ᵀ 兰o it 炎 草ᴷᴿ 留o 放o 讽刺o 讽o 讽ˢo 周o.",
+    "output": "mi legis pri testikito kaj orkidito dum unu semajno.\ntestikito testikitoj testikiton testikitojn orkidito orkiditoj orkiditon orkiditojn\ntestikito testikitoj testikiton testikitojn orkidito orkiditoj orkiditon orkiditojn\ntestikito testikitoj testikiton testikitojn orkidito orkiditoj orkiditon orkiditojn\ntestikit testik orkido it katar katari laso emancipo satiro karikaturo sarkasmo semajno.",
+    "filename": "dictionary_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-inverse-aliases-20261018-v1_2ccba60edaeb.csv",
+    "upload_sha256": "137eb963f9dfbb69e5d989c806c17cf1e1bbc3d66c6654a27c94a24aff8cfde1",
+    "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/",
+    "utc": "2026-10-18T03:57:48.844Z"
+  }
+]

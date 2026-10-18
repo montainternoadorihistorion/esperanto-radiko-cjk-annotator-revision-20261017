@@ -1,0 +1,14 @@
+{
+  "reviewed_utc": "2026-10-18T03:58:19.010Z",
+  "review": "Both screenshots visually checked: fixed old edition selected, original kanjized forms and expected restored words visible, version provenance shown.",
+  "screenshots": [
+    {
+      "file": "screenshots/cloud_ja_legacy.png",
+      "sha256": "a10293e69422893dc5a16fd4e6fdd649ea57f40b5a9bcb9605333c9a8788246d"
+    },
+    {
+      "file": "screenshots/cloud_zh_legacy.png",
+      "sha256": "1cdd0df7a86e558ab1710e1096a5e70eee4d65a2707a8f6fed7ab0b438a100f9"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "aliases": {
+    "丸ᵀ炎ᵀ": "testikit",
+    "丸ᴼ炎ᵀ": "orkidit",
+    "兰炎ᵀ": "orkidit"
+  },
+  "source_writes": 0,
+  "script_sha256": "ee9f834d2cd1a13c51dfc2614807b75a9b71cf5e381cd58b05f6c385d62b316f",
+  "languages": {
+    "JA": {
+      "status": "PASS",
+      "language": "JA",
+      "entrypoint_sha256": "b80f5a45aa9a9f9a8c21f0ba8800a33b33ba02e6aae0089b19ce4da046ca7ee3",
+      "fixed_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "fixed_rows": 10636,
+      "collisions": {
+        "丸ᵀ炎ᵀ": {
+          "exact_owners": [],
+          "contained_in_existing_key": [],
+          "segmentations_including_partial_final_key": []
+        },
+        "丸ᴼ炎ᵀ": {
+          "exact_owners": [],
+          "contained_in_existing_key": [],
+          "segmentations_including_partial_final_key": []
+        },
+        "兰炎ᵀ": {
+          "exact_owners": [],
+          "contained_in_existing_key": [],
+          "segmentations_including_partial_final_key": []
+        }
+      },
+      "existing_key_suffix_cases": 170176,
+      "existing_output_changes": 0,
+      "new_alias_suffix_cases": 48,
+      "existing_at_alias_suffix_cases": 32,
+      "scope": "Hypothetical three-row compatibility layer using the actual unchanged index/convert engine. Arbitrary unmatched/mixed text is outside this guarantee."
+    },
+    "ZH": {
+      "status": "PASS",
+      "language": "ZH",
+      "entrypoint_sha256": "ecb2f3ba65ac296984f4d66b0d7fa5cc0d22f01d957659c6318ae8578c739509",
+      "fixed_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+      "fixed_rows": 10636,
+      "collisions": {
+        "丸ᵀ炎ᵀ": {
+          "exact_owners": [],
+          "contained_in_existing_key": [],
+          "segmentations_including_partial_final_key": []
+        },
+        "丸ᴼ炎ᵀ": {
+          "exact_owners": [],
+          "contained_in_existing_key": [],
+          "segmentations_including_partial_final_key": []
+        },
+        "兰炎ᵀ": {
+          "exact_owners": [],
+          "contained_in_existing_key": [],
+          "segmentations_including_partial_final_key": []
+        }
+      },
+      "existing_key_suffix_cases": 170176,
+      "existing_output_changes": 0,
+      "new_alias_suffix_cases": 48,
+      "existing_at_alias_suffix_cases": 32,
+      "scope": "Hypothetical three-row compatibility layer using the actual unchanged index/convert engine. Arbitrary unmatched/mixed text is outside this guarantee."
+    }
+  }
+}
