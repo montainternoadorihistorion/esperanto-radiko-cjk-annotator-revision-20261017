@@ -1,0 +1,2233 @@
+{
+  "passed": true,
+  "observed_records_sha256": "bdea997f6c595dcaa8c42afb3dfd267a73e7956101b1747eb89a374abaef6d70",
+  "observed_record_count": 12,
+  "selected_record_indices_zero_based": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "observation_selection": "Last browser-observed record per language/edition; earlier records retained in the input file. Expected edition-path guard applies to every selected role URL.",
+  "observed_pages": 6,
+  "observed_dataset_role_links": 18,
+  "observed_manifest_links": 6,
+  "unique_raw_URLs_downloaded": 12,
+  "source_ZIP_downloads": 1,
+  "observed": [
+    {
+      "language": "JA",
+      "edition": "current",
+      "roles": {
+        "kanji": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+        "pure": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+        "ruby": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "manifest": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json"
+      }
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "roles": {
+        "kanji": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+        "pure": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+        "ruby": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "manifest": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json"
+      }
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "roles": {
+        "kanji": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+        "pure": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+        "ruby": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "manifest": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json"
+      }
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "roles": {
+        "kanji": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/JA/kanji.json.gz",
+        "pure": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/JA/pure.json.gz",
+        "ruby": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "manifest": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json"
+      }
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "roles": {
+        "kanji": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/ZH/kanji.json.gz",
+        "pure": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/JA/pure.json.gz",
+        "ruby": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "manifest": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json"
+      }
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "roles": {
+        "kanji": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/KO/kanji.json.gz",
+        "pure": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/JA/pure.json.gz",
+        "ruby": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "manifest": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json"
+      }
+    }
+  ],
+  "raw_results": [
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+      "final_url": null,
+      "commit": "a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+      "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
+      "bytes": 57372181,
+      "sha256": "4c37a67286ac8846a6419888d1a15dbad6747f99aad8f4afb813d99c39dd5fb4",
+      "matches_exact_git_blob": true,
+      "gzip_stream_validated": false,
+      "saved_copy": false,
+      "evidence": "Original verifier process completed verify_raw successfully and printed Verified raw Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json before failing on the next HTTP response. Hash and size recovered from the exact Git blob equality assertion; final redirect URL was not retained. Successful file was not downloaded again."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+      "final_url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+      "commit": "a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+      "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
+      "bytes": 21515761,
+      "sha256": "108c0ff48dd6dd7363bba9f1b07eb15f6b69738afa0628590e5e0c8fd9986883",
+      "matches_exact_git_blob": true,
+      "gzip_stream_validated": false,
+      "decompressed_bytes": null,
+      "decompressed_sha256": null,
+      "saved_copy": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+      "commit": "a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+      "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_ルビ.json",
+      "bytes": 72553994,
+      "sha256": "d02fd6ef33ab2da0d59e3e170f152e219d289de39e0bf358e05f6384bc292dca",
+      "matches_exact_git_blob": true,
+      "method": "Sequential 8 MiB HTTP ranges assembled only into the SHA256 stream; HTTP 206 Content-Range/length enforced on every range. At most one retry per incomplete range.",
+      "ranges": [
+        {
+          "start": 0,
+          "end": 8388607,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 8388608,
+          "end": 16777215,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 16777216,
+          "end": 25165823,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 25165824,
+          "end": 33554431,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 33554432,
+          "end": 41943039,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 41943040,
+          "end": 50331647,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 50331648,
+          "end": 58720255,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 58720256,
+          "end": 67108863,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 67108864,
+          "end": 72553993,
+          "attempts": [
+            {
+              "received_bytes": 5445130,
+              "expected_bytes": 5445130
+            }
+          ]
+        }
+      ],
+      "gzip_stream_validated": false,
+      "decompressed_bytes": null,
+      "decompressed_sha256": null,
+      "saved_copy": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json",
+      "commit": "a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+      "path": "assignment_editions/legacy/manifest.json",
+      "bytes": 11597,
+      "sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3",
+      "matches_exact_git_blob": true,
+      "method": "Sequential 8 MiB HTTP ranges assembled only into the SHA256 stream; HTTP 206 Content-Range/length enforced on every range. At most one retry per incomplete range.",
+      "ranges": [
+        {
+          "start": 0,
+          "end": 11596,
+          "attempts": [
+            {
+              "received_bytes": 11597,
+              "expected_bytes": 11597
+            }
+          ]
+        }
+      ],
+      "gzip_stream_validated": false,
+      "decompressed_bytes": null,
+      "decompressed_sha256": null,
+      "saved_copy": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+      "commit": "a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+      "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
+      "bytes": 57380247,
+      "sha256": "ca572bd1fc1feffbe65643e66fb1441b6cf82d137676e474ad48ba50a72a9bd7",
+      "matches_exact_git_blob": true,
+      "method": "Sequential 8 MiB HTTP ranges assembled only into the SHA256 stream; HTTP 206 Content-Range/length enforced on every range. At most one retry per incomplete range.",
+      "ranges": [
+        {
+          "start": 0,
+          "end": 8388607,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 8388608,
+          "end": 16777215,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 16777216,
+          "end": 25165823,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 25165824,
+          "end": 33554431,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 33554432,
+          "end": 41943039,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 41943040,
+          "end": 50331647,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 50331648,
+          "end": 57380246,
+          "attempts": [
+            {
+              "received_bytes": 7048599,
+              "expected_bytes": 7048599
+            }
+          ]
+        }
+      ],
+      "gzip_stream_validated": false,
+      "decompressed_bytes": null,
+      "decompressed_sha256": null,
+      "saved_copy": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+      "commit": "a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+      "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_ルビ.json",
+      "bytes": 70266508,
+      "sha256": "a20a2d89b4f9f44a7be82a6a18ee94858a74ea205988f49b0e7c05c2c138e4de",
+      "matches_exact_git_blob": true,
+      "method": "Sequential 8 MiB HTTP ranges assembled only into the SHA256 stream; HTTP 206 Content-Range/length enforced on every range. At most one retry per incomplete range.",
+      "ranges": [
+        {
+          "start": 0,
+          "end": 8388607,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 8388608,
+          "end": 16777215,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 16777216,
+          "end": 25165823,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 25165824,
+          "end": 33554431,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 33554432,
+          "end": 41943039,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 41943040,
+          "end": 50331647,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 50331648,
+          "end": 58720255,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 58720256,
+          "end": 67108863,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 67108864,
+          "end": 70266507,
+          "attempts": [
+            {
+              "received_bytes": 3157644,
+              "expected_bytes": 3157644
+            }
+          ]
+        }
+      ],
+      "gzip_stream_validated": false,
+      "decompressed_bytes": null,
+      "decompressed_sha256": null,
+      "saved_copy": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+      "commit": "a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+      "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
+      "bytes": 57380247,
+      "sha256": "ace688d35d01096350bea0af49d33139e5645b58222dde507aea0b639f9735fc",
+      "matches_exact_git_blob": true,
+      "method": "Sequential 8 MiB HTTP ranges assembled only into the SHA256 stream; HTTP 206 Content-Range/length enforced on every range. At most one retry per incomplete range.",
+      "ranges": [
+        {
+          "start": 0,
+          "end": 8388607,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 8388608,
+          "end": 16777215,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 16777216,
+          "end": 25165823,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 25165824,
+          "end": 33554431,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 33554432,
+          "end": 41943039,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 41943040,
+          "end": 50331647,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 50331648,
+          "end": 57380246,
+          "attempts": [
+            {
+              "received_bytes": 7048599,
+              "expected_bytes": 7048599
+            }
+          ]
+        }
+      ],
+      "gzip_stream_validated": false,
+      "decompressed_bytes": null,
+      "decompressed_sha256": null,
+      "saved_copy": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+      "commit": "a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+      "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_ルビ.json",
+      "bytes": 71840614,
+      "sha256": "1a5a36d92494308458e40ec41f16c44de8d02d7e6b7eb2c2bfe5ebcd10157e8c",
+      "matches_exact_git_blob": true,
+      "method": "Sequential 8 MiB HTTP ranges assembled only into the SHA256 stream; HTTP 206 Content-Range/length enforced on every range. At most one retry per incomplete range.",
+      "ranges": [
+        {
+          "start": 0,
+          "end": 8388607,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 8388608,
+          "end": 16777215,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 16777216,
+          "end": 25165823,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 25165824,
+          "end": 33554431,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 33554432,
+          "end": 41943039,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 41943040,
+          "end": 50331647,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 50331648,
+          "end": 58720255,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 58720256,
+          "end": 67108863,
+          "attempts": [
+            {
+              "received_bytes": 8388608,
+              "expected_bytes": 8388608
+            }
+          ]
+        },
+        {
+          "start": 67108864,
+          "end": 71840613,
+          "attempts": [
+            {
+              "received_bytes": 4731750,
+              "expected_bytes": 4731750
+            }
+          ]
+        }
+      ],
+      "gzip_stream_validated": false,
+      "decompressed_bytes": null,
+      "decompressed_sha256": null,
+      "saved_copy": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/JA/kanji.json.gz",
+      "commit": "a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+      "path": "assignment_editions/legacy/JA/kanji.json.gz",
+      "bytes": 6384631,
+      "sha256": "215f0c297bf73efe29f4b323a982adb63a181d42e202dbed63f52c954baeb0fe",
+      "matches_exact_git_blob": true,
+      "method": "Sequential 8 MiB HTTP ranges assembled only into the SHA256 stream; HTTP 206 Content-Range/length enforced on every range. At most one retry per incomplete range.",
+      "ranges": [
+        {
+          "start": 0,
+          "end": 6384630,
+          "attempts": [
+            {
+              "received_bytes": 6384631,
+              "expected_bytes": 6384631
+            }
+          ]
+        }
+      ],
+      "gzip_stream_validated": true,
+      "decompressed_bytes": 57346836,
+      "decompressed_sha256": "9828f0c55f4853bb4b3c7c49cd7e05b9313679ca5e97f81282f024ba8fde177a",
+      "saved_copy": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/JA/pure.json.gz",
+      "commit": "a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+      "path": "assignment_editions/legacy/JA/pure.json.gz",
+      "bytes": 4169688,
+      "sha256": "3ef2efd50fbb13a834f7421c3e85bd406d2926dd304028b19e1de3264ec3fb40",
+      "matches_exact_git_blob": true,
+      "method": "Sequential 8 MiB HTTP ranges assembled only into the SHA256 stream; HTTP 206 Content-Range/length enforced on every range. At most one retry per incomplete range.",
+      "ranges": [
+        {
+          "start": 0,
+          "end": 4169687,
+          "attempts": [
+            {
+              "received_bytes": 4169688,
+              "expected_bytes": 4169688
+            }
+          ]
+        }
+      ],
+      "gzip_stream_validated": true,
+      "decompressed_bytes": 21489132,
+      "decompressed_sha256": "3a8153310fc09a324a9c62ad8d49aec98d9031e34ef825030ae98726d2e0ca56",
+      "saved_copy": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/ZH/kanji.json.gz",
+      "commit": "a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+      "path": "assignment_editions/legacy/ZH/kanji.json.gz",
+      "bytes": 6385065,
+      "sha256": "f05e779677489ebcf5d00b00389e841eb89cc8bf7af87bbf1d1e65309c0fd594",
+      "matches_exact_git_blob": true,
+      "method": "Sequential 8 MiB HTTP ranges assembled only into the SHA256 stream; HTTP 206 Content-Range/length enforced on every range. At most one retry per incomplete range.",
+      "ranges": [
+        {
+          "start": 0,
+          "end": 6385064,
+          "attempts": [
+            {
+              "received_bytes": 6385065,
+              "expected_bytes": 6385065
+            }
+          ]
+        }
+      ],
+      "gzip_stream_validated": true,
+      "decompressed_bytes": 57354902,
+      "decompressed_sha256": "f6e02a9f55d57b66c0dbbb1c19ff1bda4b2ffe4df850c8763bdadf328f09fae4",
+      "saved_copy": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/KO/kanji.json.gz",
+      "commit": "a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+      "path": "assignment_editions/legacy/KO/kanji.json.gz",
+      "bytes": 6385064,
+      "sha256": "8005ecf215185aa8fe9b8f482305f9fb1ec17aaf0d1c9c4fbbbb7928ef97508c",
+      "matches_exact_git_blob": true,
+      "method": "Sequential 8 MiB HTTP ranges assembled only into the SHA256 stream; HTTP 206 Content-Range/length enforced on every range. At most one retry per incomplete range.",
+      "ranges": [
+        {
+          "start": 0,
+          "end": 6385063,
+          "attempts": [
+            {
+              "received_bytes": 6385064,
+              "expected_bytes": 6385064
+            }
+          ]
+        }
+      ],
+      "gzip_stream_validated": true,
+      "decompressed_bytes": 57354902,
+      "decompressed_sha256": "6ed899f1da480bc5387c8a8ba8ef730348c786e5983acef2f9e57709904c6fcd",
+      "saved_copy": false
+    }
+  ],
+  "source_ZIP": {
+    "url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e.zip",
+    "final_url": "https://codeload.github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/zip/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+    "commit": "a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+    "archive_bytes": 95910386,
+    "archive_sha256": "336740f57e41e927b6b70dffc1e415bd6bd5bd429e14806c78c14815aac7596f",
+    "verified_members": 287,
+    "members": [
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/.streamlit/config.toml",
+        "bytes": 368,
+        "sha256": "dd664f067d7b1db21f9fa3748c558001f1552395d49fc61d3a82f471adc86d4f"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/README.md",
+        "bytes": 24184,
+        "sha256": "605b109b75e1fa6e9ba7b12c5ff09fd04908baea539731dd450a2faaa38adfc2"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/README_使用方法.md",
+        "bytes": 24407,
+        "sha256": "3111aa3f756eabd4f8c57ff884b2fcdc14ef96dfe798e56cb0d9a810cc59c3a5"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/README_内部实现原理.md",
+        "bytes": 31009,
+        "sha256": "fdda810509fbcc5a5ac7c932e67ec1633380ba1e1e01d37dcc2d5722772ec083"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
+        "bytes": 2626958,
+        "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/char_widths.json",
+        "bytes": 1122864,
+        "sha256": "ac009c26af1d7fae05e8969d86042b5baff5f482b226c575e1cef8d27aea2c7b"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/placeholders_2char.txt",
+        "bytes": 52711,
+        "sha256": "10574f508009a873d5c72ce5920aa5625cd8cf1eaf524c2e3d23c432d2fa0d51"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/placeholders_global.txt",
+        "bytes": 4232823,
+        "sha256": "01652e6acbc5ca00f812e42fa89704c7682cf33d774b5580a37f594095184ce7"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/placeholders_local.txt",
+        "bytes": 618199,
+        "sha256": "554303d353d7799381f92297d9a051ca993127379d0d5cea19ea61f2f3fb54d9"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/placeholders_localcapture.txt",
+        "bytes": 32164,
+        "sha256": "53b421c161230aaccc5243d1f3bc96d37345a33e04ccf4a7c888bca76107160a"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/placeholders_skip.txt",
+        "bytes": 21566,
+        "sha256": "28ae04ae3b75275a7fb59dfbf646716aac226a818b3e9d6ede4c777911b435e4"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/root_list.txt",
+        "bytes": 118899,
+        "sha256": "4990cd3090589e823a6f571dfd303af803afe6dac50983b30fd63c27ae3a5a59"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/user_corrections.json",
+        "bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/word_anno.json",
+        "bytes": 2740323,
+        "sha256": "7377498c0e03cbc7a2c4847423a35a11174b028e6cad1d4d9eb169233342c5f7"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/Корни эсперанто – список с русским переводом и руби.csv",
+        "bytes": 99990,
+        "sha256": "15542bc9fdcaf4f8362d25ea4c6f0a3c3d91fd5147b219ae3cc9ea357303def1"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/エスペラント語根-日本語訳ルビ対応リスト(習得レベル付き).xlsx",
+        "bytes": 168838,
+        "sha256": "098998b214b5b6bfe5d8a8ae416e1f2e59ed76b817a7869eb2856135058c8e77"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/エスペラント語根-日本語訳ルビ対応リスト.csv",
+        "bytes": 341556,
+        "sha256": "9ca45ed392676dbc82a4e0a3c415da6aa436a12ce6f661297c6848640eb0812d"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-中文注释对应列表.csv",
+        "bytes": 64961,
+        "sha256": "837ecfed98cbb61c469d1c60d84d339a95286358880c5df93024bb908e804c6a"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表.csv",
+        "bytes": 59557,
+        "sha256": "b599eb8545fd4da1810bf27de59e826ea06b56ab3fdd34eee633102d46b536d0"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+        "bytes": 161686,
+        "sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
+        "bytes": 430064,
+        "sha256": "a7de08cca1ad1a528439ba6776bb4bdf9036e1d952ff9f3e47a64eb683c7f35d"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/替换后文字列(汉字)の使用者自定义设置(基本上完全不推荐).json",
+        "bytes": 1056,
+        "sha256": "eef8602e5f0b4020918d2cce2c867a26574e1e4c07142b425e95b3a8fca20933"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_ルビ.json",
+        "bytes": 72553994,
+        "sha256": "d02fd6ef33ab2da0d59e3e170f152e219d289de39e0bf358e05f6384bc292dca"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
+        "bytes": 57372181,
+        "sha256": "4c37a67286ac8846a6419888d1a15dbad6747f99aad8f4afb813d99c39dd5fb4"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
+        "bytes": 21515761,
+        "sha256": "108c0ff48dd6dd7363bba9f1b07eb15f6b69738afa0628590e5e0c8fd9986883"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+        "bytes": 77789,
+        "sha256": "015eb5968a673a950c8454a7b316dc6bbd086fec4a4d3963645e9aed77cc05a4"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/esp_assignment_edition.py",
+        "bytes": 16427,
+        "sha256": "ff0b12bf9edc866f1a97184ffca514808657beb68e3c326d9483d544a9f1a298"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/esp_input_state.py",
+        "bytes": 2727,
+        "sha256": "80f78e3b575cd936dcef5ae36fc356798fb59471389d1d36481d3be3cf1e3c91"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/esp_overlay_module.py",
+        "bytes": 24061,
+        "sha256": "0f778e1cc8cd2cc4c6e7541fc72d199ab86a2853f5ef52e19d9bc30445a878a6"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/esp_replacement_json_make_module.py",
+        "bytes": 20074,
+        "sha256": "e26060a2b811d38d65de9788947ac5e844bcba15e44c5c7dae4c34b9d84b65fb"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/esp_text_replacement_module.py",
+        "bytes": 36810,
+        "sha256": "f0670480e5865b6df7278f77254978c3e546781079d74de3230e284713c37df2"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/main.py",
+        "bytes": 30692,
+        "sha256": "611dea29a5b6ecd0f96bea0e4f74cee5df610163ed3f9096fe340430423c19a2"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py",
+        "bytes": 12018,
+        "sha256": "60844b99925bc449c3b51e35a6cadf7f92eb2300135435d02076779b6126aab3"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/pages/2_📦_最新データのダウンロード.py",
+        "bytes": 11677,
+        "sha256": "c0919af12d578f9bdb1ec7084ae8adc7155453e73187a467eb654bbb68b53e4c"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/requirements.txt",
+        "bytes": 34,
+        "sha256": "ca0f20e5ccc2458cecc3bc278bae1ea5eea328b27621b26881e6c7ca1d2cf3b8"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-JA/エスペラント語根-漢字対応表(csv形式)の作り方.png",
+        "bytes": 132498,
+        "sha256": "8f49e1067a066f49e2af24e5d833411b9590883a80842acce7704bd0a368933a"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/.streamlit/config.toml",
+        "bytes": 368,
+        "sha256": "dd664f067d7b1db21f9fa3748c558001f1552395d49fc61d3a82f471adc86d4f"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/README.md",
+        "bytes": 18598,
+        "sha256": "a26450f347524620815fe4c2b33893a4fa52d8b462fd7793fa48522f68abab42"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/README_使用方法.md",
+        "bytes": 18912,
+        "sha256": "dc363229d71600e31bd03d2d8b4dc67290b6787eaa6c673133096b5cf52bfcf3"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/README_内部实现原理.md",
+        "bytes": 20051,
+        "sha256": "870a6bd8a68ac27dbf0cb43704bc53e52344a2ebfbbfff219c44b44f6bcda0e9"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/E_stem.json",
+        "bytes": 2626958,
+        "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/char_widths.json",
+        "bytes": 1122864,
+        "sha256": "ac009c26af1d7fae05e8969d86042b5baff5f482b226c575e1cef8d27aea2c7b"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/placeholders_2char.txt",
+        "bytes": 52711,
+        "sha256": "10574f508009a873d5c72ce5920aa5625cd8cf1eaf524c2e3d23c432d2fa0d51"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/placeholders_global.txt",
+        "bytes": 4232823,
+        "sha256": "01652e6acbc5ca00f812e42fa89704c7682cf33d774b5580a37f594095184ce7"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/placeholders_local.txt",
+        "bytes": 618199,
+        "sha256": "554303d353d7799381f92297d9a051ca993127379d0d5cea19ea61f2f3fb54d9"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/placeholders_localcapture.txt",
+        "bytes": 32164,
+        "sha256": "53b421c161230aaccc5243d1f3bc96d37345a33e04ccf4a7c888bca76107160a"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/placeholders_skip.txt",
+        "bytes": 21566,
+        "sha256": "28ae04ae3b75275a7fb59dfbf646716aac226a818b3e9d6ede4c777911b435e4"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/root_list.txt",
+        "bytes": 118899,
+        "sha256": "4990cd3090589e823a6f571dfd303af803afe6dac50983b30fd63c27ae3a5a59"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/user_corrections.json",
+        "bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/word_anno.json",
+        "bytes": 2729774,
+        "sha256": "544b2998afb59b9da6d907b17afe69a616005a235383dd0473a8038b755e64ef"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/Корни эсперанто – список с русским переводом и руби.csv",
+        "bytes": 99990,
+        "sha256": "15542bc9fdcaf4f8362d25ea4c6f0a3c3d91fd5147b219ae3cc9ea357303def1"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-中文注释对应列表.csv",
+        "bytes": 64961,
+        "sha256": "837ecfed98cbb61c469d1c60d84d339a95286358880c5df93024bb908e804c6a"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表.csv",
+        "bytes": 58554,
+        "sha256": "e6cc8b327bf39c7d5e79c2a118dc69663404764d221831460c85d25e0c8f396b"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+        "bytes": 161686,
+        "sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
+        "bytes": 430051,
+        "sha256": "832db421a8a1fbc5cbd5fb9d14bb6609f2e61ee5e852e8d36501bf8ab71a1782"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/替换后文字列(汉字)の使用者自定义设置(基本上完全不推荐).json",
+        "bytes": 1116,
+        "sha256": "b21dab5556332609856aabee1277236396c59fb28eaabd449f9a73033e77214f"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_ルビ.json",
+        "bytes": 71840614,
+        "sha256": "1a5a36d92494308458e40ec41f16c44de8d02d7e6b7eb2c2bfe5ebcd10157e8c"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
+        "bytes": 57380247,
+        "sha256": "ace688d35d01096350bea0af49d33139e5645b58222dde507aea0b639f9735fc"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
+        "bytes": 152743,
+        "sha256": "72487749a8867cbe52058b3a7d214b20924a61fd5d6530943e0e45e8f34275db"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+        "bytes": 299481,
+        "sha256": "5a868c02499ae7447710dac0d894542aacb2303cec125cc53978d280f5e172ab"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/esp_assignment_edition.py",
+        "bytes": 16427,
+        "sha256": "ff0b12bf9edc866f1a97184ffca514808657beb68e3c326d9483d544a9f1a298"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/esp_input_state.py",
+        "bytes": 2727,
+        "sha256": "80f78e3b575cd936dcef5ae36fc356798fb59471389d1d36481d3be3cf1e3c91"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/esp_overlay_module.py",
+        "bytes": 23379,
+        "sha256": "9ebdaf4cd1bedf0c325d389726f9bebf1bbb5aa7b8e834d25380c9416b04a33c"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/esp_replacement_json_make_module.py",
+        "bytes": 14293,
+        "sha256": "ec926a292e876d0577890eae75d6770cad2b71d526f883df5aa14ce4f0fbcd78"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/esp_text_replacement_module.py",
+        "bytes": 31383,
+        "sha256": "aa9cfe9fa038797c5671da267ec53aaf657063b80a5306caea60e4e3b78712a3"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/main.py",
+        "bytes": 31955,
+        "sha256": "8bc64ae13d91327c9623147837d51e2c580cd07d5c4029d2f5d8515b6932d09e"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/pages/1_🔧_어근 분해 수동 보정.py",
+        "bytes": 11798,
+        "sha256": "16fb1a12e03634634e3fcd08d95eb4658923077b11f523563c1108a0dad151a6"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/pages/2_📦_최신 데이터 다운로드.py",
+        "bytes": 11677,
+        "sha256": "c0919af12d578f9bdb1ec7084ae8adc7155453e73187a467eb654bbb68b53e4c"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/requirements.txt",
+        "bytes": 34,
+        "sha256": "ca0f20e5ccc2458cecc3bc278bae1ea5eea328b27621b26881e6c7ca1d2cf3b8"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/エスペラントの漢字化の理想図.png",
+        "bytes": 91586,
+        "sha256": "1bdf7bbacc6e26e33ffccb1b335860cdf1015a2f8c35be52573df8a9ce4fcaf9"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-KO/エスペラント語根-漢字対応表(csv形式)の作り方.png",
+        "bytes": 132498,
+        "sha256": "8f49e1067a066f49e2af24e5d833411b9590883a80842acce7704bd0a368933a"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/.streamlit/config.toml",
+        "bytes": 368,
+        "sha256": "dd664f067d7b1db21f9fa3748c558001f1552395d49fc61d3a82f471adc86d4f"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/README.md",
+        "bytes": 11670,
+        "sha256": "32de7d9374bb20c27e81697c4df8815630dc4050a24ef2fae59bceb31d0f862c"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/README_使用方法.md",
+        "bytes": 11939,
+        "sha256": "b70fb001159066bc16bf264b14e0e6412ded902e6a3231fa53450632442b1315"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/README_内部实现原理.md",
+        "bytes": 16686,
+        "sha256": "c38d41db1e68b3b96eecd4370b262ee2ee6747e6370c8f9064d649fa3c84ff8c"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/E_stem.json",
+        "bytes": 2626958,
+        "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/char_widths.json",
+        "bytes": 1122864,
+        "sha256": "ac009c26af1d7fae05e8969d86042b5baff5f482b226c575e1cef8d27aea2c7b"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/placeholders_2char.txt",
+        "bytes": 52711,
+        "sha256": "10574f508009a873d5c72ce5920aa5625cd8cf1eaf524c2e3d23c432d2fa0d51"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/placeholders_global.txt",
+        "bytes": 4232823,
+        "sha256": "01652e6acbc5ca00f812e42fa89704c7682cf33d774b5580a37f594095184ce7"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/placeholders_local.txt",
+        "bytes": 618199,
+        "sha256": "554303d353d7799381f92297d9a051ca993127379d0d5cea19ea61f2f3fb54d9"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/placeholders_localcapture.txt",
+        "bytes": 32164,
+        "sha256": "53b421c161230aaccc5243d1f3bc96d37345a33e04ccf4a7c888bca76107160a"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/placeholders_skip.txt",
+        "bytes": 21566,
+        "sha256": "28ae04ae3b75275a7fb59dfbf646716aac226a818b3e9d6ede4c777911b435e4"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/root_list.txt",
+        "bytes": 118899,
+        "sha256": "4990cd3090589e823a6f571dfd303af803afe6dac50983b30fd63c27ae3a5a59"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/user_corrections.json",
+        "bytes": 2,
+        "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/word_anno.json",
+        "bytes": 2586979,
+        "sha256": "c469442ac632c00ba4d4d14112617a9133d7e13b26ae3b53bc0df59676226a3d"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/エスペラント語根-日本語訳ルビ対応リスト(習得レベル付き).xlsx",
+        "bytes": 168838,
+        "sha256": "098998b214b5b6bfe5d8a8ae416e1f2e59ed76b817a7869eb2856135058c8e77"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-中文注释对应列表.csv",
+        "bytes": 274988,
+        "sha256": "f98beb1f6e096936850a479cf10a9563df5b815b4970d5959d356e47a3b83f2c"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表.csv",
+        "bytes": 59557,
+        "sha256": "b599eb8545fd4da1810bf27de59e826ea06b56ab3fdd34eee633102d46b536d0"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+        "bytes": 161686,
+        "sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
+        "bytes": 429584,
+        "sha256": "98bf7a25c3bf86139667dc4327fedfb8b22c738e33529001adb7ed26fba217f0"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/替换后文字列(汉字)の使用者自定义设置(基本上完全不推荐).json",
+        "bytes": 955,
+        "sha256": "1211d16039b4fe4d082f9438bdbfef4b9bf9675d7c65b47c3c19d2bf499d77d8"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_ルビ.json",
+        "bytes": 70266508,
+        "sha256": "a20a2d89b4f9f44a7be82a6a18ee94858a74ea205988f49b0e7c05c2c138e4de"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
+        "bytes": 57380247,
+        "sha256": "ca572bd1fc1feffbe65643e66fb1441b6cf82d137676e474ad48ba50a72a9bd7"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
+        "bytes": 16427,
+        "sha256": "ff0b12bf9edc866f1a97184ffca514808657beb68e3c326d9483d544a9f1a298"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/esp_input_state.py",
+        "bytes": 2727,
+        "sha256": "80f78e3b575cd936dcef5ae36fc356798fb59471389d1d36481d3be3cf1e3c91"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py",
+        "bytes": 23379,
+        "sha256": "9ebdaf4cd1bedf0c325d389726f9bebf1bbb5aa7b8e834d25380c9416b04a33c"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/esp_replacement_json_make_module.py",
+        "bytes": 13822,
+        "sha256": "4872b85221c602d2f895c3f0a502aa2fac5407a2ea92dc4fb9a539f9cd304db0"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/esp_text_replacement_module.py",
+        "bytes": 30236,
+        "sha256": "d16e3d9f3563844e1647b6026d2deb9f2c354261dbf1b4c054fcf96059cbe925"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/main.py",
+        "bytes": 28962,
+        "sha256": "55e81bc3ecc45a8e31b7d0c067140284f5f64c9a2a97dd71b4edf1cefaba0fc4"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py",
+        "bytes": 10913,
+        "sha256": "f8a5f613b084ef3599feb1abbd173cda7ec035b826c94a74b13f8beeae704217"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/pages/2_📦_最新数据下载.py",
+        "bytes": 11677,
+        "sha256": "c0919af12d578f9bdb1ec7084ae8adc7155453e73187a467eb654bbb68b53e4c"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/requirements.txt",
+        "bytes": 34,
+        "sha256": "ca0f20e5ccc2458cecc3bc278bae1ea5eea328b27621b26881e6c7ca1d2cf3b8"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/エスペラントの漢字化の理想図.png",
+        "bytes": 91586,
+        "sha256": "1bdf7bbacc6e26e33ffccb1b335860cdf1015a2f8c35be52573df8a9ce4fcaf9"
+      },
+      {
+        "path": "Esperanto-Kanji-Ruby-ZH/エスペラント語根-漢字対応表(csv形式)の作り方.png",
+        "bytes": 132498,
+        "sha256": "8f49e1067a066f49e2af24e5d833411b9590883a80842acce7704bd0a368933a"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/.gitignore",
+        "bytes": 60,
+        "sha256": "d6abd4238b4a5b82906d9ff3d7070655f08d3a51fbd9128dcfee2830a75c53c5"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/README.md",
+        "bytes": 32015,
+        "sha256": "e81a0be3cab3c998cdb85af95b8123f33015a55083907e3f01aa81d3caf9a050"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/current_dictionary_source.json",
+        "bytes": 9834,
+        "sha256": "70a37e51852bf58740204ace6c680edce89c4b419692fa51727f511b5d9f48ad"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/current_inverse_aliases.json",
+        "bytes": 3870,
+        "sha256": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/dot-greft-20261018.json",
+        "bytes": 4340,
+        "sha256": "b343dcaa9eaf1d7e5fb35c57cbca3c63ae8626cd453692ca86f57d2007f0d762"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/four-reviewed-assignments-20261017.json",
+        "bytes": 5013,
+        "sha256": "eadc8645b5c049440bf34a45cca975ba6ae394cc2589186af34049ed04217013"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/four-shared-assignments-20261017.json",
+        "bytes": 791,
+        "sha256": "b1d1f2781e4131a88499722fc9309ddc783554505f131cd75409d4a84b5b4d75"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/legacy_inverse_aliases.json",
+        "bytes": 18041,
+        "sha256": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/mirror-identifiers-20261017.json",
+        "bytes": 311898,
+        "sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/monaco_source_20261017.json",
+        "bytes": 5359824,
+        "sha256": "8e99e85a6a78cf99f7692b2727d7a86d48f47d1bc912276fb0abda71f0bb565a"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/nostalgi-onk-fortres-assignments-20261017.json",
+        "bytes": 6313,
+        "sha256": "aae9162c2d1b8ce253af1bf6be927f8dbb45752fc9137dd0093f53e2220e06a1"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/observatori-assignment-20261017.json",
+        "bytes": 619,
+        "sha256": "d8b61e22f040212b1619ef1fcaa1a39f58e1735ed92e356a5be094e900b5ecd7"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/pejvo_piv_20260620_reverter.csv",
+        "bytes": 317760,
+        "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/pejvo_piv_pre_dot_greft_20261018.csv",
+        "bytes": 317676,
+        "sha256": "3219d77284ddf21c90b6d33a580ead00a3c38b2628b09ed205883c9255f6bd65"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/pejvo_piv_pre_las_20261017.csv",
+        "bytes": 306934,
+        "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/pejvo_piv_pre_mirror_20261017.csv",
+        "bytes": 307185,
+        "sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/pejvo_piv_pre_satir_20261017.csv",
+        "bytes": 317250,
+        "sha256": "ec6d04c11d3bee9fc2063342b73b884c1fc02819a736dc033f5b6e99e320f6c8"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/pejvo_piv_pre_sperm_distinction_20261018.csv",
+        "bytes": 317344,
+        "sha256": "87e9317a0fc35ef1ae50462002ec8143b129c3e64112f4eda360336796fe50fb"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/pejvo_piv_pre_three_short_20261017.csv",
+        "bytes": 316500,
+        "sha256": "4d32d2eb5331c8d0d90e8d3995b6a27c1e8a108eb09c281c54c598db21cf48fd"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/protez-ranc-assignments-20261017.json",
+        "bytes": 2819,
+        "sha256": "3491328f8d6d1c32534b844731d5ebabd0de4db03c69b9dad0112a9131b206bd"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/satir-assignment-20261017.json",
+        "bytes": 3999,
+        "sha256": "8ad557482504a6e48cf5ef0142e95c3febc3022289bf2fe64a8105fee026b439"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/snippet_pre_dot_greft_20261018.csv",
+        "bytes": 176545,
+        "sha256": "22ef2de51e53bd19314b6c7f140aa8d82b0914bd71bfdd0b2c943cbc71591f07"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/snippet_pre_satir_20261017.csv",
+        "bytes": 176371,
+        "sha256": "803a60e0b5b7017601378681876b30f15d926d4b2028694f116c009e0f7ec416"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/snippet_pre_sperm_distinction_20261018.csv",
+        "bytes": 176403,
+        "sha256": "d9aa07044691264d371b2e526b7167264e3cc41790e8e6bb948ed829997d7ff7"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/snippet_pre_three_short_20261017.csv",
+        "bytes": 176114,
+        "sha256": "22536c3a1348f2da787fadd86468dc1a8779f520dadff15abc93b7b2b339c30e"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/sperm-distinction-20261018.json",
+        "bytes": 8702,
+        "sha256": "3c91b271b07d7ffe7a664887c726239a249b67084a0c2e8b49c202c18a52ce42"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/stafilokok-assignment-20261017.json",
+        "bytes": 623,
+        "sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/sutur-fraj-assignments-20261017.json",
+        "bytes": 2758,
+        "sha256": "19205ad78fbd88208119a3e03ed30bc7104d2e66a542a7646a5c95996c5c4d64"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/three-short-assignments-20261017.json",
+        "bytes": 5202,
+        "sha256": "8c681933fa1bc5e4a127da385ff3dbf4bf3adf7ad513291d6f467f80069effe4"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/two_editions_policy.json",
+        "bytes": 1068,
+        "sha256": "41c12930485b31d02499965eeb7b8f73f80ec7361aea2252b79fe1c074034762"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/data/uve-assignments-20261017.json",
+        "bytes": 678,
+        "sha256": "fc3acc1523d35c94e1955c29ec92ff04684e69c564ca39da4881d5bc4e2244ad"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/esperanto_converter.py",
+        "bytes": 45075,
+        "sha256": "9138537f3638ab7c3752835ba7c0394c869050179db2b444c2be85226aba4390"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/html_source_recovery.py",
+        "bytes": 10349,
+        "sha256": "314a3dbbdabef617d032eb6de7035020387c30afb96646ba07c8fa97490d5bec"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/legacy/esperanto_converter_v0.py",
+        "bytes": 7544,
+        "sha256": "ce4051f5ab80d84b78545029d07d4d3bf13bb6e8eba055f9f4293b69269fcce8"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/monaco-commit.txt",
+        "bytes": 40,
+        "sha256": "16fa9e9cb04625983b266f623b8b25bc3b04f0f87e0139ca6da0b12a23d6b7fe"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/requirements.txt",
+        "bytes": 32,
+        "sha256": "4cd72416edc0159bb25372a6788915f4ab073be04afc11b681054731fd1cf114"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/conftest.py",
+        "bytes": 490,
+        "sha256": "299735823cceba2244b5e772c396c37e3f793b75d93aee320322372b3b29b14c"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/fixtures/compound_inverse_additions_20261018.json",
+        "bytes": 4728,
+        "sha256": "8b0ff00762bd0daeca7de7563ef8a6668c2a47b177249dc44b869d66acd6615f"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/fixtures/html_recovery/standard_annotation.html",
+        "bytes": 3897,
+        "sha256": "e29ab481e3a727932e3ae96daa62be49ba3212ed70471ed6b26527a00f62b704"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/fixtures/html_recovery/standard_kanji.html",
+        "bytes": 3861,
+        "sha256": "a687f9d0374b1e33612d0199b913af71fd946a5df18a680e7003c60cb5b7b277"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/fixtures/html_source_recovery/JA_current_kanji.html",
+        "bytes": 3861,
+        "sha256": "a687f9d0374b1e33612d0199b913af71fd946a5df18a680e7003c60cb5b7b277"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/fixtures/html_source_recovery/JA_current_ruby.html",
+        "bytes": 3897,
+        "sha256": "e29ab481e3a727932e3ae96daa62be49ba3212ed70471ed6b26527a00f62b704"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/fixtures/html_source_recovery/JA_legacy_kanji.html",
+        "bytes": 3860,
+        "sha256": "8aed291834e4203615f05a720b7d56151cef56d21fe94c1450d3d85643f6cdd4"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/fixtures/html_source_recovery/JA_legacy_ruby.html",
+        "bytes": 3896,
+        "sha256": "71a6a428c022a1b714b87c6e8a6b430f65235ae142d7c8b15c4d6af7687d4ccd"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/fixtures/html_source_recovery/KO_current_kanji.html",
+        "bytes": 3860,
+        "sha256": "abe04c2b2cd51a0ea9bf0c155be2d00823da8172199529f29683389d6a68fab1"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/fixtures/html_source_recovery/KO_current_ruby.html",
+        "bytes": 3910,
+        "sha256": "24ab8a21b7d2f3b039ef7803509be7b86ae31001e8dea6ea42603a3a501e4c55"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/fixtures/html_source_recovery/KO_legacy_kanji.html",
+        "bytes": 3859,
+        "sha256": "bb445f17273a789dc121ff79ac4a0c4891156f4649a33e274d61aa8795a90077"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/fixtures/html_source_recovery/KO_legacy_ruby.html",
+        "bytes": 3909,
+        "sha256": "70208ef440925b9864cb9a3e621133583a0b5dbd2ba81d11f8478dce9a1b8581"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/fixtures/html_source_recovery/ZH_current_kanji.html",
+        "bytes": 2721,
+        "sha256": "6e53bb44bf61b8b5b2c648a40a6aad580adb31c79cd73d96d3e0e175cd411f7f"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/fixtures/html_source_recovery/ZH_current_ruby.html",
+        "bytes": 2738,
+        "sha256": "6309a74b2cf42d55c2fc724334b18e7b73346da23f825b00aa42ae3fc9a4d790"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/fixtures/html_source_recovery/ZH_legacy_kanji.html",
+        "bytes": 2720,
+        "sha256": "f9034927aca5886b27bc78c9fbe01247c227fe2d5d0086a8628cb7fc1b003493"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/fixtures/html_source_recovery/ZH_legacy_ruby.html",
+        "bytes": 2737,
+        "sha256": "c380fdc680c9f7e4b28440dcef7d1a848c5b65a2a8e8842b9aa73b413b94ebe5"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_assignment_versions.py",
+        "bytes": 6052,
+        "sha256": "fbbc36c59ad9050bbaf239783b35950be3d1cbfe212c7ed26c218f0679ba6a75"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_cache_entrypoint_lifecycle.py",
+        "bytes": 5780,
+        "sha256": "6d6ded52b52d8c68d6a619474edb0f0bd36241e5407ecb14e2a7f9a7940cadb0"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_converter.py",
+        "bytes": 5877,
+        "sha256": "698e3e222d6c9a0dcdf288757b63f5bc6855cc3336f17b8ba1a5ed9ff71ae927"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_current_inverse_aliases.py",
+        "bytes": 13451,
+        "sha256": "84b5fe5626799c4617e5f7b25038d19b5ae0c71f1a925f5b14255077820b3393"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_dot_greft_assignments.py",
+        "bytes": 4610,
+        "sha256": "ac8a9c62ad8e9002bf5c7564ada9ce4934d05daa258f97fbc18881fd607fc30a"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_four_reviewed_assignments.py",
+        "bytes": 3815,
+        "sha256": "b418fa90b08d16bbf6c1ed2fe5c409fd9a38aafb231ca1e521d0281ed7f93b31"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_four_shared_assignments.py",
+        "bytes": 4523,
+        "sha256": "91b2bcbe51a4510af6ec1856b51e6abf1510772fc144e73087971f0c2e827578"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_fruit_priority_assignment.py",
+        "bytes": 2912,
+        "sha256": "246e08275279219f2b8dc642b91f227bdbcc18437bf405862831ddd6a0e14a92"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_html_recovery_ui.py",
+        "bytes": 7116,
+        "sha256": "48f4ee026c10f63731a79ffbec6c65a510246faf9fff0a232042ab6bc715059b"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_html_source_recovery.py",
+        "bytes": 8403,
+        "sha256": "4274a0b42078566c5f78d30d0187f77beb66638f9b2db2a5d907d804ab89cdf3"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_identifier_boundaries.py",
+        "bytes": 5147,
+        "sha256": "66508b6e73a53ebb1370943399a7270e91fa3e6eed139bfbb30faa61c01a8c11"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_input_result_state.py",
+        "bytes": 12911,
+        "sha256": "3d0dfd58fc4a415ba551767e793b974635e5a6a70e00654c8404ded5ee934c38"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_legacy_inverse_aliases.py",
+        "bytes": 11623,
+        "sha256": "d19bd02b41c849116b1bac9f6cfdd33817e7b6c7238cba8222cbf3f234e31038"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_mirror_identifiers.py",
+        "bytes": 5165,
+        "sha256": "032fb63d434f58055f4ba2a9b4615bacf47dd5f9985741ab7bdcb3703bacbd3a"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_nostalgi_onk_fortres_assignments.py",
+        "bytes": 3846,
+        "sha256": "53ff2a608956a9e6ed07a91fa5525442eba473791fdc45eac5cce090f769b5cb"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_observatori_assignment.py",
+        "bytes": 4056,
+        "sha256": "95b96fc6e8f7e18048b015fade9b59c31d9ccff998031d77c110b5f9b781975c"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_protez_ranc_assignments.py",
+        "bytes": 3627,
+        "sha256": "e58825eb69215325aca781d07107fa21cf718109efe1776ba174b3d9c8c6bafb"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_satir_assignment.py",
+        "bytes": 4495,
+        "sha256": "416d826e175358f2c559851f78b0847b35547c9ad9460f2f3122ce662d2e4bd3"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_sperm_distinction.py",
+        "bytes": 4616,
+        "sha256": "837c51316d7bf4d67311d924a45c0eef29fcf3d743ae0e259f1c4e58b892ce17"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_stafilokok_assignment.py",
+        "bytes": 3123,
+        "sha256": "d1a1a78badd5f2b4f89532f335f548d982e90c5f0334a0eefb93f4da5798111d"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_sutur_fraj_assignments.py",
+        "bytes": 3904,
+        "sha256": "91e2fd8f2d1c5d49654e63687a168cfa78726a868fdd85e4d67ef4a83af29253"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_three_assignments.py",
+        "bytes": 1761,
+        "sha256": "36aae8bb472b6de76729765b72b369a4cb19b4ee32192688ba7da09b4ca2d348"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_three_short_assignments.py",
+        "bytes": 4270,
+        "sha256": "a5d852b8237aaa69c148fe145bac7d98f99eee268606c803c3d9e26bb8b8fda4"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_two_editions.py",
+        "bytes": 7976,
+        "sha256": "28215163c4beff878e0b47d52349c08af70f97db4115b32a65d597a0b937f965"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_unique_inverse_keys.py",
+        "bytes": 9606,
+        "sha256": "6007f81cb3c4c119bc132ae5c0640d9c3ba585577ddaea626950f238c3f611cd"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tests/test_uve_assignments.py",
+        "bytes": 4123,
+        "sha256": "727205b54439db49135c99480793a1461e30865f6bd8163c0fc423eb8f78650c"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tools/build_reverter_dictionary_from_all_json.py",
+        "bytes": 6307,
+        "sha256": "ea8045078aadef4f80351c0930de72cec26ccf439742874691b85b6198e411c0"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tools/build_snippet_csv_from_reverter_csv.py",
+        "bytes": 1916,
+        "sha256": "890ac1f20f8c53ff92bf1e18b61869737e671c5568d87e9f6681bca1e11b76ee"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tools/check_dictionary_sync.py",
+        "bytes": 7234,
+        "sha256": "aeeff0d5801f52a011ab1204063ea54bb8428d14a8aba6cb67518c6b3daa2d12"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/tools/dictionary_source.py",
+        "bytes": 1670,
+        "sha256": "d8a1aecda3947873cff72f5e56f2c4c0505b12fe85850d5b5f0e4b0c0eb3bd45"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/エスペラント語根-漢字対応表_スニペット用最小限.csv",
+        "bytes": 176571,
+        "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/使用例.md",
+        "bytes": 1680,
+        "sha256": "da6dc08051969c4c4d18219f9f03f3954c0fcdfb11ec90fcb305df515e808fd0"
+      },
+      {
+        "path": "Esperanto-Reverter-JA/置換アルゴリズム詳細.md",
+        "bytes": 3904,
+        "sha256": "b88304ef7161d076fc79aebe024c3ffda1fa2b87a162636571682152fdd8eb83"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/README.md",
+        "bytes": 28385,
+        "sha256": "76fd032b53b1ff3cbdc292d7d059944534ce4b16f42c319155f05156b627dbed"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/current_dictionary_source.json",
+        "bytes": 9834,
+        "sha256": "70a37e51852bf58740204ace6c680edce89c4b419692fa51727f511b5d9f48ad"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/current_inverse_aliases.json",
+        "bytes": 3870,
+        "sha256": "6ec3a6d43d2e40119539f0666d4fa35c4dbc971967e453a815e6a22720fe2af7"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/dot-greft-20261018.json",
+        "bytes": 4340,
+        "sha256": "b343dcaa9eaf1d7e5fb35c57cbca3c63ae8626cd453692ca86f57d2007f0d762"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/four-reviewed-assignments-20261017.json",
+        "bytes": 5013,
+        "sha256": "eadc8645b5c049440bf34a45cca975ba6ae394cc2589186af34049ed04217013"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/four-shared-assignments-20261017.json",
+        "bytes": 791,
+        "sha256": "b1d1f2781e4131a88499722fc9309ddc783554505f131cd75409d4a84b5b4d75"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/legacy_inverse_aliases.json",
+        "bytes": 18041,
+        "sha256": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/mirror-identifiers-20261017.json",
+        "bytes": 311898,
+        "sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/monaco_source_20261017.json",
+        "bytes": 5359824,
+        "sha256": "8e99e85a6a78cf99f7692b2727d7a86d48f47d1bc912276fb0abda71f0bb565a"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/nostalgi-onk-fortres-assignments-20261017.json",
+        "bytes": 6313,
+        "sha256": "aae9162c2d1b8ce253af1bf6be927f8dbb45752fc9137dd0093f53e2220e06a1"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/observatori-assignment-20261017.json",
+        "bytes": 619,
+        "sha256": "d8b61e22f040212b1619ef1fcaa1a39f58e1735ed92e356a5be094e900b5ecd7"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/pejvo_piv_20260620_reverter.csv",
+        "bytes": 317760,
+        "sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/pejvo_piv_pre_dot_greft_20261018.csv",
+        "bytes": 317676,
+        "sha256": "3219d77284ddf21c90b6d33a580ead00a3c38b2628b09ed205883c9255f6bd65"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/pejvo_piv_pre_las_20261017.csv",
+        "bytes": 306934,
+        "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/pejvo_piv_pre_mirror_20261017.csv",
+        "bytes": 307185,
+        "sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/pejvo_piv_pre_satir_20261017.csv",
+        "bytes": 317250,
+        "sha256": "ec6d04c11d3bee9fc2063342b73b884c1fc02819a736dc033f5b6e99e320f6c8"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/pejvo_piv_pre_sperm_distinction_20261018.csv",
+        "bytes": 317344,
+        "sha256": "87e9317a0fc35ef1ae50462002ec8143b129c3e64112f4eda360336796fe50fb"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/pejvo_piv_pre_three_short_20261017.csv",
+        "bytes": 316500,
+        "sha256": "4d32d2eb5331c8d0d90e8d3995b6a27c1e8a108eb09c281c54c598db21cf48fd"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/protez-ranc-assignments-20261017.json",
+        "bytes": 2819,
+        "sha256": "3491328f8d6d1c32534b844731d5ebabd0de4db03c69b9dad0112a9131b206bd"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/satir-assignment-20261017.json",
+        "bytes": 3999,
+        "sha256": "8ad557482504a6e48cf5ef0142e95c3febc3022289bf2fe64a8105fee026b439"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/snippet_pre_dot_greft_20261018.csv",
+        "bytes": 176545,
+        "sha256": "22ef2de51e53bd19314b6c7f140aa8d82b0914bd71bfdd0b2c943cbc71591f07"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/snippet_pre_satir_20261017.csv",
+        "bytes": 176371,
+        "sha256": "803a60e0b5b7017601378681876b30f15d926d4b2028694f116c009e0f7ec416"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/snippet_pre_sperm_distinction_20261018.csv",
+        "bytes": 176403,
+        "sha256": "d9aa07044691264d371b2e526b7167264e3cc41790e8e6bb948ed829997d7ff7"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/snippet_pre_three_short_20261017.csv",
+        "bytes": 176114,
+        "sha256": "22536c3a1348f2da787fadd86468dc1a8779f520dadff15abc93b7b2b339c30e"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/sperm-distinction-20261018.json",
+        "bytes": 8702,
+        "sha256": "3c91b271b07d7ffe7a664887c726239a249b67084a0c2e8b49c202c18a52ce42"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/stafilokok-assignment-20261017.json",
+        "bytes": 623,
+        "sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/sutur-fraj-assignments-20261017.json",
+        "bytes": 2758,
+        "sha256": "19205ad78fbd88208119a3e03ed30bc7104d2e66a542a7646a5c95996c5c4d64"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/three-short-assignments-20261017.json",
+        "bytes": 5202,
+        "sha256": "8c681933fa1bc5e4a127da385ff3dbf4bf3adf7ad513291d6f467f80069effe4"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/two_editions_policy.json",
+        "bytes": 1068,
+        "sha256": "41c12930485b31d02499965eeb7b8f73f80ec7361aea2252b79fe1c074034762"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/data/uve-assignments-20261017.json",
+        "bytes": 678,
+        "sha256": "fc3acc1523d35c94e1955c29ec92ff04684e69c564ca39da4881d5bc4e2244ad"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/esperanto_converter_zh.py",
+        "bytes": 43820,
+        "sha256": "fc7505b5092ba01bd3a8f4122fbdd4bec6364b4af543d3a80dc5709cbb149dcd"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/html_source_recovery.py",
+        "bytes": 10349,
+        "sha256": "314a3dbbdabef617d032eb6de7035020387c30afb96646ba07c8fa97490d5bec"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/legacy/esperanto_converter版0.py",
+        "bytes": 7544,
+        "sha256": "ce4051f5ab80d84b78545029d07d4d3bf13bb6e8eba055f9f4293b69269fcce8"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/monaco-commit.txt",
+        "bytes": 40,
+        "sha256": "16fa9e9cb04625983b266f623b8b25bc3b04f0f87e0139ca6da0b12a23d6b7fe"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/requirements.txt",
+        "bytes": 32,
+        "sha256": "4cd72416edc0159bb25372a6788915f4ab073be04afc11b681054731fd1cf114"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/conftest.py",
+        "bytes": 490,
+        "sha256": "299735823cceba2244b5e772c396c37e3f793b75d93aee320322372b3b29b14c"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/fixtures/compound_inverse_additions_20261018.json",
+        "bytes": 4728,
+        "sha256": "8b0ff00762bd0daeca7de7563ef8a6668c2a47b177249dc44b869d66acd6615f"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/fixtures/html_recovery/standard_annotation.html",
+        "bytes": 3897,
+        "sha256": "e29ab481e3a727932e3ae96daa62be49ba3212ed70471ed6b26527a00f62b704"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/fixtures/html_recovery/standard_kanji.html",
+        "bytes": 3861,
+        "sha256": "a687f9d0374b1e33612d0199b913af71fd946a5df18a680e7003c60cb5b7b277"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/fixtures/html_source_recovery/JA_current_kanji.html",
+        "bytes": 3861,
+        "sha256": "a687f9d0374b1e33612d0199b913af71fd946a5df18a680e7003c60cb5b7b277"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/fixtures/html_source_recovery/JA_current_ruby.html",
+        "bytes": 3897,
+        "sha256": "e29ab481e3a727932e3ae96daa62be49ba3212ed70471ed6b26527a00f62b704"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/fixtures/html_source_recovery/JA_legacy_kanji.html",
+        "bytes": 3860,
+        "sha256": "8aed291834e4203615f05a720b7d56151cef56d21fe94c1450d3d85643f6cdd4"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/fixtures/html_source_recovery/JA_legacy_ruby.html",
+        "bytes": 3896,
+        "sha256": "71a6a428c022a1b714b87c6e8a6b430f65235ae142d7c8b15c4d6af7687d4ccd"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/fixtures/html_source_recovery/KO_current_kanji.html",
+        "bytes": 3860,
+        "sha256": "abe04c2b2cd51a0ea9bf0c155be2d00823da8172199529f29683389d6a68fab1"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/fixtures/html_source_recovery/KO_current_ruby.html",
+        "bytes": 3910,
+        "sha256": "24ab8a21b7d2f3b039ef7803509be7b86ae31001e8dea6ea42603a3a501e4c55"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/fixtures/html_source_recovery/KO_legacy_kanji.html",
+        "bytes": 3859,
+        "sha256": "bb445f17273a789dc121ff79ac4a0c4891156f4649a33e274d61aa8795a90077"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/fixtures/html_source_recovery/KO_legacy_ruby.html",
+        "bytes": 3909,
+        "sha256": "70208ef440925b9864cb9a3e621133583a0b5dbd2ba81d11f8478dce9a1b8581"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/fixtures/html_source_recovery/ZH_current_kanji.html",
+        "bytes": 2721,
+        "sha256": "6e53bb44bf61b8b5b2c648a40a6aad580adb31c79cd73d96d3e0e175cd411f7f"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/fixtures/html_source_recovery/ZH_current_ruby.html",
+        "bytes": 2738,
+        "sha256": "6309a74b2cf42d55c2fc724334b18e7b73346da23f825b00aa42ae3fc9a4d790"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/fixtures/html_source_recovery/ZH_legacy_kanji.html",
+        "bytes": 2720,
+        "sha256": "f9034927aca5886b27bc78c9fbe01247c227fe2d5d0086a8628cb7fc1b003493"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/fixtures/html_source_recovery/ZH_legacy_ruby.html",
+        "bytes": 2737,
+        "sha256": "c380fdc680c9f7e4b28440dcef7d1a848c5b65a2a8e8842b9aa73b413b94ebe5"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_assignment_versions.py",
+        "bytes": 6055,
+        "sha256": "adc102cfaf4fcd62e94292396f93454fa047db20e4791a7177f560fabe98c70d"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_cache_entrypoint_lifecycle.py",
+        "bytes": 5783,
+        "sha256": "0747540e80ff8d4ba8b96d1eb2f546695b922555c0a209779cff9b76d22caa63"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_converter.py",
+        "bytes": 5880,
+        "sha256": "200fb4c772cb7124aedf67c3741ae5a23fd980c5277f7b72e89a051799785773"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_current_inverse_aliases.py",
+        "bytes": 13454,
+        "sha256": "87ff6826cc3a8943c5e718d9a42bf4679b45afbd0cad1f070abec854fb2b32b6"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_dot_greft_assignments.py",
+        "bytes": 4613,
+        "sha256": "c5246da9fe6b8c1b927fe4c430b988c3a65d626dcbed6d281dcfe0a4471ee5b2"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_four_reviewed_assignments.py",
+        "bytes": 3818,
+        "sha256": "29899c20a21b13bd379a688c4c0203daf02ccbcce400abb2d4de5f2e160fc6f7"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_four_shared_assignments.py",
+        "bytes": 4526,
+        "sha256": "b480f14459febae32b2962917de64fb6046910bc1ed5d7eb3534304e4bc12443"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_fruit_priority_assignment.py",
+        "bytes": 2915,
+        "sha256": "4151e05a699568320242b88196c3acfc51e8f668e7dd45f20778429caf178e2b"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_html_recovery_ui.py",
+        "bytes": 7119,
+        "sha256": "69b29874f73d14963ecdb6387054697ab1a6351cadaa02588aae13bb5a12cd7a"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_html_source_recovery.py",
+        "bytes": 8403,
+        "sha256": "4274a0b42078566c5f78d30d0187f77beb66638f9b2db2a5d907d804ab89cdf3"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_identifier_boundaries.py",
+        "bytes": 5255,
+        "sha256": "37e847e3e74d8de3422e5e9e19c2cb4d6515c86fac4dbe41bf6207e3de27a240"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_input_result_state.py",
+        "bytes": 12914,
+        "sha256": "b60da47db5f88dea82f94f6cef92d953bf20ec022b24d86b065ef3b6f88f6dcc"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_legacy_inverse_aliases.py",
+        "bytes": 11626,
+        "sha256": "9e7f87369f13f2d499a13dfbb6f3f39f60deb3dc264ca303ebc0167aa98e8cc2"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_mirror_identifiers.py",
+        "bytes": 5168,
+        "sha256": "cf938a0d8d17eaaca1d2ce7191495e89781657778179b79b436991f2dc13fc10"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_nostalgi_onk_fortres_assignments.py",
+        "bytes": 3849,
+        "sha256": "15a74ab0326aaacedb34e3e68669fbaaf88a0bc43efa9c8bed8729e185c11e15"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_observatori_assignment.py",
+        "bytes": 4059,
+        "sha256": "ca29d7a1ec75a6c292ebc3384a05bb3e22741c6180f0991c35dc8a57e0871898"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_protez_ranc_assignments.py",
+        "bytes": 3630,
+        "sha256": "06a8a2265d85505bb88d88d7a6dc5d0bee3a34f273b0725cebe9b42dbd1c88cb"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_satir_assignment.py",
+        "bytes": 4498,
+        "sha256": "849de66f0a47ea7975538fd92220fca973bbd8ec1a345428cab18b2090c96a3b"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_sperm_distinction.py",
+        "bytes": 4619,
+        "sha256": "a60bccf8259c4f5323cd9ccdae83f732344e9a08177ee293973012d20f7979de"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_stafilokok_assignment.py",
+        "bytes": 3126,
+        "sha256": "c09f9cd6771c44dbf706656df176a6c49921936bb6ef3864fb5cd5d81ea962af"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_sutur_fraj_assignments.py",
+        "bytes": 3907,
+        "sha256": "fba3660190d22e0191f0c17081623cc7f1ed287d5bad28e9e59e7f606460b7ba"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_three_assignments.py",
+        "bytes": 1764,
+        "sha256": "adae766a04666cc93eceefc4e2acc8cfd0bd9f45682646698a508522001ad788"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_three_short_assignments.py",
+        "bytes": 4273,
+        "sha256": "688a564b4673c1213e56a7974cabe05fc0eb64dc4e11441e9808122d674f8cc0"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_two_editions.py",
+        "bytes": 7979,
+        "sha256": "2a1bc2c54bfb14c49bc00592af7bc8e4cf3c432bfef5439a2e24f22e8c4b068b"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_unique_inverse_keys.py",
+        "bytes": 9609,
+        "sha256": "694af703b7675320e7cec7ceee7d13b8920a44f8ea331c62c4ea38f37a18406c"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tests/test_uve_assignments.py",
+        "bytes": 4126,
+        "sha256": "58e2189ef50f43e6350872652d4438785b72df607176ecc032181ed211655983"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tools/build_reverter_dictionary_from_all_json.py",
+        "bytes": 6307,
+        "sha256": "ea8045078aadef4f80351c0930de72cec26ccf439742874691b85b6198e411c0"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tools/build_snippet_csv_from_reverter_csv.py",
+        "bytes": 1916,
+        "sha256": "890ac1f20f8c53ff92bf1e18b61869737e671c5568d87e9f6681bca1e11b76ee"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tools/check_dictionary_sync.py",
+        "bytes": 7237,
+        "sha256": "501bbe5f25dc98db660bea25f1a506b51d9bf683c80e8b2d988ea529d6dd19cf"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/tools/dictionary_source.py",
+        "bytes": 1670,
+        "sha256": "d8a1aecda3947873cff72f5e56f2c4c0505b12fe85850d5b5f0e4b0c0eb3bd45"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/エスペラント語根-漢字対応表_スニペット用最小限.csv",
+        "bytes": 176571,
+        "sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/使用示例_zh.md",
+        "bytes": 4571,
+        "sha256": "b7f3385e471931005ff1d406254cecbbd673c4c28e7ce2aa3cc09ec348dc1d24"
+      },
+      {
+        "path": "Esperanto-Reverter-ZH/置換アルゴリズム詳細.md",
+        "bytes": 5299,
+        "sha256": "64ae6c1cf6cb619090b621bf157a5eb575130d92de6e51c8bb57572779a0fec4"
+      },
+      {
+        "path": "assignment_editions/README.md",
+        "bytes": 3202,
+        "sha256": "f1d588bbd6e048ebfa16fa57fb592b9d9f564e669ea3f25fabc91e6fd4126fe7"
+      },
+      {
+        "path": "assignment_editions/legacy/JA/kanji.csv",
+        "bytes": 152831,
+        "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53"
+      },
+      {
+        "path": "assignment_editions/legacy/JA/kanji.json.gz",
+        "bytes": 6384631,
+        "sha256": "215f0c297bf73efe29f4b323a982adb63a181d42e202dbed63f52c954baeb0fe"
+      },
+      {
+        "path": "assignment_editions/legacy/JA/pure.json.gz",
+        "bytes": 4169688,
+        "sha256": "3ef2efd50fbb13a834f7421c3e85bd406d2926dd304028b19e1de3264ec3fb40"
+      },
+      {
+        "path": "assignment_editions/legacy/KO/kanji.csv",
+        "bytes": 152831,
+        "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53"
+      },
+      {
+        "path": "assignment_editions/legacy/KO/kanji.json.gz",
+        "bytes": 6385064,
+        "sha256": "8005ecf215185aa8fe9b8f482305f9fb1ec17aaf0d1c9c4fbbbb7928ef97508c"
+      },
+      {
+        "path": "assignment_editions/legacy/README.md",
+        "bytes": 1866,
+        "sha256": "16c5d7f46a12fa899f0e7d8e4f28ab52dcf260ca6f724b687279f84f31d4381b"
+      },
+      {
+        "path": "assignment_editions/legacy/ZH/kanji.csv",
+        "bytes": 152831,
+        "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53"
+      },
+      {
+        "path": "assignment_editions/legacy/ZH/kanji.json.gz",
+        "bytes": 6385065,
+        "sha256": "f05e779677489ebcf5d00b00389e841eb89cc8bf7af87bbf1d1e65309c0fd594"
+      },
+      {
+        "path": "assignment_editions/legacy/_identifier_sidecar.tsv",
+        "bytes": 572391,
+        "sha256": "8ee9e27651413f87f1404eb5c328e7ad8ba4bda3be61a442ac9585911a4a9600"
+      },
+      {
+        "path": "assignment_editions/legacy/_kanji_map_master.tsv",
+        "bytes": 209155,
+        "sha256": "8260593759caf4403e61e88ba54b15eb4486dd499467aff8db95cf8058ec50f8"
+      },
+      {
+        "path": "assignment_editions/legacy/manifest.json",
+        "bytes": 11597,
+        "sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3"
+      },
+      {
+        "path": "assignment_editions/legacy/test_legacy_assets.py",
+        "bytes": 7704,
+        "sha256": "b29d79bac49e2b8ca61c653a2e4648344ecd31486d66de0db21f1180bdf3e992"
+      },
+      {
+        "path": "requirements.txt",
+        "bytes": 34,
+        "sha256": "ca0f20e5ccc2458cecc3bc278bae1ea5eea328b27621b26881e6c7ca1d2cf3b8"
+      }
+    ],
+    "all_selected_members_match_exact_git_commit": true,
+    "guard_sets": [
+      {
+        "language": "JA",
+        "edition": "current",
+        "guard_paths": 22,
+        "all_members_verified": true
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "guard_paths": 22,
+        "all_members_verified": true
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "guard_paths": 22,
+        "all_members_verified": true
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "guard_paths": 22,
+        "all_members_verified": true
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "guard_paths": 22,
+        "all_members_verified": true
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "guard_paths": 22,
+        "all_members_verified": true
+      }
+    ],
+    "guard_source_report_sha256": "06f5c86eeefee306ad58e799c95792570260cb3d26e2338fe2b598915e1be7fd",
+    "saved_copy": false,
+    "temporary_spool_removed": true
+  },
+  "seconds": 114.988,
+  "method": "Only actual browser-observed links. Stream every unique raw response and compare SHA256 and length to the exact URL commit/blob. Validate gzip streams without loading giant JSON objects. Download source ZIP once into an automatically removed spool and compare all app/data/requirements members against the exact URL commit. No permanent dataset or archive copies; no product or Git writes.",
+  "initial_pure_response_observation": {
+    "first_kanji_http_assertion_passed": true,
+    "first_pure_http_assertion_failed": true,
+    "first_pure_failed_response_length_and_hash_not_retained": true,
+    "same_exact_observed_pure_URL_retry_passed": true,
+    "retry_bytes": 21515761,
+    "retry_sha256": "108c0ff48dd6dd7363bba9f1b07eb15f6b69738afa0628590e5e0c8fd9986883",
+    "cause": "Transient response failure; original response details were not captured, so incomplete transfer or other transport cause remains unproven."
+  },
+  "confirmed_truncated_response_before_range_assembly": {
+    "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+    "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_ルビ.json",
+    "expected_bytes": 72553994,
+    "actual_bytes": 44955456,
+    "expected_sha256": "d02fd6ef33ab2da0d59e3e170f152e219d289de39e0bf358e05f6384bc292dca",
+    "actual_sha256": "31f215521ee5af515abb1020df65263d9852d118ddf8d5b9734200ef8f22a339",
+    "response_headers": {
+      "Content-Length": "72553994",
+      "Content-Type": "text/plain; charset=utf-8",
+      "Content-Encoding": null,
+      "ETag": "\"b2a468a8b3ff1306460d2c152ab7dc10f9d0702c2022255eb481efdeae53a595\"",
+      "Content-Range": null
+    },
+    "final_url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json"
+  },
+  "concurrency": "At most 3 range-assembly downloads concurrently; source ZIP afterwards. Successful earlier HTTP responses retained as checkpoints without re-fetching."
+}
