@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "upload",
+    "reverter": "JA",
+    "file": "JA_legacy_kanji.html",
+    "restored_exact": true
+  },
+  {
+    "kind": "upload",
+    "reverter": "ZH",
+    "file": "JA_legacy_kanji.html",
+    "restored_exact": true
+  },
+  {
+    "kind": "upload_direction_guard",
+    "reverter": "JA",
+    "file": "KO_current_annotation.html",
+    "wrong_mode_blocked": true,
+    "stale_save_absent": true,
+    "correct_mode_restored_exact": true,
+    "uploaded_file_preserved": true
+  },
+  {
+    "kind": "upload_direction_guard",
+    "reverter": "ZH",
+    "file": "KO_current_annotation.html",
+    "wrong_mode_blocked": true,
+    "stale_save_absent": true,
+    "correct_mode_restored_exact": true,
+    "uploaded_file_preserved": true
+  },
+  {
+    "kind": "plain_reverse",
+    "reverter": "JA",
+    "forward_language": "JA",
+    "edition": "current",
+    "file": "reverse_JA_JA_current_pure.txt",
+    "expected_dictionary_output": true
+  },
+  {
+    "kind": "plain_reverse",
+    "reverter": "ZH",
+    "forward_language": "JA",
+    "edition": "current",
+    "file": "reverse_ZH_JA_current_pure.txt",
+    "expected_dictionary_output": true
+  },
+  {
+    "kind": "plain_reverse",
+    "reverter": "JA",
+    "forward_language": "JA",
+    "edition": "legacy",
+    "file": "reverse_JA_JA_legacy_pure.txt",
+    "expected_dictionary_output": true
+  },
+  {
+    "kind": "plain_reverse",
+    "reverter": "ZH",
+    "forward_language": "JA",
+    "edition": "legacy",
+    "file": "reverse_ZH_JA_legacy_pure.txt",
+    "expected_dictionary_output": true
+  },
+  {
+    "kind": "edited_download",
+    "language": "ZH",
+    "edition": "current",
+    "file": "ZH_current_edited_opposite.html",
+    "selected_mode": "annotation",
+    "body_mode": "kanji",
+    "body_exact": true,
+    "ruby_mode_metadata_absent": true
+  },
+  {
+    "kind": "edited_restore",
+    "reverter": "JA",
+    "file": "ZH_current_edited_opposite.html",
+    "selected_mode": "kanji",
+    "expected_output": "lasis",
+    "passed": true
+  },
+  {
+    "kind": "edited_restore",
+    "reverter": "ZH",
+    "file": "ZH_current_edited_opposite.html",
+    "selected_mode": "kanji",
+    "expected_output": "lasis",
+    "passed": true
+  },
+  {
+    "kind": "edited_restore",
+    "reverter": "JA",
+    "file": "ZH_current_edited_opposite.html",
+    "selected_mode": "annotation",
+    "expected_output": "放is",
+    "passed": true
+  },
+  {
+    "kind": "edited_restore",
+    "reverter": "ZH",
+    "file": "ZH_current_edited_opposite.html",
+    "selected_mode": "annotation",
+    "expected_output": "放is",
+    "passed": true
+  },
+  {
+    "kind": "custom_download",
+    "language": "ZH",
+    "file": "ZH_custom_opposite.html",
+    "ruby_mode_metadata_absent": true,
+    "custom_provenance": true,
+    "payload_preserved": true
+  },
+  {
+    "kind": "custom_restore",
+    "reverter": "JA",
+    "file": "ZH_custom_opposite.html",
+    "selected_mode": "annotation",
+    "expected_output": "放is",
+    "passed": true
+  },
+  {
+    "kind": "custom_restore",
+    "reverter": "ZH",
+    "file": "ZH_custom_opposite.html",
+    "selected_mode": "annotation",
+    "expected_output": "放is",
+    "passed": true
+  },
+  {
+    "kind": "custom_restore",
+    "reverter": "JA",
+    "file": "ZH_custom_opposite.html",
+    "selected_mode": "kanji",
+    "expected_output": "lasis",
+    "passed": true
+  },
+  {
+    "kind": "custom_restore",
+    "reverter": "ZH",
+    "file": "ZH_custom_opposite.html",
+    "selected_mode": "kanji",
+    "expected_output": "lasis",
+    "passed": true
+  }
+]

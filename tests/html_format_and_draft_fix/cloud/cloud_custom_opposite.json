@@ -1,0 +1,7 @@
+{
+  "全域替换用のリスト(列表)型配列(replacements_final_list)": [
+    ["lasis", "<ruby>放<rt>las</rt></ruby>is", "CUSTOMEXPORT000000"]
+  ],
+  "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": [],
+  "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": []
+}

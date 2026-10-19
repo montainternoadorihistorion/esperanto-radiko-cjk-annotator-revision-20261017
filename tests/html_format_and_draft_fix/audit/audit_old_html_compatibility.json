@@ -1,0 +1,410 @@
+{
+  "passed": true,
+  "baseline_commit": "ce19f0431708f5fa41c0597dd681a214aea2ebf3",
+  "old_fixtures": 10,
+  "parser_mode_cases": 40,
+  "actual_parser_calls": 80,
+  "rows": [
+    {
+      "language": "JA",
+      "fixture": "actual_current_kanji.html",
+      "fixture_sha256": "394189ef06fc7f053b2c5adc09d94454e872554615802095cb401879530dcd7c",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 1,
+      "assignment_edition": "current"
+    },
+    {
+      "language": "JA",
+      "fixture": "actual_current_kanji.html",
+      "fixture_sha256": "394189ef06fc7f053b2c5adc09d94454e872554615802095cb401879530dcd7c",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "39829ba544d6604f4eb21cd81088a71d1b7d6bfd961710565dbb4df4e0342cf1",
+      "ruby_count": 1,
+      "assignment_edition": "current"
+    },
+    {
+      "language": "JA",
+      "fixture": "actual_current_ruby.html",
+      "fixture_sha256": "9d371216724f1ef03064e1440697799572d2b6f14cbb4c0bc0d99b08913a06a8",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "96c20bad7e7875cde4e74c2ba6886812935935b4ab976abdc1c88634b16d5ba9",
+      "ruby_count": 2,
+      "assignment_edition": "current"
+    },
+    {
+      "language": "JA",
+      "fixture": "actual_current_ruby.html",
+      "fixture_sha256": "9d371216724f1ef03064e1440697799572d2b6f14cbb4c0bc0d99b08913a06a8",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 2,
+      "assignment_edition": "current"
+    },
+    {
+      "language": "JA",
+      "fixture": "actual_legacy_kanji.html",
+      "fixture_sha256": "1cd554f895d31108f9dd07a86c4b98b0d9d2731a2eb8f4593255e100c83336f5",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 1,
+      "assignment_edition": "legacy"
+    },
+    {
+      "language": "JA",
+      "fixture": "actual_legacy_kanji.html",
+      "fixture_sha256": "1cd554f895d31108f9dd07a86c4b98b0d9d2731a2eb8f4593255e100c83336f5",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "8fb57828cd3ae89548e73b92c477dd1899592cc7e517b8b832ae875484d387ee",
+      "ruby_count": 1,
+      "assignment_edition": "legacy"
+    },
+    {
+      "language": "JA",
+      "fixture": "actual_legacy_ruby.html",
+      "fixture_sha256": "58a99d3d6280d78931499253f9e83b1519dac650d6eb66cbb389b050bfc0cc87",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "96c20bad7e7875cde4e74c2ba6886812935935b4ab976abdc1c88634b16d5ba9",
+      "ruby_count": 2,
+      "assignment_edition": "legacy"
+    },
+    {
+      "language": "JA",
+      "fixture": "actual_legacy_ruby.html",
+      "fixture_sha256": "58a99d3d6280d78931499253f9e83b1519dac650d6eb66cbb389b050bfc0cc87",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 2,
+      "assignment_edition": "legacy"
+    },
+    {
+      "language": "JA",
+      "fixture": "custom_current_annotation_payload.html",
+      "fixture_sha256": "c65e1841d2fe342fe124b003644e33f505288e3a8fb7e28b76aa8eaa8ccd0d2a",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "7498ba9ab1a11bee441659a99a47120d5797d3a15b016f87473a59e0696fe7cd",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "JA",
+      "fixture": "custom_current_annotation_payload.html",
+      "fixture_sha256": "c65e1841d2fe342fe124b003644e33f505288e3a8fb7e28b76aa8eaa8ccd0d2a",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "JA",
+      "fixture": "custom_current_kanji_payload.html",
+      "fixture_sha256": "e8f5e99bb7ab70215a3f13a30edf2ac3d17276b953318cfa4ca9bfd3462e5738",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 1,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "JA",
+      "fixture": "custom_current_kanji_payload.html",
+      "fixture_sha256": "e8f5e99bb7ab70215a3f13a30edf2ac3d17276b953318cfa4ca9bfd3462e5738",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "39829ba544d6604f4eb21cd81088a71d1b7d6bfd961710565dbb4df4e0342cf1",
+      "ruby_count": 1,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "JA",
+      "fixture": "custom_current_mixed_payload.html",
+      "fixture_sha256": "4d625c396a925e487c2b6542b792588adce0a5e437c0353c0ebe0c126fd2dd08",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "996fc112f6c73cebba4a7a6b4432d32478ace13a0158f0458e95d659234c30ec",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "JA",
+      "fixture": "custom_current_mixed_payload.html",
+      "fixture_sha256": "4d625c396a925e487c2b6542b792588adce0a5e437c0353c0ebe0c126fd2dd08",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "33368845e9e9a1c602e0aa92d1ec610b908921b4da82f729aee24ccb2d7294ab",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "JA",
+      "fixture": "custom_legacy_annotation_payload.html",
+      "fixture_sha256": "70dd4426c212738d71bfeba428b55cddc28ffa0bd56d5ae2f580882e41bb24cf",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "7498ba9ab1a11bee441659a99a47120d5797d3a15b016f87473a59e0696fe7cd",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "JA",
+      "fixture": "custom_legacy_annotation_payload.html",
+      "fixture_sha256": "70dd4426c212738d71bfeba428b55cddc28ffa0bd56d5ae2f580882e41bb24cf",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "JA",
+      "fixture": "custom_legacy_kanji_payload.html",
+      "fixture_sha256": "e19d888a14b8826fdca3dff01dc20f2734f3bc3c77ccc9f6722a773aae387ebe",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 1,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "JA",
+      "fixture": "custom_legacy_kanji_payload.html",
+      "fixture_sha256": "e19d888a14b8826fdca3dff01dc20f2734f3bc3c77ccc9f6722a773aae387ebe",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "39829ba544d6604f4eb21cd81088a71d1b7d6bfd961710565dbb4df4e0342cf1",
+      "ruby_count": 1,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "JA",
+      "fixture": "custom_legacy_mixed_payload.html",
+      "fixture_sha256": "2c1106fe1df967aaf4a524fdedf3e5337eee1416c5e4f4bc01957ac810dc4337",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "996fc112f6c73cebba4a7a6b4432d32478ace13a0158f0458e95d659234c30ec",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "JA",
+      "fixture": "custom_legacy_mixed_payload.html",
+      "fixture_sha256": "2c1106fe1df967aaf4a524fdedf3e5337eee1416c5e4f4bc01957ac810dc4337",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "33368845e9e9a1c602e0aa92d1ec610b908921b4da82f729aee24ccb2d7294ab",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "ZH",
+      "fixture": "actual_current_kanji.html",
+      "fixture_sha256": "394189ef06fc7f053b2c5adc09d94454e872554615802095cb401879530dcd7c",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 1,
+      "assignment_edition": "current"
+    },
+    {
+      "language": "ZH",
+      "fixture": "actual_current_kanji.html",
+      "fixture_sha256": "394189ef06fc7f053b2c5adc09d94454e872554615802095cb401879530dcd7c",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "39829ba544d6604f4eb21cd81088a71d1b7d6bfd961710565dbb4df4e0342cf1",
+      "ruby_count": 1,
+      "assignment_edition": "current"
+    },
+    {
+      "language": "ZH",
+      "fixture": "actual_current_ruby.html",
+      "fixture_sha256": "9d371216724f1ef03064e1440697799572d2b6f14cbb4c0bc0d99b08913a06a8",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "96c20bad7e7875cde4e74c2ba6886812935935b4ab976abdc1c88634b16d5ba9",
+      "ruby_count": 2,
+      "assignment_edition": "current"
+    },
+    {
+      "language": "ZH",
+      "fixture": "actual_current_ruby.html",
+      "fixture_sha256": "9d371216724f1ef03064e1440697799572d2b6f14cbb4c0bc0d99b08913a06a8",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 2,
+      "assignment_edition": "current"
+    },
+    {
+      "language": "ZH",
+      "fixture": "actual_legacy_kanji.html",
+      "fixture_sha256": "1cd554f895d31108f9dd07a86c4b98b0d9d2731a2eb8f4593255e100c83336f5",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 1,
+      "assignment_edition": "legacy"
+    },
+    {
+      "language": "ZH",
+      "fixture": "actual_legacy_kanji.html",
+      "fixture_sha256": "1cd554f895d31108f9dd07a86c4b98b0d9d2731a2eb8f4593255e100c83336f5",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "8fb57828cd3ae89548e73b92c477dd1899592cc7e517b8b832ae875484d387ee",
+      "ruby_count": 1,
+      "assignment_edition": "legacy"
+    },
+    {
+      "language": "ZH",
+      "fixture": "actual_legacy_ruby.html",
+      "fixture_sha256": "58a99d3d6280d78931499253f9e83b1519dac650d6eb66cbb389b050bfc0cc87",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "96c20bad7e7875cde4e74c2ba6886812935935b4ab976abdc1c88634b16d5ba9",
+      "ruby_count": 2,
+      "assignment_edition": "legacy"
+    },
+    {
+      "language": "ZH",
+      "fixture": "actual_legacy_ruby.html",
+      "fixture_sha256": "58a99d3d6280d78931499253f9e83b1519dac650d6eb66cbb389b050bfc0cc87",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 2,
+      "assignment_edition": "legacy"
+    },
+    {
+      "language": "ZH",
+      "fixture": "custom_current_annotation_payload.html",
+      "fixture_sha256": "c65e1841d2fe342fe124b003644e33f505288e3a8fb7e28b76aa8eaa8ccd0d2a",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "7498ba9ab1a11bee441659a99a47120d5797d3a15b016f87473a59e0696fe7cd",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "ZH",
+      "fixture": "custom_current_annotation_payload.html",
+      "fixture_sha256": "c65e1841d2fe342fe124b003644e33f505288e3a8fb7e28b76aa8eaa8ccd0d2a",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "ZH",
+      "fixture": "custom_current_kanji_payload.html",
+      "fixture_sha256": "e8f5e99bb7ab70215a3f13a30edf2ac3d17276b953318cfa4ca9bfd3462e5738",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 1,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "ZH",
+      "fixture": "custom_current_kanji_payload.html",
+      "fixture_sha256": "e8f5e99bb7ab70215a3f13a30edf2ac3d17276b953318cfa4ca9bfd3462e5738",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "39829ba544d6604f4eb21cd81088a71d1b7d6bfd961710565dbb4df4e0342cf1",
+      "ruby_count": 1,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "ZH",
+      "fixture": "custom_current_mixed_payload.html",
+      "fixture_sha256": "4d625c396a925e487c2b6542b792588adce0a5e437c0353c0ebe0c126fd2dd08",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "996fc112f6c73cebba4a7a6b4432d32478ace13a0158f0458e95d659234c30ec",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "ZH",
+      "fixture": "custom_current_mixed_payload.html",
+      "fixture_sha256": "4d625c396a925e487c2b6542b792588adce0a5e437c0353c0ebe0c126fd2dd08",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "33368845e9e9a1c602e0aa92d1ec610b908921b4da82f729aee24ccb2d7294ab",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "ZH",
+      "fixture": "custom_legacy_annotation_payload.html",
+      "fixture_sha256": "70dd4426c212738d71bfeba428b55cddc28ffa0bd56d5ae2f580882e41bb24cf",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "7498ba9ab1a11bee441659a99a47120d5797d3a15b016f87473a59e0696fe7cd",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "ZH",
+      "fixture": "custom_legacy_annotation_payload.html",
+      "fixture_sha256": "70dd4426c212738d71bfeba428b55cddc28ffa0bd56d5ae2f580882e41bb24cf",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "ZH",
+      "fixture": "custom_legacy_kanji_payload.html",
+      "fixture_sha256": "e19d888a14b8826fdca3dff01dc20f2734f3bc3c77ccc9f6722a773aae387ebe",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "04ea9a316463fd8d4212e97a2dee1f33e3191c0a096be787d9f605882cf2a1fa",
+      "ruby_count": 1,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "ZH",
+      "fixture": "custom_legacy_kanji_payload.html",
+      "fixture_sha256": "e19d888a14b8826fdca3dff01dc20f2734f3bc3c77ccc9f6722a773aae387ebe",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "39829ba544d6604f4eb21cd81088a71d1b7d6bfd961710565dbb4df4e0342cf1",
+      "ruby_count": 1,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "ZH",
+      "fixture": "custom_legacy_mixed_payload.html",
+      "fixture_sha256": "2c1106fe1df967aaf4a524fdedf3e5337eee1416c5e4f4bc01957ac810dc4337",
+      "explicit_mode": "kanji",
+      "same_result": true,
+      "text_sha256": "996fc112f6c73cebba4a7a6b4432d32478ace13a0158f0458e95d659234c30ec",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    },
+    {
+      "language": "ZH",
+      "fixture": "custom_legacy_mixed_payload.html",
+      "fixture_sha256": "2c1106fe1df967aaf4a524fdedf3e5337eee1416c5e4f4bc01957ac810dc4337",
+      "explicit_mode": "annotation",
+      "same_result": true,
+      "text_sha256": "33368845e9e9a1c602e0aa92d1ec610b908921b4da82f729aee24ccb2d7294ab",
+      "ruby_count": 2,
+      "assignment_edition": "custom_json"
+    }
+  ],
+  "method": "Unmodified saved H19 fixtures from bundled current/legacy and custom kanji/annotation/mixed data, each run against baseline and final JA/ZH parsers in both explicit modes. Equality includes entire result dictionaries; this proves old-source behavior is retained, not that choosing the wrong mode for an unlabelled file is corrected."
+}

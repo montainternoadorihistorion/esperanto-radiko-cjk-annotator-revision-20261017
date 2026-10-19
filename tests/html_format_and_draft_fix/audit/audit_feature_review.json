@@ -1,0 +1,117 @@
+{
+  "passed": true,
+  "reviewed_tests": [
+    {
+      "path": "tests/test_manual_draft_import.py",
+      "sha256": "72014e72ae979bc4f4a95d48555a143dda4817a9765ca167e2615a9d34db9312"
+    },
+    {
+      "path": "tests/html_format_and_draft_fix/test_html_export_mode.py",
+      "sha256": "24d3ecbca904ae110f0330be94ecdf7ecba67a1c8a8faaf444c0af70015ce464"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/tests/test_html_ruby_mode_metadata.py",
+      "sha256": "9b2a386ce2e453fb57a188289a5271664042ccc9bbccb77f80a0817cddd66ece"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/tests/test_html_ruby_mode_ui.py",
+      "sha256": "6c58df274a9dbad194b3a886714cb1953ab8665e2a834020d0fae1f583fcca40"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/tests/test_html_ruby_mode_metadata.py",
+      "sha256": "9b2a386ce2e453fb57a188289a5271664042ccc9bbccb77f80a0817cddd66ece"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/tests/test_html_ruby_mode_ui.py",
+      "sha256": "6c58df274a9dbad194b3a886714cb1953ab8665e2a834020d0fae1f583fcca40"
+    }
+  ],
+  "manual_AppTest_cases": 90,
+  "manual_guard_tests": 10,
+  "manual_rows": [
+    {
+      "language": "JA",
+      "checks": 30,
+      "current_and_legacy": [
+        "current",
+        "legacy"
+      ],
+      "bundled_corrections_unchanged": true,
+      "report_sha256": "2057ce37bb9e820123cc89b12feaac133e214ce13c1e4d235d2c0c77ba512cd3",
+      "helper_sha256": "8d20eafc0ddf0d8a774d6f4085b025b20f486bccc8f80de2fb5aae5481814158"
+    },
+    {
+      "language": "ZH",
+      "checks": 30,
+      "current_and_legacy": [
+        "current",
+        "legacy"
+      ],
+      "bundled_corrections_unchanged": true,
+      "report_sha256": "f32551c632b1e34a14a9c268440e9343318d13053df53fbec7d1e085dd1e1ad5",
+      "helper_sha256": "8d20eafc0ddf0d8a774d6f4085b025b20f486bccc8f80de2fb5aae5481814158"
+    },
+    {
+      "language": "KO",
+      "checks": 30,
+      "current_and_legacy": [
+        "current",
+        "legacy"
+      ],
+      "bundled_corrections_unchanged": true,
+      "report_sha256": "4f03de569dbd0c119269e0d58ca21f7b962fc439b5d2d4ea7ef859fd55fea4d2",
+      "helper_sha256": "8d20eafc0ddf0d8a774d6f4085b025b20f486bccc8f80de2fb5aae5481814158"
+    }
+  ],
+  "forward_save_cases": 27,
+  "forward_rows": [
+    {
+      "language": "JA",
+      "standard_saves": 4,
+      "edited_saves": 4,
+      "custom_saves": 1,
+      "report_sha256": "defd8652c3591f45158ac987c71f29e77ff95d18a9ec2718870fba74914e555b"
+    },
+    {
+      "language": "ZH",
+      "standard_saves": 4,
+      "edited_saves": 4,
+      "custom_saves": 1,
+      "report_sha256": "c782fdfadc3ab4b8689060cf590c0e02891369c542b5394189417b7959779497"
+    },
+    {
+      "language": "KO",
+      "standard_saves": 4,
+      "edited_saves": 4,
+      "custom_saves": 1,
+      "report_sha256": "df2b385732b75c817f00612483d399823604ff55538669e8d4d5458ca1fb5f53"
+    }
+  ],
+  "inverse_new_tests_per_language": 33,
+  "review_findings": [
+    {
+      "finding": "New draft freshness initially did not cover the two placeholder files consumed by the diagnostic.",
+      "resolution": "New helper now hashes placeholders_skip.txt and placeholders_localcapture.txt; dedicated guard test covers both. Existing edition signature unchanged."
+    },
+    {
+      "finding": "Old probe_ruby widget default could silently reintroduce diagnostic text after page cleanup.",
+      "resolution": "Removed implicit default; explicit import plus retention of the actual existing draft only. New AppTests cover nonempty/whitespace drafts and page roundtrips."
+    },
+    {
+      "finding": "Existing forward state test expected old metadata-free save bytes.",
+      "resolution": "Test expectation updated for the intentionally added standard-export tag; final regression report records its rerun."
+    },
+    {
+      "finding": "New context-signature failures must not prevent the existing diagnostic rendering.",
+      "resolution": "Signature read failures clear the import candidate only; original diagnosis still runs. A dedicated guard covers the failure path."
+    }
+  ],
+  "reviewed_behavior": [
+    "Only unchanged bundled standard HTML gets a saved-copy format tag; editable result remains untagged.",
+    "Edited output and custom JSON keep prior explicit-direction behavior; no automatic direction inference.",
+    "Old HTML retains all result fields and extraction rules; new explicit invalid/mismatched records block stale downloadable results while keeping input.",
+    "Empty manual draft is imported only by button; normalized single-word equality, data/correction/edition freshness and callback recheck guard it.",
+    "Import changes session draft only; saving a correction remains separate; existing nonempty and whitespace drafts remain unchanged."
+  ],
+  "execution_attribution": "New manual and generated-HTML AppTests were executed by their implementation owners; this independent auditor reviewed test source and verified the saved passing reports/current helper hashes. Complete inverse suites, old-parser comparisons, bundled/raw actual engine checks, existing forward regression and source invariants are independently executed in the separate audit reports."
+}
