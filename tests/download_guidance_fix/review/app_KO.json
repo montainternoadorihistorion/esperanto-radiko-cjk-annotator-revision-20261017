@@ -1,0 +1,697 @@
+{
+  "passed": true,
+  "language": "KO",
+  "source_commit": "fe1e11218f125218189d1dea6e45e7afbf4cb15e",
+  "rows": [
+    {
+      "edition": "current",
+      "source_url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/fe1e11218f125218189d1dea6e45e7afbf4cb15e",
+      "zip_url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/fe1e11218f125218189d1dea6e45e7afbf4cb15e.zip",
+      "large_assets": [
+        {
+          "role": "kanji",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+          "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
+          "git_blob": "321f5047abdf67b7471d56f538744206b1b1cdcb",
+          "sha256": "ace688d35d01096350bea0af49d33139e5645b58222dde507aea0b639f9735fc"
+        },
+        {
+          "role": "pure",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+          "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
+          "git_blob": "35d903f6516cc40799449a9b03fb603ddf8a640e",
+          "sha256": "108c0ff48dd6dd7363bba9f1b07eb15f6b69738afa0628590e5e0c8fd9986883"
+        },
+        {
+          "role": "ruby",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+          "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_ルビ.json",
+          "git_blob": "cdcfdbd907e7bb42ec37d2254fec2aee9f0decec",
+          "sha256": "1a5a36d92494308458e40ec41f16c44de8d02d7e6b7eb2c2bfe5ebcd10157e8c"
+        }
+      ],
+      "small_downloads": [
+        {
+          "label": "한자 배정 CSV",
+          "filename": "kanji_assignments_current_6aebea3027d8.csv",
+          "bytes": 161686,
+          "sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede",
+          "matches_original_asset": true
+        },
+        {
+          "label": "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+          "filename": "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+          "bytes": 299481,
+          "sha256": "5a868c02499ae7447710dac0d894542aacb2303cec125cc53978d280f5e172ab",
+          "matches_original_asset": true
+        },
+        {
+          "label": "分解設定.json",
+          "filename": "分解設定.json",
+          "bytes": 430051,
+          "sha256": "832db421a8a1fbc5cbd5fb9d14bb6609f2e61ee5e852e8d36501bf8ab71a1782",
+          "matches_original_asset": true
+        },
+        {
+          "label": "word_anno.json",
+          "filename": "word_anno.json",
+          "bytes": 2729774,
+          "sha256": "544b2998afb59b9da6d907b17afe69a616005a235383dd0473a8038b755e64ef",
+          "matches_original_asset": true
+        },
+        {
+          "label": "E_stem.json",
+          "filename": "E_stem.json",
+          "bytes": 2626958,
+          "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5",
+          "matches_original_asset": true
+        },
+        {
+          "label": "앱에 내장된 승인 보정（현재 세션의 변경 제외） · user_corrections.json",
+          "filename": "user_corrections.json",
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "matches_original_asset": true
+        }
+      ],
+      "manual_backup": {
+        "label": "⬇ 현재 적용 중인 수동 보정 백업（user_corrections.json）",
+        "filename": "user_corrections_current_6aebea3027d8.json",
+        "sha256": "6c49cefb66636f7359dd7a4b670c4187e762af96f3fdffd8b2544b46b7be7d05",
+        "bytes": 2390,
+        "content": [
+          {
+            "word": "semajno",
+            "decomp": "semajn/o",
+            "ruby": [
+              [
+                "semajno",
+                "<ruby>semajn<rt class=\"XXL_L\">주간</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>SEMAJN<rt class=\"XXL_L\">주간</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>Semajn<rt class=\"XXL_L\">주간</rt></ruby>o"
+              ]
+            ],
+            "kanji": [
+              [
+                "semajno",
+                "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o"
+              ]
+            ],
+            "assignment_edition": "current",
+            "assignment_signature": "182603f26087284b66258e7809454df1a34f8122dd581b94fc178ee4fba00a81"
+          },
+          {
+            "word": "greganta",
+            "decomp": "greg/ant/a",
+            "ruby": [
+              [
+                "greganta",
+                "<ruby>greg<rt class=\"XXL_L\">무리</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>GREG<rt class=\"XXL_L\">무리</rt></ruby><ruby>ANT<rt class=\"XS_S\">~는 중인</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>Greg<rt class=\"XXL_L\">무리</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a"
+              ]
+            ],
+            "kanji": [
+              [
+                "greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>群ᴳ<rt class=\"L_L\">GREG</rt></ruby><ruby>在<rt class=\"L_L\">ANT</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">Greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ]
+            ],
+            "assignment_edition": "current",
+            "assignment_signature": "182603f26087284b66258e7809454df1a34f8122dd581b94fc178ee4fba00a81"
+          },
+          {
+            "word": "lasis",
+            "decomp": "las/i/s",
+            "ruby": [
+              [
+                "lasis",
+                "<ruby>las<rt class=\"S_S\">놔두다</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>LAS<rt class=\"S_S\">놔두다</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>Las<rt class=\"S_S\">놔두다</rt></ruby>is"
+              ]
+            ],
+            "kanji": [
+              [
+                "lasis",
+                "<ruby>放<rt class=\"XL_L\">las</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>放<rt class=\"XL_L\">LAS</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>放<rt class=\"XL_L\">Las</rt></ruby>is"
+              ]
+            ],
+            "assignment_edition": "current",
+            "assignment_signature": "182603f26087284b66258e7809454df1a34f8122dd581b94fc178ee4fba00a81"
+          }
+        ],
+        "selected_edition": "current"
+      },
+      "alternate_edition_backup": {
+        "label": "⬇ 현재 적용 중인 수동 보정 백업（user_corrections.json）",
+        "filename": "user_corrections_legacy_e342758d0b9c.json",
+        "sha256": "5176c646f9cf42fc3e792a7a554511c82387f0f84e3b683a8ac5804a785b2b1a",
+        "bytes": 2387,
+        "content": [
+          {
+            "word": "semajno",
+            "decomp": "semajn/o",
+            "ruby": [
+              [
+                "semajno",
+                "<ruby>semajn<rt class=\"XXL_L\">주간</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>SEMAJN<rt class=\"XXL_L\">주간</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>Semajn<rt class=\"XXL_L\">주간</rt></ruby>o"
+              ]
+            ],
+            "kanji": [
+              [
+                "semajno",
+                "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o"
+              ]
+            ],
+            "assignment_edition": "legacy",
+            "assignment_signature": "b4361429514a7fa6b396760504a93c0ccee1e395486a2a92b212b51131e15467"
+          },
+          {
+            "word": "greganta",
+            "decomp": "greg/ant/a",
+            "ruby": [
+              [
+                "greganta",
+                "<ruby>greg<rt class=\"XXL_L\">무리</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>GREG<rt class=\"XXL_L\">무리</rt></ruby><ruby>ANT<rt class=\"XS_S\">~는 중인</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>Greg<rt class=\"XXL_L\">무리</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a"
+              ]
+            ],
+            "kanji": [
+              [
+                "greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>群ᴳ<rt class=\"L_L\">GREG</rt></ruby><ruby>在<rt class=\"L_L\">ANT</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">Greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ]
+            ],
+            "assignment_edition": "legacy",
+            "assignment_signature": "b4361429514a7fa6b396760504a93c0ccee1e395486a2a92b212b51131e15467"
+          },
+          {
+            "word": "lasis",
+            "decomp": "las/i/s",
+            "ruby": [
+              [
+                "lasis",
+                "<ruby>las<rt class=\"S_S\">놔두다</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>LAS<rt class=\"S_S\">놔두다</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>Las<rt class=\"S_S\">놔두다</rt></ruby>is"
+              ]
+            ],
+            "kanji": [
+              [
+                "lasis",
+                "<ruby>留<rt class=\"XL_L\">las</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>留<rt class=\"XL_L\">LAS</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>留<rt class=\"XL_L\">Las</rt></ruby>is"
+              ]
+            ],
+            "assignment_edition": "legacy",
+            "assignment_signature": "b4361429514a7fa6b396760504a93c0ccee1e395486a2a92b212b51131e15467"
+          }
+        ],
+        "selected_edition": "legacy"
+      },
+      "session_import_preserved": true,
+      "new_entry_preserved": true,
+      "edited_entry_preserved": true,
+      "draft_retained_across_edition_switch": true,
+      "bundled_baseline_excludes_session": true,
+      "manual_page_navigation": [
+        {
+          "page": "pages/2_📦_최신 데이터 다운로드.py",
+          "label": "재현에 필요한 앱 소스 코드·데이터 저장 방법 보기"
+        }
+      ],
+      "data_page_navigation": [
+        {
+          "page": "pages/1_🔧_어근 분해 수동 보정.py",
+          "label": "현재 적용 중인 수동 보정 확인·백업"
+        }
+      ],
+      "manual_visible_text": [
+        "1. **단어**를 입력하고 「현재 분해 보기」를 누르면, 앱이 지금 어떻게 분해하는지 확인할 수 있습니다.\n2. 분해가 잘못되었으면 `어근/어근/어미` 형식(슬래시 구분)으로 **올바른 분해**를 입력합니다.\n   - 예: `sporti` 가 `s/port/i` 로 잘못 분해됨 → 올바르게는 `sport/i`\n   - 슬래시를 제거한 문자열이 원래 단어와 일치해야 합니다.\n   - cx 표기(`c^`, `sx` 등)나 대문자가 섞여 있어도 됩니다(자동으로 곡절 문자와 소문자로 변환됩니다).\n3. 「**이 보정 저장**」을 누르면, 루비·한자 두 모드에 즉시 반영됩니다\n   (치환용 JSON 재생성 불필요).\n4. 저장한 보정은 아래 목록에서 언제든지 삭제할 수 있습니다.\n\n※ 각 어근의 번역/한자는 앱에 내장된 어근 사전(CSV)에 등록된 것이 사용됩니다.\n사전에 없는 어근이나 문법 어미(i, o, a, e, n …)는 번역 없이 그대로 표시됩니다.",
+        "**semajno**",
+        "→ `semajn/o`",
+        "**greganta**",
+        "→ `greg/ant/a`",
+        "**lasis**",
+        "→ `las/i/s`",
+        "보관 중인 `user_corrections.json` 의 **읽기 입구는 2곳**이며, 어느 쪽이든 동일하게 적용됩니다:\n\n| 읽기 입구 | 적합한 용도 |\n|---|---|\n| **메인 페이지(변환)의 「📂 수동 보정 파일 불러오기」** | 변환만 하고 싶을 때(최단·추천) |\n| **이 페이지(여기)** | 불러온 보정의 **목록 확인·개별 삭제·재다운로드** 등 관리할 때 |\n\n- **Streamlit Cloud 에서는 보정이 세션 종료 시 사라집니다**. 다운로드해 보관하고 다음에 위 두 곳\n  중 한 곳에서 불러오세요(관리자에게 보내 commit 되면 모두를 위한 베이스라인으로 영구화됩니다).\n- 불러올 때 각 어근의 번역/한자는 **이 앱의 사전으로 다시 생성**하므로, 일본어판에서 만든\n  보정을 중문판・한국어판으로 그대로 이식할 수 있습니다(분해 방식만 활용).",
+        "구판은 이번 검토 전의 배정으로 고정되며 신판은 계속 갱신됩니다. 두 판은 최신 주석을 공유합니다。",
+        "슬래시 제거 후 단어: `lasis`",
+        "이 목록과 백업은 내장 보정에 현재 세션의 추가·불러오기·삭제를 반영한 현재 유효한 수동 보정입니다. 앱의 자동 보정이나 @ 전용 처리는 포함하지 않습니다. 같은 결과를 재현하려면 해당 버전의 소스 코드·데이터와 같은 설정도 필요합니다.",
+        "3건의 보정이 적용 중입니다(메인 페이지(변환)에 자동 적용)."
+      ],
+      "data_visible_text": [
+        "한자화 데이터는 선택한 판을 사용하며 주석은 두 판이 최신 데이터를 공유합니다. 구판의 .gz 파일은 압축 해제 후 일반 JSON으로 사용할 수 있습니다.",
+        "이 페이지의 JSON은 치환표 원본입니다. @ 전용 보정과 자동 보정 등 앱에서 수행하는 모든 처리가 포함되어 있지는 않습니다. 다른 프로그램에서 JSON만 사용하면 결과가 달라질 수 있습니다.",
+        "같은 결과를 재현하려면 **해당 버전의 소스 코드와 데이터**를 보관하고 **언어판·입력 원문·신판/구판 선택·변환 모드·문자 표기 등의 설정**을 맞춰 주세요. 수동 보정을 추가하거나 불러와 사용했다면, 아래 수동 보정 페이지에서 **현재 적용 중인 보정의 백업**도 저장해 주세요.",
+        "[이 버전의 앱 소스 코드 보기](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/fe1e11218f125218189d1dea6e45e7afbf4cb15e) · [이 버전의 전체 소스 코드 저장（ZIP）](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/fe1e11218f125218189d1dea6e45e7afbf4cb15e.zip)",
+        "- [한자＋어근 루비 (57.38 MB)](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json)",
+        "- [한자화·순수 치환 (21.52 MB)](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json)",
+        "- [주석 루비（공통·최신） (71.84 MB)](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json)",
+        "[구판 고정 데이터 및 검증 정보](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/assignment_editions/legacy/manifest.json)",
+        "구판은 이번 검토 전의 배정으로 고정되며 신판은 계속 갱신됩니다. 두 판은 최신 주석을 공유합니다。",
+        "선택한 판: 신판（갱신 중） · 6aebea3027d8",
+        "구판에서 고정되는 것은 한자 배정입니다. 확인된 프로그램 오류 수정은 구판에도 적용되므로, 구판 JSON만으로 당시 앱 전체를 재현할 수는 없습니다.",
+        "신판/구판 선택은 사용자 JSON 자체에 적용되지 않으며, 앱 내장 데이터 전용 보정도 적용되지 않습니다. 자동 어근 보정에는 공통 최신 주석을 사용합니다.",
+        "현재 앱 소스 코드 및 선택한 데이터와 일치하는 공개 버전: fe1e11218f12",
+        "아래 user_corrections.json은 앱에 내장된 승인 보정입니다. 현재 세션에서 추가·불러오기·삭제한 결과는 포함하지 않습니다. 재현에 사용할 현재 수동 보정은 수동 보정 페이지에서 저장해 주세요."
+      ]
+    },
+    {
+      "edition": "legacy",
+      "source_url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/fe1e11218f125218189d1dea6e45e7afbf4cb15e",
+      "zip_url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/fe1e11218f125218189d1dea6e45e7afbf4cb15e.zip",
+      "large_assets": [
+        {
+          "role": "kanji",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/assignment_editions/legacy/KO/kanji.json.gz",
+          "path": "assignment_editions/legacy/KO/kanji.json.gz",
+          "git_blob": "8114c960a4d946153dbb456bd630483de0462674",
+          "sha256": "8005ecf215185aa8fe9b8f482305f9fb1ec17aaf0d1c9c4fbbbb7928ef97508c"
+        },
+        {
+          "role": "pure",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/assignment_editions/legacy/JA/pure.json.gz",
+          "path": "assignment_editions/legacy/JA/pure.json.gz",
+          "git_blob": "b861f672618901aacfe5aa2f727dba7a3aa4bb9b",
+          "sha256": "3ef2efd50fbb13a834f7421c3e85bd406d2926dd304028b19e1de3264ec3fb40"
+        },
+        {
+          "role": "ruby",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+          "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_ルビ.json",
+          "git_blob": "cdcfdbd907e7bb42ec37d2254fec2aee9f0decec",
+          "sha256": "1a5a36d92494308458e40ec41f16c44de8d02d7e6b7eb2c2bfe5ebcd10157e8c"
+        }
+      ],
+      "small_downloads": [
+        {
+          "label": "한자 배정 CSV",
+          "filename": "kanji_assignments_legacy_e342758d0b9c.csv",
+          "bytes": 152831,
+          "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+          "matches_original_asset": true
+        },
+        {
+          "label": "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+          "filename": "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+          "bytes": 299481,
+          "sha256": "5a868c02499ae7447710dac0d894542aacb2303cec125cc53978d280f5e172ab",
+          "matches_original_asset": true
+        },
+        {
+          "label": "分解設定.json",
+          "filename": "分解設定.json",
+          "bytes": 430051,
+          "sha256": "832db421a8a1fbc5cbd5fb9d14bb6609f2e61ee5e852e8d36501bf8ab71a1782",
+          "matches_original_asset": true
+        },
+        {
+          "label": "word_anno.json",
+          "filename": "word_anno.json",
+          "bytes": 2729774,
+          "sha256": "544b2998afb59b9da6d907b17afe69a616005a235383dd0473a8038b755e64ef",
+          "matches_original_asset": true
+        },
+        {
+          "label": "E_stem.json",
+          "filename": "E_stem.json",
+          "bytes": 2626958,
+          "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5",
+          "matches_original_asset": true
+        },
+        {
+          "label": "앱에 내장된 승인 보정（현재 세션의 변경 제외） · user_corrections.json",
+          "filename": "user_corrections.json",
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "matches_original_asset": true
+        }
+      ],
+      "manual_backup": {
+        "label": "⬇ 현재 적용 중인 수동 보정 백업（user_corrections.json）",
+        "filename": "user_corrections_legacy_e342758d0b9c.json",
+        "sha256": "5176c646f9cf42fc3e792a7a554511c82387f0f84e3b683a8ac5804a785b2b1a",
+        "bytes": 2387,
+        "content": [
+          {
+            "word": "semajno",
+            "decomp": "semajn/o",
+            "ruby": [
+              [
+                "semajno",
+                "<ruby>semajn<rt class=\"XXL_L\">주간</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>SEMAJN<rt class=\"XXL_L\">주간</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>Semajn<rt class=\"XXL_L\">주간</rt></ruby>o"
+              ]
+            ],
+            "kanji": [
+              [
+                "semajno",
+                "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o"
+              ]
+            ],
+            "assignment_edition": "legacy",
+            "assignment_signature": "b4361429514a7fa6b396760504a93c0ccee1e395486a2a92b212b51131e15467"
+          },
+          {
+            "word": "greganta",
+            "decomp": "greg/ant/a",
+            "ruby": [
+              [
+                "greganta",
+                "<ruby>greg<rt class=\"XXL_L\">무리</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>GREG<rt class=\"XXL_L\">무리</rt></ruby><ruby>ANT<rt class=\"XS_S\">~는 중인</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>Greg<rt class=\"XXL_L\">무리</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a"
+              ]
+            ],
+            "kanji": [
+              [
+                "greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>群ᴳ<rt class=\"L_L\">GREG</rt></ruby><ruby>在<rt class=\"L_L\">ANT</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">Greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ]
+            ],
+            "assignment_edition": "legacy",
+            "assignment_signature": "b4361429514a7fa6b396760504a93c0ccee1e395486a2a92b212b51131e15467"
+          },
+          {
+            "word": "lasis",
+            "decomp": "las/i/s",
+            "ruby": [
+              [
+                "lasis",
+                "<ruby>las<rt class=\"S_S\">놔두다</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>LAS<rt class=\"S_S\">놔두다</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>Las<rt class=\"S_S\">놔두다</rt></ruby>is"
+              ]
+            ],
+            "kanji": [
+              [
+                "lasis",
+                "<ruby>留<rt class=\"XL_L\">las</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>留<rt class=\"XL_L\">LAS</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>留<rt class=\"XL_L\">Las</rt></ruby>is"
+              ]
+            ],
+            "assignment_edition": "legacy",
+            "assignment_signature": "b4361429514a7fa6b396760504a93c0ccee1e395486a2a92b212b51131e15467"
+          }
+        ],
+        "selected_edition": "legacy"
+      },
+      "alternate_edition_backup": {
+        "label": "⬇ 현재 적용 중인 수동 보정 백업（user_corrections.json）",
+        "filename": "user_corrections_current_6aebea3027d8.json",
+        "sha256": "6c49cefb66636f7359dd7a4b670c4187e762af96f3fdffd8b2544b46b7be7d05",
+        "bytes": 2390,
+        "content": [
+          {
+            "word": "semajno",
+            "decomp": "semajn/o",
+            "ruby": [
+              [
+                "semajno",
+                "<ruby>semajn<rt class=\"XXL_L\">주간</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>SEMAJN<rt class=\"XXL_L\">주간</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>Semajn<rt class=\"XXL_L\">주간</rt></ruby>o"
+              ]
+            ],
+            "kanji": [
+              [
+                "semajno",
+                "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o"
+              ]
+            ],
+            "assignment_edition": "current",
+            "assignment_signature": "182603f26087284b66258e7809454df1a34f8122dd581b94fc178ee4fba00a81"
+          },
+          {
+            "word": "greganta",
+            "decomp": "greg/ant/a",
+            "ruby": [
+              [
+                "greganta",
+                "<ruby>greg<rt class=\"XXL_L\">무리</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>GREG<rt class=\"XXL_L\">무리</rt></ruby><ruby>ANT<rt class=\"XS_S\">~는 중인</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>Greg<rt class=\"XXL_L\">무리</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a"
+              ]
+            ],
+            "kanji": [
+              [
+                "greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>群ᴳ<rt class=\"L_L\">GREG</rt></ruby><ruby>在<rt class=\"L_L\">ANT</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">Greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ]
+            ],
+            "assignment_edition": "current",
+            "assignment_signature": "182603f26087284b66258e7809454df1a34f8122dd581b94fc178ee4fba00a81"
+          },
+          {
+            "word": "lasis",
+            "decomp": "las/i/s",
+            "ruby": [
+              [
+                "lasis",
+                "<ruby>las<rt class=\"S_S\">놔두다</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>LAS<rt class=\"S_S\">놔두다</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>Las<rt class=\"S_S\">놔두다</rt></ruby>is"
+              ]
+            ],
+            "kanji": [
+              [
+                "lasis",
+                "<ruby>放<rt class=\"XL_L\">las</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>放<rt class=\"XL_L\">LAS</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>放<rt class=\"XL_L\">Las</rt></ruby>is"
+              ]
+            ],
+            "assignment_edition": "current",
+            "assignment_signature": "182603f26087284b66258e7809454df1a34f8122dd581b94fc178ee4fba00a81"
+          }
+        ],
+        "selected_edition": "current"
+      },
+      "session_import_preserved": true,
+      "new_entry_preserved": true,
+      "edited_entry_preserved": true,
+      "draft_retained_across_edition_switch": true,
+      "bundled_baseline_excludes_session": true,
+      "manual_page_navigation": [
+        {
+          "page": "pages/2_📦_최신 데이터 다운로드.py",
+          "label": "재현에 필요한 앱 소스 코드·데이터 저장 방법 보기"
+        }
+      ],
+      "data_page_navigation": [
+        {
+          "page": "pages/1_🔧_어근 분해 수동 보정.py",
+          "label": "현재 적용 중인 수동 보정 확인·백업"
+        }
+      ],
+      "manual_visible_text": [
+        "1. **단어**를 입력하고 「현재 분해 보기」를 누르면, 앱이 지금 어떻게 분해하는지 확인할 수 있습니다.\n2. 분해가 잘못되었으면 `어근/어근/어미` 형식(슬래시 구분)으로 **올바른 분해**를 입력합니다.\n   - 예: `sporti` 가 `s/port/i` 로 잘못 분해됨 → 올바르게는 `sport/i`\n   - 슬래시를 제거한 문자열이 원래 단어와 일치해야 합니다.\n   - cx 표기(`c^`, `sx` 등)나 대문자가 섞여 있어도 됩니다(자동으로 곡절 문자와 소문자로 변환됩니다).\n3. 「**이 보정 저장**」을 누르면, 루비·한자 두 모드에 즉시 반영됩니다\n   (치환용 JSON 재생성 불필요).\n4. 저장한 보정은 아래 목록에서 언제든지 삭제할 수 있습니다.\n\n※ 각 어근의 번역/한자는 앱에 내장된 어근 사전(CSV)에 등록된 것이 사용됩니다.\n사전에 없는 어근이나 문법 어미(i, o, a, e, n …)는 번역 없이 그대로 표시됩니다.",
+        "**semajno**",
+        "→ `semajn/o`",
+        "**greganta**",
+        "→ `greg/ant/a`",
+        "**lasis**",
+        "→ `las/i/s`",
+        "보관 중인 `user_corrections.json` 의 **읽기 입구는 2곳**이며, 어느 쪽이든 동일하게 적용됩니다:\n\n| 읽기 입구 | 적합한 용도 |\n|---|---|\n| **메인 페이지(변환)의 「📂 수동 보정 파일 불러오기」** | 변환만 하고 싶을 때(최단·추천) |\n| **이 페이지(여기)** | 불러온 보정의 **목록 확인·개별 삭제·재다운로드** 등 관리할 때 |\n\n- **Streamlit Cloud 에서는 보정이 세션 종료 시 사라집니다**. 다운로드해 보관하고 다음에 위 두 곳\n  중 한 곳에서 불러오세요(관리자에게 보내 commit 되면 모두를 위한 베이스라인으로 영구화됩니다).\n- 불러올 때 각 어근의 번역/한자는 **이 앱의 사전으로 다시 생성**하므로, 일본어판에서 만든\n  보정을 중문판・한국어판으로 그대로 이식할 수 있습니다(분해 방식만 활용).",
+        "구판은 이번 검토 전의 배정으로 고정되며 신판은 계속 갱신됩니다. 두 판은 최신 주석을 공유합니다。",
+        "슬래시 제거 후 단어: `lasis`",
+        "이 목록과 백업은 내장 보정에 현재 세션의 추가·불러오기·삭제를 반영한 현재 유효한 수동 보정입니다. 앱의 자동 보정이나 @ 전용 처리는 포함하지 않습니다. 같은 결과를 재현하려면 해당 버전의 소스 코드·데이터와 같은 설정도 필요합니다.",
+        "3건의 보정이 적용 중입니다(메인 페이지(변환)에 자동 적용)."
+      ],
+      "data_visible_text": [
+        "한자화 데이터는 선택한 판을 사용하며 주석은 두 판이 최신 데이터를 공유합니다. 구판의 .gz 파일은 압축 해제 후 일반 JSON으로 사용할 수 있습니다.",
+        "이 페이지의 JSON은 치환표 원본입니다. @ 전용 보정과 자동 보정 등 앱에서 수행하는 모든 처리가 포함되어 있지는 않습니다. 다른 프로그램에서 JSON만 사용하면 결과가 달라질 수 있습니다.",
+        "같은 결과를 재현하려면 **해당 버전의 소스 코드와 데이터**를 보관하고 **언어판·입력 원문·신판/구판 선택·변환 모드·문자 표기 등의 설정**을 맞춰 주세요. 수동 보정을 추가하거나 불러와 사용했다면, 아래 수동 보정 페이지에서 **현재 적용 중인 보정의 백업**도 저장해 주세요.",
+        "[이 버전의 앱 소스 코드 보기](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/fe1e11218f125218189d1dea6e45e7afbf4cb15e) · [이 버전의 전체 소스 코드 저장（ZIP）](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/fe1e11218f125218189d1dea6e45e7afbf4cb15e.zip)",
+        "- [한자＋어근 루비 (6.39 MB)](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/assignment_editions/legacy/KO/kanji.json.gz)",
+        "- [한자화·순수 치환 (4.17 MB)](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/assignment_editions/legacy/JA/pure.json.gz)",
+        "- [주석 루비（공통·최신） (71.84 MB)](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json)",
+        "[구판 고정 데이터 및 검증 정보](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/assignment_editions/legacy/manifest.json)",
+        "구판은 이번 검토 전의 배정으로 고정되며 신판은 계속 갱신됩니다. 두 판은 최신 주석을 공유합니다。",
+        "선택한 판: 구판（고정） · e342758d0b9c",
+        "구판에서 고정되는 것은 한자 배정입니다. 확인된 프로그램 오류 수정은 구판에도 적용되므로, 구판 JSON만으로 당시 앱 전체를 재현할 수는 없습니다.",
+        "신판/구판 선택은 사용자 JSON 자체에 적용되지 않으며, 앱 내장 데이터 전용 보정도 적용되지 않습니다. 자동 어근 보정에는 공통 최신 주석을 사용합니다.",
+        "현재 앱 소스 코드 및 선택한 데이터와 일치하는 공개 버전: fe1e11218f12",
+        "아래 user_corrections.json은 앱에 내장된 승인 보정입니다. 현재 세션에서 추가·불러오기·삭제한 결과는 포함하지 않습니다. 재현에 사용할 현재 수동 보정은 수동 보정 페이지에서 저장해 주세요."
+      ]
+    }
+  ],
+  "source_hashes": {
+    "Esperanto-Kanji-Ruby-KO/pages/1_🔧_어근 분해 수동 보정.py": "16fb1a12e03634634e3fcd08d95eb4658923077b11f523563c1108a0dad151a6",
+    "Esperanto-Kanji-Ruby-KO/pages/2_📦_최신 데이터 다운로드.py": "c0919af12d578f9bdb1ec7084ae8adc7155453e73187a467eb654bbb68b53e4c",
+    "Esperanto-Kanji-Ruby-KO/main.py": "8bc64ae13d91327c9623147837d51e2c580cd07d5c4029d2f5d8515b6932d09e",
+    "Esperanto-Kanji-Ruby-KO/esp_assignment_edition.py": "ff0b12bf9edc866f1a97184ffca514808657beb68e3c326d9483d544a9f1a298"
+  },
+  "application_and_baseline_unchanged": true,
+  "method": "Actual local Streamlit AppTest pages; upload/download transport and navigation-call recording only are instrumented. Import two decompositions with stale glyph data, add a third and edit an existing decomposition through real buttons, preserve them across edition changes and data-page session transfer. Every small download payload compared byte for byte to selected asset; large URLs verified against selected paths and committed blobs; source and ZIP URLs must match the same committed source. No Cloud claim."
+}

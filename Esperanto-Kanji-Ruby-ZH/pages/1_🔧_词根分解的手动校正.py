@@ -6,7 +6,7 @@
 (例: sport/i)即可即时修正。无需重新生成 50MB 的替换用 JSON 文件。
 
 机制(轻量 overlay):
-  - 此处保存的校正会累积到 app_data/user_corrections.json。
+  - 此处保存的校正仅保留在当前浏览器会话；app_data/user_corrections.json 是只读的内置基线。
   - 主页面(转换)启动时读取该文件,并在注音(ruby)与汉字两种模式下以最高优先级应用。
   - 校正只对「该单词本身」生效(固定形),不会破坏共享子字符串的其他单词(如 sportisto)。
 """
@@ -35,6 +35,7 @@ st.set_page_config(page_title="词根分解的手动校正", page_icon="🔧", l
 st.title("词根分解的手动校正 (在 GUI 上轻松修正)")
 assignment_edition = editions.select_edition(DATA_DIR)
 KANJI_JSON = str(editions.resolve_path(DATA_DIR, "kanji", assignment_edition))
+st.page_link('pages/2_📦_最新数据下载.py', label='查看如何保存重现结果所需的应用源代码及数据', icon="📦")
 
 
 with st.expander("使用方法", expanded=True):
@@ -159,6 +160,7 @@ if decomp_in:
 
 # ============ 3) 已保存的校正列表 ============
 st.header("3. 已保存的校正列表")
+st.caption('此列表及备份包含内置校正，并反映本次会话中的添加、导入和删除，表示当前生效的手动校正；不包含应用的自动校正或@专用处理。要重现相同结果，还需对应版本的源代码、数据及相同设置。')
 cors = ov.load_corrections(DATA)
 if not cors:
     st.info("目前还没有校正。")
@@ -173,7 +175,7 @@ else:
             st.rerun()
 
     st.download_button(
-        "⬇ 下载校正列表(user_corrections.json)",
+        "⬇ 备份当前生效的手动校正（user_corrections.json）",
         data=json.dumps([dict(ov.build_correction(c["decomp"], DATA, assignment_edition),
                              assignment_edition=assignment_edition,
                              assignment_signature=editions.edition_signature(DATA_DIR, assignment_edition))

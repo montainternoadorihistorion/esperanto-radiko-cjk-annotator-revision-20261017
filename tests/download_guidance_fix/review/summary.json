@@ -1,0 +1,228 @@
+{
+  "passed": true,
+  "base_commit": "15f9b8aef376109fb0c064d9f4a052f35a58fc52",
+  "source_commit": "fe1e11218f125218189d1dea6e45e7afbf4cb15e",
+  "issues": [],
+  "changed_files": [
+    "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py",
+    "Esperanto-Kanji-Ruby-JA/pages/2_📦_最新データのダウンロード.py",
+    "Esperanto-Kanji-Ruby-KO/pages/1_🔧_어근 분해 수동 보정.py",
+    "Esperanto-Kanji-Ruby-KO/pages/2_📦_최신 데이터 다운로드.py",
+    "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py",
+    "Esperanto-Kanji-Ruby-ZH/pages/2_📦_最新数据下载.py",
+    "tests/download_guidance_fix/decision.md"
+  ],
+  "source_review": [
+    {
+      "language": "JA",
+      "download_data_and_filename_expressions_unchanged": true,
+      "manual_functions_unchanged": true,
+      "visible_localized_guidance_verified": true,
+      "fixed_source_guard_paths": [
+        {
+          "edition": "current",
+          "count": 22,
+          "paths": [
+            "Esperanto-Kanji-Ruby-JA/app_data/char_widths.json",
+            "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
+            "Esperanto-Kanji-Ruby-JA/app_data/placeholders_localcapture.txt",
+            "Esperanto-Kanji-Ruby-JA/app_data/placeholders_skip.txt",
+            "Esperanto-Kanji-Ruby-JA/app_data/user_corrections.json",
+            "Esperanto-Kanji-Ruby-JA/app_data/word_anno.json",
+            "Esperanto-Kanji-Ruby-JA/app_data/エスペラント語根-日本語訳ルビ対応リスト.csv",
+            "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+            "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
+            "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_ルビ.json",
+            "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
+            "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
+            "Esperanto-Kanji-Ruby-JA/esp_assignment_edition.py",
+            "Esperanto-Kanji-Ruby-JA/esp_input_state.py",
+            "Esperanto-Kanji-Ruby-JA/esp_overlay_module.py",
+            "Esperanto-Kanji-Ruby-JA/esp_replacement_json_make_module.py",
+            "Esperanto-Kanji-Ruby-JA/esp_text_replacement_module.py",
+            "Esperanto-Kanji-Ruby-JA/main.py",
+            "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py",
+            "Esperanto-Kanji-Ruby-JA/pages/2_📦_最新データのダウンロード.py",
+            "Esperanto-Kanji-Ruby-JA/requirements.txt",
+            "requirements.txt"
+          ]
+        },
+        {
+          "edition": "legacy",
+          "count": 22,
+          "paths": [
+            "assignment_editions/legacy/JA/kanji.csv",
+            "assignment_editions/legacy/JA/kanji.json.gz",
+            "assignment_editions/legacy/JA/pure.json.gz",
+            "Esperanto-Kanji-Ruby-JA/app_data/char_widths.json",
+            "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
+            "Esperanto-Kanji-Ruby-JA/app_data/placeholders_localcapture.txt",
+            "Esperanto-Kanji-Ruby-JA/app_data/placeholders_skip.txt",
+            "Esperanto-Kanji-Ruby-JA/app_data/user_corrections.json",
+            "Esperanto-Kanji-Ruby-JA/app_data/word_anno.json",
+            "Esperanto-Kanji-Ruby-JA/app_data/エスペラント語根-日本語訳ルビ対応リスト.csv",
+            "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
+            "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_ルビ.json",
+            "Esperanto-Kanji-Ruby-JA/esp_assignment_edition.py",
+            "Esperanto-Kanji-Ruby-JA/esp_input_state.py",
+            "Esperanto-Kanji-Ruby-JA/esp_overlay_module.py",
+            "Esperanto-Kanji-Ruby-JA/esp_replacement_json_make_module.py",
+            "Esperanto-Kanji-Ruby-JA/esp_text_replacement_module.py",
+            "Esperanto-Kanji-Ruby-JA/main.py",
+            "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py",
+            "Esperanto-Kanji-Ruby-JA/pages/2_📦_最新データのダウンロード.py",
+            "Esperanto-Kanji-Ruby-JA/requirements.txt",
+            "requirements.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "language": "ZH",
+      "download_data_and_filename_expressions_unchanged": true,
+      "manual_functions_unchanged": true,
+      "visible_localized_guidance_verified": true,
+      "fixed_source_guard_paths": [
+        {
+          "edition": "current",
+          "count": 22,
+          "paths": [
+            "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
+            "Esperanto-Kanji-Ruby-ZH/app_data/char_widths.json",
+            "Esperanto-Kanji-Ruby-ZH/app_data/E_stem.json",
+            "Esperanto-Kanji-Ruby-ZH/app_data/placeholders_localcapture.txt",
+            "Esperanto-Kanji-Ruby-ZH/app_data/placeholders_skip.txt",
+            "Esperanto-Kanji-Ruby-ZH/app_data/user_corrections.json",
+            "Esperanto-Kanji-Ruby-ZH/app_data/word_anno.json",
+            "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-中文注释对应列表.csv",
+            "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+            "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
+            "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_ルビ.json",
+            "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
+            "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
+            "Esperanto-Kanji-Ruby-ZH/esp_input_state.py",
+            "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py",
+            "Esperanto-Kanji-Ruby-ZH/esp_replacement_json_make_module.py",
+            "Esperanto-Kanji-Ruby-ZH/esp_text_replacement_module.py",
+            "Esperanto-Kanji-Ruby-ZH/main.py",
+            "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py",
+            "Esperanto-Kanji-Ruby-ZH/pages/2_📦_最新数据下载.py",
+            "Esperanto-Kanji-Ruby-ZH/requirements.txt",
+            "requirements.txt"
+          ]
+        },
+        {
+          "edition": "legacy",
+          "count": 22,
+          "paths": [
+            "assignment_editions/legacy/JA/pure.json.gz",
+            "assignment_editions/legacy/ZH/kanji.csv",
+            "assignment_editions/legacy/ZH/kanji.json.gz",
+            "Esperanto-Kanji-Ruby-ZH/app_data/char_widths.json",
+            "Esperanto-Kanji-Ruby-ZH/app_data/E_stem.json",
+            "Esperanto-Kanji-Ruby-ZH/app_data/placeholders_localcapture.txt",
+            "Esperanto-Kanji-Ruby-ZH/app_data/placeholders_skip.txt",
+            "Esperanto-Kanji-Ruby-ZH/app_data/user_corrections.json",
+            "Esperanto-Kanji-Ruby-ZH/app_data/word_anno.json",
+            "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-中文注释对应列表.csv",
+            "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
+            "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_ルビ.json",
+            "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
+            "Esperanto-Kanji-Ruby-ZH/esp_input_state.py",
+            "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py",
+            "Esperanto-Kanji-Ruby-ZH/esp_replacement_json_make_module.py",
+            "Esperanto-Kanji-Ruby-ZH/esp_text_replacement_module.py",
+            "Esperanto-Kanji-Ruby-ZH/main.py",
+            "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py",
+            "Esperanto-Kanji-Ruby-ZH/pages/2_📦_最新数据下载.py",
+            "Esperanto-Kanji-Ruby-ZH/requirements.txt",
+            "requirements.txt"
+          ]
+        }
+      ]
+    },
+    {
+      "language": "KO",
+      "download_data_and_filename_expressions_unchanged": true,
+      "manual_functions_unchanged": true,
+      "visible_localized_guidance_verified": true,
+      "fixed_source_guard_paths": [
+        {
+          "edition": "current",
+          "count": 22,
+          "paths": [
+            "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
+            "Esperanto-Kanji-Ruby-KO/app_data/char_widths.json",
+            "Esperanto-Kanji-Ruby-KO/app_data/E_stem.json",
+            "Esperanto-Kanji-Ruby-KO/app_data/placeholders_localcapture.txt",
+            "Esperanto-Kanji-Ruby-KO/app_data/placeholders_skip.txt",
+            "Esperanto-Kanji-Ruby-KO/app_data/user_corrections.json",
+            "Esperanto-Kanji-Ruby-KO/app_data/word_anno.json",
+            "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+            "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
+            "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_ルビ.json",
+            "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
+            "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+            "Esperanto-Kanji-Ruby-KO/esp_assignment_edition.py",
+            "Esperanto-Kanji-Ruby-KO/esp_input_state.py",
+            "Esperanto-Kanji-Ruby-KO/esp_overlay_module.py",
+            "Esperanto-Kanji-Ruby-KO/esp_replacement_json_make_module.py",
+            "Esperanto-Kanji-Ruby-KO/esp_text_replacement_module.py",
+            "Esperanto-Kanji-Ruby-KO/main.py",
+            "Esperanto-Kanji-Ruby-KO/pages/1_🔧_어근 분해 수동 보정.py",
+            "Esperanto-Kanji-Ruby-KO/pages/2_📦_최신 데이터 다운로드.py",
+            "Esperanto-Kanji-Ruby-KO/requirements.txt",
+            "requirements.txt"
+          ]
+        },
+        {
+          "edition": "legacy",
+          "count": 22,
+          "paths": [
+            "assignment_editions/legacy/JA/pure.json.gz",
+            "assignment_editions/legacy/KO/kanji.csv",
+            "assignment_editions/legacy/KO/kanji.json.gz",
+            "Esperanto-Kanji-Ruby-KO/app_data/char_widths.json",
+            "Esperanto-Kanji-Ruby-KO/app_data/E_stem.json",
+            "Esperanto-Kanji-Ruby-KO/app_data/placeholders_localcapture.txt",
+            "Esperanto-Kanji-Ruby-KO/app_data/placeholders_skip.txt",
+            "Esperanto-Kanji-Ruby-KO/app_data/user_corrections.json",
+            "Esperanto-Kanji-Ruby-KO/app_data/word_anno.json",
+            "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
+            "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_ルビ.json",
+            "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+            "Esperanto-Kanji-Ruby-KO/esp_assignment_edition.py",
+            "Esperanto-Kanji-Ruby-KO/esp_input_state.py",
+            "Esperanto-Kanji-Ruby-KO/esp_overlay_module.py",
+            "Esperanto-Kanji-Ruby-KO/esp_replacement_json_make_module.py",
+            "Esperanto-Kanji-Ruby-KO/esp_text_replacement_module.py",
+            "Esperanto-Kanji-Ruby-KO/main.py",
+            "Esperanto-Kanji-Ruby-KO/pages/1_🔧_어근 분해 수동 보정.py",
+            "Esperanto-Kanji-Ruby-KO/pages/2_📦_최신 데이터 다운로드.py",
+            "Esperanto-Kanji-Ruby-KO/requirements.txt",
+            "requirements.txt"
+          ]
+        }
+      ]
+    }
+  ],
+  "actual_app_test_counts": {
+    "language_edition_states": 6,
+    "small_download_payloads": 36,
+    "large_asset_urls_and_committed_blobs": 18,
+    "source_and_zip_urls": 12,
+    "correction_file_imports": 6,
+    "new_corrections_saved": 6,
+    "existing_corrections_edited": 6,
+    "edition_transitions_retaining_draft_and_edits": 12,
+    "backup_checks_across_initial_other_returned_edition": 18,
+    "navigation_targets_rendered": 12,
+    "actual_manual_to_download_page_transitions": 6
+  },
+  "limits": [
+    "Local AppTest, not a browser or Cloud check.",
+    "Upload and download transport are instrumented; original production UI calls still run.",
+    "This bounded review does not claim a new exhaustive conversion audit.",
+    "Fixed-link guard path enumeration uses an isolated AST helper and a recording verifier; actual published URLs and blobs are independently asserted by AppTest."
+  ]
+}
