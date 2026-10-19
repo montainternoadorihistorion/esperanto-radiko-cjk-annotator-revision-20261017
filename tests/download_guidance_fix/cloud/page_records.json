@@ -1,0 +1,926 @@
+[
+  {
+    "bodyText": "main\n🔧\n語根分解の手動補正\n📦\n最新データのダウンロード\nデータのダウンロード\n\n漢字割り当ての版\n\n新版（更新中）\n\n旧版は今回の見直し前の割り当てで固定、新版は更新を続けます。注釈は両版で共通の最新データを使います。\n\n選択中の版: 新版（更新中） · fc7dc08a8d08\n\n漢字化データは選択した版、注釈は両版共通の最新データです。旧版の .gz ファイルは展開すると通常の JSON として利用できます。\n\n同じ結果を再現するには\n\nこのページのJSONは置換表の原本です。@の個別補正や自動補正など、アプリ側の処理をすべて含むわけではありません。JSONだけを別のプログラムで使うと、結果が異なる場合があります。\n\n同じ結果を再現するには、対応するソース版とデータを保存し、言語版・入力本文・新旧の選択・変換モード・文字表記などの設定をそろえてください。手動補正を追加・読み込みして使った場合は、下の手動補正ページから現在有効な補正のバックアップも保存してください。\n\n旧版で固定されているのは漢字割り当てです。確認済みの処理上の不具合修正は旧版にも適用されるため、旧版のJSONだけでは当時のアプリ全体を再現できません。\n\n自作JSON本体は新旧の選択対象外で、同梱データ専用の補正も適用されません。自動語根補正には共通の最新注釈を使います。\n\n🔧\n\n現在有効な手動補正を確認・バックアップする\n\nこのアプリのソースと選択中のデータが一致する公開ソース版: a9427afff3e1\n\nこの版のアプリソースを見る · この版のソース一式を保存（ZIP）\n\n置換用データ\n漢字＋語根ルビ (57.37 MB)\n漢字化・純粋置換 (21.52 MB)\n注釈ルビ（共通・最新） (72.55 MB)\n辞書・補正データ\n\n下の user_corrections.json はアプリ同梱の承認済み補正です。このセッションで追加・読み込みした補正や削除の結果は含みません。再現に使う現在の手動補正は、手動補正ページから保存してください。\n\n漢字割り当てCSV\n\nエスペラント語根-日本語訳ルビ対応リスト.csv\n\n分解設定.json\n\nword_anno.json\n\nE_stem.json\n\n同梱の承認済み補正（セッションの変更を含まない） · user_corrections.json\n\n旧版の固定データ・検証情報",
+    "buttons": [
+      "",
+      "",
+      "漢字割り当てCSV",
+      "エスペラント語根-日本語訳ルビ対応リスト.csv",
+      "分解設定.json",
+      "word_anno.json",
+      "E_stem.json",
+      "同梱の承認済み補正（セッションの変更を含まない） · user_corrections.json"
+    ],
+    "links": [
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+        "text": "main"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E8%AA%9E%E6%A0%B9%E5%88%86%E8%A7%A3%E3%81%AE%E6%89%8B%E5%8B%95%E8%A3%9C%E6%AD%A3",
+        "text": "🔧\n語根分解の手動補正"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89",
+        "text": "📦\n最新データのダウンロード"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#a5597f52",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#567adf11",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E8%AA%9E%E6%A0%B9%E5%88%86%E8%A7%A3%E3%81%AE%E6%89%8B%E5%8B%95%E8%A3%9C%E6%AD%A3",
+        "text": "🔧\n\n現在有効な手動補正を確認・バックアップする"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+        "text": "この版のアプリソースを見る"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e.zip",
+        "text": "この版のソース一式を保存（ZIP）"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#814d4819",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+        "text": "漢字＋語根ルビ (57.37 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+        "text": "漢字化・純粋置換 (21.52 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "text": "注釈ルビ（共通・最新） (72.55 MB)"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#552139af",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json",
+        "text": "旧版の固定データ・検証情報"
+      }
+    ],
+    "selected": [
+      "Selected 新版（更新中）. 漢字割り当ての版"
+    ],
+    "language": "JA",
+    "edition": "current",
+    "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89"
+  },
+  {
+    "bodyText": "main\n🔧\n語根分解の手動補正\n📦\n最新データのダウンロード\nデータのダウンロード\n\n漢字割り当ての版\n\n旧版（固定）\n\n旧版は今回の見直し前の割り当てで固定、新版は更新を続けます。注釈は両版で共通の最新データを使います。\n\n選択中の版: 旧版（固定） · c75f5550c821\n\n漢字化データは選択した版、注釈は両版共通の最新データです。旧版の .gz ファイルは展開すると通常の JSON として利用できます。\n\n同じ結果を再現するには\n\nこのページのJSONは置換表の原本です。@の個別補正や自動補正など、アプリ側の処理をすべて含むわけではありません。JSONだけを別のプログラムで使うと、結果が異なる場合があります。\n\n同じ結果を再現するには、対応するソース版とデータを保存し、言語版・入力本文・新旧の選択・変換モード・文字表記などの設定をそろえてください。手動補正を追加・読み込みして使った場合は、下の手動補正ページから現在有効な補正のバックアップも保存してください。\n\n旧版で固定されているのは漢字割り当てです。確認済みの処理上の不具合修正は旧版にも適用されるため、旧版のJSONだけでは当時のアプリ全体を再現できません。\n\n自作JSON本体は新旧の選択対象外で、同梱データ専用の補正も適用されません。自動語根補正には共通の最新注釈を使います。\n\n🔧\n\n現在有効な手動補正を確認・バックアップする\n\nこのアプリのソースと選択中のデータが一致する公開ソース版: a9427afff3e1\n\nこの版のアプリソースを見る · この版のソース一式を保存（ZIP）\n\n置換用データ\n漢字＋語根ルビ (57.37 MB)\n漢字化・純粋置換 (21.52 MB)\n注釈ルビ（共通・最新） (72.55 MB)\n辞書・補正データ\n\n下の user_corrections.json はアプリ同梱の承認済み補正です。このセッションで追加・読み込みした補正や削除の結果は含みません。再現に使う現在の手動補正は、手動補正ページから保存してください。\n\n漢字割り当てCSV\n\nエスペラント語根-日本語訳ルビ対応リスト.csv\n\n分解設定.json\n\nword_anno.json\n\nE_stem.json\n\n同梱の承認済み補正（セッションの変更を含まない） · user_corrections.json\n\n旧版の固定データ・検証情報",
+    "buttons": [
+      "",
+      "",
+      "漢字割り当てCSV",
+      "エスペラント語根-日本語訳ルビ対応リスト.csv",
+      "分解設定.json",
+      "word_anno.json",
+      "E_stem.json",
+      "同梱の承認済み補正（セッションの変更を含まない） · user_corrections.json"
+    ],
+    "links": [
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+        "text": "main"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E8%AA%9E%E6%A0%B9%E5%88%86%E8%A7%A3%E3%81%AE%E6%89%8B%E5%8B%95%E8%A3%9C%E6%AD%A3",
+        "text": "🔧\n語根分解の手動補正"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89",
+        "text": "📦\n最新データのダウンロード"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#a5597f52",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#567adf11",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E8%AA%9E%E6%A0%B9%E5%88%86%E8%A7%A3%E3%81%AE%E6%89%8B%E5%8B%95%E8%A3%9C%E6%AD%A3",
+        "text": "🔧\n\n現在有効な手動補正を確認・バックアップする"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+        "text": "この版のアプリソースを見る"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e.zip",
+        "text": "この版のソース一式を保存（ZIP）"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#814d4819",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+        "text": "漢字＋語根ルビ (57.37 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+        "text": "漢字化・純粋置換 (21.52 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "text": "注釈ルビ（共通・最新） (72.55 MB)"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#552139af",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json",
+        "text": "旧版の固定データ・検証情報"
+      }
+    ],
+    "selected": [
+      "Selected 旧版（固定）. 漢字割り当ての版"
+    ],
+    "language": "JA",
+    "edition": "legacy",
+    "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89"
+  },
+  {
+    "bodyText": "main\n🔧\n词根分解的手动校正\n📦\n最新数据下载\n下载数据\n\n汉字分配版本\n\n新版（更新中）\n\n旧版固定为本轮修订前的分配，新版继续更新。两版共用最新注释。\n\n所选版本: 新版（更新中） · 45f8ab66e627\n\n汉字化数据使用所选版本，注释为两版共用的最新数据。旧版 .gz 文件解压后可作为普通 JSON 使用。\n\n如何重现相同结果\n\n本页的JSON是替换表原文件，不包含应用中的全部处理，例如@的专门校正和自动校正。仅在其他程序中使用JSON，结果可能不同。\n\n要重现相同结果，请保存对应版本的源代码和数据，并使用相同的界面语言、输入原文、新旧版本、转换模式、字母表示方式等设置。如果添加或导入过手动校正，还需从下面的手动校正页面保存当前生效校正的备份。\n\n旧版固定的是汉字分配。已确认的程序问题修复仍会应用于旧版，因此仅保存旧版JSON无法重现当时的整个应用。\n\n新旧版本选择不改变自定义JSON本身，内置数据专用的校正也不会应用于自定义JSON。自动词根校正使用共用的最新注释。\n\n🔧\n\n查看并备份当前生效的手动校正\n\n与此应用源代码及所选数据一致的已公开版本: a9427afff3e1\n\n查看此版本的应用源代码 · 保存此版本的完整源代码（ZIP）\n\n替换数据\n汉字＋词根Ruby (57.38 MB)\n汉字化·纯替换 (21.52 MB)\n注释Ruby（共用·最新） (70.27 MB)\n词典及校正数据\n\n下方的user_corrections.json是应用内置的已确认校正，不包含本次会话中添加、导入或删除后的结果。用于重现结果的当前手动校正，请从手动校正页面保存。\n\n汉字分配CSV\n\n世界语词根-中文注释对应列表.csv\n\n分解設定.json\n\nword_anno.json\n\nE_stem.json\n\n应用内置的已确认校正（不含本次会话的修改） · user_corrections.json\n\n旧版固定数据及验证信息",
+    "buttons": [
+      "",
+      "",
+      "汉字分配CSV",
+      "世界语词根-中文注释对应列表.csv",
+      "分解設定.json",
+      "word_anno.json",
+      "E_stem.json",
+      "应用内置的已确认校正（不含本次会话的修改） · user_corrections.json"
+    ],
+    "links": [
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+        "text": "main"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E8%AF%8D%E6%A0%B9%E5%88%86%E8%A7%A3%E7%9A%84%E6%89%8B%E5%8A%A8%E6%A0%A1%E6%AD%A3",
+        "text": "🔧\n词根分解的手动校正"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD",
+        "text": "📦\n最新数据下载"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#f50639f7",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#e8225ac6",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E8%AF%8D%E6%A0%B9%E5%88%86%E8%A7%A3%E7%9A%84%E6%89%8B%E5%8A%A8%E6%A0%A1%E6%AD%A3",
+        "text": "🔧\n\n查看并备份当前生效的手动校正"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+        "text": "查看此版本的应用源代码"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e.zip",
+        "text": "保存此版本的完整源代码（ZIP）"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#458e6ebe",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+        "text": "汉字＋词根Ruby (57.38 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+        "text": "汉字化·纯替换 (21.52 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "text": "注释Ruby（共用·最新） (70.27 MB)"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#cc7203a0",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json",
+        "text": "旧版固定数据及验证信息"
+      }
+    ],
+    "selected": [
+      "Selected 新版（更新中）. 汉字分配版本"
+    ],
+    "language": "ZH",
+    "edition": "current",
+    "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD"
+  },
+  {
+    "bodyText": "main\n🔧\n词根分解的手动校正\n📦\n最新数据下载\n下载数据\n\n汉字分配版本\n\n旧版（固定）\n\n旧版固定为本轮修订前的分配，新版继续更新。两版共用最新注释。\n\n所选版本: 旧版（固定） · a963b98b11fd\n\n汉字化数据使用所选版本，注释为两版共用的最新数据。旧版 .gz 文件解压后可作为普通 JSON 使用。\n\n如何重现相同结果\n\n本页的JSON是替换表原文件，不包含应用中的全部处理，例如@的专门校正和自动校正。仅在其他程序中使用JSON，结果可能不同。\n\n要重现相同结果，请保存对应版本的源代码和数据，并使用相同的界面语言、输入原文、新旧版本、转换模式、字母表示方式等设置。如果添加或导入过手动校正，还需从下面的手动校正页面保存当前生效校正的备份。\n\n旧版固定的是汉字分配。已确认的程序问题修复仍会应用于旧版，因此仅保存旧版JSON无法重现当时的整个应用。\n\n新旧版本选择不改变自定义JSON本身，内置数据专用的校正也不会应用于自定义JSON。自动词根校正使用共用的最新注释。\n\n🔧\n\n查看并备份当前生效的手动校正\n\n与此应用源代码及所选数据一致的已公开版本: a9427afff3e1\n\n查看此版本的应用源代码 · 保存此版本的完整源代码（ZIP）\n\n替换数据\n汉字＋词根Ruby (57.38 MB)\n汉字化·纯替换 (21.52 MB)\n注释Ruby（共用·最新） (70.27 MB)\n词典及校正数据\n\n下方的user_corrections.json是应用内置的已确认校正，不包含本次会话中添加、导入或删除后的结果。用于重现结果的当前手动校正，请从手动校正页面保存。\n\n汉字分配CSV\n\n世界语词根-中文注释对应列表.csv\n\n分解設定.json\n\nword_anno.json\n\nE_stem.json\n\n应用内置的已确认校正（不含本次会话的修改） · user_corrections.json\n\n旧版固定数据及验证信息",
+    "buttons": [
+      "",
+      "",
+      "汉字分配CSV",
+      "世界语词根-中文注释对应列表.csv",
+      "分解設定.json",
+      "word_anno.json",
+      "E_stem.json",
+      "应用内置的已确认校正（不含本次会话的修改） · user_corrections.json"
+    ],
+    "links": [
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+        "text": "main"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E8%AF%8D%E6%A0%B9%E5%88%86%E8%A7%A3%E7%9A%84%E6%89%8B%E5%8A%A8%E6%A0%A1%E6%AD%A3",
+        "text": "🔧\n词根分解的手动校正"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD",
+        "text": "📦\n最新数据下载"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#f50639f7",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#e8225ac6",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E8%AF%8D%E6%A0%B9%E5%88%86%E8%A7%A3%E7%9A%84%E6%89%8B%E5%8A%A8%E6%A0%A1%E6%AD%A3",
+        "text": "🔧\n\n查看并备份当前生效的手动校正"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+        "text": "查看此版本的应用源代码"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e.zip",
+        "text": "保存此版本的完整源代码（ZIP）"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#458e6ebe",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+        "text": "汉字＋词根Ruby (57.38 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+        "text": "汉字化·纯替换 (21.52 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "text": "注释Ruby（共用·最新） (70.27 MB)"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#cc7203a0",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json",
+        "text": "旧版固定数据及验证信息"
+      }
+    ],
+    "selected": [
+      "Selected 旧版（固定）. 汉字分配版本"
+    ],
+    "language": "ZH",
+    "edition": "legacy",
+    "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD"
+  },
+  {
+    "bodyText": "main\n🔧\n어근 분해 수동 보정\n📦\n최신 데이터 다운로드\n데이터 다운로드\n\n한자 배정 판\n\n신판（갱신 중）\n\n구판은 이번 검토 전의 배정으로 고정되며 신판은 계속 갱신됩니다. 두 판은 최신 주석을 공유합니다。\n\n선택한 판: 신판（갱신 중） · f3e8bafa9598\n\n한자화 데이터는 선택한 판을 사용하며 주석은 두 판이 최신 데이터를 공유합니다. 구판의 .gz 파일은 압축 해제 후 일반 JSON으로 사용할 수 있습니다.\n\n같은 결과를 재현하려면\n\n이 페이지의 JSON은 치환표 원본입니다. @ 전용 보정과 자동 보정 등 앱에서 수행하는 모든 처리가 포함되어 있지는 않습니다. 다른 프로그램에서 JSON만 사용하면 결과가 달라질 수 있습니다.\n\n같은 결과를 재현하려면 해당 버전의 소스 코드와 데이터를 보관하고 언어판·입력 원문·신판/구판 선택·변환 모드·문자 표기 등의 설정을 맞춰 주세요. 수동 보정을 추가하거나 불러와 사용했다면, 아래 수동 보정 페이지에서 현재 적용 중인 보정의 백업도 저장해 주세요.\n\n구판에서 고정되는 것은 한자 배정입니다. 확인된 프로그램 오류 수정은 구판에도 적용되므로, 구판 JSON만으로 당시 앱 전체를 재현할 수는 없습니다.\n\n신판/구판 선택은 사용자 JSON 자체에 적용되지 않으며, 앱 내장 데이터 전용 보정도 적용되지 않습니다. 자동 어근 보정에는 공통 최신 주석을 사용합니다.\n\n🔧\n\n현재 적용 중인 수동 보정 확인·백업\n\n현재 앱 소스 코드 및 선택한 데이터와 일치하는 공개 버전: a9427afff3e1\n\n이 버전의 앱 소스 코드 보기 · 이 버전의 전체 소스 코드 저장（ZIP）\n\n치환 데이터\n한자＋어근 루비 (57.38 MB)\n한자화·순수 치환 (21.52 MB)\n주석 루비（공통·최신） (71.84 MB)\n사전·보정 데이터\n\n아래 user_corrections.json은 앱에 내장된 승인 보정입니다. 현재 세션에서 추가·불러오기·삭제한 결과는 포함하지 않습니다. 재현에 사용할 현재 수동 보정은 수동 보정 페이지에서 저장해 주세요.\n\n한자 배정 CSV\n\n에스페란토 어근-한국어 번역 루비 대응 목록.csv\n\n分解設定.json\n\nword_anno.json\n\nE_stem.json\n\n앱에 내장된 승인 보정（현재 세션의 변경 제외） · user_corrections.json\n\n구판 고정 데이터 및 검증 정보",
+    "buttons": [
+      "",
+      "",
+      "한자 배정 CSV",
+      "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+      "分解設定.json",
+      "word_anno.json",
+      "E_stem.json",
+      "앱에 내장된 승인 보정（현재 세션의 변경 제외） · user_corrections.json"
+    ],
+    "links": [
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+        "text": "main"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%96%B4%EA%B7%BC_%EB%B6%84%ED%95%B4_%EC%88%98%EB%8F%99_%EB%B3%B4%EC%A0%95",
+        "text": "🔧\n어근 분해 수동 보정"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C",
+        "text": "📦\n최신 데이터 다운로드"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#147fe386",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#e257ccc2",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%96%B4%EA%B7%BC_%EB%B6%84%ED%95%B4_%EC%88%98%EB%8F%99_%EB%B3%B4%EC%A0%95",
+        "text": "🔧\n\n현재 적용 중인 수동 보정 확인·백업"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+        "text": "이 버전의 앱 소스 코드 보기"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e.zip",
+        "text": "이 버전의 전체 소스 코드 저장（ZIP）"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#f9d79aaf",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+        "text": "한자＋어근 루비 (57.38 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+        "text": "한자화·순수 치환 (21.52 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "text": "주석 루비（공통·최신） (71.84 MB)"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#f0484274",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json",
+        "text": "구판 고정 데이터 및 검증 정보"
+      }
+    ],
+    "selected": [
+      "Selected 신판（갱신 중）. 한자 배정 판"
+    ],
+    "language": "KO",
+    "edition": "current",
+    "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C"
+  },
+  {
+    "bodyText": "main\n🔧\n어근 분해 수동 보정\n📦\n최신 데이터 다운로드\n데이터 다운로드\n\n한자 배정 판\n\n구판（고정）\n\n구판은 이번 검토 전의 배정으로 고정되며 신판은 계속 갱신됩니다. 두 판은 최신 주석을 공유합니다。\n\n선택한 판: 구판（고정） · 69a82032c2b7\n\n한자화 데이터는 선택한 판을 사용하며 주석은 두 판이 최신 데이터를 공유합니다. 구판의 .gz 파일은 압축 해제 후 일반 JSON으로 사용할 수 있습니다.\n\n같은 결과를 재현하려면\n\n이 페이지의 JSON은 치환표 원본입니다. @ 전용 보정과 자동 보정 등 앱에서 수행하는 모든 처리가 포함되어 있지는 않습니다. 다른 프로그램에서 JSON만 사용하면 결과가 달라질 수 있습니다.\n\n같은 결과를 재현하려면 해당 버전의 소스 코드와 데이터를 보관하고 언어판·입력 원문·신판/구판 선택·변환 모드·문자 표기 등의 설정을 맞춰 주세요. 수동 보정을 추가하거나 불러와 사용했다면, 아래 수동 보정 페이지에서 현재 적용 중인 보정의 백업도 저장해 주세요.\n\n구판에서 고정되는 것은 한자 배정입니다. 확인된 프로그램 오류 수정은 구판에도 적용되므로, 구판 JSON만으로 당시 앱 전체를 재현할 수는 없습니다.\n\n신판/구판 선택은 사용자 JSON 자체에 적용되지 않으며, 앱 내장 데이터 전용 보정도 적용되지 않습니다. 자동 어근 보정에는 공통 최신 주석을 사용합니다.\n\n🔧\n\n현재 적용 중인 수동 보정 확인·백업\n\n현재 앱 소스 코드 및 선택한 데이터와 일치하는 공개 버전: a9427afff3e1\n\n이 버전의 앱 소스 코드 보기 · 이 버전의 전체 소스 코드 저장（ZIP）\n\n치환 데이터\n한자＋어근 루비 (57.38 MB)\n한자화·순수 치환 (21.52 MB)\n주석 루비（공통·최신） (71.84 MB)\n사전·보정 데이터\n\n아래 user_corrections.json은 앱에 내장된 승인 보정입니다. 현재 세션에서 추가·불러오기·삭제한 결과는 포함하지 않습니다. 재현에 사용할 현재 수동 보정은 수동 보정 페이지에서 저장해 주세요.\n\n한자 배정 CSV\n\n에스페란토 어근-한국어 번역 루비 대응 목록.csv\n\n分解設定.json\n\nword_anno.json\n\nE_stem.json\n\n앱에 내장된 승인 보정（현재 세션의 변경 제외） · user_corrections.json\n\n구판 고정 데이터 및 검증 정보",
+    "buttons": [
+      "",
+      "",
+      "한자 배정 CSV",
+      "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+      "分解設定.json",
+      "word_anno.json",
+      "E_stem.json",
+      "앱에 내장된 승인 보정（현재 세션의 변경 제외） · user_corrections.json"
+    ],
+    "links": [
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+        "text": "main"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%96%B4%EA%B7%BC_%EB%B6%84%ED%95%B4_%EC%88%98%EB%8F%99_%EB%B3%B4%EC%A0%95",
+        "text": "🔧\n어근 분해 수동 보정"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C",
+        "text": "📦\n최신 데이터 다운로드"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#147fe386",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#e257ccc2",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%96%B4%EA%B7%BC_%EB%B6%84%ED%95%B4_%EC%88%98%EB%8F%99_%EB%B3%B4%EC%A0%95",
+        "text": "🔧\n\n현재 적용 중인 수동 보정 확인·백업"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+        "text": "이 버전의 앱 소스 코드 보기"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e.zip",
+        "text": "이 버전의 전체 소스 코드 저장（ZIP）"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#f9d79aaf",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+        "text": "한자＋어근 루비 (57.38 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+        "text": "한자화·순수 치환 (21.52 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "text": "주석 루비（공통·최신） (71.84 MB)"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#f0484274",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json",
+        "text": "구판 고정 데이터 및 검증 정보"
+      }
+    ],
+    "selected": [
+      "Selected 구판（고정）. 한자 배정 판"
+    ],
+    "language": "KO",
+    "edition": "legacy",
+    "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C"
+  },
+  {
+    "bodyText": "main\n🔧\n語根分解の手動補正\n📦\n最新データのダウンロード\nデータのダウンロード\n\n漢字割り当ての版\n\n新版（更新中）\n\n旧版は今回の見直し前の割り当てで固定、新版は更新を続けます。注釈は両版で共通の最新データを使います。\n\n選択中の版: 新版（更新中） · fc7dc08a8d08\n\n漢字化データは選択した版、注釈は両版共通の最新データです。旧版の .gz ファイルは展開すると通常の JSON として利用できます。\n\n同じ結果を再現するには\n\nこのページのJSONは置換表の原本です。@の個別補正や自動補正など、アプリ側の処理をすべて含むわけではありません。JSONだけを別のプログラムで使うと、結果が異なる場合があります。\n\n同じ結果を再現するには、対応するソース版とデータを保存し、言語版・入力本文・新旧の選択・変換モード・文字表記などの設定をそろえてください。手動補正を追加・読み込みして使った場合は、下の手動補正ページから現在有効な補正のバックアップも保存してください。\n\n旧版で固定されているのは漢字割り当てです。確認済みの処理上の不具合修正は旧版にも適用されるため、旧版のJSONだけでは当時のアプリ全体を再現できません。\n\n自作JSON本体は新旧の選択対象外で、同梱データ専用の補正も適用されません。自動語根補正には共通の最新注釈を使います。\n\n🔧\n\n現在有効な手動補正を確認・バックアップする\n\nこのアプリのソースと選択中のデータが一致する公開ソース版: a9427afff3e1\n\nこの版のアプリソースを見る · この版のソース一式を保存（ZIP）\n\n置換用データ\n漢字＋語根ルビ (57.37 MB)\n漢字化・純粋置換 (21.52 MB)\n注釈ルビ（共通・最新） (72.55 MB)\n辞書・補正データ\n\n下の user_corrections.json はアプリ同梱の承認済み補正です。このセッションで追加・読み込みした補正や削除の結果は含みません。再現に使う現在の手動補正は、手動補正ページから保存してください。\n\n漢字割り当てCSV\n\nエスペラント語根-日本語訳ルビ対応リスト.csv\n\n分解設定.json\n\nword_anno.json\n\nE_stem.json\n\n同梱の承認済み補正（セッションの変更を含まない） · user_corrections.json\n\n旧版の固定データ・検証情報",
+    "buttons": [
+      "",
+      "",
+      "漢字割り当てCSV",
+      "エスペラント語根-日本語訳ルビ対応リスト.csv",
+      "分解設定.json",
+      "word_anno.json",
+      "E_stem.json",
+      "同梱の承認済み補正（セッションの変更を含まない） · user_corrections.json"
+    ],
+    "links": [
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+        "text": "main"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E8%AA%9E%E6%A0%B9%E5%88%86%E8%A7%A3%E3%81%AE%E6%89%8B%E5%8B%95%E8%A3%9C%E6%AD%A3",
+        "text": "🔧\n語根分解の手動補正"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89",
+        "text": "📦\n最新データのダウンロード"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#a5597f52",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#567adf11",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E8%AA%9E%E6%A0%B9%E5%88%86%E8%A7%A3%E3%81%AE%E6%89%8B%E5%8B%95%E8%A3%9C%E6%AD%A3",
+        "text": "🔧\n\n現在有効な手動補正を確認・バックアップする"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+        "text": "この版のアプリソースを見る"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e.zip",
+        "text": "この版のソース一式を保存（ZIP）"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#814d4819",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+        "text": "漢字＋語根ルビ (57.37 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+        "text": "漢字化・純粋置換 (21.52 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "text": "注釈ルビ（共通・最新） (72.55 MB)"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#552139af",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json",
+        "text": "旧版の固定データ・検証情報"
+      }
+    ],
+    "selected": [
+      "Selected 新版（更新中）. 漢字割り当ての版"
+    ],
+    "language": "JA",
+    "edition": "current",
+    "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89"
+  },
+  {
+    "bodyText": "main\n🔧\n词根分解的手动校正\n📦\n最新数据下载\n下载数据\n\n汉字分配版本\n\n新版（更新中）\n\n旧版固定为本轮修订前的分配，新版继续更新。两版共用最新注释。\n\n所选版本: 新版（更新中） · 45f8ab66e627\n\n汉字化数据使用所选版本，注释为两版共用的最新数据。旧版 .gz 文件解压后可作为普通 JSON 使用。\n\n如何重现相同结果\n\n本页的JSON是替换表原文件，不包含应用中的全部处理，例如@的专门校正和自动校正。仅在其他程序中使用JSON，结果可能不同。\n\n要重现相同结果，请保存对应版本的源代码和数据，并使用相同的界面语言、输入原文、新旧版本、转换模式、字母表示方式等设置。如果添加或导入过手动校正，还需从下面的手动校正页面保存当前生效校正的备份。\n\n旧版固定的是汉字分配。已确认的程序问题修复仍会应用于旧版，因此仅保存旧版JSON无法重现当时的整个应用。\n\n新旧版本选择不改变自定义JSON本身，内置数据专用的校正也不会应用于自定义JSON。自动词根校正使用共用的最新注释。\n\n🔧\n\n查看并备份当前生效的手动校正\n\n与此应用源代码及所选数据一致的已公开版本: a9427afff3e1\n\n查看此版本的应用源代码 · 保存此版本的完整源代码（ZIP）\n\n替换数据\n汉字＋词根Ruby (57.38 MB)\n汉字化·纯替换 (21.52 MB)\n注释Ruby（共用·最新） (70.27 MB)\n词典及校正数据\n\n下方的user_corrections.json是应用内置的已确认校正，不包含本次会话中添加、导入或删除后的结果。用于重现结果的当前手动校正，请从手动校正页面保存。\n\n汉字分配CSV\n\n世界语词根-中文注释对应列表.csv\n\n分解設定.json\n\nword_anno.json\n\nE_stem.json\n\n应用内置的已确认校正（不含本次会话的修改） · user_corrections.json\n\n旧版固定数据及验证信息",
+    "buttons": [
+      "",
+      "",
+      "汉字分配CSV",
+      "世界语词根-中文注释对应列表.csv",
+      "分解設定.json",
+      "word_anno.json",
+      "E_stem.json",
+      "应用内置的已确认校正（不含本次会话的修改） · user_corrections.json"
+    ],
+    "links": [
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+        "text": "main"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E8%AF%8D%E6%A0%B9%E5%88%86%E8%A7%A3%E7%9A%84%E6%89%8B%E5%8A%A8%E6%A0%A1%E6%AD%A3",
+        "text": "🔧\n词根分解的手动校正"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD",
+        "text": "📦\n最新数据下载"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#f50639f7",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#e8225ac6",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E8%AF%8D%E6%A0%B9%E5%88%86%E8%A7%A3%E7%9A%84%E6%89%8B%E5%8A%A8%E6%A0%A1%E6%AD%A3",
+        "text": "🔧\n\n查看并备份当前生效的手动校正"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+        "text": "查看此版本的应用源代码"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e.zip",
+        "text": "保存此版本的完整源代码（ZIP）"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#458e6ebe",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+        "text": "汉字＋词根Ruby (57.38 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+        "text": "汉字化·纯替换 (21.52 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "text": "注释Ruby（共用·最新） (70.27 MB)"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#cc7203a0",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json",
+        "text": "旧版固定数据及验证信息"
+      }
+    ],
+    "selected": [
+      "Selected 新版（更新中）. 汉字分配版本"
+    ],
+    "language": "ZH",
+    "edition": "current",
+    "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD"
+  },
+  {
+    "bodyText": "main\n🔧\n어근 분해 수동 보정\n📦\n최신 데이터 다운로드\n데이터 다운로드\n\n한자 배정 판\n\n신판（갱신 중）\n\n구판은 이번 검토 전의 배정으로 고정되며 신판은 계속 갱신됩니다. 두 판은 최신 주석을 공유합니다。\n\n선택한 판: 신판（갱신 중） · f3e8bafa9598\n\n한자화 데이터는 선택한 판을 사용하며 주석은 두 판이 최신 데이터를 공유합니다. 구판의 .gz 파일은 압축 해제 후 일반 JSON으로 사용할 수 있습니다.\n\n같은 결과를 재현하려면\n\n이 페이지의 JSON은 치환표 원본입니다. @ 전용 보정과 자동 보정 등 앱에서 수행하는 모든 처리가 포함되어 있지는 않습니다. 다른 프로그램에서 JSON만 사용하면 결과가 달라질 수 있습니다.\n\n같은 결과를 재현하려면 해당 버전의 소스 코드와 데이터를 보관하고 언어판·입력 원문·신판/구판 선택·변환 모드·문자 표기 등의 설정을 맞춰 주세요. 수동 보정을 추가하거나 불러와 사용했다면, 아래 수동 보정 페이지에서 현재 적용 중인 보정의 백업도 저장해 주세요.\n\n구판에서 고정되는 것은 한자 배정입니다. 확인된 프로그램 오류 수정은 구판에도 적용되므로, 구판 JSON만으로 당시 앱 전체를 재현할 수는 없습니다.\n\n신판/구판 선택은 사용자 JSON 자체에 적용되지 않으며, 앱 내장 데이터 전용 보정도 적용되지 않습니다. 자동 어근 보정에는 공통 최신 주석을 사용합니다.\n\n🔧\n\n현재 적용 중인 수동 보정 확인·백업\n\n현재 앱 소스 코드 및 선택한 데이터와 일치하는 공개 버전: a9427afff3e1\n\n이 버전의 앱 소스 코드 보기 · 이 버전의 전체 소스 코드 저장（ZIP）\n\n치환 데이터\n한자＋어근 루비 (57.38 MB)\n한자화·순수 치환 (21.52 MB)\n주석 루비（공통·최신） (71.84 MB)\n사전·보정 데이터\n\n아래 user_corrections.json은 앱에 내장된 승인 보정입니다. 현재 세션에서 추가·불러오기·삭제한 결과는 포함하지 않습니다. 재현에 사용할 현재 수동 보정은 수동 보정 페이지에서 저장해 주세요.\n\n한자 배정 CSV\n\n에스페란토 어근-한국어 번역 루비 대응 목록.csv\n\n分解設定.json\n\nword_anno.json\n\nE_stem.json\n\n앱에 내장된 승인 보정（현재 세션의 변경 제외） · user_corrections.json\n\n구판 고정 데이터 및 검증 정보",
+    "buttons": [
+      "",
+      "",
+      "한자 배정 CSV",
+      "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+      "分解設定.json",
+      "word_anno.json",
+      "E_stem.json",
+      "앱에 내장된 승인 보정（현재 세션의 변경 제외） · user_corrections.json"
+    ],
+    "links": [
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+        "text": "main"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%96%B4%EA%B7%BC_%EB%B6%84%ED%95%B4_%EC%88%98%EB%8F%99_%EB%B3%B4%EC%A0%95",
+        "text": "🔧\n어근 분해 수동 보정"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C",
+        "text": "📦\n최신 데이터 다운로드"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#147fe386",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#e257ccc2",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%96%B4%EA%B7%BC_%EB%B6%84%ED%95%B4_%EC%88%98%EB%8F%99_%EB%B3%B4%EC%A0%95",
+        "text": "🔧\n\n현재 적용 중인 수동 보정 확인·백업"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+        "text": "이 버전의 앱 소스 코드 보기"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e.zip",
+        "text": "이 버전의 전체 소스 코드 저장（ZIP）"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#f9d79aaf",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+        "text": "한자＋어근 루비 (57.38 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+        "text": "한자화·순수 치환 (21.52 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "text": "주석 루비（공통·최신） (71.84 MB)"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#f0484274",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json",
+        "text": "구판 고정 데이터 및 검증 정보"
+      }
+    ],
+    "selected": [
+      "Selected 신판（갱신 중）. 한자 배정 판"
+    ],
+    "language": "KO",
+    "edition": "current",
+    "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C"
+  },
+  {
+    "bodyText": "main\n🔧\n語根分解の手動補正\n📦\n最新データのダウンロード\nデータのダウンロード\n\n漢字割り当ての版\n\n旧版（固定）\n\n旧版は今回の見直し前の割り当てで固定、新版は更新を続けます。注釈は両版で共通の最新データを使います。\n\n選択中の版: 旧版（固定） · c75f5550c821\n\n漢字化データは選択した版、注釈は両版共通の最新データです。旧版の .gz ファイルは展開すると通常の JSON として利用できます。\n\n同じ結果を再現するには\n\nこのページのJSONは置換表の原本です。@の個別補正や自動補正など、アプリ側の処理をすべて含むわけではありません。JSONだけを別のプログラムで使うと、結果が異なる場合があります。\n\n同じ結果を再現するには、対応するソース版とデータを保存し、言語版・入力本文・新旧の選択・変換モード・文字表記などの設定をそろえてください。手動補正を追加・読み込みして使った場合は、下の手動補正ページから現在有効な補正のバックアップも保存してください。\n\n旧版で固定されているのは漢字割り当てです。確認済みの処理上の不具合修正は旧版にも適用されるため、旧版のJSONだけでは当時のアプリ全体を再現できません。\n\n自作JSON本体は新旧の選択対象外で、同梱データ専用の補正も適用されません。自動語根補正には共通の最新注釈を使います。\n\n🔧\n\n現在有効な手動補正を確認・バックアップする\n\nこのアプリのソースと選択中のデータが一致する公開ソース版: a9427afff3e1\n\nこの版のアプリソースを見る · この版のソース一式を保存（ZIP）\n\n置換用データ\n漢字＋語根ルビ (6.38 MB)\n漢字化・純粋置換 (4.17 MB)\n注釈ルビ（共通・最新） (72.55 MB)\n辞書・補正データ\n\n下の user_corrections.json はアプリ同梱の承認済み補正です。このセッションで追加・読み込みした補正や削除の結果は含みません。再現に使う現在の手動補正は、手動補正ページから保存してください。\n\n漢字割り当てCSV\n\nエスペラント語根-日本語訳ルビ対応リスト.csv\n\n分解設定.json\n\nword_anno.json\n\nE_stem.json\n\n同梱の承認済み補正（セッションの変更を含まない） · user_corrections.json\n\n旧版の固定データ・検証情報",
+    "buttons": [
+      "",
+      "",
+      "漢字割り当てCSV",
+      "エスペラント語根-日本語訳ルビ対応リスト.csv",
+      "分解設定.json",
+      "word_anno.json",
+      "E_stem.json",
+      "同梱の承認済み補正（セッションの変更を含まない） · user_corrections.json"
+    ],
+    "links": [
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+        "text": "main"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E8%AA%9E%E6%A0%B9%E5%88%86%E8%A7%A3%E3%81%AE%E6%89%8B%E5%8B%95%E8%A3%9C%E6%AD%A3",
+        "text": "🔧\n語根分解の手動補正"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89",
+        "text": "📦\n最新データのダウンロード"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#a5597f52",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#567adf11",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E8%AA%9E%E6%A0%B9%E5%88%86%E8%A7%A3%E3%81%AE%E6%89%8B%E5%8B%95%E8%A3%9C%E6%AD%A3",
+        "text": "🔧\n\n現在有効な手動補正を確認・バックアップする"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+        "text": "この版のアプリソースを見る"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e.zip",
+        "text": "この版のソース一式を保存（ZIP）"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#814d4819",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/JA/kanji.json.gz",
+        "text": "漢字＋語根ルビ (6.38 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/JA/pure.json.gz",
+        "text": "漢字化・純粋置換 (4.17 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "text": "注釈ルビ（共通・最新） (72.55 MB)"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89#552139af",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json",
+        "text": "旧版の固定データ・検証情報"
+      }
+    ],
+    "selected": [
+      "Selected 旧版（固定）. 漢字割り当ての版"
+    ],
+    "language": "JA",
+    "edition": "legacy",
+    "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89"
+  },
+  {
+    "bodyText": "main\n🔧\n词根分解的手动校正\n📦\n最新数据下载\n下载数据\n\n汉字分配版本\n\n旧版（固定）\n\n旧版固定为本轮修订前的分配，新版继续更新。两版共用最新注释。\n\n所选版本: 旧版（固定） · a963b98b11fd\n\n汉字化数据使用所选版本，注释为两版共用的最新数据。旧版 .gz 文件解压后可作为普通 JSON 使用。\n\n如何重现相同结果\n\n本页的JSON是替换表原文件，不包含应用中的全部处理，例如@的专门校正和自动校正。仅在其他程序中使用JSON，结果可能不同。\n\n要重现相同结果，请保存对应版本的源代码和数据，并使用相同的界面语言、输入原文、新旧版本、转换模式、字母表示方式等设置。如果添加或导入过手动校正，还需从下面的手动校正页面保存当前生效校正的备份。\n\n旧版固定的是汉字分配。已确认的程序问题修复仍会应用于旧版，因此仅保存旧版JSON无法重现当时的整个应用。\n\n新旧版本选择不改变自定义JSON本身，内置数据专用的校正也不会应用于自定义JSON。自动词根校正使用共用的最新注释。\n\n🔧\n\n查看并备份当前生效的手动校正\n\n与此应用源代码及所选数据一致的已公开版本: a9427afff3e1\n\n查看此版本的应用源代码 · 保存此版本的完整源代码（ZIP）\n\n替换数据\n汉字＋词根Ruby (6.39 MB)\n汉字化·纯替换 (4.17 MB)\n注释Ruby（共用·最新） (70.27 MB)\n词典及校正数据\n\n下方的user_corrections.json是应用内置的已确认校正，不包含本次会话中添加、导入或删除后的结果。用于重现结果的当前手动校正，请从手动校正页面保存。\n\n汉字分配CSV\n\n世界语词根-中文注释对应列表.csv\n\n分解設定.json\n\nword_anno.json\n\nE_stem.json\n\n应用内置的已确认校正（不含本次会话的修改） · user_corrections.json\n\n旧版固定数据及验证信息",
+    "buttons": [
+      "",
+      "",
+      "汉字分配CSV",
+      "世界语词根-中文注释对应列表.csv",
+      "分解設定.json",
+      "word_anno.json",
+      "E_stem.json",
+      "应用内置的已确认校正（不含本次会话的修改） · user_corrections.json"
+    ],
+    "links": [
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+        "text": "main"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E8%AF%8D%E6%A0%B9%E5%88%86%E8%A7%A3%E7%9A%84%E6%89%8B%E5%8A%A8%E6%A0%A1%E6%AD%A3",
+        "text": "🔧\n词根分解的手动校正"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD",
+        "text": "📦\n最新数据下载"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#f50639f7",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#e8225ac6",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E8%AF%8D%E6%A0%B9%E5%88%86%E8%A7%A3%E7%9A%84%E6%89%8B%E5%8A%A8%E6%A0%A1%E6%AD%A3",
+        "text": "🔧\n\n查看并备份当前生效的手动校正"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+        "text": "查看此版本的应用源代码"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e.zip",
+        "text": "保存此版本的完整源代码（ZIP）"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#458e6ebe",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/ZH/kanji.json.gz",
+        "text": "汉字＋词根Ruby (6.39 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/JA/pure.json.gz",
+        "text": "汉字化·纯替换 (4.17 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "text": "注释Ruby（共用·最新） (70.27 MB)"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD#cc7203a0",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json",
+        "text": "旧版固定数据及验证信息"
+      }
+    ],
+    "selected": [
+      "Selected 旧版（固定）. 汉字分配版本"
+    ],
+    "language": "ZH",
+    "edition": "legacy",
+    "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD"
+  },
+  {
+    "bodyText": "main\n🔧\n어근 분해 수동 보정\n📦\n최신 데이터 다운로드\n데이터 다운로드\n\n한자 배정 판\n\n구판（고정）\n\n구판은 이번 검토 전의 배정으로 고정되며 신판은 계속 갱신됩니다. 두 판은 최신 주석을 공유합니다。\n\n선택한 판: 구판（고정） · 69a82032c2b7\n\n한자화 데이터는 선택한 판을 사용하며 주석은 두 판이 최신 데이터를 공유합니다. 구판의 .gz 파일은 압축 해제 후 일반 JSON으로 사용할 수 있습니다.\n\n같은 결과를 재현하려면\n\n이 페이지의 JSON은 치환표 원본입니다. @ 전용 보정과 자동 보정 등 앱에서 수행하는 모든 처리가 포함되어 있지는 않습니다. 다른 프로그램에서 JSON만 사용하면 결과가 달라질 수 있습니다.\n\n같은 결과를 재현하려면 해당 버전의 소스 코드와 데이터를 보관하고 언어판·입력 원문·신판/구판 선택·변환 모드·문자 표기 등의 설정을 맞춰 주세요. 수동 보정을 추가하거나 불러와 사용했다면, 아래 수동 보정 페이지에서 현재 적용 중인 보정의 백업도 저장해 주세요.\n\n구판에서 고정되는 것은 한자 배정입니다. 확인된 프로그램 오류 수정은 구판에도 적용되므로, 구판 JSON만으로 당시 앱 전체를 재현할 수는 없습니다.\n\n신판/구판 선택은 사용자 JSON 자체에 적용되지 않으며, 앱 내장 데이터 전용 보정도 적용되지 않습니다. 자동 어근 보정에는 공통 최신 주석을 사용합니다.\n\n🔧\n\n현재 적용 중인 수동 보정 확인·백업\n\n현재 앱 소스 코드 및 선택한 데이터와 일치하는 공개 버전: a9427afff3e1\n\n이 버전의 앱 소스 코드 보기 · 이 버전의 전체 소스 코드 저장（ZIP）\n\n치환 데이터\n한자＋어근 루비 (6.39 MB)\n한자화·순수 치환 (4.17 MB)\n주석 루비（공통·최신） (71.84 MB)\n사전·보정 데이터\n\n아래 user_corrections.json은 앱에 내장된 승인 보정입니다. 현재 세션에서 추가·불러오기·삭제한 결과는 포함하지 않습니다. 재현에 사용할 현재 수동 보정은 수동 보정 페이지에서 저장해 주세요.\n\n한자 배정 CSV\n\n에스페란토 어근-한국어 번역 루비 대응 목록.csv\n\n分解設定.json\n\nword_anno.json\n\nE_stem.json\n\n앱에 내장된 승인 보정（현재 세션의 변경 제외） · user_corrections.json\n\n구판 고정 데이터 및 검증 정보",
+    "buttons": [
+      "",
+      "",
+      "한자 배정 CSV",
+      "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+      "分解設定.json",
+      "word_anno.json",
+      "E_stem.json",
+      "앱에 내장된 승인 보정（현재 세션의 변경 제외） · user_corrections.json"
+    ],
+    "links": [
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+        "text": "main"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%96%B4%EA%B7%BC_%EB%B6%84%ED%95%B4_%EC%88%98%EB%8F%99_%EB%B3%B4%EC%A0%95",
+        "text": "🔧\n어근 분해 수동 보정"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C",
+        "text": "📦\n최신 데이터 다운로드"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#147fe386",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#e257ccc2",
+        "text": ""
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%96%B4%EA%B7%BC_%EB%B6%84%ED%95%B4_%EC%88%98%EB%8F%99_%EB%B3%B4%EC%A0%95",
+        "text": "🔧\n\n현재 적용 중인 수동 보정 확인·백업"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
+        "text": "이 버전의 앱 소스 코드 보기"
+      },
+      {
+        "href": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e.zip",
+        "text": "이 버전의 전체 소스 코드 저장（ZIP）"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#f9d79aaf",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/KO/kanji.json.gz",
+        "text": "한자＋어근 루비 (6.39 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/JA/pure.json.gz",
+        "text": "한자화·순수 치환 (4.17 MB)"
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/Esperanto-Kanji-Ruby-KO/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+        "text": "주석 루비（공통·최신） (71.84 MB)"
+      },
+      {
+        "href": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C#f0484274",
+        "text": ""
+      },
+      {
+        "href": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/a9427afff3e1f3e591a36db04bf759d8b6cfcf3e/assignment_editions/legacy/manifest.json",
+        "text": "구판 고정 데이터 및 검증 정보"
+      }
+    ],
+    "selected": [
+      "Selected 구판（고정）. 한자 배정 판"
+    ],
+    "language": "KO",
+    "edition": "legacy",
+    "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C"
+  }
+]

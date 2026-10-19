@@ -1,0 +1,14 @@
+{
+  "source_commit": "fe1e11218f125218189d1dea6e45e7afbf4cb15e",
+  "conclusion": "success",
+  "url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/actions/runs/39259197129",
+  "forward_state_tests": "1 passed, 3 subtests",
+  "pure_at_tests": "17 passed, 39 subtests",
+  "manual_diagnostic_tests": "1 passed, 3 subtests",
+  "inverse_JA": "311 passed",
+  "inverse_ZH": "311 passed",
+  "scope": "Existing CI regression suite; not a new exhaustive corpus audit",
+  "evidence_head_commit": "5739dc63f2b49a78e5afac394d2680edcf383054",
+  "evidence_head_ci": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/actions/runs/39259863230",
+  "evidence_head_conclusion": "success"
+}

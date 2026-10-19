@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "source_HEAD_at_publication": "fe1e11218f125218189d1dea6e45e7afbf4cb15e",
+  "source_HEAD_at_publication": "a9427afff3e1f3e591a36db04bf759d8b6cfcf3e",
   "baseline_commit": "15f9b8aef376109fb0c064d9f4a052f35a58fc52",
   "all_production_hashes_revalidated": true,
   "artifacts": [
@@ -15,6 +15,10 @@
     {
       "file": "audit_bundled_raw_boundary.json",
       "sha256": "e0974b6141192ff90cd4b8e6c30156940ecfe099476f881fd920499b080408d4"
+    },
+    {
+      "file": "audit_observed_downloads.json",
+      "sha256": "44aa1445d1946a3cc5c3ebca1dc9b8a5b61cce8e1b73a3a51b6ddb540818d72a"
     }
   ],
   "scripts": [
@@ -32,17 +36,21 @@
     },
     {
       "file": "publish.py",
-      "sha256": "704a2ae2d16f904f2641b7104cfc4a4b64213cffc8219f7f8dd2550d55cf18d5"
+      "sha256": "38d5d6d57675f7f1718b8df828c30fdbae853eaf970e25218a924402396f3bef"
     },
     {
       "file": "runtime_proof.py",
       "sha256": "38cc28293568e86bf1bf26a9df62e4d54813bef9773cea55e72cf8e4756ad176"
     },
     {
+      "file": "verify_browser_zip.py",
+      "sha256": "5db1f98d9c0441b3d4ff8fe01a6ab256d3ee50fcc406cf526a998f4fcad22a54"
+    },
+    {
       "file": "verify_observed_downloads.py",
-      "sha256": "c4941985f2c17a469f3dcaea24ef0f9d432577c3f5aa4133b00cddadaa01f786"
+      "sha256": "71961866e603243e9ac5d753f3192c80f2502e2ff55cf412527be0a3e9885920"
     }
   ],
-  "network_observed_downloads_included": false,
+  "network_observed_downloads_included": true,
   "scope": "Source/data/payload equivalence and local bundled-versus-raw behavior. AppTest and Cloud/native-download evidence are maintained separately."
 }
