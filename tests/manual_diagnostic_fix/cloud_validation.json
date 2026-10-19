@@ -1,0 +1,865 @@
+{
+  "passed": true,
+  "deployed_source_commit": "f42a3654763d8bf01018cd9f68067402b373b1a8",
+  "manual_queries": 12,
+  "manual_preview_comparisons": 24,
+  "manual_diagnostic_comparisons": 24,
+  "footer_links": 9,
+  "edition_switch_input_preservation": 3,
+  "download_counts": {
+    "forward": 18,
+    "plain": 4,
+    "html": 24,
+    "html_cloud": 4
+  },
+  "total_downloads": 50,
+  "manual": [
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "greganta",
+      "diagnostics": [
+        "greg/ant/a",
+        "群ᴳ/在/a"
+      ],
+      "preview_sha256": [
+        "524665eae5698a6c4488a5caf8dea20c47ec46d6e842201a2e71ddc117ffba74",
+        "e12225959e24a7c4df27e3a16698b2c94baee1b61eee477c1a8a525903341ec5"
+      ],
+      "passed": true,
+      "snapshot": "manual_JA_current_single.txt"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "input": "greganta preganta kordonita @greganta@ @preganta@ @kordonita@ semajno lasis testikito orkidita",
+      "diagnostics": [
+        "greg/ant/a/preg/ant/a/kordonita/greg/ant/a/preg/ant/a/kordon/it/a/semajn/o/las/is/testik/it/o/orkid/it/a",
+        "群ᴳ/在/a/压ᴾᴳ/在/a/kordonita/群ᴳ/在/a/压ᴾᴳ/在/a/带ᴷ/受/a/周/o/放/is/丸ᵀ/炎ᵀ/o/兰/炎ᵀ/a"
+      ],
+      "preview_sha256": [
+        "3851c9f80b77b4b5708c5cf3d18e5c5e464005940ee479ef248b6b48d6ebdd8b",
+        "1438aa58da11ec69e0c82472fa5840a21ac4cd54ee1aa8337d0b3d3201669cc7"
+      ],
+      "passed": true,
+      "snapshot": "manual_JA_current_group.txt"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "greganta preganta kordonita @greganta@ @preganta@ @kordonita@ semajno lasis testikito orkidita",
+      "diagnostics": [
+        "greg/ant/a/preg/ant/a/kordonita/greg/ant/a/preg/ant/a/kordon/it/a/semajn/o/las/is/testik/it/o/orkid/it/a",
+        "群ᴳ/在/a/压ᴾᴳ/在/a/kordonita/群ᴳ/在/a/压ᴾᴳ/在/a/带ᴷ/受/a/周/o/放/is/丸ᵀ/炎ᵀ/o/兰/炎ᵀ/a"
+      ],
+      "preview_sha256": [
+        "14de7fad16653666cb662addd80e419d90fd32ce7daa0d0a0da3935da7e99d7f",
+        "fdcb67faffc3c2595fd32ae9bf2d5ff8c36ed519cabd499e1a2220b2cdfe94af"
+      ],
+      "passed": true,
+      "snapshot": "manual_ZH_current_group.txt"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "greganta preganta kordonita @greganta@ @preganta@ @kordonita@ semajno lasis testikito orkidita",
+      "diagnostics": [
+        "greg/ant/a/preg/ant/a/kordonita/greg/ant/a/preg/ant/a/kordon/it/a/semajn/o/las/is/testik/it/o/orkid/it/a",
+        "群ᴳ/在/a/压ᴾᴳ/在/a/kordonita/群ᴳ/在/a/压ᴾᴳ/在/a/带ᴷ/受/a/周/o/放/is/丸ᵀ/炎ᵀ/o/兰/炎ᵀ/a"
+      ],
+      "preview_sha256": [
+        "cfd348ec9e48de78d91c023cda3f6688b22ad1f8d926c78970bb426932f0caeb",
+        "3d02f2bb69b5b54577acd963ccae2e7c0ea11956f4fad2f283bd490bbaac5220"
+      ],
+      "passed": true,
+      "snapshot": "manual_KO_current_group.txt"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "input": "greganta",
+      "diagnostics": [
+        "greg/ant/a",
+        "群ᴳ/在/a"
+      ],
+      "preview_sha256": [
+        "cb9bc5bcc50bbbdae76aa92ff15d94e1233e1973d854fdc224f48ad9b019612f",
+        "a12e49b7c4e51055af470a4cc6ee4c8e55beb6ff4995ade7737fdb8c85865ed6"
+      ],
+      "passed": true,
+      "snapshot": "manual_ZH_current_single.txt"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "input": "greganta",
+      "diagnostics": [
+        "greg/ant/a",
+        "群ᴳ/在/a"
+      ],
+      "preview_sha256": [
+        "f6b76a065f4f78925fa4585e3976009c44c06a7038d0d5bd8c0fc8af60eebc46",
+        "04255b07a1cc5a75c538e436f6bf899d11a14ace67cf6d8f90a950f3b65ad91f"
+      ],
+      "passed": true,
+      "snapshot": "manual_KO_current_single.txt"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "greganta preganta kordonita @greganta@ @preganta@ @kordonita@ semajno lasis testikito orkidita",
+      "diagnostics": [
+        "greg/ant/a/preg/ant/a/kordonita/greg/ant/a/preg/ant/a/kordon/it/a/semajn/o/las/is/testik/it/o/orkid/it/a",
+        "群ᴳ/在/a/压ᴾᴳ/在/a/kordonita/群ᴳ/在/a/压ᴾᴳ/在/a/带ᴷ/受/a/周/o/留/is/丸ᵀ/炎ᵀ/o/兰/炎ᵀ/a"
+      ],
+      "preview_sha256": [
+        "3851c9f80b77b4b5708c5cf3d18e5c5e464005940ee479ef248b6b48d6ebdd8b",
+        "4cec03a3ade4f50a6b82db2c4580b64cc332f04b476069bf74dc929ed209757f"
+      ],
+      "passed": true,
+      "snapshot": "manual_JA_legacy_group.txt"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "greganta preganta kordonita @greganta@ @preganta@ @kordonita@ semajno lasis testikito orkidita",
+      "diagnostics": [
+        "greg/ant/a/preg/ant/a/kordonita/greg/ant/a/preg/ant/a/kordon/it/a/semajn/o/las/is/testik/it/o/orkid/it/a",
+        "群ᴳ/在/a/压ᴾᴳ/在/a/kordonita/群ᴳ/在/a/压ᴾᴳ/在/a/带ᴷ/受/a/周/o/留/is/丸ᵀ/炎ᵀ/o/兰/炎ᵀ/a"
+      ],
+      "preview_sha256": [
+        "14de7fad16653666cb662addd80e419d90fd32ce7daa0d0a0da3935da7e99d7f",
+        "860c0d997b82e9df0d5dca0546984a549223c7b125b7de11004f5744699bd179"
+      ],
+      "passed": true,
+      "snapshot": "manual_ZH_legacy_group.txt"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "greganta preganta kordonita @greganta@ @preganta@ @kordonita@ semajno lasis testikito orkidita",
+      "diagnostics": [
+        "greg/ant/a/preg/ant/a/kordonita/greg/ant/a/preg/ant/a/kordon/it/a/semajn/o/las/is/testik/it/o/orkid/it/a",
+        "群ᴳ/在/a/压ᴾᴳ/在/a/kordonita/群ᴳ/在/a/压ᴾᴳ/在/a/带ᴷ/受/a/周/o/留/is/丸ᵀ/炎ᵀ/o/兰/炎ᵀ/a"
+      ],
+      "preview_sha256": [
+        "cfd348ec9e48de78d91c023cda3f6688b22ad1f8d926c78970bb426932f0caeb",
+        "1f26435b05f51d0a674537120c85fb93fdcf5c762d35ed820b8ed2b950d6d40f"
+      ],
+      "passed": true,
+      "snapshot": "manual_KO_legacy_group.txt"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "input": "greganta",
+      "diagnostics": [
+        "greg/ant/a",
+        "群ᴳ/在/a"
+      ],
+      "preview_sha256": [
+        "524665eae5698a6c4488a5caf8dea20c47ec46d6e842201a2e71ddc117ffba74",
+        "e12225959e24a7c4df27e3a16698b2c94baee1b61eee477c1a8a525903341ec5"
+      ],
+      "passed": true,
+      "snapshot": "manual_JA_legacy_single.txt"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "input": "greganta",
+      "diagnostics": [
+        "greg/ant/a",
+        "群ᴳ/在/a"
+      ],
+      "preview_sha256": [
+        "cb9bc5bcc50bbbdae76aa92ff15d94e1233e1973d854fdc224f48ad9b019612f",
+        "a12e49b7c4e51055af470a4cc6ee4c8e55beb6ff4995ade7737fdb8c85865ed6"
+      ],
+      "passed": true,
+      "snapshot": "manual_ZH_legacy_single.txt"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "input": "greganta",
+      "diagnostics": [
+        "greg/ant/a",
+        "群ᴳ/在/a"
+      ],
+      "preview_sha256": [
+        "f6b76a065f4f78925fa4585e3976009c44c06a7038d0d5bd8c0fc8af60eebc46",
+        "04255b07a1cc5a75c538e436f6bf899d11a14ace67cf6d8f90a950f3b65ad91f"
+      ],
+      "passed": true,
+      "snapshot": "manual_KO_legacy_single.txt"
+    }
+  ],
+  "links": [
+    {
+      "language": "ZH",
+      "urls": [
+        "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+        "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E8%AF%8D%E6%A0%B9%E5%88%86%E8%A7%A3%E7%9A%84%E6%89%8B%E5%8A%A8%E6%A0%A1%E6%AD%A3",
+        "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E6%95%B0%E6%8D%AE%E4%B8%8B%E8%BD%BD",
+        "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/#ruby",
+        "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/#18fdd575",
+        "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/#ligilo-oj-url-oj",
+        "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/#japana-cina-korea",
+        "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+        "https://esperanto-cjk-revision-zh-20261017.streamlit.app/",
+        "https://esperanto-cjk-revision-ko-20261017.streamlit.app/",
+        "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/#git-hub-deponejo-fontkodo-and-uzadaj-instrukcioj"
+      ],
+      "passed": true
+    },
+    {
+      "language": "KO",
+      "urls": [
+        "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+        "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%96%B4%EA%B7%BC_%EB%B6%84%ED%95%B4_%EC%88%98%EB%8F%99_%EB%B3%B4%EC%A0%95",
+        "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/%EC%B5%9C%EC%8B%A0_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C",
+        "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/#48139bde",
+        "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/#b041db1e",
+        "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/#ligilo-oj-url-oj",
+        "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/#japana-cina-korea",
+        "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+        "https://esperanto-cjk-revision-zh-20261017.streamlit.app/",
+        "https://esperanto-cjk-revision-ko-20261017.streamlit.app/",
+        "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/#git-hub-deponejo-fontkodo-and-uzadaj-instrukcioj"
+      ],
+      "passed": true
+    },
+    {
+      "language": "JA",
+      "urls": [
+        "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+        "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E8%AA%9E%E6%A0%B9%E5%88%86%E8%A7%A3%E3%81%AE%E6%89%8B%E5%8B%95%E8%A3%9C%E6%AD%A3",
+        "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89",
+        "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/#e71363a0",
+        "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/#2276abc3",
+        "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/%E8%AA%9E%E6%A0%B9%E5%88%86%E8%A7%A3%E3%81%AE%E6%89%8B%E5%8B%95%E8%A3%9C%E6%AD%A3",
+        "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/#ligilo-oj-url-oj",
+        "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/#japana-cina-korea",
+        "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+        "https://esperanto-cjk-revision-zh-20261017.streamlit.app/",
+        "https://esperanto-cjk-revision-ko-20261017.streamlit.app/",
+        "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/#git-hub-deponejo-fontkodo-and-uzadaj-instrukcioj"
+      ],
+      "passed": true
+    }
+  ],
+  "downloads": [
+    {
+      "kind": "plain",
+      "inverse_language": "JA",
+      "edition": "current",
+      "passed": true,
+      "sha256": "0bf28e75507ea4415389c2b51e429857c5406a92ec6fbde541c088c111306c51",
+      "phase": "before merge; unchanged inverse app",
+      "file": "plain_JA_current.txt"
+    },
+    {
+      "kind": "plain",
+      "inverse_language": "JA",
+      "edition": "legacy",
+      "phase": "before merge; unchanged inverse app",
+      "passed": true,
+      "sha256": "95c4372dee89c27b7b875461f0d09a6d04d64c65df12035c94a918ab232d0c6c",
+      "file": "plain_JA_legacy.txt"
+    },
+    {
+      "kind": "plain",
+      "inverse_language": "ZH",
+      "edition": "current",
+      "phase": "before merge; unchanged inverse app",
+      "passed": true,
+      "sha256": "0bf28e75507ea4415389c2b51e429857c5406a92ec6fbde541c088c111306c51",
+      "file": "plain_ZH_current.txt"
+    },
+    {
+      "kind": "plain",
+      "inverse_language": "ZH",
+      "edition": "legacy",
+      "phase": "before merge; unchanged inverse app",
+      "passed": true,
+      "sha256": "95c4372dee89c27b7b875461f0d09a6d04d64c65df12035c94a918ab232d0c6c",
+      "file": "plain_ZH_legacy.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "JA",
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input_sha256": "ce880825aa71d050ae65562d1c0124bf0163c692df76bef0971d11feab5cb059",
+      "input_origin": "full-production local standard HTML",
+      "phase": "before merge; unchanged inverse app",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_JA_from_JA_current_kanji.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "JA",
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input_sha256": "de9d543e9975b4306b6c8528bb7b795c57f8d2ff71a080f806cdb41c3c315de3",
+      "input_origin": "full-production local standard HTML",
+      "phase": "before merge; unchanged inverse app",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_JA_from_JA_current_ruby.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "JA",
+      "forward_language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input_sha256": "96f85a27874da5d9c302170f49f2e8bcca9d5f9a7483423706bf012e2d6541cb",
+      "input_origin": "full-production local standard HTML",
+      "phase": "before merge; unchanged inverse app",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_JA_from_JA_legacy_kanji.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "JA",
+      "forward_language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input_sha256": "de9d543e9975b4306b6c8528bb7b795c57f8d2ff71a080f806cdb41c3c315de3",
+      "input_origin": "full-production local standard HTML",
+      "phase": "before merge; unchanged inverse app",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_JA_from_JA_legacy_ruby.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "ZH",
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input_sha256": "ce880825aa71d050ae65562d1c0124bf0163c692df76bef0971d11feab5cb059",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_ZH_from_JA_current_kanji.txt"
+    },
+    {
+      "kind": "forward",
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "phase": "after merge",
+      "passed": true,
+      "sha256": "83582ca92284ae878ae5b3d77d76e8d6586a7392badef5f9e9f75a459321b66e",
+      "file": "forward_JA_legacy_pure.txt"
+    },
+    {
+      "kind": "forward",
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "phase": "after merge",
+      "passed": true,
+      "sha256": "83582ca92284ae878ae5b3d77d76e8d6586a7392badef5f9e9f75a459321b66e",
+      "file": "forward_ZH_legacy_pure.txt"
+    },
+    {
+      "kind": "forward",
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "phase": "after merge",
+      "passed": true,
+      "sha256": "83582ca92284ae878ae5b3d77d76e8d6586a7392badef5f9e9f75a459321b66e",
+      "file": "forward_KO_legacy_pure.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "ZH",
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input_sha256": "de9d543e9975b4306b6c8528bb7b795c57f8d2ff71a080f806cdb41c3c315de3",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_ZH_from_JA_current_ruby.txt"
+    },
+    {
+      "kind": "forward",
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "passed": true,
+      "file": "forward_JA_legacy_kanji.html",
+      "sha256": "4451f58de7b8bbf40cb9bd8b09cd50baf96cd50fecef967cbc19d2f5154ad589",
+      "content_sha256": "96f85a27874da5d9c302170f49f2e8bcca9d5f9a7483423706bf012e2d6541cb",
+      "metadata_signature": "a388a5cc6d3e1ed70f2e0339d072b89dbf68022c28729590f5e105e5e63bcbc7",
+      "phase": "after merge"
+    },
+    {
+      "kind": "forward",
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "passed": true,
+      "file": "forward_ZH_legacy_kanji.html",
+      "sha256": "64234adc533957439d93b3ef7bd357acf6f0c283ae177f8677eae134280aeccf",
+      "content_sha256": "5e10b4fd93dd05868442dfe1fa58f5a1ab55005c5ce42905e2a8804cafce54d9",
+      "metadata_signature": "e5db5889931fc144b11f31c892b3edb1b367edc0d50e604477cafcf93e29afe5",
+      "phase": "after merge"
+    },
+    {
+      "kind": "forward",
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "passed": true,
+      "file": "forward_KO_legacy_kanji.html",
+      "sha256": "0ce96a455a15a8f7c9b1c2c7c37280c9c95e47ebac3404bc5a59d03f8ab85fe7",
+      "content_sha256": "3f0567e17b437f68db366c2a809486bbd33994ac888e582631da015c87695564",
+      "metadata_signature": "e6b827dd9e31b04c796162663e8a3c0941823e378691108918cd841d3e0634e5",
+      "phase": "after merge"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "JA",
+      "forward_language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input_sha256": "0b6a0685b4d0ebfcb5ddac23bc93181305117f43d881eeb518db2015373589dc",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_JA_from_ZH_current_kanji.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "ZH",
+      "forward_language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input_sha256": "0b6a0685b4d0ebfcb5ddac23bc93181305117f43d881eeb518db2015373589dc",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_ZH_from_ZH_current_kanji.txt"
+    },
+    {
+      "kind": "forward",
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "passed": true,
+      "file": "forward_JA_legacy_ruby.html",
+      "sha256": "2ffd928fa1140a6daf8adab4a917cdb6e08468bd779b294c3afaa8d17f8c61fd",
+      "content_sha256": "de9d543e9975b4306b6c8528bb7b795c57f8d2ff71a080f806cdb41c3c315de3",
+      "metadata_signature": "c82bbbd454bad25f097fffbf4d6f16a8fd468e6284b0f1b2f984daee76e31d41",
+      "phase": "after merge"
+    },
+    {
+      "kind": "forward",
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "passed": true,
+      "file": "forward_ZH_legacy_ruby.html",
+      "sha256": "1cde2123c24b287a47dc9d25979a5446e3802bd07eb901cecb963330df383b38",
+      "content_sha256": "be29d07ff09f912e64f4794a54678751794889db49c5a51bf36a4307cbdb9095",
+      "metadata_signature": "423642f232f06cde0b85cb54b7cfe929c8b88d1e478bd4217a98edddb1b86d96",
+      "phase": "after merge"
+    },
+    {
+      "kind": "forward",
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "passed": true,
+      "file": "forward_KO_legacy_ruby.html",
+      "sha256": "c556a2c95fcfaa6192789dd945a2356caea1a0cb3e16d19f7d9b1d7465ff83b3",
+      "content_sha256": "3e8810b60851ec0aae45743916eb1f4a55e230a826fa8c689b3ee23112cba9d5",
+      "metadata_signature": "442c3115efea6e4fef251d17677ca2bd9e21f3de185bcd3c3930912efc6cc29e",
+      "phase": "after merge"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "JA",
+      "forward_language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input_sha256": "be29d07ff09f912e64f4794a54678751794889db49c5a51bf36a4307cbdb9095",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_JA_from_ZH_current_ruby.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "ZH",
+      "forward_language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input_sha256": "be29d07ff09f912e64f4794a54678751794889db49c5a51bf36a4307cbdb9095",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_ZH_from_ZH_current_ruby.txt"
+    },
+    {
+      "kind": "forward",
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "passed": true,
+      "file": "forward_JA_current_ruby.html",
+      "sha256": "f0317d84077be3e923560529fd8dd4c20c60c74070b862de490e49fecb488506",
+      "content_sha256": "de9d543e9975b4306b6c8528bb7b795c57f8d2ff71a080f806cdb41c3c315de3",
+      "metadata_signature": "151b4c46afc4afb9d835f752dc280673a142bcf0e0cf6fc7eb742f77390f993d",
+      "phase": "after merge"
+    },
+    {
+      "kind": "forward",
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "passed": true,
+      "file": "forward_ZH_current_ruby.html",
+      "sha256": "b5b746119df766e96f189fdc0079ce764ede50611dad03b39c70ab7fd5173efa",
+      "content_sha256": "be29d07ff09f912e64f4794a54678751794889db49c5a51bf36a4307cbdb9095",
+      "metadata_signature": "afa313b7d63d0fd2bd1ded229551bfbdcc6b72e8e4e1d15c37299c2bb7d250a3",
+      "phase": "after merge"
+    },
+    {
+      "kind": "forward",
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "passed": true,
+      "file": "forward_KO_current_ruby.html",
+      "sha256": "96d6cae89f2b25182e7c9c863e8164624f9a8367b0a86fc03f4b84f46f81595a",
+      "content_sha256": "3e8810b60851ec0aae45743916eb1f4a55e230a826fa8c689b3ee23112cba9d5",
+      "metadata_signature": "0d1f99e0b7d96e9c110c0a006a63c13c52aa991055aa8cc5ff7a44fd18811053",
+      "phase": "after merge"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "JA",
+      "forward_language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input_sha256": "5e10b4fd93dd05868442dfe1fa58f5a1ab55005c5ce42905e2a8804cafce54d9",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_JA_from_ZH_legacy_kanji.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "ZH",
+      "forward_language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input_sha256": "5e10b4fd93dd05868442dfe1fa58f5a1ab55005c5ce42905e2a8804cafce54d9",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_ZH_from_ZH_legacy_kanji.txt"
+    },
+    {
+      "kind": "forward",
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "passed": true,
+      "file": "forward_JA_current_kanji.html",
+      "sha256": "0baa77c2fb412e4ae0dc81a367ebe1a7ffd017d2489cef325293e2ad634871fe",
+      "content_sha256": "ce880825aa71d050ae65562d1c0124bf0163c692df76bef0971d11feab5cb059",
+      "metadata_signature": "7e625049aea62ace47547e33a8eac32ae6c5f289905d7bc73799e2ed0225203a",
+      "phase": "after merge"
+    },
+    {
+      "kind": "forward",
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "passed": true,
+      "file": "forward_ZH_current_kanji.html",
+      "sha256": "30daf6b70702ab9a86fb8d86145afd9fae37a5d1c4146fb96b1f6a9618fd085e",
+      "content_sha256": "0b6a0685b4d0ebfcb5ddac23bc93181305117f43d881eeb518db2015373589dc",
+      "metadata_signature": "5efa37ebabfdbd291c31feed7e15ccc6076b4b015b348726553eabf13713de62",
+      "phase": "after merge"
+    },
+    {
+      "kind": "forward",
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "passed": true,
+      "file": "forward_KO_current_kanji.html",
+      "sha256": "352b64303a8d7bdd2dd1f1ef2dc132421ee62b4fe761260e0fc78f2367aacd10",
+      "content_sha256": "62e1eee5e908661ec52cf4a74a2b5b9a4599e22a8eb0d570b0e06ea44eee749e",
+      "metadata_signature": "56446cd1c42f58b3eee20ab302823f398431e83c033d85c8dc3288304cc9bb39",
+      "phase": "after merge"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "JA",
+      "forward_language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input_sha256": "be29d07ff09f912e64f4794a54678751794889db49c5a51bf36a4307cbdb9095",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_JA_from_ZH_legacy_ruby.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "ZH",
+      "forward_language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input_sha256": "be29d07ff09f912e64f4794a54678751794889db49c5a51bf36a4307cbdb9095",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_ZH_from_ZH_legacy_ruby.txt"
+    },
+    {
+      "kind": "forward",
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "phase": "after merge",
+      "passed": true,
+      "sha256": "8e77961dd05f02b730046cb9da65ef1abca71fb5447787ebbdb36361da1a259a",
+      "file": "forward_JA_current_pure.txt"
+    },
+    {
+      "kind": "forward",
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "phase": "after merge",
+      "passed": true,
+      "sha256": "8e77961dd05f02b730046cb9da65ef1abca71fb5447787ebbdb36361da1a259a",
+      "file": "forward_ZH_current_pure.txt"
+    },
+    {
+      "kind": "forward",
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "phase": "after merge",
+      "passed": true,
+      "sha256": "8e77961dd05f02b730046cb9da65ef1abca71fb5447787ebbdb36361da1a259a",
+      "file": "forward_KO_current_pure.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "JA",
+      "forward_language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input_sha256": "62e1eee5e908661ec52cf4a74a2b5b9a4599e22a8eb0d570b0e06ea44eee749e",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_JA_from_KO_current_kanji.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "ZH",
+      "forward_language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input_sha256": "62e1eee5e908661ec52cf4a74a2b5b9a4599e22a8eb0d570b0e06ea44eee749e",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_ZH_from_KO_current_kanji.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "JA",
+      "forward_language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input_sha256": "3e8810b60851ec0aae45743916eb1f4a55e230a826fa8c689b3ee23112cba9d5",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_JA_from_KO_current_ruby.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "ZH",
+      "forward_language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input_sha256": "3e8810b60851ec0aae45743916eb1f4a55e230a826fa8c689b3ee23112cba9d5",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_ZH_from_KO_current_ruby.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "JA",
+      "forward_language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input_sha256": "3f0567e17b437f68db366c2a809486bbd33994ac888e582631da015c87695564",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_JA_from_KO_legacy_kanji.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "ZH",
+      "forward_language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input_sha256": "3f0567e17b437f68db366c2a809486bbd33994ac888e582631da015c87695564",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_ZH_from_KO_legacy_kanji.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "JA",
+      "forward_language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input_sha256": "3e8810b60851ec0aae45743916eb1f4a55e230a826fa8c689b3ee23112cba9d5",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_JA_from_KO_legacy_ruby.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "ZH",
+      "forward_language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input_sha256": "3e8810b60851ec0aae45743916eb1f4a55e230a826fa8c689b3ee23112cba9d5",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_ZH_from_KO_legacy_ruby.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "ZH",
+      "forward_language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input_sha256": "96f85a27874da5d9c302170f49f2e8bcca9d5f9a7483423706bf012e2d6541cb",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_ZH_from_JA_legacy_kanji.txt"
+    },
+    {
+      "kind": "html_cloud",
+      "inverse_language": "JA",
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input_sha256": "0baa77c2fb412e4ae0dc81a367ebe1a7ffd017d2489cef325293e2ad634871fe",
+      "input_origin": "actual newly downloaded Cloud HTML including edition metadata",
+      "phase": "after merge",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_cloud_JA_from_JA_current_kanji.txt"
+    },
+    {
+      "kind": "html",
+      "inverse_language": "ZH",
+      "forward_language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input_sha256": "de9d543e9975b4306b6c8528bb7b795c57f8d2ff71a080f806cdb41c3c315de3",
+      "input_origin": "full-production local standard HTML",
+      "phase": "unchanged inverse app during deployment verification",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_ZH_from_JA_legacy_ruby.txt"
+    },
+    {
+      "kind": "html_cloud",
+      "inverse_language": "ZH",
+      "forward_language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input_sha256": "0baa77c2fb412e4ae0dc81a367ebe1a7ffd017d2489cef325293e2ad634871fe",
+      "input_origin": "actual newly downloaded Cloud HTML including edition metadata",
+      "phase": "after merge",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_cloud_ZH_from_JA_current_kanji.txt"
+    },
+    {
+      "kind": "html_cloud",
+      "inverse_language": "JA",
+      "forward_language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input_sha256": "c556a2c95fcfaa6192789dd945a2356caea1a0cb3e16d19f7d9b1d7465ff83b3",
+      "input_origin": "actual newly downloaded Cloud HTML including edition metadata",
+      "phase": "after merge",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_cloud_JA_from_KO_legacy_ruby.txt"
+    },
+    {
+      "kind": "html_cloud",
+      "inverse_language": "ZH",
+      "forward_language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input_sha256": "c556a2c95fcfaa6192789dd945a2356caea1a0cb3e16d19f7d9b1d7465ff83b3",
+      "input_origin": "actual newly downloaded Cloud HTML including edition metadata",
+      "phase": "after merge",
+      "passed": true,
+      "sha256": "f1787c65735fd7a0d16a84652c842b98d2a195545d533939e49d287bbdc83ae0",
+      "file": "html_cloud_ZH_from_KO_legacy_ruby.txt"
+    }
+  ],
+  "method": "Actual connected Chrome operations.12 manual queries compare displayed diagnostics and both iframe srcdoc bytes to independent AppTest expectations.18 forward Cloud downloads match full production expected contents;12 HTML downloads also retain matching edition metadata.4 plain inverse checks used expected pure output matching subsequent Cloud downloads.24 standard-HTML inverse checks paste full-production locally generated documents;4 further checks use newly downloaded Cloud HTML including edition metadata. All50 actual downloaded files are byte-checked. Full finite corpus audit is separate local work.",
+  "notes": [
+    "No Cloud file upload tests in this task; HTML source pasted.",
+    "Automatic Chrome wrapper showed loading; observed app iframe URLs used, consistent with earlier verified wrapper behavior.",
+    "Initial asynchronous UI waits and two HTML download captures required retry; completed records contain successful real file reads.",
+    "No source/data edits beyond approved6 app UI files."
+  ]
+}
