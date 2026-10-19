@@ -26,6 +26,7 @@ from esp_text_replacement_module import (
 )
 from esp_replacement_json_make_module import convert_to_circumflex
 import esp_overlay_module as ov
+import esp_manual_draft as drafts
 
 DATA = DATA_DIR
 RUBY_JSON = os.path.join(DATA_DIR, '置換リスト_ルビ.json')
@@ -107,6 +108,7 @@ word_in = st.text_input("단어 입력 (예: sporti)", key="word_probe").strip()
 if st.button("현재 분해 보기") and word_in:
     w = convert_to_circumflex(word_in).lower()
     try:
+        _probe_context = drafts.begin_diagnosis(DATA, assignment_edition)
         _hr = _render_probe(w, RUBY_JSON, RUBY_FMT, "ruby")
         _hk = _render_probe(w, KANJI_JSON, KANJI_FMT, "kanji")
         rb = _decompose(w, RUBY_JSON, RUBY_FMT, "ruby", _hr)
@@ -122,14 +124,16 @@ if st.button("현재 분해 보기") and word_in:
             _components.html(_hf(_hk, KANJI_FMT), height=90, scrolling=True)
         st.session_state["probe_word"] = w
         st.session_state["probe_ruby"] = rb
+        if not drafts.remember_diagnosis(DATA, assignment_edition, w, rb, _probe_context):
+            st.info(drafts.LABELS[editions.language(DATA_DIR)]["context_changed"])
     except Exception as e:
         st.error(f"분해 확인 실패: {e}")
 
 # ============ 2) 올바른 분해 입력 후 저장 ============
 st.header("2. 올바른 분해를 입력하여 보정 저장")
-default_decomp = st.session_state.get("probe_ruby", "")
+drafts.render_import_control(DATA, assignment_edition)
 decomp_in = st.text_input(
-    "올바른 분해 (슬래시 구분, 예: sport/i)", value=default_decomp, key="decomp_in"
+    "올바른 분해 (슬래시 구분, 예: sport/i)", key="decomp_in", on_change=drafts.remember_draft
 ).strip()
 
 if decomp_in:

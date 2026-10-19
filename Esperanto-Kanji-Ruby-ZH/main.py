@@ -68,6 +68,7 @@ st.write("---")
 assignment_edition = editions.select_edition(DATA_DIR)
 _custom_json_sha = None
 _bundled_json_path = None
+_bundled_html_ruby_mode = None
 
 selected_option = input_state.persistent_radio(
     "选择转换模式:",
@@ -97,6 +98,7 @@ replacements_list_for_localized_string: List[Tuple[str, str, str]] = []
 replacements_list_for_2char: List[Tuple[str, str, str]] = []
 
 if selected_option == "📖 注释Ruby（词根上方显示中文注释）":
+    _bundled_html_ruby_mode = "annotation"
     default_json_path = os.path.join(DATA_DIR, '置換リスト_ルビ.json')
     _bundled_json_path = default_json_path
     try:
@@ -106,6 +108,7 @@ if selected_option == "📖 注释Ruby（词根上方显示中文注释）":
         st.error(f"读取默认 JSON 文件时出错: {e}")
         st.stop()
 elif selected_option == "🈶 汉字化（汉字＋词根Ruby）":
+    _bundled_html_ruby_mode = "kanji"
     kanji_json_path = editions.resolve_path(DATA_DIR, "kanji", assignment_edition)
     _bundled_json_path = kanji_json_path
     try:
@@ -476,7 +479,9 @@ if st.session_state.get("result_html") and _matching_result:
 
     _extension = "html" if st.session_state.get("result_is_html") else "txt"
     download_name = editions.download_filename(os.path.splitext(download_name)[0], _result_meta, _extension)
-    _download_text = (editions.html_download_metadata(_result_meta) if _extension == "html" else "") + current_html
+    _download_text = (editions.html_download_document(
+        _result_meta, current_html, st.session_state["result_html"], _bundled_html_ruby_mode,
+    ) if _extension == "html" else current_html)
     download_data = _download_text.encode('utf-8')
     if st.button("确认保存内容", key="confirm_download"):
         input_state.confirm_download(

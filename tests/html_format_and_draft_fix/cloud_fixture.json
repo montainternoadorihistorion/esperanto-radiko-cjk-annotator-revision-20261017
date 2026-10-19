@@ -1,0 +1,8 @@
+{
+  "source": "lasis @semajno@ testikito @orkidita@\n  %放 <b>&amp;</b> @literala@% fino\n\n",
+  "expected_original": "lasis semajno testikito orkidita\n  放 <b>&amp;</b> @literala@ fino\n\n",
+  "manual_probe": "greganta",
+  "manual_decomposition": "greg/ant/a",
+  "existing_draft": "las/is",
+  "notes": "Synthetic UI verification input; marker delimiters are consumed while protected contents and whitespace are preserved."
+}

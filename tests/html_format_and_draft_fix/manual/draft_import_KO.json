@@ -1,0 +1,190 @@
+{
+  "passed": true,
+  "language": "KO",
+  "rows": [
+    {
+      "edition": "current",
+      "scenario": "initial_empty",
+      "draft": "",
+      "import_enabled": false
+    },
+    {
+      "edition": "current",
+      "scenario": "greganta_diagnosis_does_not_fill",
+      "draft": "",
+      "import_enabled": true
+    },
+    {
+      "edition": "current",
+      "scenario": "greganta_explicit_import",
+      "draft": "greg/ant/a",
+      "import_enabled": false
+    },
+    {
+      "edition": "current",
+      "scenario": "existing_draft_kept_after_new_diagnosis",
+      "draft": "greg/ant/a",
+      "import_enabled": false
+    },
+    {
+      "edition": "current",
+      "scenario": "clear_allows_current_preganta_diagnosis",
+      "draft": "",
+      "import_enabled": true
+    },
+    {
+      "edition": "current",
+      "scenario": "preganta_explicit_import",
+      "draft": "preg/ant/a",
+      "import_enabled": false
+    },
+    {
+      "edition": "current",
+      "scenario": "whitespace_is_an_existing_draft",
+      "draft": " ",
+      "import_enabled": false
+    },
+    {
+      "edition": "current",
+      "scenario": "changed_word_requires_new_diagnosis",
+      "draft": "",
+      "import_enabled": false
+    },
+    {
+      "edition": "current",
+      "scenario": "changed_edition_requires_new_diagnosis",
+      "draft": "",
+      "import_enabled": false
+    },
+    {
+      "edition": "current",
+      "scenario": "changed_data_rejects_old_diagnosis",
+      "draft": "",
+      "import_enabled": false
+    },
+    {
+      "edition": "current",
+      "scenario": "changed_effective_corrections_reject_old_diagnosis",
+      "draft": "",
+      "import_enabled": false
+    },
+    {
+      "edition": "current",
+      "scenario": "marked_text_is_not_a_single_word_candidate",
+      "draft": "",
+      "import_enabled": false
+    },
+    {
+      "edition": "current",
+      "scenario": "page_roundtrip_preserves_actual_draft",
+      "draft": "las/is",
+      "import_enabled": false
+    },
+    {
+      "edition": "current",
+      "scenario": "page_roundtrip_never_autofills_old_probe",
+      "draft": "",
+      "import_enabled": false
+    },
+    {
+      "edition": "current",
+      "scenario": "separate_save_creates_session_correction",
+      "word": "greganta",
+      "decomposition": "greg/ant/a"
+    },
+    {
+      "edition": "legacy",
+      "scenario": "initial_empty",
+      "draft": "",
+      "import_enabled": false
+    },
+    {
+      "edition": "legacy",
+      "scenario": "greganta_diagnosis_does_not_fill",
+      "draft": "",
+      "import_enabled": true
+    },
+    {
+      "edition": "legacy",
+      "scenario": "greganta_explicit_import",
+      "draft": "greg/ant/a",
+      "import_enabled": false
+    },
+    {
+      "edition": "legacy",
+      "scenario": "existing_draft_kept_after_new_diagnosis",
+      "draft": "greg/ant/a",
+      "import_enabled": false
+    },
+    {
+      "edition": "legacy",
+      "scenario": "clear_allows_current_preganta_diagnosis",
+      "draft": "",
+      "import_enabled": true
+    },
+    {
+      "edition": "legacy",
+      "scenario": "preganta_explicit_import",
+      "draft": "preg/ant/a",
+      "import_enabled": false
+    },
+    {
+      "edition": "legacy",
+      "scenario": "whitespace_is_an_existing_draft",
+      "draft": " ",
+      "import_enabled": false
+    },
+    {
+      "edition": "legacy",
+      "scenario": "changed_word_requires_new_diagnosis",
+      "draft": "",
+      "import_enabled": false
+    },
+    {
+      "edition": "legacy",
+      "scenario": "changed_edition_requires_new_diagnosis",
+      "draft": "",
+      "import_enabled": false
+    },
+    {
+      "edition": "legacy",
+      "scenario": "changed_data_rejects_old_diagnosis",
+      "draft": "",
+      "import_enabled": false
+    },
+    {
+      "edition": "legacy",
+      "scenario": "changed_effective_corrections_reject_old_diagnosis",
+      "draft": "",
+      "import_enabled": false
+    },
+    {
+      "edition": "legacy",
+      "scenario": "marked_text_is_not_a_single_word_candidate",
+      "draft": "",
+      "import_enabled": false
+    },
+    {
+      "edition": "legacy",
+      "scenario": "page_roundtrip_preserves_actual_draft",
+      "draft": "las/is",
+      "import_enabled": false
+    },
+    {
+      "edition": "legacy",
+      "scenario": "page_roundtrip_never_autofills_old_probe",
+      "draft": "",
+      "import_enabled": false
+    },
+    {
+      "edition": "legacy",
+      "scenario": "separate_save_creates_session_correction",
+      "word": "greganta",
+      "decomposition": "greg/ant/a"
+    }
+  ],
+  "checks": 30,
+  "unchanged_bundled_corrections": true,
+  "helper_sha256": "8d20eafc0ddf0d8a774d6f4085b025b20f486bccc8f80de2fb5aae5481814158",
+  "method": "Real local AppTest controls; only data-update simulation is mocked; no Cloud operation."
+}
