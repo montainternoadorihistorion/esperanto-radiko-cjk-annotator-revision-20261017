@@ -67,6 +67,7 @@ st.write("---")
 # --------------------------------------------------------------------
 assignment_edition = editions.select_edition(DATA_DIR)
 _custom_json_sha = None
+_bundled_json_path = None
 
 selected_option = input_state.persistent_radio(
     "选择转换模式:",
@@ -97,6 +98,7 @@ replacements_list_for_2char: List[Tuple[str, str, str]] = []
 
 if selected_option == "📖 注释Ruby（词根上方显示中文注释）":
     default_json_path = os.path.join(DATA_DIR, '置換リスト_ルビ.json')
+    _bundled_json_path = default_json_path
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(default_json_path)
         st.success("✅ 注释Ruby模式准备就绪。")
@@ -105,6 +107,7 @@ if selected_option == "📖 注释Ruby（词根上方显示中文注释）":
         st.stop()
 elif selected_option == "🈶 汉字化（汉字＋词根Ruby）":
     kanji_json_path = editions.resolve_path(DATA_DIR, "kanji", assignment_edition)
+    _bundled_json_path = kanji_json_path
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(kanji_json_path)
         st.success("✅ 汉字化模式准备就绪（汉字正文·词根Ruby）。")
@@ -113,6 +116,7 @@ elif selected_option == "🈶 汉字化（汉字＋词根Ruby）":
         st.stop()
 elif selected_option == "✂️ 汉字化·纯替换（无标签文本）":
     pure_json_path = editions.resolve_path(DATA_DIR, "pure", assignment_edition)
+    _bundled_json_path = pure_json_path
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(pure_json_path)
         st.success("已读取纯替换版JSON。世界语文本将被转换为无标签的汉字文本(例: amikeco → 友性o)。")
@@ -146,6 +150,10 @@ else:
     else:
         st.warning("尚未上传 JSON 文件，无法继续执行。")
         st.stop()
+
+reviewed_local_decompositions = bool(
+    _bundled_json_path and editions.supports_reviewed_local_decompositions(_bundled_json_path)
+)
 
 # 1.5) 手动校正(轻量 overlay)以最高优先级应用
 #   在「语根分解手动校正」页面保存的校正(app_data/user_corrections.json),
@@ -335,7 +343,8 @@ if submit_btn:
             placeholders_for_localized_replacement=placeholders_for_localized_replacement,
             replacements_final_list=replacements_final_list,
             replacements_list_for_2char=replacements_list_for_2char,
-            format_type=format_type
+            format_type=format_type,
+            reviewed_local_decompositions=reviewed_local_decompositions
         )
     else:
         processed_text = orchestrate_comprehensive_esperanto_text_replacement(
@@ -345,7 +354,8 @@ if submit_btn:
             placeholders_for_localized_replacement=placeholders_for_localized_replacement,
             replacements_final_list=replacements_final_list,
             replacements_list_for_2char=replacements_list_for_2char,
-            format_type=format_type
+            format_type=format_type,
+            reviewed_local_decompositions=reviewed_local_decompositions
         )
 
     # 第1遍若出现「词首单字游离」过度分解(辅音单字游离: fero->f/er/o 等),
@@ -368,7 +378,8 @@ if submit_btn:
                     placeholders_for_localized_replacement=placeholders_for_localized_replacement,
                     replacements_final_list=_GGx,
                     replacements_list_for_2char=replacements_list_for_2char,
-                    format_type=format_type)
+                    format_type=format_type,
+                    reviewed_local_decompositions=reviewed_local_decompositions)
             else:
                 processed_text = orchestrate_comprehensive_esperanto_text_replacement(
                     text=text0,
@@ -377,7 +388,8 @@ if submit_btn:
                     placeholders_for_localized_replacement=placeholders_for_localized_replacement,
                     replacements_final_list=_GGx,
                     replacements_list_for_2char=replacements_list_for_2char,
-                    format_type=format_type)
+                    format_type=format_type,
+                    reviewed_local_decompositions=reviewed_local_decompositions)
     except Exception:
         pass
 

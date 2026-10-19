@@ -1,0 +1,94 @@
+{
+  "passed": true,
+  "language": "ZH",
+  "input": "greganta preganta kordonita\n@greganta@ @preganta@ @kordonita@\nsene kseno",
+  "rows": [
+    {
+      "edition": "current",
+      "mode": "pure",
+      "output_sha256": "3a6d129fbab7740ec1545eae510876affd7b7ca967376be0dc8fa53c84d4de9c",
+      "download_sha256": "3a6d129fbab7740ec1545eae510876affd7b7ca967376be0dc8fa53c84d4de9c",
+      "filename": "转换结果_current_28da12befdea.txt",
+      "mime": "text/plain"
+    },
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "output_sha256": "355be924dab4aa98b6a0827fb4624c8cdcd8bf5f2083a60c7bd023ebc82f341a",
+      "download_sha256": "cca8d563092772fbd6dee18872a5d285cae70f60b844792c63234c8fdbced150",
+      "filename": "转换结果_current_5efa37ebabfd.html",
+      "mime": "text/html"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "output_sha256": "c2afbf88e8c9484213d0fb7650bb3bab6fba875f97cc2c6194c38fe762309e31",
+      "download_sha256": "7cdb9fba32db9993c2a84707411825cb5364caf6f086e70087536b6178e45bd7",
+      "filename": "转换结果_current_afa313b7d63d.html",
+      "mime": "text/html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "pure",
+      "output_sha256": "daa5fd9c3ba2fcd5eaf212461922144400b5f67b74be9ba6428d31bf58c74155",
+      "download_sha256": "daa5fd9c3ba2fcd5eaf212461922144400b5f67b74be9ba6428d31bf58c74155",
+      "filename": "转换结果_legacy_fdf67e271629.txt",
+      "mime": "text/plain"
+    },
+    {
+      "edition": "legacy",
+      "mode": "kanji",
+      "output_sha256": "355be924dab4aa98b6a0827fb4624c8cdcd8bf5f2083a60c7bd023ebc82f341a",
+      "download_sha256": "532fb198c24c59e0290b8c9ae792bb282334714df38d1954e937eb497a068fc2",
+      "filename": "转换结果_legacy_e5db5889931f.html",
+      "mime": "text/html"
+    },
+    {
+      "edition": "legacy",
+      "mode": "ruby",
+      "output_sha256": "c2afbf88e8c9484213d0fb7650bb3bab6fba875f97cc2c6194c38fe762309e31",
+      "download_sha256": "5798e4212c01143d2b6cbb0ba73fac1260a9945d098e0e2a46b6831e3d72d7be",
+      "filename": "转换结果_legacy_423642f232f0.html",
+      "mime": "text/html"
+    },
+    {
+      "edition": "current",
+      "mode": "pure",
+      "output_sha256": "3a6d129fbab7740ec1545eae510876affd7b7ca967376be0dc8fa53c84d4de9c",
+      "download_sha256": "3a6d129fbab7740ec1545eae510876affd7b7ca967376be0dc8fa53c84d4de9c",
+      "filename": "转换结果_current_28da12befdea.txt",
+      "mime": "text/plain"
+    },
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "output_sha256": "355be924dab4aa98b6a0827fb4624c8cdcd8bf5f2083a60c7bd023ebc82f341a",
+      "download_sha256": "5fc23ef7be9da4eba5516ad003686224b70aa7014338c7f7250b5f2f29fa0c74",
+      "filename": "转换结果_current_5efa37ebabfd.html",
+      "mime": "text/html"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "output_sha256": "c2afbf88e8c9484213d0fb7650bb3bab6fba875f97cc2c6194c38fe762309e31",
+      "download_sha256": "4039ceeb058ecd05d3a0485344d9ca89196704bff361839b20bb514b4c4138d4",
+      "filename": "转换结果_current_afa313b7d63d.html",
+      "mime": "text/html"
+    }
+  ],
+  "guards": [
+    "current/pure: changed input cannot save previous output",
+    "current/kanji: changed input cannot save previous output",
+    "current/ruby: changed input cannot save previous output",
+    "edition switch invalidated previous result and retained draft: legacy",
+    "legacy/pure: changed input cannot save previous output",
+    "legacy/kanji: changed input cannot save previous output",
+    "legacy/ruby: changed input cannot save previous output",
+    "edition switch invalidated previous result and retained draft: current",
+    "current/pure: changed input cannot save previous output",
+    "current/kanji: changed input cannot save previous output",
+    "current/ruby: changed input cannot save previous output"
+  ],
+  "saved_corrections_unchanged": true,
+  "method": "Local real Streamlit AppTest; download transport captured; no Cloud claim."
+}

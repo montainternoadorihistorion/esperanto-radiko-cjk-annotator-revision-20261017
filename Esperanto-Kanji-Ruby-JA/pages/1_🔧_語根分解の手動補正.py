@@ -69,7 +69,7 @@ def _decompose(word, json_path, fmt, mode):
     """現在のJSON(＋保存済み補正のオーバーレイ)で word を分解し 'r1/r2/…' を返す。"""
     GL, G2, GG = _load_lists(json_path)
     GG = ov.merge_overlay(GG, ov.load_overlay_entries(DATA, mode, assignment_edition))
-    h = orchestrate_comprehensive_esperanto_text_replacement(" " + word + " ", _PS, GL, _PL, GG, G2, fmt)
+    h = orchestrate_comprehensive_esperanto_text_replacement(" " + word + " ", _PS, GL, _PL, GG, G2, fmt, reviewed_local_decompositions=editions.supports_reviewed_local_decompositions(json_path))
     toks, pos = [], 0
     for mm in re.finditer(r"<ruby>(.*?)<rt[^>]*>.*?</rt></ruby>", h):
         for ch in re.findall(r"[a-zĉĝĥĵŝŭ]+", re.sub(r"<[^>]+>", "", h[pos:mm.start()]), re.I):
@@ -94,7 +94,7 @@ if st.button("現在の分解を見る") and word_in:
             import streamlit.components.v1 as _components
             _GLr, _G2r, _GGr = _load_lists(RUBY_JSON)
             _GGr = ov.merge_overlay(_GGr, ov.load_overlay_entries(DATA, "ruby", assignment_edition))
-            _hr = orchestrate_comprehensive_esperanto_text_replacement(" " + w + " ", _PS, _GLr, _PL, _GGr, _G2r, RUBY_FMT)
+            _hr = orchestrate_comprehensive_esperanto_text_replacement(" " + w + " ", _PS, _GLr, _PL, _GGr, _G2r, RUBY_FMT, reviewed_local_decompositions=editions.supports_reviewed_local_decompositions(RUBY_JSON))
             from esp_text_replacement_module import apply_ruby_html_header_and_footer as _hf
             _components.html(_hf(_hr, RUBY_FMT), height=90, scrolling=True)
         st.session_state["probe_word"] = w

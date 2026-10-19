@@ -1,0 +1,10 @@
+{
+  "date_jst": "2026-10-19",
+  "baseline_commit": "469806409ac3c3cc8f3368bdb24b792cead6f81c",
+  "scope": "Full existing reverter test suites, executed against the working tree after the exact-at forward correction; inverse sources and tables remain unchanged.",
+  "command": "python -B -X utf8 -m pytest -q -p no:cacheprovider",
+  "results": [
+    {"directory": "Esperanto-Reverter-JA", "passed": 311, "failed": 0, "elapsed_seconds": 252.64, "exit_code": 0},
+    {"directory": "Esperanto-Reverter-ZH", "passed": 311, "failed": 0, "elapsed_seconds": 249.61, "exit_code": 0}
+  ]
+}

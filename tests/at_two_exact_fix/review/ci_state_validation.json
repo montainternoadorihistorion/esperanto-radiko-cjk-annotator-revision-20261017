@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "method": "Read-only gh run view 39232476274 --json headSha,conclusion,jobs,url; completed success verified on 2026-10-19.",
+  "source_commit": "cc9e60909cdb4e8ec0f5eea84555d682b53b8091",
+  "workflow_conclusion": "success",
+  "job_name": "forward-input-state",
+  "job_conclusion": "success",
+  "job_url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/actions/runs/39232476274/job/117993483852",
+  "step_name": "Run python -m pytest tests/test_input_result_state_forward.py -q -p no:cacheprovider",
+  "step_conclusion": "success",
+  "step_completed_utc": "2026-10-19T09:52:19Z",
+  "test_file": "tests/test_input_result_state_forward.py",
+  "scope": "The existing suite runs the real JA, ZH and KO forward AppTests in isolated processes. This is CI evidence, separate from local target/context tests and local completed state reports.",
+  "local_duplicate_execution": "JA local state suite completed. ZH local duplicate stopped before final completion after CI success; KO local duplicate omitted. Partial local ZH progress is not counted as a passing report."
+}

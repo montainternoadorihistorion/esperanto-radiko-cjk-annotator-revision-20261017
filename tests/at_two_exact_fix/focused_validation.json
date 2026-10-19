@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "baseline": "469806409ac3c3cc8f3368bdb24b792cead6f81c",
+  "date_jst": "2026-10-19",
+  "command": "python -B -X utf8 tests/test_at_two_exact_fix.py",
+  "test_count": 8,
+  "elapsed_seconds": 153.246,
+  "selected_language_edition_mode_routes": 18,
+  "source_files": [
+    {
+      "path": "Esperanto-Kanji-Ruby-JA/esp_assignment_edition.py",
+      "sha256": "ff0b12bf9edc866f1a97184ffca514808657beb68e3c326d9483d544a9f1a298"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-JA/esp_text_replacement_module.py",
+      "sha256": "f0670480e5865b6df7278f77254978c3e546781079d74de3230e284713c37df2"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-JA/main.py",
+      "sha256": "9d80a743f48a07baa4c3cc314076f0ffe27e5e50e3855ff52a6d1006998d11fd"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py",
+      "sha256": "3b9096edccecca7a42d6a67a4413d95a16d4fb2704a2a8eec9a451d7cc4ff0ff"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
+      "sha256": "ff0b12bf9edc866f1a97184ffca514808657beb68e3c326d9483d544a9f1a298"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-ZH/esp_text_replacement_module.py",
+      "sha256": "d16e3d9f3563844e1647b6026d2deb9f2c354261dbf1b4c054fcf96059cbe925"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-ZH/main.py",
+      "sha256": "175c29722c57f8f0ee1b9349e0b8246fdc0adad912584a097c06f29a43957641"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py",
+      "sha256": "64018583c8efbb01dce7dfcf13f4e032a5f0337fe1176d3ff95fea29b7e810c3"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-KO/esp_assignment_edition.py",
+      "sha256": "ff0b12bf9edc866f1a97184ffca514808657beb68e3c326d9483d544a9f1a298"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-KO/esp_text_replacement_module.py",
+      "sha256": "aa9cfe9fa038797c5671da267ec53aaf657063b80a5306caea60e4e3b78712a3"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-KO/main.py",
+      "sha256": "1e426c15c2e1ba1debde767a153df73584c27f36d7a5dc76ed7a4d2add759cd8"
+    },
+    {
+      "path": "Esperanto-Kanji-Ruby-KO/pages/1_🔧_어근 분해 수동 보정.py",
+      "sha256": "8adea532a86b4e0394ac7146908455b42e41b7e04648e281d0c9334a2dff4be7"
+    }
+  ],
+  "log": "focused_validation.log",
+  "preexisting_resource_warnings": "The unchanged overlay CSV loader emits unclosed-file ResourceWarning messages; all assertions passed.",
+  "plain_inverse_route_assertions": 18,
+  "plain_inverse_word_instances": 54,
+  "html_recovery_route_assertions": 12,
+  "html_recovery_word_instances": 36
+}

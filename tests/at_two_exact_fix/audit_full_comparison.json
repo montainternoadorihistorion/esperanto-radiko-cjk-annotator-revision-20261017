@@ -1,0 +1,4732 @@
+{
+  "passed": true,
+  "baseline_commit": "469806409ac3c3cc8f3368bdb24b792cead6f81c",
+  "runtime_proof_sha256": "1f980100d7cd0e63f1b525c4cc73c7ebd0e41303fccaf1273e738831b1d3689b",
+  "classification_sha256": "2aff2c8caf0228b9e12f96922edb560c8eaa04c8f11c4aade535e5c90fe44ab6",
+  "actual_target_validation_sha256": "8f7c892c6d0cc700ac4ba4f0e2da66ec52b0708072bb0a5b0b35fb055b407ccc",
+  "routes": [
+    {
+      "edition": "current",
+      "language": "JA",
+      "mode": "pure",
+      "saved_rows": 1619039,
+      "unique_inputs": 1619027,
+      "counts": {
+        "total": 1619027,
+        "before_match": 1614360,
+        "after_match": 1614360,
+        "before_mismatch": 4667,
+        "after_mismatch": 4667,
+        "improved": 0,
+        "regressed": 0,
+        "forward_changed": 2,
+        "inverse_changed": 0,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688982,
+          "before_match": 685758,
+          "after_match": 685758,
+          "before_mismatch": 3224,
+          "after_mismatch": 3224,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688982,
+          "before_match": 687686,
+          "after_match": 687686,
+          "before_mismatch": 1296,
+          "after_mismatch": 1296,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 2,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241063,
+          "before_match": 240916,
+          "after_match": 240916,
+          "before_mismatch": 147,
+          "after_mismatch": 147,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [
+        {
+          "origin": "primary",
+          "id": 237246,
+          "input": "@greganta@",
+          "expected": "greganta",
+          "before_output": "g再手套a",
+          "after_output": "群ᴳ在a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 544798,
+          "input": "@preganta@",
+          "expected": "preganta",
+          "before_output": "前ᴾ手套a",
+          "after_output": "压ᴾᴳ在a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "duplicate": false
+        }
+      ],
+      "controls": [
+        {
+          "input": "agreganta",
+          "before_output": "团ᴬ在a",
+          "after_output": "团ᴬ在a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreg@anta",
+          "before_output": "团ᴬ在a",
+          "after_output": "团ᴬ在a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreganta@",
+          "before_output": "团ᴬ在a",
+          "after_output": "团ᴬ在a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "greganta",
+          "before_output": "g治在a",
+          "after_output": "g治在a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greg@anta",
+          "before_output": "群ᴳ在a",
+          "after_output": "群ᴳ在a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greganta@",
+          "before_output": "g再手套a",
+          "after_output": "群ᴳ在a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "kordonita",
+          "before_output": "k令受a",
+          "after_output": "k令受a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordon@ita",
+          "before_output": "带ᴷ受a",
+          "after_output": "带ᴷ受a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordonita@",
+          "before_output": "带ᴷ受a",
+          "after_output": "带ᴷ受a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "kseno",
+          "before_output": "外ᴷˢo",
+          "after_output": "外ᴷˢo",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@ksen@o",
+          "before_output": "外ᴷˢo",
+          "after_output": "外ᴷˢo",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@kseno@",
+          "before_output": "外ᴷˢo",
+          "after_output": "外ᴷˢo",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "ksenulo",
+          "before_output": "外ᴷˢ者o",
+          "after_output": "外ᴷˢ者o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksen@ulo",
+          "before_output": "外ᴷˢ者o",
+          "after_output": "外ᴷˢ者o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksenulo@",
+          "before_output": "外ᴷˢ者o",
+          "after_output": "外ᴷˢ者o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "orkidita",
+          "before_output": "兰炎ᵀa",
+          "after_output": "兰炎ᵀa",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkid@ita",
+          "before_output": "兰受a",
+          "after_output": "兰受a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "before_output": "丸ᴼ炎ᵀa",
+          "after_output": "丸ᴼ炎ᵀa",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "before_output": "丸ᴼ炎ᵀa",
+          "after_output": "丸ᴼ炎ᵀa",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "preganta",
+          "before_output": "p治在a",
+          "after_output": "p治在a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preg@anta",
+          "before_output": "压ᴾᴳ在a",
+          "after_output": "压ᴾᴳ在a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preganta@",
+          "before_output": "前ᴾ手套a",
+          "after_output": "压ᴾᴳ在a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "semajno",
+          "before_output": "周o",
+          "after_output": "周o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "before_output": "周o",
+          "after_output": "周o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "before_output": "周o",
+          "after_output": "周o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "before_output": "s内e",
+          "after_output": "s内e",
+          "before_inverse": [
+            "sene",
+            "sene"
+          ],
+          "after_inverse": [
+            "sene",
+            "sene"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "before_output": "无e",
+          "after_output": "无e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "before_output": "无e",
+          "after_output": "无e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "before_output": "丸ᵀ炎ᵀo",
+          "after_output": "丸ᵀ炎ᵀo",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "before_output": "丸ᵀ炎ᵀo",
+          "after_output": "丸ᵀ炎ᵀo",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "before_output": "丸ᵀ炎ᵀo",
+          "after_output": "丸ᵀ炎ᵀo",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "SEMAJNO",
+          "before_output": "周O",
+          "after_output": "周O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@SEMAJNO@",
+          "before_output": "周O",
+          "after_output": "周O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "Semajno",
+          "before_output": "周o",
+          "after_output": "周o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@Semajno@",
+          "before_output": "周o",
+          "after_output": "周o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        }
+      ],
+      "ordered_input_fingerprint": "7de9970baad4fc3e9d57364f75aa87cffe436cefdb0ac3b54a7c653ab0a9964d",
+      "actual_after_forward_inputs_in_this_corpus": 2,
+      "reused_forward_rows": 1619037,
+      "method": "Ordered fingerprint verifies every complete raw capture row against production-based full input classification. Exact affected inputs use independently rerendered old/new full engine results; all others reuse baseline after non-target/default code and data equivalence proof. Both actual current inverse functions execute for every saved row."
+    },
+    {
+      "edition": "current",
+      "language": "JA",
+      "mode": "kanji",
+      "saved_rows": 1619039,
+      "unique_inputs": 1619027,
+      "counts": {
+        "total": 1619027,
+        "before_match": 1614359,
+        "after_match": 1614359,
+        "before_mismatch": 4668,
+        "after_mismatch": 4668,
+        "improved": 0,
+        "regressed": 0,
+        "forward_changed": 2,
+        "inverse_changed": 0,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688982,
+          "before_match": 685757,
+          "after_match": 685757,
+          "before_mismatch": 3225,
+          "after_mismatch": 3225,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688982,
+          "before_match": 687686,
+          "after_match": 687686,
+          "before_mismatch": 1296,
+          "after_mismatch": 1296,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 2,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241063,
+          "before_match": 240916,
+          "after_match": 240916,
+          "before_mismatch": 147,
+          "after_mismatch": 147,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [
+        {
+          "origin": "primary",
+          "id": 237246,
+          "input": "@greganta@",
+          "expected": "greganta",
+          "before_output": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 544798,
+          "input": "@preganta@",
+          "expected": "preganta",
+          "before_output": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "duplicate": false
+        }
+      ],
+      "controls": [
+        {
+          "input": "agreganta",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreg@anta",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreganta@",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "greganta",
+          "before_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greg@anta",
+          "before_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greganta@",
+          "before_output": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "kordonita",
+          "before_output": "kordonita",
+          "after_output": "kordonita",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordon@ita",
+          "before_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordonita@",
+          "before_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "kseno",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@ksen@o",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@kseno@",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "ksenulo",
+          "before_output": "ksenulo",
+          "after_output": "ksenulo",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksen@ulo",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksenulo@",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "orkidita",
+          "before_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkid@ita",
+          "before_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "before_output": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "after_output": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "before_output": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "after_output": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "preganta",
+          "before_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preg@anta",
+          "before_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preganta@",
+          "before_output": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "semajno",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "before_output": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "after_output": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "before_output": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "after_output": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "before_output": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "after_output": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "SEMAJNO",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@SEMAJNO@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "Semajno",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@Semajno@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        }
+      ],
+      "ordered_input_fingerprint": "7de9970baad4fc3e9d57364f75aa87cffe436cefdb0ac3b54a7c653ab0a9964d",
+      "actual_after_forward_inputs_in_this_corpus": 2,
+      "reused_forward_rows": 1619037,
+      "method": "Ordered fingerprint verifies every complete raw capture row against production-based full input classification. Exact affected inputs use independently rerendered old/new full engine results; all others reuse baseline after non-target/default code and data equivalence proof. Both actual current inverse functions execute for every saved row."
+    },
+    {
+      "edition": "current",
+      "language": "ZH",
+      "mode": "kanji",
+      "saved_rows": 1619039,
+      "unique_inputs": 1619027,
+      "counts": {
+        "total": 1619027,
+        "before_match": 1614359,
+        "after_match": 1614359,
+        "before_mismatch": 4668,
+        "after_mismatch": 4668,
+        "improved": 0,
+        "regressed": 0,
+        "forward_changed": 2,
+        "inverse_changed": 0,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688982,
+          "before_match": 685757,
+          "after_match": 685757,
+          "before_mismatch": 3225,
+          "after_mismatch": 3225,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688982,
+          "before_match": 687686,
+          "after_match": 687686,
+          "before_mismatch": 1296,
+          "after_mismatch": 1296,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 2,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241063,
+          "before_match": 240916,
+          "after_match": 240916,
+          "before_mismatch": 147,
+          "after_mismatch": 147,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [
+        {
+          "origin": "primary",
+          "id": 237246,
+          "input": "@greganta@",
+          "expected": "greganta",
+          "before_output": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 544798,
+          "input": "@preganta@",
+          "expected": "preganta",
+          "before_output": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "duplicate": false
+        }
+      ],
+      "controls": [
+        {
+          "input": "agreganta",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreg@anta",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreganta@",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "greganta",
+          "before_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greg@anta",
+          "before_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greganta@",
+          "before_output": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "kordonita",
+          "before_output": "kordonita",
+          "after_output": "kordonita",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordon@ita",
+          "before_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordonita@",
+          "before_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "kseno",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@ksen@o",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@kseno@",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "ksenulo",
+          "before_output": "ksenulo",
+          "after_output": "ksenulo",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksen@ulo",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksenulo@",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "orkidita",
+          "before_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkid@ita",
+          "before_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "before_output": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "after_output": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "before_output": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "after_output": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "preganta",
+          "before_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preg@anta",
+          "before_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preganta@",
+          "before_output": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "semajno",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "before_output": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "after_output": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "before_output": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "after_output": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "before_output": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "after_output": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "SEMAJNO",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@SEMAJNO@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "Semajno",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@Semajno@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        }
+      ],
+      "ordered_input_fingerprint": "7de9970baad4fc3e9d57364f75aa87cffe436cefdb0ac3b54a7c653ab0a9964d",
+      "actual_after_forward_inputs_in_this_corpus": 2,
+      "reused_forward_rows": 1619037,
+      "method": "Ordered fingerprint verifies every complete raw capture row against production-based full input classification. Exact affected inputs use independently rerendered old/new full engine results; all others reuse baseline after non-target/default code and data equivalence proof. Both actual current inverse functions execute for every saved row."
+    },
+    {
+      "edition": "current",
+      "language": "KO",
+      "mode": "kanji",
+      "saved_rows": 1619039,
+      "unique_inputs": 1619027,
+      "counts": {
+        "total": 1619027,
+        "before_match": 1614359,
+        "after_match": 1614359,
+        "before_mismatch": 4668,
+        "after_mismatch": 4668,
+        "improved": 0,
+        "regressed": 0,
+        "forward_changed": 2,
+        "inverse_changed": 0,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688982,
+          "before_match": 685757,
+          "after_match": 685757,
+          "before_mismatch": 3225,
+          "after_mismatch": 3225,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688982,
+          "before_match": 687686,
+          "after_match": 687686,
+          "before_mismatch": 1296,
+          "after_mismatch": 1296,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 2,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241063,
+          "before_match": 240916,
+          "after_match": 240916,
+          "before_mismatch": 147,
+          "after_mismatch": 147,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [
+        {
+          "origin": "primary",
+          "id": 237246,
+          "input": "@greganta@",
+          "expected": "greganta",
+          "before_output": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 544798,
+          "input": "@preganta@",
+          "expected": "preganta",
+          "before_output": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "duplicate": false
+        }
+      ],
+      "controls": [
+        {
+          "input": "agreganta",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreg@anta",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreganta@",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "greganta",
+          "before_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greg@anta",
+          "before_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greganta@",
+          "before_output": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "kordonita",
+          "before_output": "kordonita",
+          "after_output": "kordonita",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordon@ita",
+          "before_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordonita@",
+          "before_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "kseno",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@ksen@o",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@kseno@",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "ksenulo",
+          "before_output": "ksenulo",
+          "after_output": "ksenulo",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksen@ulo",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksenulo@",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "orkidita",
+          "before_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkid@ita",
+          "before_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "before_output": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "after_output": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "before_output": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "after_output": "<ruby>丸ᴼ炎ᵀ<rt class=\"XXL_L\">orkidit</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "preganta",
+          "before_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preg@anta",
+          "before_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preganta@",
+          "before_output": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "semajno",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "before_output": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "after_output": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "before_output": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "after_output": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "before_output": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "after_output": "<ruby>丸ᵀ炎ᵀ<rt class=\"XXL_L\">testikit</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "SEMAJNO",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@SEMAJNO@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "Semajno",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@Semajno@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        }
+      ],
+      "ordered_input_fingerprint": "7de9970baad4fc3e9d57364f75aa87cffe436cefdb0ac3b54a7c653ab0a9964d",
+      "actual_after_forward_inputs_in_this_corpus": 2,
+      "reused_forward_rows": 1619037,
+      "method": "Ordered fingerprint verifies every complete raw capture row against production-based full input classification. Exact affected inputs use independently rerendered old/new full engine results; all others reuse baseline after non-target/default code and data equivalence proof. Both actual current inverse functions execute for every saved row."
+    },
+    {
+      "edition": "legacy",
+      "language": "JA",
+      "mode": "pure",
+      "saved_rows": 1618905,
+      "unique_inputs": 1618889,
+      "counts": {
+        "total": 1618889,
+        "before_match": 1611881,
+        "after_match": 1611881,
+        "before_mismatch": 7008,
+        "after_mismatch": 7008,
+        "improved": 0,
+        "regressed": 0,
+        "forward_changed": 2,
+        "inverse_changed": 0,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688936,
+          "before_match": 683949,
+          "after_match": 683949,
+          "before_mismatch": 4987,
+          "after_mismatch": 4987,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688936,
+          "before_match": 687071,
+          "after_match": 687071,
+          "before_mismatch": 1865,
+          "after_mismatch": 1865,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 2,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241017,
+          "before_match": 240861,
+          "after_match": 240861,
+          "before_mismatch": 156,
+          "after_mismatch": 156,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [
+        {
+          "origin": "primary",
+          "id": 237177,
+          "input": "@greganta@",
+          "expected": "greganta",
+          "before_output": "g再手套a",
+          "after_output": "群ᴳ在a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 544660,
+          "input": "@preganta@",
+          "expected": "preganta",
+          "before_output": "前ᴾ手套a",
+          "after_output": "压ᴾᴳ在a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "duplicate": false
+        }
+      ],
+      "controls": [
+        {
+          "input": "agreganta",
+          "before_output": "团ᴬ在a",
+          "after_output": "团ᴬ在a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreg@anta",
+          "before_output": "团ᴬ在a",
+          "after_output": "团ᴬ在a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreganta@",
+          "before_output": "团ᴬ在a",
+          "after_output": "团ᴬ在a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "greganta",
+          "before_output": "群ᴳ在a",
+          "after_output": "群ᴳ在a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greg@anta",
+          "before_output": "群ᴳ在a",
+          "after_output": "群ᴳ在a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greganta@",
+          "before_output": "g再手套a",
+          "after_output": "群ᴳ在a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "kordonita",
+          "before_output": "kordonita",
+          "after_output": "kordonita",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordon@ita",
+          "before_output": "带ᴷ受a",
+          "after_output": "带ᴷ受a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordonita@",
+          "before_output": "带ᴷ受a",
+          "after_output": "带ᴷ受a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "kseno",
+          "before_output": "外ᴷˢo",
+          "after_output": "外ᴷˢo",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@ksen@o",
+          "before_output": "外ᴷˢo",
+          "after_output": "外ᴷˢo",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@kseno@",
+          "before_output": "外ᴷˢo",
+          "after_output": "外ᴷˢo",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "ksenulo",
+          "before_output": "外ᴷˢ者o",
+          "after_output": "外ᴷˢ者o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksen@ulo",
+          "before_output": "外ᴷˢ者o",
+          "after_output": "外ᴷˢ者o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksenulo@",
+          "before_output": "外ᴷˢ者o",
+          "after_output": "外ᴷˢ者o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "orkidita",
+          "before_output": "兰炎ᵀa",
+          "after_output": "兰炎ᵀa",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkid@ita",
+          "before_output": "兰受a",
+          "after_output": "兰受a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "before_output": "丸炎a",
+          "after_output": "丸炎a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "before_output": "丸炎a",
+          "after_output": "丸炎a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "preganta",
+          "before_output": "压ᴾᴳ在a",
+          "after_output": "压ᴾᴳ在a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preg@anta",
+          "before_output": "压ᴾᴳ在a",
+          "after_output": "压ᴾᴳ在a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preganta@",
+          "before_output": "前ᴾ手套a",
+          "after_output": "压ᴾᴳ在a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "semajno",
+          "before_output": "周o",
+          "after_output": "周o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "before_output": "周o",
+          "after_output": "周o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "before_output": "周o",
+          "after_output": "周o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "before_output": "s内e",
+          "after_output": "s内e",
+          "before_inverse": [
+            "sene",
+            "sene"
+          ],
+          "after_inverse": [
+            "sene",
+            "sene"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "before_output": "无e",
+          "after_output": "无e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "before_output": "无e",
+          "after_output": "无e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "before_output": "丸ᵀ炎ᵀo",
+          "after_output": "丸ᵀ炎ᵀo",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "before_output": "丸炎ᵀo",
+          "after_output": "丸炎ᵀo",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "before_output": "丸炎ᵀo",
+          "after_output": "丸炎ᵀo",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "SEMAJNO",
+          "before_output": "周O",
+          "after_output": "周O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@SEMAJNO@",
+          "before_output": "周O",
+          "after_output": "周O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "Semajno",
+          "before_output": "周o",
+          "after_output": "周o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@Semajno@",
+          "before_output": "周o",
+          "after_output": "周o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        }
+      ],
+      "ordered_input_fingerprint": "4f42ff24c77907ff1e4ebfd1ecda36c555ec442d1e1a416ee3f753309990d397",
+      "actual_after_forward_inputs_in_this_corpus": 2,
+      "reused_forward_rows": 1618903,
+      "method": "Ordered fingerprint verifies every complete raw capture row against production-based full input classification. Exact affected inputs use independently rerendered old/new full engine results; all others reuse baseline after non-target/default code and data equivalence proof. Both actual current inverse functions execute for every saved row."
+    },
+    {
+      "edition": "legacy",
+      "language": "JA",
+      "mode": "kanji",
+      "saved_rows": 1618905,
+      "unique_inputs": 1618889,
+      "counts": {
+        "total": 1618889,
+        "before_match": 1611880,
+        "after_match": 1611880,
+        "before_mismatch": 7009,
+        "after_mismatch": 7009,
+        "improved": 0,
+        "regressed": 0,
+        "forward_changed": 2,
+        "inverse_changed": 0,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688936,
+          "before_match": 683948,
+          "after_match": 683948,
+          "before_mismatch": 4988,
+          "after_mismatch": 4988,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688936,
+          "before_match": 687071,
+          "after_match": 687071,
+          "before_mismatch": 1865,
+          "after_mismatch": 1865,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 2,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241017,
+          "before_match": 240861,
+          "after_match": 240861,
+          "before_mismatch": 156,
+          "after_mismatch": 156,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [
+        {
+          "origin": "primary",
+          "id": 237177,
+          "input": "@greganta@",
+          "expected": "greganta",
+          "before_output": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 544660,
+          "input": "@preganta@",
+          "expected": "preganta",
+          "before_output": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "duplicate": false
+        }
+      ],
+      "controls": [
+        {
+          "input": "agreganta",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreg@anta",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreganta@",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "greganta",
+          "before_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greg@anta",
+          "before_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greganta@",
+          "before_output": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "kordonita",
+          "before_output": "kordonita",
+          "after_output": "kordonita",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordon@ita",
+          "before_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordonita@",
+          "before_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "kseno",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@ksen@o",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@kseno@",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "ksenulo",
+          "before_output": "ksenulo",
+          "after_output": "ksenulo",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksen@ulo",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksenulo@",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "orkidita",
+          "before_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkid@ita",
+          "before_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "before_output": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "after_output": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "before_output": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "after_output": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "preganta",
+          "before_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preg@anta",
+          "before_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preganta@",
+          "before_output": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "semajno",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "before_output": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "after_output": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "before_output": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "after_output": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "before_output": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "after_output": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "SEMAJNO",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@SEMAJNO@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "Semajno",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@Semajno@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        }
+      ],
+      "ordered_input_fingerprint": "4f42ff24c77907ff1e4ebfd1ecda36c555ec442d1e1a416ee3f753309990d397",
+      "actual_after_forward_inputs_in_this_corpus": 2,
+      "reused_forward_rows": 1618903,
+      "method": "Ordered fingerprint verifies every complete raw capture row against production-based full input classification. Exact affected inputs use independently rerendered old/new full engine results; all others reuse baseline after non-target/default code and data equivalence proof. Both actual current inverse functions execute for every saved row."
+    },
+    {
+      "edition": "legacy",
+      "language": "ZH",
+      "mode": "kanji",
+      "saved_rows": 1618905,
+      "unique_inputs": 1618889,
+      "counts": {
+        "total": 1618889,
+        "before_match": 1611880,
+        "after_match": 1611880,
+        "before_mismatch": 7009,
+        "after_mismatch": 7009,
+        "improved": 0,
+        "regressed": 0,
+        "forward_changed": 2,
+        "inverse_changed": 0,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688936,
+          "before_match": 683948,
+          "after_match": 683948,
+          "before_mismatch": 4988,
+          "after_mismatch": 4988,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688936,
+          "before_match": 687071,
+          "after_match": 687071,
+          "before_mismatch": 1865,
+          "after_mismatch": 1865,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 2,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241017,
+          "before_match": 240861,
+          "after_match": 240861,
+          "before_mismatch": 156,
+          "after_mismatch": 156,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [
+        {
+          "origin": "primary",
+          "id": 237177,
+          "input": "@greganta@",
+          "expected": "greganta",
+          "before_output": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 544660,
+          "input": "@preganta@",
+          "expected": "preganta",
+          "before_output": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "duplicate": false
+        }
+      ],
+      "controls": [
+        {
+          "input": "agreganta",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreg@anta",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreganta@",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "greganta",
+          "before_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greg@anta",
+          "before_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greganta@",
+          "before_output": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "kordonita",
+          "before_output": "kordonita",
+          "after_output": "kordonita",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordon@ita",
+          "before_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordonita@",
+          "before_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "kseno",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@ksen@o",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@kseno@",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "ksenulo",
+          "before_output": "ksenulo",
+          "after_output": "ksenulo",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksen@ulo",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksenulo@",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "orkidita",
+          "before_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkid@ita",
+          "before_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "before_output": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "after_output": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "before_output": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "after_output": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "preganta",
+          "before_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preg@anta",
+          "before_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preganta@",
+          "before_output": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "semajno",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "before_output": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "after_output": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "before_output": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "after_output": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "before_output": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "after_output": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "SEMAJNO",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@SEMAJNO@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "Semajno",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@Semajno@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        }
+      ],
+      "ordered_input_fingerprint": "4f42ff24c77907ff1e4ebfd1ecda36c555ec442d1e1a416ee3f753309990d397",
+      "actual_after_forward_inputs_in_this_corpus": 2,
+      "reused_forward_rows": 1618903,
+      "method": "Ordered fingerprint verifies every complete raw capture row against production-based full input classification. Exact affected inputs use independently rerendered old/new full engine results; all others reuse baseline after non-target/default code and data equivalence proof. Both actual current inverse functions execute for every saved row."
+    },
+    {
+      "edition": "legacy",
+      "language": "KO",
+      "mode": "kanji",
+      "saved_rows": 1618905,
+      "unique_inputs": 1618889,
+      "counts": {
+        "total": 1618889,
+        "before_match": 1611880,
+        "after_match": 1611880,
+        "before_mismatch": 7009,
+        "after_mismatch": 7009,
+        "improved": 0,
+        "regressed": 0,
+        "forward_changed": 2,
+        "inverse_changed": 0,
+        "inverse_language_difference": 0
+      },
+      "surface_forms": {
+        "normal": {
+          "total": 688936,
+          "before_match": 683948,
+          "after_match": 683948,
+          "before_mismatch": 4988,
+          "after_mismatch": 4988,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_whole": {
+          "total": 688936,
+          "before_match": 687071,
+          "after_match": 687071,
+          "before_mismatch": 1865,
+          "after_mismatch": 1865,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 2,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        },
+        "marker_root_plus_suffix": {
+          "total": 241017,
+          "before_match": 240861,
+          "after_match": 240861,
+          "before_mismatch": 156,
+          "after_mismatch": 156,
+          "improved": 0,
+          "regressed": 0,
+          "forward_changed": 0,
+          "inverse_changed": 0,
+          "inverse_language_difference": 0
+        }
+      },
+      "changes": [
+        {
+          "origin": "primary",
+          "id": 237177,
+          "input": "@greganta@",
+          "expected": "greganta",
+          "before_output": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "duplicate": false
+        },
+        {
+          "origin": "primary",
+          "id": 544660,
+          "input": "@preganta@",
+          "expected": "preganta",
+          "before_output": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "duplicate": false
+        }
+      ],
+      "controls": [
+        {
+          "input": "agreganta",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreg@anta",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "@agreganta@",
+          "before_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "after_inverse": [
+            "agreganta",
+            "agreganta"
+          ],
+          "expected": "agreganta"
+        },
+        {
+          "input": "greganta",
+          "before_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greg@anta",
+          "before_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "@greganta@",
+          "before_output": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "after_inverse": [
+            "greganta",
+            "greganta"
+          ],
+          "expected": "greganta"
+        },
+        {
+          "input": "kordonita",
+          "before_output": "kordonita",
+          "after_output": "kordonita",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordon@ita",
+          "before_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "@kordonita@",
+          "before_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "after_inverse": [
+            "kordonita",
+            "kordonita"
+          ],
+          "expected": "kordonita"
+        },
+        {
+          "input": "kseno",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@ksen@o",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "@kseno@",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby>o",
+          "before_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "after_inverse": [
+            "kseno",
+            "kseno"
+          ],
+          "expected": "kseno"
+        },
+        {
+          "input": "ksenulo",
+          "before_output": "ksenulo",
+          "after_output": "ksenulo",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksen@ulo",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "@ksenulo@",
+          "before_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "after_output": "<ruby>外ᴷˢ<rt class=\"XL_L\">ksen</rt></ruby><ruby>者<rt class=\"XXL_L\">ul</rt></ruby>o",
+          "before_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "after_inverse": [
+            "ksenulo",
+            "ksenulo"
+          ],
+          "expected": "ksenulo"
+        },
+        {
+          "input": "orkidita",
+          "before_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkid@ita",
+          "before_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "after_output": "<ruby>兰<rt class=\"S_S\">orkid</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidita@",
+          "before_output": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "after_output": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "@orkidit@a",
+          "before_output": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "after_output": "<ruby>丸炎<rt class=\"L_L\">orkidit</rt></ruby>a",
+          "before_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "after_inverse": [
+            "orkidita",
+            "orkidita"
+          ],
+          "expected": "orkidita"
+        },
+        {
+          "input": "preganta",
+          "before_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preg@anta",
+          "before_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "@preganta@",
+          "before_output": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+          "after_output": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+          "before_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "after_inverse": [
+            "preganta",
+            "preganta"
+          ],
+          "expected": "preganta"
+        },
+        {
+          "input": "semajno",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajn@o",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@semajno@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "sene",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sen@e",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "@sene@",
+          "before_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "after_output": "<ruby>无<rt class=\"M_M\">sen</rt></ruby>e",
+          "before_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "after_inverse": [
+            "nenie",
+            "nenie"
+          ],
+          "expected": "sene"
+        },
+        {
+          "input": "testikito",
+          "before_output": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "after_output": "<ruby>丸ᵀ<rt class=\"M_M\">testik</rt></ruby><ruby>炎ᵀ<rt class=\"XXL_L\">it</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikit@o",
+          "before_output": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "after_output": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "@testikito@",
+          "before_output": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "after_output": "<ruby>丸炎ᵀ<rt class=\"XL_L\">testikit</rt></ruby>o",
+          "before_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "after_inverse": [
+            "testikito",
+            "testikito"
+          ],
+          "expected": "testikito"
+        },
+        {
+          "input": "SEMAJNO",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@SEMAJNO@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "Semajno",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        },
+        {
+          "input": "@Semajno@",
+          "before_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "after_output": "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o",
+          "before_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "after_inverse": [
+            "semajno",
+            "semajno"
+          ],
+          "expected": "semajno"
+        }
+      ],
+      "ordered_input_fingerprint": "4f42ff24c77907ff1e4ebfd1ecda36c555ec442d1e1a416ee3f753309990d397",
+      "actual_after_forward_inputs_in_this_corpus": 2,
+      "reused_forward_rows": 1618903,
+      "method": "Ordered fingerprint verifies every complete raw capture row against production-based full input classification. Exact affected inputs use independently rerendered old/new full engine results; all others reuse baseline after non-target/default code and data equivalence proof. Both actual current inverse functions execute for every saved row."
+    }
+  ],
+  "saved_rows": 12951776,
+  "unique_input_route_pairs": 12951664,
+  "actual_plain_inverse_calls": 25903552,
+  "actual_saved_input_rows_classified": 3237944,
+  "actual_after_forward_inputs_within_full_corpus": 16,
+  "reused_forward_rows": 12951760,
+  "regressions": 0,
+  "forward_changed": 16,
+  "inverse_changed": 0,
+  "seconds": 218.874,
+  "limits": "Finite saved full corpus, not all possible Esperanto text. Entire corpus classified and both inverse functions executed. Forward actual rerender restricted to every affected exact target; non-target output capture reuse is justified by strict helper guard and code/data/list equivalence. Pure languages counted once after equivalence proof. HTML saved corpus and direct target/context trials are recorded separately."
+}
