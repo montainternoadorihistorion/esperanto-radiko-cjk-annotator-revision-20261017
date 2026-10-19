@@ -1,8 +1,8 @@
 """Read original text from this project's complete, standard ruby HTML exports.
 
 This is extraction, not dictionary-based reverse conversion. The caller must
-choose which side contains the source; old exports do not encode that choice.
-Mixed directions, wrong choices and edited readings cannot be detected reliably.
+choose which side contains the source. Unedited bundled exports may record it;
+old, edited and custom exports still need the caller's explicit choice.
 No HTML is executed, and recovered characters are never parsed a second time.
 """
 
@@ -16,6 +16,20 @@ MAX_HTML_BYTES = 10 * 1024 * 1024
 
 class HtmlRecoveryError(ValueError):
     """The input is not a supported, structurally complete standard export."""
+
+
+class HtmlRubyModeError(HtmlRecoveryError):
+    """An explicit format record is invalid or conflicts with the user's choice."""
+
+    def __init__(self, reason, recorded_mode=None):
+        self.reason = reason
+        self.recorded_mode = recorded_mode
+        messages = {
+            "invalid": "The recorded ruby mode must be kanji or annotation.",
+            "duplicate": "Duplicate or conflicting ruby-mode metadata is not supported.",
+            "mismatch": "The selected ruby mode does not match the recorded ruby mode.",
+        }
+        super().__init__(messages[reason])
 
 
 def decode_html_upload(data: bytes) -> str:
@@ -44,6 +58,7 @@ class _StandardExportParser(HTMLParser):
         self.after_body_br = False
         self.assignment_edition = "unknown"
         self.metadata_seen = False
+        self.recorded_ruby_mode = None
 
     def fail(self, message):
         raise HtmlRecoveryError(message)
@@ -104,6 +119,15 @@ class _StandardExportParser(HTMLParser):
                 self.fail("Unexpected metadata element.")
             if "charset" in values and (values["charset"] or "").lower() != "utf-8":
                 self.fail("Only UTF-8 HTML is supported.")
+            # Custom JSON may contain arbitrary or mixed ruby, irrespective of
+            # its output-format selector. Keep its prior generic-meta behavior.
+            if (self.assignment_edition != "custom_json"
+                    and (values.get("name") or "").lower() == "esperanto-ruby-mode"):
+                if self.recorded_ruby_mode is not None:
+                    raise HtmlRubyModeError("duplicate")
+                if set(values) != {"name", "content"} or values["content"] not in ("kanji", "annotation"):
+                    raise HtmlRubyModeError("invalid")
+                self.recorded_ruby_mode = values["content"]
             return
         elif tag == "body":
             self._attrs(attrs, set())
@@ -206,8 +230,13 @@ class _StandardExportParser(HTMLParser):
     def result(self):
         if self.stack or self.ruby is not None or not {"html", "head", "body", "p"} <= self.seen:
             self.fail("The standard HTML document is incomplete.")
-        return {"text": "".join(self.parts), "ruby_count": self.ruby_count,
-                "assignment_edition": self.assignment_edition, "mode": self.mode}
+        if self.recorded_ruby_mode is not None and self.recorded_ruby_mode != self.mode:
+            raise HtmlRubyModeError("mismatch", self.recorded_ruby_mode)
+        result = {"text": "".join(self.parts), "ruby_count": self.ruby_count,
+                  "assignment_edition": self.assignment_edition, "mode": self.mode}
+        if self.recorded_ruby_mode is not None:
+            result["recorded_ruby_mode"] = self.recorded_ruby_mode
+        return result
 
 
 def recover_standard_html(source: str, ruby_mode: str) -> dict:
@@ -215,7 +244,8 @@ def recover_standard_html(source: str, ruby_mode: str) -> dict:
 
     ruby_mode is 'kanji' for Esperanto in rt, or 'annotation' for Esperanto in
     ruby's visible base. Assignment metadata is provenance, not authentication.
-    A wrong mode or mixed/edited readings may be structurally indistinguishable.
+    An explicit non-custom format record must match the selected mode. Missing
+    records and mixed/edited readings do not justify guessing a direction.
     """
     if ruby_mode not in ("kanji", "annotation"):
         raise HtmlRecoveryError("Select kanji or annotation ruby mode.")

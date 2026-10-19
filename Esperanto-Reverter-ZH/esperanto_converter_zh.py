@@ -774,14 +774,14 @@ def show_result_save_dialog(text: str, filename: str, label: str, key: str) -> N
 def render_html_recovery() -> None:
     # This path reads recorded Esperanto, without loading or applying a dictionary.
     from html_source_recovery import (
-        HtmlRecoveryError, decode_html_upload, recover_standard_html,
+        HtmlRecoveryError, HtmlRubyModeError, decode_html_upload, recover_standard_html,
     )
     _restore_input_widget("html_recovery_direction", "kanji")
     _restore_input_widget("html_recovery_source_kind", "paste")
 
     st.subheader("从标准HTML还原原文")
     st.caption("读取本项目标准HTML中保留的世界语拼写，不反查汉字，因此无需选择新版或旧版词典。")
-    st.caption("请选择创建HTML时使用的Ruby形式。无法完全自动识别选错的形式。转换时已去除的 @、% 标记和统一前的字符写法不会还原。")
+    st.caption("请选择创建HTML时使用的Ruby形式。如HTML记录了形式，将与您的选择核对。没有形式记录的旧HTML、已编辑HTML及自定义JSON不会自动判别。转换时已去除的 @、% 标记和统一前的字符写法不会还原。")
     st.caption("文件和粘贴输入均支持UTF-8编码10 MiB以内的标准HTML。")
     direction = st.radio(
         "创建HTML时使用的Ruby形式", ("kanji", "annotation"),
@@ -833,6 +833,14 @@ def render_html_recovery() -> None:
         try:
             result = recover_standard_html(source, direction)
             st.session_state["html_recovery_result"] = {**result, "identity": identity}
+        except HtmlRubyModeError as exc:
+            if exc.reason == "mismatch":
+                recorded = {"kanji": "汉字Ruby", "annotation": "注释Ruby"}[exc.recorded_mode]
+                st.error(f"HTML记录的形式为“{recorded}”，与当前选择不同，因此已停止还原。输入已保留，请重新选择上方的Ruby形式。")
+            elif exc.reason == "duplicate":
+                st.error("HTML重复记录了Ruby形式（也可能包含不同形式）。无法确定形式，因此已停止还原。输入已保留。")
+            else:
+                st.error("HTML记录的Ruby形式为空或不受支持，因此已停止还原。输入已保留。")
         except HtmlRecoveryError as exc:
             st.error(f"无法还原HTML: {exc}")
 
@@ -844,6 +852,8 @@ def render_html_recovery() -> None:
         edition = result.get("assignment_edition", "unknown")
         edition_label = {"current": "新版", "legacy": "旧版", "custom_json": "自定义JSON", "unknown": "未知（无版本记录）"}.get(edition, "未知")
         st.caption(f"HTML记录的版本: {edition_label} ／ 已读取的Ruby: {result['ruby_count']}个")
+        if result.get("recorded_ruby_mode"):
+            st.caption("HTML记录的Ruby形式与当前选择一致。")
         st.text_area("还原的原文", value=result["text"], height=280, disabled=True,
                      help="保留HTML中记录的大小写和空白。")
         if st.button("确认保存内容", key="html_recovery_prepare_save") and result.get("identity") == identity:

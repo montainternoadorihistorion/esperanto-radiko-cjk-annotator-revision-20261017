@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "guard_tests": 10,
+  "app_test_checks": 90,
+  "app_test_sessions": 6,
+  "languages": [
+    {
+      "language": "JA",
+      "checks": 30,
+      "passed": true,
+      "helper_sha256": "8d20eafc0ddf0d8a774d6f4085b025b20f486bccc8f80de2fb5aae5481814158"
+    },
+    {
+      "language": "ZH",
+      "checks": 30,
+      "passed": true,
+      "helper_sha256": "8d20eafc0ddf0d8a774d6f4085b025b20f486bccc8f80de2fb5aae5481814158"
+    },
+    {
+      "language": "KO",
+      "checks": 30,
+      "passed": true,
+      "helper_sha256": "8d20eafc0ddf0d8a774d6f4085b025b20f486bccc8f80de2fb5aae5481814158"
+    }
+  ],
+  "bundled_corrections_unchanged": true,
+  "product_files_changed_by_this_subtask": 6,
+  "source_test_file": "tests/test_manual_draft_import.py",
+  "scope": "Explicit empty-draft import only; no automatic saving or assignment/identifier/segmentation changes.",
+  "verification": "Actual local AppTest; data-change simulation mocked. No Cloud operations by this subtask."
+}

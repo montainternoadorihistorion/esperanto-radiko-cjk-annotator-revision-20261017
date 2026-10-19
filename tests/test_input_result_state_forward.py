@@ -102,7 +102,17 @@ def check_language(language):
         assert metadata["edition_id"] == edition
         edited = at.text_area(key="edited_html").value
         prefix = "" if mode == "pure" else editions.html_download_metadata(metadata)
-        assert captured[0]["data"] == (prefix + edited).encode("utf-8")
+        expected_body = edited
+        # Only the unchanged bundled standard HTML gets a save-only direction
+        # record. Build the expected tag independently of the production helper.
+        if mode in ("kanji", "ruby") and edited == result:
+            direction = "kanji" if mode == "kanji" else "annotation"
+            expected_body = edited.replace(
+                "</head>", f'<meta name="esperanto-ruby-mode" content="{direction}">\n</head>', 1,
+            )
+        assert captured[0]["data"] == (prefix + expected_body).encode("utf-8")
+        assert at.session_state["result_html"] == result
+        assert at.text_area(key="edited_html").value == edited
         extension = "txt" if mode == "pure" else "html"
         assert captured[0]["mime"] == ("text/plain" if mode == "pure" else "text/html")
         assert captured[0]["filename"].endswith(f'_{edition}_{metadata["signature"][:12]}.{extension}')

@@ -301,6 +301,33 @@ def html_download_metadata(metadata):
             " created-utc:" + metadata["created_utc"] + " -->\n")
 
 
+def html_download_document(metadata, current_html, generated_html, ruby_mode=None):
+    """Add direction only to an unchanged bundled standard export's saved copy.
+
+    The editor and source HTML remain untouched. An uploaded JSON's format
+    selector cannot prove which side of its arbitrary ruby contains Esperanto.
+    Keep the original leading comment compatible with older recovery parsers.
+    """
+    formats = {
+        "kanji": "HTML格式_Ruby文字_大小调整_汉字替换",
+        "annotation": "HTML格式_Ruby文字_大小调整",
+    }
+    options = metadata.get("render_options") or {}
+    body = current_html
+    if (metadata.get("source_id") in EDITIONS
+            and not metadata.get("custom_json_sha256")
+            and ruby_mode in formats and options.get("format") == formats[ruby_mode]
+            and current_html == generated_html
+            and current_html.startswith("<!DOCTYPE html>")
+            and current_html.count("<head>") == current_html.count("</head>") == 1):
+        body = current_html.replace(
+            "</head>",
+            f'<meta name="esperanto-ruby-mode" content="{ruby_mode}">\n</head>',
+            1,
+        )
+    return html_download_metadata(metadata) + body
+
+
 @st.cache_data(max_entries=32, show_spinner=False)
 def _pinned_asset_url(root, relative, digest, commit):
     """Only publish links to exact committed bytes in this public repository."""

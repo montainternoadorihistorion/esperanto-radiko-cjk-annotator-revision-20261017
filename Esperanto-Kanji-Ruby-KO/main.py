@@ -74,6 +74,7 @@ st.write("---")
 assignment_edition = editions.select_edition(DATA_DIR)
 _custom_json_sha = None
 _bundled_json_path = None
+_bundled_html_ruby_mode = None
 
 selected_option = input_state.persistent_radio(
     "변환 모드 선택:",
@@ -97,6 +98,7 @@ replacements_list_for_2char: List[Tuple[str, str, str]] = []
 
 # JSONファイルの読み込み方を分岐
 if selected_option == "📖 주석 루비（어근 위에 한국어 주석）":
+    _bundled_html_ruby_mode = "annotation"
     default_json_path = os.path.join(DATA_DIR, '置換リスト_ルビ.json')
     _bundled_json_path = default_json_path
     try:
@@ -108,6 +110,7 @@ if selected_option == "📖 주석 루비（어근 위에 한국어 주석）":
         st.error(f"JSON 파일 불러오기에 실패했습니다: {e}")
         st.stop()
 elif selected_option == "🈶 한자화（한자＋어근 루비）":
+    _bundled_html_ruby_mode = "kanji"
     kanji_json_path = editions.resolve_path(DATA_DIR, "kanji", assignment_edition)
     _bundled_json_path = kanji_json_path
     try:
@@ -483,7 +486,9 @@ if st.session_state.get("result_html") and _matching_result:
 
     _extension = "html" if st.session_state.get("result_is_html") else "txt"
     download_name = editions.download_filename(os.path.splitext(download_name)[0], _result_meta, _extension)
-    _download_text = (editions.html_download_metadata(_result_meta) if _extension == "html" else "") + current_html
+    _download_text = (editions.html_download_document(
+        _result_meta, current_html, st.session_state["result_html"], _bundled_html_ruby_mode,
+    ) if _extension == "html" else current_html)
     download_data = _download_text.encode('utf-8')
     if st.button("저장 내용 확인", key="confirm_download"):
         input_state.confirm_download(

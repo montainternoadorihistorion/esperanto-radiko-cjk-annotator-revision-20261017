@@ -769,14 +769,14 @@ def show_result_save_dialog(text: str, filename: str, label: str, key: str) -> N
 def render_html_recovery() -> None:
     # This path reads recorded Esperanto, without loading or applying a dictionary.
     from html_source_recovery import (
-        HtmlRecoveryError, decode_html_upload, recover_standard_html,
+        HtmlRecoveryError, HtmlRubyModeError, decode_html_upload, recover_standard_html,
     )
     _restore_input_widget("html_recovery_direction", "kanji")
     _restore_input_widget("html_recovery_source_kind", "paste")
 
     st.subheader("標準HTMLから原語を復元")
     st.caption("このプロジェクトの標準HTMLに残っているエスペラントを読み取ります。漢字の逆引きをしないため、辞書の新版・旧版を選ぶ必要はありません。")
-    st.caption("作成時のルビ形式を選んでください。形式の選び間違いは完全には自動判別できません。変換時に使い終えた @・% の目印や、統一前の文字表記は復元しません。")
+    st.caption("作成時のルビ形式を選んでください。HTMLに形式の記録があれば選択と照合します。記録のない旧HTML・編集済みHTML・自作JSONの形式は自動判別しません。変換時に使い終えた @・% の目印や、統一前の文字表記は復元しません。")
     st.caption("ファイル・貼り付けとも、UTF-8で10 MiBまでの標準HTMLに対応します。")
     direction = st.radio(
         "HTML作成時のルビ形式", ("kanji", "annotation"),
@@ -828,6 +828,14 @@ def render_html_recovery() -> None:
         try:
             result = recover_standard_html(source, direction)
             st.session_state["html_recovery_result"] = {**result, "identity": identity}
+        except HtmlRubyModeError as exc:
+            if exc.reason == "mismatch":
+                recorded = {"kanji": "漢字ルビ", "annotation": "注釈ルビ"}[exc.recorded_mode]
+                st.error(f"HTMLに記録された形式は「{recorded}」です。選択した形式と異なるため復元を止めました。入力は保持しています。上のルビ形式を選び直してください。")
+            elif exc.reason == "duplicate":
+                st.error("HTMLのルビ形式が重複して記録されています（異なる形式の混在も含みます）。形式を確定できないため復元を止めました。入力は保持しています。")
+            else:
+                st.error("HTMLに記録されたルビ形式が空か、対応していない値です。復元を止めました。入力は保持しています。")
         except HtmlRecoveryError as exc:
             st.error(f"HTMLを復元できません: {exc}")
 
@@ -839,6 +847,8 @@ def render_html_recovery() -> None:
         edition = result.get("assignment_edition", "unknown")
         edition_label = {"current": "新版", "legacy": "旧版", "custom_json": "自作JSON", "unknown": "不明（版情報なし）"}.get(edition, "不明")
         st.caption(f"HTMLに記録された版: {edition_label} ／ 読み取ったルビ: {result['ruby_count']}個")
+        if result.get("recorded_ruby_mode"):
+            st.caption("HTMLに記録されたルビ形式と選択が一致しています。")
         st.text_area("復元した原語", value=result["text"], height=280, disabled=True,
                      help="HTMLに残る大文字・空白を保持した結果です。")
         if st.button("保存内容を確認", key="html_recovery_prepare_save") and result.get("identity") == identity:

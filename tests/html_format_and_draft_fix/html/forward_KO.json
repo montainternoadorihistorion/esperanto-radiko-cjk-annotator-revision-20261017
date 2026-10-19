@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "language": "KO",
+  "rows": [
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "generated_sha256": "bdb96e12661c3d30ae4e45ea915922a9492edf029583ca453250651ddddd12ab",
+      "saved_sha256": "f450d1e45caf347a0b5cb55a445ef5251f152a7ceaaed4e76dc0df4d32d0d8b9",
+      "edited_saved_sha256": "4ae56c4c858615f99cc566dcf53aefbad237693ccfaa84cf8d0374ae56519925",
+      "correct_recovery": "lasis\ngreganta 放ᴱ & <b>@literal@</b>  fino\n",
+      "wrong_mode_blocked": true,
+      "editor_untouched": true,
+      "opposite_direction_edit_allowed": true
+    },
+    {
+      "edition": "current",
+      "mode": "annotation",
+      "generated_sha256": "7ff6e07b5107ca03de72857868cebc22a70c7fc556306650ff11d1380710a4fd",
+      "saved_sha256": "338f71158f080566326c1e71b4d5541dd4f35f5f4e7e5b54629a35b4b4239364",
+      "edited_saved_sha256": "b0807fed08bfcbd5d7b3427cb87423d115cb0b30c6261e5a79ad4105e0c0272a",
+      "correct_recovery": "lasis\ngreganta 放ᴱ & <b>@literal@</b>  fino\n",
+      "wrong_mode_blocked": true,
+      "editor_untouched": true,
+      "opposite_direction_edit_allowed": true
+    },
+    {
+      "edition": "legacy",
+      "mode": "kanji",
+      "generated_sha256": "771723f4cd4a99ff8f2d59e26188b2f2f61ef552230e328d11d7a90d78ebb9f3",
+      "saved_sha256": "143e7cd4a9607dc12e25594f62578831d9f4cd120fe08ce208be27edef1672ea",
+      "edited_saved_sha256": "0282f0f548e6ccfc10e27f89ed76021a4fac751866255f1d99acacb13081779a",
+      "correct_recovery": "lasis\ngreganta 放ᴱ & <b>@literal@</b>  fino\n",
+      "wrong_mode_blocked": true,
+      "editor_untouched": true,
+      "opposite_direction_edit_allowed": true
+    },
+    {
+      "edition": "legacy",
+      "mode": "annotation",
+      "generated_sha256": "7ff6e07b5107ca03de72857868cebc22a70c7fc556306650ff11d1380710a4fd",
+      "saved_sha256": "f39fef0ff70fc9b13f3524d8dec5b5430c729679960cacd87e0267856a1acd99",
+      "edited_saved_sha256": "fe38c1a72a603bc097bb30fd0506a707abb8c8180938fdd5242f80187e3e8df1",
+      "correct_recovery": "lasis\ngreganta 放ᴱ & <b>@literal@</b>  fino\n",
+      "wrong_mode_blocked": true,
+      "editor_untouched": true,
+      "opposite_direction_edit_allowed": true
+    }
+  ],
+  "custom_opposite_payload_preserved": true,
+  "standard_saves": 4,
+  "edited_saves": 4,
+  "custom_saves": 1,
+  "recovery_parsers": [
+    "JA",
+    "ZH"
+  ],
+  "method": "Actual local AppTest entrypoint and save dialogs; upload/download transport instrumented. No Cloud claim."
+}
