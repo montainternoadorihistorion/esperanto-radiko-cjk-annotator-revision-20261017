@@ -1,0 +1,697 @@
+{
+  "passed": true,
+  "language": "ZH",
+  "source_commit": "fe1e11218f125218189d1dea6e45e7afbf4cb15e",
+  "rows": [
+    {
+      "edition": "current",
+      "source_url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/fe1e11218f125218189d1dea6e45e7afbf4cb15e",
+      "zip_url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/fe1e11218f125218189d1dea6e45e7afbf4cb15e.zip",
+      "large_assets": [
+        {
+          "role": "kanji",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json",
+          "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
+          "git_blob": "2ece1a444f93677bc20f327c58b81378656fcea2",
+          "sha256": "ca572bd1fc1feffbe65643e66fb1441b6cf82d137676e474ad48ba50a72a9bd7"
+        },
+        {
+          "role": "pure",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json",
+          "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
+          "git_blob": "35d903f6516cc40799449a9b03fb603ddf8a640e",
+          "sha256": "108c0ff48dd6dd7363bba9f1b07eb15f6b69738afa0628590e5e0c8fd9986883"
+        },
+        {
+          "role": "ruby",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+          "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_ルビ.json",
+          "git_blob": "13a2edd2c191b8d6d4b1f1a5c9d9bb22a4c9171a",
+          "sha256": "a20a2d89b4f9f44a7be82a6a18ee94858a74ea205988f49b0e7c05c2c138e4de"
+        }
+      ],
+      "small_downloads": [
+        {
+          "label": "汉字分配CSV",
+          "filename": "kanji_assignments_current_e966e7f3de64.csv",
+          "bytes": 161686,
+          "sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede",
+          "matches_original_asset": true
+        },
+        {
+          "label": "世界语词根-中文注释对应列表.csv",
+          "filename": "世界语词根-中文注释对应列表.csv",
+          "bytes": 274988,
+          "sha256": "f98beb1f6e096936850a479cf10a9563df5b815b4970d5959d356e47a3b83f2c",
+          "matches_original_asset": true
+        },
+        {
+          "label": "分解設定.json",
+          "filename": "分解設定.json",
+          "bytes": 429584,
+          "sha256": "98bf7a25c3bf86139667dc4327fedfb8b22c738e33529001adb7ed26fba217f0",
+          "matches_original_asset": true
+        },
+        {
+          "label": "word_anno.json",
+          "filename": "word_anno.json",
+          "bytes": 2586979,
+          "sha256": "c469442ac632c00ba4d4d14112617a9133d7e13b26ae3b53bc0df59676226a3d",
+          "matches_original_asset": true
+        },
+        {
+          "label": "E_stem.json",
+          "filename": "E_stem.json",
+          "bytes": 2626958,
+          "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5",
+          "matches_original_asset": true
+        },
+        {
+          "label": "应用内置的已确认校正（不含本次会话的修改） · user_corrections.json",
+          "filename": "user_corrections.json",
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "matches_original_asset": true
+        }
+      ],
+      "manual_backup": {
+        "label": "⬇ 备份当前生效的手动校正（user_corrections.json）",
+        "filename": "user_corrections_current_e966e7f3de64.json",
+        "sha256": "e5c57b43756a6ac985c84b6c39c108fa57ce89aabfb5e051bbdcb692f4d56d2e",
+        "bytes": 2363,
+        "content": [
+          {
+            "word": "semajno",
+            "decomp": "semajn/o",
+            "ruby": [
+              [
+                "semajno",
+                "<ruby>semajn<rt class=\"XXL_L\">周</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>SEMAJN<rt class=\"XXL_L\">周</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>Semajn<rt class=\"XXL_L\">周</rt></ruby>o"
+              ]
+            ],
+            "kanji": [
+              [
+                "semajno",
+                "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o"
+              ]
+            ],
+            "assignment_edition": "current",
+            "assignment_signature": "0c4b29c8fc6346734e221ea81306b69fda8089cf10e1d3606000d4823a83661a"
+          },
+          {
+            "word": "greganta",
+            "decomp": "greg/ant/a",
+            "ruby": [
+              [
+                "greganta",
+                "<ruby>greg<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>GREG<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ANT<rt class=\"S_S\">现分词</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>Greg<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a"
+              ]
+            ],
+            "kanji": [
+              [
+                "greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>群ᴳ<rt class=\"L_L\">GREG</rt></ruby><ruby>在<rt class=\"L_L\">ANT</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">Greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ]
+            ],
+            "assignment_edition": "current",
+            "assignment_signature": "0c4b29c8fc6346734e221ea81306b69fda8089cf10e1d3606000d4823a83661a"
+          },
+          {
+            "word": "lasis",
+            "decomp": "las/i/s",
+            "ruby": [
+              [
+                "lasis",
+                "<ruby>las<rt class=\"M_M\">放下</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>LAS<rt class=\"M_M\">放下</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>Las<rt class=\"M_M\">放下</rt></ruby>is"
+              ]
+            ],
+            "kanji": [
+              [
+                "lasis",
+                "<ruby>放<rt class=\"XL_L\">las</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>放<rt class=\"XL_L\">LAS</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>放<rt class=\"XL_L\">Las</rt></ruby>is"
+              ]
+            ],
+            "assignment_edition": "current",
+            "assignment_signature": "0c4b29c8fc6346734e221ea81306b69fda8089cf10e1d3606000d4823a83661a"
+          }
+        ],
+        "selected_edition": "current"
+      },
+      "alternate_edition_backup": {
+        "label": "⬇ 备份当前生效的手动校正（user_corrections.json）",
+        "filename": "user_corrections_legacy_fb76f4bfda67.json",
+        "sha256": "1e696406a25b5fe77f2f403d068d81f804b904ceee67061c0d982b34e35d8f75",
+        "bytes": 2360,
+        "content": [
+          {
+            "word": "semajno",
+            "decomp": "semajn/o",
+            "ruby": [
+              [
+                "semajno",
+                "<ruby>semajn<rt class=\"XXL_L\">周</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>SEMAJN<rt class=\"XXL_L\">周</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>Semajn<rt class=\"XXL_L\">周</rt></ruby>o"
+              ]
+            ],
+            "kanji": [
+              [
+                "semajno",
+                "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o"
+              ]
+            ],
+            "assignment_edition": "legacy",
+            "assignment_signature": "3558a0c1510ba5bcae02ce857b11e03ff7070fa0845f045c943393e1e50262de"
+          },
+          {
+            "word": "greganta",
+            "decomp": "greg/ant/a",
+            "ruby": [
+              [
+                "greganta",
+                "<ruby>greg<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>GREG<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ANT<rt class=\"S_S\">现分词</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>Greg<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a"
+              ]
+            ],
+            "kanji": [
+              [
+                "greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>群ᴳ<rt class=\"L_L\">GREG</rt></ruby><ruby>在<rt class=\"L_L\">ANT</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">Greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ]
+            ],
+            "assignment_edition": "legacy",
+            "assignment_signature": "3558a0c1510ba5bcae02ce857b11e03ff7070fa0845f045c943393e1e50262de"
+          },
+          {
+            "word": "lasis",
+            "decomp": "las/i/s",
+            "ruby": [
+              [
+                "lasis",
+                "<ruby>las<rt class=\"M_M\">放下</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>LAS<rt class=\"M_M\">放下</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>Las<rt class=\"M_M\">放下</rt></ruby>is"
+              ]
+            ],
+            "kanji": [
+              [
+                "lasis",
+                "<ruby>留<rt class=\"XL_L\">las</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>留<rt class=\"XL_L\">LAS</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>留<rt class=\"XL_L\">Las</rt></ruby>is"
+              ]
+            ],
+            "assignment_edition": "legacy",
+            "assignment_signature": "3558a0c1510ba5bcae02ce857b11e03ff7070fa0845f045c943393e1e50262de"
+          }
+        ],
+        "selected_edition": "legacy"
+      },
+      "session_import_preserved": true,
+      "new_entry_preserved": true,
+      "edited_entry_preserved": true,
+      "draft_retained_across_edition_switch": true,
+      "bundled_baseline_excludes_session": true,
+      "manual_page_navigation": [
+        {
+          "page": "pages/2_📦_最新数据下载.py",
+          "label": "查看如何保存重现结果所需的应用源代码及数据"
+        }
+      ],
+      "data_page_navigation": [
+        {
+          "page": "pages/1_🔧_词根分解的手动校正.py",
+          "label": "查看并备份当前生效的手动校正"
+        }
+      ],
+      "manual_visible_text": [
+        "1. 输入**单词**并点击「查看当前分解」,可确认应用当前如何分解它。\n2. 若分解有误,请以 `词根/词根/词尾` 的形式(斜杠分隔)输入**正确的分解**。\n   - 例: `sporti` 被误分解为 `s/port/i` → 正确为 `sport/i`\n   - 去掉斜杠后的字符串必须与原单词一致。\n   - 也可使用 cx 表记(`c^`、`sx` 等)或混合大小写(会自动转换为帽形字母和小写)。\n3. 点击「**保存此校正**」,即可立即反映到注音(ruby)与汉字两种模式\n   (无需重新生成替换用 JSON)。\n4. 已保存的校正可随时在下方列表中删除。\n\n※ 各词根的译文/汉字使用应用内置词根词典(CSV)中登记的内容。\n词典中没有的词根或语法词尾(i, o, a, e, n …)会以无译文的裸形显示。",
+        "**semajno**",
+        "→ `semajn/o`",
+        "**greganta**",
+        "→ `greg/ant/a`",
+        "**lasis**",
+        "→ `las/i/s`",
+        "保存的 `user_corrections.json` 有**两个读取入口**,效果相同:\n\n| 读取入口 | 适合的用途 |\n|---|---|\n| **主页面(转换)的「📂 读取手动校正文件」** | 只想转换时(最快·推荐) |\n| **本页面(这里)** | 需要**查看列表·逐条删除·重新下载**等管理操作时 |\n\n- **Streamlit Cloud 上校正会在会话结束后丢失**。请下载保存,下次在上述任一入口读取\n  (发送给管理员 commit 后,可作为面向所有人的基线持久化)。\n- 读取时,各词根的译文/汉字会**用本应用的词典重新生成**,因此在日语版制作的校正\n  可直接移植到中文版・한국어版(仅沿用分解方式)。",
+        "旧版固定为本轮修订前的分配，新版继续更新。两版共用最新注释。",
+        "去掉斜杠后的单词: `lasis`",
+        "此列表及备份包含内置校正，并反映本次会话中的添加、导入和删除，表示当前生效的手动校正；不包含应用的自动校正或@专用处理。要重现相同结果，还需对应版本的源代码、数据及相同设置。",
+        "共有 3 条校正生效中(自动应用于 主页面(转换))。"
+      ],
+      "data_visible_text": [
+        "汉字化数据使用所选版本，注释为两版共用的最新数据。旧版 .gz 文件解压后可作为普通 JSON 使用。",
+        "本页的JSON是替换表原文件，不包含应用中的全部处理，例如@的专门校正和自动校正。仅在其他程序中使用JSON，结果可能不同。",
+        "要重现相同结果，请保存**对应版本的源代码和数据**，并使用相同的**界面语言、输入原文、新旧版本、转换模式、字母表示方式等设置**。如果添加或导入过手动校正，还需从下面的手动校正页面保存**当前生效校正的备份**。",
+        "[查看此版本的应用源代码](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/fe1e11218f125218189d1dea6e45e7afbf4cb15e) · [保存此版本的完整源代码（ZIP）](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/fe1e11218f125218189d1dea6e45e7afbf4cb15e.zip)",
+        "- [汉字＋词根Ruby (57.38 MB)](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97.json)",
+        "- [汉字化·纯替换 (21.52 MB)](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-JA/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E6%BC%A2%E5%AD%97_%E7%B4%94%E7%B2%8B%E7%BD%AE%E6%8F%9B.json)",
+        "- [注释Ruby（共用·最新） (70.27 MB)](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json)",
+        "[旧版固定数据及验证信息](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/assignment_editions/legacy/manifest.json)",
+        "旧版固定为本轮修订前的分配，新版继续更新。两版共用最新注释。",
+        "所选版本: 新版（更新中） · e966e7f3de64",
+        "旧版固定的是汉字分配。已确认的程序问题修复仍会应用于旧版，因此仅保存旧版JSON无法重现当时的整个应用。",
+        "新旧版本选择不改变自定义JSON本身，内置数据专用的校正也不会应用于自定义JSON。自动词根校正使用共用的最新注释。",
+        "与此应用源代码及所选数据一致的已公开版本: fe1e11218f12",
+        "下方的user_corrections.json是应用内置的已确认校正，不包含本次会话中添加、导入或删除后的结果。用于重现结果的当前手动校正，请从手动校正页面保存。"
+      ]
+    },
+    {
+      "edition": "legacy",
+      "source_url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/fe1e11218f125218189d1dea6e45e7afbf4cb15e",
+      "zip_url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/fe1e11218f125218189d1dea6e45e7afbf4cb15e.zip",
+      "large_assets": [
+        {
+          "role": "kanji",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/assignment_editions/legacy/ZH/kanji.json.gz",
+          "path": "assignment_editions/legacy/ZH/kanji.json.gz",
+          "git_blob": "ac21e3ed20a8e11216fe2fea7d501124ebe79f1f",
+          "sha256": "f05e779677489ebcf5d00b00389e841eb89cc8bf7af87bbf1d1e65309c0fd594"
+        },
+        {
+          "role": "pure",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/assignment_editions/legacy/JA/pure.json.gz",
+          "path": "assignment_editions/legacy/JA/pure.json.gz",
+          "git_blob": "b861f672618901aacfe5aa2f727dba7a3aa4bb9b",
+          "sha256": "3ef2efd50fbb13a834f7421c3e85bd406d2926dd304028b19e1de3264ec3fb40"
+        },
+        {
+          "role": "ruby",
+          "url": "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json",
+          "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_ルビ.json",
+          "git_blob": "13a2edd2c191b8d6d4b1f1a5c9d9bb22a4c9171a",
+          "sha256": "a20a2d89b4f9f44a7be82a6a18ee94858a74ea205988f49b0e7c05c2c138e4de"
+        }
+      ],
+      "small_downloads": [
+        {
+          "label": "汉字分配CSV",
+          "filename": "kanji_assignments_legacy_fb76f4bfda67.csv",
+          "bytes": 152831,
+          "sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+          "matches_original_asset": true
+        },
+        {
+          "label": "世界语词根-中文注释对应列表.csv",
+          "filename": "世界语词根-中文注释对应列表.csv",
+          "bytes": 274988,
+          "sha256": "f98beb1f6e096936850a479cf10a9563df5b815b4970d5959d356e47a3b83f2c",
+          "matches_original_asset": true
+        },
+        {
+          "label": "分解設定.json",
+          "filename": "分解設定.json",
+          "bytes": 429584,
+          "sha256": "98bf7a25c3bf86139667dc4327fedfb8b22c738e33529001adb7ed26fba217f0",
+          "matches_original_asset": true
+        },
+        {
+          "label": "word_anno.json",
+          "filename": "word_anno.json",
+          "bytes": 2586979,
+          "sha256": "c469442ac632c00ba4d4d14112617a9133d7e13b26ae3b53bc0df59676226a3d",
+          "matches_original_asset": true
+        },
+        {
+          "label": "E_stem.json",
+          "filename": "E_stem.json",
+          "bytes": 2626958,
+          "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5",
+          "matches_original_asset": true
+        },
+        {
+          "label": "应用内置的已确认校正（不含本次会话的修改） · user_corrections.json",
+          "filename": "user_corrections.json",
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "matches_original_asset": true
+        }
+      ],
+      "manual_backup": {
+        "label": "⬇ 备份当前生效的手动校正（user_corrections.json）",
+        "filename": "user_corrections_legacy_fb76f4bfda67.json",
+        "sha256": "1e696406a25b5fe77f2f403d068d81f804b904ceee67061c0d982b34e35d8f75",
+        "bytes": 2360,
+        "content": [
+          {
+            "word": "semajno",
+            "decomp": "semajn/o",
+            "ruby": [
+              [
+                "semajno",
+                "<ruby>semajn<rt class=\"XXL_L\">周</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>SEMAJN<rt class=\"XXL_L\">周</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>Semajn<rt class=\"XXL_L\">周</rt></ruby>o"
+              ]
+            ],
+            "kanji": [
+              [
+                "semajno",
+                "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o"
+              ]
+            ],
+            "assignment_edition": "legacy",
+            "assignment_signature": "3558a0c1510ba5bcae02ce857b11e03ff7070fa0845f045c943393e1e50262de"
+          },
+          {
+            "word": "greganta",
+            "decomp": "greg/ant/a",
+            "ruby": [
+              [
+                "greganta",
+                "<ruby>greg<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>GREG<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ANT<rt class=\"S_S\">现分词</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>Greg<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a"
+              ]
+            ],
+            "kanji": [
+              [
+                "greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>群ᴳ<rt class=\"L_L\">GREG</rt></ruby><ruby>在<rt class=\"L_L\">ANT</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">Greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ]
+            ],
+            "assignment_edition": "legacy",
+            "assignment_signature": "3558a0c1510ba5bcae02ce857b11e03ff7070fa0845f045c943393e1e50262de"
+          },
+          {
+            "word": "lasis",
+            "decomp": "las/i/s",
+            "ruby": [
+              [
+                "lasis",
+                "<ruby>las<rt class=\"M_M\">放下</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>LAS<rt class=\"M_M\">放下</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>Las<rt class=\"M_M\">放下</rt></ruby>is"
+              ]
+            ],
+            "kanji": [
+              [
+                "lasis",
+                "<ruby>留<rt class=\"XL_L\">las</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>留<rt class=\"XL_L\">LAS</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>留<rt class=\"XL_L\">Las</rt></ruby>is"
+              ]
+            ],
+            "assignment_edition": "legacy",
+            "assignment_signature": "3558a0c1510ba5bcae02ce857b11e03ff7070fa0845f045c943393e1e50262de"
+          }
+        ],
+        "selected_edition": "legacy"
+      },
+      "alternate_edition_backup": {
+        "label": "⬇ 备份当前生效的手动校正（user_corrections.json）",
+        "filename": "user_corrections_current_e966e7f3de64.json",
+        "sha256": "e5c57b43756a6ac985c84b6c39c108fa57ce89aabfb5e051bbdcb692f4d56d2e",
+        "bytes": 2363,
+        "content": [
+          {
+            "word": "semajno",
+            "decomp": "semajn/o",
+            "ruby": [
+              [
+                "semajno",
+                "<ruby>semajn<rt class=\"XXL_L\">周</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>SEMAJN<rt class=\"XXL_L\">周</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>Semajn<rt class=\"XXL_L\">周</rt></ruby>o"
+              ]
+            ],
+            "kanji": [
+              [
+                "semajno",
+                "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o"
+              ],
+              [
+                "SEMAJNO",
+                "<ruby>周<rt class=\"XXS_S\">SEM<br>AJN</rt></ruby>O"
+              ],
+              [
+                "Semajno",
+                "<ruby>周<rt class=\"XXS_S\">Sem<br>ajn</rt></ruby>o"
+              ]
+            ],
+            "assignment_edition": "current",
+            "assignment_signature": "0c4b29c8fc6346734e221ea81306b69fda8089cf10e1d3606000d4823a83661a"
+          },
+          {
+            "word": "greganta",
+            "decomp": "greg/ant/a",
+            "ruby": [
+              [
+                "greganta",
+                "<ruby>greg<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>GREG<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ANT<rt class=\"S_S\">现分词</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>Greg<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a"
+              ]
+            ],
+            "kanji": [
+              [
+                "greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ],
+              [
+                "GREGANTA",
+                "<ruby>群ᴳ<rt class=\"L_L\">GREG</rt></ruby><ruby>在<rt class=\"L_L\">ANT</rt></ruby>A"
+              ],
+              [
+                "Greganta",
+                "<ruby>群ᴳ<rt class=\"L_L\">Greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a"
+              ]
+            ],
+            "assignment_edition": "current",
+            "assignment_signature": "0c4b29c8fc6346734e221ea81306b69fda8089cf10e1d3606000d4823a83661a"
+          },
+          {
+            "word": "lasis",
+            "decomp": "las/i/s",
+            "ruby": [
+              [
+                "lasis",
+                "<ruby>las<rt class=\"M_M\">放下</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>LAS<rt class=\"M_M\">放下</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>Las<rt class=\"M_M\">放下</rt></ruby>is"
+              ]
+            ],
+            "kanji": [
+              [
+                "lasis",
+                "<ruby>放<rt class=\"XL_L\">las</rt></ruby>is"
+              ],
+              [
+                "LASIS",
+                "<ruby>放<rt class=\"XL_L\">LAS</rt></ruby>IS"
+              ],
+              [
+                "Lasis",
+                "<ruby>放<rt class=\"XL_L\">Las</rt></ruby>is"
+              ]
+            ],
+            "assignment_edition": "current",
+            "assignment_signature": "0c4b29c8fc6346734e221ea81306b69fda8089cf10e1d3606000d4823a83661a"
+          }
+        ],
+        "selected_edition": "current"
+      },
+      "session_import_preserved": true,
+      "new_entry_preserved": true,
+      "edited_entry_preserved": true,
+      "draft_retained_across_edition_switch": true,
+      "bundled_baseline_excludes_session": true,
+      "manual_page_navigation": [
+        {
+          "page": "pages/2_📦_最新数据下载.py",
+          "label": "查看如何保存重现结果所需的应用源代码及数据"
+        }
+      ],
+      "data_page_navigation": [
+        {
+          "page": "pages/1_🔧_词根分解的手动校正.py",
+          "label": "查看并备份当前生效的手动校正"
+        }
+      ],
+      "manual_visible_text": [
+        "1. 输入**单词**并点击「查看当前分解」,可确认应用当前如何分解它。\n2. 若分解有误,请以 `词根/词根/词尾` 的形式(斜杠分隔)输入**正确的分解**。\n   - 例: `sporti` 被误分解为 `s/port/i` → 正确为 `sport/i`\n   - 去掉斜杠后的字符串必须与原单词一致。\n   - 也可使用 cx 表记(`c^`、`sx` 等)或混合大小写(会自动转换为帽形字母和小写)。\n3. 点击「**保存此校正**」,即可立即反映到注音(ruby)与汉字两种模式\n   (无需重新生成替换用 JSON)。\n4. 已保存的校正可随时在下方列表中删除。\n\n※ 各词根的译文/汉字使用应用内置词根词典(CSV)中登记的内容。\n词典中没有的词根或语法词尾(i, o, a, e, n …)会以无译文的裸形显示。",
+        "**semajno**",
+        "→ `semajn/o`",
+        "**greganta**",
+        "→ `greg/ant/a`",
+        "**lasis**",
+        "→ `las/i/s`",
+        "保存的 `user_corrections.json` 有**两个读取入口**,效果相同:\n\n| 读取入口 | 适合的用途 |\n|---|---|\n| **主页面(转换)的「📂 读取手动校正文件」** | 只想转换时(最快·推荐) |\n| **本页面(这里)** | 需要**查看列表·逐条删除·重新下载**等管理操作时 |\n\n- **Streamlit Cloud 上校正会在会话结束后丢失**。请下载保存,下次在上述任一入口读取\n  (发送给管理员 commit 后,可作为面向所有人的基线持久化)。\n- 读取时,各词根的译文/汉字会**用本应用的词典重新生成**,因此在日语版制作的校正\n  可直接移植到中文版・한국어版(仅沿用分解方式)。",
+        "旧版固定为本轮修订前的分配，新版继续更新。两版共用最新注释。",
+        "去掉斜杠后的单词: `lasis`",
+        "此列表及备份包含内置校正，并反映本次会话中的添加、导入和删除，表示当前生效的手动校正；不包含应用的自动校正或@专用处理。要重现相同结果，还需对应版本的源代码、数据及相同设置。",
+        "共有 3 条校正生效中(自动应用于 主页面(转换))。"
+      ],
+      "data_visible_text": [
+        "汉字化数据使用所选版本，注释为两版共用的最新数据。旧版 .gz 文件解压后可作为普通 JSON 使用。",
+        "本页的JSON是替换表原文件，不包含应用中的全部处理，例如@的专门校正和自动校正。仅在其他程序中使用JSON，结果可能不同。",
+        "要重现相同结果，请保存**对应版本的源代码和数据**，并使用相同的**界面语言、输入原文、新旧版本、转换模式、字母表示方式等设置**。如果添加或导入过手动校正，还需从下面的手动校正页面保存**当前生效校正的备份**。",
+        "[查看此版本的应用源代码](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/tree/fe1e11218f125218189d1dea6e45e7afbf4cb15e) · [保存此版本的完整源代码（ZIP）](https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/archive/fe1e11218f125218189d1dea6e45e7afbf4cb15e.zip)",
+        "- [汉字＋词根Ruby (6.39 MB)](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/assignment_editions/legacy/ZH/kanji.json.gz)",
+        "- [汉字化·纯替换 (4.17 MB)](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/assignment_editions/legacy/JA/pure.json.gz)",
+        "- [注释Ruby（共用·最新） (70.27 MB)](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/Esperanto-Kanji-Ruby-ZH/app_data/%E7%BD%AE%E6%8F%9B%E3%83%AA%E3%82%B9%E3%83%88_%E3%83%AB%E3%83%93.json)",
+        "[旧版固定数据及验证信息](https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/fe1e11218f125218189d1dea6e45e7afbf4cb15e/assignment_editions/legacy/manifest.json)",
+        "旧版固定为本轮修订前的分配，新版继续更新。两版共用最新注释。",
+        "所选版本: 旧版（固定） · fb76f4bfda67",
+        "旧版固定的是汉字分配。已确认的程序问题修复仍会应用于旧版，因此仅保存旧版JSON无法重现当时的整个应用。",
+        "新旧版本选择不改变自定义JSON本身，内置数据专用的校正也不会应用于自定义JSON。自动词根校正使用共用的最新注释。",
+        "与此应用源代码及所选数据一致的已公开版本: fe1e11218f12",
+        "下方的user_corrections.json是应用内置的已确认校正，不包含本次会话中添加、导入或删除后的结果。用于重现结果的当前手动校正，请从手动校正页面保存。"
+      ]
+    }
+  ],
+  "source_hashes": {
+    "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py": "f8a5f613b084ef3599feb1abbd173cda7ec035b826c94a74b13f8beeae704217",
+    "Esperanto-Kanji-Ruby-ZH/pages/2_📦_最新数据下载.py": "c0919af12d578f9bdb1ec7084ae8adc7155453e73187a467eb654bbb68b53e4c",
+    "Esperanto-Kanji-Ruby-ZH/main.py": "55e81bc3ecc45a8e31b7d0c067140284f5f64c9a2a97dd71b4edf1cefaba0fc4",
+    "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py": "ff0b12bf9edc866f1a97184ffca514808657beb68e3c326d9483d544a9f1a298"
+  },
+  "application_and_baseline_unchanged": true,
+  "method": "Actual local Streamlit AppTest pages; upload/download transport and navigation-call recording only are instrumented. Import two decompositions with stale glyph data, add a third and edit an existing decomposition through real buttons, preserve them across edition changes and data-page session transfer. Every small download payload compared byte for byte to selected asset; large URLs verified against selected paths and committed blobs; source and ZIP URLs must match the same committed source. No Cloud claim."
+}
