@@ -492,9 +492,9 @@ st.write("---")
 st.header("Ligilo-oj (URL-oj) / 言語版・语言版本・언어판")
 st.markdown("""
 #### 日中韓 三言語版 ⇓ (Japana / Ĉina / Korea)
-- **日本語版 (Japana)**: https://esperanto-radiko-cjk-annotator.streamlit.app/
-- **中文版 (Ĉina)**: https://esperanto-radiko-cjk-annotator-zh.streamlit.app/
-- **한국어판 (Korea)**: https://esperanto-radiko-cjk-annotator-ko.streamlit.app/
+- **日本語版 (Japana)**: https://esperanto-cjk-revision-ja-20261017.streamlit.app/
+- **中文版 (Ĉina)**: https://esperanto-cjk-revision-zh-20261017.streamlit.app/
+- **한국어판 (Korea)**: https://esperanto-cjk-revision-ko-20261017.streamlit.app/
 
 #### GitHub-deponejo (fontkodo & uzadaj instrukcioj) ⇓
 https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017
