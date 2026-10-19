@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "baseline": "3454d0359282e001d0baa3db6d45e94efe6eb457",
+  "rows": [
+    {
+      "language": "JA",
+      "main_only_footer_links": true,
+      "page_only_render_diagnostic_preview": true,
+      "segment_extractor_unchanged": true,
+      "main_sha256": "611dea29a5b6ecd0f96bea0e4f74cee5df610163ed3f9096fe340430423c19a2",
+      "page_sha256": "da9c1a3dddf290420fd02994c8267d33642ccf75bf0bcd8225abca3e8c94a801"
+    },
+    {
+      "language": "ZH",
+      "main_only_footer_links": true,
+      "page_only_render_diagnostic_preview": true,
+      "segment_extractor_unchanged": true,
+      "main_sha256": "55e81bc3ecc45a8e31b7d0c067140284f5f64c9a2a97dd71b4edf1cefaba0fc4",
+      "page_sha256": "d277ca222aca993f0b6100b3adab264d9834b30e7d9d16b8f1234c41b69d86b9"
+    },
+    {
+      "language": "KO",
+      "main_only_footer_links": true,
+      "page_only_render_diagnostic_preview": true,
+      "segment_extractor_unchanged": true,
+      "main_sha256": "8bc64ae13d91327c9623147837d51e2c580cd07d5c4029d2f5d8515b6932d09e",
+      "page_sha256": "26b23e9c212659264c5196504399cdec7719bcb192cdaa2e9ac743a67b456fd0"
+    }
+  ],
+  "cross_language_render_helper_identical": true,
+  "issues": [],
+  "review_notes": [
+    "Stored/session overlay merge, automatic discovery and optional second pass match existing main.py semantics.",
+    "Optional autofix exceptions retain pass-one rendering, matching main behavior.",
+    "Diagnostic and both preview iframes reuse the same two final results; no extra preview rendering can disagree.",
+    "Original input normalization, padding, segment extraction, draft seeding, session save/delete/upload and download handling remain unchanged.",
+    "No engine, edition helper, assignment, identifier, replacement data, reverter or HTML recovery code changed.",
+    "Archived earlier exact-at AppTest expected three engine calls; it describes the earlier implementation and is intentionally preserved. New tests compare output rather than stale call counts."
+  ]
+}

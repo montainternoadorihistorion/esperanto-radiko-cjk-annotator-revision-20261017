@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "languages": [
+    "JA",
+    "ZH",
+    "KO"
+  ],
+  "editions": [
+    "current",
+    "legacy"
+  ],
+  "modes": [
+    "ruby",
+    "kanji"
+  ],
+  "normal_diagnostic_checks": 36,
+  "per_language_reports": {
+    "JA": "JA.json",
+    "ZH": "ZH.json",
+    "KO": "KO.json"
+  },
+  "additional_checks": [
+    "existing normal and @ controls",
+    "protected text and selected-edition identifiers",
+    "manual session correction with lower/title/upper case",
+    "exact @ local priority preserved under a manual correction",
+    "optional automatic correction exception retains first pass",
+    "diagnostics reuse provided final HTML without rerender",
+    "baseline correction files unchanged",
+    "revision footer URLs in all three languages",
+    "existing test_at_two_exact_fix opt-in AST check"
+  ],
+  "application_files": {
+    "Esperanto-Kanji-Ruby-JA\\main.py": "611dea29a5b6ecd0f96bea0e4f74cee5df610163ed3f9096fe340430423c19a2",
+    "Esperanto-Kanji-Ruby-JA\\pages\\1_🔧_語根分解の手動補正.py": "da9c1a3dddf290420fd02994c8267d33642ccf75bf0bcd8225abca3e8c94a801",
+    "Esperanto-Kanji-Ruby-ZH\\main.py": "55e81bc3ecc45a8e31b7d0c067140284f5f64c9a2a97dd71b4edf1cefaba0fc4",
+    "Esperanto-Kanji-Ruby-ZH\\pages\\1_🔧_词根分解的手动校正.py": "d277ca222aca993f0b6100b3adab264d9834b30e7d9d16b8f1234c41b69d86b9",
+    "Esperanto-Kanji-Ruby-KO\\main.py": "8bc64ae13d91327c9623147837d51e2c580cd07d5c4029d2f5d8515b6932d09e",
+    "Esperanto-Kanji-Ruby-KO\\pages\\1_🔧_어근 분해 수동 보정.py": "26b23e9c212659264c5196504399cdec7719bcb192cdaa2e9ac743a67b456fd0"
+  },
+  "scope": "Three manual pages and three main footer links only; no engine, dictionary or inverse changes; no commit or deployment by this implementation agent."
+}

@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "issues": [],
+  "baseline": "3454d0359282e001d0baa3db6d45e94efe6eb457",
+  "reviewed_head": "dd79429283ed256b5bc8a378d2ee46b4ad6724ef",
+  "source_fingerprints_match": true,
+  "languages": [
+    "JA",
+    "ZH",
+    "KO"
+  ],
+  "editions": [
+    "current",
+    "legacy"
+  ],
+  "manual_page_queries": 78,
+  "actual_main_conversions": 156,
+  "actual_iframe_srcdoc_comparisons": 156,
+  "displayed_diagnostic_comparisons": 156,
+  "draft_and_session_guards": 72,
+  "actual_footer_url_checks": 9,
+  "local_cloud_fixture_queries": 12,
+  "disk_corrections_unchanged": true,
+  "source_review": [
+    "Stored/session overlay merge, automatic discovery and optional second pass match existing main.py semantics.",
+    "Optional autofix exceptions retain pass-one rendering, matching main behavior.",
+    "Diagnostic and both preview iframes reuse the same two final results; no extra preview rendering can disagree.",
+    "Original input normalization, padding, segment extraction, draft seeding, session save/delete/upload and download handling remain unchanged.",
+    "No engine, edition helper, assignment, identifier, replacement data, reverter or HTML recovery code changed.",
+    "Archived earlier exact-at AppTest expected three engine calls; it describes the earlier implementation and is intentionally preserved. New tests compare output rather than stale call counts."
+  ],
+  "method": "Fresh process per language; real Streamlit AppTest main and manual-page controls. Compare both final iframe srcdocs byte for byte against actual main results, and diagnostic markdown against independently parsed visible segmentation. No production conversion function mocked. Session override saved through page button and transferred between independent AppTest sessions. Deliberately different test-only drafts and session overrides are isolated checks, not adopted linguistic corrections; stored data remain unchanged. Cloud fixtures are local expectations only."
+}

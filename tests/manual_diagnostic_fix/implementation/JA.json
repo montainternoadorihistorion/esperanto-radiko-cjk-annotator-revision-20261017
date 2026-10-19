@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "language": "JA",
+  "rows": [
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "word": "greganta",
+      "decomposition": "greg/ant/a",
+      "plain": "greganta"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "word": "preganta",
+      "decomposition": "preg/ant/a",
+      "plain": "preganta"
+    },
+    {
+      "edition": "current",
+      "mode": "ruby",
+      "word": "kordonita",
+      "decomposition": "kordonita",
+      "plain": "kordonita"
+    },
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "word": "greganta",
+      "decomposition": "群ᴳ/在/a",
+      "plain": "群ᴳ在a"
+    },
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "word": "preganta",
+      "decomposition": "压ᴾᴳ/在/a",
+      "plain": "压ᴾᴳ在a"
+    },
+    {
+      "edition": "current",
+      "mode": "kanji",
+      "word": "kordonita",
+      "decomposition": "kordonita",
+      "plain": "kordonita"
+    },
+    {
+      "edition": "legacy",
+      "mode": "ruby",
+      "word": "greganta",
+      "decomposition": "greg/ant/a",
+      "plain": "greganta"
+    },
+    {
+      "edition": "legacy",
+      "mode": "ruby",
+      "word": "preganta",
+      "decomposition": "preg/ant/a",
+      "plain": "preganta"
+    },
+    {
+      "edition": "legacy",
+      "mode": "ruby",
+      "word": "kordonita",
+      "decomposition": "kordonita",
+      "plain": "kordonita"
+    },
+    {
+      "edition": "legacy",
+      "mode": "kanji",
+      "word": "greganta",
+      "decomposition": "群ᴳ/在/a",
+      "plain": "群ᴳ在a"
+    },
+    {
+      "edition": "legacy",
+      "mode": "kanji",
+      "word": "preganta",
+      "decomposition": "压ᴾᴳ/在/a",
+      "plain": "压ᴾᴳ在a"
+    },
+    {
+      "edition": "legacy",
+      "mode": "kanji",
+      "word": "kordonita",
+      "decomposition": "kordonita",
+      "plain": "kordonita"
+    }
+  ],
+  "normal_diagnostic_checks": 12,
+  "unchanged_corrections_file": true
+}
