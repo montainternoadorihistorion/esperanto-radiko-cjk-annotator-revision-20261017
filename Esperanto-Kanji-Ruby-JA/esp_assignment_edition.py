@@ -49,6 +49,20 @@ def _is_bundled_legacy_pure_path(path):
     return Path(path).resolve() == root / "assignment_editions" / "legacy" / "JA" / "pure.json.gz"
 
 
+def supports_reviewed_local_decompositions(path):
+    """Opt in only the actual bundled conversion tables, never an uploaded copy."""
+    root = Path(__file__).resolve().parent.parent
+    bundled = {
+        root / f"Esperanto-Kanji-Ruby-{lang}" / "app_data" / name
+        for lang in LABELS
+        for name in ("置換リスト_漢字.json", "置換リスト_ルビ.json")
+    }
+    bundled.update(root / "assignment_editions" / "legacy" / lang / "kanji.json.gz" for lang in LABELS)
+    bundled.update((root / "Esperanto-Kanji-Ruby-JA" / "app_data" / "置換リスト_漢字_純粋置換.json",
+                    root / "assignment_editions" / "legacy" / "JA" / "pure.json.gz"))
+    return Path(path).resolve() in bundled
+
+
 def _with_reviewed_pure_corrections(global_rules, local_rules):
     """Add boundary-only rules, using this edition's existing @ root glyphs.
 

@@ -179,8 +179,41 @@ def _capture_marker_spans(text, matches, tokens, render):
     return ''.join(pieces), captured
 
 
+# Only these exact lowercase @ payloads were reviewed. Their renderings come
+# from the selected local atoms, preserving that language's glosses and IDs.
+_REVIEWED_LOCAL_DECOMPOSITIONS = {
+    "greganta": ("greg", "ant", "a"),
+    "preganta": ("preg", "ant", "a"),
+}
+
+
+def _reviewed_local_renderings(payloads, local_rules, enabled=False):
+    wanted = set(payloads) & _REVIEWED_LOCAL_DECOMPOSITIONS.keys() if enabled else set()
+    if not wanted:
+        return {}
+    needed = {root for word in wanted for root in _REVIEWED_LOCAL_DECOMPOSITIONS[word][:-1]}
+    roots = {}
+    for old, new, _ in local_rules:
+        if old in needed:
+            if not isinstance(new, str) or not new or (old in roots and roots[old] != new):
+                raise ValueError("Conflicting or empty reviewed local root: " + old)
+            roots[old] = new
+    if set(roots) != needed:
+        raise ValueError("Missing reviewed local roots: " + repr(sorted(needed - roots.keys())))
+    return {word: "".join(roots[root] for root in _REVIEWED_LOCAL_DECOMPOSITIONS[word][:-1])
+                  + _REVIEWED_LOCAL_DECOMPOSITIONS[word][-1] for word in wanted}
+
+
+def _render_localized_payload(payload, local_rules, finalized, reviewed, escape):
+    if payload in reviewed:
+        return reviewed[payload]
+    if payload in finalized:
+        return finalized[payload]
+    return safe_replace(escape(payload), local_rules)
+
+
 def _protect_input_regions(text, skip_tokens, local_tokens, local_rules,
-                           global_rules, html_mode):
+                           global_rules, html_mode, reviewed_local_decompositions: bool = False):
     source, used = text, set()
     escape = _escape_input_symbols if html_mode else lambda value: value
     text, skipped = _capture_marker_spans(
@@ -191,10 +224,10 @@ def _protect_input_regions(text, skip_tokens, local_tokens, local_rules,
     payloads = [text[m.start(1):m.end(1)] for m in matches]
     finalized = _finalized_global_renderings_for_exact_matches(payloads, global_rules)
 
+    reviewed = _reviewed_local_renderings(payloads, local_rules, reviewed_local_decompositions)
+
     def render_local(payload):
-        if payload in finalized:
-            return finalized[payload]
-        return safe_replace(escape(payload), local_rules)
+        return _render_localized_payload(payload, local_rules, finalized, reviewed, escape)
 
     text, localized = _capture_marker_spans(
         text, matches, _marker_tokens(local_tokens, '@', source, used), render_local,
@@ -266,7 +299,7 @@ def _finalized_global_renderings_for_exact_matches(
 
 def create_replacements_list_for_localized_replacement(text, placeholders: List[str],
                                                        replacements_list_for_localized_string: List[Tuple[str, str, str]],
-                                                       replacements_final_list: List[Tuple[str, str, str]] = None,
+                                                       replacements_final_list: List[Tuple[str, str, str]] = None, reviewed_local_decompositions: bool = False,
                                                        ) -> List[List[str]]:
     """
     '@xxx@' で囲まれた箇所を検出し、
@@ -277,12 +310,15 @@ def create_replacements_list_for_localized_replacement(text, placeholders: List[
     finalized_global = _finalized_global_renderings_for_exact_matches(
         matches, replacements_final_list or []
     )
+    reviewed = _reviewed_local_renderings(
+        matches, replacements_list_for_localized_string, reviewed_local_decompositions
+    )
     tmp_list = []
     for i, match in enumerate(matches):
         if i < len(placeholders):
-            replaced_match = finalized_global.get(match)
-            if replaced_match is None:
-                replaced_match = safe_replace(match, replacements_list_for_localized_string)
+            replaced_match = _render_localized_payload(
+                match, replacements_list_for_localized_string, finalized_global, reviewed, lambda value: value
+            )
             tmp_list.append([f"@{match}@", placeholders[i], replaced_match])
         else:
             break
@@ -298,7 +334,7 @@ def orchestrate_comprehensive_esperanto_text_replacement(
     placeholders_for_localized_replacement: List[str],
     replacements_final_list: List[Tuple[str, str, str]],
     replacements_list_for_2char: List[Tuple[str, str, str]],
-    format_type: str
+    format_type: str, reviewed_local_decompositions: bool = False
 ) -> str:
     """
     複数の変換ルールに従ってエスペラント文を文字列(漢字)置換するメイン関数。
@@ -324,7 +360,7 @@ def orchestrate_comprehensive_esperanto_text_replacement(
         text, placeholders_for_skipping_replacements,
         placeholders_for_localized_replacement,
         replacements_list_for_localized_string, replacements_final_list,
-        "HTML" in format_type,
+        "HTML" in format_type, reviewed_local_decompositions=reviewed_local_decompositions,
     )
     # 4.5) 約物パディング(v2): 約物の両側に番兵付き仮想スペースを挿入し、2字語根standalone
     # (' x 'パターン)が「両隣が非文字」の境界でも発火するようにする(出力前に除去・表示不変)。
@@ -461,7 +497,7 @@ def process_segment(
     placeholders_for_localized_replacement: List[str],
     replacements_final_list: List[Tuple[str, str, str]],
     replacements_list_for_2char: List[Tuple[str, str, str]],
-    format_type: str
+    format_type: str, reviewed_local_decompositions: bool = False
 ) -> str:
     """
     multiprocessing用の下請け関数。
@@ -475,7 +511,7 @@ def process_segment(
         placeholders_for_localized_replacement,
         replacements_final_list,
         replacements_list_for_2char,
-        format_type
+        format_type, reviewed_local_decompositions=reviewed_local_decompositions
     )
     return result
 
@@ -488,7 +524,7 @@ def parallel_process(
     placeholders_for_localized_replacement: List[str],
     replacements_final_list: List[Tuple[str, str, str]],
     replacements_list_for_2char: List[Tuple[str, str, str]],
-    format_type: str
+    format_type: str, reviewed_local_decompositions: bool = False
 ) -> str:
     """
     与えられた text を行単位で分割し、process_segment を
@@ -503,7 +539,7 @@ def parallel_process(
             placeholders_for_localized_replacement,
             replacements_final_list,
             replacements_list_for_2char,
-            format_type
+            format_type, reviewed_local_decompositions=reviewed_local_decompositions
         )
 
     # 行ごとに分割 (改行込み)
@@ -518,7 +554,7 @@ def parallel_process(
             placeholders_for_localized_replacement,
             replacements_final_list,
             replacements_list_for_2char,
-            format_type
+            format_type, reviewed_local_decompositions=reviewed_local_decompositions
         )
 
     lines_per_process = max(num_lines // num_processes, 1)
@@ -537,7 +573,7 @@ def parallel_process(
                     placeholders_for_localized_replacement,
                     replacements_final_list,
                     replacements_list_for_2char,
-                    format_type
+                    format_type, reviewed_local_decompositions
                 )
                 for (start, end) in ranges
             ]

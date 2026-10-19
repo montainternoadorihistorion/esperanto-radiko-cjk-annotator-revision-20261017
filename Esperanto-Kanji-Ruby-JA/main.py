@@ -55,6 +55,7 @@ st.write("---")
 # 1) JSONファイル (置換ルール) をロードする (デフォルト or アップロード)
 assignment_edition = editions.select_edition(DATA_DIR)
 _custom_json_sha = None
+_bundled_json_path = None
 
 selected_option = input_state.persistent_radio(
     "変換モードを選択:",
@@ -75,6 +76,7 @@ replacements_list_for_2char: List[Tuple[str, str, str]] = []
 
 if selected_option == "📖 注釈ルビ（語根の上に日本語訳）":
     default_json_path = os.path.join(DATA_DIR, '置換リスト_ルビ.json')
+    _bundled_json_path = default_json_path
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(default_json_path)
         st.success("✅ 注釈ルビモードの準備ができました。このまま下の入力欄に文章を入れて「🔁 変換する」を押してください。")
@@ -83,6 +85,7 @@ if selected_option == "📖 注釈ルビ（語根の上に日本語訳）":
         st.stop()
 elif selected_option == "🈶 漢字化（漢字＋語根ルビ）":
     kanji_json_path = editions.resolve_path(DATA_DIR, "kanji", assignment_edition)
+    _bundled_json_path = kanji_json_path
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(kanji_json_path)
         st.success("✅ 漢字化モードの準備ができました（漢字が本文・語根がルビ）。下の入力欄に文章を入れて「🔁 変換する」を押してください。")
@@ -91,6 +94,7 @@ elif selected_option == "🈶 漢字化（漢字＋語根ルビ）":
         st.stop()
 elif selected_option == "✂️ 漢字化・純粋置換（タグなしテキスト）":
     pure_json_path = editions.resolve_path(DATA_DIR, "pure", assignment_edition)
+    _bundled_json_path = pure_json_path
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(pure_json_path)
         st.success("✅ 漢字化・純粋置換モードの準備ができました（タグなしの漢字テキストに変換。例: amikeco → 友性o）。下の入力欄に文章を入れて「🔁 変換する」を押してください。")
@@ -124,6 +128,10 @@ else:
     else:
         st.warning("JSONファイルがアップロードされていません。処理を停止します。")
         st.stop()
+
+reviewed_local_decompositions = bool(
+    _bundled_json_path and editions.supports_reviewed_local_decompositions(_bundled_json_path)
+)
 
 # 1.5) 手動補正(軽量オーバーレイ)を最優先で適用
 #   「語根分解の手動補正」ページで保存した補正(app_data/user_corrections.json)を、
@@ -301,7 +309,8 @@ if submit_btn:
             placeholders_for_localized_replacement=placeholders_for_localized_replacement,
             replacements_final_list=replacements_final_list,
             replacements_list_for_2char=replacements_list_for_2char,
-            format_type=format_type
+            format_type=format_type,
+            reviewed_local_decompositions=reviewed_local_decompositions
         )
     else:
         processed_text = orchestrate_comprehensive_esperanto_text_replacement(
@@ -311,7 +320,8 @@ if submit_btn:
             placeholders_for_localized_replacement=placeholders_for_localized_replacement,
             replacements_final_list=replacements_final_list,
             replacements_list_for_2char=replacements_list_for_2char,
-            format_type=format_type
+            format_type=format_type,
+            reviewed_local_decompositions=reviewed_local_decompositions
         )
 
     # 1パス目に「先頭1字孤立」過分解(子音1字の遊離: fero->f/er/o 等)があれば、
@@ -335,7 +345,8 @@ if submit_btn:
                     placeholders_for_localized_replacement=placeholders_for_localized_replacement,
                     replacements_final_list=_GGx,
                     replacements_list_for_2char=replacements_list_for_2char,
-                    format_type=format_type)
+                    format_type=format_type,
+                    reviewed_local_decompositions=reviewed_local_decompositions)
             else:
                 processed_text = orchestrate_comprehensive_esperanto_text_replacement(
                     text=text0,
@@ -344,7 +355,8 @@ if submit_btn:
                     placeholders_for_localized_replacement=placeholders_for_localized_replacement,
                     replacements_final_list=_GGx,
                     replacements_list_for_2char=replacements_list_for_2char,
-                    format_type=format_type)
+                    format_type=format_type,
+                    reviewed_local_decompositions=reviewed_local_decompositions)
     except Exception:
         pass  # 自動補正は任意。失敗しても1パス目の結果をそのまま使う。
 

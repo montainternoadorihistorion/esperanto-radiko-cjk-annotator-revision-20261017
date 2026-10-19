@@ -73,6 +73,7 @@ st.write("---")
 #=================================================================
 assignment_edition = editions.select_edition(DATA_DIR)
 _custom_json_sha = None
+_bundled_json_path = None
 
 selected_option = input_state.persistent_radio(
     "변환 모드 선택:",
@@ -97,6 +98,7 @@ replacements_list_for_2char: List[Tuple[str, str, str]] = []
 # JSONファイルの読み込み方を分岐
 if selected_option == "📖 주석 루비（어근 위에 한국어 주석）":
     default_json_path = os.path.join(DATA_DIR, '置換リスト_ルビ.json')
+    _bundled_json_path = default_json_path
     try:
         (replacements_final_list,
          replacements_list_for_localized_string,
@@ -107,6 +109,7 @@ if selected_option == "📖 주석 루비（어근 위에 한국어 주석）":
         st.stop()
 elif selected_option == "🈶 한자화（한자＋어근 루비）":
     kanji_json_path = editions.resolve_path(DATA_DIR, "kanji", assignment_edition)
+    _bundled_json_path = kanji_json_path
     try:
         (replacements_final_list,
          replacements_list_for_localized_string,
@@ -117,6 +120,7 @@ elif selected_option == "🈶 한자화（한자＋어근 루비）":
         st.stop()
 elif selected_option == "✂️ 한자화·순수 치환（태그 없는 텍스트）":
     pure_json_path = editions.resolve_path(DATA_DIR, "pure", assignment_edition)
+    _bundled_json_path = pure_json_path
     try:
         replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(pure_json_path)
         st.success("순수 치환판 JSON을 불러왔습니다. 에스페란토 문장이 태그 없는 한자 텍스트로 변환됩니다(예: amikeco → 友性o).")
@@ -150,6 +154,10 @@ else:
     else:
         st.warning("JSON 파일이 업로드되지 않았습니다. 처리를 중단합니다.")
         st.stop()
+
+reviewed_local_decompositions = bool(
+    _bundled_json_path and editions.supports_reviewed_local_decompositions(_bundled_json_path)
+)
 
 # 1.5) 수동 보정(경량 overlay)을 최우선으로 적용
 #   「어근 분해 수동 보정」페이지에서 저장한 보정(app_data/user_corrections.json)을,
@@ -341,7 +349,8 @@ if submit_btn:
             placeholders_for_localized_replacement=placeholders_for_localized_replacement,
             replacements_final_list=replacements_final_list,
             replacements_list_for_2char=replacements_list_for_2char,
-            format_type=format_type
+            format_type=format_type,
+            reviewed_local_decompositions=reviewed_local_decompositions
         )
     else:
         processed_text = orchestrate_comprehensive_esperanto_text_replacement(
@@ -351,7 +360,8 @@ if submit_btn:
             placeholders_for_localized_replacement=placeholders_for_localized_replacement,
             replacements_final_list=replacements_final_list,
             replacements_list_for_2char=replacements_list_for_2char,
-            format_type=format_type
+            format_type=format_type,
+            reviewed_local_decompositions=reviewed_local_decompositions
         )
 
     # 1차 결과에 「어두 1자 고립」 과분해(자음 1자 고립: fero->f/er/o 등)가 있으면,
@@ -374,7 +384,8 @@ if submit_btn:
                     placeholders_for_localized_replacement=placeholders_for_localized_replacement,
                     replacements_final_list=_GGx,
                     replacements_list_for_2char=replacements_list_for_2char,
-                    format_type=format_type)
+                    format_type=format_type,
+                    reviewed_local_decompositions=reviewed_local_decompositions)
             else:
                 processed_text = orchestrate_comprehensive_esperanto_text_replacement(
                     text=text0,
@@ -383,7 +394,8 @@ if submit_btn:
                     placeholders_for_localized_replacement=placeholders_for_localized_replacement,
                     replacements_final_list=_GGx,
                     replacements_list_for_2char=replacements_list_for_2char,
-                    format_type=format_type)
+                    format_type=format_type,
+                    reviewed_local_decompositions=reviewed_local_decompositions)
     except Exception:
         pass
 
