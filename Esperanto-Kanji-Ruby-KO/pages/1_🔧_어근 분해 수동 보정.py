@@ -7,7 +7,7 @@
 필요가 없다.
 
 원리(경량 overlay):
-  - 여기서 저장한 보정은 app_data/user_corrections.json 에 누적된다.
+  - 여기서 저장한 보정은 현재 브라우저 세션에만 적용되며, app_data/user_corrections.json 은 읽기 전용 내장 기준 데이터이다.
   - 메인 페이지(변환)는 시작 시 이 파일을 읽어, 루비(ruby)·한자 두 모드 모두에서 최우선으로 적용한다.
   - 보정은 「그 단어 정확히」에만 적용(고정형)되므로, 부분 문자열을 공유하는 다른 단어
     (예: sportisto)를 깨뜨리지 않는다.
@@ -37,6 +37,7 @@ st.set_page_config(page_title="어근 분해 수동 보정", page_icon="🔧", l
 st.title("어근 분해 수동 보정 (GUI에서 간단히 수정)")
 assignment_edition = editions.select_edition(DATA_DIR)
 KANJI_JSON = str(editions.resolve_path(DATA_DIR, "kanji", assignment_edition))
+st.page_link('pages/2_📦_최신 데이터 다운로드.py', label='재현에 필요한 앱 소스 코드·데이터 저장 방법 보기', icon="📦")
 
 
 with st.expander("사용 방법", expanded=True):
@@ -161,6 +162,7 @@ if decomp_in:
 
 # ============ 3) 저장된 보정 목록 ============
 st.header("3. 저장된 보정 목록")
+st.caption('이 목록과 백업은 내장 보정에 현재 세션의 추가·불러오기·삭제를 반영한 현재 유효한 수동 보정입니다. 앱의 자동 보정이나 @ 전용 처리는 포함하지 않습니다. 같은 결과를 재현하려면 해당 버전의 소스 코드·데이터와 같은 설정도 필요합니다.')
 cors = ov.load_corrections(DATA)
 if not cors:
     st.info("아직 보정이 없습니다.")
@@ -175,7 +177,7 @@ else:
             st.rerun()
 
     st.download_button(
-        "⬇ 보정 목록(user_corrections.json) 다운로드",
+        "⬇ 현재 적용 중인 수동 보정 백업（user_corrections.json）",
         data=json.dumps([dict(ov.build_correction(c["decomp"], DATA, assignment_edition),
                              assignment_edition=assignment_edition,
                              assignment_signature=editions.edition_signature(DATA_DIR, assignment_edition))

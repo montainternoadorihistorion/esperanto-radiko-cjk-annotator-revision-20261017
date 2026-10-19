@@ -36,6 +36,7 @@ st.set_page_config(page_title="語根分解の手動補正", page_icon="🔧", l
 st.title("語根分解の手動補正 (GUIで簡単に直す)")
 assignment_edition = editions.select_edition(DATA_DIR)
 KANJI_JSON = str(editions.resolve_path(DATA_DIR, "kanji", assignment_edition))
+st.page_link('pages/2_📦_最新データのダウンロード.py', label='再現に必要なアプリソース・データの保存方法を見る', icon="📦")
 
 
 with st.expander("使い方", expanded=True):
@@ -161,6 +162,7 @@ if decomp_in:
 
 # ============ 3) 保存済みの補正一覧 ============
 st.header("3. 保存済みの補正一覧")
+st.caption('この一覧とバックアップは、同梱の補正に、このセッションでの追加・読み込み・削除を反映した現在有効な手動補正です。アプリ側の自動補正や@専用の処理は含みません。同じ結果の再現には、対応するソース版・データ・設定も必要です。')
 cors = ov.load_corrections(DATA)
 if not cors:
     st.info("まだ補正はありません。")
@@ -175,7 +177,7 @@ else:
             st.rerun()
 
     st.download_button(
-        "⬇ 補正一覧(user_corrections.json)をダウンロード",
+        "⬇ 現在有効な手動補正をバックアップ（user_corrections.json）",
         data=json.dumps([dict(ov.build_correction(c["decomp"], DATA, assignment_edition),
                              assignment_edition=assignment_edition,
                              assignment_signature=editions.edition_signature(DATA_DIR, assignment_edition))
