@@ -1,0 +1,345 @@
+- main:
+  - heading "Oh no." [level=1]
+  - paragraph:
+    - text: Error running app. If you need help, try the
+    - link "Streamlit docs":
+      - /url: https://docs.streamlit.io/en/stable/deploy_streamlit_app.html
+    - text: and
+    - link "forums":
+      - /url: https://discuss.streamlit.io/c/13
+    - text: .
+- paragraph:
+  - code: "[ UTC ] Logs for esperanto-cjk-revision-ja-20261017.streamlit.app/"
+- paragraph:
+  - code: ────────────────────────────────────────────────────────────────────────────────────────
+- paragraph:
+  - code: "[10:03:39] 🚀 Starting up repository: 'esperanto-radiko-cjk-annotator-revision-20261017', branch: 'main', main module: 'Esperanto-Kanji-Ruby-JA/main.py'"
+- paragraph:
+  - code: "[10:03:39] 🐙 Cloning repository..."
+- paragraph:
+  - code: "[10:04:01] 🐙 Cloning into '/mount/src/esperanto-radiko-cjk-annotator-revision-20261017'... Updating files: 100% (867/867), done."
+- paragraph:
+  - code: "[10:04:01] 🐙 Cloned repository!"
+- paragraph:
+  - code: "[10:04:01] 🐙 Pulling code changes from Github..."
+- paragraph:
+  - code: "[10:04:06] 📦 Processing dependencies..."
+- paragraph:
+  - code
+- paragraph:
+  - code: ──────────────────────────────────────── uv ───────────────────────────────────────────
+- paragraph:
+  - code
+- paragraph:
+  - code: Using uv pip install.
+- paragraph:
+  - code: Using Python 3.12.15 environment at /home/adminuser/venv
+- paragraph:
+  - code: Resolved 37 packages in 396ms
+- paragraph:
+  - code: Prepared 37 packages in 1.44s
+- paragraph:
+  - code: Installed 37 packages in 52ms
+- paragraph:
+  - code: + altair==5.5.0
+- paragraph:
+  - code: + attrs==26.1.0
+- paragraph:
+  - code: + blinker==1.9.0
+- paragraph:
+  - code: + cachetools==6.2.6
+- paragraph:
+  - code: + certifi==2026.10.18
+- paragraph:
+  - code: + charset-normalizer==3.5.2
+- paragraph:
+  - code: + click==8.5.0
+- paragraph:
+  - code: + gitdb==4.0.12
+- paragraph:
+  - code: + gitpython==3.2.1
+- paragraph:
+  - code: + idna==3.20
+- paragraph:
+  - code: + jinja2==3.1.6
+- paragraph:
+  - code: "[2026-10-19 10:04:08.499467] + jsonschema==4.26.0"
+- paragraph:
+  - code: + jsonschema-specifications==2025.9.1
+- paragraph:
+  - code: + markupsafe==3.0.4
+- paragraph:
+  - code: + narwhals==2.27.1
+- paragraph:
+  - code: + numpy==2.5.4
+- paragraph:
+  - code: + packaging==25.0
+- paragraph:
+  - code: + pandas==2.3.3
+- paragraph:
+  - code: + pillow==11.3.0
+- paragraph:
+  - code: + protobuf[2026-10-19 10:04:08.499704] ==6.33.6
+- paragraph:
+  - code: + pyarrow==26.0.0
+- paragraph:
+  - code: + pydeck==0.9.3
+- paragraph:
+  - code: + python-dateutil==2.9.0.post0
+- paragraph:
+  - code: + pytz==2026.5
+- paragraph:
+  - code: + referencing==0.37.0
+- paragraph:
+  - code: + requests==2.34.2[2026-10-19 10:04:08.499844]
+- paragraph:
+  - code: + rpds-py==2026.9.1
+- paragraph:
+  - code: + six==1.17.0
+- paragraph:
+  - code: + smmap==5.0.3
+- paragraph:
+  - code: + streamlit==1.50.0
+- paragraph:
+  - code: + tenacity==9.2.1
+- paragraph:
+  - code: +[2026-10-19 10:04:08.499945] toml==0.10.2
+- paragraph:
+  - code: + tornado==6.5.10
+- paragraph:
+  - code: + typing-extensions==4.16.0
+- paragraph:
+  - code: + tzdata==2026.5
+- paragraph:
+  - code: + [2026-10-19 10:04:08.500050] urllib3==2.8.0
+- paragraph:
+  - code: + watchdog==6.0.0
+- paragraph:
+  - code: Checking if Streamlit is installed
+- paragraph:
+  - code: Found Streamlit version 1.50.0 in the environment
+- paragraph:
+  - code: Detected pyarrow 26.0.0 (known segfault, apache/arrow#50471). Replacing with pyarrow<25.
+- paragraph:
+  - code: Using uv pip install.
+- paragraph:
+  - code: Using Python 3.12.15 environment at /home/adminuser/venv
+- paragraph:
+  - code: Resolved 1 package in 29ms
+- paragraph:
+  - code: Prepared 1 package in 635ms
+- paragraph:
+  - code: Uninstalled 1 package in 16ms
+- paragraph:
+  - code: Installed 1 package in 19ms
+- paragraph:
+  - code: "- pyarrow[2026-10-19 10:04:11.102856] ==26.0.0"
+- paragraph:
+  - code: + pyarrow==24.0.0
+- paragraph:
+  - code: Installing rich for an improved exception logging
+- paragraph:
+  - code: Using uv pip install.
+- paragraph:
+  - code: Using Python 3.12.15 environment at /home/adminuser/venv
+- paragraph:
+  - code: Resolved 4 packages in 104ms
+- paragraph:
+  - code: Prepared 4 packages in 98ms
+- paragraph:
+  - code: Installed 4 packages in 12ms
+- paragraph:
+  - code: + markdown-it-py==4.2.0
+- paragraph:
+  - code: + mdurl==0.1.2
+- paragraph:
+  - code: + pygments==2.21.0
+- paragraph:
+  - code: "[2026-10-19 10:04:11.770521] + rich==15.0.0"
+- paragraph:
+  - code
+- paragraph:
+  - code: ────────────────────────────────────────────────────────────────────────────────────────
+- paragraph:
+  - code
+- paragraph:
+  - code: "[10:04:12] 🐍 Python dependencies were installed from /mount/src/esperanto-radiko-cjk-annotator-revision-20261017/Esperanto-Kanji-Ruby-JA/requirements.txt using uv."
+- paragraph:
+  - code: "[10:04:12] 📦 WARN: More than one requirements file detected in the repository. Available options: uv /mount/src/esperanto-radiko-cjk-annotator-revision-20261017/Esperanto-Kanji-Ruby-JA/requirements.txt, uv /mount/src/esperanto-radiko-cjk-annotator-revision-20261017/requirements.txt. Used: uv with /mount/src/esperanto-radiko-cjk-annotator-revision-20261017/Esperanto-Kanji-Ruby-JA/requirements.txt"
+- paragraph:
+  - code: Check if streamlit is installed
+- paragraph:
+  - code: Streamlit is already installed
+- paragraph:
+  - code: "[10:04:13] 📦 Processed dependencies!"
+- paragraph:
+  - code
+- paragraph:
+  - code
+- paragraph:
+  - code
+- paragraph:
+  - code: "[10:17:41] 🐙 Pulling code changes from Github..."
+- paragraph:
+  - code: "[10:17:45] 📦 Processing dependencies..."
+- paragraph:
+  - code: "[10:17:45] 📦 Processed dependencies!"
+- paragraph:
+  - code: "[10:17:46] 🔄 Updated app!"
+- paragraph:
+  - code: "[10:54:44] 🐙 Pulling code changes from Github..."
+- paragraph:
+  - code: ────────────────────── Traceback (most recent call last) ───────────────────────
+- paragraph:
+  - code: /home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptru
+- paragraph:
+  - code: nner/exec_code.py:128 in exec_func_with_error_handling
+- paragraph:
+  - code
+- paragraph:
+  - code: /home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptru
+- paragraph:
+  - code: nner/script_runner.py:667 in code_to_exec
+- paragraph:
+  - code
+- paragraph:
+  - code: /home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptru
+- paragraph:
+  - code: nner/script_runner.py:165 in _mpa_v1
+- paragraph:
+  - code
+- paragraph:
+  - code: /home/adminuser/venv/lib/python3.12/site-packages/streamlit/navigation/page.
+- paragraph:
+  - code: py:300 in run
+- paragraph:
+  - code
+- paragraph:
+  - code: /mount/src/esperanto-radiko-cjk-annotator-revision-20261017/Esperanto-Kanji-
+- paragraph:
+  - code: Ruby-JA/main.py:5 in <module>
+- paragraph:
+  - code
+- paragraph:
+  - code: "2"
+- paragraph:
+  - code: 3 import streamlit as st
+- paragraph:
+  - code: 4 import esp_assignment_edition as editions
+- paragraph:
+  - code: ❱ 5 import esp_input_state as input_state
+- paragraph:
+  - code: 6 import re
+- paragraph:
+  - code: 7 import io
+- paragraph:
+  - code: 8 import os
+- paragraph:
+  - code: in _find_and_load:1360
+- paragraph:
+  - code: in _find_and_load_unlocked:1331
+- paragraph:
+  - code: in _load_unlocked:946
+- paragraph:
+  - code: ────────────────────────────────────────────────────────────────────────────────
+- paragraph:
+  - code: "KeyError: 'esp_input_state'"
+- paragraph:
+  - code: "[10:54:47] 📦 Processing dependencies..."
+- paragraph:
+  - code: "[10:54:47] 📦 Processed dependencies!"
+- paragraph:
+  - code: "[10:54:49] 🔄 Updated app!"
+- paragraph:
+  - code: "[11:11:10] 🐙 Pulling code changes from Github..."
+- paragraph:
+  - code: "[11:11:14] 📦 Processing dependencies..."
+- paragraph:
+  - code: "[11:11:14] 📦 Processed dependencies!"
+- paragraph:
+  - code: "[11:11:16] 🔄 Updated app!"
+- paragraph:
+  - code: "[13:26:40] 🐙 Pulling code changes from Github..."
+- paragraph:
+  - code: ────────────────────── Traceback (most recent call last) ───────────────────────
+- paragraph:
+  - code: /home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptru
+- paragraph:
+  - code: nner/exec_code.py:128 in exec_func_with_error_handling
+- paragraph:
+  - code
+- paragraph:
+  - code: /home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptru
+- paragraph:
+  - code: nner/script_runner.py:667 in code_to_exec
+- paragraph:
+  - code
+- paragraph:
+  - code: /home/adminuser/venv/lib/python3.12/site-packages/streamlit/runtime/scriptru
+- paragraph:
+  - code: nner/script_runner.py:165 in _mpa_v1
+- paragraph:
+  - code
+- paragraph:
+  - code: /home/adminuser/venv/lib/python3.12/site-packages/streamlit/navigation/page.
+- paragraph:
+  - code: py:300 in run
+- paragraph:
+  - code
+- paragraph:
+  - code: /mount/src/esperanto-radiko-cjk-annotator-revision-20261017/Esperanto-Kanji-
+- paragraph:
+  - code: Ruby-JA/pages/1_🔧_語根分解の手動補正.py:15 in <module>
+- paragraph:
+  - code
+- paragraph:
+  - code: 12 │ 壊さない。
+- paragraph:
+  - code: 13 """
+- paragraph:
+  - code: 14 import streamlit as st
+- paragraph:
+  - code: ❱ 15 import esp_assignment_edition as editions
+- paragraph:
+  - code: 16 import json, re, os
+- paragraph:
+  - code: "17"
+- paragraph:
+  - code: "18 # Resolve data from this file without changing Streamlit's working dir"
+- paragraph:
+  - code: in _find_and_load:1360
+- paragraph:
+  - code: in _find_and_load_unlocked:1331
+- paragraph:
+  - code: in _load_unlocked:946
+- paragraph:
+  - code: ────────────────────────────────────────────────────────────────────────────────
+- paragraph:
+  - code: "KeyError: 'esp_assignment_edition'"
+- paragraph:
+  - code: "[13:26:45] 📦 Processing dependencies..."
+- paragraph:
+  - code: "[13:26:45] 📦 Processed dependencies!"
+- paragraph:
+  - code: "[13:26:46] 🔄 Updated app!"
+- paragraph:
+  - code: "[13:48:08] 🐙 Pulling code changes from Github..."
+- paragraph:
+  - code: "[13:48:13] 📦 Processing dependencies..."
+- paragraph:
+  - code: "[13:48:13] 📦 Processed dependencies!"
+- paragraph:
+  - code: "[13:48:14] 🔄 Updated app!"
+- paragraph:
+  - code: "[15:00:07] 🐙 Pulling code changes from Github..."
+- paragraph:
+  - code: "[15:00:11] 📦 Processing dependencies..."
+- paragraph:
+  - code: "[15:00:11] 📦 Processed dependencies!"
+- paragraph:
+  - code: "[15:00:12] 🔄 Updated app!"
+- generic: main
+- generic: montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/main/Esperanto-Kanji-Ruby-JA/main.py
+- button:
+- button "Close manage app panel":
+- iframe

@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "baseline_commit": "ce19f0431708f5fa41c0597dd681a214aea2ebf3",
+  "observed_public_HEAD": "eae443bfd0e96b3121d41c12c1b7a2171a449619",
+  "final_static_review_source": "eae443bfd0e96b3121d41c12c1b7a2171a449619",
+  "files": [
+    {
+      "path": "audit_runtime_proof.json",
+      "sha256": "1b6b542ed0eef06d888f42595513bd99847e13af299a826b4a99a7a701c052eb"
+    },
+    {
+      "path": "audit_runtime_proof_initial.json",
+      "sha256": "fa7784a61cfb6269f2042af6f7d69bbc4300fc7488c726ff5e6b2af980457aea"
+    },
+    {
+      "path": "audit_runtime_proof_boundary.json",
+      "sha256": "38e71cc20c70d74e4b8b99e32bb85932f4ce2c2a35b8db40d07e7855bfb80054"
+    },
+    {
+      "path": "audit_regressions_inverse.json",
+      "sha256": "730a97bbb75d32c32c304da8458d10201db1a28a5e580279670f0335939a4276"
+    },
+    {
+      "path": "audit_regressions_forward_final.json",
+      "sha256": "5b1ee60a0ce47c53939a8f0f5514884860566593b4cd8cd9a544e83b7c3c5a2b"
+    },
+    {
+      "path": "audit_bundled_raw_boundary.json",
+      "sha256": "46582e4a398e0b6d32eddee64bf4c4a636cd3050fc9d3a772ec33d49e451702b"
+    },
+    {
+      "path": "audit_old_html_compatibility.json",
+      "sha256": "1601f771cd1966918aa0adf679bc9364874c417fad9d9a3cb365956e0c0d0df3"
+    },
+    {
+      "path": "audit_feature_review.json",
+      "sha256": "edb2b74c82ca5140b81e7f0dfdc2c013e02e6befb61458b8fc4c1de749f30238"
+    },
+    {
+      "path": "audit_report.md",
+      "sha256": "aac7c6bfb51a9433d3cee8e34e5c5356da1f52fc0215d5a55545a8ad793a975a"
+    }
+  ],
+  "all_utf8_lf": true,
+  "product_unchanged_during_publish": true
+}

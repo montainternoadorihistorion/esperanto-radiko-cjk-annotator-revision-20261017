@@ -1,0 +1,65 @@
+[
+  {
+    "language": "ZH",
+    "edition": "legacy",
+    "diagnosis_did_not_autofill": true,
+    "imported_draft": "greg/ant/a",
+    "not_saved": true,
+    "nonempty_draft_preserved": true,
+    "nonempty_import_disabled": true,
+    "edition_change_blocks_stale_diagnosis": true
+  },
+  {
+    "language": "KO",
+    "edition": "legacy",
+    "diagnosis_did_not_autofill": true,
+    "imported_draft": "greg/ant/a",
+    "not_saved": true,
+    "nonempty_draft_preserved": true,
+    "nonempty_import_disabled": true,
+    "edition_change_blocks_stale_diagnosis": true
+  },
+  {
+    "language": "JA",
+    "edition": "legacy",
+    "diagnosis_did_not_autofill": true,
+    "imported_draft": "greg/ant/a",
+    "not_saved": true,
+    "nonempty_draft_preserved": true,
+    "nonempty_import_disabled": true,
+    "edition_change_blocks_stale_diagnosis": true
+  },
+  {
+    "language": "ZH",
+    "edition": "current",
+    "diagnosis_did_not_autofill": true,
+    "imported_draft": "greg/ant/a",
+    "not_saved": true,
+    "nonempty_draft_preserved": true,
+    "nonempty_import_disabled": true,
+    "page_return_draft_preserved": true,
+    "changed_target_blocks_stale_diagnosis": true
+  },
+  {
+    "language": "KO",
+    "edition": "current",
+    "diagnosis_did_not_autofill": true,
+    "imported_draft": "greg/ant/a",
+    "not_saved": true,
+    "nonempty_draft_preserved": true,
+    "nonempty_import_disabled": true,
+    "page_return_draft_preserved": true,
+    "changed_target_blocks_stale_diagnosis": true
+  },
+  {
+    "language": "JA",
+    "edition": "current",
+    "diagnosis_did_not_autofill": true,
+    "imported_draft": "greg/ant/a",
+    "not_saved": true,
+    "nonempty_draft_preserved": true,
+    "nonempty_import_disabled": true,
+    "page_return_draft_preserved": true,
+    "changed_target_blocks_stale_diagnosis": true
+  }
+]

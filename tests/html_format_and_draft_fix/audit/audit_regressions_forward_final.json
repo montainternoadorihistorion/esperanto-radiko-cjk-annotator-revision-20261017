@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "unchanged_forward_suites_passed": 18,
+  "updated_state_suite_passed": true,
+  "original_failure": "Existing save-byte assertion did not yet account for the newly authorized format tag. Only its expected saved payload changed; product was not changed to silence this failure.",
+  "initial_run": {
+    "name": "forward_existing_pytest",
+    "cwd": ".",
+    "args": [
+      "-m",
+      "pytest",
+      "tests/test_input_result_state_forward.py",
+      "tests/test_legacy_three_pure_fix.py",
+      "tests/test_ksen_pure_fix.py",
+      "tests/test_at_two_exact_fix.py",
+      "tests/test_manual_diagnostic_consistency.py",
+      "-q",
+      "-p",
+      "no:cacheprovider"
+    ],
+    "exit_code": 1,
+    "seconds": 532.566,
+    "log_sha256": "3eeb50e9067c7286ccb0aaf44c5b4b3a6f24e7c36754d6ef324a5bbf711c2bfb",
+    "tail": [
+      "                    [sys.executable, \"-B\", \"-X\", \"utf8\", str(Path(__file__).resolve()),",
+      "                     \"--language\", language, \"--report\", str(report)],",
+      "                    cwd=ROOT, capture_output=True, text=True, encoding=\"utf-8\", timeout=900,",
+      "                )",
+      ">               self.assertEqual(completed.returncode, 0, completed.stdout[-5000:] + completed.stderr[-5000:])",
+      "E               AssertionError: 1 != 0 : JA current pure conversion/download/input guards PASS",
+      "E               {\"passed\": false, \"language\": \"JA\", \"error\": \"\"}",
+      "",
+      "tests\\test_input_result_state_forward.py:243: AssertionError",
+      "=========================== short test summary info ===========================",
+      "FAILED tests/test_input_result_state_forward.py::ForwardInputResultTests::test_all_languages_in_isolated_processes",
+      "1 failed, 18 passed in 530.98s (0:08:50)"
+    ]
+  },
+  "targeted_rerun": {
+    "passed": true,
+    "reason": "Existing save-byte assertion updated only for the authorized new format metadata; all edited-source/pure and input-state checks retained. No product change made for the failure.",
+    "production_assets_stable": 185,
+    "test_sha256": "224a39ad1bcb4728db99b4392bbd02db5516a0650db2ef15625dc1f01d35d5d1",
+    "result": {
+      "name": "forward_input_state_updated_expectation",
+      "cwd": ".",
+      "args": [
+        "-m",
+        "pytest",
+        "tests/test_input_result_state_forward.py",
+        "-q",
+        "-p",
+        "no:cacheprovider"
+      ],
+      "exit_code": 0,
+      "seconds": 521.167,
+      "log_sha256": "72f3cfbe5cb1a231b9481d6745b4aca2e0dfde1e595d093fbe7f333f7c9a51e7",
+      "tail": [
+        ".                                                                        [100%]",
+        "1 passed in 520.05s (0:08:40)"
+      ]
+    }
+  },
+  "test_sha256": "224a39ad1bcb4728db99b4392bbd02db5516a0650db2ef15625dc1f01d35d5d1",
+  "method": "Existing forward suites were executed together once; only the one failed input-state suite was rerun after its expectation update. Other passing suites were not repeated."
+}
