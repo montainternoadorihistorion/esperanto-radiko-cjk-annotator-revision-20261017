@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "checked_at_UTC": "2026-10-19T10:43:35.075264+00:00",
+  "baseline_commit": "3454d0359282e001d0baa3db6d45e94efe6eb457",
+  "public_HEAD_at_validation": "3454d0359282e001d0baa3db6d45e94efe6eb457",
+  "artifacts": [
+    {
+      "file": "audit_baseline.json",
+      "sha256": "71f521368d852d2105bc79eac2e21d21e23d6f20cefe53bfdc7b096bb19adf42"
+    },
+    {
+      "file": "audit_runtime_proof.json",
+      "sha256": "b2ca8b04c6957271d9de474d4e16e30f97063e086c9bfb3506f58c32f2502016"
+    },
+    {
+      "file": "audit_full_comparison.json",
+      "sha256": "7f9b99a0491cd4e20b3232c5b7915690844fa3e3ec7bc9d323c71b1ae576a253"
+    },
+    {
+      "file": "audit_saved_html_validation.json",
+      "sha256": "c72ac0039dd3d6a8fe2a9e390ed1dcf9ef427fcd3b360533e35bbd34acdadbf2"
+    },
+    {
+      "file": "audit_fresh_routes.json",
+      "sha256": "2356f68fdc516e5827baa7698383b2684a2e2a08d52669c3a75a91aef73d7e81"
+    }
+  ],
+  "scripts": [
+    {
+      "file": "common.py",
+      "sha256": "f7d063fdc82e987e7b5eef801d3c50dccd248ea40cf200824e2e8fad4b02d6da"
+    },
+    {
+      "file": "fresh_routes.py",
+      "sha256": "2ef9f100bc8af422a4d0517b6078b07380614c360ec18d69e92f63dd29602c40"
+    },
+    {
+      "file": "full_inverse.py",
+      "sha256": "3d0985eb3fde9743f0a52a5f083b33ba746966d685ba1dc36a6ccd8a466ea412"
+    },
+    {
+      "file": "prepare.py",
+      "sha256": "e7203654667886e7a276083f440db4c02292ed77e6ed95a66b08102a7a22895a"
+    },
+    {
+      "file": "publish.py",
+      "sha256": "9855b3506d24be6a538acc8e10f51884fb6000249efb6ea1f2db020ed9558713"
+    },
+    {
+      "file": "runtime_proof.py",
+      "sha256": "291cc684d15b7d6ee2a5e2b654ba024be6ec40da60935dfe32c74a9b97fd9f42"
+    },
+    {
+      "file": "saved_html.py",
+      "sha256": "daa541fa57e40f170da34dcca78bf5debaec74adf1bc170a5132c9a45baf8f46"
+    }
+  ],
+  "all_source_hashes_revalidated": true,
+  "scope": "Local full-corpus inverse and saved HTML replays, source/data equivalence proof, and fresh complete-production forward route checks. Cloud and actual manual-page UI validation are separate root/review evidence."
+}

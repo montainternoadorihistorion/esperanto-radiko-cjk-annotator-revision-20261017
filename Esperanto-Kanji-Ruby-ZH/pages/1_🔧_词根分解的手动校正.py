@@ -64,10 +64,30 @@ _PS = import_placeholders(os.path.join(DATA_DIR, 'placeholders_skip.txt'))
 _PL = import_placeholders(os.path.join(DATA_DIR, 'placeholders_localcapture.txt'))
 
 
-def _decompose(word, json_path, fmt, mode):
+def _render_probe(word, json_path, fmt, mode):
+    """Use the main page's stored overlays and optional automatic second pass."""
     GL, G2, GG = _load_lists(json_path)
     GG = ov.merge_overlay(GG, ov.load_overlay_entries(DATA, mode, assignment_edition))
-    h = orchestrate_comprehensive_esperanto_text_replacement(" " + word + " ", _PS, GL, _PL, GG, G2, fmt, reviewed_local_decompositions=editions.supports_reviewed_local_decompositions(json_path))
+    text = " " + word + " "
+    h = orchestrate_comprehensive_esperanto_text_replacement(
+        text, _PS, GL, _PL, GG, G2, fmt,
+        reviewed_local_decompositions=editions.supports_reviewed_local_decompositions(json_path),
+    )
+    try:
+        automatic = ov.auto_overlay_entries(h, DATA, mode, assignment_edition)
+        if automatic:
+            h = orchestrate_comprehensive_esperanto_text_replacement(
+                text, _PS, GL, _PL, ov.merge_overlay(GG, automatic), G2, fmt,
+                reviewed_local_decompositions=editions.supports_reviewed_local_decompositions(json_path),
+            )
+    except Exception:
+        pass  # Match main.py: an optional autofix failure retains the first pass.
+    return h
+
+
+def _decompose(word, json_path, fmt, mode, rendered_html=None):
+    """Describe the same final HTML that the preview displays."""
+    h = rendered_html if rendered_html is not None else _render_probe(word, json_path, fmt, mode)
     toks, pos = [], 0
     for mm in re.finditer(r"<ruby>(.*?)<rt[^>]*>.*?</rt></ruby>", h):
         for ch in re.findall(r"[a-zĉĝĥĵŝŭ]+", re.sub(r"<[^>]+>", "", h[pos:mm.start()]), re.I):
@@ -84,17 +104,19 @@ word_in = st.text_input("输入单词 (例: sporti)", key="word_probe").strip()
 if st.button("查看当前分解") and word_in:
     w = convert_to_circumflex(word_in).lower()
     try:
-        rb = _decompose(w, RUBY_JSON, RUBY_FMT, "ruby")
-        kj = _decompose(w, KANJI_JSON, KANJI_FMT, "kanji")
+        _hr = _render_probe(w, RUBY_JSON, RUBY_FMT, "ruby")
+        _hk = _render_probe(w, KANJI_JSON, KANJI_FMT, "kanji")
+        rb = _decompose(w, RUBY_JSON, RUBY_FMT, "ruby", _hr)
+        kj = _decompose(w, KANJI_JSON, KANJI_FMT, "kanji", _hk)
         st.write(f"**注音(ruby)模式的分解**: `{rb}`")
         st.write(f"**汉字模式的分解**: `{kj}`")
         with st.expander("👀 查看实际显示(Ruby/汉字)", expanded=False):
             import streamlit.components.v1 as _components
-            _GLr, _G2r, _GGr = _load_lists(RUBY_JSON)
-            _GGr = ov.merge_overlay(_GGr, ov.load_overlay_entries(DATA, "ruby", assignment_edition))
-            _hr = orchestrate_comprehensive_esperanto_text_replacement(" " + w + " ", _PS, _GLr, _PL, _GGr, _G2r, RUBY_FMT, reviewed_local_decompositions=editions.supports_reviewed_local_decompositions(RUBY_JSON))
             from esp_text_replacement_module import apply_ruby_html_header_and_footer as _hf
+            st.caption("注释 Ruby")
             _components.html(_hf(_hr, RUBY_FMT), height=90, scrolling=True)
+            st.caption("汉字 Ruby")
+            _components.html(_hf(_hk, KANJI_FMT), height=90, scrolling=True)
         st.session_state["probe_word"] = w
         st.session_state["probe_ruby"] = rb
     except Exception as e:

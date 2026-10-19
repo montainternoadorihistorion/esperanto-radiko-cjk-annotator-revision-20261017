@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "unique_saved_HTML_documents": 11677,
+  "actual_HTML_recovery_calls": 23354,
+  "source_sha256": "4b66cc7dbd8f12b6c1ff064931f8ac8c9c6df5cd552a7bc227eee5d09a58746a",
+  "results": [
+    {
+      "inverse_language": "JA",
+      "counts": {
+        "current": 4668,
+        "legacy": 7009
+      },
+      "failures": [],
+      "parser_sha256": "314a3dbbdabef617d032eb6de7035020387c30afb96646ba07c8fa97490d5bec"
+    },
+    {
+      "inverse_language": "ZH",
+      "counts": {
+        "current": 4668,
+        "legacy": 7009
+      },
+      "failures": [],
+      "parser_sha256": "314a3dbbdabef617d032eb6de7035020387c30afb96646ba07c8fa97490d5bec"
+    }
+  ],
+  "scope": "Entire previously saved HTML residual corpus; actual current JA/ZH parser invoked for every saved fragment wrapped in standard app HTML. This does not regenerate/reparse every full plain/visible-surface corpus route."
+}

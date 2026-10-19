@@ -2,9 +2,9 @@ name: Reverter regression
 
 on:
   push:
-    paths: ['Esperanto-Reverter-*/**', 'Esperanto-Kanji-Ruby-*/**', 'tests/test_input_result_state_forward.py', 'tests/test_legacy_three_pure_fix.py', 'tests/test_ksen_pure_fix.py', 'tests/test_at_two_exact_fix.py', '.github/workflows/reverter.yml']
+    paths: ['Esperanto-Reverter-*/**', 'Esperanto-Kanji-Ruby-*/**', 'tests/test_input_result_state_forward.py', 'tests/test_legacy_three_pure_fix.py', 'tests/test_ksen_pure_fix.py', 'tests/test_at_two_exact_fix.py', 'tests/test_manual_diagnostic_consistency.py', '.github/workflows/reverter.yml']
   pull_request:
-    paths: ['Esperanto-Reverter-*/**', 'Esperanto-Kanji-Ruby-*/**', 'tests/test_input_result_state_forward.py', 'tests/test_legacy_three_pure_fix.py', 'tests/test_ksen_pure_fix.py', 'tests/test_at_two_exact_fix.py', '.github/workflows/reverter.yml']
+    paths: ['Esperanto-Reverter-*/**', 'Esperanto-Kanji-Ruby-*/**', 'tests/test_input_result_state_forward.py', 'tests/test_legacy_three_pure_fix.py', 'tests/test_ksen_pure_fix.py', 'tests/test_at_two_exact_fix.py', 'tests/test_manual_diagnostic_consistency.py', '.github/workflows/reverter.yml']
   workflow_dispatch:
 
 jobs:
@@ -35,3 +35,4 @@ jobs:
       - run: python -m pip install -r Esperanto-Kanji-Ruby-JA/requirements.txt pytest beautifulsoup4
       - run: python -m pytest tests/test_input_result_state_forward.py -q -p no:cacheprovider
       - run: python -m pytest tests/test_legacy_three_pure_fix.py tests/test_ksen_pure_fix.py tests/test_at_two_exact_fix.py -q -p no:cacheprovider
+      - run: python -m pytest tests/test_manual_diagnostic_consistency.py -q -p no:cacheprovider
