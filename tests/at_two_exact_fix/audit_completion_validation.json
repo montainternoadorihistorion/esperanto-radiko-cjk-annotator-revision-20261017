@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "baseline_commit": "469806409ac3c3cc8f3368bdb24b792cead6f81c",
+  "validated_source_commit": "cc9e60909cdb4e8ec0f5eea84555d682b53b8091",
+  "unique_input_route_pairs": 12951664,
+  "saved_rows": 12951776,
+  "actual_plain_inverse_calls": 25903552,
+  "actual_saved_input_rows_classified": 3237944,
+  "actual_after_forward_inputs_within_full_corpus": 16,
+  "reused_forward_rows": 12951760,
+  "actual_target_contexts": 120,
+  "actual_before_default_enabled_forward_calls": 360,
+  "actual_target_HTML_recovery_calls": 288,
+  "actual_target_plain_inverse_calls": 336,
+  "forward_changed": 16,
+  "inverse_changed": 0,
+  "regressions": 0,
+  "improvements": 0,
+  "unchanged_existing_mismatch_input_route_pairs": 46706,
+  "HTML_documents": 11677,
+  "actual_saved_HTML_recovery_calls": 23354,
+  "language_edition_mode_routes": 18,
+  "unchanged_production_assets": 173,
+  "unchanged_canonical_assets": 6,
+  "evidence": [
+    {
+      "file": "audit_runtime_proof.json",
+      "sha256": "1f980100d7cd0e63f1b525c4cc73c7ebd0e41303fccaf1273e738831b1d3689b"
+    },
+    {
+      "file": "audit_full_comparison.json",
+      "sha256": "ddce3ec04cb9fb32502b5464f322887b654d02fb99d8026828a0cfd122341830"
+    },
+    {
+      "file": "audit_actual_targets.json",
+      "sha256": "8f7c892c6d0cc700ac4ba4f0e2da66ec52b0708072bb0a5b0b35fb055b407ccc"
+    },
+    {
+      "file": "audit_classification.json",
+      "sha256": "2aff2c8caf0228b9e12f96922edb560c8eaa04c8f11c4aade535e5c90fe44ab6"
+    },
+    {
+      "file": "audit_saved_html_validation.json",
+      "sha256": "04e46a6e84377363a0e467fb69334c8913b40f495ccf41c137707f99bdadab8c"
+    }
+  ],
+  "scope": "All saved raw input rows were classified using the unchanged production preprocessing and marker recognition, then fingerprints matched every saved route. Exact target outputs were rerendered using complete actual before/current engines. Other forward outputs were reused only after code/data/ordered-list equivalence proof. Both actual current inverse implementations executed on every saved row. This is not a claim that 12.95 million forward conversions were freshly executed.",
+  "result": "Only whole lowercase @greganta@ and @preganta@ payloads changed in the finite full corpus. Their original old/new forward strings already restored correctly, so inverse improvements are zero; displayed decomposition is corrected. Normal routes, root-only @ plus suffix routes, @kordonita@ and all old reverse outputs remain unchanged. Shared-spelling ambiguities remain unchanged.",
+  "HTML_scope": "Saved kanji HTML residual documents (11,677) were all reparsed by actual JA/ZH parsers. Actual generated target/context kanji and annotation HTML were independently restored in all language/edition/style routes. This does not claim freshly generating HTML for every saved plain/visible corpus row.",
+  "production_mutations_by_audit": false
+}

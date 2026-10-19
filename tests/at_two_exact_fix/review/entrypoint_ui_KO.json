@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "language": "KO",
+  "rows": [
+    {
+      "surface": "custom_upload",
+      "edition": "current",
+      "upload_name": "置換リスト_漢字_純粋置換.json",
+      "result": "CUSTOMLOCALG CUSTOMLOCALP\nCUSTOMGLOBALG CUSTOMGLOBALP",
+      "all_opt_out": true,
+      "metadata_source": "custom_json",
+      "real_engine_calls": 1
+    },
+    {
+      "surface": "custom_upload",
+      "edition": "legacy",
+      "upload_name": "置換リスト_漢字_純粋置換.json",
+      "result": "CUSTOMLOCALG CUSTOMLOCALP\nCUSTOMGLOBALG CUSTOMGLOBALP",
+      "all_opt_out": true,
+      "metadata_source": "custom_json",
+      "real_engine_calls": 1
+    },
+    {
+      "surface": "manual_preview",
+      "edition": "current",
+      "input": "@greganta@",
+      "decomposition": "greg/ant/a",
+      "real_engine_calls": 3,
+      "all_opt_in": true
+    },
+    {
+      "surface": "manual_preview",
+      "edition": "current",
+      "input": "@preganta@",
+      "decomposition": "preg/ant/a",
+      "real_engine_calls": 3,
+      "all_opt_in": true
+    },
+    {
+      "surface": "manual_preview",
+      "edition": "current",
+      "input": "@kordonita@",
+      "decomposition": "kordon/it/a",
+      "real_engine_calls": 3,
+      "all_opt_in": true
+    },
+    {
+      "surface": "manual_preview",
+      "edition": "legacy",
+      "input": "@greganta@",
+      "decomposition": "greg/ant/a",
+      "real_engine_calls": 3,
+      "all_opt_in": true
+    },
+    {
+      "surface": "manual_preview",
+      "edition": "legacy",
+      "input": "@preganta@",
+      "decomposition": "preg/ant/a",
+      "real_engine_calls": 3,
+      "all_opt_in": true
+    },
+    {
+      "surface": "manual_preview",
+      "edition": "legacy",
+      "input": "@kordonita@",
+      "decomposition": "kordon/it/a",
+      "real_engine_calls": 3,
+      "all_opt_in": true
+    }
+  ],
+  "saved_corrections_unchanged": true,
+  "method": "Real AppTest pages and production engine; custom file transport and engine-call recording instrumented. No Cloud claim."
+}

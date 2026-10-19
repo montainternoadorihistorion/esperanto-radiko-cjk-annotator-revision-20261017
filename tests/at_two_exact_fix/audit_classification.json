@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "baseline_commit": "469806409ac3c3cc8f3368bdb24b792cead6f81c",
+  "actual_saved_rows_classified": 3237944,
+  "editions": [
+    {
+      "edition": "current",
+      "counts": {
+        "saved_rows": 1619039,
+        "normal_rows": 688988,
+        "protected_rows": 0,
+        "affected_rows": 2,
+        "localized_rows": 930051
+      },
+      "ordered_input_fingerprint": "7de9970baad4fc3e9d57364f75aa87cffe436cefdb0ac3b54a7c653ab0a9964d",
+      "affected": [
+        {
+          "origin": "primary",
+          "id": 237246,
+          "input": "@greganta@",
+          "expected": "greganta",
+          "normalized_source": "@greganta@",
+          "actual_payloads": [
+            "greganta"
+          ],
+          "matching_payloads": [
+            "greganta"
+          ]
+        },
+        {
+          "origin": "primary",
+          "id": 544798,
+          "input": "@preganta@",
+          "expected": "preganta",
+          "normalized_source": "@preganta@",
+          "actual_payloads": [
+            "preganta"
+          ],
+          "matching_payloads": [
+            "preganta"
+          ]
+        }
+      ],
+      "subsets": [
+        {
+          "origin": "primary",
+          "rows": 1618897,
+          "summary_sha256": "c1e49aa3acba0b7a51dceb11c193259ec320ee38422a927c3d33c2dae1126a68"
+        },
+        {
+          "origin": "addendum",
+          "rows": 142,
+          "summary_sha256": "655cb6d91acf73296dae37c88996cc10cc69c0d6a4e7b679912a18964c12c0b1"
+        }
+      ]
+    },
+    {
+      "edition": "legacy",
+      "counts": {
+        "saved_rows": 1618905,
+        "normal_rows": 688944,
+        "protected_rows": 0,
+        "affected_rows": 2,
+        "localized_rows": 929961
+      },
+      "ordered_input_fingerprint": "4f42ff24c77907ff1e4ebfd1ecda36c555ec442d1e1a416ee3f753309990d397",
+      "affected": [
+        {
+          "origin": "primary",
+          "id": 237177,
+          "input": "@greganta@",
+          "expected": "greganta",
+          "normalized_source": "@greganta@",
+          "actual_payloads": [
+            "greganta"
+          ],
+          "matching_payloads": [
+            "greganta"
+          ]
+        },
+        {
+          "origin": "primary",
+          "id": 544660,
+          "input": "@preganta@",
+          "expected": "preganta",
+          "normalized_source": "@preganta@",
+          "actual_payloads": [
+            "preganta"
+          ],
+          "matching_payloads": [
+            "preganta"
+          ]
+        }
+      ],
+      "subsets": [
+        {
+          "origin": "primary",
+          "rows": 1618621,
+          "summary_sha256": "185a282cfa29a1b5a8fc57a7375408e1cb1e58a4d3d63c8d35f153ed4821fe36"
+        },
+        {
+          "origin": "addendum",
+          "rows": 284,
+          "summary_sha256": "5fe20ee10fa38fe1138507cc222b2b2b2e1dc4e7b3cc829000ab1ff0f42a08f9"
+        }
+      ]
+    }
+  ],
+  "method": "Every stored baseline pure row is parsed, normalized by production circumflex/space/CRLF functions, percent-protected by actual baseline capture/token APIs, then classified by the actual email-aware @ span detector. Exact lowercase payload match only. Ordered fingerprints connect every other language/mode capture to this complete classification; this is classification, not forward rerendering."
+}

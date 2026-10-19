@@ -1,0 +1,2918 @@
+{
+  "passed": true,
+  "baseline_commit": "469806409ac3c3cc8f3368bdb24b792cead6f81c",
+  "cases": 120,
+  "actual_before_default_enabled_forward_calls": 360,
+  "full_global_tables_used": true,
+  "modes": [
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "cases": 16,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "@greganta@j",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "cases": 16,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "@greganta@j",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "cases": 16,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "@greganta@j",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "cases": 16,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "@greganta@j",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "cases": 4,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "cases": 4,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "cases": 4,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "cases": 4,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "cases": 4,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "cases": 4,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "cases": 4,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "cases": 4,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "cases": 4,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "cases": 4,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "cases": 4,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "cases": 4,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "cases": 4,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "cases": 4,
+      "changed_inputs": [
+        "@greganta@",
+        "@preganta@",
+        "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n"
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@greganta@",
+      "before": "g再手套a",
+      "default": "g再手套a",
+      "after": "群ᴳ在a",
+      "visible_before": "g再手套a",
+      "visible_after": "群ᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@preganta@",
+      "before": "前ᴾ手套a",
+      "default": "前ᴾ手套a",
+      "after": "压ᴾᴳ在a",
+      "visible_before": "前ᴾ手套a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@kordonita@",
+      "before": "带ᴷ受a",
+      "default": "带ᴷ受a",
+      "after": "带ᴷ受a",
+      "visible_before": "带ᴷ受a",
+      "visible_after": "带ᴷ受a",
+      "changed": false,
+      "inverse_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "inverse_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "greganta",
+      "before": "g治在a",
+      "default": "g治在a",
+      "after": "g治在a",
+      "visible_before": "g治在a",
+      "visible_after": "g治在a",
+      "changed": false,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "preganta",
+      "before": "p治在a",
+      "default": "p治在a",
+      "after": "p治在a",
+      "visible_before": "p治在a",
+      "visible_after": "p治在a",
+      "changed": false,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "kordonita",
+      "before": "k令受a",
+      "default": "k令受a",
+      "after": "k令受a",
+      "visible_before": "k令受a",
+      "visible_after": "k令受a",
+      "changed": false,
+      "inverse_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "inverse_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@agreganta@",
+      "before": "团ᴬ在a",
+      "default": "团ᴬ在a",
+      "after": "团ᴬ在a",
+      "visible_before": "团ᴬ在a",
+      "visible_after": "团ᴬ在a",
+      "changed": false,
+      "inverse_before": [
+        "agreganta",
+        "agreganta"
+      ],
+      "inverse_after": [
+        "agreganta",
+        "agreganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@greg@anta",
+      "before": "群ᴳ在a",
+      "default": "群ᴳ在a",
+      "after": "群ᴳ在a",
+      "visible_before": "群ᴳ在a",
+      "visible_after": "群ᴳ在a",
+      "changed": false,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@preg@anta",
+      "before": "压ᴾᴳ在a",
+      "default": "压ᴾᴳ在a",
+      "after": "压ᴾᴳ在a",
+      "visible_before": "压ᴾᴳ在a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": false,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@greganta preganta@",
+      "before": "g再手套a 前ᴾ手套a",
+      "default": "g再手套a 前ᴾ手套a",
+      "after": "g再手套a 前ᴾ手套a",
+      "visible_before": "g再手套a 前ᴾ手套a",
+      "visible_after": "g再手套a 前ᴾ手套a",
+      "changed": false,
+      "inverse_before": [
+        "greganta preganta",
+        "greganta preganta"
+      ],
+      "inverse_after": [
+        "greganta preganta",
+        "greganta preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "%@greganta@%",
+      "before": "@greganta@",
+      "default": "@greganta@",
+      "after": "@greganta@",
+      "visible_before": "@greganta@",
+      "visible_after": "@greganta@",
+      "changed": false,
+      "inverse_before": [
+        "@greganta@",
+        "@greganta@"
+      ],
+      "inverse_after": [
+        "@greganta@",
+        "@greganta@"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@gregantaj@",
+      "before": "g再手套aj",
+      "default": "g再手套aj",
+      "after": "g再手套aj",
+      "visible_before": "g再手套aj",
+      "visible_after": "g再手套aj",
+      "changed": false,
+      "inverse_before": [
+        "gregantaj",
+        "gregantaj"
+      ],
+      "inverse_after": [
+        "gregantaj",
+        "gregantaj"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@Greganta@",
+      "before": "G再手套a",
+      "default": "G再手套a",
+      "after": "G再手套a",
+      "visible_before": "G再手套a",
+      "visible_after": "G再手套a",
+      "changed": false,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "g@dominant@a",
+      "before": "g治ᴰ在a",
+      "default": "g治ᴰ在a",
+      "after": "g治ᴰ在a",
+      "visible_before": "g治ᴰ在a",
+      "visible_after": "g治ᴰ在a",
+      "changed": false,
+      "inverse_before": [
+        "gdominanta",
+        "gdominanta"
+      ],
+      "inverse_after": [
+        "gdominanta",
+        "gdominanta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@greganta@j",
+      "before": "g再手套aj",
+      "default": "g再手套aj",
+      "after": "群ᴳ在aj",
+      "visible_before": "g再手套aj",
+      "visible_after": "群ᴳ在aj",
+      "changed": true,
+      "inverse_before": [
+        "gregantaj",
+        "gregantaj"
+      ],
+      "inverse_after": [
+        "gregantaj",
+        "gregantaj"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "default": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "changed": true,
+      "inverse_before": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "inverse_after": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@greganta@",
+      "before": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "default": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "after": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "g再手套a",
+      "visible_after": "群ᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@preganta@",
+      "before": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "default": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "after": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "前ᴾ手套a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@kordonita@",
+      "before": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "default": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "after": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "visible_before": "带ᴷ受a",
+      "visible_after": "带ᴷ受a",
+      "changed": false,
+      "inverse_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "inverse_after": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "greganta",
+      "before": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "default": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "after": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "群ᴳ在a",
+      "visible_after": "群ᴳ在a",
+      "changed": false,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "preganta",
+      "before": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "default": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "after": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "压ᴾᴳ在a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": false,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "kordonita",
+      "before": "kordonita",
+      "default": "kordonita",
+      "after": "kordonita",
+      "visible_before": "kordonita",
+      "visible_after": "kordonita",
+      "changed": false,
+      "inverse_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "inverse_after": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@agreganta@",
+      "before": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "default": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "after": "<ruby>团ᴬ<rt class=\"M_M\">agreg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "团ᴬ在a",
+      "visible_after": "团ᴬ在a",
+      "changed": false,
+      "inverse_before": [
+        "agreganta",
+        "agreganta"
+      ],
+      "inverse_after": [
+        "agreganta",
+        "agreganta"
+      ],
+      "HTML_before": [
+        "agreganta",
+        "agreganta"
+      ],
+      "HTML_after": [
+        "agreganta",
+        "agreganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@greg@anta",
+      "before": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "default": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "after": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "群ᴳ在a",
+      "visible_after": "群ᴳ在a",
+      "changed": false,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@preg@anta",
+      "before": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "default": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "after": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "压ᴾᴳ在a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": false,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@greganta preganta@",
+      "before": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a <ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "default": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a <ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "after": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a <ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "visible_before": "g再手套a 前ᴾ手套a",
+      "visible_after": "g再手套a 前ᴾ手套a",
+      "changed": false,
+      "inverse_before": [
+        "greganta preganta",
+        "greganta preganta"
+      ],
+      "inverse_after": [
+        "greganta preganta",
+        "greganta preganta"
+      ],
+      "HTML_before": [
+        "greganta preganta",
+        "greganta preganta"
+      ],
+      "HTML_after": [
+        "greganta preganta",
+        "greganta preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "%@greganta@%",
+      "before": "@greganta@",
+      "default": "@greganta@",
+      "after": "@greganta@",
+      "visible_before": "@greganta@",
+      "visible_after": "@greganta@",
+      "changed": false,
+      "inverse_before": [
+        "@greganta@",
+        "@greganta@"
+      ],
+      "inverse_after": [
+        "@greganta@",
+        "@greganta@"
+      ],
+      "HTML_before": [
+        "@greganta@",
+        "@greganta@"
+      ],
+      "HTML_after": [
+        "@greganta@",
+        "@greganta@"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@gregantaj@",
+      "before": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>aj",
+      "default": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>aj",
+      "after": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>aj",
+      "visible_before": "g再手套aj",
+      "visible_after": "g再手套aj",
+      "changed": false,
+      "inverse_before": [
+        "gregantaj",
+        "gregantaj"
+      ],
+      "inverse_after": [
+        "gregantaj",
+        "gregantaj"
+      ],
+      "HTML_before": [
+        "gregantaj",
+        "gregantaj"
+      ],
+      "HTML_after": [
+        "gregantaj",
+        "gregantaj"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@Greganta@",
+      "before": "G<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "default": "G<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "after": "G<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "visible_before": "G再手套a",
+      "visible_after": "G再手套a",
+      "changed": false,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_before": [
+        "Greganta",
+        "Greganta"
+      ],
+      "HTML_after": [
+        "Greganta",
+        "Greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "g@dominant@a",
+      "before": "g<ruby>治ᴰ在<rt class=\"M_M\">dominant</rt></ruby>a",
+      "default": "g<ruby>治ᴰ在<rt class=\"M_M\">dominant</rt></ruby>a",
+      "after": "g<ruby>治ᴰ在<rt class=\"M_M\">dominant</rt></ruby>a",
+      "visible_before": "g治ᴰ在a",
+      "visible_after": "g治ᴰ在a",
+      "changed": false,
+      "inverse_before": [
+        "gdominanta",
+        "gdominanta"
+      ],
+      "inverse_after": [
+        "gdominanta",
+        "gdominanta"
+      ],
+      "HTML_before": [
+        "gdominanta",
+        "gdominanta"
+      ],
+      "HTML_after": [
+        "gdominanta",
+        "gdominanta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@greganta@j",
+      "before": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>aj",
+      "default": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>aj",
+      "after": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>aj",
+      "visible_before": "g再手套aj",
+      "visible_after": "群ᴳ在aj",
+      "changed": true,
+      "inverse_before": [
+        "gregantaj",
+        "gregantaj"
+      ],
+      "inverse_after": [
+        "gregantaj",
+        "gregantaj"
+      ],
+      "HTML_before": [
+        "gregantaj",
+        "gregantaj"
+      ],
+      "HTML_after": [
+        "gregantaj",
+        "gregantaj"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a&nbsp;&nbsp;<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "default": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a&nbsp;&nbsp;<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "after": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\n<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a&nbsp;&nbsp;<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "changed": true,
+      "inverse_before": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "inverse_after": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_before": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_after": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@greganta@",
+      "before": "g<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a",
+      "default": "g<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a",
+      "after": "<ruby>greg<rt class=\"XS_S\">家畜の群れ</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "visible_before": "greganta",
+      "visible_after": "greganta",
+      "changed": true,
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@preganta@",
+      "before": "<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a",
+      "default": "<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a",
+      "after": "<ruby>preg<rt class=\"XS_S\">プレス成形</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "visible_before": "preganta",
+      "visible_after": "preganta",
+      "changed": true,
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@kordonita@",
+      "before": "<ruby>kordon<rt class=\"XXL_L\">ひも</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>a",
+      "default": "<ruby>kordon<rt class=\"XXL_L\">ひも</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>a",
+      "after": "<ruby>kordon<rt class=\"XXL_L\">ひも</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>a",
+      "visible_before": "kordonita",
+      "visible_after": "kordonita",
+      "changed": false,
+      "HTML_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "greganta",
+      "before": "<ruby>greg<rt class=\"XS_S\">家畜の群れ</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "default": "<ruby>greg<rt class=\"XS_S\">家畜の群れ</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "after": "<ruby>greg<rt class=\"XS_S\">家畜の群れ</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "visible_before": "greganta",
+      "visible_after": "greganta",
+      "changed": false,
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "preganta",
+      "before": "<ruby>preg<rt class=\"XS_S\">プレス成形</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "default": "<ruby>preg<rt class=\"XS_S\">プレス成形</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "after": "<ruby>preg<rt class=\"XS_S\">プレス成形</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "visible_before": "preganta",
+      "visible_after": "preganta",
+      "changed": false,
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "kordonita",
+      "before": "kordonita",
+      "default": "kordonita",
+      "after": "kordonita",
+      "visible_before": "kordonita",
+      "visible_after": "kordonita",
+      "changed": false,
+      "HTML_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@agreganta@",
+      "before": "<ruby>agreg<rt class=\"XL_L\">集める</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "default": "<ruby>agreg<rt class=\"XL_L\">集める</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "after": "<ruby>agreg<rt class=\"XL_L\">集める</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "visible_before": "agreganta",
+      "visible_after": "agreganta",
+      "changed": false,
+      "HTML_before": [
+        "agreganta",
+        "agreganta"
+      ],
+      "HTML_after": [
+        "agreganta",
+        "agreganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@greg@anta",
+      "before": "<ruby>greg<rt class=\"XS_S\">家畜の群れ</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "default": "<ruby>greg<rt class=\"XS_S\">家畜の群れ</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "after": "<ruby>greg<rt class=\"XS_S\">家畜の群れ</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "visible_before": "greganta",
+      "visible_after": "greganta",
+      "changed": false,
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@preg@anta",
+      "before": "<ruby>preg<rt class=\"XS_S\">プレス成形</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "default": "<ruby>preg<rt class=\"XS_S\">プレス成形</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "after": "<ruby>preg<rt class=\"XS_S\">プレス成形</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "visible_before": "preganta",
+      "visible_after": "preganta",
+      "changed": false,
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@greganta preganta@",
+      "before": "g<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a <ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a",
+      "default": "g<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a <ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a",
+      "after": "g<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a <ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a",
+      "visible_before": "greganta preganta",
+      "visible_after": "greganta preganta",
+      "changed": false,
+      "HTML_before": [
+        "greganta preganta",
+        "greganta preganta"
+      ],
+      "HTML_after": [
+        "greganta preganta",
+        "greganta preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "%@greganta@%",
+      "before": "@greganta@",
+      "default": "@greganta@",
+      "after": "@greganta@",
+      "visible_before": "@greganta@",
+      "visible_after": "@greganta@",
+      "changed": false,
+      "HTML_before": [
+        "@greganta@",
+        "@greganta@"
+      ],
+      "HTML_after": [
+        "@greganta@",
+        "@greganta@"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@gregantaj@",
+      "before": "g<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>aj",
+      "default": "g<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>aj",
+      "after": "g<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>aj",
+      "visible_before": "gregantaj",
+      "visible_after": "gregantaj",
+      "changed": false,
+      "HTML_before": [
+        "gregantaj",
+        "gregantaj"
+      ],
+      "HTML_after": [
+        "gregantaj",
+        "gregantaj"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@Greganta@",
+      "before": "G<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a",
+      "default": "G<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a",
+      "after": "G<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a",
+      "visible_before": "Greganta",
+      "visible_after": "Greganta",
+      "changed": false,
+      "HTML_before": [
+        "Greganta",
+        "Greganta"
+      ],
+      "HTML_after": [
+        "Greganta",
+        "Greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "g@dominant@a",
+      "before": "g<ruby>domin<rt class=\"XXL_L\">支配</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "default": "g<ruby>domin<rt class=\"XXL_L\">支配</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "after": "g<ruby>domin<rt class=\"XXL_L\">支配</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "visible_before": "gdominanta",
+      "visible_after": "gdominanta",
+      "changed": false,
+      "HTML_before": [
+        "gdominanta",
+        "gdominanta"
+      ],
+      "HTML_after": [
+        "gdominanta",
+        "gdominanta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@greganta@j",
+      "before": "g<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>aj",
+      "default": "g<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>aj",
+      "after": "<ruby>greg<rt class=\"XS_S\">家畜の群れ</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>aj",
+      "visible_before": "gregantaj",
+      "visible_after": "gregantaj",
+      "changed": true,
+      "HTML_before": [
+        "gregantaj",
+        "gregantaj"
+      ],
+      "HTML_after": [
+        "gregantaj",
+        "gregantaj"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a&nbsp;&nbsp;<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">ひも</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>a<br>\n",
+      "default": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a&nbsp;&nbsp;<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">ひも</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>a<br>\n",
+      "after": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\n<ruby>greg<rt class=\"XS_S\">家畜の群れ</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a&nbsp;&nbsp;<ruby>preg<rt class=\"XS_S\">プレス成形</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">ひも</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>a<br>\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+      "changed": true,
+      "HTML_before": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_after": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@greganta@",
+      "before": "g再手套a",
+      "default": "g再手套a",
+      "after": "群ᴳ在a",
+      "visible_before": "g再手套a",
+      "visible_after": "群ᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@preganta@",
+      "before": "前ᴾ手套a",
+      "default": "前ᴾ手套a",
+      "after": "压ᴾᴳ在a",
+      "visible_before": "前ᴾ手套a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@kordonita@",
+      "before": "带ᴷ受a",
+      "default": "带ᴷ受a",
+      "after": "带ᴷ受a",
+      "visible_before": "带ᴷ受a",
+      "visible_after": "带ᴷ受a",
+      "changed": false,
+      "inverse_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "inverse_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "greganta",
+      "before": "群ᴳ在a",
+      "default": "群ᴳ在a",
+      "after": "群ᴳ在a",
+      "visible_before": "群ᴳ在a",
+      "visible_after": "群ᴳ在a",
+      "changed": false,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "preganta",
+      "before": "压ᴾᴳ在a",
+      "default": "压ᴾᴳ在a",
+      "after": "压ᴾᴳ在a",
+      "visible_before": "压ᴾᴳ在a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": false,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "kordonita",
+      "before": "kordonita",
+      "default": "kordonita",
+      "after": "kordonita",
+      "visible_before": "kordonita",
+      "visible_after": "kordonita",
+      "changed": false,
+      "inverse_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "inverse_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@agreganta@",
+      "before": "团ᴬ在a",
+      "default": "团ᴬ在a",
+      "after": "团ᴬ在a",
+      "visible_before": "团ᴬ在a",
+      "visible_after": "团ᴬ在a",
+      "changed": false,
+      "inverse_before": [
+        "agreganta",
+        "agreganta"
+      ],
+      "inverse_after": [
+        "agreganta",
+        "agreganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@greg@anta",
+      "before": "群ᴳ在a",
+      "default": "群ᴳ在a",
+      "after": "群ᴳ在a",
+      "visible_before": "群ᴳ在a",
+      "visible_after": "群ᴳ在a",
+      "changed": false,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@preg@anta",
+      "before": "压ᴾᴳ在a",
+      "default": "压ᴾᴳ在a",
+      "after": "压ᴾᴳ在a",
+      "visible_before": "压ᴾᴳ在a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": false,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@greganta preganta@",
+      "before": "g再手套a 前ᴾ手套a",
+      "default": "g再手套a 前ᴾ手套a",
+      "after": "g再手套a 前ᴾ手套a",
+      "visible_before": "g再手套a 前ᴾ手套a",
+      "visible_after": "g再手套a 前ᴾ手套a",
+      "changed": false,
+      "inverse_before": [
+        "greganta preganta",
+        "greganta preganta"
+      ],
+      "inverse_after": [
+        "greganta preganta",
+        "greganta preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "%@greganta@%",
+      "before": "@greganta@",
+      "default": "@greganta@",
+      "after": "@greganta@",
+      "visible_before": "@greganta@",
+      "visible_after": "@greganta@",
+      "changed": false,
+      "inverse_before": [
+        "@greganta@",
+        "@greganta@"
+      ],
+      "inverse_after": [
+        "@greganta@",
+        "@greganta@"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@gregantaj@",
+      "before": "g再手套aj",
+      "default": "g再手套aj",
+      "after": "g再手套aj",
+      "visible_before": "g再手套aj",
+      "visible_after": "g再手套aj",
+      "changed": false,
+      "inverse_before": [
+        "gregantaj",
+        "gregantaj"
+      ],
+      "inverse_after": [
+        "gregantaj",
+        "gregantaj"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@Greganta@",
+      "before": "G再手套a",
+      "default": "G再手套a",
+      "after": "G再手套a",
+      "visible_before": "G再手套a",
+      "visible_after": "G再手套a",
+      "changed": false,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "g@dominant@a",
+      "before": "g治在a",
+      "default": "g治在a",
+      "after": "g治在a",
+      "visible_before": "g治在a",
+      "visible_after": "g治在a",
+      "changed": false,
+      "inverse_before": [
+        "gdominanta",
+        "gdominanta"
+      ],
+      "inverse_after": [
+        "gdominanta",
+        "gdominanta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@greganta@j",
+      "before": "g再手套aj",
+      "default": "g再手套aj",
+      "after": "群ᴳ在aj",
+      "visible_before": "g再手套aj",
+      "visible_after": "群ᴳ在aj",
+      "changed": true,
+      "inverse_before": [
+        "gregantaj",
+        "gregantaj"
+      ],
+      "inverse_after": [
+        "gregantaj",
+        "gregantaj"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "default": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "changed": true,
+      "inverse_before": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "inverse_after": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@greganta@",
+      "before": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "default": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "after": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "g再手套a",
+      "visible_after": "群ᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@preganta@",
+      "before": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "default": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "after": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "前ᴾ手套a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@kordonita@",
+      "before": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "default": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "after": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "visible_before": "带ᴷ受a",
+      "visible_after": "带ᴷ受a",
+      "changed": false,
+      "inverse_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "inverse_after": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a&nbsp;&nbsp;<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "default": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a&nbsp;&nbsp;<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "after": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\n<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a&nbsp;&nbsp;<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "changed": true,
+      "inverse_before": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "inverse_after": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_before": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_after": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@greganta@",
+      "before": "g<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a",
+      "default": "g<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a",
+      "after": "<ruby>greg<rt class=\"XS_S\">家畜の群れ</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "visible_before": "greganta",
+      "visible_after": "greganta",
+      "changed": true,
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@preganta@",
+      "before": "<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a",
+      "default": "<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a",
+      "after": "<ruby>preg<rt class=\"XS_S\">プレス成形</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a",
+      "visible_before": "preganta",
+      "visible_after": "preganta",
+      "changed": true,
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@kordonita@",
+      "before": "<ruby>kordon<rt class=\"XXL_L\">ひも</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>a",
+      "default": "<ruby>kordon<rt class=\"XXL_L\">ひも</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>a",
+      "after": "<ruby>kordon<rt class=\"XXL_L\">ひも</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>a",
+      "visible_before": "kordonita",
+      "visible_after": "kordonita",
+      "changed": false,
+      "HTML_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a&nbsp;&nbsp;<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">ひも</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>a<br>\n",
+      "default": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>re<rt class=\"S_S\">再び</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a&nbsp;&nbsp;<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手袋</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">ひも</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>a<br>\n",
+      "after": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\n<ruby>greg<rt class=\"XS_S\">家畜の群れ</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a&nbsp;&nbsp;<ruby>preg<rt class=\"XS_S\">プレス成形</rt></ruby><ruby>ant<rt class=\"XXS_S\">能動;<br>継続</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">ひも</rt></ruby><ruby>it<rt class=\"XXXS_S\">受動<br>完<br>了</rt></ruby>a<br>\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+      "changed": true,
+      "HTML_before": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_after": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@greganta@",
+      "before": "g再手套a",
+      "default": "g再手套a",
+      "after": "群ᴳ在a",
+      "visible_before": "g再手套a",
+      "visible_after": "群ᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@preganta@",
+      "before": "前ᴾ手套a",
+      "default": "前ᴾ手套a",
+      "after": "压ᴾᴳ在a",
+      "visible_before": "前ᴾ手套a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@kordonita@",
+      "before": "带ᴷ受a",
+      "default": "带ᴷ受a",
+      "after": "带ᴷ受a",
+      "visible_before": "带ᴷ受a",
+      "visible_after": "带ᴷ受a",
+      "changed": false,
+      "inverse_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "inverse_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "default": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "changed": true,
+      "inverse_before": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "inverse_after": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@greganta@",
+      "before": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "default": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "after": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "g再手套a",
+      "visible_after": "群ᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@preganta@",
+      "before": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "default": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "after": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "前ᴾ手套a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@kordonita@",
+      "before": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "default": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "after": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "visible_before": "带ᴷ受a",
+      "visible_after": "带ᴷ受a",
+      "changed": false,
+      "inverse_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "inverse_after": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a&nbsp;&nbsp;<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "default": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a&nbsp;&nbsp;<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "after": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\n<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a&nbsp;&nbsp;<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "changed": true,
+      "inverse_before": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "inverse_after": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_before": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_after": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@greganta@",
+      "before": "g<ruby>re<rt class=\"XXL_L\">再</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a",
+      "default": "g<ruby>re<rt class=\"XXL_L\">再</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a",
+      "after": "<ruby>greg<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a",
+      "visible_before": "greganta",
+      "visible_after": "greganta",
+      "changed": true,
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@preganta@",
+      "before": "<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a",
+      "default": "<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a",
+      "after": "<ruby>preg<rt class=\"XXL_L\">模压</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a",
+      "visible_before": "preganta",
+      "visible_after": "preganta",
+      "changed": true,
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@kordonita@",
+      "before": "<ruby>kordon<rt class=\"XXL_L\">绳带</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>a",
+      "default": "<ruby>kordon<rt class=\"XXL_L\">绳带</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>a",
+      "after": "<ruby>kordon<rt class=\"XXL_L\">绳带</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>a",
+      "visible_before": "kordonita",
+      "visible_after": "kordonita",
+      "changed": false,
+      "HTML_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>re<rt class=\"XXL_L\">再</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a&nbsp;&nbsp;<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">绳带</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>a<br>\n",
+      "default": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>re<rt class=\"XXL_L\">再</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a&nbsp;&nbsp;<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">绳带</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>a<br>\n",
+      "after": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\n<ruby>greg<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a&nbsp;&nbsp;<ruby>preg<rt class=\"XXL_L\">模压</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">绳带</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>a<br>\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+      "changed": true,
+      "HTML_before": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_after": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@greganta@",
+      "before": "g再手套a",
+      "default": "g再手套a",
+      "after": "群ᴳ在a",
+      "visible_before": "g再手套a",
+      "visible_after": "群ᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@preganta@",
+      "before": "前ᴾ手套a",
+      "default": "前ᴾ手套a",
+      "after": "压ᴾᴳ在a",
+      "visible_before": "前ᴾ手套a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@kordonita@",
+      "before": "带ᴷ受a",
+      "default": "带ᴷ受a",
+      "after": "带ᴷ受a",
+      "visible_before": "带ᴷ受a",
+      "visible_after": "带ᴷ受a",
+      "changed": false,
+      "inverse_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "inverse_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "default": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "changed": true,
+      "inverse_before": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "inverse_after": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@greganta@",
+      "before": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "default": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "after": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "g再手套a",
+      "visible_after": "群ᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@preganta@",
+      "before": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "default": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "after": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "前ᴾ手套a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@kordonita@",
+      "before": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "default": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "after": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "visible_before": "带ᴷ受a",
+      "visible_after": "带ᴷ受a",
+      "changed": false,
+      "inverse_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "inverse_after": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a&nbsp;&nbsp;<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "default": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a&nbsp;&nbsp;<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "after": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\n<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a&nbsp;&nbsp;<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "changed": true,
+      "inverse_before": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "inverse_after": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_before": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_after": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@greganta@",
+      "before": "g<ruby>re<rt class=\"XXL_L\">再</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a",
+      "default": "g<ruby>re<rt class=\"XXL_L\">再</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a",
+      "after": "<ruby>greg<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a",
+      "visible_before": "greganta",
+      "visible_after": "greganta",
+      "changed": true,
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@preganta@",
+      "before": "<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a",
+      "default": "<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a",
+      "after": "<ruby>preg<rt class=\"XXL_L\">模压</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a",
+      "visible_before": "preganta",
+      "visible_after": "preganta",
+      "changed": true,
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@kordonita@",
+      "before": "<ruby>kordon<rt class=\"XXL_L\">绳带</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>a",
+      "default": "<ruby>kordon<rt class=\"XXL_L\">绳带</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>a",
+      "after": "<ruby>kordon<rt class=\"XXL_L\">绳带</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>a",
+      "visible_before": "kordonita",
+      "visible_after": "kordonita",
+      "changed": false,
+      "HTML_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>re<rt class=\"XXL_L\">再</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a&nbsp;&nbsp;<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">绳带</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>a<br>\n",
+      "default": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>re<rt class=\"XXL_L\">再</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a&nbsp;&nbsp;<ruby>pre<rt class=\"XXL_L\">前</rt></ruby><ruby>gant<rt class=\"XXL_L\">手套</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">绳带</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>a<br>\n",
+      "after": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\n<ruby>greg<rt class=\"XXL_L\">畜群</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a&nbsp;&nbsp;<ruby>preg<rt class=\"XXL_L\">模压</rt></ruby><ruby>ant<rt class=\"S_S\">现分词</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">绳带</rt></ruby><ruby>it<rt class=\"XXXS_S\">被动<br>完<br>了</rt></ruby>a<br>\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+      "changed": true,
+      "HTML_before": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_after": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@greganta@",
+      "before": "g再手套a",
+      "default": "g再手套a",
+      "after": "群ᴳ在a",
+      "visible_before": "g再手套a",
+      "visible_after": "群ᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@preganta@",
+      "before": "前ᴾ手套a",
+      "default": "前ᴾ手套a",
+      "after": "压ᴾᴳ在a",
+      "visible_before": "前ᴾ手套a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@kordonita@",
+      "before": "带ᴷ受a",
+      "default": "带ᴷ受a",
+      "after": "带ᴷ受a",
+      "visible_before": "带ᴷ受a",
+      "visible_after": "带ᴷ受a",
+      "changed": false,
+      "inverse_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "inverse_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "default": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "changed": true,
+      "inverse_before": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "inverse_after": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@greganta@",
+      "before": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "default": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "after": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "g再手套a",
+      "visible_after": "群ᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@preganta@",
+      "before": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "default": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "after": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "前ᴾ手套a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@kordonita@",
+      "before": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "default": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "after": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "visible_before": "带ᴷ受a",
+      "visible_after": "带ᴷ受a",
+      "changed": false,
+      "inverse_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "inverse_after": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a&nbsp;&nbsp;<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "default": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a&nbsp;&nbsp;<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "after": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\n<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a&nbsp;&nbsp;<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "changed": true,
+      "inverse_before": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "inverse_after": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_before": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_after": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@greganta@",
+      "before": "g<ruby>re<rt class=\"S_S\">다시</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a",
+      "default": "g<ruby>re<rt class=\"S_S\">다시</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a",
+      "after": "<ruby>greg<rt class=\"XXL_L\">무리</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a",
+      "visible_before": "greganta",
+      "visible_after": "greganta",
+      "changed": true,
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@preganta@",
+      "before": "<ruby>pre<rt class=\"XXL_L\">전</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a",
+      "default": "<ruby>pre<rt class=\"XXL_L\">전</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a",
+      "after": "<ruby>preg<rt class=\"XS_S\">프레스성형</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a",
+      "visible_before": "preganta",
+      "visible_after": "preganta",
+      "changed": true,
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@kordonita@",
+      "before": "<ruby>kordon<rt class=\"XXL_L\">끈</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>a",
+      "default": "<ruby>kordon<rt class=\"XXL_L\">끈</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>a",
+      "after": "<ruby>kordon<rt class=\"XXL_L\">끈</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>a",
+      "visible_before": "kordonita",
+      "visible_after": "kordonita",
+      "changed": false,
+      "HTML_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>re<rt class=\"S_S\">다시</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a&nbsp;&nbsp;<ruby>pre<rt class=\"XXL_L\">전</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">끈</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>a<br>\n",
+      "default": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>re<rt class=\"S_S\">다시</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a&nbsp;&nbsp;<ruby>pre<rt class=\"XXL_L\">전</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">끈</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>a<br>\n",
+      "after": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\n<ruby>greg<rt class=\"XXL_L\">무리</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a&nbsp;&nbsp;<ruby>preg<rt class=\"XS_S\">프레스성형</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">끈</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>a<br>\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+      "changed": true,
+      "HTML_before": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_after": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@greganta@",
+      "before": "g再手套a",
+      "default": "g再手套a",
+      "after": "群ᴳ在a",
+      "visible_before": "g再手套a",
+      "visible_after": "群ᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@preganta@",
+      "before": "前ᴾ手套a",
+      "default": "前ᴾ手套a",
+      "after": "压ᴾᴳ在a",
+      "visible_before": "前ᴾ手套a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@kordonita@",
+      "before": "带ᴷ受a",
+      "default": "带ᴷ受a",
+      "after": "带ᴷ受a",
+      "visible_before": "带ᴷ受a",
+      "visible_after": "带ᴷ受a",
+      "changed": false,
+      "inverse_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "inverse_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "default": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "changed": true,
+      "inverse_before": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "inverse_after": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@greganta@",
+      "before": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "default": "g<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "after": "<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "g再手套a",
+      "visible_after": "群ᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "greganta",
+        "greganta"
+      ],
+      "inverse_after": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@preganta@",
+      "before": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "default": "<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a",
+      "after": "<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a",
+      "visible_before": "前ᴾ手套a",
+      "visible_after": "压ᴾᴳ在a",
+      "changed": true,
+      "inverse_before": [
+        "preganta",
+        "preganta"
+      ],
+      "inverse_after": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@kordonita@",
+      "before": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "default": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "after": "<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a",
+      "visible_before": "带ᴷ受a",
+      "visible_after": "带ᴷ受a",
+      "changed": false,
+      "inverse_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "inverse_after": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a&nbsp;&nbsp;<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "default": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>再<rt class=\"XXL_L\">re</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a&nbsp;&nbsp;<ruby>前ᴾ<rt class=\"XXL_L\">pre</rt></ruby><ruby>手套<rt class=\"XXL_L\">gant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "after": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\n<ruby>群ᴳ<rt class=\"L_L\">greg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a&nbsp;&nbsp;<ruby>压ᴾᴳ<rt class=\"XXL_L\">preg</rt></ruby><ruby>在<rt class=\"L_L\">ant</rt></ruby>a\t<ruby>带ᴷ<rt class=\"S_S\">kordon</rt></ruby><ruby>受<rt class=\"XXL_L\">it</rt></ruby>a<br>\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ng再手套a  前ᴾ手套a\t带ᴷ受a\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\n群ᴳ在a  压ᴾᴳ在a\t带ᴷ受a\n",
+      "changed": true,
+      "inverse_before": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "inverse_after": [
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <greganta>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_before": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_after": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@greganta@",
+      "before": "g<ruby>re<rt class=\"S_S\">다시</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a",
+      "default": "g<ruby>re<rt class=\"S_S\">다시</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a",
+      "after": "<ruby>greg<rt class=\"XXL_L\">무리</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a",
+      "visible_before": "greganta",
+      "visible_after": "greganta",
+      "changed": true,
+      "HTML_before": [
+        "greganta",
+        "greganta"
+      ],
+      "HTML_after": [
+        "greganta",
+        "greganta"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@preganta@",
+      "before": "<ruby>pre<rt class=\"XXL_L\">전</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a",
+      "default": "<ruby>pre<rt class=\"XXL_L\">전</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a",
+      "after": "<ruby>preg<rt class=\"XS_S\">프레스성형</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a",
+      "visible_before": "preganta",
+      "visible_after": "preganta",
+      "changed": true,
+      "HTML_before": [
+        "preganta",
+        "preganta"
+      ],
+      "HTML_after": [
+        "preganta",
+        "preganta"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@kordonita@",
+      "before": "<ruby>kordon<rt class=\"XXL_L\">끈</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>a",
+      "default": "<ruby>kordon<rt class=\"XXL_L\">끈</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>a",
+      "after": "<ruby>kordon<rt class=\"XXL_L\">끈</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>a",
+      "visible_before": "kordonita",
+      "visible_after": "kordonita",
+      "changed": false,
+      "HTML_before": [
+        "kordonita",
+        "kordonita"
+      ],
+      "HTML_after": [
+        "kordonita",
+        "kordonita"
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "  %<群ᴳ在a>&@greganta@%\n@greganta@  @preganta@\t@kordonita@\n",
+      "before": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>re<rt class=\"S_S\">다시</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a&nbsp;&nbsp;<ruby>pre<rt class=\"XXL_L\">전</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">끈</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>a<br>\n",
+      "default": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\ng<ruby>re<rt class=\"S_S\">다시</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a&nbsp;&nbsp;<ruby>pre<rt class=\"XXL_L\">전</rt></ruby><ruby>gant<rt class=\"XXL_L\">장갑</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">끈</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>a<br>\n",
+      "after": "&nbsp;&nbsp;&lt;群ᴳ在a&gt;&amp;@greganta@<br>\n<ruby>greg<rt class=\"XXL_L\">무리</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a&nbsp;&nbsp;<ruby>preg<rt class=\"XS_S\">프레스성형</rt></ruby><ruby>ant<rt class=\"XS_S\">~는 중인</rt></ruby>a\t<ruby>kordon<rt class=\"XXL_L\">끈</rt></ruby><ruby>it<rt class=\"XXXS_S\">수동<br>완<br>료</rt></ruby>a<br>\n",
+      "visible_before": "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+      "visible_after": "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+      "changed": true,
+      "HTML_before": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ],
+      "HTML_after": [
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n",
+        "  <群ᴳ在a>&@greganta@\ngreganta  preganta\tkordonita\n"
+      ]
+    }
+  ],
+  "actual_HTML_recovery_calls": 288,
+  "actual_plain_inverse_calls": 336,
+  "method": "Actual immutable baseline engine and actual current engine, entire global/local/two-character tables, saved/manual overlay and real automatic second pass. New default invocation versus old API, and explicit bundled-app True invocation. No monkeypatch, candidate selector, or simulated expected rendering.",
+  "parts": [
+    {
+      "file": "audit_actual_targets_JA.json",
+      "sha256": "91c1bc40c442262e1ac5309d750aa8413738a4753b81f2199313ee27c1bfe6dd"
+    },
+    {
+      "file": "audit_actual_targets_ZH.json",
+      "sha256": "939c179de2db02ae94356e46f9c243c3312f97181dd95a93b9cb9158f839f1cc"
+    },
+    {
+      "file": "audit_actual_targets_KO.json",
+      "sha256": "9d46facd44270c5b6a7aa881943db39048cefcdd377b28df9d7d37d2c07c56d5"
+    }
+  ]
+}

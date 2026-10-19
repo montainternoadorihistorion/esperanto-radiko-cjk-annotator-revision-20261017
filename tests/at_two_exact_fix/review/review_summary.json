@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "baseline": "469806409ac3c3cc8f3368bdb24b792cead6f81c",
+  "source_sha256": "f0670480e5865b6df7278f77254978c3e546781079d74de3230e284713c37df2",
+  "source_sha256_by_language": {
+    "JA": {
+      "esp_text_replacement_module.py": "f0670480e5865b6df7278f77254978c3e546781079d74de3230e284713c37df2",
+      "esp_assignment_edition.py": "ff0b12bf9edc866f1a97184ffca514808657beb68e3c326d9483d544a9f1a298",
+      "main.py": "9d80a743f48a07baa4c3cc314076f0ffe27e5e50e3855ff52a6d1006998d11fd",
+      "pages/1_🔧_語根分解の手動補正.py": "3b9096edccecca7a42d6a67a4413d95a16d4fb2704a2a8eec9a451d7cc4ff0ff"
+    },
+    "ZH": {
+      "esp_text_replacement_module.py": "d16e3d9f3563844e1647b6026d2deb9f2c354261dbf1b4c054fcf96059cbe925",
+      "esp_assignment_edition.py": "ff0b12bf9edc866f1a97184ffca514808657beb68e3c326d9483d544a9f1a298",
+      "main.py": "175c29722c57f8f0ee1b9349e0b8246fdc0adad912584a097c06f29a43957641",
+      "pages/1_🔧_词根分解的手动校正.py": "64018583c8efbb01dce7dfcf13f4e032a5f0337fe1176d3ff95fea29b7e810c3"
+    },
+    "KO": {
+      "esp_text_replacement_module.py": "aa9cfe9fa038797c5671da267ec53aaf657063b80a5306caea60e4e3b78712a3",
+      "esp_assignment_edition.py": "ff0b12bf9edc866f1a97184ffca514808657beb68e3c326d9483d544a9f1a298",
+      "main.py": "1e426c15c2e1ba1debde767a153df73584c27f36d7a5dc76ed7a4d2add759cd8",
+      "pages/1_🔧_어근 분해 수동 보정.py": "8adea532a86b4e0394ac7146908455b42e41b7e04648e281d0c9334a2dff4be7"
+    }
+  },
+  "shared_new_helpers_AST_sha256": "b3d20bb0036ae854e82f014b2685f1bcc0b0a3e5c2c3f80463ed53c50fe6ac2d",
+  "issues": [],
+  "independent_comparison": {
+    "contexts_per_route": 128,
+    "routes": 18,
+    "context_comparisons": 2304,
+    "approved_contexts_checked": 576,
+    "unchanged_controls_checked": 1728,
+    "default_api_unchanged_routes": 18,
+    "oracle_existing_atoms_match_routes": 18,
+    "inverse_control_checks": 1152,
+    "target_inverse_checks": 36,
+    "html_recovery_checks": 48,
+    "parallel_matches": 18,
+    "manual_overlay_checks": 18,
+    "in_memory_stored_overlay_checks": 18,
+    "custom_default_and_compatibility_checks": 54
+  },
+  "target_ui": {
+    "conversion_and_download_checks": 27,
+    "state_guards": 33
+  },
+  "existing_state_ui": {
+    "local_languages": [
+      "JA"
+    ],
+    "download_checks": 22,
+    "state_checks": 30,
+    "all_language_CI_passed": true,
+    "ci_evidence": "ci_state_validation.json",
+    "ci_job_url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/actions/runs/39232476274/job/117993483852",
+    "local_omissions": "After CI all-language suite passed, ZH duplicate was stopped before completion and KO duplicate omitted. Partial ZH progress is not counted."
+  },
+  "entrypoint_ui": {
+    "manual_preview_checks": 18,
+    "custom_upload_checks": 6,
+    "real_engine_calls": 60
+  },
+  "cloud_fixture": {
+    "routes": 18,
+    "is_cloud_observation": false
+  },
+  "notes": [
+    "128 contexts are newline-delimited batches per route; default API equivalence and independent legacy-atom oracle are separately compared.",
+    "Normal text, non-exact @ payloads, protected text, kordonita, identifiers, and global manual overlays retain baseline behavior.",
+    "AppTests run the real application and dictionaries; only upload/download transport or engine-call recording are instrumented.",
+    "Stored overlay behavior is additionally simulated in memory without changing user_corrections.json.",
+    "Full corpus audit is a separate report; this review supplies independent boundary, UI, and default API checks."
+  ]
+}

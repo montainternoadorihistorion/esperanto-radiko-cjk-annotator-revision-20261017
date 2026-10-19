@@ -1,0 +1,24 @@
+{
+  "head_sha": "cc9e60909cdb4e8ec0f5eea84555d682b53b8091",
+  "job_url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/actions/runs/39232476274/job/117993483852",
+  "status": "completed",
+  "conclusion": "success",
+  "steps": [
+    {
+      "name": "Run python -m pytest tests/test_input_result_state_forward.py -q -p no:cacheprovider",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 5,
+      "started_at": "2026-10-19T09:46:34Z",
+      "completed_at": "2026-10-19T09:52:19Z"
+    },
+    {
+      "name": "Run python -m pytest tests/test_legacy_three_pure_fix.py tests/test_ksen_pure_fix.py tests/test_at_two_exact_fix.py -q -p no:cacheprovider",
+      "status": "completed",
+      "conclusion": "success",
+      "number": 6,
+      "started_at": "2026-10-19T09:52:19Z",
+      "completed_at": "2026-10-19T09:53:48Z"
+    }
+  ]
+}
