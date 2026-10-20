@@ -223,7 +223,7 @@ def main():
  root=a.app_root or HERE.parent
  config=json.loads((a.inputs or HERE/'sperm_distinction_inputs.json').read_bytes())
  global WORDS,MANUAL,CONTROLS
- WORDS=config['WORDS'];MANUAL=config['MANUAL'];CONTROLS=config['CONTROLS'];CONTROLS.update({r:v[1] for r,v in DISPLAYS.items()});CONTROLS.update({'greft':'移植','dot':'妆','tualet':'妆ᵀ'})
+ WORDS=config['WORDS'];MANUAL=config['MANUAL'];CONTROLS=config['CONTROLS'];CONTROLS.update({'buf':'蟆','lofi':'蟆鱼'});CONTROLS.update({r:v[1] for r,v in DISPLAYS.items()});CONTROLS.update({'greft':'移植','dot':'妆','tualet':'妆ᵀ'})
  old=None
  if a.baseline_zip:
   z=zipfile.ZipFile(a.baseline_zip);old=lambda path:z.read(path.relative_to(root).as_posix())

@@ -15,6 +15,8 @@ CONTROLS={'buf':'蛤蟆','lofi':'蛤蟆鱼','sutur':'缝ˢᴿ','fraj':'卵ᶠ','
  'turment':'虐','tortur':'虐ᵀᵀ','testikit':'丸ᵀ炎ᵀ','orkidit':'丸ᴼ炎ᵀ',
  'ananas':'菠','jakv':'菠蜜','las':'放','emancip':'放ᴱ','prioritat':'优先',
  'strut':'鸵','sinergi':'协同','oliv':'榄','oval':'椭圆','elips':'椭圆ᴱ','stafilokok':'葡球菌'}
+# Current expectations follow the explicit 2026-10-20 adoption; original scope remains above.
+CONTROLS.update({'buf':'蟆','lofi':'蟆鱼'})
 TARGET_WORDS=[form for root in VALUES for base in
  (root+'o',root+'oj',root+'on',root+'ojn',root+'a',root+'aj',root+'ajn',root+'e',
   '@'+root+'@o','@'+root+'o@','@'+root+'@ojn') for form in (base,base.title(),base.upper())]

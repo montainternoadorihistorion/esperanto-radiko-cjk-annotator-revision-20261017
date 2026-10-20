@@ -28,6 +28,7 @@ TARGETS.update({"krep", "difrakt", "mortez", "meger"})
 TARGETS.update({"risort", "anc^", "lantern", "lubrik"})
 TARGETS.update({"uve", "uveit"})
 TARGETS.update({"psitak", "uv", "limon", "limonad"})
+TARGETS.update({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'})  # later user-approved six assignments
 
 
 def mapping(source_id):

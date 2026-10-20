@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "date": "2026-10-20",
+  "canonical": {
+    "scope": {
+      "bedaŭr": "惜ᴮ",
+      "raŭk": "哑ᴿ",
+      "buf": "蟆",
+      "lofi": "蟆鱼",
+      "aŭtomat": "自动",
+      "au^tomaci": "自动ᴬᶜ"
+    },
+    "assigned_roots": 10469,
+    "unchanged_sidecar_rows_and_order": 10463,
+    "existing_display_ownership_moves": 0,
+    "injection_rows_per_edition": 62313,
+    "injection_changed_lines_per_edition": 39,
+    "all_original_text_gloss_segmentation_markers_preserved": true,
+    "character_types": [
+      2247,
+      2246
+    ],
+    "removed_characters": [
+      "憾"
+    ]
+  },
+  "forward_tables": {
+    "kanji_rows": 1646973,
+    "pure_rows": 548991,
+    "changed_kanji_rows": 699,
+    "source_words": 44578,
+    "generator_hooks_verified": true
+  },
+  "inverse_all_keys": {
+    "checked_cases": 644430,
+    "all_key_results": {
+      "JA_current": {
+        "passed": true,
+        "key_count": 10687,
+        "counts": {
+          "cases": 160305,
+          "unchanged": 160226,
+          "changed": 79
+        }
+      },
+      "JA_legacy": {
+        "passed": true,
+        "key_count": 10794,
+        "counts": {
+          "cases": 161910,
+          "unchanged": 161910
+        }
+      },
+      "ZH_current": {
+        "passed": true,
+        "key_count": 10687,
+        "counts": {
+          "cases": 160305,
+          "unchanged": 160226,
+          "changed": 79
+        }
+      },
+      "ZH_legacy": {
+        "passed": true,
+        "key_count": 10794,
+        "counts": {
+          "cases": 161910,
+          "unchanged": 161910
+        }
+      }
+    },
+    "unapproved_changed_cases": 0
+  },
+  "local_UI": {
+    "conversion_download_routes": 18,
+    "download_files_rehashed": 18,
+    "annotation_results_identical_between_editions": true,
+    "method": "Local Streamlit AppTest; download transport observed, no browser or Cloud claim",
+    "test_script_sha256": "5e61e2273002a7380bef8ede9768cfdae446745dc36c58f62ff7fbac02a7a721"
+  },
+  "known_shared_display": "aŭtomata and mem/mov/a both display 自动a in current. Plain inverse chooses aŭtomat; no split changed.",
+  "limitations": "Exhaustive root/rule/key comparisons plus targeted actual runtime/UI checks; not an exhaustive execution of arbitrary prose. No claim of globally unique reversibility."
+}

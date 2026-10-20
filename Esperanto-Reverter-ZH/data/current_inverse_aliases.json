@@ -2,8 +2,8 @@
   "schema_version": 1,
   "revision": "current-compound-inverse-20261018-v3",
   "source_id": "pejvo-piv-20260620",
-  "dictionary_revision": "2026-10-18-dot-greft",
-  "current_csv_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
+  "dictionary_revision": "2026-10-20-six-assignments",
+  "current_csv_sha256": "c81ef4eaba2659b85a5cfaff08975205043ec6331ef68ba1e43046ddfc580567",
   "required_canonical_owner": {
     "kanji": "丸ᴼ炎ᵀ",
     "esperanto": "orkidit"

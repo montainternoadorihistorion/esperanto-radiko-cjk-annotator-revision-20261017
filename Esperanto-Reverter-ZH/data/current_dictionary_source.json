@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "2026-10-18-dot-greft",
+  "revision": "2026-10-20-six-assignments",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "8e99e85a6a78cf99f7692b2727d7a86d48f47d1bc912276fb0abda71f0bb565a",
+  "monaco_all_sha256": "d01694e0c204f672908ef995280e402f709faac89342d7e88e028affc4d6fb77",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "b651ade3c363b96173d2f23bc6404bc67c2b4cfd3e9ce2aa69e6e24eb78ce33e",
+  "canonical_sidecar_sha256": "273585e86aff405c2be9a943dbcbcb8beed501f5b0151f410a9ace667a05b5f1",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -192,10 +192,34 @@
     "tualet": {
       "old": "妆",
       "current": "妆ᵀ"
+    },
+    "bedaŭr": {
+      "old": "憾",
+      "current": "惜ᴮ"
+    },
+    "raŭk": {
+      "old": "沙哑",
+      "current": "哑ᴿ"
+    },
+    "buf": {
+      "old": "蛤蟆",
+      "current": "蟆"
+    },
+    "lofi": {
+      "old": "蛤蟆鱼",
+      "current": "蟆鱼"
+    },
+    "aŭtomat": {
+      "old": "动ᴬ",
+      "current": "自动"
+    },
+    "au^tomaci": {
+      "old": "动ᴬᶜ",
+      "current": "自动ᴬᶜ"
     }
   },
-  "current_csv_sha256": "4718bbd7f5900ad7f5abc3434caa9381fb867b89f521bfe4031c1579a21e3074",
-  "current_snippet_csv_sha256": "60ebac762866405362d52183177c2cdfc3406ce5ad5a876b91068fa03f0329a4",
+  "current_csv_sha256": "c81ef4eaba2659b85a5cfaff08975205043ec6331ef68ba1e43046ddfc580567",
+  "current_snippet_csv_sha256": "ce51f8a9b9c4980b881efccb9a2f202275aede21e7eae9693811d026abe050f9",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -310,5 +334,7 @@
     "snippet_csv": "data/snippet_pre_dot_greft_20261018.csv",
     "csv_sha256": "3219d77284ddf21c90b6d33a580ead00a3c38b2628b09ed205883c9255f6bd65",
     "snippet_csv_sha256": "22ef2de51e53bd19314b6c7f140aa8d82b0914bd71bfdd0b2c943cbc71591f07"
-  }
+  },
+  "six_assignments_manifest": "data/six-assignments-20261020.json",
+  "six_assignments_manifest_sha256": "8f413aeb106fe427cdd879841d6c146cfb08c36c99ac918294184db2e6bcdb05"
 }
