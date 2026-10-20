@@ -190,7 +190,7 @@ def main():
  p=argparse.ArgumentParser();p.add_argument('--app-root',type=Path);p.add_argument('--baseline-zip',type=Path);p.add_argument('--inputs',type=Path);p.add_argument('--capture-before',action='store_true');p.add_argument('--compare-capture',type=Path);p.add_argument('--tables-only',action='store_true');p.add_argument('--report',type=Path,required=True);a=p.parse_args()
  root=a.app_root or HERE.parent;config=json.loads((a.inputs or HERE/'dot_greft_inputs.json').read_bytes())
  global WORDS,MANUAL,CONTROLS
- WORDS=config['WORDS'];MANUAL=config['MANUAL'];CONTROLS=config['CONTROLS'];old=None
+ WORDS=config['WORDS'];MANUAL=config['MANUAL'];CONTROLS=config['CONTROLS'];CONTROLS.update({'buf':'蟆','lofi':'蟆鱼'});old=None
  if a.baseline_zip:
   z=zipfile.ZipFile(a.baseline_zip);old=lambda path:z.read(path.relative_to(root).as_posix())
  report={'passed':False,'assignments':VALUES,'tables':tables(root,old) if not a.capture_before else [],'method':'Actual app engine and per-input automatic overlays; bounded initial render batches of 40; explicit manual correction path.'}

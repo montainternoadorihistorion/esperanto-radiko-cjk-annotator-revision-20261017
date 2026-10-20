@@ -1,0 +1,215 @@
+{
+  "schema": 1,
+  "revision": "2026-10-20-six-assignments",
+  "baseline": "168a41a7467586720494cf4228cbe807380055e0",
+  "changes": {
+    "bedaŭr": [
+      "憾",
+      "惜ᴮ"
+    ],
+    "raŭk": [
+      "沙哑",
+      "哑ᴿ"
+    ],
+    "buf": [
+      "蛤蟆",
+      "蟆"
+    ],
+    "lofi": [
+      "蛤蟆鱼",
+      "蟆鱼"
+    ],
+    "aŭtomat": [
+      "动ᴬ",
+      "自动"
+    ],
+    "au^tomaci": [
+      "动ᴬᶜ",
+      "自动ᴬᶜ"
+    ]
+  },
+  "canonical_sidecar_sha256": "273585e86aff405c2be9a943dbcbcb8beed501f5b0151f410a9ace667a05b5f1",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "8e99e85a6a78cf99f7692b2727d7a86d48f47d1bc912276fb0abda71f0bb565a",
+  "baseline_target_items": {
+    "bedaŭr": {
+      "prefix": "bedauxr",
+      "body": "憾",
+      "kanji": "憾",
+      "detail": "bedaŭr → 憾 (basic, F=9, 基本形)",
+      "documentation": "語根: bedaŭr\n入力: bedauxr\n最終形: 憾\n漢字: 憾\n識別子: なし\n型: basic\nF(汎用性): 9\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:1943",
+      "priority": 0,
+      "sourceRoot": "bedaŭr",
+      "type": "basic",
+      "frequency": 9,
+      "base": true,
+      "sourceLine": 1943
+    },
+    "raŭk": {
+      "prefix": "rauxk",
+      "body": "沙哑",
+      "kanji": "沙哑",
+      "detail": "raŭk → 沙哑 (basic, F=4, 基本形)",
+      "documentation": "語根: raŭk\n入力: rauxk\n最終形: 沙哑\n漢字: 沙哑\n識別子: なし\n型: basic\nF(汎用性): 4\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:5914",
+      "priority": 0,
+      "sourceRoot": "raŭk",
+      "type": "basic",
+      "frequency": 4,
+      "base": true,
+      "sourceLine": 5914
+    },
+    "buf": {
+      "prefix": "buf",
+      "body": "蛤蟆",
+      "kanji": "蛤蟆",
+      "detail": "buf → 蛤蟆 (pejvo, F=2, 基本形)",
+      "documentation": "語根: buf\n入力: buf\n最終形: 蛤蟆\n漢字: 蛤蟆\n識別子: なし\n型: pejvo\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7807",
+      "priority": 0,
+      "sourceRoot": "buf",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 7807
+    },
+    "lofi": {
+      "prefix": "lofi",
+      "body": "蛤蟆鱼",
+      "kanji": "蛤蟆鱼",
+      "detail": "lofi → 蛤蟆鱼 (piv, F=3, 基本形)",
+      "documentation": "語根: lofi\n入力: lofi\n最終形: 蛤蟆鱼\n漢字: 蛤蟆鱼\n識別子: なし\n型: piv\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7597",
+      "priority": 0,
+      "sourceRoot": "lofi",
+      "type": "piv",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7597
+    },
+    "aŭtomat": {
+      "prefix": "auxtomat",
+      "body": "动ᴬ",
+      "kanji": "动",
+      "detail": "aŭtomat → 动ᴬ (basic, F=18)",
+      "documentation": "語根: aŭtomat\n入力: auxtomat\n最終形: 动ᴬ\n漢字: 动\n識別子: a\n型: basic\nF(汎用性): 18\nグループ数: 7\n基本形: no\n出典: _identifier_sidecar.tsv:881",
+      "priority": 0,
+      "sourceRoot": "aŭtomat",
+      "type": "basic",
+      "frequency": 18,
+      "base": false,
+      "sourceLine": 881
+    },
+    "au^tomaci": {
+      "prefix": "auxtomaci",
+      "body": "动ᴬᶜ",
+      "kanji": "动",
+      "detail": "au^tomaci → 动ᴬᶜ (pejvo, F=1)",
+      "documentation": "語根: au^tomaci\n入力: auxtomaci\n最終形: 动ᴬᶜ\n漢字: 动\n識別子: ac\n型: pejvo\nF(汎用性): 1\nグループ数: 7\n基本形: no\n出典: _identifier_sidecar.tsv:883",
+      "priority": 0,
+      "sourceRoot": "au^tomaci",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 883
+    }
+  },
+  "expected_target_items": {
+    "bedaŭr": {
+      "prefix": "bedauxr",
+      "body": "惜ᴮ",
+      "kanji": "惜",
+      "detail": "bedaŭr → 惜ᴮ (basic, F=9)",
+      "documentation": "語根: bedaŭr\n入力: bedauxr\n最終形: 惜ᴮ\n漢字: 惜\n識別子: b\n型: basic\nF(汎用性): 9\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:1943",
+      "priority": 0,
+      "sourceRoot": "bedaŭr",
+      "type": "basic",
+      "frequency": 9,
+      "base": false,
+      "sourceLine": 1943
+    },
+    "raŭk": {
+      "prefix": "rauxk",
+      "body": "哑ᴿ",
+      "kanji": "哑",
+      "detail": "raŭk → 哑ᴿ (basic, F=4)",
+      "documentation": "語根: raŭk\n入力: rauxk\n最終形: 哑ᴿ\n漢字: 哑\n識別子: r\n型: basic\nF(汎用性): 4\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:5914",
+      "priority": 0,
+      "sourceRoot": "raŭk",
+      "type": "basic",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 5914
+    },
+    "buf": {
+      "prefix": "buf",
+      "body": "蟆",
+      "kanji": "蟆",
+      "detail": "buf → 蟆 (pejvo, F=2, 基本形)",
+      "documentation": "語根: buf\n入力: buf\n最終形: 蟆\n漢字: 蟆\n識別子: なし\n型: pejvo\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7807",
+      "priority": 0,
+      "sourceRoot": "buf",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 7807
+    },
+    "lofi": {
+      "prefix": "lofi",
+      "body": "蟆鱼",
+      "kanji": "蟆鱼",
+      "detail": "lofi → 蟆鱼 (piv, F=3, 基本形)",
+      "documentation": "語根: lofi\n入力: lofi\n最終形: 蟆鱼\n漢字: 蟆鱼\n識別子: なし\n型: piv\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7597",
+      "priority": 0,
+      "sourceRoot": "lofi",
+      "type": "piv",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7597
+    },
+    "aŭtomat": {
+      "prefix": "auxtomat",
+      "body": "自动",
+      "kanji": "自动",
+      "detail": "aŭtomat → 自动 (basic, F=18, 基本形)",
+      "documentation": "語根: aŭtomat\n入力: auxtomat\n最終形: 自动\n漢字: 自动\n識別子: なし\n型: basic\nF(汎用性): 18\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:881",
+      "priority": 0,
+      "sourceRoot": "aŭtomat",
+      "type": "basic",
+      "frequency": 18,
+      "base": true,
+      "sourceLine": 881
+    },
+    "au^tomaci": {
+      "prefix": "auxtomaci",
+      "body": "自动ᴬᶜ",
+      "kanji": "自动",
+      "detail": "au^tomaci → 自动ᴬᶜ (pejvo, F=1)",
+      "documentation": "語根: au^tomaci\n入力: auxtomaci\n最終形: 自动ᴬᶜ\n漢字: 自动\n識別子: ac\n型: pejvo\nF(汎用性): 1\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:883",
+      "priority": 0,
+      "sourceRoot": "au^tomaci",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 883
+    }
+  },
+  "unrelated_items_sha256": "af52c460226c09d71fb632c434bde0f3bae9af667ad11300218ff243a23335a7",
+  "unrelated_items_count": 10634,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "bedaŭr": "User adopted 惜ᴮ: share 惜 with semantically close domaĝ; reduce strokes and eliminate the dedicated character 憾.",
+    "raŭk": "User adopted 哑ᴿ: 哑 has a hoarse-voice sense; distinguish mut=哑 and retain the hoarseness annotation.",
+    "buf": "User adopted 蟆 as representative character of 蛤蟆; preserve the toad annotation and existing root.",
+    "lofi": "User adopted 蟆鱼 in parallel with buf; retain 鱼 and the anglerfish annotation.",
+    "aŭtomat": "User adopted 自动: 自 explicitly contributes autonomous operation; existing characters are shared.",
+    "au^tomaci": "User adopted 自动ᴬᶜ in the same semantic family, keeping its reviewed identity."
+  },
+  "not_adopted": {
+    "mikrob": "细菌",
+    "diafragm": "光圈",
+    "gelaten": "明胶",
+    "ŝakal": "胡狼"
+  }
+}

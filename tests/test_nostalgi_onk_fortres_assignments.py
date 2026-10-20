@@ -17,6 +17,8 @@ CONTROLS={**{'krep': '皱布', 'difrakt': '绕射', 'mortez': '卯', 'meger': '�
  'turment':'虐','tortur':'虐ᵀᵀ','testikit':'丸ᵀ炎ᵀ','orkidit':'丸ᴼ炎ᵀ',
  'ananas':'菠','jakv':'菠蜜','las':'放','emancip':'放ᴱ','prioritat':'优先',
  'strut':'鸵','sinergi':'协同','oliv':'榄','oval':'椭圆','elips':'椭圆ᴱ','stafilokok':'葡球菌'}
+# Current expectations follow the explicit 2026-10-20 adoption; original scope remains above.
+CONTROLS.update({'buf':'蟆','lofi':'蟆鱼'})
 # Current controls follow the later approved shared-character satir revision.
 # Keep the older scope and recorded regression evidence unchanged.
 HISTORICAL_CONTROLS = dict(CONTROLS)

@@ -1384,6 +1384,7 @@ aŭtogen,自ᴬ生ᴳ,0,au^togen,8865
 aŭtoliz,自ᴬ解ᴸ,0,au^toliz,8868
 aŭtograf,自ᴬ记ᴳ,0,au^tograf,8866
 aŭtogami,自ᴬ配ᴳ,0,au^togami,10216
+aŭtomaci,自动ᴬᶜ,0,au^tomaci,883
 spontane,自发ˢᴱ,0,spontane,6492
 aŭtonomi,自治ᴬᴵ,0,au^tonomi,6495
 naturalism,自然主义,0,naturalism,9694
@@ -1902,7 +1903,6 @@ anatomi,剖ᴬᴵ,0,anatomi,6919
 akcesor,副ᴬᴷ,0,akcesor,4925
 epifenomen,副现象,0,epifenomen,9093
 sekant,割ˢᴷ,0,sekant,7315
-aŭtomaci,动ᴬᶜ,0,au^tomaci,883
 kinez,动ᴷᶻ,0,kinez,884
 motor,动ᴹᵀ,0,motor,879
 korsar,劫ᴷᴿ,0,korsar,6475
@@ -3717,7 +3717,6 @@ argironet,蛛ᴬᴿ,0,argironet,4212
 avikulari,蛛ᴬⱽ,0,avikulari,4213
 tegenari,蛛ᵀᴳ,0,tegenari,4211
 tarantul,蛛ᵀᵀ,0,tarantul,4206
-lofi,蛤蟆鱼,0,lofi,7597
 barbarism,蛮主义,0,barbarism,8883
 petazit,蜂斗菜,0,petazit,8458
 silen,蝇子草,0,silen,8308
@@ -4933,7 +4932,6 @@ adici,加ᴬ,0,adici,746
 kolazion,加餐,0,kolazion,8412
 obligaci,务ᴼ,0,obligaci,1827
 task,务ᵀ,0,task,1826
-aŭtomat,动ᴬ,0,aŭtomat,881
 kinet,动ᴷ,0,kinet,882
 verb,动ⱽ,0,verb,880
 adjunkt,助ᴬ,0,adjunkt,805
@@ -5173,6 +5171,7 @@ ranc,哈喇,0,ranc,reverse-alias:20261017
 bac,响ᴮ,0,bac,2892
 klak,响ᴷ,0,klak,2890
 laŭt,响ᴸ,0,laŭt,2891
+raŭk,哑ᴿ,0,raŭk,5914
 pantomim,哑剧,0,pantomim,8140
 halter,哑铃,0,halter,6722
 grunt,哼ᴳ,0,grunt,4367
@@ -5766,6 +5765,7 @@ humor,情ᴴ,0,humor,3414
 madrigal,情歌,0,madrigal,8435
 surpriz,惊ˢ,0,surpriz,1261
 konstern,惊ᴷ,0,konstern,1262
+bedaŭr,惜ᴮ,0,bedaŭr,1943
 inerci,惯ᴵ,0,inerci,6294
 imag,想ᴵ,0,imag,1803
 konvalesk,愈ᴷ,0,konvalesk,3325
@@ -6415,7 +6415,6 @@ precipit,沉ᴾ,0,precipit,6126
 kason,沉箱,0,kason,8355
 dun,沙丘,0,dun,7643
 susur,沙响,0,susur,5954
-raŭk,沙哑,0,raŭk,5914
 kloak,沟ᴷ,0,kloak,5368
 tranĉe,沟ᵀ,0,tranc^e,5369
 konfisk,没收,0,konfisk,7998
@@ -7341,6 +7340,7 @@ poplit,膝窝,0,poplit,8079
 ekspansi,膨ᴱ,0,ekspansi,6039
 grop,臀ᴳ,0,grop,6389
 vasal,臣ⱽ,0,vasal,3795
+aŭtomat,自动,0,aŭtomat,881
 spontan,自发,0,spontan,6491
 aŭtodidakt,自学,0,au^todidakt,8623
 suicid,自杀,0,suicid,8630
@@ -7625,7 +7625,6 @@ terafoz,蛛ᵀ,0,terafoz,4209
 falangi,蛛ᶠ,0,falangi,4210
 araknoid,蛛膜,0,araknoid,7171
 ruditap,蛤ᴿ,0,ruditap,8281
-buf,蛤蟆,0,buf,7807
 bombiks,蛾ᴮ,0,bombiks,7413
 hermini,蛾ᴴ,0,hermini,7412
 burd,蜂ᴮ,0,burd,4170
@@ -7648,6 +7647,7 @@ lepidopter,蝶ᴸ,0,lepidopter,5276
 helik,螺ᴴ,0,helik,4390
 limak,螺ᴸ,0,limak,4389
 spiril,螺菌,0,spiril,7258
+lofi,蟆鱼,0,lofi,7597
 limul,蟹ᴸ,0,limul,4880
 pagur,蟹ᴾ,0,pagur,4879
 peristalt,蠕ᴾ,0,peristalt,7046
@@ -9286,7 +9286,6 @@ sopir,慕,0,sopir,4387
 kronik,慢,0,kronik,6341
 konsol,慰,0,konsol,3444
 prodig,慷,0,prodig,7422
-bedaŭr,憾,0,bedaŭr,1943
 pigr,懒,0,pigr,7038
 spektakl,戏,0,spektakl,5937
 iĝ,成,0,iĝ,194
@@ -10238,6 +10237,7 @@ vespert,蝠,0,vespert,8598
 papili,蝶,0,papili,5274
 degel,融,0,degel,4268
 ŝraŭb,螺,0,ŝraŭb,4388
+buf,蟆,0,buf,7807
 gril,蟋,0,gril,6496
 krab,蟹,0,krab,4878
 helmint,蠕,0,helmint,7044

@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-18",
-  "scope": "Two user-facing assignment editions: fixed legacy before the review series and current updated edition. Current assignment and annotation data are unchanged. Both editions share the current engine and learning annotations.",
+  "date": "2026-10-20",
+  "scope": "Six approved current assignments updated: bedaŭr, raŭk, buf, lofi, aŭtomat, aŭtomaci. Fixed legacy, learning annotations, conversion engines, decomposition keys and custom JSON behavior preserved.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -80,7 +80,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
       "bytes": 161686,
-      "sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede"
+      "sha256": "81261a54178c675b130f4d034443a7e8dbb00a0a436c10b197e8468cd737efa3"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -99,13 +99,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57372181,
-      "sha256": "4c37a67286ac8846a6419888d1a15dbad6747f99aad8f4afb813d99c39dd5fb4"
+      "bytes": 57371693,
+      "sha256": "e6421e07169206617fd71b5150d43ef38930f5d81808f6c63e69e2189852248f"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21515761,
-      "sha256": "108c0ff48dd6dd7363bba9f1b07eb15f6b69738afa0628590e5e0c8fd9986883"
+      "bytes": 21515893,
+      "sha256": "2174699d058192a1a73e6156c0d0236c2fa5d3aeb08321d010b0c26c2c0c1136"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -114,8 +114,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/esp_assignment_edition.py",
-      "bytes": 10475,
-      "sha256": "fef1620b1e233955e833b3202d840c7e7eb216299655d9c36d5ca7b4c3ecc178"
+      "bytes": 17653,
+      "sha256": "4595852a42170ef0cdb63ff336344c42cfa8ab81034546d746c088ba0ee39b00"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/esp_overlay_module.py",
@@ -129,23 +129,23 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/esp_text_replacement_module.py",
-      "bytes": 34768,
-      "sha256": "10ea0dd58942d7b869a85359f1728319e58b8ab92033dfca958334cd179bbf66"
+      "bytes": 36810,
+      "sha256": "f0670480e5865b6df7278f77254978c3e546781079d74de3230e284713c37df2"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/main.py",
-      "bytes": 29223,
-      "sha256": "efce2875ce1863f1f1a92234c7edb4b4f6fbe1879832b8a9e664ffd1016e6ade"
+      "bytes": 30886,
+      "sha256": "7b8f56e05c43802318bd316bc6e7fd155da4f8fdee6d22992194ccd34ee12de3"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py",
-      "bytes": 10657,
-      "sha256": "9b3ebca0a72bdf21071b80612a0d8b79dcb5e76dac427866a8c6f59e147d1351"
+      "bytes": 12310,
+      "sha256": "7d4b00c3b1e59b59301dfbfe6ef53f216803c59dfc814650d6009ae10e1a0b10"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/pages/2_📦_最新データのダウンロード.py",
-      "bytes": 3522,
-      "sha256": "b31c3cdf6548892318c8a0bbe02601e90b9db18dd5eac702840870b664d10f28"
+      "bytes": 11677,
+      "sha256": "c0919af12d578f9bdb1ec7084ae8adc7155453e73187a467eb654bbb68b53e4c"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/E_stem.json",
@@ -215,7 +215,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
       "bytes": 161686,
-      "sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede"
+      "sha256": "81261a54178c675b130f4d034443a7e8dbb00a0a436c10b197e8468cd737efa3"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -234,8 +234,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57380247,
-      "sha256": "ace688d35d01096350bea0af49d33139e5645b58222dde507aea0b639f9735fc"
+      "bytes": 57379759,
+      "sha256": "5009afc1933ddeb5200d5b16c7cfc4e25fb8d02d8cddf5d7c7e5d87294a72c4f"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -249,8 +249,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/esp_assignment_edition.py",
-      "bytes": 10475,
-      "sha256": "fef1620b1e233955e833b3202d840c7e7eb216299655d9c36d5ca7b4c3ecc178"
+      "bytes": 17653,
+      "sha256": "4595852a42170ef0cdb63ff336344c42cfa8ab81034546d746c088ba0ee39b00"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/esp_overlay_module.py",
@@ -264,23 +264,23 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/esp_text_replacement_module.py",
-      "bytes": 29290,
-      "sha256": "425456ad9d70943ed6323a2eaca2226e6159fe085e5c40d4e2d1b8421de0d4a1"
+      "bytes": 31383,
+      "sha256": "aa9cfe9fa038797c5671da267ec53aaf657063b80a5306caea60e4e3b78712a3"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/main.py",
-      "bytes": 30832,
-      "sha256": "45b17233ff91ff5fa9f81fc4e2a02060e033a4816b2eb3dfebc45cb21a9cd484"
+      "bytes": 32149,
+      "sha256": "517248b105246d7a0abc5bf7c1b1ef6c0919f1703ba71f3ded1b5f6273d624e1"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/pages/1_🔧_어근 분해 수동 보정.py",
-      "bytes": 10256,
-      "sha256": "10d1b0f6d961695f47c4c73e334d3ce2058a478f0a1cd51978bd932e128bb80b"
+      "bytes": 12090,
+      "sha256": "745ffb1f8b6dd37fbce6312caf43c78d89904b968e0f48929c11870004ac7e47"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/pages/2_📦_최신 데이터 다운로드.py",
-      "bytes": 3522,
-      "sha256": "b31c3cdf6548892318c8a0bbe02601e90b9db18dd5eac702840870b664d10f28"
+      "bytes": 11677,
+      "sha256": "c0919af12d578f9bdb1ec7084ae8adc7155453e73187a467eb654bbb68b53e4c"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/E_stem.json",
@@ -350,7 +350,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
       "bytes": 161686,
-      "sha256": "6fe34156bad7ce8e206826b04a206751ff517efda19a6d4c33a117dc385caede"
+      "sha256": "81261a54178c675b130f4d034443a7e8dbb00a0a436c10b197e8468cd737efa3"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -369,13 +369,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57380247,
-      "sha256": "ca572bd1fc1feffbe65643e66fb1441b6cf82d137676e474ad48ba50a72a9bd7"
+      "bytes": 57379759,
+      "sha256": "de20bb44904a58080a66bf821e7744615afae6cdd09e3165ba36e764aaeec9f9"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
-      "bytes": 10475,
-      "sha256": "fef1620b1e233955e833b3202d840c7e7eb216299655d9c36d5ca7b4c3ecc178"
+      "bytes": 17653,
+      "sha256": "4595852a42170ef0cdb63ff336344c42cfa8ab81034546d746c088ba0ee39b00"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_overlay_module.py",
@@ -389,23 +389,23 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_text_replacement_module.py",
-      "bytes": 28143,
-      "sha256": "5502587bb1f68ae5760cac30a0bdb295fae868a23cdfcc211efdad99a4964e4c"
+      "bytes": 30236,
+      "sha256": "d16e3d9f3563844e1647b6026d2deb9f2c354261dbf1b4c054fcf96059cbe925"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/main.py",
-      "bytes": 27784,
-      "sha256": "270b2a4e8cd8b99a7cbe68ae1096f3402c7b25edeb645de3c9ec8f6e7c2d55b5"
+      "bytes": 29156,
+      "sha256": "227f04b470dc29c67efa67d92d68a9b12e7a82198c0e9ab9fc218c861634382e"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py",
-      "bytes": 9488,
-      "sha256": "9b996b1e62fa600004499c2e4ec0f31bb68475b5866ce6a01c7ca01f3154fb07"
+      "bytes": 11205,
+      "sha256": "5d1900736f98e6e2bf7b7037461c788dac4e59615ee9694a6a8d8b3a3541bcd9"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/pages/2_📦_最新数据下载.py",
-      "bytes": 3522,
-      "sha256": "b31c3cdf6548892318c8a0bbe02601e90b9db18dd5eac702840870b664d10f28"
+      "bytes": 11677,
+      "sha256": "c0919af12d578f9bdb1ec7084ae8adc7155453e73187a467eb654bbb68b53e4c"
     },
     {
       "path": "assignment_editions/README.md",
@@ -473,8 +473,8 @@
       "sha256": "b29d79bac49e2b8ca61c653a2e4648344ecd31486d66de0db21f1180bdf3e992"
     }
   ],
-  "assignment_revision": "dot-greft-20261018",
-  "previous_release_commit": "1cfcfc99af70c727062678afa7803e3e569201b6",
+  "assignment_revision": "six-reviewed-assignments-20261020",
+  "previous_release_commit": "fff8c381a0dcfc981439909368fcded6e59e89f8",
   "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
   "feature_revision": "two-editions-20261018",
   "legacy_manifest_sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3"

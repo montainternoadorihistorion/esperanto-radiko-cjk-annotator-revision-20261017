@@ -1383,6 +1383,7 @@ aŭtogen,自ᴬ生ᴳ
 aŭtoliz,自ᴬ解ᴸ
 aŭtograf,自ᴬ记ᴳ
 aŭtogami,自ᴬ配ᴳ
+aŭtomaci,自动ᴬᶜ
 spontane,自发ˢᴱ
 aŭtonomi,自治ᴬᴵ
 naturalism,自然主义
@@ -1901,7 +1902,6 @@ anatomi,剖ᴬᴵ
 akcesor,副ᴬᴷ
 epifenomen,副现象
 sekant,割ˢᴷ
-aŭtomaci,动ᴬᶜ
 kinez,动ᴷᶻ
 motor,动ᴹᵀ
 korsar,劫ᴷᴿ
@@ -3716,7 +3716,6 @@ argironet,蛛ᴬᴿ
 avikulari,蛛ᴬⱽ
 tegenari,蛛ᵀᴳ
 tarantul,蛛ᵀᵀ
-lofi,蛤蟆鱼
 barbarism,蛮主义
 petazit,蜂斗菜
 silen,蝇子草
@@ -4932,7 +4931,6 @@ adici,加ᴬ
 kolazion,加餐
 obligaci,务ᴼ
 task,务ᵀ
-aŭtomat,动ᴬ
 kinet,动ᴷ
 verb,动ⱽ
 adjunkt,助ᴬ
@@ -5172,6 +5170,7 @@ ranc,哈喇
 bac,响ᴮ
 klak,响ᴷ
 laŭt,响ᴸ
+raŭk,哑ᴿ
 pantomim,哑剧
 halter,哑铃
 grunt,哼ᴳ
@@ -5765,6 +5764,7 @@ humor,情ᴴ
 madrigal,情歌
 surpriz,惊ˢ
 konstern,惊ᴷ
+bedaŭr,惜ᴮ
 inerci,惯ᴵ
 imag,想ᴵ
 konvalesk,愈ᴷ
@@ -6414,7 +6414,6 @@ precipit,沉ᴾ
 kason,沉箱
 dun,沙丘
 susur,沙响
-raŭk,沙哑
 kloak,沟ᴷ
 tranĉe,沟ᵀ
 konfisk,没收
@@ -7340,6 +7339,7 @@ poplit,膝窝
 ekspansi,膨ᴱ
 grop,臀ᴳ
 vasal,臣ⱽ
+aŭtomat,自动
 spontan,自发
 aŭtodidakt,自学
 suicid,自杀
@@ -7624,7 +7624,6 @@ terafoz,蛛ᵀ
 falangi,蛛ᶠ
 araknoid,蛛膜
 ruditap,蛤ᴿ
-buf,蛤蟆
 bombiks,蛾ᴮ
 hermini,蛾ᴴ
 burd,蜂ᴮ
@@ -7647,6 +7646,7 @@ lepidopter,蝶ᴸ
 helik,螺ᴴ
 limak,螺ᴸ
 spiril,螺菌
+lofi,蟆鱼
 limul,蟹ᴸ
 pagur,蟹ᴾ
 peristalt,蠕ᴾ
@@ -9285,7 +9285,6 @@ sopir,慕
 kronik,慢
 konsol,慰
 prodig,慷
-bedaŭr,憾
 pigr,懒
 spektakl,戏
 iĝ,成
@@ -10237,6 +10236,7 @@ vespert,蝠
 papili,蝶
 degel,融
 ŝraŭb,螺
+buf,蟆
 gril,蟋
 krab,蟹
 helmint,蠕
