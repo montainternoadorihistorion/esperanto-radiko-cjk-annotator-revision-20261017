@@ -116,6 +116,7 @@ kseroftalmi,干ᴷ目ᴼᶠᴷ
 alofon,异ᴬᴸ声ᶠᴼ
 ombropolarimetr,影极ᴾᴿ计ᴹ
 difeomorfi,微分同胚ᴰᴵ
+mikrobologi,微生物学ᴸᴳ
 mikroskopi,微镜ˢᴷᴹᴵ
 kardiotomi,心ᴷᴰ切ᵀᴹ
 kardiogram,心ᴷᴰ图ᴳᴹ
@@ -573,7 +574,6 @@ glukoliz,糖ᴳᴸ解ᴸ
 genealogi,系ᴳ学ᴸᴳ
 filogenez,系ᶠᴸ源ᴳ
 eritrocit,红ᴱ胞ᶜᴵ
-mikrobologi,细菌学ᴸᴳ
 histologi,织ᴴ学ᴸᴳ
 ftizologi,结核学ᴸᴳ
 kojlektomi,结肠除ᴱᴷ
@@ -968,6 +968,7 @@ morfogenez,形ᴹ源ᴳ
 difeomorf,微分同胚
 mikrotom,微切ᵀᴼ
 mikrofon,微声ᶠᴼ
+mikrobicid,微生物杀
 mikrolit,微石ᴸᵀ
 mikrokok,微菌ᴷᴷ
 mikrobreĉi,微角砾岩
@@ -2233,6 +2234,7 @@ mikrofilm,微影ᶠ
 mikroflaŭr,微植相
 mikrokanel,微槽ᴷ
 mikromezuril,微测具
+mikrob,微生物
 mikropipet,微移液
 mikrograjn,微粒ᴳ
 mikrospor,微胞子
@@ -3041,7 +3043,6 @@ line,线ᴸᴱ
 linear,线ᴸᴿ
 organiz,组ᴼᴿ
 detal,细ᴰᵀ
-mikrobicid,细菌杀
 trik,织ᵀᴿ
 trikot,织ᵀᵀ
 final,终ᶠᴸ
@@ -4693,7 +4694,6 @@ kateĉu,儿茶
 megom,兆ᴹ
 precedenc,先例
 profet,先知
-diafragm,光圈
 foton,光子
 optik,光学
 aŭreol,光环
@@ -7132,7 +7132,6 @@ spindel,纺锤
 drat,线ᴰ
 modlur,线脚
 kompon,组ᴷ
-mikrob,细菌
 hist,织ᴴ
 terminal,终端
 varp,经ⱽ
@@ -8159,6 +8158,7 @@ sept,隔ˢ
 adiabat,隔ᴬ
 kvaranten,隔ᴷ
 vand,隔ⱽ
+diafragm,隔膜
 interstic,隙ᴵ
 handikap,障ᴴ
 obstakl,障ᴼ

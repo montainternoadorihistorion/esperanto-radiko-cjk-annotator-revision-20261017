@@ -1,0 +1,140 @@
+{
+  "passed": true,
+  "date": "2026-10-20",
+  "scope": {
+    "mikrob": "微生物",
+    "diafragm": "隔膜",
+    "mikrobicid": "微生物杀",
+    "mikrobologi": "微生物学ᴸᴳ"
+  },
+  "canonical": {
+    "assigned_roots": 10469,
+    "unchanged_sidecar_rows_and_order": 10465,
+    "all_existing_root_and_internal_identifiers_unchanged": true,
+    "old_historical_ledgers_unchanged": 8,
+    "injection_rows_per_edition": 62313,
+    "injection_changed_lines": {
+      "漢字注入_学習者版_20260620.txt": 14,
+      "漢字注入_学術版_20260620.txt": 14
+    },
+    "all_original_text_gloss_segmentation_markers_preserved": true,
+    "character_types": [
+      2246,
+      2246
+    ],
+    "sidecar_sha256": "6a00ef3118d006234cb2f764dff284f19db93b2d5c81861d0c3f710569862fd6"
+  },
+  "forward_tables": {
+    "kanji_rows": 1646973,
+    "pure_rows": 548991,
+    "changed_kanji_rows": 189,
+    "source_words": 44578,
+    "generator_hooks_verified": true
+  },
+  "inverse_all_keys": {
+    "checked_cases": 644430,
+    "all_key_results": {
+      "JA_current": {
+        "passed": true,
+        "key_count": 10687,
+        "counts": {
+          "cases": 160305,
+          "unchanged": 160251,
+          "changed": 54
+        }
+      },
+      "JA_legacy": {
+        "passed": true,
+        "key_count": 10794,
+        "counts": {
+          "cases": 161910,
+          "unchanged": 161910
+        }
+      },
+      "ZH_current": {
+        "passed": true,
+        "key_count": 10687,
+        "counts": {
+          "cases": 160305,
+          "unchanged": 160251,
+          "changed": 54
+        }
+      },
+      "ZH_legacy": {
+        "passed": true,
+        "key_count": 10794,
+        "counts": {
+          "cases": 161910,
+          "unchanged": 161910
+        }
+      }
+    },
+    "unapproved_changed_cases": 0
+  },
+  "actual_forward": {
+    "passed": true,
+    "actual_forward_cases_per_phase": 12528,
+    "manual_correction_cases_per_phase": 216,
+    "changed_routes": {
+      "JA/current/pure": 590,
+      "JA/current/kanji": 590,
+      "ZH/current/pure": 590,
+      "ZH/current/kanji": 590,
+      "KO/current/pure": 590,
+      "KO/current/kanji": 590
+    },
+    "legacy_and_annotations": "byte-identical actual results",
+    "other_kanji_fragments_and_all_original_spellings": "identical",
+    "scope": "Runtime sample of approved roots, all recorded target-family surface keys, endings, case, @ forms and known regressions. Exhaustive rule-table invariants are separate."
+  },
+  "forward_inverse": {
+    "passed": true,
+    "forward_case_count": 12528,
+    "actual_inverse_calls": 50112,
+    "regressions": 0,
+    "inverse_result_changes": 0,
+    "existing_mismatch_inputs": [
+      "@memmova@",
+      "@mikrobiologo@",
+      "@sene@",
+      "memmova",
+      "sene"
+    ]
+  },
+  "local_UI": {
+    "passed": true,
+    "local_app_test_routes": 18,
+    "download_byte_checks": 18,
+    "state_guards": 18,
+    "portable_tests_passed": 5,
+    "annotation_and_legacy_outputs_unchanged": true
+  },
+  "regeneration_review": {
+    "passed": true,
+    "approved_stages_replayed": [
+      "reviewed_las_assignment",
+      "reviewed_fruit_priority_assignment",
+      "reviewed_at_sync",
+      "reviewed_mirror_identifiers",
+      "reviewed_stafilokok_assignment",
+      "reviewed_four_shared_assignments",
+      "reviewed_uve_assignments",
+      "reviewed_observatori_assignment",
+      "reviewed_three_short_assignments",
+      "reviewed_protez_ranc_assignments",
+      "reviewed_four_root_assignments",
+      "reviewed_sutur_fraj_assignments",
+      "reviewed_nostalgi_onk_fortres_assignments",
+      "reviewed_satir_assignment",
+      "reviewed_sperm_distinction",
+      "reviewed_dot_greft",
+      "reviewed_six_assignments",
+      "reviewed_mikrob_diafragm"
+    ],
+    "replay_root_authority_exactly_equal": true,
+    "replay_word_pairs_exactly_equal": true,
+    "earlier_mirror_stage_accepts_exact_new_value_only": true,
+    "limitation": "Full historical regenerate_all pipeline was not run; hook order was inspected and all 18 approved migration functions replayed in memory."
+  },
+  "limits": "Rule-table and inverse-key coverage is exhaustive; runtime/UI uses selected cases. Existing shared-display ambiguities remain. Cloud checks are recorded separately after deployment."
+}

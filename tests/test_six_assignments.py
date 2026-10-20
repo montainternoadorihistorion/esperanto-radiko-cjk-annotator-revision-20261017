@@ -4,7 +4,7 @@ import csv,gc,gzip,hashlib,html,io,json,re,unittest
 ROOT=Path(__file__).resolve().parent.parent
 VALUES={'bedaŭr':'惜ᴮ','raŭk':'哑ᴿ','buf':'蟆','lofi':'蟆鱼','aŭtomat':'自动','aŭtomaci':'自动ᴬᶜ'}
 OLD={'bedaŭr':'憾','raŭk':'沙哑','buf':'蛤蟆','lofi':'蛤蟆鱼','aŭtomat':'动ᴬ','aŭtomaci':'动ᴬᶜ'}
-CONTROLS={'domaĝ':'惜','mut':'哑','gelaten':'明胶','ŝakal':'胡狼','mikrob':'细菌','diafragm':'光圈',
+CONTROLS={'domaĝ':'惜','mut':'哑','gelaten':'明胶','ŝakal':'胡狼','mikrob':'微生物','diafragm':'隔膜',
           'mov':'动','motor':'动ᴹᵀ','kanajl':'恶棍','prism':'棱镜','greft':'移植','dot':'妆'}
 CSV='世界语词根-汉字对应列表_参照2新割当_7791.csv'
 def visible(text):
