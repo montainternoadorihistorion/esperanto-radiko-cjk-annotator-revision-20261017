@@ -117,6 +117,7 @@ kseroftalmi,干ᴷ目ᴼᶠᴷ,0,kseroftalmi,9537
 alofon,异ᴬᴸ声ᶠᴼ,0,alofon,8764
 ombropolarimetr,影极ᴾᴿ计ᴹ,0,ombropolarimetr,10452
 difeomorfi,微分同胚ᴰᴵ,0,difeomorfi,8051
+mikrobologi,微生物学ᴸᴳ,0,mikrobologi,9634
 mikroskopi,微镜ˢᴷᴹᴵ,0,mikroskopi,6129
 kardiotomi,心ᴷᴰ切ᵀᴹ,0,kardiotomi,9450
 kardiogram,心ᴷᴰ图ᴳᴹ,0,kardiogram,10285
@@ -574,7 +575,6 @@ glukoliz,糖ᴳᴸ解ᴸ,0,glukoliz,10265
 genealogi,系ᴳ学ᴸᴳ,0,genealogi,9210
 filogenez,系ᶠᴸ源ᴳ,0,filogenez,9140
 eritrocit,红ᴱ胞ᶜᴵ,0,eritrocit,7229
-mikrobologi,细菌学ᴸᴳ,0,mikrobologi,9634
 histologi,织ᴴ学ᴸᴳ,0,histologi,10272
 ftizologi,结核学ᴸᴳ,0,ftizologi,9186
 kojlektomi,结肠除ᴱᴷ,0,kojlektomi,9475
@@ -969,6 +969,7 @@ morfogenez,形ᴹ源ᴳ,0,morfogenez,9690
 difeomorf,微分同胚,0,difeomorf,8050
 mikrotom,微切ᵀᴼ,0,mikrotom,9652
 mikrofon,微声ᶠᴼ,0,mikrofon,9638
+mikrobicid,微生物杀,0,mikrobicid,9632
 mikrolit,微石ᴸᵀ,0,mikrolit,9645
 mikrokok,微菌ᴷᴷ,0,mikrokok,9641
 mikrobreĉi,微角砾岩,0,mikrobrec^i,9635
@@ -2234,6 +2235,7 @@ mikrofilm,微影ᶠ,0,mikrofilm,9636
 mikroflaŭr,微植相,0,mikroflau^r,9637
 mikrokanel,微槽ᴷ,0,mikrokanel,9640
 mikromezuril,微测具,0,mikromezuril,9647
+mikrob,微生物,0,mikrob,6225
 mikropipet,微移液,0,mikropipet,9651
 mikrograjn,微粒ᴳ,0,mikrograjn,9639
 mikrospor,微胞子,0,mikrospor,10306
@@ -3042,7 +3044,6 @@ line,线ᴸᴱ,0,line,2027
 linear,线ᴸᴿ,0,linear,2028
 organiz,组ᴼᴿ,0,organiz,251
 detal,细ᴰᵀ,0,detal,2959
-mikrobicid,细菌杀,0,mikrobicid,9632
 trik,织ᵀᴿ,0,trik,4070
 trikot,织ᵀᵀ,0,trikot,4071
 final,终ᶠᴸ,0,final,778
@@ -4694,7 +4695,6 @@ kateĉu,儿茶,0,katec^u,6971
 megom,兆ᴹ,0,megom,6030
 precedenc,先例,0,precedenc,8420
 profet,先知,0,profet,5902
-diafragm,光圈,0,diafragm,6846
 foton,光子,0,foton,10262
 optik,光学,0,optik,6072
 aŭreol,光环,0,au^reol,7666
@@ -7133,7 +7133,6 @@ spindel,纺锤,0,spindel,7173
 drat,线ᴰ,0,drat,2026
 modlur,线脚,0,modlur,7573
 kompon,组ᴷ,0,kompon,250
-mikrob,细菌,0,mikrob,6225
 hist,织ᴴ,0,hist,4072
 terminal,终端,0,terminal,7925
 varp,经ⱽ,0,varp,6170
@@ -8160,6 +8159,7 @@ sept,隔ˢ,0,sept,5694
 adiabat,隔ᴬ,0,adiabat,5696
 kvaranten,隔ᴷ,0,kvaranten,5697
 vand,隔ⱽ,0,vand,5693
+diafragm,隔膜,0,diafragm,6846
 interstic,隙ᴵ,0,interstic,8209
 handikap,障ᴴ,0,handikap,2931
 obstakl,障ᴼ,0,obstakl,2930

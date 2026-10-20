@@ -1,0 +1,153 @@
+{
+  "schema": 1,
+  "revision": "2026-10-20-mikrob-diafragm",
+  "baseline": "375d723a06607d6494113e64387f1c8f67cacd12",
+  "changes": {
+    "mikrob": [
+      "细菌",
+      "微生物"
+    ],
+    "mikrobicid": [
+      "细菌杀",
+      "微生物杀"
+    ],
+    "mikrobologi": [
+      "细菌学ᴸᴳ",
+      "微生物学ᴸᴳ"
+    ],
+    "diafragm": [
+      "光圈",
+      "隔膜"
+    ]
+  },
+  "canonical_sidecar_sha256": "6a00ef3118d006234cb2f764dff284f19db93b2d5c81861d0c3f710569862fd6",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "d01694e0c204f672908ef995280e402f709faac89342d7e88e028affc4d6fb77",
+  "baseline_target_items": {
+    "mikrob": {
+      "prefix": "mikrob",
+      "body": "细菌",
+      "kanji": "细菌",
+      "detail": "mikrob → 细菌 (pejvo, F=10, 基本形)",
+      "documentation": "語根: mikrob\n入力: mikrob\n最終形: 细菌\n漢字: 细菌\n識別子: なし\n型: pejvo\nF(汎用性): 10\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6225",
+      "priority": 0,
+      "sourceRoot": "mikrob",
+      "type": "pejvo",
+      "frequency": 10,
+      "base": true,
+      "sourceLine": 6225
+    },
+    "mikrobicid": {
+      "prefix": "mikrobicid",
+      "body": "细菌杀",
+      "kanji": "细菌杀",
+      "detail": "mikrobicid → 细菌杀 (piv, F=1, 基本形)",
+      "documentation": "語根: mikrobicid\n入力: mikrobicid\n最終形: 细菌杀\n漢字: 细菌杀\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9632",
+      "priority": 0,
+      "sourceRoot": "mikrobicid",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9632
+    },
+    "mikrobologi": {
+      "prefix": "mikrobologi",
+      "body": "细菌学ᴸᴳ",
+      "kanji": "细菌学ᴸᴳ",
+      "detail": "mikrobologi → 细菌学ᴸᴳ (piv, F=1, 基本形)",
+      "documentation": "語根: mikrobologi\n入力: mikrobologi\n最終形: 细菌学ᴸᴳ\n漢字: 细菌学ᴸᴳ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9634",
+      "priority": 0,
+      "sourceRoot": "mikrobologi",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9634
+    },
+    "diafragm": {
+      "prefix": "diafragm",
+      "body": "光圈",
+      "kanji": "光圈",
+      "detail": "diafragm → 光圈 (pejvo, F=4, 基本形)",
+      "documentation": "語根: diafragm\n入力: diafragm\n最終形: 光圈\n漢字: 光圈\n識別子: なし\n型: pejvo\nF(汎用性): 4\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6846",
+      "priority": 0,
+      "sourceRoot": "diafragm",
+      "type": "pejvo",
+      "frequency": 4,
+      "base": true,
+      "sourceLine": 6846
+    }
+  },
+  "expected_target_items": {
+    "mikrob": {
+      "prefix": "mikrob",
+      "body": "微生物",
+      "kanji": "微生物",
+      "detail": "mikrob → 微生物 (pejvo, F=10, 基本形)",
+      "documentation": "語根: mikrob\n入力: mikrob\n最終形: 微生物\n漢字: 微生物\n識別子: なし\n型: pejvo\nF(汎用性): 10\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6225",
+      "priority": 0,
+      "sourceRoot": "mikrob",
+      "type": "pejvo",
+      "frequency": 10,
+      "base": true,
+      "sourceLine": 6225
+    },
+    "mikrobicid": {
+      "prefix": "mikrobicid",
+      "body": "微生物杀",
+      "kanji": "微生物杀",
+      "detail": "mikrobicid → 微生物杀 (piv, F=1, 基本形)",
+      "documentation": "語根: mikrobicid\n入力: mikrobicid\n最終形: 微生物杀\n漢字: 微生物杀\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9632",
+      "priority": 0,
+      "sourceRoot": "mikrobicid",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9632
+    },
+    "mikrobologi": {
+      "prefix": "mikrobologi",
+      "body": "微生物学ᴸᴳ",
+      "kanji": "微生物学ᴸᴳ",
+      "detail": "mikrobologi → 微生物学ᴸᴳ (piv, F=1, 基本形)",
+      "documentation": "語根: mikrobologi\n入力: mikrobologi\n最終形: 微生物学ᴸᴳ\n漢字: 微生物学ᴸᴳ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9634",
+      "priority": 0,
+      "sourceRoot": "mikrobologi",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9634
+    },
+    "diafragm": {
+      "prefix": "diafragm",
+      "body": "隔膜",
+      "kanji": "隔膜",
+      "detail": "diafragm → 隔膜 (pejvo, F=4, 基本形)",
+      "documentation": "語根: diafragm\n入力: diafragm\n最終形: 隔膜\n漢字: 隔膜\n識別子: なし\n型: pejvo\nF(汎用性): 4\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6846",
+      "priority": 0,
+      "sourceRoot": "diafragm",
+      "type": "pejvo",
+      "frequency": 4,
+      "base": true,
+      "sourceLine": 6846
+    }
+  },
+  "unrelated_items_sha256": "e500db38a43e5830728890c4ace3fa15bf57cff7df1c6edb3896a10d938c31d5",
+  "unrelated_items_count": 10636,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "mikrob": "User adopted 微生物: restore the historically recorded broad microorganism meaning; 微/生/物 each contribute and are already shared characters. Preserve annotations and root boundaries.",
+    "mikrobicid": "Propagate the adopted mikrob display into the existing mikrob/cid family, retaining 杀 and the established identifier policy.",
+    "mikrobologi": "Propagate the adopted mikrob display into the existing mikrob/logi family, retaining 学ᴸᴳ. This is distinct from mikrobiologi=mikro/bio/logi.",
+    "diafragm": "User adopted 隔膜: 隔 contributes separation and 膜 membrane, sharing existing characters while preserving the broad anatomical, botanical, acoustic and optical annotations."
+  },
+  "preserved_controls": {
+    "mikrobiologi": "微生ᴮᴼ学ᴸᴳ",
+    "mikrobrec^i": "微角砾岩",
+    "gelaten": "明胶",
+    "ŝakal": "胡狼"
+  }
+}

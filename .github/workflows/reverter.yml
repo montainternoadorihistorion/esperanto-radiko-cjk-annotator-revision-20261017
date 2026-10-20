@@ -40,3 +40,4 @@ jobs:
       - run: python tests/html_format_and_draft_fix/test_html_export_mode.py
 
       - run: python -m pytest tests/test_six_assignments.py -q -p no:cacheprovider
+      - run: python -m pytest tests/test_mikrob_diafragm.py -q -p no:cacheprovider

@@ -9,6 +9,8 @@ import esperanto_converter_zh as app
 from build_reverter_dictionary_from_all_json import to_unicode_esperanto_root
 
 MANIFEST=json.loads((app.ROOT/'data/mirror-identifiers-20261017.json').read_text(encoding='utf-8'))
+# Later reviewed body; retain the original mirror ledger and its internal LG identifier.
+LATER_CURRENT_BODIES = {'mikrobologi': '微生物学ᴸᴳ'}
 
 
 def index(source):
@@ -24,14 +26,14 @@ def test_legacy_bytes_and_exact_reviewed_scope():
     old=rows(app.PRE_MIRROR_20261017_CSV);new=rows(app.PEJVO_PIV_20260620_CSV)
     targets={r['root'] for r in MANIFEST['changes']}
     targets.update({'stafilokok','psitak','uv','limon','limonad','uve','uveit','observatori','risort','anc^','lantern','lubrik','protez','ranc','krep','difrakt','mortez','meger','sutur','fraj','nostalgi','onk','fortres','onkogen','onkologi','satir','karikatur','sarkasm','spermat','spermati','silf','spermatocit','spermatofit','spermatogenez','spermatozo','dot','greft','tualet'})  # later approved changes have separate tests
-    targets.update({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'})  # six-assignment behavior has a separate exhaustive test
+    targets.update(({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|{'mikrob','mikrobicid','mikrobologi','diafragm'}))  # six-assignment behavior has a separate exhaustive test
     assert len(old)==10642 and len(new)==MANIFEST['current_csv_count']+34
     assert [r for r in old if r['source_root'] not in targets]==[r for r in new if r['source_root'] not in targets]
     assert index('legacy-minimal')==index('pejvo-piv-20260620')
     byroot={}
     for r in new:byroot.setdefault(r['source_root'],set()).add(r['kanji'])
     for change in MANIFEST['changes']:
-        assert change['current'] in byroot[change['root']]
+        assert LATER_CURRENT_BODIES.get(change['root'], change['current']) in byroot[change['root']]
         # Old mirror aliases are not silently added to the current profile.
         if change['old']!=change['current']:
             assert change['old'] not in byroot[change['root']]
@@ -41,7 +43,7 @@ def test_legacy_bytes_and_exact_reviewed_scope():
 def test_every_reviewed_whole_root_reverts(source):
     mapping=index(source)
     for change in MANIFEST['changes']:
-        assert app.convert_kanji_esperanto_to_alphabet(change['current'],mapping)==to_unicode_esperanto_root(change['root'])
+        assert app.convert_kanji_esperanto_to_alphabet(LATER_CURRENT_BODIES.get(change['root'], change['current']),mapping)==to_unicode_esperanto_root(change['root'])
 
 
 def test_all_previous_rows_are_readable_in_the_explicit_legacy_profile():

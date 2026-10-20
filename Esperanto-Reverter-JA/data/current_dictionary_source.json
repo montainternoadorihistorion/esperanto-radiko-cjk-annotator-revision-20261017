@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "2026-10-20-six-assignments",
+  "revision": "2026-10-20-mikrob-diafragm",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "d01694e0c204f672908ef995280e402f709faac89342d7e88e028affc4d6fb77",
+  "monaco_all_sha256": "1592b3325b688662784268a758235859239f1db8afe6a2f4f89fce735950e10f",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "273585e86aff405c2be9a943dbcbcb8beed501f5b0151f410a9ace667a05b5f1",
+  "canonical_sidecar_sha256": "6a00ef3118d006234cb2f764dff284f19db93b2d5c81861d0c3f710569862fd6",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -216,10 +216,26 @@
     "au^tomaci": {
       "old": "动ᴬᶜ",
       "current": "自动ᴬᶜ"
+    },
+    "mikrob": {
+      "old": "细菌",
+      "current": "微生物"
+    },
+    "mikrobicid": {
+      "old": "细菌杀",
+      "current": "微生物杀"
+    },
+    "mikrobologi": {
+      "old": "细菌学ᴸᴳ",
+      "current": "微生物学ᴸᴳ"
+    },
+    "diafragm": {
+      "old": "光圈",
+      "current": "隔膜"
     }
   },
-  "current_csv_sha256": "c81ef4eaba2659b85a5cfaff08975205043ec6331ef68ba1e43046ddfc580567",
-  "current_snippet_csv_sha256": "ce51f8a9b9c4980b881efccb9a2f202275aede21e7eae9693811d026abe050f9",
+  "current_csv_sha256": "69e9f0d00a68afa2250d16ffdbb570fc80860c79e9b9dd4f1d457a58943cabe5",
+  "current_snippet_csv_sha256": "7ac4c753949bcf9db5ae65a53fd2c3c047b91635a0ada9707bf20c707385b29a",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -336,5 +352,7 @@
     "snippet_csv_sha256": "22ef2de51e53bd19314b6c7f140aa8d82b0914bd71bfdd0b2c943cbc71591f07"
   },
   "six_assignments_manifest": "data/six-assignments-20261020.json",
-  "six_assignments_manifest_sha256": "8f413aeb106fe427cdd879841d6c146cfb08c36c99ac918294184db2e6bcdb05"
+  "six_assignments_manifest_sha256": "8f413aeb106fe427cdd879841d6c146cfb08c36c99ac918294184db2e6bcdb05",
+  "mikrob_diafragm_manifest": "data/mikrob-diafragm-20261020.json",
+  "mikrob_diafragm_manifest_sha256": "d201d14d588e26f7ad57d378fba3f15e8f40a54d720de7b66206b0d4f9443afc"
 }
