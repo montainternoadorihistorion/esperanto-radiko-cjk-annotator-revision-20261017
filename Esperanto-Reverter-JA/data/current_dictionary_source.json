@@ -3,7 +3,7 @@
   "revision": "2026-10-21-tril-sfinks-alcion",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "5f83cccb8c9fd66e6ae94f539eadfecfd2a55975f3350e2aace7e12ef7558ac9",
+  "monaco_all_sha256": "3b502661ed91238d37cb995c439ad38f4fed8eae544e108c7fcca9f0127fd855",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
   "canonical_sidecar_sha256": "c37e43e63d06b39163040a3e1cf43aaa662f8025c170b44cd76f00e905f84d60",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
@@ -377,5 +377,7 @@
   "mikrob_diafragm_manifest": "data/mikrob-diafragm-20261020.json",
   "mikrob_diafragm_manifest_sha256": "d201d14d588e26f7ad57d378fba3f15e8f40a54d720de7b66206b0d4f9443afc",
   "tril_sfinks_alcion_manifest": "data/tril-sfinks-alcion-20261021.json",
-  "tril_sfinks_alcion_manifest_sha256": "9e47fecffea19c2c0160a2d6dc13972198af9c62bade63530ff82b9572e334e7"
+  "tril_sfinks_alcion_manifest_sha256": "9e47fecffea19c2c0160a2d6dc13972198af9c62bade63530ff82b9572e334e7",
+  "bird_group_metadata_manifest": "data/bird-group-metadata-20261021.json",
+  "bird_group_metadata_manifest_sha256": "bc15d533f922d7de8d78e4c6135401bb910e1c7c017b60fd3b04ad750ed8120f"
 }

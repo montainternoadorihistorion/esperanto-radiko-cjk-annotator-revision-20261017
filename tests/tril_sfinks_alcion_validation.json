@@ -146,5 +146,10 @@
     "earlier_mirror_stage_has_no_overlapping_root_or_scoped_rule": true,
     "limitation": "Full historical regenerate_all pipeline was not run; hook order was inspected and all 19 approved migration functions replayed in memory. Synthetic guard values are boundary checks, not proposed dictionary assignments."
   },
+  "bird_group_documentation": {
+    "passed": true,
+    "canonical_group_root_count": 144,
+    "description_only_updated_roots": 142
+  },
   "limits": "Rule-table and inverse-key coverage is exhaustive; runtime/UI uses selected cases. Existing shared-display ambiguities remain. Fixed legacy and evolving current are the two editions; intermediate current versions are not independent profiles. Cloud checks follow deployment."
 }
