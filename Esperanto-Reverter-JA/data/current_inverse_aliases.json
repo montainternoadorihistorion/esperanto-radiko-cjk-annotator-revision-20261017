@@ -2,8 +2,8 @@
   "schema_version": 1,
   "revision": "current-compound-inverse-20261018-v3",
   "source_id": "pejvo-piv-20260620",
-  "dictionary_revision": "2026-10-20-mikrob-diafragm",
-  "current_csv_sha256": "69e9f0d00a68afa2250d16ffdbb570fc80860c79e9b9dd4f1d457a58943cabe5",
+  "dictionary_revision": "2026-10-21-tril-sfinks-alcion",
+  "current_csv_sha256": "cf8b1049b0bb0aecced558ed3a35da21ca35ba952e8773866344c119fce5506b",
   "required_canonical_owner": {
     "kanji": "丸ᴼ炎ᵀ",
     "esperanto": "orkidit"

@@ -14,8 +14,8 @@ import esperanto_converter as app
 
 CURRENT = 'pejvo-piv-20260620'
 OLD = 'pre-las-20261017'
-CURRENT_SHA = '69e9f0d00a68afa2250d16ffdbb570fc80860c79e9b9dd4f1d457a58943cabe5'
-CURRENT_TWO_SHA = '7ac4c753949bcf9db5ae65a53fd2c3c047b91635a0ada9707bf20c707385b29a'
+CURRENT_SHA = 'cf8b1049b0bb0aecced558ed3a35da21ca35ba952e8773866344c119fce5506b'
+CURRENT_TWO_SHA = '3425bcdf243b2ecf6566b687cb8ba3b549b1f5b66a25682422748092d9f94bbc'
 OLD_EFFECTIVE_SHA = '0f861144f2b5dc81334ca684e7798e6abfa3fc4f62e3474c6775920159fa02d0'
 OLD_SUPPLEMENT_SHA = '59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee'
 SUFFIXES = ('', 'o', 'oj', 'on', 'ojn', 'a', 'aj', 'an', 'ajn', 'e', 'i', 'as', 'is', 'os', 'us', 'u', 'igi', 'igxi', 'A')
@@ -118,8 +118,8 @@ def test_fixed_exports_and_effective_custom_csv_all_key_equivalence():
     custom = app.read_assignment_csv(io.BytesIO(raw))
     assert len(custom) == 10687 and effective_index('custom', custom) == effective_index(CURRENT)
     meta = app.source_provenance(CURRENT)
-    assert meta['dictionary_filename'] == 'dictionary_new_2026-10-20-mikrob-diafragm_69e9f0d00a68.csv'
-    assert meta['snippet_filename'] == 'dictionary_new_2026-10-20-mikrob-diafragm_69e9f0d00a68_2col.csv'
+    assert meta['dictionary_filename'] == 'dictionary_new_2026-10-21-tril-sfinks-alcion_cf8b1049b0bb.csv'
+    assert meta['snippet_filename'] == 'dictionary_new_2026-10-21-tril-sfinks-alcion_cf8b1049b0bb_2col.csv'
     for field in ('identity', 'label', 'result_filename', 'effective_dictionary_filename'):
         assert meta['inverse_compatibility_revision'] in meta[field]
         assert meta['inverse_compatibility_sha256'][:12] in meta[field]
