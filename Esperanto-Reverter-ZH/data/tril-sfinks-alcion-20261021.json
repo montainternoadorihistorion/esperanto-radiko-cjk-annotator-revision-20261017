@@ -1,0 +1,167 @@
+{
+  "schema": 1,
+  "revision": "2026-10-21-tril-sfinks-alcion",
+  "baseline": "5eec69b263978f039b54d75c97532045ee3f8302",
+  "changes": {
+    "tril": [
+      "颤歌",
+      "颤音"
+    ],
+    "sfinks": [
+      "狮面",
+      "人面狮"
+    ],
+    "alcion": [
+      "翠鸟",
+      "鸟ᴬᴸ"
+    ],
+    "alced": [
+      "鸟ᴬᴸ",
+      "鸟ᴬᴰ"
+    ]
+  },
+  "canonical_sidecar_sha256": "c37e43e63d06b39163040a3e1cf43aaa662f8025c170b44cd76f00e905f84d60",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "1592b3325b688662784268a758235859239f1db8afe6a2f4f89fce735950e10f",
+  "baseline_target_items": {
+    "tril": {
+      "prefix": "tril",
+      "body": "颤歌",
+      "kanji": "颤歌",
+      "detail": "tril → 颤歌 (pejvo, F=2, 基本形)",
+      "documentation": "語根: tril\n入力: tril\n最終形: 颤歌\n漢字: 颤歌\n識別子: なし\n型: pejvo\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8571",
+      "priority": 0,
+      "sourceRoot": "tril",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8571
+    },
+    "sfinks": {
+      "prefix": "sfinks",
+      "body": "狮面",
+      "kanji": "狮面",
+      "detail": "sfinks → 狮面 (pejvo, F=3, 基本形)",
+      "documentation": "語根: sfinks\n入力: sfinks\n最終形: 狮面\n漢字: 狮面\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7658",
+      "priority": 0,
+      "sourceRoot": "sfinks",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7658
+    },
+    "alcion": {
+      "prefix": "alcion",
+      "body": "翠鸟",
+      "kanji": "翠鸟",
+      "detail": "alcion → 翠鸟 (pejvo, F=2, 基本形)",
+      "documentation": "語根: alcion\n入力: alcion\n最終形: 翠鸟\n漢字: 翠鸟\n識別子: なし\n型: pejvo\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8549",
+      "priority": 0,
+      "sourceRoot": "alcion",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8549
+    },
+    "alced": {
+      "prefix": "alced",
+      "body": "鸟ᴬᴸ",
+      "kanji": "鸟",
+      "detail": "alced → 鸟ᴬᴸ (piv, F=1)",
+      "documentation": "語根: alced\n入力: alced\n最終形: 鸟ᴬᴸ\n漢字: 鸟\n識別子: al\n型: piv\nF(汎用性): 1\nグループ数: 143\n基本形: no\n出典: _identifier_sidecar.tsv:1063",
+      "priority": 0,
+      "sourceRoot": "alced",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 1063
+    }
+  },
+  "expected_target_items": {
+    "tril": {
+      "prefix": "tril",
+      "body": "颤音",
+      "kanji": "颤音",
+      "detail": "tril → 颤音 (pejvo, F=2, 基本形)",
+      "documentation": "語根: tril\n入力: tril\n最終形: 颤音\n漢字: 颤音\n識別子: なし\n型: pejvo\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8571",
+      "priority": 0,
+      "sourceRoot": "tril",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8571
+    },
+    "sfinks": {
+      "prefix": "sfinks",
+      "body": "人面狮",
+      "kanji": "人面狮",
+      "detail": "sfinks → 人面狮 (pejvo, F=3, 基本形)",
+      "documentation": "語根: sfinks\n入力: sfinks\n最終形: 人面狮\n漢字: 人面狮\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7658",
+      "priority": 0,
+      "sourceRoot": "sfinks",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7658
+    },
+    "alcion": {
+      "prefix": "alcion",
+      "body": "鸟ᴬᴸ",
+      "kanji": "鸟",
+      "detail": "alcion → 鸟ᴬᴸ (pejvo, F=2)",
+      "documentation": "語根: alcion\n入力: alcion\n最終形: 鸟ᴬᴸ\n漢字: 鸟\n識別子: al\n型: pejvo\nF(汎用性): 2\nグループ数: 144\n基本形: no\n出典: _identifier_sidecar.tsv:8549",
+      "priority": 0,
+      "sourceRoot": "alcion",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 8549
+    },
+    "alced": {
+      "prefix": "alced",
+      "body": "鸟ᴬᴰ",
+      "kanji": "鸟",
+      "detail": "alced → 鸟ᴬᴰ (piv, F=1)",
+      "documentation": "語根: alced\n入力: alced\n最終形: 鸟ᴬᴰ\n漢字: 鸟\n識別子: ad\n型: piv\nF(汎用性): 1\nグループ数: 144\n基本形: no\n出典: _identifier_sidecar.tsv:1063",
+      "priority": 0,
+      "sourceRoot": "alced",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 1063
+    }
+  },
+  "unrelated_items_sha256": "00172d8d2e89b3f8a8cb5f546fe81c6dff8d09e0620e28872ccdf3f7146b770d",
+  "unrelated_items_count": 10636,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {
+    "鸟ᴬᴸ": {
+      "old": "alced",
+      "current": "alcion",
+      "old_profile": "pre-las-20261017"
+    }
+  },
+  "user_adopted_roots": [
+    "tril",
+    "sfinks",
+    "alcion"
+  ],
+  "identifier_propagated_roots": [
+    "alced"
+  ],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "tril": "User adopted 颤音: 音 covers both vocal and instrumental trills, while preserving the existing root and annotations.",
+    "sfinks": "User adopted 人面狮: 人 identifies the human face, 面 the face, and 狮 the lion body of the sphinx; preserve mythical and zoological senses in annotations.",
+    "alcion": "User adopted shared bird category 鸟 with generated identifier ᴬᴸ; do not retain 翠 as a dedicated character.",
+    "alced": "Identifier propagation only: generated shared-bird allocation moves this root from 鸟ᴬᴸ to 鸟ᴬᴰ. The fixed legacy dictionary keeps 鸟ᴬᴸ=alced; current must resolve it to alcion."
+  },
+  "preserved_controls": {
+    "grifel": "石笔",
+    "brav": "勇ᴮ",
+    "frivol": "轻浮",
+    "animal": "兽ᴬ"
+  }
+}

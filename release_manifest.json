@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-20",
-  "scope": "Current mikrob and diafragm displays updated with mikrobicid and mikrobologi. Fixed legacy, annotations, correct root splitting including mikrobiologi, unrelated identifiers and custom JSON behavior preserved.",
+  "date": "2026-10-21",
+  "scope": "Current tril, sfinks and alcion displays updated, with alced identifier reassignment. Fixed legacy, annotations, correct root splitting, other identifiers and custom JSON behavior preserved.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -79,8 +79,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161695,
-      "sha256": "bcce6f4481cfe0970b9902f3fc63b631cfe4759add54d4bb2a43969b3a0a0830"
+      "bytes": 161701,
+      "sha256": "1a506912f15eaaed20bfb81e4efa2990d7e50f3c27cd5bd6d988d4bb629b833b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -99,13 +99,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57371925,
-      "sha256": "b8b96f7c24cf00448f1ead55a7060e3c6e0a86200be75757a7ce99b7c85f593d"
+      "bytes": 57372117,
+      "sha256": "11edbb4b3c503e256c1ece9edd6c1ed11230b79451438867572b355ca6b9cb81"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21516055,
-      "sha256": "2c5551f37b18a9d53169e148980c1274af52a5209ae6bfb2930ecb0e7d61ecfe"
+      "bytes": 21516199,
+      "sha256": "c966cd17f8b19e3ee750083fa608075eac6556a8eaa39796b3f724b7ab027f43"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -214,8 +214,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161695,
-      "sha256": "bcce6f4481cfe0970b9902f3fc63b631cfe4759add54d4bb2a43969b3a0a0830"
+      "bytes": 161701,
+      "sha256": "1a506912f15eaaed20bfb81e4efa2990d7e50f3c27cd5bd6d988d4bb629b833b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -234,8 +234,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57379991,
-      "sha256": "746b50ae4bbdcfbf0776a07ec65ff2b0304c5997fe6d88f0b1dcc14738fb8939"
+      "bytes": 57380183,
+      "sha256": "c1b76e40544c0f0d00ccd05fbf41905accda81ccff081bfe8386f4d8f0e07e0a"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -349,8 +349,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161695,
-      "sha256": "bcce6f4481cfe0970b9902f3fc63b631cfe4759add54d4bb2a43969b3a0a0830"
+      "bytes": 161701,
+      "sha256": "1a506912f15eaaed20bfb81e4efa2990d7e50f3c27cd5bd6d988d4bb629b833b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -369,8 +369,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57379991,
-      "sha256": "b1be1dad85b3fe660137cfa4332b2d37c075e43df7db3b9d7dc22952eda1e3c0"
+      "bytes": 57380183,
+      "sha256": "10d64d5c2244cb6b93678727c926af3ec655aade5b190c4f2b77f4733a5b07f8"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
@@ -473,8 +473,8 @@
       "sha256": "b29d79bac49e2b8ca61c653a2e4648344ecd31486d66de0db21f1180bdf3e992"
     }
   ],
-  "assignment_revision": "mikrob-diafragm-20261020",
-  "previous_release_commit": "2c5c5594f985d83dadf9fe0c4deec40b00eca605",
+  "assignment_revision": "tril-sfinks-alcion-20261021",
+  "previous_release_commit": "e47d6dab5ed79025bff738d9c4944c826f47da95",
   "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
   "feature_revision": "two-editions-20261018",
   "legacy_manifest_sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3"

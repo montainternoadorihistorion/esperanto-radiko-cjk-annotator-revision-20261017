@@ -1716,6 +1716,7 @@ antropofag,人ᴬ吞,0,antropofag,10228
 antropocentr,人ᴬ央,0,antropocentr,8808
 sapot,人心果,0,sapot,8061
 margarin,人造油,0,margarin,6990
+sfinks,人面狮,0,sfinks,7658
 vendet,仇ⱽᴰ,0,vendet,5410
 dielektrik,介电ᴰ,0,dielektrik,6635
 altruist,他ᴬ家,0,altruist,8774
@@ -4163,8 +4164,9 @@ serin,鸟ˢᴿ,0,serin,1080
 sturn,鸟ˢᵀ,0,sturn,1026
 alka,鸟ᴬᴬ,0,alka,1142
 albatros,鸟ᴬᴮ,0,albatros,1155
+alced,鸟ᴬᴰ,0,alced,1063
 agami,鸟ᴬᴳ,0,agami,1066
-alced,鸟ᴬᴸ,0,alced,1063
+alcion,鸟ᴬᴸ,0,alcion,8549
 antus,鸟ᴬᴺ,0,antus,1145
 apterig,鸟ᴬᴾ,0,apterig,1104
 alektor,鸟ᴬᴿ,0,alektor,1105
@@ -6678,7 +6680,6 @@ frenez,狂ᶠ,0,frenez,3954
 karnaval,狂欢,0,karnaval,5840
 apart,独ᴬ,0,apart,1997
 diktator,独裁,0,diktator,6417
-sfinks,狮面,0,sfinks,7658
 grif,狮鹰,0,grif,6859
 gehen,狱ᴳ,0,gehen,5680
 narak,狱ᴺ,0,narak,5682
@@ -7217,7 +7218,6 @@ hord,群ᴴ,0,hord,224
 arkipelag,群岛,0,arkipelag,8286
 volan,羽ⱽ,0,volan,2071
 paŭt,翘嘴,0,pau^t,8249
-alcion,翠鸟,0,alcion,8549
 lop,翻ᴸ,0,lop,4057
 envergur,翼展,0,envergur,8655
 pteraspid,翼甲,0,pteraspid,7298
@@ -8247,7 +8247,7 @@ farb,颜ᶠ,0,farb,1403
 kvot,额ᴷ,0,kvot,3838
 atrop,颠ᴬ,0,atrop,7436
 beladon,颠ᴮ,0,beladon,7435
-tril,颤歌,0,tril,8571
+tril,颤音,0,tril,8571
 stil,风ˢ,0,stil,1390
 anem,风ᴬ,0,anem,1393
 esk,风ᴱ,0,esk,1392

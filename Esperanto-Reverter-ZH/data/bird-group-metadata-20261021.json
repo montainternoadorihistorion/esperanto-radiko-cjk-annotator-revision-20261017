@@ -1,0 +1,1016 @@
+{
+  "schema": 1,
+  "revision": "2026-10-21-bird-group-metadata",
+  "parent_assignment_revision": "2026-10-21-tril-sfinks-alcion",
+  "kind": "documentation-only",
+  "reason": "alcion joined the canonical 鸟 group. The four assignment targets were regenerated, but descriptions of 142 pre-existing group members still said 143 instead of 144.",
+  "canonical_sidecar_sha256": "c37e43e63d06b39163040a3e1cf43aaa662f8025c170b44cd76f00e905f84d60",
+  "canonical_group_key": "鸟",
+  "canonical_group_root_count": 144,
+  "updated_item_count": 142,
+  "already_correct_roots": [
+    "alced",
+    "alcion"
+  ],
+  "before_monaco_all_sha256": "5f83cccb8c9fd66e6ae94f539eadfecfd2a55975f3350e2aace7e12ef7558ac9",
+  "after_monaco_all_sha256": "3b502661ed91238d37cb995c439ad38f4fed8eae544e108c7fcca9f0127fd855",
+  "changed_field": "documentation: グループ数 only",
+  "conversion_fields_unchanged": true,
+  "all_other_documentation_unchanged": true,
+  "changes": [
+    {
+      "root": "agami",
+      "prefix": "agami",
+      "body": "鸟ᴬᴳ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "albatros",
+      "prefix": "albatros",
+      "body": "鸟ᴬᴮ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "alektor",
+      "prefix": "alektor",
+      "body": "鸟ᴬᴿ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "alka",
+      "prefix": "alka",
+      "body": "鸟ᴬᴬ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "antus",
+      "prefix": "antus",
+      "body": "鸟ᴬᴺ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "apterig",
+      "prefix": "apterig",
+      "body": "鸟ᴬᴾ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "arde",
+      "prefix": "arde",
+      "body": "鸟ᴬ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "au^k",
+      "prefix": "auxk",
+      "body": "鸟ᴬᵁ̆",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "avocet",
+      "prefix": "avocet",
+      "body": "鸟ᴬⱽ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "bantam",
+      "prefix": "bantam",
+      "body": "鸟ᴮᴺ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "bernikl",
+      "prefix": "bernikl",
+      "body": "鸟ᴮᴿ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "bird",
+      "prefix": "bird",
+      "body": "鸟",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "bobolink",
+      "prefix": "bobolink",
+      "body": "鸟ᴮᴮ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "bombicil",
+      "prefix": "bombicil",
+      "body": "鸟ᴮᴹ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "bonazi",
+      "prefix": "bonazi",
+      "body": "鸟ᴮᶻ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "botau^r",
+      "prefix": "botauxr",
+      "body": "鸟ᴮᵀ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "bucer",
+      "prefix": "bucer",
+      "body": "鸟ᴮᶜ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "bufag",
+      "prefix": "bufag",
+      "body": "鸟ᴮᶠ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "bukorak",
+      "prefix": "bukorak",
+      "body": "鸟ᴮᴷ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "certi",
+      "prefix": "certi",
+      "body": "鸟ᶜᴿ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "cikoni",
+      "prefix": "cikoni",
+      "body": "鸟ᶜ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "cinkl",
+      "prefix": "cinkl",
+      "body": "鸟ᶜᴺ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "cirkaet",
+      "prefix": "cirkaet",
+      "body": "鸟ᶜᵀ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "cirku",
+      "prefix": "cirku",
+      "body": "鸟ᶜᵁ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "c^eti",
+      "prefix": "cxeti",
+      "body": "鸟ᶜ̂",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "c^ifc^af",
+      "prefix": "cxifcxaf",
+      "body": "鸟ᶜ̂ᶠ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "did",
+      "prefix": "did",
+      "body": "鸟ᴰ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "diomede",
+      "prefix": "diomede",
+      "body": "鸟ᴰᴹ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "dromaj",
+      "prefix": "dromaj",
+      "body": "鸟ᴰᴶ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "dromice",
+      "prefix": "dromice",
+      "body": "鸟ᴰᴿ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "elani",
+      "prefix": "elani",
+      "body": "鸟ᴱ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "emu",
+      "prefix": "emu",
+      "body": "鸟ᴱᴹ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "falarop",
+      "prefix": "falarop",
+      "body": "鸟ᶠᴬ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "falaropod",
+      "prefix": "falaropod",
+      "body": "鸟ᶠᴿ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "fenikopter",
+      "prefix": "fenikopter",
+      "body": "鸟ᶠᴾ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "fenikur",
+      "prefix": "fenikur",
+      "body": "鸟ᶠᴺ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "fitis",
+      "prefix": "fitis",
+      "body": "鸟ᶠ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "frankolin",
+      "prefix": "frankolin",
+      "body": "鸟ᶠᴷ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "fraterkul",
+      "prefix": "fraterkul",
+      "body": "鸟ᶠᵀ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "fulmar",
+      "prefix": "fulmar",
+      "body": "鸟ᶠᴸ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "galbul",
+      "prefix": "galbul",
+      "body": "鸟ᴳ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "galinag",
+      "prefix": "galinag",
+      "body": "鸟ᴳᴺ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "gastornit",
+      "prefix": "gastornit",
+      "body": "鸟ᴳˢ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "gip",
+      "prefix": "gip",
+      "body": "鸟ᴳᴾ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "glareol",
+      "prefix": "glareol",
+      "body": "鸟ᴳᴿ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "guf",
+      "prefix": "guf",
+      "body": "鸟ᴳᶠ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "haliaet",
+      "prefix": "haliaet",
+      "body": "鸟ᴴᴸ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "hematop",
+      "prefix": "hematop",
+      "body": "鸟ᴴᴹ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "himantop",
+      "prefix": "himantop",
+      "body": "鸟ᴴᴺ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "himantopod",
+      "prefix": "himantopod",
+      "body": "鸟ᴴᴰ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "hipola",
+      "prefix": "hipola",
+      "body": "鸟ᴴ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "hipsipet",
+      "prefix": "hipsipet",
+      "body": "鸟ᴴˢ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "h^aradri",
+      "prefix": "hxaradri",
+      "body": "鸟ᴴ̂",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "ibis",
+      "prefix": "ibis",
+      "body": "鸟ᴵ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "jabiru",
+      "prefix": "jabiru",
+      "body": "鸟ᴶᴮ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "jing",
+      "prefix": "jing",
+      "body": "鸟ᴶ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "kairin",
+      "prefix": "kairin",
+      "body": "鸟ᴷᴺ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "kalidr",
+      "prefix": "kalidr",
+      "body": "鸟ᴷᴸ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "karadri",
+      "prefix": "karadri",
+      "body": "鸟ᴷᴵ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "karduel",
+      "prefix": "karduel",
+      "body": "鸟ᴷᴰ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "katart",
+      "prefix": "katart",
+      "body": "鸟ᴷᴬ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "kiti",
+      "prefix": "kiti",
+      "body": "鸟ᴷᵀ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "kivi",
+      "prefix": "kivi",
+      "body": "鸟ᴷ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "kokotrau^st",
+      "prefix": "kokotrauxst",
+      "body": "鸟ᴷᴷ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "kolibr",
+      "prefix": "kolibr",
+      "body": "鸟ᴷᴮ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "kondor",
+      "prefix": "kondor",
+      "body": "鸟ᴷᴼ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "koraci",
+      "prefix": "koraci",
+      "body": "鸟ᴷᶜ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "kormoran",
+      "prefix": "kormoran",
+      "body": "鸟ᴷᴹ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "koturn",
+      "prefix": "koturn",
+      "body": "鸟ᴷᴼᵀ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "krakt",
+      "prefix": "krakt",
+      "body": "鸟ᴷᴿᴬ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "krek",
+      "prefix": "krek",
+      "body": "鸟ᴷᴿ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "kreks",
+      "prefix": "kreks",
+      "body": "鸟ᴷˢ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "kurl",
+      "prefix": "kurl",
+      "body": "鸟ᴷᵁᴿ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "kuruk",
+      "prefix": "kuruk",
+      "body": "鸟ᴷᵁ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "kvecal",
+      "prefix": "kvecal",
+      "body": "鸟ᴷⱽ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "lagop",
+      "prefix": "lagop",
+      "body": "鸟ᴸᴳ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "lagopod",
+      "prefix": "lagopod",
+      "body": "鸟ᴸᴰ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "lani",
+      "prefix": "lani",
+      "body": "鸟ᴸ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "limoz",
+      "prefix": "limoz",
+      "body": "鸟ᴸᴹ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "litorn",
+      "prefix": "litorn",
+      "body": "鸟ᴸᵀ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "lokustel",
+      "prefix": "lokustel",
+      "body": "鸟ᴸᴷ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "lori",
+      "prefix": "lori",
+      "body": "鸟ᴸᴿ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "majn",
+      "prefix": "majn",
+      "body": "鸟ᴹ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "marabu",
+      "prefix": "marabu",
+      "body": "鸟ᴹᴮ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "melopsitak",
+      "prefix": "melopsitak",
+      "body": "鸟ᴹᴸ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "menur",
+      "prefix": "menur",
+      "body": "鸟ᴹᴺ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "mergul",
+      "prefix": "mergul",
+      "body": "鸟ᴹᴳ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "merg^",
+      "prefix": "mergx",
+      "body": "鸟ᴹᴿ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "merl",
+      "prefix": "merl",
+      "body": "鸟ᴹᴱ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "merop",
+      "prefix": "merop",
+      "body": "鸟ᴹᴾ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "motacil",
+      "prefix": "motacil",
+      "body": "鸟ᴹᵀ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "nandu",
+      "prefix": "nandu",
+      "body": "鸟ᴺ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "neofron",
+      "prefix": "neofron",
+      "body": "鸟ᴺᶠ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "nikte",
+      "prefix": "nikte",
+      "body": "鸟ᴺᴷ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "nucifrag",
+      "prefix": "nucifrag",
+      "body": "鸟ᴺᶜ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "numeni",
+      "prefix": "numeni",
+      "body": "鸟ᴺᴹ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "oriol",
+      "prefix": "oriol",
+      "body": "鸟ᴼᴸ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "ornit",
+      "prefix": "ornit",
+      "body": "鸟ᴼ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "otid",
+      "prefix": "otid",
+      "body": "鸟ᴼᵀ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "palmiped",
+      "prefix": "palmiped",
+      "body": "鸟ᴾᴹ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "paru",
+      "prefix": "paru",
+      "body": "鸟ᴾ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "pelikan",
+      "prefix": "pelikan",
+      "body": "鸟ᴾᴸ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "perdrik",
+      "prefix": "perdrik",
+      "body": "鸟ᴾᴰ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "perisore",
+      "prefix": "perisore",
+      "body": "鸟ᴾˢ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "petrel",
+      "prefix": "petrel",
+      "body": "鸟ᴾᵀ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "pinikol",
+      "prefix": "pinikol",
+      "body": "鸟ᴾᴷ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "pipi",
+      "prefix": "pipi",
+      "body": "鸟ᴾᴾ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "pirokorak",
+      "prefix": "pirokorak",
+      "body": "鸟ᴾᴵ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "pirul",
+      "prefix": "pirul",
+      "body": "鸟ᴾᴿ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "platale",
+      "prefix": "platale",
+      "body": "鸟ᴾᴬ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "ploce",
+      "prefix": "ploce",
+      "body": "鸟ᴾᶜ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "pluvi",
+      "prefix": "pluvi",
+      "body": "鸟ᴾⱽ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "poliplektr",
+      "prefix": "poliplektr",
+      "body": "鸟ᴾᴼᴸ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "porfiri",
+      "prefix": "porfiri",
+      "body": "鸟ᴾᴼ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "pronel",
+      "prefix": "pronel",
+      "body": "鸟ᴾᴺ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "pterokl",
+      "prefix": "pterokl",
+      "body": "鸟ᴾᴱ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "ptilonorink",
+      "prefix": "ptilonorink",
+      "body": "鸟ᴾᵀᴵ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "pufin",
+      "prefix": "pufin",
+      "body": "鸟ᴾᶠ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "rubetr",
+      "prefix": "rubetr",
+      "body": "鸟ᴿ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "saksikol",
+      "prefix": "saksikol",
+      "body": "鸟ˢˢ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "serin",
+      "prefix": "serin",
+      "body": "鸟ˢᴿ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "serpentari",
+      "prefix": "serpentari",
+      "body": "鸟ˢᴺ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "sirapt",
+      "prefix": "sirapt",
+      "body": "鸟ˢᴾ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "sit",
+      "prefix": "sit",
+      "body": "鸟ˢᴵ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "skolop",
+      "prefix": "skolop",
+      "body": "鸟ˢ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "somateri",
+      "prefix": "somateri",
+      "body": "鸟ˢᴹ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "sterkorari",
+      "prefix": "sterkorari",
+      "body": "鸟ˢᴷ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "streptopeli",
+      "prefix": "streptopeli",
+      "body": "鸟ˢᴱ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "sturn",
+      "prefix": "sturn",
+      "body": "鸟ˢᵀ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "sul",
+      "prefix": "sul",
+      "body": "鸟ˢᴸ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "s^tern",
+      "prefix": "sxtern",
+      "body": "鸟ˢ̂",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "tadorn",
+      "prefix": "tadorn",
+      "body": "鸟ᵀᴰ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "tanagr",
+      "prefix": "tanagr",
+      "body": "鸟ᵀᴬ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "tangar",
+      "prefix": "tangar",
+      "body": "鸟ᵀᴳ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "tetraon",
+      "prefix": "tetraon",
+      "body": "鸟ᵀᵀ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "tinam",
+      "prefix": "tinam",
+      "body": "鸟ᵀᴺ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "tinunkol",
+      "prefix": "tinunkol",
+      "body": "鸟ᵀᴷ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "tring",
+      "prefix": "tring",
+      "body": "鸟ᵀᴿ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "turd",
+      "prefix": "turd",
+      "body": "鸟ᵀ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "upup",
+      "prefix": "upup",
+      "body": "鸟ᵁ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "uri",
+      "prefix": "uri",
+      "body": "鸟ᵁᴿ",
+      "before": 143,
+      "after": 144
+    },
+    {
+      "root": "vanel",
+      "prefix": "vanel",
+      "body": "鸟ⱽ",
+      "before": 143,
+      "after": 144
+    }
+  ]
+}
