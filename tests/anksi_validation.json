@@ -1,0 +1,156 @@
+{
+  "passed": true,
+  "date": "2026-10-24",
+  "scope": {
+    "anksi": "忧ᴬᴷ"
+  },
+  "canonical": {
+    "assigned_roots": 10469,
+    "unchanged_sidecar_rows_and_order": 10468,
+    "existing_display_ownership_moves": {},
+    "other_root_identifiers_and_all_internal_identifiers_unchanged": true,
+    "old_historical_ledgers_unchanged": 10,
+    "injection_rows_per_edition": 62313,
+    "injection_changed_lines": {
+      "漢字注入_学習者版_20260620.txt": 2,
+      "漢字注入_学術版_20260620.txt": 2
+    },
+    "all_original_text_gloss_segmentation_markers_preserved": true,
+    "html_changed_roots": 1,
+    "html_changed_words": 2,
+    "character_types": [
+      2245,
+      2245
+    ],
+    "sidecar_sha256": "275bc1d71bdb5ce6bd359947acf61ef54cb201aa6e81a498d2216d4866adeee5"
+  },
+  "forward_tables": {
+    "kanji_rows": 1646973,
+    "pure_rows": 548991,
+    "changed_kanji_rows": 90,
+    "source_words": 44578,
+    "generator_hooks_verified": true
+  },
+  "inverse_all_keys": {
+    "checked_cases": 644430,
+    "all_key_results": {
+      "JA_current": {
+        "passed": true,
+        "key_count": 10687,
+        "counts": {
+          "cases": 160305,
+          "unchanged": 160293,
+          "changed": 12
+        }
+      },
+      "JA_legacy": {
+        "passed": true,
+        "key_count": 10794,
+        "counts": {
+          "cases": 161910,
+          "unchanged": 161910
+        }
+      },
+      "ZH_current": {
+        "passed": true,
+        "key_count": 10687,
+        "counts": {
+          "cases": 160305,
+          "unchanged": 160293,
+          "changed": 12
+        }
+      },
+      "ZH_legacy": {
+        "passed": true,
+        "key_count": 10794,
+        "counts": {
+          "cases": 161910,
+          "unchanged": 161910
+        }
+      }
+    },
+    "unapproved_changed_cases": 0
+  },
+  "actual_forward": {
+    "passed": true,
+    "actual_forward_cases_per_phase": 4932,
+    "manual_correction_cases_per_phase": 54,
+    "changed_routes": {
+      "JA/current/pure": 145,
+      "JA/current/kanji": 145,
+      "ZH/current/pure": 145,
+      "ZH/current/kanji": 145,
+      "KO/current/pure": 145,
+      "KO/current/kanji": 145
+    },
+    "legacy_and_annotations": "byte-identical actual results",
+    "other_kanji_fragments_and_all_original_spellings": "identical",
+    "scope": "Runtime sample of approved roots, all recorded target-family surface keys, endings, case, @ forms and known regressions. Exhaustive rule-table invariants are separate."
+  },
+  "forward_inverse": {
+    "passed": true,
+    "forward_case_count": 4932,
+    "actual_inverse_calls": 19728,
+    "regressions": 0,
+    "inverse_result_changes": 0,
+    "existing_mismatch_inputs": [
+      "@memmova@",
+      "@sene@",
+      "memmova",
+      "sene"
+    ]
+  },
+  "local_UI": {
+    "passed": true,
+    "standard_routes": 18,
+    "custom_json_routes": 6,
+    "saved_downloads_rehashed": 24,
+    "state_guards": 18,
+    "protected_files": 27,
+    "approved_migration_stages": 20,
+    "root_authority_entries": 10482,
+    "word_pair_entries": 44578,
+    "legacy_unchanged": true,
+    "annotations_unchanged": true
+  },
+  "regeneration_review": {
+    "passed": true,
+    "approved_stages_replayed": [
+      "reviewed_las_assignment",
+      "reviewed_fruit_priority_assignment",
+      "reviewed_at_sync",
+      "reviewed_mirror_identifiers",
+      "reviewed_stafilokok_assignment",
+      "reviewed_four_shared_assignments",
+      "reviewed_uve_assignments",
+      "reviewed_observatori_assignment",
+      "reviewed_three_short_assignments",
+      "reviewed_protez_ranc_assignments",
+      "reviewed_four_root_assignments",
+      "reviewed_sutur_fraj_assignments",
+      "reviewed_nostalgi_onk_fortres_assignments",
+      "reviewed_satir_assignment",
+      "reviewed_sperm_distinction",
+      "reviewed_dot_greft",
+      "reviewed_six_assignments",
+      "reviewed_mikrob_diafragm",
+      "reviewed_tril_sfinks_alcion",
+      "reviewed_anksi"
+    ],
+    "replay_root_authority_exactly_equal": true,
+    "replay_word_pairs_exactly_equal": true,
+    "closed_one_root_scope": true,
+    "earlier_mirror_stage_has_no_overlapping_rule": true,
+    "limitation": "Full historical regeneration was not run. All approved migration functions were replayed in memory and the three write-capable hook locations were inspected. Synthetic values only test exact scope boundaries."
+  },
+  "monaco": {
+    "assignment_changed_roots": [
+      "anksi"
+    ],
+    "documentation_only_changed_roots": [
+      "angor"
+    ],
+    "other_items_unchanged": 10638
+  },
+  "limits": "Rule-table and inverse-key coverage is exhaustive; runtime/UI uses selected cases. Existing shared-display ambiguities remain. Fixed legacy and evolving current are the two editions; intermediate current versions are not independent profiles. Cloud checks follow deployment."
+}

@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "revision": "2026-10-24-anksi",
+  "baseline": "aabd307f85445ba186d168e0dad035d8e5e11b10",
+  "changes": {
+    "anksi": [
+      "忧虑",
+      "忧ᴬᴷ"
+    ]
+  },
+  "canonical_sidecar_sha256": "275bc1d71bdb5ce6bd359947acf61ef54cb201aa6e81a498d2216d4866adeee5",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "3b502661ed91238d37cb995c439ad38f4fed8eae544e108c7fcca9f0127fd855",
+  "baseline_target_items": {
+    "anksi": {
+      "prefix": "anksi",
+      "body": "忧虑",
+      "kanji": "忧虑",
+      "detail": "anksi → 忧虑 (piv, F=2, 基本形)",
+      "documentation": "語根: anksi\n入力: anksi\n最終形: 忧虑\n漢字: 忧虑\n識別子: なし\n型: piv\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8270",
+      "priority": 0,
+      "sourceRoot": "anksi",
+      "type": "piv",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8270
+    },
+    "angor": {
+      "prefix": "angor",
+      "body": "忧",
+      "kanji": "忧",
+      "detail": "angor → 忧 (pejvo, F=5, 基本形)",
+      "documentation": "語根: angor\n入力: angor\n最終形: 忧\n漢字: 忧\n識別子: なし\n型: pejvo\nF(汎用性): 5\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6828",
+      "priority": 0,
+      "sourceRoot": "angor",
+      "type": "pejvo",
+      "frequency": 5,
+      "base": true,
+      "sourceLine": 6828
+    }
+  },
+  "expected_target_items": {
+    "anksi": {
+      "prefix": "anksi",
+      "body": "忧ᴬᴷ",
+      "kanji": "忧",
+      "detail": "anksi → 忧ᴬᴷ (piv, F=2)",
+      "documentation": "語根: anksi\n入力: anksi\n最終形: 忧ᴬᴷ\n漢字: 忧\n識別子: ak\n型: piv\nF(汎用性): 2\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:8270",
+      "priority": 0,
+      "sourceRoot": "anksi",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 8270
+    },
+    "angor": {
+      "prefix": "angor",
+      "body": "忧",
+      "kanji": "忧",
+      "detail": "angor → 忧 (pejvo, F=5, 基本形)",
+      "documentation": "語根: angor\n入力: angor\n最終形: 忧\n漢字: 忧\n識別子: なし\n型: pejvo\nF(汎用性): 5\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:6828",
+      "priority": 0,
+      "sourceRoot": "angor",
+      "type": "pejvo",
+      "frequency": 5,
+      "base": true,
+      "sourceLine": 6828
+    }
+  },
+  "unrelated_items_sha256": "ff4737903ba61460fe95fac97297c477451314a702b1a21ea846729d2e1092f3",
+  "unrelated_items_count": 10638,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {
+    "angor": {
+      "group_count": [
+        1,
+        2
+      ]
+    }
+  },
+  "assignment_unchanged_item_count": 10639,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "anksi"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "anksi": "User adopted 忧ᴬᴷ. PIV explicitly relates anksio and angoro as degrees of the same state; 忧 already conveys anxious concern. Reuse the existing 忧, preserve the medical annotation and decomposition, reduce the kanji body from 17 to 7 strokes. angor retains unmarked 忧."
+  },
+  "preserved_controls": {
+    "angor": "忧",
+    "irigaci": "水渠",
+    "tandem": "串联"
+  }
+}
