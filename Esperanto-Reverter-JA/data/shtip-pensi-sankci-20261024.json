@@ -1,0 +1,228 @@
+{
+  "schema": 1,
+  "revision": "2026-10-24-shtip-pensi-sankci",
+  "baseline": "7a81482f0a64b339ac6654db5cf603a48433fc93",
+  "changes": {
+    "ŝtip": [
+      "圆木",
+      "木块"
+    ],
+    "pensi": [
+      "养老",
+      "年金"
+    ],
+    "sankci": [
+      "制裁",
+      "裁ˢ"
+    ]
+  },
+  "canonical_sidecar_sha256": "05e96a9dab4decc7c2085358067f774502506de7a94811600f1aeb30e1e3685c",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "c35112d5def6d250dc57fed809e70b0586dedf0ac636e03812cf8062ffbd14f1",
+  "baseline_target_items": {
+    "ŝtip": {
+      "prefix": "sxtip",
+      "body": "圆木",
+      "kanji": "圆木",
+      "detail": "ŝtip → 圆木 (basic, F=9, 基本形)",
+      "documentation": "語根: ŝtip\n入力: sxtip\n最終形: 圆木\n漢字: 圆木\n識別子: なし\n型: basic\nF(汎用性): 9\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:5948",
+      "priority": 0,
+      "sourceRoot": "ŝtip",
+      "type": "basic",
+      "frequency": 9,
+      "base": true,
+      "sourceLine": 5948
+    },
+    "pensi": {
+      "prefix": "pensi",
+      "body": "养老",
+      "kanji": "养老",
+      "detail": "pensi → 养老 (basic, F=8, 基本形)",
+      "documentation": "語根: pensi\n入力: pensi\n最終形: 养老\n漢字: 养老\n識別子: なし\n型: basic\nF(汎用性): 8\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:5279",
+      "priority": 0,
+      "sourceRoot": "pensi",
+      "type": "basic",
+      "frequency": 8,
+      "base": true,
+      "sourceLine": 5279
+    },
+    "sankci": {
+      "prefix": "sankci",
+      "body": "制裁",
+      "kanji": "制裁",
+      "detail": "sankci → 制裁 (pejvo, F=3, 基本形)",
+      "documentation": "語根: sankci\n入力: sankci\n最終形: 制裁\n漢字: 制裁\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7462",
+      "priority": 0,
+      "sourceRoot": "sankci",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7462
+    },
+    "arbitraci": {
+      "prefix": "arbitraci",
+      "body": "裁ᴬ",
+      "kanji": "裁",
+      "detail": "arbitraci → 裁ᴬ (pejvo, F=6)",
+      "documentation": "語根: arbitraci\n入力: arbitraci\n最終形: 裁ᴬ\n漢字: 裁\n識別子: a\n型: pejvo\nF(汎用性): 6\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:4414",
+      "priority": 0,
+      "sourceRoot": "arbitraci",
+      "type": "pejvo",
+      "frequency": 6,
+      "base": false,
+      "sourceLine": 4414
+    },
+    "tajl": {
+      "prefix": "tajl",
+      "body": "裁",
+      "kanji": "裁",
+      "detail": "tajl → 裁 (basic, F=7, 基本形)",
+      "documentation": "語根: tajl\n入力: tajl\n最終形: 裁\n漢字: 裁\n識別子: なし\n型: basic\nF(汎用性): 7\nグループ数: 3\n基本形: yes\n出典: _identifier_sidecar.tsv:4412",
+      "priority": 0,
+      "sourceRoot": "tajl",
+      "type": "basic",
+      "frequency": 7,
+      "base": true,
+      "sourceLine": 4412
+    },
+    "tajlor": {
+      "prefix": "tajlor",
+      "body": "裁ᵀᴿ",
+      "kanji": "裁",
+      "detail": "tajlor → 裁ᵀᴿ (basic, F=9)",
+      "documentation": "語根: tajlor\n入力: tajlor\n最終形: 裁ᵀᴿ\n漢字: 裁\n識別子: tr\n型: basic\nF(汎用性): 9\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:4413",
+      "priority": 0,
+      "sourceRoot": "tajlor",
+      "type": "basic",
+      "frequency": 9,
+      "base": false,
+      "sourceLine": 4413
+    }
+  },
+  "expected_target_items": {
+    "ŝtip": {
+      "prefix": "sxtip",
+      "body": "木块",
+      "kanji": "木块",
+      "detail": "ŝtip → 木块 (basic, F=9, 基本形)",
+      "documentation": "語根: ŝtip\n入力: sxtip\n最終形: 木块\n漢字: 木块\n識別子: なし\n型: basic\nF(汎用性): 9\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:5948",
+      "priority": 0,
+      "sourceRoot": "ŝtip",
+      "type": "basic",
+      "frequency": 9,
+      "base": true,
+      "sourceLine": 5948
+    },
+    "pensi": {
+      "prefix": "pensi",
+      "body": "年金",
+      "kanji": "年金",
+      "detail": "pensi → 年金 (basic, F=8, 基本形)",
+      "documentation": "語根: pensi\n入力: pensi\n最終形: 年金\n漢字: 年金\n識別子: なし\n型: basic\nF(汎用性): 8\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:5279",
+      "priority": 0,
+      "sourceRoot": "pensi",
+      "type": "basic",
+      "frequency": 8,
+      "base": true,
+      "sourceLine": 5279
+    },
+    "sankci": {
+      "prefix": "sankci",
+      "body": "裁ˢ",
+      "kanji": "裁",
+      "detail": "sankci → 裁ˢ (pejvo, F=3)",
+      "documentation": "語根: sankci\n入力: sankci\n最終形: 裁ˢ\n漢字: 裁\n識別子: s\n型: pejvo\nF(汎用性): 3\nグループ数: 4\n基本形: no\n出典: _identifier_sidecar.tsv:7462",
+      "priority": 0,
+      "sourceRoot": "sankci",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 7462
+    },
+    "arbitraci": {
+      "prefix": "arbitraci",
+      "body": "裁ᴬ",
+      "kanji": "裁",
+      "detail": "arbitraci → 裁ᴬ (pejvo, F=6)",
+      "documentation": "語根: arbitraci\n入力: arbitraci\n最終形: 裁ᴬ\n漢字: 裁\n識別子: a\n型: pejvo\nF(汎用性): 6\nグループ数: 4\n基本形: no\n出典: _identifier_sidecar.tsv:4414",
+      "priority": 0,
+      "sourceRoot": "arbitraci",
+      "type": "pejvo",
+      "frequency": 6,
+      "base": false,
+      "sourceLine": 4414
+    },
+    "tajl": {
+      "prefix": "tajl",
+      "body": "裁",
+      "kanji": "裁",
+      "detail": "tajl → 裁 (basic, F=7, 基本形)",
+      "documentation": "語根: tajl\n入力: tajl\n最終形: 裁\n漢字: 裁\n識別子: なし\n型: basic\nF(汎用性): 7\nグループ数: 4\n基本形: yes\n出典: _identifier_sidecar.tsv:4412",
+      "priority": 0,
+      "sourceRoot": "tajl",
+      "type": "basic",
+      "frequency": 7,
+      "base": true,
+      "sourceLine": 4412
+    },
+    "tajlor": {
+      "prefix": "tajlor",
+      "body": "裁ᵀᴿ",
+      "kanji": "裁",
+      "detail": "tajlor → 裁ᵀᴿ (basic, F=9)",
+      "documentation": "語根: tajlor\n入力: tajlor\n最終形: 裁ᵀᴿ\n漢字: 裁\n識別子: tr\n型: basic\nF(汎用性): 9\nグループ数: 4\n基本形: no\n出典: _identifier_sidecar.tsv:4413",
+      "priority": 0,
+      "sourceRoot": "tajlor",
+      "type": "basic",
+      "frequency": 9,
+      "base": false,
+      "sourceLine": 4413
+    }
+  },
+  "unrelated_items_sha256": "01233fc233a36043bcc21da44275e89fc33e743176de311c1f03461fb50fb615",
+  "unrelated_items_count": 10634,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {
+    "arbitraci": {
+      "group_count": [
+        3,
+        4
+      ]
+    },
+    "tajl": {
+      "group_count": [
+        3,
+        4
+      ]
+    },
+    "tajlor": {
+      "group_count": [
+        3,
+        4
+      ]
+    }
+  },
+  "assignment_unchanged_item_count": 10637,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "ŝtip",
+    "pensi",
+    "sankci"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "ŝtip": "User adopted 木块: preserve large wooden block, log, firewood and figurative meanings without a round-shape restriction; retain existing root decomposition.",
+    "pensi": "User adopted 年金: identify the periodic pension payment directly; distinguish pens (think) and pension (lodging), retaining current root decomposition.",
+    "sankci": "User adopted 裁ˢ: 裁 covers ruling/approval and penalty without restricting the root to 制裁; retain annotations of both senses and existing 裁 group ownership."
+  },
+  "preserved_controls": {
+    "tajl": "裁",
+    "tajlor": "裁ᵀᴿ",
+    "arbitraci": "裁ᴬ",
+    "pens": "思",
+    "pension": "宿"
+  }
+}

@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "2026-10-24-anksi",
+  "revision": "2026-10-24-shtip-pensi-sankci",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "c35112d5def6d250dc57fed809e70b0586dedf0ac636e03812cf8062ffbd14f1",
+  "monaco_all_sha256": "8357bf1aee458ae65316092ba4be8ba3cbc6a7e49e05e87161702767c1891c38",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "275bc1d71bdb5ce6bd359947acf61ef54cb201aa6e81a498d2216d4866adeee5",
+  "canonical_sidecar_sha256": "05e96a9dab4decc7c2085358067f774502506de7a94811600f1aeb30e1e3685c",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -252,10 +252,22 @@
     "anksi": {
       "old": "忧虑",
       "current": "忧ᴬᴷ"
+    },
+    "ŝtip": {
+      "old": "圆木",
+      "current": "木块"
+    },
+    "pensi": {
+      "old": "养老",
+      "current": "年金"
+    },
+    "sankci": {
+      "old": "制裁",
+      "current": "裁ˢ"
     }
   },
-  "current_csv_sha256": "3b22a62d0fb9002ccc9bb96a61d1dc84aa435b0e487e7a728f368ac27fac438f",
-  "current_snippet_csv_sha256": "19b2b0256478e36c70cc3e09ca768db9c50da7624405f3aef84da5909fda2378",
+  "current_csv_sha256": "f016eab84c767fb0b2ce22e3138bc7adb06cfca081e55295039ba04ae7d50ec4",
+  "current_snippet_csv_sha256": "9533d9d4b10eacbaafbe57a56d6eef44ec156a2740e66a93bbbfef85968df03c",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -385,5 +397,7 @@
   "bird_group_metadata_manifest": "data/bird-group-metadata-20261021.json",
   "bird_group_metadata_manifest_sha256": "bc15d533f922d7de8d78e4c6135401bb910e1c7c017b60fd3b04ad750ed8120f",
   "anksi_manifest": "data/anksi-20261024.json",
-  "anksi_manifest_sha256": "ced409391f9e213cc8e95ebaeca4c47853cd1d6e829449a273df8b1f0ba17f5b"
+  "anksi_manifest_sha256": "ced409391f9e213cc8e95ebaeca4c47853cd1d6e829449a273df8b1f0ba17f5b",
+  "shtip_pensi_sankci_manifest": "data/shtip-pensi-sankci-20261024.json",
+  "shtip_pensi_sankci_manifest_sha256": "8e7406af9d482302f49ade7779c6916fc9e4182a3b986b9f393b04840f9d9e2d"
 }

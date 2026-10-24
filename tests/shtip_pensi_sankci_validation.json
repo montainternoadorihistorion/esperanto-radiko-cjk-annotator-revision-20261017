@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-24",
+  "assignment_revision": "shtip-pensi-sankci-20261024",
+  "previous_release_commit": "dbdd04f21985580c2cc407a2b742e33826c7aec0",
+  "status": "LOCAL_VALIDATION_PASSED",
+  "cloud_validation": {
+    "status": "NOT_YET_VERIFIED",
+    "note": "This document records local verification only. No Streamlit Cloud observation is claimed for this release."
+  },
+  "adopted": {
+    "ŝtip": {
+      "before": "圆木",
+      "after": "木块",
+      "strokes": [
+        14,
+        11
+      ]
+    },
+    "pensi": {
+      "before": "养老",
+      "after": "年金",
+      "strokes": [
+        15,
+        14
+      ]
+    },
+    "sankci": {
+      "before": "制裁",
+      "after": "裁ˢ",
+      "strokes": [
+        20,
+        12
+      ]
+    }
+  },
+  "scope": "Current edition only. Fixed legacy, existing annotations, source spellings, correct segmentation, unrelated identifiers and custom JSON behavior are preserved. No intermediate edition or old-spelling aliases are introduced.",
+  "canonical": {
+    "scope": {
+      "ŝtip": "木块",
+      "pensi": "年金",
+      "sankci": "裁ˢ"
+    },
+    "assigned_roots": 10469,
+    "unchanged_sidecar_rows_and_order": 10466,
+    "identifier_only_roots": [],
+    "new_roots": [],
+    "existing_display_ownership_moves": {},
+    "other_root_identifiers_and_all_internal_identifiers_unchanged": true,
+    "injection_rows_per_edition": 62313,
+    "all_original_text_gloss_segmentation_markers_preserved": true,
+    "html_roots": [
+      10469,
+      10469
+    ],
+    "html_words": [
+      52230,
+      52230
+    ],
+    "html_changed_roots": 3,
+    "html_changed_words": 20,
+    "character_types": [
+      2245,
+      2245
+    ],
+    "removed_characters": [],
+    "actual_generator_reproduction": {
+      "_gas_identifier_out.csv": {
+        "rows": 10469,
+        "semantic_differences": 0
+      },
+      "_identifier_sidecar.tsv": {
+        "rows": 10469,
+        "semantic_differences": 0
+      }
+    },
+    "guard_positive_and_negative_cases": 9,
+    "sidecar_sha256": "05e96a9dab4decc7c2085358067f774502506de7a94811600f1aeb30e1e3685c"
+  },
+  "full_forward_table_comparison": {
+    "passed": true,
+    "kanji_rows": 1646973,
+    "changed_kanji_rows": 723,
+    "pure_rows": 548991,
+    "source_words": 44578,
+    "generator_hooks_verified": true,
+    "all_source_word_segmentations_preserved": true,
+    "all_rule_keys_order_placeholders_and_original_spellings_preserved": true,
+    "annotation_files_preserved": 12,
+    "other_preserved_assets": 44
+  },
+  "actual_forward_runtime": {
+    "passed": true,
+    "actual_forward_cases_per_phase": 11628,
+    "manual_correction_cases_per_phase": 162,
+    "changed_routes": {
+      "JA/current/pure": 468,
+      "JA/current/kanji": 470,
+      "ZH/current/pure": 468,
+      "ZH/current/kanji": 470,
+      "KO/current/pure": 468,
+      "KO/current/kanji": 470
+    },
+    "legacy_and_annotations": "byte-identical actual results",
+    "other_kanji_fragments_and_all_original_spellings": "identical",
+    "scope": "Runtime sample of approved roots, all recorded target-family surface keys, endings, case, @ forms and known regressions. Exhaustive rule-table invariants are separate."
+  },
+  "all_inverse_key_and_suffix_checks": {
+    "passed": true,
+    "all_key_results": {
+      "JA_current": {
+        "passed": true,
+        "key_count": 10687,
+        "counts": {
+          "cases": 160305,
+          "unchanged": 160269,
+          "changed": 36
+        },
+        "identifier_continuations_checked": 24
+      },
+      "JA_legacy": {
+        "passed": true,
+        "key_count": 10794,
+        "counts": {
+          "cases": 161910,
+          "unchanged": 161910
+        },
+        "identifier_continuations_checked": 24
+      },
+      "ZH_current": {
+        "passed": true,
+        "key_count": 10687,
+        "counts": {
+          "cases": 160305,
+          "unchanged": 160269,
+          "changed": 36
+        },
+        "identifier_continuations_checked": 24
+      },
+      "ZH_legacy": {
+        "passed": true,
+        "key_count": 10794,
+        "counts": {
+          "cases": 161910,
+          "unchanged": 161910
+        },
+        "identifier_continuations_checked": 24
+      }
+    },
+    "checked_cases": 644430,
+    "unapproved_changed_cases": 0,
+    "unrelated_monaco_items_preserved": 10634,
+    "unrelated_csv_rows_preserved": 10675,
+    "current_alias_content_and_order_preserved": true,
+    "old_spelling_aliases_added": 0,
+    "visible_editions_added": 0,
+    "limitations": "Finite every-key and suffix audit; actual forward captures are validated separately. Fixed legacy retains all old forms; no intermediate aliases were added."
+  },
+  "coupled_forward_inverse_runtime": {
+    "passed": true,
+    "forward_case_count": 11628,
+    "actual_inverse_calls": 46512,
+    "both_inverse_language_outputs_identical": true,
+    "legacy_forward_and_inverse_unchanged": true,
+    "annotation_forward_and_inverse_unchanged": true,
+    "regressions": 0,
+    "changed_inverse_results": 0,
+    "remaining_preexisting_mismatches": 30,
+    "remaining_preexisting_inputs": [
+      "@memmova@",
+      "@sene@",
+      "memmova",
+      "sene"
+    ],
+    "note": "The 30 pre-existing mismatches in these samples are unchanged; this release does not claim unique restoration of every possible shared spelling."
+  },
+  "local_streamlit_ui": {
+    "passed": true,
+    "scope": "Independent local AppTest and read-only regeneration/asset review; not Cloud observations",
+    "conversion_download_routes": 18,
+    "custom_json_routes": 6,
+    "languages": [
+      "JA",
+      "ZH",
+      "KO"
+    ],
+    "editions": [
+      "current",
+      "legacy"
+    ],
+    "modes": [
+      "pure",
+      "kanji",
+      "ruby"
+    ],
+    "protected_assets": 93,
+    "source_and_selected_edition_preserved": true,
+    "result_download_only_after_confirmation": true,
+    "exact_saved_file_bytes": true,
+    "fixed_legacy_outputs_and_annotations_unchanged": true,
+    "custom_json_not_overridden_by_selected_edition": true,
+    "closed_three_root_scope_verified": true,
+    "near_roots_preserved": [
+      "pens",
+      "pension",
+      "suspensi",
+      "sankt",
+      "tajl",
+      "arbitraci",
+      "irigaci",
+      "tandem",
+      "semajn"
+    ],
+    "annotation_note": "Canonical sankci gloss includes approval and punishment. Existing short JA ruby remains 裁可する/[政]裁可; ZH 批准/制裁 and KO 비준/제재. This change preserves existing short annotations, not an expansion of all short annotations to all senses."
+  },
+  "generator_stage_replay": {
+    "passed": true,
+    "method": "Read-only source inspection and in-memory approved-stage replay",
+    "current_root_count": 10482,
+    "current_word_count": 44578,
+    "full_root_and_word_replay_unchanged": true,
+    "earlier_mirror_stage_has_no_overlapping_scope": true,
+    "three_generator_hooks_ordered_after_anksi": true,
+    "original_payloads_unmodified": true,
+    "exact_root_scope_preserved": true,
+    "keys_order_placeholders_and_extra_columns_unchanged": true,
+    "mixed_line_endings_preserved": true,
+    "idempotent": true,
+    "limitation": "No full historical regeneration was run; current authority and current word pairs were replayed through all approved stages in memory."
+  }
+}

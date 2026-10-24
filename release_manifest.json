@@ -1,6 +1,6 @@
 {
   "date": "2026-10-24",
-  "scope": "Current anksi changes from 忧虑 to 忧ᴬᴷ. angor remains 忧, irigaci remains 水渠 and tandem remains 串联. Fixed legacy, annotations, correct root splitting, other identifiers and custom JSON behavior are preserved.",
+  "scope": "Current ŝtip changes from 圆木 to 木块, pensi from 养老 to 年金, and sankci from 制裁 to 裁ˢ. Fixed legacy, annotations, correct root splitting, unrelated identifiers and custom JSON behavior are preserved. Existing 裁, 裁ᵀᴿ and 裁ᴬ ownership is unchanged.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -79,8 +79,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161704,
-      "sha256": "bfcd0653ebfd81b6f14a37d52e531199f9885db5e57e944b7f8519b718e8b1c7"
+      "bytes": 161703,
+      "sha256": "1edb236baeabb82ebeb312b59847c5b148ba60277dfb0077c63eee21e8ebc501"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -99,13 +99,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57372197,
-      "sha256": "e1042aefddf45c84d03ba28551e3b73f43019c1d73a241aeed013ccbd8a24dc2"
+      "bytes": 57372151,
+      "sha256": "d09a94bc9d8b55eedf0b6ae4547186ea6ac6e70e5f7bb25b386fd8a08c17866d"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21516289,
-      "sha256": "bfe2ac21e880190788e5f7c3a8e0562ebe8ff89763447bea33543fce5bcf0269"
+      "bytes": 21516220,
+      "sha256": "8f4c6dc5f5743feac31b4a0eac997ce45d40d0812d902a1b5c0cf376ac13751b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -214,8 +214,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161704,
-      "sha256": "bfcd0653ebfd81b6f14a37d52e531199f9885db5e57e944b7f8519b718e8b1c7"
+      "bytes": 161703,
+      "sha256": "1edb236baeabb82ebeb312b59847c5b148ba60277dfb0077c63eee21e8ebc501"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -234,8 +234,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57380263,
-      "sha256": "95302063d22b088d929fc79f8c1285ad38dfdfbfb1038464a0c263c4736c8034"
+      "bytes": 57380217,
+      "sha256": "2e08e6a6f1da4d6f18e4fd739a0855656708dc09626be1a8102edda5213a9018"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -349,8 +349,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161704,
-      "sha256": "bfcd0653ebfd81b6f14a37d52e531199f9885db5e57e944b7f8519b718e8b1c7"
+      "bytes": 161703,
+      "sha256": "1edb236baeabb82ebeb312b59847c5b148ba60277dfb0077c63eee21e8ebc501"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -369,8 +369,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57380263,
-      "sha256": "6c0d88a08ed77de4b3d865834b805c12734d0a24272ce0f8b3ad6e85209c3073"
+      "bytes": 57380217,
+      "sha256": "c8bea0cac904eda8e15e2a3e2a38a5c054bcffcc7f16930f0c280de3ea8e185e"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
@@ -471,10 +471,20 @@
       "path": "assignment_editions/legacy/test_legacy_assets.py",
       "bytes": 7704,
       "sha256": "b29d79bac49e2b8ca61c653a2e4648344ecd31486d66de0db21f1180bdf3e992"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/shtip-pensi-sankci-20261024.json",
+      "bytes": 8165,
+      "sha256": "8e7406af9d482302f49ade7779c6916fc9e4182a3b986b9f393b04840f9d9e2d"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/shtip-pensi-sankci-20261024.json",
+      "bytes": 8165,
+      "sha256": "8e7406af9d482302f49ade7779c6916fc9e4182a3b986b9f393b04840f9d9e2d"
     }
   ],
-  "assignment_revision": "anksi-20261024",
-  "previous_release_commit": "591412db4ea340c0f57c85e704e4b43f7b0802ad",
+  "assignment_revision": "shtip-pensi-sankci-20261024",
+  "previous_release_commit": "dbdd04f21985580c2cc407a2b742e33826c7aec0",
   "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
   "feature_revision": "two-editions-20261018",
   "legacy_manifest_sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3"

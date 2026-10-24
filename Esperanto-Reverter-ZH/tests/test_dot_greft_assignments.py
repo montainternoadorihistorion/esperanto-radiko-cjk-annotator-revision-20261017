@@ -20,7 +20,7 @@ def test_full_snapshot_all_keys_and_only_approved_transfer():
  oldrows=list(csv.DictReader(io.StringIO(app.PRE_DOT_GREFT_20261018_CSV.read_text(encoding='utf-8'))))
  newrows=list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding='utf-8'))))
  assert len(oldrows)==10676 and len(newrows)==10678
- assert [r for r in oldrows if r['source_root'] not in (set(CHANGES)|({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|{'anksi'}))))]==[r for r in newrows if r['source_root'] not in (set(CHANGES)|({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|{'anksi'}))))]
+ assert [r for r in oldrows if r['source_root'] not in (set(CHANGES)|({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|({'anksi'}|{'ŝtip','pensi','sankci'})))))]==[r for r in newrows if r['source_root'] not in (set(CHANGES)|({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|({'anksi'}|{'ŝtip','pensi','sankci'})))))]
  profile=source['pre_dot_greft_profile'];assert profile['id']==PROFILE
  assert profile['csv_sha256']=='3219d77284ddf21c90b6d33a580ead00a3c38b2628b09ed205883c9255f6bd65'
  assert profile['snippet_csv_sha256']=='22ef2de51e53bd19314b6c7f140aa8d82b0914bd71bfdd0b2c943cbc71591f07'
@@ -29,7 +29,7 @@ def test_full_snapshot_all_keys_and_only_approved_transfer():
  assert old==app.build_mapping_index(app.read_assignment_csv(app.PRE_DOT_GREFT_SNIPPET_20261018_CSV))
  for r in oldrows:assert app.convert_kanji_esperanto_to_alphabet(r['kanji'],old)==r['esperanto']
  for r in newrows:assert app.convert_kanji_esperanto_to_alphabet(r['kanji'],now)==r['esperanto']
- assert [r['kanji'] for r in oldrows if r['source_root'] not in ({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|{'anksi'}))) and app.convert_kanji_esperanto_to_alphabet(r['kanji'],now)!=r['esperanto']]==['妆']
+ assert [r['kanji'] for r in oldrows if r['source_root'] not in ({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|({'anksi'}|{'ŝtip','pensi','sankci'})))) and app.convert_kanji_esperanto_to_alphabet(r['kanji'],now)!=r['esperanto']]==['妆']
 def test_version_specific_boundary_and_suffix_examples():
  old=index(PROFILE);now=index('pejvo-piv-20260620')
  pairs={'妆o':('tualeto','doto'),'妆水o':('tualetakvo','dotakvo'),'移植o':('translaciplanto','grefto'),'移植ᶠo':('translacifito','translacifito'),'移o植o':('translacioplanto','translacioplanto'),'越植i':('transplanti','transplanti'),'嫁接物o':('greftaĵo','greftaĵo'),'嫁妆o':('doto','doto')}
