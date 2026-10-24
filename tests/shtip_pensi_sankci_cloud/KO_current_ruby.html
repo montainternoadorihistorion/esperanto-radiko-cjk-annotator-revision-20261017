@@ -1,0 +1,111 @@
+<!-- assignment-edition:current signature:37e04ee24068c5a063d27ef8e02329a49a67002fc2f7707c3b23a243488c1d17 created-utc:2026-10-24T14:20:44.533183+00:00 -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에스페란토 어근 분해 루비 주석 텍스트</title>
+    <style>
+
+    html, body {
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+  
+      :root {
+        --ruby-color: blue;
+        --ruby-font-size: 0.5em;
+      }
+      html {
+        font-size: 100%; /* 多くのブラウザは16px相当が標準 */
+      }
+
+      .text-M_M {
+        font-size: 1rem!important; 
+        font-family: Arial, sans-serif;
+        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */
+        display: block; /* ブロック要素として扱う */
+        position: relative;
+      }
+  
+      /* ▼ ルビ（フレックスでルビを上に表示） */
+      ruby {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        vertical-align: top !important;
+        line-height: 2.0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 1rem !important;
+      }
+  
+      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */
+      rt {
+        display: block !important;
+        font-size: var(--ruby-font-size);
+        color: var(--ruby-color);
+        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/
+        text-align: center;
+        /* margin-top: 0.2em !important;   
+        transform: translateY(0.4em) !important; */
+      }
+      rt.XXXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }    
+      rt.XXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }
+      rt.XS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -6.1em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.S_S {
+        --ruby-font-size: 0.4em;
+        margin-top: -4.85em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.M_M {
+        --ruby-font-size: 0.5em;
+        margin-top: -4.00em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.L_L {
+        --ruby-font-size: 0.6em; 
+        margin-top: -3.55em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XL_L {
+        --ruby-font-size: 0.7em;
+        margin-top: -3.20em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XXL_L {
+        --ruby-font-size: 0.8em;
+        margin-top: -2.80em !important;
+        transform: translateY(-0.0em) !important;
+      }
+  
+    </style>
+  <meta name="esperanto-ruby-mode" content="annotation">
+</head>
+  <body>
+  <p class="text-M_M">
+<ruby>Ŝtip<rt class="M_M">통나무</rt></ruby>o <ruby>ŝtip<rt class="M_M">통나무</rt></ruby><ruby>ar<rt class="S_S">집단</rt></ruby>o <ruby>ŝtip<rt class="M_M">통나무</rt></ruby><ruby>et<rt class="S_S">작음</rt></ruby>o <ruby>ŝtip<rt class="M_M">통나무</rt></ruby>a <ruby>ŝtip<rt class="M_M">통나무</rt></ruby>i <ruby>ŝtip<rt class="M_M">통나무</rt></ruby>.<br>
+<ruby>ŝtip<rt class="M_M">통나무</rt></ruby>o <ruby>ŝtip<rt class="M_M">통나무</rt></ruby><ruby>ar<rt class="S_S">무리</rt></ruby>o <ruby>ŝtip<rt class="M_M">통나무</rt></ruby><ruby>et<rt class="S_S">작은</rt></ruby>o <ruby>ŝtip<rt class="M_M">통나무</rt></ruby><br>
+<ruby>Pensi<rt class="XXL_L">연금</rt></ruby>o <ruby>pensi<rt class="M_M">생각하다</rt></ruby><ruby>ul<rt class="XS_S">사람</rt></ruby>o <ruby>pensi<rt class="XXL_L">연금</rt></ruby>i <ruby>pensi<rt class="XXL_L">연금</rt></ruby><ruby>iĝ<rt class="XS_S">되다</rt></ruby>i <ruby>naci<rt class="XXL_L">민족</rt></ruby>a <ruby>pensi<rt class="XXL_L">연금</rt></ruby>o.<br>
+<ruby>pensi<rt class="XXL_L">연금</rt></ruby>o <ruby>pensi<rt class="XXL_L">연금</rt></ruby><ruby>ul<rt class="XS_S">사람</rt></ruby>o <ruby>pensi<rt class="XXL_L">연금</rt></ruby>i <ruby>pensi<rt class="XXL_L">연금</rt></ruby><br>
+<ruby>Sankci<rt class="XXL_L">비준</rt></ruby>o <ruby>sankci<rt class="XXL_L">비준</rt></ruby>i <ruby>sankci<rt class="XXL_L">비준</rt></ruby><ruby>it<rt class="XXXS_S">수동<br>완<br>료</rt></ruby>a <ruby>sankci<rt class="XXL_L">비준</rt></ruby>oj <ruby>sankci<rt class="XXL_L">비준</rt></ruby>.<br>
+<ruby>sankci<rt class="XXL_L">제재</rt></ruby>o <ruby>sankci<rt class="XXL_L">제재</rt></ruby>i <ruby>sankci<rt class="XXL_L">제재</rt></ruby><ruby>it<rt class="XXXS_S">수동<br>완<br>료</rt></ruby>a <ruby>sankci<rt class="XXL_L">제재</rt></ruby><br>
+<ruby>La<rt class="XS_S">정관사</rt></ruby> <ruby>kongres<rt class="XXL_L">대회</rt></ruby>o <ruby>sankci<rt class="XXL_L">비준</rt></ruby><ruby>is<rt class="XL_L">였</rt></ruby> <ruby>la<rt class="XXS_S">정관<br>사</rt></ruby> <ruby>dokument<rt class="XXL_L">문서</rt></ruby>on; <ruby>ekonomi<rt class="XXL_L">경제</rt></ruby>aj <ruby>sankci<rt class="XXL_L">비준</rt></ruby>oj.<br>
+<ruby>pens<rt class="M_M">생각하다</rt></ruby>o <ruby>pens<rt class="M_M">생각하다</rt></ruby><ruby>is<rt class="XL_L">였</rt></ruby> <ruby>pension<rt class="XXL_L">하숙집</rt></ruby>o <ruby>suspensi<rt class="XXL_L">현수</rt></ruby>o <ruby>pens<rt class="M_M">생각하다</rt></ruby>o <ruby>pension<rt class="XXL_L">하숙</rt></ruby>o<br>
+<ruby>irigaci<rt class="XXL_L">관개</rt></ruby>o <ruby>irigaci<rt class="XXL_L">관개</rt></ruby>o <ruby>tandem<rt class="XXL_L">탠덤</rt></ruby>o <ruby>tandem<rt class="XXL_L">2인승</rt></ruby>o <ruby>semajn<rt class="XXL_L">한 주</rt></ruby>o <ruby>semajn<rt class="XXL_L">주간</rt></ruby>o<br>
+ŝtipo pensio sankcio &amp; <ruby>du<rt class="XXL_L">둘</rt></ruby>&nbsp;&nbsp;<ruby>spac<rt class="XXL_L">공간</rt></ruby>oj</p></body></html>

@@ -1,0 +1,858 @@
+{
+  "schema": 1,
+  "assignment_revision": "shtip-pensi-sankci-20261024",
+  "status": "CLOUD_SAMPLE_VERIFIED",
+  "passed": true,
+  "verified_utc": "2026-10-24T14:24:47.716Z",
+  "public_release": {
+    "merge_commit": "a21402421d11f055c56c90ed72b3f28010d0da0f",
+    "pr": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/68",
+    "cloud_internal_commit_directly_observed": false
+  },
+  "counts": {
+    "forward_expected": 18,
+    "forward_passed": 18,
+    "pure_text_exact": 6,
+    "html_body_and_metadata_exact_except_created_utc": 12,
+    "reverse_csv_expected": 4,
+    "reverse_csv_passed": 4,
+    "reverse_text_expected": 4,
+    "reverse_text_passed": 4
+  },
+  "browser_forward_routes": 18,
+  "browser_reverse_routes": 4,
+  "comparison_method": [
+    "Only created-utc in the leading HTML metadata comment is excluded from byte comparison; edition, signature, ruby mode and all remaining HTML bytes must match.",
+    "Pure TXT, reverse TXT and selected-edition CSV downloads are compared byte-for-byte without normalization."
+  ],
+  "limits": [
+    "Cloud browser checks use one reviewed sample across 18 forward routes and four reverse routes; exhaustive local rule and key audits are recorded separately.",
+    "Only created-utc in the leading HTML metadata comment is excluded from byte comparison; edition, signature, ruby mode and all remaining HTML bytes must match.",
+    "Pure TXT, reverse TXT and selected-edition CSV downloads are compared byte-for-byte without normalization.",
+    "Saved evidence filenames are standardized; original browser filenames are not independently certified by this report.",
+    "The public main merge commit identifies the released source. The internally running Streamlit Cloud commit was not directly retrieved; reflection is established by observed behavior and downloaded content.",
+    "Existing shared-spelling ambiguity and pre-existing local memmova/sene mismatch cases are not changed by this release.",
+    "Only fixed legacy and evolving current editions are supported; intermediate current assignments are not separate edition profiles."
+  ],
+  "forward_fixture_sha256": "ddfd41ea180d26052abf839dcad3953a2e43a9ac1abab23ab657cb4722138f46",
+  "reverse_fixture_sha256": "4b75f697ea82e0a12376f1640dbad3cff6582cc981b9e1a96519e3d29ba00f38",
+  "downloads": {
+    "forward": [
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "file": "JA_current_pure.txt",
+        "bytes": 403,
+        "passed": true,
+        "actual_sha256": "368f268f4cf46101b4d7191d9d034e777f3c455d7eeb950be9cc30b7f5bf1b85",
+        "local_download_sha256": "368f268f4cf46101b4d7191d9d034e777f3c455d7eeb950be9cc30b7f5bf1b85",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "expected_sha256": "368f268f4cf46101b4d7191d9d034e777f3c455d7eeb950be9cc30b7f5bf1b85",
+        "embedded_metadata": false
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "file": "JA_current_kanji.html",
+        "bytes": 5994,
+        "passed": true,
+        "actual_sha256": "c88ffdc20c1c041920feac555c9a6c4298b1030be0c189e8d3b8f1a5ed1bec9e",
+        "local_download_sha256": "02f84506f2a141a494a92fbcb5c6e41fbe203aaf58c5c8ee5c4556e8f0e52c1e",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "embedded_metadata": true,
+        "edition_id": "current",
+        "signature": "f30952c17f1bbcefe884313e355c5124c2e22dd8730bba82bc07bfc8d00e7986",
+        "ruby_mode": "kanji",
+        "created_utc": "2026-10-24T14:17:47.917950+00:00",
+        "fixture_created_utc": "2026-10-24T13:50:21.298104+00:00",
+        "timestamp_changed": true,
+        "body_sha256": "6630e8355aad8c4f9c74879877943fbc363eac221a006197941d4e71066ca772",
+        "expected_body_sha256": "6630e8355aad8c4f9c74879877943fbc363eac221a006197941d4e71066ca772",
+        "edition_signature_mode_match": true
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "ruby",
+        "file": "JA_current_ruby.html",
+        "bytes": 6353,
+        "passed": true,
+        "actual_sha256": "e3057a30b19545aa98713848a6decb8978f5eb2f1777bd9a7c7245ebd8bb97d8",
+        "local_download_sha256": "f4c56836181c9ec25087463ac211faca6573a3134eab6813b65c1dbbe0384682",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "embedded_metadata": true,
+        "edition_id": "current",
+        "signature": "321a8eb16ff8c2e5f9aa577a3f2fc654993916151b1bb969a4665e6b7ce1e8bc",
+        "ruby_mode": "annotation",
+        "created_utc": "2026-10-24T14:19:06.861182+00:00",
+        "fixture_created_utc": "2026-10-24T13:50:31.238231+00:00",
+        "timestamp_changed": true,
+        "body_sha256": "67766adb68852e774b54637dcae405c46c07ee6e1be6b30d2273c86241372a3b",
+        "expected_body_sha256": "67766adb68852e774b54637dcae405c46c07ee6e1be6b30d2273c86241372a3b",
+        "edition_signature_mode_match": true
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "pure",
+        "file": "JA_legacy_pure.txt",
+        "bytes": 414,
+        "passed": true,
+        "actual_sha256": "3b9d809e6fc5c9d32ceb527afe9a1fd6cf0ec9f103fa7260c57690e0a14b5cfd",
+        "local_download_sha256": "3b9d809e6fc5c9d32ceb527afe9a1fd6cf0ec9f103fa7260c57690e0a14b5cfd",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "expected_sha256": "3b9d809e6fc5c9d32ceb527afe9a1fd6cf0ec9f103fa7260c57690e0a14b5cfd",
+        "embedded_metadata": false
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "kanji",
+        "file": "JA_legacy_kanji.html",
+        "bytes": 6004,
+        "passed": true,
+        "actual_sha256": "8d39ae083f98585f9a8e1457df9d09fd8b99c5acf16a84e122dc9b72486dbae0",
+        "local_download_sha256": "72714d25d622b42867a2477cb5725ad7b94e98a8c880e4474e4e0043a908a6e0",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "embedded_metadata": true,
+        "edition_id": "legacy",
+        "signature": "adfc60b0b382eea77334646f2c3e5e6fc075e579438c87f0b90660ded5348afe",
+        "ruby_mode": "kanji",
+        "created_utc": "2026-10-24T14:20:42.343607+00:00",
+        "fixture_created_utc": "2026-10-24T13:50:50.815934+00:00",
+        "timestamp_changed": true,
+        "body_sha256": "e4317df51845710fb210a2fb54481322615a23854446bbe316d60fefa2a18d07",
+        "expected_body_sha256": "e4317df51845710fb210a2fb54481322615a23854446bbe316d60fefa2a18d07",
+        "edition_signature_mode_match": true
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "ruby",
+        "file": "JA_legacy_ruby.html",
+        "bytes": 6352,
+        "passed": true,
+        "actual_sha256": "a9da39f2656c168d0d46c39c6c790abffe653961b993f05251cfcd475a475d26",
+        "local_download_sha256": "18512f5756afafb6bcdd9b8d8087731df84a51750ffa95114a1cf2562bb3ef7c",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "embedded_metadata": true,
+        "edition_id": "legacy",
+        "signature": "1257aa1071bdb219bef42e4f4901260b2570e36b84983992bd570aa798696107",
+        "ruby_mode": "annotation",
+        "created_utc": "2026-10-24T14:21:33.985669+00:00",
+        "fixture_created_utc": "2026-10-24T13:50:59.685027+00:00",
+        "timestamp_changed": true,
+        "body_sha256": "67766adb68852e774b54637dcae405c46c07ee6e1be6b30d2273c86241372a3b",
+        "expected_body_sha256": "67766adb68852e774b54637dcae405c46c07ee6e1be6b30d2273c86241372a3b",
+        "edition_signature_mode_match": true
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "file": "ZH_current_pure.txt",
+        "bytes": 403,
+        "passed": true,
+        "actual_sha256": "368f268f4cf46101b4d7191d9d034e777f3c455d7eeb950be9cc30b7f5bf1b85",
+        "local_download_sha256": "368f268f4cf46101b4d7191d9d034e777f3c455d7eeb950be9cc30b7f5bf1b85",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "expected_sha256": "368f268f4cf46101b4d7191d9d034e777f3c455d7eeb950be9cc30b7f5bf1b85",
+        "embedded_metadata": false
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "file": "ZH_current_kanji.html",
+        "bytes": 4865,
+        "passed": true,
+        "actual_sha256": "2a676d974a55f58f21b0b7ed50af982df69c7deaa681693ac1a1da6e595bc81d",
+        "local_download_sha256": "a82b1c6a01c9c1cf24ccd3b0b57fc5951f02c567b29098172197163ac4bf9b4d",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "embedded_metadata": true,
+        "edition_id": "current",
+        "signature": "885f52f83253c58b072ef95e6f726ebad04e13f166fae6cf9878311f078223bf",
+        "ruby_mode": "kanji",
+        "created_utc": "2026-10-24T14:19:54.288346+00:00",
+        "fixture_created_utc": "2026-10-24T13:51:48.135012+00:00",
+        "timestamp_changed": true,
+        "body_sha256": "5daaac6b987b58edc472c7b6064d46025a9cb4221aed7a24a15f02ef36c5afdd",
+        "expected_body_sha256": "5daaac6b987b58edc472c7b6064d46025a9cb4221aed7a24a15f02ef36c5afdd",
+        "edition_signature_mode_match": true
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "ruby",
+        "file": "ZH_current_ruby.html",
+        "bytes": 5185,
+        "passed": true,
+        "actual_sha256": "6bebf9d333d856037fa944769698fe0c5ba804b09f93da9f427bb45ce90a6a24",
+        "local_download_sha256": "f76f7ebc3329a218aa69e15a2670b49ede3cf0282a90fa3d1c2bc8b6dc37a23d",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "embedded_metadata": true,
+        "edition_id": "current",
+        "signature": "3270068534f923ff70f29162f0898ddcde15d7a8276cc5fea797bbdc9d3a02ef",
+        "ruby_mode": "annotation",
+        "created_utc": "2026-10-24T14:20:43.592893+00:00",
+        "fixture_created_utc": "2026-10-24T13:51:56.433600+00:00",
+        "timestamp_changed": true,
+        "body_sha256": "ff1944f29afc0ab5c02854f9c207ab6981b07f101f0e777e72a3daa4294684d3",
+        "expected_body_sha256": "ff1944f29afc0ab5c02854f9c207ab6981b07f101f0e777e72a3daa4294684d3",
+        "edition_signature_mode_match": true
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "pure",
+        "file": "ZH_legacy_pure.txt",
+        "bytes": 414,
+        "passed": true,
+        "actual_sha256": "3b9d809e6fc5c9d32ceb527afe9a1fd6cf0ec9f103fa7260c57690e0a14b5cfd",
+        "local_download_sha256": "3b9d809e6fc5c9d32ceb527afe9a1fd6cf0ec9f103fa7260c57690e0a14b5cfd",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "expected_sha256": "3b9d809e6fc5c9d32ceb527afe9a1fd6cf0ec9f103fa7260c57690e0a14b5cfd",
+        "embedded_metadata": false
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "kanji",
+        "file": "ZH_legacy_kanji.html",
+        "bytes": 4875,
+        "passed": true,
+        "actual_sha256": "82714f74393d4cdde2156151e531c48e0630c30e58e6fb0100b60468d1aeade3",
+        "local_download_sha256": "a1a4ff036c6d140fde3f0be8070b885c230f5bbd07a5b783d996db27c43d9af2",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "embedded_metadata": true,
+        "edition_id": "legacy",
+        "signature": "fc5fe0962ad5ad6405b060e610d3462543a4afa960b42674355f1719266cfcb9",
+        "ruby_mode": "kanji",
+        "created_utc": "2026-10-24T14:22:08.895004+00:00",
+        "fixture_created_utc": "2026-10-24T13:52:14.624616+00:00",
+        "timestamp_changed": true,
+        "body_sha256": "a9d627e33adcb94b3251c7cc421b0085b5eb672fb9f0c30b17eaa0a42e426cb1",
+        "expected_body_sha256": "a9d627e33adcb94b3251c7cc421b0085b5eb672fb9f0c30b17eaa0a42e426cb1",
+        "edition_signature_mode_match": true
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "ruby",
+        "file": "ZH_legacy_ruby.html",
+        "bytes": 5184,
+        "passed": true,
+        "actual_sha256": "2cfa833009ac751106dc55f128381446fc94cd0001de0f169f2286c59c3e3bb3",
+        "local_download_sha256": "f18f8822f37abd7015c8bfa79c919028a0c7da0b0870391afd0ab4bc7ee645d4",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "embedded_metadata": true,
+        "edition_id": "legacy",
+        "signature": "bb0451b71b8e5026e888cb1ee4a11847669b116f8935d88aac73eff783c8255e",
+        "ruby_mode": "annotation",
+        "created_utc": "2026-10-24T14:22:39.391484+00:00",
+        "fixture_created_utc": "2026-10-24T13:52:23.076960+00:00",
+        "timestamp_changed": true,
+        "body_sha256": "ff1944f29afc0ab5c02854f9c207ab6981b07f101f0e777e72a3daa4294684d3",
+        "expected_body_sha256": "ff1944f29afc0ab5c02854f9c207ab6981b07f101f0e777e72a3daa4294684d3",
+        "edition_signature_mode_match": true
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "file": "KO_current_pure.txt",
+        "bytes": 403,
+        "passed": true,
+        "actual_sha256": "368f268f4cf46101b4d7191d9d034e777f3c455d7eeb950be9cc30b7f5bf1b85",
+        "local_download_sha256": "368f268f4cf46101b4d7191d9d034e777f3c455d7eeb950be9cc30b7f5bf1b85",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "expected_sha256": "368f268f4cf46101b4d7191d9d034e777f3c455d7eeb950be9cc30b7f5bf1b85",
+        "embedded_metadata": false
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "file": "KO_current_kanji.html",
+        "bytes": 5993,
+        "passed": true,
+        "actual_sha256": "b0198cfc607f6cac3c2d09f0bae8ebd00a529aa890c1d71686e66ef36503a96e",
+        "local_download_sha256": "bb9eaea5e9f026a463e4ed24e81543f9c63ece88c43dcff910b72611b70af755",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "embedded_metadata": true,
+        "edition_id": "current",
+        "signature": "5cbedeee8399a6049b087c84cac803fc0c2e9668433404d72a352e570d26b2e4",
+        "ruby_mode": "kanji",
+        "created_utc": "2026-10-24T14:19:55.467373+00:00",
+        "fixture_created_utc": "2026-10-24T13:53:04.670737+00:00",
+        "timestamp_changed": true,
+        "body_sha256": "eba2a8e3af74a8e3940f4d4cd09b55553a97f8b28fe677cde23fccb74a5ec7e6",
+        "expected_body_sha256": "eba2a8e3af74a8e3940f4d4cd09b55553a97f8b28fe677cde23fccb74a5ec7e6",
+        "edition_signature_mode_match": true
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "ruby",
+        "file": "KO_current_ruby.html",
+        "bytes": 6313,
+        "passed": true,
+        "actual_sha256": "834a2e4a4df073b13030e6c38848f1217ff06230518434c112b6cf68b0b31d4d",
+        "local_download_sha256": "8bfbbd9f3aef2fd0d8b1a40c7cbb28cffcaf59155df8b468f12e67fe18b0ad6f",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "embedded_metadata": true,
+        "edition_id": "current",
+        "signature": "37e04ee24068c5a063d27ef8e02329a49a67002fc2f7707c3b23a243488c1d17",
+        "ruby_mode": "annotation",
+        "created_utc": "2026-10-24T14:20:44.533183+00:00",
+        "fixture_created_utc": "2026-10-24T13:53:11.492810+00:00",
+        "timestamp_changed": true,
+        "body_sha256": "114f36e50e0c386d553285a8097aa28b541d8c5fcf3ec49c4585f8036a4a8272",
+        "expected_body_sha256": "114f36e50e0c386d553285a8097aa28b541d8c5fcf3ec49c4585f8036a4a8272",
+        "edition_signature_mode_match": true
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "pure",
+        "file": "KO_legacy_pure.txt",
+        "bytes": 414,
+        "passed": true,
+        "actual_sha256": "3b9d809e6fc5c9d32ceb527afe9a1fd6cf0ec9f103fa7260c57690e0a14b5cfd",
+        "local_download_sha256": "3b9d809e6fc5c9d32ceb527afe9a1fd6cf0ec9f103fa7260c57690e0a14b5cfd",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "expected_sha256": "3b9d809e6fc5c9d32ceb527afe9a1fd6cf0ec9f103fa7260c57690e0a14b5cfd",
+        "embedded_metadata": false
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "kanji",
+        "file": "KO_legacy_kanji.html",
+        "bytes": 6003,
+        "passed": true,
+        "actual_sha256": "7039432d52473a78867c56cf25ddc1539d5698a3b2932e3b9d1371e5aad6ab81",
+        "local_download_sha256": "e44414689e460fcfb3f5090785ec310310efc1c5cea773fee29fb83281dc1184",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "embedded_metadata": true,
+        "edition_id": "legacy",
+        "signature": "ea1f301314215f125bb30577cf6150f3bf350a081fd817f68956f4fb9a096cc1",
+        "ruby_mode": "kanji",
+        "created_utc": "2026-10-24T14:22:09.802675+00:00",
+        "fixture_created_utc": "2026-10-24T13:53:24.978158+00:00",
+        "timestamp_changed": true,
+        "body_sha256": "25fb53d6720c00f1669862ce16c09b9a0fb25468b7b44e2b4191240d77310ddc",
+        "expected_body_sha256": "25fb53d6720c00f1669862ce16c09b9a0fb25468b7b44e2b4191240d77310ddc",
+        "edition_signature_mode_match": true
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "ruby",
+        "file": "KO_legacy_ruby.html",
+        "bytes": 6312,
+        "passed": true,
+        "actual_sha256": "89dd1d5fddaaf05bfdbd4ac43dfefa6bf5b78791d5dfc8980bf87dd6da2bf717",
+        "local_download_sha256": "c27ead5c9958386bfdabf4359d8e68bbfd237213f3bdf220e1df7ad714322d88",
+        "fixture_hash_match": true,
+        "body_exact_match": true,
+        "embedded_metadata": true,
+        "edition_id": "legacy",
+        "signature": "ce822939a90a05ffe64f68f3a3f46d95137ce54960451b443c8d9d1b90cd2131",
+        "ruby_mode": "annotation",
+        "created_utc": "2026-10-24T14:22:40.557987+00:00",
+        "fixture_created_utc": "2026-10-24T13:53:30.921483+00:00",
+        "timestamp_changed": true,
+        "body_sha256": "114f36e50e0c386d553285a8097aa28b541d8c5fcf3ec49c4585f8036a4a8272",
+        "expected_body_sha256": "114f36e50e0c386d553285a8097aa28b541d8c5fcf3ec49c4585f8036a4a8272",
+        "edition_signature_mode_match": true
+      }
+    ],
+    "reverse_csv": [
+      {
+        "language": "JA",
+        "edition": "current",
+        "file": "reverse_JA_current.csv",
+        "bytes": 317777,
+        "passed": true,
+        "actual_sha256": "f016eab84c767fb0b2ce22e3138bc7adb06cfca081e55295039ba04ae7d50ec4",
+        "reference_sha256": "f016eab84c767fb0b2ce22e3138bc7adb06cfca081e55295039ba04ae7d50ec4",
+        "provenance_sha256": "6cfad86ad75cba97e11d1de0be19c60c9e30be234aa29556519f29428640a324",
+        "provenance_csv_sha256": "f016eab84c767fb0b2ce22e3138bc7adb06cfca081e55295039ba04ae7d50ec4",
+        "byte_exact_match": true
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "file": "reverse_JA_legacy.csv",
+        "bytes": 306934,
+        "passed": true,
+        "actual_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "reference_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "provenance_sha256": "41c12930485b31d02499965eeb7b8f73f80ec7361aea2252b79fe1c074034762",
+        "provenance_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "byte_exact_match": true
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "file": "reverse_ZH_current.csv",
+        "bytes": 317777,
+        "passed": true,
+        "actual_sha256": "f016eab84c767fb0b2ce22e3138bc7adb06cfca081e55295039ba04ae7d50ec4",
+        "reference_sha256": "f016eab84c767fb0b2ce22e3138bc7adb06cfca081e55295039ba04ae7d50ec4",
+        "provenance_sha256": "6cfad86ad75cba97e11d1de0be19c60c9e30be234aa29556519f29428640a324",
+        "provenance_csv_sha256": "f016eab84c767fb0b2ce22e3138bc7adb06cfca081e55295039ba04ae7d50ec4",
+        "byte_exact_match": true
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "file": "reverse_ZH_legacy.csv",
+        "bytes": 306934,
+        "passed": true,
+        "actual_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "reference_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "provenance_sha256": "41c12930485b31d02499965eeb7b8f73f80ec7361aea2252b79fe1c074034762",
+        "provenance_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "byte_exact_match": true
+      }
+    ],
+    "reverse_text": [
+      {
+        "language": "JA",
+        "edition": "current",
+        "file": "reverse_JA_current.txt",
+        "bytes": 459,
+        "passed": true,
+        "actual_sha256": "d7d88f35ec22142b18f8a49f28ecb3bfc4c8e8329e88fb568a5c7e1d1bfeed57",
+        "expected_sha256": "d7d88f35ec22142b18f8a49f28ecb3bfc4c8e8329e88fb568a5c7e1d1bfeed57",
+        "byte_exact_match": true,
+        "source_input_sha256": "f8c350689fb30b881b59557b0eb2e605bb494d4f38989cf2d80bdba3a31785e3",
+        "expected_csv_sha256": "f016eab84c767fb0b2ce22e3138bc7adb06cfca081e55295039ba04ae7d50ec4"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "file": "reverse_JA_legacy.txt",
+        "bytes": 459,
+        "passed": true,
+        "actual_sha256": "d7d88f35ec22142b18f8a49f28ecb3bfc4c8e8329e88fb568a5c7e1d1bfeed57",
+        "expected_sha256": "d7d88f35ec22142b18f8a49f28ecb3bfc4c8e8329e88fb568a5c7e1d1bfeed57",
+        "byte_exact_match": true,
+        "source_input_sha256": "9d8fa122086052713e7181c158b726da5da4d90f449a96291b2c028f92cb2bff",
+        "expected_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "file": "reverse_ZH_current.txt",
+        "bytes": 459,
+        "passed": true,
+        "actual_sha256": "d7d88f35ec22142b18f8a49f28ecb3bfc4c8e8329e88fb568a5c7e1d1bfeed57",
+        "expected_sha256": "d7d88f35ec22142b18f8a49f28ecb3bfc4c8e8329e88fb568a5c7e1d1bfeed57",
+        "byte_exact_match": true,
+        "source_input_sha256": "f8c350689fb30b881b59557b0eb2e605bb494d4f38989cf2d80bdba3a31785e3",
+        "expected_csv_sha256": "f016eab84c767fb0b2ce22e3138bc7adb06cfca081e55295039ba04ae7d50ec4"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "file": "reverse_ZH_legacy.txt",
+        "bytes": 459,
+        "passed": true,
+        "actual_sha256": "d7d88f35ec22142b18f8a49f28ecb3bfc4c8e8329e88fb568a5c7e1d1bfeed57",
+        "expected_sha256": "d7d88f35ec22142b18f8a49f28ecb3bfc4c8e8329e88fb568a5c7e1d1bfeed57",
+        "byte_exact_match": true,
+        "source_input_sha256": "9d8fa122086052713e7181c158b726da5da4d90f449a96291b2c028f92cb2bff",
+        "expected_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+      }
+    ]
+  },
+  "browser_observations": {
+    "passed": true,
+    "forward": [
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "download_file": "JA_current_pure.txt",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "download_file": "JA_current_kanji.html",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "ruby",
+        "download_file": "JA_current_ruby.html",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "download_file": "ZH_current_pure.txt",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "download_file": "KO_current_pure.txt",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "pure",
+        "download_file": "JA_legacy_pure.txt",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "download_file": "ZH_current_kanji.html",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "download_file": "KO_current_kanji.html",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "kanji",
+        "download_file": "JA_legacy_kanji.html",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "ruby",
+        "download_file": "ZH_current_ruby.html",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "ruby",
+        "download_file": "KO_current_ruby.html",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "ruby",
+        "download_file": "JA_legacy_ruby.html",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "pure",
+        "download_file": "ZH_legacy_pure.txt",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "pure",
+        "download_file": "KO_legacy_pure.txt",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "kanji",
+        "download_file": "ZH_legacy_kanji.html",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "kanji",
+        "download_file": "KO_legacy_kanji.html",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "ruby",
+        "download_file": "ZH_legacy_ruby.html",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "ruby",
+        "download_file": "KO_legacy_ruby.html",
+        "source_preserved": true,
+        "edition_verified": true,
+        "filename_verified": true,
+        "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/"
+      }
+    ],
+    "reverse": [
+      {
+        "language": "JA",
+        "edition": "current",
+        "download_file": "reverse_JA_current.txt",
+        "csv_file": "reverse_JA_current.csv",
+        "result_matches": true,
+        "download_matches": true,
+        "csv_matches": true,
+        "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "download_file": "reverse_ZH_current.txt",
+        "csv_file": "reverse_ZH_current.csv",
+        "result_matches": true,
+        "download_matches": true,
+        "csv_matches": true,
+        "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "download_file": "reverse_JA_legacy.txt",
+        "csv_file": "reverse_JA_legacy.csv",
+        "result_matches": true,
+        "download_matches": true,
+        "csv_matches": true,
+        "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "download_file": "reverse_ZH_legacy.txt",
+        "csv_file": "reverse_ZH_legacy.csv",
+        "result_matches": true,
+        "download_matches": true,
+        "csv_matches": true,
+        "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/"
+      }
+    ]
+  },
+  "screenshots": [
+    "cloud_ja_current.jpg"
+  ],
+  "evidence_files": [
+    {
+      "file": "JA_current_kanji.html",
+      "bytes": 5994,
+      "sha256": "c88ffdc20c1c041920feac555c9a6c4298b1030be0c189e8d3b8f1a5ed1bec9e"
+    },
+    {
+      "file": "JA_current_pure.txt",
+      "bytes": 403,
+      "sha256": "368f268f4cf46101b4d7191d9d034e777f3c455d7eeb950be9cc30b7f5bf1b85"
+    },
+    {
+      "file": "JA_current_ruby.html",
+      "bytes": 6353,
+      "sha256": "e3057a30b19545aa98713848a6decb8978f5eb2f1777bd9a7c7245ebd8bb97d8"
+    },
+    {
+      "file": "JA_legacy_kanji.html",
+      "bytes": 6004,
+      "sha256": "8d39ae083f98585f9a8e1457df9d09fd8b99c5acf16a84e122dc9b72486dbae0"
+    },
+    {
+      "file": "JA_legacy_pure.txt",
+      "bytes": 414,
+      "sha256": "3b9d809e6fc5c9d32ceb527afe9a1fd6cf0ec9f103fa7260c57690e0a14b5cfd"
+    },
+    {
+      "file": "JA_legacy_ruby.html",
+      "bytes": 6352,
+      "sha256": "a9da39f2656c168d0d46c39c6c790abffe653961b993f05251cfcd475a475d26"
+    },
+    {
+      "file": "KO_current_kanji.html",
+      "bytes": 5993,
+      "sha256": "b0198cfc607f6cac3c2d09f0bae8ebd00a529aa890c1d71686e66ef36503a96e"
+    },
+    {
+      "file": "KO_current_pure.txt",
+      "bytes": 403,
+      "sha256": "368f268f4cf46101b4d7191d9d034e777f3c455d7eeb950be9cc30b7f5bf1b85"
+    },
+    {
+      "file": "KO_current_ruby.html",
+      "bytes": 6313,
+      "sha256": "834a2e4a4df073b13030e6c38848f1217ff06230518434c112b6cf68b0b31d4d"
+    },
+    {
+      "file": "KO_legacy_kanji.html",
+      "bytes": 6003,
+      "sha256": "7039432d52473a78867c56cf25ddc1539d5698a3b2932e3b9d1371e5aad6ab81"
+    },
+    {
+      "file": "KO_legacy_pure.txt",
+      "bytes": 414,
+      "sha256": "3b9d809e6fc5c9d32ceb527afe9a1fd6cf0ec9f103fa7260c57690e0a14b5cfd"
+    },
+    {
+      "file": "KO_legacy_ruby.html",
+      "bytes": 6312,
+      "sha256": "89dd1d5fddaaf05bfdbd4ac43dfefa6bf5b78791d5dfc8980bf87dd6da2bf717"
+    },
+    {
+      "file": "ZH_current_kanji.html",
+      "bytes": 4865,
+      "sha256": "2a676d974a55f58f21b0b7ed50af982df69c7deaa681693ac1a1da6e595bc81d"
+    },
+    {
+      "file": "ZH_current_pure.txt",
+      "bytes": 403,
+      "sha256": "368f268f4cf46101b4d7191d9d034e777f3c455d7eeb950be9cc30b7f5bf1b85"
+    },
+    {
+      "file": "ZH_current_ruby.html",
+      "bytes": 5185,
+      "sha256": "6bebf9d333d856037fa944769698fe0c5ba804b09f93da9f427bb45ce90a6a24"
+    },
+    {
+      "file": "ZH_legacy_kanji.html",
+      "bytes": 4875,
+      "sha256": "82714f74393d4cdde2156151e531c48e0630c30e58e6fb0100b60468d1aeade3"
+    },
+    {
+      "file": "ZH_legacy_pure.txt",
+      "bytes": 414,
+      "sha256": "3b9d809e6fc5c9d32ceb527afe9a1fd6cf0ec9f103fa7260c57690e0a14b5cfd"
+    },
+    {
+      "file": "ZH_legacy_ruby.html",
+      "bytes": 5184,
+      "sha256": "2cfa833009ac751106dc55f128381446fc94cd0001de0f169f2286c59c3e3bb3"
+    },
+    {
+      "file": "cloud_ja_current.jpg",
+      "bytes": 59194,
+      "sha256": "808c25ccdd5614982f31430468d02a7149c520da6dccae06be4a1e967347b0fe"
+    },
+    {
+      "file": "reverse_JA_current.csv",
+      "bytes": 317777,
+      "sha256": "f016eab84c767fb0b2ce22e3138bc7adb06cfca081e55295039ba04ae7d50ec4"
+    },
+    {
+      "file": "reverse_JA_current.txt",
+      "bytes": 459,
+      "sha256": "d7d88f35ec22142b18f8a49f28ecb3bfc4c8e8329e88fb568a5c7e1d1bfeed57"
+    },
+    {
+      "file": "reverse_JA_legacy.csv",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+    },
+    {
+      "file": "reverse_JA_legacy.txt",
+      "bytes": 459,
+      "sha256": "d7d88f35ec22142b18f8a49f28ecb3bfc4c8e8329e88fb568a5c7e1d1bfeed57"
+    },
+    {
+      "file": "reverse_ZH_current.csv",
+      "bytes": 317777,
+      "sha256": "f016eab84c767fb0b2ce22e3138bc7adb06cfca081e55295039ba04ae7d50ec4"
+    },
+    {
+      "file": "reverse_ZH_current.txt",
+      "bytes": 459,
+      "sha256": "d7d88f35ec22142b18f8a49f28ecb3bfc4c8e8329e88fb568a5c7e1d1bfeed57"
+    },
+    {
+      "file": "reverse_ZH_legacy.csv",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+    },
+    {
+      "file": "reverse_ZH_legacy.txt",
+      "bytes": 459,
+      "sha256": "d7d88f35ec22142b18f8a49f28ecb3bfc4c8e8329e88fb568a5c7e1d1bfeed57"
+    }
+  ]
+}
