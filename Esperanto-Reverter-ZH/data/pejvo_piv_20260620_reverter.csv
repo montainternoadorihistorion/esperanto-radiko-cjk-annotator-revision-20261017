@@ -4748,7 +4748,6 @@ enciklopedi,典ᴱ,0,enciklopedi,3784
 bred,养ᴮ,0,bred,3494
 trofi,养ᵀ,0,trofi,3496
 vart,养ⱽ,0,vart,3495
-pensi,养老,0,pensi,5279
 aliment,养费,0,aliment,8686
 serval,兽ˢ,0,serval,1487
 animal,兽ᴬ,0,animal,1440
@@ -4887,7 +4886,6 @@ profit,利ᴾ,0,profit,3381
 rugin,刮ᴿ,0,rugin,3880
 kuret,刮匙,0,kuret,7182
 uniform,制服,0,uniform,5402
-sankci,制裁,0,sankci,7462
 tan,制革,0,tan,6523
 strigl,刷ˢ,0,strigl,3826
 bil,券ᴮ,0,bil,5746
@@ -5243,7 +5241,6 @@ skem,图ˢ,0,skem,3668
 grafik,图ᴳ,0,grafik,3669
 ilustr,图ᴵ,0,ilustr,3667
 cirkl,圆ᶜ,0,cirkl,2079
-ŝtip,圆木,0,ŝtip,5948
 cilindr,圆柱,0,cilindr,6139
 vals,圆舞,0,vals,7534
 strongil,圆虫,0,strongil,7831
@@ -5600,6 +5597,7 @@ pemikan,干肉,0,pemikan,8244
 fojn,干草,0,fojn,3753
 nivel,平ᴺ,0,nivel,2970
 remi,平局,0,remi,8672
+pensi,年金,0,pensi,5279
 aneks,并ᴬ,0,aneks,5151
 halucin,幻ᴴ,0,halucin,3693
 iluzi,幻ᴵ,0,iluzi,3690
@@ -6111,6 +6109,7 @@ ceib,木ᶜ,0,ceib,405
 flog,木ᶠ,0,flog,407
 zelkov,木ᶻ,0,zelkov,536
 viburn,木ⱽ,0,viburn,372
+ŝtip,木块,0,ŝtip,5948
 suber,木栓,0,suber,8386
 kapok,木棉,0,kapok,6904
 papaj,木瓜,0,papaj,6566
@@ -7680,6 +7679,7 @@ kut,袍ᴷ,0,kut,4364
 tunik,袍ᵀ,0,tunik,4363
 frok,袍ᶠ,0,frok,4365
 pasiv,被ᴾ,0,pasiv,5154
+sankci,裁ˢ,0,sankci,7462
 arbitraci,裁ᴬ,0,arbitraci,4414
 diskreci,裁量,0,diskreci,8657
 skism,裂ˢ,0,skism,2862
