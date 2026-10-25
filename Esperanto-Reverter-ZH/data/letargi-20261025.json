@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "revision": "2026-10-25-letargi",
+  "baseline": "d533eca4c37fd6d959a613695a2e8dd08c724672",
+  "changes": {
+    "letargi": [
+      "嗜睡",
+      "昏睡"
+    ]
+  },
+  "canonical_sidecar_sha256": "2d49bdcbd30b6156a700cf9b65c7fd9c7223f94572df1e4aa9dcf8e1406e10b6",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "be3d1bf4b1b3435f57ac1da8389dfb360329e38709a1775c42be986e71b6c96a",
+  "baseline_target_items": {
+    "letargi": {
+      "prefix": "letargi",
+      "body": "嗜睡",
+      "kanji": "嗜睡",
+      "detail": "letargi → 嗜睡 (pejvo, F=2, 基本形)",
+      "documentation": "語根: letargi\n入力: letargi\n最終形: 嗜睡\n漢字: 嗜睡\n識別子: なし\n型: pejvo\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7705",
+      "priority": 0,
+      "sourceRoot": "letargi",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 7705
+    }
+  },
+  "expected_target_items": {
+    "letargi": {
+      "prefix": "letargi",
+      "body": "昏睡",
+      "kanji": "昏睡",
+      "detail": "letargi → 昏睡 (pejvo, F=2, 基本形)",
+      "documentation": "語根: letargi\n入力: letargi\n最終形: 昏睡\n漢字: 昏睡\n識別子: なし\n型: pejvo\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7705",
+      "priority": 0,
+      "sourceRoot": "letargi",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 7705
+    }
+  },
+  "unrelated_items_sha256": "0b262ab92fcf0d3b8a6f2dc4aa7e073fa9b4d868fd9ef6a6eb8f24d9fc3b196b",
+  "unrelated_items_count": 10639,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {},
+  "assignment_unchanged_item_count": 10639,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "letargi"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "letargi": "User approved 昏睡: reflect the original PIV deep-sleep sense; share 昏 with existing consciousness-related roots, reduce 26 to 21 strokes, and remove dedicated 嗜. Preserve lethargy/apathy annotations.",
+    "emeritur": "User prefers retaining 退 in view of emerit=退; emerit=退 and emeritur=退休金 are unchanged."
+  },
+  "preserved_controls": {
+    "退": "emerit",
+    "退休金": "emeritur",
+    "昏": "sven",
+    "睡": "dorm"
+  },
+  "explicit_retained": {
+    "emerit": "退",
+    "emeritur": "退休金"
+  },
+  "shared_spelling": {
+    "昏睡": [
+      "sven+dorm",
+      "letargi"
+    ]
+  }
+}
