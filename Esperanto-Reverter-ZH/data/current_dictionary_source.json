@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "2026-10-25-letargi",
+  "revision": "2026-10-25-madz-tribord",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "13e8691233da88c605f2d37ea4faa608ee9fca787b4f9fedb0ae24f9f61a0267",
+  "monaco_all_sha256": "18d69587308d6824795f3d1c2c8d0d3cc8a9f599d970129ca2b9d221d181abe5",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "2d49bdcbd30b6156a700cf9b65c7fd9c7223f94572df1e4aa9dcf8e1406e10b6",
+  "canonical_sidecar_sha256": "e8764049b947a9cb278b2489304f6326fe57cf6c2c4a142a36b610858b9d866e",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -308,10 +308,18 @@
     "letargi": {
       "old": "嗜睡",
       "current": "昏睡"
+    },
+    "madz": {
+      "old": "钉头锤",
+      "current": "棍ᴹ"
+    },
+    "tribord": {
+      "old": "右边",
+      "current": "船右"
     }
   },
-  "current_csv_sha256": "adbbeba88f74ec5fe55019612d3f6f4efd4f9971c02feea9f834479daec42d4c",
-  "current_snippet_csv_sha256": "e08841868c35c19441bcabbb547f107997b96cb0ed3c5e6880589b123ecbb065",
+  "current_csv_sha256": "c5904efd0f48e4678f98951d19b82d6d0afbfd33b0c247604b3415af75f30f3a",
+  "current_snippet_csv_sha256": "a1ce3eb09a09e78aafabd206c229cea19028de29d45512c3be7d112ffb18d21a",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -449,5 +457,7 @@
   "armatur_reeds_manifest": "data/armatur-reeds-20261025.json",
   "armatur_reeds_manifest_sha256": "351bc4b0060ac10dfd9b5c200bb2d3ac00d6f674a8db8621da4fdf75ea40ce23",
   "letargi_manifest": "data/letargi-20261025.json",
-  "letargi_manifest_sha256": "4d0ca63cb7e556a1f6e92e304a912e9c47090086253a8a116aaf8ae1a3f40578"
+  "letargi_manifest_sha256": "4d0ca63cb7e556a1f6e92e304a912e9c47090086253a8a116aaf8ae1a3f40578",
+  "madz_tribord_manifest": "data/madz-tribord-20261025.json",
+  "madz_tribord_manifest_sha256": "148bf6bb51d9d891d532a477a375bb7afe945e2d4e9179ee7972046aeea9245f"
 }

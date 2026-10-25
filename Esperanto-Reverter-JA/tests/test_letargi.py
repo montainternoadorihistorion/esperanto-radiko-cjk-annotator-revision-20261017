@@ -43,7 +43,8 @@ def test_shared_composition_and_two_editions():
 def test_source_manifest_downloads():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     path=app.ROOT/source['letargi_manifest']; manifest=json.loads(path.read_bytes())
-    assert source['revision']==manifest['revision']=='2026-10-25-letargi'
+    assert source['revision']=='2026-10-25-madz-tribord'
+    assert manifest['revision']=='2026-10-25-letargi'
     assert manifest['changes']=={'letargi':['嗜睡','昏睡']}
     assert manifest['safe_reverse_aliases']==manifest['ownership_transfers']=={}
     assert manifest['assignment_unchanged_item_count']==10639
