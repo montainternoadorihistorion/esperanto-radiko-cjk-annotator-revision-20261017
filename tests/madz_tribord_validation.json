@@ -4,7 +4,27 @@
   "previous_release_commit": "c6f4d89c60cd819bccb08533299532d009476a06",
   "status": "LOCAL_VALIDATION_PASSED",
   "cloud_validation": {
-    "status": "NOT_YET_VERIFIED"
+    "status": "CLOUD_SAMPLE_VERIFIED",
+    "verified_utc": "2026-10-25T12:16:24.906721+00:00",
+    "public_merge_commit": "5bd08e5378b686f47c8671584eaa8f8394bb947d",
+    "public_pr": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/72",
+    "cloud_internal_commit_directly_observed": false,
+    "browser_forward_routes": 18,
+    "browser_reverse_routes": 4,
+    "matched_downloads": 26,
+    "html_timestamp_only_difference": true,
+    "pure_txt_inverse_txt_and_csv_byte_exact": true,
+    "report": "madz_tribord_cloud/verification.json",
+    "representative_screenshot": "madz_tribord_cloud/cloud_ja_current.jpg",
+    "limits": [
+      "Actual Cloud browser records and downloaded files are compared against local fixtures. This sample is 18 forward routes and four inverse routes, not all possible sentences.",
+      "Only the leading HTML metadata created-utc value may differ; edition, signature, ruby mode, all other HTML bytes, and DOM source output must match.",
+      "Pure TXT, inverse TXT and selected-edition CSV files match byte-for-byte without newline, BOM, spacing, case or identifier normalization.",
+      "Evidence files use standardized names. Original browser download filenames are not independently certified by this report.",
+      "The internal running Cloud commit was not directly observed. Deployment reflection is established by observed behavior and downloaded data.",
+      "madz uses 棍ᴹ and klab retains bare 棍. 船右 is also emitted by unchanged ŝip+dekstr; the new whole-root key prioritizes tribord. Shared-spelling ambiguity is accepted; successful samples do not imply every text has a unique inverse.",
+      "Fixed legacy and evolving current are the two supported editions. Intermediate assignment revisions are not separate edition profiles."
+    ]
   },
   "adopted": {
     "madz": [

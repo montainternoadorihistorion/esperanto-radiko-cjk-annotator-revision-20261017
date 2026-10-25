@@ -6,7 +6,7 @@
 
 新版に `madz＝棍ᴹ`、`tribord＝船右` を反映しました。madzは既存のklab＝棍と共用し、釘状の突起を必須としない棍棒・儀杖の意味に合わせて25→12画へ短縮します。tribordは6画増えますが、右舷を明示してbabord＝船左と対にします。`proces＝程ᴾᶜ`、`procez＝程ᴾᶻ` は共通語源と語義のつながり、既存用例を考慮して維持します。[採用・維持の理由](tests/madz_tribord_decision.txt)
 
-固定旧版、注釈、既存の語根分解、他の識別子、自作JSONの扱いは維持しています。変換表全行、新旧の通常・@変換、逆変換と識別子の境界を検証しました。[ローカル検証記録](tests/madz_tribord_validation.json)を保存しています。今回の公開版のCloud確認はまだ完了していません。
+固定旧版、注釈、既存の語根分解、他の識別子、自作JSONの扱いは維持しています。変換表全行、新旧の通常・@変換、逆変換と識別子の境界を検証しました。[ローカル検証記録](tests/madz_tribord_validation.json)を保存しています。Streamlit Cloudでも日中韓×新旧×3モードの順変換18経路と、日中×新旧の逆変換4経路を実際の画面で確認しました。対応する26ダウンロードも照合し、TXT・CSVは全バイト、HTMLは作成時刻だけを除いて版・署名・本文が一致しました。[Cloud確認記録](tests/madz_tribord_cloud/verification.json)と[代表画面](tests/madz_tribord_cloud/cloud_ja_current.jpg)を保存しています。全表・全逆キーの検査はローカル検証、Cloudは代表入力での確認です。
 
 ## 昏睡への割り当て更新（2026-10-25）
 
