@@ -4,7 +4,31 @@
   "previous_release_commit": "96b7f71fb120b7d1a6ece4862b2f3969a80ba2be",
   "status": "LOCAL_VALIDATION_PASSED",
   "cloud_validation": {
-    "status": "NOT_YET_VERIFIED"
+    "status": "CLOUD_SAMPLE_VERIFIED",
+    "verified_utc": "2026-10-25T01:35:49.278Z",
+    "public_merge_commit": "a3af88c061ef5a5d5a994e6848d29971379c4a4d",
+    "public_pr": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/69",
+    "cloud_internal_commit_directly_observed": false,
+    "browser_forward_routes": 18,
+    "browser_reverse_routes": 4,
+    "forward_downloads_matched": 18,
+    "reverse_csv_downloads_matched": 4,
+    "reverse_result_downloads_matched": 4,
+    "comparison_method": [
+      "Only created-utc in the leading HTML metadata comment is excluded from byte comparison; edition, signature, ruby mode and all remaining HTML bytes must match.",
+      "Pure TXT, reverse TXT and selected-edition CSV downloads are compared byte-for-byte without normalization."
+    ],
+    "limits": [
+      "Cloud browser checks use one reviewed sample across 18 forward routes and four reverse routes; exhaustive local rule and key audits are recorded separately.",
+      "Only created-utc in the leading HTML metadata comment is excluded from byte comparison; edition, signature, ruby mode and all remaining HTML bytes must match.",
+      "Pure TXT, reverse TXT and selected-edition CSV downloads are compared byte-for-byte without normalization.",
+      "Saved evidence filenames are standardized; original browser filenames are not independently certified by this report.",
+      "The public main merge commit identifies the released source. The internally running Streamlit Cloud commit was not directly retrieved; reflection is established by observed behavior and downloaded content.",
+      "Current plain inverse shares 船底 between karen and ŝip+fund, and 恶心 between naŭz and malic+kor. New exact-root keys take priority; the original compound segmentation remains in forward conversion and ruby HTML. Matching expected plain output does not certify unique reconstruction. Other unrelated pre-existing mismatches remain outside this release.",
+      "Synthetic unknown 龙骨ᴷᴿᴺ retains the pre-existing output drak骨ᴷᴿᴺ in both editions; this report does not claim that every unknown annotated string stays wholly unchanged. The other supplied negative controls 拱ᶠᴿ and 至ᴬᴷ remain entirely unchanged.",
+      "Only fixed legacy and evolving current editions are supported; intermediate current assignments are not separate edition profiles."
+    ],
+    "report": "four_assignments_cloud/verification.json"
   },
   "adopted": {
     "almenaŭ": {

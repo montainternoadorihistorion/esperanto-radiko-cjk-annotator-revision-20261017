@@ -1,0 +1,110 @@
+<!-- assignment-edition:legacy signature:ea1f301314215f125bb30577cf6150f3bf350a081fd817f68956f4fb9a096cc1 created-utc:2026-10-25T01:34:40.818631+00:00 -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에스페란토 어근 분해 루비 주석 텍스트</title>
+    <style>
+
+    html, body {
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+  
+      :root {
+        --ruby-color: blue;
+        --ruby-font-size: 0.5em;
+      }
+      html {
+        font-size: 100%; /* 多くのブラウザは16px相当が標準 */
+      }
+
+      .text-M_M {
+        font-size: 1rem!important; 
+        font-family: Arial, sans-serif;
+        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */
+        display: block; /* ブロック要素として扱う */
+        position: relative;
+      }
+  
+      /* ▼ ルビ（フレックスでルビを上に表示） */
+      ruby {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        vertical-align: top !important;
+        line-height: 2.0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 1rem !important;
+      }
+  
+      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */
+      rt {
+        display: block !important;
+        font-size: var(--ruby-font-size);
+        color: var(--ruby-color);
+        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/
+        text-align: center;
+        /* margin-top: 0.2em !important;   
+        transform: translateY(0.4em) !important; */
+      }
+      rt.XXXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }    
+      rt.XXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }
+      rt.XS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -6.1em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.S_S {
+        --ruby-font-size: 0.4em;
+        margin-top: -4.85em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.M_M {
+        --ruby-font-size: 0.5em;
+        margin-top: -4.00em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.L_L {
+        --ruby-font-size: 0.6em; 
+        margin-top: -3.55em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XL_L {
+        --ruby-font-size: 0.7em;
+        margin-top: -3.20em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XXL_L {
+        --ruby-font-size: 0.8em;
+        margin-top: -2.80em !important;
+        transform: translateY(-0.0em) !important;
+      }
+  
+    </style>
+  <meta name="esperanto-ruby-mode" content="kanji">
+</head>
+  <body>
+  <p class="text-M_M">
+<ruby>至ᴬ<rt class="XS_S">Almenaŭ</rt></ruby> <ruby>至ᴬ<rt class="XS_S">almenaŭ</rt></ruby> <ruby>至ᴬ<rt class="XS_S">almenaŭ</rt></ruby>.<br>
+<ruby>脑弓<rt class="M_M">Forniks</rt></ruby>o <ruby>脑弓<rt class="L_L">forniks</rt></ruby>oj <ruby>脑弓<rt class="L_L">forniks</rt></ruby>a <ruby>脑弓<rt class="L_L">forniks</rt></ruby>. <ruby>脑弓<rt class="L_L">forniks</rt></ruby>o <ruby>脑弓<rt class="L_L">forniks</rt></ruby>a <ruby>脑弓<rt class="L_L">forniks</rt></ruby><br>
+<ruby>脑<rt class="S_S">cerb</rt></ruby>a <ruby>脑弓<rt class="L_L">forniks</rt></ruby>o <ruby>结膜<rt class="S_S">konjunktiv</rt></ruby>a <ruby>脑弓<rt class="L_L">forniks</rt></ruby>o <ruby>阴道<rt class="XL_L">vagin</rt></ruby>a <ruby>脑弓<rt class="L_L">forniks</rt></ruby>o.<br>
+<ruby>龙骨ᴷᴿ<rt class="XXL_L">Karen</rt></ruby>o <ruby>龙骨ᴷᴿ<rt class="XXL_L">karen</rt></ruby>oj <ruby>龙骨ᴷᴿ<rt class="XXL_L">karen</rt></ruby>a <ruby>龙骨ᴷᴿ<rt class="XXL_L">karen</rt></ruby>i <ruby>龙骨ᴷᴿ<rt class="XXL_L">karen</rt></ruby><ruby>形<rt class="S_S">form</rt></ruby>a <ruby>龙骨ᴷᴿ<rt class="XXL_L">karen</rt></ruby>. <ruby>龙骨ᴷᴿ<rt class="XXL_L">karen</rt></ruby>o <ruby>龙骨ᴷᴿ<rt class="XXL_L">karen</rt></ruby>i <ruby>龙骨ᴷᴿ<rt class="XXL_L">karen</rt></ruby><ruby>形<rt class="S_S">form</rt></ruby>a <ruby>龙骨ᴷᴿ<rt class="XXL_L">karen</rt></ruby><br>
+<ruby>呕<rt class="XS_S">Naŭz</rt></ruby>o <ruby>呕<rt class="S_S">naŭz</rt></ruby>a <ruby>呕<rt class="S_S">naŭz</rt></ruby>i <ruby>呕<rt class="S_S">naŭz</rt></ruby>as <ruby>呕<rt class="S_S">naŭz</rt></ruby>. <ruby>呕<rt class="S_S">naŭz</rt></ruby>o <ruby>呕<rt class="S_S">naŭz</rt></ruby>a <ruby>呕<rt class="S_S">naŭz</rt></ruby>i <ruby>呕<rt class="S_S">naŭz</rt></ruby><br>
+La <ruby>气ᴼ<rt class="L_L">odor</rt></ruby>o <ruby>呕<rt class="S_S">naŭz</rt></ruby>as <ruby>我<rt class="XXL_L">mi</rt></ruby>n. <ruby>我<rt class="XXL_L">Mi</rt></ruby> <ruby>感<rt class="S_S">sent</rt></ruby>as <ruby>呕<rt class="S_S">naŭz</rt></ruby>on.<br>
+<ruby>船<rt class="XL_L">ŝip</rt></ruby><ruby>底<rt class="S_S">fund</rt></ruby>o <ruby>船<rt class="XL_L">ŝip</rt></ruby><ruby>底<rt class="S_S">fund</rt></ruby>a <ruby>恶<rt class="XS_S">malic</rt></ruby><ruby>心<rt class="L_L">kor</rt></ruby>o <ruby>恶<rt class="XS_S">malic</rt></ruby><ruby>心<rt class="L_L">kor</rt></ruby>a<br>
+<ruby>拱<rt class="S_S">volb</rt></ruby>o <ruby>龙骨<rt class="XXL_L">kil</rt></ruby>o <ruby>至<rt class="XL_L">ĝis</rt></ruby> <ruby>少数<rt class="S_S">minoritat</rt></ruby>o <ruby>鲨皮<rt class="L_L">ŝagrin</rt></ruby>o <ruby>水渠<rt class="L_L">irigaci</rt></ruby>o <ruby>串联<rt class="M_M">tandem</rt></ruby>o <ruby>周<rt class="XXS_S">sem<br>ajn</rt></ruby>o <ruby>周<rt class="XXS_S">sem<br>ajn</rt></ruby>o<br>
+almenaŭ fornikso kareno naŭzo &amp; <ruby>二<rt class="XXL_L">du</rt></ruby>&nbsp;&nbsp;<ruby>空<rt class="S_S">spac</rt></ruby>oj</p></body></html>

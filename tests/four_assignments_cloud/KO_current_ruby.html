@@ -1,0 +1,110 @@
+<!-- assignment-edition:current signature:e7e41aa9cea3ea1c915308954c7af45a478fe4ab8dbd523d53d9db7ddbb77def created-utc:2026-10-25T01:33:09.648831+00:00 -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에스페란토 어근 분해 루비 주석 텍스트</title>
+    <style>
+
+    html, body {
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+  
+      :root {
+        --ruby-color: blue;
+        --ruby-font-size: 0.5em;
+      }
+      html {
+        font-size: 100%; /* 多くのブラウザは16px相当が標準 */
+      }
+
+      .text-M_M {
+        font-size: 1rem!important; 
+        font-family: Arial, sans-serif;
+        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */
+        display: block; /* ブロック要素として扱う */
+        position: relative;
+      }
+  
+      /* ▼ ルビ（フレックスでルビを上に表示） */
+      ruby {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        vertical-align: top !important;
+        line-height: 2.0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 1rem !important;
+      }
+  
+      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */
+      rt {
+        display: block !important;
+        font-size: var(--ruby-font-size);
+        color: var(--ruby-color);
+        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/
+        text-align: center;
+        /* margin-top: 0.2em !important;   
+        transform: translateY(0.4em) !important; */
+      }
+      rt.XXXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }    
+      rt.XXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }
+      rt.XS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -6.1em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.S_S {
+        --ruby-font-size: 0.4em;
+        margin-top: -4.85em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.M_M {
+        --ruby-font-size: 0.5em;
+        margin-top: -4.00em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.L_L {
+        --ruby-font-size: 0.6em; 
+        margin-top: -3.55em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XL_L {
+        --ruby-font-size: 0.7em;
+        margin-top: -3.20em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XXL_L {
+        --ruby-font-size: 0.8em;
+        margin-top: -2.80em !important;
+        transform: translateY(-0.0em) !important;
+      }
+  
+    </style>
+  <meta name="esperanto-ruby-mode" content="annotation">
+</head>
+  <body>
+  <p class="text-M_M">
+<ruby>Almenaŭ<rt class="XXL_L">적어도</rt></ruby> <ruby>almenaŭ<rt class="XXL_L">적어도</rt></ruby> <ruby>almenaŭ<rt class="XXL_L">적어도</rt></ruby>.<br>
+<ruby>Forniks<rt class="XXL_L">궁륭</rt></ruby>o <ruby>forniks<rt class="XXL_L">궁륭</rt></ruby>oj <ruby>forniks<rt class="XXL_L">궁륭</rt></ruby>a <ruby>forniks<rt class="XXL_L">궁륭</rt></ruby>. <ruby>forniks<rt class="XXL_L">궁륭</rt></ruby>o <ruby>forniks<rt class="XXL_L">궁륭</rt></ruby>a <ruby>forniks<rt class="XXL_L">궁륭</rt></ruby><br>
+<ruby>cerb<rt class="XXL_L">뇌</rt></ruby>a <ruby>forniks<rt class="XXL_L">궁륭</rt></ruby>o <ruby>konjunktiv<rt class="XXL_L">결막</rt></ruby>a <ruby>forniks<rt class="XXL_L">궁륭</rt></ruby>o <ruby>vagin<rt class="XXL_L">질</rt></ruby>a <ruby>forniks<rt class="XXL_L">궁륭</rt></ruby>o.<br>
+<ruby>Karen<rt class="XXL_L">용골</rt></ruby>o <ruby>karen<rt class="XXL_L">용골</rt></ruby>oj <ruby>karen<rt class="XXL_L">용골</rt></ruby>a <ruby>karen<rt class="XXL_L">용골</rt></ruby>i <ruby>karen<rt class="XXL_L">용골</rt></ruby><ruby>form<rt class="XXL_L">형태</rt></ruby>a <ruby>karen<rt class="XXL_L">용골</rt></ruby>. <ruby>karen<rt class="XXL_L">용골</rt></ruby>o <ruby>karen<rt class="XXL_L">용골</rt></ruby>i <ruby>karen<rt class="XXL_L">용골</rt></ruby><ruby>form<rt class="XXL_L">형태</rt></ruby>a <ruby>karen<rt class="XXL_L">용골</rt></ruby><br>
+<ruby>Naŭz<rt class="XS_S">구역질 나게 하다</rt></ruby>o <ruby>naŭz<rt class="XS_S">구역질 나게 하다</rt></ruby>a <ruby>naŭz<rt class="XS_S">구역질 나게 하다</rt></ruby>i <ruby>naŭz<rt class="XS_S">구역질 나게 하다</rt></ruby><ruby>as<rt class="M_M">현재</rt></ruby> <ruby>naŭz<rt class="XS_S">구역질 나게 하다</rt></ruby>. <ruby>naŭz<rt class="S_S">구역질나다</rt></ruby>o <ruby>naŭz<rt class="S_S">구역질나다</rt></ruby>a <ruby>naŭz<rt class="S_S">구역질나다</rt></ruby>i <ruby>naŭz<rt class="S_S">구역질나다</rt></ruby><br>
+<ruby>La<rt class="XS_S">정관사</rt></ruby> <ruby>odor<rt class="XXL_L">냄새</rt></ruby>o <ruby>naŭz<rt class="XS_S">구역질 나게 하다</rt></ruby><ruby>as<rt class="M_M">현재</rt></ruby> <ruby>mi<rt class="XXL_L">나</rt></ruby>n. <ruby>Mi<rt class="XXL_L">나</rt></ruby> <ruby>sent<rt class="XS_S">몸으로 느끼다</rt></ruby><ruby>as<rt class="M_M">현재</rt></ruby> <ruby>naŭz<rt class="XS_S">구역질 나게 하다</rt></ruby>on.<br>
+<ruby>ŝip<rt class="XXL_L">배</rt></ruby><ruby>fund<rt class="XXL_L">바닥</rt></ruby>o <ruby>ŝip<rt class="XXL_L">배</rt></ruby><ruby>fund<rt class="XXL_L">바닥</rt></ruby>a <ruby>malic<rt class="M_M">악의 있는</rt></ruby><ruby>kor<rt class="L_L">심장</rt></ruby>o <ruby>malic<rt class="M_M">악의 있는</rt></ruby><ruby>kor<rt class="L_L">심장</rt></ruby>a<br>
+<ruby>volb<rt class="XXL_L">궁륭</rt></ruby>o <ruby>kil<rt class="S_S">용골</rt></ruby>o <ruby>ĝis<rt class="L_L">까지</rt></ruby> <ruby>minoritat<rt class="XXL_L">소수파</rt></ruby>o <ruby>ŝagrin<rt class="XXL_L">샤그린</rt></ruby>o <ruby>irigaci<rt class="XXL_L">관개</rt></ruby>o <ruby>tandem<rt class="XXL_L">탠덤</rt></ruby>o <ruby>semajn<rt class="XXL_L">한 주</rt></ruby>o <ruby>semajn<rt class="XXL_L">주간</rt></ruby>o<br>
+almenaŭ fornikso kareno naŭzo &amp; <ruby>du<rt class="XXL_L">둘</rt></ruby>&nbsp;&nbsp;<ruby>spac<rt class="XXL_L">공간</rt></ruby>oj</p></body></html>
