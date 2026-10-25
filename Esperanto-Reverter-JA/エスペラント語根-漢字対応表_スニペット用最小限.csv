@@ -3111,6 +3111,7 @@ gum,胶ᴳᴹ
 koloid,胶ᴷᴸ
 bust,胸ᴮˢ
 kompetent,能ᴷᴹ
+ŝmalc,脂ˢ̂
 steat,脂ˢᵀ
 lipid,脂ᴸᴾ
 lipoprotein,脂蛋白
@@ -3604,7 +3605,6 @@ tortur,虐ᵀᵀ
 fiktiv,虚ᶠᵀ
 virtual,虚ⱽᴿ
 sarkopsil,虫ˢˢ
-simuli,虫ˢᴹ
 spatang,虫ˢᴾ
 sarkopt,虫ˢᴿ
 saturni,虫ˢᵀ
@@ -6688,7 +6688,6 @@ su,猪ˢ
 apr,猪ᴬ
 babirus,猪ᴮ
 fakoĉer,猪ᶠ
-ŝmalc,猪油
 felis,猫ᶠ
 dediĉ,献ᴰ
 konsekr,献ᴷ
@@ -7559,7 +7558,7 @@ ork,虎鲸
 molest,虐ᴹ
 imaginar,虚ᴵ
 fikci,虚ᶠ
-sfeg,虫ˢ
+simuli,虫ˢ
 akar,虫ᴬ
 blat,虫ᴮ
 ditisk,虫ᴰ
@@ -7625,6 +7624,7 @@ araknoid,蛛膜
 ruditap,蛤ᴿ
 bombiks,蛾ᴮ
 hermini,蛾ᴴ
+sfeg,蜂ˢ
 burd,蜂ᴮ
 krabr,蜂ᴷ
 cinip,蜂ᶜ

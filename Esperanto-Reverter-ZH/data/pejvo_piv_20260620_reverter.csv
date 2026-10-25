@@ -3112,6 +3112,7 @@ gum,胶ᴳᴹ,0,gum,3758
 koloid,胶ᴷᴸ,0,koloid,3760
 bust,胸ᴮˢ,0,bust,2144
 kompetent,能ᴷᴹ,0,kompetent,926
+ŝmalc,脂ˢ̂,0,s^malc,8555
 steat,脂ˢᵀ,0,steat,3019
 lipid,脂ᴸᴾ,0,lipid,3018
 lipoprotein,脂蛋白,0,lipoprotein,9565
@@ -3605,7 +3606,6 @@ tortur,虐ᵀᵀ,0,tortur,4432
 fiktiv,虚ᶠᵀ,0,fiktiv,5631
 virtual,虚ⱽᴿ,0,virtual,5632
 sarkopsil,虫ˢˢ,0,sarkopsil,2682
-simuli,虫ˢᴹ,0,simuli,2638
 spatang,虫ˢᴾ,0,spatang,2655
 sarkopt,虫ˢᴿ,0,sarkopt,2653
 saturni,虫ˢᵀ,0,saturni,2654
@@ -6689,7 +6689,6 @@ su,猪ˢ,0,su,2760
 apr,猪ᴬ,0,apr,2756
 babirus,猪ᴮ,0,babirus,2758
 fakoĉer,猪ᶠ,0,fakoc^er,2759
-ŝmalc,猪油,0,s^malc,8555
 felis,猫ᶠ,0,felis,1738
 dediĉ,献ᴰ,0,dediĉ,3671
 konsekr,献ᴷ,0,konsekr,3672
@@ -7560,7 +7559,7 @@ ork,虎鲸,0,ork,8503
 molest,虐ᴹ,0,molest,4433
 imaginar,虚ᴵ,0,imaginar,5633
 fikci,虚ᶠ,0,fikci,5630
-sfeg,虫ˢ,0,sfeg,2612
+simuli,虫ˢ,0,simuli,2638
 akar,虫ᴬ,0,akar,2579
 blat,虫ᴮ,0,blat,2580
 ditisk,虫ᴰ,0,ditisk,2631
@@ -7626,6 +7625,7 @@ araknoid,蛛膜,0,araknoid,7171
 ruditap,蛤ᴿ,0,ruditap,8281
 bombiks,蛾ᴮ,0,bombiks,7413
 hermini,蛾ᴴ,0,hermini,7412
+sfeg,蜂ˢ,0,sfeg,2612
 burd,蜂ᴮ,0,burd,4170
 krabr,蜂ᴷ,0,krabr,4168
 cinip,蜂ᶜ,0,cinip,4169
