@@ -4,7 +4,30 @@
   "previous_release_commit": "ed4b2b4a7abf7e36b35436391e4692d320e17589",
   "status": "LOCAL_VALIDATION_PASSED",
   "cloud_validation": {
-    "status": "NOT_YET_VERIFIED"
+    "status": "CLOUD_SAMPLE_VERIFIED",
+    "verified_utc": "2026-10-25T05:29:43.020589+00:00",
+    "public_merge_commit": "5b3b93186d61cdb4ac9a5dac29c98021e2ca7db6",
+    "public_pr": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/70",
+    "cloud_internal_commit_directly_observed": false,
+    "browser_forward_routes": 18,
+    "browser_reverse_routes": 4,
+    "browser_inputs_outputs_and_selected_editions_exact": true,
+    "forward_downloads_matched": 18,
+    "reverse_result_downloads_matched": 4,
+    "reverse_csv_downloads_matched": 4,
+    "html_timestamp_only_difference": true,
+    "pure_and_reverse_txt_and_csv_byte_exact": true,
+    "report": "armatur_reeds_cloud/verification.json",
+    "representative_screenshot": "armatur_reeds_cloud/cloud_ja_current.jpg",
+    "limits": [
+      "Actual Cloud browser records and downloaded files are compared against local fixtures. This sample is 18 forward routes and four inverse routes, not all possible sentences.",
+      "Only the leading HTML metadata created-utc value may differ; edition, signature, ruby mode, all other HTML bytes, and DOM source output must match.",
+      "Pure TXT, inverse TXT and selected-edition CSV files match byte-for-byte without newline, BOM, spacing, case or identifier normalization.",
+      "Evidence files use standardized names. Original browser download filenames are not independently certified by this report.",
+      "The internal running Cloud commit was not directly observed. Deployment reflection is established by observed behavior and downloaded data.",
+      "The new exact root armatur uses 骨架, also emitted by preserved ost+rak decomposition. Shared spelling is inherently ambiguous; exact-root inverse precedence does not imply unique recovery.",
+      "Fixed legacy and evolving current are the two supported editions. Intermediate grass identifier ownership is not a separate edition profile."
+    ]
   },
   "adopted": {
     "armatur": [
