@@ -57,7 +57,8 @@ def test_no_intermediate_profile_or_ambiguous_old_spelling_aliases():
 def test_current_manifest_downloads_and_group_descriptions():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     path=app.ROOT/source['armatur_reeds_manifest'];manifest=json.loads(path.read_bytes())
-    assert source['revision']==manifest['revision']=='2026-10-25-armatur-reeds'
+    assert source['revision']=='2026-10-25-letargi'
+    assert manifest['revision']=='2026-10-25-armatur-reeds'
     assert manifest['changes']=={r:list(v) for r,v in CHANGES.items()}
     assert manifest['safe_reverse_aliases']=={}
     assert manifest['ownership_transfers']=={'草ᴬᴰ':['arund','androzac'],'草ᴬᶜ':['androzac','armoraci'],'草ᴰᴷ':['donak','diktamn']}

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "scope": "Current edition only; fixed legacy, meanings, segmentation, engines and custom JSON behavior preserved. Three approved root bodies and three propagated identifiers. No intermediate edition or conflicting old-spelling aliases.",
+  "scope": "Current letargi only. Fixed legacy, glosses, segmentation, all other identifiers, runtime engines and custom JSON behavior preserved. Fixed legacy and evolving current remain the only editions.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -80,7 +80,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
       "bytes": 161691,
-      "sha256": "5143223ed594e43e4fd14a4e527c41ad7364d41c34bc021f8d0b4116ce063b2c"
+      "sha256": "7e6b2c4e18c188f37b79c4695542b908af448ee3ac6f15c768aa7c28687a349b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -100,12 +100,12 @@
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
       "bytes": 57371691,
-      "sha256": "25fea28f73208586d966f737fca721b1202616f5991860ee7a09454f80e2723f"
+      "sha256": "243a2354f74cfe5f290c0d1a238f0ef145d1193498048c6f8716a8aefba61d5c"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
       "bytes": 21515842,
-      "sha256": "e6589cdb0e03b5a1f21bf10bfe107f8a543d84bf6e498f5a9722fd4187af22f9"
+      "sha256": "91baf081af8d64ee0fcfa208d163fb14bf00614c40107288295b38573e2701c3"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -215,7 +215,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
       "bytes": 161691,
-      "sha256": "5143223ed594e43e4fd14a4e527c41ad7364d41c34bc021f8d0b4116ce063b2c"
+      "sha256": "7e6b2c4e18c188f37b79c4695542b908af448ee3ac6f15c768aa7c28687a349b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -235,7 +235,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
       "bytes": 57379757,
-      "sha256": "59e1c4bf77d52f8644cae1cce51a9e08e8eee5e0c8322189ef4ba65a8d0750c7"
+      "sha256": "b3ce1468d893f6d5bb39a6b520e1e2e310fc9d75e90b36380bddfdef4683d6d9"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -350,7 +350,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
       "bytes": 161691,
-      "sha256": "5143223ed594e43e4fd14a4e527c41ad7364d41c34bc021f8d0b4116ce063b2c"
+      "sha256": "7e6b2c4e18c188f37b79c4695542b908af448ee3ac6f15c768aa7c28687a349b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -370,7 +370,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
       "bytes": 57379757,
-      "sha256": "a9a14c1ec865bed5c51d0af7989cc888507f775e6197841b9577ba988d0a5cde"
+      "sha256": "fbb1d083980df235dd852b4bededf0f30773f856cbf7e9b65b8d3518f87cf126"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
@@ -501,10 +501,20 @@
       "path": "Esperanto-Reverter-ZH/data/armatur-reeds-20261025.json",
       "bytes": 426381,
       "sha256": "351bc4b0060ac10dfd9b5c200bb2d3ac00d6f674a8db8621da4fdf75ea40ce23"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/letargi-20261025.json",
+      "bytes": 2755,
+      "sha256": "4d0ca63cb7e556a1f6e92e304a912e9c47090086253a8a116aaf8ae1a3f40578"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/letargi-20261025.json",
+      "bytes": 2755,
+      "sha256": "4d0ca63cb7e556a1f6e92e304a912e9c47090086253a8a116aaf8ae1a3f40578"
     }
   ],
-  "assignment_revision": "armatur-reeds-20261025",
-  "previous_release_commit": "ed4b2b4a7abf7e36b35436391e4692d320e17589",
+  "assignment_revision": "letargi-20261025",
+  "previous_release_commit": "001b71faa665df1282f379c2dafbbd514bd5a59d",
   "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
   "feature_revision": "two-editions-20261018",
   "legacy_manifest_sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3"
