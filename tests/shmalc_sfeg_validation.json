@@ -4,7 +4,27 @@
   "previous_release_commit": "854193bc3d7730bff8213be983b61c4822188f93",
   "status": "LOCAL_VALIDATION_PASSED",
   "cloud_validation": {
-    "status": "NOT_YET_VERIFIED"
+    "status": "CLOUD_SAMPLE_VERIFIED",
+    "verified_utc": "2026-10-25T15:40:15.611965+00:00",
+    "public_merge_commit": "5ecf2202d126c9a59dddb3c207041a99ddb44ca2",
+    "public_pr": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/73",
+    "cloud_internal_commit_directly_observed": false,
+    "browser_forward_routes": 18,
+    "browser_reverse_routes": 4,
+    "matched_downloads": 26,
+    "html_timestamp_only_difference": true,
+    "pure_txt_inverse_txt_and_csv_byte_exact": true,
+    "report": "shmalc_sfeg_cloud/verification.json",
+    "representative_screenshot": "shmalc_sfeg_cloud/cloud_ja_current.jpg",
+    "limits": [
+      "Actual Cloud browser records and downloaded files are compared against local fixtures. This sample is 18 forward routes and four inverse routes, not all possible sentences.",
+      "Only the leading HTML metadata created-utc value may differ; edition, signature, ruby mode, all other HTML bytes, and DOM source output must match.",
+      "Pure TXT, inverse TXT and selected-edition CSV files match byte-for-byte without newline, BOM, spacing, case or identifier normalization.",
+      "Evidence files use standardized names. Original browser download filenames are not independently certified by this report.",
+      "The internal running Cloud commit was not directly observed. Deployment reflection is established by observed behavior and downloaded data.",
+      "The adopted current spellings are ŝmalc=脂ˢ̂ and sfeg=蜂ˢ; simuli changes from 虫ˢᴹ to 虫ˢ under the unchanged identifier algorithm. Fixed legacy preserves previous ownership. Shared-spelling ambiguity is accepted and intermediate revisions are not separate profiles.",
+      "Fixed legacy and evolving current are the two supported editions. Intermediate assignment revisions are not separate edition profiles."
+    ]
   },
   "adopted": {
     "ŝmalc": [
