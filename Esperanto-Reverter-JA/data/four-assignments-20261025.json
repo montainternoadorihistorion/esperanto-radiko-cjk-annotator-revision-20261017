@@ -1,0 +1,295 @@
+{
+  "schema": 1,
+  "revision": "2026-10-25-four-assignments",
+  "baseline": "1ee3c33075db8b82812c0cc69b45047bb0928955",
+  "changes": {
+    "almenaŭ": [
+      "至ᴬ",
+      "至少"
+    ],
+    "forniks": [
+      "脑弓",
+      "拱ᶠ"
+    ],
+    "karen": [
+      "龙骨ᴷᴿ",
+      "船底"
+    ],
+    "naŭz": [
+      "呕",
+      "恶心"
+    ]
+  },
+  "canonical_sidecar_sha256": "ca938dfa6f1e947bfeac84331d0f45497e63f20762f06ccb7061ef56c876918d",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "8357bf1aee458ae65316092ba4be8ba3cbc6a7e49e05e87161702767c1891c38",
+  "baseline_target_items": {
+    "almenaŭ": {
+      "prefix": "almenaux",
+      "body": "至ᴬ",
+      "kanji": "至",
+      "detail": "almenaŭ → 至ᴬ (func, F=1)",
+      "documentation": "語根: almenaŭ\n入力: almenaux\n最終形: 至ᴬ\n漢字: 至\n識別子: a\n型: func\nF(汎用性): 1\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:66",
+      "priority": 0,
+      "sourceRoot": "almenaŭ",
+      "type": "func",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 66
+    },
+    "forniks": {
+      "prefix": "forniks",
+      "body": "脑弓",
+      "kanji": "脑弓",
+      "detail": "forniks → 脑弓 (pejvo, F=3, 基本形)",
+      "documentation": "語根: forniks\n入力: forniks\n最終形: 脑弓\n漢字: 脑弓\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7273",
+      "priority": 0,
+      "sourceRoot": "forniks",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7273
+    },
+    "karen": {
+      "prefix": "karen",
+      "body": "龙骨ᴷᴿ",
+      "kanji": "龙骨",
+      "detail": "karen → 龙骨ᴷᴿ (pejvo, F=5)",
+      "documentation": "語根: karen\n入力: karen\n最終形: 龙骨ᴷᴿ\n漢字: 龙骨\n識別子: kr\n型: pejvo\nF(汎用性): 5\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:6667",
+      "priority": 0,
+      "sourceRoot": "karen",
+      "type": "pejvo",
+      "frequency": 5,
+      "base": false,
+      "sourceLine": 6667
+    },
+    "naŭz": {
+      "prefix": "nauxz",
+      "body": "呕",
+      "kanji": "呕",
+      "detail": "naŭz → 呕 (basic, F=4, 基本形)",
+      "documentation": "語根: naŭz\n入力: nauxz\n最終形: 呕\n漢字: 呕\n識別子: なし\n型: basic\nF(汎用性): 4\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:4632",
+      "priority": 0,
+      "sourceRoot": "naŭz",
+      "type": "basic",
+      "frequency": 4,
+      "base": true,
+      "sourceLine": 4632
+    },
+    "kil": {
+      "prefix": "kil",
+      "body": "龙骨",
+      "kanji": "龙骨",
+      "detail": "kil → 龙骨 (pejvo, F=5, 基本形)",
+      "documentation": "語根: kil\n入力: kil\n最終形: 龙骨\n漢字: 龙骨\n識別子: なし\n型: pejvo\nF(汎用性): 5\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:6666",
+      "priority": 0,
+      "sourceRoot": "kil",
+      "type": "pejvo",
+      "frequency": 5,
+      "base": true,
+      "sourceLine": 6666
+    },
+    "solstic": {
+      "prefix": "solstic",
+      "body": "至ˢ",
+      "kanji": "至",
+      "detail": "solstic → 至ˢ (pejvo, F=7)",
+      "documentation": "語根: solstic\n入力: solstic\n最終形: 至ˢ\n漢字: 至\n識別子: s\n型: pejvo\nF(汎用性): 7\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:67",
+      "priority": 0,
+      "sourceRoot": "solstic",
+      "type": "pejvo",
+      "frequency": 7,
+      "base": false,
+      "sourceLine": 67
+    },
+    "volb": {
+      "prefix": "volb",
+      "body": "拱",
+      "kanji": "拱",
+      "detail": "volb → 拱 (pejvo, F=9, 基本形)",
+      "documentation": "語根: volb\n入力: volb\n最終形: 拱\n漢字: 拱\n識別子: なし\n型: pejvo\nF(汎用性): 9\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6264",
+      "priority": 0,
+      "sourceRoot": "volb",
+      "type": "pejvo",
+      "frequency": 9,
+      "base": true,
+      "sourceLine": 6264
+    },
+    "ĝis": {
+      "prefix": "gxis",
+      "body": "至",
+      "kanji": "至",
+      "detail": "ĝis → 至 (prep, F=30, 基本形)",
+      "documentation": "語根: ĝis\n入力: gxis\n最終形: 至\n漢字: 至\n識別子: なし\n型: prep\nF(汎用性): 30\nグループ数: 3\n基本形: yes\n出典: _identifier_sidecar.tsv:65",
+      "priority": 0,
+      "sourceRoot": "ĝis",
+      "type": "prep",
+      "frequency": 30,
+      "base": true,
+      "sourceLine": 65
+    }
+  },
+  "expected_target_items": {
+    "almenaŭ": {
+      "prefix": "almenaux",
+      "body": "至少",
+      "kanji": "至少",
+      "detail": "almenaŭ → 至少 (func, F=1, 基本形)",
+      "documentation": "語根: almenaŭ\n入力: almenaux\n最終形: 至少\n漢字: 至少\n識別子: なし\n型: func\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:66",
+      "priority": 0,
+      "sourceRoot": "almenaŭ",
+      "type": "func",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 66
+    },
+    "forniks": {
+      "prefix": "forniks",
+      "body": "拱ᶠ",
+      "kanji": "拱",
+      "detail": "forniks → 拱ᶠ (pejvo, F=3)",
+      "documentation": "語根: forniks\n入力: forniks\n最終形: 拱ᶠ\n漢字: 拱\n識別子: f\n型: pejvo\nF(汎用性): 3\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:7273",
+      "priority": 0,
+      "sourceRoot": "forniks",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 7273
+    },
+    "karen": {
+      "prefix": "karen",
+      "body": "船底",
+      "kanji": "船底",
+      "detail": "karen → 船底 (pejvo, F=5, 基本形)",
+      "documentation": "語根: karen\n入力: karen\n最終形: 船底\n漢字: 船底\n識別子: なし\n型: pejvo\nF(汎用性): 5\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6667",
+      "priority": 0,
+      "sourceRoot": "karen",
+      "type": "pejvo",
+      "frequency": 5,
+      "base": true,
+      "sourceLine": 6667
+    },
+    "naŭz": {
+      "prefix": "nauxz",
+      "body": "恶心",
+      "kanji": "恶心",
+      "detail": "naŭz → 恶心 (basic, F=4, 基本形)",
+      "documentation": "語根: naŭz\n入力: nauxz\n最終形: 恶心\n漢字: 恶心\n識別子: なし\n型: basic\nF(汎用性): 4\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:4632",
+      "priority": 0,
+      "sourceRoot": "naŭz",
+      "type": "basic",
+      "frequency": 4,
+      "base": true,
+      "sourceLine": 4632
+    },
+    "kil": {
+      "prefix": "kil",
+      "body": "龙骨",
+      "kanji": "龙骨",
+      "detail": "kil → 龙骨 (pejvo, F=5, 基本形)",
+      "documentation": "語根: kil\n入力: kil\n最終形: 龙骨\n漢字: 龙骨\n識別子: なし\n型: pejvo\nF(汎用性): 5\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6666",
+      "priority": 0,
+      "sourceRoot": "kil",
+      "type": "pejvo",
+      "frequency": 5,
+      "base": true,
+      "sourceLine": 6666
+    },
+    "solstic": {
+      "prefix": "solstic",
+      "body": "至ˢ",
+      "kanji": "至",
+      "detail": "solstic → 至ˢ (pejvo, F=7)",
+      "documentation": "語根: solstic\n入力: solstic\n最終形: 至ˢ\n漢字: 至\n識別子: s\n型: pejvo\nF(汎用性): 7\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:67",
+      "priority": 0,
+      "sourceRoot": "solstic",
+      "type": "pejvo",
+      "frequency": 7,
+      "base": false,
+      "sourceLine": 67
+    },
+    "volb": {
+      "prefix": "volb",
+      "body": "拱",
+      "kanji": "拱",
+      "detail": "volb → 拱 (pejvo, F=9, 基本形)",
+      "documentation": "語根: volb\n入力: volb\n最終形: 拱\n漢字: 拱\n識別子: なし\n型: pejvo\nF(汎用性): 9\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:6264",
+      "priority": 0,
+      "sourceRoot": "volb",
+      "type": "pejvo",
+      "frequency": 9,
+      "base": true,
+      "sourceLine": 6264
+    },
+    "ĝis": {
+      "prefix": "gxis",
+      "body": "至",
+      "kanji": "至",
+      "detail": "ĝis → 至 (prep, F=30, 基本形)",
+      "documentation": "語根: ĝis\n入力: gxis\n最終形: 至\n漢字: 至\n識別子: なし\n型: prep\nF(汎用性): 30\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:65",
+      "priority": 0,
+      "sourceRoot": "ĝis",
+      "type": "prep",
+      "frequency": 30,
+      "base": true,
+      "sourceLine": 65
+    }
+  },
+  "unrelated_items_sha256": "d1c8a59e1dc1fd2c4555c40832cc408c5fe341722b3d73cf7bcf16486a2837c4",
+  "unrelated_items_count": 10632,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {
+    "kil": {
+      "group_count": [
+        2,
+        1
+      ]
+    },
+    "solstic": {
+      "group_count": [
+        3,
+        2
+      ]
+    },
+    "volb": {
+      "group_count": [
+        1,
+        2
+      ]
+    },
+    "ĝis": {
+      "group_count": [
+        3,
+        2
+      ]
+    }
+  },
+  "assignment_unchanged_item_count": 10636,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "almenaŭ",
+    "forniks",
+    "karen",
+    "naŭz"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "almenaŭ": "User adopted 至少: represent at least explicitly, retaining all existing meanings and decomposition.",
+    "forniks": "User adopted 拱ᶠ: represent anatomical arch/vault without restricting it to the brain; retain cerebral, conjunctival and vaginal meanings.",
+    "karen": "User adopted 船底: distinguish the submerged lower hull from kil (keel), preserving anatomical and botanical metaphor senses.",
+    "naŭz": "User adopted 恶心: retain physical nausea and figurative disgust without requiring actual vomiting; preserve vom=吐."
+  },
+  "preserved_controls": {
+    "至": "ĝis",
+    "至ˢ": "solstic",
+    "拱": "volb",
+    "龙骨": "kil",
+    "吐": "vom"
+  },
+  "explicit_retained": {
+    "ŝagrin": "鲨皮"
+  }
+}
