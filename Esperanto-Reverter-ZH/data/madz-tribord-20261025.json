@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "revision": "2026-10-25-madz-tribord",
+  "baseline": "89da1c0bc876b951a142a7f181b562df834b90ef",
+  "changes": {
+    "madz": [
+      "钉头锤",
+      "棍ᴹ"
+    ],
+    "tribord": [
+      "右边",
+      "船右"
+    ]
+  },
+  "canonical_sidecar_sha256": "e8764049b947a9cb278b2489304f6326fe57cf6c2c4a142a36b610858b9d866e",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "13e8691233da88c605f2d37ea4faa608ee9fca787b4f9fedb0ae24f9f61a0267",
+  "baseline_target_items": {
+    "madz": {
+      "prefix": "madz",
+      "body": "钉头锤",
+      "kanji": "钉头锤",
+      "detail": "madz → 钉头锤 (piv, F=2, 基本形)",
+      "documentation": "語根: madz\n入力: madz\n最終形: 钉头锤\n漢字: 钉头锤\n識別子: なし\n型: piv\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8031",
+      "priority": 0,
+      "sourceRoot": "madz",
+      "type": "piv",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8031
+    },
+    "tribord": {
+      "prefix": "tribord",
+      "body": "右边",
+      "kanji": "右边",
+      "detail": "tribord → 右边 (pejvo, F=4, 基本形)",
+      "documentation": "語根: tribord\n入力: tribord\n最終形: 右边\n漢字: 右边\n識別子: なし\n型: pejvo\nF(汎用性): 4\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6843",
+      "priority": 0,
+      "sourceRoot": "tribord",
+      "type": "pejvo",
+      "frequency": 4,
+      "base": true,
+      "sourceLine": 6843
+    },
+    "klab": {
+      "prefix": "klab",
+      "body": "棍",
+      "kanji": "棍",
+      "detail": "klab → 棍 (pejvo, F=6, 基本形)",
+      "documentation": "語根: klab\n入力: klab\n最終形: 棍\n漢字: 棍\n識別子: なし\n型: pejvo\nF(汎用性): 6\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6594",
+      "priority": 0,
+      "sourceRoot": "klab",
+      "type": "pejvo",
+      "frequency": 6,
+      "base": true,
+      "sourceLine": 6594
+    }
+  },
+  "expected_target_items": {
+    "madz": {
+      "prefix": "madz",
+      "body": "棍ᴹ",
+      "kanji": "棍",
+      "detail": "madz → 棍ᴹ (piv, F=2)",
+      "documentation": "語根: madz\n入力: madz\n最終形: 棍ᴹ\n漢字: 棍\n識別子: m\n型: piv\nF(汎用性): 2\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:8031",
+      "priority": 0,
+      "sourceRoot": "madz",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 8031
+    },
+    "tribord": {
+      "prefix": "tribord",
+      "body": "船右",
+      "kanji": "船右",
+      "detail": "tribord → 船右 (pejvo, F=4, 基本形)",
+      "documentation": "語根: tribord\n入力: tribord\n最終形: 船右\n漢字: 船右\n識別子: なし\n型: pejvo\nF(汎用性): 4\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6843",
+      "priority": 0,
+      "sourceRoot": "tribord",
+      "type": "pejvo",
+      "frequency": 4,
+      "base": true,
+      "sourceLine": 6843
+    },
+    "klab": {
+      "prefix": "klab",
+      "body": "棍",
+      "kanji": "棍",
+      "detail": "klab → 棍 (pejvo, F=6, 基本形)",
+      "documentation": "語根: klab\n入力: klab\n最終形: 棍\n漢字: 棍\n識別子: なし\n型: pejvo\nF(汎用性): 6\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:6594",
+      "priority": 0,
+      "sourceRoot": "klab",
+      "type": "pejvo",
+      "frequency": 6,
+      "base": true,
+      "sourceLine": 6594
+    }
+  },
+  "unrelated_items_sha256": "b5317f58b6405004b7169a63cf5529355b62962bc1a6300fc321af085af62764",
+  "unrelated_items_count": 10637,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {
+    "klab": {
+      "group_count": [
+        1,
+        2
+      ]
+    }
+  },
+  "assignment_unchanged_item_count": 10638,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "madz",
+    "tribord"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "madz": "User approved 棍ᴹ: PIV defines a heavy metal-headed club and ceremonial mace; spikes are not required. Share 棍 with klab while retaining metal-head and ceremonial senses in annotations; 25 to 12 strokes.",
+    "tribord": "User approved 船右: specify the nautical right side and align with babord=船左; accept 10 to 16 strokes for clearer meaning and paired consistency."
+  },
+  "preserved_controls": {
+    "棍": "klab",
+    "船左": "babord",
+    "程ᴾᶜ": "proces",
+    "程ᴾᶻ": "procez"
+  },
+  "explicit_retained": {
+    "klab": "棍",
+    "babord": "船左",
+    "proces": "程ᴾᶜ",
+    "procez": "程ᴾᶻ"
+  },
+  "shared_spelling": {}
+}

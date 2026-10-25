@@ -1,0 +1,45 @@
+2026-10-25　madz・tribordの採用とproces・procezの維持
+
+ユーザー採用
+madz：钉头锤 → 棍ᴹ
+tribord：右边 → 船右
+
+madzは原PIVで重い金属頭を持つ棍棒と儀杖。釘状の突起は必須ではない。
+klab＝棍との意味上の共用が自然で、漢字本体25→12画に短縮できる。
+ただし重い頭部・中世武器・儀杖の特徴は字面から弱まるので既存の注釈を保持する。
+棍は変更前4語根で使用。klabとhokeは具体的な棍棒・棒、kanajlとprotokanajlは悪漢の転義。
+変更後5語根となるが、钉・头・锤は他でも使われているので字種純減は0。
+
+tribordは船首に向かって右の側、右舷。既存babord＝船左と対にする。
+船＝対象、右＝方向。船は変更前12語根、変更後13語根で使用。
+10→16画と増えるため、省画数ではなく対象の明確化と系列の統一を優先した採用。
+「船右」を一般中国語の正式語とする主張ではない。
+
+維持
+proces＝程ᴾᶜ、procez＝程ᴾᶻ。既存の漢字と識別子を両方保持する。
+英語processと両語は共通のラテン語processus（進行・前進）の系統と考えられる。
+Rajkiの語源辞典は両語について仏procès、伊processo、英process等を並記する。
+これは英語だけが直接借用元であることの証拠ではない。
+英語processは中英語proces、アングロフランス語procésを経たLatin processus由来。
+現代Esperantoではprocesは主に訴訟、procezは自然・技術・計算機の過程を表す。
+ただしprocesにも過程の古用があり、既存辞書にも準静的過程の用例がある。
+同語源なら必ず同じ漢字とする一般則ではなく、語義のつながり、英語の連想、
+既存の正しい用例、識別子の安定を合わせて、今回の程共用を維持する。
+訴訟の意味は既存の注釈で明確にする。
+
+参照
+https://www.reta-vortaro.de/revo/art/madz.html
+https://www.reta-vortaro.de/revo/art/tribor.html
+https://reto.cn/download/etimologio/etimologia_vortaro.pdf#page=73
+https://www.merriam-webster.com/dictionary/process
+https://www.reta-vortaro.de/revo/art/proces.html
+https://www.reta-vortaro.de/revo/art/procez.html
+
+版の方針
+固定旧版と更新中の新版の二版だけを維持。今回の採用は新版にのみ反映する。
+語根分解・注釈・自作JSONの扱いと他の漢字割り当てを変更しない。
+船右はŝip＋dekstrの連結でも生じる。実処理で語尾なし・a・oの通常/@を確認した。
+その前進出力と分解は維持されるが、新版の平文逆変換では独立語根tribordが優先する。
+これは既に許容された表記共用の曖昧さとして扱い、識別子や分解を追加変更しない。
+固定旧版の復元先は従来通り。全ての合成語が一意に復元可能とは主張しない。
+実装と検証の結果は各担当の記録と最終反映結果に分けて記載する。

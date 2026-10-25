@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "scope": "Current letargi only. Fixed legacy, glosses, segmentation, all other identifiers, runtime engines and custom JSON behavior preserved. Fixed legacy and evolving current remain the only editions.",
+  "scope": "Current madz and tribord only. Fixed legacy, glosses, segmentation, all other identifiers, runtime engines and custom JSON behavior preserved. Fixed legacy and evolving current remain the only editions.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -79,8 +79,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161691,
-      "sha256": "7e6b2c4e18c188f37b79c4695542b908af448ee3ac6f15c768aa7c28687a349b"
+      "bytes": 161688,
+      "sha256": "656285006a95caef82537fa80b9652f46f988e27439ec4d557ba864303c8480b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -99,13 +99,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57371691,
-      "sha256": "243a2354f74cfe5f290c0d1a238f0ef145d1193498048c6f8716a8aefba61d5c"
+      "bytes": 57371526,
+      "sha256": "01387a30a4b0fe41f51f5a6a8724d63075129d4ee333e826ad2c6599456ca9a7"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21515842,
-      "sha256": "91baf081af8d64ee0fcfa208d163fb14bf00614c40107288295b38573e2701c3"
+      "bytes": 21515743,
+      "sha256": "43fb9e40edd49ec33a9eebc994b7a484ca64318cc232dbaa3ebe05f9e616a731"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -214,8 +214,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161691,
-      "sha256": "7e6b2c4e18c188f37b79c4695542b908af448ee3ac6f15c768aa7c28687a349b"
+      "bytes": 161688,
+      "sha256": "656285006a95caef82537fa80b9652f46f988e27439ec4d557ba864303c8480b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -234,8 +234,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57379757,
-      "sha256": "b3ce1468d893f6d5bb39a6b520e1e2e310fc9d75e90b36380bddfdef4683d6d9"
+      "bytes": 57379592,
+      "sha256": "31ed4bc19c58bd7e580ea1df41376b9bd1f758114ead9011072564153f221c84"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -349,8 +349,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161691,
-      "sha256": "7e6b2c4e18c188f37b79c4695542b908af448ee3ac6f15c768aa7c28687a349b"
+      "bytes": 161688,
+      "sha256": "656285006a95caef82537fa80b9652f46f988e27439ec4d557ba864303c8480b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -369,8 +369,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57379757,
-      "sha256": "fbb1d083980df235dd852b4bededf0f30773f856cbf7e9b65b8d3518f87cf126"
+      "bytes": 57379592,
+      "sha256": "c0e92140e7bcf00a83401985b64d1ea4ff8d61bb67d99bb23b19dae33e086602"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
@@ -511,10 +511,20 @@
       "path": "Esperanto-Reverter-ZH/data/letargi-20261025.json",
       "bytes": 2755,
       "sha256": "4d0ca63cb7e556a1f6e92e304a912e9c47090086253a8a116aaf8ae1a3f40578"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/madz-tribord-20261025.json",
+      "bytes": 4908,
+      "sha256": "148bf6bb51d9d891d532a477a375bb7afe945e2d4e9179ee7972046aeea9245f"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/madz-tribord-20261025.json",
+      "bytes": 4908,
+      "sha256": "148bf6bb51d9d891d532a477a375bb7afe945e2d4e9179ee7972046aeea9245f"
     }
   ],
-  "assignment_revision": "letargi-20261025",
-  "previous_release_commit": "001b71faa665df1282f379c2dafbbd514bd5a59d",
+  "assignment_revision": "madz-tribord-20261025",
+  "previous_release_commit": "c6f4d89c60cd819bccb08533299532d009476a06",
   "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
   "feature_revision": "two-editions-20261018",
   "legacy_manifest_sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3"

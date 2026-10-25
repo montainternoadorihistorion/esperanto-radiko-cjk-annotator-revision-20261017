@@ -52,7 +52,7 @@ def test_current_manifest_download_and_fixed_legacy():
     source = json.loads((app.ROOT / "data/current_dictionary_source.json").read_bytes())
     manifest_path = app.ROOT / source["mikrob_diafragm_manifest"]
     manifest = json.loads(manifest_path.read_bytes())
-    assert source["revision"] == "2026-10-25-letargi"
+    assert source["revision"] == "2026-10-25-madz-tribord"
     assert manifest["revision"] == "2026-10-20-mikrob-diafragm"
     assert manifest["changes"] == {k: list(v) for k, v in CHANGES.items()}
     assert manifest["safe_reverse_aliases"] == manifest["ownership_transfers"] == {}
