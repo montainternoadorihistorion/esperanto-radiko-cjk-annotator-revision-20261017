@@ -1429,7 +1429,6 @@ anturi,草ᴬᴺᵀ
 arabis,草ᴬᴿᴬ
 arenari,草ᴬᴿᴱ
 aristoloki,草ᴬᴿᴵ
-armoraci,草ᴬᴿᴹ
 atripl,草ᴬᵀᴿ
 aŭbrieti,草ᴬᵁ̆
 alĉemil,草ᴬᶜ̂
@@ -3194,7 +3193,7 @@ sensitiv,草ˢⱽ
 asklepiad,草ᴬˢ
 aliari,草ᴬᴬ
 abutil,草ᴬᴮ
-arund,草ᴬᴰ
+androzac,草ᴬᴰ
 armeri,草ᴬᴱ
 argemon,草ᴬᴳ
 anil,草ᴬᴵ
@@ -3208,7 +3207,7 @@ apocin,草ᴬᴾ
 air,草ᴬᴿ
 akte,草ᴬᵀ
 arunk,草ᴬᵁ
-androzac,草ᴬᶜ
+armoraci,草ᴬᶜ
 amofil,草ᴬᶠ
 aizo,草ᴬᶻ
 akvilegi,草ᴬⱽ
@@ -3230,12 +3229,11 @@ drakunkol,草ᴰᴬ
 difenbaki,草ᴰᴮ
 digitari,草ᴰᴳ
 digital,草ᴰᴵ
-donak,草ᴰᴷ
+diktamn,草ᴰᴷ
 delfini,草ᴰᴸ
 drimi,草ᴰᴹ
 dione,草ᴰᴺ
 dioskore,草ᴰᴿ
-diktamn,草ᴰᵀ
 dafodil,草ᴰᶠ
 drozer,草ᴰᶻ
 eglanteri,草ᴱᴬ
@@ -7407,6 +7405,8 @@ kriptoteni,芹ᴷ
 felandri,芹ᶠ
 spros,芽ˢ
 burĝon,芽ᴮ
+arund,苇ᴬ
+donak,苇ᴰ
 fragmit,苇ᶠ
 sfagn,苔ˢ
 andre,苔ᴬ
@@ -7994,7 +7994,6 @@ gami,配ᴳ
 kopulaci,配ᴷ
 gamet,配子
 stekio,配比
-armatur,配筋
 sake,酒ˢ
 bier,酒ᴮ
 likvor,酒ᴸ
@@ -8312,6 +8311,7 @@ bluf,骗ᴮ
 mistifik,骗ᴹ
 fripon,骗ᶠ
 skelet,骨ˢ
+armatur,骨架
 domen,骨牌
 ostom,骨瘤
 epifiz,骨端

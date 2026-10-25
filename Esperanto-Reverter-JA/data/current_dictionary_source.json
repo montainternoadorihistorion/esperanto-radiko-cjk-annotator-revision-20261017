@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "2026-10-25-four-assignments",
+  "revision": "2026-10-25-armatur-reeds",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "790eac71c4787e0a3111b0fbdd696dfcdebe599f5587cbb9502fcb8b0bac92b3",
+  "monaco_all_sha256": "be3d1bf4b1b3435f57ac1da8389dfb360329e38709a1775c42be986e71b6c96a",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "ca938dfa6f1e947bfeac84331d0f45497e63f20762f06ccb7061ef56c876918d",
+  "canonical_sidecar_sha256": "2b7602e0e00dc02075c146ebc0b27bed6a4aff774b66319a68166904f579ec06",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -280,10 +280,34 @@
     "naŭz": {
       "old": "呕",
       "current": "恶心"
+    },
+    "armatur": {
+      "old": "配筋",
+      "current": "骨架"
+    },
+    "arund": {
+      "old": "草ᴬᴰ",
+      "current": "苇ᴬ"
+    },
+    "donak": {
+      "old": "草ᴰᴷ",
+      "current": "苇ᴰ"
+    },
+    "androzac": {
+      "old": "草ᴬᶜ",
+      "current": "草ᴬᴰ"
+    },
+    "armoraci": {
+      "old": "草ᴬᴿᴹ",
+      "current": "草ᴬᶜ"
+    },
+    "diktamn": {
+      "old": "草ᴰᵀ",
+      "current": "草ᴰᴷ"
     }
   },
-  "current_csv_sha256": "f03b211f1e6e97c48456b03bfac32564d4ac6ef072f6db409faa4b3f9b7ce5d4",
-  "current_snippet_csv_sha256": "2b6700f6417f50f8aaae3fc887e45d7762dd462eca3e6a7427069765583f73f9",
+  "current_csv_sha256": "2ef3a1069050c6d30ac97f29097bade1deed407d0a8eebe1a09165e34e2b4ea6",
+  "current_snippet_csv_sha256": "358e58140f1c4fdbf303c8740d0ad0387f3871a47d3d284b31016abae7de9af2",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -417,5 +441,7 @@
   "shtip_pensi_sankci_manifest": "data/shtip-pensi-sankci-20261024.json",
   "shtip_pensi_sankci_manifest_sha256": "8e7406af9d482302f49ade7779c6916fc9e4182a3b986b9f393b04840f9d9e2d",
   "four_assignments_manifest": "data/four-assignments-20261025.json",
-  "four_assignments_manifest_sha256": "b1e2617a2037e7f1e85ed1f6a9d450443fb62c98c18daf5a26621515e36883a0"
+  "four_assignments_manifest_sha256": "b1e2617a2037e7f1e85ed1f6a9d450443fb62c98c18daf5a26621515e36883a0",
+  "armatur_reeds_manifest": "data/armatur-reeds-20261025.json",
+  "armatur_reeds_manifest_sha256": "351bc4b0060ac10dfd9b5c200bb2d3ac00d6f674a8db8621da4fdf75ea40ce23"
 }

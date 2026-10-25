@@ -22,7 +22,7 @@ def test_snapshot_is_complete_and_changes_only_reviewed_rows():
     newrows=list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding='utf-8'))))
     assert len(oldrows)==10668 and len(newrows)==10678
     scope=set(CHANGES)|{'spermat','spermati','silf','spermatocit','spermatofit','spermatogenez','spermatozo','dot','greft','tualet'}
-    scope |= ({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|({'anksi'}|({'ŝtip','pensi','sankci'}|{'almenaŭ','forniks','karen','naŭz'})))))
+    scope |= ({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|({'anksi'}|({'ŝtip','pensi','sankci'}|({'almenaŭ','forniks','karen','naŭz'}|{'armatur','arund','donak','androzac','armoraci','diktamn'}))))))
     assert [r for r in oldrows if r['source_root'] not in scope]==[r for r in newrows if r['source_root'] not in scope]
     profile=source['pre_satir_profile'];assert profile['id']==PROFILE
     assert profile['csv_sha256']=='ec6d04c11d3bee9fc2063342b73b884c1fc02819a736dc033f5b6e99e320f6c8'
@@ -31,7 +31,7 @@ def test_snapshot_is_complete_and_changes_only_reviewed_rows():
     old=index(PROFILE);now=index('pejvo-piv-20260620')
     assert old==app.build_mapping_index(app.read_assignment_csv(app.PRE_SATIR_SNIPPET_20261017_CSV))
     for r in oldrows:assert app.convert_kanji_esperanto_to_alphabet(r['kanji'],old)==r['esperanto']
-    changes=[r['kanji'] for r in oldrows if r['source_root'] not in ({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|({'anksi'}|({'ŝtip','pensi','sankci'}|{'almenaŭ','forniks','karen','naŭz'}))))) and app.convert_kanji_esperanto_to_alphabet(r['kanji'],now)!=r['esperanto']]
+    changes=[r['kanji'] for r in oldrows if r['source_root'] not in ({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|({'anksi'}|({'ŝtip','pensi','sankci'}|({'almenaŭ','forniks','karen','naŭz'}|{'armatur','arund','donak','androzac','armoraci','diktamn'})))))) and app.convert_kanji_esperanto_to_alphabet(r['kanji'],now)!=r['esperanto']]
     assert set(changes)=={'讽','精ˢ','妆'}
     assert app.convert_kanji_esperanto_to_alphabet('讽o 讽刺o 讽ˢo 精液o 精液ᶜ̂o 精ˢo',old)=='karikaturo satiro sarkasmo spermo ĉuro spermato'
     assert app.convert_kanji_esperanto_to_alphabet('怀ᴺo 瘤ᴼo 堡ᶠᴿo',old)=='nostalgio onko fortreso'

@@ -1430,7 +1430,6 @@ anturi,草ᴬᴺᵀ,0,anturi,2343
 arabis,草ᴬᴿᴬ,0,arabis,2344
 arenari,草ᴬᴿᴱ,0,arenari,2405
 aristoloki,草ᴬᴿᴵ,0,aristoloki,2266
-armoraci,草ᴬᴿᴹ,0,armoraci,2454
 atripl,草ᴬᵀᴿ,0,atripl,2223
 aŭbrieti,草ᴬᵁ̆,0,au^brieti,2455
 alĉemil,草ᴬᶜ̂,0,alc^emil,2237
@@ -3195,7 +3194,7 @@ sensitiv,草ˢⱽ,0,sensitiv,2497
 asklepiad,草ᴬˢ,0,asklepiad,2210
 aliari,草ᴬᴬ,0,aliari,2341
 abutil,草ᴬᴮ,0,abutil,2340
-arund,草ᴬᴰ,0,arund,2304
+androzac,草ᴬᴰ,0,androzac,2453
 armeri,草ᴬᴱ,0,armeri,2345
 argemon,草ᴬᴳ,0,argemon,2406
 anil,草ᴬᴵ,0,anil,2282
@@ -3209,7 +3208,7 @@ apocin,草ᴬᴾ,0,apocin,2338
 air,草ᴬᴿ,0,air,2270
 akte,草ᴬᵀ,0,akte,2280
 arunk,草ᴬᵁ,0,arunk,2305
-androzac,草ᴬᶜ,0,androzac,2453
+armoraci,草ᴬᶜ,0,armoraci,2454
 amofil,草ᴬᶠ,0,amofil,2342
 aizo,草ᴬᶻ,0,aizo,2276
 akvilegi,草ᴬⱽ,0,akvilegi,2251
@@ -3231,12 +3230,11 @@ drakunkol,草ᴰᴬ,0,drakunkol,2259
 difenbaki,草ᴰᴮ,0,difenbaki,2513
 digitari,草ᴰᴳ,0,digitari,2463
 digital,草ᴰᴵ,0,digital,2568
-donak,草ᴰᴷ,0,donak,2311
+diktamn,草ᴰᴷ,0,diktamn,2413
 delfini,草ᴰᴸ,0,delfini,2241
 drimi,草ᴰᴹ,0,drimi,2312
 dione,草ᴰᴺ,0,dione,2310
 dioskore,草ᴰᴿ,0,dioskore,2464
-diktamn,草ᴰᵀ,0,diktamn,2413
 dafodil,草ᴰᶠ,0,dafodil,2412
 drozer,草ᴰᶻ,0,drozer,2352
 eglanteri,草ᴱᴬ,0,eglanteri,2514
@@ -7408,6 +7406,8 @@ kriptoteni,芹ᴷ,0,kriptoteni,6463
 felandri,芹ᶠ,0,felandri,6462
 spros,芽ˢ,0,spros,4963
 burĝon,芽ᴮ,0,burĝon,4961
+arund,苇ᴬ,0,arund,2304
+donak,苇ᴰ,0,donak,2311
 fragmit,苇ᶠ,0,fragmit,6109
 sfagn,苔ˢ,0,sfagn,5255
 andre,苔ᴬ,0,andre,5254
@@ -7995,7 +7995,6 @@ gami,配ᴳ,0,gami,4271
 kopulaci,配ᴷ,0,kopulaci,4273
 gamet,配子,0,gamet,7073
 stekio,配比,0,stekio,8322
-armatur,配筋,0,armatur,6983
 sake,酒ˢ,0,sake,2851
 bier,酒ᴮ,0,bier,2847
 likvor,酒ᴸ,0,likvor,2850
@@ -8313,6 +8312,7 @@ bluf,骗ᴮ,0,bluf,3282
 mistifik,骗ᴹ,0,mistifik,3279
 fripon,骗ᶠ,0,fripon,3278
 skelet,骨ˢ,0,skelet,3134
+armatur,骨架,0,armatur,6983
 domen,骨牌,0,domen,8384
 ostom,骨瘤,0,ostom,9780
 epifiz,骨端,0,epifiz,8532
