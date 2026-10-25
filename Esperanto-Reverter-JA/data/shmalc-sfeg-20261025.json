@@ -1,0 +1,3961 @@
+{
+  "schema": 1,
+  "revision": "2026-10-25-shmalc-sfeg",
+  "baseline": "d2f1dca33126b445044edcb54f0b26388c0faa61",
+  "changes": {
+    "s^malc": [
+      "猪油",
+      "脂ˢ̂"
+    ],
+    "sfeg": [
+      "虫ˢ",
+      "蜂ˢ"
+    ],
+    "simuli": [
+      "虫ˢᴹ",
+      "虫ˢ"
+    ]
+  },
+  "canonical_sidecar_sha256": "6b59b96351d30f51588f84b1de16d017ef759aec3c34e0ea56b274d23b4c9c69",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "18d69587308d6824795f3d1c2c8d0d3cc8a9f599d970129ca2b9d221d181abe5",
+  "baseline_target_items": {
+    "s^malc": {
+      "prefix": "sxmalc",
+      "body": "猪油",
+      "kanji": "猪油",
+      "detail": "s^malc → 猪油 (piv, F=2, 基本形)",
+      "documentation": "語根: s^malc\n入力: sxmalc\n最終形: 猪油\n漢字: 猪油\n識別子: なし\n型: piv\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8555",
+      "priority": 0,
+      "sourceRoot": "s^malc",
+      "type": "piv",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8555
+    },
+    "sfeg": {
+      "prefix": "sfeg",
+      "body": "虫ˢ",
+      "kanji": "虫",
+      "detail": "sfeg → 虫ˢ (piv, F=1)",
+      "documentation": "語根: sfeg\n入力: sfeg\n最終形: 虫ˢ\n漢字: 虫\n識別子: s\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2612",
+      "priority": 0,
+      "sourceRoot": "sfeg",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2612
+    },
+    "simuli": {
+      "prefix": "simuli",
+      "body": "虫ˢᴹ",
+      "kanji": "虫",
+      "detail": "simuli → 虫ˢᴹ (piv, F=1)",
+      "documentation": "語根: simuli\n入力: simuli\n最終形: 虫ˢᴹ\n漢字: 虫\n識別子: sm\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2638",
+      "priority": 0,
+      "sourceRoot": "simuli",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2638
+    },
+    "abel": {
+      "prefix": "abel",
+      "body": "蜂",
+      "kanji": "蜂",
+      "detail": "abel → 蜂 (basic, F=21, 基本形)",
+      "documentation": "語根: abel\n入力: abel\n最終形: 蜂\n漢字: 蜂\n識別子: なし\n型: basic\nF(汎用性): 21\nグループ数: 5\n基本形: yes\n出典: _identifier_sidecar.tsv:4166",
+      "priority": 0,
+      "sourceRoot": "abel",
+      "type": "basic",
+      "frequency": 21,
+      "base": true,
+      "sourceLine": 4166
+    },
+    "adip": {
+      "prefix": "adip",
+      "body": "脂ᴬ",
+      "kanji": "脂",
+      "detail": "adip → 脂ᴬ (piv, F=4)",
+      "documentation": "語根: adip\n入力: adip\n最終形: 脂ᴬ\n漢字: 脂\n識別子: a\n型: piv\nF(汎用性): 4\nグループ数: 9\n基本形: no\n出典: _identifier_sidecar.tsv:3017",
+      "priority": 0,
+      "sourceRoot": "adip",
+      "type": "piv",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 3017
+    },
+    "afid": {
+      "prefix": "afid",
+      "body": "虫ᴬᶠ",
+      "kanji": "虫",
+      "detail": "afid → 虫ᴬᶠ (pejvo, F=1)",
+      "documentation": "語根: afid\n入力: afid\n最終形: 虫ᴬᶠ\n漢字: 虫\n識別子: af\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2582",
+      "priority": 0,
+      "sourceRoot": "afid",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2582
+    },
+    "afis": {
+      "prefix": "afis",
+      "body": "虫ᴬˢ",
+      "kanji": "虫",
+      "detail": "afis → 虫ᴬˢ (pejvo, F=1)",
+      "documentation": "語根: afis\n入力: afis\n最終形: 虫ᴬˢ\n漢字: 虫\n識別子: as\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2593",
+      "priority": 0,
+      "sourceRoot": "afis",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2593
+    },
+    "afrodit": {
+      "prefix": "afrodit",
+      "body": "虫ᴬᴰ",
+      "kanji": "虫",
+      "detail": "afrodit → 虫ᴬᴰ (piv, F=2)",
+      "documentation": "語根: afrodit\n入力: afrodit\n最終形: 虫ᴬᴰ\n漢字: 虫\n識別子: ad\n型: piv\nF(汎用性): 2\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2641",
+      "priority": 0,
+      "sourceRoot": "afrodit",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2641
+    },
+    "ah^eronti": {
+      "prefix": "ahxeronti",
+      "body": "虫ᴬᴴ̂",
+      "kanji": "虫",
+      "detail": "ah^eronti → 虫ᴬᴴ̂ (piv, F=1)",
+      "documentation": "語根: ah^eronti\n入力: ahxeronti\n最終形: 虫ᴬᴴ̂\n漢字: 虫\n識別子: aĥ\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2678",
+      "priority": 0,
+      "sourceRoot": "ah^eronti",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2678
+    },
+    "akar": {
+      "prefix": "akar",
+      "body": "虫ᴬ",
+      "kanji": "虫",
+      "detail": "akar → 虫ᴬ (pejvo, F=3)",
+      "documentation": "語根: akar\n入力: akar\n最終形: 虫ᴬ\n漢字: 虫\n識別子: a\n型: pejvo\nF(汎用性): 3\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2579",
+      "priority": 0,
+      "sourceRoot": "akar",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 2579
+    },
+    "akeronti": {
+      "prefix": "akeronti",
+      "body": "虫ᴬᴵ",
+      "kanji": "虫",
+      "detail": "akeronti → 虫ᴬᴵ (piv, F=1)",
+      "documentation": "語根: akeronti\n入力: akeronti\n最終形: 虫ᴬᴵ\n漢字: 虫\n識別子: ai\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2663",
+      "priority": 0,
+      "sourceRoot": "akeronti",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2663
+    },
+    "alcioni": {
+      "prefix": "alcioni",
+      "body": "虫ᴬᴸ",
+      "kanji": "虫",
+      "detail": "alcioni → 虫ᴬᴸ (piv, F=2)",
+      "documentation": "語根: alcioni\n入力: alcioni\n最終形: 虫ᴬᴸ\n漢字: 虫\n識別子: al\n型: piv\nF(汎用性): 2\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2640",
+      "priority": 0,
+      "sourceRoot": "alcioni",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2640
+    },
+    "aleu^rod": {
+      "prefix": "aleuxrod",
+      "body": "虫ᴬᵁ̆",
+      "kanji": "虫",
+      "detail": "aleu^rod → 虫ᴬᵁ̆ (piv, F=1)",
+      "documentation": "語根: aleu^rod\n入力: aleuxrod\n最終形: 虫ᴬᵁ̆\n漢字: 虫\n識別子: aŭ\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2642",
+      "priority": 0,
+      "sourceRoot": "aleu^rod",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2642
+    },
+    "alveolin": {
+      "prefix": "alveolin",
+      "body": "虫ᴬⱽ",
+      "kanji": "虫",
+      "detail": "alveolin → 虫ᴬⱽ (piv, F=1)",
+      "documentation": "語根: alveolin\n入力: alveolin\n最終形: 虫ᴬⱽ\n漢字: 虫\n識別子: av\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2662",
+      "priority": 0,
+      "sourceRoot": "alveolin",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2662
+    },
+    "anelid": {
+      "prefix": "anelid",
+      "body": "虫ᴬᴱ",
+      "kanji": "虫",
+      "detail": "anelid → 虫ᴬᴱ (pejvo, F=1)",
+      "documentation": "語根: anelid\n入力: anelid\n最終形: 虫ᴬᴱ\n漢字: 虫\n識別子: ae\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2596",
+      "priority": 0,
+      "sourceRoot": "anelid",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2596
+    },
+    "anobi": {
+      "prefix": "anobi",
+      "body": "虫ᴬᴺ",
+      "kanji": "虫",
+      "detail": "anobi → 虫ᴬᴺ (pejvo, F=1)",
+      "documentation": "語根: anobi\n入力: anobi\n最終形: 虫ᴬᴺ\n漢字: 虫\n識別子: an\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2585",
+      "priority": 0,
+      "sourceRoot": "anobi",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2585
+    },
+    "antedon": {
+      "prefix": "antedon",
+      "body": "虫ᴬᵀ",
+      "kanji": "虫",
+      "detail": "antedon → 虫ᴬᵀ (piv, F=1)",
+      "documentation": "語根: antedon\n入力: antedon\n最終形: 虫ᴬᵀ\n漢字: 虫\n識別子: at\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2645",
+      "priority": 0,
+      "sourceRoot": "antedon",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2645
+    },
+    "argonau^t": {
+      "prefix": "argonauxt",
+      "body": "虫ᴬᴿ",
+      "kanji": "虫",
+      "detail": "argonau^t → 虫ᴬᴿ (pejvo, F=2)",
+      "documentation": "語根: argonau^t\n入力: argonauxt\n最終形: 虫ᴬᴿ\n漢字: 虫\n識別子: ar\n型: pejvo\nF(汎用性): 2\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2592",
+      "priority": 0,
+      "sourceRoot": "argonau^t",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2592
+    },
+    "arkti": {
+      "prefix": "arkti",
+      "body": "虫ᴬᴷ",
+      "kanji": "虫",
+      "detail": "arkti → 虫ᴬᴷ (piv, F=1)",
+      "documentation": "語根: arkti\n入力: arkti\n最終形: 虫ᴬᴷ\n漢字: 虫\n識別子: ak\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2615",
+      "priority": 0,
+      "sourceRoot": "arkti",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2615
+    },
+    "atropos": {
+      "prefix": "atropos",
+      "body": "虫ᴬᴾ",
+      "kanji": "虫",
+      "detail": "atropos → 虫ᴬᴾ (piv, F=1)",
+      "documentation": "語根: atropos\n入力: atropos\n最終形: 虫ᴬᴾ\n漢字: 虫\n識別子: ap\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2646",
+      "priority": 0,
+      "sourceRoot": "atropos",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2646
+    },
+    "bedeli": {
+      "prefix": "bedeli",
+      "body": "脂ᴮ",
+      "kanji": "脂",
+      "detail": "bedeli → 脂ᴮ (pejvo, F=1)",
+      "documentation": "語根: bedeli\n入力: bedeli\n最終形: 脂ᴮ\n漢字: 脂\n識別子: b\n型: pejvo\nF(汎用性): 1\nグループ数: 9\n基本形: no\n出典: _identifier_sidecar.tsv:3016",
+      "priority": 0,
+      "sourceRoot": "bedeli",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 3016
+    },
+    "blapt": {
+      "prefix": "blapt",
+      "body": "虫ᴮᴾ",
+      "kanji": "虫",
+      "detail": "blapt → 虫ᴮᴾ (piv, F=1)",
+      "documentation": "語根: blapt\n入力: blapt\n最終形: 虫ᴮᴾ\n漢字: 虫\n識別子: bp\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2616",
+      "priority": 0,
+      "sourceRoot": "blapt",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2616
+    },
+    "blat": {
+      "prefix": "blat",
+      "body": "虫ᴮ",
+      "kanji": "虫",
+      "detail": "blat → 虫ᴮ (pejvo, F=2)",
+      "documentation": "語根: blat\n入力: blat\n最終形: 虫ᴮ\n漢字: 虫\n識別子: b\n型: pejvo\nF(汎用性): 2\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2580",
+      "priority": 0,
+      "sourceRoot": "blat",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2580
+    },
+    "bostrik": {
+      "prefix": "bostrik",
+      "body": "虫ᴮˢ",
+      "kanji": "虫",
+      "detail": "bostrik → 虫ᴮˢ (piv, F=1)",
+      "documentation": "語根: bostrik\n入力: bostrik\n最終形: 虫ᴮˢ\n漢字: 虫\n識別子: bs\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2647",
+      "priority": 0,
+      "sourceRoot": "bostrik",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2647
+    },
+    "brah^in": {
+      "prefix": "brahxin",
+      "body": "虫ᴮᴴ̂",
+      "kanji": "虫",
+      "detail": "brah^in → 虫ᴮᴴ̂ (piv, F=1)",
+      "documentation": "語根: brah^in\n入力: brahxin\n最終形: 虫ᴮᴴ̂\n漢字: 虫\n識別子: bĥ\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2677",
+      "priority": 0,
+      "sourceRoot": "brah^in",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2677
+    },
+    "brakin": {
+      "prefix": "brakin",
+      "body": "虫ᴮᴿ",
+      "kanji": "虫",
+      "detail": "brakin → 虫ᴮᴿ (piv, F=1)",
+      "documentation": "語根: brakin\n入力: brakin\n最終形: 虫ᴮᴿ\n漢字: 虫\n識別子: br\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2629",
+      "priority": 0,
+      "sourceRoot": "brakin",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2629
+    },
+    "buprest": {
+      "prefix": "buprest",
+      "body": "虫ᴮᵀ",
+      "kanji": "虫",
+      "detail": "buprest → 虫ᴮᵀ (piv, F=1)",
+      "documentation": "語根: buprest\n入力: buprest\n最終形: 虫ᴮᵀ\n漢字: 虫\n識別子: bt\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2648",
+      "priority": 0,
+      "sourceRoot": "buprest",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2648
+    },
+    "burd": {
+      "prefix": "burd",
+      "body": "蜂ᴮ",
+      "kanji": "蜂",
+      "detail": "burd → 蜂ᴮ (piv, F=1)",
+      "documentation": "語根: burd\n入力: burd\n最終形: 蜂ᴮ\n漢字: 蜂\n識別子: b\n型: piv\nF(汎用性): 1\nグループ数: 5\n基本形: no\n出典: _identifier_sidecar.tsv:4170",
+      "priority": 0,
+      "sourceRoot": "burd",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 4170
+    },
+    "cece": {
+      "prefix": "cece",
+      "body": "虫ᶜ",
+      "kanji": "虫",
+      "detail": "cece → 虫ᶜ (piv, F=1)",
+      "documentation": "語根: cece\n入力: cece\n最終形: 虫ᶜ\n漢字: 虫\n識別子: c\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2606",
+      "priority": 0,
+      "sourceRoot": "cece",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2606
+    },
+    "cecidomi": {
+      "prefix": "cecidomi",
+      "body": "虫ᶜᴰ",
+      "kanji": "虫",
+      "detail": "cecidomi → 虫ᶜᴰ (piv, F=1)",
+      "documentation": "語根: cecidomi\n入力: cecidomi\n最終形: 虫ᶜᴰ\n漢字: 虫\n識別子: cd\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2664",
+      "priority": 0,
+      "sourceRoot": "cecidomi",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2664
+    },
+    "cerambik": {
+      "prefix": "cerambik",
+      "body": "虫ᶜᴹ",
+      "kanji": "虫",
+      "detail": "cerambik → 虫ᶜᴹ (piv, F=1)",
+      "documentation": "語根: cerambik\n入力: cerambik\n最終形: 虫ᶜᴹ\n漢字: 虫\n識別子: cm\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2659",
+      "priority": 0,
+      "sourceRoot": "cerambik",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2659
+    },
+    "cerkari": {
+      "prefix": "cerkari",
+      "body": "虫ᶜᴿ",
+      "kanji": "虫",
+      "detail": "cerkari → 虫ᶜᴿ (piv, F=1)",
+      "documentation": "語根: cerkari\n入力: cerkari\n最終形: 虫ᶜᴿ\n漢字: 虫\n識別子: cr\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2649",
+      "priority": 0,
+      "sourceRoot": "cerkari",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2649
+    },
+    "cetoni": {
+      "prefix": "cetoni",
+      "body": "虫ᶜᵀ",
+      "kanji": "虫",
+      "detail": "cetoni → 虫ᶜᵀ (piv, F=1)",
+      "documentation": "語根: cetoni\n入力: cetoni\n最終形: 虫ᶜᵀ\n漢字: 虫\n識別子: ct\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2630",
+      "priority": 0,
+      "sourceRoot": "cetoni",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2630
+    },
+    "cicindel": {
+      "prefix": "cicindel",
+      "body": "虫ᶜᶜ",
+      "kanji": "虫",
+      "detail": "cicindel → 虫ᶜᶜ (piv, F=1)",
+      "documentation": "語根: cicindel\n入力: cicindel\n最終形: 虫ᶜᶜ\n漢字: 虫\n識別子: cc\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2665",
+      "priority": 0,
+      "sourceRoot": "cicindel",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2665
+    },
+    "cinip": {
+      "prefix": "cinip",
+      "body": "蜂ᶜ",
+      "kanji": "蜂",
+      "detail": "cinip → 蜂ᶜ (piv, F=1)",
+      "documentation": "語根: cinip\n入力: cinip\n最終形: 蜂ᶜ\n漢字: 蜂\n識別子: c\n型: piv\nF(汎用性): 1\nグループ数: 5\n基本形: no\n出典: _identifier_sidecar.tsv:4169",
+      "priority": 0,
+      "sourceRoot": "cinip",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 4169
+    },
+    "c^ik": {
+      "prefix": "cxik",
+      "body": "虫ᶜ̂",
+      "kanji": "虫",
+      "detail": "c^ik → 虫ᶜ̂ (piv, F=1)",
+      "documentation": "語根: c^ik\n入力: cxik\n最終形: 虫ᶜ̂\n漢字: 虫\n識別子: ĉ\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2605",
+      "priority": 0,
+      "sourceRoot": "c^ik",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2605
+    },
+    "demodeks": {
+      "prefix": "demodeks",
+      "body": "虫ᴰᴹ",
+      "kanji": "虫",
+      "detail": "demodeks → 虫ᴰᴹ (piv, F=2)",
+      "documentation": "語根: demodeks\n入力: demodeks\n最終形: 虫ᴰᴹ\n漢字: 虫\n識別子: dm\n型: piv\nF(汎用性): 2\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2657",
+      "priority": 0,
+      "sourceRoot": "demodeks",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2657
+    },
+    "dermest": {
+      "prefix": "dermest",
+      "body": "虫ᴰᴿ",
+      "kanji": "虫",
+      "detail": "dermest → 虫ᴰᴿ (piv, F=1)",
+      "documentation": "語根: dermest\n入力: dermest\n最終形: 虫ᴰᴿ\n漢字: 虫\n識別子: dr\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2650",
+      "priority": 0,
+      "sourceRoot": "dermest",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2650
+    },
+    "difilobotri": {
+      "prefix": "difilobotri",
+      "body": "虫ᴰᶠ",
+      "kanji": "虫",
+      "detail": "difilobotri → 虫ᴰᶠ (piv, F=1)",
+      "documentation": "語根: difilobotri\n入力: difilobotri\n最終形: 虫ᴰᶠ\n漢字: 虫\n識別子: df\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2672",
+      "priority": 0,
+      "sourceRoot": "difilobotri",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2672
+    },
+    "ditisk": {
+      "prefix": "ditisk",
+      "body": "虫ᴰ",
+      "kanji": "虫",
+      "detail": "ditisk → 虫ᴰ (piv, F=1)",
+      "documentation": "語根: ditisk\n入力: ditisk\n最終形: 虫ᴰ\n漢字: 虫\n識別子: d\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2631",
+      "priority": 0,
+      "sourceRoot": "ditisk",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2631
+    },
+    "drozofil": {
+      "prefix": "drozofil",
+      "body": "虫ᴰᶻ",
+      "kanji": "虫",
+      "detail": "drozofil → 虫ᴰᶻ (piv, F=1)",
+      "documentation": "語根: drozofil\n入力: drozofil\n最終形: 虫ᴰᶻ\n漢字: 虫\n識別子: dz\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2661",
+      "priority": 0,
+      "sourceRoot": "drozofil",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2661
+    },
+    "eh^inokok": {
+      "prefix": "ehxinokok",
+      "body": "虫ᴱᴴ̂",
+      "kanji": "虫",
+      "detail": "eh^inokok → 虫ᴱᴴ̂ (piv, F=1)",
+      "documentation": "語根: eh^inokok\n入力: ehxinokok\n最終形: 虫ᴱᴴ̂\n漢字: 虫\n識別子: eĥ\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2679",
+      "priority": 0,
+      "sourceRoot": "eh^inokok",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2679
+    },
+    "ekinokok": {
+      "prefix": "ekinokok",
+      "body": "虫ᴱᴷ",
+      "kanji": "虫",
+      "detail": "ekinokok → 虫ᴱᴷ (piv, F=1)",
+      "documentation": "語根: ekinokok\n入力: ekinokok\n最終形: 虫ᴱᴷ\n漢字: 虫\n識別子: ek\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2666",
+      "priority": 0,
+      "sourceRoot": "ekinokok",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2666
+    },
+    "elafr": {
+      "prefix": "elafr",
+      "body": "虫ᴱᶠ",
+      "kanji": "虫",
+      "detail": "elafr → 虫ᴱᶠ (piv, F=1)",
+      "documentation": "語根: elafr\n入力: elafr\n最終形: 虫ᴱᶠ\n漢字: 虫\n識別子: ef\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2617",
+      "priority": 0,
+      "sourceRoot": "elafr",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2617
+    },
+    "elater": {
+      "prefix": "elater",
+      "body": "虫ᴱᴸ",
+      "kanji": "虫",
+      "detail": "elater → 虫ᴱᴸ (pejvo, F=1)",
+      "documentation": "語根: elater\n入力: elater\n最終形: 虫ᴱᴸ\n漢字: 虫\n識別子: el\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2590",
+      "priority": 0,
+      "sourceRoot": "elater",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2590
+    },
+    "elatr": {
+      "prefix": "elatr",
+      "body": "虫ᴱᵀ",
+      "kanji": "虫",
+      "detail": "elatr → 虫ᴱᵀ (pejvo, F=1)",
+      "documentation": "語根: elatr\n入力: elatr\n最終形: 虫ᴱᵀ\n漢字: 虫\n識別子: et\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2594",
+      "priority": 0,
+      "sourceRoot": "elatr",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2594
+    },
+    "entom": {
+      "prefix": "entom",
+      "body": "虫ᴱ",
+      "kanji": "虫",
+      "detail": "entom → 虫ᴱ (pejvo, F=2)",
+      "documentation": "語根: entom\n入力: entom\n最終形: 虫ᴱ\n漢字: 虫\n識別子: e\n型: pejvo\nF(汎用性): 2\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2584",
+      "priority": 0,
+      "sourceRoot": "entom",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2584
+    },
+    "falen": {
+      "prefix": "falen",
+      "body": "虫ᶠᴸ",
+      "kanji": "虫",
+      "detail": "falen → 虫ᶠᴸ (piv, F=1)",
+      "documentation": "語根: falen\n入力: falen\n最終形: 虫ᶠᴸ\n漢字: 虫\n識別子: fl\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2618",
+      "priority": 0,
+      "sourceRoot": "falen",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2618
+    },
+    "fasciol": {
+      "prefix": "fasciol",
+      "body": "虫ᶠˢ",
+      "kanji": "虫",
+      "detail": "fasciol → 虫ᶠˢ (pejvo, F=1)",
+      "documentation": "語根: fasciol\n入力: fasciol\n最終形: 虫ᶠˢ\n漢字: 虫\n識別子: fs\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2598",
+      "priority": 0,
+      "sourceRoot": "fasciol",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2598
+    },
+    "filokser": {
+      "prefix": "filokser",
+      "body": "虫ᶠᴷ",
+      "kanji": "虫",
+      "detail": "filokser → 虫ᶠᴷ (pejvo, F=1)",
+      "documentation": "語根: filokser\n入力: filokser\n最終形: 虫ᶠᴷ\n漢字: 虫\n識別子: fk\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2601",
+      "priority": 0,
+      "sourceRoot": "filokser",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2601
+    },
+    "flebotom": {
+      "prefix": "flebotom",
+      "body": "虫ᶠᴮ",
+      "kanji": "虫",
+      "detail": "flebotom → 虫ᶠᴮ (piv, F=1)",
+      "documentation": "語根: flebotom\n入力: flebotom\n最終形: 虫ᶠᴮ\n漢字: 虫\n識別子: fb\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2667",
+      "priority": 0,
+      "sourceRoot": "flebotom",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2667
+    },
+    "frigan": {
+      "prefix": "frigan",
+      "body": "虫ᶠᴿ",
+      "kanji": "虫",
+      "detail": "frigan → 虫ᶠᴿ (piv, F=1)",
+      "documentation": "語根: frigan\n入力: frigan\n最終形: 虫ᶠᴿ\n漢字: 虫\n識別子: fr\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2628",
+      "priority": 0,
+      "sourceRoot": "frigan",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2628
+    },
+    "ftir": {
+      "prefix": "ftir",
+      "body": "虫ᶠ",
+      "kanji": "虫",
+      "detail": "ftir → 虫ᶠ (piv, F=1)",
+      "documentation": "語根: ftir\n入力: ftir\n最終形: 虫ᶠ\n漢字: 虫\n識別子: f\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2607",
+      "priority": 0,
+      "sourceRoot": "ftir",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2607
+    },
+    "fuzulin": {
+      "prefix": "fuzulin",
+      "body": "虫ᶠᶻ",
+      "kanji": "虫",
+      "detail": "fuzulin → 虫ᶠᶻ (piv, F=1)",
+      "documentation": "語根: fuzulin\n入力: fuzulin\n最終形: 虫ᶠᶻ\n漢字: 虫\n識別子: fz\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2644",
+      "priority": 0,
+      "sourceRoot": "fuzulin",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2644
+    },
+    "geotrup": {
+      "prefix": "geotrup",
+      "body": "虫ᴳ",
+      "kanji": "虫",
+      "detail": "geotrup → 虫ᴳ (pejvo, F=1)",
+      "documentation": "語根: geotrup\n入力: geotrup\n最終形: 虫ᴳ\n漢字: 虫\n識別子: g\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2591",
+      "priority": 0,
+      "sourceRoot": "geotrup",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2591
+    },
+    "geris": {
+      "prefix": "geris",
+      "body": "虫ᴳˢ",
+      "kanji": "虫",
+      "detail": "geris → 虫ᴳˢ (piv, F=1)",
+      "documentation": "語根: geris\n入力: geris\n最終形: 虫ᴳˢ\n漢字: 虫\n識別子: gs\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2619",
+      "priority": 0,
+      "sourceRoot": "geris",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2619
+    },
+    "glosin": {
+      "prefix": "glosin",
+      "body": "虫ᴳᴺ",
+      "kanji": "虫",
+      "detail": "glosin → 虫ᴳᴺ (piv, F=1)",
+      "documentation": "語根: glosin\n入力: glosin\n最終形: 虫ᴳᴺ\n漢字: 虫\n識別子: gn\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2632",
+      "priority": 0,
+      "sourceRoot": "glosin",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2632
+    },
+    "goliat": {
+      "prefix": "goliat",
+      "body": "虫ᴳᴸ",
+      "kanji": "虫",
+      "detail": "goliat → 虫ᴳᴸ (piv, F=2)",
+      "documentation": "語根: goliat\n入力: goliat\n最終形: 虫ᴳᴸ\n漢字: 虫\n識別子: gl\n型: piv\nF(汎用性): 2\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2626",
+      "priority": 0,
+      "sourceRoot": "goliat",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2626
+    },
+    "gordi": {
+      "prefix": "gordi",
+      "body": "虫ᴳᴿ",
+      "kanji": "虫",
+      "detail": "gordi → 虫ᴳᴿ (piv, F=4)",
+      "documentation": "語根: gordi\n入力: gordi\n最終形: 虫ᴳᴿ\n漢字: 虫\n識別子: gr\n型: piv\nF(汎用性): 4\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2613",
+      "priority": 0,
+      "sourceRoot": "gordi",
+      "type": "piv",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 2613
+    },
+    "gras": {
+      "prefix": "gras",
+      "body": "脂",
+      "kanji": "脂",
+      "detail": "gras → 脂 (basic, F=36, 基本形)",
+      "documentation": "語根: gras\n入力: gras\n最終形: 脂\n漢字: 脂\n識別子: なし\n型: basic\nF(汎用性): 36\nグループ数: 9\n基本形: yes\n出典: _identifier_sidecar.tsv:3012",
+      "priority": 0,
+      "sourceRoot": "gras",
+      "type": "basic",
+      "frequency": 36,
+      "base": true,
+      "sourceLine": 3012
+    },
+    "harpal": {
+      "prefix": "harpal",
+      "body": "虫ᴴ",
+      "kanji": "虫",
+      "detail": "harpal → 虫ᴴ (pejvo, F=1)",
+      "documentation": "語根: harpal\n入力: harpal\n最終形: 虫ᴴ\n漢字: 虫\n識別子: h\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2589",
+      "priority": 0,
+      "sourceRoot": "harpal",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2589
+    },
+    "ikneu^mon": {
+      "prefix": "ikneuxmon",
+      "body": "虫ᴵᴷ",
+      "kanji": "虫",
+      "detail": "ikneu^mon → 虫ᴵᴷ (piv, F=1)",
+      "documentation": "語根: ikneu^mon\n入力: ikneuxmon\n最終形: 虫ᴵᴷ\n漢字: 虫\n識別子: ik\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2668",
+      "priority": 0,
+      "sourceRoot": "ikneu^mon",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2668
+    },
+    "iksod": {
+      "prefix": "iksod",
+      "body": "虫ᴵᴰ",
+      "kanji": "虫",
+      "detail": "iksod → 虫ᴵᴰ (pejvo, F=1)",
+      "documentation": "語根: iksod\n入力: iksod\n最終形: 虫ᴵᴰ\n漢字: 虫\n識別子: id\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2595",
+      "priority": 0,
+      "sourceRoot": "iksod",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2595
+    },
+    "insekt": {
+      "prefix": "insekt",
+      "body": "虫",
+      "kanji": "虫",
+      "detail": "insekt → 虫 (basic, F=19, 基本形)",
+      "documentation": "語根: insekt\n入力: insekt\n最終形: 虫\n漢字: 虫\n識別子: なし\n型: basic\nF(汎用性): 19\nグループ数: 107\n基本形: yes\n出典: _identifier_sidecar.tsv:2576",
+      "priority": 0,
+      "sourceRoot": "insekt",
+      "type": "basic",
+      "frequency": 19,
+      "base": true,
+      "sourceLine": 2576
+    },
+    "ip": {
+      "prefix": "ip",
+      "body": "虫ᴵᴾ",
+      "kanji": "虫",
+      "detail": "ip → 虫ᴵᴾ (piv, F=1)",
+      "documentation": "語根: ip\n入力: ip\n最終形: 虫ᴵᴾ\n漢字: 虫\n識別子: ip\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2604",
+      "priority": 0,
+      "sourceRoot": "ip",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2604
+    },
+    "kalosom": {
+      "prefix": "kalosom",
+      "body": "虫ᴷᴸ",
+      "kanji": "虫",
+      "detail": "kalosom → 虫ᴷᴸ (piv, F=1)",
+      "documentation": "語根: kalosom\n入力: kalosom\n最終形: 虫ᴷᴸ\n漢字: 虫\n識別子: kl\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2651",
+      "priority": 0,
+      "sourceRoot": "kalosom",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2651
+    },
+    "kantarid": {
+      "prefix": "kantarid",
+      "body": "虫ᴷᴺ",
+      "kanji": "虫",
+      "detail": "kantarid → 虫ᴷᴺ (piv, F=1)",
+      "documentation": "語根: kantarid\n入力: kantarid\n最終形: 虫ᴷᴺ\n漢字: 虫\n識別子: kn\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2681",
+      "priority": 0,
+      "sourceRoot": "kantarid",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2681
+    },
+    "karab": {
+      "prefix": "karab",
+      "body": "虫ᴷᴮ",
+      "kanji": "虫",
+      "detail": "karab → 虫ᴷᴮ (piv, F=1)",
+      "documentation": "語根: karab\n入力: karab\n最終形: 虫ᴷᴮ\n漢字: 虫\n識別子: kb\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2614",
+      "priority": 0,
+      "sourceRoot": "karab",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2614
+    },
+    "katokal": {
+      "prefix": "katokal",
+      "body": "虫ᴷᵀ",
+      "kanji": "虫",
+      "detail": "katokal → 虫ᴷᵀ (piv, F=1)",
+      "documentation": "語根: katokal\n入力: katokal\n最終形: 虫ᴷᵀ\n漢字: 虫\n識別子: kt\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2652",
+      "priority": 0,
+      "sourceRoot": "katokal",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2652
+    },
+    "kokcinel": {
+      "prefix": "kokcinel",
+      "body": "虫ᴷᶜ",
+      "kanji": "虫",
+      "detail": "kokcinel → 虫ᴷᶜ (piv, F=1)",
+      "documentation": "語根: kokcinel\n入力: kokcinel\n最終形: 虫ᴷᶜ\n漢字: 虫\n識別子: kc\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2680",
+      "priority": 0,
+      "sourceRoot": "kokcinel",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2680
+    },
+    "komatul": {
+      "prefix": "komatul",
+      "body": "虫ᴷᴹ",
+      "kanji": "虫",
+      "detail": "komatul → 虫ᴷᴹ (pejvo, F=1)",
+      "documentation": "語根: komatul\n入力: komatul\n最終形: 虫ᴷᴹ\n漢字: 虫\n識別子: km\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2599",
+      "priority": 0,
+      "sourceRoot": "komatul",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2599
+    },
+    "kopal": {
+      "prefix": "kopal",
+      "body": "脂ᴷ",
+      "kanji": "脂",
+      "detail": "kopal → 脂ᴷ (piv, F=3)",
+      "documentation": "語根: kopal\n入力: kopal\n最終形: 脂ᴷ\n漢字: 脂\n識別子: k\n型: piv\nF(汎用性): 3\nグループ数: 9\n基本形: no\n出典: _identifier_sidecar.tsv:3020",
+      "priority": 0,
+      "sourceRoot": "kopal",
+      "type": "piv",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 3020
+    },
+    "kopris": {
+      "prefix": "kopris",
+      "body": "虫ᴷᴾ",
+      "kanji": "虫",
+      "detail": "kopris → 虫ᴷᴾ (piv, F=1)",
+      "documentation": "語根: kopris\n入力: kopris\n最終形: 虫ᴷᴾ\n漢字: 虫\n識別子: kp\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2633",
+      "priority": 0,
+      "sourceRoot": "kopris",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2633
+    },
+    "koral": {
+      "prefix": "koral",
+      "body": "虫ᴷ",
+      "kanji": "虫",
+      "detail": "koral → 虫ᴷ (pejvo, F=11)",
+      "documentation": "語根: koral\n入力: koral\n最終形: 虫ᴷ\n漢字: 虫\n識別子: k\n型: pejvo\nF(汎用性): 11\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2578",
+      "priority": 0,
+      "sourceRoot": "koral",
+      "type": "pejvo",
+      "frequency": 11,
+      "base": false,
+      "sourceLine": 2578
+    },
+    "koriks": {
+      "prefix": "koriks",
+      "body": "虫ᴷᴷ",
+      "kanji": "虫",
+      "detail": "koriks → 虫ᴷᴷ (piv, F=1)",
+      "documentation": "語根: koriks\n入力: koriks\n最終形: 虫ᴷᴷ\n漢字: 虫\n識別子: kk\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2634",
+      "priority": 0,
+      "sourceRoot": "koriks",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2634
+    },
+    "krabr": {
+      "prefix": "krabr",
+      "body": "蜂ᴷ",
+      "kanji": "蜂",
+      "detail": "krabr → 蜂ᴷ (pejvo, F=1)",
+      "documentation": "語根: krabr\n入力: krabr\n最終形: 蜂ᴷ\n漢字: 蜂\n識別子: k\n型: pejvo\nF(汎用性): 1\nグループ数: 5\n基本形: no\n出典: _identifier_sidecar.tsv:4168",
+      "priority": 0,
+      "sourceRoot": "krabr",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 4168
+    },
+    "krizomel": {
+      "prefix": "krizomel",
+      "body": "虫ᴷᴿ",
+      "kanji": "虫",
+      "detail": "krizomel → 虫ᴷᴿ (piv, F=1)",
+      "documentation": "語根: krizomel\n入力: krizomel\n最終形: 虫ᴷᴿ\n漢字: 虫\n識別子: kr\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2660",
+      "priority": 0,
+      "sourceRoot": "krizomel",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2660
+    },
+    "krizop": {
+      "prefix": "krizop",
+      "body": "虫ᴷᶻ",
+      "kanji": "虫",
+      "detail": "krizop → 虫ᴷᶻ (piv, F=1)",
+      "documentation": "語根: krizop\n入力: krizop\n最終形: 虫ᴷᶻ\n漢字: 虫\n識別子: kz\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2635",
+      "priority": 0,
+      "sourceRoot": "krizop",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2635
+    },
+    "ksestobi": {
+      "prefix": "ksestobi",
+      "body": "虫ᴷˢ",
+      "kanji": "虫",
+      "detail": "ksestobi → 虫ᴷˢ (piv, F=1)",
+      "documentation": "語根: ksestobi\n入力: ksestobi\n最終形: 虫ᴷˢ\n漢字: 虫\n識別子: ks\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2669",
+      "priority": 0,
+      "sourceRoot": "ksestobi",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2669
+    },
+    "lard": {
+      "prefix": "lard",
+      "body": "脂ᴸ",
+      "kanji": "脂",
+      "detail": "lard → 脂ᴸ (basic, F=11)",
+      "documentation": "語根: lard\n入力: lard\n最終形: 脂ᴸ\n漢字: 脂\n識別子: l\n型: basic\nF(汎用性): 11\nグループ数: 9\n基本形: no\n出典: _identifier_sidecar.tsv:3013",
+      "priority": 0,
+      "sourceRoot": "lard",
+      "type": "basic",
+      "frequency": 11,
+      "base": false,
+      "sourceLine": 3013
+    },
+    "lau^s": {
+      "prefix": "lauxs",
+      "body": "虫ᴸ",
+      "kanji": "虫",
+      "detail": "lau^s → 虫ᴸ (piv, F=7)",
+      "documentation": "語根: lau^s\n入力: lauxs\n最終形: 虫ᴸ\n漢字: 虫\n識別子: l\n型: piv\nF(汎用性): 7\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2603",
+      "priority": 0,
+      "sourceRoot": "lau^s",
+      "type": "piv",
+      "frequency": 7,
+      "base": false,
+      "sourceLine": 2603
+    },
+    "lepism": {
+      "prefix": "lepism",
+      "body": "虫ᴸᴹ",
+      "kanji": "虫",
+      "detail": "lepism → 虫ᴸᴹ (pejvo, F=1)",
+      "documentation": "語根: lepism\n入力: lepism\n最終形: 虫ᴸᴹ\n漢字: 虫\n識別子: lm\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2597",
+      "priority": 0,
+      "sourceRoot": "lepism",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2597
+    },
+    "lept": {
+      "prefix": "lept",
+      "body": "虫ᴸᴾ",
+      "kanji": "虫",
+      "detail": "lept → 虫ᴸᴾ (piv, F=1)",
+      "documentation": "語根: lept\n入力: lept\n最終形: 虫ᴸᴾ\n漢字: 虫\n識別子: lp\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2608",
+      "priority": 0,
+      "sourceRoot": "lept",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2608
+    },
+    "leptinotars": {
+      "prefix": "leptinotars",
+      "body": "虫ᴸᴺ",
+      "kanji": "虫",
+      "detail": "leptinotars → 虫ᴸᴺ (piv, F=1)",
+      "documentation": "語根: leptinotars\n入力: leptinotars\n最終形: 虫ᴸᴺ\n漢字: 虫\n識別子: ln\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2673",
+      "priority": 0,
+      "sourceRoot": "leptinotars",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2673
+    },
+    "libel": {
+      "prefix": "libel",
+      "body": "虫ᴸᴸ",
+      "kanji": "虫",
+      "detail": "libel → 虫ᴸᴸ (piv, F=1)",
+      "documentation": "語根: libel\n入力: libel\n最終形: 虫ᴸᴸ\n漢字: 虫\n識別子: ll\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2676",
+      "priority": 0,
+      "sourceRoot": "libel",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2676
+    },
+    "licen": {
+      "prefix": "licen",
+      "body": "虫ᴸᶜ",
+      "kanji": "虫",
+      "detail": "licen → 虫ᴸᶜ (piv, F=1)",
+      "documentation": "語根: licen\n入力: licen\n最終形: 虫ᴸᶜ\n漢字: 虫\n識別子: lc\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2620",
+      "priority": 0,
+      "sourceRoot": "licen",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2620
+    },
+    "lig^e": {
+      "prefix": "ligxe",
+      "body": "虫ᴸᴳ̂",
+      "kanji": "虫",
+      "detail": "lig^e → 虫ᴸᴳ̂ (piv, F=1)",
+      "documentation": "語根: lig^e\n入力: ligxe\n最終形: 虫ᴸᴳ̂\n漢字: 虫\n識別子: lĝ\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2609",
+      "priority": 0,
+      "sourceRoot": "lig^e",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2609
+    },
+    "lipid": {
+      "prefix": "lipid",
+      "body": "脂ᴸᴾ",
+      "kanji": "脂",
+      "detail": "lipid → 脂ᴸᴾ (piv, F=7)",
+      "documentation": "語根: lipid\n入力: lipid\n最終形: 脂ᴸᴾ\n漢字: 脂\n識別子: lp\n型: piv\nF(汎用性): 7\nグループ数: 9\n基本形: no\n出典: _identifier_sidecar.tsv:3018",
+      "priority": 0,
+      "sourceRoot": "lipid",
+      "type": "piv",
+      "frequency": 7,
+      "base": false,
+      "sourceLine": 3018
+    },
+    "lumbrik": {
+      "prefix": "lumbrik",
+      "body": "虫ᴸᴮ",
+      "kanji": "虫",
+      "detail": "lumbrik → 虫ᴸᴮ (pejvo, F=1)",
+      "documentation": "語根: lumbrik\n入力: lumbrik\n最終形: 虫ᴸᴮ\n漢字: 虫\n識別子: lb\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2600",
+      "priority": 0,
+      "sourceRoot": "lumbrik",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2600
+    },
+    "makaon": {
+      "prefix": "makaon",
+      "body": "虫ᴹᴷ",
+      "kanji": "虫",
+      "detail": "makaon → 虫ᴹᴷ (piv, F=1)",
+      "documentation": "語根: makaon\n入力: makaon\n最終形: 虫ᴹᴷ\n漢字: 虫\n識別子: mk\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2636",
+      "priority": 0,
+      "sourceRoot": "makaon",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2636
+    },
+    "mant": {
+      "prefix": "mant",
+      "body": "虫ᴹᴺ",
+      "kanji": "虫",
+      "detail": "mant → 虫ᴹᴺ (piv, F=1)",
+      "documentation": "語根: mant\n入力: mant\n最終形: 虫ᴹᴺ\n漢字: 虫\n識別子: mn\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2675",
+      "priority": 0,
+      "sourceRoot": "mant",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2675
+    },
+    "melo": {
+      "prefix": "melo",
+      "body": "虫ᴹ",
+      "kanji": "虫",
+      "detail": "melo → 虫ᴹ (piv, F=1)",
+      "documentation": "語根: melo\n入力: melo\n最終形: 虫ᴹ\n漢字: 虫\n識別子: m\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2610",
+      "priority": 0,
+      "sourceRoot": "melo",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2610
+    },
+    "mirmeleon": {
+      "prefix": "mirmeleon",
+      "body": "虫ᴹᴿ",
+      "kanji": "虫",
+      "detail": "mirmeleon → 虫ᴹᴿ (pejvo, F=1)",
+      "documentation": "語根: mirmeleon\n入力: mirmeleon\n最終形: 虫ᴹᴿ\n漢字: 虫\n識別子: mr\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2602",
+      "priority": 0,
+      "sourceRoot": "mirmeleon",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2602
+    },
+    "nekrofor": {
+      "prefix": "nekrofor",
+      "body": "虫ᴺᴷ",
+      "kanji": "虫",
+      "detail": "nekrofor → 虫ᴺᴷ (piv, F=1)",
+      "documentation": "語根: nekrofor\n入力: nekrofor\n最終形: 虫ᴺᴷ\n漢字: 虫\n識別子: nk\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2670",
+      "priority": 0,
+      "sourceRoot": "nekrofor",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2670
+    },
+    "nepa": {
+      "prefix": "nepa",
+      "body": "虫ᴺ",
+      "kanji": "虫",
+      "detail": "nepa → 虫ᴺ (piv, F=1)",
+      "documentation": "語根: nepa\n入力: nepa\n最終形: 虫ᴺ\n漢字: 虫\n識別子: n\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2611",
+      "priority": 0,
+      "sourceRoot": "nepa",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2611
+    },
+    "nere": {
+      "prefix": "nere",
+      "body": "虫ᴺᴱ",
+      "kanji": "虫",
+      "detail": "nere → 虫ᴺᴱ (piv, F=1)",
+      "documentation": "語根: nere\n入力: nere\n最終形: 虫ᴺᴱ\n漢字: 虫\n識別子: ne\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2674",
+      "priority": 0,
+      "sourceRoot": "nere",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2674
+    },
+    "nereid": {
+      "prefix": "nereid",
+      "body": "虫ᴺᴿ",
+      "kanji": "虫",
+      "detail": "nereid → 虫ᴺᴿ (piv, F=1)",
+      "documentation": "語根: nereid\n入力: nereid\n最終形: 虫ᴺᴿ\n漢字: 虫\n識別子: nr\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2637",
+      "priority": 0,
+      "sourceRoot": "nereid",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2637
+    },
+    "notonekt": {
+      "prefix": "notonekt",
+      "body": "虫ᴺᵀ",
+      "kanji": "虫",
+      "detail": "notonekt → 虫ᴺᵀ (piv, F=1)",
+      "documentation": "語根: notonekt\n入力: notonekt\n最終形: 虫ᴺᵀ\n漢字: 虫\n識別子: nt\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2671",
+      "priority": 0,
+      "sourceRoot": "notonekt",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2671
+    },
+    "ojstr": {
+      "prefix": "ojstr",
+      "body": "虫ᴼ",
+      "kanji": "虫",
+      "detail": "ojstr → 虫ᴼ (pejvo, F=1)",
+      "documentation": "語根: ojstr\n入力: ojstr\n最終形: 虫ᴼ\n漢字: 虫\n識別子: o\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2587",
+      "priority": 0,
+      "sourceRoot": "ojstr",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2587
+    },
+    "oksiur": {
+      "prefix": "oksiur",
+      "body": "虫ᴼᴷ",
+      "kanji": "虫",
+      "detail": "oksiur → 虫ᴼᴷ (piv, F=1)",
+      "documentation": "語根: oksiur\n入力: oksiur\n最終形: 虫ᴼᴷ\n漢字: 虫\n識別子: ok\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2627",
+      "priority": 0,
+      "sourceRoot": "oksiur",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2627
+    },
+    "pedik": {
+      "prefix": "pedik",
+      "body": "虫ᴾ",
+      "kanji": "虫",
+      "detail": "pedik → 虫ᴾ (pejvo, F=5)",
+      "documentation": "語根: pedik\n入力: pedik\n最終形: 虫ᴾ\n漢字: 虫\n識別子: p\n型: pejvo\nF(汎用性): 5\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2581",
+      "priority": 0,
+      "sourceRoot": "pedik",
+      "type": "pejvo",
+      "frequency": 5,
+      "base": false,
+      "sourceLine": 2581
+    },
+    "piral": {
+      "prefix": "piral",
+      "body": "虫ᴾᴿ",
+      "kanji": "虫",
+      "detail": "piral → 虫ᴾᴿ (piv, F=1)",
+      "documentation": "語根: piral\n入力: piral\n最終形: 虫ᴾᴿ\n漢字: 虫\n識別子: pr\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2621",
+      "priority": 0,
+      "sourceRoot": "piral",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2621
+    },
+    "rezin": {
+      "prefix": "rezin",
+      "body": "脂ᴿ",
+      "kanji": "脂",
+      "detail": "rezin → 脂ᴿ (pejvo, F=12)",
+      "documentation": "語根: rezin\n入力: rezin\n最終形: 脂ᴿ\n漢字: 脂\n識別子: r\n型: pejvo\nF(汎用性): 12\nグループ数: 9\n基本形: no\n出典: _identifier_sidecar.tsv:3015",
+      "priority": 0,
+      "sourceRoot": "rezin",
+      "type": "pejvo",
+      "frequency": 12,
+      "base": false,
+      "sourceLine": 3015
+    },
+    "sarkopsil": {
+      "prefix": "sarkopsil",
+      "body": "虫ˢˢ",
+      "kanji": "虫",
+      "detail": "sarkopsil → 虫ˢˢ (piv, F=1)",
+      "documentation": "語根: sarkopsil\n入力: sarkopsil\n最終形: 虫ˢˢ\n漢字: 虫\n識別子: ss\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2682",
+      "priority": 0,
+      "sourceRoot": "sarkopsil",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2682
+    },
+    "sarkopt": {
+      "prefix": "sarkopt",
+      "body": "虫ˢᴿ",
+      "kanji": "虫",
+      "detail": "sarkopt → 虫ˢᴿ (piv, F=1)",
+      "documentation": "語根: sarkopt\n入力: sarkopt\n最終形: 虫ˢᴿ\n漢字: 虫\n識別子: sr\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2653",
+      "priority": 0,
+      "sourceRoot": "sarkopt",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2653
+    },
+    "saturni": {
+      "prefix": "saturni",
+      "body": "虫ˢᵀ",
+      "kanji": "虫",
+      "detail": "saturni → 虫ˢᵀ (piv, F=1)",
+      "documentation": "語根: saturni\n入力: saturni\n最終形: 虫ˢᵀ\n漢字: 虫\n識別子: st\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2654",
+      "priority": 0,
+      "sourceRoot": "saturni",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2654
+    },
+    "seb": {
+      "prefix": "seb",
+      "body": "脂ˢ",
+      "kanji": "脂",
+      "detail": "seb → 脂ˢ (pejvo, F=8)",
+      "documentation": "語根: seb\n入力: seb\n最終形: 脂ˢ\n漢字: 脂\n識別子: s\n型: pejvo\nF(汎用性): 8\nグループ数: 9\n基本形: no\n出典: _identifier_sidecar.tsv:3014",
+      "priority": 0,
+      "sourceRoot": "seb",
+      "type": "pejvo",
+      "frequency": 8,
+      "base": false,
+      "sourceLine": 3014
+    },
+    "spatang": {
+      "prefix": "spatang",
+      "body": "虫ˢᴾ",
+      "kanji": "虫",
+      "detail": "spatang → 虫ˢᴾ (piv, F=1)",
+      "documentation": "語根: spatang\n入力: spatang\n最終形: 虫ˢᴾ\n漢字: 虫\n識別子: sp\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2655",
+      "priority": 0,
+      "sourceRoot": "spatang",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2655
+    },
+    "steat": {
+      "prefix": "steat",
+      "body": "脂ˢᵀ",
+      "kanji": "脂",
+      "detail": "steat → 脂ˢᵀ (piv, F=4)",
+      "documentation": "語根: steat\n入力: steat\n最終形: 脂ˢᵀ\n漢字: 脂\n識別子: st\n型: piv\nF(汎用性): 4\nグループ数: 9\n基本形: no\n出典: _identifier_sidecar.tsv:3019",
+      "priority": 0,
+      "sourceRoot": "steat",
+      "type": "piv",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 3019
+    },
+    "taban": {
+      "prefix": "taban",
+      "body": "虫ᵀᴮ",
+      "kanji": "虫",
+      "detail": "taban → 虫ᵀᴮ (pejvo, F=1)",
+      "documentation": "語根: taban\n入力: taban\n最終形: 虫ᵀᴮ\n漢字: 虫\n識別子: tb\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2586",
+      "priority": 0,
+      "sourceRoot": "taban",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2586
+    },
+    "tenebri": {
+      "prefix": "tenebri",
+      "body": "虫ᵀᴺ",
+      "kanji": "虫",
+      "detail": "tenebri → 虫ᵀᴺ (piv, F=1)",
+      "documentation": "語根: tenebri\n入力: tenebri\n最終形: 虫ᵀᴺ\n漢字: 虫\n識別子: tn\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2656",
+      "priority": 0,
+      "sourceRoot": "tenebri",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2656
+    },
+    "tine": {
+      "prefix": "tine",
+      "body": "虫ᵀ",
+      "kanji": "虫",
+      "detail": "tine → 虫ᵀ (pejvo, F=1)",
+      "documentation": "語根: tine\n入力: tine\n最終形: 虫ᵀ\n漢字: 虫\n識別子: t\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2583",
+      "priority": 0,
+      "sourceRoot": "tine",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2583
+    },
+    "tipul": {
+      "prefix": "tipul",
+      "body": "虫ᵀᴾ",
+      "kanji": "虫",
+      "detail": "tipul → 虫ᵀᴾ (pejvo, F=1)",
+      "documentation": "語根: tipul\n入力: tipul\n最終形: 虫ᵀᴾ\n漢字: 虫\n識別子: tp\n型: pejvo\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2588",
+      "priority": 0,
+      "sourceRoot": "tipul",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2588
+    },
+    "tortrik": {
+      "prefix": "tortrik",
+      "body": "虫ᵀᵀ",
+      "kanji": "虫",
+      "detail": "tortrik → 虫ᵀᵀ (piv, F=1)",
+      "documentation": "語根: tortrik\n入力: tortrik\n最終形: 虫ᵀᵀ\n漢字: 虫\n識別子: tt\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2643",
+      "priority": 0,
+      "sourceRoot": "tortrik",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2643
+    },
+    "trips": {
+      "prefix": "trips",
+      "body": "虫ᵀᴿ",
+      "kanji": "虫",
+      "detail": "trips → 虫ᵀᴿ (piv, F=1)",
+      "documentation": "語根: trips\n入力: trips\n最終形: 虫ᵀᴿ\n漢字: 虫\n識別子: tr\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2622",
+      "priority": 0,
+      "sourceRoot": "trips",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2622
+    },
+    "trogi": {
+      "prefix": "trogi",
+      "body": "虫ᵀᴳ",
+      "kanji": "虫",
+      "detail": "trogi → 虫ᵀᴳ (piv, F=1)",
+      "documentation": "語根: trogi\n入力: trogi\n最終形: 虫ᵀᴳ\n漢字: 虫\n識別子: tg\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2623",
+      "priority": 0,
+      "sourceRoot": "trogi",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2623
+    },
+    "trombidi": {
+      "prefix": "trombidi",
+      "body": "虫ᵀᴹ",
+      "kanji": "虫",
+      "detail": "trombidi → 虫ᵀᴹ (piv, F=2)",
+      "documentation": "語根: trombidi\n入力: trombidi\n最終形: 虫ᵀᴹ\n漢字: 虫\n識別子: tm\n型: piv\nF(汎用性): 2\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2658",
+      "priority": 0,
+      "sourceRoot": "trombidi",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2658
+    },
+    "vanes": {
+      "prefix": "vanes",
+      "body": "虫ⱽᴺ",
+      "kanji": "虫",
+      "detail": "vanes → 虫ⱽᴺ (piv, F=1)",
+      "documentation": "語根: vanes\n入力: vanes\n最終形: 虫ⱽᴺ\n漢字: 虫\n識別子: vn\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2624",
+      "priority": 0,
+      "sourceRoot": "vanes",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2624
+    },
+    "verm": {
+      "prefix": "verm",
+      "body": "虫ⱽ",
+      "kanji": "虫",
+      "detail": "verm → 虫ⱽ (basic, F=22)",
+      "documentation": "語根: verm\n入力: verm\n最終形: 虫ⱽ\n漢字: 虫\n識別子: v\n型: basic\nF(汎用性): 22\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2577",
+      "priority": 0,
+      "sourceRoot": "verm",
+      "type": "basic",
+      "frequency": 22,
+      "base": false,
+      "sourceLine": 2577
+    },
+    "vesp": {
+      "prefix": "vesp",
+      "body": "蜂ⱽ",
+      "kanji": "蜂",
+      "detail": "vesp → 蜂ⱽ (basic, F=4)",
+      "documentation": "語根: vesp\n入力: vesp\n最終形: 蜂ⱽ\n漢字: 蜂\n識別子: v\n型: basic\nF(汎用性): 4\nグループ数: 5\n基本形: no\n出典: _identifier_sidecar.tsv:4167",
+      "priority": 0,
+      "sourceRoot": "vesp",
+      "type": "basic",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 4167
+    },
+    "vukeri": {
+      "prefix": "vukeri",
+      "body": "虫ⱽᴷ",
+      "kanji": "虫",
+      "detail": "vukeri → 虫ⱽᴷ (piv, F=1)",
+      "documentation": "語根: vukeri\n入力: vukeri\n最終形: 虫ⱽᴷ\n漢字: 虫\n識別子: vk\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2639",
+      "priority": 0,
+      "sourceRoot": "vukeri",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2639
+    },
+    "zigen": {
+      "prefix": "zigen",
+      "body": "虫ᶻ",
+      "kanji": "虫",
+      "detail": "zigen → 虫ᶻ (piv, F=1)",
+      "documentation": "語根: zigen\n入力: zigen\n最終形: 虫ᶻ\n漢字: 虫\n識別子: z\n型: piv\nF(汎用性): 1\nグループ数: 107\n基本形: no\n出典: _identifier_sidecar.tsv:2625",
+      "priority": 0,
+      "sourceRoot": "zigen",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2625
+    }
+  },
+  "expected_target_items": {
+    "s^malc": {
+      "prefix": "sxmalc",
+      "body": "脂ˢ̂",
+      "kanji": "脂",
+      "detail": "s^malc → 脂ˢ̂ (piv, F=2)",
+      "documentation": "語根: s^malc\n入力: sxmalc\n最終形: 脂ˢ̂\n漢字: 脂\n識別子: ŝ\n型: piv\nF(汎用性): 2\nグループ数: 10\n基本形: no\n出典: _identifier_sidecar.tsv:8555",
+      "priority": 0,
+      "sourceRoot": "s^malc",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 8555
+    },
+    "sfeg": {
+      "prefix": "sfeg",
+      "body": "蜂ˢ",
+      "kanji": "蜂",
+      "detail": "sfeg → 蜂ˢ (piv, F=1)",
+      "documentation": "語根: sfeg\n入力: sfeg\n最終形: 蜂ˢ\n漢字: 蜂\n識別子: s\n型: piv\nF(汎用性): 1\nグループ数: 6\n基本形: no\n出典: _identifier_sidecar.tsv:2612",
+      "priority": 0,
+      "sourceRoot": "sfeg",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2612
+    },
+    "simuli": {
+      "prefix": "simuli",
+      "body": "虫ˢ",
+      "kanji": "虫",
+      "detail": "simuli → 虫ˢ (piv, F=1)",
+      "documentation": "語根: simuli\n入力: simuli\n最終形: 虫ˢ\n漢字: 虫\n識別子: s\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2638",
+      "priority": 0,
+      "sourceRoot": "simuli",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2638
+    },
+    "abel": {
+      "prefix": "abel",
+      "body": "蜂",
+      "kanji": "蜂",
+      "detail": "abel → 蜂 (basic, F=21, 基本形)",
+      "documentation": "語根: abel\n入力: abel\n最終形: 蜂\n漢字: 蜂\n識別子: なし\n型: basic\nF(汎用性): 21\nグループ数: 6\n基本形: yes\n出典: _identifier_sidecar.tsv:4166",
+      "priority": 0,
+      "sourceRoot": "abel",
+      "type": "basic",
+      "frequency": 21,
+      "base": true,
+      "sourceLine": 4166
+    },
+    "adip": {
+      "prefix": "adip",
+      "body": "脂ᴬ",
+      "kanji": "脂",
+      "detail": "adip → 脂ᴬ (piv, F=4)",
+      "documentation": "語根: adip\n入力: adip\n最終形: 脂ᴬ\n漢字: 脂\n識別子: a\n型: piv\nF(汎用性): 4\nグループ数: 10\n基本形: no\n出典: _identifier_sidecar.tsv:3017",
+      "priority": 0,
+      "sourceRoot": "adip",
+      "type": "piv",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 3017
+    },
+    "afid": {
+      "prefix": "afid",
+      "body": "虫ᴬᶠ",
+      "kanji": "虫",
+      "detail": "afid → 虫ᴬᶠ (pejvo, F=1)",
+      "documentation": "語根: afid\n入力: afid\n最終形: 虫ᴬᶠ\n漢字: 虫\n識別子: af\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2582",
+      "priority": 0,
+      "sourceRoot": "afid",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2582
+    },
+    "afis": {
+      "prefix": "afis",
+      "body": "虫ᴬˢ",
+      "kanji": "虫",
+      "detail": "afis → 虫ᴬˢ (pejvo, F=1)",
+      "documentation": "語根: afis\n入力: afis\n最終形: 虫ᴬˢ\n漢字: 虫\n識別子: as\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2593",
+      "priority": 0,
+      "sourceRoot": "afis",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2593
+    },
+    "afrodit": {
+      "prefix": "afrodit",
+      "body": "虫ᴬᴰ",
+      "kanji": "虫",
+      "detail": "afrodit → 虫ᴬᴰ (piv, F=2)",
+      "documentation": "語根: afrodit\n入力: afrodit\n最終形: 虫ᴬᴰ\n漢字: 虫\n識別子: ad\n型: piv\nF(汎用性): 2\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2641",
+      "priority": 0,
+      "sourceRoot": "afrodit",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2641
+    },
+    "ah^eronti": {
+      "prefix": "ahxeronti",
+      "body": "虫ᴬᴴ̂",
+      "kanji": "虫",
+      "detail": "ah^eronti → 虫ᴬᴴ̂ (piv, F=1)",
+      "documentation": "語根: ah^eronti\n入力: ahxeronti\n最終形: 虫ᴬᴴ̂\n漢字: 虫\n識別子: aĥ\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2678",
+      "priority": 0,
+      "sourceRoot": "ah^eronti",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2678
+    },
+    "akar": {
+      "prefix": "akar",
+      "body": "虫ᴬ",
+      "kanji": "虫",
+      "detail": "akar → 虫ᴬ (pejvo, F=3)",
+      "documentation": "語根: akar\n入力: akar\n最終形: 虫ᴬ\n漢字: 虫\n識別子: a\n型: pejvo\nF(汎用性): 3\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2579",
+      "priority": 0,
+      "sourceRoot": "akar",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 2579
+    },
+    "akeronti": {
+      "prefix": "akeronti",
+      "body": "虫ᴬᴵ",
+      "kanji": "虫",
+      "detail": "akeronti → 虫ᴬᴵ (piv, F=1)",
+      "documentation": "語根: akeronti\n入力: akeronti\n最終形: 虫ᴬᴵ\n漢字: 虫\n識別子: ai\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2663",
+      "priority": 0,
+      "sourceRoot": "akeronti",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2663
+    },
+    "alcioni": {
+      "prefix": "alcioni",
+      "body": "虫ᴬᴸ",
+      "kanji": "虫",
+      "detail": "alcioni → 虫ᴬᴸ (piv, F=2)",
+      "documentation": "語根: alcioni\n入力: alcioni\n最終形: 虫ᴬᴸ\n漢字: 虫\n識別子: al\n型: piv\nF(汎用性): 2\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2640",
+      "priority": 0,
+      "sourceRoot": "alcioni",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2640
+    },
+    "aleu^rod": {
+      "prefix": "aleuxrod",
+      "body": "虫ᴬᵁ̆",
+      "kanji": "虫",
+      "detail": "aleu^rod → 虫ᴬᵁ̆ (piv, F=1)",
+      "documentation": "語根: aleu^rod\n入力: aleuxrod\n最終形: 虫ᴬᵁ̆\n漢字: 虫\n識別子: aŭ\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2642",
+      "priority": 0,
+      "sourceRoot": "aleu^rod",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2642
+    },
+    "alveolin": {
+      "prefix": "alveolin",
+      "body": "虫ᴬⱽ",
+      "kanji": "虫",
+      "detail": "alveolin → 虫ᴬⱽ (piv, F=1)",
+      "documentation": "語根: alveolin\n入力: alveolin\n最終形: 虫ᴬⱽ\n漢字: 虫\n識別子: av\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2662",
+      "priority": 0,
+      "sourceRoot": "alveolin",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2662
+    },
+    "anelid": {
+      "prefix": "anelid",
+      "body": "虫ᴬᴱ",
+      "kanji": "虫",
+      "detail": "anelid → 虫ᴬᴱ (pejvo, F=1)",
+      "documentation": "語根: anelid\n入力: anelid\n最終形: 虫ᴬᴱ\n漢字: 虫\n識別子: ae\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2596",
+      "priority": 0,
+      "sourceRoot": "anelid",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2596
+    },
+    "anobi": {
+      "prefix": "anobi",
+      "body": "虫ᴬᴺ",
+      "kanji": "虫",
+      "detail": "anobi → 虫ᴬᴺ (pejvo, F=1)",
+      "documentation": "語根: anobi\n入力: anobi\n最終形: 虫ᴬᴺ\n漢字: 虫\n識別子: an\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2585",
+      "priority": 0,
+      "sourceRoot": "anobi",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2585
+    },
+    "antedon": {
+      "prefix": "antedon",
+      "body": "虫ᴬᵀ",
+      "kanji": "虫",
+      "detail": "antedon → 虫ᴬᵀ (piv, F=1)",
+      "documentation": "語根: antedon\n入力: antedon\n最終形: 虫ᴬᵀ\n漢字: 虫\n識別子: at\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2645",
+      "priority": 0,
+      "sourceRoot": "antedon",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2645
+    },
+    "argonau^t": {
+      "prefix": "argonauxt",
+      "body": "虫ᴬᴿ",
+      "kanji": "虫",
+      "detail": "argonau^t → 虫ᴬᴿ (pejvo, F=2)",
+      "documentation": "語根: argonau^t\n入力: argonauxt\n最終形: 虫ᴬᴿ\n漢字: 虫\n識別子: ar\n型: pejvo\nF(汎用性): 2\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2592",
+      "priority": 0,
+      "sourceRoot": "argonau^t",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2592
+    },
+    "arkti": {
+      "prefix": "arkti",
+      "body": "虫ᴬᴷ",
+      "kanji": "虫",
+      "detail": "arkti → 虫ᴬᴷ (piv, F=1)",
+      "documentation": "語根: arkti\n入力: arkti\n最終形: 虫ᴬᴷ\n漢字: 虫\n識別子: ak\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2615",
+      "priority": 0,
+      "sourceRoot": "arkti",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2615
+    },
+    "atropos": {
+      "prefix": "atropos",
+      "body": "虫ᴬᴾ",
+      "kanji": "虫",
+      "detail": "atropos → 虫ᴬᴾ (piv, F=1)",
+      "documentation": "語根: atropos\n入力: atropos\n最終形: 虫ᴬᴾ\n漢字: 虫\n識別子: ap\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2646",
+      "priority": 0,
+      "sourceRoot": "atropos",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2646
+    },
+    "bedeli": {
+      "prefix": "bedeli",
+      "body": "脂ᴮ",
+      "kanji": "脂",
+      "detail": "bedeli → 脂ᴮ (pejvo, F=1)",
+      "documentation": "語根: bedeli\n入力: bedeli\n最終形: 脂ᴮ\n漢字: 脂\n識別子: b\n型: pejvo\nF(汎用性): 1\nグループ数: 10\n基本形: no\n出典: _identifier_sidecar.tsv:3016",
+      "priority": 0,
+      "sourceRoot": "bedeli",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 3016
+    },
+    "blapt": {
+      "prefix": "blapt",
+      "body": "虫ᴮᴾ",
+      "kanji": "虫",
+      "detail": "blapt → 虫ᴮᴾ (piv, F=1)",
+      "documentation": "語根: blapt\n入力: blapt\n最終形: 虫ᴮᴾ\n漢字: 虫\n識別子: bp\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2616",
+      "priority": 0,
+      "sourceRoot": "blapt",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2616
+    },
+    "blat": {
+      "prefix": "blat",
+      "body": "虫ᴮ",
+      "kanji": "虫",
+      "detail": "blat → 虫ᴮ (pejvo, F=2)",
+      "documentation": "語根: blat\n入力: blat\n最終形: 虫ᴮ\n漢字: 虫\n識別子: b\n型: pejvo\nF(汎用性): 2\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2580",
+      "priority": 0,
+      "sourceRoot": "blat",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2580
+    },
+    "bostrik": {
+      "prefix": "bostrik",
+      "body": "虫ᴮˢ",
+      "kanji": "虫",
+      "detail": "bostrik → 虫ᴮˢ (piv, F=1)",
+      "documentation": "語根: bostrik\n入力: bostrik\n最終形: 虫ᴮˢ\n漢字: 虫\n識別子: bs\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2647",
+      "priority": 0,
+      "sourceRoot": "bostrik",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2647
+    },
+    "brah^in": {
+      "prefix": "brahxin",
+      "body": "虫ᴮᴴ̂",
+      "kanji": "虫",
+      "detail": "brah^in → 虫ᴮᴴ̂ (piv, F=1)",
+      "documentation": "語根: brah^in\n入力: brahxin\n最終形: 虫ᴮᴴ̂\n漢字: 虫\n識別子: bĥ\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2677",
+      "priority": 0,
+      "sourceRoot": "brah^in",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2677
+    },
+    "brakin": {
+      "prefix": "brakin",
+      "body": "虫ᴮᴿ",
+      "kanji": "虫",
+      "detail": "brakin → 虫ᴮᴿ (piv, F=1)",
+      "documentation": "語根: brakin\n入力: brakin\n最終形: 虫ᴮᴿ\n漢字: 虫\n識別子: br\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2629",
+      "priority": 0,
+      "sourceRoot": "brakin",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2629
+    },
+    "buprest": {
+      "prefix": "buprest",
+      "body": "虫ᴮᵀ",
+      "kanji": "虫",
+      "detail": "buprest → 虫ᴮᵀ (piv, F=1)",
+      "documentation": "語根: buprest\n入力: buprest\n最終形: 虫ᴮᵀ\n漢字: 虫\n識別子: bt\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2648",
+      "priority": 0,
+      "sourceRoot": "buprest",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2648
+    },
+    "burd": {
+      "prefix": "burd",
+      "body": "蜂ᴮ",
+      "kanji": "蜂",
+      "detail": "burd → 蜂ᴮ (piv, F=1)",
+      "documentation": "語根: burd\n入力: burd\n最終形: 蜂ᴮ\n漢字: 蜂\n識別子: b\n型: piv\nF(汎用性): 1\nグループ数: 6\n基本形: no\n出典: _identifier_sidecar.tsv:4170",
+      "priority": 0,
+      "sourceRoot": "burd",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 4170
+    },
+    "cece": {
+      "prefix": "cece",
+      "body": "虫ᶜ",
+      "kanji": "虫",
+      "detail": "cece → 虫ᶜ (piv, F=1)",
+      "documentation": "語根: cece\n入力: cece\n最終形: 虫ᶜ\n漢字: 虫\n識別子: c\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2606",
+      "priority": 0,
+      "sourceRoot": "cece",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2606
+    },
+    "cecidomi": {
+      "prefix": "cecidomi",
+      "body": "虫ᶜᴰ",
+      "kanji": "虫",
+      "detail": "cecidomi → 虫ᶜᴰ (piv, F=1)",
+      "documentation": "語根: cecidomi\n入力: cecidomi\n最終形: 虫ᶜᴰ\n漢字: 虫\n識別子: cd\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2664",
+      "priority": 0,
+      "sourceRoot": "cecidomi",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2664
+    },
+    "cerambik": {
+      "prefix": "cerambik",
+      "body": "虫ᶜᴹ",
+      "kanji": "虫",
+      "detail": "cerambik → 虫ᶜᴹ (piv, F=1)",
+      "documentation": "語根: cerambik\n入力: cerambik\n最終形: 虫ᶜᴹ\n漢字: 虫\n識別子: cm\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2659",
+      "priority": 0,
+      "sourceRoot": "cerambik",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2659
+    },
+    "cerkari": {
+      "prefix": "cerkari",
+      "body": "虫ᶜᴿ",
+      "kanji": "虫",
+      "detail": "cerkari → 虫ᶜᴿ (piv, F=1)",
+      "documentation": "語根: cerkari\n入力: cerkari\n最終形: 虫ᶜᴿ\n漢字: 虫\n識別子: cr\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2649",
+      "priority": 0,
+      "sourceRoot": "cerkari",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2649
+    },
+    "cetoni": {
+      "prefix": "cetoni",
+      "body": "虫ᶜᵀ",
+      "kanji": "虫",
+      "detail": "cetoni → 虫ᶜᵀ (piv, F=1)",
+      "documentation": "語根: cetoni\n入力: cetoni\n最終形: 虫ᶜᵀ\n漢字: 虫\n識別子: ct\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2630",
+      "priority": 0,
+      "sourceRoot": "cetoni",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2630
+    },
+    "cicindel": {
+      "prefix": "cicindel",
+      "body": "虫ᶜᶜ",
+      "kanji": "虫",
+      "detail": "cicindel → 虫ᶜᶜ (piv, F=1)",
+      "documentation": "語根: cicindel\n入力: cicindel\n最終形: 虫ᶜᶜ\n漢字: 虫\n識別子: cc\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2665",
+      "priority": 0,
+      "sourceRoot": "cicindel",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2665
+    },
+    "cinip": {
+      "prefix": "cinip",
+      "body": "蜂ᶜ",
+      "kanji": "蜂",
+      "detail": "cinip → 蜂ᶜ (piv, F=1)",
+      "documentation": "語根: cinip\n入力: cinip\n最終形: 蜂ᶜ\n漢字: 蜂\n識別子: c\n型: piv\nF(汎用性): 1\nグループ数: 6\n基本形: no\n出典: _identifier_sidecar.tsv:4169",
+      "priority": 0,
+      "sourceRoot": "cinip",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 4169
+    },
+    "c^ik": {
+      "prefix": "cxik",
+      "body": "虫ᶜ̂",
+      "kanji": "虫",
+      "detail": "c^ik → 虫ᶜ̂ (piv, F=1)",
+      "documentation": "語根: c^ik\n入力: cxik\n最終形: 虫ᶜ̂\n漢字: 虫\n識別子: ĉ\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2605",
+      "priority": 0,
+      "sourceRoot": "c^ik",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2605
+    },
+    "demodeks": {
+      "prefix": "demodeks",
+      "body": "虫ᴰᴹ",
+      "kanji": "虫",
+      "detail": "demodeks → 虫ᴰᴹ (piv, F=2)",
+      "documentation": "語根: demodeks\n入力: demodeks\n最終形: 虫ᴰᴹ\n漢字: 虫\n識別子: dm\n型: piv\nF(汎用性): 2\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2657",
+      "priority": 0,
+      "sourceRoot": "demodeks",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2657
+    },
+    "dermest": {
+      "prefix": "dermest",
+      "body": "虫ᴰᴿ",
+      "kanji": "虫",
+      "detail": "dermest → 虫ᴰᴿ (piv, F=1)",
+      "documentation": "語根: dermest\n入力: dermest\n最終形: 虫ᴰᴿ\n漢字: 虫\n識別子: dr\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2650",
+      "priority": 0,
+      "sourceRoot": "dermest",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2650
+    },
+    "difilobotri": {
+      "prefix": "difilobotri",
+      "body": "虫ᴰᶠ",
+      "kanji": "虫",
+      "detail": "difilobotri → 虫ᴰᶠ (piv, F=1)",
+      "documentation": "語根: difilobotri\n入力: difilobotri\n最終形: 虫ᴰᶠ\n漢字: 虫\n識別子: df\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2672",
+      "priority": 0,
+      "sourceRoot": "difilobotri",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2672
+    },
+    "ditisk": {
+      "prefix": "ditisk",
+      "body": "虫ᴰ",
+      "kanji": "虫",
+      "detail": "ditisk → 虫ᴰ (piv, F=1)",
+      "documentation": "語根: ditisk\n入力: ditisk\n最終形: 虫ᴰ\n漢字: 虫\n識別子: d\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2631",
+      "priority": 0,
+      "sourceRoot": "ditisk",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2631
+    },
+    "drozofil": {
+      "prefix": "drozofil",
+      "body": "虫ᴰᶻ",
+      "kanji": "虫",
+      "detail": "drozofil → 虫ᴰᶻ (piv, F=1)",
+      "documentation": "語根: drozofil\n入力: drozofil\n最終形: 虫ᴰᶻ\n漢字: 虫\n識別子: dz\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2661",
+      "priority": 0,
+      "sourceRoot": "drozofil",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2661
+    },
+    "eh^inokok": {
+      "prefix": "ehxinokok",
+      "body": "虫ᴱᴴ̂",
+      "kanji": "虫",
+      "detail": "eh^inokok → 虫ᴱᴴ̂ (piv, F=1)",
+      "documentation": "語根: eh^inokok\n入力: ehxinokok\n最終形: 虫ᴱᴴ̂\n漢字: 虫\n識別子: eĥ\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2679",
+      "priority": 0,
+      "sourceRoot": "eh^inokok",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2679
+    },
+    "ekinokok": {
+      "prefix": "ekinokok",
+      "body": "虫ᴱᴷ",
+      "kanji": "虫",
+      "detail": "ekinokok → 虫ᴱᴷ (piv, F=1)",
+      "documentation": "語根: ekinokok\n入力: ekinokok\n最終形: 虫ᴱᴷ\n漢字: 虫\n識別子: ek\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2666",
+      "priority": 0,
+      "sourceRoot": "ekinokok",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2666
+    },
+    "elafr": {
+      "prefix": "elafr",
+      "body": "虫ᴱᶠ",
+      "kanji": "虫",
+      "detail": "elafr → 虫ᴱᶠ (piv, F=1)",
+      "documentation": "語根: elafr\n入力: elafr\n最終形: 虫ᴱᶠ\n漢字: 虫\n識別子: ef\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2617",
+      "priority": 0,
+      "sourceRoot": "elafr",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2617
+    },
+    "elater": {
+      "prefix": "elater",
+      "body": "虫ᴱᴸ",
+      "kanji": "虫",
+      "detail": "elater → 虫ᴱᴸ (pejvo, F=1)",
+      "documentation": "語根: elater\n入力: elater\n最終形: 虫ᴱᴸ\n漢字: 虫\n識別子: el\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2590",
+      "priority": 0,
+      "sourceRoot": "elater",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2590
+    },
+    "elatr": {
+      "prefix": "elatr",
+      "body": "虫ᴱᵀ",
+      "kanji": "虫",
+      "detail": "elatr → 虫ᴱᵀ (pejvo, F=1)",
+      "documentation": "語根: elatr\n入力: elatr\n最終形: 虫ᴱᵀ\n漢字: 虫\n識別子: et\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2594",
+      "priority": 0,
+      "sourceRoot": "elatr",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2594
+    },
+    "entom": {
+      "prefix": "entom",
+      "body": "虫ᴱ",
+      "kanji": "虫",
+      "detail": "entom → 虫ᴱ (pejvo, F=2)",
+      "documentation": "語根: entom\n入力: entom\n最終形: 虫ᴱ\n漢字: 虫\n識別子: e\n型: pejvo\nF(汎用性): 2\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2584",
+      "priority": 0,
+      "sourceRoot": "entom",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2584
+    },
+    "falen": {
+      "prefix": "falen",
+      "body": "虫ᶠᴸ",
+      "kanji": "虫",
+      "detail": "falen → 虫ᶠᴸ (piv, F=1)",
+      "documentation": "語根: falen\n入力: falen\n最終形: 虫ᶠᴸ\n漢字: 虫\n識別子: fl\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2618",
+      "priority": 0,
+      "sourceRoot": "falen",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2618
+    },
+    "fasciol": {
+      "prefix": "fasciol",
+      "body": "虫ᶠˢ",
+      "kanji": "虫",
+      "detail": "fasciol → 虫ᶠˢ (pejvo, F=1)",
+      "documentation": "語根: fasciol\n入力: fasciol\n最終形: 虫ᶠˢ\n漢字: 虫\n識別子: fs\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2598",
+      "priority": 0,
+      "sourceRoot": "fasciol",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2598
+    },
+    "filokser": {
+      "prefix": "filokser",
+      "body": "虫ᶠᴷ",
+      "kanji": "虫",
+      "detail": "filokser → 虫ᶠᴷ (pejvo, F=1)",
+      "documentation": "語根: filokser\n入力: filokser\n最終形: 虫ᶠᴷ\n漢字: 虫\n識別子: fk\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2601",
+      "priority": 0,
+      "sourceRoot": "filokser",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2601
+    },
+    "flebotom": {
+      "prefix": "flebotom",
+      "body": "虫ᶠᴮ",
+      "kanji": "虫",
+      "detail": "flebotom → 虫ᶠᴮ (piv, F=1)",
+      "documentation": "語根: flebotom\n入力: flebotom\n最終形: 虫ᶠᴮ\n漢字: 虫\n識別子: fb\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2667",
+      "priority": 0,
+      "sourceRoot": "flebotom",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2667
+    },
+    "frigan": {
+      "prefix": "frigan",
+      "body": "虫ᶠᴿ",
+      "kanji": "虫",
+      "detail": "frigan → 虫ᶠᴿ (piv, F=1)",
+      "documentation": "語根: frigan\n入力: frigan\n最終形: 虫ᶠᴿ\n漢字: 虫\n識別子: fr\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2628",
+      "priority": 0,
+      "sourceRoot": "frigan",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2628
+    },
+    "ftir": {
+      "prefix": "ftir",
+      "body": "虫ᶠ",
+      "kanji": "虫",
+      "detail": "ftir → 虫ᶠ (piv, F=1)",
+      "documentation": "語根: ftir\n入力: ftir\n最終形: 虫ᶠ\n漢字: 虫\n識別子: f\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2607",
+      "priority": 0,
+      "sourceRoot": "ftir",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2607
+    },
+    "fuzulin": {
+      "prefix": "fuzulin",
+      "body": "虫ᶠᶻ",
+      "kanji": "虫",
+      "detail": "fuzulin → 虫ᶠᶻ (piv, F=1)",
+      "documentation": "語根: fuzulin\n入力: fuzulin\n最終形: 虫ᶠᶻ\n漢字: 虫\n識別子: fz\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2644",
+      "priority": 0,
+      "sourceRoot": "fuzulin",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2644
+    },
+    "geotrup": {
+      "prefix": "geotrup",
+      "body": "虫ᴳ",
+      "kanji": "虫",
+      "detail": "geotrup → 虫ᴳ (pejvo, F=1)",
+      "documentation": "語根: geotrup\n入力: geotrup\n最終形: 虫ᴳ\n漢字: 虫\n識別子: g\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2591",
+      "priority": 0,
+      "sourceRoot": "geotrup",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2591
+    },
+    "geris": {
+      "prefix": "geris",
+      "body": "虫ᴳˢ",
+      "kanji": "虫",
+      "detail": "geris → 虫ᴳˢ (piv, F=1)",
+      "documentation": "語根: geris\n入力: geris\n最終形: 虫ᴳˢ\n漢字: 虫\n識別子: gs\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2619",
+      "priority": 0,
+      "sourceRoot": "geris",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2619
+    },
+    "glosin": {
+      "prefix": "glosin",
+      "body": "虫ᴳᴺ",
+      "kanji": "虫",
+      "detail": "glosin → 虫ᴳᴺ (piv, F=1)",
+      "documentation": "語根: glosin\n入力: glosin\n最終形: 虫ᴳᴺ\n漢字: 虫\n識別子: gn\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2632",
+      "priority": 0,
+      "sourceRoot": "glosin",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2632
+    },
+    "goliat": {
+      "prefix": "goliat",
+      "body": "虫ᴳᴸ",
+      "kanji": "虫",
+      "detail": "goliat → 虫ᴳᴸ (piv, F=2)",
+      "documentation": "語根: goliat\n入力: goliat\n最終形: 虫ᴳᴸ\n漢字: 虫\n識別子: gl\n型: piv\nF(汎用性): 2\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2626",
+      "priority": 0,
+      "sourceRoot": "goliat",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2626
+    },
+    "gordi": {
+      "prefix": "gordi",
+      "body": "虫ᴳᴿ",
+      "kanji": "虫",
+      "detail": "gordi → 虫ᴳᴿ (piv, F=4)",
+      "documentation": "語根: gordi\n入力: gordi\n最終形: 虫ᴳᴿ\n漢字: 虫\n識別子: gr\n型: piv\nF(汎用性): 4\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2613",
+      "priority": 0,
+      "sourceRoot": "gordi",
+      "type": "piv",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 2613
+    },
+    "gras": {
+      "prefix": "gras",
+      "body": "脂",
+      "kanji": "脂",
+      "detail": "gras → 脂 (basic, F=36, 基本形)",
+      "documentation": "語根: gras\n入力: gras\n最終形: 脂\n漢字: 脂\n識別子: なし\n型: basic\nF(汎用性): 36\nグループ数: 10\n基本形: yes\n出典: _identifier_sidecar.tsv:3012",
+      "priority": 0,
+      "sourceRoot": "gras",
+      "type": "basic",
+      "frequency": 36,
+      "base": true,
+      "sourceLine": 3012
+    },
+    "harpal": {
+      "prefix": "harpal",
+      "body": "虫ᴴ",
+      "kanji": "虫",
+      "detail": "harpal → 虫ᴴ (pejvo, F=1)",
+      "documentation": "語根: harpal\n入力: harpal\n最終形: 虫ᴴ\n漢字: 虫\n識別子: h\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2589",
+      "priority": 0,
+      "sourceRoot": "harpal",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2589
+    },
+    "ikneu^mon": {
+      "prefix": "ikneuxmon",
+      "body": "虫ᴵᴷ",
+      "kanji": "虫",
+      "detail": "ikneu^mon → 虫ᴵᴷ (piv, F=1)",
+      "documentation": "語根: ikneu^mon\n入力: ikneuxmon\n最終形: 虫ᴵᴷ\n漢字: 虫\n識別子: ik\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2668",
+      "priority": 0,
+      "sourceRoot": "ikneu^mon",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2668
+    },
+    "iksod": {
+      "prefix": "iksod",
+      "body": "虫ᴵᴰ",
+      "kanji": "虫",
+      "detail": "iksod → 虫ᴵᴰ (pejvo, F=1)",
+      "documentation": "語根: iksod\n入力: iksod\n最終形: 虫ᴵᴰ\n漢字: 虫\n識別子: id\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2595",
+      "priority": 0,
+      "sourceRoot": "iksod",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2595
+    },
+    "insekt": {
+      "prefix": "insekt",
+      "body": "虫",
+      "kanji": "虫",
+      "detail": "insekt → 虫 (basic, F=19, 基本形)",
+      "documentation": "語根: insekt\n入力: insekt\n最終形: 虫\n漢字: 虫\n識別子: なし\n型: basic\nF(汎用性): 19\nグループ数: 106\n基本形: yes\n出典: _identifier_sidecar.tsv:2576",
+      "priority": 0,
+      "sourceRoot": "insekt",
+      "type": "basic",
+      "frequency": 19,
+      "base": true,
+      "sourceLine": 2576
+    },
+    "ip": {
+      "prefix": "ip",
+      "body": "虫ᴵᴾ",
+      "kanji": "虫",
+      "detail": "ip → 虫ᴵᴾ (piv, F=1)",
+      "documentation": "語根: ip\n入力: ip\n最終形: 虫ᴵᴾ\n漢字: 虫\n識別子: ip\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2604",
+      "priority": 0,
+      "sourceRoot": "ip",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2604
+    },
+    "kalosom": {
+      "prefix": "kalosom",
+      "body": "虫ᴷᴸ",
+      "kanji": "虫",
+      "detail": "kalosom → 虫ᴷᴸ (piv, F=1)",
+      "documentation": "語根: kalosom\n入力: kalosom\n最終形: 虫ᴷᴸ\n漢字: 虫\n識別子: kl\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2651",
+      "priority": 0,
+      "sourceRoot": "kalosom",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2651
+    },
+    "kantarid": {
+      "prefix": "kantarid",
+      "body": "虫ᴷᴺ",
+      "kanji": "虫",
+      "detail": "kantarid → 虫ᴷᴺ (piv, F=1)",
+      "documentation": "語根: kantarid\n入力: kantarid\n最終形: 虫ᴷᴺ\n漢字: 虫\n識別子: kn\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2681",
+      "priority": 0,
+      "sourceRoot": "kantarid",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2681
+    },
+    "karab": {
+      "prefix": "karab",
+      "body": "虫ᴷᴮ",
+      "kanji": "虫",
+      "detail": "karab → 虫ᴷᴮ (piv, F=1)",
+      "documentation": "語根: karab\n入力: karab\n最終形: 虫ᴷᴮ\n漢字: 虫\n識別子: kb\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2614",
+      "priority": 0,
+      "sourceRoot": "karab",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2614
+    },
+    "katokal": {
+      "prefix": "katokal",
+      "body": "虫ᴷᵀ",
+      "kanji": "虫",
+      "detail": "katokal → 虫ᴷᵀ (piv, F=1)",
+      "documentation": "語根: katokal\n入力: katokal\n最終形: 虫ᴷᵀ\n漢字: 虫\n識別子: kt\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2652",
+      "priority": 0,
+      "sourceRoot": "katokal",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2652
+    },
+    "kokcinel": {
+      "prefix": "kokcinel",
+      "body": "虫ᴷᶜ",
+      "kanji": "虫",
+      "detail": "kokcinel → 虫ᴷᶜ (piv, F=1)",
+      "documentation": "語根: kokcinel\n入力: kokcinel\n最終形: 虫ᴷᶜ\n漢字: 虫\n識別子: kc\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2680",
+      "priority": 0,
+      "sourceRoot": "kokcinel",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2680
+    },
+    "komatul": {
+      "prefix": "komatul",
+      "body": "虫ᴷᴹ",
+      "kanji": "虫",
+      "detail": "komatul → 虫ᴷᴹ (pejvo, F=1)",
+      "documentation": "語根: komatul\n入力: komatul\n最終形: 虫ᴷᴹ\n漢字: 虫\n識別子: km\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2599",
+      "priority": 0,
+      "sourceRoot": "komatul",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2599
+    },
+    "kopal": {
+      "prefix": "kopal",
+      "body": "脂ᴷ",
+      "kanji": "脂",
+      "detail": "kopal → 脂ᴷ (piv, F=3)",
+      "documentation": "語根: kopal\n入力: kopal\n最終形: 脂ᴷ\n漢字: 脂\n識別子: k\n型: piv\nF(汎用性): 3\nグループ数: 10\n基本形: no\n出典: _identifier_sidecar.tsv:3020",
+      "priority": 0,
+      "sourceRoot": "kopal",
+      "type": "piv",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 3020
+    },
+    "kopris": {
+      "prefix": "kopris",
+      "body": "虫ᴷᴾ",
+      "kanji": "虫",
+      "detail": "kopris → 虫ᴷᴾ (piv, F=1)",
+      "documentation": "語根: kopris\n入力: kopris\n最終形: 虫ᴷᴾ\n漢字: 虫\n識別子: kp\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2633",
+      "priority": 0,
+      "sourceRoot": "kopris",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2633
+    },
+    "koral": {
+      "prefix": "koral",
+      "body": "虫ᴷ",
+      "kanji": "虫",
+      "detail": "koral → 虫ᴷ (pejvo, F=11)",
+      "documentation": "語根: koral\n入力: koral\n最終形: 虫ᴷ\n漢字: 虫\n識別子: k\n型: pejvo\nF(汎用性): 11\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2578",
+      "priority": 0,
+      "sourceRoot": "koral",
+      "type": "pejvo",
+      "frequency": 11,
+      "base": false,
+      "sourceLine": 2578
+    },
+    "koriks": {
+      "prefix": "koriks",
+      "body": "虫ᴷᴷ",
+      "kanji": "虫",
+      "detail": "koriks → 虫ᴷᴷ (piv, F=1)",
+      "documentation": "語根: koriks\n入力: koriks\n最終形: 虫ᴷᴷ\n漢字: 虫\n識別子: kk\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2634",
+      "priority": 0,
+      "sourceRoot": "koriks",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2634
+    },
+    "krabr": {
+      "prefix": "krabr",
+      "body": "蜂ᴷ",
+      "kanji": "蜂",
+      "detail": "krabr → 蜂ᴷ (pejvo, F=1)",
+      "documentation": "語根: krabr\n入力: krabr\n最終形: 蜂ᴷ\n漢字: 蜂\n識別子: k\n型: pejvo\nF(汎用性): 1\nグループ数: 6\n基本形: no\n出典: _identifier_sidecar.tsv:4168",
+      "priority": 0,
+      "sourceRoot": "krabr",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 4168
+    },
+    "krizomel": {
+      "prefix": "krizomel",
+      "body": "虫ᴷᴿ",
+      "kanji": "虫",
+      "detail": "krizomel → 虫ᴷᴿ (piv, F=1)",
+      "documentation": "語根: krizomel\n入力: krizomel\n最終形: 虫ᴷᴿ\n漢字: 虫\n識別子: kr\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2660",
+      "priority": 0,
+      "sourceRoot": "krizomel",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2660
+    },
+    "krizop": {
+      "prefix": "krizop",
+      "body": "虫ᴷᶻ",
+      "kanji": "虫",
+      "detail": "krizop → 虫ᴷᶻ (piv, F=1)",
+      "documentation": "語根: krizop\n入力: krizop\n最終形: 虫ᴷᶻ\n漢字: 虫\n識別子: kz\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2635",
+      "priority": 0,
+      "sourceRoot": "krizop",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2635
+    },
+    "ksestobi": {
+      "prefix": "ksestobi",
+      "body": "虫ᴷˢ",
+      "kanji": "虫",
+      "detail": "ksestobi → 虫ᴷˢ (piv, F=1)",
+      "documentation": "語根: ksestobi\n入力: ksestobi\n最終形: 虫ᴷˢ\n漢字: 虫\n識別子: ks\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2669",
+      "priority": 0,
+      "sourceRoot": "ksestobi",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2669
+    },
+    "lard": {
+      "prefix": "lard",
+      "body": "脂ᴸ",
+      "kanji": "脂",
+      "detail": "lard → 脂ᴸ (basic, F=11)",
+      "documentation": "語根: lard\n入力: lard\n最終形: 脂ᴸ\n漢字: 脂\n識別子: l\n型: basic\nF(汎用性): 11\nグループ数: 10\n基本形: no\n出典: _identifier_sidecar.tsv:3013",
+      "priority": 0,
+      "sourceRoot": "lard",
+      "type": "basic",
+      "frequency": 11,
+      "base": false,
+      "sourceLine": 3013
+    },
+    "lau^s": {
+      "prefix": "lauxs",
+      "body": "虫ᴸ",
+      "kanji": "虫",
+      "detail": "lau^s → 虫ᴸ (piv, F=7)",
+      "documentation": "語根: lau^s\n入力: lauxs\n最終形: 虫ᴸ\n漢字: 虫\n識別子: l\n型: piv\nF(汎用性): 7\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2603",
+      "priority": 0,
+      "sourceRoot": "lau^s",
+      "type": "piv",
+      "frequency": 7,
+      "base": false,
+      "sourceLine": 2603
+    },
+    "lepism": {
+      "prefix": "lepism",
+      "body": "虫ᴸᴹ",
+      "kanji": "虫",
+      "detail": "lepism → 虫ᴸᴹ (pejvo, F=1)",
+      "documentation": "語根: lepism\n入力: lepism\n最終形: 虫ᴸᴹ\n漢字: 虫\n識別子: lm\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2597",
+      "priority": 0,
+      "sourceRoot": "lepism",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2597
+    },
+    "lept": {
+      "prefix": "lept",
+      "body": "虫ᴸᴾ",
+      "kanji": "虫",
+      "detail": "lept → 虫ᴸᴾ (piv, F=1)",
+      "documentation": "語根: lept\n入力: lept\n最終形: 虫ᴸᴾ\n漢字: 虫\n識別子: lp\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2608",
+      "priority": 0,
+      "sourceRoot": "lept",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2608
+    },
+    "leptinotars": {
+      "prefix": "leptinotars",
+      "body": "虫ᴸᴺ",
+      "kanji": "虫",
+      "detail": "leptinotars → 虫ᴸᴺ (piv, F=1)",
+      "documentation": "語根: leptinotars\n入力: leptinotars\n最終形: 虫ᴸᴺ\n漢字: 虫\n識別子: ln\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2673",
+      "priority": 0,
+      "sourceRoot": "leptinotars",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2673
+    },
+    "libel": {
+      "prefix": "libel",
+      "body": "虫ᴸᴸ",
+      "kanji": "虫",
+      "detail": "libel → 虫ᴸᴸ (piv, F=1)",
+      "documentation": "語根: libel\n入力: libel\n最終形: 虫ᴸᴸ\n漢字: 虫\n識別子: ll\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2676",
+      "priority": 0,
+      "sourceRoot": "libel",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2676
+    },
+    "licen": {
+      "prefix": "licen",
+      "body": "虫ᴸᶜ",
+      "kanji": "虫",
+      "detail": "licen → 虫ᴸᶜ (piv, F=1)",
+      "documentation": "語根: licen\n入力: licen\n最終形: 虫ᴸᶜ\n漢字: 虫\n識別子: lc\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2620",
+      "priority": 0,
+      "sourceRoot": "licen",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2620
+    },
+    "lig^e": {
+      "prefix": "ligxe",
+      "body": "虫ᴸᴳ̂",
+      "kanji": "虫",
+      "detail": "lig^e → 虫ᴸᴳ̂ (piv, F=1)",
+      "documentation": "語根: lig^e\n入力: ligxe\n最終形: 虫ᴸᴳ̂\n漢字: 虫\n識別子: lĝ\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2609",
+      "priority": 0,
+      "sourceRoot": "lig^e",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2609
+    },
+    "lipid": {
+      "prefix": "lipid",
+      "body": "脂ᴸᴾ",
+      "kanji": "脂",
+      "detail": "lipid → 脂ᴸᴾ (piv, F=7)",
+      "documentation": "語根: lipid\n入力: lipid\n最終形: 脂ᴸᴾ\n漢字: 脂\n識別子: lp\n型: piv\nF(汎用性): 7\nグループ数: 10\n基本形: no\n出典: _identifier_sidecar.tsv:3018",
+      "priority": 0,
+      "sourceRoot": "lipid",
+      "type": "piv",
+      "frequency": 7,
+      "base": false,
+      "sourceLine": 3018
+    },
+    "lumbrik": {
+      "prefix": "lumbrik",
+      "body": "虫ᴸᴮ",
+      "kanji": "虫",
+      "detail": "lumbrik → 虫ᴸᴮ (pejvo, F=1)",
+      "documentation": "語根: lumbrik\n入力: lumbrik\n最終形: 虫ᴸᴮ\n漢字: 虫\n識別子: lb\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2600",
+      "priority": 0,
+      "sourceRoot": "lumbrik",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2600
+    },
+    "makaon": {
+      "prefix": "makaon",
+      "body": "虫ᴹᴷ",
+      "kanji": "虫",
+      "detail": "makaon → 虫ᴹᴷ (piv, F=1)",
+      "documentation": "語根: makaon\n入力: makaon\n最終形: 虫ᴹᴷ\n漢字: 虫\n識別子: mk\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2636",
+      "priority": 0,
+      "sourceRoot": "makaon",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2636
+    },
+    "mant": {
+      "prefix": "mant",
+      "body": "虫ᴹᴺ",
+      "kanji": "虫",
+      "detail": "mant → 虫ᴹᴺ (piv, F=1)",
+      "documentation": "語根: mant\n入力: mant\n最終形: 虫ᴹᴺ\n漢字: 虫\n識別子: mn\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2675",
+      "priority": 0,
+      "sourceRoot": "mant",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2675
+    },
+    "melo": {
+      "prefix": "melo",
+      "body": "虫ᴹ",
+      "kanji": "虫",
+      "detail": "melo → 虫ᴹ (piv, F=1)",
+      "documentation": "語根: melo\n入力: melo\n最終形: 虫ᴹ\n漢字: 虫\n識別子: m\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2610",
+      "priority": 0,
+      "sourceRoot": "melo",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2610
+    },
+    "mirmeleon": {
+      "prefix": "mirmeleon",
+      "body": "虫ᴹᴿ",
+      "kanji": "虫",
+      "detail": "mirmeleon → 虫ᴹᴿ (pejvo, F=1)",
+      "documentation": "語根: mirmeleon\n入力: mirmeleon\n最終形: 虫ᴹᴿ\n漢字: 虫\n識別子: mr\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2602",
+      "priority": 0,
+      "sourceRoot": "mirmeleon",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2602
+    },
+    "nekrofor": {
+      "prefix": "nekrofor",
+      "body": "虫ᴺᴷ",
+      "kanji": "虫",
+      "detail": "nekrofor → 虫ᴺᴷ (piv, F=1)",
+      "documentation": "語根: nekrofor\n入力: nekrofor\n最終形: 虫ᴺᴷ\n漢字: 虫\n識別子: nk\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2670",
+      "priority": 0,
+      "sourceRoot": "nekrofor",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2670
+    },
+    "nepa": {
+      "prefix": "nepa",
+      "body": "虫ᴺ",
+      "kanji": "虫",
+      "detail": "nepa → 虫ᴺ (piv, F=1)",
+      "documentation": "語根: nepa\n入力: nepa\n最終形: 虫ᴺ\n漢字: 虫\n識別子: n\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2611",
+      "priority": 0,
+      "sourceRoot": "nepa",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2611
+    },
+    "nere": {
+      "prefix": "nere",
+      "body": "虫ᴺᴱ",
+      "kanji": "虫",
+      "detail": "nere → 虫ᴺᴱ (piv, F=1)",
+      "documentation": "語根: nere\n入力: nere\n最終形: 虫ᴺᴱ\n漢字: 虫\n識別子: ne\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2674",
+      "priority": 0,
+      "sourceRoot": "nere",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2674
+    },
+    "nereid": {
+      "prefix": "nereid",
+      "body": "虫ᴺᴿ",
+      "kanji": "虫",
+      "detail": "nereid → 虫ᴺᴿ (piv, F=1)",
+      "documentation": "語根: nereid\n入力: nereid\n最終形: 虫ᴺᴿ\n漢字: 虫\n識別子: nr\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2637",
+      "priority": 0,
+      "sourceRoot": "nereid",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2637
+    },
+    "notonekt": {
+      "prefix": "notonekt",
+      "body": "虫ᴺᵀ",
+      "kanji": "虫",
+      "detail": "notonekt → 虫ᴺᵀ (piv, F=1)",
+      "documentation": "語根: notonekt\n入力: notonekt\n最終形: 虫ᴺᵀ\n漢字: 虫\n識別子: nt\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2671",
+      "priority": 0,
+      "sourceRoot": "notonekt",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2671
+    },
+    "ojstr": {
+      "prefix": "ojstr",
+      "body": "虫ᴼ",
+      "kanji": "虫",
+      "detail": "ojstr → 虫ᴼ (pejvo, F=1)",
+      "documentation": "語根: ojstr\n入力: ojstr\n最終形: 虫ᴼ\n漢字: 虫\n識別子: o\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2587",
+      "priority": 0,
+      "sourceRoot": "ojstr",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2587
+    },
+    "oksiur": {
+      "prefix": "oksiur",
+      "body": "虫ᴼᴷ",
+      "kanji": "虫",
+      "detail": "oksiur → 虫ᴼᴷ (piv, F=1)",
+      "documentation": "語根: oksiur\n入力: oksiur\n最終形: 虫ᴼᴷ\n漢字: 虫\n識別子: ok\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2627",
+      "priority": 0,
+      "sourceRoot": "oksiur",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2627
+    },
+    "pedik": {
+      "prefix": "pedik",
+      "body": "虫ᴾ",
+      "kanji": "虫",
+      "detail": "pedik → 虫ᴾ (pejvo, F=5)",
+      "documentation": "語根: pedik\n入力: pedik\n最終形: 虫ᴾ\n漢字: 虫\n識別子: p\n型: pejvo\nF(汎用性): 5\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2581",
+      "priority": 0,
+      "sourceRoot": "pedik",
+      "type": "pejvo",
+      "frequency": 5,
+      "base": false,
+      "sourceLine": 2581
+    },
+    "piral": {
+      "prefix": "piral",
+      "body": "虫ᴾᴿ",
+      "kanji": "虫",
+      "detail": "piral → 虫ᴾᴿ (piv, F=1)",
+      "documentation": "語根: piral\n入力: piral\n最終形: 虫ᴾᴿ\n漢字: 虫\n識別子: pr\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2621",
+      "priority": 0,
+      "sourceRoot": "piral",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2621
+    },
+    "rezin": {
+      "prefix": "rezin",
+      "body": "脂ᴿ",
+      "kanji": "脂",
+      "detail": "rezin → 脂ᴿ (pejvo, F=12)",
+      "documentation": "語根: rezin\n入力: rezin\n最終形: 脂ᴿ\n漢字: 脂\n識別子: r\n型: pejvo\nF(汎用性): 12\nグループ数: 10\n基本形: no\n出典: _identifier_sidecar.tsv:3015",
+      "priority": 0,
+      "sourceRoot": "rezin",
+      "type": "pejvo",
+      "frequency": 12,
+      "base": false,
+      "sourceLine": 3015
+    },
+    "sarkopsil": {
+      "prefix": "sarkopsil",
+      "body": "虫ˢˢ",
+      "kanji": "虫",
+      "detail": "sarkopsil → 虫ˢˢ (piv, F=1)",
+      "documentation": "語根: sarkopsil\n入力: sarkopsil\n最終形: 虫ˢˢ\n漢字: 虫\n識別子: ss\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2682",
+      "priority": 0,
+      "sourceRoot": "sarkopsil",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2682
+    },
+    "sarkopt": {
+      "prefix": "sarkopt",
+      "body": "虫ˢᴿ",
+      "kanji": "虫",
+      "detail": "sarkopt → 虫ˢᴿ (piv, F=1)",
+      "documentation": "語根: sarkopt\n入力: sarkopt\n最終形: 虫ˢᴿ\n漢字: 虫\n識別子: sr\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2653",
+      "priority": 0,
+      "sourceRoot": "sarkopt",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2653
+    },
+    "saturni": {
+      "prefix": "saturni",
+      "body": "虫ˢᵀ",
+      "kanji": "虫",
+      "detail": "saturni → 虫ˢᵀ (piv, F=1)",
+      "documentation": "語根: saturni\n入力: saturni\n最終形: 虫ˢᵀ\n漢字: 虫\n識別子: st\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2654",
+      "priority": 0,
+      "sourceRoot": "saturni",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2654
+    },
+    "seb": {
+      "prefix": "seb",
+      "body": "脂ˢ",
+      "kanji": "脂",
+      "detail": "seb → 脂ˢ (pejvo, F=8)",
+      "documentation": "語根: seb\n入力: seb\n最終形: 脂ˢ\n漢字: 脂\n識別子: s\n型: pejvo\nF(汎用性): 8\nグループ数: 10\n基本形: no\n出典: _identifier_sidecar.tsv:3014",
+      "priority": 0,
+      "sourceRoot": "seb",
+      "type": "pejvo",
+      "frequency": 8,
+      "base": false,
+      "sourceLine": 3014
+    },
+    "spatang": {
+      "prefix": "spatang",
+      "body": "虫ˢᴾ",
+      "kanji": "虫",
+      "detail": "spatang → 虫ˢᴾ (piv, F=1)",
+      "documentation": "語根: spatang\n入力: spatang\n最終形: 虫ˢᴾ\n漢字: 虫\n識別子: sp\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2655",
+      "priority": 0,
+      "sourceRoot": "spatang",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2655
+    },
+    "steat": {
+      "prefix": "steat",
+      "body": "脂ˢᵀ",
+      "kanji": "脂",
+      "detail": "steat → 脂ˢᵀ (piv, F=4)",
+      "documentation": "語根: steat\n入力: steat\n最終形: 脂ˢᵀ\n漢字: 脂\n識別子: st\n型: piv\nF(汎用性): 4\nグループ数: 10\n基本形: no\n出典: _identifier_sidecar.tsv:3019",
+      "priority": 0,
+      "sourceRoot": "steat",
+      "type": "piv",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 3019
+    },
+    "taban": {
+      "prefix": "taban",
+      "body": "虫ᵀᴮ",
+      "kanji": "虫",
+      "detail": "taban → 虫ᵀᴮ (pejvo, F=1)",
+      "documentation": "語根: taban\n入力: taban\n最終形: 虫ᵀᴮ\n漢字: 虫\n識別子: tb\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2586",
+      "priority": 0,
+      "sourceRoot": "taban",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2586
+    },
+    "tenebri": {
+      "prefix": "tenebri",
+      "body": "虫ᵀᴺ",
+      "kanji": "虫",
+      "detail": "tenebri → 虫ᵀᴺ (piv, F=1)",
+      "documentation": "語根: tenebri\n入力: tenebri\n最終形: 虫ᵀᴺ\n漢字: 虫\n識別子: tn\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2656",
+      "priority": 0,
+      "sourceRoot": "tenebri",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2656
+    },
+    "tine": {
+      "prefix": "tine",
+      "body": "虫ᵀ",
+      "kanji": "虫",
+      "detail": "tine → 虫ᵀ (pejvo, F=1)",
+      "documentation": "語根: tine\n入力: tine\n最終形: 虫ᵀ\n漢字: 虫\n識別子: t\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2583",
+      "priority": 0,
+      "sourceRoot": "tine",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2583
+    },
+    "tipul": {
+      "prefix": "tipul",
+      "body": "虫ᵀᴾ",
+      "kanji": "虫",
+      "detail": "tipul → 虫ᵀᴾ (pejvo, F=1)",
+      "documentation": "語根: tipul\n入力: tipul\n最終形: 虫ᵀᴾ\n漢字: 虫\n識別子: tp\n型: pejvo\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2588",
+      "priority": 0,
+      "sourceRoot": "tipul",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2588
+    },
+    "tortrik": {
+      "prefix": "tortrik",
+      "body": "虫ᵀᵀ",
+      "kanji": "虫",
+      "detail": "tortrik → 虫ᵀᵀ (piv, F=1)",
+      "documentation": "語根: tortrik\n入力: tortrik\n最終形: 虫ᵀᵀ\n漢字: 虫\n識別子: tt\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2643",
+      "priority": 0,
+      "sourceRoot": "tortrik",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2643
+    },
+    "trips": {
+      "prefix": "trips",
+      "body": "虫ᵀᴿ",
+      "kanji": "虫",
+      "detail": "trips → 虫ᵀᴿ (piv, F=1)",
+      "documentation": "語根: trips\n入力: trips\n最終形: 虫ᵀᴿ\n漢字: 虫\n識別子: tr\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2622",
+      "priority": 0,
+      "sourceRoot": "trips",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2622
+    },
+    "trogi": {
+      "prefix": "trogi",
+      "body": "虫ᵀᴳ",
+      "kanji": "虫",
+      "detail": "trogi → 虫ᵀᴳ (piv, F=1)",
+      "documentation": "語根: trogi\n入力: trogi\n最終形: 虫ᵀᴳ\n漢字: 虫\n識別子: tg\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2623",
+      "priority": 0,
+      "sourceRoot": "trogi",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2623
+    },
+    "trombidi": {
+      "prefix": "trombidi",
+      "body": "虫ᵀᴹ",
+      "kanji": "虫",
+      "detail": "trombidi → 虫ᵀᴹ (piv, F=2)",
+      "documentation": "語根: trombidi\n入力: trombidi\n最終形: 虫ᵀᴹ\n漢字: 虫\n識別子: tm\n型: piv\nF(汎用性): 2\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2658",
+      "priority": 0,
+      "sourceRoot": "trombidi",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 2658
+    },
+    "vanes": {
+      "prefix": "vanes",
+      "body": "虫ⱽᴺ",
+      "kanji": "虫",
+      "detail": "vanes → 虫ⱽᴺ (piv, F=1)",
+      "documentation": "語根: vanes\n入力: vanes\n最終形: 虫ⱽᴺ\n漢字: 虫\n識別子: vn\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2624",
+      "priority": 0,
+      "sourceRoot": "vanes",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2624
+    },
+    "verm": {
+      "prefix": "verm",
+      "body": "虫ⱽ",
+      "kanji": "虫",
+      "detail": "verm → 虫ⱽ (basic, F=22)",
+      "documentation": "語根: verm\n入力: verm\n最終形: 虫ⱽ\n漢字: 虫\n識別子: v\n型: basic\nF(汎用性): 22\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2577",
+      "priority": 0,
+      "sourceRoot": "verm",
+      "type": "basic",
+      "frequency": 22,
+      "base": false,
+      "sourceLine": 2577
+    },
+    "vesp": {
+      "prefix": "vesp",
+      "body": "蜂ⱽ",
+      "kanji": "蜂",
+      "detail": "vesp → 蜂ⱽ (basic, F=4)",
+      "documentation": "語根: vesp\n入力: vesp\n最終形: 蜂ⱽ\n漢字: 蜂\n識別子: v\n型: basic\nF(汎用性): 4\nグループ数: 6\n基本形: no\n出典: _identifier_sidecar.tsv:4167",
+      "priority": 0,
+      "sourceRoot": "vesp",
+      "type": "basic",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 4167
+    },
+    "vukeri": {
+      "prefix": "vukeri",
+      "body": "虫ⱽᴷ",
+      "kanji": "虫",
+      "detail": "vukeri → 虫ⱽᴷ (piv, F=1)",
+      "documentation": "語根: vukeri\n入力: vukeri\n最終形: 虫ⱽᴷ\n漢字: 虫\n識別子: vk\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2639",
+      "priority": 0,
+      "sourceRoot": "vukeri",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2639
+    },
+    "zigen": {
+      "prefix": "zigen",
+      "body": "虫ᶻ",
+      "kanji": "虫",
+      "detail": "zigen → 虫ᶻ (piv, F=1)",
+      "documentation": "語根: zigen\n入力: zigen\n最終形: 虫ᶻ\n漢字: 虫\n識別子: z\n型: piv\nF(汎用性): 1\nグループ数: 106\n基本形: no\n出典: _identifier_sidecar.tsv:2625",
+      "priority": 0,
+      "sourceRoot": "zigen",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2625
+    }
+  },
+  "unrelated_items_sha256": "edfe40d95aeac642610ab6e4a7660f3bfd091f0e735e15b72f19ae6d0eb544f2",
+  "unrelated_items_count": 10518,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {
+    "abel": {
+      "group_count": [
+        5,
+        6
+      ]
+    },
+    "adip": {
+      "group_count": [
+        9,
+        10
+      ]
+    },
+    "afid": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "afis": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "afrodit": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "ah^eronti": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "akar": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "akeronti": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "alcioni": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "aleu^rod": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "alveolin": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "anelid": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "anobi": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "antedon": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "argonau^t": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "arkti": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "atropos": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "bedeli": {
+      "group_count": [
+        9,
+        10
+      ]
+    },
+    "blapt": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "blat": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "bostrik": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "brah^in": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "brakin": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "buprest": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "burd": {
+      "group_count": [
+        5,
+        6
+      ]
+    },
+    "cece": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "cecidomi": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "cerambik": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "cerkari": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "cetoni": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "cicindel": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "cinip": {
+      "group_count": [
+        5,
+        6
+      ]
+    },
+    "c^ik": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "demodeks": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "dermest": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "difilobotri": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "ditisk": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "drozofil": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "eh^inokok": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "ekinokok": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "elafr": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "elater": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "elatr": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "entom": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "falen": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "fasciol": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "filokser": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "flebotom": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "frigan": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "ftir": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "fuzulin": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "geotrup": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "geris": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "glosin": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "goliat": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "gordi": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "gras": {
+      "group_count": [
+        9,
+        10
+      ]
+    },
+    "harpal": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "ikneu^mon": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "iksod": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "insekt": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "ip": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "kalosom": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "kantarid": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "karab": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "katokal": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "kokcinel": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "komatul": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "kopal": {
+      "group_count": [
+        9,
+        10
+      ]
+    },
+    "kopris": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "koral": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "koriks": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "krabr": {
+      "group_count": [
+        5,
+        6
+      ]
+    },
+    "krizomel": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "krizop": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "ksestobi": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "lard": {
+      "group_count": [
+        9,
+        10
+      ]
+    },
+    "lau^s": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "lepism": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "lept": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "leptinotars": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "libel": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "licen": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "lig^e": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "lipid": {
+      "group_count": [
+        9,
+        10
+      ]
+    },
+    "lumbrik": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "makaon": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "mant": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "melo": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "mirmeleon": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "nekrofor": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "nepa": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "nere": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "nereid": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "notonekt": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "ojstr": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "oksiur": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "pedik": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "piral": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "rezin": {
+      "group_count": [
+        9,
+        10
+      ]
+    },
+    "sarkopsil": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "sarkopt": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "saturni": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "seb": {
+      "group_count": [
+        9,
+        10
+      ]
+    },
+    "spatang": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "steat": {
+      "group_count": [
+        9,
+        10
+      ]
+    },
+    "taban": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "tenebri": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "tine": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "tipul": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "tortrik": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "trips": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "trogi": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "trombidi": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "vanes": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "verm": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "vesp": {
+      "group_count": [
+        5,
+        6
+      ]
+    },
+    "vukeri": {
+      "group_count": [
+        107,
+        106
+      ]
+    },
+    "zigen": {
+      "group_count": [
+        107,
+        106
+      ]
+    }
+  },
+  "preserved_historical_overrides": [
+    {
+      "root": "panikl",
+      "body": "脂ᴾ",
+      "canonical_body": "圆锥",
+      "reason": "Pre-existing app/canonical display difference; unrelated to this adoption and preserved exactly."
+    }
+  ],
+  "assignment_unchanged_item_count": 10637,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {
+    "虫ˢ": {
+      "before": "sfeg",
+      "after": "simuli"
+    }
+  },
+  "user_adopted_roots": [
+    "s^malc",
+    "sfeg"
+  ],
+  "identifier_propagated_roots": [
+    "simuli"
+  ],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "s^malc": "User approved 脂ˢ̂: rendered soft animal fat includes pork and goose, so remove pig-only restriction. Share existing 脂; retain cooking/rendered-fat annotations.",
+    "sfeg": "User approved 蜂ˢ: Sphex is a wasp (PIV rabvespo). Share 蜂 with existing wasp/bee roots; accept 6 to 13 strokes for greater specificity.",
+    "simuli": "Regenerated positional identifier: after sfeg leaves 虫, simuli shortens from 虫ˢᴹ to 虫ˢ. No root meaning or decomposition change."
+  },
+  "preserved_controls": {
+    "棍": "klab",
+    "船左": "babord",
+    "程ᴾᶜ": "proces",
+    "程ᴾᶻ": "procez",
+    "嘹": "klarion",
+    "蜂": "abel",
+    "脂": "gras"
+  },
+  "explicit_retained": {
+    "klarion": "嘹"
+  },
+  "shared_spelling": {},
+  "migration_notice": "The current owner of 虫ˢ moves from sfeg to simuli. The fixed old edition remains sfeg; no aliases or intermediate edition are added."
+}

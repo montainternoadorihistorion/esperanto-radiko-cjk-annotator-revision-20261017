@@ -1,6 +1,6 @@
 {
   "date": "2026-10-25",
-  "scope": "Current madz and tribord only. Fixed legacy, glosses, segmentation, all other identifiers, runtime engines and custom JSON behavior preserved. Fixed legacy and evolving current remain the only editions.",
+  "scope": "Current ŝmalc and sfeg assignments, plus the algorithmic simuli identifier transition. Fixed legacy, original glosses, segmentation, unrelated identifiers, runtime engines and custom JSON behavior preserved. Only fixed legacy and evolving current editions.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -79,8 +79,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161688,
-      "sha256": "656285006a95caef82537fa80b9652f46f988e27439ec4d557ba864303c8480b"
+      "bytes": 161686,
+      "sha256": "6db51b4ac11dbbe82a5e574f00c9af00814c1f01c90e3e9f4cce0a6798707630"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -99,13 +99,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57371526,
-      "sha256": "01387a30a4b0fe41f51f5a6a8724d63075129d4ee333e826ad2c6599456ca9a7"
+      "bytes": 57371578,
+      "sha256": "cf85850b06d11f7cfb1182c4a636cf6eb77bf7360654e9dbc9a49a4bb2d52780"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21515743,
-      "sha256": "43fb9e40edd49ec33a9eebc994b7a484ca64318cc232dbaa3ebe05f9e616a731"
+      "bytes": 21515767,
+      "sha256": "1e9fe869936f99b2ccc599a89c34eaa9b1bb2872a805a4f09d6816c26f3fe317"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -214,8 +214,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161688,
-      "sha256": "656285006a95caef82537fa80b9652f46f988e27439ec4d557ba864303c8480b"
+      "bytes": 161686,
+      "sha256": "6db51b4ac11dbbe82a5e574f00c9af00814c1f01c90e3e9f4cce0a6798707630"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -234,8 +234,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57379592,
-      "sha256": "31ed4bc19c58bd7e580ea1df41376b9bd1f758114ead9011072564153f221c84"
+      "bytes": 57379644,
+      "sha256": "93c99f0e025e2a730f674ff5e7f3b0d8eeca49416bc10aeb3227c4ddb5bebe36"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -349,8 +349,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161688,
-      "sha256": "656285006a95caef82537fa80b9652f46f988e27439ec4d557ba864303c8480b"
+      "bytes": 161686,
+      "sha256": "6db51b4ac11dbbe82a5e574f00c9af00814c1f01c90e3e9f4cce0a6798707630"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -369,8 +369,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57379592,
-      "sha256": "c0e92140e7bcf00a83401985b64d1ea4ff8d61bb67d99bb23b19dae33e086602"
+      "bytes": 57379644,
+      "sha256": "02cd7b3635fa021c504026545b893acae4e32af01ccdc5b569894cf1fc01cb8d"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
@@ -521,10 +521,20 @@
       "path": "Esperanto-Reverter-ZH/data/madz-tribord-20261025.json",
       "bytes": 4908,
       "sha256": "148bf6bb51d9d891d532a477a375bb7afe945e2d4e9179ee7972046aeea9245f"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/shmalc-sfeg-20261025.json",
+      "bytes": 133212,
+      "sha256": "3a97022e600ff97e0d770ede395d969fd1f548b88de067fcc76dda76c9733c0e"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/shmalc-sfeg-20261025.json",
+      "bytes": 133212,
+      "sha256": "3a97022e600ff97e0d770ede395d969fd1f548b88de067fcc76dda76c9733c0e"
     }
   ],
-  "assignment_revision": "madz-tribord-20261025",
-  "previous_release_commit": "c6f4d89c60cd819bccb08533299532d009476a06",
+  "assignment_revision": "shmalc-sfeg-20261025",
+  "previous_release_commit": "854193bc3d7730bff8213be983b61c4822188f93",
   "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
   "feature_revision": "two-editions-20261018",
   "legacy_manifest_sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3"
