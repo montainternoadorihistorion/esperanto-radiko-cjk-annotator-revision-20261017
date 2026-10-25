@@ -136,7 +136,7 @@ def test_effective_exports_are_exact_ui_records_and_fixed_exports_remain_fixed(s
     assert app.dataframe_to_mapping_records(custom) == expected
     assert index(app.effective_mapping_records('custom', custom)) == index(expected)
     fixed, _ = app.edition_download_data(source)
-    expected_sha = ('f016eab84c767fb0b2ce22e3138bc7adb06cfca081e55295039ba04ae7d50ec4'
+    expected_sha = ('f03b211f1e6e97c48456b03bfac32564d4ac6ef072f6db409faa4b3f9b7ce5d4'
                     if source == CURRENT else 'eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14')
     assert hashlib.sha256(fixed).hexdigest() == expected_sha
     meta = app.source_provenance(source)

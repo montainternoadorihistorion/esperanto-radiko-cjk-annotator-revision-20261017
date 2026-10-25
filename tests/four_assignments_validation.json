@@ -1,0 +1,2137 @@
+{
+  "date": "2026-10-25",
+  "assignment_revision": "four-assignments-20261025",
+  "previous_release_commit": "96b7f71fb120b7d1a6ece4862b2f3969a80ba2be",
+  "status": "LOCAL_VALIDATION_PASSED",
+  "cloud_validation": {
+    "status": "NOT_YET_VERIFIED"
+  },
+  "adopted": {
+    "almenaŭ": {
+      "before": "至ᴬ",
+      "after": "至少"
+    },
+    "forniks": {
+      "before": "脑弓",
+      "after": "拱ᶠ"
+    },
+    "karen": {
+      "before": "龙骨ᴷᴿ",
+      "after": "船底"
+    },
+    "naŭz": {
+      "before": "呕",
+      "after": "恶心"
+    }
+  },
+  "retained_this_batch": {
+    "ŝagrin": "鲨皮"
+  },
+  "scope": "Current edition only. Fixed legacy, annotations, correct segmentation, unrelated identifiers and custom JSON behavior preserved. No intermediate edition or old-spelling aliases introduced.",
+  "canonical": {
+    "assigned_roots": 10469,
+    "unchanged_sidecar_rows_and_order": 10465,
+    "identifier_only_roots": [],
+    "new_roots": [],
+    "existing_display_ownership_moves": {},
+    "other_root_identifiers_and_all_internal_identifiers_unchanged": true,
+    "injection_rows_per_edition": 62313,
+    "all_original_text_gloss_segmentation_markers_preserved": true,
+    "html_roots": [
+      10469,
+      10469
+    ],
+    "html_words": [
+      52230,
+      52230
+    ],
+    "html_changed_roots": 4,
+    "html_changed_words": 12,
+    "character_types": [
+      2245,
+      2244
+    ],
+    "removed_characters": [
+      "呕"
+    ],
+    "actual_generator_reproduction": {
+      "_gas_identifier_out.csv": {
+        "rows": 10469,
+        "semantic_differences": 0
+      },
+      "_identifier_sidecar.tsv": {
+        "rows": 10469,
+        "semantic_differences": 0
+      }
+    },
+    "guard_positive_and_negative_cases": 11,
+    "sidecar_sha256": "ca938dfa6f1e947bfeac84331d0f45497e63f20762f06ccb7061ef56c876918d"
+  },
+  "full_forward_table_comparison": {
+    "passed": true,
+    "kanji_rows": 1646973,
+    "changed_kanji_rows": 540,
+    "pure_rows": 548991,
+    "source_words": 44578,
+    "generator_hooks_verified": true,
+    "all_source_word_segmentations_preserved": true,
+    "all_rule_keys_order_placeholders_and_original_spellings_preserved": true,
+    "preserved_annotation_files": 12
+  },
+  "actual_forward_runtime": {
+    "passed": true,
+    "actual_forward_cases_per_phase": 14130,
+    "manual_correction_cases_per_phase": 216,
+    "changed_routes": {
+      "JA/current/pure": 568,
+      "JA/current/kanji": 568,
+      "ZH/current/pure": 568,
+      "ZH/current/kanji": 568,
+      "KO/current/pure": 568,
+      "KO/current/kanji": 568
+    },
+    "legacy_and_annotations": "byte-identical actual results",
+    "other_kanji_fragments_and_all_original_spellings": "identical",
+    "scope": "Runtime sample of approved roots, all recorded target-family surface keys, endings, case, @ forms and known regressions. Exhaustive rule-table invariants are separate."
+  },
+  "all_inverse_key_and_suffix_checks": {
+    "passed": true,
+    "all_key_results": {
+      "JA_current": {
+        "passed": true,
+        "key_count": 10687,
+        "counts": {
+          "cases": 160305,
+          "unchanged": 160256,
+          "changed": 49
+        },
+        "identifier_continuations_checked": 24
+      },
+      "JA_legacy": {
+        "passed": true,
+        "key_count": 10794,
+        "counts": {
+          "cases": 161910,
+          "unchanged": 161910
+        },
+        "identifier_continuations_checked": 24
+      },
+      "ZH_current": {
+        "passed": true,
+        "key_count": 10687,
+        "counts": {
+          "cases": 160305,
+          "unchanged": 160256,
+          "changed": 49
+        },
+        "identifier_continuations_checked": 24
+      },
+      "ZH_legacy": {
+        "passed": true,
+        "key_count": 10794,
+        "counts": {
+          "cases": 161910,
+          "unchanged": 161910
+        },
+        "identifier_continuations_checked": 24
+      }
+    },
+    "checked_cases": 644430,
+    "unapproved_changed_cases": 0,
+    "unrelated_monaco_items_preserved": 10632,
+    "unrelated_csv_rows_preserved": 10674,
+    "current_alias_content_and_order_preserved": true,
+    "old_spelling_aliases_added": 0,
+    "visible_editions_added": 0,
+    "limitations": "Finite every-key and suffix audit; actual forward captures are validated separately. Fixed legacy retains all old forms; no intermediate aliases were added."
+  },
+  "coupled_forward_inverse_runtime": {
+    "passed": true,
+    "forward_case_count": 14130,
+    "actual_inverse_calls": 56520,
+    "both_inverse_language_outputs_identical": true,
+    "legacy_forward_and_inverse_unchanged": true,
+    "annotation_forward_and_inverse_unchanged": true,
+    "regressions": [],
+    "inverse_changes": [
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      }
+    ],
+    "remaining_mismatches": [
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "memmova",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@memmova@",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "sene",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "memmova",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@memmova@",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "pure",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "sene",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "memmova",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@memmova@",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "sene",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "memmova",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@memmova@",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "pure",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "sene",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "memmova",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@memmova@",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "sene",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "memmova",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@memmova@",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "pure",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "sene",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      }
+    ],
+    "shared_spelling_ambiguities": [
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "ŝipfundo",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "ŝipfunda",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "malickoro",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "malickora",
+        "after_inverse": "naŭza"
+      }
+    ]
+  },
+  "local_streamlit_ui": {
+    "passed": true,
+    "scope": "Independent local Streamlit AppTest, read-only regeneration replay and asset review; not Cloud observations",
+    "conversion_download_routes": 18,
+    "custom_json_routes": 6,
+    "languages": [
+      "JA",
+      "ZH",
+      "KO"
+    ],
+    "editions": [
+      "current",
+      "legacy"
+    ],
+    "modes": [
+      "pure",
+      "kanji",
+      "ruby"
+    ],
+    "protected_assets": 149,
+    "source_and_selected_edition_preserved": true,
+    "result_download_only_after_confirmation": true,
+    "exact_saved_file_bytes": true,
+    "fixed_legacy_outputs_and_annotations_unchanged": true,
+    "custom_json_not_overridden_by_selected_edition": true,
+    "near_roots_preserved": [
+      "volb",
+      "kil",
+      "ŝagrin",
+      "irigaci",
+      "tandem",
+      "semajn",
+      "ĝis",
+      "solstic",
+      "ŝip",
+      "fund",
+      "malic",
+      "kor"
+    ],
+    "annotation_note": "Existing short annotations are preserved byte-for-byte, not expanded to all senses. JA has almenaŭ 少なくとも, forniks 円蓋, karen 竜骨, and naŭz 吐き気を催させる; full semantic definitions remain in the source glosses.",
+    "plain_inverse_routes": 4,
+    "html_recovery_routes": 24,
+    "original_html_source_exact": true,
+    "plain_inverse_shared_spelling_note": "Current plain inverse shares 船底 between karen and ŝip+fund, and 恶心 between naŭz and malic+kor. Exact-root keys take priority; fixed legacy and original forward compound segmentation remain unchanged. All HTML fixture routes recover the original spelling exactly."
+  },
+  "generator_stage_replay": {
+    "passed": true,
+    "method": "Read-only source inspection and in-memory approved-stage replay",
+    "current_root_count": 10482,
+    "current_word_count": 44578,
+    "full_root_and_word_replay_unchanged": true,
+    "earlier_mirror_stage_has_no_overlapping_scope": true,
+    "original_payloads_unmodified": true,
+    "exact_root_scope_preserved": true,
+    "keys_order_placeholders_and_extra_columns_unchanged": true,
+    "mixed_line_endings_preserved": true,
+    "idempotent": true,
+    "limitation": "No full historical regeneration was run; current authority and all current word pairs were replayed through approved stages in memory."
+  },
+  "plain_inverse_shared_spelling_note": "船底 is shared by karen and ŝip+fund; 恶心 by naŭz and malic+kor. The new exact-root keys have priority. The compounds and their forward segmentation are not changed. Ruby HTML retains the original source spelling."
+}

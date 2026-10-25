@@ -1645,7 +1645,6 @@ rinit,鼻ᴿ炎ᵀ,0,rinit,9960
 moloĥ,龙ᴹᴴ̂,0,moloh^,6260
 juka,龙舌兰ᴶ,0,juka,6689
 tuberos,龙舌兰ᵀ,0,tuberos,6690
-karen,龙骨ᴷᴿ,0,karen,6667
 salpingit,管ˢ炎ᵀ,1,salpingit,71
 sed,草ˢᴱᴰ,1,sed,191
 line,草ᴸᴵᴺ,1,line,184
@@ -5752,6 +5751,7 @@ dinosaŭr,恐龙,0,dinosau^r,7975
 permanent,恒ᴾ,0,permanent,3071
 polip,息肉,0,polip,7617
 meger,恶女,0,meger,7350
+naŭz,恶心,0,naŭz,4632
 kanajl,恶棍,0,kanajl,6547
 meger,悍妇,0,meger,reverse-alias:20261017
 kontrici,悔ᴷ,0,kontrici,4681
@@ -5859,6 +5859,7 @@ kult,拜ᴷ,0,kult,4921
 pilgrim,拜ᴾ,0,pilgrim,4923
 riverenc,拜ᴿ,0,riverenc,4922
 vring,拧ⱽ,0,vring,3730
+forniks,拱ᶠ,0,forniks,7273
 impoŝt,拱座,0,impos^t,8480
 arkad,拱廊,0,arkad,8192
 cintr,拱架,0,cintr,7162
@@ -7304,7 +7305,6 @@ first,脊ᶠ,0,first,6393
 ĥord,脊索,0,h^ord,7019
 hilum,脐ᴴ,0,hilum,6672
 encefal,脑ᴱ,0,encefal,3641
-forniks,脑弓,0,forniks,7273
 mening,脑膜,0,mening,7069
 pustul,脓泡,0,pustul,7185
 piore,脓漏,0,piore,8560
@@ -7352,7 +7352,7 @@ haladz,臭ᴴ,0,haladz,6527
 ozon,臭氧,0,ozon,6138
 cim,臭虫,0,cim,6479
 solstic,至ˢ,0,solstic,67
-almenaŭ,至ᴬ,0,almenaŭ,66
+almenaŭ,至少,0,almenaŭ,66
 diastol,舒ᴰ,0,diastol,3066
 midz,舔吸,0,midz,7854
 bal,舞ᴮ,0,bal,2953
@@ -7367,6 +7367,7 @@ bilĝ,舱底,0,bilg^,7818
 pavez,船壁,0,pavez,8511
 poŭp,船尾,0,pou^p,8651
 babord,船左,0,babord,6896
+karen,船底,0,karen,6667
 dok,船渠,0,dok,6596
 eŭ,良ᴱ,0,eu^,761
 konscienc,良ᴷ,0,konscienc,759
@@ -8906,7 +8907,6 @@ ego,吾,0,ego,6266
 gap,呆,0,gap,7049
 prezent,呈,0,prezent,1311
 inform,告,0,inform,3046
-naŭz,呕,0,naŭz,4632
 an,员,0,an,158
 drap,呢,0,drap,4104
 semajn,周,0,semajn,1338
