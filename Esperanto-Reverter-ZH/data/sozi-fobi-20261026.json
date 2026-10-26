@@ -1,0 +1,480 @@
+{
+  "schema": 1,
+  "revision": "2026-10-26-sozi-fobi",
+  "baseline": "624044cc8fa8f21961fbc1b4021d95af8edd3193",
+  "changes": {
+    "sozi": [
+      "替身",
+      "肖ˢ"
+    ],
+    "fobi": [
+      "症",
+      "怕ᶠ"
+    ],
+    "fob": [
+      "怕ᶠ",
+      "怕ᶠᴼ"
+    ],
+    "simptom": [
+      "症ˢ",
+      "症"
+    ],
+    "agorafobi": [
+      "场ᴬ症",
+      "场ᴬ怕ᶠ"
+    ],
+    "hidrofobi": [
+      "水ᴴ症",
+      "水ᴴ怕ᶠ"
+    ],
+    "ksenofobi": [
+      "外ᴷˢ症",
+      "外ᴷˢ怕ᶠ"
+    ],
+    "hidrofob": [
+      "水ᴴ怕ᶠ",
+      "水ᴴ怕ᶠᴼ"
+    ],
+    "ksenofob": [
+      "外ᴷˢ怕ᶠ",
+      "外ᴷˢ怕ᶠᴼ"
+    ],
+    "simptomologi": [
+      "症ˢ学ᴸᴳ",
+      "症学ᴸᴳ"
+    ]
+  },
+  "canonical_sidecar_sha256": "c1e9d5bb9609c76feee0f9a0dd4100acb46aa031eb02170acc46d938aff881bd",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "34c61d4c182efec48089c3a27585563c2082c75c3c09c05076a644ef8645940b",
+  "baseline_target_items": {
+    "sozi": {
+      "prefix": "sozi",
+      "body": "替身",
+      "kanji": "替身",
+      "detail": "sozi → 替身 (pejvo, F=2, 基本形)",
+      "documentation": "語根: sozi\n入力: sozi\n最終形: 替身\n漢字: 替身\n識別子: なし\n型: pejvo\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8579",
+      "priority": 0,
+      "sourceRoot": "sozi",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8579
+    },
+    "fobi": {
+      "prefix": "fobi",
+      "body": "症",
+      "kanji": "症",
+      "detail": "fobi → 症 (pejvo, F=8, 基本形)",
+      "documentation": "語根: fobi\n入力: fobi\n最終形: 症\n漢字: 症\n識別子: なし\n型: pejvo\nF(汎用性): 8\nグループ数: 3\n基本形: yes\n出典: _identifier_sidecar.tsv:6396",
+      "priority": 0,
+      "sourceRoot": "fobi",
+      "type": "pejvo",
+      "frequency": 8,
+      "base": true,
+      "sourceLine": 6396
+    },
+    "fob": {
+      "prefix": "fob",
+      "body": "怕ᶠ",
+      "kanji": "怕",
+      "detail": "fob → 怕ᶠ (piv, F=2)",
+      "documentation": "語根: fob\n入力: fob\n最終形: 怕ᶠ\n漢字: 怕\n識別子: f\n型: piv\nF(汎用性): 2\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:1359",
+      "priority": 0,
+      "sourceRoot": "fob",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 1359
+    },
+    "simptom": {
+      "prefix": "simptom",
+      "body": "症ˢ",
+      "kanji": "症",
+      "detail": "simptom → 症ˢ (pejvo, F=6)",
+      "documentation": "語根: simptom\n入力: simptom\n最終形: 症ˢ\n漢字: 症\n識別子: s\n型: pejvo\nF(汎用性): 6\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:6397",
+      "priority": 0,
+      "sourceRoot": "simptom",
+      "type": "pejvo",
+      "frequency": 6,
+      "base": false,
+      "sourceLine": 6397
+    },
+    "agorafobi": {
+      "prefix": "agorafobi",
+      "body": "场ᴬ症",
+      "kanji": "场ᴬ症",
+      "detail": "agorafobi → 场ᴬ症 (piv, F=1, 基本形)",
+      "documentation": "語根: agorafobi\n入力: agorafobi\n最終形: 场ᴬ症\n漢字: 场ᴬ症\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8736",
+      "priority": 0,
+      "sourceRoot": "agorafobi",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 8736
+    },
+    "hidrofobi": {
+      "prefix": "hidrofobi",
+      "body": "水ᴴ症",
+      "kanji": "水ᴴ症",
+      "detail": "hidrofobi → 水ᴴ症 (piv, F=1, 基本形)",
+      "documentation": "語根: hidrofobi\n入力: hidrofobi\n最終形: 水ᴴ症\n漢字: 水ᴴ症\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9307",
+      "priority": 0,
+      "sourceRoot": "hidrofobi",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9307
+    },
+    "ksenofobi": {
+      "prefix": "ksenofobi",
+      "body": "外ᴷˢ症",
+      "kanji": "外ᴷˢ症",
+      "detail": "ksenofobi → 外ᴷˢ症 (piv, F=1, 基本形)",
+      "documentation": "語根: ksenofobi\n入力: ksenofobi\n最終形: 外ᴷˢ症\n漢字: 外ᴷˢ症\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9534",
+      "priority": 0,
+      "sourceRoot": "ksenofobi",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9534
+    },
+    "hidrofob": {
+      "prefix": "hidrofob",
+      "body": "水ᴴ怕ᶠ",
+      "kanji": "水ᴴ怕ᶠ",
+      "detail": "hidrofob → 水ᴴ怕ᶠ (piv, F=1, 基本形)",
+      "documentation": "語根: hidrofob\n入力: hidrofob\n最終形: 水ᴴ怕ᶠ\n漢字: 水ᴴ怕ᶠ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9306",
+      "priority": 0,
+      "sourceRoot": "hidrofob",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9306
+    },
+    "ksenofob": {
+      "prefix": "ksenofob",
+      "body": "外ᴷˢ怕ᶠ",
+      "kanji": "外ᴷˢ怕ᶠ",
+      "detail": "ksenofob → 外ᴷˢ怕ᶠ (piv, F=1, 基本形)",
+      "documentation": "語根: ksenofob\n入力: ksenofob\n最終形: 外ᴷˢ怕ᶠ\n漢字: 外ᴷˢ怕ᶠ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9533",
+      "priority": 0,
+      "sourceRoot": "ksenofob",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9533
+    },
+    "simptomologi": {
+      "prefix": "simptomologi",
+      "body": "症ˢ学ᴸᴳ",
+      "kanji": "症ˢ学ᴸᴳ",
+      "detail": "simptomologi → 症ˢ学ᴸᴳ (piv, F=1, 基本形)",
+      "documentation": "語根: simptomologi\n入力: simptomologi\n最終形: 症ˢ学ᴸᴳ\n漢字: 症ˢ学ᴸᴳ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:10010",
+      "priority": 0,
+      "sourceRoot": "simptomologi",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 10010
+    },
+    "portret": {
+      "prefix": "portret",
+      "body": "肖",
+      "kanji": "肖",
+      "detail": "portret → 肖 (basic, F=4, 基本形)",
+      "documentation": "語根: portret\n入力: portret\n最終形: 肖\n漢字: 肖\n識別子: なし\n型: basic\nF(汎用性): 4\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:5300",
+      "priority": 0,
+      "sourceRoot": "portret",
+      "type": "basic",
+      "frequency": 4,
+      "base": true,
+      "sourceLine": 5300
+    },
+    "sindrom": {
+      "prefix": "sindrom",
+      "body": "症ˢᴺ",
+      "kanji": "症",
+      "detail": "sindrom → 症ˢᴺ (pejvo, F=4)",
+      "documentation": "語根: sindrom\n入力: sindrom\n最終形: 症ˢᴺ\n漢字: 症\n識別子: sn\n型: pejvo\nF(汎用性): 4\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:6398",
+      "priority": 0,
+      "sourceRoot": "sindrom",
+      "type": "pejvo",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 6398
+    },
+    "tim": {
+      "prefix": "tim",
+      "body": "怕",
+      "kanji": "怕",
+      "detail": "tim → 怕 (basic, F=44, 基本形)",
+      "documentation": "語根: tim\n入力: tim\n最終形: 怕\n漢字: 怕\n識別子: なし\n型: basic\nF(汎用性): 44\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:1358",
+      "priority": 0,
+      "sourceRoot": "tim",
+      "type": "basic",
+      "frequency": 44,
+      "base": true,
+      "sourceLine": 1358
+    }
+  },
+  "expected_target_items": {
+    "sozi": {
+      "prefix": "sozi",
+      "body": "肖ˢ",
+      "kanji": "肖",
+      "detail": "sozi → 肖ˢ (pejvo, F=2)",
+      "documentation": "語根: sozi\n入力: sozi\n最終形: 肖ˢ\n漢字: 肖\n識別子: s\n型: pejvo\nF(汎用性): 2\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:8579",
+      "priority": 0,
+      "sourceRoot": "sozi",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 8579
+    },
+    "fobi": {
+      "prefix": "fobi",
+      "body": "怕ᶠ",
+      "kanji": "怕",
+      "detail": "fobi → 怕ᶠ (pejvo, F=8)",
+      "documentation": "語根: fobi\n入力: fobi\n最終形: 怕ᶠ\n漢字: 怕\n識別子: f\n型: pejvo\nF(汎用性): 8\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:6396",
+      "priority": 0,
+      "sourceRoot": "fobi",
+      "type": "pejvo",
+      "frequency": 8,
+      "base": false,
+      "sourceLine": 6396
+    },
+    "fob": {
+      "prefix": "fob",
+      "body": "怕ᶠᴼ",
+      "kanji": "怕",
+      "detail": "fob → 怕ᶠᴼ (piv, F=2)",
+      "documentation": "語根: fob\n入力: fob\n最終形: 怕ᶠᴼ\n漢字: 怕\n識別子: fo\n型: piv\nF(汎用性): 2\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:1359",
+      "priority": 0,
+      "sourceRoot": "fob",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 1359
+    },
+    "simptom": {
+      "prefix": "simptom",
+      "body": "症",
+      "kanji": "症",
+      "detail": "simptom → 症 (pejvo, F=6, 基本形)",
+      "documentation": "語根: simptom\n入力: simptom\n最終形: 症\n漢字: 症\n識別子: なし\n型: pejvo\nF(汎用性): 6\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:6397",
+      "priority": 0,
+      "sourceRoot": "simptom",
+      "type": "pejvo",
+      "frequency": 6,
+      "base": true,
+      "sourceLine": 6397
+    },
+    "agorafobi": {
+      "prefix": "agorafobi",
+      "body": "场ᴬ怕ᶠ",
+      "kanji": "场ᴬ怕ᶠ",
+      "detail": "agorafobi → 场ᴬ怕ᶠ (piv, F=1, 基本形)",
+      "documentation": "語根: agorafobi\n入力: agorafobi\n最終形: 场ᴬ怕ᶠ\n漢字: 场ᴬ怕ᶠ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8736",
+      "priority": 0,
+      "sourceRoot": "agorafobi",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 8736
+    },
+    "hidrofobi": {
+      "prefix": "hidrofobi",
+      "body": "水ᴴ怕ᶠ",
+      "kanji": "水ᴴ怕ᶠ",
+      "detail": "hidrofobi → 水ᴴ怕ᶠ (piv, F=1, 基本形)",
+      "documentation": "語根: hidrofobi\n入力: hidrofobi\n最終形: 水ᴴ怕ᶠ\n漢字: 水ᴴ怕ᶠ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9307",
+      "priority": 0,
+      "sourceRoot": "hidrofobi",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9307
+    },
+    "ksenofobi": {
+      "prefix": "ksenofobi",
+      "body": "外ᴷˢ怕ᶠ",
+      "kanji": "外ᴷˢ怕ᶠ",
+      "detail": "ksenofobi → 外ᴷˢ怕ᶠ (piv, F=1, 基本形)",
+      "documentation": "語根: ksenofobi\n入力: ksenofobi\n最終形: 外ᴷˢ怕ᶠ\n漢字: 外ᴷˢ怕ᶠ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9534",
+      "priority": 0,
+      "sourceRoot": "ksenofobi",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9534
+    },
+    "hidrofob": {
+      "prefix": "hidrofob",
+      "body": "水ᴴ怕ᶠᴼ",
+      "kanji": "水ᴴ怕ᶠᴼ",
+      "detail": "hidrofob → 水ᴴ怕ᶠᴼ (piv, F=1, 基本形)",
+      "documentation": "語根: hidrofob\n入力: hidrofob\n最終形: 水ᴴ怕ᶠᴼ\n漢字: 水ᴴ怕ᶠᴼ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9306",
+      "priority": 0,
+      "sourceRoot": "hidrofob",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9306
+    },
+    "ksenofob": {
+      "prefix": "ksenofob",
+      "body": "外ᴷˢ怕ᶠᴼ",
+      "kanji": "外ᴷˢ怕ᶠᴼ",
+      "detail": "ksenofob → 外ᴷˢ怕ᶠᴼ (piv, F=1, 基本形)",
+      "documentation": "語根: ksenofob\n入力: ksenofob\n最終形: 外ᴷˢ怕ᶠᴼ\n漢字: 外ᴷˢ怕ᶠᴼ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9533",
+      "priority": 0,
+      "sourceRoot": "ksenofob",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9533
+    },
+    "simptomologi": {
+      "prefix": "simptomologi",
+      "body": "症学ᴸᴳ",
+      "kanji": "症学ᴸᴳ",
+      "detail": "simptomologi → 症学ᴸᴳ (piv, F=1, 基本形)",
+      "documentation": "語根: simptomologi\n入力: simptomologi\n最終形: 症学ᴸᴳ\n漢字: 症学ᴸᴳ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:10010",
+      "priority": 0,
+      "sourceRoot": "simptomologi",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 10010
+    },
+    "portret": {
+      "prefix": "portret",
+      "body": "肖",
+      "kanji": "肖",
+      "detail": "portret → 肖 (basic, F=4, 基本形)",
+      "documentation": "語根: portret\n入力: portret\n最終形: 肖\n漢字: 肖\n識別子: なし\n型: basic\nF(汎用性): 4\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:5300",
+      "priority": 0,
+      "sourceRoot": "portret",
+      "type": "basic",
+      "frequency": 4,
+      "base": true,
+      "sourceLine": 5300
+    },
+    "sindrom": {
+      "prefix": "sindrom",
+      "body": "症ˢᴺ",
+      "kanji": "症",
+      "detail": "sindrom → 症ˢᴺ (pejvo, F=4)",
+      "documentation": "語根: sindrom\n入力: sindrom\n最終形: 症ˢᴺ\n漢字: 症\n識別子: sn\n型: pejvo\nF(汎用性): 4\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:6398",
+      "priority": 0,
+      "sourceRoot": "sindrom",
+      "type": "pejvo",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 6398
+    },
+    "tim": {
+      "prefix": "tim",
+      "body": "怕",
+      "kanji": "怕",
+      "detail": "tim → 怕 (basic, F=44, 基本形)",
+      "documentation": "語根: tim\n入力: tim\n最終形: 怕\n漢字: 怕\n識別子: なし\n型: basic\nF(汎用性): 44\nグループ数: 3\n基本形: yes\n出典: _identifier_sidecar.tsv:1358",
+      "priority": 0,
+      "sourceRoot": "tim",
+      "type": "basic",
+      "frequency": 44,
+      "base": true,
+      "sourceLine": 1358
+    }
+  },
+  "unrelated_items_sha256": "8f2f0bc553b87d34fea93e590fe4ae1ba5c48ba3f7f8683279d5e02a841997d7",
+  "unrelated_items_count": 10627,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {
+    "portret": {
+      "group_count": [
+        1,
+        2
+      ]
+    },
+    "sindrom": {
+      "group_count": [
+        3,
+        2
+      ]
+    },
+    "tim": {
+      "group_count": [
+        2,
+        3
+      ]
+    }
+  },
+  "preserved_historical_overrides": [
+    {
+      "root": "oz",
+      "body": "症ᴼ",
+      "canonical_body": "富ᴼ",
+      "reason": "Pre-existing app/canonical display difference; unrelated to this adoption and preserved exactly."
+    }
+  ],
+  "assignment_unchanged_item_count": 10630,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {
+    "怕ᶠ": {
+      "before": "fob",
+      "after": "fobi"
+    },
+    "症": {
+      "before": "fobi",
+      "after": "simptom"
+    },
+    "水ᴴ怕ᶠ": {
+      "before": "hidrofob",
+      "after": "hidrofobi"
+    },
+    "外ᴷˢ怕ᶠ": {
+      "before": "ksenofob",
+      "after": "ksenofobi"
+    }
+  },
+  "user_adopted_roots": [
+    "sozi",
+    "fobi"
+  ],
+  "identifier_propagated_roots": [
+    "fob",
+    "simptom",
+    "agorafobi",
+    "hidrofobi",
+    "ksenofobi",
+    "hidrofob",
+    "ksenofob",
+    "simptomologi"
+  ],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "sozi": "User adopts 肖ˢ to emphasize resemblance, share 肖 with portret, and reduce 19 to 7 strokes. Preserve the meaning of an unrelated lookalike in annotations.",
+    "fobi": "User adopts 怕ᶠ to state fear/phobia rather than generic symptom. Preserve clinical and compound meanings in annotations and the existing fob/fobi decomposition.",
+    "propagation": "Existing identifier generator changes fob to 怕ᶠᴼ, simptom to 症 and six established mirror-root bodies. No algorithm or root decomposition changes."
+  },
+  "preserved_controls": {
+    "棍": "klab",
+    "船左": "babord",
+    "程ᴾᶜ": "proces",
+    "程ᴾᶻ": "procez",
+    "蜂": "abel",
+    "脂": "gras",
+    "肖": "portret",
+    "怕": "tim"
+  },
+  "explicit_retained": {
+    "klarion": "军号",
+    "paprik": "甜椒"
+  },
+  "shared_spelling": {},
+  "migration_notice": "Current ownership of 怕ᶠ moves from fob to fobi; 症 moves from fobi to simptom; the corresponding full hidrofob/ksenofob keys move to the i-final roots. Fixed legacy retains all original owners; no aliases or intermediate edition are added."
+}

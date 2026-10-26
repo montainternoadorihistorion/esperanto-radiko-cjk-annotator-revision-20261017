@@ -42,6 +42,10 @@ LATEST={r['root']:r for r in json.loads(_latest_raw)['changes']}
 # before-values and the pinned mirror scope remain unchanged.
 CURRENT_DISPLAY_OVERRIDES={'uveit':'葡膜炎ᵀ','onkogen':'瘤ᴼ生ᴳ','onkologi':'瘤ᴼ学ᴸᴳ'}
 CURRENT_DISPLAY_OVERRIDES.update({'spermatocit': '精子胞ᶜᴵ', 'spermatofit': '精子植ᶠ', 'spermatogenez': '精子源ᴳ'})
+# Current expectations follow the six approved fobi/fob/simptom mirrors.
+CURRENT_DISPLAY_OVERRIDES.update({'agorafobi': '场ᴬ怕ᶠ', 'hidrofobi': '水ᴴ怕ᶠ', 'ksenofobi': '外ᴷˢ怕ᶠ', 'hidrofob': '水ᴴ怕ᶠᴼ', 'ksenofob': '外ᴷˢ怕ᶠᴼ', 'simptomologi': '症学ᴸᴳ'})
+# Previously approved microbial mirror, preserving all historical values.
+CURRENT_DISPLAY_OVERRIDES['mikrobologi']='微生物学ᴸᴳ'
 for _root in VALUES:
     if _root in LATEST:VALUES[_root]=(VALUES[_root][0],LATEST[_root]['after'])
 RUBY=re.compile(r'<ruby>(.*?)<rt[^>]*>(.*?)</rt></ruby>',re.S)

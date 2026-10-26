@@ -22,6 +22,12 @@ VALUES['uveit']={**VALUES['uveit'],'after':'葡膜炎ᵀ'}
 # Later user-approved onk component propagates only to these two whole-root mirrors.
 VALUES['onkogen']={**VALUES['onkogen'],'after':'瘤ᴼ生ᴳ'}
 VALUES['onkologi']={**VALUES['onkologi'],'after':'瘤ᴼ学ᴸᴳ'}
+# Later approved sozi/fobi revision changes only current mirror expectations.
+# The fingerprinted historical scope and all original before values stay intact.
+for _r,_v in {'agorafobi': '场ᴬ怕ᶠ', 'hidrofobi': '水ᴴ怕ᶠ', 'ksenofobi': '外ᴷˢ怕ᶠ', 'hidrofob': '水ᴴ怕ᶠᴼ', 'ksenofob': '外ᴷˢ怕ᶠᴼ', 'simptomologi': '症学ᴸᴳ'}.items():
+    VALUES[_r]={**VALUES[_r],'after':_v}
+# Previously approved microbial mirror; only the current expectation changes.
+VALUES['mikrobologi']={**VALUES['mikrobologi'],'after':'微生物学ᴸᴳ'}
 ABSENT=set(SCOPE.get('currently_absent_csv_roots',[]))
 PRESERVED={(norm(r['root']),r['display']) for r in SCOPE.get('preserved_senses',[])}
 

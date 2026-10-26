@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "scope": "Current klarion assignment only. Fixed legacy, original glosses, segmentation, unrelated assignments and identifiers, runtime engines and custom JSON behavior preserved. Only fixed legacy and evolving current editions.",
+  "scope": "Current sozi and fobi assignments, fob and simptom identifiers, and six dependent displays. Fixed legacy, original glosses, segmentation, unrelated assignments and identifiers, runtime engines and custom JSON behavior preserved. Only fixed legacy and evolving current editions.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -79,8 +79,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161689,
-      "sha256": "bb03ae7ffad92c335bbbd72904e2dd3af58eb113b04718a9dc6225650e00af37"
+      "bytes": 161705,
+      "sha256": "dd36d3fb948006816f796ae0317bb61abcde842c667daa81b441bfac3c1c3d4c"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -99,13 +99,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57371570,
-      "sha256": "d3534778dbfdbb155b88a2fcfda670d17e3e14cc1c2e7a2275c8d7639beb8ec3"
+      "bytes": 57371724,
+      "sha256": "9dda6ee89888cb2582522fac56584dd48621ee9a2201d824ec974dd5c255b99d"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21515785,
-      "sha256": "dad42f83d28318f29137236787006dc6362417c21aba69ad9a4d6fdcd2639fca"
+      "bytes": 21515920,
+      "sha256": "d1cb4e560a3015d23f7645d2e1e5b9d911d9c6527ce7f4493f360a5320be4e51"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -214,8 +214,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161689,
-      "sha256": "bb03ae7ffad92c335bbbd72904e2dd3af58eb113b04718a9dc6225650e00af37"
+      "bytes": 161705,
+      "sha256": "dd36d3fb948006816f796ae0317bb61abcde842c667daa81b441bfac3c1c3d4c"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -234,8 +234,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57379636,
-      "sha256": "ad843fb83aec5256b1eac115aaa5d1374a6aaf676b287cf15ceba83e8dfd364e"
+      "bytes": 57379790,
+      "sha256": "066338f96931c30dee90012776a57b012da573323fc0c126f49903c2f3726aa0"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -349,8 +349,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161689,
-      "sha256": "bb03ae7ffad92c335bbbd72904e2dd3af58eb113b04718a9dc6225650e00af37"
+      "bytes": 161705,
+      "sha256": "dd36d3fb948006816f796ae0317bb61abcde842c667daa81b441bfac3c1c3d4c"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -369,8 +369,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57379636,
-      "sha256": "39d690b2965100005a31dda50101449526054b90a1c9285df108bc3135704df9"
+      "bytes": 57379790,
+      "sha256": "8959c998d9a8619f05ffe17222f55e4f2441e4d40352a36864cb5bb20a6fe83b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
@@ -541,10 +541,20 @@
       "path": "Esperanto-Reverter-ZH/data/klarion-20261026.json",
       "bytes": 2912,
       "sha256": "a84185c93b67245c97653bacb16e2d4b5d8a7c6ce445e0416ac74dd731add63e"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/sozi-fobi-20261026.json",
+      "bytes": 17299,
+      "sha256": "d4d9e7b7848d8e069408ee565adbec948d1bf8adbb17703abb505e5b88ec1bbc"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/sozi-fobi-20261026.json",
+      "bytes": 17299,
+      "sha256": "d4d9e7b7848d8e069408ee565adbec948d1bf8adbb17703abb505e5b88ec1bbc"
     }
   ],
-  "assignment_revision": "klarion-20261026",
-  "previous_release_commit": "dcf4f7f21ab087677baf797e61a74b585c0e319b",
+  "assignment_revision": "sozi-fobi-20261026",
+  "previous_release_commit": "dd441b3acddba3c36f5501b13267f1936a8a17c9",
   "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
   "feature_revision": "two-editions-20261018",
   "legacy_manifest_sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3"

@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "2026-10-26-klarion",
+  "revision": "2026-10-26-sozi-fobi",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "34c61d4c182efec48089c3a27585563c2082c75c3c09c05076a644ef8645940b",
+  "monaco_all_sha256": "cb7a2d3f74bf032c65ca7aa7605bbad0735f7f62cf3797532a29aa2c7f978304",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "e29c0a977f464480a4260670c7487286a2deeb5e3f8141884a597b79fe3cc25e",
+  "canonical_sidecar_sha256": "c1e9d5bb9609c76feee0f9a0dd4100acb46aa031eb02170acc46d938aff881bd",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -332,10 +332,50 @@
     "klarion": {
       "old": "嘹",
       "current": "军号"
+    },
+    "sozi": {
+      "old": "替身",
+      "current": "肖ˢ"
+    },
+    "fobi": {
+      "old": "症",
+      "current": "怕ᶠ"
+    },
+    "fob": {
+      "old": "怕ᶠ",
+      "current": "怕ᶠᴼ"
+    },
+    "simptom": {
+      "old": "症ˢ",
+      "current": "症"
+    },
+    "agorafobi": {
+      "old": "场ᴬ症",
+      "current": "场ᴬ怕ᶠ"
+    },
+    "hidrofobi": {
+      "old": "水ᴴ症",
+      "current": "水ᴴ怕ᶠ"
+    },
+    "ksenofobi": {
+      "old": "外ᴷˢ症",
+      "current": "外ᴷˢ怕ᶠ"
+    },
+    "hidrofob": {
+      "old": "水ᴴ怕ᶠ",
+      "current": "水ᴴ怕ᶠᴼ"
+    },
+    "ksenofob": {
+      "old": "外ᴷˢ怕ᶠ",
+      "current": "外ᴷˢ怕ᶠᴼ"
+    },
+    "simptomologi": {
+      "old": "症ˢ学ᴸᴳ",
+      "current": "症学ᴸᴳ"
     }
   },
-  "current_csv_sha256": "dc75dd2ff9808e034d0df405fd355bb9a67259fb8bc41da1cd43d0341a320c9b",
-  "current_snippet_csv_sha256": "0970e1b4671cc37681bb667eeccf38b1c1bb7ff5aba6202270dadb9659d4a68e",
+  "current_csv_sha256": "40e943664b42b501100b26bc4bfb8b2560cd70a3c5f26a4e73beb71d3a8ccc35",
+  "current_snippet_csv_sha256": "a16e5150eeb12ec9d99b7691d9179410fae8cedda6c97545721725132bbe1444",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -479,5 +519,7 @@
   "shmalc_sfeg_manifest": "data/shmalc-sfeg-20261025.json",
   "shmalc_sfeg_manifest_sha256": "3a97022e600ff97e0d770ede395d969fd1f548b88de067fcc76dda76c9733c0e",
   "klarion_manifest": "data/klarion-20261026.json",
-  "klarion_manifest_sha256": "a84185c93b67245c97653bacb16e2d4b5d8a7c6ce445e0416ac74dd731add63e"
+  "klarion_manifest_sha256": "a84185c93b67245c97653bacb16e2d4b5d8a7c6ce445e0416ac74dd731add63e",
+  "sozi_fobi_manifest": "data/sozi-fobi-20261026.json",
+  "sozi_fobi_manifest_sha256": "d4d9e7b7848d8e069408ee565adbec948d1bf8adbb17703abb505e5b88ec1bbc"
 }

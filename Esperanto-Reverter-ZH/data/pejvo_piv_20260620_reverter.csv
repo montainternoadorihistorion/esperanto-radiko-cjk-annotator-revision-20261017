@@ -103,6 +103,7 @@ fonogram,声ᶠᴼ字ᴳᴹ,0,fonogram,9152
 fonologi,声ᶠᴼ学ᴸᴳ,0,fonologi,9153
 fonometri,声ᶠᴼ测ᴹᵀ,0,fonometri,9156
 fonoskop,声ᶠᴼ镜ˢᴷ,0,fonoskop,9158
+ksenofob,外ᴷˢ怕ᶠᴼ,0,ksenofob,9533
 ksenartr,外ᴷˢ节ᴬᴿ,0,ksenartr,10441
 polifoni,多ᴾ声ᶠᴼᴾ,0,polifoni,9891
 politeism,多ᴾ神ᵀ主义,0,politeism,9898
@@ -332,7 +333,7 @@ ektoderm,外ᴱᴷ皮ᴰ,0,ektoderm,9038
 ekzoterm,外ᴱᶻ热ᵀ,0,ekzoterm,9044
 ekzogen,外ᴱᶻ生ᴳ,0,ekzogen,9043
 ekzogami,外ᴱᶻ配ᴳ,0,ekzogami,9042
-ksenofob,外ᴷˢ怕ᶠ,0,ksenofob,9533
+ksenofobi,外ᴷˢ怕ᶠ,0,ksenofobi,9534
 politeist,多ᴾ神ᵀ家,0,politeist,9899
 sfinglipid,天蛾脂ᴸᴾ,0,sfinglipid,10004
 cefalopod,头ᶜ足ᴾᴼ,0,cefalopod,8937
@@ -457,6 +458,7 @@ traĥe,气管ᵀᴴ̂,0,trah^e,6628
 trakeotomi,气管切ᵀᴹ,0,trakeotomi,10153
 hidrofon,水ᴴ声ᶠᴼ,0,hidrofon,9308
 hidrologi,水ᴴ学ᴸᴳ,0,hidrologi,9319
+hidrofob,水ᴴ怕ᶠᴼ,0,hidrofob,9306
 hidrometri,水ᴴ测ᴹᵀ,0,hidrometri,9321
 hidrosulfit,水ᴴ硫盐ᴵ,0,hidrosulfit,9325
 sedimentologi,沉ˢ学ᴸᴳ,0,sedimentologi,9982
@@ -510,7 +512,6 @@ hipoĥondri,疑病ᴴᴴ̂,0,hipoh^ondri,8547
 patolog,病ᴾᴬ学家,0,patolog,9818
 patogenez,病ᴾᴬ源ᴳ,0,patogenez,9817
 patogen,病ᴾᴬ生ᴳ,0,patogen,9816
-simptomologi,症ˢ学ᴸᴳ,0,simptomologi,10010
 algiologi,痛ᴬ学ᴸᴳ,0,algiologi,8756
 onkologi,瘤ᴼ学ᴸᴳ,0,onkologi,9744
 leŭkoz,白ᴸᴱ症ᴼ,0,leu^koz,10442
@@ -888,6 +889,7 @@ geosfer,地ᴳ球ˢ,0,geosfer,9227
 geograf,地ᴳ记ᴳ,0,geograf,9215
 kadastr,地籍ᴷᴰ,0,kadastr,7269
 metropoliten,地铁ᴹᴾ,0,metropoliten,7217
+agorafobi,场ᴬ怕ᶠ,0,agorafobi,8736
 iskiatalgi,坐神痛ᴬ,0,iskiatalgi,9406
 tipologi,型学ᴸᴳ,0,tipologi,10137
 tipografart,型记ᴳ艺,0,tipografart,10136
@@ -897,7 +899,6 @@ mediologi,境学ᴸᴳ,0,mediologi,9596
 kriptonim,墓窖名ᴼ,0,kriptonim,9521
 lokomobil,处动ᴹᴮ,0,lokomobil,9572
 ektoplasm,外ᴱᴷ浆,0,ektoplasm,9039
-ksenofobi,外ᴷˢ症,0,ksenofobi,9534
 ĥirurg,外科ᴴ̂,0,h^irurg,5713
 kirurgi,外科ᴷᴵ,0,kirurgi,5712
 vulvit,外阴炎ᵀ,0,vulvit,10209
@@ -1136,7 +1137,7 @@ hidrodinamik,水ᴴ力ᴰ,0,hidrodinamik,9303
 hidrocefal,水ᴴ头ᶜ,0,hidrocefal,10270
 hidrolog,水ᴴ学家,0,hidrolog,9318
 hidrografi,水ᴴ志ᴳ,0,hidrografi,9312
-hidrofob,水ᴴ怕ᶠ,0,hidrofob,9306
+hidrofobi,水ᴴ怕ᶠ,0,hidrofobi,9307
 hidroaeroplan,水ᴴ气划,0,hidroaeroplan,9302
 hidroksid,水ᴴ氧化,0,hidroksid,9316
 hidrokarbid,水ᴴ炭子,0,hidrokarbid,9313
@@ -1217,6 +1218,7 @@ teratologi,畸学ᴸᴳ,0,teratologi,10103
 terapeŭtik,疗ᵀᵁ̆,0,terapeu^tik,5986
 malariologi,疟学ᴸᴳ,0,malariologi,9587
 epidemiologi,疫学ᴸᴳ,0,epidemiologi,9090
+simptomologi,症学ᴸᴳ,0,simptomologi,10010
 algiolog,痛ᴬ学家,0,algiolog,8755
 onkogen,瘤ᴼ生ᴳ,0,onkogen,9743
 kancerologi,癌学ᴸᴳ,0,kancerologi,9436
@@ -2049,7 +2051,6 @@ topo,地ᵀᴾ,0,topo,968
 geotermik,地热学,0,geotermik,9230
 miogal,地鼠ᴹ,0,miogal,6824
 aren,场ᴬᴿ,0,aren,3511
-agorafobi,场ᴬ症,0,agorafobi,8736
 fortik,坚ᶠᵀ,0,fortik,2989
 konfirmaci,坚信礼,0,konfirmaci,8363
 prolaps,垂ᴾᴸ,0,prolaps,7442
@@ -2246,6 +2247,7 @@ lonicer,忍冬ᴸ,0,lonicer,8442
 anksi,忧ᴬᴷ,0,anksi,8270
 alegr,快ᴬᴸ,0,alegr,1428
 kolerik,怒ᴷᴷ,0,kolerik,1741
+fob,怕ᶠᴼ,0,fob,1359
 impotent,性无能,0,impotent,8180
 ĝeneral,总ᴳ̂,0,ĝeneral,2831
 spirator,息具ᴬ,0,spirator,10397
@@ -2701,7 +2703,6 @@ hidroplan,水ᴴ划,0,hidroplan,9322
 hidroksi,水ᴴ氧,0,hidroksi,9315
 hidroelektr,水ᴴ电,0,hidroelektr,9304
 hidroterapi,水ᴴ疗,0,hidroterapi,9326
-hidrofobi,水ᴴ症,0,hidrofobi,9307
 hidrokarbon,水ᴴ碳,0,hidrokarbon,9314
 hidracid,水ᴴ酸,0,hidracid,9301
 jonkvil,水仙ᴶ,0,jonkvil,6790
@@ -5727,7 +5728,7 @@ nostalgi,怀ᴺ,0,nostalgi,8373
 nostalgi,怀旧,0,nostalgi,reverse-alias:20261017
 aci,态ᴬ,0,aci,2096
 ekologi,态ᴱ,0,ekologi,2095
-fob,怕ᶠ,0,fob,1359
+fobi,怕ᶠ,0,fobi,6396
 horor,怖ᴴ,0,horor,6145
 kontempl,思ᴷ,0,kontempl,1290
 medit,思ᴹ,0,medit,1289
@@ -6071,7 +6072,6 @@ romanc,曲ᴿ,0,romanc,4008
 krank,曲柄,0,krank,6747
 substitu,替ˢ,0,substitu,4460
 dubl,替ᴰ,0,dubl,4459
-sozi,替身,0,sozi,8579
 minimum,最小,0,minimum,5248
 monat,月ᴹ,0,monat,646
 menstru,月经,0,menstru,6158
@@ -6805,7 +6805,6 @@ vakcin,疫苗,0,vakcin,4435
 aft,疮ᴬ,0,aft,6503
 skab,疮疤,0,skab,6642
 ekzantem,疹ᴱ,0,ekzantem,7066
-simptom,症ˢ,0,simptom,6397
 tikl,痒ᵀ,0,tikl,5380
 urtik,痒ᵁ,0,urtik,5381
 kaŭpoks,痘ᴷ,0,kaŭpoks,5431
@@ -7238,6 +7237,7 @@ stek,肉排,0,stek,7397
 sarkom,肉瘤,0,sarkom,7330
 varang,肋板,0,varang,8690
 miom,肌瘤,0,miom,8044
+sozi,肖ˢ,0,sozi,8579
 anduj,肚肠,0,anduj,7952
 sodomi,肛交,0,sodomi,6956
 hepatik,肝草,0,hepatik,8514
@@ -9816,7 +9816,7 @@ ulcer,疮,0,ulcer,6502
 lac,疲,0,lac,1766
 tif,疹,0,tif,7065
 morb,病,0,morb,7030
-fobi,症,0,fobi,6396
+simptom,症,0,simptom,6397
 juk,痒,0,juk,5379
 stigmat,痕,0,stigmat,7292
 akn,痘,0,akn,5429
