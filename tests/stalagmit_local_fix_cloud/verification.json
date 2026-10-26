@@ -1,0 +1,221 @@
+{
+  "passed": true,
+  "verified_utc": "2026-10-26T11:34:25.764059+00:00",
+  "forward_routes": 18,
+  "downloads": 18,
+  "public_release": {
+    "mergeCommit": {
+      "oid": "bf4aa68b88e101525061c4abe1716ab5ff3059af"
+    },
+    "mergedAt": "2026-10-26T11:28:46Z",
+    "state": "MERGED",
+    "url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/77",
+    "tested_branch_head": "6050de0e6d8299cf2ebbe324a5b08f83c97cfacd"
+  },
+  "rows": [
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "file": "JA_current_pure.txt",
+      "sha256": "37d0bc33932b3885dde43c93ab852def286f0ff0470ad8fd6fb4d58062bfe584",
+      "bytes": 163,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "file": "ZH_current_pure.txt",
+      "sha256": "37d0bc33932b3885dde43c93ab852def286f0ff0470ad8fd6fb4d58062bfe584",
+      "bytes": 163,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "file": "KO_current_pure.txt",
+      "sha256": "37d0bc33932b3885dde43c93ab852def286f0ff0470ad8fd6fb4d58062bfe584",
+      "bytes": 163,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "file": "JA_current_kanji.html",
+      "sha256": "6891932a734128ed88013cc7c3412d05a531c18e2cfe8cd249cc9838da211991",
+      "bytes": 3943,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "file": "ZH_current_kanji.html",
+      "sha256": "ff2423e7c6e136f7338d2724eade6e4a3545fe08f65543c1e99a23eaaf5ddc59",
+      "bytes": 2814,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "file": "KO_current_kanji.html",
+      "sha256": "ae96055369009404f383838b22701c0479e7161156e23002759e5f1454420ffa",
+      "bytes": 3942,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "file": "JA_current_ruby.html",
+      "sha256": "258ef6ce51c9d7355e51c34c2dfeb5eb80ff84c9157a0c14625da67756cadffc",
+      "bytes": 4295,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "file": "ZH_current_ruby.html",
+      "sha256": "0eb86bf714b4df0969ef3528a5270f55649e5fcc76a2267f20f5c0dbe18a22f3",
+      "bytes": 3103,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "file": "KO_current_ruby.html",
+      "sha256": "2035e0313f1ae269aa0fc6b6ae53f060079ec87b641468cc4de8af9bc712f840",
+      "bytes": 4252,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "file": "JA_legacy_pure.txt",
+      "sha256": "5617be7c4ea876de909692db4828d740f4495be731d454180c065a58d9b20302",
+      "bytes": 163,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "file": "ZH_legacy_pure.txt",
+      "sha256": "5617be7c4ea876de909692db4828d740f4495be731d454180c065a58d9b20302",
+      "bytes": 163,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "file": "KO_legacy_pure.txt",
+      "sha256": "5617be7c4ea876de909692db4828d740f4495be731d454180c065a58d9b20302",
+      "bytes": 163,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "file": "JA_legacy_kanji.html",
+      "sha256": "725a81deae6b6cb84b8cf114bc43f0d682a03e5d848c850cbedb8ef16d8d393c",
+      "bytes": 3942,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "file": "ZH_legacy_kanji.html",
+      "sha256": "0a460a4d704dba690fff9640e8b7f8f7e94b67d381579639da17560423121f44",
+      "bytes": 2813,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "file": "KO_legacy_kanji.html",
+      "sha256": "9305aa7859e77d8518fd42c18263af29947ab3a52435bb80da4de895a3da60e4",
+      "bytes": 3941,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "file": "JA_legacy_ruby.html",
+      "sha256": "55ab47522dddd7e7197f42ef2b2af50212e22fd0aa7ed03428991a230bc5e8a9",
+      "bytes": 4294,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "file": "ZH_legacy_ruby.html",
+      "sha256": "3a7db6aba5cb80926fd2542dd2f4d3a33b9bca54b724ff14373d71000427c0c9",
+      "bytes": 3102,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "file": "KO_legacy_ruby.html",
+      "sha256": "43c902e3000a4a6f1f6de315ac3f589485d59cf11e00f0edb825a5644697e5dd",
+      "bytes": 4251,
+      "dom_input_output_edition_match": true,
+      "download_exact_except_html_creation_time": true
+    }
+  ],
+  "limits": [
+    "Actual Cloud browser observations and downloaded files; running internal commit not directly observed.",
+    "Whole-payload stalagmit protection only; unrelated compound and phrase decomposition intentionally unchanged.",
+    "Assignments, identifiers, raw bundled data, fixed legacy and inverse dictionaries were not edited.",
+    "Full runtime targeted regression and inverse/HTML checks are recorded separately; this Cloud check uses representative inputs."
+  ]
+}

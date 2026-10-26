@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "product_files": [
+    "Esperanto-Kanji-Ruby-JA/esp_text_replacement_module.py",
+    "Esperanto-Kanji-Ruby-ZH/esp_text_replacement_module.py",
+    "Esperanto-Kanji-Ruby-KO/esp_text_replacement_module.py",
+    "tests/test_stalagmit_local_fix.py"
+  ],
+  "reviewed_payloads": 51,
+  "scope": "stalagmit root plus 16 standard endings, lower/title/upper; complete @ payloads only, bundled opt-in only",
+  "targeted_test_cases": 1404,
+  "changed_outputs": 612,
+  "unchanged_annotations": 306,
+  "unchanged_controls": 432,
+  "unchanged_custom_optout_cases": 54,
+  "unit_test_count": 3,
+  "test_seconds": 87.41,
+  "plain_inverse_assertions": 918,
+  "html_exact_source_assertions": 612,
+  "inverse_case_note": "Plain inverse retains its existing lowercase normalization; HTML source recovery preserves exact capitalization.",
+  "data_files_preserved": 75,
+  "canonical_files_preserved": 2,
+  "public_and_private_sources_identical": true,
+  "existing_other_tests_changed": false,
+  "limitations": [
+    "No full dictionary scan repeated because every data file and assignment source stayed byte-identical.",
+    "Parent owns broad existing regression, Streamlit Cloud verification and release; this report is targeted local evidence.",
+    "Phrases and derived/compound @ payloads outside the explicit finite form set retain their existing behavior."
+  ],
+  "public_regression_test": "tests/test_stalagmit_local_fix.py"
+}
