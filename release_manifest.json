@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-25",
-  "scope": "Current ŝmalc and sfeg assignments, plus the algorithmic simuli identifier transition. Fixed legacy, original glosses, segmentation, unrelated identifiers, runtime engines and custom JSON behavior preserved. Only fixed legacy and evolving current editions.",
+  "date": "2026-10-26",
+  "scope": "Current klarion assignment only. Fixed legacy, original glosses, segmentation, unrelated assignments and identifiers, runtime engines and custom JSON behavior preserved. Only fixed legacy and evolving current editions.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -79,8 +79,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161686,
-      "sha256": "6db51b4ac11dbbe82a5e574f00c9af00814c1f01c90e3e9f4cce0a6798707630"
+      "bytes": 161689,
+      "sha256": "bb03ae7ffad92c335bbbd72904e2dd3af58eb113b04718a9dc6225650e00af37"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -99,13 +99,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57371578,
-      "sha256": "cf85850b06d11f7cfb1182c4a636cf6eb77bf7360654e9dbc9a49a4bb2d52780"
+      "bytes": 57371570,
+      "sha256": "d3534778dbfdbb155b88a2fcfda670d17e3e14cc1c2e7a2275c8d7639beb8ec3"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21515767,
-      "sha256": "1e9fe869936f99b2ccc599a89c34eaa9b1bb2872a805a4f09d6816c26f3fe317"
+      "bytes": 21515785,
+      "sha256": "dad42f83d28318f29137236787006dc6362417c21aba69ad9a4d6fdcd2639fca"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -214,8 +214,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161686,
-      "sha256": "6db51b4ac11dbbe82a5e574f00c9af00814c1f01c90e3e9f4cce0a6798707630"
+      "bytes": 161689,
+      "sha256": "bb03ae7ffad92c335bbbd72904e2dd3af58eb113b04718a9dc6225650e00af37"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -234,8 +234,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57379644,
-      "sha256": "93c99f0e025e2a730f674ff5e7f3b0d8eeca49416bc10aeb3227c4ddb5bebe36"
+      "bytes": 57379636,
+      "sha256": "ad843fb83aec5256b1eac115aaa5d1374a6aaf676b287cf15ceba83e8dfd364e"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -349,8 +349,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 161686,
-      "sha256": "6db51b4ac11dbbe82a5e574f00c9af00814c1f01c90e3e9f4cce0a6798707630"
+      "bytes": 161689,
+      "sha256": "bb03ae7ffad92c335bbbd72904e2dd3af58eb113b04718a9dc6225650e00af37"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -369,8 +369,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57379644,
-      "sha256": "02cd7b3635fa021c504026545b893acae4e32af01ccdc5b569894cf1fc01cb8d"
+      "bytes": 57379636,
+      "sha256": "39d690b2965100005a31dda50101449526054b90a1c9285df108bc3135704df9"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
@@ -531,10 +531,20 @@
       "path": "Esperanto-Reverter-ZH/data/shmalc-sfeg-20261025.json",
       "bytes": 133212,
       "sha256": "3a97022e600ff97e0d770ede395d969fd1f548b88de067fcc76dda76c9733c0e"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/klarion-20261026.json",
+      "bytes": 2912,
+      "sha256": "a84185c93b67245c97653bacb16e2d4b5d8a7c6ce445e0416ac74dd731add63e"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/klarion-20261026.json",
+      "bytes": 2912,
+      "sha256": "a84185c93b67245c97653bacb16e2d4b5d8a7c6ce445e0416ac74dd731add63e"
     }
   ],
-  "assignment_revision": "shmalc-sfeg-20261025",
-  "previous_release_commit": "854193bc3d7730bff8213be983b61c4822188f93",
+  "assignment_revision": "klarion-20261026",
+  "previous_release_commit": "dcf4f7f21ab087677baf797e61a74b585c0e319b",
   "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
   "feature_revision": "two-editions-20261018",
   "legacy_manifest_sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3"

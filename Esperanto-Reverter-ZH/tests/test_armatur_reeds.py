@@ -57,7 +57,7 @@ def test_no_intermediate_profile_or_ambiguous_old_spelling_aliases():
 def test_current_manifest_downloads_and_group_descriptions():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     path=app.ROOT/source['armatur_reeds_manifest'];manifest=json.loads(path.read_bytes())
-    assert source['revision']=='2026-10-25-shmalc-sfeg'
+    assert source['revision']=='2026-10-26-klarion'
     assert manifest['revision']=='2026-10-25-armatur-reeds'
     assert manifest['changes']=={r:list(v) for r,v in CHANGES.items()}
     assert manifest['safe_reverse_aliases']=={}
