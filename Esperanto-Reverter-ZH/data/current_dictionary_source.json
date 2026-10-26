@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "2026-10-26-sozi-fobi",
+  "revision": "2026-10-26-stal",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "cb7a2d3f74bf032c65ca7aa7605bbad0735f7f62cf3797532a29aa2c7f978304",
+  "monaco_all_sha256": "ba31d62ee2da58a12a97eb4a9538a9cf2242f38aa9264b7b27fcc7833cfc4356",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "c1e9d5bb9609c76feee0f9a0dd4100acb46aa031eb02170acc46d938aff881bd",
+  "canonical_sidecar_sha256": "281dae5911ba388da98770ba0959a65d06f7a5ea000a003b7e80736886cd5d05",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -372,10 +372,14 @@
     "simptomologi": {
       "old": "症ˢ学ᴸᴳ",
       "current": "症学ᴸᴳ"
+    },
+    "stal": {
+      "old": "马棚",
+      "current": "畜棚"
     }
   },
-  "current_csv_sha256": "40e943664b42b501100b26bc4bfb8b2560cd70a3c5f26a4e73beb71d3a8ccc35",
-  "current_snippet_csv_sha256": "a16e5150eeb12ec9d99b7691d9179410fae8cedda6c97545721725132bbe1444",
+  "current_csv_sha256": "adb8ef79a751242fe9361825ce10e0b1b2025a594426ebf03542d1dde8688a9d",
+  "current_snippet_csv_sha256": "f5c87d7ad640a570245b4afffcf93de3a711134354676a4aeb870dc306035f64",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -521,5 +525,7 @@
   "klarion_manifest": "data/klarion-20261026.json",
   "klarion_manifest_sha256": "a84185c93b67245c97653bacb16e2d4b5d8a7c6ce445e0416ac74dd731add63e",
   "sozi_fobi_manifest": "data/sozi-fobi-20261026.json",
-  "sozi_fobi_manifest_sha256": "d4d9e7b7848d8e069408ee565adbec948d1bf8adbb17703abb505e5b88ec1bbc"
+  "sozi_fobi_manifest_sha256": "d4d9e7b7848d8e069408ee565adbec948d1bf8adbb17703abb505e5b88ec1bbc",
+  "stal_manifest": "data/stal-20261026.json",
+  "stal_manifest_sha256": "b122cec0f7672505fc89ff39a6143d71ff80a53bb13478e776cd482954c79193"
 }

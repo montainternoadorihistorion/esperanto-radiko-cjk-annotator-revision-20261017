@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "revision": "2026-10-26-stal",
+  "baseline": "f335cb58962b56f1566bce65823d19a45d870f55",
+  "changes": {
+    "stal": [
+      "马棚",
+      "畜棚"
+    ]
+  },
+  "canonical_sidecar_sha256": "281dae5911ba388da98770ba0959a65d06f7a5ea000a003b7e80736886cd5d05",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "cb7a2d3f74bf032c65ca7aa7605bbad0735f7f62cf3797532a29aa2c7f978304",
+  "baseline_target_items": {
+    "stal": {
+      "prefix": "stal",
+      "body": "马棚",
+      "kanji": "马棚",
+      "detail": "stal → 马棚 (basic, F=11, 基本形)",
+      "documentation": "語根: stal\n入力: stal\n最終形: 马棚\n漢字: 马棚\n識別子: なし\n型: basic\nF(汎用性): 11\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:4065",
+      "priority": 0,
+      "sourceRoot": "stal",
+      "type": "basic",
+      "frequency": 11,
+      "base": true,
+      "sourceLine": 4065
+    }
+  },
+  "expected_target_items": {
+    "stal": {
+      "prefix": "stal",
+      "body": "畜棚",
+      "kanji": "畜棚",
+      "detail": "stal → 畜棚 (basic, F=11, 基本形)",
+      "documentation": "語根: stal\n入力: stal\n最終形: 畜棚\n漢字: 畜棚\n識別子: なし\n型: basic\nF(汎用性): 11\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:4065",
+      "priority": 0,
+      "sourceRoot": "stal",
+      "type": "basic",
+      "frequency": 11,
+      "base": true,
+      "sourceLine": 4065
+    }
+  },
+  "unrelated_items_sha256": "78a431e94a66ceaf135083c2cc15bc7b94201387da7b00cd50712fa07b090535",
+  "unrelated_items_count": 10639,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {},
+  "preserved_historical_overrides": [],
+  "assignment_unchanged_item_count": 10639,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "stal"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "stal": "User adopts 畜棚 for a stable or animal shelter, preserving 棚 and broadening 马 to domesticated animals. Source meaning, decomposition and identifiers remain unchanged."
+  },
+  "preserved_controls": {
+    "面团": "knedlik",
+    "柴油": "dizel",
+    "柴油ᴰˢ": "disel",
+    "钢": "ŝtal",
+    "肖": "portret",
+    "怕": "tim"
+  },
+  "explicit_retained": {
+    "knedlik": "面团",
+    "dizel": "柴油",
+    "disel": "柴油ᴰˢ"
+  },
+  "shared_spelling": {},
+  "migration_notice": "Only current stal changes 马棚 to 畜棚. Fixed legacy stays 马棚. No owner transfer, new aliases or intermediate edition."
+}

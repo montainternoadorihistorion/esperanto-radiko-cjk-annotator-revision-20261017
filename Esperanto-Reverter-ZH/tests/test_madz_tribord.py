@@ -47,7 +47,7 @@ def test_only_two_visible_editions_and_no_old_aliases():
 def test_manifest_and_downloads():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     path=app.ROOT/source['madz_tribord_manifest'];manifest=json.loads(path.read_bytes())
-    assert source['revision']=='2026-10-26-sozi-fobi'
+    assert source['revision']=='2026-10-26-stal'
     assert manifest['revision']=='2026-10-25-madz-tribord'
     assert manifest['changes']=={root:list(pair) for root,pair in CHANGES.items()}
     assert manifest['safe_reverse_aliases']==manifest['ownership_transfers']=={}
