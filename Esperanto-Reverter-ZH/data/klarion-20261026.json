@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "revision": "2026-10-26-klarion",
+  "baseline": "ac8cdfde15a8777ad22130cd0726baeb0584ddba",
+  "changes": {
+    "klarion": [
+      "嘹",
+      "军号"
+    ]
+  },
+  "canonical_sidecar_sha256": "e29c0a977f464480a4260670c7487286a2deeb5e3f8141884a597b79fe3cc25e",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "678cb09b376ea7b771b6546797e3d43ddf3b3f750fd0baf6cd3c1d3ac8c26e3f",
+  "baseline_target_items": {
+    "klarion": {
+      "prefix": "klarion",
+      "body": "嘹",
+      "kanji": "嘹",
+      "detail": "klarion → 嘹 (pejvo, F=3, 基本形)",
+      "documentation": "語根: klarion\n入力: klarion\n最終形: 嘹\n漢字: 嘹\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7378",
+      "priority": 0,
+      "sourceRoot": "klarion",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7378
+    }
+  },
+  "expected_target_items": {
+    "klarion": {
+      "prefix": "klarion",
+      "body": "军号",
+      "kanji": "军号",
+      "detail": "klarion → 军号 (pejvo, F=3, 基本形)",
+      "documentation": "語根: klarion\n入力: klarion\n最終形: 军号\n漢字: 军号\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7378",
+      "priority": 0,
+      "sourceRoot": "klarion",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7378
+    }
+  },
+  "unrelated_items_sha256": "c1f128c1109109427b498b61758a215b616bf50915d4c1acb418f58481c9f99b",
+  "unrelated_items_count": 10639,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {},
+  "preserved_historical_overrides": [],
+  "assignment_unchanged_item_count": 10639,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "klarion"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "klarion": "User adopts 军号, the established term for a signaling bugle. 军 emphasizes typical military use without changing the original broader PIV gloss or figurative uses. Body strokes 15 to 11; share 军 and 号, remove unique 嘹."
+  },
+  "preserved_controls": {
+    "棍": "klab",
+    "船左": "babord",
+    "程ᴾᶜ": "proces",
+    "程ᴾᶻ": "procez",
+    "蜂": "abel",
+    "脂": "gras"
+  },
+  "explicit_retained": {
+    "s^malc": "脂ˢ̂",
+    "sfeg": "蜂ˢ",
+    "simuli": "虫ˢ",
+    "trumpet": "小号",
+    "fanfar": "号角"
+  },
+  "shared_spelling": {},
+  "migration_notice": "Only klarion changes from 嘹 to 军号. No identifiers or existing owners change. Fixed legacy, alias content and two visible editions are preserved."
+}

@@ -7,7 +7,7 @@ from html_source_recovery import recover_standard_html
 
 CURRENT='pejvo-piv-20260620'; OLD='pre-las-20261017'
 CHANGES={'ŝmalc':('猪油','脂ˢ̂'),'sfeg':('虫ˢ','蜂ˢ'),'simuli':('虫ˢᴹ','虫ˢ')}
-CONTROLS={'脂':'gras','蜂':'abel','嘹':'klarion','棍':'klab','船左':'babord','程ᴾᶜ':'proces','程ᴾᶻ':'procez'}
+CONTROLS={'脂':'gras','蜂':'abel','棍':'klab','船左':'babord','程ᴾᶜ':'proces','程ᴾᶻ':'procez'}
 SUFFIXES=('', 'o','oj','on','ojn','a','aj','an','ajn','e','i','as','is','os','us','u','ado','ita','intajn','igi','ĉjo')
 def index(source):
  return app.build_mapping_index_cached(app.effective_mapping_records(source,app.load_dictionary_source(source)))
@@ -19,7 +19,7 @@ def test_endings_and_control_owners(source):
   body=pair[source==CURRENT]
   for suffix in SUFFIXES:
    for ending in (suffix,suffix.upper()):assert app.convert_kanji_esperanto_to_alphabet(body+ending,mapping)==root+suffix
-   for keep,owner in CONTROLS.items():assert app.convert_kanji_esperanto_to_alphabet(keep+suffix,mapping)==owner+suffix
+   for keep,owner in {**CONTROLS, ('军号' if source==CURRENT else '嘹'):'klarion'}.items():assert app.convert_kanji_esperanto_to_alphabet(keep+suffix,mapping)==owner+suffix
   assert app.convert_kanji_esperanto_to_alphabet('  '+body+'o\n\t'+body+'as & <x>  ',mapping)=='  '+root+'o\n\t'+root+'as & <x>  '
 
 @pytest.mark.parametrize('source',(CURRENT,OLD))
@@ -50,7 +50,8 @@ def test_only_two_visible_editions_and_no_obsolete_aliases():
 def test_manifest_and_downloads():
  source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
  path=app.ROOT/source['shmalc_sfeg_manifest'];manifest=json.loads(path.read_bytes())
- assert source['revision']==manifest['revision']=='2026-10-25-shmalc-sfeg'
+ assert source['revision']=='2026-10-26-klarion'
+ assert manifest['revision']=='2026-10-25-shmalc-sfeg'
  assert manifest['changes']=={'s^malc':['猪油','脂ˢ̂'],'sfeg':['虫ˢ','蜂ˢ'],'simuli':['虫ˢᴹ','虫ˢ']}
  assert manifest['safe_reverse_aliases']=={}
  assert manifest['ownership_transfers']=={'虫ˢ':{'before':'sfeg','after':'simuli'}}

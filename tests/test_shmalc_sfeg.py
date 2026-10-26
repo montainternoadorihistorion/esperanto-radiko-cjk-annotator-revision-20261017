@@ -19,7 +19,7 @@ ROOT=Path(__file__).resolve().parent.parent
 CSV='世界语词根-汉字对应列表_参照2新割当_7791.csv'
 CURRENT={'ŝmalc': '脂ˢ̂', 'sfeg': '蜂ˢ', 'simuli': '虫ˢ'}
 LEGACY={'ŝmalc': '猪油', 'sfeg': '虫ˢ', 'simuli': '虫ˢᴹ'}
-KEEPS={'klarion':'嘹','numer':'号','grifel':'石笔','semajn':'周'}
+KEEPS={'klarion':'军号','numer':'号','grifel':'石笔','semajn':'周'}
 LEGACY_SHA={
     'JA':'215f0c297bf73efe29f4b323a982adb63a181d42e202dbed63f52c954baeb0fe',
     'ZH':'f05e779677489ebcf5d00b00389e841eb89cc8bf7af87bbf1d1e65309c0fd594',
@@ -52,6 +52,7 @@ class ShmalcSfegAssignment(unittest.TestCase):
                     raw=gzip.decompress(compressed)
                 payload=json.loads(raw)
                 expected={**values,**KEEPS}
+                if edition=='legacy':expected['klarion']='嘹'
                 for prefix in ('全域','局部'):
                     rows=payload[next(k for k in payload if k.startswith(prefix))]
                     seen=set()
