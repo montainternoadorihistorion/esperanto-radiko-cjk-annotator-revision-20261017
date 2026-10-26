@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "scope": "Current stal assignment only. Fixed legacy, original glosses, segmentation, unrelated assignments and identifiers, runtime engines and custom JSON behavior preserved. Only fixed legacy and evolving current editions.",
+  "scope": "Reviewed whole-payload stalagmit root and standard endings are protected in bundled @ conversion for current and legacy. Existing kanji assignments, identifiers, JSON data, normal conversion, other splits, reverse dictionaries and custom JSON behavior are unchanged.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -129,8 +129,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/esp_text_replacement_module.py",
-      "bytes": 36810,
-      "sha256": "f0670480e5865b6df7278f77254978c3e546781079d74de3230e284713c37df2"
+      "bytes": 38263,
+      "sha256": "467a9a836c9a0f4bac5b41cfdf6e9243f7e89f900d12281c6cf4c9be6c480d6f"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/main.py",
@@ -264,8 +264,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/esp_text_replacement_module.py",
-      "bytes": 31383,
-      "sha256": "aa9cfe9fa038797c5671da267ec53aaf657063b80a5306caea60e4e3b78712a3"
+      "bytes": 32836,
+      "sha256": "ac24d5e9a92355b83341a599d4e72c6622523ef5ea4d85ccdc81ffed6eb2a406"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/main.py",
@@ -389,8 +389,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_text_replacement_module.py",
-      "bytes": 30236,
-      "sha256": "d16e3d9f3563844e1647b6026d2deb9f2c354261dbf1b4c054fcf96059cbe925"
+      "bytes": 31689,
+      "sha256": "c96981c0b002443a815c8bf7c4e957285fb59a626705480f8eb87c55fdc4ea95"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/main.py",
