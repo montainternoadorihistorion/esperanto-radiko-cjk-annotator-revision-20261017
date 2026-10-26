@@ -179,10 +179,41 @@ _REVIEWED_LOCAL_DECOMPOSITIONS = {
 }
 
 
-def _reviewed_local_renderings(payloads, local_rules, enabled=False):
-    wanted = set(payloads) & _REVIEWED_LOCAL_DECOMPOSITIONS.keys() if enabled else set()
+# This independent root has no kanji assignment. Preserve it only for complete
+# reviewed @ payloads; prefer the selected local atom when it supplies a gloss.
+# Standard endings and the existing lower/title/upper spellings are explicit.
+# Phrases, compounds, arbitrary prefixes and custom/default JSON are unchanged.
+_REVIEWED_LOCAL_ATOMIC_FORMS = {
+    form: (form[:len("stalagmit")], form[len("stalagmit"):])
+    for ending in ("", "o", "oj", "on", "ojn", "a", "aj", "an", "ajn",
+                   "e", "en", "i", "as", "is", "os", "us", "u")
+    for word in ("stalagmit" + ending,)
+    for form in (word, word.capitalize(), word.upper())
+}
+
+
+def _reviewed_local_atomic_renderings(payloads, local_rules, enabled=False):
+    wanted = set(payloads) & _REVIEWED_LOCAL_ATOMIC_FORMS.keys() if enabled else set()
     if not wanted:
         return {}
+    needed = {_REVIEWED_LOCAL_ATOMIC_FORMS[word][0] for word in wanted}
+    atoms = {}
+    for old, new, _ in local_rules:
+        if old in needed:
+            if not isinstance(new, str) or not new or (old in atoms and atoms[old] != new):
+                raise ValueError("Conflicting or empty reviewed atomic root: " + old)
+            atoms[old] = new
+    # Existing annotated roots keep their established ending annotations too.
+    return {word: atoms[root] + safe_replace(ending, local_rules) if root in atoms else word
+            for word in wanted
+            for root, ending in (_REVIEWED_LOCAL_ATOMIC_FORMS[word],)}
+
+
+def _reviewed_local_renderings(payloads, local_rules, enabled=False):
+    atomic = _reviewed_local_atomic_renderings(payloads, local_rules, enabled)
+    wanted = set(payloads) & _REVIEWED_LOCAL_DECOMPOSITIONS.keys() if enabled else set()
+    if not wanted:
+        return atomic
     needed = {root for word in wanted for root in _REVIEWED_LOCAL_DECOMPOSITIONS[word][:-1]}
     roots = {}
     for old, new, _ in local_rules:
@@ -192,8 +223,8 @@ def _reviewed_local_renderings(payloads, local_rules, enabled=False):
             roots[old] = new
     if set(roots) != needed:
         raise ValueError("Missing reviewed local roots: " + repr(sorted(needed - roots.keys())))
-    return {word: "".join(roots[root] for root in _REVIEWED_LOCAL_DECOMPOSITIONS[word][:-1])
-                  + _REVIEWED_LOCAL_DECOMPOSITIONS[word][-1] for word in wanted}
+    return {**atomic, **{word: "".join(roots[root] for root in _REVIEWED_LOCAL_DECOMPOSITIONS[word][:-1])
+                  + _REVIEWED_LOCAL_DECOMPOSITIONS[word][-1] for word in wanted}}
 
 
 def _render_localized_payload(payload, local_rules, finalized, reviewed, escape):
