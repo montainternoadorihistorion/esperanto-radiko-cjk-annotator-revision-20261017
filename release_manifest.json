@@ -1,6 +1,6 @@
 {
   "date": "2026-10-26",
-  "scope": "Current sozi and fobi assignments, fob and simptom identifiers, and six dependent displays. Fixed legacy, original glosses, segmentation, unrelated assignments and identifiers, runtime engines and custom JSON behavior preserved. Only fixed legacy and evolving current editions.",
+  "scope": "Current stal assignment only. Fixed legacy, original glosses, segmentation, unrelated assignments and identifiers, runtime engines and custom JSON behavior preserved. Only fixed legacy and evolving current editions.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -80,7 +80,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
       "bytes": 161705,
-      "sha256": "dd36d3fb948006816f796ae0317bb61abcde842c667daa81b441bfac3c1c3d4c"
+      "sha256": "beed95bbdd05ca2312716bc3b041b3493e3a407a172600c480257d85ff0a5c67"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -100,12 +100,12 @@
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
       "bytes": 57371724,
-      "sha256": "9dda6ee89888cb2582522fac56584dd48621ee9a2201d824ec974dd5c255b99d"
+      "sha256": "d0166e4dcbb21d664a292dfd032421d81e77841571f57ed516f727a4e3564d35"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
       "bytes": 21515920,
-      "sha256": "d1cb4e560a3015d23f7645d2e1e5b9d911d9c6527ce7f4493f360a5320be4e51"
+      "sha256": "6c44785ff717e5a48f226f535a7039181464330f66d64e56ecf674e8f09032b0"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -215,7 +215,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
       "bytes": 161705,
-      "sha256": "dd36d3fb948006816f796ae0317bb61abcde842c667daa81b441bfac3c1c3d4c"
+      "sha256": "beed95bbdd05ca2312716bc3b041b3493e3a407a172600c480257d85ff0a5c67"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -235,7 +235,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
       "bytes": 57379790,
-      "sha256": "066338f96931c30dee90012776a57b012da573323fc0c126f49903c2f3726aa0"
+      "sha256": "b784081e6e720976bf88f074e5a2330f7ff1bbeb5c3b464719520427f4cc52b2"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -350,7 +350,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
       "bytes": 161705,
-      "sha256": "dd36d3fb948006816f796ae0317bb61abcde842c667daa81b441bfac3c1c3d4c"
+      "sha256": "beed95bbdd05ca2312716bc3b041b3493e3a407a172600c480257d85ff0a5c67"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -370,7 +370,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
       "bytes": 57379790,
-      "sha256": "8959c998d9a8619f05ffe17222f55e4f2441e4d40352a36864cb5bb20a6fe83b"
+      "sha256": "bb69d7a56131edcbc433f0bb7e82ea36379a53501ce6ef1c8b068ddadd3eab53"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
@@ -551,10 +551,20 @@
       "path": "Esperanto-Reverter-ZH/data/sozi-fobi-20261026.json",
       "bytes": 17299,
       "sha256": "d4d9e7b7848d8e069408ee565adbec948d1bf8adbb17703abb505e5b88ec1bbc"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/stal-20261026.json",
+      "bytes": 2768,
+      "sha256": "b122cec0f7672505fc89ff39a6143d71ff80a53bb13478e776cd482954c79193"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/stal-20261026.json",
+      "bytes": 2768,
+      "sha256": "b122cec0f7672505fc89ff39a6143d71ff80a53bb13478e776cd482954c79193"
     }
   ],
-  "assignment_revision": "sozi-fobi-20261026",
-  "previous_release_commit": "dd441b3acddba3c36f5501b13267f1936a8a17c9",
+  "assignment_revision": "stal-20261026",
+  "previous_release_commit": "9f2494b3bf0b0efecfbafbaa48fd9ab37af034cf",
   "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
   "feature_revision": "two-editions-20261018",
   "legacy_manifest_sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3"

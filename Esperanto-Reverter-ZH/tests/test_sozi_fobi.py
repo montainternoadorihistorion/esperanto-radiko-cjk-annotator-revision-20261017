@@ -54,7 +54,8 @@ def test_only_two_visible_editions_and_no_obsolete_aliases():
 def test_manifest_and_downloads():
  source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
  path=app.ROOT/source['sozi_fobi_manifest'];manifest=json.loads(path.read_bytes())
- assert source['revision']==manifest['revision']=='2026-10-26-sozi-fobi'
+ assert source['revision']=='2026-10-26-stal'
+ assert manifest['revision']=='2026-10-26-sozi-fobi'
  assert manifest['changes']=={root:list(pair) for root,pair in CHANGES.items()}
  assert manifest['safe_reverse_aliases']=={}
  assert manifest['ownership_transfers']=={'怕ᶠ':{'before':'fob','after':'fobi'},'症':{'before':'fobi','after':'simptom'},'水ᴴ怕ᶠ':{'before':'hidrofob','after':'hidrofobi'},'外ᴷˢ怕ᶠ':{'before':'ksenofob','after':'ksenofobi'}}
