@@ -4,7 +4,27 @@
   "previous_release_commit": "dcf4f7f21ab087677baf797e61a74b585c0e319b",
   "status": "LOCAL_VALIDATION_PASSED",
   "cloud_validation": {
-    "status": "NOT_YET_VERIFIED"
+    "status": "CLOUD_SAMPLE_VERIFIED",
+    "verified_utc": "2026-10-26T02:22:51.873015+00:00",
+    "public_merge_commit": "52a90cd2f972355be9d48e61533686bdf1db1468",
+    "public_pr": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/74",
+    "cloud_internal_commit_directly_observed": false,
+    "browser_forward_routes": 18,
+    "browser_reverse_routes": 4,
+    "matched_downloads": 26,
+    "html_timestamp_only_difference": true,
+    "pure_txt_inverse_txt_and_csv_byte_exact": true,
+    "report": "klarion_cloud/verification.json",
+    "representative_screenshot": "klarion_cloud/cloud_ja_current.jpg",
+    "limits": [
+      "Actual Cloud browser records and downloaded files are compared against local fixtures. This sample is 18 forward routes and four inverse routes, not all possible sentences.",
+      "Only the leading HTML metadata created-utc value may differ; edition, signature, ruby mode, all other HTML bytes, and DOM source output must match.",
+      "Pure TXT, inverse TXT and selected-edition CSV files match byte-for-byte without newline, BOM, spacing, case or identifier normalization.",
+      "Evidence files use standardized names. Original browser download filenames are not independently certified by this report.",
+      "The internal running Cloud commit was not directly observed. Deployment reflection is established by observed behavior and downloaded data.",
+      "The adopted current spelling is klarion=军号. Fixed legacy preserves 嘹. No unrelated assignment or identifier changes. Shared-spelling ambiguity is accepted and intermediate revisions are not separate profiles.",
+      "Fixed legacy and evolving current are the two supported editions. Intermediate assignment revisions are not separate edition profiles."
+    ]
   },
   "adopted": {
     "klarion": [

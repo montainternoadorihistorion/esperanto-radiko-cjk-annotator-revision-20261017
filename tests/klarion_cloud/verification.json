@@ -1,0 +1,809 @@
+{
+  "schema": 1,
+  "assignment_revision": "klarion-20261026",
+  "verified_utc": "2026-10-26T02:22:51.873015+00:00",
+  "passed": true,
+  "status": "CLOUD_SAMPLE_VERIFIED",
+  "forward_fixture_sha256": "b0d751ed2bab2b85a88db8e22e8be223b124bbb2e9f023f4b60b47b70f4b3bd6",
+  "reverse_fixture_sha256": "965473a801dd9682846411bfd9171f0f73d85d4ecd2f1710f1ace595b790f141",
+  "counts": {
+    "forward_expected": 18,
+    "forward_passed": 18,
+    "pure_text_exact": 6,
+    "html_body_and_metadata_exact_except_created_utc": 12,
+    "reverse_text_expected": 4,
+    "reverse_text_passed": 4,
+    "reverse_csv_expected": 4,
+    "reverse_csv_passed": 4
+  },
+  "downloads": {
+    "forward": [
+      {
+        "passed": true,
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "file": "JA_current_pure.txt",
+        "bytes": 307,
+        "actual_sha256": "c80a625d99732da54d5bad8b18e2387ae823a3198826173bfe6e327bc0b3d3d6",
+        "local_download_sha256": "c80a625d99732da54d5bad8b18e2387ae823a3198826173bfe6e327bc0b3d3d6",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "c80a625d99732da54d5bad8b18e2387ae823a3198826173bfe6e327bc0b3d3d6",
+          "expected_output_sha256": "c80a625d99732da54d5bad8b18e2387ae823a3198826173bfe6e327bc0b3d3d6",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/"
+        },
+        "byte_exact_match": true,
+        "embedded_metadata": false
+      },
+      {
+        "passed": true,
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "file": "JA_current_kanji.html",
+        "bytes": 5164,
+        "actual_sha256": "9f58615691e55b3d7c84530220a71314edd3c976934388f74989701d44090e62",
+        "local_download_sha256": "e5893484721377d81fc766ab312040d18ee9a98c632cfa91906b41fa74c56456",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "e677bd3f10ac42c8f28d330580042446de57231ce79016fad6a7dc362ef8fd73",
+          "expected_output_sha256": "e677bd3f10ac42c8f28d330580042446de57231ce79016fad6a7dc362ef8fd73",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/"
+        },
+        "edition_id": "current",
+        "signature": "057cea29a1f155b0f6e784e8d6912ddd70f18cecfce34eeb4c86a733b8c5187d",
+        "ruby_mode": "kanji",
+        "created_utc": "2026-10-26T02:13:25.501330+00:00",
+        "body_sha256": "3c471b175d365773b668797fe9ca697ebded58aef93496dbc8010ee0999c62ee",
+        "expected_body_sha256": "3c471b175d365773b668797fe9ca697ebded58aef93496dbc8010ee0999c62ee",
+        "body_exact_match": true,
+        "edition_signature_mode_match": true,
+        "normalized_sha256": "b998cb96afe4f1892fc6253f2bea1b72f2db1f360a733a673e619727ed9bb99d",
+        "fixture_created_utc": "2026-10-26T01:36:37.336208+00:00",
+        "timestamp_changed": true,
+        "embedded_metadata": true
+      },
+      {
+        "passed": true,
+        "language": "JA",
+        "edition": "current",
+        "mode": "ruby",
+        "file": "JA_current_ruby.html",
+        "bytes": 5461,
+        "actual_sha256": "a01fc0d77c8635d9613dd1c22cb7a4e56eec26d473ced14cebb868e8e35b9862",
+        "local_download_sha256": "ab5fe7c3a9078b80a7602573cfd98c2efda0c29c74c5f115ac4944b4c2bc8bb0",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "c0103e5198c65d47842f901fffea8e3a639b8ced413f08b98c496abe2b34698f",
+          "expected_output_sha256": "c0103e5198c65d47842f901fffea8e3a639b8ced413f08b98c496abe2b34698f",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/"
+        },
+        "edition_id": "current",
+        "signature": "06f327c2ad9f1e2346f2213bcfd4121413aa7bd55c419693ef2d51571dd0af23",
+        "ruby_mode": "annotation",
+        "created_utc": "2026-10-26T02:13:46.270303+00:00",
+        "body_sha256": "d28709b289fae83098b44da8f9cd3b88bd7fa5df735d96a32862c8271c0e1209",
+        "expected_body_sha256": "d28709b289fae83098b44da8f9cd3b88bd7fa5df735d96a32862c8271c0e1209",
+        "body_exact_match": true,
+        "edition_signature_mode_match": true,
+        "normalized_sha256": "0a4e78e5b5d777792464a78743d16d5d757e295e9317ddeb2ca1d439aa9ac60d",
+        "fixture_created_utc": "2026-10-26T01:36:53.594624+00:00",
+        "timestamp_changed": true,
+        "embedded_metadata": true
+      },
+      {
+        "passed": true,
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "pure",
+        "file": "JA_legacy_pure.txt",
+        "bytes": 266,
+        "actual_sha256": "8f99b72f57bb2b267f1f46c9615b8d7e520f40cd849552523843c16c6f910fb1",
+        "local_download_sha256": "8f99b72f57bb2b267f1f46c9615b8d7e520f40cd849552523843c16c6f910fb1",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "8f99b72f57bb2b267f1f46c9615b8d7e520f40cd849552523843c16c6f910fb1",
+          "expected_output_sha256": "8f99b72f57bb2b267f1f46c9615b8d7e520f40cd849552523843c16c6f910fb1",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/"
+        },
+        "byte_exact_match": true,
+        "embedded_metadata": false
+      },
+      {
+        "passed": true,
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "kanji",
+        "file": "JA_legacy_kanji.html",
+        "bytes": 5140,
+        "actual_sha256": "d46bee5cd15a2897578c10d7e6cccbcce7dc02b4773a80bcd0a4c3604b04ebef",
+        "local_download_sha256": "3f9e8117b8ba6e2accc2c0b9173235b98a324199d4d689aad2ac15fbbfd12699",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "cbfbc0a74e0f0c3207672d369a742104679e0d6d99c85b7b5842507b51d77e95",
+          "expected_output_sha256": "cbfbc0a74e0f0c3207672d369a742104679e0d6d99c85b7b5842507b51d77e95",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/"
+        },
+        "edition_id": "legacy",
+        "signature": "adfc60b0b382eea77334646f2c3e5e6fc075e579438c87f0b90660ded5348afe",
+        "ruby_mode": "kanji",
+        "created_utc": "2026-10-26T02:15:30.179875+00:00",
+        "body_sha256": "ca24db91b038af2fbf8ceb69d30033719ab5a0a9e0cd7962e16f22493a1a937c",
+        "expected_body_sha256": "ca24db91b038af2fbf8ceb69d30033719ab5a0a9e0cd7962e16f22493a1a937c",
+        "body_exact_match": true,
+        "edition_signature_mode_match": true,
+        "normalized_sha256": "39e64dd2a75342d4974c786df654e2726dcb02cdd4eb4fa1ae86157e51d7840d",
+        "fixture_created_utc": "2026-10-26T01:37:28.587892+00:00",
+        "timestamp_changed": true,
+        "embedded_metadata": true
+      },
+      {
+        "passed": true,
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "ruby",
+        "file": "JA_legacy_ruby.html",
+        "bytes": 5460,
+        "actual_sha256": "82537cb65789a3c398a7e8d7822107d87331f42f892741a9b7887e01af52e1fd",
+        "local_download_sha256": "098b79e967dc73145177a8261661ac21ccfa42a67570fec3828f8e23f9c6bcad",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "c0103e5198c65d47842f901fffea8e3a639b8ced413f08b98c496abe2b34698f",
+          "expected_output_sha256": "c0103e5198c65d47842f901fffea8e3a639b8ced413f08b98c496abe2b34698f",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/"
+        },
+        "edition_id": "legacy",
+        "signature": "1257aa1071bdb219bef42e4f4901260b2570e36b84983992bd570aa798696107",
+        "ruby_mode": "annotation",
+        "created_utc": "2026-10-26T02:15:53.939005+00:00",
+        "body_sha256": "d28709b289fae83098b44da8f9cd3b88bd7fa5df735d96a32862c8271c0e1209",
+        "expected_body_sha256": "d28709b289fae83098b44da8f9cd3b88bd7fa5df735d96a32862c8271c0e1209",
+        "body_exact_match": true,
+        "edition_signature_mode_match": true,
+        "normalized_sha256": "de8656d155ca22fc3e4764b1c7c86d3affe6158bc9f1f12f17d25e7aee11bf1d",
+        "fixture_created_utc": "2026-10-26T01:37:47.410073+00:00",
+        "timestamp_changed": true,
+        "embedded_metadata": true
+      },
+      {
+        "passed": true,
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "file": "ZH_current_pure.txt",
+        "bytes": 307,
+        "actual_sha256": "c80a625d99732da54d5bad8b18e2387ae823a3198826173bfe6e327bc0b3d3d6",
+        "local_download_sha256": "c80a625d99732da54d5bad8b18e2387ae823a3198826173bfe6e327bc0b3d3d6",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "c80a625d99732da54d5bad8b18e2387ae823a3198826173bfe6e327bc0b3d3d6",
+          "expected_output_sha256": "c80a625d99732da54d5bad8b18e2387ae823a3198826173bfe6e327bc0b3d3d6",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/"
+        },
+        "byte_exact_match": true,
+        "embedded_metadata": false
+      },
+      {
+        "passed": true,
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "file": "ZH_current_kanji.html",
+        "bytes": 4035,
+        "actual_sha256": "14a85dffb9a7fc3c2abf421f459959c27dee2f68323920ffb1f307c3d814648c",
+        "local_download_sha256": "01af3a3559d259a2031d3072b734f2fb59878456aba24ca066c06a620af1b5ba",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "953e04e5f64d95f32309772b117e9a8d7136e73a250d2577f244203be92f5971",
+          "expected_output_sha256": "953e04e5f64d95f32309772b117e9a8d7136e73a250d2577f244203be92f5971",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/"
+        },
+        "edition_id": "current",
+        "signature": "8ba4491de76f2bad4019ad7398f09e5e507adbd0220e4c2b469b2b9af8c8f14a",
+        "ruby_mode": "kanji",
+        "created_utc": "2026-10-26T02:16:45.495550+00:00",
+        "body_sha256": "75c317ee15c8aaf82983d265c3a38f7620d94315d550f7c269ef3986649ff001",
+        "expected_body_sha256": "75c317ee15c8aaf82983d265c3a38f7620d94315d550f7c269ef3986649ff001",
+        "body_exact_match": true,
+        "edition_signature_mode_match": true,
+        "normalized_sha256": "79773cf60d5a73676c99b9bd9fb5156453dc943a44fac4e400653359aead7b1c",
+        "fixture_created_utc": "2026-10-26T01:36:38.283752+00:00",
+        "timestamp_changed": true,
+        "embedded_metadata": true
+      },
+      {
+        "passed": true,
+        "language": "ZH",
+        "edition": "current",
+        "mode": "ruby",
+        "file": "ZH_current_ruby.html",
+        "bytes": 4199,
+        "actual_sha256": "a14b785afd0dc2a6ad7a7c180c4871d76ab5e8e80fee309284543473ab868b51",
+        "local_download_sha256": "70d1f5ff0159abed6ef379dd954c25c500073424427bdee635e5e3281314fa0d",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "1506c7bf32ccfad8ce969fd52b36de4795f00fb8983340a831808b7d1db835f6",
+          "expected_output_sha256": "1506c7bf32ccfad8ce969fd52b36de4795f00fb8983340a831808b7d1db835f6",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/"
+        },
+        "edition_id": "current",
+        "signature": "9340eb1ed74e63d3bc8a68061e17f5a48baa5f6ece9a8b999c924056d0ef91ba",
+        "ruby_mode": "annotation",
+        "created_utc": "2026-10-26T02:17:05.962117+00:00",
+        "body_sha256": "1ae3b7e4b397370888f17eed39d3d0fce4e7700f966430989a2eec2d830dbd8c",
+        "expected_body_sha256": "1ae3b7e4b397370888f17eed39d3d0fce4e7700f966430989a2eec2d830dbd8c",
+        "body_exact_match": true,
+        "edition_signature_mode_match": true,
+        "normalized_sha256": "62b585df2402dd9fa297326662add121ad5e980d67a96e514ceb2a7b68d139f9",
+        "fixture_created_utc": "2026-10-26T01:36:53.628869+00:00",
+        "timestamp_changed": true,
+        "embedded_metadata": true
+      },
+      {
+        "passed": true,
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "pure",
+        "file": "ZH_legacy_pure.txt",
+        "bytes": 266,
+        "actual_sha256": "8f99b72f57bb2b267f1f46c9615b8d7e520f40cd849552523843c16c6f910fb1",
+        "local_download_sha256": "8f99b72f57bb2b267f1f46c9615b8d7e520f40cd849552523843c16c6f910fb1",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "8f99b72f57bb2b267f1f46c9615b8d7e520f40cd849552523843c16c6f910fb1",
+          "expected_output_sha256": "8f99b72f57bb2b267f1f46c9615b8d7e520f40cd849552523843c16c6f910fb1",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/"
+        },
+        "byte_exact_match": true,
+        "embedded_metadata": false
+      },
+      {
+        "passed": true,
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "kanji",
+        "file": "ZH_legacy_kanji.html",
+        "bytes": 4011,
+        "actual_sha256": "f5a90a5b1ccf60c2860acd0cf6cb723722a1eb20111978314a3fc11140da8216",
+        "local_download_sha256": "af194bfd26279abf927a6f8c115fae3e390881638281148372b7efc630a0f562",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "5f037e71faa35691003a4880ea86dcc82318cc259cfd5d4ff01182b346f46dfe",
+          "expected_output_sha256": "5f037e71faa35691003a4880ea86dcc82318cc259cfd5d4ff01182b346f46dfe",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/"
+        },
+        "edition_id": "legacy",
+        "signature": "fc5fe0962ad5ad6405b060e610d3462543a4afa960b42674355f1719266cfcb9",
+        "ruby_mode": "kanji",
+        "created_utc": "2026-10-26T02:17:50.889828+00:00",
+        "body_sha256": "208f433b030732559fcbf3c24f433b61a7688726874a082ad6bdf5a09b78fa3f",
+        "expected_body_sha256": "208f433b030732559fcbf3c24f433b61a7688726874a082ad6bdf5a09b78fa3f",
+        "body_exact_match": true,
+        "edition_signature_mode_match": true,
+        "normalized_sha256": "720d962d8be50c20ceaab5abda5b31edd394b71e99f6d2ac7cca286b0adf6528",
+        "fixture_created_utc": "2026-10-26T01:37:28.056899+00:00",
+        "timestamp_changed": true,
+        "embedded_metadata": true
+      },
+      {
+        "passed": true,
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "ruby",
+        "file": "ZH_legacy_ruby.html",
+        "bytes": 4198,
+        "actual_sha256": "e69f535c84a9aa2c392858e8dbf8ce5a83f00ce3b2bc89605d5bb079831af505",
+        "local_download_sha256": "bfa38203d41db60059c86b2436ac2b2d44e6dc1bbdbf2d5335cbe41de38c82fd",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "1506c7bf32ccfad8ce969fd52b36de4795f00fb8983340a831808b7d1db835f6",
+          "expected_output_sha256": "1506c7bf32ccfad8ce969fd52b36de4795f00fb8983340a831808b7d1db835f6",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/"
+        },
+        "edition_id": "legacy",
+        "signature": "bb0451b71b8e5026e888cb1ee4a11847669b116f8935d88aac73eff783c8255e",
+        "ruby_mode": "annotation",
+        "created_utc": "2026-10-26T02:18:10.196560+00:00",
+        "body_sha256": "1ae3b7e4b397370888f17eed39d3d0fce4e7700f966430989a2eec2d830dbd8c",
+        "expected_body_sha256": "1ae3b7e4b397370888f17eed39d3d0fce4e7700f966430989a2eec2d830dbd8c",
+        "body_exact_match": true,
+        "edition_signature_mode_match": true,
+        "normalized_sha256": "8f20ea8e46642e96804196f63e76115071991db19ea73b74901e179053436aa5",
+        "fixture_created_utc": "2026-10-26T01:37:46.870243+00:00",
+        "timestamp_changed": true,
+        "embedded_metadata": true
+      },
+      {
+        "passed": true,
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "file": "KO_current_pure.txt",
+        "bytes": 307,
+        "actual_sha256": "c80a625d99732da54d5bad8b18e2387ae823a3198826173bfe6e327bc0b3d3d6",
+        "local_download_sha256": "c80a625d99732da54d5bad8b18e2387ae823a3198826173bfe6e327bc0b3d3d6",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "c80a625d99732da54d5bad8b18e2387ae823a3198826173bfe6e327bc0b3d3d6",
+          "expected_output_sha256": "c80a625d99732da54d5bad8b18e2387ae823a3198826173bfe6e327bc0b3d3d6",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/"
+        },
+        "byte_exact_match": true,
+        "embedded_metadata": false
+      },
+      {
+        "passed": true,
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "file": "KO_current_kanji.html",
+        "bytes": 5163,
+        "actual_sha256": "55ec14340d5c0ee2c0cd11e81921f3444ce02d771bfd4df21e7a6a6976afbad8",
+        "local_download_sha256": "17a3a8b139dc5c3ba0580fb6f46a0145a64891f0bb0d6198490306a590a621b2",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "144a6e45b916c1b92acbcba87fac395f6e5471fccf6cca027546aae4546712eb",
+          "expected_output_sha256": "144a6e45b916c1b92acbcba87fac395f6e5471fccf6cca027546aae4546712eb",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/"
+        },
+        "edition_id": "current",
+        "signature": "35d6e54a6339495e9e674dd0d4f71db65dbf0c88e1b64ba12a928565e944032d",
+        "ruby_mode": "kanji",
+        "created_utc": "2026-10-26T02:19:15.872458+00:00",
+        "body_sha256": "d66c4eef69a7e1f49e8cd1ffe4d689db7680733d03ef6d9b593f3a9d5d3bc4d6",
+        "expected_body_sha256": "d66c4eef69a7e1f49e8cd1ffe4d689db7680733d03ef6d9b593f3a9d5d3bc4d6",
+        "body_exact_match": true,
+        "edition_signature_mode_match": true,
+        "normalized_sha256": "e11b447ceb4c892d8de8ac5ce60d9978223884d854ea47d9cac88db1f748cfb8",
+        "fixture_created_utc": "2026-10-26T01:36:37.008580+00:00",
+        "timestamp_changed": true,
+        "embedded_metadata": true
+      },
+      {
+        "passed": true,
+        "language": "KO",
+        "edition": "current",
+        "mode": "ruby",
+        "file": "KO_current_ruby.html",
+        "bytes": 5388,
+        "actual_sha256": "aa71167c1918de9a075d2ed7357231f614b058f6cc39ea53821bef2b085c1024",
+        "local_download_sha256": "4737b06cb259e4b0b73baa75d5ac321f40bf470bb1fcd94785bb33f8c433884a",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "4e84df7845a25141274e7cc1ff6ad0a26aed6467cf27ae224c934919a3842a47",
+          "expected_output_sha256": "4e84df7845a25141274e7cc1ff6ad0a26aed6467cf27ae224c934919a3842a47",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/"
+        },
+        "edition_id": "current",
+        "signature": "b03503f6041d039546c5c94c7668b6a211194dfbe8fffa4f3042083fcebea026",
+        "ruby_mode": "annotation",
+        "created_utc": "2026-10-26T02:19:35.364910+00:00",
+        "body_sha256": "7730659edc4085603f0f019350b84c3c79cbd016edda4baa4ec3cf2a7e18f2a5",
+        "expected_body_sha256": "7730659edc4085603f0f019350b84c3c79cbd016edda4baa4ec3cf2a7e18f2a5",
+        "body_exact_match": true,
+        "edition_signature_mode_match": true,
+        "normalized_sha256": "68397a5f00bfb58051d70964fac7fa7a132e7c0e0f32c10a4664cfb33bd04d5b",
+        "fixture_created_utc": "2026-10-26T01:36:52.650182+00:00",
+        "timestamp_changed": true,
+        "embedded_metadata": true
+      },
+      {
+        "passed": true,
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "pure",
+        "file": "KO_legacy_pure.txt",
+        "bytes": 266,
+        "actual_sha256": "8f99b72f57bb2b267f1f46c9615b8d7e520f40cd849552523843c16c6f910fb1",
+        "local_download_sha256": "8f99b72f57bb2b267f1f46c9615b8d7e520f40cd849552523843c16c6f910fb1",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "8f99b72f57bb2b267f1f46c9615b8d7e520f40cd849552523843c16c6f910fb1",
+          "expected_output_sha256": "8f99b72f57bb2b267f1f46c9615b8d7e520f40cd849552523843c16c6f910fb1",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/"
+        },
+        "byte_exact_match": true,
+        "embedded_metadata": false
+      },
+      {
+        "passed": true,
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "kanji",
+        "file": "KO_legacy_kanji.html",
+        "bytes": 5139,
+        "actual_sha256": "7676725fd883d9d6a568d052b759feded5376ffe50323a3a34189563dd58fdc4",
+        "local_download_sha256": "a02943b526edcf92a3fbe4e17f49c96c0e73a36bb03208ee4204a8c4005d66f1",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "4c9ac45ef8b904494b72ff6fa43e3cd1f024550c2b1305edda8d01e859efeda0",
+          "expected_output_sha256": "4c9ac45ef8b904494b72ff6fa43e3cd1f024550c2b1305edda8d01e859efeda0",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/"
+        },
+        "edition_id": "legacy",
+        "signature": "ea1f301314215f125bb30577cf6150f3bf350a081fd817f68956f4fb9a096cc1",
+        "ruby_mode": "kanji",
+        "created_utc": "2026-10-26T02:20:18.936592+00:00",
+        "body_sha256": "6acdfaa1347d9cc8f5bf6833d55f40e78c9c6d29c2f258d2bdfd5867002c021b",
+        "expected_body_sha256": "6acdfaa1347d9cc8f5bf6833d55f40e78c9c6d29c2f258d2bdfd5867002c021b",
+        "body_exact_match": true,
+        "edition_signature_mode_match": true,
+        "normalized_sha256": "cbf599abedeb9c4f8379cfdc7d40bae708059a1855ab72725df0fff39e8a1789",
+        "fixture_created_utc": "2026-10-26T01:37:27.926272+00:00",
+        "timestamp_changed": true,
+        "embedded_metadata": true
+      },
+      {
+        "passed": true,
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "ruby",
+        "file": "KO_legacy_ruby.html",
+        "bytes": 5387,
+        "actual_sha256": "9181d3b3f15e523ae1b00a3403f56694f65fd3954b4ff3f050a7e4496f9fe884",
+        "local_download_sha256": "ec3d6d2fe107f716710580f4b9b0ad9d5c04a141d6bb9c0302177decef1acef6",
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "4e84df7845a25141274e7cc1ff6ad0a26aed6467cf27ae224c934919a3842a47",
+          "expected_output_sha256": "4e84df7845a25141274e7cc1ff6ad0a26aed6467cf27ae224c934919a3842a47",
+          "input_exact_match": true,
+          "input_sha256": "22b3b551349121d56826e082f0512fcf23eade4dd769c89b4104974b3b0dd981",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/"
+        },
+        "edition_id": "legacy",
+        "signature": "ce822939a90a05ffe64f68f3a3f46d95137ce54960451b443c8d9d1b90cd2131",
+        "ruby_mode": "annotation",
+        "created_utc": "2026-10-26T02:20:37.990037+00:00",
+        "body_sha256": "7730659edc4085603f0f019350b84c3c79cbd016edda4baa4ec3cf2a7e18f2a5",
+        "expected_body_sha256": "7730659edc4085603f0f019350b84c3c79cbd016edda4baa4ec3cf2a7e18f2a5",
+        "body_exact_match": true,
+        "edition_signature_mode_match": true,
+        "normalized_sha256": "513118f6c15db9f5bf7c05cf8a79bc3e87c6d01405cedaddab80a47c169e161c",
+        "fixture_created_utc": "2026-10-26T01:37:45.956368+00:00",
+        "timestamp_changed": true,
+        "embedded_metadata": true
+      }
+    ],
+    "reverse_text": [
+      {
+        "passed": true,
+        "language": "JA",
+        "edition": "current",
+        "file": "reverse_JA_current.txt",
+        "bytes": 185,
+        "actual_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+        "expected_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+        "source_input_sha256": "ffe5f3a6d1574b2832800696c6e0313d77347bc12ebff348cdce775982e81504",
+        "source_id": "pejvo-piv-20260620",
+        "byte_exact_match": true,
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+          "expected_output_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+          "input_exact_match": true,
+          "input_sha256": "ffe5f3a6d1574b2832800696c6e0313d77347bc12ebff348cdce775982e81504",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/"
+        }
+      },
+      {
+        "passed": true,
+        "language": "JA",
+        "edition": "legacy",
+        "file": "reverse_JA_legacy.txt",
+        "bytes": 185,
+        "actual_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+        "expected_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+        "source_input_sha256": "c1301618abfc55a125faa4ca28e7f01403d9029548844210fb6474d502e02e2d",
+        "source_id": "pre-las-20261017",
+        "byte_exact_match": true,
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+          "expected_output_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+          "input_exact_match": true,
+          "input_sha256": "c1301618abfc55a125faa4ca28e7f01403d9029548844210fb6474d502e02e2d",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-reverter-revision-ja-20261018.streamlit.app/~/+/"
+        }
+      },
+      {
+        "passed": true,
+        "language": "ZH",
+        "edition": "current",
+        "file": "reverse_ZH_current.txt",
+        "bytes": 185,
+        "actual_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+        "expected_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+        "source_input_sha256": "ffe5f3a6d1574b2832800696c6e0313d77347bc12ebff348cdce775982e81504",
+        "source_id": "pejvo-piv-20260620",
+        "byte_exact_match": true,
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+          "expected_output_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+          "input_exact_match": true,
+          "input_sha256": "ffe5f3a6d1574b2832800696c6e0313d77347bc12ebff348cdce775982e81504",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/"
+        }
+      },
+      {
+        "passed": true,
+        "language": "ZH",
+        "edition": "legacy",
+        "file": "reverse_ZH_legacy.txt",
+        "bytes": 185,
+        "actual_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+        "expected_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+        "source_input_sha256": "c1301618abfc55a125faa4ca28e7f01403d9029548844210fb6474d502e02e2d",
+        "source_id": "pre-las-20261017",
+        "byte_exact_match": true,
+        "browser": {
+          "output_exact_match": true,
+          "output_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+          "expected_output_sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2",
+          "input_exact_match": true,
+          "input_sha256": "c1301618abfc55a125faa4ca28e7f01403d9029548844210fb6474d502e02e2d",
+          "selected_edition_verified": true,
+          "url": "https://esperanto-reverter-revision-zh-20261018.streamlit.app/~/+/"
+        }
+      }
+    ],
+    "reverse_csv": [
+      {
+        "passed": true,
+        "language": "JA",
+        "edition": "current",
+        "file": "reverse_JA_current.csv",
+        "bytes": 317763,
+        "actual_sha256": "dc75dd2ff9808e034d0df405fd355bb9a67259fb8bc41da1cd43d0341a320c9b",
+        "expected_sha256": "dc75dd2ff9808e034d0df405fd355bb9a67259fb8bc41da1cd43d0341a320c9b",
+        "source_id": "pejvo-piv-20260620",
+        "reference_sha256": "dc75dd2ff9808e034d0df405fd355bb9a67259fb8bc41da1cd43d0341a320c9b",
+        "provenance_sha256": "3732299ae93829ab0c65440772863feb64d5b469d1337ac0b632373cdac74899",
+        "byte_exact_match": true
+      },
+      {
+        "passed": true,
+        "language": "JA",
+        "edition": "legacy",
+        "file": "reverse_JA_legacy.csv",
+        "bytes": 306934,
+        "actual_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "expected_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "source_id": "pre-las-20261017",
+        "reference_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "provenance_sha256": "41c12930485b31d02499965eeb7b8f73f80ec7361aea2252b79fe1c074034762",
+        "byte_exact_match": true
+      },
+      {
+        "passed": true,
+        "language": "ZH",
+        "edition": "current",
+        "file": "reverse_ZH_current.csv",
+        "bytes": 317763,
+        "actual_sha256": "dc75dd2ff9808e034d0df405fd355bb9a67259fb8bc41da1cd43d0341a320c9b",
+        "expected_sha256": "dc75dd2ff9808e034d0df405fd355bb9a67259fb8bc41da1cd43d0341a320c9b",
+        "source_id": "pejvo-piv-20260620",
+        "reference_sha256": "dc75dd2ff9808e034d0df405fd355bb9a67259fb8bc41da1cd43d0341a320c9b",
+        "provenance_sha256": "3732299ae93829ab0c65440772863feb64d5b469d1337ac0b632373cdac74899",
+        "byte_exact_match": true
+      },
+      {
+        "passed": true,
+        "language": "ZH",
+        "edition": "legacy",
+        "file": "reverse_ZH_legacy.csv",
+        "bytes": 306934,
+        "actual_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "expected_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "source_id": "pre-las-20261017",
+        "reference_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
+        "provenance_sha256": "41c12930485b31d02499965eeb7b8f73f80ec7361aea2252b79fe1c074034762",
+        "byte_exact_match": true
+      }
+    ]
+  },
+  "limits": [
+    "Actual Cloud browser records and downloaded files are compared against local fixtures. This sample is 18 forward routes and four inverse routes, not all possible sentences.",
+    "Only the leading HTML metadata created-utc value may differ; edition, signature, ruby mode, all other HTML bytes, and DOM source output must match.",
+    "Pure TXT, inverse TXT and selected-edition CSV files match byte-for-byte without newline, BOM, spacing, case or identifier normalization.",
+    "Evidence files use standardized names. Original browser download filenames are not independently certified by this report.",
+    "The internal running Cloud commit was not directly observed. Deployment reflection is established by observed behavior and downloaded data.",
+    "The adopted current spelling is klarion=军号. Fixed legacy preserves 嘹. No unrelated assignment or identifier changes. Shared-spelling ambiguity is accepted and intermediate revisions are not separate profiles.",
+    "Fixed legacy and evolving current are the two supported editions. Intermediate assignment revisions are not separate edition profiles."
+  ],
+  "cloud_internal_commit_directly_observed": false,
+  "public_release": {
+    "merge_commit": "52a90cd2f972355be9d48e61533686bdf1db1468",
+    "pr": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/74"
+  },
+  "evidence_files": [
+    {
+      "file": "JA_current_kanji.html",
+      "bytes": 5164,
+      "sha256": "9f58615691e55b3d7c84530220a71314edd3c976934388f74989701d44090e62"
+    },
+    {
+      "file": "JA_current_pure.txt",
+      "bytes": 307,
+      "sha256": "c80a625d99732da54d5bad8b18e2387ae823a3198826173bfe6e327bc0b3d3d6"
+    },
+    {
+      "file": "JA_current_ruby.html",
+      "bytes": 5461,
+      "sha256": "a01fc0d77c8635d9613dd1c22cb7a4e56eec26d473ced14cebb868e8e35b9862"
+    },
+    {
+      "file": "JA_legacy_kanji.html",
+      "bytes": 5140,
+      "sha256": "d46bee5cd15a2897578c10d7e6cccbcce7dc02b4773a80bcd0a4c3604b04ebef"
+    },
+    {
+      "file": "JA_legacy_pure.txt",
+      "bytes": 266,
+      "sha256": "8f99b72f57bb2b267f1f46c9615b8d7e520f40cd849552523843c16c6f910fb1"
+    },
+    {
+      "file": "JA_legacy_ruby.html",
+      "bytes": 5460,
+      "sha256": "82537cb65789a3c398a7e8d7822107d87331f42f892741a9b7887e01af52e1fd"
+    },
+    {
+      "file": "KO_current_kanji.html",
+      "bytes": 5163,
+      "sha256": "55ec14340d5c0ee2c0cd11e81921f3444ce02d771bfd4df21e7a6a6976afbad8"
+    },
+    {
+      "file": "KO_current_pure.txt",
+      "bytes": 307,
+      "sha256": "c80a625d99732da54d5bad8b18e2387ae823a3198826173bfe6e327bc0b3d3d6"
+    },
+    {
+      "file": "KO_current_ruby.html",
+      "bytes": 5388,
+      "sha256": "aa71167c1918de9a075d2ed7357231f614b058f6cc39ea53821bef2b085c1024"
+    },
+    {
+      "file": "KO_legacy_kanji.html",
+      "bytes": 5139,
+      "sha256": "7676725fd883d9d6a568d052b759feded5376ffe50323a3a34189563dd58fdc4"
+    },
+    {
+      "file": "KO_legacy_pure.txt",
+      "bytes": 266,
+      "sha256": "8f99b72f57bb2b267f1f46c9615b8d7e520f40cd849552523843c16c6f910fb1"
+    },
+    {
+      "file": "KO_legacy_ruby.html",
+      "bytes": 5387,
+      "sha256": "9181d3b3f15e523ae1b00a3403f56694f65fd3954b4ff3f050a7e4496f9fe884"
+    },
+    {
+      "file": "ZH_current_kanji.html",
+      "bytes": 4035,
+      "sha256": "14a85dffb9a7fc3c2abf421f459959c27dee2f68323920ffb1f307c3d814648c"
+    },
+    {
+      "file": "ZH_current_pure.txt",
+      "bytes": 307,
+      "sha256": "c80a625d99732da54d5bad8b18e2387ae823a3198826173bfe6e327bc0b3d3d6"
+    },
+    {
+      "file": "ZH_current_ruby.html",
+      "bytes": 4199,
+      "sha256": "a14b785afd0dc2a6ad7a7c180c4871d76ab5e8e80fee309284543473ab868b51"
+    },
+    {
+      "file": "ZH_legacy_kanji.html",
+      "bytes": 4011,
+      "sha256": "f5a90a5b1ccf60c2860acd0cf6cb723722a1eb20111978314a3fc11140da8216"
+    },
+    {
+      "file": "ZH_legacy_pure.txt",
+      "bytes": 266,
+      "sha256": "8f99b72f57bb2b267f1f46c9615b8d7e520f40cd849552523843c16c6f910fb1"
+    },
+    {
+      "file": "ZH_legacy_ruby.html",
+      "bytes": 4198,
+      "sha256": "e69f535c84a9aa2c392858e8dbf8ce5a83f00ce3b2bc89605d5bb079831af505"
+    },
+    {
+      "file": "reverse_JA_current.csv",
+      "bytes": 317763,
+      "sha256": "dc75dd2ff9808e034d0df405fd355bb9a67259fb8bc41da1cd43d0341a320c9b"
+    },
+    {
+      "file": "reverse_JA_current.txt",
+      "bytes": 185,
+      "sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2"
+    },
+    {
+      "file": "reverse_JA_legacy.csv",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+    },
+    {
+      "file": "reverse_JA_legacy.txt",
+      "bytes": 185,
+      "sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2"
+    },
+    {
+      "file": "reverse_ZH_current.csv",
+      "bytes": 317763,
+      "sha256": "dc75dd2ff9808e034d0df405fd355bb9a67259fb8bc41da1cd43d0341a320c9b"
+    },
+    {
+      "file": "reverse_ZH_current.txt",
+      "bytes": 185,
+      "sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2"
+    },
+    {
+      "file": "reverse_ZH_legacy.csv",
+      "bytes": 306934,
+      "sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14"
+    },
+    {
+      "file": "reverse_ZH_legacy.txt",
+      "bytes": 185,
+      "sha256": "c9d0e9ba81b3f530acd37c17a53d3d2542f176e36cebbbe0df4a3e4120cc6ab2"
+    }
+  ],
+  "private_paths_excluded": true,
+  "product_data_changed": false
+}
