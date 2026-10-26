@@ -10,7 +10,7 @@ from build_reverter_dictionary_from_all_json import to_unicode_esperanto_root
 
 MANIFEST=json.loads((app.ROOT/'data/mirror-identifiers-20261017.json').read_text(encoding='utf-8'))
 # Later reviewed body; retain the original mirror ledger and its internal LG identifier.
-LATER_CURRENT_BODIES = {'mikrobologi': '微生物学ᴸᴳ'}
+LATER_CURRENT_BODIES = {'mikrobologi': '微生物学ᴸᴳ', 'agorafobi':'场ᴬ怕ᶠ', 'hidrofobi':'水ᴴ怕ᶠ', 'ksenofobi':'外ᴷˢ怕ᶠ', 'hidrofob':'水ᴴ怕ᶠᴼ', 'ksenofob':'外ᴷˢ怕ᶠᴼ', 'simptomologi':'症学ᴸᴳ'}
 
 
 def index(source):
@@ -26,7 +26,7 @@ def test_legacy_bytes_and_exact_reviewed_scope():
     old=rows(app.PRE_MIRROR_20261017_CSV);new=rows(app.PEJVO_PIV_20260620_CSV)
     targets={r['root'] for r in MANIFEST['changes']}
     targets.update({'stafilokok','psitak','uv','limon','limonad','uve','uveit','observatori','risort','anc^','lantern','lubrik','protez','ranc','krep','difrakt','mortez','meger','sutur','fraj','nostalgi','onk','fortres','onkogen','onkologi','satir','karikatur','sarkasm','spermat','spermati','silf','spermatocit','spermatofit','spermatogenez','spermatozo','dot','greft','tualet'})  # later approved changes have separate tests
-    targets.update(({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|({'anksi'}|({'ŝtip','pensi','sankci'}|({'almenaŭ','forniks','karen','naŭz'}|({'armatur','arund','donak','androzac','armoraci','diktamn'}|({'letargi'}|({'madz','tribord'}|({'s^malc','sfeg','simuli'}|{'klarion'})))))))))))  # six-assignment behavior has a separate exhaustive test
+    targets.update(({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|({'anksi'}|({'ŝtip','pensi','sankci'}|({'almenaŭ','forniks','karen','naŭz'}|({'armatur','arund','donak','androzac','armoraci','diktamn'}|({'letargi'}|({'madz','tribord'}|({'s^malc','sfeg','simuli'}|({'klarion'}|{'agorafobi','fob','fobi','hidrofob','hidrofobi','ksenofob','ksenofobi','simptom','simptomologi','sozi'}))))))))))))  # six-assignment behavior has a separate exhaustive test
     assert len(old)==10642 and len(new)==MANIFEST['current_csv_count']+34
     assert [r for r in old if r['source_root'] not in targets]==[r for r in new if r['source_root'] not in targets]
     assert index('legacy-minimal')==index('pejvo-piv-20260620')

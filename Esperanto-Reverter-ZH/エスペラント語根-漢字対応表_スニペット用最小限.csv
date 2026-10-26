@@ -102,6 +102,7 @@ fonogram,声ᶠᴼ字ᴳᴹ
 fonologi,声ᶠᴼ学ᴸᴳ
 fonometri,声ᶠᴼ测ᴹᵀ
 fonoskop,声ᶠᴼ镜ˢᴷ
+ksenofob,外ᴷˢ怕ᶠᴼ
 ksenartr,外ᴷˢ节ᴬᴿ
 polifoni,多ᴾ声ᶠᴼᴾ
 politeism,多ᴾ神ᵀ主义
@@ -331,7 +332,7 @@ ektoderm,外ᴱᴷ皮ᴰ
 ekzoterm,外ᴱᶻ热ᵀ
 ekzogen,外ᴱᶻ生ᴳ
 ekzogami,外ᴱᶻ配ᴳ
-ksenofob,外ᴷˢ怕ᶠ
+ksenofobi,外ᴷˢ怕ᶠ
 politeist,多ᴾ神ᵀ家
 sfinglipid,天蛾脂ᴸᴾ
 cefalopod,头ᶜ足ᴾᴼ
@@ -456,6 +457,7 @@ traĥe,气管ᵀᴴ̂
 trakeotomi,气管切ᵀᴹ
 hidrofon,水ᴴ声ᶠᴼ
 hidrologi,水ᴴ学ᴸᴳ
+hidrofob,水ᴴ怕ᶠᴼ
 hidrometri,水ᴴ测ᴹᵀ
 hidrosulfit,水ᴴ硫盐ᴵ
 sedimentologi,沉ˢ学ᴸᴳ
@@ -509,7 +511,6 @@ hipoĥondri,疑病ᴴᴴ̂
 patolog,病ᴾᴬ学家
 patogenez,病ᴾᴬ源ᴳ
 patogen,病ᴾᴬ生ᴳ
-simptomologi,症ˢ学ᴸᴳ
 algiologi,痛ᴬ学ᴸᴳ
 onkologi,瘤ᴼ学ᴸᴳ
 leŭkoz,白ᴸᴱ症ᴼ
@@ -887,6 +888,7 @@ geosfer,地ᴳ球ˢ
 geograf,地ᴳ记ᴳ
 kadastr,地籍ᴷᴰ
 metropoliten,地铁ᴹᴾ
+agorafobi,场ᴬ怕ᶠ
 iskiatalgi,坐神痛ᴬ
 tipologi,型学ᴸᴳ
 tipografart,型记ᴳ艺
@@ -896,7 +898,6 @@ mediologi,境学ᴸᴳ
 kriptonim,墓窖名ᴼ
 lokomobil,处动ᴹᴮ
 ektoplasm,外ᴱᴷ浆
-ksenofobi,外ᴷˢ症
 ĥirurg,外科ᴴ̂
 kirurgi,外科ᴷᴵ
 vulvit,外阴炎ᵀ
@@ -1135,7 +1136,7 @@ hidrodinamik,水ᴴ力ᴰ
 hidrocefal,水ᴴ头ᶜ
 hidrolog,水ᴴ学家
 hidrografi,水ᴴ志ᴳ
-hidrofob,水ᴴ怕ᶠ
+hidrofobi,水ᴴ怕ᶠ
 hidroaeroplan,水ᴴ气划
 hidroksid,水ᴴ氧化
 hidrokarbid,水ᴴ炭子
@@ -1216,6 +1217,7 @@ teratologi,畸学ᴸᴳ
 terapeŭtik,疗ᵀᵁ̆
 malariologi,疟学ᴸᴳ
 epidemiologi,疫学ᴸᴳ
+simptomologi,症学ᴸᴳ
 algiolog,痛ᴬ学家
 onkogen,瘤ᴼ生ᴳ
 kancerologi,癌学ᴸᴳ
@@ -2048,7 +2050,6 @@ topo,地ᵀᴾ
 geotermik,地热学
 miogal,地鼠ᴹ
 aren,场ᴬᴿ
-agorafobi,场ᴬ症
 fortik,坚ᶠᵀ
 konfirmaci,坚信礼
 prolaps,垂ᴾᴸ
@@ -2245,6 +2246,7 @@ lonicer,忍冬ᴸ
 anksi,忧ᴬᴷ
 alegr,快ᴬᴸ
 kolerik,怒ᴷᴷ
+fob,怕ᶠᴼ
 impotent,性无能
 ĝeneral,总ᴳ̂
 spirator,息具ᴬ
@@ -2700,7 +2702,6 @@ hidroplan,水ᴴ划
 hidroksi,水ᴴ氧
 hidroelektr,水ᴴ电
 hidroterapi,水ᴴ疗
-hidrofobi,水ᴴ症
 hidrokarbon,水ᴴ碳
 hidracid,水ᴴ酸
 jonkvil,水仙ᴶ
@@ -5726,7 +5727,7 @@ nostalgi,怀ᴺ
 nostalgi,怀旧
 aci,态ᴬ
 ekologi,态ᴱ
-fob,怕ᶠ
+fobi,怕ᶠ
 horor,怖ᴴ
 kontempl,思ᴷ
 medit,思ᴹ
@@ -6070,7 +6071,6 @@ romanc,曲ᴿ
 krank,曲柄
 substitu,替ˢ
 dubl,替ᴰ
-sozi,替身
 minimum,最小
 monat,月ᴹ
 menstru,月经
@@ -6804,7 +6804,6 @@ vakcin,疫苗
 aft,疮ᴬ
 skab,疮疤
 ekzantem,疹ᴱ
-simptom,症ˢ
 tikl,痒ᵀ
 urtik,痒ᵁ
 kaŭpoks,痘ᴷ
@@ -7237,6 +7236,7 @@ stek,肉排
 sarkom,肉瘤
 varang,肋板
 miom,肌瘤
+sozi,肖ˢ
 anduj,肚肠
 sodomi,肛交
 hepatik,肝草
@@ -9815,7 +9815,7 @@ ulcer,疮
 lac,疲
 tif,疹
 morb,病
-fobi,症
+simptom,症
 juk,痒
 stigmat,痕
 akn,痘
