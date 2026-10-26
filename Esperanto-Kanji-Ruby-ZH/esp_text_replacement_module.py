@@ -203,7 +203,8 @@ def _reviewed_local_atomic_renderings(payloads, local_rules, enabled=False):
             if not isinstance(new, str) or not new or (old in atoms and atoms[old] != new):
                 raise ValueError("Conflicting or empty reviewed atomic root: " + old)
             atoms[old] = new
-    return {word: atoms.get(root, root) + ending
+    # Existing annotated roots keep their established ending annotations too.
+    return {word: atoms[root] + safe_replace(ending, local_rules) if root in atoms else word
             for word in wanted
             for root, ending in (_REVIEWED_LOCAL_ATOMIC_FORMS[word],)}
 

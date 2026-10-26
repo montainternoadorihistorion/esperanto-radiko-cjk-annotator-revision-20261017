@@ -129,8 +129,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/esp_text_replacement_module.py",
-      "bytes": 38263,
-      "sha256": "467a9a836c9a0f4bac5b41cfdf6e9243f7e89f900d12281c6cf4c9be6c480d6f"
+      "bytes": 38385,
+      "sha256": "59b0df8b5c2b223c3dc52e27e16483230be58fe406ec888edd90604a5a48bf79"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/main.py",
@@ -264,8 +264,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/esp_text_replacement_module.py",
-      "bytes": 32836,
-      "sha256": "ac24d5e9a92355b83341a599d4e72c6622523ef5ea4d85ccdc81ffed6eb2a406"
+      "bytes": 32958,
+      "sha256": "915c1cc10823080978a26cb289794a1537dfebd867d9d0b826b84f6684f42011"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/main.py",
@@ -389,8 +389,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_text_replacement_module.py",
-      "bytes": 31689,
-      "sha256": "c96981c0b002443a815c8bf7c4e957285fb59a626705480f8eb87c55fdc4ea95"
+      "bytes": 31811,
+      "sha256": "98a28d6771a06d53bb43f36ed009dd9e39049fbc2d5e47986f2de81bd02c3786"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/main.py",

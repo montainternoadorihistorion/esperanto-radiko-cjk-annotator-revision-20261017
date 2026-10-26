@@ -116,7 +116,7 @@ class StalagmitLocalFix(unittest.TestCase):
                     previous=batch(before,inputs) if before else {}
                     for word,(root,ending) in FORMS.items():
                         text='@'+word+'@';actual=outputs[text]
-                        expected=atoms.get(root,root)+ending
+                        expected=atoms[root]+engine.safe_replace(ending,gl) if root in atoms else word
                         self.assertEqual(actual,expected,(lang,edition,mode,text))
                         self.assertNotIn('@',actual)
                         self.assertEqual(recovered(actual,mode),word)
@@ -128,6 +128,8 @@ class StalagmitLocalFix(unittest.TestCase):
                             self.assertEqual(recovery.recover_standard_html(document,
                                 'annotation' if mode=='ruby' else 'kanji')['text'],word)
                         old=previous.get(text)
+                        if mode=='ruby' and before:
+                            self.assertEqual(actual,old,('Existing annotation changed',lang,edition,text))
                         REPORT_ROWS.append({'language':lang,'edition':edition,'mode':mode,'input':text,
                                             'before':old,'after':actual,'source':word,'kind':'approved_exact_form'})
                     for text in controls:
