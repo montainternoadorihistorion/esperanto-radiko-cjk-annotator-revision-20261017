@@ -51,7 +51,7 @@ def test_no_intermediate_profile_or_new_old_spelling_aliases():
 def test_current_manifest_downloads_and_group_descriptions():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     path=app.ROOT/source['four_assignments_manifest'];manifest=json.loads(path.read_bytes())
-    assert source['revision']=='2026-10-26-stal'
+    assert source['revision']=='2026-10-29-fuz'
     assert manifest['revision']=='2026-10-25-four-assignments'
     assert manifest['changes']=={r:list(v) for r,v in CHANGES.items()}
     assert manifest['safe_reverse_aliases']==manifest['ownership_transfers']=={}

@@ -1,0 +1,155 @@
+{
+  "schema": 1,
+  "revision": "2026-10-29-fuz",
+  "baseline": "ad384f9fe6b5fc1460705d3aa16265ae21c30003",
+  "changes": {
+    "fuz": [
+      "信管",
+      "燃ᶠᶻ"
+    ]
+  },
+  "canonical_sidecar_sha256": "52897bb36531bd3b8bc97b8c8115288954307718bf5a5b58efb48607d85dd212",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "ba31d62ee2da58a12a97eb4a9538a9cf2242f38aa9264b7b27fcc7833cfc4356",
+  "baseline_target_items": {
+    "fuz": {
+      "prefix": "fuz",
+      "body": "信管",
+      "kanji": "信管",
+      "detail": "fuz → 信管 (pejvo, F=5, 基本形)",
+      "documentation": "語根: fuz\n入力: fuz\n最終形: 信管\n漢字: 信管\n識別子: なし\n型: pejvo\nF(汎用性): 5\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6708",
+      "priority": 0,
+      "sourceRoot": "fuz",
+      "type": "pejvo",
+      "frequency": 5,
+      "base": true,
+      "sourceLine": 6708
+    },
+    "brul": {
+      "prefix": "brul",
+      "body": "燃",
+      "kanji": "燃",
+      "detail": "brul → 燃 (basic, F=73, 基本形)",
+      "documentation": "語根: brul\n入力: brul\n最終形: 燃\n漢字: 燃\n識別子: なし\n型: basic\nF(汎用性): 73\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:1161",
+      "priority": 0,
+      "sourceRoot": "brul",
+      "type": "basic",
+      "frequency": 73,
+      "base": true,
+      "sourceLine": 1161
+    },
+    "fuel": {
+      "prefix": "fuel",
+      "body": "燃ᶠ",
+      "kanji": "燃",
+      "detail": "fuel → 燃ᶠ (pejvo, F=1)",
+      "documentation": "語根: fuel\n入力: fuel\n最終形: 燃ᶠ\n漢字: 燃\n識別子: f\n型: pejvo\nF(汎用性): 1\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:1162",
+      "priority": 0,
+      "sourceRoot": "fuel",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 1162
+    }
+  },
+  "expected_target_items": {
+    "fuz": {
+      "prefix": "fuz",
+      "body": "燃ᶠᶻ",
+      "kanji": "燃",
+      "detail": "fuz → 燃ᶠᶻ (pejvo, F=5)",
+      "documentation": "語根: fuz\n入力: fuz\n最終形: 燃ᶠᶻ\n漢字: 燃\n識別子: fz\n型: pejvo\nF(汎用性): 5\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:6708",
+      "priority": 0,
+      "sourceRoot": "fuz",
+      "type": "pejvo",
+      "frequency": 5,
+      "base": false,
+      "sourceLine": 6708
+    },
+    "brul": {
+      "prefix": "brul",
+      "body": "燃",
+      "kanji": "燃",
+      "detail": "brul → 燃 (basic, F=73, 基本形)",
+      "documentation": "語根: brul\n入力: brul\n最終形: 燃\n漢字: 燃\n識別子: なし\n型: basic\nF(汎用性): 73\nグループ数: 3\n基本形: yes\n出典: _identifier_sidecar.tsv:1161",
+      "priority": 0,
+      "sourceRoot": "brul",
+      "type": "basic",
+      "frequency": 73,
+      "base": true,
+      "sourceLine": 1161
+    },
+    "fuel": {
+      "prefix": "fuel",
+      "body": "燃ᶠ",
+      "kanji": "燃",
+      "detail": "fuel → 燃ᶠ (basic, F=1)",
+      "documentation": "語根: fuel\n入力: fuel\n最終形: 燃ᶠ\n漢字: 燃\n識別子: f\n型: basic\nF(汎用性): 1\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:1162",
+      "priority": 0,
+      "sourceRoot": "fuel",
+      "type": "basic",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 1162
+    }
+  },
+  "unrelated_items_sha256": "6b4eaae055f44a54eec86e80c0216785f705651fc4ed775d87a275ab9d37f250",
+  "unrelated_items_count": 10637,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {
+    "brul": {
+      "group_count": [
+        2,
+        3
+      ]
+    }
+  },
+  "metadata_only_changes": {
+    "fuel": {
+      "group_count": [
+        2,
+        3
+      ],
+      "band": [
+        "pejvo",
+        "basic"
+      ],
+      "changed_fields": [
+        "detail",
+        "documentation",
+        "type"
+      ],
+      "reason": "Explicit user priority keeps fuel as 燃ᶠ; canonical existing band mechanism elevates fuel only. Body, owner, frequency and input unchanged."
+    }
+  },
+  "preserved_historical_overrides": [],
+  "assignment_unchanged_item_count": 10639,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "fuz"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "fuz": "User adopts 燃 for the root meaning prolonged burning without explosion; distinct 燃ᶠᶻ preserves fuel=燃ᶠ and brul=燃. Keep original root meanings and decomposition.",
+    "fuel": "User requests fuel priority; existing canonical band mechanism only. No body or owner change."
+  },
+  "preserved_controls": {
+    "燃": "brul",
+    "燃ᶠ": "fuel",
+    "引信": "fuze",
+    "聚变": "fuzi",
+    "手雷": "grenad",
+    "树瘤": "gajl"
+  },
+  "explicit_retained": {
+    "gajl": "树瘤",
+    "grenad": "手雷",
+    "fuze": "引信",
+    "fuzi": "聚变"
+  },
+  "shared_spelling": {},
+  "migration_notice": "Only current fuz changes 信管 to 燃ᶠᶻ. Existing brul=燃 and fuel=燃ᶠ keep their owners. Fixed legacy stays 信管. No aliases or intermediate edition added."
+}

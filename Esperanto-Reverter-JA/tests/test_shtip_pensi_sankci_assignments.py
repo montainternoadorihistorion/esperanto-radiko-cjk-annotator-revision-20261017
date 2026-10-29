@@ -50,7 +50,7 @@ def test_current_and_legacy_are_explicit_no_new_intermediate_aliases():
 def test_source_manifest_downloads_and_group_descriptions():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     path=app.ROOT/source['shtip_pensi_sankci_manifest'];manifest=json.loads(path.read_bytes())
-    assert source['revision']=='2026-10-26-stal'
+    assert source['revision']=='2026-10-29-fuz'
     assert manifest['revision']=='2026-10-24-shtip-pensi-sankci'
     assert manifest['changes']=={r:list(v) for r,v in CHANGES.items()}
     assert manifest['safe_reverse_aliases']==manifest['ownership_transfers']=={}
