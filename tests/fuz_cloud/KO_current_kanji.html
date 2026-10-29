@@ -1,0 +1,109 @@
+<!-- assignment-edition:current signature:dd5fef3b87eb61c84259a839bf83033438e0fc422d0499c2bb017c1a5e097c38 created-utc:2026-10-29T15:41:27.647641+00:00 -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에스페란토 어근 분해 루비 주석 텍스트</title>
+    <style>
+
+    html, body {
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+  
+      :root {
+        --ruby-color: blue;
+        --ruby-font-size: 0.5em;
+      }
+      html {
+        font-size: 100%; /* 多くのブラウザは16px相当が標準 */
+      }
+
+      .text-M_M {
+        font-size: 1rem!important; 
+        font-family: Arial, sans-serif;
+        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */
+        display: block; /* ブロック要素として扱う */
+        position: relative;
+      }
+  
+      /* ▼ ルビ（フレックスでルビを上に表示） */
+      ruby {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        vertical-align: top !important;
+        line-height: 2.0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 1rem !important;
+      }
+  
+      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */
+      rt {
+        display: block !important;
+        font-size: var(--ruby-font-size);
+        color: var(--ruby-color);
+        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/
+        text-align: center;
+        /* margin-top: 0.2em !important;   
+        transform: translateY(0.4em) !important; */
+      }
+      rt.XXXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }    
+      rt.XXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }
+      rt.XS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -6.1em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.S_S {
+        --ruby-font-size: 0.4em;
+        margin-top: -4.85em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.M_M {
+        --ruby-font-size: 0.5em;
+        margin-top: -4.00em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.L_L {
+        --ruby-font-size: 0.6em; 
+        margin-top: -3.55em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XL_L {
+        --ruby-font-size: 0.7em;
+        margin-top: -3.20em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XXL_L {
+        --ruby-font-size: 0.8em;
+        margin-top: -2.80em !important;
+        transform: translateY(-0.0em) !important;
+      }
+  
+    </style>
+  <meta name="esperanto-ruby-mode" content="kanji">
+</head>
+  <body>
+  <p class="text-M_M">
+Fuzo <ruby>燃ᶠᶻ<rt class="XXL_L">fuz</rt></ruby>a <ruby>引信<rt class="XXL_L">fuze</rt></ruby> <ruby>燃ᶠᶻ<rt class="XXL_L">fuz</rt></ruby>i <ruby>燃ᶠᶻ<rt class="XXL_L">fuz</rt></ruby> <ruby>燃ᶠᶻ<rt class="XXL_L">fuz</rt></ruby>is.<br>
+<ruby>燃ᶠᶻ<rt class="XXL_L">fuz</rt></ruby>o <ruby>燃ᶠᶻ<rt class="XXL_L">fuz</rt></ruby>a <ruby>燃ᶠᶻ<rt class="XXL_L">fuz</rt></ruby>i <ruby>燃ᶠᶻ<rt class="XXL_L">fuz</rt></ruby><br>
+<ruby>燃ᶠᶻ<rt class="XXL_L">fuz</rt></ruby><ruby>具<rt class="XXL_L">il</rt></ruby>o <ruby>燃ᶠᶻ<rt class="XXL_L">fuz</rt></ruby><ruby>物<rt class="XXL_L">aĵ</rt></ruby>o <ruby>燃ᶠᶻ<rt class="XXL_L">fuz</rt></ruby><ruby>航<rt class="XS_S">aviad</rt></ruby><ruby>具<rt class="XXL_L">il</rt></ruby>o<br>
+<ruby>燃ᶠᶻ<rt class="XXL_L">fuz</rt></ruby><ruby>具<rt class="XXL_L">il</rt></ruby>o <ruby>燃ᶠᶻ<rt class="XXL_L">fuz</rt></ruby><ruby>物<rt class="XXL_L">aĵ</rt></ruby>o <ruby>燃ᶠᶻ<rt class="XXL_L">fuz</rt></ruby><ruby>航<rt class="XS_S">aviad</rt></ruby><ruby>具<rt class="XXL_L">il</rt></ruby>o<br>
+<ruby>燃ᶠ<rt class="L_L">fuel</rt></ruby>o <ruby>燃ᶠ<rt class="L_L">fuel</rt></ruby>o <ruby>燃<rt class="M_M">brul</rt></ruby>i <ruby>燃<rt class="M_M">brul</rt></ruby>i <ruby>燃ᶠᶻ<rt class="XXL_L">fuz</rt></ruby>i <ruby>聚变<rt class="XXL_L">fuzi</rt></ruby> <ruby>聚变<rt class="XXL_L">fuzi</rt></ruby>o<br>
+<ruby>畜棚<rt class="XXL_L">stal</rt></ruby>o <ruby>面团<rt class="M_M">knedlik</rt></ruby>o <ruby>柴油<rt class="XXL_L">dizel</rt></ruby>o <ruby>柴油ᴰˢ<rt class="XXL_L">disel</rt></ruby>o <ruby>周<rt class="XXS_S">sem<br>ajn</rt></ruby>o <ruby>周<rt class="XXS_S">sem<br>ajn</rt></ruby>o stalagmito<br>
+<ruby>微<rt class="XS_S">mikro</rt></ruby><ruby>生ᴮᴼ<rt class="XXL_L">bio</rt></ruby><ruby>学ᴸᴳ<rt class="XXL_L">logi</rt></ruby>o <ruby>微生ᴮᴼ学ᴸᴳ<rt class="XXL_L">mikrobiologi</rt></ruby>o <ruby>丸ᵀ<rt class="M_M">testik</rt></ruby><ruby>炎ᵀ<rt class="XXL_L">it</rt></ruby>o <ruby>丸ᴼ<rt class="L_L">orkid</rt></ruby><ruby>炎ᵀ<rt class="XXL_L">it</rt></ruby>o <ruby>群ᴳ<rt class="L_L">greg</rt></ruby><ruby>在<rt class="L_L">ant</rt></ruby>a <ruby>压ᴾᴳ<rt class="XXL_L">preg</rt></ruby><ruby>在<rt class="L_L">ant</rt></ruby>a kordonita <ruby>无<rt class="M_M">sen</rt></ruby>e<br>
+fuzo &amp; <ruby>二<rt class="XXL_L">du</rt></ruby>&nbsp;&nbsp;<ruby>空<rt class="S_S">spac</rt></ruby>oj</p></body></html>

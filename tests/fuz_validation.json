@@ -4,7 +4,28 @@
   "previous_release_commit": "86d949a52f1691a424c20b25c46471d4e288ec53",
   "status": "LOCAL_VALIDATION_PASSED",
   "cloud_validation": {
-    "status": "NOT_YET_VERIFIED"
+    "status": "CLOUD_SAMPLE_VERIFIED",
+    "verified_utc": "2026-10-29T15:54:34.520037+00:00",
+    "public_merge_commit": "0c9fa7809cd87f2115cf7aee65e1808b0eb2d2c3",
+    "public_pr": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/78",
+    "cloud_internal_commit_directly_observed": false,
+    "browser_forward_routes": 18,
+    "browser_reverse_routes": 4,
+    "matched_downloads": 26,
+    "html_timestamp_only_difference": true,
+    "pure_txt_inverse_txt_and_csv_byte_exact": true,
+    "report": "fuz_cloud/verification.json",
+    "representative_screenshot": "fuz_cloud/cloud_ja_current.jpg",
+    "limits": [
+      "Actual Cloud browser records and downloaded files are compared against local fixtures. This sample is 18 forward routes and four inverse routes, not all possible sentences.",
+      "Only the leading HTML metadata created-utc value may differ; edition, signature, ruby mode, all other HTML bytes, and DOM source output must match.",
+      "Pure TXT, inverse TXT and selected-edition CSV files match byte-for-byte without newline, BOM, spacing, case or identifier normalization.",
+      "Evidence files use standardized names. Original browser download filenames are not independently certified by this report.",
+      "The internal running Cloud commit was not directly observed. Deployment reflection is established by observed behavior and downloaded data.",
+      "Current fuz=燃ᶠᶻ; fixed legacy fuz=信管. brul=燃 and fuel=燃ᶠ retain their owners. Only the explicitly approved priority tier for fuel changes to basic; its F/P measurements are preserved. gajl=树瘤 and grenad=手雷 are retained. Existing fuz+i versus independent fuzi ambiguity remains. Intermediate revisions are not separate profiles and no compatibility aliases are added.",
+      "Fixed legacy and evolving current are the two supported editions. Intermediate assignment revisions are not separate edition profiles.",
+      "Ordinary pure replacement still renders fuzo as f用o, identical before and after this change in JA/ZH/KO and both editions. Current kanji-ruby and @fuz@o / @fuzo@ use 燃ᶠᶻo; the corresponding legacy forms use 信管o. This pre-existing pure-mode split is recorded for separate consideration."
+    ]
   },
   "adopted": {
     "fuz": [
@@ -1791,5 +1812,21 @@
     "roundtrip": "39153d61aca0e92a30a23aa3360b337eab99f00fe2ed0e8b778ac749ec13e2dd",
     "html": "636e0aae1a008794739925ef441c28dbae70c5d72b1f2eca3548bbb59cb17840"
   },
-  "inverse_limitations": "brul=燃 and fuel=燃ᶠ keep their owners. Current fuz=燃ᶠᶻ; fixed legacy fuz=信管. Existing fuz+i versus fuzi homographic decomposition is retained. Fuel priority tier metadata changes to basic, with observed frequency unchanged. Intermediate current revisions are not separate profiles; no compatibility aliases are added. Shared-spelling ambiguity remains permitted."
+  "inverse_limitations": "brul=燃 and fuel=燃ᶠ keep their owners. Current fuz=燃ᶠᶻ; fixed legacy fuz=信管. Existing fuz+i versus fuzi homographic decomposition is retained. Fuel priority tier metadata changes to basic, with observed frequency unchanged. Intermediate current revisions are not separate profiles; no compatibility aliases are added. Shared-spelling ambiguity remains permitted.",
+  "known_preserved_behavior": {
+    "ordinary_pure_fuzo": "f用o",
+    "before_after_unchanged": true,
+    "languages": [
+      "JA",
+      "ZH",
+      "KO"
+    ],
+    "editions": [
+      "current",
+      "legacy"
+    ],
+    "current_kanji_ruby_and_at_forms": "燃ᶠᶻo",
+    "legacy_kanji_ruby_and_at_forms": "信管o",
+    "new_product_change": false
+  }
 }
