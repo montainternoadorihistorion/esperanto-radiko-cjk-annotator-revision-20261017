@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "2026-10-26-stal",
+  "revision": "2026-10-29-fuz",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "ba31d62ee2da58a12a97eb4a9538a9cf2242f38aa9264b7b27fcc7833cfc4356",
+  "monaco_all_sha256": "f4442609ae55255a25803520b379bae1dec9c85d596bb36dbcf4c6e2c344d3f6",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "281dae5911ba388da98770ba0959a65d06f7a5ea000a003b7e80736886cd5d05",
+  "canonical_sidecar_sha256": "52897bb36531bd3b8bc97b8c8115288954307718bf5a5b58efb48607d85dd212",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -376,10 +376,14 @@
     "stal": {
       "old": "马棚",
       "current": "畜棚"
+    },
+    "fuz": {
+      "old": "信管",
+      "current": "燃ᶠᶻ"
     }
   },
-  "current_csv_sha256": "adb8ef79a751242fe9361825ce10e0b1b2025a594426ebf03542d1dde8688a9d",
-  "current_snippet_csv_sha256": "f5c87d7ad640a570245b4afffcf93de3a711134354676a4aeb870dc306035f64",
+  "current_csv_sha256": "7b6e79060e5ecc186606c599bd033ec8404b4ee4d47890b2ee294df1878b0bac",
+  "current_snippet_csv_sha256": "b631c6946be24f2dc319431c4fcd88567bd71f03997971d95ceda8eeb1519f0a",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -527,5 +531,7 @@
   "sozi_fobi_manifest": "data/sozi-fobi-20261026.json",
   "sozi_fobi_manifest_sha256": "d4d9e7b7848d8e069408ee565adbec948d1bf8adbb17703abb505e5b88ec1bbc",
   "stal_manifest": "data/stal-20261026.json",
-  "stal_manifest_sha256": "b122cec0f7672505fc89ff39a6143d71ff80a53bb13478e776cd482954c79193"
+  "stal_manifest_sha256": "b122cec0f7672505fc89ff39a6143d71ff80a53bb13478e776cd482954c79193",
+  "fuz_manifest": "data/fuz-20261029.json",
+  "fuz_manifest_sha256": "e18ea4a3e1aa778f32f38d882736590cae9276797ff422e117e0e352cc36aaf5"
 }
