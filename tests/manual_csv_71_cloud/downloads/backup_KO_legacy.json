@@ -1,0 +1,138 @@
+[
+ {
+  "word": "aerosolo",
+  "decomp": "aerosol/o",
+  "ruby": [
+   [
+    "aerosolo",
+    "<ruby>aerosol<rt class=\"XXL_L\">에어로졸</rt></ruby>o"
+   ],
+   [
+    "AEROSOLO",
+    "<ruby>AEROSOL<rt class=\"XXL_L\">에어로졸</rt></ruby>O"
+   ],
+   [
+    "Aerosolo",
+    "<ruby>Aerosol<rt class=\"XXL_L\">에어로졸</rt></ruby>o"
+   ]
+  ],
+  "kanji": [
+   [
+    "aerosolo",
+    "<ruby>气胶ˢ<rt class=\"L_L\">aerosol</rt></ruby>o"
+   ],
+   [
+    "AEROSOLO",
+    "<ruby>气胶ˢ<rt class=\"L_L\">AEROSOL</rt></ruby>O"
+   ],
+   [
+    "Aerosolo",
+    "<ruby>气胶ˢ<rt class=\"L_L\">Aerosol</rt></ruby>o"
+   ]
+  ],
+  "assignment_edition": "legacy",
+  "assignment_signature": "00930142e06880b16ec7638e8344578ad02765554e12325844a5c89c18cd29c3"
+ },
+ {
+  "word": "imperialismo",
+  "decomp": "imperialism/o",
+  "ruby": [
+   [
+    "imperialismo",
+    "<ruby>imperialism<rt class=\"XXL_L\">제국주의</rt></ruby>o"
+   ],
+   [
+    "IMPERIALISMO",
+    "<ruby>IMPERIALISM<rt class=\"XXL_L\">제국주의</rt></ruby>O"
+   ],
+   [
+    "Imperialismo",
+    "<ruby>Imperialism<rt class=\"XXL_L\">제국주의</rt></ruby>o"
+   ]
+  ],
+  "kanji": [
+   [
+    "imperialismo",
+    "<ruby>帝主义<rt class=\"M_M\">imperialism</rt></ruby>o"
+   ],
+   [
+    "IMPERIALISMO",
+    "<ruby>帝主义<rt class=\"M_M\">IMPERIALISM</rt></ruby>O"
+   ],
+   [
+    "Imperialismo",
+    "<ruby>帝主义<rt class=\"M_M\">Imperialism</rt></ruby>o"
+   ]
+  ],
+  "assignment_edition": "legacy",
+  "assignment_signature": "00930142e06880b16ec7638e8344578ad02765554e12325844a5c89c18cd29c3"
+ },
+ {
+  "word": "endoskopio",
+  "decomp": "endoskopi/o",
+  "ruby": [
+   [
+    "endoskopio",
+    "endoskopio"
+   ],
+   [
+    "ENDOSKOPIO",
+    "ENDOSKOPIO"
+   ],
+   [
+    "Endoskopio",
+    "Endoskopio"
+   ]
+  ],
+  "kanji": [
+   [
+    "endoskopio",
+    "<ruby>内ᴱᴰ镜ˢᴷ<rt class=\"XL_L\">endoskopi</rt></ruby>o"
+   ],
+   [
+    "ENDOSKOPIO",
+    "<ruby>内ᴱᴰ镜ˢᴷ<rt class=\"XL_L\">ENDOSKOPI</rt></ruby>O"
+   ],
+   [
+    "Endoskopio",
+    "<ruby>内ᴱᴰ镜ˢᴷ<rt class=\"XL_L\">Endoskopi</rt></ruby>o"
+   ]
+  ],
+  "assignment_edition": "legacy",
+  "assignment_signature": "00930142e06880b16ec7638e8344578ad02765554e12325844a5c89c18cd29c3"
+ },
+ {
+  "word": "mikroskopio",
+  "decomp": "mikroskopi/o",
+  "ruby": [
+   [
+    "mikroskopio",
+    "mikroskopio"
+   ],
+   [
+    "MIKROSKOPIO",
+    "MIKROSKOPIO"
+   ],
+   [
+    "Mikroskopio",
+    "Mikroskopio"
+   ]
+  ],
+  "kanji": [
+   [
+    "mikroskopio",
+    "<ruby>微镜ˢᴷ<rt class=\"M_M\">mikroskopi</rt></ruby>o"
+   ],
+   [
+    "MIKROSKOPIO",
+    "<ruby>微镜ˢᴷ<rt class=\"M_M\">MIKROSKOPI</rt></ruby>O"
+   ],
+   [
+    "Mikroskopio",
+    "<ruby>微镜ˢᴷ<rt class=\"M_M\">Mikroskopi</rt></ruby>o"
+   ]
+  ],
+  "assignment_edition": "legacy",
+  "assignment_signature": "00930142e06880b16ec7638e8344578ad02765554e12325844a5c89c18cd29c3"
+ }
+]

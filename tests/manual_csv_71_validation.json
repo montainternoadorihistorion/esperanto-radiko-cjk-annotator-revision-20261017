@@ -52,6 +52,9 @@
     ],
     "policy": "Existing component/homograph owners are preserved. No inverse aliases were added. Standard ruby HTML retains original spelling."
   },
-  "cloud_status": "Deployment source updated; actual Cloud verification is recorded separately after completion.",
-  "counting_note": "Counts overlap. Finite samples and all-table comparisons are distinct; no claim is made for every possible sentence."
+  "cloud_status": "PASS: 30 actual downloads across JA/ZH/KO and current/legacy; see manual_csv_71_cloud/summary.json. KO Chrome outer wrapper remains an automation limitation; normal URL succeeds in the in-app browser.",
+  "counting_note": "Counts overlap. Finite samples and all-table comparisons are distinct; no claim is made for every possible sentence.",
+  "cloud_source_revision": "44afb7fe9a5cc225592596a99a37339fed76cc27",
+  "ci_main_run": 41136440083,
+  "ci_main_conclusion": "success"
 }
