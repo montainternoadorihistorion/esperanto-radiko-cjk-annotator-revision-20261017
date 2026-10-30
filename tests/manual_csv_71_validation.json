@@ -1,0 +1,57 @@
+{
+  "status": "PASS_WITH_EXISTING_INVERSE_LIMITS",
+  "date": "2026-10-31",
+  "implementation_commit": "9955c541e69ea6281f931459423863e1c8859afd",
+  "merge_commit": "822d961437ed2d5c89d7e45b5262ae06e1074f40",
+  "pull_request": 79,
+  "ci_run": 41134501701,
+  "ci_conclusion": "success",
+  "scope": {
+    "csvs_completed": 6,
+    "added_rows_per_csv": 71,
+    "current_rows": 10482,
+    "legacy_rows": 10480,
+    "existing_csv_bytes_order_values_preserved": true,
+    "assignment_identifier_runtime_json_gloss_inverse_changes": false,
+    "inverse_readme_appendices_synced": 2
+  },
+  "local_tests": {
+    "new_guards_passed": 4,
+    "selected_existing_passed": 22,
+    "optional_baseline_skipped": 1,
+    "independent_baseline_hashes_checked": true
+  },
+  "fresh_checks": {
+    "manual_corrections": 2130,
+    "plain_inverse_calls": 12780,
+    "standard_html_recovery_calls": 1704,
+    "baseline_normal_at_output_comparisons": 216,
+    "old_result_signature_rejection_routes": 18
+  },
+  "automatic_correction": {
+    "mode": "kanji ruby",
+    "inputs_checked": 11850,
+    "final_output_changes": 60,
+    "scope": "franj family, ten normal trial forms across three languages and two editions",
+    "at_final_output_changes": 0,
+    "decomposition_and_spelling_preserved": true,
+    "changed_output_inverse_calls_before_after": 240,
+    "changed_output_inverse_new_regressions": 0,
+    "changed_output_html_checks": 240
+  },
+  "known_plain_inverse_limits": {
+    "current": [
+      "asistoli",
+      "eŭfoni"
+    ],
+    "legacy": [
+      "asistoli",
+      "eŭfoni",
+      "endoskopi",
+      "mikroskopi"
+    ],
+    "policy": "Existing component/homograph owners are preserved. No inverse aliases were added. Standard ruby HTML retains original spelling."
+  },
+  "cloud_status": "Deployment source updated; actual Cloud verification is recorded separately after completion.",
+  "counting_note": "Counts overlap. Finite samples and all-table comparisons are distinct; no claim is made for every possible sentence."
+}
