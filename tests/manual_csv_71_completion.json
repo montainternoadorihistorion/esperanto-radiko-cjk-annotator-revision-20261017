@@ -1,0 +1,2624 @@
+{
+  "schema_version": 1,
+  "baseline_revision": "f7205625d1df94f8f7c5da55e3e1e932530a81a7",
+  "purpose": "Approved 71-root manual CSV completion. Existing lines and glyphs remain unchanged; each edition uses its own authority.",
+  "added_rows": [
+    {
+      "root": "aerosol",
+      "current": "气胶ˢ",
+      "legacy": "气胶ˢ"
+    },
+    {
+      "root": "akvedukt",
+      "current": "水管ᴰ",
+      "legacy": "水管ᴰ"
+    },
+    {
+      "root": "aneŭploid",
+      "current": "无ᴬ良ᴱ倍ᴾ",
+      "legacy": "无ᴬ良ᴱ倍ᴾ"
+    },
+    {
+      "root": "antheli",
+      "current": "抗ᴬᴺ日ᴴᴱ",
+      "legacy": "抗ᴬᴺ日ᴴᴱ"
+    },
+    {
+      "root": "asistoli",
+      "current": "无ᴬ缩ˢ",
+      "legacy": "无ᴬ缩ˢ"
+    },
+    {
+      "root": "bikonkav",
+      "current": "二ᴮ凹",
+      "legacy": "二ᴮ凹"
+    },
+    {
+      "root": "bikonveks",
+      "current": "二ᴮ凸ᴷ",
+      "legacy": "二ᴮ凸ᴷ"
+    },
+    {
+      "root": "biplan",
+      "current": "二ᴮ划",
+      "legacy": "二ᴮ划"
+    },
+    {
+      "root": "briozo",
+      "current": "苔ᴮ兽ᶻ",
+      "legacy": "苔ᴮ兽ᶻ"
+    },
+    {
+      "root": "butilhidroksi",
+      "current": "丁基水ᴴ氧",
+      "legacy": "丁基水ᴴ氧"
+    },
+    {
+      "root": "centiar",
+      "current": "厘亩",
+      "legacy": "厘亩"
+    },
+    {
+      "root": "cianorat",
+      "current": "青金盐ᴬ",
+      "legacy": "青金盐ᴬ"
+    },
+    {
+      "root": "cianorit",
+      "current": "青金盐ᴵ",
+      "legacy": "青金盐ᴵ"
+    },
+    {
+      "root": "dietil",
+      "current": "二乙基",
+      "legacy": "二乙基"
+    },
+    {
+      "root": "dimetoksi",
+      "current": "二甲氧",
+      "legacy": "二甲氧"
+    },
+    {
+      "root": "ekinozo",
+      "current": "海胆兽ᶻ",
+      "legacy": "海胆兽ᶻ"
+    },
+    {
+      "root": "endoskopi",
+      "current": "内ᴱᴰ镜ˢᴷᴱᴵ",
+      "legacy": "内ᴱᴰ镜ˢᴷ"
+    },
+    {
+      "root": "eŭfoni",
+      "current": "良ᴱ声ᶠᴼ",
+      "legacy": "良ᴱ声ᶠᴼ"
+    },
+    {
+      "root": "franj",
+      "current": "兄ᶠᴿ女ᴺ",
+      "legacy": "兄ᶠᴿ女ᴺ"
+    },
+    {
+      "root": "glicerid",
+      "current": "甘油ᴳᶜ子",
+      "legacy": "甘油ᴳᶜ子"
+    },
+    {
+      "root": "glosofaring",
+      "current": "舌ᴳ咽",
+      "legacy": "舌ᴳ咽"
+    },
+    {
+      "root": "glukozid",
+      "current": "糖ᴳ子",
+      "legacy": "糖ᴳ子"
+    },
+    {
+      "root": "heksacian",
+      "current": "六ᴴᴬ青",
+      "legacy": "六ᴴᴬ青"
+    },
+    {
+      "root": "iktiopterig",
+      "current": "鱼ᴵᴷ翅ᴾᴳ",
+      "legacy": "鱼ᴵᴷ翅ᴾᴳ"
+    },
+    {
+      "root": "imperialism",
+      "current": "帝主义",
+      "legacy": "帝主义"
+    },
+    {
+      "root": "imperialist",
+      "current": "帝家",
+      "legacy": "帝家"
+    },
+    {
+      "root": "inciziv",
+      "current": "切ᴵ能ᴵ",
+      "legacy": "切ᴵ能ᴵ"
+    },
+    {
+      "root": "indigozid",
+      "current": "蓝ᴵ糖ᴼ子",
+      "legacy": "蓝ᴵ糖ᴼ子"
+    },
+    {
+      "root": "iĥtiopterig",
+      "current": "鱼ᴵᴴ̂翅ᴾᴳ",
+      "legacy": "鱼ᴵᴴ̂翅ᴾᴳ"
+    },
+    {
+      "root": "karafic",
+      "current": "藻ᴷ藻ᶠᶜ",
+      "legacy": "藻ᴷ藻ᶠᶜ"
+    },
+    {
+      "root": "karafit",
+      "current": "藻ᴷ植ᶠ",
+      "legacy": "藻ᴷ植ᶠ"
+    },
+    {
+      "root": "klavikord",
+      "current": "键弦",
+      "legacy": "键弦"
+    },
+    {
+      "root": "kromiat",
+      "current": "金ᴷᴿ盐ᴬ",
+      "legacy": "金ᴷᴿ盐ᴬ"
+    },
+    {
+      "root": "ksenartr",
+      "current": "外ᴷˢ节ᴬᴿ",
+      "legacy": "外ᴷˢ节ᴬᴿ"
+    },
+    {
+      "root": "leŭkoz",
+      "current": "白ᴸᴱ症ᴼ",
+      "legacy": "白ᴸᴱ症ᴼ"
+    },
+    {
+      "root": "litograf",
+      "current": "石ᴸᵀ记ᴳ",
+      "legacy": "石ᴸᵀ记ᴳ"
+    },
+    {
+      "root": "megalosaŭr",
+      "current": "巨ᴹ爬虫",
+      "legacy": "巨ᴹ爬虫"
+    },
+    {
+      "root": "meningokok",
+      "current": "脑膜菌ᴷᴷ",
+      "legacy": "脑膜菌ᴷᴷ"
+    },
+    {
+      "root": "metencefal",
+      "current": "后ᴹ脑ᴱ",
+      "legacy": "后ᴹ脑ᴱ"
+    },
+    {
+      "root": "mezosaŭr",
+      "current": "中爬虫",
+      "legacy": "中爬虫"
+    },
+    {
+      "root": "mezozo",
+      "current": "中兽ᶻ",
+      "legacy": "中兽ᶻ"
+    },
+    {
+      "root": "mikroskopi",
+      "current": "微镜ˢᴷᴹᴵ",
+      "legacy": "微镜ˢᴷ"
+    },
+    {
+      "root": "naftil",
+      "current": "原油基",
+      "legacy": "原油基"
+    },
+    {
+      "root": "neornit",
+      "current": "新鸟ᴼ",
+      "legacy": "新鸟ᴼ"
+    },
+    {
+      "root": "nukleosom",
+      "current": "核ᴺ体ˢᴹ",
+      "legacy": "核ᴺ体ˢᴹ"
+    },
+    {
+      "root": "nukleozid",
+      "current": "核ᴺ糖ᴼ子",
+      "legacy": "核ᴺ糖ᴼ子"
+    },
+    {
+      "root": "oestrogen",
+      "current": "发情生ᴳ",
+      "legacy": "发情生ᴳ"
+    },
+    {
+      "root": "ombropolarimetr",
+      "current": "影极ᴾᴿ计ᴹ",
+      "legacy": "影极ᴾᴿ计ᴹ"
+    },
+    {
+      "root": "ornitiski",
+      "current": "鸟ᴼ坐骨",
+      "legacy": "鸟ᴼ坐骨"
+    },
+    {
+      "root": "ozid",
+      "current": "糖ᴼ子",
+      "legacy": "糖ᴼ子"
+    },
+    {
+      "root": "panj",
+      "current": "父ᴾᴬ女ᴺ",
+      "legacy": "父ᴾᴬ女ᴺ"
+    },
+    {
+      "root": "piroz",
+      "current": "火ᴾ症ᴼ",
+      "legacy": "火ᴾ症ᴼ"
+    },
+    {
+      "root": "predispozici",
+      "current": "前ᴾ处ᴰᶻ",
+      "legacy": "前ᴾ处ᴰᶻ"
+    },
+    {
+      "root": "pterosaŭr",
+      "current": "翅爬虫",
+      "legacy": "翅爬虫"
+    },
+    {
+      "root": "reformator",
+      "current": "再形员ᴬᵀ",
+      "legacy": "再形员ᴬᵀ"
+    },
+    {
+      "root": "resonator",
+      "current": "再声具ᴬ",
+      "legacy": "再声具ᴬ"
+    },
+    {
+      "root": "riboz",
+      "current": "核ᴿ糖ᴼ",
+      "legacy": "核ᴿ糖ᴼ"
+    },
+    {
+      "root": "rutozid",
+      "current": "草ᴿ糖ᴼ子",
+      "legacy": "草ᴿ糖ᴼ子"
+    },
+    {
+      "root": "salikilat",
+      "current": "柳基盐ᴬ",
+      "legacy": "柳基盐ᴬ"
+    },
+    {
+      "root": "salikozid",
+      "current": "柳糖ᴼ子",
+      "legacy": "柳糖ᴼ子"
+    },
+    {
+      "root": "sapozid",
+      "current": "皂糖ᴼ子",
+      "legacy": "皂糖ᴼ子"
+    },
+    {
+      "root": "saŭriski",
+      "current": "爬虫坐骨",
+      "legacy": "爬虫坐骨"
+    },
+    {
+      "root": "sinartr",
+      "current": "共ˢ节ᴬᴿ",
+      "legacy": "共ˢ节ᴬᴿ"
+    },
+    {
+      "root": "sinost",
+      "current": "共ˢ骨",
+      "legacy": "共ˢ骨"
+    },
+    {
+      "root": "sporozo",
+      "current": "胞子兽ᶻ",
+      "legacy": "胞子兽ᶻ"
+    },
+    {
+      "root": "teleaŭtograf",
+      "current": "远自ᴬ记ᴳ",
+      "legacy": "远自ᴬ记ᴳ"
+    },
+    {
+      "root": "trikromi",
+      "current": "三色ᴷᴵ",
+      "legacy": "三色ᴷᴵ"
+    },
+    {
+      "root": "trirem",
+      "current": "三划ᴿ",
+      "legacy": "三划ᴿ"
+    },
+    {
+      "root": "urgener",
+      "current": "尿ᵁᴿ生ᴳᴿ",
+      "legacy": "尿ᵁᴿ生ᴳᴿ"
+    },
+    {
+      "root": "urogener",
+      "current": "尿ᵁᴼ生ᴳᴿ",
+      "legacy": "尿ᵁᴼ生ᴳᴿ"
+    },
+    {
+      "root": "vulkaniz",
+      "current": "硫ⱽ化",
+      "legacy": "硫ⱽ化"
+    }
+  ],
+  "files": [
+    {
+      "edition": "current",
+      "lang": "JA",
+      "relative_path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+      "before_sha256": "a6ea778ff6e7628b365cf5d84c36dd931ba83321ec33d52d22444df48cfeb4df",
+      "before_bytes": 161708,
+      "before_rows": 10411,
+      "line_ending": "LF",
+      "authority_rows": 10482
+    },
+    {
+      "edition": "current",
+      "lang": "ZH",
+      "relative_path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+      "before_sha256": "a6ea778ff6e7628b365cf5d84c36dd931ba83321ec33d52d22444df48cfeb4df",
+      "before_bytes": 161708,
+      "before_rows": 10411,
+      "line_ending": "LF",
+      "authority_rows": 10482
+    },
+    {
+      "edition": "current",
+      "lang": "KO",
+      "relative_path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+      "before_sha256": "a6ea778ff6e7628b365cf5d84c36dd931ba83321ec33d52d22444df48cfeb4df",
+      "before_bytes": 161708,
+      "before_rows": 10411,
+      "line_ending": "LF",
+      "authority_rows": 10482
+    },
+    {
+      "edition": "legacy",
+      "lang": "JA",
+      "relative_path": "assignment_editions/legacy/JA/kanji.csv",
+      "before_sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+      "before_bytes": 152831,
+      "before_rows": 10409,
+      "line_ending": "LF",
+      "authority_rows": 10480
+    },
+    {
+      "edition": "legacy",
+      "lang": "ZH",
+      "relative_path": "assignment_editions/legacy/ZH/kanji.csv",
+      "before_sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+      "before_bytes": 152831,
+      "before_rows": 10409,
+      "line_ending": "LF",
+      "authority_rows": 10480
+    },
+    {
+      "edition": "legacy",
+      "lang": "KO",
+      "relative_path": "assignment_editions/legacy/KO/kanji.csv",
+      "before_sha256": "d9b7403d7ef73efbcaa2b3c4c1e23988bee7550fa1db3de73485177b4797fc53",
+      "before_bytes": 152831,
+      "before_rows": 10409,
+      "line_ending": "LF",
+      "authority_rows": 10480
+    }
+  ],
+  "canonical_sources": [
+    {
+      "file": "_kanji_map_master.tsv",
+      "sha256": "2cf8073da2897a0da86b80c8704edf9108ca13b7763f2f6ab1ac76172bb751cc",
+      "kind": "current"
+    },
+    {
+      "file": "_identifier_sidecar.tsv",
+      "sha256": "52897bb36531bd3b8bc97b8c8115288954307718bf5a5b58efb48607d85dd212",
+      "kind": "current"
+    },
+    {
+      "file": "_kanji_map_master.tsv",
+      "sha256": "8260593759caf4403e61e88ba54b15eb4486dd499467aff8db95cf8058ec50f8",
+      "kind": "legacy"
+    },
+    {
+      "file": "_identifier_sidecar.tsv",
+      "sha256": "8ee9e27651413f87f1404eb5c328e7ad8ba4bda3be61a442ac9585911a4a9600",
+      "kind": "legacy"
+    }
+  ],
+  "normal_inputs": [
+    "aerosolo",
+    "@aerosol@o",
+    "@aerosolo@",
+    "imperialismo",
+    "@imperialism@o",
+    "akvedukto",
+    "@akvedukt@o",
+    "semajno",
+    "@stalagmito@",
+    "fuzo",
+    "@fuz@o",
+    "%fuzo%"
+  ],
+  "normal_expected": [
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "f用o",
+      "visible": "f用o",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "燃ᶠᶻo",
+      "visible": "燃ᶠᶻo",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "周o",
+      "visible": "周o",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "stalagmito",
+      "visible": "stalagmito",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "气o胶ˢo",
+      "visible": "气o胶ˢo",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "气o唯o",
+      "visible": "气o唯o",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "气o唯ˢᴼ",
+      "visible": "气o唯ˢᴼ",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "水e管ᴰo",
+      "visible": "水e管ᴰo",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "水e管ᴰo",
+      "visible": "水e管ᴰo",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "帝主义o",
+      "visible": "帝主义o",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "顶ᴵ主义o",
+      "visible": "顶ᴵ主义o",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "<ruby>燃ᶠᶻ<rt class=\"XXL_L\">fuz</rt></ruby>o",
+      "visible": "燃ᶠᶻo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "<ruby>燃ᶠᶻ<rt class=\"XXL_L\">fuz</rt></ruby>o",
+      "visible": "燃ᶠᶻo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+      "visible": "周o",
+      "ruby_source": "semajno"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "stalagmito",
+      "visible": "stalagmito",
+      "ruby_source": "stalagmito"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>胶ˢ<rt class=\"XXL_L\">sol</rt></ruby>o",
+      "visible": "气o胶ˢo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>唯<rt class=\"XL_L\">sol</rt></ruby>o",
+      "visible": "气o唯o",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>唯ˢᴼ<rt class=\"XXL_L\">solo</rt></ruby>",
+      "visible": "气o唯ˢᴼ",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "<ruby>水<rt class=\"M_M\">akv</rt></ruby>e<ruby>管ᴰ<rt class=\"L_L\">dukt</rt></ruby>o",
+      "visible": "水e管ᴰo",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "<ruby>水<rt class=\"M_M\">akv</rt></ruby>e<ruby>管ᴰ<rt class=\"L_L\">dukt</rt></ruby>o",
+      "visible": "水e管ᴰo",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "<ruby>帝主义<rt class=\"M_M\">imperialism</rt></ruby>o",
+      "visible": "帝主义o",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "<ruby>顶ᴵ<rt class=\"XXS_S\">impe<br>rial</rt></ruby><ruby>主义<rt class=\"XXL_L\">ism</rt></ruby>o",
+      "visible": "顶ᴵ主义o",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "<ruby>fuz<rt class=\"L_L\">燃焼</rt></ruby>o",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "<ruby>fuz<rt class=\"L_L\">燃焼</rt></ruby>o",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "<ruby>semajn<rt class=\"XXL_L\">週</rt></ruby>o",
+      "visible": "semajno",
+      "ruby_source": "semajno"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "<ruby>stalagmit<rt class=\"XXL_L\">[地]石筍</rt></ruby>o",
+      "visible": "stalagmito",
+      "ruby_source": "stalagmito"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"M_M\">エーロゾル</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"M_M\">エーロゾル</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"M_M\">エーロゾル</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "<ruby>akvedukt<rt class=\"XXL_L\">水道橋</rt></ruby>o",
+      "visible": "akvedukto",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "<ruby>akvedukt<rt class=\"XXL_L\">水道橋</rt></ruby>o",
+      "visible": "akvedukto",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "<ruby>imperialism<rt class=\"XXL_L\">帝国主義</rt></ruby>o",
+      "visible": "imperialismo",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "JA",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "<ruby>imperialism<rt class=\"XXL_L\">帝国主義</rt></ruby>o",
+      "visible": "imperialismo",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "f用o",
+      "visible": "f用o",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "信管o",
+      "visible": "信管o",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "周o",
+      "visible": "周o",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "stalagmito",
+      "visible": "stalagmito",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "气o胶ˢo",
+      "visible": "气o胶ˢo",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "气o唯o",
+      "visible": "气o唯o",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "气o唯ˢᴼ",
+      "visible": "气o唯ˢᴼ",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "水e管ᴰo",
+      "visible": "水e管ᴰo",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "水e管ᴰo",
+      "visible": "水e管ᴰo",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "帝主义o",
+      "visible": "帝主义o",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "顶ᴵ主义o",
+      "visible": "顶ᴵ主义o",
+      "ruby_source": null
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "<ruby>信管<rt class=\"XXL_L\">fuz</rt></ruby>o",
+      "visible": "信管o",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "<ruby>信管<rt class=\"XXL_L\">fuz</rt></ruby>o",
+      "visible": "信管o",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+      "visible": "周o",
+      "ruby_source": "semajno"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "stalagmito",
+      "visible": "stalagmito",
+      "ruby_source": "stalagmito"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>胶ˢ<rt class=\"XXL_L\">sol</rt></ruby>o",
+      "visible": "气o胶ˢo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>唯<rt class=\"XL_L\">sol</rt></ruby>o",
+      "visible": "气o唯o",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>唯ˢᴼ<rt class=\"XXL_L\">solo</rt></ruby>",
+      "visible": "气o唯ˢᴼ",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "<ruby>水<rt class=\"M_M\">akv</rt></ruby>e<ruby>管ᴰ<rt class=\"L_L\">dukt</rt></ruby>o",
+      "visible": "水e管ᴰo",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "<ruby>水<rt class=\"M_M\">akv</rt></ruby>e<ruby>管ᴰ<rt class=\"L_L\">dukt</rt></ruby>o",
+      "visible": "水e管ᴰo",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "<ruby>帝主义<rt class=\"M_M\">imperialism</rt></ruby>o",
+      "visible": "帝主义o",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "<ruby>顶ᴵ<rt class=\"XXS_S\">impe<br>rial</rt></ruby><ruby>主义<rt class=\"XXL_L\">ism</rt></ruby>o",
+      "visible": "顶ᴵ主义o",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "<ruby>fuz<rt class=\"L_L\">燃焼</rt></ruby>o",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "<ruby>fuz<rt class=\"L_L\">燃焼</rt></ruby>o",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "<ruby>semajn<rt class=\"XXL_L\">週</rt></ruby>o",
+      "visible": "semajno",
+      "ruby_source": "semajno"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "<ruby>stalagmit<rt class=\"XXL_L\">[地]石筍</rt></ruby>o",
+      "visible": "stalagmito",
+      "ruby_source": "stalagmito"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"M_M\">エーロゾル</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"M_M\">エーロゾル</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"M_M\">エーロゾル</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "<ruby>akvedukt<rt class=\"XXL_L\">水道橋</rt></ruby>o",
+      "visible": "akvedukto",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "<ruby>akvedukt<rt class=\"XXL_L\">水道橋</rt></ruby>o",
+      "visible": "akvedukto",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "<ruby>imperialism<rt class=\"XXL_L\">帝国主義</rt></ruby>o",
+      "visible": "imperialismo",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "<ruby>imperialism<rt class=\"XXL_L\">帝国主義</rt></ruby>o",
+      "visible": "imperialismo",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "f用o",
+      "visible": "f用o",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "燃ᶠᶻo",
+      "visible": "燃ᶠᶻo",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "周o",
+      "visible": "周o",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "stalagmito",
+      "visible": "stalagmito",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "气o胶ˢo",
+      "visible": "气o胶ˢo",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "气o唯o",
+      "visible": "气o唯o",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "气o唯ˢᴼ",
+      "visible": "气o唯ˢᴼ",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "水e管ᴰo",
+      "visible": "水e管ᴰo",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "水e管ᴰo",
+      "visible": "水e管ᴰo",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "帝主义o",
+      "visible": "帝主义o",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "顶ᴵ主义o",
+      "visible": "顶ᴵ主义o",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "<ruby>燃ᶠᶻ<rt class=\"XXL_L\">fuz</rt></ruby>o",
+      "visible": "燃ᶠᶻo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "<ruby>燃ᶠᶻ<rt class=\"XXL_L\">fuz</rt></ruby>o",
+      "visible": "燃ᶠᶻo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+      "visible": "周o",
+      "ruby_source": "semajno"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "stalagmito",
+      "visible": "stalagmito",
+      "ruby_source": "stalagmito"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>胶ˢ<rt class=\"XXL_L\">sol</rt></ruby>o",
+      "visible": "气o胶ˢo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>唯<rt class=\"XL_L\">sol</rt></ruby>o",
+      "visible": "气o唯o",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>唯ˢᴼ<rt class=\"XXL_L\">solo</rt></ruby>",
+      "visible": "气o唯ˢᴼ",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "<ruby>水<rt class=\"M_M\">akv</rt></ruby>e<ruby>管ᴰ<rt class=\"L_L\">dukt</rt></ruby>o",
+      "visible": "水e管ᴰo",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "<ruby>水<rt class=\"M_M\">akv</rt></ruby>e<ruby>管ᴰ<rt class=\"L_L\">dukt</rt></ruby>o",
+      "visible": "水e管ᴰo",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "<ruby>帝主义<rt class=\"M_M\">imperialism</rt></ruby>o",
+      "visible": "帝主义o",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "<ruby>顶ᴵ<rt class=\"XXS_S\">impe<br>rial</rt></ruby><ruby>主义<rt class=\"XXL_L\">ism</rt></ruby>o",
+      "visible": "顶ᴵ主义o",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "<ruby>fuz<rt class=\"L_L\">燃烧</rt></ruby>o",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "<ruby>fuz<rt class=\"L_L\">燃烧</rt></ruby>o",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "<ruby>semajn<rt class=\"XXL_L\">星期</rt></ruby>o",
+      "visible": "semajno",
+      "ruby_source": "semajno"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "<ruby>stalagmit<rt class=\"XXL_L\">石筍</rt></ruby>o",
+      "visible": "stalagmito",
+      "ruby_source": "stalagmito"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"XXL_L\">气溶胶</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"XXL_L\">气溶胶</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"XXL_L\">气溶胶</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "<ruby>akvedukt<rt class=\"XXL_L\">引水渠</rt></ruby>o",
+      "visible": "akvedukto",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "<ruby>akvedukt<rt class=\"XXL_L\">引水渠</rt></ruby>o",
+      "visible": "akvedukto",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "<ruby>imperialism<rt class=\"XXL_L\">帝国主义</rt></ruby>o",
+      "visible": "imperialismo",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "<ruby>imperialism<rt class=\"XXL_L\">帝国主义</rt></ruby>o",
+      "visible": "imperialismo",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "f用o",
+      "visible": "f用o",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "信管o",
+      "visible": "信管o",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "周o",
+      "visible": "周o",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "stalagmito",
+      "visible": "stalagmito",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "气o胶ˢo",
+      "visible": "气o胶ˢo",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "气o唯o",
+      "visible": "气o唯o",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "气o唯ˢᴼ",
+      "visible": "气o唯ˢᴼ",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "水e管ᴰo",
+      "visible": "水e管ᴰo",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "水e管ᴰo",
+      "visible": "水e管ᴰo",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "帝主义o",
+      "visible": "帝主义o",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "顶ᴵ主义o",
+      "visible": "顶ᴵ主义o",
+      "ruby_source": null
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "<ruby>信管<rt class=\"XXL_L\">fuz</rt></ruby>o",
+      "visible": "信管o",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "<ruby>信管<rt class=\"XXL_L\">fuz</rt></ruby>o",
+      "visible": "信管o",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+      "visible": "周o",
+      "ruby_source": "semajno"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "stalagmito",
+      "visible": "stalagmito",
+      "ruby_source": "stalagmito"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>胶ˢ<rt class=\"XXL_L\">sol</rt></ruby>o",
+      "visible": "气o胶ˢo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>唯<rt class=\"XL_L\">sol</rt></ruby>o",
+      "visible": "气o唯o",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>唯ˢᴼ<rt class=\"XXL_L\">solo</rt></ruby>",
+      "visible": "气o唯ˢᴼ",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "<ruby>水<rt class=\"M_M\">akv</rt></ruby>e<ruby>管ᴰ<rt class=\"L_L\">dukt</rt></ruby>o",
+      "visible": "水e管ᴰo",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "<ruby>水<rt class=\"M_M\">akv</rt></ruby>e<ruby>管ᴰ<rt class=\"L_L\">dukt</rt></ruby>o",
+      "visible": "水e管ᴰo",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "<ruby>帝主义<rt class=\"M_M\">imperialism</rt></ruby>o",
+      "visible": "帝主义o",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "<ruby>顶ᴵ<rt class=\"XXS_S\">impe<br>rial</rt></ruby><ruby>主义<rt class=\"XXL_L\">ism</rt></ruby>o",
+      "visible": "顶ᴵ主义o",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "<ruby>fuz<rt class=\"L_L\">燃烧</rt></ruby>o",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "<ruby>fuz<rt class=\"L_L\">燃烧</rt></ruby>o",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "<ruby>semajn<rt class=\"XXL_L\">星期</rt></ruby>o",
+      "visible": "semajno",
+      "ruby_source": "semajno"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "<ruby>stalagmit<rt class=\"XXL_L\">石筍</rt></ruby>o",
+      "visible": "stalagmito",
+      "ruby_source": "stalagmito"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"XXL_L\">气溶胶</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"XXL_L\">气溶胶</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"XXL_L\">气溶胶</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "<ruby>akvedukt<rt class=\"XXL_L\">引水渠</rt></ruby>o",
+      "visible": "akvedukto",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "<ruby>akvedukt<rt class=\"XXL_L\">引水渠</rt></ruby>o",
+      "visible": "akvedukto",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "<ruby>imperialism<rt class=\"XXL_L\">帝国主义</rt></ruby>o",
+      "visible": "imperialismo",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "<ruby>imperialism<rt class=\"XXL_L\">帝国主义</rt></ruby>o",
+      "visible": "imperialismo",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "f用o",
+      "visible": "f用o",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "燃ᶠᶻo",
+      "visible": "燃ᶠᶻo",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "周o",
+      "visible": "周o",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "stalagmito",
+      "visible": "stalagmito",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "气o胶ˢo",
+      "visible": "气o胶ˢo",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "气o唯o",
+      "visible": "气o唯o",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "气o唯ˢᴼ",
+      "visible": "气o唯ˢᴼ",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "水e管ᴰo",
+      "visible": "水e管ᴰo",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "水e管ᴰo",
+      "visible": "水e管ᴰo",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "帝主义o",
+      "visible": "帝主义o",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "pure",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "顶ᴵ主义o",
+      "visible": "顶ᴵ主义o",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "<ruby>燃ᶠᶻ<rt class=\"XXL_L\">fuz</rt></ruby>o",
+      "visible": "燃ᶠᶻo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "<ruby>燃ᶠᶻ<rt class=\"XXL_L\">fuz</rt></ruby>o",
+      "visible": "燃ᶠᶻo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+      "visible": "周o",
+      "ruby_source": "semajno"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "stalagmito",
+      "visible": "stalagmito",
+      "ruby_source": "stalagmito"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>胶ˢ<rt class=\"XXL_L\">sol</rt></ruby>o",
+      "visible": "气o胶ˢo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>唯<rt class=\"XL_L\">sol</rt></ruby>o",
+      "visible": "气o唯o",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>唯ˢᴼ<rt class=\"XXL_L\">solo</rt></ruby>",
+      "visible": "气o唯ˢᴼ",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "<ruby>水<rt class=\"M_M\">akv</rt></ruby>e<ruby>管ᴰ<rt class=\"L_L\">dukt</rt></ruby>o",
+      "visible": "水e管ᴰo",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "<ruby>水<rt class=\"M_M\">akv</rt></ruby>e<ruby>管ᴰ<rt class=\"L_L\">dukt</rt></ruby>o",
+      "visible": "水e管ᴰo",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "<ruby>帝主义<rt class=\"M_M\">imperialism</rt></ruby>o",
+      "visible": "帝主义o",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "kanji",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "<ruby>顶ᴵ<rt class=\"XXS_S\">impe<br>rial</rt></ruby><ruby>主义<rt class=\"XXL_L\">ism</rt></ruby>o",
+      "visible": "顶ᴵ主义o",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "<ruby>fuz<rt class=\"L_L\">연소</rt></ruby>o",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "<ruby>fuz<rt class=\"L_L\">연소</rt></ruby>o",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "<ruby>semajn<rt class=\"XXL_L\">한 주</rt></ruby>o",
+      "visible": "semajno",
+      "ruby_source": "semajno"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "<ruby>stalagmit<rt class=\"XXL_L\">석순</rt></ruby>o",
+      "visible": "stalagmito",
+      "ruby_source": "stalagmito"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"XXL_L\">에어로졸</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"XXL_L\">에어로졸</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"XXL_L\">에어로졸</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "<ruby>akvedukt<rt class=\"XXL_L\">수로교</rt></ruby>o",
+      "visible": "akvedukto",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "<ruby>akvedukt<rt class=\"XXL_L\">수로교</rt></ruby>o",
+      "visible": "akvedukto",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "<ruby>imperialism<rt class=\"XXL_L\">제국주의</rt></ruby>o",
+      "visible": "imperialismo",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "mode": "ruby",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "<ruby>imperialism<rt class=\"XXL_L\">제국주의</rt></ruby>o",
+      "visible": "imperialismo",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "f用o",
+      "visible": "f用o",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "信管o",
+      "visible": "信管o",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "周o",
+      "visible": "周o",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "stalagmito",
+      "visible": "stalagmito",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "气o胶ˢo",
+      "visible": "气o胶ˢo",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "气o唯o",
+      "visible": "气o唯o",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "气o唯ˢᴼ",
+      "visible": "气o唯ˢᴼ",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "水e管ᴰo",
+      "visible": "水e管ᴰo",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "水e管ᴰo",
+      "visible": "水e管ᴰo",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "帝主义o",
+      "visible": "帝主义o",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "pure",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "顶ᴵ主义o",
+      "visible": "顶ᴵ主义o",
+      "ruby_source": null
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "<ruby>信管<rt class=\"XXL_L\">fuz</rt></ruby>o",
+      "visible": "信管o",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "<ruby>信管<rt class=\"XXL_L\">fuz</rt></ruby>o",
+      "visible": "信管o",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "<ruby>周<rt class=\"XXS_S\">sem<br>ajn</rt></ruby>o",
+      "visible": "周o",
+      "ruby_source": "semajno"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "stalagmito",
+      "visible": "stalagmito",
+      "ruby_source": "stalagmito"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>胶ˢ<rt class=\"XXL_L\">sol</rt></ruby>o",
+      "visible": "气o胶ˢo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>唯<rt class=\"XL_L\">sol</rt></ruby>o",
+      "visible": "气o唯o",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "<ruby>气<rt class=\"L_L\">aer</rt></ruby>o<ruby>唯ˢᴼ<rt class=\"XXL_L\">solo</rt></ruby>",
+      "visible": "气o唯ˢᴼ",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "<ruby>水<rt class=\"M_M\">akv</rt></ruby>e<ruby>管ᴰ<rt class=\"L_L\">dukt</rt></ruby>o",
+      "visible": "水e管ᴰo",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "<ruby>水<rt class=\"M_M\">akv</rt></ruby>e<ruby>管ᴰ<rt class=\"L_L\">dukt</rt></ruby>o",
+      "visible": "水e管ᴰo",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "<ruby>帝主义<rt class=\"M_M\">imperialism</rt></ruby>o",
+      "visible": "帝主义o",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "kanji",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "<ruby>顶ᴵ<rt class=\"XXS_S\">impe<br>rial</rt></ruby><ruby>主义<rt class=\"XXL_L\">ism</rt></ruby>o",
+      "visible": "顶ᴵ主义o",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "fuzo",
+      "source": "fuzo",
+      "output": "<ruby>fuz<rt class=\"L_L\">연소</rt></ruby>o",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@fuz@o",
+      "source": "fuzo",
+      "output": "<ruby>fuz<rt class=\"L_L\">연소</rt></ruby>o",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "semajno",
+      "source": "semajno",
+      "output": "<ruby>semajn<rt class=\"XXL_L\">한 주</rt></ruby>o",
+      "visible": "semajno",
+      "ruby_source": "semajno"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@stalagmito@",
+      "source": "stalagmito",
+      "output": "<ruby>stalagmit<rt class=\"XXL_L\">석순</rt></ruby>o",
+      "visible": "stalagmito",
+      "ruby_source": "stalagmito"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "%fuzo%",
+      "source": "fuzo",
+      "output": "fuzo",
+      "visible": "fuzo",
+      "ruby_source": "fuzo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "aerosolo",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"XXL_L\">에어로졸</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@aerosol@o",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"XXL_L\">에어로졸</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@aerosolo@",
+      "source": "aerosolo",
+      "output": "<ruby>aerosol<rt class=\"XXL_L\">에어로졸</rt></ruby>o",
+      "visible": "aerosolo",
+      "ruby_source": "aerosolo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "akvedukto",
+      "source": "akvedukto",
+      "output": "<ruby>akvedukt<rt class=\"XXL_L\">수로교</rt></ruby>o",
+      "visible": "akvedukto",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@akvedukt@o",
+      "source": "akvedukto",
+      "output": "<ruby>akvedukt<rt class=\"XXL_L\">수로교</rt></ruby>o",
+      "visible": "akvedukto",
+      "ruby_source": "akvedukto"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "imperialismo",
+      "source": "imperialismo",
+      "output": "<ruby>imperialism<rt class=\"XXL_L\">제국주의</rt></ruby>o",
+      "visible": "imperialismo",
+      "ruby_source": "imperialismo"
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "mode": "ruby",
+      "input": "@imperialism@o",
+      "source": "imperialismo",
+      "output": "<ruby>imperialism<rt class=\"XXL_L\">제국주의</rt></ruby>o",
+      "visible": "imperialismo",
+      "ruby_source": "imperialismo"
+    }
+  ],
+  "baseline_manifest_sha256": "7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3",
+  "maintenance": "A future approved current-assignment change must update the current prefix proof and affected expectations explicitly; legacy source authority stays fixed."
+}
