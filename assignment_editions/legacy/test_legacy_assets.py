@@ -17,7 +17,8 @@ import unittest
 import unicodedata
 
 HERE = Path(__file__).resolve().parent
-EXPECTED_MANIFEST = '7ad3381ed0669389d7333ea81f4d6f936af5533b8d729589ee5a15afaa1740a3'
+# CSV-only completion: test_manual_csv_71.py reconstructs all original CSV bytes.
+EXPECTED_MANIFEST = '4e210ed686da8040f017416d0cad10a5df3f9686c57cc3b58c040ddcd191cdda'
 EXPECTED_COMMIT = '4c16c8937c601fdc149ccb8cbba1b6085cc94692'
 EXPECTED_SIDE = '8ee9e27651413f87f1404eb5c328e7ad8ba4bda3be61a442ac9585911a4a9600'
 LOCAL = '局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)'
