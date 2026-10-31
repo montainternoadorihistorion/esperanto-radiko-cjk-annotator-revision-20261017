@@ -824,5 +824,13 @@
     "Corpus agreement covers ruby-bearing surface forms and is not independent linguistic accuracy. Proper-name and legitimate alternate analyses remain among differences.",
     "Runtime comparisons isolate the engine using fixed data; assignment comparisons isolate data using the unchanged previous engine. Final AppTest uses the combined product.",
     "Private historical documents, source dictionaries and pre-existing user edits are preserved."
-  ]
+  ],
+  "historical_csv_test_followup": {
+    "passed": true,
+    "tests_passed": 4,
+    "reason": "Historical byte-preservation comparison needed the 11 newly approved labels in its existing reverse-mapping list.",
+    "production_data_changed": false,
+    "fixed_legacy_checks_preserved": true,
+    "original_byte_count_and_sha256_checks_preserved": true
+  }
 }

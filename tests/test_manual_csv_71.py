@@ -47,7 +47,21 @@ def mapping(raw):
 
 # Later explicitly approved current-edition changes are reversed only for the
 # historical byte-preservation check; the frozen legacy is never normalized.
-LATER_CURRENT_ASSIGNMENTS = {'ligatur': ('结扎', '结ᴸᵀ')}
+LATER_CURRENT_ASSIGNMENTS = {
+    'ligatur': ('结扎', '结ᴸᵀ'),
+    # 2026-11-01 adopted labels and their identifier-only collision owners.
+    'karot': ("胡萝卜", "参ᴷ"),
+    'panak': ("草ᴾᴺ", "参ᴾ"),
+    'ginseng': ("草ᴳᴳ", "参ᴳ"),
+    'karoten': ("萝卜素", "参ᴷ素"),
+    'instig': ("唆", "促ᴵ"),
+    'elegi': ("挽歌", "哀歌"),
+    'delic': ("珍", "悦ᴰ"),
+    'delekt': ("悦ᴰ", "悦ᴰᴷ"),
+    'pense': ("草ᴾˢ", "草ᴾᴺ"),
+    'psilofit': ("草ᴾᶠ", "草ᴾˢ"),
+    'pasiflor': ("草ᴾᴬˢ", "草ᴾᶠ"),
+}
 
 def historical_current_bytes(raw):
     restored, seen = [], set()
