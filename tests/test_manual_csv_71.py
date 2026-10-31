@@ -1,7 +1,8 @@
 """Portable guards for the approved 71-row manual dictionary completion.
 
 The fixture records each edition separately. Removing the added rows must
-reproduce every original CSV byte, not merely its parsed values.
+reproduce every original CSV byte, after reversing explicitly approved later
+current assignments only. Fixed legacy bytes remain untouched.
 """
 from pathlib import Path
 import argparse, csv, gc, hashlib, html, importlib.util, io, json, logging, re
@@ -43,6 +44,28 @@ def mapping(raw):
         raise ValueError('Duplicate normalized root')
     return result
 
+
+# Later explicitly approved current-edition changes are reversed only for the
+# historical byte-preservation check; the frozen legacy is never normalized.
+LATER_CURRENT_ASSIGNMENTS = {'ligatur': ('结扎', '结ᴸᵀ')}
+
+def historical_current_bytes(raw):
+    restored, seen = [], set()
+    for line in raw.splitlines(keepends=True):
+        body = line.rstrip(b'\r\n'); ending = line[len(body):]
+        cells = next(csv.reader([body.decode('utf-8-sig')]))
+        root = norm(cells[0])
+        if root in LATER_CURRENT_ASSIGNMENTS:
+            old, new = LATER_CURRENT_ASSIGNMENTS[root]
+            if root in seen or body.decode('utf-8') != root + ',' + new:
+                raise ValueError('Unexpected later assignment row: ' + root)
+            seen.add(root)
+            line = (root + ',' + old).encode('utf-8') + ending
+        restored.append(line)
+    if seen != set(LATER_CURRENT_ASSIGNMENTS):
+        raise ValueError('Missing later approved current assignment')
+    return b''.join(restored)
+
 def strip_ruby(value):
     return re.sub(r'</?ruby>', '', re.sub(r'<rt[^>]*>.*?</rt>', '', value, flags=re.S))
 
@@ -64,16 +87,18 @@ class ManualCsv71Tests(unittest.TestCase):
             for line in raw.splitlines(keepends=True):
                 root = norm(next(csv.reader([line.decode('utf-8-sig')]))[0])
                 (appended if root in ADDED else retained).append(line)
-            before = b''.join(retained)
+            retained_bytes = b''.join(retained)
+            before = historical_current_bytes(retained_bytes) if item['edition'] == 'current' else retained_bytes
             self.assertEqual(len(before), item['before_bytes'])
             self.assertEqual(hashlib.sha256(before).hexdigest(), item['before_sha256'])
-            self.assertTrue(raw.startswith(before))
+            self.assertTrue(raw.startswith(retained_bytes))
             self.assertEqual(len(appended), 71)
             self.assertEqual(len(rows), item['authority_rows'])
             self.assertEqual(mapping(b''.join(appended)), {r:v[item['edition']] for r,v in ADDED.items()})
             maps[item['edition'], item['lang']] = rows
             REPORT['csv'].append({'edition':item['edition'], 'language':item['lang'],
-                                  'rows':len(rows), 'original_bytes_preserved':True})
+                                  'rows':len(rows), 'original_bytes_reconstructed':True,
+                                  'later_approved_current_changes_reversed':list(LATER_CURRENT_ASSIGNMENTS) if item['edition']=='current' else []})
         for edition in ('current', 'legacy'):
             self.assertEqual(maps[edition,'JA'], maps[edition,'ZH'])
             self.assertEqual(maps[edition,'JA'], maps[edition,'KO'])

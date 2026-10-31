@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "scope": "Complete only the 71 missing manual CSV roots for each current/legacy language edition and synchronize two inverse README appendices. Existing CSV bytes, canonical assignments, identifiers, runtime code, forward JSON, glosses, decompositions and inverse tables remain unchanged.",
+  "scope": "Current ligatur assignment only. Fixed legacy, original glosses, segmentation, unrelated assignments and identifiers, runtime engines and custom JSON behavior preserved. Only fixed legacy and evolving current editions.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -79,8 +79,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 163332,
-      "sha256": "fc3411afe94b7e2d83643d4efd4317945a19a21b660ae1376c914e9f7eaa2cd8"
+      "bytes": 163335,
+      "sha256": "1e312c28306b1a772f6b17de3a08f3f30a0f326aa9d72b89a342a0712f9d4215"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -99,13 +99,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57371996,
-      "sha256": "509aae7b46985b1db4323b969556be5fbfc7805d3330b6284d16b91d64ff3189"
+      "bytes": 57372016,
+      "sha256": "77704d8286a869e564d1299376ba1ced9f8638b7f2241438783f1850917fa771"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21516226,
-      "sha256": "85d245e01d5aae55b0e5483b155547791fcefd86247da550a695097c758eea1f"
+      "bytes": 21516244,
+      "sha256": "27f6712d6017cd1a53755a36cf1fa939b494400c026e14a6af20100e1c47d881"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -214,8 +214,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 163332,
-      "sha256": "fc3411afe94b7e2d83643d4efd4317945a19a21b660ae1376c914e9f7eaa2cd8"
+      "bytes": 163335,
+      "sha256": "1e312c28306b1a772f6b17de3a08f3f30a0f326aa9d72b89a342a0712f9d4215"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -234,8 +234,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57380062,
-      "sha256": "2467d16ca1827321ce40b401e9acc5e27a05d5f3f16f07e2e5e4ba6c9f8b8858"
+      "bytes": 57380082,
+      "sha256": "99a3bb20e174b1d84c3c87948ecedb103824b6e3eae507fe0c8965e89e4741ef"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -349,8 +349,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 163332,
-      "sha256": "fc3411afe94b7e2d83643d4efd4317945a19a21b660ae1376c914e9f7eaa2cd8"
+      "bytes": 163335,
+      "sha256": "1e312c28306b1a772f6b17de3a08f3f30a0f326aa9d72b89a342a0712f9d4215"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -369,8 +369,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57380062,
-      "sha256": "df11267c2bc5b93b4a7ec84193216c61c73c395a740197cc9895a04147b1fc25"
+      "bytes": 57380082,
+      "sha256": "778af3e858c36fcf105f3023e8f78f31e2388ea792fc18de14cac9242b3fd950"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
@@ -571,10 +571,20 @@
       "path": "Esperanto-Reverter-ZH/data/fuz-20261029.json",
       "bytes": 5332,
       "sha256": "e18ea4a3e1aa778f32f38d882736590cae9276797ff422e117e0e352cc36aaf5"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/ligatur-20261031.json",
+      "bytes": 10419,
+      "sha256": "033378d2e81c7dfbb80283414f26a173e5dc88d5f58a66236fc6ee5d0a175a37"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/ligatur-20261031.json",
+      "bytes": 10419,
+      "sha256": "033378d2e81c7dfbb80283414f26a173e5dc88d5f58a66236fc6ee5d0a175a37"
     }
   ],
-  "assignment_revision": "fuz-20261029",
-  "previous_release_commit": "f7205625d1df94f8f7c5da55e3e1e932530a81a7",
+  "assignment_revision": "ligatur-20261031",
+  "previous_release_commit": "d5ad41107e4e0a7b704f6610ffbae3c147bb131d",
   "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
   "feature_revision": "two-editions-20261018",
   "legacy_manifest_sha256": "4e210ed686da8040f017416d0cad10a5df3f9686c57cc3b58c040ddcd191cdda",

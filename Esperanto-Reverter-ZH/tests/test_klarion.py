@@ -48,7 +48,7 @@ def test_only_two_visible_editions_and_no_obsolete_aliases():
 def test_manifest_and_downloads():
  source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
  path=app.ROOT/source['klarion_manifest'];manifest=json.loads(path.read_bytes())
- assert source['revision']=='2026-10-29-fuz'
+ assert source['revision']=='2026-10-31-ligatur'
  assert manifest['revision']=='2026-10-26-klarion'
  assert manifest['changes']=={'klarion':['嘹','军号']}
  assert manifest['safe_reverse_aliases']=={}

@@ -1,0 +1,306 @@
+{
+  "schema": 1,
+  "revision": "2026-10-31-ligatur",
+  "baseline": "5a87a155a03af36fd036ee9d3bf4b611f5099541",
+  "changes": {
+    "ligatur": [
+      "结扎",
+      "结ᴸᵀ"
+    ]
+  },
+  "canonical_sidecar_sha256": "d7a4c2d3f4b7a0aaa8e54eac85a371c74f5c297804345a9155bb12d82d9f098a",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "f4442609ae55255a25803520b379bae1dec9c85d596bb36dbcf4c6e2c344d3f6",
+  "baseline_target_items": {
+    "ligatur": {
+      "prefix": "ligatur",
+      "body": "结扎",
+      "kanji": "结扎",
+      "detail": "ligatur → 结扎 (piv, F=2, 基本形)",
+      "documentation": "語根: ligatur\n入力: ligatur\n最終形: 结扎\n漢字: 结扎\n識別子: なし\n型: piv\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8432",
+      "priority": 0,
+      "sourceRoot": "ligatur",
+      "type": "piv",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8432
+    },
+    "lig": {
+      "prefix": "lig",
+      "body": "结",
+      "kanji": "结",
+      "detail": "lig → 结 (basic, F=49, 基本形)",
+      "documentation": "語根: lig\n入力: lig\n最終形: 结\n漢字: 结\n識別子: なし\n型: basic\nF(汎用性): 49\nグループ数: 7\n基本形: yes\n出典: _identifier_sidecar.tsv:1778",
+      "priority": 0,
+      "sourceRoot": "lig",
+      "type": "basic",
+      "frequency": 49,
+      "base": true,
+      "sourceLine": 1778
+    },
+    "nod": {
+      "prefix": "nod",
+      "body": "结ᴺ",
+      "kanji": "结",
+      "detail": "nod → 结ᴺ (basic, F=18)",
+      "documentation": "語根: nod\n入力: nod\n最終形: 结ᴺ\n漢字: 结\n識別子: n\n型: basic\nF(汎用性): 18\nグループ数: 7\n基本形: no\n出典: _identifier_sidecar.tsv:1779",
+      "priority": 0,
+      "sourceRoot": "nod",
+      "type": "basic",
+      "frequency": 18,
+      "base": false,
+      "sourceLine": 1779
+    },
+    "bant": {
+      "prefix": "bant",
+      "body": "结ᴮ",
+      "kanji": "结",
+      "detail": "bant → 结ᴮ (basic, F=3)",
+      "documentation": "語根: bant\n入力: bant\n最終形: 结ᴮ\n漢字: 结\n識別子: b\n型: basic\nF(汎用性): 3\nグループ数: 7\n基本形: no\n出典: _identifier_sidecar.tsv:1780",
+      "priority": 0,
+      "sourceRoot": "bant",
+      "type": "basic",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 1780
+    },
+    "konklud": {
+      "prefix": "konklud",
+      "body": "结ᴷ",
+      "kanji": "结",
+      "detail": "konklud → 结ᴷ (basic, F=6)",
+      "documentation": "語根: konklud\n入力: konklud\n最終形: 结ᴷ\n漢字: 结\n識別子: k\n型: basic\nF(汎用性): 6\nグループ数: 7\n基本形: no\n出典: _identifier_sidecar.tsv:1781",
+      "priority": 0,
+      "sourceRoot": "konklud",
+      "type": "basic",
+      "frequency": 6,
+      "base": false,
+      "sourceLine": 1781
+    },
+    "tuberkul": {
+      "prefix": "tuberkul",
+      "body": "结ᵀ",
+      "kanji": "结",
+      "detail": "tuberkul → 结ᵀ (pejvo, F=7)",
+      "documentation": "語根: tuberkul\n入力: tuberkul\n最終形: 结ᵀ\n漢字: 结\n識別子: t\n型: pejvo\nF(汎用性): 7\nグループ数: 7\n基本形: no\n出典: _identifier_sidecar.tsv:1782",
+      "priority": 0,
+      "sourceRoot": "tuberkul",
+      "type": "pejvo",
+      "frequency": 7,
+      "base": false,
+      "sourceLine": 1782
+    },
+    "komisur": {
+      "prefix": "komisur",
+      "body": "结ᴷᴹ",
+      "kanji": "结",
+      "detail": "komisur → 结ᴷᴹ (pejvo, F=1)",
+      "documentation": "語根: komisur\n入力: komisur\n最終形: 结ᴷᴹ\n漢字: 结\n識別子: km\n型: pejvo\nF(汎用性): 1\nグループ数: 7\n基本形: no\n出典: _identifier_sidecar.tsv:1783",
+      "priority": 0,
+      "sourceRoot": "komisur",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 1783
+    },
+    "knot": {
+      "prefix": "knot",
+      "body": "结ᴷᵀ",
+      "kanji": "结",
+      "detail": "knot → 结ᴷᵀ (piv, F=1)",
+      "documentation": "語根: knot\n入力: knot\n最終形: 结ᴷᵀ\n漢字: 结\n識別子: kt\n型: piv\nF(汎用性): 1\nグループ数: 7\n基本形: no\n出典: _identifier_sidecar.tsv:1784",
+      "priority": 0,
+      "sourceRoot": "knot",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 1784
+    }
+  },
+  "expected_target_items": {
+    "ligatur": {
+      "prefix": "ligatur",
+      "body": "结ᴸᵀ",
+      "kanji": "结",
+      "detail": "ligatur → 结ᴸᵀ (piv, F=2)",
+      "documentation": "語根: ligatur\n入力: ligatur\n最終形: 结ᴸᵀ\n漢字: 结\n識別子: lt\n型: piv\nF(汎用性): 2\nグループ数: 8\n基本形: no\n出典: _identifier_sidecar.tsv:8432",
+      "priority": 0,
+      "sourceRoot": "ligatur",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 8432
+    },
+    "lig": {
+      "prefix": "lig",
+      "body": "结",
+      "kanji": "结",
+      "detail": "lig → 结 (basic, F=49, 基本形)",
+      "documentation": "語根: lig\n入力: lig\n最終形: 结\n漢字: 结\n識別子: なし\n型: basic\nF(汎用性): 49\nグループ数: 8\n基本形: yes\n出典: _identifier_sidecar.tsv:1778",
+      "priority": 0,
+      "sourceRoot": "lig",
+      "type": "basic",
+      "frequency": 49,
+      "base": true,
+      "sourceLine": 1778
+    },
+    "nod": {
+      "prefix": "nod",
+      "body": "结ᴺ",
+      "kanji": "结",
+      "detail": "nod → 结ᴺ (basic, F=18)",
+      "documentation": "語根: nod\n入力: nod\n最終形: 结ᴺ\n漢字: 结\n識別子: n\n型: basic\nF(汎用性): 18\nグループ数: 8\n基本形: no\n出典: _identifier_sidecar.tsv:1779",
+      "priority": 0,
+      "sourceRoot": "nod",
+      "type": "basic",
+      "frequency": 18,
+      "base": false,
+      "sourceLine": 1779
+    },
+    "bant": {
+      "prefix": "bant",
+      "body": "结ᴮ",
+      "kanji": "结",
+      "detail": "bant → 结ᴮ (basic, F=3)",
+      "documentation": "語根: bant\n入力: bant\n最終形: 结ᴮ\n漢字: 结\n識別子: b\n型: basic\nF(汎用性): 3\nグループ数: 8\n基本形: no\n出典: _identifier_sidecar.tsv:1780",
+      "priority": 0,
+      "sourceRoot": "bant",
+      "type": "basic",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 1780
+    },
+    "konklud": {
+      "prefix": "konklud",
+      "body": "结ᴷ",
+      "kanji": "结",
+      "detail": "konklud → 结ᴷ (basic, F=6)",
+      "documentation": "語根: konklud\n入力: konklud\n最終形: 结ᴷ\n漢字: 结\n識別子: k\n型: basic\nF(汎用性): 6\nグループ数: 8\n基本形: no\n出典: _identifier_sidecar.tsv:1781",
+      "priority": 0,
+      "sourceRoot": "konklud",
+      "type": "basic",
+      "frequency": 6,
+      "base": false,
+      "sourceLine": 1781
+    },
+    "tuberkul": {
+      "prefix": "tuberkul",
+      "body": "结ᵀ",
+      "kanji": "结",
+      "detail": "tuberkul → 结ᵀ (pejvo, F=7)",
+      "documentation": "語根: tuberkul\n入力: tuberkul\n最終形: 结ᵀ\n漢字: 结\n識別子: t\n型: pejvo\nF(汎用性): 7\nグループ数: 8\n基本形: no\n出典: _identifier_sidecar.tsv:1782",
+      "priority": 0,
+      "sourceRoot": "tuberkul",
+      "type": "pejvo",
+      "frequency": 7,
+      "base": false,
+      "sourceLine": 1782
+    },
+    "komisur": {
+      "prefix": "komisur",
+      "body": "结ᴷᴹ",
+      "kanji": "结",
+      "detail": "komisur → 结ᴷᴹ (pejvo, F=1)",
+      "documentation": "語根: komisur\n入力: komisur\n最終形: 结ᴷᴹ\n漢字: 结\n識別子: km\n型: pejvo\nF(汎用性): 1\nグループ数: 8\n基本形: no\n出典: _identifier_sidecar.tsv:1783",
+      "priority": 0,
+      "sourceRoot": "komisur",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 1783
+    },
+    "knot": {
+      "prefix": "knot",
+      "body": "结ᴷᵀ",
+      "kanji": "结",
+      "detail": "knot → 结ᴷᵀ (piv, F=1)",
+      "documentation": "語根: knot\n入力: knot\n最終形: 结ᴷᵀ\n漢字: 结\n識別子: kt\n型: piv\nF(汎用性): 1\nグループ数: 8\n基本形: no\n出典: _identifier_sidecar.tsv:1784",
+      "priority": 0,
+      "sourceRoot": "knot",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 1784
+    }
+  },
+  "unrelated_items_sha256": "e80aaeaee09de59775ef978b9e37731376159acc1855afa0652d0b184df063b3",
+  "unrelated_items_count": 10632,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {
+    "lig": {
+      "group_count": [
+        7,
+        8
+      ]
+    },
+    "nod": {
+      "group_count": [
+        7,
+        8
+      ]
+    },
+    "bant": {
+      "group_count": [
+        7,
+        8
+      ]
+    },
+    "konklud": {
+      "group_count": [
+        7,
+        8
+      ]
+    },
+    "tuberkul": {
+      "group_count": [
+        7,
+        8
+      ]
+    },
+    "komisur": {
+      "group_count": [
+        7,
+        8
+      ]
+    },
+    "knot": {
+      "group_count": [
+        7,
+        8
+      ]
+    }
+  },
+  "metadata_only_changes": {},
+  "preserved_historical_overrides": [],
+  "assignment_unchanged_item_count": 10639,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "ligatur"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "ligatur": "User adopts single representative 结 for binding and ligature. Existing 结=lig and other identifiers stay unchanged; new whole root receives 结ᴸᵀ. Preserve meanings, ordinary and localized decomposition, and fixed legacy."
+  },
+  "preserved_controls": {
+    "结": "lig",
+    "结ᴺ": "nod",
+    "废": "rub",
+    "残船": "vrak",
+    "册ᴱ": "ekzempler",
+    "草ᴾᴺ": "panak",
+    "草ᴳᴳ": "ginseng",
+    "燃ᶠ": "fuel",
+    "燃": "brul"
+  },
+  "explicit_retained": {
+    "vrak": "残船",
+    "ekzempler": "册ᴱ",
+    "panak": "草ᴾᴺ",
+    "ginseng": "草ᴳᴳ"
+  },
+  "shared_spelling": {},
+  "migration_notice": "Only current ligatur changes 结扎 to 结ᴸᵀ. Existing 结=lig and all other owners stay unchanged. Fixed legacy retains 结扎. No old-spelling aliases or intermediate edition added."
+}
