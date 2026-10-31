@@ -173,7 +173,7 @@
       "Whole-root karoten is 参ᴷ素. Existing ordinary karot/en and derivative source boundaries remain unchanged, so ordinary karoteno is 参ᴷeno while @karoteno@ is 参ᴷ素o.",
       "Current data changes only the 11 approved root labels; fixed legacy kanji/pure are unchanged.",
       "No full historical regeneration was run: current authoritative roots and word pieces were replayed through all approved stages in memory.",
-      "Cloud has not yet been operated by this forward subagent. The UI evidence is local real Streamlit AppTest; transport is captured, conversion and session state are real."
+      "The forward component UI evidence is local real Streamlit AppTest. Subsequent actual Cloud verification is recorded separately in adopted_assignments_20261101_cloud/verification.json."
     ]
   },
   "learning_runtime": {
@@ -816,8 +816,8 @@
     "ZH": 508
   },
   "independent_review": "NO_BLOCKING_FINDINGS",
-  "github_required_checks": "PENDING",
-  "cloud_status": "NOT_YET_VERIFIED",
+  "github_required_checks": "SUCCESS",
+  "cloud_status": "CLOUD_SAMPLE_VERIFIED",
   "limitations": [
     "The fixed pre-review edition is preserved. Intermediate updates within the current edition are not separately selectable.",
     "Whole-root karoten=参ᴷ素 and the existing ordinary karot/en spelling are intentionally distinct conversion paths.",
@@ -832,5 +832,19 @@
     "production_data_changed": false,
     "fixed_legacy_checks_preserved": true,
     "original_byte_count_and_sha256_checks_preserved": true
+  },
+  "github_checks": {
+    "head_sha": "6496c006b1dad4375523f14e216ec59d9f7a63bd",
+    "check_count": 6,
+    "record": "adopted_assignments_20261101_cloud/github_checks.json"
+  },
+  "cloud": {
+    "forward_routes": 18,
+    "inverse_routes": 4,
+    "downloads": 26,
+    "verification": "adopted_assignments_20261101_cloud/verification.json",
+    "startup_observations": "adopted_assignments_20261101_cloud/startup_observations.json",
+    "source_merge_commit": "e1a6dcc8d88b4fd41f888c0e33d0abe6fb1d2e34",
+    "internal_running_commit_directly_observed": false
   }
 }

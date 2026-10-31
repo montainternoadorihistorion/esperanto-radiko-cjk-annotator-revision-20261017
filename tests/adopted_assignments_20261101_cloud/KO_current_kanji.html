@@ -1,0 +1,108 @@
+<!-- assignment-edition:current signature:10407de5be8299c621bacc02772030617ec7dfd266ead0b1d377ae3241239546 created-utc:2026-10-31T18:24:59.130647+00:00 -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에스페란토 어근 분해 루비 주석 텍스트</title>
+    <style>
+
+    html, body {
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+  
+      :root {
+        --ruby-color: blue;
+        --ruby-font-size: 0.5em;
+      }
+      html {
+        font-size: 100%; /* 多くのブラウザは16px相当が標準 */
+      }
+
+      .text-M_M {
+        font-size: 1rem!important; 
+        font-family: Arial, sans-serif;
+        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */
+        display: block; /* ブロック要素として扱う */
+        position: relative;
+      }
+  
+      /* ▼ ルビ（フレックスでルビを上に表示） */
+      ruby {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        vertical-align: top !important;
+        line-height: 2.0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 1rem !important;
+      }
+  
+      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */
+      rt {
+        display: block !important;
+        font-size: var(--ruby-font-size);
+        color: var(--ruby-color);
+        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/
+        text-align: center;
+        /* margin-top: 0.2em !important;   
+        transform: translateY(0.4em) !important; */
+      }
+      rt.XXXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }    
+      rt.XXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }
+      rt.XS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -6.1em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.S_S {
+        --ruby-font-size: 0.4em;
+        margin-top: -4.85em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.M_M {
+        --ruby-font-size: 0.5em;
+        margin-top: -4.00em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.L_L {
+        --ruby-font-size: 0.6em; 
+        margin-top: -3.55em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XL_L {
+        --ruby-font-size: 0.7em;
+        margin-top: -3.20em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XXL_L {
+        --ruby-font-size: 0.8em;
+        margin-top: -2.80em !important;
+        transform: translateY(-0.0em) !important;
+      }
+  
+    </style>
+  <meta name="esperanto-ruby-mode" content="kanji">
+</head>
+  <body>
+  <p class="text-M_M">
+<ruby>参ᴷ<rt class="M_M">karot</rt></ruby>o <ruby>参ᴾ<rt class="S_S">panak</rt></ruby>o <ruby>参ᴳ<rt class="XS_S">ginseng</rt></ruby>o <ruby>参ᴷ<rt class="M_M">karot</rt></ruby>eno <ruby>促ᴵ<rt class="S_S">instig</rt></ruby>i <ruby>哀歌<rt class="XXL_L">elegi</rt></ruby>o <ruby>悦ᴰ<rt class="L_L">delic</rt></ruby>a.<br>
+<ruby>参ᴷ<rt class="M_M">karot</rt></ruby>o <ruby>参ᴾ<rt class="S_S">panak</rt></ruby>o <ruby>参ᴳ<rt class="XS_S">ginseng</rt></ruby>o <ruby>参ᴷ素<rt class="L_L">karoten</rt></ruby>o <ruby>促ᴵ<rt class="S_S">instig</rt></ruby>i <ruby>哀歌<rt class="XXL_L">elegi</rt></ruby>o <ruby>悦ᴰ<rt class="L_L">delic</rt></ruby>a<br>
+<ruby>悦ᴰᴷ<rt class="L_L">delekt</rt></ruby>i <ruby>草ᴾᴺ<rt class="L_L">pense</rt></ruby>o <ruby>草ᴾˢ<rt class="M_M">psilofit</rt></ruby>o <ruby>草ᴾᶠ<rt class="S_S">pasiflor</rt></ruby>o; <ruby>悦ᴰᴷ<rt class="L_L">delekt</rt></ruby>i <ruby>草ᴾᴺ<rt class="L_L">pense</rt></ruby>o <ruby>草ᴾˢ<rt class="M_M">psilofit</rt></ruby>o <ruby>草ᴾᶠ<rt class="S_S">pasiflor</rt></ruby>o<br>
+<ruby>参ᴷ<rt class="M_M">karot</rt></ruby>en<ruby>似ᴼ<rt class="XXL_L">oid</rt></ruby>oj beta-<ruby>参ᴷ<rt class="M_M">karot</rt></ruby>eno; <ruby>无ᴬ<rt class="XXL_L">an</rt></ruby><ruby>感ᴱ<rt class="M_M">estez</rt></ruby>i <ruby>车ᶜ̂<rt class="XXL_L">ĉar</rt></ruby>ojn <ruby>车ᶜ̂<rt class="XXL_L">ĉar</rt></ruby><ruby>小<rt class="XXL_L">et</rt></ruby>on<br>
+<ruby>观<rt class="XXS_S">obs<br>erv</rt></ruby><ruby>行<rt class="XXL_L">ad</rt></ruby>on <ruby>向<rt class="XXL_L">al</rt></ruby><ruby>来<rt class="M_M">ven</rt></ruby><ruby>日<rt class="L_L">tag</rt></ruby>o <ruby>程<rt class="XXS_S">prog<br>ram</rt></ruby><ruby>整ᴬ<rt class="M_M">aranĝ</rt></ruby>o <ruby>耳ᴼᵀ<rt class="XXL_L">ot</rt></ruby><ruby>炎ᵀ<rt class="XXL_L">it</rt></ruby>o; <ruby>观<rt class="XXS_S">obs<br>erv</rt></ruby><ruby>行<rt class="XXL_L">ad</rt></ruby>on <ruby>向<rt class="XXL_L">al</rt></ruby><ruby>来<rt class="M_M">ven</rt></ruby><ruby>日<rt class="L_L">tag</rt></ruby>o <ruby>程<rt class="XXS_S">prog<br>ram</rt></ruby><ruby>整ᴬ<rt class="M_M">aranĝ</rt></ruby>o <ruby>耳ᴼᵀ<rt class="XXL_L">ot</rt></ruby><ruby>炎ᵀ<rt class="XXL_L">it</rt></ruby>o<br>
+<ruby>周<rt class="XXS_S">sem<br>ajn</rt></ruby>o <ruby>周<rt class="XXS_S">sem<br>ajn</rt></ruby>o <ruby>丸ᵀ<rt class="M_M">testik</rt></ruby><ruby>炎ᵀ<rt class="XXL_L">it</rt></ruby>o <ruby>兰<rt class="S_S">orkid</rt></ruby><ruby>炎ᵀ<rt class="XXL_L">it</rt></ruby>a<br>
+delica karoteno &amp; <ruby>二<rt class="XXL_L">du</rt></ruby>&nbsp;&nbsp;<ruby>空<rt class="S_S">spac</rt></ruby>oj</p></body></html>

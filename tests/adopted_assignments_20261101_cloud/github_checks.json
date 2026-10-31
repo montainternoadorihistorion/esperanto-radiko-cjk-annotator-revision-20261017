@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "repository": "montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017",
+  "pull_request": 81,
+  "pull_request_url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/81",
+  "head_sha": "6496c006b1dad4375523f14e216ec59d9f7a63bd",
+  "head_verified": true,
+  "pull_request_state_at_verification": "MERGED",
+  "all_checks_success": true,
+  "check_count": 6,
+  "checked_at_utc": "2026-10-31 18:23:16 UTC",
+  "runs": [
+    {
+      "run_id": 41227130969,
+      "event": "push",
+      "head_sha": "6496c006b1dad4375523f14e216ec59d9f7a63bd",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/actions/runs/41227130969",
+      "updated_at": "2026-10-31T18:22:28Z",
+      "jobs": [
+        {
+          "job_id": 124613521005,
+          "name": "test (Esperanto-Reverter-ZH)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/actions/runs/41227130969/job/124613521005"
+        },
+        {
+          "job_id": 124613521094,
+          "name": "test (Esperanto-Reverter-JA)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/actions/runs/41227130969/job/124613521094"
+        },
+        {
+          "job_id": 124613521149,
+          "name": "forward-input-state",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/actions/runs/41227130969/job/124613521149"
+        }
+      ]
+    },
+    {
+      "run_id": 41227139909,
+      "event": "pull_request",
+      "head_sha": "6496c006b1dad4375523f14e216ec59d9f7a63bd",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/actions/runs/41227139909",
+      "updated_at": "2026-10-31T18:22:24Z",
+      "jobs": [
+        {
+          "job_id": 124613548535,
+          "name": "test (Esperanto-Reverter-ZH)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/actions/runs/41227139909/job/124613548535"
+        },
+        {
+          "job_id": 124613548706,
+          "name": "test (Esperanto-Reverter-JA)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/actions/runs/41227139909/job/124613548706"
+        },
+        {
+          "job_id": 124613548804,
+          "name": "forward-input-state",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/actions/runs/41227139909/job/124613548804"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Only the latest-head push and pull_request runs are included.",
+    "Earlier cancelled runs were intentionally excluded.",
+    "Monitoring was read-only; this reviewer did not change code or merge the pull request."
+  ]
+}

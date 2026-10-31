@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-01",
+  "forward": {
+    "JA": {
+      "normal_url": "rendered; six routes verified inside iframe"
+    },
+    "ZH": {
+      "normal_url": "rendered; six routes verified inside iframe"
+    },
+    "KO": {
+      "normal_url": "Cloud wrapper remained loading after reload and revisit",
+      "app_body_url": "six routes verified at observed /~/+/ path"
+    }
+  },
+  "reverse": {
+    "JA": {
+      "normal_url": "rendered before publication; wrapper remained loading on post-publication reload",
+      "app_body_url": "both editions verified at observed /~/+/ path"
+    },
+    "ZH": {
+      "normal_url": "wrapper remained loading before publication",
+      "app_body_url": "both editions verified after publication at observed /~/+/ path"
+    }
+  },
+  "limits": [
+    "Cloud app behavior and downloaded data are verified. Normal wrapper startup is not certified across all browsers.",
+    "No repeated cache-clearing or reboot loop was used."
+  ],
+  "browser": "Chrome"
+}

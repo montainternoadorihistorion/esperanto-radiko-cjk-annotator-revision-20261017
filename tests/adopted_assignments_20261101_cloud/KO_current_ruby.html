@@ -1,0 +1,108 @@
+<!-- assignment-edition:current signature:304371c4d89d7d353fab7fd70fb1733b5b256afd51f0fbe83ce51b4966e7cbf1 created-utc:2026-10-31T18:25:41.265856+00:00 -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에스페란토 어근 분해 루비 주석 텍스트</title>
+    <style>
+
+    html, body {
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+  
+      :root {
+        --ruby-color: blue;
+        --ruby-font-size: 0.5em;
+      }
+      html {
+        font-size: 100%; /* 多くのブラウザは16px相当が標準 */
+      }
+
+      .text-M_M {
+        font-size: 1rem!important; 
+        font-family: Arial, sans-serif;
+        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */
+        display: block; /* ブロック要素として扱う */
+        position: relative;
+      }
+  
+      /* ▼ ルビ（フレックスでルビを上に表示） */
+      ruby {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        vertical-align: top !important;
+        line-height: 2.0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 1rem !important;
+      }
+  
+      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */
+      rt {
+        display: block !important;
+        font-size: var(--ruby-font-size);
+        color: var(--ruby-color);
+        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/
+        text-align: center;
+        /* margin-top: 0.2em !important;   
+        transform: translateY(0.4em) !important; */
+      }
+      rt.XXXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }    
+      rt.XXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }
+      rt.XS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -6.1em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.S_S {
+        --ruby-font-size: 0.4em;
+        margin-top: -4.85em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.M_M {
+        --ruby-font-size: 0.5em;
+        margin-top: -4.00em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.L_L {
+        --ruby-font-size: 0.6em; 
+        margin-top: -3.55em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XL_L {
+        --ruby-font-size: 0.7em;
+        margin-top: -3.20em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XXL_L {
+        --ruby-font-size: 0.8em;
+        margin-top: -2.80em !important;
+        transform: translateY(-0.0em) !important;
+      }
+  
+    </style>
+  <meta name="esperanto-ruby-mode" content="annotation">
+</head>
+  <body>
+  <p class="text-M_M">
+<ruby>karot<rt class="XXL_L">당근</rt></ruby>o <ruby>panak<rt class="XXL_L">인삼속</rt></ruby>o <ruby>ginseng<rt class="XXL_L">인삼</rt></ruby>o <ruby>karoten<rt class="XXL_L">카로틴</rt></ruby>o <ruby>instig<rt class="M_M">부추기다</rt></ruby>i <ruby>elegi<rt class="XXL_L">비가</rt></ruby>o <ruby>delic<rt class="XXL_L">쾌락</rt></ruby>a.<br>
+<ruby>karot<rt class="XXL_L">당근</rt></ruby>o <ruby>panak<rt class="XXL_L">인삼속</rt></ruby>o <ruby>ginseng<rt class="XXL_L">인삼</rt></ruby>o <ruby>karoten<rt class="XXL_L">카로틴</rt></ruby>o <ruby>instig<rt class="M_M">부추기다</rt></ruby>i <ruby>elegi<rt class="XXL_L">애가</rt></ruby>o <ruby>delic<rt class="XXL_L">쾌락</rt></ruby>a<br>
+<ruby>delekt<rt class="XXL_L">즐거움</rt></ruby>i <ruby>pense<rt class="XXL_L">팬지</rt></ruby>o <ruby>psilofit<rt class="S_S">프실로피톤속</rt></ruby>o <ruby>pasiflor<rt class="XL_L">시계꽃속</rt></ruby>o; <ruby>delekt<rt class="XXL_L">즐거움</rt></ruby>i <ruby>pense<rt class="XXL_L">팬지</rt></ruby>o <ruby>psilofit<rt class="S_S">프실로피톤속</rt></ruby>o <ruby>pasiflor<rt class="XL_L">시계꽃속</rt></ruby>o<br>
+<ruby>karoten<rt class="XXL_L">카로틴</rt></ruby><ruby>oid<rt class="L_L">유사</rt></ruby>oj <ruby>beta<rt class="XXL_L">베타</rt></ruby>-<ruby>karoten<rt class="XXL_L">카로틴</rt></ruby>o; <ruby>an<rt class="XXL_L">무</rt></ruby><ruby>estez<rt class="XXL_L">감각</rt></ruby>i <ruby>ĉar<rt class="XXS_S">수레</rt></ruby>ojn <ruby>ĉar<rt class="XXS_S">수레</rt></ruby><ruby>et<rt class="S_S">작음</rt></ruby>on<br>
+<ruby>observ<rt class="XL_L">관찰하다</rt></ruby><ruby>ad<rt class="M_M">지속</rt></ruby>on <ruby>al<rt class="XL_L">로</rt></ruby><ruby>ven<rt class="XL_L">오다</rt></ruby><ruby>tag<rt class="L_L">하루</rt></ruby>o <ruby>program<rt class="XXL_L">프로그램</rt></ruby><ruby>aranĝ<rt class="XXL_L">정리</rt></ruby>o <ruby>ot<rt class="XXL_L">귀</rt></ruby><ruby>it<rt class="S_S">염</rt></ruby>o; <ruby>observ<rt class="XL_L">관찰하다</rt></ruby><ruby>ad<rt class="M_M">지속</rt></ruby>on <ruby>al<rt class="XL_L">로</rt></ruby><ruby>ven<rt class="XL_L">오다</rt></ruby><ruby>tag<rt class="L_L">하루</rt></ruby>o <ruby>program<rt class="XXL_L">프로그램</rt></ruby><ruby>aranĝ<rt class="XXL_L">정리</rt></ruby>o <ruby>ot<rt class="XXL_L">귀</rt></ruby><ruby>it<rt class="S_S">염</rt></ruby>o<br>
+<ruby>semajn<rt class="XXL_L">한 주</rt></ruby>o <ruby>semajn<rt class="XXL_L">주간</rt></ruby>o <ruby>testik<rt class="XXL_L">고환</rt></ruby><ruby>it<rt class="S_S">염</rt></ruby>o <ruby>orkid<rt class="XXL_L">고환</rt></ruby><ruby>it<rt class="S_S">염</rt></ruby>a<br>
+delica karoteno &amp; <ruby>du<rt class="XXL_L">둘</rt></ruby>&nbsp;&nbsp;<ruby>spac<rt class="XXL_L">공간</rt></ruby>oj</p></body></html>
