@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-31",
-  "scope": "Current ligatur assignment only. Fixed legacy, original glosses, segmentation, unrelated assignments and identifiers, runtime engines and custom JSON behavior preserved. Only fixed legacy and evolving current editions.",
+  "date": "2026-11-01",
+  "scope": "Seven approved assignments and four dependent identifiers, plus narrowly scoped bundled-data learning/segmentation repairs and preserved two-character boundaries. Fixed legacy assignments, custom JSON behavior, manual-correction priority and other approved decompositions are preserved.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -79,8 +79,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 163335,
-      "sha256": "1e312c28306b1a772f6b17de3a08f3f30a0f326aa9d72b89a342a0712f9d4215"
+      "bytes": 163333,
+      "sha256": "3b330e8c88fbcff9620076e68b382804e673794c00c712fbe7b9ad0dbfdd9ed0"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -99,13 +99,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57372016,
-      "sha256": "77704d8286a869e564d1299376ba1ced9f8638b7f2241438783f1850917fa771"
+      "bytes": 57372153,
+      "sha256": "c82122b035e420483ce3972a8d6e84bce31be7ff93ad831b5c9856808ce39be2"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21516244,
-      "sha256": "27f6712d6017cd1a53755a36cf1fa939b494400c026e14a6af20100e1c47d881"
+      "bytes": 21516688,
+      "sha256": "9cb41bc86606af1a683b0b536c2f826c45b216cdb82374c52402b0cdaa8791d2"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -129,8 +129,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/esp_text_replacement_module.py",
-      "bytes": 38385,
-      "sha256": "59b0df8b5c2b223c3dc52e27e16483230be58fe406ec888edd90604a5a48bf79"
+      "bytes": 43538,
+      "sha256": "caf1ef849fd44616610351cb3a5fa2ea23d443feb737846577aa2cbf143b0313"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/main.py",
@@ -214,8 +214,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 163335,
-      "sha256": "1e312c28306b1a772f6b17de3a08f3f30a0f326aa9d72b89a342a0712f9d4215"
+      "bytes": 163333,
+      "sha256": "3b330e8c88fbcff9620076e68b382804e673794c00c712fbe7b9ad0dbfdd9ed0"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -234,8 +234,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57380082,
-      "sha256": "99a3bb20e174b1d84c3c87948ecedb103824b6e3eae507fe0c8965e89e4741ef"
+      "bytes": 57380219,
+      "sha256": "76cae9afd38ea4201a4662ab921131e62151dce29143bc537be77551b9385877"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -264,8 +264,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/esp_text_replacement_module.py",
-      "bytes": 32958,
-      "sha256": "915c1cc10823080978a26cb289794a1537dfebd867d9d0b826b84f6684f42011"
+      "bytes": 38172,
+      "sha256": "0f59cd37f8a7df7574edbeb27d8f8a5882873870271fb2edf1a2f353b5628276"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/main.py",
@@ -330,7 +330,7 @@
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/word_anno.json",
       "bytes": 2586979,
-      "sha256": "c469442ac632c00ba4d4d14112617a9133d7e13b26ae3b53bc0df59676226a3d"
+      "sha256": "981adc67806361199aee6569f42008ffc96de11f8f4e5d63de5ad7b968f2dc52"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/エスペラント語根-日本語訳ルビ対応リスト(習得レベル付き).xlsx",
@@ -349,8 +349,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 163335,
-      "sha256": "1e312c28306b1a772f6b17de3a08f3f30a0f326aa9d72b89a342a0712f9d4215"
+      "bytes": 163333,
+      "sha256": "3b330e8c88fbcff9620076e68b382804e673794c00c712fbe7b9ad0dbfdd9ed0"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -365,12 +365,12 @@
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_ルビ.json",
       "bytes": 70266508,
-      "sha256": "a20a2d89b4f9f44a7be82a6a18ee94858a74ea205988f49b0e7c05c2c138e4de"
+      "sha256": "9ab30106695fcb786b60ed49ea0468138506f2df88ce6c316c9c1a6004628bba"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57380082,
-      "sha256": "778af3e858c36fcf105f3023e8f78f31e2388ea792fc18de14cac9242b3fd950"
+      "bytes": 57380219,
+      "sha256": "dcdd9921b5d25541ae3647c9014f9a3583f3902147509d8fe93bf69ae57882f2"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
@@ -389,8 +389,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_text_replacement_module.py",
-      "bytes": 31811,
-      "sha256": "98a28d6771a06d53bb43f36ed009dd9e39049fbc2d5e47986f2de81bd02c3786"
+      "bytes": 37015,
+      "sha256": "8dbdc38308255541feece9a5b271f0631e01c76596b68bf3f91d78dc4b5fc47f"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/main.py",
@@ -406,6 +406,176 @@
       "path": "Esperanto-Kanji-Ruby-ZH/pages/2_📦_最新数据下载.py",
       "bytes": 11677,
       "sha256": "c0919af12d578f9bdb1ec7084ae8adc7155453e73187a467eb654bbb68b53e4c"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/adopted-20261101.json",
+      "bytes": 434482,
+      "sha256": "ef0c56dbf959364b897c8e2fa4bdad97caa8ce5d7cce491e6b3137201d74e982"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/armatur-reeds-20261025.json",
+      "bytes": 426381,
+      "sha256": "351bc4b0060ac10dfd9b5c200bb2d3ac00d6f674a8db8621da4fdf75ea40ce23"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/current_dictionary_source.json",
+      "bytes": 17159,
+      "sha256": "136f706a766b1f2290a6503db69448f1bf6cf329e0819f6a238a3b1cb3c2ad42"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/current_inverse_aliases.json",
+      "bytes": 3868,
+      "sha256": "c8ec1d34ab76aec0548ae2cb6ec6c8138a992bcd334cfed9c97b9952379387bc"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/four-assignments-20261025.json",
+      "bytes": 10317,
+      "sha256": "b1e2617a2037e7f1e85ed1f6a9d450443fb62c98c18daf5a26621515e36883a0"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/fuz-20261029.json",
+      "bytes": 5332,
+      "sha256": "e18ea4a3e1aa778f32f38d882736590cae9276797ff422e117e0e352cc36aaf5"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/klarion-20261026.json",
+      "bytes": 2912,
+      "sha256": "a84185c93b67245c97653bacb16e2d4b5d8a7c6ce445e0416ac74dd731add63e"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/letargi-20261025.json",
+      "bytes": 2755,
+      "sha256": "4d0ca63cb7e556a1f6e92e304a912e9c47090086253a8a116aaf8ae1a3f40578"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/ligatur-20261031.json",
+      "bytes": 10419,
+      "sha256": "033378d2e81c7dfbb80283414f26a173e5dc88d5f58a66236fc6ee5d0a175a37"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/madz-tribord-20261025.json",
+      "bytes": 4908,
+      "sha256": "148bf6bb51d9d891d532a477a375bb7afe945e2d4e9179ee7972046aeea9245f"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/monaco_source_20261017.json",
+      "bytes": 5359708,
+      "sha256": "e8ce0eda1b78dd8c6085c50f05a2e5dfb2999c8491fc8414b96a6a5f115a9418"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/pejvo_piv_20260620_reverter.csv",
+      "bytes": 317783,
+      "sha256": "b24c86fca2253f51b0967350366b602952bf3612890ac20f02db8c662d38352c"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/shmalc-sfeg-20261025.json",
+      "bytes": 133212,
+      "sha256": "3a97022e600ff97e0d770ede395d969fd1f548b88de067fcc76dda76c9733c0e"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/shtip-pensi-sankci-20261024.json",
+      "bytes": 8165,
+      "sha256": "8e7406af9d482302f49ade7779c6916fc9e4182a3b986b9f393b04840f9d9e2d"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/sozi-fobi-20261026.json",
+      "bytes": 17299,
+      "sha256": "d4d9e7b7848d8e069408ee565adbec948d1bf8adbb17703abb505e5b88ec1bbc"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/stal-20261026.json",
+      "bytes": 2768,
+      "sha256": "b122cec0f7672505fc89ff39a6143d71ff80a53bb13478e776cd482954c79193"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/エスペラント語根-漢字対応表_スニペット用最小限.csv",
+      "bytes": 176594,
+      "sha256": "a24dc37d215e84642152a3b6b9bc74a6f3e54d509798e1fae749d6c6d14bfdfd"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/adopted-20261101.json",
+      "bytes": 434482,
+      "sha256": "ef0c56dbf959364b897c8e2fa4bdad97caa8ce5d7cce491e6b3137201d74e982"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/armatur-reeds-20261025.json",
+      "bytes": 426381,
+      "sha256": "351bc4b0060ac10dfd9b5c200bb2d3ac00d6f674a8db8621da4fdf75ea40ce23"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/current_dictionary_source.json",
+      "bytes": 17159,
+      "sha256": "136f706a766b1f2290a6503db69448f1bf6cf329e0819f6a238a3b1cb3c2ad42"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/current_inverse_aliases.json",
+      "bytes": 3868,
+      "sha256": "c8ec1d34ab76aec0548ae2cb6ec6c8138a992bcd334cfed9c97b9952379387bc"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/four-assignments-20261025.json",
+      "bytes": 10317,
+      "sha256": "b1e2617a2037e7f1e85ed1f6a9d450443fb62c98c18daf5a26621515e36883a0"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/fuz-20261029.json",
+      "bytes": 5332,
+      "sha256": "e18ea4a3e1aa778f32f38d882736590cae9276797ff422e117e0e352cc36aaf5"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/klarion-20261026.json",
+      "bytes": 2912,
+      "sha256": "a84185c93b67245c97653bacb16e2d4b5d8a7c6ce445e0416ac74dd731add63e"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/letargi-20261025.json",
+      "bytes": 2755,
+      "sha256": "4d0ca63cb7e556a1f6e92e304a912e9c47090086253a8a116aaf8ae1a3f40578"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/ligatur-20261031.json",
+      "bytes": 10419,
+      "sha256": "033378d2e81c7dfbb80283414f26a173e5dc88d5f58a66236fc6ee5d0a175a37"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/madz-tribord-20261025.json",
+      "bytes": 4908,
+      "sha256": "148bf6bb51d9d891d532a477a375bb7afe945e2d4e9179ee7972046aeea9245f"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/monaco_source_20261017.json",
+      "bytes": 5359708,
+      "sha256": "e8ce0eda1b78dd8c6085c50f05a2e5dfb2999c8491fc8414b96a6a5f115a9418"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/pejvo_piv_20260620_reverter.csv",
+      "bytes": 317783,
+      "sha256": "b24c86fca2253f51b0967350366b602952bf3612890ac20f02db8c662d38352c"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/shmalc-sfeg-20261025.json",
+      "bytes": 133212,
+      "sha256": "3a97022e600ff97e0d770ede395d969fd1f548b88de067fcc76dda76c9733c0e"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/shtip-pensi-sankci-20261024.json",
+      "bytes": 8165,
+      "sha256": "8e7406af9d482302f49ade7779c6916fc9e4182a3b986b9f393b04840f9d9e2d"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/sozi-fobi-20261026.json",
+      "bytes": 17299,
+      "sha256": "d4d9e7b7848d8e069408ee565adbec948d1bf8adbb17703abb505e5b88ec1bbc"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/stal-20261026.json",
+      "bytes": 2768,
+      "sha256": "b122cec0f7672505fc89ff39a6143d71ff80a53bb13478e776cd482954c79193"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/エスペラント語根-漢字対応表_スニペット用最小限.csv",
+      "bytes": 176594,
+      "sha256": "a24dc37d215e84642152a3b6b9bc74a6f3e54d509798e1fae749d6c6d14bfdfd"
     },
     {
       "path": "assignment_editions/README.md",
@@ -471,122 +641,13 @@
       "path": "assignment_editions/legacy/test_legacy_assets.py",
       "bytes": 7786,
       "sha256": "fe7f87b2f0e641dc1d147fa01c30291088c4553386c7ee369eb1eabff8b50206"
-    },
-    {
-      "path": "Esperanto-Reverter-JA/data/shtip-pensi-sankci-20261024.json",
-      "bytes": 8165,
-      "sha256": "8e7406af9d482302f49ade7779c6916fc9e4182a3b986b9f393b04840f9d9e2d"
-    },
-    {
-      "path": "Esperanto-Reverter-ZH/data/shtip-pensi-sankci-20261024.json",
-      "bytes": 8165,
-      "sha256": "8e7406af9d482302f49ade7779c6916fc9e4182a3b986b9f393b04840f9d9e2d"
-    },
-    {
-      "path": "Esperanto-Reverter-JA/data/four-assignments-20261025.json",
-      "bytes": 10317,
-      "sha256": "b1e2617a2037e7f1e85ed1f6a9d450443fb62c98c18daf5a26621515e36883a0"
-    },
-    {
-      "path": "Esperanto-Reverter-ZH/data/four-assignments-20261025.json",
-      "bytes": 10317,
-      "sha256": "b1e2617a2037e7f1e85ed1f6a9d450443fb62c98c18daf5a26621515e36883a0"
-    },
-    {
-      "path": "Esperanto-Reverter-JA/data/armatur-reeds-20261025.json",
-      "bytes": 426381,
-      "sha256": "351bc4b0060ac10dfd9b5c200bb2d3ac00d6f674a8db8621da4fdf75ea40ce23"
-    },
-    {
-      "path": "Esperanto-Reverter-ZH/data/armatur-reeds-20261025.json",
-      "bytes": 426381,
-      "sha256": "351bc4b0060ac10dfd9b5c200bb2d3ac00d6f674a8db8621da4fdf75ea40ce23"
-    },
-    {
-      "path": "Esperanto-Reverter-JA/data/letargi-20261025.json",
-      "bytes": 2755,
-      "sha256": "4d0ca63cb7e556a1f6e92e304a912e9c47090086253a8a116aaf8ae1a3f40578"
-    },
-    {
-      "path": "Esperanto-Reverter-ZH/data/letargi-20261025.json",
-      "bytes": 2755,
-      "sha256": "4d0ca63cb7e556a1f6e92e304a912e9c47090086253a8a116aaf8ae1a3f40578"
-    },
-    {
-      "path": "Esperanto-Reverter-JA/data/madz-tribord-20261025.json",
-      "bytes": 4908,
-      "sha256": "148bf6bb51d9d891d532a477a375bb7afe945e2d4e9179ee7972046aeea9245f"
-    },
-    {
-      "path": "Esperanto-Reverter-ZH/data/madz-tribord-20261025.json",
-      "bytes": 4908,
-      "sha256": "148bf6bb51d9d891d532a477a375bb7afe945e2d4e9179ee7972046aeea9245f"
-    },
-    {
-      "path": "Esperanto-Reverter-JA/data/shmalc-sfeg-20261025.json",
-      "bytes": 133212,
-      "sha256": "3a97022e600ff97e0d770ede395d969fd1f548b88de067fcc76dda76c9733c0e"
-    },
-    {
-      "path": "Esperanto-Reverter-ZH/data/shmalc-sfeg-20261025.json",
-      "bytes": 133212,
-      "sha256": "3a97022e600ff97e0d770ede395d969fd1f548b88de067fcc76dda76c9733c0e"
-    },
-    {
-      "path": "Esperanto-Reverter-JA/data/klarion-20261026.json",
-      "bytes": 2912,
-      "sha256": "a84185c93b67245c97653bacb16e2d4b5d8a7c6ce445e0416ac74dd731add63e"
-    },
-    {
-      "path": "Esperanto-Reverter-ZH/data/klarion-20261026.json",
-      "bytes": 2912,
-      "sha256": "a84185c93b67245c97653bacb16e2d4b5d8a7c6ce445e0416ac74dd731add63e"
-    },
-    {
-      "path": "Esperanto-Reverter-JA/data/sozi-fobi-20261026.json",
-      "bytes": 17299,
-      "sha256": "d4d9e7b7848d8e069408ee565adbec948d1bf8adbb17703abb505e5b88ec1bbc"
-    },
-    {
-      "path": "Esperanto-Reverter-ZH/data/sozi-fobi-20261026.json",
-      "bytes": 17299,
-      "sha256": "d4d9e7b7848d8e069408ee565adbec948d1bf8adbb17703abb505e5b88ec1bbc"
-    },
-    {
-      "path": "Esperanto-Reverter-JA/data/stal-20261026.json",
-      "bytes": 2768,
-      "sha256": "b122cec0f7672505fc89ff39a6143d71ff80a53bb13478e776cd482954c79193"
-    },
-    {
-      "path": "Esperanto-Reverter-ZH/data/stal-20261026.json",
-      "bytes": 2768,
-      "sha256": "b122cec0f7672505fc89ff39a6143d71ff80a53bb13478e776cd482954c79193"
-    },
-    {
-      "path": "Esperanto-Reverter-JA/data/fuz-20261029.json",
-      "bytes": 5332,
-      "sha256": "e18ea4a3e1aa778f32f38d882736590cae9276797ff422e117e0e352cc36aaf5"
-    },
-    {
-      "path": "Esperanto-Reverter-ZH/data/fuz-20261029.json",
-      "bytes": 5332,
-      "sha256": "e18ea4a3e1aa778f32f38d882736590cae9276797ff422e117e0e352cc36aaf5"
-    },
-    {
-      "path": "Esperanto-Reverter-JA/data/ligatur-20261031.json",
-      "bytes": 10419,
-      "sha256": "033378d2e81c7dfbb80283414f26a173e5dc88d5f58a66236fc6ee5d0a175a37"
-    },
-    {
-      "path": "Esperanto-Reverter-ZH/data/ligatur-20261031.json",
-      "bytes": 10419,
-      "sha256": "033378d2e81c7dfbb80283414f26a173e5dc88d5f58a66236fc6ee5d0a175a37"
     }
   ],
-  "assignment_revision": "ligatur-20261031",
-  "previous_release_commit": "d5ad41107e4e0a7b704f6610ffbae3c147bb131d",
+  "assignment_revision": "adopted-20261101",
+  "previous_release_commit": "531b526ee03d440e6327badb2a377d21cb1fe4b3",
   "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
   "feature_revision": "two-editions-20261018",
   "legacy_manifest_sha256": "4e210ed686da8040f017416d0cad10a5df3f9686c57cc3b58c040ddcd191cdda",
-  "manual_dictionary_revision": "manual-csv-71-completion-20261031"
+  "manual_dictionary_revision": "manual-csv-71-completion-20261031",
+  "learning_revision": "reviewed-learning-boundaries-20261101"
 }

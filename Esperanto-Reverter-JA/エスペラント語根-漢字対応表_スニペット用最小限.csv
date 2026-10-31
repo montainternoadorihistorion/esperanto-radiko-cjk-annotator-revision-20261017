@@ -1462,7 +1462,6 @@ knaŭti,草ᴷᵁ̆
 lobeli,草ᴸᴼᴮ
 leŭkoj,草ᴸᵁ̆
 miozot,草ᴹᴵᴼ
-pasiflor,草ᴾᴬˢ
 pankraci,草ᴾᴬᴺ
 parietari,草ᴾᴬᴿ
 patrini,草ᴾᴬᵀ
@@ -1956,6 +1955,7 @@ primar,原ᴾᴿ
 proto,原ᴾᵀ
 tripanosom,原兽ᵀ
 naftil,原油基
+karoten,参ᴷ素
 ĝemin,双ᴳ̂
 brig,双帆船
 reaktor,反应堆
@@ -2254,6 +2254,7 @@ spirometr,息计ᴹ
 malign,恶ᴹᴳ
 mav,恶ᴹⱽ
 ĉagren,恼ᶜ̂
+delekt,悦ᴰᴷ
 platan,悬铃木
 pesimist,悲ᴾ家
 trist,悲ᵀˢ
@@ -3106,7 +3107,6 @@ embrifit,胚植ᶠ
 embrigenez,胚源ᴳ
 cito,胞ᶜᵀ
 citoz,胞ᶜᶻ
-karot,胡萝卜
 pankreas,胰ᴾˢ
 insulin,胰岛素
 pankreatit,胰炎ᵀ
@@ -3257,7 +3257,6 @@ erofil,草ᴱᶠ
 eŭfrazi,草ᴱᶻ
 gosipi,草ᴳˢ
 globulari,草ᴳᴮ
-ginseng,草ᴳᴳ
 glekom,草ᴳᴷ
 galeops,草ᴳᴸ
 gomb,草ᴳᴹ
@@ -3358,7 +3357,7 @@ oksalid,草ᴼᴷ
 oronti,草ᴼᴼ
 opunti,草ᴼᴾ
 oriz,草ᴼᴿ
-pense,草ᴾˢ
+psilofit,草ᴾˢ
 patienc,草ᴾᴬ
 pedali,草ᴾᴰ
 potentil,草ᴾᴱ
@@ -3368,14 +3367,14 @@ perilj,草ᴾᴶ
 pankrati,草ᴾᴷ
 plumbag,草ᴾᴸ
 polemoni,草ᴾᴹ
-panak,草ᴾᴺ
+pense,草ᴾᴺ
 poliant,草ᴾᴼ
 papav,草ᴾᴾ
 paris,草ᴾᴿ
 pejotl,草ᴾᵀ
 portulak,草ᴾᵁ
 pecaj,草ᴾᶜ
-psilofit,草ᴾᶠ
+pasiflor,草ᴾᶠ
 pozidoni,草ᴾᶻ
 papaver,草ᴾⱽ
 rafanistr,草ᴿˢ
@@ -3579,7 +3578,6 @@ lunari,菜ᴸᴺ
 lap,菜ᴸᴾ
 jakv,菠萝蜜
 romboedr,菱面ᴱ
-karoten,萝卜素
 luciol,萤ᴸᶜ
 batalion,营ᴮᵀ
 kantonment,营ᴷᴺ
@@ -4621,6 +4619,7 @@ insult,侮ᴵ
 markiz,侯ᴹ
 konstip,便秘
 negliĝ,便袍
+instig,促ᴵ
 forc,促ᶠ
 sekular,俗ˢ
 banal,俗ᴮ
@@ -5041,6 +5040,9 @@ naft,原油
 ur,原牛
 kupe,厢ᴷ
 kastr,去势
+ginseng,参ᴳ
+karot,参ᴷ
+panak,参ᴾ
 referenc,参ᴿ
 bifid,叉ᴮ
 dikotom,叉ᴰ
@@ -5164,6 +5166,7 @@ ekspektor,咳痰
 angin,咽炎
 lament,哀ᴸ
 ve,哀ⱽ
+elegi,哀歌
 sortiment,品类
 ranc,哈喇
 bac,响ᴮ
@@ -5753,7 +5756,7 @@ kanajl,恶棍
 meger,悍妇
 kontrici,悔ᴷ
 rimors,悔ᴿ
-delekt,悦ᴰ
+delic,悦ᴰ
 pesim,悲ᴾ
 tragedi,悲ᵀ
 afekci,情ᴬ
@@ -5872,7 +5875,6 @@ drag,挖泥
 volatil,挥发
 kontuz,挫伤
 oscil,振ᴼ
-elegi,挽歌
 averi,损ᴬ
 kompromit,损ᴷ
 permut,换ᴾ
@@ -8929,7 +8931,6 @@ mut,哑
 plor,哭
 filozof,哲
 ronk,哼
-instig,唆
 lip,唇
 sol,唯
 kant,唱
@@ -9780,7 +9781,6 @@ roz,玫
 ring,环
 nun,现
 vitr,玻
-delic,珍
 perl,珠
 pilk,球
 prav,理

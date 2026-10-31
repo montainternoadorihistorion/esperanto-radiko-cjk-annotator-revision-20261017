@@ -8,7 +8,7 @@ from html_source_recovery import recover_standard_html
 CURRENT='pejvo-piv-20260620'; OLD='pre-las-20261017'
 CHANGES={'ligatur':('结扎','结ᴸᵀ')}
 LEGACY_BODIES={'ligatur':'结扎'}
-CONTROLS={'结':'lig','结ᴺ':'nod','结ᴮ':'bant','结ᴷ':'konklud','结ᵀ':'tuberkul','结ᴷᴹ':'komisur','结ᴷᵀ':'knot','残船':'vrak','册ᴱ':'ekzempler','草ᴾᴺ':'panak','草ᴳᴳ':'ginseng'}
+CONTROLS={'结':'lig','结ᴺ':'nod','结ᴮ':'bant','结ᴷ':'konklud','结ᵀ':'tuberkul','结ᴷᴹ':'komisur','结ᴷᵀ':'knot','残船':'vrak','册ᴱ':'ekzempler'}
 SUFFIXES=('', 'o','oj','on','ojn','a','aj','an','ajn','e','i','as','is','os','us','u','ado','ita','intajn','igi','ĉjo')
 def index(source):
  return app.build_mapping_index_cached(app.effective_mapping_records(source,app.load_dictionary_source(source)))
@@ -49,7 +49,8 @@ def test_only_two_visible_editions_and_no_obsolete_aliases():
 def test_manifest_and_downloads():
  source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
  path=app.ROOT/source['ligatur_manifest'];manifest=json.loads(path.read_bytes())
- assert source['revision']==manifest['revision']=='2026-10-31-ligatur'
+ assert source['revision']=='2026-11-01-adopted'
+ assert manifest['revision']=='2026-10-31-ligatur'
  assert manifest['changes']=={root:list(pair) for root,pair in CHANGES.items()}
  assert manifest['safe_reverse_aliases']=={}
  assert manifest['ownership_transfers']=={}

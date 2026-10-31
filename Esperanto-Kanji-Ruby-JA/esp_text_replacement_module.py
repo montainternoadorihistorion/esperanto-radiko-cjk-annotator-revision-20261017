@@ -211,6 +211,95 @@ def _reviewed_local_renderings(payloads, local_rules, enabled=False):
                   + _REVIEWED_LOCAL_DECOMPOSITIONS[word][-1] for word in wanted}}
 
 
+# These repairs are restricted to reviewed whole words and their ordinary
+# endings. They do not change root tables, custom JSON, arbitrary compounds,
+# or the conjunction 'ĉar'. All kanji/identifiers come from the selected data.
+_REVIEWED_WORD_STEMS = {
+    'anestez': ('anestez',),
+    'ĉar': ('ĉaro',),
+    'ĉaret': ('ĉareto',),
+    'observad': ('observad',),
+    'alventag': ('alven', 'tag'),
+    'programaranĝ': ('program', 'aranĝ'),
+    'otit': ('otit',),
+}
+_REVIEWED_WORD_FORMS = {
+    form: (stem, ending, case)
+    for stem in _REVIEWED_WORD_STEMS
+    for ending in (('', 'o', 'oj', 'on', 'ojn', 'a', 'aj', 'an', 'ajn',
+                    'e', 'en', 'i', 'as', 'is', 'os', 'us', 'u')
+                   if stem == 'anestez' else ('o', 'oj', 'on', 'ojn'))
+    for case, form in enumerate((stem + ending, (stem + ending).capitalize(),
+                                 (stem + ending).upper()))
+}
+_REVIEWED_NORMAL_FORMS = frozenset(
+    word for word, (stem, _, _) in _REVIEWED_WORD_FORMS.items()
+    if stem in {'observad', 'alventag', 'programaranĝ'}
+)
+_REVIEWED_NORMAL_PATTERN = re.compile(
+    r'(?<!\w)(' + '|'.join(sorted(map(re.escape, _REVIEWED_NORMAL_FORMS),
+                                   key=len, reverse=True)) + r')(?!\w)'
+)
+_REVIEWED_CART_GLOSS = '車'
+
+
+def _reviewed_word_renderings(payloads, global_rules, enabled=False):
+    wanted = set(payloads) & _REVIEWED_WORD_FORMS.keys() if enabled else set()
+    if not wanted:
+        return {}
+
+    # merge_overlay gives explicit corrections their own $9NNNNNN$ tokens.
+    # Preserve a user's exact-word decision before applying the bundled repair.
+    overrides = {}
+    for old, new, placeholder in global_rules:
+        key = old.strip(' ')
+        if key in wanted and re.fullmatch(r'\$9\d{6}\$', placeholder.strip(' ')):
+            overrides.setdefault(key, new.strip(' '))
+    wanted -= overrides.keys()
+    if not wanted:
+        return overrides
+
+    def case_root(root, case, first):
+        return root.upper() if case == 2 else root.capitalize() if case == 1 and first else root
+
+    needed = {case_root(root, case, index == 0)
+              for word in wanted
+              for stem, _, case in (_REVIEWED_WORD_FORMS[word],)
+              for index, root in enumerate(_REVIEWED_WORD_STEMS[stem])}
+    atoms = {}
+    # First matching rule is the same priority used by normal conversion.
+    for old, new, _ in global_rules:
+        key = old.strip(' ')
+        if key in needed and key not in atoms:
+            atoms[key] = new.strip(' ')
+    missing = needed - atoms.keys()
+    if missing:
+        raise ValueError('Missing reviewed word atoms: ' + repr(sorted(missing)))
+
+    results = dict(overrides)
+    for word in wanted:
+        stem, ending, case = _REVIEWED_WORD_FORMS[word]
+        pieces = []
+        for index, root in enumerate(_REVIEWED_WORD_STEMS[stem]):
+            key = case_root(root, case, index == 0)
+            piece = atoms[key]
+            if root in {'ĉaro', 'ĉareto'}:
+                noun_ending = 'O' if case == 2 else 'o'
+                if not piece.endswith(noun_ending):
+                    raise ValueError('Reviewed cart noun lacks its literal ending: ' + key)
+                piece = piece[:-1]
+                # Annotation mode has the Esperanto root as the ruby base.
+                # Kanji ruby has the kanji base and is therefore left intact.
+                piece = re.sub(
+                    r'(<ruby\b[^>]*>\s*ĉar\s*<rt\b[^>]*>).*?(</rt\s*>)',
+                    lambda match: match[1] + _REVIEWED_CART_GLOSS + match[2],
+                    piece, flags=re.I | re.S,
+                )
+            pieces.append(piece)
+        results[word] = ''.join(pieces) + (ending.upper() if case == 2 else ending)
+    return results
+
+
 def _render_localized_payload(payload, local_rules, finalized, reviewed, escape):
     if payload in reviewed:
         return reviewed[payload]
@@ -232,6 +321,7 @@ def _protect_input_regions(text, skip_tokens, local_tokens, local_rules,
     finalized = _finalized_global_renderings_for_exact_matches(payloads, global_rules)
 
     reviewed = _reviewed_local_renderings(payloads, local_rules, reviewed_local_decompositions)
+    reviewed.update(_reviewed_word_renderings(payloads, global_rules, reviewed_local_decompositions))
 
     def render_local(payload):
         return _render_localized_payload(payload, local_rules, finalized, reviewed, escape)
@@ -239,7 +329,24 @@ def _protect_input_regions(text, skip_tokens, local_tokens, local_rules,
     text, localized = _capture_marker_spans(
         text, matches, _marker_tokens(local_tokens, '@', source, used), render_local,
     )
-    return escape(text), localized, skipped
+    normal_matches = list(_REVIEWED_NORMAL_PATTERN.finditer(text)) if reviewed_local_decompositions else []
+    # Do not pre-empt a longer explicit correction (including a legacy phrase
+    # entry) by capturing a reviewed word inside its input span.
+    if normal_matches:
+        for old, _, placeholder in global_rules:
+            if old.strip(' ') and re.fullmatch(r'\$9\d{6}\$', placeholder.strip(' ')):
+                for manual in re.finditer(re.escape(old.strip(' ')), text):
+                    normal_matches = [match for match in normal_matches
+                                      if match.end() <= manual.start() or match.start() >= manual.end()]
+            if not normal_matches:
+                break
+    normal_renderings = _reviewed_word_renderings(
+        [match.group(1) for match in normal_matches], global_rules, reviewed_local_decompositions
+    )
+    text, corrected = _capture_marker_spans(
+        text, normal_matches, _marker_tokens([], '@', source, used), normal_renderings.__getitem__,
+    )
+    return escape(text), localized + corrected, skipped
 
 # @...@ intentionally has its own, often broader, gloss semantics (for
 # example @kaj@ means "と;そして" while the global word means "と").  Exact
@@ -318,6 +425,9 @@ def create_replacements_list_for_localized_replacement(text, placeholders: List[
     reviewed = _reviewed_local_renderings(
         matches, replacements_list_for_localized_string, reviewed_local_decompositions
     )
+    reviewed.update(_reviewed_word_renderings(
+        matches, replacements_final_list or [], reviewed_local_decompositions
+    ))
     tmp_replacements_list_for_localized_string = []
     # プレースホルダーとマッチを対応させる
     for i, match in enumerate(matches):
@@ -354,7 +464,7 @@ def orchestrate_comprehensive_esperanto_text_replacement(
       3) %...% で囲まれた部分を置換スキップ (placeholders_for_skipping_replacements で保護)
       4) @...@ で囲まれた部分を局所置換 (replacements_list_for_localized_string)
       5) 大域置換 (replacements_final_list)
-      6) 二文字語根の置換を2回実施 (replacements_list_for_2char)
+      6) 二文字語根の置換を最大12回実施 (replacements_list_for_2char)
       7) プレースホルダーの復元
       8) もし format_type に "HTML" が含まれるなら、空白' 'や改行'\n'について、HTML形式用に変換
 
@@ -473,18 +583,20 @@ def orchestrate_comprehensive_esperanto_text_replacement(
                     text = text.replace(_p_old, placeholder)
                 _remember_global_replacement(placeholder, new)
     # 6) 2文字語根の置換。Placeholderに隣接した2文字語根のみ置換する設計(202412)。
-    #    旧実装は固定2周(2回)だったが、3つ以上連続する2文字接辞(例: san/ig/ej/et, lern/ej/et/ar)を
-    #    取りこぼし、偽語根(jet=ジェット機, tar=風袋, jar=年 等)を生んでいた。
-    #    → 「マッチしなくなるまで反復(fixpoint)」へ一般化。各ラウンドは "!" の数で一意化し、
-    #      round0 は旧pass1・round1 は旧pass2 と完全に後方互換(2周以内の挙動は不変)。
+    #    通常置換のプレースホルダーを境界として、未処理の短語根を順に拾う。
+    #    通常置換で既に確定した分解はここでは変更しない。
+    #    同梱データでは周回識別子を $ の内側へ置き、次の隣接語根の境界を保つ。
+    #    自作JSONは従来の配置を維持する。反復上限は12周のまま。
     two_char_rounds = []
     _round = 0
     while _round < 12:  # 安全上限(通常2〜3ラウンドで収束)
         _d = {}
-        _mk = "!" * _round  # round0="" (旧pass1と同一), round1="!" (旧pass2と同一), ...
+        _mk = "!" * _round  # 周回ごとの一意化。配置は同梱/自作JSONで下記のとおり区別。
         for old, new, placeholder in replacements_list_for_2char:
             if old in text:
-                ph = _mk + placeholder + _mk
+                ph = (re.sub(r"(\$+)(?=\d)", lambda match: match[1] + _mk,
+                             placeholder, count=1) if reviewed_local_decompositions
+                      else _mk + placeholder + _mk)
                 text = text.replace(old, ph)
                 _d[ph] = new
         if not _d:

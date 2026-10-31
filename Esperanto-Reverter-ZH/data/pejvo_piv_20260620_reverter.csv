@@ -1463,7 +1463,6 @@ knaŭti,草ᴷᵁ̆,0,knau^ti,2368
 lobeli,草ᴸᴼᴮ,0,lobeli,2234
 leŭkoj,草ᴸᵁ̆,0,leu^koj,2375
 miozot,草ᴹᴵᴼ,0,miozot,2235
-pasiflor,草ᴾᴬˢ,0,pasiflor,2486
 pankraci,草ᴾᴬᴺ,0,pankraci,2570
 parietari,草ᴾᴬᴿ,0,parietari,2524
 patrini,草ᴾᴬᵀ,0,patrini,2249
@@ -1957,6 +1956,7 @@ primar,原ᴾᴿ,0,primar,268
 proto,原ᴾᵀ,0,proto,267
 tripanosom,原兽ᵀ,0,tripanosom,7471
 naftil,原油基,0,naftil,10447
+karoten,参ᴷ素,0,karoten,7255
 ĝemin,双ᴳ̂,0,g^emin,282
 brig,双帆船,0,brig,7284
 reaktor,反应堆,0,reaktor,6456
@@ -2255,6 +2255,7 @@ spirometr,息计ᴹ,0,spirometr,10040
 malign,恶ᴹᴳ,0,malign,5756
 mav,恶ᴹⱽ,0,mav,5757
 ĉagren,恼ᶜ̂,0,ĉagren,4258
+delekt,悦ᴰᴷ,0,delekt,1904
 platan,悬铃木,0,platan,5897
 pesimist,悲ᴾ家,0,pesimist,9844
 trist,悲ᵀˢ,0,trist,4930
@@ -3107,7 +3108,6 @@ embrifit,胚植ᶠ,0,embrifit,9058
 embrigenez,胚源ᴳ,0,embrigenez,9060
 cito,胞ᶜᵀ,0,cito,4966
 citoz,胞ᶜᶻ,0,citoz,4967
-karot,胡萝卜,0,karot,3982
 pankreas,胰ᴾˢ,0,pankreas,6749
 insulin,胰岛素,0,insulin,6936
 pankreatit,胰炎ᵀ,0,pankreatit,9805
@@ -3258,7 +3258,6 @@ erofil,草ᴱᶠ,0,erofil,2355
 eŭfrazi,草ᴱᶻ,0,eu^frazi,2414
 gosipi,草ᴳˢ,0,gosipi,2359
 globulari,草ᴳᴮ,0,globulari,2260
-ginseng,草ᴳᴳ,0,ginseng,2420
 glekom,草ᴳᴷ,0,glekom,2230
 galeops,草ᴳᴸ,0,galeops,2418
 gomb,草ᴳᴹ,0,gomb,2285
@@ -3359,7 +3358,7 @@ oksalid,草ᴼᴷ,0,oksalid,2248
 oronti,草ᴼᴼ,0,oronti,2388
 opunti,草ᴼᴾ,0,opunti,2387
 oriz,草ᴼᴿ,0,oriz,2295
-pense,草ᴾˢ,0,pense,2330
+psilofit,草ᴾˢ,0,psilofit,2451
 patienc,草ᴾᴬ,0,patienc,2449
 pedali,草ᴾᴰ,0,pedali,2389
 potentil,草ᴾᴱ,0,potentil,2489
@@ -3369,14 +3368,14 @@ perilj,草ᴾᴶ,0,perilj,2391
 pankrati,草ᴾᴷ,0,pankrati,2484
 plumbag,草ᴾᴸ,0,plumbag,2437
 polemoni,草ᴾᴹ,0,polemoni,2487
-panak,草ᴾᴺ,0,panak,2328
+pense,草ᴾᴺ,0,pense,2330
 poliant,草ᴾᴼ,0,poliant,2438
 papav,草ᴾᴾ,0,papav,2195
 paris,草ᴾᴿ,0,paris,2303
 pejotl,草ᴾᵀ,0,pejotl,2390
 portulak,草ᴾᵁ,0,portulak,2488
 pecaj,草ᴾᶜ,0,pecaj,2329
-psilofit,草ᴾᶠ,0,psilofit,2451
+pasiflor,草ᴾᶠ,0,pasiflor,2486
 pozidoni,草ᴾᶻ,0,pozidoni,2490
 papaver,草ᴾⱽ,0,papaver,2436
 rafanistr,草ᴿˢ,0,rafanistr,2532
@@ -3580,7 +3579,6 @@ lunari,菜ᴸᴺ,0,lunari,3091
 lap,菜ᴸᴾ,0,lap,3083
 jakv,菠萝蜜,0,jakv,reverse-alias:20261017
 romboedr,菱面ᴱ,0,romboedr,9968
-karoten,萝卜素,0,karoten,7255
 luciol,萤ᴸᶜ,0,luciol,8071
 batalion,营ᴮᵀ,0,batalion,6947
 kantonment,营ᴷᴺ,0,kantonment,6946
@@ -4622,6 +4620,7 @@ insult,侮ᴵ,0,insult,4341
 markiz,侯ᴹ,0,markiz,5302
 konstip,便秘,0,konstip,6798
 negliĝ,便袍,0,neglig^,8299
+instig,促ᴵ,0,instig,4339
 forc,促ᶠ,0,forc,4184
 sekular,俗ˢ,0,sekular,3483
 banal,俗ᴮ,0,banal,3478
@@ -5042,6 +5041,9 @@ naft,原油,0,naft,6968
 ur,原牛,0,ur,7387
 kupe,厢ᴷ,0,kupe,2109
 kastr,去势,0,kastr,7132
+ginseng,参ᴳ,0,ginseng,2420
+karot,参ᴷ,0,karot,3982
+panak,参ᴾ,0,panak,2328
 referenc,参ᴿ,0,referenc,5177
 bifid,叉ᴮ,0,bifid,2998
 dikotom,叉ᴰ,0,dikotom,2999
@@ -5165,6 +5167,7 @@ ekspektor,咳痰,0,ekspektor,8531
 angin,咽炎,0,angin,7713
 lament,哀ᴸ,0,lament,4835
 ve,哀ⱽ,0,ve,4834
+elegi,哀歌,0,elegi,8114
 sortiment,品类,0,sortiment,7472
 ranc,哈喇,0,ranc,reverse-alias:20261017
 bac,响ᴮ,0,bac,2892
@@ -5754,7 +5757,7 @@ kanajl,恶棍,0,kanajl,6547
 meger,悍妇,0,meger,reverse-alias:20261017
 kontrici,悔ᴷ,0,kontrici,4681
 rimors,悔ᴿ,0,rimors,4680
-delekt,悦ᴰ,0,delekt,1904
+delic,悦ᴰ,0,delic,8052
 pesim,悲ᴾ,0,pesim,4929
 tragedi,悲ᵀ,0,tragedi,4927
 afekci,情ᴬ,0,afekci,3417
@@ -5873,7 +5876,6 @@ drag,挖泥,0,drag,6830
 volatil,挥发,0,volatil,7398
 kontuz,挫伤,0,kontuz,6735
 oscil,振ᴼ,0,oscil,6061
-elegi,挽歌,0,elegi,8114
 averi,损ᴬ,0,averi,3330
 kompromit,损ᴷ,0,kompromit,3329
 permut,换ᴾ,0,permut,6186
@@ -8930,7 +8932,6 @@ mut,哑,0,mut,3488
 plor,哭,0,plor,1809
 filozof,哲,0,filozof,4739
 ronk,哼,0,ronk,4366
-instig,唆,0,instig,4339
 lip,唇,0,lip,3095
 sol,唯,0,sol,1350
 kant,唱,0,kant,1221
@@ -9781,7 +9782,6 @@ roz,玫,0,roz,2081
 ring,环,0,ring,3534
 nun,现,0,nun,705
 vitr,玻,0,vitr,2113
-delic,珍,0,delic,8052
 perl,珠,0,perl,5281
 pilk,球,0,pilk,3151
 prav,理,0,prav,2072
