@@ -12,7 +12,7 @@ ROOT=Path(__file__).resolve().parent.parent
 CSV='世界语词根-汉字对应列表_参照2新割当_7791.csv'
 CURRENT={'ligatur':'结ᴸᵀ'}
 LEGACY={'ligatur':'结扎'}
-KEEPS={"lig":"结","nod":"结ᴺ","bant":"结ᴮ","konklud":"结ᴷ","vrak":"残船","ekzempler":"册ᴱ","panak":"草ᴾᴺ","ginseng":"草ᴳᴳ","fuz":"燃ᶠᶻ","fuel":"燃ᶠ","brul":"燃","fuzi":"聚变","semajn":"周"}
+KEEPS={"lig":"结","nod":"结ᴺ","bant":"结ᴮ","konklud":"结ᴷ","vrak":"残船","ekzempler":"册ᴱ","panak":"参ᴾ","ginseng":"参ᴳ","fuz":"燃ᶠᶻ","fuel":"燃ᶠ","brul":"燃","fuzi":"聚变","semajn":"周"}
 LEGACY_SHA={'JA':'215f0c297bf73efe29f4b323a982adb63a181d42e202dbed63f52c954baeb0fe',
             'ZH':'f05e779677489ebcf5d00b00389e841eb89cc8bf7af87bbf1d1e65309c0fd594',
             'KO':'8005ecf215185aa8fe9b8f482305f9fb1ec17aaf0d1c9c4fbbbb7928ef97508c'}

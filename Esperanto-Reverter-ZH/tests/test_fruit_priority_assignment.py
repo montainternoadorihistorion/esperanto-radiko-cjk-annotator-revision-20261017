@@ -24,6 +24,9 @@ def test_current_and_historical_fruit_forms_with_longest_match(source_id):
         "先知o 先例o 先例ᴾᵀo": "profeto precedenco precedento",
         "放i 放ᴱo": "lasi emancipo", "菠蜜o 菠o 蜜o": "jakvo ananaso mielo",
     }
+    if source_id in ('pejvo-piv-20260620','legacy-minimal'):  # both read the current generated tables
+        controls.pop('胡萝卜o'); controls.pop('萝卜素o')
+        controls.update({'参ᴷo':'karoto', '参ᴷ素o':'karoteno'})
     for text, expected in controls.items():
         assert app.convert_kanji_esperanto_to_alphabet(text, index) == expected
 

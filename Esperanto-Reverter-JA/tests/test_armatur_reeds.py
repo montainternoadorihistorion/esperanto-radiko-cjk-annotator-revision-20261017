@@ -57,7 +57,7 @@ def test_no_intermediate_profile_or_ambiguous_old_spelling_aliases():
 def test_current_manifest_downloads_and_group_descriptions():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     path=app.ROOT/source['armatur_reeds_manifest'];manifest=json.loads(path.read_bytes())
-    assert source['revision']=='2026-10-31-ligatur'
+    assert source['revision']=='2026-11-01-adopted'
     assert manifest['revision']=='2026-10-25-armatur-reeds'
     assert manifest['changes']=={r:list(v) for r,v in CHANGES.items()}
     assert manifest['safe_reverse_aliases']=={}
@@ -69,10 +69,12 @@ def test_current_manifest_downloads_and_group_descriptions():
     assert hashlib.sha256(path.read_bytes()).hexdigest()==source['armatur_reeds_manifest_sha256']
     monaco=json.loads((app.ROOT/'data/monaco_source_20261017.json').read_bytes())
     items={row['sourceRoot']:row for row in monaco['items']}
+    latest=json.loads((app.ROOT/source['adopted_20261101_manifest']).read_bytes())
     for root,doc in manifest['documentation_only_changes'].items():
-        body=manifest['expected_target_items'][root]['body']
+        expected=latest['expected_target_items'].get(root,manifest['expected_target_items'][root])
+        body=expected['body']
         row=next(row for row in monaco['items'] if row['sourceRoot']==root and row['body']==body)
-        assert f"\nグループ数: {doc['group_count'][1]}\n" in row['documentation']
+        assert row['documentation']==expected['documentation']
     for body,root in CONTROLS.items():assert items[root]['body']==body
     rows=list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding='utf-8'))));assert len(rows)==10678
     for root,(_,new) in CHANGES.items():assert [r['kanji'] for r in rows if r['source_root']==root]==[new]
