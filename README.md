@@ -6,7 +6,7 @@
 
 新版を `ligatur＝结ᴸᵀ` に更新しました。低頻度の専門語根だけのために専用字「扎」を保つ利益が小さく、意味と綴りが近い `lig＝结` と共用するという本人の判断です。漢字本体は13画から9画へ減り、使用漢字を1種類減らせます。[採用理由](tests/ligatur_decision.txt)
 
-固定旧版は `ligatur＝结扎` のままです。`vrak＝残船` と `ekzempler＝册ᴱ` は語のイメージの分かりやすさを優先して維持し、panak・ginsengも今回は変更しません。既存の注釈・分解・ほかの識別子・自作JSONの扱いを保持し、新旧の通常／@変換・逆変換と保存内容を検証しました。[ローカル検証記録](tests/ligatur_validation.json)。今回の公開版のCloud確認はまだ完了していません。
+固定旧版は `ligatur＝结扎` のままです。`vrak＝残船` と `ekzempler＝册ᴱ` は語のイメージの分かりやすさを優先して維持し、panak・ginsengも今回は変更しません。既存の注釈・分解・ほかの識別子・自作JSONの扱いを保持し、新旧の通常／@変換・逆変換と保存内容を検証しました。[ローカル検証記録](tests/ligatur_validation.json)。Streamlit Cloudでも日中韓×新旧×3モードの順変換18経路と、日中×新旧の逆変換4経路を実際の画面で確認しました。対応する26ダウンロードも照合し、TXT・CSVは全バイト、HTMLは作成時刻だけを除いて版・署名・本文が一致しました。[Cloud確認記録](tests/ligatur_cloud/verification.json)と[代表画面](tests/ligatur_cloud/cloud_ja_current.jpg)を保存しています。全表・全逆キーの検査はローカル検証、Cloudは代表入力での確認です。
 
 ## 手動補正用漢字表の71語根を補完（2026-10-31）
 

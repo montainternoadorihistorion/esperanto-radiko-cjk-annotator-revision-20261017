@@ -4,7 +4,27 @@
   "previous_release_commit": "d5ad41107e4e0a7b704f6610ffbae3c147bb131d",
   "status": "LOCAL_VALIDATION_PASSED",
   "cloud_validation": {
-    "status": "NOT_YET_VERIFIED"
+    "status": "CLOUD_SAMPLE_VERIFIED",
+    "verified_utc": "2026-10-31T13:50:08.162303+00:00",
+    "public_merge_commit": "80114c0eec7fc0b364c06ac2387b3d24910c47cd",
+    "public_pr": "https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/pull/80",
+    "cloud_internal_commit_directly_observed": false,
+    "browser_forward_routes": 18,
+    "browser_reverse_routes": 4,
+    "matched_downloads": 26,
+    "html_timestamp_only_difference": true,
+    "pure_txt_inverse_txt_and_csv_byte_exact": true,
+    "report": "ligatur_cloud/verification.json",
+    "representative_screenshot": "ligatur_cloud/cloud_ja_current.jpg",
+    "limits": [
+      "Actual Cloud browser records and downloaded files are compared against local fixtures. This sample is 18 forward routes and four inverse routes, not all possible sentences.",
+      "Only the leading HTML metadata created-utc value may differ; edition, signature, ruby mode, all other HTML bytes, and DOM source output must match.",
+      "Pure TXT, inverse TXT and selected-edition CSV files match byte-for-byte without newline, BOM, spacing, case or identifier normalization.",
+      "Evidence files use standardized names. Original browser download filenames are not independently certified by this report.",
+      "The internal running Cloud commit was not directly observed. Deployment reflection is established by observed behavior and downloaded data.",
+      "Current ligatur=结ᴸᵀ; fixed legacy ligatur=结扎. Other assignments and identifiers are preserved. Intermediate revisions are not separate profiles and no compatibility aliases are added.",
+      "Fixed legacy and evolving current are the two supported editions. Intermediate assignment revisions are not separate edition profiles."
+    ]
   },
   "adopted": {
     "ligatur": [
