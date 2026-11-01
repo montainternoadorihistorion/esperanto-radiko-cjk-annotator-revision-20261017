@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "scope": "App body URLs observed in the browser were used for final forward tests. These records do not prove that the normal-URL wrapper problem is resolved.",
+  "languages": {
+    "JA": {
+      "normal_url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/",
+      "normal_wrapper_before_update": "loading spinner",
+      "verified_body_url": "https://esperanto-cjk-revision-ja-20261017.streamlit.app/~/+/",
+      "postupdate_temporary_errors": [
+        "503 application is down",
+        "HTTP 502",
+        "healthz connection reset by peer"
+      ],
+      "reboot_count": 1,
+      "reboot_requested_utc": "2026-11-01T14:05:25.155Z",
+      "dependencies_processed_utc": "2026-11-01T14:08:35Z",
+      "final_routes_after_reboot_passed": 6,
+      "observed_oom_message": false,
+      "cause_confirmed": false
+    },
+    "ZH": {
+      "normal_url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/",
+      "normal_wrapper_before_update": "loading spinner",
+      "verified_body_url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/~/+/",
+      "body_reload_count": 1,
+      "reboot_count": 0,
+      "final_routes_passed": 6
+    },
+    "KO": {
+      "normal_url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/",
+      "normal_url_before_update": "working",
+      "normal_url_after_update": "not retested",
+      "verified_body_url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+      "body_reload_count": 1,
+      "reboot_count": 0,
+      "final_routes_passed": 6
+    }
+  },
+  "cache_review": {
+    "runtime_or_cache_settings_changed": false,
+    "ja_annotation_json_growth_bytes": 2598,
+    "peak_process_memory_measured": false,
+    "cause_of_cloud_error_confirmed": false
+  }
+}

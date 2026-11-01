@@ -6,6 +6,8 @@
 
 `solv`は「解決;溶かす」、`plant`は「植物;植える」、`propozici`は「節;命題」を基準に、日中韓の注釈を通常・@の両経路で共通化します。新旧の漢字割り当て・識別子・分解は維持し、旧版も最新の共通注釈を使います。配布JSON、編集用CSVと生成元を同期しました。[採用理由と範囲](tests/three_common_glosses_20261101_decision.txt)／[全件比較と実変換の検証](tests/three_common_glosses_20261101_validation.json)
 
+Cloudでも日中韓×新旧×3形式の18設定を実操作し、実ダウンロード18ファイルの本文・版・ルビ形式が期待値と一致しました。ローカルのHTML復元24件・平文逆変換12件も合格しています。[Cloud実測](tests/three_common_glosses_20261101_cloud/verification.json)。日本語版は更新後の接続エラーから1回の再起動で復帰し、全6設定を確認しました。停止原因は特定できていません。通常URL外枠の読み込み問題は従来からの別件で、最終実測は画面で確認したアプリ本体URLによります。[起動経過](tests/three_common_glosses_20261101_cloud/startup_observations.json)。
+
 ## 確認済み4語形の@語尾を保護（2026-11-01）
 
 同梱データでは、`@domon@`・`@belajn@`・`@homojn@`・`@diris@`を、既存の語根と語尾へ分けて表示します。語尾のon/ajnを独立語根として変換したり、homo/iris等が本来の境界をまたいだりするのを、確認済みの小文字4語形に限定して補正します。新旧・日中韓に適用し、漢字・識別子・注釈は選択中の既存データを使います。[採用理由と適用範囲](tests/four_local_endings_20261101_decision.txt)
