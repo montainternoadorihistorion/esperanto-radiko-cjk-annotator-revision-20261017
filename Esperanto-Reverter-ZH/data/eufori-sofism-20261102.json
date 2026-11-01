@@ -1,0 +1,175 @@
+{
+  "schema": 1,
+  "revision": "2026-11-02-eufori-sofism",
+  "baseline": "e4df27a3a3a8a0434ac773b13db9d598fa673c83",
+  "changes": {
+    "eu^fori": [
+      "欣快",
+      "快ᴱ"
+    ],
+    "sofism": [
+      "诡辩",
+      "伪辩"
+    ]
+  },
+  "canonical_sidecar_sha256": "79c773e7f94e968eba109927e7777e018462c315c49f3a94fb9e4e215bc2a0b1",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "e8ce0eda1b78dd8c6085c50f05a2e5dfb2999c8491fc8414b96a6a5f115a9418",
+  "baseline_target_items": {
+    "eu^fori": {
+      "prefix": "euxfori",
+      "body": "欣快",
+      "kanji": "欣快",
+      "detail": "eu^fori → 欣快 (piv, F=2, 基本形)",
+      "documentation": "語根: eu^fori\n入力: euxfori\n最終形: 欣快\n漢字: 欣快\n識別子: なし\n型: piv\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8288",
+      "priority": 0,
+      "sourceRoot": "eu^fori",
+      "type": "piv",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8288
+    },
+    "sofism": {
+      "prefix": "sofism",
+      "body": "诡辩",
+      "kanji": "诡辩",
+      "detail": "sofism → 诡辩 (pejvo, F=2, 基本形)",
+      "documentation": "語根: sofism\n入力: sofism\n最終形: 诡辩\n漢字: 诡辩\n識別子: なし\n型: pejvo\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7781",
+      "priority": 0,
+      "sourceRoot": "sofism",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 7781
+    },
+    "agrabl": {
+      "prefix": "agrabl",
+      "body": "快",
+      "kanji": "快",
+      "detail": "agrabl → 快 (basic, F=10, 基本形)",
+      "documentation": "語根: agrabl\n入力: agrabl\n最終形: 快\n漢字: 快\n識別子: なし\n型: basic\nF(汎用性): 10\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:1427",
+      "priority": 0,
+      "sourceRoot": "agrabl",
+      "type": "basic",
+      "frequency": 10,
+      "base": true,
+      "sourceLine": 1427
+    },
+    "alegr": {
+      "prefix": "alegr",
+      "body": "快ᴬᴸ",
+      "kanji": "快",
+      "detail": "alegr → 快ᴬᴸ (pejvo, F=4)",
+      "documentation": "語根: alegr\n入力: alegr\n最終形: 快ᴬᴸ\n漢字: 快\n識別子: al\n型: pejvo\nF(汎用性): 4\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:1428",
+      "priority": 0,
+      "sourceRoot": "alegr",
+      "type": "pejvo",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 1428
+    }
+  },
+  "expected_target_items": {
+    "eu^fori": {
+      "prefix": "euxfori",
+      "body": "快ᴱ",
+      "kanji": "快",
+      "detail": "eu^fori → 快ᴱ (piv, F=2)",
+      "documentation": "語根: eu^fori\n入力: euxfori\n最終形: 快ᴱ\n漢字: 快\n識別子: e\n型: piv\nF(汎用性): 2\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:8288",
+      "priority": 0,
+      "sourceRoot": "eu^fori",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 8288
+    },
+    "sofism": {
+      "prefix": "sofism",
+      "body": "伪辩",
+      "kanji": "伪辩",
+      "detail": "sofism → 伪辩 (pejvo, F=2, 基本形)",
+      "documentation": "語根: sofism\n入力: sofism\n最終形: 伪辩\n漢字: 伪辩\n識別子: なし\n型: pejvo\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7781",
+      "priority": 0,
+      "sourceRoot": "sofism",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 7781
+    },
+    "agrabl": {
+      "prefix": "agrabl",
+      "body": "快",
+      "kanji": "快",
+      "detail": "agrabl → 快 (basic, F=10, 基本形)",
+      "documentation": "語根: agrabl\n入力: agrabl\n最終形: 快\n漢字: 快\n識別子: なし\n型: basic\nF(汎用性): 10\nグループ数: 3\n基本形: yes\n出典: _identifier_sidecar.tsv:1427",
+      "priority": 0,
+      "sourceRoot": "agrabl",
+      "type": "basic",
+      "frequency": 10,
+      "base": true,
+      "sourceLine": 1427
+    },
+    "alegr": {
+      "prefix": "alegr",
+      "body": "快ᴬᴸ",
+      "kanji": "快",
+      "detail": "alegr → 快ᴬᴸ (pejvo, F=4)",
+      "documentation": "語根: alegr\n入力: alegr\n最終形: 快ᴬᴸ\n漢字: 快\n識別子: al\n型: pejvo\nF(汎用性): 4\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:1428",
+      "priority": 0,
+      "sourceRoot": "alegr",
+      "type": "pejvo",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 1428
+    }
+  },
+  "unrelated_items_sha256": "a9241fdcc69e6268064eae0b3ded328b8e64a5da7542f8cfd24dd6fb2e6c09cd",
+  "unrelated_items_count": 10636,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {
+    "agrabl": {
+      "group_count": [
+        2,
+        3
+      ]
+    },
+    "alegr": {
+      "group_count": [
+        2,
+        3
+      ]
+    }
+  },
+  "metadata_only_changes": {},
+  "preserved_historical_overrides": [],
+  "assignment_unchanged_item_count": 10638,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "eu^fori",
+    "sofism"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "approved": "2026-11-02 direct user approval: eŭfori=快ᴱ and sofism=伪辩. The user regards a dedicated 欣 for the relatively low-frequency eŭfori as weak value because its meaning overlaps the existing 快; preserve the sense of well-being/euphoria in the annotations. The shared 快 already appears in 3 roots, unchanged by shortening; 欣 is removed, body strokes 15 to 7. sofism reuses 伪 (11 to 12 roots) and 辩 (12 unchanged), removes the dedicated 诡, and reduces body strokes 24 to 22. Existing identifier generator yields e for eu^fori and empty id for sofism. No other root identifiers or ownership changes. hibisk=芙 is only a comparison suggestion and remains 芙蓉. Preserve all original meanings, root segmentation, annotations, and historical approvals. Fixed legacy plus current only; no intermediate edition or obsolete aliases."
+  },
+  "preserved_controls": {
+    "快": "agrabl",
+    "快ᴬᴸ": "alegr",
+    "伪": "fals",
+    "伪ᴾ": "pseŭdo",
+    "芙蓉": "hibisk",
+    "残船": "vrak",
+    "册ᴱ": "ekzempler"
+  },
+  "explicit_retained": {
+    "hibisk": "芙蓉",
+    "vrak": "残船",
+    "ekzempler": "册ᴱ",
+    "font": "泉"
+  },
+  "shared_spelling": {},
+  "migration_notice": "Only current eŭfori and sofism change. Other owners and fixed legacy assignments stay unchanged. No old-spelling aliases or intermediate editions."
+}

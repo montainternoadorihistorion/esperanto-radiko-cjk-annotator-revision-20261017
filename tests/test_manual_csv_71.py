@@ -61,6 +61,9 @@ LATER_CURRENT_ASSIGNMENTS = {
     'pense': ("草ᴾˢ", "草ᴾᴺ"),
     'psilofit': ("草ᴾᶠ", "草ᴾˢ"),
     'pasiflor': ("草ᴾᴬˢ", "草ᴾᶠ"),
+    # 2026-11-02 approved display changes; no frozen legacy edits.
+    'eŭfori': ("欣快", "快ᴱ"),
+    'sofism': ("诡辩", "伪辩"),
 }
 
 def historical_current_bytes(raw):
