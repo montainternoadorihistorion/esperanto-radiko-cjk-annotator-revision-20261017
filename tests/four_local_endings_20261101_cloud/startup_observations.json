@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-01",
+  "reboots_per_language": {
+    "JA": 1,
+    "ZH": 1,
+    "KO": 1
+  },
+  "dependency_completion_utc": {
+    "JA": "12:37:30",
+    "ZH": "12:26:11",
+    "KO": "12:45:45"
+  },
+  "observed_reboot_to_dependencies": {
+    "JA": "about 15 minutes 36 seconds",
+    "ZH": "about 3 minutes 18 seconds",
+    "KO": "about 21 minutes 43 seconds"
+  },
+  "observed_delay": "Repeated provisioning and repository clone attempts before dependency installation. The application data cache was not established as the cause.",
+  "normal_url_limit": "All three forward languages showed a loading wrapper during part of the observation. Full six-route verification for each language used the observed app body URL. KO final normal-URL check still showed a spinner; ZH final normal URL was not independently retested.",
+  "official_status": "At observation, https://www.streamlitstatus.com/ displayed All Systems Operational. This does not rule out an app-specific startup problem."
+}

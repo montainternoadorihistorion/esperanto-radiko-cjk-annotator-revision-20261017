@@ -1,0 +1,60 @@
+{
+  "kind": "Synthetic public-safe local fixture; no corpus sentence or personal information",
+  "source": "domon belajn homojn diris.\n@domon@ @belajn@ @homojn@ @diris@\n@anestezi@ @ĉarojn@ @ĉareton@ @semajno@\nananaso lasi. @ananaso@ @lasi@\n%domon belajn homojn diris% & du  spacoj < >",
+  "render_options": {
+    "JA": {
+      "pure": {
+        "mode": "✂️ 漢字化・純粋置換（タグなしテキスト）",
+        "format": "替换后文字列のみ(仅)保留(简单替换)",
+        "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (標準)"
+      },
+      "kanji": {
+        "mode": "🈶 漢字化（漢字＋語根ルビ）",
+        "format": "HTML格式_Ruby文字_大小调整_汉字替换",
+        "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (標準)"
+      },
+      "ruby": {
+        "mode": "📖 注釈ルビ（語根の上に日本語訳）",
+        "format": "HTML格式_Ruby文字_大小调整",
+        "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (標準)"
+      }
+    },
+    "ZH": {
+      "pure": {
+        "mode": "✂️ 汉字化·纯替换（无标签文本）",
+        "format": "替换后文字列のみ(仅)保留(简单替换)",
+        "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (标准)"
+      },
+      "kanji": {
+        "mode": "🈶 汉字化（汉字＋词根Ruby）",
+        "format": "HTML格式_Ruby文字_大小调整_汉字替换",
+        "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (标准)"
+      },
+      "ruby": {
+        "mode": "📖 注释Ruby（词根上方显示中文注释）",
+        "format": "HTML格式_Ruby文字_大小调整",
+        "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (标准)"
+      }
+    },
+    "KO": {
+      "pure": {
+        "mode": "✂️ 한자화·순수 치환（태그 없는 텍스트）",
+        "format": "替换后文字列のみ(仅)保留(简单替换)",
+        "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (표준)"
+      },
+      "kanji": {
+        "mode": "🈶 한자화（한자＋어근 루비）",
+        "format": "HTML格式_Ruby文字_大小调整_汉字替换",
+        "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (표준)"
+      },
+      "ruby": {
+        "mode": "📖 주석 루비（어근 위에 한국어 주석）",
+        "format": "HTML格式_Ruby文字_大小调整",
+        "letters": "ĉ ĝ ĥ ĵ ŝ ŭ (표준)"
+      }
+    }
+  },
+  "reverse_candidate_source": "@domon@ @belajn@ @homojn@ @diris@ ananaso lasi.",
+  "protected_source": "domon belajn homojn diris",
+  "scope": "Four approved exact lowercase forms, old learning guards, percent protection, explicit current/legacy distinction; no uppercase stress input mixed into this sample."
+}
