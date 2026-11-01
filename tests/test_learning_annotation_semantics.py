@@ -6,6 +6,7 @@ The boundary repair matrix is covered separately.
 """
 from contextlib import contextmanager
 from pathlib import Path
+import csv
 import functools
 import gc
 import html
@@ -21,25 +22,37 @@ FORMAT = 'HTML格式_Ruby文字_大小调整'
 RUBY = re.compile(r'<ruby\b[^>]*>(.*?)<rt\b[^>]*>(.*?)</rt>\s*</ruby>', re.S | re.I)
 AS_WORDS = ('dankegas', 'enestas', 'ricevindas', 'sumiĝas', 'trametas', 'datumas', 'as-tempo')
 AS_SPLIT = ('tra/met/as', 'dank/eg/as', 'en/est/as', 'ricev/ind/as', 'sum/iĝ/as')
+COMMON_ROOT_WORDS = {
+    'solvi': 'solv', 'solvo': 'solv', 'solvaĵo': 'solv', 'akvosolvebla': 'solv',
+    'planto': 'plant', 'planti': 'plant', 'propozicio': 'propozici',
+}
+ANNOTATION_CSV = {
+    'JA': 'エスペラント語根-日本語訳ルビ対応リスト.csv',
+    'ZH': '世界语词根-中文注释对应列表.csv',
+    'KO': '에스페란토 어근-한국어 번역 루비 대응 목록.csv',
+}
 WORDS = (*AS_WORDS, 'aso', 'asoj', 'ason', 'asojn', 'pensiuloj', 'pensi',
          'konsilianoj', 'konsili', 'metrosistemon', 'metroj', 'metron', 'metrojn',
          'viktimoj', 'gazeto', 'radioamatoroj', 'radioaj', 'boreliozo-kazoj',
          'radioterapio', 'sunradio', 'programado', 'komunumo', 'rolon',
-         'sentas', 'kiu', 'parolas')
+         'sentas', 'kiu', 'parolas', *COMMON_ROOT_WORDS)
 EXPECT = {
     'JA': {'as': '現在形', 'ace': 'エース', 'pensi': '年金', 'pens': '思う',
            'konsili': '評議会', 'konsil': '助言する', 'metro': '地下鉄', 'metr': 'メートル',
            'viktim': 'いけにえ;犠牲者', 'gazet': '新聞・雑誌', 'radio': '光線・無線',
-           'kaz': '格・事例', 'therapy': '放射線', 'parol': '話す'},
+           'kaz': '格・事例', 'therapy': '放射線', 'parol': '話す',
+           'solv': '解決;溶かす', 'plant': '植物;植える', 'propozici': '節;命題'},
     'ZH': {'as': '现在时', 'ace': 'A牌', 'pensi': '养老金', 'pens': '思考',
            'konsili': '评议会', 'konsil': '建议', 'metro': '地铁', 'metr': '米',
            'viktim': '祭品;受害者', 'gazet': '报刊', 'radio': '光线;无线电',
-           'kaz': '格;事例', 'therapy': '放射线', 'program': '程序;节目'},
+           'kaz': '格;事例', 'therapy': '放射线', 'program': '程序;节目',
+           'solv': '解决;溶解', 'plant': '植物;种植', 'propozici': '分句;命题'},
     'KO': {'as': '현재', 'ace': '에이스', 'pensi': '연금', 'pens': '생각하다',
            'konsili': '평의회', 'konsil': '조언하다', 'metro': '지하철', 'metr': '미터',
            'viktim': '제물;희생자', 'gazet': '신문;잡지', 'radio': '광선;무선',
            'kaz': '격;사례', 'therapy': '방사선', 'um': '의미 불특정',
-           'rol': '역할', 'sent': '느끼다', 'kiu': '누구;어느 것'},
+           'rol': '역할', 'sent': '느끼다', 'kiu': '누구;어느 것',
+           'solv': '해결하다;녹이다', 'plant': '식물;심다', 'propozici': '절;명제'},
 }
 
 
@@ -82,6 +95,42 @@ def app_modules(language):
 
 
 class LearningAnnotationSemantics(unittest.TestCase):
+    def test_three_common_glosses_cover_packaged_and_generation_sources(self):
+        roots = set(COMMON_ROOT_WORDS.values())
+        for language, expected in EXPECT.items():
+            data = ROOT / ('Esperanto-Kanji-Ruby-' + language) / 'app_data'
+            packaged = json.loads((data / '置換リスト_ルビ.json').read_text(encoding='utf-8'))
+            seen = {root: 0 for root in roots}
+            for section, rows in packaged.items():
+                for row in rows:
+                    for root, meaning in glosses(row[1]):
+                        if root in roots:
+                            with self.subTest(language=language, section=section, key=row[0], root=root):
+                                self.assertEqual(meaning, expected[root])
+                            seen[root] += 1
+            self.assertTrue(all(seen.values()), (language, 'packaged', seen))
+            del packaged
+
+            words = json.loads((data / 'word_anno.json').read_text(encoding='utf-8'))
+            seen = {root: 0 for root in roots}
+            for key, pairs in words.items():
+                for rb, meaning in pairs:
+                    root = plain(rb).lower()
+                    if root in roots:
+                        with self.subTest(language=language, source_key=key, root=root):
+                            self.assertEqual(meaning, expected[root])
+                        seen[root] += 1
+            self.assertTrue(all(seen.values()), (language, 'word_anno', seen))
+            del words
+
+            with (data / ANNOTATION_CSV[language]).open(encoding='utf-8-sig', newline='') as handle:
+                rows = [row for row in csv.reader(handle) if row and row[0].lower() in roots]
+            self.assertEqual(len(rows), len(roots), (language, rows))
+            self.assertEqual({row[0].lower() for row in rows}, roots)
+            for root, meaning in rows:
+                with self.subTest(language=language, csv_root=root):
+                    self.assertEqual(meaning, expected[root.lower()])
+
     def test_generation_sources_disambiguate_tense_without_replacing_ace(self):
         for language, expected in EXPECT.items():
             data = ROOT / ('Esperanto-Kanji-Ruby-' + language) / 'app_data'
@@ -129,6 +178,8 @@ class LearningAnnotationSemantics(unittest.TestCase):
 
                             requirements = [(w, 'as', expected['as']) for w in AS_WORDS]
                             requirements += [(w, 'as', expected['ace']) for w in ('aso', 'asoj', 'ason', 'asojn')]
+                            requirements += [(word, root, expected[root])
+                                             for word, root in COMMON_ROOT_WORDS.items()]
                             requirements += [('pensiuloj', 'pensi', expected['pensi']),
                                              ('konsilianoj', 'konsili', expected['konsili']),
                                              ('metrosistemon', 'metro', expected['metro']),
@@ -165,6 +216,15 @@ class LearningAnnotationSemantics(unittest.TestCase):
                             rendered = convert(text)
                             self.assertEqual(source(rendered), text.strip('@'))
                             self.assertIn((root, meaning), glosses(rendered))
+                        # Check each adopted meaning independently of a batch, so
+                        # another word's automatic correction cannot mask its rule.
+                        for word, root in (('akvosolvebla', 'solv'), ('planto', 'plant'),
+                                           ('propozicio', 'propozici')):
+                            for text in (word, '@' + word + '@'):
+                                with self.subTest(language=language, edition=edition, isolated=text):
+                                    rendered = convert(text)
+                                    self.assertEqual(source(rendered), word)
+                                    self.assertIn((root, expected[root]), glosses(rendered))
                         protected = convert('%dankegas pensiuloj%')
                         self.assertEqual(protected, 'dankegas pensiuloj')
                         edition_results[edition] = outputs
