@@ -2,8 +2,8 @@
   "schema_version": 1,
   "revision": "current-compound-inverse-20261018-v3",
   "source_id": "pejvo-piv-20260620",
-  "dictionary_revision": "2026-11-02-eufori-sofism",
-  "current_csv_sha256": "347be0e8611d6aba02e0aaaeefe2f58e0e9a0931b920bd3befa5dbd21e19ee9e",
+  "dictionary_revision": "2026-11-02-hibisk",
+  "current_csv_sha256": "7298817c7e113eab024f2deba454b7b605d2186d98a50847d148f916279d4deb",
   "required_canonical_owner": {
     "kanji": "丸ᴼ炎ᵀ",
     "esperanto": "orkidit"

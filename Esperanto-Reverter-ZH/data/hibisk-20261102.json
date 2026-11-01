@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "revision": "2026-11-02-hibisk",
+  "baseline": "8444d78eba88e47fcfa3a3f28e9d5c9d33c193b7",
+  "changes": {
+    "hibisk": [
+      "芙蓉",
+      "芙"
+    ]
+  },
+  "canonical_sidecar_sha256": "3148fca5bfea3317f4db81ce9d433c629bdbb2c496e1f26efe64d08194fe2b31",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "3ae5e2034d765623f24c8f3d28470946690562cbbb01a686126ea13a129018ec",
+  "baseline_target_items": {
+    "hibisk": {
+      "prefix": "hibisk",
+      "body": "芙蓉",
+      "kanji": "芙蓉",
+      "detail": "hibisk → 芙蓉 (pejvo, F=3, 基本形)",
+      "documentation": "語根: hibisk\n入力: hibisk\n最終形: 芙蓉\n漢字: 芙蓉\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7500",
+      "priority": 0,
+      "sourceRoot": "hibisk",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7500
+    }
+  },
+  "expected_target_items": {
+    "hibisk": {
+      "prefix": "hibisk",
+      "body": "芙",
+      "kanji": "芙",
+      "detail": "hibisk → 芙 (pejvo, F=3, 基本形)",
+      "documentation": "語根: hibisk\n入力: hibisk\n最終形: 芙\n漢字: 芙\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7500",
+      "priority": 0,
+      "sourceRoot": "hibisk",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7500
+    }
+  },
+  "unrelated_items_sha256": "536c751cc34fc5955876fe91b2236e8b4e1c6ef6bf5a9c652b02f35ebc7fae5b",
+  "unrelated_items_count": 10639,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {},
+  "metadata_only_changes": {},
+  "preserved_historical_overrides": [],
+  "assignment_unchanged_item_count": 10639,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "hibisk"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "approved": "2026-11-02 direct user adoption: hibisk=芙. Retain the representative character of the existing name 芙蓉, with the grass radical reinforcing the plant association. Reduce the body from 20 to 7 strokes and remove the dedicated 蓉 character. 芙 remains used only by hibisk, so this is a representative-character/stroke reduction rather than increased sharing. Keep the Hibiscus-genus meaning and the existing Japanese/Chinese/Korean annotations (ハイビスカス/木槿/히비스커스), not a lotus-only or single-species meaning. Existing identifier generator yields no identifier for 芙; all other roots and identifiers unchanged. Preserve master classification content, F=3 and priority band pejvo, all root segmentation and original dictionary content. Fixed legacy plus current only; no intermediate edition or obsolete aliases. Other candidates remain review-only."
+  },
+  "preserved_controls": {
+    "快": "agrabl",
+    "快ᴬᴸ": "alegr",
+    "伪": "fals",
+    "伪ᴾ": "pseŭdo",
+    "残船": "vrak",
+    "册ᴱ": "ekzempler"
+  },
+  "explicit_retained": {
+    "eu^fori": "快ᴱ",
+    "sofism": "伪辩",
+    "vrak": "残船",
+    "ekzempler": "册ᴱ",
+    "font": "泉"
+  },
+  "shared_spelling": {},
+  "migration_notice": "Only current hibisk changes. Other owners and fixed legacy assignments stay unchanged. No old-spelling aliases or intermediate editions."
+}

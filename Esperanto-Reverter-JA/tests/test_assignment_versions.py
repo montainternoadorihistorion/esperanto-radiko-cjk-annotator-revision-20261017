@@ -28,7 +28,7 @@ TARGETS.update({"krep", "difrakt", "mortez", "meger"})
 TARGETS.update({"risort", "anc^", "lantern", "lubrik"})
 TARGETS.update({"uve", "uveit"})
 TARGETS.update({"psitak", "uv", "limon", "limonad"})
-TARGETS.update(({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|({'anksi'}|({'ŝtip','pensi','sankci'}|({'almenaŭ','forniks','karen','naŭz'}|({'armatur','arund','donak','androzac','armoraci','diktamn'}|({'letargi'}|({'madz','tribord'}|({'s^malc','sfeg','simuli'}|(({'klarion','stal','fuz','ligatur','eu^fori','sofism'}|{'instig', 'karoten', 'psilofit', 'panak', 'pense', 'karot', 'pasiflor', 'ginseng', 'delic', 'delekt', 'elegi'})|{'agorafobi','fob','fobi','hidrofob','hidrofobi','ksenofob','ksenofobi','simptom','simptomologi','sozi'}))))))))))))  # later user-approved six assignments
+TARGETS.update(({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|({'anksi'}|({'ŝtip','pensi','sankci'}|({'almenaŭ','forniks','karen','naŭz'}|({'armatur','arund','donak','androzac','armoraci','diktamn'}|({'letargi'}|({'madz','tribord'}|({'s^malc','sfeg','simuli'}|(({'klarion','stal','fuz','ligatur','eu^fori','sofism','hibisk'}|{'instig', 'karoten', 'psilofit', 'panak', 'pense', 'karot', 'pasiflor', 'ginseng', 'delic', 'delekt', 'elegi'})|{'agorafobi','fob','fobi','hidrofob','hidrofobi','ksenofob','ksenofobi','simptom','simptomologi','sozi'}))))))))))))  # later user-approved six assignments
 
 
 def mapping(source_id):

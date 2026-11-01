@@ -11,7 +11,7 @@ from html_source_recovery import recover_standard_html
 CURRENT = 'pejvo-piv-20260620'
 OLD = 'pre-las-20261017'
 CHANGES = {'eŭfori': ('欣快', '快ᴱ'), 'sofism': ('诡辩', '伪辩')}
-CONTROLS = {'快': 'agrabl', '快ᴬᴸ': 'alegr', '伪': 'fals', '伪ᴾ': 'pseŭdo', '芙蓉': 'hibisk', '残船': 'vrak', '册ᴱ': 'ekzempler'}
+CONTROLS = {'快': 'agrabl', '快ᴬᴸ': 'alegr', '伪': 'fals', '伪ᴾ': 'pseŭdo', '残船': 'vrak', '册ᴱ': 'ekzempler'}
 SUFFIXES = ('', 'o', 'oj', 'on', 'ojn', 'a', 'aj', 'an', 'ajn', 'e', 'i', 'as', 'is', 'os', 'us', 'u', 'ado', 'ita', 'intajn', 'igi', 'ĉjo')
 
 
@@ -23,6 +23,7 @@ def index(source):
 def test_changed_roots_and_shared_owners_with_endings(source):
     mapping = index(source)
     selected = {pair[source == CURRENT]: root for root, pair in CHANGES.items()}
+    selected['芙' if source == CURRENT else '芙蓉'] = 'hibisk'
     for body, root in (selected | CONTROLS).items():
         for suffix in SUFFIXES:
             for ending in (suffix, suffix.upper()):
@@ -62,7 +63,8 @@ def test_approved_manifest_downloads_and_fixed_legacy():
     source = json.loads((app.ROOT / 'data/current_dictionary_source.json').read_bytes())
     path = app.ROOT / source['eufori_sofism_20261102_manifest']
     manifest = json.loads(path.read_bytes())
-    assert source['revision'] == manifest['revision'] == '2026-11-02-eufori-sofism'
+    assert source['revision'] == '2026-11-02-hibisk'
+    assert manifest['revision'] == '2026-11-02-eufori-sofism'
     assert manifest['changes'] == {'eu^fori': ['欣快', '快ᴱ'], 'sofism': ['诡辩', '伪辩']}
     assert manifest['safe_reverse_aliases'] == {}
     assert manifest['user_adopted_roots'] == ['eu^fori', 'sofism']

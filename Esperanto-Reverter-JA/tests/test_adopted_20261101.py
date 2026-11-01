@@ -52,7 +52,7 @@ def test_no_intermediate_edition_or_obsolete_aliases():
 def test_manifest_downloads_and_approved_scope():
  source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
  path=app.ROOT/source['adopted_20261101_manifest'];manifest=json.loads(path.read_bytes())
- assert source['revision']=='2026-11-02-eufori-sofism'
+ assert source['revision']=='2026-11-02-hibisk'
  assert manifest['revision']=='2026-11-01-adopted'
  assert manifest['changes']=={root:list(pair) for root,pair in CHANGES.items()}
  assert manifest['safe_reverse_aliases']=={}
