@@ -46,5 +46,29 @@
     "newly_added_batched_target_checks": 84,
     "newly_added_isolated_target_checks": 36
   },
-  "scope": "Exact root components only, including capitalizations. Annotation data are shared by both assignment editions. No decomposition or assignment change."
+  "scope": "Exact root components only, including capitalizations. Annotation data are shared by both assignment editions. No decomposition or assignment change.",
+  "local_recovery": {
+    "passed": true,
+    "html": 24,
+    "pure": 12,
+    "reverse_candidates": 4,
+    "inputs_unchanged": true,
+    "scope": "Original text including newlines, spaces and protected characters is recovered after removing control markers. Local runs, not new reverse Cloud observations."
+  },
+  "ci": {
+    "source": "GitHub PR87",
+    "head": "80828efdba7bb5c57e9ef011066433f860b6c8fc",
+    "raw_status_record_saved_privately": true,
+    "passed": true,
+    "checks_passed": 6,
+    "run_ids": [
+      "41311887143",
+      "41311900404"
+    ]
+  },
+  "cloud": {
+    "forward_routes": 18,
+    "actual_download_files": 18,
+    "evidence": "three_common_glosses_20261101_cloud/verification.json"
+  }
 }
