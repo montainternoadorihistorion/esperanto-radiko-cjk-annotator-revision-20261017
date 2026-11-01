@@ -1,0 +1,922 @@
+{
+  "schema": 1,
+  "scope": "Four exact lower-case local payloads, all built-in CJK languages and editions",
+  "focused": {
+    "passed": true,
+    "rows": [
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 4,
+        "html_exact": 0,
+        "runtime_sha256": "1acd3f03e26234b0a3f63d8c1407f179e6e5722df491d782725320f5b10bdc32"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 4,
+        "html_exact": 4,
+        "runtime_sha256": "1acd3f03e26234b0a3f63d8c1407f179e6e5722df491d782725320f5b10bdc32"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "ruby",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 0,
+        "html_exact": 4,
+        "runtime_sha256": "1acd3f03e26234b0a3f63d8c1407f179e6e5722df491d782725320f5b10bdc32"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "pure",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 4,
+        "html_exact": 0,
+        "runtime_sha256": "1acd3f03e26234b0a3f63d8c1407f179e6e5722df491d782725320f5b10bdc32"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "kanji",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 4,
+        "html_exact": 4,
+        "runtime_sha256": "1acd3f03e26234b0a3f63d8c1407f179e6e5722df491d782725320f5b10bdc32"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "ruby",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 0,
+        "html_exact": 4,
+        "runtime_sha256": "1acd3f03e26234b0a3f63d8c1407f179e6e5722df491d782725320f5b10bdc32"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 4,
+        "html_exact": 0,
+        "runtime_sha256": "1a15877c24e6dcce35e18055757650e9343b85b931acdd8a1665640a5c4ad8e1"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 4,
+        "html_exact": 4,
+        "runtime_sha256": "1a15877c24e6dcce35e18055757650e9343b85b931acdd8a1665640a5c4ad8e1"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "ruby",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 0,
+        "html_exact": 4,
+        "runtime_sha256": "1a15877c24e6dcce35e18055757650e9343b85b931acdd8a1665640a5c4ad8e1"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "pure",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 4,
+        "html_exact": 0,
+        "runtime_sha256": "1a15877c24e6dcce35e18055757650e9343b85b931acdd8a1665640a5c4ad8e1"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "kanji",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 4,
+        "html_exact": 4,
+        "runtime_sha256": "1a15877c24e6dcce35e18055757650e9343b85b931acdd8a1665640a5c4ad8e1"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "ruby",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 0,
+        "html_exact": 4,
+        "runtime_sha256": "1a15877c24e6dcce35e18055757650e9343b85b931acdd8a1665640a5c4ad8e1"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 4,
+        "html_exact": 0,
+        "runtime_sha256": "06357905f3489f36baf28f80ebede06476098b9eb55a1c46fce99e71ca7fa51b"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 4,
+        "html_exact": 4,
+        "runtime_sha256": "06357905f3489f36baf28f80ebede06476098b9eb55a1c46fce99e71ca7fa51b"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "ruby",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 0,
+        "html_exact": 4,
+        "runtime_sha256": "06357905f3489f36baf28f80ebede06476098b9eb55a1c46fce99e71ca7fa51b"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "pure",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 4,
+        "html_exact": 0,
+        "runtime_sha256": "06357905f3489f36baf28f80ebede06476098b9eb55a1c46fce99e71ca7fa51b"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "kanji",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 4,
+        "html_exact": 4,
+        "runtime_sha256": "06357905f3489f36baf28f80ebede06476098b9eb55a1c46fce99e71ca7fa51b"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "ruby",
+        "targets": 4,
+        "mixed_inputs": 64,
+        "out_of_scope_compared": 60,
+        "custom_compared": 64,
+        "inverse_exact": 0,
+        "html_exact": 4,
+        "runtime_sha256": "06357905f3489f36baf28f80ebede06476098b9eb55a1c46fce99e71ca7fa51b"
+      }
+    ],
+    "tests_passed": 2,
+    "elapsed_seconds": 499.63,
+    "summary": {
+      "configurations": 18,
+      "targets": 72,
+      "mixed_inputs": 1152,
+      "out_of_scope_before_comparisons": 1080,
+      "custom_before_comparisons": 1152,
+      "inverse_exact": 48,
+      "html_exact": 48,
+      "ordinary_mixed_inputs": 144
+    },
+    "notes": [
+      "Four exact lowercase @ payloads only. Target endings on/ajn/ojn/is remain literal and unannotated. Ordinary diris retains its existing past-ending annotation.",
+      "Automatic $911NNNN$ fallback variants cannot override these four local renderings; explicit $900NNNN$ corrections remain higher priority. Other reviewed payloads retain prior behavior.",
+      "Normal-only corpus preservation is validated in the separate full corpus report. For an ordinary mixed normal/@ input, JA current annotation has one synonymous normal diris gloss difference: (を)言う becomes 言う because the former erroneous @diris@ no longer triggers automatic correction. Boundaries, tense annotation, and recovered source remain unchanged; ZH/KO normal spans had no such difference. See ordinary_mixed_context_effects.json.",
+      "Adversarial uppercase/non-target mixed controls preserve before outputs, including the recorded pre-existing automatic normal-diris fallback issue. The four approved @ outputs remain correct even in that mix."
+    ]
+  },
+  "existing": {
+    "passed": true,
+    "tests": 3,
+    "elapsed_seconds": 202.33,
+    "command": "python -m pytest -q -s tests/test_reviewed_corpus_payloads.py tests/test_reviewed_learning_word_fixes.py::ReviewedLearningWordFixes::test_two_letter_boundaries_and_twelve_round_limit",
+    "unique_reviewed_payloads": 51,
+    "configs": 18,
+    "target_output_checks_per_config": 53,
+    "notes": "53 includes duplicate existing aso/asoj controls; all inverse mismatch counts zero.",
+    "runtime_hashes": [
+      {
+        "file": "Esperanto-Kanji-Ruby-JA/esp_text_replacement_module.py",
+        "before": "9f1e5540498e84e41e72b76df1b1c9247a5b08c9979949dfa11dc3625bafe4d2",
+        "after": "1acd3f03e26234b0a3f63d8c1407f179e6e5722df491d782725320f5b10bdc32",
+        "added_lines": 9
+      },
+      {
+        "file": "Esperanto-Kanji-Ruby-ZH/esp_text_replacement_module.py",
+        "before": "802726a260d8de103c589fa8c61d63c0b60b6ce1ed12a63516b5395b031b5bd2",
+        "after": "1a15877c24e6dcce35e18055757650e9343b85b931acdd8a1665640a5c4ad8e1",
+        "added_lines": 9
+      },
+      {
+        "file": "Esperanto-Kanji-Ruby-KO/esp_text_replacement_module.py",
+        "before": "86338efafd1389ba97169609126dd5dfd5ac7c27d88a9f79c9a5cfc30d06fcea",
+        "after": "06357905f3489f36baf28f80ebede06476098b9eb55a1c46fce99e71ca7fa51b",
+        "added_lines": 9
+      }
+    ]
+  },
+  "corpus": {
+    "schema": 1,
+    "passed": true,
+    "baseline_commit": "b602c2fd57990f8bf6dba173f060f9dc5565819a",
+    "scope": "Current-edition annotation ruby; 23,811 corpus forms x JA/ZH/KO x normal/@. Only four exact lowercase @ payloads are changed. This report does not replace the separate focused legacy, pure, kanji, inverse, percent-protection, custom-JSON and user-correction checks.",
+    "method": {
+      "initial_whole_corpus_outputs": 142866,
+      "initial_implementation": "four explicit reviewed payload rows in each language runtime",
+      "additional_final_guard": "Ignore only automatically generated fallback overrides with reserved $911dddd$ identifiers for the same four exact payloads, preserving explicit manual overrides.",
+      "audit_change_handling": "The initial whole run had already loaded the four-row implementation when the five-line guard was added. Its original hash-drift failures are retained, not rewritten as passes.",
+      "final_runtime_reexecuted_outputs": 12600,
+      "final_related_batches_per_language": 3,
+      "forms_per_related_batch": 700,
+      "final_related_forms_per_language": 2100,
+      "routes_reexecuted": [
+        "normal",
+        "local_at"
+      ],
+      "remaining_forms_per_language": 21711,
+      "remaining_scope_proof": "Removing exactly the five guard lines reproduces the initial engine SHA-256. The final guard condition was evaluated over every corpus key and only the four authorized payloads could match. All normal batches have no @ captures. Every original batch containing any target was then reexecuted with the final runtime.",
+      "final_verdict_is_combined_evidence": true,
+      "literal_ending_expectation_correction": "The initial test expectation mistakenly required an annotation on is in @diris@. The approved design keeps is as an unannotated Latin grammatical ending; the final related-batch tests use that explicit requirement. Original failed records are retained; the product was not changed to satisfy the mistaken expectation."
+    },
+    "unchanged": {
+      "normal_outputs": true,
+      "normal_and_local_reconstruction": true,
+      "all_non_target_corpus_outputs": true,
+      "original_corpus_files": 177,
+      "original_corpus_changed": 0
+    },
+    "final_changed_payloads": {
+      "JA": [
+        "belajn",
+        "diris",
+        "domon",
+        "homojn"
+      ],
+      "ZH": [
+        "belajn",
+        "diris",
+        "domon",
+        "homojn"
+      ],
+      "KO": [
+        "belajn",
+        "diris",
+        "domon",
+        "homojn"
+      ]
+    },
+    "metrics": [
+      {
+        "language": "JA",
+        "route": "normal",
+        "forms": 23811,
+        "corpus_reference_matches": 23499,
+        "corpus_reference_agreement": 0.9868968123976314,
+        "weighted_instances": 289955,
+        "weighted_reference_matches": 289344,
+        "weighted_reference_agreement": 0.9978927764653136,
+        "final_hash_verified": true
+      },
+      {
+        "language": "JA",
+        "route": "local",
+        "forms": 23811,
+        "corpus_reference_matches": 15849,
+        "corpus_reference_agreement": 0.6656167317626307,
+        "weighted_instances": 289955,
+        "weighted_reference_matches": 242411,
+        "weighted_reference_agreement": 0.8360297287510131,
+        "final_hash_verified": true
+      },
+      {
+        "language": "ZH",
+        "route": "normal",
+        "forms": 23811,
+        "corpus_reference_matches": 23499,
+        "corpus_reference_agreement": 0.9868968123976314,
+        "weighted_instances": 289955,
+        "weighted_reference_matches": 289344,
+        "weighted_reference_agreement": 0.9978927764653136,
+        "final_hash_verified": true
+      },
+      {
+        "language": "ZH",
+        "route": "local",
+        "forms": 23811,
+        "corpus_reference_matches": 15850,
+        "corpus_reference_agreement": 0.6656587291587922,
+        "weighted_instances": 289955,
+        "weighted_reference_matches": 242413,
+        "weighted_reference_agreement": 0.8360366263730579,
+        "final_hash_verified": true
+      },
+      {
+        "language": "KO",
+        "route": "normal",
+        "forms": 23811,
+        "corpus_reference_matches": 23499,
+        "corpus_reference_agreement": 0.9868968123976314,
+        "weighted_instances": 289955,
+        "weighted_reference_matches": 289344,
+        "weighted_reference_agreement": 0.9978927764653136,
+        "final_hash_verified": true
+      },
+      {
+        "language": "KO",
+        "route": "local",
+        "forms": 23811,
+        "corpus_reference_matches": 15849,
+        "corpus_reference_agreement": 0.6656167317626307,
+        "weighted_instances": 289955,
+        "weighted_reference_matches": 242411,
+        "weighted_reference_agreement": 0.8360297287510131,
+        "final_hash_verified": true
+      }
+    ],
+    "examples": {
+      "JA": [
+        {
+          "payload": "domon",
+          "before": {
+            "parts": [
+              [
+                "dom",
+                true
+              ],
+              [
+                "on",
+                true
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "dom",
+                "rt": "家"
+              },
+              {
+                "rb": "on",
+                "rt": "分数"
+              }
+            ]
+          },
+          "after": {
+            "parts": [
+              [
+                "dom",
+                true
+              ],
+              [
+                "on",
+                false
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "dom",
+                "rt": "家"
+              }
+            ]
+          },
+          "reconstruction_unchanged": true
+        },
+        {
+          "payload": "belajn",
+          "before": {
+            "parts": [
+              [
+                "bel",
+                true
+              ],
+              [
+                "ajn",
+                true
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "bel",
+                "rt": "美しい"
+              },
+              {
+                "rb": "ajn",
+                "rt": "であろうと"
+              }
+            ]
+          },
+          "after": {
+            "parts": [
+              [
+                "bel",
+                true
+              ],
+              [
+                "ajn",
+                false
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "bel",
+                "rt": "美しい"
+              }
+            ]
+          },
+          "reconstruction_unchanged": true
+        },
+        {
+          "payload": "homojn",
+          "before": {
+            "parts": [
+              [
+                "homo",
+                true
+              ],
+              [
+                "jn",
+                false
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "homo",
+                "rt": "同"
+              }
+            ]
+          },
+          "after": {
+            "parts": [
+              [
+                "hom",
+                true
+              ],
+              [
+                "ojn",
+                false
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "hom",
+                "rt": "人"
+              }
+            ]
+          },
+          "reconstruction_unchanged": true
+        },
+        {
+          "payload": "diris",
+          "before": {
+            "parts": [
+              [
+                "d",
+                false
+              ],
+              [
+                "iris",
+                true
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "iris",
+                "rt": "[解]虹彩"
+              }
+            ]
+          },
+          "after": {
+            "parts": [
+              [
+                "dir",
+                true
+              ],
+              [
+                "is",
+                false
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "dir",
+                "rt": "(を)言う"
+              }
+            ]
+          },
+          "reconstruction_unchanged": true
+        }
+      ],
+      "ZH": [
+        {
+          "payload": "domon",
+          "before": {
+            "parts": [
+              [
+                "dom",
+                true
+              ],
+              [
+                "on",
+                true
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "dom",
+                "rt": "房屋"
+              },
+              {
+                "rb": "on",
+                "rt": "分之一"
+              }
+            ]
+          },
+          "after": {
+            "parts": [
+              [
+                "dom",
+                true
+              ],
+              [
+                "on",
+                false
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "dom",
+                "rt": "房屋"
+              }
+            ]
+          },
+          "reconstruction_unchanged": true
+        },
+        {
+          "payload": "belajn",
+          "before": {
+            "parts": [
+              [
+                "bel",
+                true
+              ],
+              [
+                "ajn",
+                true
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "bel",
+                "rt": "美丽"
+              },
+              {
+                "rb": "ajn",
+                "rt": "无论"
+              }
+            ]
+          },
+          "after": {
+            "parts": [
+              [
+                "bel",
+                true
+              ],
+              [
+                "ajn",
+                false
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "bel",
+                "rt": "美丽"
+              }
+            ]
+          },
+          "reconstruction_unchanged": true
+        },
+        {
+          "payload": "homojn",
+          "before": {
+            "parts": [
+              [
+                "homo",
+                true
+              ],
+              [
+                "jn",
+                false
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "homo",
+                "rt": "同"
+              }
+            ]
+          },
+          "after": {
+            "parts": [
+              [
+                "hom",
+                true
+              ],
+              [
+                "ojn",
+                false
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "hom",
+                "rt": "人"
+              }
+            ]
+          },
+          "reconstruction_unchanged": true
+        },
+        {
+          "payload": "diris",
+          "before": {
+            "parts": [
+              [
+                "d",
+                false
+              ],
+              [
+                "iris",
+                true
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "iris",
+                "rt": "虹膜"
+              }
+            ]
+          },
+          "after": {
+            "parts": [
+              [
+                "dir",
+                true
+              ],
+              [
+                "is",
+                false
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "dir",
+                "rt": "说"
+              }
+            ]
+          },
+          "reconstruction_unchanged": true
+        }
+      ],
+      "KO": [
+        {
+          "payload": "domon",
+          "before": {
+            "parts": [
+              [
+                "dom",
+                true
+              ],
+              [
+                "on",
+                true
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "dom",
+                "rt": "집"
+              },
+              {
+                "rb": "on",
+                "rt": "분수"
+              }
+            ]
+          },
+          "after": {
+            "parts": [
+              [
+                "dom",
+                true
+              ],
+              [
+                "on",
+                false
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "dom",
+                "rt": "집"
+              }
+            ]
+          },
+          "reconstruction_unchanged": true
+        },
+        {
+          "payload": "belajn",
+          "before": {
+            "parts": [
+              [
+                "bel",
+                true
+              ],
+              [
+                "ajn",
+                true
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "bel",
+                "rt": "아름다운"
+              },
+              {
+                "rb": "ajn",
+                "rt": "든지"
+              }
+            ]
+          },
+          "after": {
+            "parts": [
+              [
+                "bel",
+                true
+              ],
+              [
+                "ajn",
+                false
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "bel",
+                "rt": "아름다운"
+              }
+            ]
+          },
+          "reconstruction_unchanged": true
+        },
+        {
+          "payload": "homojn",
+          "before": {
+            "parts": [
+              [
+                "homo",
+                true
+              ],
+              [
+                "jn",
+                false
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "homo",
+                "rt": "동일"
+              }
+            ]
+          },
+          "after": {
+            "parts": [
+              [
+                "hom",
+                true
+              ],
+              [
+                "ojn",
+                false
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "hom",
+                "rt": "사람"
+              }
+            ]
+          },
+          "reconstruction_unchanged": true
+        },
+        {
+          "payload": "diris",
+          "before": {
+            "parts": [
+              [
+                "d",
+                false
+              ],
+              [
+                "iris",
+                true
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "iris",
+                "rt": "홍채"
+              }
+            ]
+          },
+          "after": {
+            "parts": [
+              [
+                "dir",
+                true
+              ],
+              [
+                "is",
+                false
+              ]
+            ],
+            "annotations": [
+              {
+                "rb": "dir",
+                "rt": "말하다"
+              }
+            ]
+          },
+          "reconstruction_unchanged": true
+        }
+      ]
+    },
+    "limitations": [
+      "Corpus reference agreement measures the boundaries in existing annotated HTML, not independently judged linguistic accuracy.",
+      "Only evaluable ruby-bearing corpus forms are included. Plain unannotated words and extended units are excluded.",
+      "The corpus includes related or duplicate documents, so occurrence-weighted scores are descriptive rather than independent sample accuracy.",
+      "The final runtime was not physically rerun over every corpus form; full initial execution, final-runtime related-batch execution and structural exclusion are combined explicitly.",
+      "Other known @ ambiguities and decompositions outside the four authorized exact payloads are unchanged.",
+      "Unchanged normal outputs refers to normal-only corpus batches. In a mixed normal/@ JA input, the existing normal diris gloss changes synonymously from (を)言う to 言う when the erroneous @ auto-correction is no longer needed; boundaries, past-ending annotation and recovered text remain unchanged."
+    ],
+    "private_paths_excluded": true
+  },
+  "known_mixed_annotation_difference": [
+    {
+      "lang": "JA",
+      "input": "diris",
+      "normal": true,
+      "before": "<ruby>dir<rt class=\"XXS_S\">(を)言<br>う</rt></ruby><ruby>is<rt class=\"XXS_S\">過去<br>形</rt></ruby>",
+      "after": "<ruby>dir<rt class=\"M_M\">言う</rt></ruby><ruby>is<rt class=\"XXS_S\">過去<br>形</rt></ruby>"
+    }
+  ]
+}
