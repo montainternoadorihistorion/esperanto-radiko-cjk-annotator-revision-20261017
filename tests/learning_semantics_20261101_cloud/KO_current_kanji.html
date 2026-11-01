@@ -1,0 +1,110 @@
+<!-- assignment-edition:current signature:7ab43c9506ae82f9685d709853f3d6d2e2fd3f665f9cb536887928e410fbe99f created-utc:2026-11-01T03:57:01.101903+00:00 -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에스페란토 어근 분해 루비 주석 텍스트</title>
+    <style>
+
+    html, body {
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+  
+      :root {
+        --ruby-color: blue;
+        --ruby-font-size: 0.5em;
+      }
+      html {
+        font-size: 100%; /* 多くのブラウザは16px相当が標準 */
+      }
+
+      .text-M_M {
+        font-size: 1rem!important; 
+        font-family: Arial, sans-serif;
+        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */
+        display: block; /* ブロック要素として扱う */
+        position: relative;
+      }
+  
+      /* ▼ ルビ（フレックスでルビを上に表示） */
+      ruby {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        vertical-align: top !important;
+        line-height: 2.0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 1rem !important;
+      }
+  
+      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */
+      rt {
+        display: block !important;
+        font-size: var(--ruby-font-size);
+        color: var(--ruby-color);
+        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/
+        text-align: center;
+        /* margin-top: 0.2em !important;   
+        transform: translateY(0.4em) !important; */
+      }
+      rt.XXXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }    
+      rt.XXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }
+      rt.XS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -6.1em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.S_S {
+        --ruby-font-size: 0.4em;
+        margin-top: -4.85em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.M_M {
+        --ruby-font-size: 0.5em;
+        margin-top: -4.00em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.L_L {
+        --ruby-font-size: 0.6em; 
+        margin-top: -3.55em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XL_L {
+        --ruby-font-size: 0.7em;
+        margin-top: -3.20em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XXL_L {
+        --ruby-font-size: 0.8em;
+        margin-top: -2.80em !important;
+        transform: translateY(-0.0em) !important;
+      }
+  
+    </style>
+  <meta name="esperanto-ruby-mode" content="kanji">
+</head>
+  <body>
+  <p class="text-M_M">
+<ruby>菠<rt class="XXS_S">ana<br>nas</rt></ruby>o <ruby>放<rt class="XL_L">las</rt></ruby>i <ruby>优先<rt class="M_M">prioritat</rt></ruby>o <ruby>参ᴷ<rt class="M_M">karot</rt></ruby>o <ruby>参ᴷ<rt class="M_M">karot</rt></ruby>eno <ruby>悦ᴰ<rt class="L_L">delic</rt></ruby>a.<br>
+<ruby>谢<rt class="S_S">dank</rt></ruby><ruby>巨<rt class="XXL_L">eg</rt></ruby>as <ruby>收<rt class="S_S">ricev</rt></ruby><ruby>值<rt class="L_L">ind</rt></ruby>as <ruby>年金<rt class="XL_L">pensi</rt></ruby><ruby>者<rt class="XXL_L">ul</rt></ruby>oj <ruby>议ᴷᴵ<rt class="M_M">konsili</rt></ruby><ruby>员<rt class="XXL_L">an</rt></ruby>oj <ruby>地铁<rt class="XL_L">metro</rt></ruby><ruby>系<rt class="XS_S">sistem</rt></ruby>on.<br>
+<ruby>谢<rt class="S_S">dank</rt></ruby><ruby>巨<rt class="XXL_L">eg</rt></ruby>as <ruby>收<rt class="S_S">ricev</rt></ruby><ruby>值<rt class="L_L">ind</rt></ruby>as <ruby>年金<rt class="XL_L">pensi</rt></ruby><ruby>者<rt class="XXL_L">ul</rt></ruby>oj <ruby>议ᴷᴵ<rt class="M_M">konsili</rt></ruby><ruby>员<rt class="XXL_L">an</rt></ruby>oj <ruby>地铁<rt class="XL_L">metro</rt></ruby><ruby>系<rt class="XS_S">sistem</rt></ruby><ruby>分<rt class="XXL_L">on</rt></ruby><br>
+<ruby>程<rt class="XXS_S">prog<br>ram</rt></ruby><ruby>行<rt class="XXL_L">ad</rt></ruby>o <ruby>子ᴬ<rt class="M_M">atom</rt></ruby><ruby>弹<rt class="XS_S">bomb</rt></ruby>-<ruby>牺<rt class="XS_S">viktim</rt></ruby>ojn <ruby>影ᶠ<rt class="XL_L">film</rt></ruby><ruby>导ᴰ<rt class="XS_S">direktor</rt></ruby>o <ruby>报<rt class="XS_S">gazet</rt></ruby>o <ruby>共ᴷᴹ<rt class="M_M">komun</rt></ruby>umo <ruby>感<rt class="S_S">sent</rt></ruby>as <ruby>何u<rt class="XXL_L">kiu</rt></ruby> <ruby>角ᴿ<rt class="XXL_L">rol</rt></ruby>on.<br>
+<ruby>程<rt class="XXS_S">prog<br>ram</rt></ruby><ruby>行<rt class="XXL_L">ad</rt></ruby>o <ruby>牺<rt class="XS_S">viktim</rt></ruby>oj <ruby>影ᶠ<rt class="XL_L">film</rt></ruby>o <ruby>报<rt class="XS_S">gazet</rt></ruby>o <ruby>共ᴷᴹ<rt class="M_M">komun</rt></ruby>umo <ruby>感<rt class="S_S">sent</rt></ruby>as <ruby>何u<rt class="XXL_L">kiu</rt></ruby> <ruby>角ᴿ<rt class="XXL_L">rol</rt></ruby><ruby>分<rt class="XXL_L">on</rt></ruby><br>
+<ruby>队<rt class="S_S">team</rt></ruby><ruby>员<rt class="XXL_L">an</rt></ruby>ojn <ruby>现ᴬ<rt class="L_L">aper</rt></ruby><ruby>期<rt class="L_L">dat</rt></ruby>o <ruby>伴<rt class="XS_S">koleg</rt></ruby><ruby>女<rt class="XXL_L">in</rt></ruby>oj <ruby>词<rt class="M_M">vort</rt></ruby><ruby>用<rt class="XXL_L">uz</rt></ruby>on <ruby>用<rt class="XXL_L">uz</rt></ruby><ruby>可<rt class="L_L">ebl</rt></ruby>as <ruby>小说<rt class="L_L">roman</rt></ruby><ruby>使<rt class="XXL_L">ig</rt></ruby>oj<br>
+<ruby>无ᴬ<rt class="XXL_L">an</rt></ruby><ruby>感ᴱ<rt class="M_M">estez</rt></ruby>i <ruby>车ᶜ̂<rt class="XXL_L">ĉar</rt></ruby>ojn <ruby>车ᶜ̂<rt class="XXL_L">ĉar</rt></ruby><ruby>小<rt class="XXL_L">et</rt></ruby>on <ruby>周<rt class="XXS_S">sem<br>ajn</rt></ruby>o<br>
+aso asoj <ruby>地铁<rt class="XL_L">metro</rt></ruby> <ruby>米<rt class="S_S">metr</rt></ruby>oj <ruby>米<rt class="S_S">metr</rt></ruby>on <ruby>米<rt class="S_S">metr</rt></ruby>ojn<br>
+ananaso pensiuloj &amp; <ruby>二<rt class="XXL_L">du</rt></ruby>&nbsp;&nbsp;<ruby>空<rt class="S_S">spac</rt></ruby>oj &lt; &gt;</p></body></html>

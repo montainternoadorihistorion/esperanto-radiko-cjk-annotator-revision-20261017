@@ -1,0 +1,110 @@
+<!-- assignment-edition:current signature:584b130eb9298abaf8d731db4c9f97038723524258936535feacfa758b196e49 created-utc:2026-11-01T03:55:01.695670+00:00 -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에스페란토 어근 분해 루비 주석 텍스트</title>
+    <style>
+
+    html, body {
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+
+  
+      :root {
+        --ruby-color: blue;
+        --ruby-font-size: 0.5em;
+      }
+      html {
+        font-size: 100%; /* 多くのブラウザは16px相当が標準 */
+      }
+
+      .text-M_M {
+        font-size: 1rem!important; 
+        font-family: Arial, sans-serif;
+        line-height: 2.0 !important;  /* text-M_Mのline-heightとrubyのline-heightは一致させる必要がある。 */
+        display: block; /* ブロック要素として扱う */
+        position: relative;
+      }
+  
+      /* ▼ ルビ（フレックスでルビを上に表示） */
+      ruby {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        vertical-align: top !important;
+        line-height: 2.0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 1rem !important;
+      }
+  
+      /* ▼ 追加マイナス余白（ルビサイズ別に上書き） */
+      rt {
+        display: block !important;
+        font-size: var(--ruby-font-size);
+        color: var(--ruby-color);
+        line-height: 1.05;/*ルビを改行するケースにおけるルビの行間*/
+        text-align: center;
+        /* margin-top: 0.2em !important;   
+        transform: translateY(0.4em) !important; */
+      }
+      rt.XXXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -8.3em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }    
+      rt.XXS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -7.2em !important;/* ルビの高さ位置はここで調節する。 */
+        transform: translateY(-0em) !important;
+      }
+      rt.XS_S {
+        --ruby-font-size: 0.3em;
+        margin-top: -6.1em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.S_S {
+        --ruby-font-size: 0.4em;
+        margin-top: -4.85em !important;
+        transform: translateY(-0em) !important;
+      }
+      rt.M_M {
+        --ruby-font-size: 0.5em;
+        margin-top: -4.00em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.L_L {
+        --ruby-font-size: 0.6em; 
+        margin-top: -3.55em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XL_L {
+        --ruby-font-size: 0.7em;
+        margin-top: -3.20em !important;
+        transform: translateY(-0.0em) !important;
+      }
+      rt.XXL_L {
+        --ruby-font-size: 0.8em;
+        margin-top: -2.80em !important;
+        transform: translateY(-0.0em) !important;
+      }
+  
+    </style>
+  <meta name="esperanto-ruby-mode" content="annotation">
+</head>
+  <body>
+  <p class="text-M_M">
+<ruby>ananas<rt class="XXL_L">파인애플</rt></ruby>o <ruby>las<rt class="XS_S">놓아두다</rt></ruby>i <ruby>prioritat<rt class="XXL_L">우선권</rt></ruby>o <ruby>karot<rt class="XXL_L">당근</rt></ruby>o <ruby>karoten<rt class="XXL_L">카로틴</rt></ruby>o <ruby>delic<rt class="XXL_L">쾌락</rt></ruby>a.<br>
+<ruby>dank<rt class="M_M">감사하다</rt></ruby><ruby>eg<rt class="M_M">강대</rt></ruby><ruby>as<rt class="M_M">현재</rt></ruby> <ruby>ricev<rt class="XXL_L">받다</rt></ruby><ruby>ind<rt class="L_L">가치</rt></ruby><ruby>as<rt class="M_M">현재</rt></ruby> <ruby>pensi<rt class="XXL_L">연금</rt></ruby><ruby>ul<rt class="XS_S">사람</rt></ruby>oj <ruby>konsili<rt class="XXL_L">평의회</rt></ruby><ruby>an<rt class="XS_S">구성원</rt></ruby>oj <ruby>metro<rt class="XXL_L">지하철</rt></ruby><ruby>sistem<rt class="XXL_L">체계</rt></ruby>on.<br>
+<ruby>dank<rt class="M_M">감사하다</rt></ruby><ruby>eg<rt class="M_M">강대</rt></ruby><ruby>as<rt class="M_M">현재</rt></ruby> <ruby>ricev<rt class="XXL_L">받다</rt></ruby><ruby>ind<rt class="L_L">가치</rt></ruby><ruby>as<rt class="M_M">현재</rt></ruby> <ruby>pensi<rt class="XXL_L">연금</rt></ruby><ruby>ul<rt class="XS_S">사람</rt></ruby>oj <ruby>konsili<rt class="XXL_L">평의회</rt></ruby><ruby>an<rt class="XS_S">구성원</rt></ruby>oj <ruby>metro<rt class="XXL_L">지하철</rt></ruby><ruby>sistem<rt class="XXL_L">체계</rt></ruby><ruby>on<rt class="M_M">분수</rt></ruby><br>
+<ruby>program<rt class="XXL_L">프로그램</rt></ruby><ruby>ad<rt class="M_M">지속</rt></ruby>o <ruby>atom<rt class="XXL_L">원자</rt></ruby><ruby>bomb<rt class="XXL_L">폭탄</rt></ruby>-<ruby>viktim<rt class="S_S">제물;희생자</rt></ruby>ojn <ruby>film<rt class="XL_L">필름</rt></ruby><ruby>direktor<rt class="XXL_L">관리자</rt></ruby>o <ruby>gazet<rt class="M_M">신문;잡지</rt></ruby>o <ruby>komun<rt class="XXL_L">공통의</rt></ruby><ruby>um<rt class="XXS_S">의미 불<br>특정</rt></ruby>o <ruby>sent<rt class="L_L">느끼다</rt></ruby><ruby>as<rt class="M_M">현재</rt></ruby> <ruby>kiu<rt class="XXS_S">누구;어<br>느 것</rt></ruby> <ruby>rol<rt class="M_M">역할</rt></ruby>on.<br>
+<ruby>program<rt class="XXL_L">프로그램</rt></ruby><ruby>ad<rt class="M_M">지속</rt></ruby>o <ruby>viktim<rt class="S_S">제물;희생자</rt></ruby>oj <ruby>film<rt class="XL_L">필름</rt></ruby>o <ruby>gazet<rt class="M_M">신문;잡지</rt></ruby>o <ruby>komun<rt class="XXL_L">공통의</rt></ruby><ruby>um<rt class="XXS_S">의미 불<br>특정</rt></ruby>o <ruby>sent<rt class="L_L">느끼다</rt></ruby><ruby>as<rt class="M_M">현재</rt></ruby> <ruby>kiu<rt class="XXS_S">누구;어<br>느 것</rt></ruby> <ruby>rol<rt class="M_M">역할</rt></ruby><ruby>on<rt class="M_M">분수</rt></ruby><br>
+<ruby>team<rt class="XL_L">운동팀</rt></ruby><ruby>an<rt class="XS_S">구성원</rt></ruby>ojn <ruby>aper<rt class="S_S">나타나다</rt></ruby><ruby>dat<rt class="L_L">날짜</rt></ruby>o <ruby>koleg<rt class="XXL_L">동료</rt></ruby><ruby>in<rt class="XS_S">여성</rt></ruby>oj <ruby>vort<rt class="XXL_L">단어</rt></ruby><ruby>uz<rt class="M_M">쓰다</rt></ruby>on <ruby>uz<rt class="M_M">쓰다</rt></ruby><ruby>ebl<rt class="S_S">가능한</rt></ruby><ruby>as<rt class="M_M">현재</rt></ruby> <ruby>roman<rt class="M_M">로마자;소설</rt></ruby><ruby>ig<rt class="XXS_S">하게<br> 하다</rt></ruby>oj<br>
+<ruby>an<rt class="XXL_L">무</rt></ruby><ruby>estez<rt class="XXL_L">감각</rt></ruby>i <ruby>ĉar<rt class="XXS_S">수레</rt></ruby>ojn <ruby>ĉar<rt class="XXS_S">수레</rt></ruby><ruby>et<rt class="S_S">작음</rt></ruby>on <ruby>semajn<rt class="XXL_L">주간</rt></ruby>o<br>
+<ruby>as<rt class="XS_S">에이스</rt></ruby>o <ruby>as<rt class="XS_S">에이스</rt></ruby>oj <ruby>metro<rt class="XXL_L">지하철</rt></ruby> <ruby>metr<rt class="XXL_L">미터</rt></ruby>oj <ruby>metr<rt class="XXL_L">미터</rt></ruby>on <ruby>metr<rt class="XXL_L">미터</rt></ruby>ojn<br>
+ananaso pensiuloj &amp; <ruby>du<rt class="XXL_L">둘</rt></ruby>&nbsp;&nbsp;<ruby>spac<rt class="XXL_L">공간</rt></ruby>oj &lt; &gt;</p></body></html>

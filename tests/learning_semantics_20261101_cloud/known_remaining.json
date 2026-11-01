@@ -1,0 +1,306 @@
+{
+  "schema": 1,
+  "release": "learning-semantics-20261101",
+  "kind": "Known pre-existing residuals, separately documented and not fixed in this release",
+  "count": 2,
+  "review_scope": "Three languages, two assignment editions, three forward modes, two synthetic words: 36 before/after comparisons.",
+  "limits": [
+    "The 47 reviewed exact payload repairs in this release do not include these two forms.",
+    "Successful Cloud comparison includes these residuals as expected pre-existing behavior; it does not certify every localized decomposition.",
+    "No kanji assignment or identifier change is proposed here.",
+    "Examples are synthetic single words; no corpus sentences, private paths, or personal information are included."
+  ],
+  "cases": [
+    {
+      "word": "metrosistemon",
+      "input": "@metrosistemon@",
+      "issue": "Accusative ending on is treated as the fractional suffix on in the existing localized conversion.",
+      "intended_parts": [
+        "metro",
+        "sistem",
+        "on (accusative ending)"
+      ],
+      "current_localized_pure": [
+        {
+          "language": "JA",
+          "edition": "current",
+          "output": "地铁系分"
+        },
+        {
+          "language": "JA",
+          "edition": "legacy",
+          "output": "地铁系分"
+        },
+        {
+          "language": "ZH",
+          "edition": "current",
+          "output": "地铁系分"
+        },
+        {
+          "language": "ZH",
+          "edition": "legacy",
+          "output": "地铁系分"
+        },
+        {
+          "language": "KO",
+          "edition": "current",
+          "output": "地铁系分"
+        },
+        {
+          "language": "KO",
+          "edition": "legacy",
+          "output": "地铁系分"
+        }
+      ],
+      "annotation_examples": [
+        {
+          "language": "JA",
+          "edition": "current",
+          "parts_and_glosses": [
+            [
+              "metro",
+              "地下鉄"
+            ],
+            [
+              "sistem",
+              "体系"
+            ],
+            [
+              "on",
+              "分数"
+            ]
+          ]
+        },
+        {
+          "language": "JA",
+          "edition": "legacy",
+          "parts_and_glosses": [
+            [
+              "metro",
+              "地下鉄"
+            ],
+            [
+              "sistem",
+              "体系"
+            ],
+            [
+              "on",
+              "分数"
+            ]
+          ]
+        },
+        {
+          "language": "ZH",
+          "edition": "current",
+          "parts_and_glosses": [
+            [
+              "metro",
+              "地铁"
+            ],
+            [
+              "sistem",
+              "系统"
+            ],
+            [
+              "on",
+              "分之一"
+            ]
+          ]
+        },
+        {
+          "language": "ZH",
+          "edition": "legacy",
+          "parts_and_glosses": [
+            [
+              "metro",
+              "地铁"
+            ],
+            [
+              "sistem",
+              "系统"
+            ],
+            [
+              "on",
+              "分之一"
+            ]
+          ]
+        },
+        {
+          "language": "KO",
+          "edition": "current",
+          "parts_and_glosses": [
+            [
+              "metro",
+              "지하철"
+            ],
+            [
+              "sistem",
+              "체계"
+            ],
+            [
+              "on",
+              "분수"
+            ]
+          ]
+        },
+        {
+          "language": "KO",
+          "edition": "legacy",
+          "parts_and_glosses": [
+            [
+              "metro",
+              "지하철"
+            ],
+            [
+              "sistem",
+              "체계"
+            ],
+            [
+              "on",
+              "분수"
+            ]
+          ]
+        }
+      ],
+      "existed_before_this_release": true,
+      "source_and_root_boundaries_unchanged": true,
+      "all_current_data_outputs_equal_old_runtime": true,
+      "baseline_comparison_routes": 18,
+      "release_change": "The approved annotation correction changes metro from meter to subway. The pre-existing on segmentation remains unchanged.",
+      "future_candidate": "Consider an exact-form correction only after separate review; do not broaden the treatment of on globally."
+    },
+    {
+      "word": "rolon",
+      "input": "@rolon@",
+      "issue": "Accusative ending on is treated as the fractional suffix on in the existing localized conversion.",
+      "intended_parts": [
+        "rol",
+        "on (accusative ending)"
+      ],
+      "current_localized_pure": [
+        {
+          "language": "JA",
+          "edition": "current",
+          "output": "角ᴿ分"
+        },
+        {
+          "language": "JA",
+          "edition": "legacy",
+          "output": "角ᴿ分"
+        },
+        {
+          "language": "ZH",
+          "edition": "current",
+          "output": "角ᴿ分"
+        },
+        {
+          "language": "ZH",
+          "edition": "legacy",
+          "output": "角ᴿ分"
+        },
+        {
+          "language": "KO",
+          "edition": "current",
+          "output": "角ᴿ分"
+        },
+        {
+          "language": "KO",
+          "edition": "legacy",
+          "output": "角ᴿ分"
+        }
+      ],
+      "annotation_examples": [
+        {
+          "language": "JA",
+          "edition": "current",
+          "parts_and_glosses": [
+            [
+              "rol",
+              "[劇]役割"
+            ],
+            [
+              "on",
+              "分数"
+            ]
+          ]
+        },
+        {
+          "language": "JA",
+          "edition": "legacy",
+          "parts_and_glosses": [
+            [
+              "rol",
+              "[劇]役割"
+            ],
+            [
+              "on",
+              "分数"
+            ]
+          ]
+        },
+        {
+          "language": "ZH",
+          "edition": "current",
+          "parts_and_glosses": [
+            [
+              "rol",
+              "角色"
+            ],
+            [
+              "on",
+              "分之一"
+            ]
+          ]
+        },
+        {
+          "language": "ZH",
+          "edition": "legacy",
+          "parts_and_glosses": [
+            [
+              "rol",
+              "角色"
+            ],
+            [
+              "on",
+              "分之一"
+            ]
+          ]
+        },
+        {
+          "language": "KO",
+          "edition": "current",
+          "parts_and_glosses": [
+            [
+              "rol",
+              "역할"
+            ],
+            [
+              "on",
+              "분수"
+            ]
+          ]
+        },
+        {
+          "language": "KO",
+          "edition": "legacy",
+          "parts_and_glosses": [
+            [
+              "rol",
+              "역할"
+            ],
+            [
+              "on",
+              "분수"
+            ]
+          ]
+        }
+      ],
+      "existed_before_this_release": true,
+      "source_and_root_boundaries_unchanged": true,
+      "all_current_data_outputs_equal_old_runtime": true,
+      "baseline_comparison_routes": 18,
+      "release_change": "The pre-existing output remains unchanged in every compared language, edition, and mode.",
+      "future_candidate": "Consider an exact-form correction only after separate review; do not broaden the treatment of on globally."
+    }
+  ]
+}

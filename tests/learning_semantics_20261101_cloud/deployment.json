@@ -1,0 +1,16 @@
+{
+  "source_pr": 83,
+  "source_head": "400da20b7dfd7cfcc2ead79c1a45e08c81546ffd",
+  "merge_commit": "7b81730a07de7203716467a62655d8cce9e742d6",
+  "merged_at_utc": "2026-11-01T03:53:03Z",
+  "pull_request_checks": {
+    "run": 41269794124,
+    "conclusion": "success",
+    "jobs": [
+      "forward-input-state",
+      "test (Esperanto-Reverter-JA)",
+      "test (Esperanto-Reverter-ZH)"
+    ]
+  },
+  "reverse_cloud_checks": "Performed on unchanged reverse application code and dictionaries; their hashes match this release."
+}
