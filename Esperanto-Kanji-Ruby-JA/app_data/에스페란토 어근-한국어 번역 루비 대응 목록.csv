@@ -669,7 +669,7 @@ muel,빻다
 nutr,영양 공급하다
 odor,냄새나다
 rajd,타다
-solv,해결하다
+solv,해결하다;녹이다
 taks,평가하다
 teks,짜다
 tent,유혹하다
@@ -2591,7 +2591,7 @@ najtingal,나이팅게일
 ortografi,철자법
 parlament,국회
 proletari,프롤레타리아
-propozici,절
+propozici,절;명제
 psikologi,심리학
 suplement,보충
 termometr,온도계
@@ -4617,7 +4617,7 @@ arm##,무기
 arm,무기
 fos,파다
 fos##,구멍
-plant,심다
+plant,식물;심다
 plant##,식물
 orient##,방위결정
 orient,동쪽

@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "baseline_commit": "b04a985d8f11b8eae0d3540e5e875827bdac348a",
+  "approved": {
+    "JA": {
+      "solv": "解決;溶かす",
+      "plant": "植物;植える",
+      "propozici": "節;命題"
+    },
+    "ZH": {
+      "solv": "解决;溶解",
+      "plant": "植物;种植",
+      "propozici": "分句;命题"
+    },
+    "KO": {
+      "solv": "해결하다;녹이다",
+      "plant": "식물;심다",
+      "propozici": "절;명제"
+    }
+  },
+  "package_review": {
+    "passed": true,
+    "total_rules_compared": 1872591,
+    "changed_ruby_elements": 1320,
+    "changed_word_annotation_pairs": 246,
+    "changed_csv_rows": 18,
+    "public_data_files": 12,
+    "integrated_mirrors": 12,
+    "generation_sources": 3,
+    "keys_order_placeholders_rb_other_rt_nonruby_text_unchanged": true,
+    "code_kanji_identifiers_legacy_kanji_inverse_unchanged": true
+  },
+  "runtime_tests": {
+    "passed": true,
+    "command": "python -X utf8 -m pytest -q -p no:cacheprovider tests/test_learning_annotation_semantics.py",
+    "tests_passed": 3,
+    "elapsed_seconds": 72.37,
+    "test_file_sha256": "c8f2f490b79f8c77114cb54489b75ba4b43fbb8cbb6ab6082dac7f94cbd46ae5",
+    "checks": [
+      "All packaged ruby occurrences of solv/plant/propozici match the adopted gloss in JA/ZH/KO, including case variants.",
+      "All exact target root components in word_anno and the three canonical annotation CSVs match.",
+      "Seven reviewed word forms are added to the existing current/legacy normal/local runtime matrix; source spelling and marker removal are preserved.",
+      "akvosolvebla, planto and propozicio are each checked as isolated normal and @ inputs in both editions and all three languages.",
+      "Existing learning annotation distinctions and protected-text test still pass."
+    ],
+    "newly_added_batched_target_checks": 84,
+    "newly_added_isolated_target_checks": 36
+  },
+  "scope": "Exact root components only, including capitalizations. Annotation data are shared by both assignment editions. No decomposition or assignment change."
+}
