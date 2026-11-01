@@ -316,6 +316,115 @@ def _reviewed_word_renderings(payloads, global_rules, enabled=False):
     return results
 
 
+# Reviewed corpus payloads only: keep normal segmentation and every root/ID
+# table unchanged. Reuse selected-edition local atoms, never a new assignment.
+# The last item of each tuple is a literal grammatical ending, not a root.
+_REVIEWED_CORPUS_LOCAL_PARTS = {
+    'metroj': ('metr', 'oj'),
+    'metron': ('metr', 'on'),
+    'metrojn': ('metr', 'ojn'),
+    'teamanojn': ('team', 'an', 'ojn'),
+    'tradukteamanojn': ('traduk', 'team', 'an', 'ojn'),
+    'aperdato': ('aper', 'dat', 'o'),
+    'aristokratino': ('aristokrat', 'in', 'o'),
+    'koleginoj': ('koleg', 'in', 'oj'),
+    'konilon': ('kon', 'il', 'on'),
+    'vortuzon': ('vort', 'uz', 'on'),
+    'ekstermovadaj': ('ekster', 'mov', 'ad', 'aj'),
+    'Landaron': ('Land', 'ar', 'on'),
+    'landaron': ('land', 'ar', 'on'),
+    'dekstremuloj': ('dekstr', 'em', 'ul', 'oj'),
+    'regularojn': ('regul', 'ar', 'ojn'),
+    'skanaĵoj': ('skan', 'aĵ', 'oj'),
+    'malfidinda': ('mal', 'fid', 'ind', 'a'),
+    'Emociego': ('Emoci', 'eg', 'o'),
+    'antaŭeko': ('antaŭ', 'ek', 'o'),
+    'videbleco': ('vid', 'ebl', 'ec', 'o'),
+    'uzeblas': ('uz', 'ebl', 'as', ''),
+    'direktivoj': ('direkt', 'iv', 'oj'),
+    'sendependa': ('sen', 'de', 'pend', 'a'),
+    'romanigoj': ('roman', 'ig', 'oj'),
+    'filozofion': ('filozofi', 'on'),
+    'aŭskultoviziton': ('aŭskult', 'o', 'vizit', 'on'),
+    'civilizon': ('civiliz', 'on'),
+    'korelingvajn': ('kore', 'lingv', 'ajn'),
+    'kronologion': ('kronologi', 'on'),
+    'IJK-on': ('IJK', '-', 'on'),
+    'burokratio': ('burokrat', 'io'),
+    'programeroj': ('program', 'er', 'oj'),
+    'ambaŭkaze': ('ambaŭ', 'kaz', 'e'),
+    'radio-programeroj': ('radi', 'o-', 'program', 'er', 'oj'),
+}
+# Joining vowels and punctuation are literal here, as in the source word.
+_REVIEWED_CORPUS_LITERALS = frozenset({'o', '-', 'o-'})
+# These complete normal rules already preserve the established decomposition.
+# In particular, their repaired tense annotation must not be read as ace.
+_REVIEWED_CORPUS_GLOBAL_WORDS = frozenset({
+    'organiziĝi', 'akvumi', 'dankegas', 'enestas', 'ricevindas',
+    'sumiĝas', 'trametas', 'datumas', 'as-tempo',
+    'aso', 'asoj', 'ason', 'asojn',
+})
+_REVIEWED_CORPUS_FORMS = frozenset(_REVIEWED_CORPUS_LOCAL_PARTS) | _REVIEWED_CORPUS_GLOBAL_WORDS
+
+
+# This exact payload has two possible readings; this is a contextual gloss,
+# not a new dictionary meaning or a changed kanji assignment for roman.
+_REVIEWED_ROMAN_CONTEXT_RT = '<rt class="S_S">罗马字;小说</rt>'
+
+
+def _reviewed_corpus_renderings(payloads, local_rules, global_rules, enabled=False):
+    wanted = set(payloads) & _REVIEWED_CORPUS_FORMS if enabled else set()
+    if not wanted:
+        return {}
+    # User/session corrections have priority, including when no bundled atoms
+    # are present. Never rewrite a supplied custom JSON by default.
+    results = {}
+    for old, new, placeholder in global_rules:
+        key = old.strip(' ')
+        if key in wanted and re.fullmatch(r'\$9\d{6}\$', placeholder.strip(' ')):
+            results.setdefault(key, new.strip(' '))
+    wanted -= results.keys()
+    normal = wanted & _REVIEWED_CORPUS_GLOBAL_WORDS
+    for old, new, _ in global_rules:
+        key = old.strip(' ')
+        if key in normal and key not in results:
+            results[key] = new.strip(' ')
+    # The ace noun has annotation-only whole-word entries and no kanji
+    # assignment. Its four reviewed noun forms therefore stay Latin there.
+    for word in (normal - results.keys()) & {'aso', 'asoj', 'ason', 'asojn'}:
+        results[word] = word
+    missing_normal = normal - results.keys()
+    if missing_normal:
+        raise ValueError('Missing reviewed corpus whole words: ' + repr(sorted(missing_normal)))
+    local = wanted - normal
+    needed = {piece for word in local for piece in _REVIEWED_CORPUS_LOCAL_PARTS[word][:-1]
+              if piece not in _REVIEWED_CORPUS_LITERALS}
+    atoms = {}
+    for old, new, _ in local_rules:
+        if old in needed:
+            if not isinstance(new, str) or not new or (old in atoms and atoms[old] != new):
+                raise ValueError('Conflicting or empty reviewed corpus atom: ' + old)
+            atoms[old] = new
+    # These reviewed pieces have annotation entries but no kanji allocation.
+    # Preserve their original letters when the selected kanji table lacks them.
+    for piece in needed & {'IJK', 'kore', 'as'}:
+        atoms.setdefault(piece, piece)
+    missing_atoms = needed - atoms.keys()
+    if missing_atoms:
+        raise ValueError('Missing reviewed corpus atoms: ' + repr(sorted(missing_atoms)))
+    for word in local:
+        parts = _REVIEWED_CORPUS_LOCAL_PARTS[word]
+        results[word] = ''.join(piece if piece in _REVIEWED_CORPUS_LITERALS else atoms[piece]
+                                for piece in parts[:-1]) + parts[-1]
+        if word == 'romanigoj':
+            results[word] = re.sub(
+                r'(<ruby\b[^>]*>\s*roman\s*)<rt\b[^>]*>.*?</rt>',
+                lambda match: match[1] + _REVIEWED_ROMAN_CONTEXT_RT,
+                results[word], count=1, flags=re.I | re.S,
+            )
+    return results
+
+
 def _render_localized_payload(payload, local_rules, finalized, reviewed, escape):
     if payload in reviewed:
         return reviewed[payload]
@@ -338,6 +447,7 @@ def _protect_input_regions(text, skip_tokens, local_tokens, local_rules,
 
     reviewed = _reviewed_local_renderings(payloads, local_rules, reviewed_local_decompositions)
     reviewed.update(_reviewed_word_renderings(payloads, global_rules, reviewed_local_decompositions))
+    reviewed.update(_reviewed_corpus_renderings(payloads, local_rules, global_rules, reviewed_local_decompositions))
 
     def render_local(payload):
         return _render_localized_payload(payload, local_rules, finalized, reviewed, escape)
@@ -446,6 +556,10 @@ def create_replacements_list_for_localized_replacement(
     )
     reviewed.update(_reviewed_word_renderings(
         matches, replacements_final_list or [], reviewed_local_decompositions
+    ))
+    reviewed.update(_reviewed_corpus_renderings(
+        matches, replacements_list_for_localized_string, replacements_final_list or [],
+        reviewed_local_decompositions
     ))
     tmp_replacements_list_for_localized_string = []
     for i, match in enumerate(matches):

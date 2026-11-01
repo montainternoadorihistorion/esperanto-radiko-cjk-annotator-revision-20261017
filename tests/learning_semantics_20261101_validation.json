@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-01",
+  "passed": true,
+  "baseline": "d510bf9f8c16f0cae43c21f30a673edbe560edc1",
+  "scope": "Annotation semantics and 47 exact bundled @ payloads; no assignment or identifier changes",
+  "tables": {
+    "rules_checked": 1872591,
+    "changed_annotation_rows": {
+      "JA": 915,
+      "ZH": 1078,
+      "KO": 6515
+    },
+    "rule_keys_order_placeholders_and_non_rt_content_preserved": true,
+    "existing_word_anno_piece_boundaries_preserved": true,
+    "new_context_keys": 7,
+    "regenerated_as_rules_each_language": 17
+  },
+  "normal_corpus": {
+    "unique_forms": 23811,
+    "languages": [
+      "JA",
+      "ZH",
+      "KO"
+    ],
+    "boundary_changes": 0,
+    "reconstruction_changes": 0,
+    "annotation_changed_forms": {
+      "JA": 116,
+      "ZH": 92,
+      "KO": 189
+    },
+    "note": "Normal-path comparison. HTML segmentation agreement is not linguistic accuracy."
+  },
+  "semantic_runtime": {
+    "passed": true,
+    "command": "python -B -X utf8 tests/test_learning_annotation_semantics.py",
+    "tests": 2,
+    "elapsed_seconds": 69.262,
+    "exit_code": 0,
+    "runtime_reviewed_exact_forms": 47,
+    "languages": [
+      "JA",
+      "ZH",
+      "KO"
+    ],
+    "editions": [
+      "current",
+      "legacy"
+    ],
+    "batch_words": 32,
+    "normal_and_local_batch_outputs": 384,
+    "isolated_outputs": 24,
+    "protected_outputs": 6,
+    "total_semantic_output_checks": 414,
+    "test_file_sha256": "ff5849f2217ebdc1651165095e2d716086e0aee427f11b39b80a755ff1caf689",
+    "notes": [
+      "Source context keys tested separately from rendered data.",
+      "Normal and @ batches run independently; four critical forms also tested as isolated inputs.",
+      "JA local metr retains existing [単]メートル gloss; no data mutation to remove category label.",
+      "Previous 180 isolated JA outputs were verified at the 44-form runtime, this final public test checks the 47-form runtime."
+    ]
+  },
+  "reviewed_payload_guard": {
+    "passed": true,
+    "unique_reviewed_forms": 47,
+    "test_file": "tests/test_reviewed_corpus_payloads.py",
+    "test_file_sha256": "0bc49680e454e00be726ad4231cabe3cacc79e71152674668e24ea290caf8d35",
+    "runtime_sha256": {
+      "JA": "9f1e5540498e84e41e72b76df1b1c9247a5b08c9979949dfa11dc3625bafe4d2",
+      "ZH": "802726a260d8de103c589fa8c61d63c0b60b6ce1ed12a63516b5395b031b5bd2",
+      "KO": "86338efafd1389ba97169609126dd5dfd5ac7c27d88a9f79c9a5cfc30d06fcea"
+    },
+    "final_ci_style": {
+      "configurations": 18,
+      "inputs_each": 496,
+      "rendered_outputs": 8928,
+      "target_outputs": 882,
+      "unique_targets_each": 47,
+      "duplicate_control_targets_each": 2,
+      "inverse_exact": 588,
+      "inverse_mismatches": 0,
+      "html_source_exact": 588,
+      "strict_annotation_segmentation": true,
+      "strict_tense_ace_roman_annotations": true
+    },
+    "before_comparison": {
+      "initial44": {
+        "configurations": 18,
+        "outside_scope_identical": 7560,
+        "custom_optout_identical": 8388,
+        "source": "real_data_guard_initial44.json"
+      },
+      "added_three": {
+        "configurations": 18,
+        "outside_scope_identical": 594,
+        "custom_optout_identical": 648,
+        "inverse_exact": 36,
+        "source": "meter_addendum_before_comparison.json"
+      },
+      "scope_extension_check": "JA runtime differs from initially validated 44-form code only by the three meter entries; final47_vs44_scope_check.json"
+    },
+    "synthetic": {
+      "manual_and_preview": 846,
+      "custom_optout": 4230,
+      "outside_scope": 3807
+    },
+    "limits": [
+      "Real runtime comparison used final data in both old and new engines; data migration proofs are separate.",
+      "Auto-overlay and browser/Cloud integration are parent-owned checks.",
+      "A transitional CI-style run correctly stopped when the parent extended runtime from 44 to 47; final 47 run is successful."
+    ]
+  },
+  "existing_inverse_tests": {
+    "JA": 508,
+    "ZH": 508
+  },
+  "preservation": {
+    "unchanged_existing_files": 1505,
+    "all_fixed_legacy_assets_and_kanji_data_identical": true,
+    "inverse_dictionaries_identical": true,
+    "public_private_product_mirrors_identical": 15
+  },
+  "limitations": [
+    "Selected @ payloads only; normal segmentation is preserved.",
+    "Shared spelling ambiguity remains allowed.",
+    "Cloud is verified separately with representative input; exhaustive tests run locally and in CI."
+  ]
+}
