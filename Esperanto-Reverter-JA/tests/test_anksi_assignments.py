@@ -51,7 +51,7 @@ def test_current_manifest_downloads_group_metadata_and_frozen_legacy():
     source = json.loads((app.ROOT / "data/current_dictionary_source.json").read_bytes())
     path = app.ROOT / source["anksi_manifest"]
     manifest = json.loads(path.read_bytes())
-    assert source["revision"] == "2026-11-02-eufori-sofism"
+    assert source["revision"] == "2026-11-02-hibisk"
     assert manifest["revision"] == "2026-10-24-anksi"
     assert manifest["changes"] == {"anksi": ["忧虑", "忧ᴬᴷ"]}
     assert manifest["safe_reverse_aliases"] == manifest["ownership_transfers"] == {}

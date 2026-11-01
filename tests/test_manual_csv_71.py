@@ -64,6 +64,8 @@ LATER_CURRENT_ASSIGNMENTS = {
     # 2026-11-02 approved display changes; no frozen legacy edits.
     'eŭfori': ("欣快", "快ᴱ"),
     'sofism': ("诡辩", "伪辩"),
+    # Later adopted hibisk representative character; frozen legacy is unchanged.
+    'hibisk': ("芙蓉", "芙"),
 }
 
 def historical_current_bytes(raw):

@@ -63,7 +63,7 @@ def test_only_two_editions_and_no_new_historical_aliases():
 def test_download_source_and_reviewed_manifest_are_consistent():
     source = json.loads((app.ROOT / "data/current_dictionary_source.json").read_bytes())
     manifest = json.loads((app.ROOT / source["six_assignments_manifest"]).read_bytes())
-    assert source["revision"] == "2026-11-02-eufori-sofism"
+    assert source["revision"] == "2026-11-02-hibisk"
     assert manifest["revision"] == "2026-10-20-six-assignments"
     assert manifest["changes"] == {("au^tomaci" if r == "aŭtomaci" else r): list(v) for r, v in CHANGES.items()}
     assert manifest["safe_reverse_aliases"] == manifest["ownership_transfers"] == {}
