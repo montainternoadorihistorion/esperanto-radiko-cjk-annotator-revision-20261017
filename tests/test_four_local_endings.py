@@ -171,7 +171,15 @@ class FourLocalEndingTests(unittest.TestCase):
                                          for root, ending, kanji in CASES.values()))
                     else:
                         self.assertEqual(source(ordinary_output, mode), ordinary_input.replace('@', ''))
-                        self.assertEqual(len(list(RUBY.finditer(ordinary_output))), 8)
+                        ordinary_pairs = [(plain(m[1]), plain(m[2])) for m in RUBY.finditer(ordinary_output)]
+                        if mode == 'kanji':
+                            self.assertEqual(len(ordinary_pairs), 8)
+                        else:
+                            # Ordinary diris already annotates the past ending; preserve it.
+                            self.assertEqual([base for base, gloss in ordinary_pairs],
+                                             ['dom', 'dom', 'bel', 'bel', 'hom', 'hom', 'dir', 'is', 'dir'])
+                            self.assertEqual(ordinary_pairs[7][1],
+                                             {'JA': '過去形', 'ZH': '过去式', 'KO': '였'}[lang])
                     old = batch(before, True) if before else None
                     if before:
                         self.assertEqual(batch(rt, False), batch(before, False), (lang, edition, mode, 'custom'))
