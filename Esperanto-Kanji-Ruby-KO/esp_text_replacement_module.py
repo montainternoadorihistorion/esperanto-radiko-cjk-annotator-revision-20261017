@@ -328,6 +328,10 @@ def _reviewed_word_renderings(payloads, global_rules, enabled=False):
 # table unchanged. Reuse selected-edition local atoms, never a new assignment.
 # The last item of each tuple is a literal grammatical ending, not a root.
 _REVIEWED_CORPUS_LOCAL_PARTS = {
+    'domon': ('dom', 'on'),
+    'belajn': ('bel', 'ajn'),
+    'homojn': ('hom', 'ojn'),
+    'diris': ('dir', 'is'),
     'metroj': ('metr', 'oj'),
     'metron': ('metr', 'on'),
     'metrojn': ('metr', 'ojn'),
@@ -390,6 +394,11 @@ def _reviewed_corpus_renderings(payloads, local_rules, global_rules, enabled=Fal
     for old, new, placeholder in global_rules:
         key = old.strip(' ')
         if key in wanted and re.fullmatch(r'\$9\d{6}\$', placeholder.strip(' ')):
+            # Automatic fallback variants must not undo these four reviewed endings.
+            # Explicit user corrections retain their existing priority.
+            if (key in {'domon', 'belajn', 'homojn', 'diris'}
+                    and re.fullmatch(r'\$911\d{4}\$', placeholder.strip(' '))):
+                continue
             results.setdefault(key, new.strip(' '))
     wanted -= results.keys()
     normal = wanted & _REVIEWED_CORPUS_GLOBAL_WORDS
