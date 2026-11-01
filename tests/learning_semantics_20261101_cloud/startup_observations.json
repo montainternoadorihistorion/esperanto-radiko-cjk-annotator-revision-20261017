@@ -1,0 +1,92 @@
+{
+  "scope": "Actual browser observations; no claim that all Cloud wrappers work in every browser",
+  "parent": {
+    "observations": [
+      {
+        "app": "forward-JA",
+        "phase": "before-deployment",
+        "normal_url_displayed": true
+      },
+      {
+        "app": "forward-JA",
+        "phase": "after-deployment-existing-session",
+        "normal_wrapper_spinner": true,
+        "body_url_displayed": true,
+        "data_revision_visible": true,
+        "reviewed_runtime_outputs_still_old": {
+          "@dankegas@": "dank/e/gas",
+          "@teamanojn@": "te/aman/ojn",
+          "@metroj@": "metro/j"
+        },
+        "interpretation": "Runtime state may remain from before the hot update; cause is not asserted without post-reboot comparison."
+      },
+      {
+        "app": "forward-JA",
+        "phase": "after-deployment-new-normal-tab",
+        "normal_url_displayed": true,
+        "cloud_log_updated_utc": "2026-11-01T03:53:12Z",
+        "reboot_requested": true,
+        "reboot_disconnect_log_utc": "2026-11-01T03:56:18Z"
+      },
+      {
+        "app": "reverse-JA",
+        "normal_wrapper_spinner": true,
+        "body_url_tested": true,
+        "conversion_and_download_checks_passed": 2
+      },
+      {
+        "app": "reverse-ZH",
+        "normal_url_displayed": true,
+        "body_url_fallback": false,
+        "conversion_and_download_checks_passed": 2
+      },
+      {
+        "app": "forward-JA",
+        "phase": "after-reboot",
+        "cloud_log_dependencies_ready_utc": "2026-11-01T03:58:52Z",
+        "normal_wrapper_spinner": true,
+        "body_url_displayed": true,
+        "all_six_routes_match_local_expected": true,
+        "reviewed_runtime_outputs_correct": true,
+        "first_ruby_sha256": "957a4a3d13b522872f187c4762a9dfefb205193a087d5ddbf028d89235ea16ab",
+        "reboot_resolved_observed_stale_execution": true,
+        "note": "Data update alone did not prove runtime freshness; all six post-reboot outputs and downloads passed."
+      }
+    ],
+    "scope_note": "Observed browser sessions only; no assertion that every browser startup issue is fixed."
+  },
+  "ZHKO": {
+    "post_merge_commit": "7b81730a07de7203716467a62655d8cce9e742d6",
+    "observed_utc": "2026-11-01T04:02:22.893Z",
+    "records": [
+      {
+        "language": "ZH",
+        "normal_url": "https://esperanto-cjk-revision-zh-20261017.streamlit.app/",
+        "before_merge_normal_url_rendered": true,
+        "after_merge_reload_rendered": true,
+        "all_six_routes_used_normal_url": true,
+        "reboot_performed": false,
+        "new_annotation_and_exact_47_payload_runtime_confirmed_by_dom_hash": true,
+        "download_dialog_note": "After some downloads the confirmation dialog remained/reappeared; closing the observed dialog using AX allowed the next selection. No conversion/output mismatch."
+      },
+      {
+        "language": "KO",
+        "normal_url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/",
+        "before_merge_normal_url_rendered": true,
+        "after_merge_reload": "appLoadingSpinner persisted through repeated state observations",
+        "fallback_url": "https://esperanto-cjk-revision-ko-20261017.streamlit.app/~/+/",
+        "fallback_source": "Observed src of iframe titled streamlitApp before navigation",
+        "all_six_routes_used_fallback": true,
+        "reboot_performed": false,
+        "new_annotation_and_exact_47_payload_runtime_confirmed_by_dom_hash": true,
+        "normal_url_revisit_after_six_routes": "appLoadingSpinner still present",
+        "fallback_revisit_afterwards": "Input controls displayed and annotation conversion/save preview worked"
+      }
+    ],
+    "limits": [
+      "No measured cold-start timing or server-side cache diagnosis is claimed.",
+      "KO wrapper spinner is separate from successful app-body conversion and download checks.",
+      "No restart or Cloud setting change performed by this agent."
+    ]
+  }
+}

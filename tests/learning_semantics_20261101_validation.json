@@ -124,5 +124,7 @@
     "Selected @ payloads only; normal segmentation is preserved.",
     "Shared spelling ambiguity remains allowed.",
     "Cloud is verified separately with representative input; exhaustive tests run locally and in CI."
-  ]
+  ],
+  "existing_forward_tests": 44,
+  "existing_forward_seconds": 1468.69
 }
