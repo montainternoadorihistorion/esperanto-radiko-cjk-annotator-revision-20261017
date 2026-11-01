@@ -6,8 +6,12 @@ ROOT=Path(__file__).resolve().parents[1]
 BEFORE_ROOT=Path(os.environ['LEARNING_BEFORE_ROOT']) if os.environ.get('LEARNING_BEFORE_ROOT') else None
 REPORT=[]
 # Keep this independent acceptance list explicit; do not derive it from the code.
-TARGETS=frozenset(['teamanojn','tradukteamanojn','aperdato','aristokratino','koleginoj','konilon','vortuzon','ekstermovadaj','Landaron','landaron','dekstremuloj','regularojn','skanaĵoj','malfidinda','Emociego','antaŭeko','videbleco','uzeblas','direktivoj','organiziĝi','sendependa','radio-programeroj','romanigoj','filozofion','aŭskultoviziton','civilizon','korelingvajn','kronologion','IJK-on','burokratio','dankegas','enestas','ricevindas','sumiĝas','trametas','datumas','as-tempo','programeroj','akvumi','ambaŭkaze','aso','asoj','ason','asojn','metroj','metron','metrojn'])
+TARGETS=frozenset(['teamanojn','tradukteamanojn','aperdato','aristokratino','koleginoj','konilon','vortuzon','ekstermovadaj','Landaron','landaron','dekstremuloj','regularojn','skanaĵoj','malfidinda','Emociego','antaŭeko','videbleco','uzeblas','direktivoj','organiziĝi','sendependa','radio-programeroj','romanigoj','filozofion','aŭskultoviziton','civilizon','korelingvajn','kronologion','IJK-on','burokratio','dankegas','enestas','ricevindas','sumiĝas','trametas','datumas','as-tempo','programeroj','akvumi','ambaŭkaze','aso','asoj','ason','asojn','metroj','metron','metrojn','domon','belajn','homojn','diris'])
 EXPECTED_RUBY_PARTS={
+  "domon": ["dom"],
+  "belajn": ["bel"],
+  "homojn": ["hom"],
+  "diris": ["dir"],
   "teamanojn": [
     "team",
     "an"
