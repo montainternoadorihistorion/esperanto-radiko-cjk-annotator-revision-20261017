@@ -66,6 +66,11 @@ LATER_CURRENT_ASSIGNMENTS = {
     'sofism': ("诡辩", "伪辩"),
     # Later adopted hibisk representative character; frozen legacy is unchanged.
     'hibisk': ("芙蓉", "芙"),
+    # Four later user-adopted labels; fixed legacy remains unchanged.
+    'slum': ('贫窟', '贫区'),
+    'mastik': ('腻子', '胶ᴹ'),
+    'ekspektor': ('咳痰', '咳出'),
+    'kokle': ('耳蜗', '耳螺'),
 }
 
 def historical_current_bytes(raw):
