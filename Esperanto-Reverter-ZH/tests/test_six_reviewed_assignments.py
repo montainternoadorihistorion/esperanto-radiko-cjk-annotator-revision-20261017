@@ -49,7 +49,7 @@ def test_only_two_editions_and_no_new_historical_aliases():
     assert app.dictionary_options() == [CURRENT, OLD]
     assert len(app.DICTIONARY_SOURCES) == 8
     rows = list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding="utf-8"))))
-    assert len(rows) == 10678
+    assert len(rows) == 10679
     for root, (old, new) in CHANGES.items():
         assert [r["kanji"] for r in rows if r["esperanto"] == root] == [new]
         assert old not in {r["kanji"] for r in rows}
@@ -63,7 +63,7 @@ def test_only_two_editions_and_no_new_historical_aliases():
 def test_download_source_and_reviewed_manifest_are_consistent():
     source = json.loads((app.ROOT / "data/current_dictionary_source.json").read_bytes())
     manifest = json.loads((app.ROOT / source["six_assignments_manifest"]).read_bytes())
-    assert source["revision"] == "infest-20261107"
+    assert source["revision"] == "frog-20261107"
     assert manifest["revision"] == "2026-10-20-six-assignments"
     assert manifest["changes"] == {("au^tomaci" if r == "aŭtomaci" else r): list(v) for r, v in CHANGES.items()}
     assert manifest["safe_reverse_aliases"] == manifest["ownership_transfers"] == {}

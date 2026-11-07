@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "revision": "frog-20261107",
+  "baseline": "8ea48571230607e879a7110c2bf95dc7dc3c4286",
+  "changes": {
+    "frog": [
+      "辙叉",
+      "轨叉"
+    ]
+  },
+  "canonical_sidecar_sha256": "89de0bd83cddcb8a5927a827ab38ff4dbf6a1e4f7d79134eb96c5361843e1a06",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "8356b860388b97c3c05a0f5cd67a80a22691b2a85781a984feeacf318262d358",
+  "baseline_target_items": {
+    "frog": {
+      "prefix": "frog",
+      "body": "辙叉",
+      "kanji": "辙叉",
+      "detail": "frog → 辙叉 (piv, F=2, 基本形)",
+      "documentation": "語根: frog\n入力: frog\n最終形: 辙叉\n漢字: 辙叉\n識別子: なし\n型: piv\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7919",
+      "priority": 0,
+      "sourceRoot": "frog",
+      "type": "piv",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 7919
+    }
+  },
+  "expected_target_items": {
+    "frog": {
+      "prefix": "frog",
+      "body": "轨叉",
+      "kanji": "轨叉",
+      "detail": "frog → 轨叉 (piv, F=2, 基本形)",
+      "documentation": "語根: frog\n入力: frog\n最終形: 轨叉\n漢字: 轨叉\n識別子: なし\n型: piv\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7919",
+      "priority": 0,
+      "sourceRoot": "frog",
+      "type": "piv",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 7919
+    }
+  },
+  "unrelated_items_sha256": "8cc72b8474620f14fc744d471dbd38e32b395fa93be023707560084a20da26d5",
+  "unrelated_items_count": 10639,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {},
+  "metadata_only_changes": {},
+  "preserved_historical_overrides": [],
+  "assignment_unchanged_item_count": 10639,
+  "safe_reverse_aliases": {
+    "辙叉": "frog"
+  },
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "frog"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. Keep former 辙叉 as a reverse-only alias in current; no intermediate edition.",
+  "rationale": {
+    "approved": "2026-11-07 direct user adoption frog=轨叉, explicit keep top=帆楼. 轨 denotes rail/track and 叉 its crossing/branching shape. The established Chinese technical term 辙叉 is meaningful and correct, but the user chose sharing existing characters and 19-to-9 stroke reduction; dedicated 辙 removed, character types 2219 to 2218, no new character. Existing top=帆楼 keeps the high-place impression associated with English top. Greek combining -top-=境ᵀ remains distinct. No identifier or existing bare-key owner moves. Root spelling, original dictionary text, decomposition, glosses, JA/ZH/KO short annotations, markers and fixed original legacy remain unchanged. Only current edition display changes; inverse compatibility for prior 辙叉 can be handled separately, without an intermediate edition."
+  },
+  "preserved_controls": {
+    "帆楼": "top",
+    "轨": "rel",
+    "叉": "fork",
+    "境ᵀ": "top",
+    "娇": "lind",
+    "迟": "tard",
+    "讥": "rikan",
+    "援": "sponsor"
+  },
+  "explicit_retained": {
+    "top": "帆楼",
+    "lind": "娇",
+    "tard": "迟",
+    "rikan": "讥",
+    "sponsor": "援",
+    "kompuls": "迫ᴷ",
+    "langvor": "疲ᴸᴺ",
+    "setl": "住ˢ"
+  },
+  "shared_spelling": {
+    "轨叉": {
+      "whole_root": "frog",
+      "compound": "rel/fork",
+      "dictionary_forms": "rel/fork/o",
+      "dictionary_line": 33640,
+      "meaning": "【鉄】分岐点",
+      "plain_inverse_precedence": "frog",
+      "policy": "User permits shared-spelling ambiguity; do not change existing decomposition or identifiers."
+    }
+  },
+  "migration_notice": "Only current frog changes. The former 辙叉 key remains for reverse compatibility, including downloaded CSVs. Other owners and fixed legacy stay unchanged."
+}

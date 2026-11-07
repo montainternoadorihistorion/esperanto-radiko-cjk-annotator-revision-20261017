@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "infest-20261107",
+  "revision": "frog-20261107",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "8356b860388b97c3c05a0f5cd67a80a22691b2a85781a984feeacf318262d358",
+  "monaco_all_sha256": "d22485f070b779b7326935cc2bb00a809f8d57a9b144985cb52e15eea2f4ede7",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "be20c5bca651852d22fb1e5e39016724f1f95fbd9c3da6074029b54ec5a5b348",
+  "canonical_sidecar_sha256": "89de0bd83cddcb8a5927a827ab38ff4dbf6a1e4f7d79134eb96c5361843e1a06",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -504,10 +504,14 @@
     "infest": {
       "old": "患",
       "current": "侵ᴵᶠ"
+    },
+    "frog": {
+      "old": "辙叉",
+      "current": "轨叉"
     }
   },
-  "current_csv_sha256": "35f284aa3788cf83eeaf0a722b11552a4b7dda86d1daefbd976baef5ff660a3e",
-  "current_snippet_csv_sha256": "b82964c8f2b4f29baca026ba24bfd2d552ce76ede49402b1466fc5d279f4f871",
+  "current_csv_sha256": "f58477e2be4d35d9b6ad93369892cfa5b83417b248eac172d40ab68bf88046e0",
+  "current_snippet_csv_sha256": "e7496938f5742e48b09c10463b1c6bbf0befcd0a15bff9ffd2d2ba477be74ec5",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -547,13 +551,14 @@
     "精ˢ植ᶠ": "spermatofit",
     "精ˢ源ᴳ": "spermatogenez",
     "嫁接": "greft",
-    "嫁妆": "dot"
+    "嫁妆": "dot",
+    "辙叉": "frog"
   },
   "mirror_identifier_manifest": "data/mirror-identifiers-20261017.json",
   "mirror_identifier_manifest_sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
   "pre_mirror_csv_sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
   "current_item_count": 10640,
-  "current_csv_count": 10678,
+  "current_csv_count": 10679,
   "stafilokok_assignment_manifest": "data/stafilokok-assignment-20261017.json",
   "stafilokok_assignment_manifest_sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
   "four_shared_assignment_manifest": "data/four-shared-assignments-20261017.json",
@@ -675,5 +680,7 @@
   "three_shared_assignments_20261107_manifest": "data/three-shared-assignments-20261107.json",
   "three_shared_assignments_20261107_manifest_sha256": "d10388dd6ff9951263c07d297547a1bd8e5bb42dd88e485f580da4048a2828e8",
   "infest_assignment_20261107_manifest": "data/infest_20261107.json",
-  "infest_assignment_20261107_manifest_sha256": "9434189b97d20bc1c5d52bccb4e798d4d5fc1116b65c7202bb7062b3446f974e"
+  "infest_assignment_20261107_manifest_sha256": "9434189b97d20bc1c5d52bccb4e798d4d5fc1116b65c7202bb7062b3446f974e",
+  "frog_assignment_20261107_manifest": "data/frog_20261107.json",
+  "frog_assignment_20261107_manifest_sha256": "bdb9c0128a2b776671bb0ebd8b195f9b9380e75181ac55a5d6d94b2186f7e1c1"
 }

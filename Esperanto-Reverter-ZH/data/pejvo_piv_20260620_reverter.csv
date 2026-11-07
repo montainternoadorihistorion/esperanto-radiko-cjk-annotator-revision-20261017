@@ -7896,6 +7896,7 @@ karoseri,车身,0,karoseri,8325
 laminat,轧ᴸ,0,laminat,5795
 orbit,轨ᴼ,0,orbit,3530
 trak,轨ᵀ,0,trak,3529
+frog,轨叉,0,frog,7919
 invert,转ᴵ,0,invert,1375
 konvert,转ᴷ,0,konvert,1376
 rivolu,转ᴿ,0,rivolu,1373
@@ -7914,7 +7915,7 @@ trace,轴线,0,trace,7184
 frivol,轻浮,0,frivol,6590
 vehikl,载体,0,vehikl,7537
 konsonant,辅ᴷ,0,konsonant,4871
-frog,辙叉,0,frog,7919
+frog,辙叉,0,frog,reverse-alias:20261107
 kren,辣根,0,kren,8673
 advokat,辩ᴬ,0,advokat,4173
 debat,辩ᴰ,0,debat,4175

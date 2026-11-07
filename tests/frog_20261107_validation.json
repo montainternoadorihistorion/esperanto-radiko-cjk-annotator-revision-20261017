@@ -1,0 +1,3222 @@
+{
+  "date": "2026-11-07",
+  "assignment_revision": "frog-20261107",
+  "checks_passed": true,
+  "changes": {
+    "frog": [
+      "辙叉",
+      "轨叉"
+    ]
+  },
+  "explicit_retained": {
+    "top": "帆楼"
+  },
+  "unadopted_research_candidates_applied": false,
+  "canonical": {
+    "status": "PASS",
+    "assigned_roots": 10469,
+    "unchanged_sidecar_rows_and_order": 10468,
+    "display_reassignment": {},
+    "injection_rows_per_edition": 62313,
+    "injection_changed_lines": {
+      "漢字注入_学習者版_20260620.txt": 2,
+      "漢字注入_学術版_20260620.txt": 2
+    },
+    "all_original_text_gloss_segmentation_markers_preserved": true,
+    "html_changed_roots": 1,
+    "html_changed_words": 2,
+    "character_types": [
+      2219,
+      2218
+    ],
+    "removed_characters": [
+      "辙"
+    ],
+    "historical_ledgers_byte_unchanged": 30,
+    "dictionary_historical_files_unchanged": 506,
+    "previous_adoptions_unchanged": true,
+    "protected_user_document_unchanged": true,
+    "audits": {
+      "invariants": {
+        "before_returncode": 0,
+        "after_returncode": 0
+      },
+      "ownership": {
+        "before_returncode": 0,
+        "after_returncode": 0
+      },
+      "export_sync": {
+        "before_returncode": 0,
+        "after_returncode": 0
+      },
+      "output_integrity": {
+        "before_returncode": 0,
+        "after_returncode": 0,
+        "existing_report_only_findings_unchanged": true
+      },
+      "mirror": {
+        "before_returncode": 0,
+        "after_returncode": 0
+      },
+      "priority": {
+        "before_returncode": 0,
+        "after_returncode": 0
+      },
+      "display_collisions": {
+        "before_returncode": 0,
+        "after_returncode": 0
+      },
+      "html": {
+        "before_returncode": 0,
+        "after_returncode": 0
+      }
+    },
+    "actual_generator_reproduction": {
+      "_gas_identifier_out.csv": {
+        "rows": 10469,
+        "semantic_differences": 0
+      },
+      "_identifier_sidecar.tsv": {
+        "rows": 10469,
+        "semantic_differences": 0
+      }
+    },
+    "master_classification_and_priority_preserved": {
+      "frog": {
+        "master_classification": "content",
+        "F": 2,
+        "band": "piv",
+        "all_other_master_columns_preserved": true
+      }
+    },
+    "applied_to_current_edition_only": true,
+    "legacy_assignment_and_runtime_untouched": true,
+    "pre_existing_report_only_findings": {
+      "count": 466,
+      "before_after_report_byte_identical": true,
+      "note": "Pre-existing output-integrity findings are neither introduced nor resolved by this display-only change."
+    }
+  },
+  "forward": {
+    "kanji_rows_compared": 1646973,
+    "pure_rows_compared": 548991,
+    "changed_kanji_rows": 99,
+    "source_word_decompositions_compared": 44578,
+    "changed_source_words": [
+      "frog",
+      "frog/al"
+    ],
+    "manual_csv_rows_per_language": 10482,
+    "approved_migration_stages_replayed": 40,
+    "runtime_cases_per_phase": 17568,
+    "manual_cases_per_phase": 54,
+    "protected_literal_routes": 18,
+    "changed_runtime_routes": {
+      "JA/current/pure": 149,
+      "JA/current/kanji": 149,
+      "ZH/current/pure": 149,
+      "ZH/current/kanji": 149,
+      "KO/current/pure": 149,
+      "KO/current/kanji": 149
+    },
+    "runtime_annotation_legacy_custom_json": "unchanged bytes, semantic annotation outputs and actual fixed legacy routes unchanged",
+    "public_private_forward_assets_byte_identical": true,
+    "historical_manual_csv_guard": "Explicitly reviewed one current assignment added; original scope and exact legacy hashes unchanged. Existing private test synced to the current public guard. Full four-method test rerun."
+  },
+  "related_regression_test_count": 37,
+  "related_forward_tests": [
+    {
+      "test": "test_four_local_endings.py",
+      "exit_code": 0,
+      "test_count": 2,
+      "seconds": 193.47
+    },
+    {
+      "test": "test_learning_annotation_semantics.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "seconds": 125.66
+    },
+    {
+      "test": "test_marker_runtime.py",
+      "exit_code": 0,
+      "test_count": 11,
+      "seconds": 0.55
+    },
+    {
+      "test": "test_manual_csv_71.py",
+      "exit_code": 0,
+      "test_count": 4,
+      "seconds": 122.67
+    },
+    {
+      "test": "test_adopted_assignments_20261101.py",
+      "exit_code": 0,
+      "test_count": 3,
+      "seconds": 17.78
+    },
+    {
+      "test": "test_eufori_sofism_20261102.py",
+      "exit_code": 0,
+      "test_count": 2,
+      "seconds": 14.42
+    },
+    {
+      "test": "test_hibisk_20261102.py",
+      "exit_code": 0,
+      "test_count": 2,
+      "seconds": 16.92
+    },
+    {
+      "test": "test_four_assignments_20261106.py",
+      "exit_code": 0,
+      "test_count": 2,
+      "seconds": 15.44
+    },
+    {
+      "test": "test_three_assignments_20261107.py",
+      "exit_code": 0,
+      "test_count": 2,
+      "seconds": 15.12
+    },
+    {
+      "test": "test_five_assignments_20261107.py",
+      "exit_code": 0,
+      "test_count": 2,
+      "seconds": 16.23
+    },
+    {
+      "test": "test_three_shared_assignments_20261107.py",
+      "exit_code": 0,
+      "test_count": 2,
+      "seconds": 17.08
+    },
+    {
+      "test": "test_infest_20261107.py",
+      "exit_code": 0,
+      "test_count": 2,
+      "seconds": 16.02
+    }
+  ],
+  "focused_forward_test": {
+    "tests": 2,
+    "test": "tests/test_forward_frog_20261107.py",
+    "test_sha256": "08414d2bef4da720026ff761f1d3c8297110dbf865ff9eb7fa4962c381cf8db6",
+    "exit_code": 0
+  },
+  "reverse": {
+    "all_key_results": {
+      "JA_current": {
+        "passed": true,
+        "key_count": 10688,
+        "counts": {
+          "cases": 160305,
+          "changed": 0,
+          "unchanged": 160305
+        },
+        "identifier_continuations_checked": 48
+      },
+      "JA_legacy": {
+        "passed": true,
+        "key_count": 10794,
+        "counts": {
+          "cases": 161910,
+          "changed": 0,
+          "unchanged": 161910
+        },
+        "identifier_continuations_checked": 24
+      },
+      "ZH_current": {
+        "passed": true,
+        "key_count": 10688,
+        "counts": {
+          "cases": 160305,
+          "changed": 0,
+          "unchanged": 160305
+        },
+        "identifier_continuations_checked": 48
+      },
+      "ZH_legacy": {
+        "passed": true,
+        "key_count": 10794,
+        "counts": {
+          "cases": 161910,
+          "changed": 0,
+          "unchanged": 161910
+        },
+        "identifier_continuations_checked": 24
+      }
+    },
+    "checked_cases": 644430,
+    "unapproved_changed_cases": 0,
+    "unrelated_monaco_items_preserved": 10639,
+    "unrelated_csv_rows_preserved": 10677,
+    "old_spelling_aliases_added": 1,
+    "visible_editions_added": 0,
+    "ownership_transfers": {},
+    "limitations": "Every former effective key plus finite suffixes, not arbitrary unlimited strings. New 轨叉 may also be a concatenation of rel and fork; this known ambiguity is allowed. Forward runtime captures are checked separately."
+  },
+  "actual_roundtrip": {
+    "forward_case_count": 17928,
+    "actual_inverse_calls": 71712,
+    "regressions": [],
+    "raw_regressions": [
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      }
+    ],
+    "raw_regression_count": 12,
+    "unexplained_regressions": [],
+    "explained_protected_literal_changes": [
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "after_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\nfrogo",
+        "after_visible": "frog < > & \" 轨叉\nfrogo",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "after_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\nfrogo",
+        "after_visible": "frog < > & \" 轨叉\nfrogo",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "after_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\nfrogo",
+        "after_visible": "frog < > & \" 轨叉\nfrogo",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      }
+    ],
+    "non_literal_existing_mismatches_unchanged": true,
+    "inverse_changes": [
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "after_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\nfrogo",
+        "after_visible": "frog < > & \" 轨叉\nfrogo",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "after_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\nfrogo",
+        "after_visible": "frog < > & \" 轨叉\nfrogo",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "after_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\nfrogo",
+        "after_visible": "frog < > & \" 轨叉\nfrogo",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      }
+    ],
+    "remaining_mismatches": [
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendorm@",
+        "expected": "svendorm",
+        "before_visible": "昏睡",
+        "after_visible": "昏睡",
+        "before_inverse": "letargi",
+        "after_inverse": "letargi"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendormo@",
+        "expected": "svendormo",
+        "before_visible": "昏睡o",
+        "after_visible": "昏睡o",
+        "before_inverse": "letargio",
+        "after_inverse": "letargio"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendorma@",
+        "expected": "svendorma",
+        "before_visible": "昏睡a",
+        "after_visible": "昏睡a",
+        "before_inverse": "letargia",
+        "after_inverse": "letargia"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendormi@",
+        "expected": "svendormi",
+        "before_visible": "昏睡i",
+        "after_visible": "昏睡i",
+        "before_inverse": "letargii",
+        "after_inverse": "letargii"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "svendormis",
+        "expected": "svendormis",
+        "before_visible": "昏睡is",
+        "after_visible": "昏睡is",
+        "before_inverse": "letargiis",
+        "after_inverse": "letargiis"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendormis@",
+        "expected": "svendormis",
+        "before_visible": "昏睡is",
+        "after_visible": "昏睡is",
+        "before_inverse": "letargiis",
+        "after_inverse": "letargiis"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "svendormoj",
+        "expected": "svendormoj",
+        "before_visible": "昏睡oj",
+        "after_visible": "昏睡oj",
+        "before_inverse": "letargioj",
+        "after_inverse": "letargioj"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendormoj@",
+        "expected": "svendormoj",
+        "before_visible": "昏睡oj",
+        "after_visible": "昏睡oj",
+        "before_inverse": "letargioj",
+        "after_inverse": "letargioj"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "memmova",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@memmova@",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "kareno",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "kareno",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "karena",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "karena",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "naŭzo",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "naŭzo",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "naŭza",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "naŭza",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendorm@",
+        "expected": "svendorm",
+        "before_visible": "昏睡",
+        "after_visible": "昏睡",
+        "before_inverse": "letargi",
+        "after_inverse": "letargi"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendormo@",
+        "expected": "svendormo",
+        "before_visible": "昏睡o",
+        "after_visible": "昏睡o",
+        "before_inverse": "letargio",
+        "after_inverse": "letargio"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendorma@",
+        "expected": "svendorma",
+        "before_visible": "昏睡a",
+        "after_visible": "昏睡a",
+        "before_inverse": "letargia",
+        "after_inverse": "letargia"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendormi@",
+        "expected": "svendormi",
+        "before_visible": "昏睡i",
+        "after_visible": "昏睡i",
+        "before_inverse": "letargii",
+        "after_inverse": "letargii"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "svendormis",
+        "expected": "svendormis",
+        "before_visible": "昏睡is",
+        "after_visible": "昏睡is",
+        "before_inverse": "letargiis",
+        "after_inverse": "letargiis"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendormis@",
+        "expected": "svendormis",
+        "before_visible": "昏睡is",
+        "after_visible": "昏睡is",
+        "before_inverse": "letargiis",
+        "after_inverse": "letargiis"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "svendormoj",
+        "expected": "svendormoj",
+        "before_visible": "昏睡oj",
+        "after_visible": "昏睡oj",
+        "before_inverse": "letargioj",
+        "after_inverse": "letargioj"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendormoj@",
+        "expected": "svendormoj",
+        "before_visible": "昏睡oj",
+        "after_visible": "昏睡oj",
+        "before_inverse": "letargioj",
+        "after_inverse": "letargioj"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "sene",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "memmova",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@memmova@",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "kareno",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "kareno",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "karena",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "karena",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "naŭzo",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "naŭzo",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "naŭza",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "naŭza",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "pure",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "sene",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendorm@",
+        "expected": "svendorm",
+        "before_visible": "昏睡",
+        "after_visible": "昏睡",
+        "before_inverse": "letargi",
+        "after_inverse": "letargi"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendormo@",
+        "expected": "svendormo",
+        "before_visible": "昏睡o",
+        "after_visible": "昏睡o",
+        "before_inverse": "letargio",
+        "after_inverse": "letargio"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendorma@",
+        "expected": "svendorma",
+        "before_visible": "昏睡a",
+        "after_visible": "昏睡a",
+        "before_inverse": "letargia",
+        "after_inverse": "letargia"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendormi@",
+        "expected": "svendormi",
+        "before_visible": "昏睡i",
+        "after_visible": "昏睡i",
+        "before_inverse": "letargii",
+        "after_inverse": "letargii"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "svendormis",
+        "expected": "svendormis",
+        "before_visible": "昏睡is",
+        "after_visible": "昏睡is",
+        "before_inverse": "letargiis",
+        "after_inverse": "letargiis"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendormis@",
+        "expected": "svendormis",
+        "before_visible": "昏睡is",
+        "after_visible": "昏睡is",
+        "before_inverse": "letargiis",
+        "after_inverse": "letargiis"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "svendormoj",
+        "expected": "svendormoj",
+        "before_visible": "昏睡oj",
+        "after_visible": "昏睡oj",
+        "before_inverse": "letargioj",
+        "after_inverse": "letargioj"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendormoj@",
+        "expected": "svendormoj",
+        "before_visible": "昏睡oj",
+        "after_visible": "昏睡oj",
+        "before_inverse": "letargioj",
+        "after_inverse": "letargioj"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "memmova",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@memmova@",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "kareno",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "kareno",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "karena",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "karena",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "naŭzo",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "naŭzo",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "naŭza",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "naŭza",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendorm@",
+        "expected": "svendorm",
+        "before_visible": "昏睡",
+        "after_visible": "昏睡",
+        "before_inverse": "letargi",
+        "after_inverse": "letargi"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendormo@",
+        "expected": "svendormo",
+        "before_visible": "昏睡o",
+        "after_visible": "昏睡o",
+        "before_inverse": "letargio",
+        "after_inverse": "letargio"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendorma@",
+        "expected": "svendorma",
+        "before_visible": "昏睡a",
+        "after_visible": "昏睡a",
+        "before_inverse": "letargia",
+        "after_inverse": "letargia"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendormi@",
+        "expected": "svendormi",
+        "before_visible": "昏睡i",
+        "after_visible": "昏睡i",
+        "before_inverse": "letargii",
+        "after_inverse": "letargii"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "svendormis",
+        "expected": "svendormis",
+        "before_visible": "昏睡is",
+        "after_visible": "昏睡is",
+        "before_inverse": "letargiis",
+        "after_inverse": "letargiis"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendormis@",
+        "expected": "svendormis",
+        "before_visible": "昏睡is",
+        "after_visible": "昏睡is",
+        "before_inverse": "letargiis",
+        "after_inverse": "letargiis"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "svendormoj",
+        "expected": "svendormoj",
+        "before_visible": "昏睡oj",
+        "after_visible": "昏睡oj",
+        "before_inverse": "letargioj",
+        "after_inverse": "letargioj"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendormoj@",
+        "expected": "svendormoj",
+        "before_visible": "昏睡oj",
+        "after_visible": "昏睡oj",
+        "before_inverse": "letargioj",
+        "after_inverse": "letargioj"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "sene",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "memmova",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@memmova@",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "kareno",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "kareno",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "karena",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "karena",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "naŭzo",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "naŭzo",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "naŭza",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "naŭza",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "pure",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "sene",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendorm@",
+        "expected": "svendorm",
+        "before_visible": "昏睡",
+        "after_visible": "昏睡",
+        "before_inverse": "letargi",
+        "after_inverse": "letargi"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendormo@",
+        "expected": "svendormo",
+        "before_visible": "昏睡o",
+        "after_visible": "昏睡o",
+        "before_inverse": "letargio",
+        "after_inverse": "letargio"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendorma@",
+        "expected": "svendorma",
+        "before_visible": "昏睡a",
+        "after_visible": "昏睡a",
+        "before_inverse": "letargia",
+        "after_inverse": "letargia"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendormi@",
+        "expected": "svendormi",
+        "before_visible": "昏睡i",
+        "after_visible": "昏睡i",
+        "before_inverse": "letargii",
+        "after_inverse": "letargii"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "svendormis",
+        "expected": "svendormis",
+        "before_visible": "昏睡is",
+        "after_visible": "昏睡is",
+        "before_inverse": "letargiis",
+        "after_inverse": "letargiis"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendormis@",
+        "expected": "svendormis",
+        "before_visible": "昏睡is",
+        "after_visible": "昏睡is",
+        "before_inverse": "letargiis",
+        "after_inverse": "letargiis"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "svendormoj",
+        "expected": "svendormoj",
+        "before_visible": "昏睡oj",
+        "after_visible": "昏睡oj",
+        "before_inverse": "letargioj",
+        "after_inverse": "letargioj"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@svendormoj@",
+        "expected": "svendormoj",
+        "before_visible": "昏睡oj",
+        "after_visible": "昏睡oj",
+        "before_inverse": "letargioj",
+        "after_inverse": "letargioj"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "memmova",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@memmova@",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "kareno",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "kareno",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "karena",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "karena",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "naŭzo",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "naŭzo",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "naŭza",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "naŭza",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendorm@",
+        "expected": "svendorm",
+        "before_visible": "昏睡",
+        "after_visible": "昏睡",
+        "before_inverse": "letargi",
+        "after_inverse": "letargi"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendormo@",
+        "expected": "svendormo",
+        "before_visible": "昏睡o",
+        "after_visible": "昏睡o",
+        "before_inverse": "letargio",
+        "after_inverse": "letargio"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendorma@",
+        "expected": "svendorma",
+        "before_visible": "昏睡a",
+        "after_visible": "昏睡a",
+        "before_inverse": "letargia",
+        "after_inverse": "letargia"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendormi@",
+        "expected": "svendormi",
+        "before_visible": "昏睡i",
+        "after_visible": "昏睡i",
+        "before_inverse": "letargii",
+        "after_inverse": "letargii"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "svendormis",
+        "expected": "svendormis",
+        "before_visible": "昏睡is",
+        "after_visible": "昏睡is",
+        "before_inverse": "letargiis",
+        "after_inverse": "letargiis"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendormis@",
+        "expected": "svendormis",
+        "before_visible": "昏睡is",
+        "after_visible": "昏睡is",
+        "before_inverse": "letargiis",
+        "after_inverse": "letargiis"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "svendormoj",
+        "expected": "svendormoj",
+        "before_visible": "昏睡oj",
+        "after_visible": "昏睡oj",
+        "before_inverse": "letargioj",
+        "after_inverse": "letargioj"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@svendormoj@",
+        "expected": "svendormoj",
+        "before_visible": "昏睡oj",
+        "after_visible": "昏睡oj",
+        "before_inverse": "letargioj",
+        "after_inverse": "letargioj"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "sene",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "memmova",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@memmova@",
+        "expected": "memmova",
+        "before_visible": "自动a",
+        "after_visible": "自动a",
+        "before_inverse": "aŭtomata",
+        "after_inverse": "aŭtomata"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfundo",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "kareno",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfundo@",
+        "expected": "ŝipfundo",
+        "before_visible": "船底o",
+        "after_visible": "船底o",
+        "before_inverse": "kareno",
+        "after_inverse": "kareno"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "ŝipfunda",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "karena",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@ŝipfunda@",
+        "expected": "ŝipfunda",
+        "before_visible": "船底a",
+        "after_visible": "船底a",
+        "before_inverse": "karena",
+        "after_inverse": "karena"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickoro",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "naŭzo",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickoro@",
+        "expected": "malickoro",
+        "before_visible": "恶心o",
+        "after_visible": "恶心o",
+        "before_inverse": "naŭzo",
+        "after_inverse": "naŭzo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "malickora",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "naŭza",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@malickora@",
+        "expected": "malickora",
+        "before_visible": "恶心a",
+        "after_visible": "恶心a",
+        "before_inverse": "naŭza",
+        "after_inverse": "naŭza"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "pure",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "sene",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "@sene@",
+        "expected": "sene",
+        "before_visible": "无e",
+        "after_visible": "无e",
+        "before_inverse": "nenie",
+        "after_inverse": "nenie"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "after_visible": "轨叉o\n\n轨叉翼ᴬo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "after_visible": "轨叉o\n\n轨叉翼ᴬo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "frogo\n\nfrogalo\ntopo",
+        "after_visible": "frogo\n\nfrogalo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "after_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\nfrogo",
+        "after_visible": "frog < > & \" 轨叉\nfrogo",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "pure",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "after_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "pure",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog relfork top frogo topo"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "pure",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n辙叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" relfork\nfrogo"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "after_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog relfork top frogo topo"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n辙叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" relfork\nfrogo"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "ruby",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "frogo\n\nfrogalo\ntopo",
+        "after_visible": "frogo\n\nfrogalo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "ruby",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "after_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog relfork top frogo topo"
+      },
+      {
+        "language": "JA",
+        "edition": "legacy",
+        "mode": "ruby",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\nfrogo",
+        "after_visible": "frog < > & \" 轨叉\nfrogo",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" relfork\nfrogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "after_visible": "轨叉o\n\n轨叉翼ᴬo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "after_visible": "轨叉o\n\n轨叉翼ᴬo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "frogo\n\nfrogalo\ntopo",
+        "after_visible": "frogo\n\nfrogalo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "after_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\nfrogo",
+        "after_visible": "frog < > & \" 轨叉\nfrogo",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "pure",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "after_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "pure",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog relfork top frogo topo"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "pure",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n辙叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" relfork\nfrogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "after_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog relfork top frogo topo"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n辙叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" relfork\nfrogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "ruby",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "frogo\n\nfrogalo\ntopo",
+        "after_visible": "frogo\n\nfrogalo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "ruby",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "after_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog relfork top frogo topo"
+      },
+      {
+        "language": "ZH",
+        "edition": "legacy",
+        "mode": "ruby",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\nfrogo",
+        "after_visible": "frog < > & \" 轨叉\nfrogo",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" relfork\nfrogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "after_visible": "轨叉o\n\n轨叉翼ᴬo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "after_visible": "轨叉o\n\n轨叉翼ᴬo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 轨叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n轨叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "frogo\n\nfrogalo\ntopo",
+        "after_visible": "frogo\n\nfrogalo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "after_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog frog top frogo topo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "ruby",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\nfrogo",
+        "after_visible": "frog < > & \" 轨叉\nfrogo",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" frog\nfrogo"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "pure",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "after_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "pure",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog relfork top frogo topo"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "pure",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n辙叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" relfork\nfrogo"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "after_visible": "辙叉o\n\n辙叉翼ᴬo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "after_visible": "辙叉 轨叉 帆楼 辙叉o 帆楼o",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog relfork top frogo topo"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "kanji",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\n辙叉o",
+        "after_visible": "frog < > & \" 轨叉\n辙叉o",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" relfork\nfrogo"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "ruby",
+        "input": "frogo\n\n@frogalo@\r\n%topo%",
+        "expected": "frogo\n\nfrogalo\r\ntopo",
+        "before_visible": "frogo\n\nfrogalo\ntopo",
+        "after_visible": "frogo\n\nfrogalo\ntopo",
+        "before_inverse": "frogo\n\nfrogalo\ntopo",
+        "after_inverse": "frogo\n\nfrogalo\ntopo"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "ruby",
+        "input": "%辙叉 轨叉 帆楼% frogo topo",
+        "expected": "辙叉 轨叉 帆楼 frogo topo",
+        "before_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "after_visible": "辙叉 轨叉 帆楼 frogo topo",
+        "before_inverse": "frog relfork top frogo topo",
+        "after_inverse": "frog relfork top frogo topo"
+      },
+      {
+        "language": "KO",
+        "edition": "legacy",
+        "mode": "ruby",
+        "input": "%frog < > & \" 轨叉%\n@frog@o",
+        "expected": "frog < > & \" 轨叉\nfrogo",
+        "before_visible": "frog < > & \" 轨叉\nfrogo",
+        "after_visible": "frog < > & \" 轨叉\nfrogo",
+        "before_inverse": "frog < > & \" relfork\nfrogo",
+        "after_inverse": "frog < > & \" relfork\nfrogo"
+      }
+    ],
+    "shared_spelling_ambiguities": [
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "JA",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "ZH",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "pure",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "relforko",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      },
+      {
+        "language": "KO",
+        "edition": "current",
+        "mode": "kanji",
+        "input": "@relforko@",
+        "expected": "relforko",
+        "before_visible": "轨叉o",
+        "after_visible": "轨叉o",
+        "before_inverse": "relforko",
+        "after_inverse": "frogo"
+      }
+    ],
+    "both_inverse_language_outputs_identical": true,
+    "legacy_kanji_plain_forward_and_all_inverse_unchanged": true,
+    "annotation_visible_unchanged": true,
+    "annotation_inverse_unchanged_except_exact_reviewed_literal_cases": true,
+    "annotation_html_changes": 0,
+    "method": "Every actual old/new forward capture was fed to its respective complete old/new dictionary via both real JA and ZH inverse functions. Expected text is the forward test's circumflex source with case folded, matching the inverse app contract. No output normalization. The only allowed word ambiguity is the actual dictionary compound rel/fork/o (轨叉o), now also assigned to frog/o. Two exact protected-kanji input fixtures also change plain interpretation after markers are removed; their exact before/after strings are recorded, not treated as exact source restoration. The current retained old key preserves former 辙叉 text. Every other mismatch/change remains a regression. One approved assignment in current only; shared owners and fixed legacy remain unchanged. Annotation glosses and source-side ruby text remain unchanged."
+  },
+  "inverse_full_pytest": {
+    "JA": 614,
+    "ZH": 614
+  },
+  "local_ui": {
+    "passed": true,
+    "conversion_download_routes": 18,
+    "download_files_rehashed": 18,
+    "annotation_results_identical_between_editions": true,
+    "custom_upload_routes": 6,
+    "custom_downloads": 6,
+    "method": "Local Streamlit AppTest; upload/download transport observed, no browser or Cloud claim"
+  },
+  "actual_saved_html_recovery": {
+    "passed": true,
+    "cases": 24,
+    "method": "Restore actual local AppTest downloads with the inverse application code"
+  },
+  "independent_review": "NO_BLOCKING_FINDINGS",
+  "github_required_checks": "PENDING_AT_COMMIT",
+  "cloud_status": "PENDING_POST_MERGE_BROWSER_VERIFICATION",
+  "compatibility": {
+    "fixed_legacy": "unchanged",
+    "current_former_key_retained": {
+      "辙叉": "frog"
+    },
+    "intermediate_editions_added": 0
+  },
+  "limitations": [
+    "Only frog changes. The chosen high-place image of top=帆楼 and the separate -top-=境ᵀ combining form are preserved.",
+    "The existing dictionary entry rel/fork/o also renders 轨叉o. Its plain inverse becomes frogo; this accepted shared-spelling change is recorded separately from unexplained regressions.",
+    "Protected CJK in plain output has no percent-marker provenance and is interpreted by the chosen inverse dictionary; standard HTML retains the original text.",
+    "All-row and generated-form checks cover their finite inventories, not every natural sentence.",
+    "Local validation and Cloud browser verification are recorded separately."
+  ]
+}
