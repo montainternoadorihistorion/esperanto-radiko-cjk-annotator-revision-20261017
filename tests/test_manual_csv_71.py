@@ -87,6 +87,8 @@ LATER_CURRENT_ASSIGNMENTS = {
     'setl': ('居', '住ˢ'),
     # Later user-adopted infest label; fixed legacy remains unchanged.
     'infest': ('患', '侵ᴵᶠ'),
+    # Later user-adopted frog label; fixed legacy remains unchanged.
+    'frog': ('辙叉', '轨叉'),
 }
 
 def historical_current_bytes(raw):
