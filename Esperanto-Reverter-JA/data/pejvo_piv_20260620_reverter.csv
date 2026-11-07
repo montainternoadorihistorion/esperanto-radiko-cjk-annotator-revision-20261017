@@ -2886,6 +2886,7 @@ teratogen,畸生ᴳ,0,teratogen,10102
 skeptik,疑ˢᴷ,0,skeptik,1542
 kazuist,疑难家,0,kazuist,9455
 epizooti,疫ᴱᶻ,0,epizooti,5625
+langvor,疲ᴸᴺ,0,langvor,7615
 ekzem,疹ᴱᴹ,0,ekzem,7067
 tifoid,疹似ᴼ,0,tifoid,10133
 sindrom,症ˢᴺ,0,sindrom,6398
@@ -4585,6 +4586,7 @@ homotet,位似,0,homotet,7864
 depresi,低ᴰ,0,depresi,6482
 bordun,低音,0,bordun,8023
 dekolt,低领,0,dekolt,7100
+setl,住ˢ,0,setl,7301
 domicil,住所,0,domicil,7376
 sport,体ˢ,0,sport,1758
 fart,体ᶠ,0,fart,1757
@@ -7940,6 +7942,7 @@ ekspedici,远征,0,ekspedici,8428
 telepati,远情,0,telepati,10093
 faŭl,违规,0,fau^l,7904
 kupl,连ᴷ,0,kupl,667
+kompuls,迫ᴷ,0,kompuls,7664
 opres,迫ᴼ,0,opres,4044
 dikt,述ᴰ,0,dikt,1322
 zelot,迷ᶻ,0,zelot,5226
@@ -8700,7 +8703,6 @@ obl,倍,0,obl,179
 kusp,倒,0,kusp,6702
 kandidat,候,0,kandidat,5708
 prunt,借,0,prunt,2118
-langvor,倦,0,langvor,7615
 ind,值,0,ind,228
 em,倾,0,em,185
 feri,假,0,feri,3383
@@ -9127,7 +9129,6 @@ vost,尾,0,vost,3910
 urin,尿,0,urin,4906
 furz,屁,0,furz,8202
 etaĝ,层,0,etaĝ,3362
-setl,居,0,setl,7301
 fleksi,屈,0,fleksi,6776
 dom,屋,0,dom,1170
 kak,屎,0,kak,7388
@@ -10437,7 +10438,6 @@ korespond,通,0,korespond,3072
 rapid,速,0,rapid,930
 manufaktur,造,0,manufaktur,7379
 arest,逮,0,arest,4475
-kompuls,逼,0,kompuls,7664
 renkont,遇,0,renkont,1328
 avenu,道,0,avenu,4093
 evit,避,0,evit,2972

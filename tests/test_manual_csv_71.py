@@ -81,6 +81,10 @@ LATER_CURRENT_ASSIGNMENTS = {
     'steg': ('撑', '支ˢ'),
     'fotel': ('扶椅', '肘椅'),
     'deprim': ('沮丧', '消沉'),
+    # Three later user-adopted labels; fixed legacy remains unchanged.
+    'kompuls': ('逼', '迫ᴷ'),
+    'langvor': ('倦', '疲ᴸᴺ'),
+    'setl': ('居', '住ˢ'),
 }
 
 def historical_current_bytes(raw):

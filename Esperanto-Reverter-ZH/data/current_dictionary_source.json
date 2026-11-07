@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "2026-11-07-five-assignments",
+  "revision": "three-shared-assignments-20261107",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "d2cd480181b693367ed2ad869939f2dd35f27d83d981291fab318d8da8ee1a44",
+  "monaco_all_sha256": "72b2a8655f9e10cd5d712e530c9c0537c9789f70eed0e5edfba5759b04ee3991",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "125e6664c67df871b376d5b7f334a903391d8c9e347c27cc7ff49516725eca75",
+  "canonical_sidecar_sha256": "f3eadc3e26f379a8dbbe0f7bb55a1dddfdf5897b1e644c7abe2a6fd9aa54c455",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -488,10 +488,22 @@
     "deprim": {
       "old": "沮丧",
       "current": "消沉"
+    },
+    "kompuls": {
+      "old": "逼",
+      "current": "迫ᴷ"
+    },
+    "langvor": {
+      "old": "倦",
+      "current": "疲ᴸᴺ"
+    },
+    "setl": {
+      "old": "居",
+      "current": "住ˢ"
     }
   },
-  "current_csv_sha256": "06bd5e4eaba5071e268d2f130bc672348f406373ebb9e868d4e9af0772353320",
-  "current_snippet_csv_sha256": "089ef75764dc3cda161c22903e00f94b1a79a5ce6591576cb492acad794fcc64",
+  "current_csv_sha256": "6dedb64fa68bb336dea98b8b83dce5545bf85e3078febd3bb62700d611bf568d",
+  "current_snippet_csv_sha256": "84a5309eae4bc33eca71b368fc5c08f805bd40ef5fbe1457c2bde8567badc656",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -655,5 +667,7 @@
   "three_assignments_20261107_manifest": "data/three-assignments-20261107.json",
   "three_assignments_20261107_manifest_sha256": "09305f5a544bdda0f3705fc7d1867f46aa03c700b36a915194d4bb0bd4b5d5ac",
   "five_assignments_20261107_manifest": "data/five-assignments-20261107.json",
-  "five_assignments_20261107_manifest_sha256": "80691d76507e56962173527ec408c4097ac5a5661719b5cfe3d43a9081f7f808"
+  "five_assignments_20261107_manifest_sha256": "80691d76507e56962173527ec408c4097ac5a5661719b5cfe3d43a9081f7f808",
+  "three_shared_assignments_20261107_manifest": "data/three-shared-assignments-20261107.json",
+  "three_shared_assignments_20261107_manifest_sha256": "d10388dd6ff9951263c07d297547a1bd8e5bb42dd88e485f580da4048a2828e8"
 }
