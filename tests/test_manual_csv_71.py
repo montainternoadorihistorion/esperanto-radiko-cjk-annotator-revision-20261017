@@ -85,6 +85,8 @@ LATER_CURRENT_ASSIGNMENTS = {
     'kompuls': ('逼', '迫ᴷ'),
     'langvor': ('倦', '疲ᴸᴺ'),
     'setl': ('居', '住ˢ'),
+    # Later user-adopted infest label; fixed legacy remains unchanged.
+    'infest': ('患', '侵ᴵᶠ'),
 }
 
 def historical_current_bytes(raw):

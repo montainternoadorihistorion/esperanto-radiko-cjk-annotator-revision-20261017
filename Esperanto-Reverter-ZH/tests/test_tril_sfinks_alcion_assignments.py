@@ -67,7 +67,7 @@ def test_current_manifest_download_and_fixed_legacy():
     source = json.loads((app.ROOT / "data/current_dictionary_source.json").read_bytes())
     manifest_path = app.ROOT / source["tril_sfinks_alcion_manifest"]
     manifest = json.loads(manifest_path.read_bytes())
-    assert source["revision"] == "three-shared-assignments-20261107"
+    assert source["revision"] == "infest-20261107"
     assert manifest["revision"] == "2026-10-21-tril-sfinks-alcion"
     assert manifest["changes"] == {k: list(v) for k, v in CHANGES.items()}
     assert manifest["safe_reverse_aliases"] == {}
