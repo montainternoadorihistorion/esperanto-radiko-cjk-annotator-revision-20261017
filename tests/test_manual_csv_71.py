@@ -75,6 +75,12 @@ LATER_CURRENT_ASSIGNMENTS = {
     'arbitr': ('擅', '任ᴬᴿ'),
     'eklektik': ('折衷', '折中'),
     'kalejdoskop': ('万花筒', '万花镜'),
+    # Five later user-adopted labels; fixed legacy remains unchanged.
+    'streb': ('奋', '努ˢ'),
+    'vind': ('裹', '包ⱽ'),
+    'steg': ('撑', '支ˢ'),
+    'fotel': ('扶椅', '肘椅'),
+    'deprim': ('沮丧', '消沉'),
 }
 
 def historical_current_bytes(raw):

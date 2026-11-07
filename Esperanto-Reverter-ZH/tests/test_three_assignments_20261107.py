@@ -54,7 +54,8 @@ def test_manifest_and_downloads_preserve_frozen_edition():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     path=app.ROOT/source['three_assignments_20261107_manifest']
     manifest=json.loads(path.read_bytes())
-    assert source['revision']==manifest['revision']=='2026-11-07-three-assignments'
+    assert source['revision']=='2026-11-07-five-assignments'
+    assert manifest['revision']=='2026-11-07-three-assignments'
     assert manifest['changes']=={r:list(p) for r,p in CHANGES.items()}
     assert manifest['safe_reverse_aliases']=={}
     assert manifest['user_adopted_roots']==list(CHANGES)

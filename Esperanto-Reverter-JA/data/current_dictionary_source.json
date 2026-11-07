@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "2026-11-07-three-assignments",
+  "revision": "2026-11-07-five-assignments",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "1c6d520b97eb73edb4a8bff2143b4fa6ff357d9cff74fa39368931689afef869",
+  "monaco_all_sha256": "d2cd480181b693367ed2ad869939f2dd35f27d83d981291fab318d8da8ee1a44",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "6abdd7e1f751a1551f79a0a96012fbcdfcd7d238c02ff939f3f226076e79b08a",
+  "canonical_sidecar_sha256": "125e6664c67df871b376d5b7f334a903391d8c9e347c27cc7ff49516725eca75",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -468,10 +468,30 @@
     "kalejdoskop": {
       "old": "万花筒",
       "current": "万花镜"
+    },
+    "streb": {
+      "old": "奋",
+      "current": "努ˢ"
+    },
+    "vind": {
+      "old": "裹",
+      "current": "包ⱽ"
+    },
+    "steg": {
+      "old": "撑",
+      "current": "支ˢ"
+    },
+    "fotel": {
+      "old": "扶椅",
+      "current": "肘椅"
+    },
+    "deprim": {
+      "old": "沮丧",
+      "current": "消沉"
     }
   },
-  "current_csv_sha256": "c96c929a51bb1b5475517e87ea78a49a6ae1b5884575ec0a199dcba377461c0c",
-  "current_snippet_csv_sha256": "6b9c5bae990a0b168ba555f83ead6f4173e0445d49bed6ff712f10a858b08865",
+  "current_csv_sha256": "06bd5e4eaba5071e268d2f130bc672348f406373ebb9e868d4e9af0772353320",
+  "current_snippet_csv_sha256": "089ef75764dc3cda161c22903e00f94b1a79a5ce6591576cb492acad794fcc64",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -633,5 +653,7 @@
   "four_assignments_20261106_manifest": "data/four-assignments-20261106.json",
   "four_assignments_20261106_manifest_sha256": "e4635ac5920468c1d09c6e17ad12c42a430396d65a6f82a9516e4235c38d9593",
   "three_assignments_20261107_manifest": "data/three-assignments-20261107.json",
-  "three_assignments_20261107_manifest_sha256": "09305f5a544bdda0f3705fc7d1867f46aa03c700b36a915194d4bb0bd4b5d5ac"
+  "three_assignments_20261107_manifest_sha256": "09305f5a544bdda0f3705fc7d1867f46aa03c700b36a915194d4bb0bd4b5d5ac",
+  "five_assignments_20261107_manifest": "data/five-assignments-20261107.json",
+  "five_assignments_20261107_manifest_sha256": "80691d76507e56962173527ec408c4097ac5a5661719b5cfe3d43a9081f7f808"
 }
