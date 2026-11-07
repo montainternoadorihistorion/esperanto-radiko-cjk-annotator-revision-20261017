@@ -348,3 +348,10 @@ python -B -m pytest -q -p no:cacheprovider
 按用户决定，新版更新为 kompuls＝迫ᴷ、langvor＝疲ᴸᴺ、setl＝住ˢ。用已有汉字表示强制、倦怠、定居的含义，减少专用字逼、倦、居。无标记的迫＝persekut、迫ᴼ＝opres、疲＝lac、住＝loĝ，以及仅作比较的rikan＝讥、暂缓的sponsor＝援均保持不变。注释含义、词根分解及其他标识符不变。
 
 固定旧版仍将逼、倦、居分别还原为kompuls、langvor、setl。继续只提供新版与固定旧版，不增加中间版本或新版旧写法别名。旧表记文本请选择旧版。自定义CSV、纯文本和标准HTML还原处理不变。记录：data/three-shared-assignments-20261107.json。
+
+
+### 2026-11-07 采纳：infest＝侵ᴵᶠ
+
+按用户决定，新版 infest 从「患」改为「侵ᴵᶠ」。以「侵」表示害兽、寄生体成群侵入的含义，与invad＝侵共用；汉字本体由11画减为9画，减少专用字「患」。注释含义、现有词根分解及其他标识符不变。lind＝娇、tard＝迟、rikan＝讥、sponsor＝援保持不变。
+
+固定旧版仍将「患」还原为infest。继续只提供新版与固定旧版，不增加新版旧写法别名或中间版本。该词根的旧写法请选择旧版。自定义CSV、纯文本及标准HTML还原处理不变。记录：data/infest_20261107.json。
