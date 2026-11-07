@@ -1,0 +1,272 @@
+{
+  "schema": 1,
+  "revision": "three-shared-assignments-20261107",
+  "baseline": "5a9af97af42d9f8c96e9a030ff494a43b6737752",
+  "changes": {
+    "kompuls": [
+      "逼",
+      "迫ᴷ"
+    ],
+    "langvor": [
+      "倦",
+      "疲ᴸᴺ"
+    ],
+    "setl": [
+      "居",
+      "住ˢ"
+    ]
+  },
+  "canonical_sidecar_sha256": "f3eadc3e26f379a8dbbe0f7bb55a1dddfdf5897b1e644c7abe2a6fd9aa54c455",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "d2cd480181b693367ed2ad869939f2dd35f27d83d981291fab318d8da8ee1a44",
+  "baseline_target_items": {
+    "kompuls": {
+      "prefix": "kompuls",
+      "body": "逼",
+      "kanji": "逼",
+      "detail": "kompuls → 逼 (piv, F=2, 基本形)",
+      "documentation": "語根: kompuls\n入力: kompuls\n最終形: 逼\n漢字: 逼\n識別子: なし\n型: piv\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7664",
+      "priority": 0,
+      "sourceRoot": "kompuls",
+      "type": "piv",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 7664
+    },
+    "langvor": {
+      "prefix": "langvor",
+      "body": "倦",
+      "kanji": "倦",
+      "detail": "langvor → 倦 (pejvo, F=3, 基本形)",
+      "documentation": "語根: langvor\n入力: langvor\n最終形: 倦\n漢字: 倦\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7615",
+      "priority": 0,
+      "sourceRoot": "langvor",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7615
+    },
+    "setl": {
+      "prefix": "setl",
+      "body": "居",
+      "kanji": "居",
+      "detail": "setl → 居 (piv, F=3, 基本形)",
+      "documentation": "語根: setl\n入力: setl\n最終形: 居\n漢字: 居\n識別子: なし\n型: piv\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7301",
+      "priority": 0,
+      "sourceRoot": "setl",
+      "type": "piv",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7301
+    },
+    "lac": {
+      "prefix": "lac",
+      "body": "疲",
+      "kanji": "疲",
+      "detail": "lac → 疲 (basic, F=16, 基本形)",
+      "documentation": "語根: lac\n入力: lac\n最終形: 疲\n漢字: 疲\n識別子: なし\n型: basic\nF(汎用性): 16\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:1766",
+      "priority": 0,
+      "sourceRoot": "lac",
+      "type": "basic",
+      "frequency": 16,
+      "base": true,
+      "sourceLine": 1766
+    },
+    "loĝ": {
+      "prefix": "logx",
+      "body": "住",
+      "kanji": "住",
+      "detail": "loĝ → 住 (basic, F=42, 基本形)",
+      "documentation": "語根: loĝ\n入力: logx\n最終形: 住\n漢字: 住\n識別子: なし\n型: basic\nF(汎用性): 42\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:859",
+      "priority": 0,
+      "sourceRoot": "loĝ",
+      "type": "basic",
+      "frequency": 42,
+      "base": true,
+      "sourceLine": 859
+    },
+    "opres": {
+      "prefix": "opres",
+      "body": "迫ᴼ",
+      "kanji": "迫",
+      "detail": "opres → 迫ᴼ (piv, F=1)",
+      "documentation": "語根: opres\n入力: opres\n最終形: 迫ᴼ\n漢字: 迫\n識別子: o\n型: piv\nF(汎用性): 1\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:4044",
+      "priority": 0,
+      "sourceRoot": "opres",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 4044
+    },
+    "persekut": {
+      "prefix": "persekut",
+      "body": "迫",
+      "kanji": "迫",
+      "detail": "persekut → 迫 (basic, F=8, 基本形)",
+      "documentation": "語根: persekut\n入力: persekut\n最終形: 迫\n漢字: 迫\n識別子: なし\n型: basic\nF(汎用性): 8\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:4043",
+      "priority": 0,
+      "sourceRoot": "persekut",
+      "type": "basic",
+      "frequency": 8,
+      "base": true,
+      "sourceLine": 4043
+    }
+  },
+  "expected_target_items": {
+    "kompuls": {
+      "prefix": "kompuls",
+      "body": "迫ᴷ",
+      "kanji": "迫",
+      "detail": "kompuls → 迫ᴷ (piv, F=2)",
+      "documentation": "語根: kompuls\n入力: kompuls\n最終形: 迫ᴷ\n漢字: 迫\n識別子: k\n型: piv\nF(汎用性): 2\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:7664",
+      "priority": 0,
+      "sourceRoot": "kompuls",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 7664
+    },
+    "langvor": {
+      "prefix": "langvor",
+      "body": "疲ᴸᴺ",
+      "kanji": "疲",
+      "detail": "langvor → 疲ᴸᴺ (pejvo, F=3)",
+      "documentation": "語根: langvor\n入力: langvor\n最終形: 疲ᴸᴺ\n漢字: 疲\n識別子: ln\n型: pejvo\nF(汎用性): 3\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:7615",
+      "priority": 0,
+      "sourceRoot": "langvor",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 7615
+    },
+    "setl": {
+      "prefix": "setl",
+      "body": "住ˢ",
+      "kanji": "住",
+      "detail": "setl → 住ˢ (piv, F=3)",
+      "documentation": "語根: setl\n入力: setl\n最終形: 住ˢ\n漢字: 住\n識別子: s\n型: piv\nF(汎用性): 3\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:7301",
+      "priority": 0,
+      "sourceRoot": "setl",
+      "type": "piv",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 7301
+    },
+    "lac": {
+      "prefix": "lac",
+      "body": "疲",
+      "kanji": "疲",
+      "detail": "lac → 疲 (basic, F=16, 基本形)",
+      "documentation": "語根: lac\n入力: lac\n最終形: 疲\n漢字: 疲\n識別子: なし\n型: basic\nF(汎用性): 16\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:1766",
+      "priority": 0,
+      "sourceRoot": "lac",
+      "type": "basic",
+      "frequency": 16,
+      "base": true,
+      "sourceLine": 1766
+    },
+    "loĝ": {
+      "prefix": "logx",
+      "body": "住",
+      "kanji": "住",
+      "detail": "loĝ → 住 (basic, F=42, 基本形)",
+      "documentation": "語根: loĝ\n入力: logx\n最終形: 住\n漢字: 住\n識別子: なし\n型: basic\nF(汎用性): 42\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:859",
+      "priority": 0,
+      "sourceRoot": "loĝ",
+      "type": "basic",
+      "frequency": 42,
+      "base": true,
+      "sourceLine": 859
+    },
+    "opres": {
+      "prefix": "opres",
+      "body": "迫ᴼ",
+      "kanji": "迫",
+      "detail": "opres → 迫ᴼ (piv, F=1)",
+      "documentation": "語根: opres\n入力: opres\n最終形: 迫ᴼ\n漢字: 迫\n識別子: o\n型: piv\nF(汎用性): 1\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:4044",
+      "priority": 0,
+      "sourceRoot": "opres",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 4044
+    },
+    "persekut": {
+      "prefix": "persekut",
+      "body": "迫",
+      "kanji": "迫",
+      "detail": "persekut → 迫 (basic, F=8, 基本形)",
+      "documentation": "語根: persekut\n入力: persekut\n最終形: 迫\n漢字: 迫\n識別子: なし\n型: basic\nF(汎用性): 8\nグループ数: 3\n基本形: yes\n出典: _identifier_sidecar.tsv:4043",
+      "priority": 0,
+      "sourceRoot": "persekut",
+      "type": "basic",
+      "frequency": 8,
+      "base": true,
+      "sourceLine": 4043
+    }
+  },
+  "unrelated_items_sha256": "4bed58c06828b7582dc5e24e3b5d89c4918ff3e9107b864bc71ba6200bde227f",
+  "unrelated_items_count": 10633,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {
+    "lac": {
+      "group_count": [
+        1,
+        2
+      ]
+    },
+    "loĝ": {
+      "group_count": [
+        1,
+        2
+      ]
+    },
+    "opres": {
+      "group_count": [
+        2,
+        3
+      ]
+    },
+    "persekut": {
+      "group_count": [
+        2,
+        3
+      ]
+    }
+  },
+  "metadata_only_changes": {},
+  "preserved_historical_overrides": [],
+  "assignment_unchanged_item_count": 10637,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "kompuls",
+    "langvor",
+    "setl"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "approved": "2026-11-07 direct user adoption: kompuls=迫ᴷ, langvor=疲ᴸᴺ, setl=住ˢ. kompuls shares 迫 with persekut and opres while preserving the sense of compelling someone to carry out a duty or action. langvor shares 疲 with lac while retaining lack of energy, languor and emotional/poetic senses in the existing glosses. setl shares 住 with loĝ, preserving settlement in a new place and the group nuance. Former 逼,倦,居 are meaningful; the approved choice favors reuse and removal of three dedicated characters. Body strokes 12/10/8 to 8/10/7, total 30 to 25. No new character introduced. Existing bare owners and all other root identifiers remain unchanged. rikan and sponsor are not adopted. Master classifications remain content; F/band, original dictionary, decomposition, detailed glosses, short JA/ZH/KO annotations, markers and the fixed original legacy are unchanged. Current and fixed original legacy only; no intermediate edition or old-spelling aliases."
+  },
+  "preserved_controls": {
+    "迫": "persekut",
+    "迫ᴼ": "opres",
+    "疲": "lac",
+    "住": "loĝ",
+    "讥": "rikan",
+    "援": "sponsor"
+  },
+  "explicit_retained": {
+    "rikan": "讥",
+    "sponsor": "援",
+    "streb": "努ˢ",
+    "vind": "包ⱽ",
+    "steg": "支ˢ",
+    "fotel": "肘椅",
+    "deprim": "消沉"
+  },
+  "shared_spelling": {},
+  "migration_notice": "Only current kompuls, langvor and setl change. Other owners and fixed legacy assignments stay unchanged. No old-spelling aliases or intermediate editions."
+}

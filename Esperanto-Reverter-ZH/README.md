@@ -341,3 +341,10 @@ python -B -m pytest -q -p no:cacheprovider
 按用户决定，新版更新为 streb＝努ˢ、vind＝包ⱽ、steg＝支ˢ、fotel＝肘椅、deprim＝消沉。此次判断重视近义词根共用已有汉字、扶手特征、现成词「消沉」及专用字减少。减少专用字奋、裹、撑、扶、沮。注释含义及词根分解不变，不缩窄包扎身体、结构加固件、扶手及抑郁的含义。努＝pen、包＝pak、包ᴮᴺ＝bandaĝ、支＝apog的对应与标识符均保持不变。
 
 固定旧版仍将奋、裹、撑、扶椅、沮丧还原为原词根。继续只提供新版与固定旧版，不增加中间版本或新版旧写法别名。旧表记文本请选择旧版。自定义CSV、纯文本和标准HTML还原处理不变。记录：data/five-assignments-20261107.json。
+
+
+### 2026-11-07 采纳：kompuls、langvor、setl
+
+按用户决定，新版更新为 kompuls＝迫ᴷ、langvor＝疲ᴸᴺ、setl＝住ˢ。用已有汉字表示强制、倦怠、定居的含义，减少专用字逼、倦、居。无标记的迫＝persekut、迫ᴼ＝opres、疲＝lac、住＝loĝ，以及仅作比较的rikan＝讥、暂缓的sponsor＝援均保持不变。注释含义、词根分解及其他标识符不变。
+
+固定旧版仍将逼、倦、居分别还原为kompuls、langvor、setl。继续只提供新版与固定旧版，不增加中间版本或新版旧写法别名。旧表记文本请选择旧版。自定义CSV、纯文本和标准HTML还原处理不变。记录：data/three-shared-assignments-20261107.json。
