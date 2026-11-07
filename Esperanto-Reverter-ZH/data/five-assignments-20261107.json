@@ -1,0 +1,494 @@
+{
+  "schema": 1,
+  "revision": "2026-11-07-five-assignments",
+  "baseline": "62ec4bc97a8dc9d65caf30626ec53b2c3d011d8b",
+  "changes": {
+    "streb": [
+      "奋",
+      "努ˢ"
+    ],
+    "vind": [
+      "裹",
+      "包ⱽ"
+    ],
+    "steg": [
+      "撑",
+      "支ˢ"
+    ],
+    "fotel": [
+      "扶椅",
+      "肘椅"
+    ],
+    "deprim": [
+      "沮丧",
+      "消沉"
+    ]
+  },
+  "canonical_sidecar_sha256": "125e6664c67df871b376d5b7f334a903391d8c9e347c27cc7ff49516725eca75",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "1c6d520b97eb73edb4a8bff2143b4fa6ff357d9cff74fa39368931689afef869",
+  "baseline_target_items": {
+    "streb": {
+      "prefix": "streb",
+      "body": "奋",
+      "kanji": "奋",
+      "detail": "streb → 奋 (pejvo, F=3, 基本形)",
+      "documentation": "語根: streb\n入力: streb\n最終形: 奋\n漢字: 奋\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7340",
+      "priority": 0,
+      "sourceRoot": "streb",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7340
+    },
+    "vind": {
+      "prefix": "vind",
+      "body": "裹",
+      "kanji": "裹",
+      "detail": "vind → 裹 (basic, F=13, 基本形)",
+      "documentation": "語根: vind\n入力: vind\n最終形: 裹\n漢字: 裹\n識別子: なし\n型: basic\nF(汎用性): 13\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:5981",
+      "priority": 0,
+      "sourceRoot": "vind",
+      "type": "basic",
+      "frequency": 13,
+      "base": true,
+      "sourceLine": 5981
+    },
+    "steg": {
+      "prefix": "steg",
+      "body": "撑",
+      "kanji": "撑",
+      "detail": "steg → 撑 (piv, F=2, 基本形)",
+      "documentation": "語根: steg\n入力: steg\n最終形: 撑\n漢字: 撑\n識別子: なし\n型: piv\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8251",
+      "priority": 0,
+      "sourceRoot": "steg",
+      "type": "piv",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8251
+    },
+    "fotel": {
+      "prefix": "fotel",
+      "body": "扶椅",
+      "kanji": "扶椅",
+      "detail": "fotel → 扶椅 (basic, F=2, 基本形)",
+      "documentation": "語根: fotel\n入力: fotel\n最終形: 扶椅\n漢字: 扶椅\n識別子: なし\n型: basic\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:5776",
+      "priority": 0,
+      "sourceRoot": "fotel",
+      "type": "basic",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 5776
+    },
+    "deprim": {
+      "prefix": "deprim",
+      "body": "沮丧",
+      "kanji": "沮丧",
+      "detail": "deprim → 沮丧 (pejvo, F=5, 基本形)",
+      "documentation": "語根: deprim\n入力: deprim\n最終形: 沮丧\n漢字: 沮丧\n識別子: なし\n型: pejvo\nF(汎用性): 5\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6685",
+      "priority": 0,
+      "sourceRoot": "deprim",
+      "type": "pejvo",
+      "frequency": 5,
+      "base": true,
+      "sourceLine": 6685
+    },
+    "apog": {
+      "prefix": "apog",
+      "body": "支",
+      "kanji": "支",
+      "detail": "apog → 支 (basic, F=23, 基本形)",
+      "documentation": "語根: apog\n入力: apog\n最終形: 支\n漢字: 支\n識別子: なし\n型: basic\nF(汎用性): 23\nグループ数: 4\n基本形: yes\n出典: _identifier_sidecar.tsv:2917",
+      "priority": 0,
+      "sourceRoot": "apog",
+      "type": "basic",
+      "frequency": 23,
+      "base": true,
+      "sourceLine": 2917
+    },
+    "bandaĝ": {
+      "prefix": "bandagx",
+      "body": "包ᴮᴺ",
+      "kanji": "包",
+      "detail": "bandaĝ → 包ᴮᴺ (basic, F=5)",
+      "documentation": "語根: bandaĝ\n入力: bandagx\n最終形: 包ᴮᴺ\n漢字: 包\n識別子: bn\n型: basic\nF(汎用性): 5\nグループ数: 4\n基本形: no\n出典: _identifier_sidecar.tsv:2753",
+      "priority": 0,
+      "sourceRoot": "bandaĝ",
+      "type": "basic",
+      "frequency": 5,
+      "base": false,
+      "sourceLine": 2753
+    },
+    "bronk": {
+      "prefix": "bronk",
+      "body": "支ᴮ",
+      "kanji": "支",
+      "detail": "bronk → 支ᴮ (pejvo, F=8)",
+      "documentation": "語根: bronk\n入力: bronk\n最終形: 支ᴮ\n漢字: 支\n識別子: b\n型: pejvo\nF(汎用性): 8\nグループ数: 4\n基本形: no\n出典: _identifier_sidecar.tsv:2919",
+      "priority": 0,
+      "sourceRoot": "bronk",
+      "type": "pejvo",
+      "frequency": 8,
+      "base": false,
+      "sourceLine": 2919
+    },
+    "bulk": {
+      "prefix": "bulk",
+      "body": "包ᴮ",
+      "kanji": "包",
+      "detail": "bulk → 包ᴮ (basic, F=7)",
+      "documentation": "語根: bulk\n入力: bulk\n最終形: 包ᴮ\n漢字: 包\n識別子: b\n型: basic\nF(汎用性): 7\nグループ数: 4\n基本形: no\n出典: _identifier_sidecar.tsv:2752",
+      "priority": 0,
+      "sourceRoot": "bulk",
+      "type": "basic",
+      "frequency": 7,
+      "base": false,
+      "sourceLine": 2752
+    },
+    "fili": {
+      "prefix": "fili",
+      "body": "支ᶠ",
+      "kanji": "支",
+      "detail": "fili → 支ᶠ (basic, F=3)",
+      "documentation": "語根: fili\n入力: fili\n最終形: 支ᶠ\n漢字: 支\n識別子: f\n型: basic\nF(汎用性): 3\nグループ数: 4\n基本形: no\n出典: _identifier_sidecar.tsv:2918",
+      "priority": 0,
+      "sourceRoot": "fili",
+      "type": "basic",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 2918
+    },
+    "klad": {
+      "prefix": "klad",
+      "body": "支ᴷ",
+      "kanji": "支",
+      "detail": "klad → 支ᴷ (piv, F=5)",
+      "documentation": "語根: klad\n入力: klad\n最終形: 支ᴷ\n漢字: 支\n識別子: k\n型: piv\nF(汎用性): 5\nグループ数: 4\n基本形: no\n出典: _identifier_sidecar.tsv:2920",
+      "priority": 0,
+      "sourceRoot": "klad",
+      "type": "piv",
+      "frequency": 5,
+      "base": false,
+      "sourceLine": 2920
+    },
+    "pak": {
+      "prefix": "pak",
+      "body": "包",
+      "kanji": "包",
+      "detail": "pak → 包 (basic, F=32, 基本形)",
+      "documentation": "語根: pak\n入力: pak\n最終形: 包\n漢字: 包\n識別子: なし\n型: basic\nF(汎用性): 32\nグループ数: 4\n基本形: yes\n出典: _identifier_sidecar.tsv:2751",
+      "priority": 0,
+      "sourceRoot": "pak",
+      "type": "basic",
+      "frequency": 32,
+      "base": true,
+      "sourceLine": 2751
+    },
+    "pen": {
+      "prefix": "pen",
+      "body": "努",
+      "kanji": "努",
+      "detail": "pen → 努 (basic, F=15, 基本形)",
+      "documentation": "語根: pen\n入力: pen\n最終形: 努\n漢字: 努\n識別子: なし\n型: basic\nF(汎用性): 15\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:2050",
+      "priority": 0,
+      "sourceRoot": "pen",
+      "type": "basic",
+      "frequency": 15,
+      "base": true,
+      "sourceLine": 2050
+    },
+    "tek": {
+      "prefix": "tek",
+      "body": "包ᵀ",
+      "kanji": "包",
+      "detail": "tek → 包ᵀ (pejvo, F=8)",
+      "documentation": "語根: tek\n入力: tek\n最終形: 包ᵀ\n漢字: 包\n識別子: t\n型: pejvo\nF(汎用性): 8\nグループ数: 4\n基本形: no\n出典: _identifier_sidecar.tsv:2754",
+      "priority": 0,
+      "sourceRoot": "tek",
+      "type": "pejvo",
+      "frequency": 8,
+      "base": false,
+      "sourceLine": 2754
+    }
+  },
+  "expected_target_items": {
+    "streb": {
+      "prefix": "streb",
+      "body": "努ˢ",
+      "kanji": "努",
+      "detail": "streb → 努ˢ (pejvo, F=3)",
+      "documentation": "語根: streb\n入力: streb\n最終形: 努ˢ\n漢字: 努\n識別子: s\n型: pejvo\nF(汎用性): 3\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:7340",
+      "priority": 0,
+      "sourceRoot": "streb",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 7340
+    },
+    "vind": {
+      "prefix": "vind",
+      "body": "包ⱽ",
+      "kanji": "包",
+      "detail": "vind → 包ⱽ (basic, F=13)",
+      "documentation": "語根: vind\n入力: vind\n最終形: 包ⱽ\n漢字: 包\n識別子: v\n型: basic\nF(汎用性): 13\nグループ数: 5\n基本形: no\n出典: _identifier_sidecar.tsv:5981",
+      "priority": 0,
+      "sourceRoot": "vind",
+      "type": "basic",
+      "frequency": 13,
+      "base": false,
+      "sourceLine": 5981
+    },
+    "steg": {
+      "prefix": "steg",
+      "body": "支ˢ",
+      "kanji": "支",
+      "detail": "steg → 支ˢ (piv, F=2)",
+      "documentation": "語根: steg\n入力: steg\n最終形: 支ˢ\n漢字: 支\n識別子: s\n型: piv\nF(汎用性): 2\nグループ数: 5\n基本形: no\n出典: _identifier_sidecar.tsv:8251",
+      "priority": 0,
+      "sourceRoot": "steg",
+      "type": "piv",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 8251
+    },
+    "fotel": {
+      "prefix": "fotel",
+      "body": "肘椅",
+      "kanji": "肘椅",
+      "detail": "fotel → 肘椅 (basic, F=2, 基本形)",
+      "documentation": "語根: fotel\n入力: fotel\n最終形: 肘椅\n漢字: 肘椅\n識別子: なし\n型: basic\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:5776",
+      "priority": 0,
+      "sourceRoot": "fotel",
+      "type": "basic",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 5776
+    },
+    "deprim": {
+      "prefix": "deprim",
+      "body": "消沉",
+      "kanji": "消沉",
+      "detail": "deprim → 消沉 (pejvo, F=5, 基本形)",
+      "documentation": "語根: deprim\n入力: deprim\n最終形: 消沉\n漢字: 消沉\n識別子: なし\n型: pejvo\nF(汎用性): 5\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:6685",
+      "priority": 0,
+      "sourceRoot": "deprim",
+      "type": "pejvo",
+      "frequency": 5,
+      "base": true,
+      "sourceLine": 6685
+    },
+    "apog": {
+      "prefix": "apog",
+      "body": "支",
+      "kanji": "支",
+      "detail": "apog → 支 (basic, F=23, 基本形)",
+      "documentation": "語根: apog\n入力: apog\n最終形: 支\n漢字: 支\n識別子: なし\n型: basic\nF(汎用性): 23\nグループ数: 5\n基本形: yes\n出典: _identifier_sidecar.tsv:2917",
+      "priority": 0,
+      "sourceRoot": "apog",
+      "type": "basic",
+      "frequency": 23,
+      "base": true,
+      "sourceLine": 2917
+    },
+    "bandaĝ": {
+      "prefix": "bandagx",
+      "body": "包ᴮᴺ",
+      "kanji": "包",
+      "detail": "bandaĝ → 包ᴮᴺ (basic, F=5)",
+      "documentation": "語根: bandaĝ\n入力: bandagx\n最終形: 包ᴮᴺ\n漢字: 包\n識別子: bn\n型: basic\nF(汎用性): 5\nグループ数: 5\n基本形: no\n出典: _identifier_sidecar.tsv:2753",
+      "priority": 0,
+      "sourceRoot": "bandaĝ",
+      "type": "basic",
+      "frequency": 5,
+      "base": false,
+      "sourceLine": 2753
+    },
+    "bronk": {
+      "prefix": "bronk",
+      "body": "支ᴮ",
+      "kanji": "支",
+      "detail": "bronk → 支ᴮ (pejvo, F=8)",
+      "documentation": "語根: bronk\n入力: bronk\n最終形: 支ᴮ\n漢字: 支\n識別子: b\n型: pejvo\nF(汎用性): 8\nグループ数: 5\n基本形: no\n出典: _identifier_sidecar.tsv:2919",
+      "priority": 0,
+      "sourceRoot": "bronk",
+      "type": "pejvo",
+      "frequency": 8,
+      "base": false,
+      "sourceLine": 2919
+    },
+    "bulk": {
+      "prefix": "bulk",
+      "body": "包ᴮ",
+      "kanji": "包",
+      "detail": "bulk → 包ᴮ (basic, F=7)",
+      "documentation": "語根: bulk\n入力: bulk\n最終形: 包ᴮ\n漢字: 包\n識別子: b\n型: basic\nF(汎用性): 7\nグループ数: 5\n基本形: no\n出典: _identifier_sidecar.tsv:2752",
+      "priority": 0,
+      "sourceRoot": "bulk",
+      "type": "basic",
+      "frequency": 7,
+      "base": false,
+      "sourceLine": 2752
+    },
+    "fili": {
+      "prefix": "fili",
+      "body": "支ᶠ",
+      "kanji": "支",
+      "detail": "fili → 支ᶠ (basic, F=3)",
+      "documentation": "語根: fili\n入力: fili\n最終形: 支ᶠ\n漢字: 支\n識別子: f\n型: basic\nF(汎用性): 3\nグループ数: 5\n基本形: no\n出典: _identifier_sidecar.tsv:2918",
+      "priority": 0,
+      "sourceRoot": "fili",
+      "type": "basic",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 2918
+    },
+    "klad": {
+      "prefix": "klad",
+      "body": "支ᴷ",
+      "kanji": "支",
+      "detail": "klad → 支ᴷ (piv, F=5)",
+      "documentation": "語根: klad\n入力: klad\n最終形: 支ᴷ\n漢字: 支\n識別子: k\n型: piv\nF(汎用性): 5\nグループ数: 5\n基本形: no\n出典: _identifier_sidecar.tsv:2920",
+      "priority": 0,
+      "sourceRoot": "klad",
+      "type": "piv",
+      "frequency": 5,
+      "base": false,
+      "sourceLine": 2920
+    },
+    "pak": {
+      "prefix": "pak",
+      "body": "包",
+      "kanji": "包",
+      "detail": "pak → 包 (basic, F=32, 基本形)",
+      "documentation": "語根: pak\n入力: pak\n最終形: 包\n漢字: 包\n識別子: なし\n型: basic\nF(汎用性): 32\nグループ数: 5\n基本形: yes\n出典: _identifier_sidecar.tsv:2751",
+      "priority": 0,
+      "sourceRoot": "pak",
+      "type": "basic",
+      "frequency": 32,
+      "base": true,
+      "sourceLine": 2751
+    },
+    "pen": {
+      "prefix": "pen",
+      "body": "努",
+      "kanji": "努",
+      "detail": "pen → 努 (basic, F=15, 基本形)",
+      "documentation": "語根: pen\n入力: pen\n最終形: 努\n漢字: 努\n識別子: なし\n型: basic\nF(汎用性): 15\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:2050",
+      "priority": 0,
+      "sourceRoot": "pen",
+      "type": "basic",
+      "frequency": 15,
+      "base": true,
+      "sourceLine": 2050
+    },
+    "tek": {
+      "prefix": "tek",
+      "body": "包ᵀ",
+      "kanji": "包",
+      "detail": "tek → 包ᵀ (pejvo, F=8)",
+      "documentation": "語根: tek\n入力: tek\n最終形: 包ᵀ\n漢字: 包\n識別子: t\n型: pejvo\nF(汎用性): 8\nグループ数: 5\n基本形: no\n出典: _identifier_sidecar.tsv:2754",
+      "priority": 0,
+      "sourceRoot": "tek",
+      "type": "pejvo",
+      "frequency": 8,
+      "base": false,
+      "sourceLine": 2754
+    }
+  },
+  "unrelated_items_sha256": "ec443b3447db4193e10242a9de8d4a828103acdde2de4fea7c92ac2ab1343fbe",
+  "unrelated_items_count": 10626,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {
+    "apog": {
+      "group_count": [
+        4,
+        5
+      ]
+    },
+    "bandaĝ": {
+      "group_count": [
+        4,
+        5
+      ]
+    },
+    "bronk": {
+      "group_count": [
+        4,
+        5
+      ]
+    },
+    "bulk": {
+      "group_count": [
+        4,
+        5
+      ]
+    },
+    "fili": {
+      "group_count": [
+        4,
+        5
+      ]
+    },
+    "klad": {
+      "group_count": [
+        4,
+        5
+      ]
+    },
+    "pak": {
+      "group_count": [
+        4,
+        5
+      ]
+    },
+    "pen": {
+      "group_count": [
+        1,
+        2
+      ]
+    },
+    "tek": {
+      "group_count": [
+        4,
+        5
+      ]
+    }
+  },
+  "metadata_only_changes": {},
+  "preserved_historical_overrides": [],
+  "assignment_unchanged_item_count": 10635,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "streb",
+    "vind",
+    "steg",
+    "fotel",
+    "deprim"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "approved": "2026-11-07 direct user adoption: streb=努ˢ, vind=包ⱽ, steg=支ˢ, fotel=肘椅, deprim=消沉. streb shares 努 with pen because both express effort toward a goal. vind shares 包 with bandaĝ and pak while preserving swaddling and bandage senses. steg shares 支 with apog while retaining the technical reinforcement/spacing meaning in annotations. fotel retains the armrest feature with 肘 plus 椅 and shares 肘 with kubut; 肘椅 is a project compression of the Japanese armchair name, not claimed to be the standard Chinese name. deprim uses the established Chinese 消沉 for loss of vigor and discouragement, preserving psychological/medical and causative senses. Current spellings are meaningful; selection favors reuse and character inventory reduction, including the one-stroke increase for deprim. Body strokes 8/14/15/19/16 to 7/5/4/19/17, total 72 to 52. Exclusive 奋,裹,撑,扶,沮 removed, no new characters. Existing pen/pak/bandaĝ/apog identifiers and all other root displays stay unchanged. Preserve all root decomposition, detailed glosses, short JA/ZH/KO annotations, F/band and fixed legacy. Current and fixed original legacy only; no intermediate edition or old-spelling aliases."
+  },
+  "preserved_controls": {
+    "努": "pen",
+    "包": "pak",
+    "包ᴮᴺ": "bandaĝ",
+    "支": "apog",
+    "肘": "kubut",
+    "椅": "seĝ",
+    "消": "digest",
+    "沉": "merg"
+  },
+  "explicit_retained": {
+    "eu^fori": "快ᴱ",
+    "sofism": "伪辩",
+    "vrak": "残船",
+    "ekzempler": "册ᴱ",
+    "font": "泉"
+  },
+  "shared_spelling": {},
+  "migration_notice": "Only current streb, vind, steg, fotel and deprim change. Other owners and fixed legacy assignments stay unchanged. No old-spelling aliases or intermediate editions."
+}

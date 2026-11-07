@@ -63,7 +63,7 @@ def test_approved_manifest_downloads_and_fixed_legacy():
     source = json.loads((app.ROOT / 'data/current_dictionary_source.json').read_bytes())
     path = app.ROOT / source['eufori_sofism_20261102_manifest']
     manifest = json.loads(path.read_bytes())
-    assert source['revision'] == '2026-11-07-three-assignments'
+    assert source['revision'] == '2026-11-07-five-assignments'
     assert manifest['revision'] == '2026-11-02-eufori-sofism'
     assert manifest['changes'] == {'eu^fori': ['欣快', '快ᴱ'], 'sofism': ['诡辩', '伪辩']}
     assert manifest['safe_reverse_aliases'] == {}
