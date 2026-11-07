@@ -1,0 +1,238 @@
+{
+  "schema": 1,
+  "revision": "2026-11-07-three-assignments",
+  "baseline": "ca24668940a7b7ef50519b50cad71c58e051c4d4",
+  "changes": {
+    "arbitr": [
+      "擅",
+      "任ᴬᴿ"
+    ],
+    "eklektik": [
+      "折衷",
+      "折中"
+    ],
+    "kalejdoskop": [
+      "万花筒",
+      "万花镜"
+    ]
+  },
+  "canonical_sidecar_sha256": "6abdd7e1f751a1551f79a0a96012fbcdfcd7d238c02ff939f3f226076e79b08a",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "7c8a4a459554a972907042d726ed0e9b8c684b38da4450db84366ea78f4eeb0d",
+  "baseline_target_items": {
+    "arbitr": {
+      "prefix": "arbitr",
+      "body": "擅",
+      "kanji": "擅",
+      "detail": "arbitr → 擅 (basic, F=5, 基本形)",
+      "documentation": "語根: arbitr\n入力: arbitr\n最終形: 擅\n漢字: 擅\n識別子: なし\n型: basic\nF(汎用性): 5\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:4938",
+      "priority": 0,
+      "sourceRoot": "arbitr",
+      "type": "basic",
+      "frequency": 5,
+      "base": true,
+      "sourceLine": 4938
+    },
+    "eklektik": {
+      "prefix": "eklektik",
+      "body": "折衷",
+      "kanji": "折衷",
+      "detail": "eklektik → 折衷 (pejvo, F=4, 基本形)",
+      "documentation": "語根: eklektik\n入力: eklektik\n最終形: 折衷\n漢字: 折衷\n識別子: なし\n型: pejvo\nF(汎用性): 4\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7144",
+      "priority": 0,
+      "sourceRoot": "eklektik",
+      "type": "pejvo",
+      "frequency": 4,
+      "base": true,
+      "sourceLine": 7144
+    },
+    "kalejdoskop": {
+      "prefix": "kalejdoskop",
+      "body": "万花筒",
+      "kanji": "万花筒",
+      "detail": "kalejdoskop → 万花筒 (pejvo, F=3, 基本形)",
+      "documentation": "語根: kalejdoskop\n入力: kalejdoskop\n最終形: 万花筒\n漢字: 万花筒\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7542",
+      "priority": 0,
+      "sourceRoot": "kalejdoskop",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7542
+    },
+    "ajn": {
+      "prefix": "ajn",
+      "body": "任",
+      "kanji": "任",
+      "detail": "ajn → 任 (func, F=0, 基本形)",
+      "documentation": "語根: ajn\n入力: ajn\n最終形: 任\n漢字: 任\n識別子: なし\n型: func\nF(汎用性): 0\nグループ数: 3\n基本形: yes\n出典: _identifier_sidecar.tsv:648",
+      "priority": 0,
+      "sourceRoot": "ajn",
+      "type": "func",
+      "frequency": 0,
+      "base": true,
+      "sourceLine": 648
+    },
+    "investitur": {
+      "prefix": "investitur",
+      "body": "任ᴵ",
+      "kanji": "任",
+      "detail": "investitur → 任ᴵ (pejvo, F=2)",
+      "documentation": "語根: investitur\n入力: investitur\n最終形: 任ᴵ\n漢字: 任\n識別子: i\n型: pejvo\nF(汎用性): 2\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:650",
+      "priority": 0,
+      "sourceRoot": "investitur",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 650
+    },
+    "kapric": {
+      "prefix": "kapric",
+      "body": "任ᴷ",
+      "kanji": "任",
+      "detail": "kapric → 任ᴷ (basic, F=4)",
+      "documentation": "語根: kapric\n入力: kapric\n最終形: 任ᴷ\n漢字: 任\n識別子: k\n型: basic\nF(汎用性): 4\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:649",
+      "priority": 0,
+      "sourceRoot": "kapric",
+      "type": "basic",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 649
+    }
+  },
+  "expected_target_items": {
+    "arbitr": {
+      "prefix": "arbitr",
+      "body": "任ᴬᴿ",
+      "kanji": "任",
+      "detail": "arbitr → 任ᴬᴿ (basic, F=5)",
+      "documentation": "語根: arbitr\n入力: arbitr\n最終形: 任ᴬᴿ\n漢字: 任\n識別子: ar\n型: basic\nF(汎用性): 5\nグループ数: 4\n基本形: no\n出典: _identifier_sidecar.tsv:4938",
+      "priority": 0,
+      "sourceRoot": "arbitr",
+      "type": "basic",
+      "frequency": 5,
+      "base": false,
+      "sourceLine": 4938
+    },
+    "eklektik": {
+      "prefix": "eklektik",
+      "body": "折中",
+      "kanji": "折中",
+      "detail": "eklektik → 折中 (pejvo, F=4, 基本形)",
+      "documentation": "語根: eklektik\n入力: eklektik\n最終形: 折中\n漢字: 折中\n識別子: なし\n型: pejvo\nF(汎用性): 4\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7144",
+      "priority": 0,
+      "sourceRoot": "eklektik",
+      "type": "pejvo",
+      "frequency": 4,
+      "base": true,
+      "sourceLine": 7144
+    },
+    "kalejdoskop": {
+      "prefix": "kalejdoskop",
+      "body": "万花镜",
+      "kanji": "万花镜",
+      "detail": "kalejdoskop → 万花镜 (pejvo, F=3, 基本形)",
+      "documentation": "語根: kalejdoskop\n入力: kalejdoskop\n最終形: 万花镜\n漢字: 万花镜\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:7542",
+      "priority": 0,
+      "sourceRoot": "kalejdoskop",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 7542
+    },
+    "ajn": {
+      "prefix": "ajn",
+      "body": "任",
+      "kanji": "任",
+      "detail": "ajn → 任 (func, F=0, 基本形)",
+      "documentation": "語根: ajn\n入力: ajn\n最終形: 任\n漢字: 任\n識別子: なし\n型: func\nF(汎用性): 0\nグループ数: 4\n基本形: yes\n出典: _identifier_sidecar.tsv:648",
+      "priority": 0,
+      "sourceRoot": "ajn",
+      "type": "func",
+      "frequency": 0,
+      "base": true,
+      "sourceLine": 648
+    },
+    "investitur": {
+      "prefix": "investitur",
+      "body": "任ᴵ",
+      "kanji": "任",
+      "detail": "investitur → 任ᴵ (pejvo, F=2)",
+      "documentation": "語根: investitur\n入力: investitur\n最終形: 任ᴵ\n漢字: 任\n識別子: i\n型: pejvo\nF(汎用性): 2\nグループ数: 4\n基本形: no\n出典: _identifier_sidecar.tsv:650",
+      "priority": 0,
+      "sourceRoot": "investitur",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": false,
+      "sourceLine": 650
+    },
+    "kapric": {
+      "prefix": "kapric",
+      "body": "任ᴷ",
+      "kanji": "任",
+      "detail": "kapric → 任ᴷ (basic, F=4)",
+      "documentation": "語根: kapric\n入力: kapric\n最終形: 任ᴷ\n漢字: 任\n識別子: k\n型: basic\nF(汎用性): 4\nグループ数: 4\n基本形: no\n出典: _identifier_sidecar.tsv:649",
+      "priority": 0,
+      "sourceRoot": "kapric",
+      "type": "basic",
+      "frequency": 4,
+      "base": false,
+      "sourceLine": 649
+    }
+  },
+  "unrelated_items_sha256": "6d28ac44b11f6ec37f90f8acf4ab99fb42aac8539f376353b7b8eddec44c01b3",
+  "unrelated_items_count": 10634,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {
+    "ajn": {
+      "group_count": [
+        3,
+        4
+      ]
+    },
+    "investitur": {
+      "group_count": [
+        3,
+        4
+      ]
+    },
+    "kapric": {
+      "group_count": [
+        3,
+        4
+      ]
+    }
+  },
+  "metadata_only_changes": {},
+  "preserved_historical_overrides": [],
+  "assignment_unchanged_item_count": 10637,
+  "safe_reverse_aliases": {},
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "arbitr",
+    "eklektik",
+    "kalejdoskop"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. No intermediate profile or new old-spelling aliases.",
+  "rationale": {
+    "approved": "2026-11-07 direct user adoption: arbitr=任ᴬᴿ, eklektik=折中, kalejdoskop=万花镜. arbitr shares 任 with ajn and kapric for choice depending on will or whim; arbitraci remains 裁ᴬ. eklektik uses the established alternative 折中 and shared 中 for eclectic selection; existing annotations remain unchanged. kalejdoskop keeps 万花 and replaces the tube clue 筒 with the optical mirror clue 镜; the user accepts this comparison including the 4-stroke increase and the established Chinese name 万花筒 remains in annotations. Original identifier algorithm yields arbitr id ar (ᴬᴿ); no other identifier or key ownership changes. Body strokes 16/17/22 to 6/11/26, total 55 to 43. Exclusive 擅,衷,筒 removed, no new characters. Preserve all root decomposition, detailed glosses, short JA/ZH/KO annotations, F/band and fixed legacy. Current and fixed original legacy only; no new intermediate edition or old-spelling aliases."
+  },
+  "preserved_controls": {
+    "任": "ajn",
+    "任ᴷ": "kapric",
+    "任ᴵ": "investitur",
+    "中": "mez",
+    "镜": "spegul",
+    "万": "miria"
+  },
+  "explicit_retained": {
+    "eu^fori": "快ᴱ",
+    "sofism": "伪辩",
+    "vrak": "残船",
+    "ekzempler": "册ᴱ",
+    "font": "泉"
+  },
+  "shared_spelling": {},
+  "migration_notice": "Only current arbitr, eklektik and kalejdoskop change. Other owners and fixed legacy assignments stay unchanged. No old-spelling aliases or intermediate editions."
+}

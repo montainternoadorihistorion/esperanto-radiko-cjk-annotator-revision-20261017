@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "2026-11-06-four-assignments",
+  "revision": "2026-11-07-three-assignments",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "7c8a4a459554a972907042d726ed0e9b8c684b38da4450db84366ea78f4eeb0d",
+  "monaco_all_sha256": "1c6d520b97eb73edb4a8bff2143b4fa6ff357d9cff74fa39368931689afef869",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "31e491a1141aba8e5f67ab3c2b942a84746b5b88b7d1ec1a43ceb6ef167e12e1",
+  "canonical_sidecar_sha256": "6abdd7e1f751a1551f79a0a96012fbcdfcd7d238c02ff939f3f226076e79b08a",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -456,10 +456,22 @@
     "kokle": {
       "old": "耳蜗",
       "current": "耳螺"
+    },
+    "arbitr": {
+      "old": "擅",
+      "current": "任ᴬᴿ"
+    },
+    "eklektik": {
+      "old": "折衷",
+      "current": "折中"
+    },
+    "kalejdoskop": {
+      "old": "万花筒",
+      "current": "万花镜"
     }
   },
-  "current_csv_sha256": "582275def57619890011a849478d1c79ce42715bfb67736c2f926ef82837da3b",
-  "current_snippet_csv_sha256": "c9377167a5e50ddb181596c0ac02615c3f7408aca9ced49723ad17457e4ed57a",
+  "current_csv_sha256": "c96c929a51bb1b5475517e87ea78a49a6ae1b5884575ec0a199dcba377461c0c",
+  "current_snippet_csv_sha256": "6b9c5bae990a0b168ba555f83ead6f4173e0445d49bed6ff712f10a858b08865",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -619,5 +631,7 @@
   "hibisk_20261102_manifest": "data/hibisk-20261102.json",
   "hibisk_20261102_manifest_sha256": "c01d5890d61099044fd86b6271d16b425b9ec3c0452fdd5722e2a6daa04b8f31",
   "four_assignments_20261106_manifest": "data/four-assignments-20261106.json",
-  "four_assignments_20261106_manifest_sha256": "e4635ac5920468c1d09c6e17ad12c42a430396d65a6f82a9516e4235c38d9593"
+  "four_assignments_20261106_manifest_sha256": "e4635ac5920468c1d09c6e17ad12c42a430396d65a6f82a9516e4235c38d9593",
+  "three_assignments_20261107_manifest": "data/three-assignments-20261107.json",
+  "three_assignments_20261107_manifest_sha256": "09305f5a544bdda0f3705fc7d1867f46aa03c700b36a915194d4bb0bd4b5d5ac"
 }

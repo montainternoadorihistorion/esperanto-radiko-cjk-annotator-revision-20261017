@@ -1653,7 +1653,7 @@ po,草ᴾᴼ2,1,po,183
 per,过ᴾᴱᴿ,1,per,18
 kariofil,丁香ᴷ,0,kariofil,6582
 lilak,丁香ᴸ,0,lilak,6583
-kalejdoskop,万花筒,0,kalejdoskop,7542
+kalejdoskop,万花镜,0,kalejdoskop,7542
 terciar,三ᵀᶜ,0,terciar,142
 trirem,三划ᴿ,0,trirem,6501
 trisakarid,三蔗子,0,trisakarid,10163
@@ -1723,6 +1723,7 @@ kakt,仙人掌,0,kakt,5815
 agent,代ᴬᴳ,0,agent,104
 prokur,代ᴾᴷ,0,prokur,108
 komandit,令ᴷ受,0,komandit,10363
+arbitr,任ᴬᴿ,0,arbitr,4938
 mimik,仿ᴹᴷ,0,mimik,3043
 sfenisk,企鹅ˢ,0,sfenisk,8016
 simpozi,会ˢᴹ,0,simpozi,3442
@@ -5825,7 +5826,7 @@ ekscepci,抗辩,0,ekscepci,8656
 plis,折ᴾ,0,plis,3378
 rabat,折ᴿ,0,rabat,3375
 zigzag,折ᶻ,0,zigzag,3376
-eklektik,折衷,0,eklektik,7144
+eklektik,折中,0,eklektik,7144
 eskort,护ᴱ,0,eskort,1855
 konvoj,护ᴷ,0,konvoj,1856
 protekt,护ᴾ,0,protekt,1854
@@ -9382,7 +9383,6 @@ steg,撑,0,steg,8251
 ŝut,撒,0,ŝut,3710
 kolizi,撞,0,kolizi,5719
 propag,播,0,propag,6339
-arbitr,擅,0,arbitr,4938
 operaci,操,0,operaci,4141
 frot,擦,0,frot,3964
 apog,支,0,apog,2917
