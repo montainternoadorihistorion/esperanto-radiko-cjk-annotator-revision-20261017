@@ -47,7 +47,7 @@ def test_reviewed_sources_and_exactly_four_reverse_aliases():
     data=json.loads((app.ROOT/'data/monaco_source_20261017.json').read_text(encoding='utf-8'))
     assert len(data['items'])==source['current_item_count']==10640
     rows=rows_from_all_json(data)
-    assert len(rows)==source['current_csv_count']==10682
+    assert len(rows)==source['current_csv_count']==10683
     for root,(old,new) in CHANGES.items():
         assert [r['body'] for r in data['items'] if r['sourceRoot']==root]==[new]
         assert not [r for r in data['items'] if r['body']==old]
