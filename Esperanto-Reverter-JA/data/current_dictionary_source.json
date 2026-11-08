@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "frog-20261107",
+  "revision": "mitoz-kariokinez-ambl-20261108",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "d22485f070b779b7326935cc2bb00a809f8d57a9b144985cb52e15eea2f4ede7",
+  "monaco_all_sha256": "3c2d3f506bccaed4050bea94abeb8072abd2a861d8c890db5ad8f60b347a3e36",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "89de0bd83cddcb8a5927a827ab38ff4dbf6a1e4f7d79134eb96c5361843e1a06",
+  "canonical_sidecar_sha256": "ed35aeb797797aa9ba6dc5f0293101f12363da4839d4fb9c0c86816d304c5c1a",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -508,10 +508,22 @@
     "frog": {
       "old": "辙叉",
       "current": "轨叉"
+    },
+    "mitoz": {
+      "old": "等分",
+      "current": "丝分"
+    },
+    "kariokinez": {
+      "old": "等分ᴷ",
+      "current": "丝分ᴷ"
+    },
+    "ambl": {
+      "old": "踱",
+      "current": "对侧步"
     }
   },
-  "current_csv_sha256": "f58477e2be4d35d9b6ad93369892cfa5b83417b248eac172d40ab68bf88046e0",
-  "current_snippet_csv_sha256": "e7496938f5742e48b09c10463b1c6bbf0befcd0a15bff9ffd2d2ba477be74ec5",
+  "current_csv_sha256": "2ae77d587b4ea77d96049bae3ba8dc544036bc54b24123ed789e4d6e83362082",
+  "current_snippet_csv_sha256": "4c6f7da1a0ddbe75653cbde321ed1defd532d7b3825941ef43a25458df39aebd",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -552,13 +564,16 @@
     "精ˢ源ᴳ": "spermatogenez",
     "嫁接": "greft",
     "嫁妆": "dot",
-    "辙叉": "frog"
+    "辙叉": "frog",
+    "等分": "mitoz",
+    "等分ᴷ": "kariokinez",
+    "踱": "ambl"
   },
   "mirror_identifier_manifest": "data/mirror-identifiers-20261017.json",
   "mirror_identifier_manifest_sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
   "pre_mirror_csv_sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
   "current_item_count": 10640,
-  "current_csv_count": 10679,
+  "current_csv_count": 10682,
   "stafilokok_assignment_manifest": "data/stafilokok-assignment-20261017.json",
   "stafilokok_assignment_manifest_sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
   "four_shared_assignment_manifest": "data/four-shared-assignments-20261017.json",
@@ -682,5 +697,7 @@
   "infest_assignment_20261107_manifest": "data/infest_20261107.json",
   "infest_assignment_20261107_manifest_sha256": "9434189b97d20bc1c5d52bccb4e798d4d5fc1116b65c7202bb7062b3446f974e",
   "frog_assignment_20261107_manifest": "data/frog_20261107.json",
-  "frog_assignment_20261107_manifest_sha256": "bdb9c0128a2b776671bb0ebd8b195f9b9380e75181ac55a5d6d94b2186f7e1c1"
+  "frog_assignment_20261107_manifest_sha256": "bdb9c0128a2b776671bb0ebd8b195f9b9380e75181ac55a5d6d94b2186f7e1c1",
+  "mitoz_assignment_20261108_manifest": "data/mitoz_20261108.json",
+  "mitoz_assignment_20261108_manifest_sha256": "7bf02003896ecdd174c9bf5f3823b1c803b79d61ed8ed77cb886d07c5fa9a168"
 }
