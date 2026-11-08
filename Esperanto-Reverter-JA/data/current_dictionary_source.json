@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "mitoz-kariokinez-ambl-20261108",
+  "revision": "spekulativ-20261108",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "3c2d3f506bccaed4050bea94abeb8072abd2a861d8c890db5ad8f60b347a3e36",
+  "monaco_all_sha256": "39a2566cf96ca76192d5b817292a89d2e17cce133356348731918c0b6327a2cd",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "ed35aeb797797aa9ba6dc5f0293101f12363da4839d4fb9c0c86816d304c5c1a",
+  "canonical_sidecar_sha256": "c7489ca7b117e5ee8a021777aaf1263f664170974e8912d3cf3c78e10d111015",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -520,10 +520,14 @@
     "ambl": {
       "old": "踱",
       "current": "对侧步"
+    },
+    "spekulativ": {
+      "old": "猜ˢ",
+      "current": "思辨"
     }
   },
-  "current_csv_sha256": "2ae77d587b4ea77d96049bae3ba8dc544036bc54b24123ed789e4d6e83362082",
-  "current_snippet_csv_sha256": "4c6f7da1a0ddbe75653cbde321ed1defd532d7b3825941ef43a25458df39aebd",
+  "current_csv_sha256": "168f7e7bbd9265e8e6ca39e76762469bc2b34e9279706bcf8b95110afb4cc9ea",
+  "current_snippet_csv_sha256": "28b0acc064886c114ea39dd9feafe22c924e64c14e0c892ee5993796fd3b8907",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -567,13 +571,14 @@
     "辙叉": "frog",
     "等分": "mitoz",
     "等分ᴷ": "kariokinez",
-    "踱": "ambl"
+    "踱": "ambl",
+    "猜ˢ": "spekulativ"
   },
   "mirror_identifier_manifest": "data/mirror-identifiers-20261017.json",
   "mirror_identifier_manifest_sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
   "pre_mirror_csv_sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
   "current_item_count": 10640,
-  "current_csv_count": 10682,
+  "current_csv_count": 10683,
   "stafilokok_assignment_manifest": "data/stafilokok-assignment-20261017.json",
   "stafilokok_assignment_manifest_sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
   "four_shared_assignment_manifest": "data/four-shared-assignments-20261017.json",
@@ -699,5 +704,7 @@
   "frog_assignment_20261107_manifest": "data/frog_20261107.json",
   "frog_assignment_20261107_manifest_sha256": "bdb9c0128a2b776671bb0ebd8b195f9b9380e75181ac55a5d6d94b2186f7e1c1",
   "mitoz_assignment_20261108_manifest": "data/mitoz_20261108.json",
-  "mitoz_assignment_20261108_manifest_sha256": "7bf02003896ecdd174c9bf5f3823b1c803b79d61ed8ed77cb886d07c5fa9a168"
+  "mitoz_assignment_20261108_manifest_sha256": "7bf02003896ecdd174c9bf5f3823b1c803b79d61ed8ed77cb886d07c5fa9a168",
+  "spekulativ_assignment_20261108_manifest": "data/spekulativ_20261108.json",
+  "spekulativ_assignment_20261108_manifest_sha256": "aca5b3c4e08620115984d6dff8abb5bc52f73073f4b49bea90250129be2aed75"
 }

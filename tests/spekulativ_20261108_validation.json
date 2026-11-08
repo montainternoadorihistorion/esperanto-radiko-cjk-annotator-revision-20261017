@@ -1,0 +1,52 @@
+{
+  "checks_passed": true,
+  "revision": "spekulativ-20261108",
+  "approved_changes": {
+    "spekulativ": [
+      "猜ˢ",
+      "思辨"
+    ]
+  },
+  "retained_controls": {
+    "diven": "猜",
+    "konjekt": "猜ᴷ"
+  },
+  "source_root_count": 10469,
+  "unrelated_roots_unchanged": 10468,
+  "character_types": [
+    2217,
+    2217
+  ],
+  "stroke_counts": [
+    11,
+    25
+  ],
+  "fixed_legacy_unchanged": true,
+  "annotations_and_segmentation_unchanged": true,
+  "two_character_root_rules_unchanged": true,
+  "all_existing_inverse_key_cases": 644550,
+  "old_registered_key_outputs_unchanged": true,
+  "forward_case_count": 30870,
+  "actual_inverse_calls": 123480,
+  "inverse_pytest_passed_per_language": 674,
+  "local_app_ui_conversion_downloads": 18,
+  "local_custom_json_checks": 6,
+  "local_standard_html_download_restorations": 24,
+  "local_html_boundary_restorations": 408,
+  "inverse_csv_rows": 10683,
+  "current_effective_keys": 10692,
+  "legacy_effective_keys": 10794,
+  "historical_key_retained": {
+    "猜ˢ": "spekulativ"
+  },
+  "unexplained_inverse_changes": 0,
+  "known_shared_spelling_regression_routes": 12,
+  "protected_literal_interpretation_change_routes": 18,
+  "known_limits": [
+    "思辨 is a new complete inverse key and can change the interpretation of literal or concatenated 思+辨 in plain text.",
+    "Existing standard HTML CRLF-to-LF normalization remains.",
+    "Existing annotations 投機的 / 投机 / 투기적 remain unchanged; their semantic alignment is a separate review candidate.",
+    "These are local source/runtime/UI checks. Cloud observations are recorded separately."
+  ],
+  "test_environment_note": "Each inverse suite first passed 649 cases; 25 fixture-setup errors caused by a missing external temporary parent were rerun successfully after creating that parent. No application assertion failed."
+}

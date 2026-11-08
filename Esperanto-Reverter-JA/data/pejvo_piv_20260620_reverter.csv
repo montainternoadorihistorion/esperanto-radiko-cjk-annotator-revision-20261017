@@ -5747,6 +5747,7 @@ fobi,怕ᶠ,0,fobi,6396
 horor,怖ᴴ,0,horor,6145
 kontempl,思ᴷ,0,kontempl,1290
 medit,思ᴹ,0,medit,1289
+spekulativ,思辨,0,spekulativ,3932
 sukur,急救,0,sukur,6677
 seks,性ˢ,0,seks,226
 amor,性ᴬ,0,amor,227
@@ -6697,7 +6698,7 @@ narak,狱ᴺ,0,narak,5682
 prizon,狱ᴾ,0,prizon,5681
 kojot,狼ᴷ,0,kojot,4569
 pred,猎ᴾ,0,pred,2949
-spekulativ,猜ˢ,0,spekulativ,3932
+spekulativ,猜ˢ,0,spekulativ,reverse-alias:20261108
 konjekt,猜ᴷ,0,konjekt,3931
 su,猪ˢ,0,su,2760
 apr,猪ᴬ,0,apr,2756

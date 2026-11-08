@@ -93,6 +93,7 @@ LATER_CURRENT_ASSIGNMENTS = {
     'mitoz': ('等分', '丝分'),
     'kariokinez': ('等分ᴷ', '丝分ᴷ'),
     'ambl': ('踱', '对侧步'),
+    'spekulativ': ('猜ˢ', '思辨'),
 }
 
 def historical_current_bytes(raw):

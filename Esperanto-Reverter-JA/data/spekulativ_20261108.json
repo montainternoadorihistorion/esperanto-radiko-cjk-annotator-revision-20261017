@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "revision": "spekulativ-20261108",
+  "baseline": "b00a20f481d7f76cf956980cb4c0afcca87cd087",
+  "changes": {
+    "spekulativ": [
+      "猜ˢ",
+      "思辨"
+    ]
+  },
+  "canonical_sidecar_sha256": "c7489ca7b117e5ee8a021777aaf1263f664170974e8912d3cf3c78e10d111015",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "3c2d3f506bccaed4050bea94abeb8072abd2a861d8c890db5ad8f60b347a3e36",
+  "baseline_target_items": {
+    "spekulativ": {
+      "prefix": "spekulativ",
+      "body": "猜ˢ",
+      "kanji": "猜",
+      "detail": "spekulativ → 猜ˢ (pejvo, F=3)",
+      "documentation": "語根: spekulativ\n入力: spekulativ\n最終形: 猜ˢ\n漢字: 猜\n識別子: s\n型: pejvo\nF(汎用性): 3\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:3932",
+      "priority": 0,
+      "sourceRoot": "spekulativ",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": false,
+      "sourceLine": 3932
+    },
+    "diven": {
+      "prefix": "diven",
+      "body": "猜",
+      "kanji": "猜",
+      "detail": "diven → 猜 (basic, F=25, 基本形)",
+      "documentation": "語根: diven\n入力: diven\n最終形: 猜\n漢字: 猜\n識別子: なし\n型: basic\nF(汎用性): 25\nグループ数: 3\n基本形: yes\n出典: _identifier_sidecar.tsv:3930",
+      "priority": 0,
+      "sourceRoot": "diven",
+      "type": "basic",
+      "frequency": 25,
+      "base": true,
+      "sourceLine": 3930
+    },
+    "konjekt": {
+      "prefix": "konjekt",
+      "body": "猜ᴷ",
+      "kanji": "猜",
+      "detail": "konjekt → 猜ᴷ (basic, F=5)",
+      "documentation": "語根: konjekt\n入力: konjekt\n最終形: 猜ᴷ\n漢字: 猜\n識別子: k\n型: basic\nF(汎用性): 5\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:3931",
+      "priority": 0,
+      "sourceRoot": "konjekt",
+      "type": "basic",
+      "frequency": 5,
+      "base": false,
+      "sourceLine": 3931
+    }
+  },
+  "expected_target_items": {
+    "spekulativ": {
+      "prefix": "spekulativ",
+      "body": "思辨",
+      "kanji": "思辨",
+      "detail": "spekulativ → 思辨 (pejvo, F=3, 基本形)",
+      "documentation": "語根: spekulativ\n入力: spekulativ\n最終形: 思辨\n漢字: 思辨\n識別子: なし\n型: pejvo\nF(汎用性): 3\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:3932",
+      "priority": 0,
+      "sourceRoot": "spekulativ",
+      "type": "pejvo",
+      "frequency": 3,
+      "base": true,
+      "sourceLine": 3932
+    },
+    "diven": {
+      "prefix": "diven",
+      "body": "猜",
+      "kanji": "猜",
+      "detail": "diven → 猜 (basic, F=25, 基本形)",
+      "documentation": "語根: diven\n入力: diven\n最終形: 猜\n漢字: 猜\n識別子: なし\n型: basic\nF(汎用性): 25\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:3930",
+      "priority": 0,
+      "sourceRoot": "diven",
+      "type": "basic",
+      "frequency": 25,
+      "base": true,
+      "sourceLine": 3930
+    },
+    "konjekt": {
+      "prefix": "konjekt",
+      "body": "猜ᴷ",
+      "kanji": "猜",
+      "detail": "konjekt → 猜ᴷ (basic, F=5)",
+      "documentation": "語根: konjekt\n入力: konjekt\n最終形: 猜ᴷ\n漢字: 猜\n識別子: k\n型: basic\nF(汎用性): 5\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:3931",
+      "priority": 0,
+      "sourceRoot": "konjekt",
+      "type": "basic",
+      "frequency": 5,
+      "base": false,
+      "sourceLine": 3931
+    }
+  },
+  "unrelated_items_sha256": "755b488fc36e0c9b9bc4a23dd9dcb180d6603e06bd1454d8b2b122ffb9e6beae",
+  "unrelated_items_count": 10637,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {
+    "diven": {
+      "group_count": [
+        3,
+        2
+      ]
+    },
+    "konjekt": {
+      "group_count": [
+        3,
+        2
+      ]
+    }
+  },
+  "metadata_only_changes": {},
+  "assignment_unchanged_item_count": 10639,
+  "safe_reverse_aliases": {
+    "猜ˢ": "spekulativ"
+  },
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "spekulativ"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Fixed legacy and updated current only; previous 猜ˢ retained as a current reverse-only alias.",
+  "rationale": "Explicit user adoption. Purely theoretical reasoning is represented by 思辨; diven and konjekt keep 猜 and 猜ᴷ. 11 to 25 strokes accepted for semantic clarity; both characters are already shared.",
+  "known_literal_or_concat_ambiguity": "思辨 can formerly be read as pens+disting; the adopted complete root wins in current plain inverse. Standard HTML keeps source information."
+}
