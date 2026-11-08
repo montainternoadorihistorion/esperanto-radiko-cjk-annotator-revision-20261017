@@ -1670,6 +1670,7 @@ oriental,东ᴼᴸ,0,oriental,3132
 orientolog,东学家,0,orientolog,9752
 filigran,丝ᶠᴳ,0,filigran,2977
 filament,丝ᶠᴸ,0,filament,2976
+kariokinez,丝分ᴷ,0,kariokinez,8139
 serioz,严ˢᴿ,0,serioz,2809
 strikt,严ˢᵀ,0,strikt,2811
 individual,个ᴵᴸ,0,individual,5674
@@ -2151,6 +2152,7 @@ apolog,寓ᴬᴾ,0,apolog,4197
 oligoterapi,寡ᴼ疗,0,oligoterapi,9741
 oligoelement,寡ᴼ素,0,oligoelement,9739
 kontrast,对ᴷˢ,0,kontrast,62
+ambl,对侧步,0,ambl,8245
 troposfer,对流层,0,troposfer,8032
 kondukt,导ᴷᵀ,0,kondukt,1749
 ĉiĉeron,导ᶜ̂,0,c^ic^eron,1750
@@ -3008,7 +3010,7 @@ izoelektr,等ᴵ电,0,izoelektr,9410
 izometr,等ᴵ米,0,izometr,9415
 izopter,等ᴵ翅,0,izopter,9420
 izoton,等ᴵ调,0,izoton,10280
-kariokinez,等分ᴷ,0,kariokinez,8139
+kariokinez,等分ᴷ,0,kariokinez,reverse-alias:20261108
 muskoloz,筋症ᴼ,0,muskoloz,9693
 komput,算ᴷᴹ,0,komput,1729
 kalkulmetr,算计ᴹ,0,kalkulmetr,9433
@@ -4431,6 +4433,7 @@ talam,丘脑,0,talam,8464
 makis,丛ᴹ,0,makis,5965
 vepr,丛ⱽ,0,vepr,5964
 faden,丝ᶠ,0,faden,2975
+mitoz,丝分,0,mitoz,8138
 filari,丝虫,0,filari,7418
 amfibi,两栖,0,amfibi,6819
 aŭster,严ᴬ,0,au^ster,2813
@@ -7041,7 +7044,7 @@ komik,笑ᴷ,0,komik,940
 krajon,笔ᴷ,0,krajon,2704
 izo,等ᴵ,0,izo,2165
 izopropil,等丙,0,izopropil,10279
-mitoz,等分,0,mitoz,8138
+mitoz,等分,0,mitoz,reverse-alias:20261108
 ekvipotencial,等势,0,ekvipotencial,7942
 tenden,筋ᵀ,0,tenden,4629
 fasci,筋膜,0,fasci,8649
@@ -10382,7 +10385,7 @@ praktik,践,0,praktik,3169
 stilz,跷,0,stilz,6132
 tret,踏,0,tret,6470
 kalcitr,踢,0,kalcitr,7218
-ambl,踱,0,ambl,8245
+ambl,踱,0,ambl,reverse-alias:20261108
 huf,蹄,0,huf,4115
 kaŭr,蹲,0,kaŭr,4816
 nervoz,躁,0,nervoz,5884

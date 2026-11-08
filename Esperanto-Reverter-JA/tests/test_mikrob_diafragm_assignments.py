@@ -52,7 +52,7 @@ def test_current_manifest_download_and_fixed_legacy():
     source = json.loads((app.ROOT / "data/current_dictionary_source.json").read_bytes())
     manifest_path = app.ROOT / source["mikrob_diafragm_manifest"]
     manifest = json.loads(manifest_path.read_bytes())
-    assert source["revision"] == "frog-20261107"
+    assert source["revision"] == "mitoz-kariokinez-ambl-20261108"
     assert manifest["revision"] == "2026-10-20-mikrob-diafragm"
     assert manifest["changes"] == {k: list(v) for k, v in CHANGES.items()}
     assert manifest["safe_reverse_aliases"] == manifest["ownership_transfers"] == {}
@@ -60,7 +60,7 @@ def test_current_manifest_download_and_fixed_legacy():
     assert manifest["unrelated_items_count"] == 10636
     assert hashlib.sha256(manifest_path.read_bytes()).hexdigest() == source["mikrob_diafragm_manifest_sha256"]
     rows = list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding="utf-8"))))
-    assert len(rows) == 10679
+    assert len(rows) == 10682
     for root, (old, new) in CHANGES.items():
         assert [r["kanji"] for r in rows if r["esperanto"] == root] == [new]
         assert old not in {r["kanji"] for r in rows}

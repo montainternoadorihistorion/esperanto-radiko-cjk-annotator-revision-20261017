@@ -1,0 +1,283 @@
+{
+  "date": "2026-11-08",
+  "assignment_revision": "mitoz-kariokinez-ambl-20261108",
+  "checks_passed": true,
+  "changes": {
+    "mitoz": [
+      "等分",
+      "丝分"
+    ],
+    "kariokinez": [
+      "等分ᴷ",
+      "丝分ᴷ"
+    ],
+    "ambl": [
+      "踱",
+      "对侧步"
+    ]
+  },
+  "canonical": {
+    "assigned_roots": 10469,
+    "unchanged_sidecar_rows_and_order": 10466,
+    "injection_rows_per_edition": 62313,
+    "injection_changed_lines": {
+      "漢字注入_学習者版_20260620.txt": 5,
+      "漢字注入_学術版_20260620.txt": 5
+    },
+    "all_original_text_gloss_segmentation_markers_preserved": true,
+    "html_changed_roots": 3,
+    "html_changed_words": 5,
+    "character_types": [
+      2218,
+      2217
+    ],
+    "removed_characters": [
+      "踱"
+    ],
+    "historical_ledgers_byte_unchanged": 31,
+    "dictionary_historical_files_unchanged": 506,
+    "audits": {
+      "invariants": {
+        "before_returncode": 0,
+        "after_returncode": 0
+      },
+      "ownership": {
+        "before_returncode": 0,
+        "after_returncode": 0
+      },
+      "export_sync": {
+        "before_returncode": 0,
+        "after_returncode": 0
+      },
+      "output_integrity": {
+        "before_returncode": 0,
+        "after_returncode": 0,
+        "existing_report_only_findings_unchanged": true
+      },
+      "mirror": {
+        "before_returncode": 0,
+        "after_returncode": 0
+      },
+      "priority": {
+        "before_returncode": 0,
+        "after_returncode": 0
+      },
+      "display_collisions": {
+        "before_returncode": 0,
+        "after_returncode": 0
+      },
+      "html": {
+        "before_returncode": 0,
+        "after_returncode": 0
+      }
+    }
+  },
+  "forward": {
+    "kanji_rows_compared": 1646973,
+    "pure_rows_compared": 548991,
+    "changed_kanji_rows": 288,
+    "source_word_decompositions_compared": 44578,
+    "changed_source_words": [
+      "ambl",
+      "kariokinez",
+      "mitoz",
+      "anti/mitoz"
+    ],
+    "manual_csv_rows_per_language": 10482,
+    "approved_migration_stages_replayed": 41,
+    "runtime_cases_per_phase": 22770,
+    "manual_cases_per_phase": 162,
+    "boundary_cases_per_phase": 378,
+    "related_regression_test_count": 43,
+    "annotation_meanings": {
+      "JA": {
+        "mitoz": {
+          "current/mitozo": [
+            "有糸分裂"
+          ],
+          "current/@mitozo@": [
+            "有糸分裂"
+          ],
+          "legacy/mitozo": [
+            "有糸分裂"
+          ],
+          "legacy/@mitozo@": [
+            "有糸分裂"
+          ]
+        },
+        "kariokinez": {
+          "current/kariokinezo": [
+            "核分裂"
+          ],
+          "current/@kariokinezo@": [
+            "核分裂"
+          ],
+          "legacy/kariokinezo": [
+            "核分裂"
+          ],
+          "legacy/@kariokinezo@": [
+            "核分裂"
+          ]
+        },
+        "ambl": {
+          "current/amblo": [
+            "側対歩"
+          ],
+          "current/@amblo@": [
+            "側対歩"
+          ],
+          "legacy/amblo": [
+            "側対歩"
+          ],
+          "legacy/@amblo@": [
+            "側対歩"
+          ]
+        }
+      },
+      "ZH": {
+        "mitoz": {
+          "current/mitozo": [
+            "有丝分裂"
+          ],
+          "current/@mitozo@": [
+            "有丝分裂"
+          ],
+          "legacy/mitozo": [
+            "有丝分裂"
+          ],
+          "legacy/@mitozo@": [
+            "有丝分裂"
+          ]
+        },
+        "kariokinez": {
+          "current/kariokinezo": [
+            "核分裂"
+          ],
+          "current/@kariokinezo@": [
+            "核分裂"
+          ],
+          "legacy/kariokinezo": [
+            "核分裂"
+          ],
+          "legacy/@kariokinezo@": [
+            "核分裂"
+          ]
+        },
+        "ambl": {
+          "current/amblo": [
+            "侧对步"
+          ],
+          "current/@amblo@": [
+            "侧对步"
+          ],
+          "legacy/amblo": [
+            "侧对步"
+          ],
+          "legacy/@amblo@": [
+            "侧对步"
+          ]
+        }
+      },
+      "KO": {
+        "mitoz": {
+          "current/mitozo": [
+            "유사분열"
+          ],
+          "current/@mitozo@": [
+            "유사분열"
+          ],
+          "legacy/mitozo": [
+            "유사분열"
+          ],
+          "legacy/@mitozo@": [
+            "유사분열"
+          ]
+        },
+        "kariokinez": {
+          "current/kariokinezo": [
+            "핵분열"
+          ],
+          "current/@kariokinezo@": [
+            "핵분열"
+          ],
+          "legacy/kariokinezo": [
+            "핵분열"
+          ],
+          "legacy/@kariokinezo@": [
+            "핵분열"
+          ]
+        },
+        "ambl": {
+          "current/amblo": [
+            "측대보"
+          ],
+          "current/@amblo@": [
+            "측대보"
+          ],
+          "legacy/amblo": [
+            "측대보"
+          ],
+          "legacy/@amblo@": [
+            "측대보"
+          ]
+        }
+      }
+    }
+  },
+  "inverse": {
+    "checked_all_key_cases": 644460,
+    "all_existing_reverse_outputs_unchanged": true,
+    "forward_case_count": 23148,
+    "actual_inverse_calls": 92592,
+    "new_regressions": 0,
+    "unexplained_regression_count": 0,
+    "explained_protected_literal_changes_count": 27,
+    "existing_mismatch_cases": 210,
+    "non_shared_non_literal_existing_mismatches_unchanged": true,
+    "new_aliases": 3,
+    "new_edition_profiles": 0,
+    "unchanged_legacy": true,
+    "unrelated_monaco_items_preserved": 10637,
+    "current_csv_rows": 10682,
+    "current_effective_keys": 10691,
+    "legacy_effective_keys": 10794
+  },
+  "local_ui": {
+    "passed": true,
+    "conversion_download_routes": 18,
+    "download_files_rehashed": 18,
+    "custom_upload_routes": 6,
+    "custom_downloads": 6,
+    "method": "Local Streamlit AppTest; upload/download transport observed, no browser or Cloud claim"
+  },
+  "actual_saved_html_recovery": {
+    "passed": true,
+    "cases": 24
+  },
+  "public_local_tests": {
+    "passed": true,
+    "command": "python -X utf8 -m pytest tests/test_forward_mitoz_20261108.py tests/test_manual_csv_71.py -q -p no:cacheprovider",
+    "environment": "local public application checkout",
+    "tests_passed": 6,
+    "tests_failed": 0,
+    "elapsed_seconds_reported_by_pytest": 139.9,
+    "phase": "pre-commit local application-data verification",
+    "cloud_verification": false
+  },
+  "compatibility": {
+    "fixed_legacy": "unchanged",
+    "current_former_keys_retained": {
+      "等分": "mitoz",
+      "等分ᴷ": "kariokinez",
+      "踱": "ambl"
+    },
+    "intermediate_editions_added": 0
+  },
+  "github_checks": "PENDING_AT_COMMIT",
+  "cloud_status": "PENDING_POST_MERGE_BROWSER_VERIFICATION",
+  "limitations": [
+    "Finite inventories and generated endings were tested, not every possible natural sentence.",
+    "Plain output loses percent-marker provenance. Literal 丝分 and 对侧步 are interpreted as the adopted complete roots by the current inverse dictionary; 27 exact protected-literal test routes record this expected change. Standard HTML retains the literal original.",
+    "Previously existing non-literal mismatches are unchanged. Local verification and Cloud verification are recorded separately."
+  ]
+}

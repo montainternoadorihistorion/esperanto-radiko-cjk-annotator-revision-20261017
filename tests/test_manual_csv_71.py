@@ -89,6 +89,10 @@ LATER_CURRENT_ASSIGNMENTS = {
     'infest': ('患', '侵ᴵᶠ'),
     # Later user-adopted frog label; fixed legacy remains unchanged.
     'frog': ('辙叉', '轨叉'),
+    # 2026-11-08 explicitly adopted labels; fixed legacy remains unchanged.
+    'mitoz': ('等分', '丝分'),
+    'kariokinez': ('等分ᴷ', '丝分ᴷ'),
+    'ambl': ('踱', '对侧步'),
 }
 
 def historical_current_bytes(raw):

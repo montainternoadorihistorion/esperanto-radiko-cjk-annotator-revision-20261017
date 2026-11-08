@@ -1,0 +1,149 @@
+{
+  "schema": 1,
+  "revision": "mitoz-kariokinez-ambl-20261108",
+  "baseline": "c259a8a68c7b7b7d7c4884948f0934804eb88001",
+  "changes": {
+    "mitoz": [
+      "等分",
+      "丝分"
+    ],
+    "kariokinez": [
+      "等分ᴷ",
+      "丝分ᴷ"
+    ],
+    "ambl": [
+      "踱",
+      "对侧步"
+    ]
+  },
+  "canonical_sidecar_sha256": "ed35aeb797797aa9ba6dc5f0293101f12363da4839d4fb9c0c86816d304c5c1a",
+  "generator_sha256": "1a883a2e453d7d2c1155d7751d81f08adc43e1b004de96a695099f407b2aa570",
+  "baseline_all_sha256": "d22485f070b779b7326935cc2bb00a809f8d57a9b144985cb52e15eea2f4ede7",
+  "baseline_target_items": {
+    "mitoz": {
+      "prefix": "mitoz",
+      "body": "等分",
+      "kanji": "等分",
+      "detail": "mitoz → 等分 (piv, F=2, 基本形)",
+      "documentation": "語根: mitoz\n入力: mitoz\n最終形: 等分\n漢字: 等分\n識別子: なし\n型: piv\nF(汎用性): 2\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:8138",
+      "priority": 0,
+      "sourceRoot": "mitoz",
+      "type": "piv",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8138
+    },
+    "kariokinez": {
+      "prefix": "kariokinez",
+      "body": "等分ᴷ",
+      "kanji": "等分",
+      "detail": "kariokinez → 等分ᴷ (piv, F=1)",
+      "documentation": "語根: kariokinez\n入力: kariokinez\n最終形: 等分ᴷ\n漢字: 等分\n識別子: k\n型: piv\nF(汎用性): 1\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:8139",
+      "priority": 0,
+      "sourceRoot": "kariokinez",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 8139
+    },
+    "ambl": {
+      "prefix": "ambl",
+      "body": "踱",
+      "kanji": "踱",
+      "detail": "ambl → 踱 (pejvo, F=2, 基本形)",
+      "documentation": "語根: ambl\n入力: ambl\n最終形: 踱\n漢字: 踱\n識別子: なし\n型: pejvo\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8245",
+      "priority": 0,
+      "sourceRoot": "ambl",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8245
+    }
+  },
+  "expected_target_items": {
+    "mitoz": {
+      "prefix": "mitoz",
+      "body": "丝分",
+      "kanji": "丝分",
+      "detail": "mitoz → 丝分 (piv, F=2, 基本形)",
+      "documentation": "語根: mitoz\n入力: mitoz\n最終形: 丝分\n漢字: 丝分\n識別子: なし\n型: piv\nF(汎用性): 2\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:8138",
+      "priority": 0,
+      "sourceRoot": "mitoz",
+      "type": "piv",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8138
+    },
+    "kariokinez": {
+      "prefix": "kariokinez",
+      "body": "丝分ᴷ",
+      "kanji": "丝分",
+      "detail": "kariokinez → 丝分ᴷ (piv, F=1)",
+      "documentation": "語根: kariokinez\n入力: kariokinez\n最終形: 丝分ᴷ\n漢字: 丝分\n識別子: k\n型: piv\nF(汎用性): 1\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:8139",
+      "priority": 0,
+      "sourceRoot": "kariokinez",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 8139
+    },
+    "ambl": {
+      "prefix": "ambl",
+      "body": "对侧步",
+      "kanji": "对侧步",
+      "detail": "ambl → 对侧步 (pejvo, F=2, 基本形)",
+      "documentation": "語根: ambl\n入力: ambl\n最終形: 对侧步\n漢字: 对侧步\n識別子: なし\n型: pejvo\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8245",
+      "priority": 0,
+      "sourceRoot": "ambl",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8245
+    }
+  },
+  "unrelated_items_sha256": "d8da6e0bc538d7cbd85e2d757f2d2e2436d3654f99922c86bfd3e0e37a4f9df9",
+  "unrelated_items_count": 10637,
+  "baseline_item_count": 10640,
+  "current_item_count": 10640,
+  "documentation_only_changes": {},
+  "metadata_only_changes": {},
+  "preserved_historical_overrides": [],
+  "assignment_unchanged_item_count": 10637,
+  "safe_reverse_aliases": {
+    "等分": "mitoz",
+    "等分ᴷ": "kariokinez",
+    "踱": "ambl"
+  },
+  "ownership_transfers": {},
+  "user_adopted_roots": [
+    "mitoz",
+    "kariokinez",
+    "ambl"
+  ],
+  "identifier_propagated_roots": [],
+  "edition_policy": "Only current and fixed legacy remain visible. Former 等分, 等分ᴷ and 踱 stay as reverse-only aliases in current; no intermediate edition.",
+  "rationale": {
+    "approved": "2026-11-08 direct user adoption mitoz=丝分, kariokinez=丝分ᴷ and subsequent explicit confirmation ambl=对侧步. 丝 refers to thread-like chromosomes and established 有丝分裂, 分 to division; original 等分 remains a valid description, not an error. Both synonymous roots move together, retaining bare mitoz and kariokinez identifier k. ambl means the same-side pair gait, not general slow pacing; 对侧步 follows the Chinese equestrian term and reduces one dedicated character 踱 despite 16-to-20 stroke growth. Total body strokes 48 to 38, character types 2218 to 2217, no new CJK character. Existing late-added kariokinez P=5 reservation is preserved. Original dictionary text, segmentation, glosses, markers, annotations and fixed legacy edition remain unchanged. Current inverse may retain 等分, 等分ᴷ and 踱 as aliases without adding an intermediate edition."
+  },
+  "preserved_controls": {
+    "帆楼": "top",
+    "轨叉": "frog",
+    "辙叉": "frog",
+    "墓窖名ᴼ": "kriptonim",
+    "蔑": "disdegn",
+    "贿": "korupt",
+    "娇": "lind",
+    "迟": "tard",
+    "讥": "rikan",
+    "援": "sponsor"
+  },
+  "explicit_retained": {
+    "kriptonim": "墓窖名ᴼ",
+    "disdegn": "蔑",
+    "korupt": "贿",
+    "top": "帆楼",
+    "frog": "轨叉"
+  },
+  "shared_spelling": {},
+  "migration_notice": "Only current mitoz/kariokinez/ambl change. Former full keys remain in reverse CSV and indexes. Fixed legacy, identifiers and root segmentation stay unchanged."
+}
