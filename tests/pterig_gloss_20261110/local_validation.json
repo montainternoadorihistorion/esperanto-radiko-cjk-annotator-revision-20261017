@@ -1,0 +1,418 @@
+{
+  "status": "PASS",
+  "scope": "One reference gloss: pterig means wing; current assignment/annotation/conversion data unchanged. Add current-only downloadable HTML package.",
+  "tested_base_commit": "bf72573069139dc6de36ae70f60a1193d293215a",
+  "working_tree_patch_applied": true,
+  "reference_rows": 10469,
+  "matched_current_csv_rows": 31407,
+  "reference_gloss": {
+    "r": "pterig",
+    "k": "翅",
+    "i": "ᴾᴳ",
+    "ip": "pg",
+    "b": "pejvo",
+    "f": 7,
+    "s": 10,
+    "g": "翼"
+  },
+  "reference_artifacts": {
+    "kanji.html": {
+      "bytes": 1182072,
+      "sha256": "7cf03d2eec8645e5696b10472b39f92d8936e9bf0280d0fdb929fec3d622aa22"
+    },
+    "words.html": {
+      "bytes": 4806713,
+      "sha256": "83d3200184f7b77b904b7b7cb3f7996c0cea621aa7ecc3b16cfd3e0b6b4d01fa"
+    },
+    "kanji_reference_current.zip": {
+      "bytes": 1675222,
+      "sha256": "81cef2f0f32fcf342a9ebd565c3ccf95cac18ee5328a7ecea25656006e895027"
+    }
+  },
+  "protected_existing_public_files": 231,
+  "protected_files_sha256_index": "bfc6ce2fd7f0648eb8a70be8ec1749b3b70a12b47854ec81ce088ff95e470cb8",
+  "protected_file_mismatches": [],
+  "allowed_existing_changed_files": [
+    "Esperanto-Kanji-Ruby-JA/pages/2_📦_最新データのダウンロード.py",
+    "Esperanto-Kanji-Ruby-KO/pages/2_📦_최신 데이터 다운로드.py",
+    "Esperanto-Kanji-Ruby-ZH/pages/2_📦_最新数据下载.py",
+    "release_manifest.json"
+  ],
+  "shared_annotations": {
+    "JA": {
+      "csv": "エスペラント語根-日本語訳ルビ対応リスト.csv",
+      "annotation": "翼",
+      "assignment_by_edition": {
+        "current": "翅ᴾᴳ",
+        "legacy": "翅ᴾᴳ"
+      }
+    },
+    "ZH": {
+      "csv": "世界语词根-中文注释对应列表.csv",
+      "annotation": "翼",
+      "assignment_by_edition": {
+        "current": "翅ᴾᴳ",
+        "legacy": "翅ᴾᴳ"
+      }
+    },
+    "KO": {
+      "csv": "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+      "annotation": "날개",
+      "assignment_by_edition": {
+        "current": "翅ᴾᴳ",
+        "legacy": "翅ᴾᴳ"
+      }
+    }
+  },
+  "unit_tests": {
+    "command": "python -B -m pytest tests/pterig_gloss_20261110/test_reference_package.py -q -p no:cacheprovider",
+    "passed": 3
+  },
+  "actual_local_ui_cases": [
+    {
+      "language": "JA",
+      "edition": "current",
+      "passed": true,
+      "reference_button_visible": true,
+      "existing_download_count": 6,
+      "selected_kanji_csv": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+      "matching_source_links_present": false,
+      "downloads": [
+        {
+          "label": "漢字割り当て一覧HTML一式（新版・日本語の語義）",
+          "filename": "kanji_reference_current.zip",
+          "mime": "application/zip",
+          "bytes": 1675222,
+          "sha256": "81cef2f0f32fcf342a9ebd565c3ccf95cac18ee5328a7ecea25656006e895027"
+        },
+        {
+          "label": "漢字割り当てCSV",
+          "filename": "kanji_assignments_current_bc7d8c600753.csv",
+          "mime": "text/csv",
+          "bytes": 163367,
+          "sha256": "8387ffc72b0b837c49b0eae185e849c1c3003e0a1692b0b752e302f9837fb122"
+        },
+        {
+          "label": "エスペラント語根-日本語訳ルビ対応リスト.csv",
+          "filename": "エスペラント語根-日本語訳ルビ対応リスト.csv",
+          "mime": null,
+          "bytes": 341571,
+          "sha256": "868f4de54bb089808def52c84bfad843c181de5e4c82fe0acc8ebd54f18764d3"
+        },
+        {
+          "label": "分解設定.json",
+          "filename": "分解設定.json",
+          "mime": null,
+          "bytes": 430064,
+          "sha256": "a7de08cca1ad1a528439ba6776bb4bdf9036e1d952ff9f3e47a64eb683c7f35d"
+        },
+        {
+          "label": "word_anno.json",
+          "filename": "word_anno.json",
+          "mime": null,
+          "bytes": 2742227,
+          "sha256": "c96e9a10a90836323a72e08f777eca5f782eb711f35d41f645fb3b7586877a41"
+        },
+        {
+          "label": "E_stem.json",
+          "filename": "E_stem.json",
+          "mime": null,
+          "bytes": 2626958,
+          "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5"
+        },
+        {
+          "label": "同梱の承認済み補正（セッションの変更を含まない） · user_corrections.json",
+          "filename": "user_corrections.json",
+          "mime": null,
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "language": "JA",
+      "edition": "legacy",
+      "passed": true,
+      "reference_button_visible": false,
+      "existing_download_count": 6,
+      "selected_kanji_csv": "assignment_editions/legacy/JA/kanji.csv",
+      "matching_source_links_present": false,
+      "downloads": [
+        {
+          "label": "漢字割り当てCSV",
+          "filename": "kanji_assignments_legacy_0ce9dc0dba93.csv",
+          "mime": "text/csv",
+          "bytes": 154443,
+          "sha256": "40b265f39934fcf40b660bfa6bc5fac85a3a070f5b2545918702a8000b1971f1"
+        },
+        {
+          "label": "エスペラント語根-日本語訳ルビ対応リスト.csv",
+          "filename": "エスペラント語根-日本語訳ルビ対応リスト.csv",
+          "mime": null,
+          "bytes": 341571,
+          "sha256": "868f4de54bb089808def52c84bfad843c181de5e4c82fe0acc8ebd54f18764d3"
+        },
+        {
+          "label": "分解設定.json",
+          "filename": "分解設定.json",
+          "mime": null,
+          "bytes": 430064,
+          "sha256": "a7de08cca1ad1a528439ba6776bb4bdf9036e1d952ff9f3e47a64eb683c7f35d"
+        },
+        {
+          "label": "word_anno.json",
+          "filename": "word_anno.json",
+          "mime": null,
+          "bytes": 2742227,
+          "sha256": "c96e9a10a90836323a72e08f777eca5f782eb711f35d41f645fb3b7586877a41"
+        },
+        {
+          "label": "E_stem.json",
+          "filename": "E_stem.json",
+          "mime": null,
+          "bytes": 2626958,
+          "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5"
+        },
+        {
+          "label": "同梱の承認済み補正（セッションの変更を含まない） · user_corrections.json",
+          "filename": "user_corrections.json",
+          "mime": null,
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "current",
+      "passed": true,
+      "reference_button_visible": true,
+      "existing_download_count": 6,
+      "selected_kanji_csv": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+      "matching_source_links_present": false,
+      "downloads": [
+        {
+          "label": "汉字分配一览HTML文件包（新版・日语释义）",
+          "filename": "kanji_reference_current.zip",
+          "mime": "application/zip",
+          "bytes": 1675222,
+          "sha256": "81cef2f0f32fcf342a9ebd565c3ccf95cac18ee5328a7ecea25656006e895027"
+        },
+        {
+          "label": "汉字分配CSV",
+          "filename": "kanji_assignments_current_6d3502c843c2.csv",
+          "mime": "text/csv",
+          "bytes": 163367,
+          "sha256": "8387ffc72b0b837c49b0eae185e849c1c3003e0a1692b0b752e302f9837fb122"
+        },
+        {
+          "label": "世界语词根-中文注释对应列表.csv",
+          "filename": "世界语词根-中文注释对应列表.csv",
+          "mime": null,
+          "bytes": 275056,
+          "sha256": "c18da36b394eac087f41adcf10395c78ef583f9a4408d6da303a1dbb47fa38cd"
+        },
+        {
+          "label": "分解設定.json",
+          "filename": "分解設定.json",
+          "mime": null,
+          "bytes": 429584,
+          "sha256": "98bf7a25c3bf86139667dc4327fedfb8b22c738e33529001adb7ed26fba217f0"
+        },
+        {
+          "label": "word_anno.json",
+          "filename": "word_anno.json",
+          "mime": null,
+          "bytes": 2589214,
+          "sha256": "71ea351b628c55ff8068e3b6dbc5a8e3e1d3568f1fb3615a43d5166d3aa73eb9"
+        },
+        {
+          "label": "E_stem.json",
+          "filename": "E_stem.json",
+          "mime": null,
+          "bytes": 2626958,
+          "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5"
+        },
+        {
+          "label": "应用内置的已确认校正（不含本次会话的修改） · user_corrections.json",
+          "filename": "user_corrections.json",
+          "mime": null,
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "language": "ZH",
+      "edition": "legacy",
+      "passed": true,
+      "reference_button_visible": false,
+      "existing_download_count": 6,
+      "selected_kanji_csv": "assignment_editions/legacy/ZH/kanji.csv",
+      "matching_source_links_present": false,
+      "downloads": [
+        {
+          "label": "汉字分配CSV",
+          "filename": "kanji_assignments_legacy_1c673dc4de1c.csv",
+          "mime": "text/csv",
+          "bytes": 154443,
+          "sha256": "40b265f39934fcf40b660bfa6bc5fac85a3a070f5b2545918702a8000b1971f1"
+        },
+        {
+          "label": "世界语词根-中文注释对应列表.csv",
+          "filename": "世界语词根-中文注释对应列表.csv",
+          "mime": null,
+          "bytes": 275056,
+          "sha256": "c18da36b394eac087f41adcf10395c78ef583f9a4408d6da303a1dbb47fa38cd"
+        },
+        {
+          "label": "分解設定.json",
+          "filename": "分解設定.json",
+          "mime": null,
+          "bytes": 429584,
+          "sha256": "98bf7a25c3bf86139667dc4327fedfb8b22c738e33529001adb7ed26fba217f0"
+        },
+        {
+          "label": "word_anno.json",
+          "filename": "word_anno.json",
+          "mime": null,
+          "bytes": 2589214,
+          "sha256": "71ea351b628c55ff8068e3b6dbc5a8e3e1d3568f1fb3615a43d5166d3aa73eb9"
+        },
+        {
+          "label": "E_stem.json",
+          "filename": "E_stem.json",
+          "mime": null,
+          "bytes": 2626958,
+          "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5"
+        },
+        {
+          "label": "应用内置的已确认校正（不含本次会话的修改） · user_corrections.json",
+          "filename": "user_corrections.json",
+          "mime": null,
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "current",
+      "passed": true,
+      "reference_button_visible": true,
+      "existing_download_count": 6,
+      "selected_kanji_csv": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
+      "matching_source_links_present": false,
+      "downloads": [
+        {
+          "label": "한자 배정 목록 HTML 묶음（신판·일본어 뜻풀이）",
+          "filename": "kanji_reference_current.zip",
+          "mime": "application/zip",
+          "bytes": 1675222,
+          "sha256": "81cef2f0f32fcf342a9ebd565c3ccf95cac18ee5328a7ecea25656006e895027"
+        },
+        {
+          "label": "한자 배정 CSV",
+          "filename": "kanji_assignments_current_6e23d17e3e4f.csv",
+          "mime": "text/csv",
+          "bytes": 163367,
+          "sha256": "8387ffc72b0b837c49b0eae185e849c1c3003e0a1692b0b752e302f9837fb122"
+        },
+        {
+          "label": "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+          "filename": "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+          "mime": null,
+          "bytes": 299553,
+          "sha256": "d8e598298cfa9f964354aea9d038b0cb5d1d0356ab4ffb19a13058f3352be740"
+        },
+        {
+          "label": "分解設定.json",
+          "filename": "分解設定.json",
+          "mime": null,
+          "bytes": 430051,
+          "sha256": "832db421a8a1fbc5cbd5fb9d14bb6609f2e61ee5e852e8d36501bf8ab71a1782"
+        },
+        {
+          "label": "word_anno.json",
+          "filename": "word_anno.json",
+          "mime": null,
+          "bytes": 2732628,
+          "sha256": "6788aa177144529bd7574bff59e90338ee53b40f0e643025a8da0686ca0c133e"
+        },
+        {
+          "label": "E_stem.json",
+          "filename": "E_stem.json",
+          "mime": null,
+          "bytes": 2626958,
+          "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5"
+        },
+        {
+          "label": "앱에 내장된 승인 보정（현재 세션의 변경 제외） · user_corrections.json",
+          "filename": "user_corrections.json",
+          "mime": null,
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    },
+    {
+      "language": "KO",
+      "edition": "legacy",
+      "passed": true,
+      "reference_button_visible": false,
+      "existing_download_count": 6,
+      "selected_kanji_csv": "assignment_editions/legacy/KO/kanji.csv",
+      "matching_source_links_present": false,
+      "downloads": [
+        {
+          "label": "한자 배정 CSV",
+          "filename": "kanji_assignments_legacy_be8bd8a6f29d.csv",
+          "mime": "text/csv",
+          "bytes": 154443,
+          "sha256": "40b265f39934fcf40b660bfa6bc5fac85a3a070f5b2545918702a8000b1971f1"
+        },
+        {
+          "label": "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+          "filename": "에스페란토 어근-한국어 번역 루비 대응 목록.csv",
+          "mime": null,
+          "bytes": 299553,
+          "sha256": "d8e598298cfa9f964354aea9d038b0cb5d1d0356ab4ffb19a13058f3352be740"
+        },
+        {
+          "label": "分解設定.json",
+          "filename": "分解設定.json",
+          "mime": null,
+          "bytes": 430051,
+          "sha256": "832db421a8a1fbc5cbd5fb9d14bb6609f2e61ee5e852e8d36501bf8ab71a1782"
+        },
+        {
+          "label": "word_anno.json",
+          "filename": "word_anno.json",
+          "mime": null,
+          "bytes": 2732628,
+          "sha256": "6788aa177144529bd7574bff59e90338ee53b40f0e643025a8da0686ca0c133e"
+        },
+        {
+          "label": "E_stem.json",
+          "filename": "E_stem.json",
+          "mime": null,
+          "bytes": 2626958,
+          "sha256": "7bb63bfa2d6d4531023954aee525e84edc6ffd4d7bcc611b9086b37e932f0ec5"
+        },
+        {
+          "label": "앱에 내장된 승인 보정（현재 세션의 변경 제외） · user_corrections.json",
+          "filename": "user_corrections.json",
+          "mime": null,
+          "bytes": 2,
+          "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      ]
+    }
+  ],
+  "local_ui_case_count": 6,
+  "limitations": [
+    "Local AppTest inspects the real page and download payload; this is not a browser or Streamlit Cloud result.",
+    "No conversion engine or dictionary was edited. Existing engine/data preservation is established by byte hashes; a new exhaustive conversion run was unnecessary for this reference-only correction.",
+    "Matching-source links are unavailable while the page changes are uncommitted; current-only reference inclusion and fail-closed behavior were checked independently."
+  ]
+}
