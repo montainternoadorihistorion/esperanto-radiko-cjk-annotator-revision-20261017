@@ -68,6 +68,9 @@ def _matching_source_links():
     paths += [DATA_DIR / name for name in
               ("char_widths.json", "placeholders_skip.txt", "placeholders_localcapture.txt",
                "user_corrections.json", "分解設定.json", "word_anno.json", "E_stem.json")]
+    if edition == "current":
+        paths += [ROOT / "references" / name for name in
+                  ("kanji.html", "words.html", "kanji_reference_current.zip")]
     prefix = "https://raw.githubusercontent.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017/"
     commit = None
     for path in sorted(set(paths)):
@@ -117,6 +120,22 @@ for role in ('kanji','pure','ruby'):
         st.caption(WORDS[role]+': '+{'JA':'このローカル版に一致する公開済み固定リンクはありません。','ZH':'此本地数据没有可确认一致的已公开固定链接。','KO':'이 로컬 데이터와 일치하는 공개 고정 링크를 확인할 수 없습니다。'}[LANG])
 
 st.header(WORDS['small'])
+if edition == "current":
+    reference_labels = {
+        "JA": "漢字割り当て一覧HTML一式（新版・日本語の語義）",
+        "ZH": "汉字分配一览HTML文件包（新版・日语释义）",
+        "KO": "한자 배정 목록 HTML 묶음（신판·일본어 뜻풀이）",
+    }
+    reference_notes = {
+        "JA": "ZIPを展開し、kanji.htmlをブラウザで開くと検索できます。複合語一覧も含みます。",
+        "ZH": "解压ZIP后，在浏览器中打开kanji.html即可搜索。文件包也包含复合词一览。",
+        "KO": "ZIP을 풀고 브라우저에서 kanji.html을 열면 검색할 수 있습니다. 복합어 목록도 포함합니다.",
+    }
+    st.download_button(
+        reference_labels[LANG], (ROOT / "references" / "kanji_reference_current.zip").read_bytes(),
+        file_name="kanji_reference_current.zip", mime="application/zip", key="current_kanji_reference_zip",
+    )
+    st.caption(reference_notes[LANG])
 st.caption(GUIDANCE['bundled_note'])
 csv=editions.resolve_path(DATA_DIR,'kanji_csv',edition)
 st.download_button(WORDS['csv'],csv.read_bytes(),
