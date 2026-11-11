@@ -94,6 +94,7 @@ LATER_CURRENT_ASSIGNMENTS = {
     'kariokinez': ('等分ᴷ', '丝分ᴷ'),
     'ambl': ('踱', '对侧步'),
     'spekulativ': ('猜ˢ', '思辨'),
+    'invit': ('邀', '招'),
 }
 
 def historical_current_bytes(raw):

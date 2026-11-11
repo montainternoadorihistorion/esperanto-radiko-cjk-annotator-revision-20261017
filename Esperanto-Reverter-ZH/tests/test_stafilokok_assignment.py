@@ -6,7 +6,7 @@ from pathlib import Path
 import pytest
 from streamlit.testing.v1 import AppTest
 import esperanto_converter_zh as app
-from build_reverter_dictionary_from_all_json import rows_from_all_json
+from build_reverter_dictionary_from_all_json import rows_from_all_json, current_rows_from_all_json
 
 SOURCE=json.loads((app.ROOT/'data/current_dictionary_source.json').read_text(encoding='utf-8'))
 REVIEW=json.loads((app.ROOT/'data/stafilokok-assignment-20261017.json').read_text(encoding='utf-8'))
@@ -30,8 +30,8 @@ def test_one_new_reverse_alias_and_no_extra_forward_item():
     items=[r for r in data['items'] if r['sourceRoot']=='stafilokok']
     assert len(items)==1 and items[0]['body']=='葡球菌'
     assert not [r for r in data['items'] if r['body']=='葡萄球菌']
-    rows=rows_from_all_json(data)
-    assert len(rows)==SOURCE['current_csv_count']==10683
+    rows=current_rows_from_all_json(data)
+    assert len(rows)==SOURCE['current_csv_count']==10685
     assert {(r['esperanto'],r['kanji']) for r in rows if r['kanji'] in ('葡球菌','葡萄球菌')}=={('stafilokok','葡球菌'),('stafilokok','葡萄球菌')}
     assert SOURCE['assignment_changes']['stafilokok']=={'old':'葡萄球菌','current':'葡球菌'}
     assert SOURCE['reverse_only_aliases']['葡萄球菌']=='stafilokok'

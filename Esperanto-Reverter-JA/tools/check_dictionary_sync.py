@@ -27,7 +27,7 @@ sys.path.insert(0, str(TOOLS_DIR))
 
 logging.getLogger("streamlit.runtime.caching.cache_data_api").setLevel(logging.ERROR)
 
-from build_reverter_dictionary_from_all_json import rows_from_all_json  # noqa: E402
+from build_reverter_dictionary_from_all_json import current_rows_from_all_json  # noqa: E402
 from dictionary_source import CURRENT_CSV, default_monaco_source, validate_current_source  # noqa: E402
 DEFAULT_MONACO_ALL = default_monaco_source()
 with contextlib.redirect_stderr(io.StringIO()):
@@ -51,7 +51,7 @@ def normalize_row(row: dict) -> dict[str, str]:
 
 def check_csv_sync(monaco_all_path: Path, csv_path: Path) -> list[str]:
     data = json.loads(monaco_all_path.read_text(encoding="utf-8"))
-    expected = [normalize_row(row) for row in rows_from_all_json(data)]
+    expected = [normalize_row(row) for row in current_rows_from_all_json(data)]
     actual = [normalize_row(row) for row in load_csv_rows(csv_path)]
 
     errors: list[str] = []
@@ -73,7 +73,7 @@ def check_no_xsystem_residue(monaco_all_path: Path) -> list[str]:
     data = json.loads(monaco_all_path.read_text(encoding="utf-8"))
     bad = sorted({
         str(row["esperanto"])
-        for row in rows_from_all_json(data)
+        for row in current_rows_from_all_json(data)
         if "x" in str(row["esperanto"]) or "^" in str(row["esperanto"])
     })
     if bad:

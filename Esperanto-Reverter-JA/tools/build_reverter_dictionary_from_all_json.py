@@ -80,7 +80,7 @@ def rows_from_all_json(data: dict) -> list[dict[str, object]]:
     # Add them only when the input contains the corresponding current assignment;
     # historical/custom sources keep their own mapping. They never become Monaco
     # forward-completion entries. Longest matching handles 菠萝蜜 before 菠萝/菠.
-    for root, current_body, old_body in (("ananas", "菠", "菠萝"), ("jakv", "菠蜜", "菠萝蜜"), ("strut", "鸵", "鸵鸟"), ("sinergi", "协同", "协同作用"), ("oliv", "榄", "橄榄"), ("stafilokok", "葡球菌", "葡萄球菌"), ("psitak", "鹦ᴾˢ", "鹦鹉"), ("uv", "葡ᵁ", "葡萄"), ("limon", "柠", "柠檬"), ("limonad", "柠水", "柠檬水"), ("uve", "葡膜", "葡萄膜"), ("uveit", "葡膜炎ᵀ", "葡萄膜炎ᵀ"), ("observatori", "观台", "天文台"), ("risort", "簧", "弹簧"), ("lantern", "灯ᴸᴺ", "灯笼"), ("lubrik", "滑ᴸ", "润滑"), ("protez", "假体", "假肢"), ("ranc", "酸败", "哈喇"), ("krep", "皱布", "皱绸"), ("difrakt", "绕射", "衍射"), ("mortez", "卯", "卯眼"), ("meger", "恶女", "悍妇"), ("sutur", "缝ˢᴿ", "缝合"), ("fraj", "卵ᶠ", "鱼卵"), ("nostalgi", "怀ᴺ", "怀旧"), ("onk", "瘤ᴼ", "肿瘤"), ("fortres", "堡ᶠᴿ", "堡垒"), ("onkogen", "瘤ᴼ生ᴳ", "肿瘤生ᴳ"), ("onkologi", "瘤ᴼ学ᴸᴳ", "肿瘤学ᴸᴳ"), ("satir", "讽", "讽刺"), ("sarkasm", "讽ˢᴿ", "讽ˢ"), ("spermati", "精子ˢᴵ", "精ˢᴵ"), ("silf", "精ˢ", "精ˢᴸ"), ("spermatocit", "精子胞ᶜᴵ", "精ˢ胞ᶜᴵ"), ("spermatofit", "精子植ᶠ", "精ˢ植ᶠ"), ("spermatogenez", "精子源ᴳ", "精ˢ源ᴳ"), ("greft", "移植", "嫁接"), ("dot", "妆", "嫁妆"), ("frog", "轨叉", "辙叉"), ("mitoz", "丝分", "等分"), ("kariokinez", "丝分ᴷ", "等分ᴷ"), ("ambl", "对侧步", "踱"), ("spekulativ", "思辨", "猜ˢ")):
+    for root, current_body, old_body in (("ananas", "菠", "菠萝"), ("jakv", "菠蜜", "菠萝蜜"), ("strut", "鸵", "鸵鸟"), ("sinergi", "协同", "协同作用"), ("oliv", "榄", "橄榄"), ("stafilokok", "葡球菌", "葡萄球菌"), ("psitak", "鹦ᴾˢ", "鹦鹉"), ("uv", "葡ᵁ", "葡萄"), ("limon", "柠", "柠檬"), ("limonad", "柠水", "柠檬水"), ("uve", "葡膜", "葡萄膜"), ("uveit", "葡膜炎ᵀ", "葡萄膜炎ᵀ"), ("observatori", "观台", "天文台"), ("risort", "簧", "弹簧"), ("lantern", "灯ᴸᴺ", "灯笼"), ("lubrik", "滑ᴸ", "润滑"), ("protez", "假体", "假肢"), ("ranc", "酸败", "哈喇"), ("krep", "皱布", "皱绸"), ("difrakt", "绕射", "衍射"), ("mortez", "卯", "卯眼"), ("meger", "恶女", "悍妇"), ("sutur", "缝ˢᴿ", "缝合"), ("fraj", "卵ᶠ", "鱼卵"), ("nostalgi", "怀ᴺ", "怀旧"), ("onk", "瘤ᴼ", "肿瘤"), ("fortres", "堡ᶠᴿ", "堡垒"), ("onkogen", "瘤ᴼ生ᴳ", "肿瘤生ᴳ"), ("onkologi", "瘤ᴼ学ᴸᴳ", "肿瘤学ᴸᴳ"), ("satir", "讽", "讽刺"), ("sarkasm", "讽ˢᴿ", "讽ˢ"), ("spermati", "精子ˢᴵ", "精ˢᴵ"), ("silf", "精ˢ", "精ˢᴸ"), ("spermatocit", "精子胞ᶜᴵ", "精ˢ胞ᶜᴵ"), ("spermatofit", "精子植ᶠ", "精ˢ植ᶠ"), ("spermatogenez", "精子源ᴳ", "精ˢ源ᴳ"), ("greft", "移植", "嫁接"), ("dot", "妆", "嫁妆"), ("frog", "轨叉", "辙叉"), ("mitoz", "丝分", "等分"), ("kariokinez", "丝分ᴷ", "等分ᴷ"), ("ambl", "对侧步", "踱"), ("spekulativ", "思辨", "猜ˢ"), ("invit", "招", "邀")):
         current = [row for row in rows if row["source_root"] == root and row["kanji"] == current_body]
         if not current:
             continue
@@ -90,8 +90,53 @@ def rows_from_all_json(data: dict) -> list[dict[str, object]]:
         if any(row["esperanto"] != root for row in existing):
             raise ValueError(f"Historical alias {old_body} conflicts with another root")
         if not existing:
-            rows.append({**current[0], "kanji": old_body, "source_line": "reverse-alias:20261108" if root in {"mitoz", "kariokinez", "ambl", "spekulativ"} else "reverse-alias:20261107" if root == "frog" else "reverse-alias:20261018" if root in {'dot', 'greft', 'spermati', 'silf', 'spermatofit', 'spermatogenez', 'spermatocit'} else "reverse-alias:20261017"})
+            rows.append({**current[0], "kanji": old_body, "source_line": "reverse-alias:20261111" if root == "invit" else "reverse-alias:20261108" if root in {"mitoz", "kariokinez", "ambl", "spekulativ"} else "reverse-alias:20261107" if root == "frog" else "reverse-alias:20261018" if root in {'dot', 'greft', 'spermati', 'silf', 'spermatofit', 'spermatogenez', 'spermatocit'} else "reverse-alias:20261017"})
 
+    rows.sort(key=lambda row: (-len(row["kanji"]), row["priority"], row["kanji"], row["esperanto"]))
+    return rows
+
+
+def current_rows_from_all_json(data: dict) -> list[dict[str, object]]:
+    """Add the separately approved current-edition senses, never to custom input.
+
+    The ordinary Monaco completion keeps its existing one-spelling owner. Only
+    the current reverter receives this explicitly selected sense's extra key.
+    Both the source data and the sense projection are pinned by the manifest.
+    """
+    import hashlib
+
+    root = Path(__file__).resolve().parents[1]
+    manifest = json.loads((root / "data/current_dictionary_source.json").read_bytes())
+    bundled_path = root / "data/monaco_source_20261017.json"
+    bundled = bundled_path.read_bytes()
+    if hashlib.sha256(bundled).hexdigest() != manifest["monaco_all_sha256"]:
+        raise ValueError("Current source bytes do not match the approved manifest")
+    if data != json.loads(bundled):
+        raise ValueError("Current sense assignments require the exact approved source")
+    sense_path = root / "data/explicit_sense_assignments_20261111.json"
+    raw = sense_path.read_bytes()
+    if hashlib.sha256(raw).hexdigest() != manifest["explicit_sense_assignments_sha256"]:
+        raise ValueError("Current sense assignments do not match the approved manifest")
+    senses = json.loads(raw)
+    if senses.get("schema_version") != 1:
+        raise ValueError("Unsupported explicit-sense assignment data")
+    rows = rows_from_all_json(data)
+    for sense in senses["senses"]:
+        if sense.get("edition") != "current" or sense.get("selection") != "explicit_occurrence":
+            raise ValueError("Only explicitly selected current-edition senses are supported")
+        owner = sense["root"]
+        body = sense["display"]
+        if not owner or not body or body == sense["reserved_bare"]:
+            raise ValueError("Explicit sense needs a distinct nonempty identifier")
+        base = [row for row in rows
+                if row["source_root"] == owner
+                and row["kanji"] == sense["default_display"]]
+        if len(base) != 1 or base[0]["esperanto"] != owner:
+            raise ValueError("Explicit sense's established base owner has changed")
+        if any(row["kanji"] == body for row in rows):
+            raise ValueError("Explicit sense key conflicts with an existing key")
+        rows.append({**base[0], "kanji": body,
+                     "source_line": "explicit-sense:" + sense["sense_key"] + ":20261111"})
     rows.sort(key=lambda row: (-len(row["kanji"]), row["priority"], row["kanji"], row["esperanto"]))
     return rows
 
@@ -129,7 +174,8 @@ def main() -> int:
             print(f"ERROR: {exc}", file=sys.stderr)
             return 1
     data = json.loads(in_path.read_text(encoding="utf-8"))
-    rows = rows_from_all_json(data)
+    rows = (current_rows_from_all_json(data) if out_path.resolve() == CURRENT_CSV.resolve()
+            else rows_from_all_json(data))
     write_rows(rows, out_path)
 
     print(f"wrote {len(rows)} rows to {out_path}")
