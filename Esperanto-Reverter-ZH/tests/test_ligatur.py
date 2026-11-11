@@ -49,7 +49,7 @@ def test_only_two_visible_editions_and_no_obsolete_aliases():
 def test_manifest_and_downloads():
  source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
  path=app.ROOT/source['ligatur_manifest'];manifest=json.loads(path.read_bytes())
- assert source['revision']=='spekulativ-20261108'
+ assert source['revision']=='invit-nefrit-20261111'
  assert manifest['revision']=='2026-10-31-ligatur'
  assert manifest['changes']=={root:list(pair) for root,pair in CHANGES.items()}
  assert manifest['safe_reverse_aliases']=={}

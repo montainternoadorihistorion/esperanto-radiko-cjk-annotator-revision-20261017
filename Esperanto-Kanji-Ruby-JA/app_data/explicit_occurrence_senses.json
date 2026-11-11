@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "policy": "Only explicit selected occurrences in the current bundled edition; never infer from spelling alone.",
+  "senses": [
+    {
+      "sense_key": "nefrit.mineral",
+      "root": "nefrit",
+      "display": "软玉ᴺ",
+      "edition": "current",
+      "selection": "explicit_occurrence",
+      "default_display": "肾ᴺ炎ᵀ",
+      "reserved_bare": "软玉",
+      "annotations": {
+        "JA": "軟玉",
+        "ZH": "软玉",
+        "KO": "연옥"
+      }
+    }
+  ]
+}

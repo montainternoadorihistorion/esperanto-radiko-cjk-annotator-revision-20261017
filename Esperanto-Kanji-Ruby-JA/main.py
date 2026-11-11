@@ -3,6 +3,7 @@
 import streamlit as st
 import esp_assignment_edition as editions
 import esp_input_state as input_state
+import esp_occurrence_senses as occurrence_senses
 import re
 import io
 import os
@@ -291,6 +292,9 @@ letter_type = input_state.persistent_radio(
     key="_letter_type_widget",
 )
 
+_explicit_occurrences, _sense_settings = occurrence_senses.select_occurrences(
+    text0, DATA_DIR, assignment_edition, bool(_bundled_json_path), format_type,
+)
 _current_input_signature = input_state.input_signature(text0, source_option, _source_upload_identity)
 submit_btn = st.button('🔁 変換する', type="primary", key="convert_text", disabled=not _source_ready)
 
@@ -313,7 +317,8 @@ if submit_btn:
             replacements_final_list=replacements_final_list,
             replacements_list_for_2char=replacements_list_for_2char,
             format_type=format_type,
-            reviewed_local_decompositions=reviewed_local_decompositions
+            reviewed_local_decompositions=reviewed_local_decompositions,
+            explicit_occurrences=_explicit_occurrences
         )
     else:
         processed_text = orchestrate_comprehensive_esperanto_text_replacement(
@@ -324,7 +329,8 @@ if submit_btn:
             replacements_final_list=replacements_final_list,
             replacements_list_for_2char=replacements_list_for_2char,
             format_type=format_type,
-            reviewed_local_decompositions=reviewed_local_decompositions
+            reviewed_local_decompositions=reviewed_local_decompositions,
+            explicit_occurrences=_explicit_occurrences
         )
 
     # 1パス目に「先頭1字孤立」過分解(子音1字の遊離: fero->f/er/o 等)があれば、
@@ -349,7 +355,8 @@ if submit_btn:
                     replacements_final_list=_GGx,
                     replacements_list_for_2char=replacements_list_for_2char,
                     format_type=format_type,
-                    reviewed_local_decompositions=reviewed_local_decompositions)
+                    reviewed_local_decompositions=reviewed_local_decompositions,
+            explicit_occurrences=_explicit_occurrences)
             else:
                 processed_text = orchestrate_comprehensive_esperanto_text_replacement(
                     text=text0,
@@ -359,7 +366,8 @@ if submit_btn:
                     replacements_final_list=_GGx,
                     replacements_list_for_2char=replacements_list_for_2char,
                     format_type=format_type,
-                    reviewed_local_decompositions=reviewed_local_decompositions)
+                    reviewed_local_decompositions=reviewed_local_decompositions,
+            explicit_occurrences=_explicit_occurrences)
     except Exception:
         pass  # 自動補正は任意。失敗しても1パス目の結果をそのまま使う。
 
@@ -380,7 +388,7 @@ if submit_btn:
     st.session_state["result_html"] = processed_text
     st.session_state["result_input_signature"] = _current_input_signature
     st.session_state["_edited_html_keep"] = processed_text
-    st.session_state["result_assignment_metadata"] = editions.result_metadata(DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type})
+    st.session_state["result_assignment_metadata"] = editions.result_metadata(DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type, "senses": _sense_settings})
     st.session_state["edited_html"] = processed_text          # 編集用の初期値＝生成結果
     st.session_state["result_is_html"] = ("HTML" in format_type)
     st.toast("✅ 変換が完了しました。下に結果が表示されています。")
@@ -396,7 +404,7 @@ def _reset_edited_html():
 
 _result_meta = st.session_state.get("result_assignment_metadata")
 _matching_input = _source_ready and st.session_state.get("result_input_signature") == _current_input_signature
-_matching_result = editions.result_matches(_result_meta, DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type}) and _matching_input
+_matching_result = editions.result_matches(_result_meta, DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type, "senses": _sense_settings}) and _matching_input
 if st.session_state.get("result_html") and not _matching_result:
     if not _matching_input:
         st.info('入力または入力方法が変わりました。もう一度変換してから保存してください。')
@@ -474,5 +482,5 @@ st.markdown("""
 - **한국어판 (Korea)**: https://esperanto-cjk-revision-ko-20261017.streamlit.app/
 
 #### GitHub-deponejo (fontkodo & uzadaj instrukcioj) ⇓
-https://github.com/montainternoadorihistorion/esperanto-radiko-cjk-annotator-revision-20261017
+https://github.com/Takatakatake/esperanto-radiko-cjk-annotator
 """)

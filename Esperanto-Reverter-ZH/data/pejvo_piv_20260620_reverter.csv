@@ -3856,6 +3856,7 @@ trajektori,轨ᵀᴶ,0,trajektori,3531
 relaj,转ᴿᴱ,0,relaj,1378
 relajs,转ᴿᴸ,0,relajs,1374
 transpon,转ᵀˢ,0,transpon,1377
+nefrit,软玉ᴺ,0,nefrit,explicit-sense:nefrit.mineral:20261111
 ŝaft,轴ˢ̂,0,s^aft,5435
 aksiometr,轴计ᴹ,0,aksiometr,8747
 ŝarĝator,载具ᴬ,0,s^arg^ator,9970
@@ -9339,6 +9340,7 @@ rifuz,拒,0,rifuz,3209
 pionir,拓,0,pionir,5292
 tren,拖,0,tren,3731
 fuŝ,拙,0,fuŝ,3782
+invit,招,0,invit,1893
 ador,拜,0,ador,4920
 simul,拟,0,simul,7509
 svarm,拥,0,svarm,6758
@@ -10446,7 +10448,7 @@ arest,逮,0,arest,4475
 renkont,遇,0,renkont,1328
 avenu,道,0,avenu,4093
 evit,避,0,evit,2972
-invit,邀,0,invit,1893
+invit,邀,0,invit,reverse-alias:20261111
 pervers,邪,0,pervers,7565
 poŝt,邮,0,poŝt,1905
 najbar,邻,0,najbar,3121

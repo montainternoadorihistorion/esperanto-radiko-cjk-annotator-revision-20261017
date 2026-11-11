@@ -8,7 +8,7 @@ from pathlib import Path
 import pandas as pd
 import pytest
 import esperanto_converter as app
-from tools.build_reverter_dictionary_from_all_json import rows_from_all_json
+from tools.build_reverter_dictionary_from_all_json import rows_from_all_json, current_rows_from_all_json
 
 CURRENT = 'pejvo-piv-20260620'
 LEGACY = 'pre-las-20261017'
@@ -47,15 +47,15 @@ def test_downloaded_csv_snippet_and_generation_include_only_reverse_alias():
     source = json.loads((app.ROOT / 'data/current_dictionary_source.json').read_bytes())
     manifest = json.loads((app.ROOT / 'data/frog_20261107.json').read_bytes())
     data = json.loads((app.ROOT / 'data/monaco_source_20261017.json').read_bytes())
-    assert source['revision'] == 'spekulativ-20261108'
+    assert source['revision'] == 'invit-nefrit-20261111'
     assert manifest['revision'] == 'frog-20261107'
     assert source['reverse_only_aliases']['辙叉'] == 'frog'
     assert manifest['safe_reverse_aliases'] == {'辙叉': 'frog'}
     assert manifest['explicit_retained']['top'] == '帆楼'
     assert app.dictionary_options() == [CURRENT, LEGACY]
     assert [x['body'] for x in data['items'] if x['sourceRoot'] == 'frog'] == ['轨叉']
-    rows = rows_from_all_json(data)
-    assert len(rows) == source['current_csv_count'] == 10683
+    rows = current_rows_from_all_json(data)
+    assert len(rows) == source['current_csv_count'] == 10685
     assert sorted(r['kanji'] for r in rows if r['source_root'] == 'frog') == ['轨叉', '辙叉']
     assert hashlib.sha256(app.PEJVO_PIV_20260620_CSV.read_bytes()).hexdigest() == source['current_csv_sha256']
     snippet = app.ROOT / 'エスペラント語根-漢字対応表_スニペット用最小限.csv'

@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "revision": "invit-nefrit-20261111",
+  "baseline_private_commit": "91056752a9d3868ef6f918904398a7a49238835a",
+  "changes": {
+    "invit": {
+      "old": "邀",
+      "current": "招"
+    }
+  },
+  "safe_reverse_aliases": {
+    "邀": "invit"
+  },
+  "explicit_current_sense": {
+    "sense_key": "nefrit.mineral",
+    "root": "nefrit",
+    "display": "软玉ᴺ",
+    "edition": "current",
+    "selection": "explicit_occurrence",
+    "default_display": "肾ᴺ炎ᵀ",
+    "reserved_bare": "软玉",
+    "annotations": {
+      "JA": "軟玉",
+      "ZH": "软玉",
+      "KO": "연옥"
+    }
+  },
+  "canonical_explicit_senses_path": "エスペラント語根＿漢字割り当て＿20260630/_explicit_occurrence_senses.json",
+  "canonical_explicit_senses_sha256": "109b04c5a0b7ebd3cd26ac919cd3447e61eca38c21977a6f12957e3020eac4fc",
+  "canonical_sidecar_sha256": "96e88b149ce23d7a5d7538bc34ab9fbe570f2ec865730509e524212a842cdf4c",
+  "monaco_all_sha256": "8ff07ab26aa5265b07c0a008aa88d34f008729a27fa39d4d757807800ac84363",
+  "baseline_current_csv_count": 10683,
+  "current_csv_count": 10685,
+  "rationale": "User adopted invit=招 for invitation/request meaning, shared existing character and 16-to-8 strokes. A separate explicitly selected nefrit mineral sense uses the existing identifier algorithm with bare 软玉 reserved for mol+gem. The base nephritis mapping and all existing identifier ownership stay fixed.",
+  "fixed_legacy_unchanged": true,
+  "ordinary_monaco_nefrit_unchanged": true,
+  "sense_information_after_inverse": "Both 肾ᴺ炎ᵀ and 软玉ᴺ restore nefrit. Plain and HTML source recovery retain spelling, not the sense choice; re-conversion requires explicit selection again.",
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true,
+  "runtime_boundary_guard": {
+    "active_only_when": {
+      "招": "invit",
+      "招魂": "nekromanci"
+    },
+    "condition": "The registered longer key 招魂 is followed by an unknown extended identifier; a shorter 招 would otherwise consume its first character.",
+    "behavior": "Retain 招 as the pre-update scan did. Other keys, valid complete longer keys, and mappings with other owners keep their former handling.",
+    "reason": "The new short key must not regress preservation of old unknown-identifier text.",
+    "broader_change_rejected": "A blanket longest-body guard would alter 10886 current and 11195 legacy synthetic extended-identifier outputs; no such generalization was applied."
+  }
+}

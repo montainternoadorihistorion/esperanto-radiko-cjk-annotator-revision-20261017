@@ -230,6 +230,9 @@ def edition_signature(data_dir, edition="current"):
         content[name] = file_hash(data / name)
     for name in ("esp_text_replacement_module.py", "esp_overlay_module.py", "esp_replacement_json_make_module.py", "esp_assignment_edition.py"):
         content[name] = file_hash(data.parent / name)
+    if edition == "current":
+        content["explicit_occurrence_senses.json"] = file_hash(data / "explicit_occurrence_senses.json")
+        content["esp_occurrence_senses.py"] = file_hash(data.parent / "esp_occurrence_senses.py")
     serialized = json.dumps({"edition_id": edition, "files": content}, sort_keys=True, separators=(",", ":")).encode("utf-8")
     return hashlib.sha256(serialized).hexdigest()
 

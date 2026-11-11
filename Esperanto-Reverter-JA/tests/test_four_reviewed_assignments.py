@@ -4,7 +4,7 @@ from pathlib import Path
 import pytest
 from streamlit.testing.v1 import AppTest
 import esperanto_converter as app
-from build_reverter_dictionary_from_all_json import rows_from_all_json
+from build_reverter_dictionary_from_all_json import rows_from_all_json, current_rows_from_all_json
 
 CHANGES={'krep':('皱绸','皱布'),'difrakt':('衍射','绕射'),'mortez':('卯眼','卯'),'meger':('悍妇','恶女')}
 CONTROLS={'protez':'假体','ranc':'酸败','hangar':'棚库','kontest':'异议','cisticerk':'囊尾虫','kruc':'十字',
@@ -36,7 +36,7 @@ def test_current_source_and_forward_candidates():
     data=json.loads((app.ROOT/'data/monaco_source_20261017.json').read_text(encoding='utf-8'))
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_text(encoding='utf-8'))
     assert len(data['items'])==source['current_item_count']==10640
-    rows=rows_from_all_json(data);assert len(rows)==source['current_csv_count']==10683
+    rows=current_rows_from_all_json(data);assert len(rows)==source['current_csv_count']==10685
     for root,(old,new) in CHANGES.items():
         assert [r['body'] for r in data['items'] if r['sourceRoot']==root]==[new]
         assert not [r for r in data['items'] if r['body']==old]

@@ -137,9 +137,14 @@ _EMAIL_PATTERN = re.compile(
 )
 
 
-def _at_enclosed_matches(text):
+def _at_enclosed_matches(text, protected_tokens=()):
     masked = list(text)
-    for address in _EMAIL_PATTERN.finditer(text):
+    # A generated %123% before @o must not become a synthetic email address
+    # and hide the closing marker in a selected @nefrit@o occurrence.
+    email_source = text
+    for token in protected_tokens:
+        email_source = email_source.replace(token, '\x00' * len(token))
+    for address in _EMAIL_PATTERN.finditer(email_source):
         masked[address.start() + address.group().index('@')] = '\x00'
     return list(AT_PATTERN.finditer(''.join(masked)))
 
@@ -443,14 +448,21 @@ def _render_localized_payload(payload, local_rules, finalized, reviewed, escape)
 
 
 def _protect_input_regions(text, skip_tokens, local_tokens, local_rules,
-                           global_rules, html_mode, reviewed_local_decompositions: bool = False):
+                           global_rules, html_mode, reviewed_local_decompositions: bool = False, explicit_occurrences=()):
     source, used = text, set()
     escape = _escape_input_symbols if html_mode else lambda value: value
-    text, skipped = _capture_marker_spans(
-        text, list(PERCENT_PATTERN.finditer(text)),
-        _marker_tokens(skip_tokens, '%', source, used), escape,
-    )
-    matches = _at_enclosed_matches(text)
+    if explicit_occurrences:
+        from esp_occurrence_senses import capture_explicit_occurrences
+        text, skipped = capture_explicit_occurrences(
+            text, explicit_occurrences, PERCENT_PATTERN,
+            _marker_tokens(skip_tokens, '%', source, used), escape,
+        )
+    else:
+        text, skipped = _capture_marker_spans(
+            text, list(PERCENT_PATTERN.finditer(text)),
+            _marker_tokens(skip_tokens, '%', source, used), escape,
+        )
+    matches = _at_enclosed_matches(text, [token for token, _ in skipped] if explicit_occurrences else ())
     payloads = [text[m.start(1):m.end(1)] for m in matches]
     finalized = _finalized_global_renderings_for_exact_matches(payloads, global_rules)
 
@@ -591,8 +603,7 @@ def orchestrate_comprehensive_esperanto_text_replacement(
     placeholders_for_localized_replacement: List[str],
     replacements_final_list: List[Tuple[str, str, str]],
     replacements_list_for_2char: List[Tuple[str, str, str]],
-    format_type: str, reviewed_local_decompositions: bool = False
-) -> str:
+    format_type: str, reviewed_local_decompositions: bool = False, explicit_occurrences=() ) -> str:
     """
     进行一系列替换操作：
       1) 统一半角空格
@@ -617,6 +628,7 @@ def orchestrate_comprehensive_esperanto_text_replacement(
         placeholders_for_localized_replacement,
         replacements_list_for_localized_string, replacements_final_list,
         "HTML" in format_type, reviewed_local_decompositions=reviewed_local_decompositions,
+        explicit_occurrences=explicit_occurrences,
     )
     # 4.5) 約物パディング(v2): 約物の両側に番兵付き仮想スペースを挿入し、2字語根standalone
     # (' x 'パターン)が「両隣が非文字」の境界でも発火するようにする(出力前に除去・表示不変)。
@@ -783,11 +795,21 @@ def parallel_process(
     placeholders_for_localized_replacement: List[str],
     replacements_final_list: List[Tuple[str, str, str]],
     replacements_list_for_2char: List[Tuple[str, str, str]],
-    format_type: str, reviewed_local_decompositions: bool = False
-) -> str:
+    format_type: str, reviewed_local_decompositions: bool = False, explicit_occurrences=() ) -> str:
     """
     把文本按行拆分，分配给多个子进程并行处理（process_segment），然后再拼接结果。
     """
+    # Selected source offsets refer to the whole normalized document. Keep
+    # that document intact instead of rebasing spans across worker segments.
+    if explicit_occurrences:
+        return orchestrate_comprehensive_esperanto_text_replacement(
+            text, placeholders_for_skipping_replacements,
+            replacements_list_for_localized_string,
+            placeholders_for_localized_replacement, replacements_final_list,
+            replacements_list_for_2char, format_type,
+            reviewed_local_decompositions=reviewed_local_decompositions,
+            explicit_occurrences=explicit_occurrences,
+        )
     if num_processes <= 1:
         return orchestrate_comprehensive_esperanto_text_replacement(
             text,

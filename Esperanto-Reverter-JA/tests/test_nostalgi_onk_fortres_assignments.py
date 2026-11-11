@@ -4,7 +4,7 @@ from pathlib import Path
 import pytest
 from streamlit.testing.v1 import AppTest
 import esperanto_converter as app
-from build_reverter_dictionary_from_all_json import rows_from_all_json
+from build_reverter_dictionary_from_all_json import rows_from_all_json, current_rows_from_all_json
 CHANGES={'nostalgi':('怀旧','怀ᴺ'),'onk':('肿瘤','瘤ᴼ'),'fortres':('堡垒','堡ᶠᴿ'),'onkogen':('肿瘤生ᴳ','瘤ᴼ生ᴳ'),'onkologi':('肿瘤学ᴸᴳ','瘤ᴼ学ᴸᴳ')}
 CONTROLS={'巧合':'koincid','讽刺':'satir','精液':'sperm','精液ᶜ̂':'ĉur','精ˢ':'silf','种ˢᴿ':'sperm','瘤ᵀ':'tumor','怀':'sin','灌':'klister','缝ˢᴿ':'sutur','卵ᶠ':'fraj','棱镜':'prism'}
 def index(source):return app.build_mapping_index(app.load_dictionary_source(source))
@@ -27,7 +27,7 @@ def test_current_manifest_and_all_five_source_items():
     data=json.loads((app.ROOT/'data/monaco_source_20261017.json').read_text(encoding='utf-8'))
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_text(encoding='utf-8'))
     assert len(data['items'])==source['current_item_count']==10640
-    rows=rows_from_all_json(data);assert len(rows)==source['current_csv_count']==10683
+    rows=current_rows_from_all_json(data);assert len(rows)==source['current_csv_count']==10685
     for root,(old,new) in CHANGES.items():
         matches=[r for r in data['items'] if r['sourceRoot']==root]
         assert len(matches)==1 and matches[0]['body']==new

@@ -554,6 +554,19 @@ def convert_kanji_esperanto_to_alphabet(text: str, mapping: MappingIndex) -> str
             replacement = mapping.by_length[length].get(substring)
             if replacement is None:
                 continue
+            # Adding 招=invit must not newly consume the first character of
+            # the established 招魂=nekromanci when its following identifier
+            # is unknown. Keep the old scan behavior for this reviewed edge.
+            # A longer registered complete key has already won above; custom
+            # dictionaries with different owners do not activate this guard.
+            if substring == "招" and replacement == "invit":
+                longer = "招魂"
+                longer_end = i + len(longer)
+                if (mapping.by_length.get(len(longer), {}).get(longer) == "nekromanci"
+                        and text.startswith(longer, i)
+                        and longer_end < len(text)
+                        and text[longer_end] in _IDENTIFIER_CONTINUATION_CHARS):
+                    replacement = substring
             result.append(replacement)
             i += length
             matched = True
