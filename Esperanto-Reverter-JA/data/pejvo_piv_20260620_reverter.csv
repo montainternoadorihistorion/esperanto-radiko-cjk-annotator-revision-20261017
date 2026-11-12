@@ -2349,7 +2349,7 @@ kvadrat,方ᴷⱽ,0,kvadrat,1533
 metodologi,方法学,0,metodologi,9624
 galen,方铅矿,0,galen,8454
 giro,旋ᴳᴼ,0,giro,6115
-piruet,旋ᴾᴿ,0,piruet,6117
+piruet,旋ᴾᴿ,0,piruet,reverse-alias:20261112
 girometr,旋计ᴹ,0,girometr,9237
 anuri,无ᴬ尿,0,anuri,8815
 atoni,无ᴬ张,0,atoni,8862
@@ -6013,7 +6013,7 @@ brigad,旅ᴮ,0,brigad,1407
 turist,旅ᵀ,0,turist,1406
 itiner,旅程,0,itiner,8691
 spiral,旋ˢ,0,spiral,6112
-pivot,旋ᴾ,0,pivot,6111
+piruet,旋ᴾ,0,piruet,6117
 rotaci,旋ᴿ,0,rotaci,6113
 turb,旋ᵀ,0,turb,6114
 ciklon,旋ᶜ,0,ciklon,6116
@@ -7069,7 +7069,7 @@ anĉ,簧ᴬ,0,anc^,8242
 riz,米ᴿ,0,riz,3472
 analogi,类ᴬ,0,analogi,4820
 pulvor,粉ᴾ,0,pulvor,3943
-vermiĉel,粉丝,0,vermic^el,7035
+vermiĉel,粉丝,0,vermic^el,reverse-alias:20261112
 silt,粉砂,0,silt,8026
 grajn,粒ᴳ,0,grajn,210
 korpuskl,粒ᴷ,0,korpuskl,213
@@ -7146,6 +7146,7 @@ spindel,纺锤,0,spindel,7173
 drat,线ᴰ,0,drat,2026
 modlur,线脚,0,modlur,7573
 kompon,组ᴷ,0,kompon,250
+vermiĉel,细面,0,vermic^el,7035
 hist,织ᴴ,0,hist,4072
 terminal,终端,0,terminal,7925
 varp,经ⱽ,0,varp,6170
@@ -7916,6 +7917,7 @@ kartilag,软骨,0,kartilag,6886
 bombard,轰ᴮ,0,bombard,6587
 detonaci,轰ᴰ,0,detonaci,6588
 sensaci,轰动,0,sensaci,7319
+pivot,轴ᴾ,0,pivot,6111
 trace,轴线,0,trace,7184
 frivol,轻浮,0,frivol,6590
 vehikl,载体,0,vehikl,7537

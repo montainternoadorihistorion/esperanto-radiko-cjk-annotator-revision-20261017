@@ -16,7 +16,7 @@ def test_only_two_editions_archive_api_and_selected_csv_formats():
  for source in [CURRENT,OLD]:
   full,snippet=app.edition_download_data(source)
   assert app.build_mapping_index(app.read_assignment_csv(io.BytesIO(full)))==app.build_mapping_index(app.read_assignment_csv(io.BytesIO(snippet)))
-  assert len(list(csv.reader(io.StringIO(snippet.decode()))))==(10685 if source==CURRENT else 10636)
+  assert len(list(csv.reader(io.StringIO(snippet.decode()))))==(10687 if source==CURRENT else 10636)
   if source==OLD:
    assert hashlib.sha256(full).hexdigest()==app.EDITION_POLICY['fixed_csv_sha256']
    assert hashlib.sha256(snippet).hexdigest()==app.EDITION_POLICY['fixed_two_column_sha256']

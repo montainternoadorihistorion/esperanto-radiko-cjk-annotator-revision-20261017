@@ -50,7 +50,7 @@ def test_current_and_legacy_are_explicit_no_new_intermediate_aliases():
 def test_source_manifest_downloads_and_group_descriptions():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     path=app.ROOT/source['shtip_pensi_sankci_manifest'];manifest=json.loads(path.read_bytes())
-    assert source['revision']=='invit-nefrit-20261111'
+    assert source['revision']=='vermicel-pivot-20261112'
     assert manifest['revision']=='2026-10-24-shtip-pensi-sankci'
     assert manifest['changes']=={r:list(v) for r,v in CHANGES.items()}
     assert manifest['safe_reverse_aliases']==manifest['ownership_transfers']=={}
@@ -62,7 +62,7 @@ def test_source_manifest_downloads_and_group_descriptions():
     for root in ('tajl','tajlor','arbitraci','sankci'):
         row=next(r for r in monaco['items'] if r['sourceRoot']==root)
         assert '\nグループ数: 4\n' in row['documentation']
-    rows=list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding='utf-8'))));assert len(rows)==10685
+    rows=list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding='utf-8'))));assert len(rows)==10687
     for root,(old,new) in CHANGES.items():assert [r['kanji'] for r in rows if r['source_root']==root]==[new]
     full,two=app.edition_download_data(CURRENT)
     assert hashlib.sha256(full).hexdigest()==source['current_csv_sha256']
