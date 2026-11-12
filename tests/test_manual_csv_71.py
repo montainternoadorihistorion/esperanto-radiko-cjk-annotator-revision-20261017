@@ -95,6 +95,9 @@ LATER_CURRENT_ASSIGNMENTS = {
     'ambl': ('踱', '对侧步'),
     'spekulativ': ('猜ˢ', '思辨'),
     'invit': ('邀', '招'),
+    'vermiĉel': ('粉丝', '细面'),
+    'pivot': ('旋ᴾ', '轴ᴾ'),
+    'piruet': ('旋ᴾᴿ', '旋ᴾ'),
 }
 
 def historical_current_bytes(raw):

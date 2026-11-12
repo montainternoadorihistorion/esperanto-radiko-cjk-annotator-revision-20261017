@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "revision": "vermicel-pivot-20261112",
+  "baseline_private_commit": "3209a19efae3c711f79de2a066807acce987d616",
+  "changes": {
+    "vermic^el": {
+      "old": "粉丝",
+      "current": "细面"
+    },
+    "pivot": {
+      "old": "旋ᴾ",
+      "current": "轴ᴾ"
+    },
+    "piruet": {
+      "old": "旋ᴾᴿ",
+      "current": "旋ᴾ"
+    }
+  },
+  "safe_reverse_aliases": {
+    "粉丝": "vermiĉel",
+    "旋ᴾᴿ": "piruet"
+  },
+  "ownership_transfers": {
+    "旋ᴾ": {
+      "old": "pivot",
+      "current": "piruet",
+      "old_profile": "pre-las-20261017"
+    }
+  },
+  "canonical_sidecar_sha256": "711282368ded1205479a65f35c037bab22b4bfa06231705aca20631c669c1d5f",
+  "monaco_all_sha256": "2ce6d9fcbac9f1d217e975793546ae075f143514dceed3f677cbe6ff2d9df9c0",
+  "baseline_current_csv_count": 10685,
+  "current_csv_count": 10687,
+  "rationale": "User adopted 细面 for thin threadlike pasta and 轴ᴾ for the physical axle. The unchanged identifier algorithm reallocates 旋ᴾ to piruet. Fixed pre-revision legacy stays byte-identical; no intermediate edition or conflicting 旋ᴾ-to-pivot current alias is introduced. Shared bare 细面 ambiguity with delikat+fac is accepted. Longer identifiers retain existing boundaries.",
+  "explicit_keep": {
+    "s^utr": "百叶窗"
+  },
+  "fixed_legacy_unchanged": true,
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true
+}
