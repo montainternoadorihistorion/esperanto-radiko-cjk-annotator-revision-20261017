@@ -57,7 +57,7 @@ def test_no_intermediate_profile_or_ambiguous_old_spelling_aliases():
 def test_current_manifest_downloads_and_group_descriptions():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     path=app.ROOT/source['armatur_reeds_manifest'];manifest=json.loads(path.read_bytes())
-    assert source['revision']=='admir-20261113'
+    assert source['revision']=='inteligent-20261113'
     assert manifest['revision']=='2026-10-25-armatur-reeds'
     assert manifest['changes']=={r:list(v) for r,v in CHANGES.items()}
     assert manifest['safe_reverse_aliases']=={}
@@ -76,7 +76,7 @@ def test_current_manifest_downloads_and_group_descriptions():
         row=next(row for row in monaco['items'] if row['sourceRoot']==root and row['body']==body)
         assert row['documentation']==expected['documentation']
     for body,root in CONTROLS.items():assert items[root]['body']==body
-    rows=list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding='utf-8'))));assert len(rows)==10688
+    rows=list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding='utf-8'))));assert len(rows)==10689
     for root,(_,new) in CHANGES.items():assert [r['kanji'] for r in rows if r['source_root']==root]==[new]
     full,two=app.edition_download_data(CURRENT)
     assert hashlib.sha256(full).hexdigest()==source['current_csv_sha256']

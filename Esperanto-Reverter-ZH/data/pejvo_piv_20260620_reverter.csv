@@ -2380,6 +2380,7 @@ panoram,景ᴾᴺ,0,panoram,3679
 kristalografi,晶志ᴳ,0,kristalografi,9523
 kristalograf,晶记ᴳ,0,kristalograf,9522
 sprit,智ˢᴾ,0,sprit,1914
+inteligent,智ᴵᴳ,0,inteligent,4342
 tempest,暴风ᵀ,0,tempest,4162
 kanzon,曲ᴷᴺ,0,kanzon,4007
 hoke,曲棍球,0,hoke,6691
@@ -10078,7 +10079,7 @@ surd,聋,0,surd,3903
 ofic,职,0,ofic,2739
 uni,联,0,uni,3617
 engaĝ,聘,0,engag^,7548
-inteligent,聪,0,inteligent,4342
+inteligent,聪,0,inteligent,reverse-alias:20261113
 viand,肉,0,viand,3289
 rip,肋,0,rip,4359
 portret,肖,0,portret,5300

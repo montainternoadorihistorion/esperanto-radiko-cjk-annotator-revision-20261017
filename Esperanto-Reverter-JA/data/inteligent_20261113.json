@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "revision": "inteligent-20261113",
+  "baseline_private_commit": "de1c6e1f566d147c869de41f5e9035bfa584f3e4",
+  "changes": {
+    "inteligent": {
+      "old": "聪",
+      "current": "智ᴵᴳ"
+    }
+  },
+  "safe_reverse_aliases": {
+    "聪": "inteligent"
+  },
+  "ownership_transfers": {},
+  "canonical_sidecar_sha256": "845145ab91b5c9d735025239c04feb174ebca0e07b8480b6c55447457eb31719",
+  "monaco_all_sha256": "6dc7754ed2438219e17b0eb1989554c4fb1e7a42c1aa2df2056633b7e9518f73",
+  "baseline_current_csv_count": 10688,
+  "current_csv_count": 10689,
+  "rationale": "Explicit user adoption: 智 expresses comprehension and intelligence while sharing an existing character. Remove the sole-use 聪 from the current base assignments, retain it as an unambiguous inverse alias. Existing 智/智ᴵ/智ˢᴾ owners are unchanged. Fixed old edition, annotations, segmentation, inund and diluv are unchanged.",
+  "fixed_legacy_unchanged": true,
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true
+}
