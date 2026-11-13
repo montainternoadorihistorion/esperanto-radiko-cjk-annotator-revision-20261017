@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "revision": "masag-pauz-20261114",
+  "baseline_private_commit": "2cab96c6bc056770d615ff6fed5f634db3a791ba",
+  "changes": {
+    "masaĝ": {
+      "old": "摩",
+      "current": "揉ᴹ"
+    },
+    "paŭz": {
+      "old": "歇",
+      "current": "停ᴾ"
+    }
+  },
+  "safe_reverse_aliases": {
+    "摩": "masaĝ",
+    "歇": "paŭz"
+  },
+  "ownership_transfers": {},
+  "canonical_sidecar_sha256": "07617785b58bfde52f2b45696990e694c19d62071c107b066ba62b0253e5cb0b",
+  "monaco_all_sha256": "66b58bfec2595c8f5a42787c761dfb81a22bdb3098ff480d17278679a76a68fd",
+  "baseline_current_csv_count": 10690,
+  "current_csv_count": 10692,
+  "rationale": "Explicit user adoption of masaĝ=揉ᴹ and paŭz=停ᴾ. Share existing rubbing/kneading and stopping characters, reduce sole-use 摩/歇 and base strokes. Retain both safe old inverse keys. Existing identifier owners, fixed legacy, annotations, segmentation, inteligent and inund-series behavior are unchanged.",
+  "fixed_legacy_unchanged": true,
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true
+}

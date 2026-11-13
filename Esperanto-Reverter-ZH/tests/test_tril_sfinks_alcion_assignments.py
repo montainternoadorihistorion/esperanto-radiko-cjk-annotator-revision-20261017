@@ -67,7 +67,7 @@ def test_current_manifest_download_and_fixed_legacy():
     source = json.loads((app.ROOT / "data/current_dictionary_source.json").read_bytes())
     manifest_path = app.ROOT / source["tril_sfinks_alcion_manifest"]
     manifest = json.loads(manifest_path.read_bytes())
-    assert source["revision"] == "inund-20261113"
+    assert source["revision"] == "masag-pauz-20261114"
     assert manifest["revision"] == "2026-10-21-tril-sfinks-alcion"
     assert manifest["changes"] == {k: list(v) for k, v in CHANGES.items()}
     assert manifest["safe_reverse_aliases"] == {}
@@ -76,7 +76,7 @@ def test_current_manifest_download_and_fixed_legacy():
     assert manifest["unrelated_items_count"] == 10636
     assert hashlib.sha256(manifest_path.read_bytes()).hexdigest() == source["tril_sfinks_alcion_manifest_sha256"]
     rows = list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding="utf-8"))))
-    assert len(rows) == 10690
+    assert len(rows) == 10692
     for root, (old, new) in CHANGES.items():
         assert [r["kanji"] for r in rows if r["esperanto"] == root] == [new]
         if old not in {v[1] for v in CHANGES.values()}:
