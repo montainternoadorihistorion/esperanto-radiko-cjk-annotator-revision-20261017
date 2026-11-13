@@ -98,6 +98,8 @@ LATER_CURRENT_ASSIGNMENTS = {
     'vermiĉel': ('粉丝', '细面'),
     'pivot': ('旋ᴾ', '轴ᴾ'),
     'piruet': ('旋ᴾᴿ', '旋ᴾ'),
+    'admir': ('佩', '赏'),
+    'aprez': ('赏', '赏ᴬᴾ'),
 }
 
 def historical_current_bytes(raw):

@@ -27,7 +27,7 @@ def test_current_manifest_and_all_five_source_items():
     data=json.loads((app.ROOT/'data/monaco_source_20261017.json').read_text(encoding='utf-8'))
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_text(encoding='utf-8'))
     assert len(data['items'])==source['current_item_count']==10640
-    rows=current_rows_from_all_json(data);assert len(rows)==source['current_csv_count']==10687
+    rows=current_rows_from_all_json(data);assert len(rows)==source['current_csv_count']==10688
     for root,(old,new) in CHANGES.items():
         matches=[r for r in data['items'] if r['sourceRoot']==root]
         assert len(matches)==1 and matches[0]['body']==new

@@ -3827,6 +3827,7 @@ deprec,贬ᴰᴾ,0,deprec,7290
 konsistenc,贯ᴷᴺ,0,konsistenc,6237
 afrank,贴ᴬᴿ,0,afrank,4182
 nobel,贵ᴺᴱ,0,nobel,4636
+aprez,赏ᴬᴾ,0,aprez,7715
 aprec,赏ᴬᶜ,0,aprec,7717
 gratif,赏ᴳᴿ,0,gratif,7718
 gratifikaci,赏ᴳᶜ,0,gratifikaci,7719
@@ -8689,7 +8690,7 @@ rest,余,0,rest,747
 budh,佛,0,budh,4505
 verk,作,0,verk,1920
 vi,你,0,vi,734
-admir,佩,0,admir,3616
+admir,佩,0,admir,reverse-alias:20261113
 ig,使,0,ig,168
 nev,侄,0,nev,3123
 ekzempl,例,0,ekzempl,2012
@@ -10367,7 +10368,7 @@ gratul,贺,0,gratul,3665
 korupt,贿,0,korupt,6179
 kapital,资,0,kapital,3750
 vet,赌,0,vet,5411
-aprez,赏,0,aprez,7715
+admir,赏,0,admir,3616
 lizin,赖,0,lizin,8327
 lukr,赚,0,lukr,7172
 matĉ,赛,0,matĉ,5121

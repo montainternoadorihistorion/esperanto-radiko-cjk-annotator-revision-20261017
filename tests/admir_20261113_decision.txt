@@ -1,0 +1,12 @@
+admir＝赏 採用／aprez＝赏ᴬᴾ 連動／arorut＝葛 維持
+
+admir＝赏、aprez＝赏ᴬᴾ。arorut＝葛を維持
+
+admir の美・音楽への感嘆と人徳への敬意を、既存の赏で共用する。佩の意味も成立するため誤訳訂正とはしない。佩8画→赏12画の4画増を許容し、専用字佩をなくして使用字種2216→2215。赏の使用先は5→6語根。aprez/aprecとは評価・鑑賞の意味で近く、gratifik系列の報酬義とは区別する。
+
+既存の帯順位・優先度・識別子規則を変えず、admir（basic、F=11）が無印赏、aprez（pejvo、F=2）が赏ᴬᴾになる。対象はこの2行のみ。無印赏の新版での復元先はaprezからadmirへ移るため、競合する旧aprezの無印別名は作らない。旧固定版・語義注釈・学習者版／学術版の正しい分解は維持する。arorut＝葛は今回の本人判断で維持し、竹芋へ変更しない。
+
+原PIV：admir 899–903行、aprez 6981–6982行。承認・生成・全件保全は `_admir_followup_20261113.json` と `_再点検_20261016/assignment_update_20261113_admir/canonical` を参照。Fは辞書内の優先度指標であり、自然言語コーパス頻度とは同一視しない。
+
+
+2026-11-13 direct user adoption: admir=赏, with aprez=赏ᴬᴾ assigned by the unchanged existing identifier algorithm; arorut=葛 is explicitly kept. Original PIV2020 admir (lines 899-903) covers delighted admiration of beauty, art and music as well as deep respect for exceptional virtue or people. The existing 佩 also has a valid respect/admiration sense; the adopted 赏 is a semantic sharing and learning-cost choice, not a correction of a proven mistranslation. 赏 already appears in aprez/aprec and the gratifik family. It covers appreciation/praise as well as reward; these roots are not all synonyms and do not have an asserted common etymology. 佩 is exclusive to admir. Reuse increases 赏 from five to six root rows, removes 佩, and reduces the current Han inventory from 2216 to 2215. Strokes increase from eight to twelve; the user accepts the four-stroke increase for semantic sharing and fewer character types. admir remains basic with F=11; aprez remains pejvo with F=2. The existing band/priority/identifier rules give bare 赏 to admir and ᴬᴾ to aprez. The approved source displays change only these two rows among 10469. Other annotations, glosses, dictionary source text and correct learner/scholar segmentation remain unchanged. Only the current edition changes; the pre-revision legacy is fixed. Bare 赏 has changed owner from aprez to admir in the current edition. An unqualified old-current 赏-to-aprez alias would conflict and is not prescribed. 佩 may remain a safe historical complete key for admir in the app layer. The user explicitly retains arorut=葛; no 竹芋 proposal or change is applied.
