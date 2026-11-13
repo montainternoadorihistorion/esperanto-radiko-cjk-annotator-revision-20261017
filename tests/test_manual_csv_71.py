@@ -103,6 +103,8 @@ LATER_CURRENT_ASSIGNMENTS = {
     'inteligent': ('聪', '智ᴵᴳ'),
     'inund': ('淹', '洪'),
     'diluv': ('洪', '洪ᴰ'),
+    'masaĝ': ('摩', '揉ᴹ'),
+    'paŭz': ('歇', '停ᴾ'),
 }
 
 def historical_current_bytes(raw):

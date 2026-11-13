@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "inund-20261113",
+  "revision": "masag-pauz-20261114",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "dc465a008fc62731e19cb1da3fd0d1e2959e4741aa794945b4650aae8b20aa69",
+  "monaco_all_sha256": "66b58bfec2595c8f5a42787c761dfb81a22bdb3098ff480d17278679a76a68fd",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "ff23dd5c90c93bb56ce685d1961a839752c4050c79d0ac68332f9dc08f4f0970",
+  "canonical_sidecar_sha256": "07617785b58bfde52f2b45696990e694c19d62071c107b066ba62b0253e5cb0b",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -560,10 +560,18 @@
     "diluv": {
       "old": "洪",
       "current": "洪ᴰ"
+    },
+    "masaĝ": {
+      "old": "摩",
+      "current": "揉ᴹ"
+    },
+    "paŭz": {
+      "old": "歇",
+      "current": "停ᴾ"
     }
   },
-  "current_csv_sha256": "d9d585eb30b61b06976f957df69b647f4041b00ce27c757b362bd4f368737aed",
-  "current_snippet_csv_sha256": "8c1e1f8951ad118b922c7b1d00a88e64b36294e707b81f45aae110f0a69ee30b",
+  "current_csv_sha256": "505079f5a1e23864a4f73257fb5b03194f394181e51374e5f0c9cf15ea6d58e1",
+  "current_snippet_csv_sha256": "d24aebc1e0063a95bb07a12556be7c0b61d50c8a2e50eae48d94e2403811c3f0",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -614,13 +622,15 @@
     "旋ᴾᴿ": "piruet",
     "佩": "admir",
     "聪": "inteligent",
-    "淹": "inund"
+    "淹": "inund",
+    "摩": "masaĝ",
+    "歇": "paŭz"
   },
   "mirror_identifier_manifest": "data/mirror-identifiers-20261017.json",
   "mirror_identifier_manifest_sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
   "pre_mirror_csv_sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
   "current_item_count": 10640,
-  "current_csv_count": 10690,
+  "current_csv_count": 10692,
   "stafilokok_assignment_manifest": "data/stafilokok-assignment-20261017.json",
   "stafilokok_assignment_manifest_sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
   "four_shared_assignment_manifest": "data/four-shared-assignments-20261017.json",
@@ -776,5 +786,7 @@
   "inteligent_assignment_20261113_manifest": "data/inteligent_20261113.json",
   "inteligent_assignment_20261113_manifest_sha256": "eb903ac67a6e6d97f641d8cbd3f22f6d6756d40c4c581bdace11dffa62204142",
   "inund_assignment_20261113_manifest": "data/inund_20261113.json",
-  "inund_assignment_20261113_manifest_sha256": "0610e3e0d61207249a4533cc8784d79fe7dd99fa5ad0dee10779c349b55113d0"
+  "inund_assignment_20261113_manifest_sha256": "0610e3e0d61207249a4533cc8784d79fe7dd99fa5ad0dee10779c349b55113d0",
+  "masag_pauz_assignment_20261114_manifest": "data/masag_pauz_20261114.json",
+  "masag_pauz_assignment_20261114_manifest_sha256": "23432c6c8bc183c31935bb59ae82c0cca1cd51e4a1336dbdcdec74255abe4511"
 }
