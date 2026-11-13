@@ -53,7 +53,7 @@ def test_current_manifest_and_downloads_preserve_frozen_edition():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     path=app.ROOT/source['hibisk_20261102_manifest']
     manifest=json.loads(path.read_bytes())
-    assert source['revision']=='admir-20261113'
+    assert source['revision']=='inund-20261113'
     assert manifest['revision']=='2026-11-02-hibisk'
     assert manifest['changes']=={'hibisk':['芙蓉','芙']}
     assert manifest['safe_reverse_aliases']=={}

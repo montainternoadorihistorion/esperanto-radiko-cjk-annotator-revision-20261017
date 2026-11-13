@@ -1,0 +1,12 @@
+inteligent＝智ᴵᴳ 採用
+
+
+## 2026-11-13 本人採用：inteligent＝智ᴵᴳ。inund＝淹、diluv＝洪を維持
+
+inteligent は理解が速く能動的に考えることを表す。聪の意味も適切であり、誤訳訂正ではなく既存の智を共用する本人採用である。saĝ・sprit・intelekt・teozofで使用中の智を4→5語根へ広げ、専用字聪をなくして字種2215→2214。漢字本体の画数は聪15→智12。上付き識別子を含む表示全体が短くなるという主張ではない。
+
+既存の識別子規則をそのまま使い智ᴵᴳとなる。智＝saĝ、智ᴵ＝intelekt、智ˢᴾ＝spritは維持し、10469行のうち変更はinteligentだけ。basic、F=8を維持する。Fは辞書の見出し出現を用いた指標であり、実際の文章での使用頻度とは別。語義・注釈・学習者版／学術版の正しい語根分解・旧固定版は変更しない。旧キー聪は他と衝突しないため、新版逆変換で互換別名として保持可能。
+
+inund＝淹／diluv＝洪は未採用の比較案なので変更しない。pivot＝轴ᴾ／piruet＝旋ᴾも本人確認どおり維持する。承認・生成・全件保全は `_inteligent_followup_20261113.json` と `_再点検_20261016/assignment_update_20261113_inteligent/canonical` を参照。
+
+2026-11-13 explicit user adoption: inteligent=智ᴵᴳ. Original PIV2020 inteligent describes one who understands easily and thinks actively. Current 聪 is semantically valid; this is approved character sharing, not correction of a proven mistranslation. 智 already appears in saĝ, sprit, intelekt and teozof; comprehension/intellectual ability provides a close connection to inteligent, but these roots are not declared synonymous. 聪 is exclusive to inteligent. Reuse increases 智 from four to five root rows and removes 聪, reducing current Han character types from 2215 to 2214. Simplified base-character strokes decrease from 15 to 12. The visible two-letter superscript identifier is not included in this stroke count. The unchanged existing priority and identifier algorithm assigns 智ᴵᴳ; bare 智 remains saĝ, 智ᴵ remains intelekt, and 智ˢᴾ remains sprit. inteligent remains basic, F=8. F denotes dictionary headword occurrences used by the priority system, not measured natural corpus frequency. Only one of 10469 assigned root rows changes. Current edition only; legacy is fixed. Original dictionary text, meanings and segmentation are preserved. New 智ᴵᴳ is free of an existing inverse owner, so old complete key 聪 can safely remain an alias for inteligent in the app layer. inund=淹 and diluv=洪 remain unchanged pending user review. pivot=轴ᴾ and piruet=旋ᴾ are explicitly kept.

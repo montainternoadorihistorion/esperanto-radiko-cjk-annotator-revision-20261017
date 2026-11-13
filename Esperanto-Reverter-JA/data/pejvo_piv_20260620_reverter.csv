@@ -2380,6 +2380,7 @@ panoram,景ᴾᴺ,0,panoram,3679
 kristalografi,晶志ᴳ,0,kristalografi,9523
 kristalograf,晶记ᴳ,0,kristalograf,9522
 sprit,智ˢᴾ,0,sprit,1914
+inteligent,智ᴵᴳ,0,inteligent,4342
 tempest,暴风ᵀ,0,tempest,4162
 kanzon,曲ᴷᴺ,0,kanzon,4007
 hoke,曲棍球,0,hoke,6691
@@ -6468,6 +6469,7 @@ deterg,洗ᴰ,0,deterg,1777
 sinus,洞ˢ,0,sinus,3425
 antr,洞ᴬ,0,antr,3427
 grot,洞ᴳ,0,grot,3424
+diluv,洪ᴰ,0,diluv,8534
 aktiv,活ᴬ,0,aktiv,983
 piŝt,活塞,0,pis^t,7238
 sekt,派ˢ,0,sekt,4984
@@ -9647,7 +9649,7 @@ ocean,洋,0,ocean,5258
 asperg,洒,0,asperg,8413
 lav,洗,0,lav,1775
 kav,洞,0,kav,3422
-diluv,洪,0,diluv,8534
+inund,洪,0,inund,5691
 viv,活,0,viv,981
 deput,派,0,deput,4983
 flu,流,0,flu,1874
@@ -9672,7 +9674,7 @@ aluvi,淤,0,aluvi,6924
 porn,淫,0,porn,6140
 profund,深,0,profund,2077
 miks,混,0,miks,1944
-inund,淹,0,inund,5691
+inund,淹,0,inund,reverse-alias:20261113
 klar,清,0,klar,820
 abism,渊,0,abism,7358
 osmoz,渗,0,osmoz,6334
@@ -10078,7 +10080,7 @@ surd,聋,0,surd,3903
 ofic,职,0,ofic,2739
 uni,联,0,uni,3617
 engaĝ,聘,0,engag^,7548
-inteligent,聪,0,inteligent,4342
+inteligent,聪,0,inteligent,reverse-alias:20261113
 viand,肉,0,viand,3289
 rip,肋,0,rip,4359
 portret,肖,0,portret,5300

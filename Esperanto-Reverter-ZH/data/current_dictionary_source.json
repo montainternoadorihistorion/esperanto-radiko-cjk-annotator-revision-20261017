@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "admir-20261113",
+  "revision": "inund-20261113",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "db243a6527292c95b2cdf13e14d772a789728f055fb2d886d241668beab242bd",
+  "monaco_all_sha256": "dc465a008fc62731e19cb1da3fd0d1e2959e4741aa794945b4650aae8b20aa69",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "6680302c1a91fc9a502d40a791220350ee6166db501e1bcd63b3e7eaf978789b",
+  "canonical_sidecar_sha256": "ff23dd5c90c93bb56ce685d1961a839752c4050c79d0ac68332f9dc08f4f0970",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -548,10 +548,22 @@
     "aprez": {
       "old": "赏",
       "current": "赏ᴬᴾ"
+    },
+    "inteligent": {
+      "old": "聪",
+      "current": "智ᴵᴳ"
+    },
+    "inund": {
+      "old": "淹",
+      "current": "洪"
+    },
+    "diluv": {
+      "old": "洪",
+      "current": "洪ᴰ"
     }
   },
-  "current_csv_sha256": "4912ac898bf01c9af96bb11ad62dfd592302e57e262c6848a086b351983a7e7e",
-  "current_snippet_csv_sha256": "08aa25fbcbb8cf48baa4835d3f5dd7c757dd8c7d9a778bce8f67a54cc07b5a3d",
+  "current_csv_sha256": "d9d585eb30b61b06976f957df69b647f4041b00ce27c757b362bd4f368737aed",
+  "current_snippet_csv_sha256": "8c1e1f8951ad118b922c7b1d00a88e64b36294e707b81f45aae110f0a69ee30b",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -600,13 +612,15 @@
     "邀": "invit",
     "粉丝": "vermiĉel",
     "旋ᴾᴿ": "piruet",
-    "佩": "admir"
+    "佩": "admir",
+    "聪": "inteligent",
+    "淹": "inund"
   },
   "mirror_identifier_manifest": "data/mirror-identifiers-20261017.json",
   "mirror_identifier_manifest_sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
   "pre_mirror_csv_sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
   "current_item_count": 10640,
-  "current_csv_count": 10688,
+  "current_csv_count": 10690,
   "stafilokok_assignment_manifest": "data/stafilokok-assignment-20261017.json",
   "stafilokok_assignment_manifest_sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
   "four_shared_assignment_manifest": "data/four-shared-assignments-20261017.json",
@@ -670,6 +684,11 @@
     "赏": {
       "old": "aprez",
       "current": "admir",
+      "old_profile": "pre-las-20261017"
+    },
+    "洪": {
+      "old": "diluv",
+      "current": "inund",
       "old_profile": "pre-las-20261017"
     }
   },
@@ -753,5 +772,9 @@
   "vermicel_pivot_assignment_20261112_manifest": "data/vermicel_pivot_20261112.json",
   "vermicel_pivot_assignment_20261112_manifest_sha256": "8e1cf420a7e199bf06de5e2c7343b37f6726bb744452d2dc708c360c97495c7b",
   "admir_assignment_20261113_manifest": "data/admir_20261113.json",
-  "admir_assignment_20261113_manifest_sha256": "ed5bb9d96bf7dc69b8fb75896153919545f58ae397b1a94a8c60cce9c4f46580"
+  "admir_assignment_20261113_manifest_sha256": "ed5bb9d96bf7dc69b8fb75896153919545f58ae397b1a94a8c60cce9c4f46580",
+  "inteligent_assignment_20261113_manifest": "data/inteligent_20261113.json",
+  "inteligent_assignment_20261113_manifest_sha256": "eb903ac67a6e6d97f641d8cbd3f22f6d6756d40c4c581bdace11dffa62204142",
+  "inund_assignment_20261113_manifest": "data/inund_20261113.json",
+  "inund_assignment_20261113_manifest_sha256": "0610e3e0d61207249a4533cc8784d79fe7dd99fa5ad0dee10779c349b55113d0"
 }
