@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "revision": "inund-20261113",
+  "baseline_private_commit": "35301cac291ec4c82bbfb891d618a7a188939f90",
+  "changes": {
+    "inund": {
+      "old": "淹",
+      "current": "洪"
+    },
+    "diluv": {
+      "old": "洪",
+      "current": "洪ᴰ"
+    }
+  },
+  "safe_reverse_aliases": {
+    "淹": "inund"
+  },
+  "ownership_transfers": {
+    "洪": {
+      "old": "diluv",
+      "current": "inund",
+      "old_profile": "pre-las-20261017"
+    }
+  },
+  "canonical_sidecar_sha256": "ff23dd5c90c93bb56ce685d1961a839752c4050c79d0ac68332f9dc08f4f0970",
+  "monaco_all_sha256": "dc465a008fc62731e19cb1da3fd0d1e2959e4741aa794945b4650aae8b20aa69",
+  "baseline_current_csv_count": 10689,
+  "current_csv_count": 10690,
+  "rationale": "User explicitly adopted inund=洪 and diluv=洪ᴰ and accepted the old/new bare 洪 inverse ownership impact. Share an existing flood character and remove sole-use 淹. Preserve safe 淹-to-inund inverse alias, never competing current 洪-to-diluv. Fixed legacy, inteligent=智ᴵᴳ/聪, annotations and segmentation stay unchanged.",
+  "fixed_legacy_unchanged": true,
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true
+}

@@ -101,6 +101,8 @@ LATER_CURRENT_ASSIGNMENTS = {
     'admir': ('佩', '赏'),
     'aprez': ('赏', '赏ᴬᴾ'),
     'inteligent': ('聪', '智ᴵᴳ'),
+    'inund': ('淹', '洪'),
+    'diluv': ('洪', '洪ᴰ'),
 }
 
 def historical_current_bytes(raw):

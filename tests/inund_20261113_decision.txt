@@ -1,0 +1,12 @@
+inund＝洪、diluv＝洪ᴰ 採用
+
+
+## 2026-11-13 本人採用：inund＝洪、diluv＝洪ᴰ。無印洪の新版での所有変更を含む
+
+inund の氾濫・水浸しと diluv の大洪水を洪で共用する。現行淹の字義も適切なので誤訳訂正ではなく、意味の近い2語根の共用と専用字削減の採用。洪1→2語根、淹1→0語根、使用字種2214→2213。inundの漢字本体11→9画。F=3/2は辞書見出し数由来の指標であり文章頻度ではない。
+
+既存識別子計算器を変更せず、basicのinundに無印洪、pejvoのdiluvに洪ᴰを割り当てる。変更は10469行中この2行だけ。inteligent＝智ᴵᴳと智系列・他の採用済み割当を保持。語義注釈と学習者版／学術版の正しい分解は不変。
+
+固定旧版の洪→diluv／淹→inundは維持。新版は洪→inund／洪ᴰ→diluv。新版で競合する旧洪→diluvの別名は作らず、安全な旧淹→inundは保持できる。中間版を追加しない。直前のinteligent採用台帳にあるinund/diluv保留は今回の明示採用でこの2件だけを更新するが、台帳本体と過去履歴は一切書き換えない。承認と全件検証は `_inund_followup_20261113.json` と `_再点検_20261016/assignment_update_20261113_inund/canonical` を参照。
+
+2026-11-13 explicit user adoption: inund=洪 and linked diluv=洪ᴰ, including the current bare 洪 inverse ownership change from diluv to inund. inund means covering land or other things with overflowing water; diluv refers primarily to the Biblical deluge and figuratively a great flood. The existing dictionary explicitly relates diluvo to inundego. The existing 淹 is a valid direct expression of covering/submerging in water, so this is adopted semantic sharing and character reduction, not correction of a proven mistranslation. Before this adoption 洪 appears only in diluv and 淹 only in inund: these are root-assignment counts, not prose frequency. 洪 rises from one to two root rows and 淹 disappears, lowering the current inventory from 2214 to 2213. Base strokes for inund decrease from eleven to nine. inund remains basic/F=3 and diluv pejvo/F=2; F is a dictionary-headword-derived genericity measure, not a natural corpus token frequency. The unchanged priority/identifier algorithm assigns bare 洪 to inund and 洪ᴰ to diluv; no manual identifier override. Only these two of 10469 root rows change. All source annotations, glossary meanings and correct learner/scholar segmentation remain unchanged. inteligent=智ᴵᴳ and all existing 智 group owners remain as adopted. Fixed pre-revision legacy remains 洪=diluv and 淹=inund. Current 洪 means inund, 洪ᴰ means diluv. Old-current bare 洪 cannot safely be retained as an alias for diluv because it collides with the current assignment. Old complete key 淹 can safely remain an inverse alias for inund. No extra intermediate edition is introduced. The earlier explicit hold for inund/diluv recorded in _inteligent_followup_20261113.json is superseded only for these two roots by this new approval; the earlier ledger itself remains byte-identical.

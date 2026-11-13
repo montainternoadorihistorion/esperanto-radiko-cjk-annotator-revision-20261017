@@ -11,7 +11,7 @@ SUFFIXES=('', 'o','on','oj','ojn','a','aj','ajn','e','i','as','is','os','us','u'
 def index(edition):return app.build_mapping_index_cached(app.effective_mapping_records(edition,app.load_dictionary_source(edition)))
 @pytest.mark.parametrize('suffix',SUFFIXES)
 def test_current_new_key_safe_old_key_and_unchanged_owners(suffix):
-    for body,root in [('智ᴵᴳ','inteligent'),('聪','inteligent'),('智','saĝ'),('智ᴵ','intelekt'),('智ˢᴾ','sprit'),('神智','teozof'),('淹','inund'),('洪','diluv')]:
+    for body,root in [('智ᴵᴳ','inteligent'),('聪','inteligent'),('智','saĝ'),('智ᴵ','intelekt'),('智ˢᴾ','sprit'),('神智','teozof'),('淹','inund'),('洪','inund'),('洪ᴰ','diluv')]:
         assert app.convert_kanji_esperanto_to_alphabet(body+suffix,index(CURRENT))==root+suffix
 @pytest.mark.parametrize('suffix',SUFFIXES)
 def test_legacy_original_owners(suffix):
@@ -56,7 +56,7 @@ def test_html_recorded_source_and_edition_are_preserved(edition,mode):
 
 def test_current_revision_no_ownership_transfer_or_extra_edition():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
-    assert source['revision']=='inteligent-20261113'
-    assert source['current_item_count']==10640 and source['current_csv_count']==10689
+    assert source['revision']=='inund-20261113'
+    assert source['current_item_count']==10640 and source['current_csv_count']==10690
     assert source['reverse_only_aliases']['聪']=='inteligent'
-    assert all(key not in source['ownership_transfers'] for key in ('智','智ᴵ','智ᴵᴳ','聪','洪','淹'))
+    assert all(key not in source['ownership_transfers'] for key in ('智','智ᴵ','智ᴵᴳ','聪','淹'))
