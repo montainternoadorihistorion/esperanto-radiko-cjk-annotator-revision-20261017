@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "revision": "admir-20261113",
+  "baseline_private_commit": "8db38c98c6ce87cd1eb95a84a828db75bf9b8032",
+  "changes": {
+    "admir": {
+      "old": "佩",
+      "current": "赏"
+    },
+    "aprez": {
+      "old": "赏",
+      "current": "赏ᴬᴾ"
+    }
+  },
+  "safe_reverse_aliases": {
+    "佩": "admir"
+  },
+  "ownership_transfers": {
+    "赏": {
+      "old": "aprez",
+      "current": "admir",
+      "old_profile": "pre-las-20261017"
+    }
+  },
+  "canonical_sidecar_sha256": "6680302c1a91fc9a502d40a791220350ee6166db501e1bcd63b3e7eaf978789b",
+  "monaco_all_sha256": "db243a6527292c95b2cdf13e14d772a789728f055fb2d886d241668beab242bd",
+  "baseline_current_csv_count": 10687,
+  "current_csv_count": 10688,
+  "rationale": "User adopted 赏 for admir to share a known appreciation character. The existing identifier algorithm reallocates aprez to 赏ᴬᴾ. Keep safe 佩-to-admir alias; no conflicting 赏-to-aprez current alias. The original legacy edition remains byte-identical; no intermediate edition is introduced.",
+  "fixed_legacy_unchanged": true,
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true
+}
