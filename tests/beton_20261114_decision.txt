@@ -1,0 +1,16 @@
+beton＝混凝土 採用／tiroid＝甲状 維持
+
+
+## 2026-11-14 本人採用：beton＝混凝土／維持：tiroid＝甲状
+
+betonはコンクリートという建設材料を指す。混は材料の混合、凝は固まることを表すが、物の名称として認識しやすくするため、中国語の既成名称「混凝土」に揃える。土は材料名を完成させる手掛かりであり、普通の土が必須原料という説明ではない。本人は、物や名称を動作そのものと区別して捉えやすいことを重視した。従来の混凝の二字に意味がなかったという判断ではない。
+
+前回採用のsakristi＝圣器室、sambuk＝接骨木は既に正本へ反映済みで、今回も維持を確認した。tiroidは「甲状」だけで腺を思い浮かべられるという本人判断に従い維持。甲状腺への比較案は採用しない。tire＝甲状ᵀᴱなど関連表記・識別子も変えない。
+
+漢字本体は混凝27→混凝土30画。上付き識別子を画数に含めない。混6→6、凝8→8、土14→15語根で共用し、使用漢字は2,208種類のまま。これらは正本の割当先数であり自然文頻度ではない。betonのpejvo、F=11（辞書見出し数由来の優先度入力）を維持する。元の識別子生成器による全10,469行の再計算でbetonだけが無印の混凝土となり、他10,468行と既存の区切り・語義注釈・分解マーカーは保持する。過去41件の採用・同期台帳は再編集しない。
+
+固定旧版は混凝を維持し、新版でも旧完全キー混凝→betonは競合しないため互換別名として残せる。新版の新しい長いキーにより、試験文字列混凝土oは従来のbetongrundoからbetonoへ読まれる。これは識別子所有者の移動ではなく複合連結の表記共用であり、旧コーパスにこの試験文字列が実在したと確認したわけではない。固定旧版は従来の読みを保持し、中間版は増やさない。
+
+根拠と正本検証は `_beton_followup_20261114.json` および `_再点検_20261016/assignment_update_20261114_beton/canonical` を参照。アプリ・逆変換・Cloudの実反映は別の検証記録で確認する。
+
+2026-11-14 explicit user adoption: beton=混凝土. Previously adopted sakristi=圣器室 and sambuk=接骨木 are reaffirmed, and tiroid=甲状 is explicitly maintained. The user values distinguishing concrete things and named objects from bare action-like expressions. Beton denotes concrete, the construction material, not merely mixing and solidifying. 混 denotes mixture, 凝 denotes setting/hardening, and 土 completes the established Chinese material name 混凝土. 土 is a material-name cue and does not claim that ordinary soil is a necessary ingredient. The original 混凝 characters both contribute meaning; this is not a blanket rule against short compounds. The accepted third character improves recognition of the physical material and existing name. The user judges 甲状 already sufficient to evoke the gland, so no 腺 is added and the tiroid/tire identifiers remain unchanged. Base stroke count rises 27→30, excluding superscript identifiers. Assigned-root counts 混6→6, 凝8→8, 土14→15; character inventory remains 2208, with no new or removed character types. These counts are allocation counts, not natural-text frequency. Priority band pejvo and dictionary-headword-derived F=11 are preserved. The original priority and identifier algorithms are unchanged. Beton has no identifier before or after. Only one of 10469 displayed root rows changes; all other 10468 rows and identifiers are preserved, including sakristi, sambuk, svarm, tiroid, tire and their derived forms. Original annotations, dictionary meanings, segmentation and markers remain unchanged. Fixed legacy stays 混凝. Current inverse conversion can retain the complete old key 混凝→beton as a compatibility alias because no complete-key owner conflicts with it. The new longer key changes a possible concatenation reading: 混凝土o formerly yields betongrundo (beton+grund+o), whereas revised current data yields betono. This is a hypothetical string example, not an attested corpus sentence. It is concatenation ambiguity, not identifier owner reassignment. Fixed legacy continues the old reading; no intermediate third edition is introduced. All 41 previous adoption/synchronization ledgers remain byte-for-byte unchanged. This ledger concerns canonical data; actual app regeneration, reverse alias preservation and Cloud checks are recorded separately.

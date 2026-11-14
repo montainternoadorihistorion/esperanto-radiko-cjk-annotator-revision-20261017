@@ -110,6 +110,7 @@ LATER_CURRENT_ASSIGNMENTS = {
     'sakristi': ('圣器', '圣器室'),
     'sambuk': ('接骨', '接骨木'),
     'svarm': ('拥', '群ˢ'),
+    'beton': ('混凝', '混凝土'),
 }
 
 def historical_current_bytes(raw):

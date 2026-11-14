@@ -28,7 +28,7 @@ TARGETS.update({"krep", "difrakt", "mortez", "meger"})
 TARGETS.update({"risort", "anc^", "lantern", "lubrik"})
 TARGETS.update({"uve", "uveit"})
 TARGETS.update({"psitak", "uv", "limon", "limonad"})
-TARGETS.update(({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|({'anksi'}|({'ŝtip','pensi','sankci'}|({'almenaŭ','forniks','karen','naŭz'}|({'armatur','arund','donak','androzac','armoraci','diktamn'}|({'letargi'}|({'madz','tribord'}|({'s^malc','sfeg','simuli'}|(({'klarion','stal','fuz','ligatur','eu^fori','sofism','hibisk','slum','mastik','ekspektor','kokle','arbitr','eklektik','kalejdoskop','streb','vind','steg','fotel','deprim','kompuls','langvor','setl','infest','frog','mitoz','kariokinez','ambl','spekulativ','invit','nefrit','vermic^el','pivot','piruet','admir','aprez','inteligent','inund','diluv','masaĝ','paŭz','gajn','sor','sakristi','sambuk','svarm'}|{'instig', 'karoten', 'psilofit', 'panak', 'pense', 'karot', 'pasiflor', 'ginseng', 'delic', 'delekt', 'elegi'})|{'agorafobi','fob','fobi','hidrofob','hidrofobi','ksenofob','ksenofobi','simptom','simptomologi','sozi'}))))))))))))  # later user-approved six assignments
+TARGETS.update(({'bedaŭr','raŭk','buf','lofi','aŭtomat','au^tomaci'}|({'mikrob','mikrobicid','mikrobologi','diafragm'}|({'tril','sfinks','alcion','alced'}|({'anksi'}|({'ŝtip','pensi','sankci'}|({'almenaŭ','forniks','karen','naŭz'}|({'armatur','arund','donak','androzac','armoraci','diktamn'}|({'letargi'}|({'madz','tribord'}|({'s^malc','sfeg','simuli'}|(({'klarion','stal','fuz','ligatur','eu^fori','sofism','hibisk','slum','mastik','ekspektor','kokle','arbitr','eklektik','kalejdoskop','streb','vind','steg','fotel','deprim','kompuls','langvor','setl','infest','frog','mitoz','kariokinez','ambl','spekulativ','invit','nefrit','vermic^el','pivot','piruet','admir','aprez','inteligent','inund','diluv','masaĝ','paŭz','gajn','sor','sakristi','sambuk','svarm','beton'}|{'instig', 'karoten', 'psilofit', 'panak', 'pense', 'karot', 'pasiflor', 'ginseng', 'delic', 'delekt', 'elegi'})|{'agorafobi','fob','fobi','hidrofob','hidrofobi','ksenofob','ksenofobi','simptom','simptomologi','sozi'}))))))))))))  # later user-approved six assignments
 
 
 def mapping(source_id):
@@ -45,7 +45,7 @@ def test_historical_csv_is_byte_exact_and_only_target_rows_changed():
     old = csv_rows(app.PRE_LAS_20261017_CSV)
     new = csv_rows(app.PEJVO_PIV_20260620_CSV)
     assert len(old) == 10636
-    assert len(new) == MIRROR["current_csv_count"] + 53  # dot/greft aliases and sperm root/aliases and satir aliases, nostalgi/onk/fortres/mirrors, sutur/fraj, krep/difrakt/mortez/meger, protez/ranc, stafilokok, four shared assignments, uve/uveit, observatori, and three-short aliases
+    assert len(new) == MIRROR["current_csv_count"] + 54  # dot/greft aliases and sperm root/aliases and satir aliases, nostalgi/onk/fortres/mirrors, sutur/fraj, krep/difrakt/mortez/meger, protez/ranc, stafilokok, four shared assignments, uve/uveit, observatori, and three-short aliases
     assert [r for r in old if r["source_root"] not in TARGETS] == [r for r in new if r["source_root"] not in TARGETS]
     assert {r["esperanto"]: r["kanji"] for r in new if r["source_root"] in {"las", "emancip"}} == {"las": "放", "emancip": "放ᴱ"}
 
