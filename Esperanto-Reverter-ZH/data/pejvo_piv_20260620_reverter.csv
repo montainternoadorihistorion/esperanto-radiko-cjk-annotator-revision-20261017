@@ -2759,6 +2759,7 @@ limfat,淋ᴸᵀ,0,limfat,4277
 flegm,淡ᶠᴸ,0,flegm,6514
 pornografi,淫志ᴳ,0,pornografi,10331
 pornograf,淫记ᴳ,0,pornograf,10330
+beton,混凝土,0,beton,6190
 oratori,清唱剧,0,oratori,7786
 osmozmetr,渗计ᴹ,0,osmozmetr,9770
 kanalizaci,渠ᴷᶻ,0,kanalizaci,5707
@@ -6531,7 +6532,7 @@ obscen,淫ᴼ,0,obscen,6141
 karmezin,深红,0,karmezin,7800
 sinkret,混ˢ,0,sinkret,1945
 kaos,混乱,0,kaos,7983
-beton,混凝,0,beton,6190
+beton,混凝,0,beton,reverse-alias:20261114
 likvid,清ᴸ,0,likvid,822
 net,清ᴺ,0,net,821
 puritan,清教,0,puritan,7214

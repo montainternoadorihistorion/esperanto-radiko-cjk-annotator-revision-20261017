@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "revision": "beton-20261114",
+  "baseline_private_commit": "6ad42dc468dd81c095a59d5683c38680b17ac6a8",
+  "changes": {
+    "beton": {
+      "old": "混凝",
+      "current": "混凝土"
+    }
+  },
+  "safe_reverse_aliases": {
+    "混凝": "beton"
+  },
+  "ownership_transfers": {},
+  "maintained": {
+    "sakristi": "圣器室",
+    "sambuk": "接骨木",
+    "tiroid": "甲状"
+  },
+  "canonical_sidecar_sha256": "976c58c0858f485032f0c383dc28c356478c0db1a3634f370c79c15711303fd0",
+  "monaco_all_sha256": "aede435a61ec27420cbf59e43740ceeed36144089c74f592363ec870da62ddfc",
+  "baseline_current_csv_count": 10697,
+  "current_csv_count": 10698,
+  "rationale": "The user adopted beton=混凝土: 土 identifies the concrete material and preserves the established Chinese name. Keep earlier sakristi=圣器室 and sambuk=接骨木, and tiroid=甲状. Preserve safe old 混凝 inverse alias, all identifiers, fixed legacy, annotations and segmentation.",
+  "fixed_legacy_unchanged": true,
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true,
+  "known_compound_ambiguity": {
+    "混凝土o": [
+      "betongrundo",
+      "betono"
+    ]
+  }
+}

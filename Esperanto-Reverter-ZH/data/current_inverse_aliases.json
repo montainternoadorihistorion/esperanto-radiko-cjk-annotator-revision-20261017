@@ -2,8 +2,8 @@
   "schema_version": 1,
   "revision": "current-compound-inverse-20261018-v3",
   "source_id": "pejvo-piv-20260620",
-  "dictionary_revision": "sakristi-sambuk-svarm-20261114",
-  "current_csv_sha256": "708bfe58b27bca13f0e410eac29f809302276c80bdf61ac0da2e45d02658ecd8",
+  "dictionary_revision": "beton-20261114",
+  "current_csv_sha256": "4edc3acca5e131ea7e4ce23366f12a2b0671d27eeca5c952612a32ba71241bd7",
   "required_canonical_owner": {
     "kanji": "丸ᴼ炎ᵀ",
     "esperanto": "orkidit"

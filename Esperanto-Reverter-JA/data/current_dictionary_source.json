@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "sakristi-sambuk-svarm-20261114",
+  "revision": "beton-20261114",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "4d829d9dc339a341b51c3e1866d06304f36ec596472a362eeabd7644b4af28db",
+  "monaco_all_sha256": "aede435a61ec27420cbf59e43740ceeed36144089c74f592363ec870da62ddfc",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "b4aa7fc7fa3b82b5c69dc017eda94468b99f950ee28c7177938b504a7dd9c0d7",
+  "canonical_sidecar_sha256": "976c58c0858f485032f0c383dc28c356478c0db1a3634f370c79c15711303fd0",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -588,10 +588,14 @@
     "svarm": {
       "old": "拥",
       "current": "群ˢ"
+    },
+    "beton": {
+      "old": "混凝",
+      "current": "混凝土"
     }
   },
-  "current_csv_sha256": "708bfe58b27bca13f0e410eac29f809302276c80bdf61ac0da2e45d02658ecd8",
-  "current_snippet_csv_sha256": "30e92091cb9429c975badd42c4984cd7d680066f3bd3092866354f61805cd78c",
+  "current_csv_sha256": "4edc3acca5e131ea7e4ce23366f12a2b0671d27eeca5c952612a32ba71241bd7",
+  "current_snippet_csv_sha256": "57c88cc973a6b454d76dae36c582f99a4c7383761e67bff54de5761377c248d3",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -649,13 +653,14 @@
     "腾": "sor",
     "圣器": "sakristi",
     "接骨": "sambuk",
-    "拥": "svarm"
+    "拥": "svarm",
+    "混凝": "beton"
   },
   "mirror_identifier_manifest": "data/mirror-identifiers-20261017.json",
   "mirror_identifier_manifest_sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
   "pre_mirror_csv_sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
   "current_item_count": 10640,
-  "current_csv_count": 10697,
+  "current_csv_count": 10698,
   "stafilokok_assignment_manifest": "data/stafilokok-assignment-20261017.json",
   "stafilokok_assignment_manifest_sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
   "four_shared_assignment_manifest": "data/four-shared-assignments-20261017.json",
@@ -817,5 +822,7 @@
   "gajn_sor_assignment_20261114_manifest": "data/gajn_sor_20261114.json",
   "gajn_sor_assignment_20261114_manifest_sha256": "b513b2cdbee178feec37ac89d62a3d2d797d09a9a22faf58149853d7e2b3db55",
   "sakristi_sambuk_svarm_assignment_20261114_manifest": "data/sakristi_sambuk_svarm_20261114.json",
-  "sakristi_sambuk_svarm_assignment_20261114_manifest_sha256": "23fe3ea630430b914befef8b0242057cb1ccf567ba0f6c4784897568210c5f46"
+  "sakristi_sambuk_svarm_assignment_20261114_manifest_sha256": "23fe3ea630430b914befef8b0242057cb1ccf567ba0f6c4784897568210c5f46",
+  "beton_assignment_20261114_manifest": "data/beton_20261114.json",
+  "beton_assignment_20261114_manifest_sha256": "de08e2f858ae00975ab5356e88f421eb38562da75d84ac0235cf1a203bf18a4f"
 }

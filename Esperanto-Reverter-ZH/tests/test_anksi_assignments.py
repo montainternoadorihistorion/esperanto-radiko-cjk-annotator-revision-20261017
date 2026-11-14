@@ -51,7 +51,7 @@ def test_current_manifest_downloads_group_metadata_and_frozen_legacy():
     source = json.loads((app.ROOT / "data/current_dictionary_source.json").read_bytes())
     path = app.ROOT / source["anksi_manifest"]
     manifest = json.loads(path.read_bytes())
-    assert source["revision"] == "sakristi-sambuk-svarm-20261114"
+    assert source["revision"] == "beton-20261114"
     assert manifest["revision"] == "2026-10-24-anksi"
     assert manifest["changes"] == {"anksi": ["忧虑", "忧ᴬᴷ"]}
     assert manifest["safe_reverse_aliases"] == manifest["ownership_transfers"] == {}
@@ -65,7 +65,7 @@ def test_current_manifest_downloads_group_metadata_and_frozen_legacy():
         row = next(r for r in monaco["items"] if r["sourceRoot"] == root)
         assert row["body"] == expected and "\nグループ数: 2\n" in row["documentation"]
     rows = list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding="utf-8"))))
-    assert len(rows) == 10697
+    assert len(rows) == 10698
     assert [r["kanji"] for r in rows if r["source_root"] == "anksi"] == ["忧ᴬᴷ"]
     full, two = app.edition_download_data(CURRENT)
     assert hashlib.sha256(full).hexdigest() == source["current_csv_sha256"]

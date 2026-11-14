@@ -56,8 +56,8 @@ def test_html_recovers_original_despite_changed_plain_key_owner(edition,mode):
 
 def test_current_revision_and_explicit_owner_transfer():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
-    assert source['revision']=='sakristi-sambuk-svarm-20261114'
-    assert source['current_item_count']==10640 and source['current_csv_count']==10697
+    assert source['revision']=='beton-20261114'
+    assert source['current_item_count']==10640 and source['current_csv_count']==10698
     assert source['reverse_only_aliases']['淹']=='inund' and source['reverse_only_aliases']['聪']=='inteligent'
     assert '洪' not in source['reverse_only_aliases']
     assert source['ownership_transfers']['洪']=={'old':'diluv','current':'inund','old_profile':LEGACY}
