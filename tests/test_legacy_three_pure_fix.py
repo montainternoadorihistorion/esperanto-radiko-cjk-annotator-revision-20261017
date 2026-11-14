@@ -29,8 +29,11 @@ def read_raw(path):
 
 
 def prior_pure(path):
+    """All other approved corrections, without the three under this test."""
     global_rules, local_rules, two_rules = read_raw(path)
-    return editions._with_reviewed_pure_corrections(global_rules, local_rules), local_rules, two_rules
+    global_rules = editions._with_reviewed_pure_corrections(global_rules, local_rules)
+    global_rules = editions._with_svarmaj_reviewed_pure_corrections(global_rules, local_rules)
+    return global_rules, local_rules, two_rules
 
 
 def render(text, lists, parallel=False):
@@ -113,6 +116,18 @@ class LegacyThreePureTests(unittest.TestCase):
                 path = editions.resolve_path(DATA, "pure", edition)
                 before = prior_pure(path)
                 after = editions.load_lists_path(path)
+                # Do not silently ignore later corrections: independently
+                # constrain their exact words, glyphs, boundaries and tokens.
+                svarmaj_forms = (("svarmaj", "aj"), ("Svarmaj", "aj"), ("SVARMAJ", "AJ"),
+                                 ("svarmajn", "ajn"), ("Svarmajn", "ajn"), ("SVARMAJN", "AJN"))
+                svarmaj_tokens = {f"${9140000 + index}$" for index in range(6)}
+                glyph = "群ˢ" if edition == "current" else "拥"
+                expected_svarmaj = [[" " + word + " ", " " + glyph + ending + " ", f" ${9140000 + index}$ "]
+                                    for index, (word, ending) in enumerate(svarmaj_forms)]
+                for lists in (before, after):
+                    self.assertCountEqual([row for row in lists[0] if row[2].strip() in svarmaj_tokens],
+                                          expected_svarmaj)
+                self.assertEqual(len(after[0]) - len(before[0]), 3 if edition == "legacy" else 0)
                 self.assertEqual([row for row in after[0] if row[2].strip() not in TOKENS], before[0])
                 self.assertEqual(after[1:], before[1:])
                 previous = render(source, before).splitlines()
@@ -138,7 +153,10 @@ class LegacyThreePureTests(unittest.TestCase):
         self.assertEqual(render(source, lists), expected)
         self.assertEqual(render(source, lists, parallel=True), expected)
         # Direct inverse remains unchanged, including intentional collisions.
-        sys.path.insert(0, str(ROOT / "Esperanto-Reverter-JA"))
+        inverse_dir = ROOT / "Esperanto-Reverter-JA"
+        if not inverse_dir.exists():
+            inverse_dir = ROOT.parent / "kanjized-esperanto-reverter"
+        sys.path.insert(0, str(inverse_dir))
         import esperanto_converter as inverse
         edition_id = "pre-las-20261017"
         mapping = inverse.effective_mapping_records(edition_id, inverse.load_dictionary_source(edition_id))

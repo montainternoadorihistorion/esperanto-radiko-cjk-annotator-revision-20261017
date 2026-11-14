@@ -121,6 +121,43 @@ def _with_legacy_reviewed_pure_corrections(global_rules, local_rules):
     return _insert_reviewed_pure_corrections(global_rules, corrections)
 
 
+# Exact reviewed adjective forms only: the earlier varmaj substring rule must
+# not consume the prefix of svarmaj/svarmajn in ordinary pure replacement.
+# Keep all other inflections, compounds, @ rules and custom JSON unchanged.
+SVARMAJ_REVIEWED_PURE_FORMS = (
+    ("svarmaj", "svarm", "aj"), ("Svarmaj", "Svarm", "aj"),
+    ("SVARMAJ", "SVARM", "AJ"), ("svarmajn", "svarm", "ajn"),
+    ("Svarmajn", "Svarm", "ajn"), ("SVARMAJN", "SVARM", "AJN"),
+)
+
+
+def _with_svarmaj_reviewed_pure_corrections(global_rules, local_rules):
+    """Render six reviewed whole-word pure forms using existing svarm atoms.
+
+    Glyphs and identifiers come from the selected edition's local atoms.
+    These boundary-only additions do not rewrite or remove existing entries;
+    longer entries retain precedence and later user overlays can override.
+    """
+    needed = {root for _, root, _ in SVARMAJ_REVIEWED_PURE_FORMS}
+    roots = {}
+    for old, new, _ in local_rules:
+        if old in needed:
+            if not isinstance(new, str) or not new or (old in roots and roots[old] != new):
+                raise ValueError("Conflicting or empty reviewed svarmaj root: " + old)
+            roots[old] = new
+    if set(roots) != needed:
+        raise ValueError("Missing reviewed svarmaj roots: " + repr(sorted(needed - roots.keys())))
+    used = {rule[2].strip() for rules in (global_rules, local_rules) for rule in rules}
+    corrections = []
+    for index, (word, root, ending) in enumerate(SVARMAJ_REVIEWED_PURE_FORMS):
+        token = f"${9140000 + index}$"
+        if token in used:
+            raise ValueError("Reviewed svarmaj placeholder is already in use: " + token)
+        rendered = roots[root] + ending
+        corrections.append((word, [" " + word + " ", " " + rendered + " ", " " + token + " "]))
+    return _insert_reviewed_pure_corrections(global_rules, corrections)
+
+
 def _insert_reviewed_pure_corrections(global_rules, corrections):
 
     # Compute positions against the original ordering, then insert together.
@@ -206,6 +243,7 @@ def _load_lists_cached(path, stamp):
     local_rules = payload.get(LOCAL, [])
     if _is_bundled_pure_path(path):
         global_rules = _with_reviewed_pure_corrections(global_rules, local_rules)
+        global_rules = _with_svarmaj_reviewed_pure_corrections(global_rules, local_rules)
     if _is_bundled_legacy_pure_path(path):
         global_rules = _with_legacy_reviewed_pure_corrections(global_rules, local_rules)
     return global_rules, local_rules, payload.get(TWO, [])
