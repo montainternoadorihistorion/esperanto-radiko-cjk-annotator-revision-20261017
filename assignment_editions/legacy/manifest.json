@@ -5,7 +5,7 @@
   "sidecar_sha256": "8ee9e27651413f87f1404eb5c328e7ad8ba4bda3be61a442ac9585911a4a9600",
   "master_sha256": "8260593759caf4403e61e88ba54b15eb4486dd499467aff8db95cf8058ec50f8",
   "canonical_roots": 10467,
-  "policy": "Fixed before the first las assignment change. Ordinary rules and identifiers are historical. Only ten confirmed stale @ labels and corresponding manual CSV cells are aligned to that same old canonical table. Current annotations and engine fixes are shared.",
+  "policy": "Fixed before the first las assignment change. Ten confirmed stale @ labels and one confirmed ven generation defect are aligned to the same old canonical table. Assignments, identifiers, rule keys/order/placeholders remain historical. Current annotations and engine fixes are shared.",
   "newly_assigned_roots_absent": [
     "prioritat",
     "spermatozo"
@@ -53,7 +53,7 @@
     }
   },
   "preserved_existing_differences": {
-    "inflection_or_forced_decomposition": 42,
+    "inflection_or_forced_decomposition": 41,
     "homograph_sense": 9
   },
   "known_reverse_missing_canonical_roots": [
@@ -89,10 +89,10 @@
     },
     {
       "path": "legacy/JA/kanji.json.gz",
-      "sha256": "215f0c297bf73efe29f4b323a982adb63a181d42e202dbed63f52c954baeb0fe",
-      "decoded_sha256": "9828f0c55f4853bb4b3c7c49cd7e05b9313679ca5e97f81282f024ba8fde177a",
-      "bytes": 6384631,
-      "decoded_bytes": 57346836,
+      "sha256": "6eb499e70b3b9d4de661665043f2bc0b5dfd7c61969ff5de907592500f3414be",
+      "decoded_sha256": "a0e5a7d2fe90acd3ab104b2690e482657d60df2608503bc88e39c59985205e14",
+      "bytes": 6384619,
+      "decoded_bytes": 57346806,
       "role": "kanji",
       "lang": "JA",
       "source_git_path": "語根分解、注釈ルビ振り、漢字化アプリ徹底ブラッシュアップ20260630/Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
@@ -101,9 +101,9 @@
       "groups": {
         "全域替换用のリスト(列表)型配列(replacements_final_list)": {
           "rows": 517442,
-          "changed": 0,
+          "changed": 3,
           "source_rows_sha256": "9178d66a8c5872ac8ba90e8232bdbb568e335009a7bf987a87c8e07aa9a95892",
-          "decoded_rows_sha256": "9178d66a8c5872ac8ba90e8232bdbb568e335009a7bf987a87c8e07aa9a95892",
+          "decoded_rows_sha256": "e4418d9cd44d8a4cb3b833cdd7dca11baac3bbb782c948cb0c98868b74ba8d13",
           "identities_sha256": "14ac6331c9e030078b83b47cf0e76b5310f2f3ac92d4c8e49b8f281329cfded7"
         },
         "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
@@ -115,19 +115,19 @@
         },
         "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
           "rows": 31210,
-          "changed": 30,
+          "changed": 33,
           "source_rows_sha256": "cadc05242120cca503a6622c8eed7b543d1ef354c7d48ad60f99fafc77000ff3",
-          "decoded_rows_sha256": "f1f6f4a983cbe9044d1945cb183249b5371f8175de904c3fed8d22315a450aef",
+          "decoded_rows_sha256": "03911fe9cca568b204ceba0969d9522b1286aed368039ed0ca167e30d734b636",
           "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
         }
       }
     },
     {
       "path": "legacy/JA/pure.json.gz",
-      "sha256": "3ef2efd50fbb13a834f7421c3e85bd406d2926dd304028b19e1de3264ec3fb40",
-      "decoded_sha256": "3a8153310fc09a324a9c62ad8d49aec98d9031e34ef825030ae98726d2e0ca56",
-      "bytes": 4169688,
-      "decoded_bytes": 21489132,
+      "sha256": "92b807083dde178214c3a0deb277ca75515dae62a8b9ce4fbb08b1d541b3ba1c",
+      "decoded_sha256": "f6d22b102fee40e9795c27d6f0e078b456726e11f06f0434a272981803b494f2",
+      "bytes": 4169679,
+      "decoded_bytes": 21489108,
       "role": "pure",
       "lang": "JA",
       "source_git_path": "語根分解、注釈ルビ振り、漢字化アプリ徹底ブラッシュアップ20260630/Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
@@ -148,10 +148,10 @@
     },
     {
       "path": "legacy/ZH/kanji.json.gz",
-      "sha256": "f05e779677489ebcf5d00b00389e841eb89cc8bf7af87bbf1d1e65309c0fd594",
-      "decoded_sha256": "f6e02a9f55d57b66c0dbbb1c19ff1bda4b2ffe4df850c8763bdadf328f09fae4",
-      "bytes": 6385065,
-      "decoded_bytes": 57354902,
+      "sha256": "9f5fc98b84d696bab738c80bba4a25499e5b140be01a9cb91b11bf6422868ed1",
+      "decoded_sha256": "25cef013c4564c80508420aecdb2f6b20269e6416aaa00fec05b629acc613e63",
+      "bytes": 6385056,
+      "decoded_bytes": 57354872,
       "role": "kanji",
       "lang": "ZH",
       "source_git_path": "語根分解、注釈ルビ振り、漢字化アプリ徹底ブラッシュアップ20260630/Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
@@ -160,9 +160,9 @@
       "groups": {
         "全域替换用のリスト(列表)型配列(replacements_final_list)": {
           "rows": 517442,
-          "changed": 0,
+          "changed": 3,
           "source_rows_sha256": "d04d05cac9caa1769ca18f6cda8031e857d9574c95d65cd2a1f616dbd0b6a793",
-          "decoded_rows_sha256": "d04d05cac9caa1769ca18f6cda8031e857d9574c95d65cd2a1f616dbd0b6a793",
+          "decoded_rows_sha256": "9b558900a098e29af7d0abfaea92696753778dd168e537abf0f1e13d04d5f87f",
           "identities_sha256": "30f78d6ac597d122004c31db67fe73340c8c1b81d0823a27973404b7a1632dfb"
         },
         "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
@@ -174,9 +174,9 @@
         },
         "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
           "rows": 31210,
-          "changed": 30,
+          "changed": 33,
           "source_rows_sha256": "cadc05242120cca503a6622c8eed7b543d1ef354c7d48ad60f99fafc77000ff3",
-          "decoded_rows_sha256": "f1f6f4a983cbe9044d1945cb183249b5371f8175de904c3fed8d22315a450aef",
+          "decoded_rows_sha256": "03911fe9cca568b204ceba0969d9522b1286aed368039ed0ca167e30d734b636",
           "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
         }
       }
@@ -195,10 +195,10 @@
     },
     {
       "path": "legacy/KO/kanji.json.gz",
-      "sha256": "8005ecf215185aa8fe9b8f482305f9fb1ec17aaf0d1c9c4fbbbb7928ef97508c",
-      "decoded_sha256": "6ed899f1da480bc5387c8a8ba8ef730348c786e5983acef2f9e57709904c6fcd",
-      "bytes": 6385064,
-      "decoded_bytes": 57354902,
+      "sha256": "04f7120578bef8d14862306a768527e0807e277e094bf4fbf7e8d32b6d697b22",
+      "decoded_sha256": "ce6ddb35d863da663034110ac3a1538980479519ac663cf28aa32aa0e40d6746",
+      "bytes": 6385052,
+      "decoded_bytes": 57354872,
       "role": "kanji",
       "lang": "KO",
       "source_git_path": "語根分解、注釈ルビ振り、漢字化アプリ徹底ブラッシュアップ20260630/Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
@@ -207,9 +207,9 @@
       "groups": {
         "全域替换用のリスト(列表)型配列(replacements_final_list)": {
           "rows": 517442,
-          "changed": 0,
+          "changed": 3,
           "source_rows_sha256": "40124c5e9fdd39340ebc6648e961458a649ff5450acf75f2a3640ebd5acd2356",
-          "decoded_rows_sha256": "40124c5e9fdd39340ebc6648e961458a649ff5450acf75f2a3640ebd5acd2356",
+          "decoded_rows_sha256": "fdf6c1d9cd79f7c495a242dd5e8f09944af8311a042b41aa17347b9a38fc0289",
           "identities_sha256": "5fdf52ebec6fa29f667aa5636bc621f14f7b807fc18231bdf1d1254e739c56c8"
         },
         "二文字词根替换用のリスト(列表)型配列(replacements_list_for_2char)": {
@@ -221,9 +221,9 @@
         },
         "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
           "rows": 31210,
-          "changed": 30,
+          "changed": 33,
           "source_rows_sha256": "cadc05242120cca503a6622c8eed7b543d1ef354c7d48ad60f99fafc77000ff3",
-          "decoded_rows_sha256": "f1f6f4a983cbe9044d1945cb183249b5371f8175de904c3fed8d22315a450aef",
+          "decoded_rows_sha256": "03911fe9cca568b204ceba0969d9522b1286aed368039ed0ca167e30d734b636",
           "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
         }
       }
@@ -321,5 +321,71 @@
       "urogener",
       "vulkaniz"
     ]
+  },
+  "ven_generation_repair_20261114": {
+    "root": "ven",
+    "canonical_display": "来",
+    "independent_ve": "哀ⱽ",
+    "reason": "Repair the generation postprocessor mistaking ven for ve + n. Fixed legacy assignments and identifiers are unchanged.",
+    "forms": [
+      "ven",
+      "VEN",
+      "Ven"
+    ],
+    "groups": [
+      "全域替换用のリスト(列表)型配列(replacements_final_list)",
+      "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)"
+    ],
+    "changed_values_per_file": 6,
+    "before_groups": {
+      "legacy/JA/kanji.json.gz": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 0,
+          "source_rows_sha256": "9178d66a8c5872ac8ba90e8232bdbb568e335009a7bf987a87c8e07aa9a95892",
+          "decoded_rows_sha256": "9178d66a8c5872ac8ba90e8232bdbb568e335009a7bf987a87c8e07aa9a95892",
+          "identities_sha256": "14ac6331c9e030078b83b47cf0e76b5310f2f3ac92d4c8e49b8f281329cfded7"
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31210,
+          "changed": 30,
+          "source_rows_sha256": "cadc05242120cca503a6622c8eed7b543d1ef354c7d48ad60f99fafc77000ff3",
+          "decoded_rows_sha256": "f1f6f4a983cbe9044d1945cb183249b5371f8175de904c3fed8d22315a450aef",
+          "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
+        }
+      },
+      "legacy/ZH/kanji.json.gz": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 0,
+          "source_rows_sha256": "d04d05cac9caa1769ca18f6cda8031e857d9574c95d65cd2a1f616dbd0b6a793",
+          "decoded_rows_sha256": "d04d05cac9caa1769ca18f6cda8031e857d9574c95d65cd2a1f616dbd0b6a793",
+          "identities_sha256": "30f78d6ac597d122004c31db67fe73340c8c1b81d0823a27973404b7a1632dfb"
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31210,
+          "changed": 30,
+          "source_rows_sha256": "cadc05242120cca503a6622c8eed7b543d1ef354c7d48ad60f99fafc77000ff3",
+          "decoded_rows_sha256": "f1f6f4a983cbe9044d1945cb183249b5371f8175de904c3fed8d22315a450aef",
+          "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
+        }
+      },
+      "legacy/KO/kanji.json.gz": {
+        "全域替换用のリスト(列表)型配列(replacements_final_list)": {
+          "rows": 517442,
+          "changed": 0,
+          "source_rows_sha256": "40124c5e9fdd39340ebc6648e961458a649ff5450acf75f2a3640ebd5acd2356",
+          "decoded_rows_sha256": "40124c5e9fdd39340ebc6648e961458a649ff5450acf75f2a3640ebd5acd2356",
+          "identities_sha256": "5fdf52ebec6fa29f667aa5636bc621f14f7b807fc18231bdf1d1254e739c56c8"
+        },
+        "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
+          "rows": 31210,
+          "changed": 30,
+          "source_rows_sha256": "cadc05242120cca503a6622c8eed7b543d1ef354c7d48ad60f99fafc77000ff3",
+          "decoded_rows_sha256": "f1f6f4a983cbe9044d1945cb183249b5371f8175de904c3fed8d22315a450aef",
+          "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
+        }
+      }
+    }
   }
 }

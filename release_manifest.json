@@ -1,6 +1,6 @@
 {
   "date": "2026-11-14",
-  "scope": "Adopt beton=混凝土; retain sakristi=圣器室, sambuk=接骨木 and tiroid=甲状. Preserve fixed legacy, annotations, segmentation and identifiers; retain safe 混凝 inverse alias and the existing six-form svarmaj pure correction.",
+  "scope": "Repair only generated ven/Ven/VEN renderings in both editions; preserve assignments, identifiers, annotations, two-character rules, custom JSON and all existing inverse records. Proper paired boundary markers now render ven as 来.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -104,13 +104,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57375750,
-      "sha256": "fede137a0d7e82c0e351f0e10cab36ef7bd3ded5ee9adfe57d54db0f84162114"
+      "bytes": 57375720,
+      "sha256": "043cdfb1171ef82c2d9e5da7b37d823a4e6138e5ba8c1923248f9082815e9a3b"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21521073,
-      "sha256": "37fc4cc79322325f41d5b5bab1f26516906ad6c4ec89dbb5a08b9536eece621a"
+      "bytes": 21521049,
+      "sha256": "16a409f067d04e799c7d9ec80d1ecf9955d228bda44b4549c8cf19d4c2939e5e"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -249,8 +249,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57383816,
-      "sha256": "2af79a24687a71c0df856e39d047e4e613ddeb41fdb95f0386bde1750402a38a"
+      "bytes": 57383786,
+      "sha256": "d69b9980ef29a584de1da1faceb58620208635f5cae263e33ea42bbadb6812c6"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -394,8 +394,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57383816,
-      "sha256": "a400ca9a30415a21704e9e70f22298c8573aefab9ff67a2b3626e97a3bb4ca92"
+      "bytes": 57383786,
+      "sha256": "d30e5c83072e40bda123562958cfe4b321b0c9fefb5e1b276f73beb489109f3c"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
@@ -809,8 +809,8 @@
     },
     {
       "path": "assignment_editions/README.md",
-      "bytes": 3202,
-      "sha256": "f1d588bbd6e048ebfa16fa57fb592b9d9f564e669ea3f25fabc91e6fd4126fe7"
+      "bytes": 3908,
+      "sha256": "650ee98b963956018825a89fffbd7eeda94f0ea6632a6312b31f41f42e28008d"
     },
     {
       "path": "assignment_editions/legacy/JA/kanji.csv",
@@ -819,13 +819,13 @@
     },
     {
       "path": "assignment_editions/legacy/JA/kanji.json.gz",
-      "bytes": 6384631,
-      "sha256": "215f0c297bf73efe29f4b323a982adb63a181d42e202dbed63f52c954baeb0fe"
+      "bytes": 6384619,
+      "sha256": "6eb499e70b3b9d4de661665043f2bc0b5dfd7c61969ff5de907592500f3414be"
     },
     {
       "path": "assignment_editions/legacy/JA/pure.json.gz",
-      "bytes": 4169688,
-      "sha256": "3ef2efd50fbb13a834f7421c3e85bd406d2926dd304028b19e1de3264ec3fb40"
+      "bytes": 4169679,
+      "sha256": "92b807083dde178214c3a0deb277ca75515dae62a8b9ce4fbb08b1d541b3ba1c"
     },
     {
       "path": "assignment_editions/legacy/KO/kanji.csv",
@@ -834,8 +834,8 @@
     },
     {
       "path": "assignment_editions/legacy/KO/kanji.json.gz",
-      "bytes": 6385064,
-      "sha256": "8005ecf215185aa8fe9b8f482305f9fb1ec17aaf0d1c9c4fbbbb7928ef97508c"
+      "bytes": 6385052,
+      "sha256": "04f7120578bef8d14862306a768527e0807e277e094bf4fbf7e8d32b6d697b22"
     },
     {
       "path": "assignment_editions/legacy/README.md",
@@ -849,8 +849,8 @@
     },
     {
       "path": "assignment_editions/legacy/ZH/kanji.json.gz",
-      "bytes": 6385065,
-      "sha256": "f05e779677489ebcf5d00b00389e841eb89cc8bf7af87bbf1d1e65309c0fd594"
+      "bytes": 6385056,
+      "sha256": "9f5fc98b84d696bab738c80bba4a25499e5b140be01a9cb91b11bf6422868ed1"
     },
     {
       "path": "assignment_editions/legacy/_identifier_sidecar.tsv",
@@ -864,13 +864,13 @@
     },
     {
       "path": "assignment_editions/legacy/manifest.json",
-      "bytes": 13374,
-      "sha256": "4e210ed686da8040f017416d0cad10a5df3f9686c57cc3b58c040ddcd191cdda"
+      "bytes": 16834,
+      "sha256": "64aea654ea7f0ff2e0c1e2808754637a583cb7b2e1b201d11fc42fc926dfc86b"
     },
     {
       "path": "assignment_editions/legacy/test_legacy_assets.py",
-      "bytes": 7786,
-      "sha256": "fe7f87b2f0e641dc1d147fa01c30291088c4553386c7ee369eb1eabff8b50206"
+      "bytes": 9147,
+      "sha256": "038d12c39da393af8f72a25d0fec8ad98e46f9d298e2b269fe0e39360e31bb60"
     },
     {
       "path": "references/kanji.html",
@@ -889,13 +889,14 @@
     }
   ],
   "assignment_revision": "beton-20261114",
-  "previous_release_commit": "364dcfe04a47bbbfd56d43244f91a3823d083bfb",
+  "previous_release_commit": "5c14bab4f5e7d3f9e53cfce323d415e43331b3af",
   "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
   "feature_revision": "two-editions-20261018",
-  "legacy_manifest_sha256": "4e210ed686da8040f017416d0cad10a5df3f9686c57cc3b58c040ddcd191cdda",
+  "legacy_manifest_sha256": "64aea654ea7f0ff2e0c1e2808754637a583cb7b2e1b201d11fc42fc926dfc86b",
   "manual_dictionary_revision": "beton-20261114",
   "learning_revision": "reviewed-learning-semantics-20261101",
   "reference_revision": "beton-20261114",
   "previous_candidate_commit": "5f3813064de18a5c44afd47db89b15452c432144",
-  "pure_word_fix_revision": "svarmaj-pure-fix-20261114"
+  "pure_word_fix_revision": "svarmaj-pure-fix-20261114",
+  "generation_fix_revision": "ven-boundary-data-20261114"
 }
