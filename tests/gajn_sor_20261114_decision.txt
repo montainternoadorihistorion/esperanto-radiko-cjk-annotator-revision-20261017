@@ -1,0 +1,14 @@
+gajn＝获ᴳ、sor＝升ˢ 採用
+
+
+## 2026-11-14 本人採用：gajn＝获ᴳ、sor＝升ˢ
+
+gajnは賭けや競技で勝ち取ること、利益・好意を得ること。获は獲得の義を持ち、获胜にも使われるため既存のakir／rikolt／obtenと共用する。現行赢も利得と勝利に適切であり、誤訳訂正ではなく共用・字種削減の本人選択。sorは現行注釈どおり気流に乗って上昇する航空義で、上昇を表す升を共用する。腾にも舞い上がる感じの利点はある。原PIVの別記事sor/o（胞子嚢群等）は区別して記録し、この変更で別義処理まで解決したとは扱わない。
+
+获3→4語根、升13→14語根（文章中の出現頻度ではなく割当先数）。升の既存13件中、litrと5つの容量単位語根の計6件は容量義であり、全てを上昇の近義共用とはしない。専用字赢・腾を外し、使用字種2211→2209。漢字本体は赢17→获10画、腾13→升4画で、上付き識別子は画数に含めない。現行・比較の4漢字はいずれも同梱一级表に収載。
+
+既存の識別子アルゴリズムを変更せず获ᴳ・升ˢとなる。無印获＝akir、無印升＝litrを含め他10467行の表記・識別子は不変。gajnのbasic/F=11、sorのpejvo/F=4を維持。Fは辞書見出し数由来の指標であり自然文頻度ではない。語義注釈・学習者版／学術版の分解・本文・分解マーカーは保つ。固定旧版の赢・腾を変更せず、新版の旧完全キー赢・腾は他の所有と競合しない互換別名として保持可能。中間版は増やさない。
+
+pinĉ＝掐、kramp＝夹、ĉantaĝ＝讹を維持。masaĝ＝揉ᴹ、paŭz＝停ᴾ、inteligent＝智ᴵᴳ、inund＝洪、diluv＝洪ᴰ、pivot＝轴ᴾ／piruet＝旋ᴾなど過去採用も全て維持し、過去台帳を再編集しない。根拠と検証は `_gajn_sor_followup_20261114.json` と `_再点検_20261016/assignment_update_20261114_gajn_sor/canonical` を参照。
+
+2026-11-14 explicit user adoption: gajn=获ᴳ and sor=升ˢ, after the documented comparison. gajni includes gaining money or goods in games, winning contests, and gaining advantages or support. 获 expresses obtaining and is also used in 获胜; it shares with akir, rikolt and obten. 赢 was already semantically valid and especially direct for winning. The current sor assignment and annotation concern upward motion and soaring in an ascending thermal current. 升 expresses rising and shares existing inventory, while 腾 was already valid and suggested soaring vividly. The separate original PIV sor/o botanical article is acknowledged; this assignment adoption does not claim to resolve that homograph or change any dictionary meaning. 获 grows from three to four root rows; 升 from thirteen to fourteen. Six pre-existing 升 rows express litre/capacity units, so the thirteen are not all ascent synonyms. Exclusive 赢 and 腾 disappear, reducing current Han inventory from 2211 to 2209. Simplified base strokes decrease 赢17→获10 and 腾13→升4. Superscripts are excluded from stroke counts. All four characters are in the project first-3500 list. The unchanged original priority and identifier algorithms yield 获ᴳ and 升ˢ. Bare 获 remains akir and bare 升 remains litr; every other identifier stays unchanged. gajn remains basic/F=11 and sor pejvo/F=4. F is the dictionary-headword-derived priority input, not observed prose frequency. Only two of 10469 root rows change. Original dictionary meanings, annotations, segmentation and markers remain unchanged. Fixed legacy stays 赢=gajn and 腾=sor; current uses 获ᴳ=gajn and 升ˢ=sor. Old complete keys 赢 and 腾 have no competing current owner and can remain safe compatibility aliases in reverse conversion. No third intermediate edition is introduced. pinĉ=掐, kramp=夹 and ĉantaĝ=讹 are maintained. Earlier adopted masaĝ=揉ᴹ, paŭz=停ᴾ, inteligent=智ᴵᴳ, inund=洪, diluv=洪ᴰ and pivot=轴ᴾ/piruet=旋ᴾ remain unchanged. No historical adoption ledger is rewritten.

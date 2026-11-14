@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "revision": "gajn-sor-20261114",
+  "baseline_private_commit": "15f93f1f3fd5b3db85c0ecb6f35cc415122f83ec",
+  "changes": {
+    "gajn": {
+      "old": "赢",
+      "current": "获ᴳ"
+    },
+    "sor": {
+      "old": "腾",
+      "current": "升ˢ"
+    }
+  },
+  "safe_reverse_aliases": {
+    "赢": "gajn",
+    "腾": "sor"
+  },
+  "ownership_transfers": {},
+  "canonical_sidecar_sha256": "3a8bf08533fd750e5ad52c323b26902cfb17cefd67f00a04f5c83b179c7a40c4",
+  "monaco_all_sha256": "640a36078cdb7eb2ca8e2e8ba8134058ded2843b29edf83375e8d22c65c572fe",
+  "baseline_current_csv_count": 10692,
+  "current_csv_count": 10694,
+  "rationale": "Explicit user adoption of gajn=获ᴳ and sor=升ˢ. Share existing obtaining/gaining and rising characters, reduce sole-use 赢/腾 and base strokes. Retain both safe old inverse keys. Existing identifier owners, fixed legacy, annotations, segmentation, inteligent and inund-series behavior are unchanged.",
+  "fixed_legacy_unchanged": true,
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true
+}

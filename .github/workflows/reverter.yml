@@ -93,6 +93,8 @@ jobs:
 
       - run: python -m pytest tests/test_forward_masag_pauz_20261114.py -q -p no:cacheprovider
 
+      - run: python -m pytest tests/test_forward_gajn_sor_20261114.py -q -p no:cacheprovider
+
   explicit-occurrence-senses:
     runs-on: ubuntu-latest
     strategy:

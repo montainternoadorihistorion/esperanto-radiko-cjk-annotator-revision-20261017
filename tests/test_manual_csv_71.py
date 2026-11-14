@@ -105,6 +105,8 @@ LATER_CURRENT_ASSIGNMENTS = {
     'diluv': ('洪', '洪ᴰ'),
     'masaĝ': ('摩', '揉ᴹ'),
     'paŭz': ('歇', '停ᴾ'),
+    'gajn': ('赢', '获ᴳ'),
+    'sor': ('腾', '升ˢ'),
 }
 
 def historical_current_bytes(raw):

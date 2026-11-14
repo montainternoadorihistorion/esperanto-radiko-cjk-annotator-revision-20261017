@@ -52,8 +52,8 @@ def test_html_uses_recorded_source_while_plain_edition_owners_differ(edition,mod
     assert result['assignment_edition']==edition
 def test_current_revision_no_conflicting_alias_or_extra_edition():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
-    assert source['revision']=='masag-pauz-20261114'
-    assert source['current_item_count']==10640 and source['current_csv_count']==10692
+    assert source['revision']=='gajn-sor-20261114'
+    assert source['current_item_count']==10640 and source['current_csv_count']==10694
     assert source['reverse_only_aliases']['佩']=='admir'
     assert '赏' not in source['reverse_only_aliases']
     assert source['ownership_transfers']['赏']=={'old':'aprez','current':'admir','old_profile':LEGACY}

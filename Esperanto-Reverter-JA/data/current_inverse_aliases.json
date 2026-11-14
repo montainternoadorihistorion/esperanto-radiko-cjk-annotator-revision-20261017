@@ -2,8 +2,8 @@
   "schema_version": 1,
   "revision": "current-compound-inverse-20261018-v3",
   "source_id": "pejvo-piv-20260620",
-  "dictionary_revision": "masag-pauz-20261114",
-  "current_csv_sha256": "505079f5a1e23864a4f73257fb5b03194f394181e51374e5f0c9cf15ea6d58e1",
+  "dictionary_revision": "gajn-sor-20261114",
+  "current_csv_sha256": "7faad70e4ece091daced17f37d37aab5d8484c0118945b8e8e8f77e3dc352478",
   "required_canonical_owner": {
     "kanji": "丸ᴼ炎ᵀ",
     "esperanto": "orkidit"
