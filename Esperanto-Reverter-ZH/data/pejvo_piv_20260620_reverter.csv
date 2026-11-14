@@ -4974,6 +4974,7 @@ oktobr,十月,0,oktobr,286
 kilometr,千ᴷ,0,kilometr,136
 mileni,千年,0,mileni,7776
 skolopendr,千足,0,skolopendr,9463
+sor,升ˢ,0,sor,7133
 dies,升ᴰ,0,dies,3460
 his,升ᴴ,0,his,3458
 promoci,升ᴾ,0,promoci,3459
@@ -7489,6 +7490,7 @@ oficin,药ᴼ,0,oficin,4201
 farmak,药ᶠ,0,farmak,4202
 kolocint,药瓜,0,kolocint,8213
 nelumb,莲ᴺ,0,nelumb,5873
+gajn,获ᴳ,0,gajn,2021
 obten,获ᴼ,0,obten,2907
 rikolt,获ᴿ,0,rikolt,2906
 regol,莺ᴿ,0,regol,7303
@@ -10130,7 +10132,7 @@ mumps,腮,0,mumps,8084
 tali,腰,0,tali,5115
 ventr,腹,0,ventr,3600
 gland,腺,0,gland,6154
-sor,腾,0,sor,7133
+sor,腾,0,sor,reverse-alias:20261114
 krur,腿,0,krur,2711
 cir,膏,0,cir,5603
 membran,膜,0,membran,6121
@@ -10377,7 +10379,7 @@ lizin,赖,0,lizin,8327
 lukr,赚,0,lukr,7172
 matĉ,赛,0,matĉ,5121
 laŭd,赞,0,laŭd,1751
-gajn,赢,0,gajn,2021
+gajn,赢,0,gajn,reverse-alias:20261114
 ekvator,赤,0,ekvator,5619
 amnesti,赦,0,amnesti,7543
 start,起,0,start,5944

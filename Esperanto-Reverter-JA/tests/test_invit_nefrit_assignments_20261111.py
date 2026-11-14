@@ -62,12 +62,12 @@ def test_current_downloads_include_only_the_distinct_mineral_key():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     data=json.loads((app.ROOT/'data/monaco_source_20261017.json').read_bytes())
     senses=json.loads((app.ROOT/'data/explicit_sense_assignments_20261111.json').read_bytes())
-    assert source['revision']=='masag-pauz-20261114'
+    assert source['revision']=='gajn-sor-20261114'
     assert len(data['items'])==source['current_item_count']==10640
     assert [x['body'] for x in data['items'] if x['sourceRoot']=='nefrit']==[MEDICAL]
     ordinary=rows_from_all_json(data)
     current=current_rows_from_all_json(data)
-    assert len(ordinary)==10691 and len(current)==source['current_csv_count']==10692
+    assert len(ordinary)==10693 and len(current)==source['current_csv_count']==10694
     assert [x for x in current if x not in ordinary]==[
         dict(next(x for x in ordinary if x['source_root']=='nefrit'),kanji=MINERAL,
              source_line='explicit-sense:nefrit.mineral:20261111')]

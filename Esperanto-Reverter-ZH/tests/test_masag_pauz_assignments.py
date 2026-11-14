@@ -58,8 +58,8 @@ def test_html_preserves_recorded_source_spaces_and_protected_text(edition,mode):
 
 def test_revision_adds_no_new_owner_transfer_or_third_edition():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
-    assert source['revision']=='masag-pauz-20261114'
-    assert source['current_item_count']==10640 and source['current_csv_count']==10692
+    assert source['revision']=='gajn-sor-20261114'
+    assert source['current_item_count']==10640 and source['current_csv_count']==10694
     assert source['reverse_only_aliases']['摩']=='masaĝ' and source['reverse_only_aliases']['歇']=='paŭz'
     for body in ('摩','揉','揉ᴹ','歇','停','停ᴾ'):assert body not in source['ownership_transfers']
     assert source['ownership_transfers']['洪']=={'old':'diluv','current':'inund','old_profile':LEGACY}

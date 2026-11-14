@@ -46,7 +46,7 @@ def test_manifest_snapshot_and_current_forward_candidates():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     data=json.loads((app.ROOT/'data/monaco_source_20261017.json').read_bytes())
     assert len(data['items'])==source['current_item_count']==10640
-    rows=current_rows_from_all_json(data);assert len(rows)==source['current_csv_count']==10692
+    rows=current_rows_from_all_json(data);assert len(rows)==source['current_csv_count']==10694
     for root,(old,new) in CHANGES.items():
         assert [r['body'] for r in data['items'] if r['sourceRoot']==root]==[new]
         assert source['assignment_changes'][root]=={'old':old,'current':new}

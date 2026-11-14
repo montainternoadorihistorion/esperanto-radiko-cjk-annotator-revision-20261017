@@ -67,8 +67,8 @@ def test_html_source_recovery_uses_recorded_source_not_new_dictionary_owner(edit
 
 def test_reviewed_current_source_metadata_and_no_third_edition():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
-    assert source['revision']=='masag-pauz-20261114'
-    assert source['current_item_count']==10640 and source['current_csv_count']==10692
+    assert source['revision']=='gajn-sor-20261114'
+    assert source['current_item_count']==10640 and source['current_csv_count']==10694
     assert source['reverse_only_aliases']['粉丝']=='vermiĉel'
     assert source['reverse_only_aliases']['旋ᴾᴿ']=='piruet'
     assert '旋ᴾ' not in source['reverse_only_aliases']
