@@ -17,8 +17,8 @@ import unittest
 import unicodedata
 
 HERE = Path(__file__).resolve().parent
-# CSV completion and closed ven/ego payload repairs retain frozen assignments.
-EXPECTED_MANIFEST = 'b0534aa1ad3de51164d8ebd79201899f7e3c926c1aac45ea876afa06e32b464a'
+# CSV-only completion and the closed ven generation repair retain frozen assignments.
+EXPECTED_MANIFEST = '64aea654ea7f0ff2e0c1e2808754637a583cb7b2e1b201d11fc42fc926dfc86b'
 EXPECTED_COMMIT = '4c16c8937c601fdc149ccb8cbba1b6085cc94692'
 EXPECTED_SIDE = '8ee9e27651413f87f1404eb5c328e7ad8ba4bda3be61a442ac9585911a4a9600'
 GLOBAL = '全域替换用のリスト(列表)型配列(replacements_final_list)'
@@ -71,7 +71,7 @@ class LegacyAssetTests(unittest.TestCase):
         self.assertEqual(sha((HERE/'_identifier_sidecar.tsv').read_bytes()),EXPECTED_SIDE)
         self.assertEqual(len(self.side),10467)
         for root,value in {'las':'留','emancip':'放','dot':'嫁妆','greft':'嫁接','tualet':'妆',
-                           'satir':'讽刺','spermat':'精ˢ','spermati':'精ˢᴵ','ananas':'菠萝','ven':'来','ve':'哀ⱽ','ego':'吾','egoist':'己ᴱ'}.items():
+                           'satir':'讽刺','spermat':'精ˢ','spermati':'精ˢᴵ','ananas':'菠萝','ven':'来','ve':'哀ⱽ'}.items():
             self.assertEqual(self.side[root]['disp'],value)
         self.assertNotIn('prioritat',self.side); self.assertNotIn('spermatozo',self.side)
         self.assertEqual({k:v['after'] for k,v in self.manifest['local_corrections'].items()},EXPECTED_CORRECTIONS)
@@ -98,25 +98,8 @@ class LegacyAssetTests(unittest.TestCase):
                 self.assertEqual(rows_sha(rows,True),meta['identities_sha256'])
                 if group in (GLOBAL, LOCAL):
                     history=self.manifest['ven_generation_repair_20261114']['before_groups'][item['path']][group]
-                    ven_repaired_rows=rows
-                    if group==LOCAL:
-                        repair=self.manifest['ego_localized_repair_20261115']
-                        ego_history=repair['before_groups'][item['path']]
-                        old_values=repair['before_values'][item['path']]
-                        self.assertEqual(set(old_values),{'ego','Ego','EGO'})
-                        ven_repaired_rows=[]
-                        for row in rows:
-                            if row[0] in old_values:
-                                self.assertEqual(visible(row[1]),'吾')
-                                self.assertEqual(plain(RUBY.fullmatch(row[1])[2]),row[0])
-                                self.assertEqual(visible(old_values[row[0]]),'巨'+('O' if row[0].isupper() else 'o'))
-                                ven_repaired_rows.append([row[0],old_values[row[0]],*row[2:]])
-                            else:ven_repaired_rows.append(row)
-                        # First undo only the three explicit ego root repairs.
-                        self.assertEqual(rows_sha(ven_repaired_rows),ego_history['decoded_rows_sha256'])
-                        self.assertEqual(meta['changed'],ego_history['changed']+3)
                     restored=[]
-                    for row in ven_repaired_rows:
+                    for row in rows:
                         if row[0] in ('ven','Ven','VEN'):
                             spelling=row[0]
                             self.assertEqual(visible(row[1]),'来')
@@ -127,11 +110,11 @@ class LegacyAssetTests(unittest.TestCase):
                     # Undo precisely three reviewed values: every original row,
                     # key, position, token and other glyph must still hash equal.
                     self.assertEqual(rows_sha(restored),history['decoded_rows_sha256'])
-                    self.assertEqual(meta['changed'],history['changed']+3+(3 if group==LOCAL else 0))
+                    self.assertEqual(meta['changed'],history['changed']+3)
                     if group==GLOBAL:
                         self.assertEqual(meta['source_rows_sha256'],history['decoded_rows_sha256'])
                         self.assertEqual(meta['changed'],3)
-                    else:self.assertEqual(meta['changed'],36)
+                    else:self.assertEqual(meta['changed'],33)
                 else:
                     self.assertEqual(meta['source_rows_sha256'],meta['decoded_rows_sha256'])
                     self.assertEqual(meta['changed'],0)
@@ -150,7 +133,7 @@ class LegacyAssetTests(unittest.TestCase):
                 pieces=list(RUBY.finditer(display))
                 same=len(pieces)==1 and norm(plain(pieces[0][2]))==norm(root)
                 remaining['homograph' if same else 'decomposition']+=1
-            self.assertEqual(remaining,{'homograph':9,'decomposition':40})
+            self.assertEqual(remaining,{'homograph':9,'decomposition':41})
             self.assertEqual(len(unresolved),10)
             del data;gc.collect()
 

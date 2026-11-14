@@ -1,6 +1,6 @@
 {
   "date": "2026-11-15",
-  "scope": "Adopt ego=我ᴱ and whole egoist=我ᴱ家. Repair only ego/Ego/EGO localized payloads in both editions to select the explicit root rather than eg+o; preserve ordinary eg+o, active ego/ist decomposition, other identifiers, legacy assignments and old 吾/己ᴱ inverse aliases. Keep klorofil=叶绿 and source glosses.",
+  "scope": "Adopt ego=我ᴱ and whole egoist=我ᴱ家. Built-in reviewed conversion corrects only exact outer @ payloads ego/Ego/EGO in both editions, leaving longer @ compounds and ordinary eg+o unchanged. Preserve active ego/ist decomposition, annotations, other identifiers, frozen legacy assets, custom JSON handling and old 吾/己ᴱ inverse aliases. Keep klorofil=叶绿.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -104,13 +104,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57375981,
-      "sha256": "9eb7bb72e502661185c83b37092d4ae24c6a6762cab793a27f1e09adfa7965bf"
+      "bytes": 57375973,
+      "sha256": "ba2d8d9106b9663a7835cc815f24be698012628a5532c2ef4df307d882997992"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21521262,
-      "sha256": "cfe1840947dff72f0e2087a382da67edc6db200703787c21579b057fc369b206"
+      "bytes": 21521256,
+      "sha256": "5de0fff216c7ddfeaba77a477fa4ac4c22285eedd0ab4ada6e23c6183558458a"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -139,8 +139,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/esp_text_replacement_module.py",
-      "bytes": 50831,
-      "sha256": "b8874a63dad3d002c492cdf75b8796bb1225888f8e8db03925056c5f77b19c34"
+      "bytes": 52874,
+      "sha256": "7c20f6ad86bed214cdba70858a7243883f0451d1488a1c4d7391b6b61c35134e"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/main.py",
@@ -249,8 +249,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57384047,
-      "sha256": "dfd492bf5ea912933b90fa4db813538e5cf8684b09a6815a2f6ac0143279c5f7"
+      "bytes": 57384039,
+      "sha256": "1c2b3c6acf908ab922db1cc3834db104de80b230dd8fa9cb61bed6e8ce45193c"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -284,8 +284,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/esp_text_replacement_module.py",
-      "bytes": 45459,
-      "sha256": "25a63ab9572d34191c99ae869ba4954ee97bcfa59858394e192ddea12f7922ca"
+      "bytes": 47502,
+      "sha256": "d092ed6d3369aaa37d536de0170d95cec33a13325cea623645ac2ca822366f8e"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/main.py",
@@ -394,8 +394,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57384047,
-      "sha256": "6f4dbaa88a914d8e8e98527ffb8739d27715d90e21743d974450f3adf94efe4a"
+      "bytes": 57384039,
+      "sha256": "858a9fb57b2685e695e704bbd7099c4a2c26d56401fc113947bc0db36103be83"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
@@ -419,8 +419,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_text_replacement_module.py",
-      "bytes": 44302,
-      "sha256": "c62a4725c646b95a2bbd33464fe4d291d42660717a7e39191130a56278a7886e"
+      "bytes": 46345,
+      "sha256": "f651874bcbb4c13b4aaddfc20050201000f009a65d9cc2d2450eecef4d36ad4f"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/main.py",
@@ -829,13 +829,13 @@
     },
     {
       "path": "assignment_editions/legacy/JA/kanji.json.gz",
-      "bytes": 6384612,
-      "sha256": "33c2f24076d2da1eec014646d1f800b254a63d760b506ccb3a679c1928a92778"
+      "bytes": 6384619,
+      "sha256": "6eb499e70b3b9d4de661665043f2bc0b5dfd7c61969ff5de907592500f3414be"
     },
     {
       "path": "assignment_editions/legacy/JA/pure.json.gz",
-      "bytes": 4169675,
-      "sha256": "48e12063315fbe4f5e02d320680ee0b7c20f714da3c407f665e12cb45fbfd021"
+      "bytes": 4169679,
+      "sha256": "92b807083dde178214c3a0deb277ca75515dae62a8b9ce4fbb08b1d541b3ba1c"
     },
     {
       "path": "assignment_editions/legacy/KO/kanji.csv",
@@ -844,13 +844,13 @@
     },
     {
       "path": "assignment_editions/legacy/KO/kanji.json.gz",
-      "bytes": 6385043,
-      "sha256": "df2ac677d8451565976240532b393c93faaf6324a77a1186459730cd645edda3"
+      "bytes": 6385052,
+      "sha256": "04f7120578bef8d14862306a768527e0807e277e094bf4fbf7e8d32b6d697b22"
     },
     {
       "path": "assignment_editions/legacy/README.md",
-      "bytes": 3219,
-      "sha256": "75af06988e6b1e38a10d17a79eaf87bb3d9b49444c84c47028e46e55c25436a6"
+      "bytes": 2338,
+      "sha256": "071c61a94faa66558d1424f976fc69537afd3f2cbb739576263e8fc92e3d1bc0"
     },
     {
       "path": "assignment_editions/legacy/ZH/kanji.csv",
@@ -859,8 +859,8 @@
     },
     {
       "path": "assignment_editions/legacy/ZH/kanji.json.gz",
-      "bytes": 6385047,
-      "sha256": "e4ceff3fbef215ff1533b42476c3c67eba7e37d1efbcb664f61ac32e946b00fa"
+      "bytes": 6385056,
+      "sha256": "9f5fc98b84d696bab738c80bba4a25499e5b140be01a9cb91b11bf6422868ed1"
     },
     {
       "path": "assignment_editions/legacy/_identifier_sidecar.tsv",
@@ -874,13 +874,13 @@
     },
     {
       "path": "assignment_editions/legacy/manifest.json",
-      "bytes": 19348,
-      "sha256": "b0534aa1ad3de51164d8ebd79201899f7e3c926c1aac45ea876afa06e32b464a"
+      "bytes": 16834,
+      "sha256": "64aea654ea7f0ff2e0c1e2808754637a583cb7b2e1b201d11fc42fc926dfc86b"
     },
     {
       "path": "assignment_editions/legacy/test_legacy_assets.py",
-      "bytes": 10438,
-      "sha256": "d65b9b91bbdf7481e90c51b3a356ecd25a0cf37b8f29e25004671f5b8994ae45"
+      "bytes": 9147,
+      "sha256": "038d12c39da393af8f72a25d0fec8ad98e46f9d298e2b269fe0e39360e31bb60"
     },
     {
       "path": "references/kanji.html",
@@ -902,11 +902,12 @@
   "previous_release_commit": "82b48609db0d27ec9dfaa60c5800a3beca912312",
   "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
   "feature_revision": "two-editions-20261018",
-  "legacy_manifest_sha256": "b0534aa1ad3de51164d8ebd79201899f7e3c926c1aac45ea876afa06e32b464a",
+  "legacy_manifest_sha256": "64aea654ea7f0ff2e0c1e2808754637a583cb7b2e1b201d11fc42fc926dfc86b",
   "manual_dictionary_revision": "ego-20261115",
   "learning_revision": "reviewed-learning-semantics-20261101",
   "reference_revision": "ego-20261115",
   "previous_candidate_commit": "5f3813064de18a5c44afd47db89b15452c432144",
   "pure_word_fix_revision": "svarmaj-pure-fix-20261114",
-  "generation_fix_revision": "ven-and-ego-boundary-data-20261115"
+  "generation_fix_revision": "ven-boundary-data-20261114",
+  "exact_localized_fix_revision": "ego-exact-payload-20261115"
 }

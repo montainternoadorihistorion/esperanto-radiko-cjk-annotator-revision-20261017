@@ -222,6 +222,42 @@ def _reviewed_local_atomic_renderings(payloads, local_rules, enabled=False):
             for root, ending in (_REVIEWED_LOCAL_ATOMIC_FORMS[word],)}
 
 
+# A bare @ego@ explicitly chooses the independent self-root. Do not change
+# local ego rules globally: @grandego@ needs grand + eg + o, not grand + ego.
+# Reuse the selected edition's correct egoo anchor only for these exact payloads.
+def _reviewed_exact_ego_renderings(payloads, local_rules, global_rules, enabled=False):
+    wanted = set(payloads) & {"ego", "Ego", "EGO"} if enabled else set()
+    if not wanted:
+        return {}
+    overrides = {}
+    for old, new, placeholder in global_rules:
+        key = old.strip(" ")
+        if key in wanted and re.fullmatch(r"\$9\d{6}\$", placeholder.strip(" ")):
+            overrides.setdefault(key, new.strip(' '))
+    local_atoms = {old: new for old, new, _ in local_rules if old in wanted}
+    anchors = {word + ("O" if word.isupper() else "o"): word for word in wanted - overrides.keys()}
+    result = dict(overrides)
+    for old, new, _ in global_rules:
+        if old not in anchors:
+            continue
+        word = anchors[old]
+        ending = "O" if word.isupper() else "o"
+        if not new.endswith(ending) or len(new) <= len(ending):
+            raise ValueError("Missing reviewed egoo ending: " + old)
+        atom = new[:-len(ending)]
+        # Correct annotation-local atoms keep their original formatting/gloss.
+        local = local_atoms.get(word, "")
+        parsed = re.fullmatch(r"<ruby>(.*?)<rt[^>]*>(.*?)</rt></ruby>", local, re.S)
+        if parsed and word in (parsed[1], parsed[2]):
+            atom = local
+        if word in result and result[word] != atom:
+            raise ValueError("Conflicting reviewed ego anchor: " + word)
+        result[word] = atom
+    if set(result) != wanted:
+        raise ValueError("Missing reviewed ego anchor")
+    return result
+
+
 def _reviewed_local_renderings(payloads, local_rules, enabled=False):
     atomic = _reviewed_local_atomic_renderings(payloads, local_rules, enabled)
     wanted = set(payloads) & _REVIEWED_LOCAL_DECOMPOSITIONS.keys() if enabled else set()
@@ -475,6 +511,7 @@ def _protect_input_regions(text, skip_tokens, local_tokens, local_rules,
     finalized = _finalized_global_renderings_for_exact_matches(payloads, global_rules)
 
     reviewed = _reviewed_local_renderings(payloads, local_rules, reviewed_local_decompositions)
+    reviewed.update(_reviewed_exact_ego_renderings(payloads, local_rules, global_rules, reviewed_local_decompositions))
     reviewed.update(_reviewed_word_renderings(payloads, global_rules, reviewed_local_decompositions))
     reviewed.update(_reviewed_corpus_renderings(payloads, local_rules, global_rules, reviewed_local_decompositions))
 
@@ -584,6 +621,9 @@ def create_replacements_list_for_localized_replacement(text, placeholders: List[
     )
     reviewed.update(_reviewed_word_renderings(
         matches, replacements_final_list or [], reviewed_local_decompositions
+    ))
+    reviewed.update(_reviewed_exact_ego_renderings(
+        matches, replacements_list_for_localized_string, replacements_final_list or [], reviewed_local_decompositions
     ))
     reviewed.update(_reviewed_corpus_renderings(
         matches, replacements_list_for_localized_string, replacements_final_list or [],
