@@ -2277,6 +2277,7 @@ sentiment,感ˢᴹ,0,sentiment,1344
 influenc,感ᴵᶠ,0,influenc,1343
 volont,愿ⱽᴺ,0,volont,988
 travesti,戏仿ᵀ,0,travesti,7266
+egoist,我ᴱ家,0,egoist,726
 tonsil,扁桃ᵀ,0,tonsil,6232
 ĝeni,才ᴳ̂,0,g^eni,658
 korbel,托ᴷᴿ,0,korbel,7288
@@ -5584,7 +5585,7 @@ ciklop,巨ᶜ,0,ciklop,166
 piton,巨蛇,0,piton,7934
 mamut,巨象,0,mamut,7964
 sklerot,巩膜,0,sklerot,8272
-egoist,己ᴱ,0,egoist,726
+egoist,己ᴱ,0,egoist,reverse-alias:20261115
 propr,己ᴾ,0,propr,725
 supermarkt,市ˢ,0,supermarkt,1385
 bors,市ᴮ,0,bors,1380
@@ -5806,6 +5807,7 @@ konsist,成ᴷ,0,konsist,196
 imagin,成虫,0,imagin,8418
 konfekci,成衣,0,konfekci,6895
 atm,我ᴬ,0,atm,698
+ego,我ᴱ,0,ego,6266
 ni,我们,0,ni,704
 disjunkci,或ᴰ,0,disjunkci,660
 batal,战ᴮ,0,batal,867
@@ -8931,7 +8933,7 @@ suĉ,吸,0,suĉ,5354
 blov,吹,0,blov,2934
 kis,吻,0,kis,3064
 muĝ,吼,0,muĝ,5880
-ego,吾,0,ego,6266
+ego,吾,0,ego,reverse-alias:20261115
 gap,呆,0,gap,7049
 prezent,呈,0,prezent,1311
 inform,告,0,inform,3046

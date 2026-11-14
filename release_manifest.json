@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-14",
-  "scope": "Repair only generated ven/Ven/VEN renderings in both editions; preserve assignments, identifiers, annotations, two-character rules, custom JSON and all existing inverse records. Proper paired boundary markers now render ven as 来.",
+  "date": "2026-11-15",
+  "scope": "Adopt ego=我ᴱ and whole egoist=我ᴱ家. Repair only ego/Ego/EGO localized payloads in both editions to select the explicit root rather than eg+o; preserve ordinary eg+o, active ego/ist decomposition, other identifiers, legacy assignments and old 吾/己ᴱ inverse aliases. Keep klorofil=叶绿 and source glosses.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -84,8 +84,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 163401,
-      "sha256": "00799af5d0f579e5d4a3608c2b229d9ce5b3fae233a1b1e9f05c94f05ea03310"
+      "bytes": 163407,
+      "sha256": "44a2c33298cacf9514b598668b8f3c0c680b577ea0167dfeb3cd78b434a90c30"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -104,13 +104,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57375720,
-      "sha256": "043cdfb1171ef82c2d9e5da7b37d823a4e6138e5ba8c1923248f9082815e9a3b"
+      "bytes": 57375981,
+      "sha256": "9eb7bb72e502661185c83b37092d4ae24c6a6762cab793a27f1e09adfa7965bf"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21521049,
-      "sha256": "16a409f067d04e799c7d9ec80d1ecf9955d228bda44b4549c8cf19d4c2939e5e"
+      "bytes": 21521262,
+      "sha256": "cfe1840947dff72f0e2087a382da67edc6db200703787c21579b057fc369b206"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -229,8 +229,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 163401,
-      "sha256": "00799af5d0f579e5d4a3608c2b229d9ce5b3fae233a1b1e9f05c94f05ea03310"
+      "bytes": 163407,
+      "sha256": "44a2c33298cacf9514b598668b8f3c0c680b577ea0167dfeb3cd78b434a90c30"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -249,8 +249,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57383786,
-      "sha256": "d69b9980ef29a584de1da1faceb58620208635f5cae263e33ea42bbadb6812c6"
+      "bytes": 57384047,
+      "sha256": "dfd492bf5ea912933b90fa4db813538e5cf8684b09a6815a2f6ac0143279c5f7"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -374,8 +374,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 163401,
-      "sha256": "00799af5d0f579e5d4a3608c2b229d9ce5b3fae233a1b1e9f05c94f05ea03310"
+      "bytes": 163407,
+      "sha256": "44a2c33298cacf9514b598668b8f3c0c680b577ea0167dfeb3cd78b434a90c30"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -394,8 +394,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57383786,
-      "sha256": "d30e5c83072e40bda123562958cfe4b321b0c9fefb5e1b276f73beb489109f3c"
+      "bytes": 57384047,
+      "sha256": "6f4dbaa88a914d8e8e98527ffb8739d27715d90e21743d974450f3adf94efe4a"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
@@ -459,13 +459,18 @@
     },
     {
       "path": "Esperanto-Reverter-JA/data/current_dictionary_source.json",
-      "bytes": 24834,
-      "sha256": "57e5a23864593a22e3937a2740f6cb7319c4919bce098d52c4dc8828b0218ab0"
+      "bytes": 25192,
+      "sha256": "be0a78d7d4a5a608c911f7f34dbb623dc11822f9ed858b6c16fc742cbb6ec694"
     },
     {
       "path": "Esperanto-Reverter-JA/data/current_inverse_aliases.json",
-      "bytes": 3864,
-      "sha256": "b6ce42155e54eda6a7e4fe2520afa3291e210b48832cb81cb3ac90f5d1860ddd"
+      "bytes": 3862,
+      "sha256": "87e2d8eaf4ae2ae6017737ea99d729aede8f9507454cc507cc145a0cafe4f939"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/ego_20261115.json",
+      "bytes": 1045,
+      "sha256": "8375eb7000ab94b6f6105c9ba2b9a99e597c84670ceb1f6e2a492bccca467eb5"
     },
     {
       "path": "Esperanto-Reverter-JA/data/eufori-sofism-20261102.json",
@@ -564,13 +569,13 @@
     },
     {
       "path": "Esperanto-Reverter-JA/data/monaco_source_20261017.json",
-      "bytes": 5359665,
-      "sha256": "aede435a61ec27420cbf59e43740ceeed36144089c74f592363ec870da62ddfc"
+      "bytes": 5359695,
+      "sha256": "208098f85fd0a1b94f72bcc760f92bc8ff06ee833d2a82baa4011ada76d6c66f"
     },
     {
       "path": "Esperanto-Reverter-JA/data/pejvo_piv_20260620_reverter.csv",
-      "bytes": 318767,
-      "sha256": "4edc3acca5e131ea7e4ce23366f12a2b0671d27eeca5c952612a32ba71241bd7"
+      "bytes": 318856,
+      "sha256": "daf0f7ed275c8c3def1257b64e9c859bff63c950b4f41d56aea1aa9582a1489e"
     },
     {
       "path": "Esperanto-Reverter-JA/data/sakristi_sambuk_svarm_20261114.json",
@@ -619,8 +624,8 @@
     },
     {
       "path": "Esperanto-Reverter-JA/エスペラント語根-漢字対応表_スニペット用最小限.csv",
-      "bytes": 176941,
-      "sha256": "57c88cc973a6b454d76dae36c582f99a4c7383761e67bff54de5761377c248d3"
+      "bytes": 176971,
+      "sha256": "8e68c870793e3279c50b8635aea3140f055355d64968ac3aa27e8b8f55a5e03b"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/admir_20261113.json",
@@ -644,13 +649,18 @@
     },
     {
       "path": "Esperanto-Reverter-ZH/data/current_dictionary_source.json",
-      "bytes": 24834,
-      "sha256": "57e5a23864593a22e3937a2740f6cb7319c4919bce098d52c4dc8828b0218ab0"
+      "bytes": 25192,
+      "sha256": "be0a78d7d4a5a608c911f7f34dbb623dc11822f9ed858b6c16fc742cbb6ec694"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/current_inverse_aliases.json",
-      "bytes": 3864,
-      "sha256": "b6ce42155e54eda6a7e4fe2520afa3291e210b48832cb81cb3ac90f5d1860ddd"
+      "bytes": 3862,
+      "sha256": "87e2d8eaf4ae2ae6017737ea99d729aede8f9507454cc507cc145a0cafe4f939"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/ego_20261115.json",
+      "bytes": 1045,
+      "sha256": "8375eb7000ab94b6f6105c9ba2b9a99e597c84670ceb1f6e2a492bccca467eb5"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/eufori-sofism-20261102.json",
@@ -749,13 +759,13 @@
     },
     {
       "path": "Esperanto-Reverter-ZH/data/monaco_source_20261017.json",
-      "bytes": 5359665,
-      "sha256": "aede435a61ec27420cbf59e43740ceeed36144089c74f592363ec870da62ddfc"
+      "bytes": 5359695,
+      "sha256": "208098f85fd0a1b94f72bcc760f92bc8ff06ee833d2a82baa4011ada76d6c66f"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/pejvo_piv_20260620_reverter.csv",
-      "bytes": 318767,
-      "sha256": "4edc3acca5e131ea7e4ce23366f12a2b0671d27eeca5c952612a32ba71241bd7"
+      "bytes": 318856,
+      "sha256": "daf0f7ed275c8c3def1257b64e9c859bff63c950b4f41d56aea1aa9582a1489e"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/sakristi_sambuk_svarm_20261114.json",
@@ -804,8 +814,8 @@
     },
     {
       "path": "Esperanto-Reverter-ZH/エスペラント語根-漢字対応表_スニペット用最小限.csv",
-      "bytes": 176941,
-      "sha256": "57c88cc973a6b454d76dae36c582f99a4c7383761e67bff54de5761377c248d3"
+      "bytes": 176971,
+      "sha256": "8e68c870793e3279c50b8635aea3140f055355d64968ac3aa27e8b8f55a5e03b"
     },
     {
       "path": "assignment_editions/README.md",
@@ -819,13 +829,13 @@
     },
     {
       "path": "assignment_editions/legacy/JA/kanji.json.gz",
-      "bytes": 6384619,
-      "sha256": "6eb499e70b3b9d4de661665043f2bc0b5dfd7c61969ff5de907592500f3414be"
+      "bytes": 6384612,
+      "sha256": "33c2f24076d2da1eec014646d1f800b254a63d760b506ccb3a679c1928a92778"
     },
     {
       "path": "assignment_editions/legacy/JA/pure.json.gz",
-      "bytes": 4169679,
-      "sha256": "92b807083dde178214c3a0deb277ca75515dae62a8b9ce4fbb08b1d541b3ba1c"
+      "bytes": 4169675,
+      "sha256": "48e12063315fbe4f5e02d320680ee0b7c20f714da3c407f665e12cb45fbfd021"
     },
     {
       "path": "assignment_editions/legacy/KO/kanji.csv",
@@ -834,13 +844,13 @@
     },
     {
       "path": "assignment_editions/legacy/KO/kanji.json.gz",
-      "bytes": 6385052,
-      "sha256": "04f7120578bef8d14862306a768527e0807e277e094bf4fbf7e8d32b6d697b22"
+      "bytes": 6385043,
+      "sha256": "df2ac677d8451565976240532b393c93faaf6324a77a1186459730cd645edda3"
     },
     {
       "path": "assignment_editions/legacy/README.md",
-      "bytes": 2338,
-      "sha256": "071c61a94faa66558d1424f976fc69537afd3f2cbb739576263e8fc92e3d1bc0"
+      "bytes": 3219,
+      "sha256": "75af06988e6b1e38a10d17a79eaf87bb3d9b49444c84c47028e46e55c25436a6"
     },
     {
       "path": "assignment_editions/legacy/ZH/kanji.csv",
@@ -849,8 +859,8 @@
     },
     {
       "path": "assignment_editions/legacy/ZH/kanji.json.gz",
-      "bytes": 6385056,
-      "sha256": "9f5fc98b84d696bab738c80bba4a25499e5b140be01a9cb91b11bf6422868ed1"
+      "bytes": 6385047,
+      "sha256": "e4ceff3fbef215ff1533b42476c3c67eba7e37d1efbcb664f61ac32e946b00fa"
     },
     {
       "path": "assignment_editions/legacy/_identifier_sidecar.tsv",
@@ -864,39 +874,39 @@
     },
     {
       "path": "assignment_editions/legacy/manifest.json",
-      "bytes": 16834,
-      "sha256": "64aea654ea7f0ff2e0c1e2808754637a583cb7b2e1b201d11fc42fc926dfc86b"
+      "bytes": 19348,
+      "sha256": "b0534aa1ad3de51164d8ebd79201899f7e3c926c1aac45ea876afa06e32b464a"
     },
     {
       "path": "assignment_editions/legacy/test_legacy_assets.py",
-      "bytes": 9147,
-      "sha256": "038d12c39da393af8f72a25d0fec8ad98e46f9d298e2b269fe0e39360e31bb60"
+      "bytes": 10438,
+      "sha256": "d65b9b91bbdf7481e90c51b3a356ecd25a0cf37b8f29e25004671f5b8994ae45"
     },
     {
       "path": "references/kanji.html",
-      "bytes": 1182113,
-      "sha256": "22784352c3ae8de46576f3475f59564fb9ac90453dbf0cf46fdecb22a6808f17"
+      "bytes": 1182120,
+      "sha256": "96c38cd3a24ac5959b6f9e8f60c8ed2625963f1f49b888d55e97c1f9a9a206c7"
     },
     {
       "path": "references/kanji_reference_current.zip",
-      "bytes": 1703538,
-      "sha256": "c3eb99727998c020497663ce388e12cd7c9de315c37bdf323ba9598f4467e8f7"
+      "bytes": 1703560,
+      "sha256": "f989870385e3acd4dcfbcebe4cf4600598264394c6f5cc3925a1efbb3e33bf74"
     },
     {
       "path": "references/words.html",
-      "bytes": 4806908,
-      "sha256": "1b56bc57a35d5a2f15ad10c2ce869cbd72b5ddeb12de55af07dbc5a3ae5a6735"
+      "bytes": 4806935,
+      "sha256": "37d72544540653ca04d163bb4b6c79099822123e7475ece28822a13622bc7bb1"
     }
   ],
-  "assignment_revision": "beton-20261114",
-  "previous_release_commit": "5c14bab4f5e7d3f9e53cfce323d415e43331b3af",
+  "assignment_revision": "ego-20261115",
+  "previous_release_commit": "82b48609db0d27ec9dfaa60c5800a3beca912312",
   "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
   "feature_revision": "two-editions-20261018",
-  "legacy_manifest_sha256": "64aea654ea7f0ff2e0c1e2808754637a583cb7b2e1b201d11fc42fc926dfc86b",
-  "manual_dictionary_revision": "beton-20261114",
+  "legacy_manifest_sha256": "b0534aa1ad3de51164d8ebd79201899f7e3c926c1aac45ea876afa06e32b464a",
+  "manual_dictionary_revision": "ego-20261115",
   "learning_revision": "reviewed-learning-semantics-20261101",
-  "reference_revision": "beton-20261114",
+  "reference_revision": "ego-20261115",
   "previous_candidate_commit": "5f3813064de18a5c44afd47db89b15452c432144",
   "pure_word_fix_revision": "svarmaj-pure-fix-20261114",
-  "generation_fix_revision": "ven-boundary-data-20261114"
+  "generation_fix_revision": "ven-and-ego-boundary-data-20261115"
 }

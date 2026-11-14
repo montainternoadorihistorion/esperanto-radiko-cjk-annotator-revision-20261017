@@ -111,6 +111,8 @@ LATER_CURRENT_ASSIGNMENTS = {
     'sambuk': ('接骨', '接骨木'),
     'svarm': ('拥', '群ˢ'),
     'beton': ('混凝', '混凝土'),
+    'ego': ('吾', '我ᴱ'),
+    'egoist': ('己ᴱ', '我ᴱ家'),
 }
 
 def historical_current_bytes(raw):

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "revision": "ego-20261115",
+  "baseline_private_commit": "1fd37f6aaf42ff17033f4cb0d9747764472032a4",
+  "changes": {
+    "ego": {
+      "old": "吾",
+      "current": "我ᴱ"
+    },
+    "egoist": {
+      "old": "己ᴱ",
+      "current": "我ᴱ家"
+    }
+  },
+  "safe_reverse_aliases": {
+    "吾": "ego",
+    "己ᴱ": "egoist"
+  },
+  "ownership_transfers": {},
+  "maintained": {
+    "klorofil": "叶绿"
+  },
+  "canonical_sidecar_sha256": "b0cc1ba07a62c47926127947286f856ab8853ef5912d968fe32253655ebe9b1a",
+  "monaco_all_sha256": "208098f85fd0a1b94f72bcc760f92bc8ff06ee833d2a82baa4011ada76d6c66f",
+  "baseline_current_csv_count": 10698,
+  "current_csv_count": 10700,
+  "rationale": "Explicitly adopt ego=我ᴱ and whole egoist=我ᴱ家. Preserve existing ego/ist decomposition and align its concatenation. Reuse 我 without moving mi/atm or 己 owners. Retain 吾 and 己ᴱ reverse aliases. Keep klorofil=叶绿.",
+  "fixed_legacy_unchanged": true,
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true
+}

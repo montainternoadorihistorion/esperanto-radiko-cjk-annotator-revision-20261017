@@ -5,7 +5,7 @@
   "sidecar_sha256": "8ee9e27651413f87f1404eb5c328e7ad8ba4bda3be61a442ac9585911a4a9600",
   "master_sha256": "8260593759caf4403e61e88ba54b15eb4486dd499467aff8db95cf8058ec50f8",
   "canonical_roots": 10467,
-  "policy": "Fixed before the first las assignment change. Ten confirmed stale @ labels and one confirmed ven generation defect are aligned to the same old canonical table. Assignments, identifiers, rule keys/order/placeholders remain historical. Current annotations and engine fixes are shared.",
+  "policy": "Fixed before the first las assignment change. Ten confirmed stale @ labels, the closed ven generation repair, and three exact localized ego case forms use the same frozen old canonical table. Assignments, identifiers, keys/order/placeholders remain historical. Current annotations and engine fixes are shared.",
   "newly_assigned_roots_absent": [
     "prioritat",
     "spermatozo"
@@ -53,7 +53,7 @@
     }
   },
   "preserved_existing_differences": {
-    "inflection_or_forced_decomposition": 41,
+    "inflection_or_forced_decomposition": 40,
     "homograph_sense": 9
   },
   "known_reverse_missing_canonical_roots": [
@@ -89,10 +89,10 @@
     },
     {
       "path": "legacy/JA/kanji.json.gz",
-      "sha256": "6eb499e70b3b9d4de661665043f2bc0b5dfd7c61969ff5de907592500f3414be",
-      "decoded_sha256": "a0e5a7d2fe90acd3ab104b2690e482657d60df2608503bc88e39c59985205e14",
-      "bytes": 6384619,
-      "decoded_bytes": 57346806,
+      "sha256": "33c2f24076d2da1eec014646d1f800b254a63d760b506ccb3a679c1928a92778",
+      "decoded_sha256": "f360b28f4e25bd81d1330fae949bf8ecd97f7e2d717494f2a6da681cda668cfc",
+      "bytes": 6384612,
+      "decoded_bytes": 57346803,
       "role": "kanji",
       "lang": "JA",
       "source_git_path": "語根分解、注釈ルビ振り、漢字化アプリ徹底ブラッシュアップ20260630/Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
@@ -115,19 +115,19 @@
         },
         "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
           "rows": 31210,
-          "changed": 33,
+          "changed": 36,
           "source_rows_sha256": "cadc05242120cca503a6622c8eed7b543d1ef354c7d48ad60f99fafc77000ff3",
-          "decoded_rows_sha256": "03911fe9cca568b204ceba0969d9522b1286aed368039ed0ca167e30d734b636",
+          "decoded_rows_sha256": "4575cc5c4c45bfd0d670701ced6d868314ceeff07ce7076259b9b53706fd247c",
           "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
         }
       }
     },
     {
       "path": "legacy/JA/pure.json.gz",
-      "sha256": "92b807083dde178214c3a0deb277ca75515dae62a8b9ce4fbb08b1d541b3ba1c",
-      "decoded_sha256": "f6d22b102fee40e9795c27d6f0e078b456726e11f06f0434a272981803b494f2",
-      "bytes": 4169679,
-      "decoded_bytes": 21489108,
+      "sha256": "48e12063315fbe4f5e02d320680ee0b7c20f714da3c407f665e12cb45fbfd021",
+      "decoded_sha256": "5e552854d081e5e5cafeb6930203a47240774fdd67d453f03ed9d52c89045fb0",
+      "bytes": 4169675,
+      "decoded_bytes": 21489105,
       "role": "pure",
       "lang": "JA",
       "source_git_path": "語根分解、注釈ルビ振り、漢字化アプリ徹底ブラッシュアップ20260630/Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
@@ -148,10 +148,10 @@
     },
     {
       "path": "legacy/ZH/kanji.json.gz",
-      "sha256": "9f5fc98b84d696bab738c80bba4a25499e5b140be01a9cb91b11bf6422868ed1",
-      "decoded_sha256": "25cef013c4564c80508420aecdb2f6b20269e6416aaa00fec05b629acc613e63",
-      "bytes": 6385056,
-      "decoded_bytes": 57354872,
+      "sha256": "e4ceff3fbef215ff1533b42476c3c67eba7e37d1efbcb664f61ac32e946b00fa",
+      "decoded_sha256": "5388b4398ff76401453011e3cf47dd9f9bb3a26d5b1e685068f4dc50abb0cf2c",
+      "bytes": 6385047,
+      "decoded_bytes": 57354869,
       "role": "kanji",
       "lang": "ZH",
       "source_git_path": "語根分解、注釈ルビ振り、漢字化アプリ徹底ブラッシュアップ20260630/Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
@@ -174,9 +174,9 @@
         },
         "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
           "rows": 31210,
-          "changed": 33,
+          "changed": 36,
           "source_rows_sha256": "cadc05242120cca503a6622c8eed7b543d1ef354c7d48ad60f99fafc77000ff3",
-          "decoded_rows_sha256": "03911fe9cca568b204ceba0969d9522b1286aed368039ed0ca167e30d734b636",
+          "decoded_rows_sha256": "4575cc5c4c45bfd0d670701ced6d868314ceeff07ce7076259b9b53706fd247c",
           "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
         }
       }
@@ -195,10 +195,10 @@
     },
     {
       "path": "legacy/KO/kanji.json.gz",
-      "sha256": "04f7120578bef8d14862306a768527e0807e277e094bf4fbf7e8d32b6d697b22",
-      "decoded_sha256": "ce6ddb35d863da663034110ac3a1538980479519ac663cf28aa32aa0e40d6746",
-      "bytes": 6385052,
-      "decoded_bytes": 57354872,
+      "sha256": "df2ac677d8451565976240532b393c93faaf6324a77a1186459730cd645edda3",
+      "decoded_sha256": "b6413915050d698b7063ceca5964787f9039738616a3af47d8dce2df8d47eb37",
+      "bytes": 6385043,
+      "decoded_bytes": 57354869,
       "role": "kanji",
       "lang": "KO",
       "source_git_path": "語根分解、注釈ルビ振り、漢字化アプリ徹底ブラッシュアップ20260630/Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
@@ -221,9 +221,9 @@
         },
         "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)": {
           "rows": 31210,
-          "changed": 33,
+          "changed": 36,
           "source_rows_sha256": "cadc05242120cca503a6622c8eed7b543d1ef354c7d48ad60f99fafc77000ff3",
-          "decoded_rows_sha256": "03911fe9cca568b204ceba0969d9522b1286aed368039ed0ca167e30d734b636",
+          "decoded_rows_sha256": "4575cc5c4c45bfd0d670701ced6d868314ceeff07ce7076259b9b53706fd247c",
           "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
         }
       }
@@ -385,6 +385,65 @@
           "decoded_rows_sha256": "f1f6f4a983cbe9044d1945cb183249b5371f8175de904c3fed8d22315a450aef",
           "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
         }
+      }
+    }
+  },
+  "ego_localized_repair_20261115": {
+    "root": "ego",
+    "adopted_date": "2026-11-14",
+    "fixed_legacy_display": "吾",
+    "forms": [
+      "ego",
+      "Ego",
+      "EGO"
+    ],
+    "groups": [
+      "局部文字替换用のリスト(列表)型配列(replacements_list_for_localized_string)"
+    ],
+    "reason": "Exact localized ego was incorrectly pre-decomposed as eg+o. Reuse the same frozen egoo anchor; normal ego and all assignments/identifiers stay unchanged.",
+    "before_groups": {
+      "legacy/JA/kanji.json.gz": {
+        "rows": 31210,
+        "changed": 33,
+        "source_rows_sha256": "cadc05242120cca503a6622c8eed7b543d1ef354c7d48ad60f99fafc77000ff3",
+        "decoded_rows_sha256": "03911fe9cca568b204ceba0969d9522b1286aed368039ed0ca167e30d734b636",
+        "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
+      },
+      "legacy/ZH/kanji.json.gz": {
+        "rows": 31210,
+        "changed": 33,
+        "source_rows_sha256": "cadc05242120cca503a6622c8eed7b543d1ef354c7d48ad60f99fafc77000ff3",
+        "decoded_rows_sha256": "03911fe9cca568b204ceba0969d9522b1286aed368039ed0ca167e30d734b636",
+        "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
+      },
+      "legacy/KO/kanji.json.gz": {
+        "rows": 31210,
+        "changed": 33,
+        "source_rows_sha256": "cadc05242120cca503a6622c8eed7b543d1ef354c7d48ad60f99fafc77000ff3",
+        "decoded_rows_sha256": "03911fe9cca568b204ceba0969d9522b1286aed368039ed0ca167e30d734b636",
+        "identities_sha256": "14d17eb1b60d463255b700054427a8e6825cc9fd9e2814c37ac84b2bcbd159c8"
+      }
+    },
+    "before_values": {
+      "legacy/JA/kanji.json.gz": {
+        "ego": "<ruby>巨<rt class=\"XXL_L\">eg</rt></ruby>o",
+        "EGO": "<ruby>巨<rt class=\"L_L\">EG</rt></ruby>O",
+        "Ego": "<ruby>巨<rt class=\"XL_L\">Eg</rt></ruby>o"
+      },
+      "legacy/ZH/kanji.json.gz": {
+        "ego": "<ruby>巨<rt class=\"XXL_L\">eg</rt></ruby>o",
+        "EGO": "<ruby>巨<rt class=\"L_L\">EG</rt></ruby>O",
+        "Ego": "<ruby>巨<rt class=\"XL_L\">Eg</rt></ruby>o"
+      },
+      "legacy/KO/kanji.json.gz": {
+        "ego": "<ruby>巨<rt class=\"XXL_L\">eg</rt></ruby>o",
+        "EGO": "<ruby>巨<rt class=\"L_L\">EG</rt></ruby>O",
+        "Ego": "<ruby>巨<rt class=\"XL_L\">Eg</rt></ruby>o"
+      },
+      "legacy/JA/pure.json.gz": {
+        "ego": "巨o",
+        "EGO": "巨O",
+        "Ego": "巨o"
       }
     }
   }
