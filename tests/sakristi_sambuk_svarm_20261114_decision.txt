@@ -1,0 +1,18 @@
+sakristi＝圣器室、sambuk＝接骨木、svarm＝群ˢ 採用／triumf＝凯 維持
+
+
+## 2026-11-14 本人採用：sakristi＝圣器室、sambuk＝接骨木、svarm＝群ˢ／維持：triumf＝凯
+
+sakristiは教会の聖具室・祭衣室であるため、「部屋」の中心義を室で補う。圣は宗教儀礼、器は保管する祭具、室は場所を担う。本人は「部屋なんでしょ？」とこの理由を支持した。sambukはニワトコ属Sambucus。「植物らしい」ことを重視し、中国語の既成名称接骨木を採る。草本種も含むため、木を属の全種が木本という意味に限定せず、治療効能も主張しない。
+
+svarmは多数が群がり動く意味。本人は「擁立」の擁から群がる意味を捉えるのは少し苦しい印象と判断し、群を選んだ。現行拥にも密集・集合の意味はあるが、今回の本人選択では群れるという像と既存の群の共用を重視する。密集して動くというニュアンスは従来の注釈に残す。triumf＝凯は本人の明示選択で維持。山を含む見た目との連想も記憶の手掛かりとするが、山が凱旋を意味するという字源説明にはしない。胜への変更は採用していない。
+
+漢字本体は圣器21→圣器室30画、接骨21→接骨木25画、拥8→群13画。同梱画数表で統一し上付き識別子を含めない。室12→13、木293→294、群6→7語根。圣20、器12、接7、骨40は不変。拥1→0で使用字種2209→2208、新字種なし。これらは割当先数であり自然文頻度ではない。3語根ともpejvoを維持し、Fはsakristi2・sambuk3・svarm5のまま。Fは辞書見出し数由来の優先度入力。
+
+元の識別子アルゴリズムを変えず、sakristi＝圣器室、sambuk＝接骨木、svarm＝群ˢとなる。無印群＝ar、群ᴳ＝greg、群ᴴ＝hord、triumf＝凯を含め他10466行は不変。語義注釈、学習者版・学術版の既存の区切り・本文・分解マーカーを保持する。過去40件の採用・同期台帳は再編集しない。
+
+固定旧版は圣器・接骨・拥を維持。新版でも旧完全キーの復元先は競合しないため互換別名として残せる。ただし新版の新しい長いキーにより、試験文字列圣器室oは従来のsakristiĉambroからsakristioへ、接骨木oはsambuklignoからsambukoへ読まれる。旧コーパスにこれらが実在したと確認したわけではない。固定旧版を保持し、中間版は増やさない。
+
+根拠と正本検証は `_sakristi_sambuk_svarm_followup_20261114.json` および `_再点検_20261016/assignment_update_20261114_sakristi_sambuk_svarm/canonical` を参照。アプリ・逆変換・Cloudの実反映は別の検証記録で確認する。
+
+2026-11-14 explicit user adoption: sakristi=圣器室, sambuk=接骨木, svarm=群ˢ; explicit maintain triumf=凯. sakristi is the church room for sacred objects, vestments and preparation for worship. 圣 and 器 retain the sacred-object purpose; 室 supplies the central place meaning. The user prioritized the fact that it is a room. sambuk denotes Sambucus; 接骨木 restores the existing Chinese plant name and supplies an intuitive plant cue. Some species are herbaceous, so 木 is not a claim that every species is woody. No medicinal efficacy is asserted. svarm denotes many beings crowding and moving together. The user preferred 群 for swarming/grouping and found the association of 拥 with 擁立 less helpful. Existing 拥 was not linguistically meaningless; dynamic swarming nuances are retained in original annotations. triumf remains 凯: the user preferred its imagery, including the visible 山 component. This is a mnemonic preference, not a claim that a mountain is the historical etymology of 凯. No 凯-to-胜 change is authorized. The three approved changes add 9,4,5 base strokes respectively: 21→30,21→25,8→13. They add no character types; removal of exclusive 拥 reduces the inventory 2209→2208. Shared counts are 室12→13,木293→294,群6→7; 圣20,器12,接7,骨40 remain unchanged. The original priority and identifier algorithms are unchanged. Only three of 10469 displayed root rows change; bare 群 remains ar, 群ᴳ remains greg, 群ᴴ remains hord. sakristi and sambuk need no new identifiers. Original annotations, dictionary meanings, segmentation and markers remain unchanged. Fixed legacy stays 圣器/接骨/拥. Current inverse conversion may preserve those complete old keys as compatibility aliases because there is no new whole-key owner conflict. New longer keys can reinterpret a former concatenation: 圣器室o formerly sakristiĉambro becomes sakristio, and 接骨木o formerly sambukligno becomes sambuko in the revised edition. These are hypothetical string examples, not claimed attested corpus sentences. Fixed legacy is kept separate; no third intermediate edition is introduced. All previous adoption ledgers remain byte-for-byte unchanged. This ledger concerns canonical data; actual app regeneration and Cloud verification are separately recorded.

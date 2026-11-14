@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "revision": "sakristi-sambuk-svarm-20261114",
+  "baseline_private_commit": "59c6f01596fcd31ac15711dfa614c2f589353c6c",
+  "changes": {
+    "sakristi": {
+      "old": "圣器",
+      "current": "圣器室"
+    },
+    "sambuk": {
+      "old": "接骨",
+      "current": "接骨木"
+    },
+    "svarm": {
+      "old": "拥",
+      "current": "群ˢ"
+    }
+  },
+  "safe_reverse_aliases": {
+    "圣器": "sakristi",
+    "接骨": "sambuk",
+    "拥": "svarm"
+  },
+  "ownership_transfers": {},
+  "maintained": {
+    "triumf": "凯"
+  },
+  "canonical_sidecar_sha256": "b4aa7fc7fa3b82b5c69dc017eda94468b99f950ee28c7177938b504a7dd9c0d7",
+  "monaco_all_sha256": "4d829d9dc339a341b51c3e1866d06304f36ec596472a362eeabd7644b4af28db",
+  "baseline_current_csv_count": 10694,
+  "current_csv_count": 10697,
+  "rationale": "User adopted 圣器室 to identify a church room, 接骨木 to identify the plant, and 群ˢ for swarming with existing 群. User retained triumf=凯. Keep old 圣器/接骨/拥 inverse aliases, shared identifier owners, fixed legacy, annotations and segmentation.",
+  "fixed_legacy_unchanged": true,
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true,
+  "known_compound_ambiguity": {
+    "圣器室o": [
+      "sakristiĉambro",
+      "sakristio"
+    ],
+    "接骨木o": [
+      "sambukligno",
+      "sambuko"
+    ]
+  }
+}

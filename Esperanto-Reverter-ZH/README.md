@@ -1,3 +1,11 @@
+## 2026-11-14 新版：sakristi、sambuk、svarm
+
+采用 `sakristi＝圣器室`（教堂内的房间）、`sambuk＝接骨木`（接骨木属）、`svarm＝群ˢ`（成群聚集、活动）。保留 `triumf＝凯`，以及 `ar＝群`、`greg＝群ᴳ`、`hord＝群ᴴ` 的既有标识符。
+
+新版保留旧写法的逆转换：`圣器→sakristi`、`接骨→sambuk`、`拥→svarm`。固定旧版不变。新增较长的键后，旧式复合连接 `圣器室o`、`接骨木o` 在新版分别读作 `sakristio`、`sambuko`；固定旧版仍为 `sakristiĉambro`、`sambukligno`。
+
+采用记录：`data/sakristi_sambuk_svarm_20261114.json`。注释、词根分解、自定义词典、HTML原文恢复及新旧两版的方式保持不变。
+
 ## 2026-11-14 新版：gajn＝获ᴳ・sor＝升ˢ
 
 新版は `gajn＝获ᴳ`、`sor＝升ˢ` を採用しました。利益・成果の獲得と空へ上がる動きを既存の「获」「升」で表し、「赢」「腾」を通常割り当てから減らします。裸の `获→akir`・`升→litr`、獲得・上昇の共用先やその識別子は維持します。

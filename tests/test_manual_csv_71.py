@@ -107,6 +107,9 @@ LATER_CURRENT_ASSIGNMENTS = {
     'paŭz': ('歇', '停ᴾ'),
     'gajn': ('赢', '获ᴳ'),
     'sor': ('腾', '升ˢ'),
+    'sakristi': ('圣器', '圣器室'),
+    'sambuk': ('接骨', '接骨木'),
+    'svarm': ('拥', '群ˢ'),
 }
 
 def historical_current_bytes(raw):

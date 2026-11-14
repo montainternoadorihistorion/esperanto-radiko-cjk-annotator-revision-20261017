@@ -14,8 +14,8 @@ import esperanto_converter_zh as app
 
 CURRENT = 'pejvo-piv-20260620'
 OLD = 'pre-las-20261017'
-CURRENT_SHA = '7faad70e4ece091daced17f37d37aab5d8484c0118945b8e8e8f77e3dc352478'
-CURRENT_TWO_SHA = 'e89995abf6b49619a877d0d9410207a145361d3e1acc0c38d046fb3aa63002e1'
+CURRENT_SHA = '708bfe58b27bca13f0e410eac29f809302276c80bdf61ac0da2e45d02658ecd8'
+CURRENT_TWO_SHA = '30e92091cb9429c975badd42c4984cd7d680066f3bd3092866354f61805cd78c'
 OLD_EFFECTIVE_SHA = '0f861144f2b5dc81334ca684e7798e6abfa3fc4f62e3474c6775920159fa02d0'
 OLD_SUPPLEMENT_SHA = '59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee'
 SUFFIXES = ('', 'o', 'oj', 'on', 'ojn', 'a', 'aj', 'an', 'ajn', 'e', 'i', 'as', 'is', 'os', 'us', 'u', 'igi', 'igxi', 'A')
@@ -33,12 +33,12 @@ def result_save_control(at):
 def test_reviewed_current_keys_added_and_every_existing_key_retained():
     frame = app.load_dictionary_source(CURRENT)
     records = app.dataframe_to_mapping_records(frame)
-    assert len(records) == 10694
+    assert len(records) == 10697
     assert app.effective_mapping_records(CURRENT, frame) == records + tuple((root, key, '0') for key, root in app.CURRENT_INVERSE_ALIAS_PAIRS.items())
     before, after = app.build_mapping_index(frame), effective_index(CURRENT, frame)
     flat_before = {key: value for bucket in before.by_length.values() for key, value in bucket.items()}
     flat_after = {key: value for bucket in after.by_length.values() for key, value in bucket.items()}
-    assert len(flat_before) == 10694 and flat_after == dict(flat_before, **app.CURRENT_INVERSE_ALIAS_PAIRS)
+    assert len(flat_before) == 10697 and flat_after == dict(flat_before, **app.CURRENT_INVERSE_ALIAS_PAIRS)
     for key in flat_before:
         assert app.convert_kanji_esperanto_to_alphabet(key+'o', after) == app.convert_kanji_esperanto_to_alphabet(key+'o', before)
     for suffix in SUFFIXES:
@@ -116,10 +116,10 @@ def test_fixed_exports_and_effective_custom_csv_all_key_equivalence():
     raw = app.current_effective_download_data(CURRENT)
     assert raw.startswith(b'esperanto,kanji,priority\r\n')
     custom = app.read_assignment_csv(io.BytesIO(raw))
-    assert len(custom) == 10703 and effective_index('custom', custom) == effective_index(CURRENT)
+    assert len(custom) == 10706 and effective_index('custom', custom) == effective_index(CURRENT)
     meta = app.source_provenance(CURRENT)
-    assert meta['dictionary_filename'] == 'dictionary_new_gajn-sor-20261114_7faad70e4ece.csv'
-    assert meta['snippet_filename'] == 'dictionary_new_gajn-sor-20261114_7faad70e4ece_2col.csv'
+    assert meta['dictionary_filename'] == 'dictionary_new_sakristi-sambuk-svarm-20261114_708bfe58b27b.csv'
+    assert meta['snippet_filename'] == 'dictionary_new_sakristi-sambuk-svarm-20261114_708bfe58b27b_2col.csv'
     for field in ('identity', 'label', 'result_filename', 'effective_dictionary_filename'):
         assert meta['inverse_compatibility_revision'] in meta[field]
         assert meta['inverse_compatibility_sha256'][:12] in meta[field]
