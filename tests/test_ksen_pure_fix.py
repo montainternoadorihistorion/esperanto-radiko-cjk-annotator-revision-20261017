@@ -101,8 +101,22 @@ class KsenPureTests(unittest.TestCase):
                 before = read_raw(path)
                 after = editions.load_lists_path(path)
                 added = {f"${9120000 + index}$" for index in range(8)}
+                # Later approved svarmaj corrections coexist with the eight
+                # ksen forms. Check all six exact records independently before
+                # excluding their tokens from the raw-table identity check.
+                svarmaj_forms = (("svarmaj", "aj"), ("Svarmaj", "aj"), ("SVARMAJ", "AJ"),
+                                 ("svarmajn", "ajn"), ("Svarmajn", "ajn"), ("SVARMAJN", "AJN"))
+                svarmaj_tokens = {f"${9140000 + index}$" for index in range(6)}
+                glyph = "群ˢ" if edition == "current" else "拥"
+                expected_svarmaj = [[" " + word + " ", " " + glyph + ending + " ", f" ${9140000 + index}$ "]
+                                    for index, (word, ending) in enumerate(svarmaj_forms)]
+                self.assertCountEqual([row for row in after[0] if row[2].strip() in svarmaj_tokens],
+                                      expected_svarmaj)
+                self.assertFalse(any(row[2].strip() in svarmaj_tokens for row in before[0]))
+                added.update(svarmaj_tokens)
                 if edition == "legacy":
                     added.update(f"${9130000 + index}$" for index in range(3))
+                self.assertEqual(len(after[0]) - len(before[0]), len(added))
                 self.assertEqual([row for row in after[0] if row[2].strip() not in added], before[0])
                 self.assertEqual(after[1:], before[1:])
                 old_output = render(source, before).splitlines()
