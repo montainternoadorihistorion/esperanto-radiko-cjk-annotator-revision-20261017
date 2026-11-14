@@ -222,20 +222,29 @@ def _reviewed_exact_ego_renderings(payloads, local_rules, global_rules, enabled=
     if not wanted:
         return {}
     overrides = {}
+    manual_words = set()
     for old, new, placeholder in global_rules:
-        key = old.strip(" ")
-        if key in wanted and re.fullmatch(r"\$9\d{6}\$", placeholder.strip(" ")):
-            overrides.setdefault(key, new.strip(' '))
+        if re.fullmatch(r"\$9\d{6}\$", placeholder.strip(" ")):
+            key = old.strip(" ")
+            manual_words.add(key)
+            if key in wanted:
+                overrides.setdefault(key, new.strip(' '))
     local_atoms = {old: new for old, new, _ in local_rules if old in wanted}
-    anchors = {word + ("O" if word.isupper() else "o"): word for word in wanted - overrides.keys()}
+    # A correction for egoo must not become a correction for @ego@. Use only
+    # unshadowed built-in noun forms; never strip a suffix from custom text.
+    anchors = {}
+    for word in wanted - overrides.keys():
+        for suffix in ("o", "on", "oj", "ojn"):
+            ending = suffix.upper() if word.isupper() else suffix
+            if word + ending not in manual_words:
+                anchors[word + ending] = (word, ending)
     result = dict(overrides)
     for old, new, _ in global_rules:
         if old not in anchors:
             continue
-        word = anchors[old]
-        ending = "O" if word.isupper() else "o"
+        word, ending = anchors[old]
         if not new.endswith(ending) or len(new) <= len(ending):
-            raise ValueError("Missing reviewed egoo ending: " + old)
+            raise ValueError("Missing reviewed ego noun ending: " + old)
         atom = new[:-len(ending)]
         # Correct annotation-local atoms keep their original formatting/gloss.
         local = local_atoms.get(word, "")
@@ -245,8 +254,8 @@ def _reviewed_exact_ego_renderings(payloads, local_rules, global_rules, enabled=
         if word in result and result[word] != atom:
             raise ValueError("Conflicting reviewed ego anchor: " + word)
         result[word] = atom
-    if set(result) != wanted:
-        raise ValueError("Missing reviewed ego anchor")
+    # If every anchor was manually replaced, retain the existing local path.
+    # Do not guess a root from user-authored text or make conversion fail.
     return result
 
 
