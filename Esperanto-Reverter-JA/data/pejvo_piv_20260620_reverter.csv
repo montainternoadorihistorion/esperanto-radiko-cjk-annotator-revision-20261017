@@ -2043,6 +2043,7 @@ grundolog,土学家,0,grundolog,9262
 grundgenez,土源ᴳ,0,grundgenez,9260
 sakral,圣ˢᴷ,0,sakral,3220
 ikonoklast,圣像屑,0,ikonoklast,9380
+sakristi,圣器室,0,sakristi,8236
 eŭkaristi,圣餐ᴱ,0,eu^karisti,7087
 ĉe,在ᶜ̂,0,ĉe,97
 geografi,地ᴳᴳ,0,geografi,967
@@ -2315,6 +2316,7 @@ komutator,换具ᴬ,0,komutator,9490
 eksklud,排ᴱᴰ,0,eksklud,4722
 ekskreci,排ᴱᴿ,0,ekskreci,4723
 kotlet,排ᴷᵀ,0,kotlet,4721
+sambuk,接骨木,0,sambuk,7480
 ŝov,推ˢ̂,0,ŝov,1909
 propuls,推ᴾᴿ,0,propuls,1911
 piktur,描ᴾᴷ,0,piktur,3144
@@ -5269,7 +5271,7 @@ hagi,圣ᴴ,0,hagi,3219
 kanoniz,圣ᴷ,0,kanoniz,3218
 ikon,圣像,0,ikon,6202
 anglikan,圣公,0,anglikan,7520
-sakristi,圣器,0,sakristi,8236
+sakristi,圣器,0,sakristi,reverse-alias:20261114
 sakrament,圣礼,0,sakrament,7671
 suna,圣行,0,suna,7525
 jul,圣诞,0,jul,6973
@@ -5909,7 +5911,7 @@ junt,接ᴶ,0,junt,2878
 tanĝ,接ᵀ,0,tang^,2879
 stafet,接力,0,stafet,7516
 aŭdienc,接见,0,au^dienc,8624
-sambuk,接骨,0,sambuk,7480
+sambuk,接骨,0,sambuk,reverse-alias:20261114
 inferenc,推ᴵ,0,inferenc,1912
 rezon,推ᴿ,0,rezon,1910
 masaĝ,揉ᴹ,0,masaĝ,5120
@@ -7231,6 +7233,7 @@ estetik,美学,0,estetik,6826
 manikur,美甲,0,manikur,7575
 antilop,羚ᴬ,0,antilop,7241
 gazel,羚ᴳ,0,gazel,7242
+svarm,群ˢ,0,svarm,6758
 greg,群ᴳ,0,greg,223
 hord,群ᴴ,0,hord,224
 arkipelag,群岛,0,arkipelag,8286
@@ -9352,7 +9355,7 @@ fuŝ,拙,0,fuŝ,3782
 invit,招,0,invit,1893
 ador,拜,0,ador,4920
 simul,拟,0,simul,7509
-svarm,拥,0,svarm,6758
+svarm,拥,0,svarm,reverse-alias:20261114
 dig,拦,0,dig,6603
 tord,拧,0,tord,3729
 plektr,拨,0,plektr,8021

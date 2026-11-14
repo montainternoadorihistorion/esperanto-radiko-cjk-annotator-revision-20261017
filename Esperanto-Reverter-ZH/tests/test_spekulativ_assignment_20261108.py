@@ -43,13 +43,13 @@ def test_download_and_source_have_new_forward_and_previous_reverse_keys():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     manifest=json.loads((app.ROOT/'data/spekulativ_20261108.json').read_bytes())
     data=json.loads((app.ROOT/'data/monaco_source_20261017.json').read_bytes())
-    assert source['revision']=='gajn-sor-20261114'
+    assert source['revision']=='sakristi-sambuk-svarm-20261114'
     assert manifest['revision']=='spekulativ-20261108'
-    assert source['current_csv_count']==10694
+    assert source['current_csv_count']==10697
     assert manifest['safe_reverse_aliases']=={old:root for root,(old,new) in CHANGES.items()}
     assert app.dictionary_options()==[CURRENT,LEGACY]
     records=current_rows_from_all_json(data)
-    assert len(records)==10694
+    assert len(records)==10697
     for root,(old,new) in CHANGES.items():
         assert [r['body'] for r in data['items'] if r['sourceRoot']==root]==[new]
         assert sorted(r['kanji'] for r in records if r['source_root']==root)==sorted([old,new])

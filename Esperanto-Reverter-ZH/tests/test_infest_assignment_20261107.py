@@ -54,7 +54,7 @@ def test_manifest_and_downloads_preserve_frozen_edition():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     path=app.ROOT/source['infest_assignment_20261107_manifest']
     manifest=json.loads(path.read_bytes())
-    assert source['revision']=='gajn-sor-20261114'
+    assert source['revision']=='sakristi-sambuk-svarm-20261114'
     assert manifest['revision']=='infest-20261107'
     assert manifest['changes']=={r:list(p) for r,p in CHANGES.items()}
     assert manifest['safe_reverse_aliases']=={}
