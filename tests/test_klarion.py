@@ -21,9 +21,9 @@ CURRENT={'klarion':'军号'}
 LEGACY={'klarion':'嘹'}
 KEEPS={'numer': '号', 'fanfar': '号角', 'trumpet': '小号', 'grifel': '石笔', 'semajn': '周'}
 LEGACY_SHA={
-    'JA':'215f0c297bf73efe29f4b323a982adb63a181d42e202dbed63f52c954baeb0fe',
-    'ZH':'f05e779677489ebcf5d00b00389e841eb89cc8bf7af87bbf1d1e65309c0fd594',
-    'KO':'8005ecf215185aa8fe9b8f482305f9fb1ec17aaf0d1c9c4fbbbb7928ef97508c',
+    'JA':'6eb499e70b3b9d4de661665043f2bc0b5dfd7c61969ff5de907592500f3414be',
+    'ZH':'9f5fc98b84d696bab738c80bba4a25499e5b140be01a9cb91b11bf6422868ed1',
+    'KO':'04f7120578bef8d14862306a768527e0807e277e094bf4fbf7e8d32b6d697b22',
 }
 BREAK=re.compile(r'<br\s*/?>',re.I)
 

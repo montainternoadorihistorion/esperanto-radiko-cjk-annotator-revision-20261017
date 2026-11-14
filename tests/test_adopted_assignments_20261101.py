@@ -6,7 +6,7 @@ CSV='世界语词根-汉字对应列表_参照2新割当_7791.csv'
 CURRENT={"karot":"参ᴷ","panak":"参ᴾ","ginseng":"参ᴳ","karoten":"参ᴷ素","instig":"促ᴵ","elegi":"哀歌","delic":"悦ᴰ","delekt":"悦ᴰᴷ","pense":"草ᴾᴺ","psilofit":"草ᴾˢ","pasiflor":"草ᴾᶠ"}
 LEGACY={"karot":"胡萝卜","panak":"草ᴾᴺ","ginseng":"草ᴳᴳ","karoten":"萝卜素","instig":"唆","elegi":"挽歌","delic":"珍","delekt":"悦ᴰ","pense":"草ᴾˢ","psilofit":"草ᴾᶠ","pasiflor":"草ᴾᴬˢ"}
 KEEPS={"ligatur":"结ᴸᵀ","lig":"结","nod":"结ᴺ","bant":"结ᴮ","konklud":"结ᴷ","vrak":"残船","ekzempler":"册ᴱ","fuz":"燃ᶠᶻ","fuel":"燃ᶠ","brul":"燃","fuzi":"聚变","semajn":"周","stab":"参","referenc":"参ᴿ","koni":"毒参","holoturi":"海参"}
-LEGACY_SHA={'JA':'215f0c297bf73efe29f4b323a982adb63a181d42e202dbed63f52c954baeb0fe','ZH':'f05e779677489ebcf5d00b00389e841eb89cc8bf7af87bbf1d1e65309c0fd594','KO':'8005ecf215185aa8fe9b8f482305f9fb1ec17aaf0d1c9c4fbbbb7928ef97508c'}
+LEGACY_SHA={'JA':'6eb499e70b3b9d4de661665043f2bc0b5dfd7c61969ff5de907592500f3414be','ZH':'9f5fc98b84d696bab738c80bba4a25499e5b140be01a9cb91b11bf6422868ed1','KO':'04f7120578bef8d14862306a768527e0807e277e094bf4fbf7e8d32b6d697b22'}
 RUBY=re.compile(r'<ruby>(.*?)<rt[^>]*>(.*?)</rt></ruby>',re.S)
 BREAK=re.compile(r'<br\s*/?>',re.I)
 def fragments(value):return [(BREAK.sub('',m[2]),m[1]) for m in RUBY.finditer(value)]
