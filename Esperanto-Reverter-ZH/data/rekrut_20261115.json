@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "revision": "rekrut-20261115",
+  "baseline_private_commit": "754c044130d3e6ac2b313a0b029338ffac845ed1",
+  "changes": {
+    "rekrut": {
+      "old": "征募",
+      "current": "新兵"
+    }
+  },
+  "safe_reverse_aliases": {
+    "征募": "rekrut"
+  },
+  "ownership_transfers": {},
+  "canonical_sidecar_sha256": "b440f4cb563bd2d55f58c1818169860c153b47bda5d9cd6208d5c3bc81b5d8ba",
+  "monaco_all_sha256": "5290b75f0c36ed7da00c161b0d1778707d1671ab503a055b2d53f8b7d283b3a4",
+  "baseline_current_csv_count": 10700,
+  "current_csv_count": 10701,
+  "rationale": "Approved rekrut=新兵 follows its central noun meaning of a newly recruited soldier. 新 marks newness and 兵 the soldier; existing characters are reused. Preserve the canonical glossary including its wider new-member sense; bundled learning annotations JA徴募/ZH征募/KO징집 and established segmentation remain unchanged. Retain 征募 as a reverse-only alias.",
+  "accepted_compositional_ambiguity": {
+    "display": "新兵o",
+    "before": "novsoldato",
+    "current": "rekruto",
+    "fixed_legacy": "novsoldato"
+  },
+  "ambiguity_note": "No prior exact 新兵 inverse key is reassigned. Longest matching now selects rekrut over the former nov+soldat composition in plain current-edition text. HTML with original ruby still distinguishes both sources.",
+  "fixed_legacy_unchanged": true,
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true
+}

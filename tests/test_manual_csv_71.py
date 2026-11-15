@@ -113,6 +113,7 @@ LATER_CURRENT_ASSIGNMENTS = {
     'beton': ('混凝', '混凝土'),
     'ego': ('吾', '我ᴱ'),
     'egoist': ('己ᴱ', '我ᴱ家'),
+    'rekrut': ('征募', '新兵'),
 }
 
 def historical_current_bytes(raw):

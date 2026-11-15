@@ -5707,7 +5707,7 @@ film,影ᶠ,0,film,2743
 insinu,影射,0,insinu,7924
 kampanj,役ᴷ,0,kampanj,6227
 konskripci,征兵,0,konskripci,8639
-rekrut,征募,0,rekrut,6390
+rekrut,征募,0,rekrut,reverse-alias:20261115
 rekvizici,征用,0,rekvizici,8063
 kalibr,径ᴷ,0,kalibr,4429
 pad,径ᴾ,0,pad,4428
@@ -6011,6 +6011,7 @@ hipotenuz,斜边,0,hipotenuz,8695
 intermit,断ᴵ,0,intermit,4940
 gilotin,断头,0,gilotin,8184
 faŭlt,断层,0,fau^lt,7194
+rekrut,新兵,0,rekrut,6390
 nova,新星,0,nova,8124
 kub,方ᴷ,0,kub,1532
 recept,方ᴿ,0,recept,1534
