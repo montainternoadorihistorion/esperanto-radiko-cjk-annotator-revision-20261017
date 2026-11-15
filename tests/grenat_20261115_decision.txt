@@ -1,0 +1,16 @@
+grenat＝榴石 採用
+
+
+## 2026-11-15 本人採用：grenat＝榴石
+
+PIV原資料のgrenat/oは珪酸塩鉱物のざくろ石・ガーネットであり、果実のgranat/oとは別の独立語根。中国語で果実名になる石榴から、既成の鉱物別名である榴石へ字順を改める。榴はざくろの種子に似た結晶・色への連想、石は鉱物という区分に寄与する。国立自然科学博物館・館訊252号「酷似種子的礦物—石榴子石」（2008年11月、5頁）の石榴子石／石榴石／榴石という併記を根拠とする。
+
+石5＋榴14＝19画で前後同じ。使用字種2,207のまま、石53根・榴3根という割当先数も変わらない。字種や画数の削減ではなく、鉱物と果実の意味の取り違えを減らす判断である。割当先数は自然文の使用頻度ではない。
+
+grenatの外側識別子は無印のまま。他10,468根の割当・識別子は保持する。正本分類contentと識別子優先度区分pejvoは別の項目であり、双方を維持する。F=2、P=0.707も維持する。grenat/kolorの漢字成分は榴石＋色へ連動させ、語根分解・語義・学習用注釈は変えない。
+
+新版逆変換は榴石→grenatを追加し、旧石榴→grenatも残す。ただし連結表記榴石oはgranatŝtonoからgrenatoへ優先復元先が変わる。同じ表記を複数の語根列が共有する曖昧さとして明記し、全原文の一意な復元を保証しない。固定旧版は変更しない。
+
+granat＝榴、punik＝榴ᴾ、ŝton＝石、grenad＝手雷、konsol＝慰、indign＝愤などを維持する。旧台帳44件は書き換えず、今回の決定を `_grenat_followup_20261115.json` に追記する。通常・@・逆変換とCloudの反映は別担当の実測記録で確認する。正本検証：`_再点検_20261016/assignment_update_20261115_grenat/canonical`。
+
+Explicit user adoption grenat=榴石. The original PIV grenat/o is the silicate mineral garnet; granat/o is the pomegranate fruit. 石榴 is the established Chinese fruit name, while 榴石 is an attested alternative mineral name. 榴 retains the pomegranate-seed association and 石 makes the mineral category explicit. This reverses the same two characters, not a reduction: 19 to 19 strokes, 2207 character types and allocated-root counts 石53/榴3 unchanged. Keep independent grenat and grenat/kolor decomposition, source glosses and all learning annotations. The canonical master classification content and identifier priority band pejvo, F=2, P=0.707 are distinct fields and remain unchanged. Unchanged original identifier generators reproduce all 10469 rows; only grenat display/group changes and all identifiers remain unchanged. Current reverse adds 榴石→grenat while retaining 石榴→grenat. Compositional 榴石o previously restores as granatŝtono and now prefers grenato; this accepted surface-sharing ambiguity is recorded, not described as lossless. Frozen legacy assignments and assets remain unchanged. Keep granat=榴, punik=榴ᴾ, ŝton=石, grenad=手雷, konsol=慰, indign=愤 and all other roots. All 44 earlier adoption ledgers are byte-identical. This canonical report does not claim app or Cloud verification, which is separate.

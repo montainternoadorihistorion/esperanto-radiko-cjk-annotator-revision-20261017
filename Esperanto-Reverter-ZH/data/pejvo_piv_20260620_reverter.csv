@@ -6331,6 +6331,7 @@ noci,概ᴺ,0,noci,4700
 resum,概ᴿ,0,resum,4698
 sikomor,榕ˢ,0,sikomor,7790
 punik,榴ᴾ,0,punik,6899
+grenat,榴石,0,grenat,7680
 limin,槛ᴸ,0,limin,4386
 alveol,槽ᴬ,0,alveol,6290
 kanel,槽ᴷ,0,kanel,6289
@@ -6933,7 +6934,7 @@ erik,石南,0,erik,7192
 grafit,石墨,0,grafit,6829
 likopodi,石松,0,likopodi,8548
 asbest,石棉,0,asbest,8415
-grenat,石榴,0,grenat,7680
+grenat,石榴,0,grenat,reverse-alias:20261115
 grifel,石笔,0,grifel,8310
 gips,石膏,0,gips,6078
 kvarc,石英,0,kvarc,6821
