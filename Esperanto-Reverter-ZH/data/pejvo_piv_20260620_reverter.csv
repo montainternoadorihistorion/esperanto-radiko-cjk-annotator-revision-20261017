@@ -6457,6 +6457,7 @@ metod,法ᴹ,0,metod,1988
 rimed,法ᴿ,0,rimed,1989
 pretor,法官,0,pretor,7031
 tribunal,法院,0,tribunal,4163
+ampol,泡ᴬ,0,ampol,5464
 bobel,泡ᴮ,0,bobel,5465
 efervesk,泡ᴱ,0,efervesk,5467
 infuz,泡ᴵ,0,infuz,5466
@@ -9638,7 +9639,7 @@ merg,沉,0,merg,6123
 ŝampu,沐,0,ŝampu,5195
 sabl,沙,0,sabl,3540
 sulk,沟,0,sulk,5367
-ŝaŭm,沫,0,ŝaŭm,5347
+ŝaŭm,沫,0,ŝaŭm,reverse-alias:20261115
 river,河,0,river,1816
 bol,沸,0,bol,2936
 ole,油,0,ole,3128
@@ -9648,7 +9649,7 @@ font,泉,0,font,2176
 sekreci,泌,0,sekreci,6638
 jur,法,0,jur,1987
 kosmopolit,泛,0,kosmopolit,6549
-ampol,泡,0,ampol,5464
+ŝaŭm,泡,0,ŝaŭm,5347
 ond,波,0,ond,3130
 kot,泥,0,kot,4542
 atent,注,0,atent,1432
