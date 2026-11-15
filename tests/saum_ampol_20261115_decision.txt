@@ -1,0 +1,16 @@
+ŝaŭm＝泡、ampol＝泡ᴬ 採用・連動
+
+
+## 2026-11-15 本人採用：ŝaŭm＝泡、ampol＝泡ᴬの連動
+
+ŝaŭm/oは沸騰・攪拌・発酵などで生じる細かな泡の集合、口の泡、空疎さの比喩を表す。旧字の沫にも中心義を直接表す利点があるが、今回のユーザー選択では既存の泡を共用する。細泡の集合という区別はPIV原語義に保持する。既存の短い学習注釈は日「泡」・中「泡沫」・韓「거품」のままとし、全言語で細泡の集合を明記済みとはしない。ampolの日「電球」・中「电灯泡」・韓「전구」、語根分解・綴りも変えない。
+
+泡は水偏が泡や液体を思い出す手掛かりになり、eferveskなど近い意味にも既に使われる。泡を含む割当先は7→8語根。専用字だった沫がなくなり、使用字種は2,207→2,206。漢字本体は沫8画→泡8画であり、画数削減ではない。共用先件数は文章中の出現頻度ではない。
+
+元の優先度・識別子アルゴリズムをそのまま再現し、無印泡はŝaŭmへ、ampolは泡ᴬへ連動する。ŝaŭmの既存F=22/P=-2.485、ampolのF=4/P=-0.997、両者の優先度区分basicを維持する。正本分類contentとは別の項目である。他10,467根の割当・識別子、既存の泡ᴮ・泡ᴵ・泡ᴱ・泡ᴮᴸ・脓泡・泡疹を保持する。
+
+新版逆変換は旧沫→ŝaŭmを保持し、泡→ŝaŭm、泡ᴬ→ampolとする。変更途中の新版でampolを表した無印泡は、更新後の新版ではŝaŭmに戻るため同時には保持できない。この復元先変更を了承した採用であり、一意復元の完全維持とは称さない。固定旧版は割当・識別子・逆変換所有者を維持する。
+
+sufiĉ＝够は維持。klorofil＝叶绿、konsol＝慰、indign＝愤、grenat＝榴石など既往の判断も変更しない。旧台帳45件は書き換えず、今回の決定を `_saum_ampol_followup_20261115.json` に追記する。正本検証：`_再点検_20261016/assignment_update_20261115_saum_ampol/canonical`。アプリ通常・@・逆変換・Cloudの検証は別担当の記録を参照する。
+
+Explicit user adoption ŝaŭm=泡 and the existing identifier algorithm consequence ampol=泡ᴬ; sufiĉ=够 is explicitly retained. The PIV central foam meaning (a collection of small bubbles) and all existing semantic glosses/learning annotations remain. 沫 already directly expresses fine foam; the decision does not call the old assignment erroneous. 泡 reuses an existing water-radical character across eight assigned roots instead of seven, including the closely related effervescence efervesk. The dedicated 沫 disappears: 2207 to 2206 Han types. Both old and new bodies have 8 strokes. The unmodified priority and identifier generators select bare 泡 for ŝaŭm and suffix a/ᴬ for ampol. Preserve F=22/P=-2.485 for ŝaŭm and F=4/P=-0.997 for ampol, both basic priority band; canonical classification content remains unchanged. All other 10467 assignment/identifier rows and source segmentation are preserved. Existing bobel=泡ᴮ, infuz=泡ᴵ, efervesk=泡ᴱ, blaz=泡ᴮᴸ, pustul=脓泡 and herpet=泡疹 remain. Current reverse must retain 沫→ŝaŭm, use 泡→ŝaŭm and 泡ᴬ→ampol. Old intermediate-new text using bare 泡 for ampol cannot simultaneously restore to ampol under the new owner; the user approved that change. Fixed legacy assets and reverse ownership remain unchanged. All 45 old decision ledgers remain byte-identical. This canonical report does not claim runtime/Cloud verification, which is separately recorded.

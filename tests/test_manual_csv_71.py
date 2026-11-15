@@ -115,6 +115,8 @@ LATER_CURRENT_ASSIGNMENTS = {
     'egoist': ('己ᴱ', '我ᴱ家'),
     'rekrut': ('征募', '新兵'),
     'grenat': ('石榴', '榴石'),
+    'ŝaŭm': ('沫', '泡'),
+    'ampol': ('泡', '泡ᴬ'),
 }
 
 def historical_current_bytes(raw):

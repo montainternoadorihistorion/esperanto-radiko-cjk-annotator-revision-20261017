@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "revision": "saum-ampol-20261115",
+  "baseline_private_commit": "83b7eaa604f77b1caf57a99e6779ad38095fc8d9",
+  "changes": {
+    "ŝaŭm": {
+      "old": "沫",
+      "current": "泡"
+    },
+    "ampol": {
+      "old": "泡",
+      "current": "泡ᴬ"
+    }
+  },
+  "safe_reverse_aliases": {
+    "沫": "ŝaŭm"
+  },
+  "ownership_transfers": {
+    "泡": {
+      "old": "ampol",
+      "current": "ŝaŭm",
+      "old_profile": "pre-las-20261017"
+    }
+  },
+  "canonical_sidecar_sha256": "81b5a070ecf4a066c0e38a8192d9ac39b6e1e44eb1605aae437d143b203c8935",
+  "monaco_all_sha256": "32f2ff12c4faab592f5f587e14cf685fffc3f313fd39cf888790779a6dd39b57",
+  "baseline_current_csv_count": 10702,
+  "current_csv_count": 10703,
+  "rationale": "User adopted foam ŝaŭm=泡 and ampol=泡ᴬ through the original identifier priority algorithm; share existing 泡 and remove sole-use 沫 from current assignments. Preserve precise original learning annotations and existing segmentation. Old 沫 remains a safe reverse alias. Bare 泡 changes owner only in current; fixed legacy remains ampol.",
+  "ambiguity_note": "An intermediate current-edition text with unmarked 泡 formerly restored ampol; it now restores ŝaŭm. The user explicitly accepted this ownership transfer. Fixed legacy 泡 still restores ampol; standard HTML original ruby disambiguates both.",
+  "fixed_legacy_unchanged": true,
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true
+}
