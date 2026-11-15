@@ -5373,6 +5373,7 @@ poligon,多角,0,poligon,7827
 nokturn,夜曲,0,nokturn,8663
 najtingal,夜莺,0,najtingal,5883
 kaprimulg,夜鹰,0,kaprimulg,7912
+kvorum,够数,0,kvorum,7793
 majuskl,大ᴹ,0,majuskl,796
 versal,大ⱽ,0,versal,798
 sizigi,大潮,0,sizigi,7947
@@ -7899,7 +7900,7 @@ transcend,超ᵀ,0,transcend,6003
 ju,越ᴶ,0,ju,95
 ofsajd,越位,0,ofsajd,8670
 pland,足底,0,pland,5896
-kvorum,足数,0,kvorum,7793
+kvorum,足数,0,kvorum,reverse-alias:20261115
 tars,足根,0,tars,6762
 tal,距ᵀ,0,tal,3929
 cirkvit,路ᶜ,0,cirkvit,986

@@ -117,6 +117,7 @@ LATER_CURRENT_ASSIGNMENTS = {
     'grenat': ('石榴', '榴石'),
     'ŝaŭm': ('沫', '泡'),
     'ampol': ('泡', '泡ᴬ'),
+    'kvorum': ('足数', '够数'),
 }
 
 def historical_current_bytes(raw):

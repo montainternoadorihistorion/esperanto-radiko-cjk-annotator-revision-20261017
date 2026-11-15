@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "revision": "kvorum-20261115",
+  "baseline_private_commit": "1cdd7f7c9ebe3e412a070913428dc88bcdca6781",
+  "changes": {
+    "kvorum": {
+      "old": "足数",
+      "current": "够数"
+    }
+  },
+  "safe_reverse_aliases": {
+    "足数": "kvorum"
+  },
+  "ownership_transfers": {},
+  "canonical_sidecar_sha256": "067f6d98f9e99d409a109fa0d16f21e06fe9f1a169c7d4e4507770cfe3a54f88",
+  "monaco_all_sha256": "74c20b2ede18fa925153395ef03aa68b7698d66b89d5dd343eda6eb85a1a644b",
+  "baseline_current_csv_count": 10703,
+  "current_csv_count": 10704,
+  "rationale": "User adopted kvorum=够数 to share the sufficient/enough sense of 够 with sufiĉ=够. 数 retains the minimum required attendance count of a quorum. Preserve original quorum annotations, all other assignments and established segmentation. No Han-type reduction is claimed; body strokes increase 20 to 24. Preserve 足数 as a safe reverse-only alias.",
+  "accepted_compositional_ambiguity": {
+    "display": "够数o",
+    "before": "sufiĉnombro",
+    "current": "kvorumo",
+    "fixed_legacy": "sufiĉnombro"
+  },
+  "ambiguity_note": "No existing exact 够数 key is reassigned. The current inverse now prefers the whole kvorum key over the former sufiĉ+nombr composition. Fixed legacy and original-bearing HTML remain unchanged.",
+  "fixed_legacy_unchanged": true,
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true,
+  "authorization_history": "Earlier preparation was paused before product application when the user clarified that alternatives should be compared. The later explicit kvorum=够数 adoption authorizes this application. The earlier pause is retained in task-local evidence."
+}

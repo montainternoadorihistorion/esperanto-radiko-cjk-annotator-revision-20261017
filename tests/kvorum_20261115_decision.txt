@@ -1,0 +1,18 @@
+kvorum＝够数 採用理由
+
+
+## 2026-11-15 本人採用：kvorum＝够数
+
+kvorum/oは、会議・委員会などの決定を有効にするために必要な最低出席人数（定足数）。「够」は十分さ・必要量を満たすこと、「数」は人数・数量を担う。ユーザーはこの充足義で「足」を用いないと明示し、sufiĉ＝够と共用する够数を採用した。過去の「定足数」を手掛かりにする比較理由は履歴として残すが、現在の推薦ではない。旧表記を語義上の誤りと断定する変更ではなく、本人の一貫した字の使い方を優先する判断である。
+
+経緯：当初の採用扱いは、ユーザーが未確定と明確化した時点で停止し、製品294ファイルが開始時と同一であることを確認した。その後の読み取り比較と「足」の充足義を使わないという明示方針を経て、今回够数の採用・全体反映が明示依頼されたため再開した。停止記録と未採用比較は上書きせず保存し、今回の確定が以前の未採用状態を更新することを記録する。
+
+足を含む割当は26→25語根、够は1→2語根、数は15語根のまま。これらは割当先件数であり、文章中の出現頻度ではない。漢字本体は足数20画→够数24画で4画増え、使用字種は2,206のまま。短縮や字種削減ではなく、充足の字を揃える学習上の一貫性を採用理由とする。身体・足部・生物名等に使われる残りの足は変更しない。
+
+元の優先度・識別子生成器で全10,469根を再現し、kvorumは無印の够数、他10,468根の割当・識別子はそのまま。F=2と優先度区分pejvoを保持し、画数増によるE=0.25、D=24、P=1.226を同じ式で算出する（旧E=0.3、D=20、P=0.811）。正本分類contentは別項目として保持する。
+
+PIV原義・正本の語義・既存の分解・綴りを保持。学習注釈は日「定足数」・中「法定人数」・韓「정족수」のまま。新版の逆変換には够数→kvorumを追加し、旧足数→kvorumも残す。既存の完全キー所有者を奪う変更はないが、新キー追加前の够数oはsufiĉ＋nombr＋oとしてsufiĉnombroに戻り、追加後の新版ではkvorumoとなる。任意の複合表記の完全互換まで保証したとはしない。固定旧版は割当・識別子・復元先を維持する。
+
+sufiĉ＝够、ŝaŭm＝泡、ampol＝泡ᴬほか既往の判断を保持し、過去台帳46件は書き換えない。今回の決定は `_kvorum_followup_20261115.json` に記録。正本検証：`_再点検_20261016/assignment_update_20261115_kvorum/canonical`。アプリ通常・@・逆変換・保存・Cloudの実測は別担当の記録を参照する。
+
+Explicit user adoption kvorum=够数 after comparing the sufficiency use of 足 with sufiĉ=够. The Esperanto noun means the minimum attendance required for an assembly or committee decision to be valid. 够 carries sufficiency and 数 the required number. The user explicitly excludes 足 for sufficiency in this assignment and adopts 够 to align with sufiĉ. The prior discussion of Japanese 定足数 is retained as history, not a current recommendation. This is an adopted consistency preference, not correction of a claimed lexical error. 够 is shared with sufiĉ. 足-containing assignments decrease 26 to 25, 够 increase 1 to 2, 数 remain 15. These are root-assignment counts, not corpus frequency. Body strokes increase 20 to 24 and the Han inventory stays 2206: no stroke or inventory reduction is claimed. The original identifier generator retains the empty identifier for kvorum and all other 10468 rows unchanged. Preserve F=2 and pejvo priority band; the stroke-dependent E/D/P values update mechanically to 0.25/24/1.226 from 0.3/20/0.811. Canonical classification content is distinct from priority band. Preserve all original glosses and segmentation and current learning annotations JA定足数/ZH法定人数/KO정족수. Current reverse adds 够数→kvorum and retains 足数→kvorum. Before the new complete key, 够数o was read compositionally as sufiĉnombro; under the current new key it becomes kvorumo. This is not a claim of perfect restoration for all arbitrary shared-character compounds. Fixed legacy remains unchanged. All 46 historical decision ledgers remain byte-identical. Application and Cloud verification is recorded separately.
