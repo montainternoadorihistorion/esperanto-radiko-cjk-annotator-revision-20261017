@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "revision": "grenat-20261115",
+  "baseline_private_commit": "cc9e3ff395696be3ffe3e245f868ef338a99caba",
+  "changes": {
+    "grenat": {
+      "old": "石榴",
+      "current": "榴石"
+    }
+  },
+  "safe_reverse_aliases": {
+    "石榴": "grenat"
+  },
+  "ownership_transfers": {},
+  "canonical_sidecar_sha256": "c12c42c27c1aa978175f7f753258857231ca296a1564208dadbf94f45da86f1e",
+  "monaco_all_sha256": "59291d31831c1e45c2c07bd418c2dd0d46179fef22a85340f396d8190e0b5c33",
+  "baseline_current_csv_count": 10701,
+  "current_csv_count": 10702,
+  "rationale": "Approved grenat=榴石 denotes garnet, an established mineral name. Reordering the same two Han characters keeps the pomegranate association in 榴 and makes mineral 石 the final element. No glyph-count or stroke reduction is claimed. Keep all learning annotations, identifiers and established segmentation. Preserve 石榴 as a reverse-only alias.",
+  "accepted_compositional_ambiguity": {
+    "display": "榴石o",
+    "before": "granatŝtono",
+    "current": "grenato",
+    "fixed_legacy": "granatŝtono"
+  },
+  "ambiguity_note": "No prior exact 榴石 inverse key is reassigned. Longest matching now selects grenat over the former granat+ŝton composition in plain current-edition text. HTML with original ruby still distinguishes both sources.",
+  "fixed_legacy_unchanged": true,
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true
+}
