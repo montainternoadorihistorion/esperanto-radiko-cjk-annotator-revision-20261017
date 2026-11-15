@@ -1,0 +1,14 @@
+rekrut＝新兵 採用
+
+
+## 2026-11-15 本人採用：rekrut＝新兵
+
+PIVのrekrut/oは軍務を始めたばかりの兵士。征募は募集の行為を強く表すため、新＝加入したばかり、兵＝軍人という二字により名詞中心義へ近づける。正本一覧HTMLの既存語義【軍】新兵;《転》新入会員を維持する。アプリ同梱の学習注釈（日本語・徴募／中国語・征募／韓国語・징집）は別資料であり、今回は既存値を維持する。rekrut/ig等の分解・語義・品詞・その他のマーカーは変更しない。
+
+征8＋募12＝20画から、新13＋兵7＝20画へ。字種は2,207のままで、この変更は画数・字種の削減ではなく意味の整合を優先する。割当先は新10→11根、兵6→7根、征5→4根、募3→2根。これは自然文での出現頻度ではない。band=pejvo、F=8、P=-0.287は維持し、元の識別子生成器の全10,469根試算ではrekrut以外10,468根を変えず、外側識別子も付かない。
+
+新版逆変換は新兵→rekrutを追加し、旧征募→rekrutも残す。既存の連結表記新兵oはnovsoldatoからrekrutoへ優先復元先が変わることを記録する。同じ表記の共用による曖昧さであり、全文章が元の語根列へ一意に戻ると主張しない。固定旧版は維持する。
+
+過去の採否台帳43件は変更せず、hidrid＝氢化、pipet＝移液、klorofil＝叶绿など、今回採用されていない候補は維持する。根拠・正本検証は `_rekrut_followup_20261115.json` と `_再点検_20261016/assignment_update_20261115_rekrut/canonical`。通常・@・逆変換・Cloudの実反映は別の検証記録で確認する。
+
+Explicit user adoption rekrut=新兵. PIV head rekrut/o denotes a soldier just beginning service; the canonical list HTML retains its existing military new recruit and figurative new member gloss. Existing bundled learning annotations JA 徴募, ZH 征募 and KO 징집 are a separate source and remain unchanged in this adoption. 征募 foregrounds recruitment action; 新 identifies a new entrant and 兵 the soldier. The nominal reading and existing rekrut/ig decomposition align without changing source segmentation. This is semantic alignment, not stroke or character-inventory reduction: 20→20 base strokes, 2207 character types unchanged. 新10→11 and 兵6→7 allocated roots; 征5→4 and 募3→2. These are allocation counts, not text frequency. Priority band pejvo, F=8 and P=-0.287 remain unchanged; original identifier generators assign no outer identifier and leave all 10468 other rows unchanged. New current inverse key 新兵→rekrut must be added while retaining 征募→rekrut. The current decomposition of 新兵o into novsoldato becomes rekruto; this known compositional ambiguity is documented rather than claimed lossless. Fixed legacy assignments, identifiers, data and reverse behavior remain unchanged. No other reviewed candidate, especially hidrid or pipet, is adopted. All 43 older ledgers remain byte-identical. Canonical verification is separate from app runtime and Cloud verification.
