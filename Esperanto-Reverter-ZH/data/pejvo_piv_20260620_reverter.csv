@@ -2320,7 +2320,7 @@ kotlet,排ᴷᵀ,0,kotlet,4721
 sambuk,接骨木,0,sambuk,7480
 ŝov,推ˢ̂,0,ŝov,1909
 propuls,推ᴾᴿ,0,propuls,1911
-piktur,描ᴾᴷ,0,piktur,3144
+piktur,描ᴾᴷ,0,piktur,reverse-alias:20261116
 interpol,插ᴵᵀ,0,interpol,7055
 ŝancel,摇ˢ̂,0,ŝancel,4234
 karambol,撞ᴷᴿ,0,karambol,5721
@@ -5920,6 +5920,7 @@ inferenc,推ᴵ,0,inferenc,1912
 rezon,推ᴿ,0,rezon,1910
 masaĝ,揉ᴹ,0,masaĝ,5120
 taŭz,揉ᵀ,0,tau^z,4525
+desegn,描ᴰ,0,desegn,2964
 suflor,提ˢ,0,suflor,3793
 admiral,提督,0,admiral,6469
 ĵakard,提花,0,j^akard,7798
@@ -10039,7 +10040,7 @@ bibli,经,0,bibli,6169
 velur,绒,0,velur,5967
 lig,结,0,lig,1778
 haspel,绕,0,haspel,7267
-desegn,绘,0,desegn,2964
+piktur,绘,0,piktur,3144
 don,给,0,don,772
 absolut,绝,0,absolut,3766
 vinĉ,绞,0,vinc^,7343

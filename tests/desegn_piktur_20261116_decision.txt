@@ -1,0 +1,18 @@
+desegn＝描ᴰ、piktur＝绘 採用理由
+
+
+## 2026-11-16 本人採用：pentr＝描を維持、desegn＝描ᴰ、piktur＝绘
+
+ユーザーは、動作を思い浮かべるpentrとdesegnを「描」でまとめ、PIVでPentrartoと定義されるpikturには絵画芸術を思い浮かべる「绘」を採用した。直前の比較案pentr＝绘／piktur＝绘ᴾᴷ／desegn＝绘ᴰを採用したのではなく、今回明示された別の配分である。語根ごとの割当であり、語尾や品詞ごとに漢字を切り替える規則ではない。
+
+desegnは绘9画→描11画、pikturは描11画→绘9画。合計画数は変わらず、使用字種2,206も維持される。「描」を含む割当は2→2根、「绘」は浮世绘のukijを含め2→2根である。これらは表の割当先数で、自然文中の頻度ではない。字種削減を理由とする変更ではない。
+
+元の識別子生成器を全10,469根で再現し、desegn＝描ᴰ、piktur＝绘の2根だけを変更。pentr＝描と他10,467根の全項目を保持する。pikturは既存のP=5固定、F=1、piv優先帯を維持する。desegnはF=26とbasic帯を保ち、同じ式でP=-2.359へ更新する。手動の識別子指定や予約の追加は行わない。
+
+原文・語義・語根分解・注釈は保持する。漢字注入済み辞書と一覧の表示だけを伝播させる。過去の採用台帳47件は書き換えず、geometriの証拠に含まれるdesegn/aĵ/o（12828行）の表示だけを今回台帳の補足で追従させる。geometri自身の割当・分解を変えるものではない。
+
+新版の完全逆キーは描→pentr、描ᴰ→desegn、绘→piktur。旧描ᴾᴷ→pikturは互換別名として残す。無印绘の新版復元先はdesegnからpikturへ変わるため、旧绘→desegnは固定旧版で維持する。新版に同じ無印绘をdesegnの別名として同居させることはしない。途中の新版の無印字まで無条件に元へ戻せるとはしない。
+
+記録：`_desegn_piktur_followup_20261116.json`。正本の検証は `_再点検_20261016/assignment_update_20261116_desegn_piktur/canonical`。通常・@・逆変換・保存・Cloudの実測は別担当の証拠に記録する。
+
+Explicit user adoption pentr=描 retained, desegn=描ᴰ, piktur=绘. The two action-oriented roots pentr and desegn share 描; the separate root piktur, defined in PIV as Pentrarto, uses 绘 to evoke pictorial art. This is a user-chosen root assignment, not a rule that changes kanji according to a word ending or grammatical part of speech. All forms of each root use the same assigned body. Preserve source meanings, morphology, segmentation and all short learning annotations. No character-inventory saving: 描 2→2 roots and 绘 2→2 roots, including unchanged 浮世绘 for ukij. These are assignment counts, not corpus usage frequencies. Body strokes desegn 9→11 and piktur 11→9 offset each other. Preserve piktur priority P=5, F=1, piv band and all previous priority decisions. Original full identifier generation changes exactly these two rows; pentr remains the unmarked 描 owner and all other 10467 rows remain unchanged. Current reverse complete keys are 描→pentr, 描ᴰ→desegn, 绘→piktur. Old 描ᴾᴷ→piktur can remain as an alias. Old unmarked 绘→desegn is preserved in fixed legacy; it cannot simultaneously be a desegn alias in the current edition where 绘 now belongs to piktur. Retain all 47 historical ledgers byte-for-byte. One geometri proof at line12828 includes desegn; only its displayed annotation is overlaid in this new ledger, without changing geometri or its decomposition. App and Cloud verification is separate.

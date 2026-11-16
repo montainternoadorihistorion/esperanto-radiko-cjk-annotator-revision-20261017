@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "kvorum-20261115",
+  "revision": "desegn-piktur-20261116",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "74c20b2ede18fa925153395ef03aa68b7698d66b89d5dd343eda6eb85a1a644b",
+  "monaco_all_sha256": "6223a7b0ee30936a771a23d8a2704c177f240e8a3661a55e2cdc8da9d160dd7e",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "067f6d98f9e99d409a109fa0d16f21e06fe9f1a169c7d4e4507770cfe3a54f88",
+  "canonical_sidecar_sha256": "bc370fa585f5c5d7c8c71ba524ace4be39190e98aec5e6904556c78ad5890f8e",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -620,10 +620,18 @@
     "kvorum": {
       "old": "足数",
       "current": "够数"
+    },
+    "desegn": {
+      "old": "绘",
+      "current": "描ᴰ"
+    },
+    "piktur": {
+      "old": "描ᴾᴷ",
+      "current": "绘"
     }
   },
-  "current_csv_sha256": "5b4d80fce9bf9d6942adce9b56f1bf70d857ca0fc5e71771a3fc27cf947596b4",
-  "current_snippet_csv_sha256": "235bf883768240d9fcb5d972ad5f06052ae9dc77d1e398ec30903c85121d6659",
+  "current_csv_sha256": "70ce560eed434c64c45119e22db5de989d2dfb6321b0c173f41ba39a65bb3cae",
+  "current_snippet_csv_sha256": "7f749978fddb7b627e334f109e98e775e6d3981639a43cc97eba329cd211bccc",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -688,13 +696,14 @@
     "征募": "rekrut",
     "石榴": "grenat",
     "沫": "ŝaŭm",
-    "足数": "kvorum"
+    "足数": "kvorum",
+    "描ᴾᴷ": "piktur"
   },
   "mirror_identifier_manifest": "data/mirror-identifiers-20261017.json",
   "mirror_identifier_manifest_sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
   "pre_mirror_csv_sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
   "current_item_count": 10640,
-  "current_csv_count": 10704,
+  "current_csv_count": 10705,
   "stafilokok_assignment_manifest": "data/stafilokok-assignment-20261017.json",
   "stafilokok_assignment_manifest_sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
   "four_shared_assignment_manifest": "data/four-shared-assignments-20261017.json",
@@ -768,6 +777,11 @@
     "泡": {
       "old": "ampol",
       "current": "ŝaŭm",
+      "old_profile": "pre-las-20261017"
+    },
+    "绘": {
+      "old": "desegn",
+      "current": "piktur",
       "old_profile": "pre-las-20261017"
     }
   },
@@ -873,5 +887,7 @@
   "saum_ampol_assignment_20261115_manifest": "data/saum_ampol_20261115.json",
   "saum_ampol_assignment_20261115_manifest_sha256": "5f8fd5ac15284c4885860bc8b5e5e2ba2c42949db701a6d7e378ad9516c58fbe",
   "kvorum_assignment_20261115_manifest": "data/kvorum_20261115.json",
-  "kvorum_assignment_20261115_manifest_sha256": "8afec0059ad49551b897c35ae2f52a192472195a1dd14e3084c2f2e98da79d22"
+  "kvorum_assignment_20261115_manifest_sha256": "8afec0059ad49551b897c35ae2f52a192472195a1dd14e3084c2f2e98da79d22",
+  "desegn_piktur_assignment_20261116_manifest": "data/desegn_piktur_20261116.json",
+  "desegn_piktur_assignment_20261116_manifest_sha256": "189b45b3a69ca0d4475a73dc64449e84033428039d6b2560d2f46e9895d39533"
 }
