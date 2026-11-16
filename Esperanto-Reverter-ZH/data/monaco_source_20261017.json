@@ -23816,15 +23816,15 @@
     },
     {
       "prefix": "desegn",
-      "body": "绘",
-      "kanji": "绘",
-      "detail": "desegn → 绘 (basic, F=26, 基本形)",
-      "documentation": "語根: desegn\n入力: desegn\n最終形: 绘\n漢字: 绘\n識別子: なし\n型: basic\nF(汎用性): 26\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:2964",
+      "body": "描ᴰ",
+      "kanji": "描",
+      "detail": "desegn → 描ᴰ (basic, F=26)",
+      "documentation": "語根: desegn\n入力: desegn\n最終形: 描ᴰ\n漢字: 描\n識別子: d\n型: basic\nF(汎用性): 26\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:2964",
       "priority": 0,
       "sourceRoot": "desegn",
       "type": "basic",
       "frequency": 26,
-      "base": true,
+      "base": false,
       "sourceLine": 2964
     },
     {
@@ -98787,15 +98787,15 @@
     },
     {
       "prefix": "piktur",
-      "body": "描ᴾᴷ",
-      "kanji": "描",
-      "detail": "piktur → 描ᴾᴷ (piv, F=1)",
-      "documentation": "語根: piktur\n入力: piktur\n最終形: 描ᴾᴷ\n漢字: 描\n識別子: pk\n型: piv\nF(汎用性): 1\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:3144",
+      "body": "绘",
+      "kanji": "绘",
+      "detail": "piktur → 绘 (piv, F=1, 基本形)",
+      "documentation": "語根: piktur\n入力: piktur\n最終形: 绘\n漢字: 绘\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:3144",
       "priority": 0,
       "sourceRoot": "piktur",
       "type": "piv",
       "frequency": 1,
-      "base": false,
+      "base": true,
       "sourceLine": 3144
     },
     {

@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "revision": "desegn-piktur-20261116",
+  "baseline_private_commit": "5c746d1d26837dae4c2bf74ae1635eeca5dde64d",
+  "changes": {
+    "desegn": {
+      "old": "绘",
+      "current": "描ᴰ"
+    },
+    "piktur": {
+      "old": "描ᴾᴷ",
+      "current": "绘"
+    }
+  },
+  "safe_reverse_aliases": {
+    "描ᴾᴷ": "piktur"
+  },
+  "ownership_transfers": {
+    "绘": {
+      "old": "desegn",
+      "current": "piktur",
+      "old_profile": "pre-las-20261017"
+    }
+  },
+  "canonical_sidecar_sha256": "bc370fa585f5c5d7c8c71ba524ace4be39190e98aec5e6904556c78ad5890f8e",
+  "monaco_all_sha256": "6223a7b0ee30936a771a23d8a2704c177f240e8a3661a55e2cdc8da9d160dd7e",
+  "baseline_current_csv_count": 10704,
+  "current_csv_count": 10705,
+  "rationale": "User adopted a root-level mnemonic: verbal painting/drawing roots pentr and desegn share 描, while nominal painting-art root piktur uses 绘. Original identifier priority keeps pentr=描 and assigns desegn=描ᴰ. Keep these bodies across noun/adjective/verb derivatives; neither ending-based switching nor segmentation changes are introduced. Both 描 and 绘 remain in use. Original learning annotations are unchanged.",
+  "ambiguity_note": "Bare 绘 in intermediate current-edition text formerly restored desegn and now restores piktur. The user approved this transfer. It cannot be inferred from plain text which intermediate current assignment was used. Fixed legacy keeps 绘→desegn and 描ᴾᴷ→piktur; original-bearing standard HTML retains its source.",
+  "fixed_legacy_unchanged": true,
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true
+}

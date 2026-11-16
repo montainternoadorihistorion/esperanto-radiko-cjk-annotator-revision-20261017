@@ -118,6 +118,8 @@ LATER_CURRENT_ASSIGNMENTS = {
     'ŝaŭm': ('沫', '泡'),
     'ampol': ('泡', '泡ᴬ'),
     'kvorum': ('足数', '够数'),
+    'desegn': ('绘', '描ᴰ'),
+    'piktur': ('描ᴾᴷ', '绘'),
 }
 
 def historical_current_bytes(raw):
