@@ -7645,7 +7645,7 @@ tropidonot,蛇ᵀ,0,tropidonot,3878
 cerast,蛇ᶜ,0,cerast,3873
 ofiur,蛇尾,0,ofiur,8451
 lupol,蛇麻,0,lupol,8133
-flan,蛋奶,0,flan,8285
+flan,蛋奶,0,flan,reverse-alias:20261118
 protein,蛋白,0,protein,6223
 vitel,蛋黄,0,vitel,8121
 salamandr,蛙ˢ,0,salamandr,5315
@@ -8307,6 +8307,7 @@ biskvit,饼ᴮ,0,biskvit,4493
 kresp,饼ᴷ,0,kresp,4497
 oblat,饼ᴼ,0,oblat,4496
 pic,饼ᴾ,0,pic,4494
+flan,饼ᶠ,0,flan,8285
 vafl,饼ⱽ,0,vafl,4495
 muze,馆ᴹ,0,muze,3408
 pavilon,馆ᴾ,0,pavilon,3409
