@@ -120,6 +120,7 @@ LATER_CURRENT_ASSIGNMENTS = {
     'kvorum': ('足数', '够数'),
     'desegn': ('绘', '描ᴰ'),
     'piktur': ('描ᴾᴷ', '绘'),
+    'flan': ('蛋奶', '饼ᶠ'),
 }
 
 def historical_current_bytes(raw):

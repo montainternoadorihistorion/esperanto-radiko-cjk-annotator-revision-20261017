@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "revision": "flan-20261118",
+  "baseline_private_commit": "6f7988582831e5ddebfe16c3e9af33d3f88926dd",
+  "changes": {
+    "flan": {
+      "old": "蛋奶",
+      "current": "饼ᶠ"
+    }
+  },
+  "safe_reverse_aliases": {
+    "蛋奶": "flan"
+  },
+  "ownership_transfers": {},
+  "canonical_sidecar_sha256": "dfdaf721313478617d29be06cd3f28630dcc0379c2d70f4c923c2294f2373cb9",
+  "monaco_all_sha256": "38786bebdd32ac470c828690469c4eac3a0bec70e0a350e8d771dfd9b7fdf504",
+  "baseline_current_csv_count": 10705,
+  "current_csv_count": 10706,
+  "rationale": "Approved flan=饼ᶠ shares the existing pastry character and preserves fruit/custard tart meanings in learning annotations. Keep safe old 蛋奶→flan, longest 蛋奶酥→sufle, all current 饼-series owners and fixed legacy. Neither root segmentation nor ending-dependent switching is changed.",
+  "fixed_legacy_unchanged": true,
+  "new_edition_profiles": 0,
+  "custom_dictionaries_unchanged": true
+}
