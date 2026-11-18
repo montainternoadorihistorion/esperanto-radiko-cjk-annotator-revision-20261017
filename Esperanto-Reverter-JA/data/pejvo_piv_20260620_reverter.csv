@@ -5901,7 +5901,7 @@ oscil,振ᴼ,0,oscil,6061
 averi,损ᴬ,0,averi,3330
 kompromit,损ᴷ,0,kompromit,3329
 permut,换ᴾ,0,permut,6186
-aline,换行,0,aline,6892
+aline,换行,0,aline,reverse-alias:20261118
 pistil,捣具,0,pistil,9863
 inic,授ᴵ,0,inic,5305
 metakarp,掌骨,0,metakarp,8443
@@ -6376,6 +6376,7 @@ invalid,残疾,0,invalid,5804
 vrak,残船,0,vrak,8519
 prolifer,殖ᴾ,0,prolifer,4831
 segment,段ˢ,0,segment,4727
+aline,段ᴬ,0,aline,6892
 metamer,段ᴹ,0,metamer,4728
 galant,殷勤,0,galant,6427
 matriark,母系,0,matriark,7691
@@ -7895,6 +7896,7 @@ aprob,赞ᴬ,0,aprob,1752
 konsent,赞ᴷ,0,konsent,1753
 ovaci,赞ᴼ,0,ovaci,1755
 ruf,赤褐,0,ruf,8158
+ekvator,赤道,0,ekvator,5619
 kontraband,走私,0,kontraband,7057
 meta,超ᴹ,0,meta,6002
 transcend,超ᵀ,0,transcend,6003
@@ -10392,7 +10394,7 @@ lukr,赚,0,lukr,7172
 matĉ,赛,0,matĉ,5121
 laŭd,赞,0,laŭd,1751
 gajn,赢,0,gajn,reverse-alias:20261114
-ekvator,赤,0,ekvator,5619
+ekvator,赤,0,ekvator,reverse-alias:20261118
 amnesti,赦,0,amnesti,7543
 start,起,0,start,5944
 hiper,超,0,hiper,6001

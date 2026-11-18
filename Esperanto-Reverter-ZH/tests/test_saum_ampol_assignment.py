@@ -58,8 +58,8 @@ def test_html_recovers_original_despite_changed_plain_key_owner(edition,mode):
 
 def test_current_revision_and_explicit_owner_transfer():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
-    assert source['revision']=='flan-20261118'
-    assert source['current_item_count']==10640 and source['current_csv_count']==10706
+    assert source['revision']=='aline-ekvator-20261118'
+    assert source['current_item_count']==10640 and source['current_csv_count']==10708
     assert source['reverse_only_aliases']['沫']=='ŝaŭm' and source['reverse_only_aliases']['聪']=='inteligent'
     assert '泡' not in source['reverse_only_aliases']
     assert source['ownership_transfers']['泡']=={'old':'ampol','current':'ŝaŭm','old_profile':LEGACY}

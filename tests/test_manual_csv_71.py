@@ -121,6 +121,8 @@ LATER_CURRENT_ASSIGNMENTS = {
     'desegn': ('绘', '描ᴰ'),
     'piktur': ('描ᴾᴷ', '绘'),
     'flan': ('蛋奶', '饼ᶠ'),
+    'aline': ('换行', '段ᴬ'),
+    'ekvator': ('赤', '赤道'),
 }
 
 def historical_current_bytes(raw):

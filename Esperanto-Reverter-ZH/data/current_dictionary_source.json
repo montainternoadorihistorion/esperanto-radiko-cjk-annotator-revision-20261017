@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "flan-20261118",
+  "revision": "aline-ekvator-20261118",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "38786bebdd32ac470c828690469c4eac3a0bec70e0a350e8d771dfd9b7fdf504",
+  "monaco_all_sha256": "faa460064b3a016883b5829562a9ae1e34b07bf694597b664659f23e70b3a877",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "dfdaf721313478617d29be06cd3f28630dcc0379c2d70f4c923c2294f2373cb9",
+  "canonical_sidecar_sha256": "e9a449c2b42310ed0a64095c2ece6547fa703e897a8babb0e9303f64f5efd349",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -632,10 +632,18 @@
     "flan": {
       "old": "蛋奶",
       "current": "饼ᶠ"
+    },
+    "aline": {
+      "old": "换行",
+      "current": "段ᴬ"
+    },
+    "ekvator": {
+      "old": "赤",
+      "current": "赤道"
     }
   },
-  "current_csv_sha256": "69d8972dccf9a09f2c9e0c67694636a0e112898ea88f3a6d16d82733754e18f3",
-  "current_snippet_csv_sha256": "821f77aa69fa45bab7693e099c94c3156d55436b1a6b99d2f16d556c65c24f3e",
+  "current_csv_sha256": "4c30247bedeee732aea7245a63dbbd47a922efcbee36c491c77b91b1b7cd18b4",
+  "current_snippet_csv_sha256": "124fe26064e63ebb5046fedb8b32345232d3ade5d114ca17d425f2ffb042141f",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -702,13 +710,15 @@
     "沫": "ŝaŭm",
     "足数": "kvorum",
     "描ᴾᴷ": "piktur",
-    "蛋奶": "flan"
+    "蛋奶": "flan",
+    "换行": "aline",
+    "赤": "ekvator"
   },
   "mirror_identifier_manifest": "data/mirror-identifiers-20261017.json",
   "mirror_identifier_manifest_sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
   "pre_mirror_csv_sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
   "current_item_count": 10640,
-  "current_csv_count": 10706,
+  "current_csv_count": 10708,
   "stafilokok_assignment_manifest": "data/stafilokok-assignment-20261017.json",
   "stafilokok_assignment_manifest_sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
   "four_shared_assignment_manifest": "data/four-shared-assignments-20261017.json",
@@ -896,5 +906,7 @@
   "desegn_piktur_assignment_20261116_manifest": "data/desegn_piktur_20261116.json",
   "desegn_piktur_assignment_20261116_manifest_sha256": "189b45b3a69ca0d4475a73dc64449e84033428039d6b2560d2f46e9895d39533",
   "flan_assignment_20261118_manifest": "data/flan_20261118.json",
-  "flan_assignment_20261118_manifest_sha256": "5f02e9f5b99714526dce78b909ed8ff3ce9d9f6573965fa6b2b71d01d448485f"
+  "flan_assignment_20261118_manifest_sha256": "5f02e9f5b99714526dce78b909ed8ff3ce9d9f6573965fa6b2b71d01d448485f",
+  "aline_ekvator_20261118_manifest": "data/aline_ekvator_20261118.json",
+  "aline_ekvator_20261118_manifest_sha256": "ada68671e227fef7791f09c2df48e0e62f0ac1354bd43729aa61bd850aa87685"
 }
