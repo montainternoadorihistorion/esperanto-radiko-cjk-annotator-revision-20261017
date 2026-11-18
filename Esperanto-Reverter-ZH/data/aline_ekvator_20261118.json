@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "revision": "aline-ekvator-20261118",
+  "changes": {
+    "aline": {
+      "old": "换行",
+      "current": "段ᴬ"
+    },
+    "ekvator": {
+      "old": "赤",
+      "current": "赤道"
+    }
+  },
+  "safe_reverse_aliases": {
+    "换行": "aline",
+    "赤": "ekvator"
+  },
+  "ownership_transfers": {},
+  "canonical_sidecar_sha256": "e9a449c2b42310ed0a64095c2ece6547fa703e897a8babb0e9303f64f5efd349",
+  "monaco_all_sha256": "faa460064b3a016883b5829562a9ae1e34b07bf694597b664659f23e70b3a877",
+  "baseline_current_csv_count": 10706,
+  "current_csv_count": 10708,
+  "fixed_legacy_unchanged": true,
+  "rationale": "Use 段 for a paragraph, and 赤道 for the equator. Read both former spellings as before. The old concatenation 赤＋道 gains an intentional new longest match in the current edition."
+}
