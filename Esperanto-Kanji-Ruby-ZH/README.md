@@ -276,3 +276,6 @@ inteligent＝智ᴵᴳ、其他汉字分配、注释和词根分解保持不变�
 
 
 新版将 halofit（盐生植物）写作 盐ᴴ植ᶠ，将 deodar（雪松）写作 雪松ᴰ。通常转换 halofito 时保留 halo＋fit 的划分，@halofit@o 则指定完整词根，两者显示相同。cedr（雪松属）仍写作 雪松。
+
+
+新版将 baron（男爵）写作 爵，将 duk（公爵）写作 爵ᴰ。duko 和 @duk@o 的转换结果都是 爵ᴰo，固定旧版则为 公爵o。

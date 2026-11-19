@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "legacy-compound-inverse-20261018-v3",
+  "revision": "legacy-compound-inverse-20261120-v4",
   "source_id": "pre-las-20261017",
   "fixed_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "canonical_commit": "4c16c8937c601fdc149ccb8cbba1b6085cc94692",
@@ -636,6 +636,10 @@
     {
       "kanji": "载具ᴬ",
       "esperanto": "ŝarĝator"
+    },
+    {
+      "kanji": "爵ᴰ",
+      "esperanto": "duk"
     }
   ],
   "reason": "Restore the approved observed compound renderings with a unique active original spelling, without changing forward output, assignments, identifiers, canonical CSV bytes, or existing full-key ownership. Keep the independently approved earlier supplements.",
@@ -842,5 +846,15 @@
       "中肠ᴱ": "Multiple observed original spellings; no automatic owner chosen."
     },
     "release_gate": "Recheck complete existing keys and every saved old/new forward output with the final runtime, including the superscript-identifier boundary guard, before release."
+  },
+  "duk_compatibility": {
+    "previous_revision": "legacy-compound-inverse-20261018-v3",
+    "previous_manifest_sha256": "59e2c3cd9f69a1b4d41b4729039a5ac903973dc198d2b20d006e8326819ec4ee",
+    "approved_key": "爵ᴰ",
+    "owner": "duk",
+    "unchanged_keys": {
+      "爵": "baron",
+      "公爵": "duk"
+    }
   }
 }

@@ -4736,7 +4736,7 @@ oktav,八度,0,oktav,7204
 aŭgust,八月,0,aŭgust,285
 just,公ᴶ,0,just,1956
 plebiscit,公投,0,plebiscit,8679
-duk,公爵,0,duk,6683
+duk,公爵,0,duk,reverse-alias:20261120
 aksiom,公理,0,aksiom,7905
 notari,公证,0,notari,6916
 hektar,公顷,0,hektar,5800
@@ -6669,6 +6669,7 @@ grimp,爬ᴳ,0,grimp,3972
 krabl,爬ᴷ,0,krabl,3973
 saŭr,爬虫,0,sau^r,7051
 patriot,爱国,0,patriot,7451
+duk,爵ᴰ,0,duk,6683
 split,片ˢ,0,split,1286
 lamen,片ᴸ,0,lamen,1285
 skist,片岩,0,skist,6591

@@ -125,6 +125,7 @@ LATER_CURRENT_ASSIGNMENTS = {
     'ekvator': ('赤', '赤道'),
     'halofit': ('草ᴴᶠ', '盐ᴴ植ᶠ'),
     'deodar': ('木ᴰᴰ', '雪松ᴰ'),
+    'duk': ('公爵', '爵ᴰ'),
 }
 
 def historical_current_bytes(raw):

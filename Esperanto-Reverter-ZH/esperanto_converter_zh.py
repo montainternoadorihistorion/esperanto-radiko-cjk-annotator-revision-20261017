@@ -455,6 +455,7 @@ LEGACY_INVERSE_ALIAS_PAIRS = {
     '精丘炎ᵀ': 'verumontanit',
     '振具ᴬ': 'vibrator',
     '载具ᴬ': 'ŝarĝator',
+    '爵ᴰ': 'duk',
 }
 
 
