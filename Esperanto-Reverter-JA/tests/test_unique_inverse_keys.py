@@ -33,7 +33,7 @@ assert _scope['scope_sha256'] == '31692ba397e6599d5610b609d13ef6a3d43998a1ce284c
 COMPOUND = {CURRENT: _scope['candidate_additions']['current'], OLD: _scope['candidate_additions']['legacy']}
 assert {source: len(rows) for source, rows in COMPOUND.items()} == {CURRENT: 1, OLD: 140}
 assert all('中肠ᴱ' not in rows for rows in COMPOUND.values())
-NEW = {CURRENT: {**COMMON, **COMPOUND[CURRENT]}, OLD: {**COMMON, **OLD_EXTRA, **COMPOUND[OLD]}}
+NEW = {CURRENT: {**COMMON, **COMPOUND[CURRENT]}, OLD: {**COMMON, **OLD_EXTRA, **COMPOUND[OLD], "爵ᴰ": "duk"}}
 SUFFIXES = ('', 'o', 'oj', 'on', 'ojn', 'a', 'aj', 'an', 'ajn', 'e', 'i',
             'as', 'is', 'os', 'us', 'u', 'ado', 'ita', 'ĉjo', 'ĉjoj', 'o!', 'O')
 
@@ -136,11 +136,11 @@ def test_effective_exports_are_exact_ui_records_and_fixed_exports_remain_fixed(s
     assert app.dataframe_to_mapping_records(custom) == expected
     assert index(app.effective_mapping_records('custom', custom)) == index(expected)
     fixed, _ = app.edition_download_data(source)
-    expected_sha = ('10ca1d13f50e63cce5440aad18008cb5cb45763e3945f760e96ad2cb56fd01aa'
+    expected_sha = ('0b9cf1f770490ffafda0cc8d93be59a60b2ab212b1387d3b4403537497bf92ca'
                     if source == CURRENT else 'eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14')
     assert hashlib.sha256(fixed).hexdigest() == expected_sha
     meta = app.source_provenance(source)
-    assert meta['inverse_compatibility_revision'] == ('current' if source == CURRENT else 'legacy')+'-compound-inverse-20261018-v3'
+    assert meta['inverse_compatibility_revision'] == ('current-compound-inverse-20261018-v3' if source == CURRENT else 'legacy-compound-inverse-20261120-v4')
     for field in ('identity', 'label', 'result_filename', 'effective_dictionary_filename'):
         assert meta['inverse_compatibility_revision'] in meta[field]
         assert meta['inverse_compatibility_sha256'][:12] in meta[field]
@@ -152,15 +152,15 @@ def test_compound_additions_are_the_exact_approved_extension_and_ambiguous_key_i
     manifest = json.loads((app.ROOT/'data'/f'{edition}_inverse_aliases.json').read_bytes())
     previous = {**PREVIOUS[source], **COMMON, **({} if source == CURRENT else OLD_EXTRA)}
     pairs = {row['kanji']: row['esperanto'] for row in manifest['aliases']}
-    assert len(manifest['aliases']) == len(pairs) == (9 if source == CURRENT else 158)
+    assert len(manifest['aliases']) == len(pairs) == (9 if source == CURRENT else 159)
     assert list(pairs.items())[:len(previous)] == list(previous.items())
-    assert {key: owner for key, owner in pairs.items() if key not in previous} == COMPOUND[source]
+    assert {key: owner for key, owner in pairs.items() if key not in previous} == (COMPOUND[source] if source == CURRENT else {**COMPOUND[OLD], '爵ᴰ': 'duk'})
     review = manifest['compound_review']
     assert review['source_scope']['sha256'] == _scope['scope_sha256']
     assert review['new_keys'] == list(COMPOUND[source])
     assert review['previous_alias_count'] == len(previous)
     assert review['added_alias_count'] == len(COMPOUND[source])
-    assert review['total_alias_count'] == len(pairs)
+    assert review['total_alias_count'] == len(pairs) - (source == OLD)
     # The ambiguous old spelling must remain outside both closed supplements.
     assert '中肠ᴱ' not in pairs
     base = records(source) + tuple((owner,key,'0') for key,owner in previous.items())

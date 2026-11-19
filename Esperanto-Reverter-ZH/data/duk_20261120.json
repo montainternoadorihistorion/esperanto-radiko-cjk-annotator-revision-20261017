@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "revision": "duk-20261120",
+  "changes": {
+    "duk": {
+      "old": "公爵",
+      "current": "爵ᴰ"
+    }
+  },
+  "safe_reverse_aliases": {
+    "公爵": "duk"
+  },
+  "ownership_transfers": {},
+  "canonical_sidecar_sha256": "1ed89affba2c8d45f5cf4128579adc6eb27cd27bdd6119a04afd9ae743de4a52",
+  "monaco_all_sha256": "121f74fd5d75c3b7434dbd45296fb39be4c6c5398881cefaa709f7ad6269053c",
+  "baseline_current_csv_count": 10710,
+  "current_csv_count": 10711,
+  "rationale": "Duk and baron share the rank character 爵. Baron retains the unmarked spelling, and the D identifier distinguishes the duke while avoiding reuse of 公 in isolation. Both supplied reverse editions can read the historical 公爵 and the new full identifier.",
+  "preserved_unmarked_owner": {
+    "爵": "baron"
+  },
+  "fixed_legacy_originals_unchanged": true,
+  "fixed_legacy_supplement_addition": {
+    "爵ᴰ": "duk"
+  }
+}

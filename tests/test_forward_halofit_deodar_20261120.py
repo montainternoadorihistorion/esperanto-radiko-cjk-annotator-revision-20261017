@@ -22,7 +22,7 @@ class BotanicalAssignments(unittest.TestCase):
                 payload = json.loads((data / "置換リスト_漢字.json").read_bytes())
                 expected = {
                     "halofit": "盐ᴴ植ᶠ", "deodar": "雪松ᴰ", "cedr": "雪松",
-                    "duk": "公爵", "alumet": "柴", "aŭtism": "自ᴬ主义",
+                    "duk": "爵ᴰ", "alumet": "柴", "aŭtism": "自ᴬ主义",
                     "halo": "晕", "fit": "植ᶠ", "sal": "盐", "plant": "植",
                 }
                 with (data / "世界语词根-汉字对应列表_参照2新割当_7791.csv").open(encoding="utf-8-sig", newline="") as table:

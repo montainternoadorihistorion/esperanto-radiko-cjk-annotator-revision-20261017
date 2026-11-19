@@ -2,8 +2,8 @@
   "schema_version": 1,
   "revision": "current-compound-inverse-20261018-v3",
   "source_id": "pejvo-piv-20260620",
-  "dictionary_revision": "halofit-deodar-20261120",
-  "current_csv_sha256": "10ca1d13f50e63cce5440aad18008cb5cb45763e3945f760e96ad2cb56fd01aa",
+  "dictionary_revision": "duk-20261120",
+  "current_csv_sha256": "0b9cf1f770490ffafda0cc8d93be59a60b2ab212b1387d3b4403537497bf92ca",
   "required_canonical_owner": {
     "kanji": "丸ᴼ炎ᵀ",
     "esperanto": "orkidit"
