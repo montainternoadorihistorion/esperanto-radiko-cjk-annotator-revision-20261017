@@ -465,7 +465,7 @@
     {
       "path": "Esperanto-Reverter-JA/data/current_dictionary_source.json",
       "bytes": 28042,
-      "sha256": "a99b18284d1acf04911663dd5508a368c329cd9b21fd79a1647e7ac9ce18b1e6"
+      "sha256": "c6887bb311ae228a610d78ba085416c32c71a257b5c6ba88101ecac9400b4db7"
     },
     {
       "path": "Esperanto-Reverter-JA/data/current_inverse_aliases.json",
@@ -534,8 +534,8 @@
     },
     {
       "path": "Esperanto-Reverter-JA/data/halofit_deodar_20261120.json",
-      "bytes": 882,
-      "sha256": "df4c344ca9aba5d168da2317b9bb91b8bacd3aa6aa9f53af72c3dc6d957f7957"
+      "bytes": 2104,
+      "sha256": "ed3873246228b5c96888c43703344077cdcc05629c7f91abcbac7474341dee85"
     },
     {
       "path": "Esperanto-Reverter-JA/data/hibisk-20261102.json",
@@ -695,7 +695,7 @@
     {
       "path": "Esperanto-Reverter-ZH/data/current_dictionary_source.json",
       "bytes": 28042,
-      "sha256": "a99b18284d1acf04911663dd5508a368c329cd9b21fd79a1647e7ac9ce18b1e6"
+      "sha256": "c6887bb311ae228a610d78ba085416c32c71a257b5c6ba88101ecac9400b4db7"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/current_inverse_aliases.json",
@@ -764,8 +764,8 @@
     },
     {
       "path": "Esperanto-Reverter-ZH/data/halofit_deodar_20261120.json",
-      "bytes": 882,
-      "sha256": "df4c344ca9aba5d168da2317b9bb91b8bacd3aa6aa9f53af72c3dc6d957f7957"
+      "bytes": 2104,
+      "sha256": "ed3873246228b5c96888c43703344077cdcc05629c7f91abcbac7474341dee85"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/hibisk-20261102.json",

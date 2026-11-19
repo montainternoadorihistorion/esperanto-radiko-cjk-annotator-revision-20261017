@@ -70,11 +70,21 @@ def test_current_manifest_downloads_and_group_descriptions():
     monaco=json.loads((app.ROOT/'data/monaco_source_20261017.json').read_bytes())
     items={row['sourceRoot']:row for row in monaco['items']}
     latest=json.loads((app.ROOT/source['adopted_20261101_manifest']).read_bytes())
-    for root,doc in manifest['documentation_only_changes'].items():
-        expected=latest['expected_target_items'].get(root,manifest['expected_target_items'][root])
-        body=expected['body']
-        row=next(row for row in monaco['items'] if row['sourceRoot']==root and row['body']==body)
-        assert row['documentation']==expected['documentation']
+    plant_path = app.ROOT / source['halofit_deodar_20261120_manifest']
+    assert hashlib.sha256(plant_path.read_bytes()).hexdigest() == source['halofit_deodar_20261120_manifest_sha256']
+    plants = json.loads(plant_path.read_bytes())
+    for root in manifest['documentation_only_changes']:
+        expected = latest['expected_target_items'].get(root, manifest['expected_target_items'][root])
+        if root in plants['expected_target_items']:
+            expected = plants['expected_target_items'][root]
+        expected_doc = expected['documentation']
+        if root not in plants['changes'] and expected['kanji'] in plants['group_counts']:
+            before, after = plants['group_counts'][expected['kanji']]
+            old_count_line = f'\nグループ数: {before}\n'
+            assert old_count_line in expected_doc
+            expected_doc = expected_doc.replace(old_count_line, f'\nグループ数: {after}\n')
+        row = next(row for row in monaco['items'] if row['sourceRoot']==root and row['body']==expected['body'])
+        assert row['documentation'] == expected_doc
     for body,root in CONTROLS.items():assert items[root]['body']==body
     rows=list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding='utf-8'))));assert len(rows)==10710
     for root,(_,new) in CHANGES.items():assert [r['kanji'] for r in rows if r['source_root']==root]==[new]

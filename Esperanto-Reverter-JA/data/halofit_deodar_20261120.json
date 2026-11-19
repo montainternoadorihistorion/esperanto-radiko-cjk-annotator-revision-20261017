@@ -21,5 +21,47 @@
   "baseline_current_csv_count": 10708,
   "current_csv_count": 10710,
   "fixed_legacy_unchanged": true,
-  "rationale": "The salt-habitat plant reproduces the existing halo/fit representation. Deodar shares the documented genus name with cedr and adds a distinct identifier. Restore the historical whole-root spellings for previous texts."
+  "rationale": "The salt-habitat plant reproduces the existing halo/fit representation. Deodar shares the documented genus name with cedr and adds a distinct identifier. Restore the historical whole-root spellings for previous texts.",
+  "group_counts": {
+    "草": [
+      382,
+      381
+    ],
+    "木": [
+      270,
+      269
+    ],
+    "雪松": [
+      1,
+      2
+    ]
+  },
+  "expected_target_items": {
+    "deodar": {
+      "prefix": "deodar",
+      "body": "雪松ᴰ",
+      "kanji": "雪松",
+      "detail": "deodar → 雪松ᴰ (piv, F=1)",
+      "documentation": "語根: deodar\n入力: deodar\n最終形: 雪松ᴰ\n漢字: 雪松\n識別子: d\n型: piv\nF(汎用性): 1\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:442",
+      "priority": 0,
+      "sourceRoot": "deodar",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 442
+    },
+    "halofit": {
+      "prefix": "halofit",
+      "body": "盐ᴴ植ᶠ",
+      "kanji": "盐ᴴ植ᶠ",
+      "detail": "halofit → 盐ᴴ植ᶠ (piv, F=1, 基本形)",
+      "documentation": "語根: halofit\n入力: halofit\n最終形: 盐ᴴ植ᶠ\n漢字: 盐ᴴ植ᶠ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:2423",
+      "priority": 0,
+      "sourceRoot": "halofit",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 2423
+    }
+  }
 }
