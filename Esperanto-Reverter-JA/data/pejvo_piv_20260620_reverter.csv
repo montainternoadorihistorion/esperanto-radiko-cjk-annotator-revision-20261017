@@ -1234,6 +1234,7 @@ sapozid,皂糖ᴼ子,0,sapozid,10461
 dermit,皮ᴰ炎ᵀ,0,dermit,8988
 kortikotrop,皮ᴷ向ᵀ,0,kortikotrop,9503
 pelvometri,盆测ᴹᵀ,0,pelvometri,9822
+halofit,盐ᴴ植ᶠ,0,halofit,2423
 palpebrit,目皮炎ᵀ,0,palpebrit,9802
 cekumit,盲肠炎ᵀ,0,cekumit,8940
 ortogenez,直ᴼ源ᴳ,0,ortogenez,9762
@@ -2442,7 +2443,7 @@ burser,木ᴮᵁ,0,burser,428
 brunfelsi,木ᴮᶠ,0,brunfelsi,596
 bugenvil,木ᴮⱽ,0,bugenvil,563
 dalbergi,木ᴰᴮ,0,dalbergi,565
-deodar,木ᴰᴰ,0,deodar,442
+deodar,木ᴰᴰ,0,deodar,reverse-alias:20261120
 delonik,木ᴰᴷ,0,delonik,462
 dileni,木ᴰᴸ,0,dileni,443
 damar,木ᴰᴹ,0,damar,422
@@ -3292,7 +3293,7 @@ hordelim,草ᴴᴼ,0,hordelim,2471
 hipurid,草ᴴᴾ,0,hipurid,2424
 herniari,草ᴴᴿ,0,herniari,2468
 hipeastr,草ᴴᵀ,0,hipeastr,2470
-halofit,草ᴴᶠ,0,halofit,2423
+halofit,草ᴴᶠ,0,halofit,reverse-alias:20261120
 isat,草ᴵˢ,0,isat,2558
 iberis,草ᴵᴮ,0,iberis,2362
 izolepid,草ᴵᴸ,0,izolepid,2472
@@ -4019,6 +4020,7 @@ skulptur,雕ˢᴿ,0,skulptur,3748
 anaglif,雕ᴬᴺ,0,anaglif,3747
 ĉiz,雕ᶜ̂,0,c^iz,3743
 pluvmetr,雨计ᴹ,0,pluvmetr,9875
+deodar,雪松ᴰ,0,deodar,442
 luĝ,雪车ᴸ,0,lug^,5935
 seism,震ˢᴱ,0,seism,5215
 kolera,霍乱ᴷ,0,kolera,6753

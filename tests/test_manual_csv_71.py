@@ -123,6 +123,8 @@ LATER_CURRENT_ASSIGNMENTS = {
     'flan': ('蛋奶', '饼ᶠ'),
     'aline': ('换行', '段ᴬ'),
     'ekvator': ('赤', '赤道'),
+    'halofit': ('草ᴴᶠ', '盐ᴴ植ᶠ'),
+    'deodar': ('木ᴰᴰ', '雪松ᴰ'),
 }
 
 def historical_current_bytes(raw):

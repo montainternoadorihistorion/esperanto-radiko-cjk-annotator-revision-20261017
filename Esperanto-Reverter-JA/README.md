@@ -1,3 +1,7 @@
+## 2026-11-20　halofit＝盐ᴴ植ᶠ・deodar＝雪松ᴰ
+
+新版は「盐ᴴ植ᶠo」と旧「草ᴴᶠo」を halofito、「雪松ᴰo」と旧「木ᴰᴰo」を deodaro に復元します。「雪松o」は cedro、「盐植o」は salplanto に戻ります。固定旧版でも従来の「草ᴴᶠ」「木ᴰᴰ」を読めます。
+
 ## 2026-11-18　aline＝段ᴬ・ekvator＝赤道
 
 新版では「段ᴬo」と旧「换行o」が alineo に、「赤道o」と旧「赤o」が ekvatoro に戻ります。固定旧版では「赤道o」が従来の ekvatoravenuo に戻ります。「段」は引き続き etap が使います。

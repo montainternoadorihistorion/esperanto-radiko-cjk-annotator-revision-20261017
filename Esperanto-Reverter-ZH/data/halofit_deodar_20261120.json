@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "revision": "halofit-deodar-20261120",
+  "changes": {
+    "halofit": {
+      "old": "草ᴴᶠ",
+      "current": "盐ᴴ植ᶠ"
+    },
+    "deodar": {
+      "old": "木ᴰᴰ",
+      "current": "雪松ᴰ"
+    }
+  },
+  "safe_reverse_aliases": {
+    "草ᴴᶠ": "halofit",
+    "木ᴰᴰ": "deodar"
+  },
+  "ownership_transfers": {},
+  "canonical_sidecar_sha256": "a29308387acc733048f4f55eb180ba931863353a2e23a55bd14864620a2278e3",
+  "monaco_all_sha256": "8ea71282e97c043f003590d781855df9c408662c1bf7fe0983ff5f92607b7805",
+  "baseline_current_csv_count": 10708,
+  "current_csv_count": 10710,
+  "fixed_legacy_unchanged": true,
+  "rationale": "The salt-habitat plant reproduces the existing halo/fit representation. Deodar shares the documented genus name with cedr and adds a distinct identifier. Restore the historical whole-root spellings for previous texts."
+}
