@@ -465,7 +465,7 @@
     {
       "path": "Esperanto-Reverter-JA/data/current_dictionary_source.json",
       "bytes": 29822,
-      "sha256": "4d4b1d40c8474982aba136ca848a5aded029eacd382eacf1b6294050fcd4a56b"
+      "sha256": "216110c01329131a31d5ede4e0bc5f0d5f9b08fb3122da815027164d95ea998d"
     },
     {
       "path": "Esperanto-Reverter-JA/data/current_inverse_aliases.json",
@@ -609,8 +609,8 @@
     },
     {
       "path": "Esperanto-Reverter-JA/data/monaco_source_20261017.json",
-      "bytes": 5359607,
-      "sha256": "23183caa035ee1e30bc6bd08820677095b3a01cdc0b4d9f9c12976c8aa7f42a0"
+      "bytes": 5359637,
+      "sha256": "06b65229fc00c3f1d8d15d87fe0a44caa4b06c44a081bc4dc5cec536ad89eb95"
     },
     {
       "path": "Esperanto-Reverter-JA/data/pejvo_piv_20260620_reverter.csv",
@@ -644,8 +644,8 @@
     },
     {
       "path": "Esperanto-Reverter-JA/data/six_roots_20261121.json",
-      "bytes": 1191,
-      "sha256": "d750a56ecfc5c09c7fbc58afe11416087067e7e0aa999c6a7e2614eecc2cde09"
+      "bytes": 4586,
+      "sha256": "15720fa0b94e553eb9e2f27d740f9c079c4399a3e68281a42bc67563bb113517"
     },
     {
       "path": "Esperanto-Reverter-JA/data/sozi-fobi-20261026.json",
@@ -710,7 +710,7 @@
     {
       "path": "Esperanto-Reverter-ZH/data/current_dictionary_source.json",
       "bytes": 29822,
-      "sha256": "4d4b1d40c8474982aba136ca848a5aded029eacd382eacf1b6294050fcd4a56b"
+      "sha256": "216110c01329131a31d5ede4e0bc5f0d5f9b08fb3122da815027164d95ea998d"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/current_inverse_aliases.json",
@@ -854,8 +854,8 @@
     },
     {
       "path": "Esperanto-Reverter-ZH/data/monaco_source_20261017.json",
-      "bytes": 5359607,
-      "sha256": "23183caa035ee1e30bc6bd08820677095b3a01cdc0b4d9f9c12976c8aa7f42a0"
+      "bytes": 5359637,
+      "sha256": "06b65229fc00c3f1d8d15d87fe0a44caa4b06c44a081bc4dc5cec536ad89eb95"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/pejvo_piv_20260620_reverter.csv",
@@ -889,8 +889,8 @@
     },
     {
       "path": "Esperanto-Reverter-ZH/data/six_roots_20261121.json",
-      "bytes": 1191,
-      "sha256": "d750a56ecfc5c09c7fbc58afe11416087067e7e0aa999c6a7e2614eecc2cde09"
+      "bytes": 4586,
+      "sha256": "15720fa0b94e553eb9e2f27d740f9c079c4399a3e68281a42bc67563bb113517"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/sozi-fobi-20261026.json",

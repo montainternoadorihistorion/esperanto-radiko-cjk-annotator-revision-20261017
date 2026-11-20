@@ -36,8 +36,118 @@
   },
   "ownership_transfers": {},
   "canonical_sidecar_sha256": "b6e16a69cfca12215cce0b49b2cda7bcc96c97985b59e55686a6f4886d2291c0",
-  "monaco_all_sha256": "23183caa035ee1e30bc6bd08820677095b3a01cdc0b4d9f9c12976c8aa7f42a0",
+  "monaco_all_sha256": "06b65229fc00c3f1d8d15d87fe0a44caa4b06c44a081bc4dc5cec536ad89eb95",
   "baseline_current_csv_count": 10716,
   "current_csv_count": 10722,
-  "rationale": "The six approved spellings distinguish the fox, mineral, two plant roots, orca and gooseberry. All six previous spellings retain their former reverse readings."
+  "rationale": "The six approved spellings distinguish the fox, mineral, two plant roots, orca and gooseberry. All six previous spellings retain their former reverse readings.",
+  "group_counts": {
+    "木": [
+      267,
+      266
+    ],
+    "兽": [
+      77,
+      75
+    ],
+    "狐": [
+      2,
+      3
+    ],
+    "草": [
+      381,
+      379
+    ],
+    "矿": [
+      9,
+      8
+    ],
+    "醋栗": [
+      2,
+      3
+    ],
+    "虎鲸": [
+      1,
+      2
+    ]
+  },
+  "expected_target_items": {
+    "grosulari": {
+      "prefix": "grosulari",
+      "body": "醋栗ᴳᴸ",
+      "kanji": "醋栗",
+      "detail": "grosulari → 醋栗ᴳᴸ (piv, F=1)",
+      "documentation": "語根: grosulari\n入力: grosulari\n最終形: 醋栗ᴳᴸ\n漢字: 醋栗\n識別子: gl\n型: piv\nF(汎用性): 1\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:593",
+      "priority": 0,
+      "sourceRoot": "grosulari",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 593
+    },
+    "hematit": {
+      "prefix": "hematit",
+      "body": "赤铁矿",
+      "kanji": "赤铁矿",
+      "detail": "hematit → 赤铁矿 (pejvo, F=1, 基本形)",
+      "documentation": "語根: hematit\n入力: hematit\n最終形: 赤铁矿\n漢字: 赤铁矿\n識別子: なし\n型: pejvo\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:4584",
+      "priority": 0,
+      "sourceRoot": "hematit",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 4584
+    },
+    "kolokasi": {
+      "prefix": "kolokasi",
+      "body": "芋ᴷˢ",
+      "kanji": "芋",
+      "detail": "kolokasi → 芋ᴷˢ (piv, F=1)",
+      "documentation": "語根: kolokasi\n入力: kolokasi\n最終形: 芋ᴷˢ\n漢字: 芋\n識別子: ks\n型: piv\nF(汎用性): 1\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:2571",
+      "priority": 0,
+      "sourceRoot": "kolokasi",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2571
+    },
+    "kolokazi": {
+      "prefix": "kolokazi",
+      "body": "芋",
+      "kanji": "芋",
+      "detail": "kolokazi → 芋 (piv, F=1, 基本形)",
+      "documentation": "語根: kolokazi\n入力: kolokazi\n最終形: 芋\n漢字: 芋\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 2\n基本形: yes\n出典: _identifier_sidecar.tsv:2477",
+      "priority": 0,
+      "sourceRoot": "kolokazi",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 2477
+    },
+    "korsak": {
+      "prefix": "korsak",
+      "body": "狐ᴷ",
+      "kanji": "狐",
+      "detail": "korsak → 狐ᴷ (piv, F=1)",
+      "documentation": "語根: korsak\n入力: korsak\n最終形: 狐ᴷ\n漢字: 狐\n識別子: k\n型: piv\nF(汎用性): 1\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:1482",
+      "priority": 0,
+      "sourceRoot": "korsak",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 1482
+    },
+    "orcin": {
+      "prefix": "orcin",
+      "body": "虎鲸ᴼᶜ",
+      "kanji": "虎鲸",
+      "detail": "orcin → 虎鲸ᴼᶜ (piv, F=1)",
+      "documentation": "語根: orcin\n入力: orcin\n最終形: 虎鲸ᴼᶜ\n漢字: 虎鲸\n識別子: oc\n型: piv\nF(汎用性): 1\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:1471",
+      "priority": 0,
+      "sourceRoot": "orcin",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 1471
+    }
+  }
 }

@@ -3,7 +3,7 @@
   "revision": "six-roots-20261121",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "23183caa035ee1e30bc6bd08820677095b3a01cdc0b4d9f9c12976c8aa7f42a0",
+  "monaco_all_sha256": "06b65229fc00c3f1d8d15d87fe0a44caa4b06c44a081bc4dc5cec536ad89eb95",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
   "canonical_sidecar_sha256": "b6e16a69cfca12215cce0b49b2cda7bcc96c97985b59e55686a6f4886d2291c0",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
@@ -990,5 +990,5 @@
   "hektar_dig_20261120_manifest": "data/hektar_dig_20261120.json",
   "hektar_dig_20261120_manifest_sha256": "5d6a66e85e8baf3d9af0f4c581936db8e093d4eff89fe94a9d0d00a896149e7b",
   "six_roots_20261121_manifest": "data/six_roots_20261121.json",
-  "six_roots_20261121_manifest_sha256": "d750a56ecfc5c09c7fbc58afe11416087067e7e0aa999c6a7e2614eecc2cde09"
+  "six_roots_20261121_manifest_sha256": "15720fa0b94e553eb9e2f27d740f9c079c4399a3e68281a42bc67563bb113517"
 }

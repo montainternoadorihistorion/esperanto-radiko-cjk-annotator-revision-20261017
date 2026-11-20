@@ -73,6 +73,9 @@ def test_current_manifest_downloads_and_group_descriptions():
     plant_path = app.ROOT / source['halofit_deodar_20261120_manifest']
     assert hashlib.sha256(plant_path.read_bytes()).hexdigest() == source['halofit_deodar_20261120_manifest_sha256']
     plants = json.loads(plant_path.read_bytes())
+    six_path = app.ROOT / source['six_roots_20261121_manifest']
+    assert hashlib.sha256(six_path.read_bytes()).hexdigest() == source['six_roots_20261121_manifest_sha256']
+    six = json.loads(six_path.read_bytes())
     for root in manifest['documentation_only_changes']:
         expected = latest['expected_target_items'].get(root, manifest['expected_target_items'][root])
         if root in plants['expected_target_items']:
@@ -83,6 +86,14 @@ def test_current_manifest_downloads_and_group_descriptions():
             old_count_line = f'\nグループ数: {before}\n'
             assert old_count_line in expected_doc
             expected_doc = expected_doc.replace(old_count_line, f'\nグループ数: {after}\n')
+        if root in six['changes']:
+            expected = six['expected_target_items'][root]
+            expected_doc = expected['documentation']
+        elif expected['kanji'] in six['group_counts']:
+            before, after = six['group_counts'][expected['kanji']]
+            count_line = f'\nグループ数: {before}\n'
+            assert count_line in expected_doc
+            expected_doc = expected_doc.replace(count_line, f'\nグループ数: {after}\n')
         row = next(row for row in monaco['items'] if row['sourceRoot']==root and row['body']==expected['body'])
         assert row['documentation'] == expected_doc
     for body,root in CONTROLS.items():assert items[root]['body']==body
