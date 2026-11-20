@@ -132,6 +132,12 @@ LATER_CURRENT_ASSIGNMENTS = {
     'mug': ('木ᴹᵁ', '松ᴹ'),
     'klementin': ('木ᴷᴸᴱ', '橘ᴷ'),
     'hektar': ('公顷', '百亩ᴴ'),
+    'korsak': ('兽ᴷˢ', '狐ᴷ'),
+    'hematit': ('矿ᴴ', '赤铁矿'),
+    'kolokazi': ('草ᴷᶻ', '芋'),
+    'kolokasi': ('草ᴷᴼᴸ', '芋ᴷˢ'),
+    'orcin': ('兽ᴼᴿ', '虎鲸ᴼᶜ'),
+    'grosulari': ('木ᴳˢ', '醋栗ᴳᴸ'),
 }
 
 def historical_current_bytes(raw):

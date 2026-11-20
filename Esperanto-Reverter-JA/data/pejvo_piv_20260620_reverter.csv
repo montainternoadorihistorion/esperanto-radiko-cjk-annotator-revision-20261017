@@ -1454,7 +1454,7 @@ katarant,草ᴷᴬᵀ,0,katarant,2475
 keirant,草ᴷᴱᴵ,0,keirant,2246
 kelidoni,草ᴷᴱᴸ,0,kelidoni,2254
 klematit,草ᴷᴸᴱ,0,klematit,2476
-kolokasi,草ᴷᴼᴸ,0,kolokasi,2571
+kolokasi,草ᴷᴼᴸ,0,kolokasi,reverse-alias:20261121
 komelin,草ᴷᴼᴹ,0,komelin,2427
 konsolid,草ᴷᴼᴺ,0,konsolid,2478
 koridal,草ᴷᴼᴿ,0,koridal,2428
@@ -1505,6 +1505,7 @@ balanit,藤壶炎ᵀ,0,balanit,8882
 kaŭlerp,藻ᴷᵁ̆,0,kau^lerp,5460
 karafit,藻ᴷ植ᶠ,0,karafit,10438
 algologi,藻学ᴸᴳ,0,algologi,8758
+orcin,虎鲸ᴼᶜ,0,orcin,1471
 aĥeronti,虫ᴬᴴ̂,0,ah^eronti,2678
 aleŭrod,虫ᴬᵁ̆,0,aleu^rod,2642
 braĥin,虫ᴮᴴ̂,0,brah^in,2677
@@ -1575,6 +1576,7 @@ gametogenez,配子源ᴳ,0,gametogenez,10400
 vinologi,酒学ᴸᴳ,0,vinologi,10201
 tartrat,酒石盐ᴬ,0,tartrat,10347
 jahurt,酸乳ᴶᴴ,0,jahurt,7155
+grosulari,醋栗ᴳᴸ,0,grosulari,593
 dozometr,量ᴰ计ᴹ,0,dozometr,9031
 eŭropi,金ᴱᵁ̆,0,eu^ropi,308
 kromiflav,金ᴷᴿ黄,0,kromiflav,9525
@@ -1822,7 +1824,7 @@ gvanak,兽ᴳⱽ,0,gvanak,1477
 hien,兽ᴴᴱ,0,hien,1445
 haliker,兽ᴴᴸ,0,haliker,1494
 herpest,兽ᴴᴿ,0,herpest,1495
-korsak,兽ᴷˢ,0,korsak,1482
+korsak,兽ᴷˢ,0,korsak,reverse-alias:20261121
 koendu,兽ᴷᴰ,0,koendu,1481
 kaguang,兽ᴷᴳ,0,kaguang,1496
 koal,兽ᴷᴸ,0,koal,1446
@@ -1840,7 +1842,7 @@ mungot,兽ᴹᵁ,0,mungot,1450
 mazam,兽ᴹᶻ,0,mazam,1469
 orikteropod,兽ᴼᴰ,0,orikteropod,1510
 okapi,兽ᴼᴷ,0,okapi,1470
-orcin,兽ᴼᴿ,0,orcin,1471
+orcin,兽ᴼᴿ,0,orcin,reverse-alias:20261121
 orikterop,兽ᴼᵀ,0,orikterop,1507
 ocelot,兽ᴼᶜ,0,ocelot,1485
 pakiderm,兽ᴾᴷ,0,pakiderm,1451
@@ -2462,7 +2464,7 @@ epakrid,木ᴱᴾ,0,epakrid,463
 ereti,木ᴱᴿ,0,ereti,424
 eŭkalipt,木ᴱᵀ,0,eŭkalipt,628
 efedr,木ᴱᶠ,0,efedr,423
-grosulari,木ᴳˢ,0,grosulari,593
+grosulari,木ᴳˢ,0,grosulari,reverse-alias:20261121
 gardeni,木ᴳᴱ,0,gardeni,627
 gink,木ᴳᴷ,0,gink,620
 glediĉi,木ᴳᴸ,0,gledic^i,466
@@ -3169,6 +3171,7 @@ strof,节ˢᵀ,0,strof,5201
 artr,节ᴬᴿ,0,artr,5202
 dietik,节ᴰᴷ,0,dietik,5204
 ganglion,节ᴳᴺ,0,ganglion,5205
+kolokasi,芋ᴷˢ,0,kolokasi,2571
 asfodel,花ᴬˢ,0,asfodel,1667
 agapant,花ᴬᴳ,0,agapant,1665
 antirin,花ᴬᴺ,0,antirin,1666
@@ -3322,7 +3325,7 @@ kalt,草ᴷᵀ,0,kalt,2289
 krinum,草ᴷᵁ,0,krinum,2370
 kalceolari,草ᴷᶜ,0,kalceolari,2543
 krozofor,草ᴷᶠ,0,krozofor,2479
-kolokazi,草ᴷᶻ,0,kolokazi,2477
+kolokazi,草ᴷᶻ,0,kolokazi,reverse-alias:20261121
 kvino,草ᴷⱽ,0,kvino,2218
 litops,草ᴸˢ,0,litops,2378
 logani,草ᴸᴬ,0,logani,2380
@@ -3840,6 +3843,7 @@ aprec,赏ᴬᶜ,0,aprec,7717
 gratif,赏ᴳᴿ,0,gratif,7718
 gratifikaci,赏ᴳᶜ,0,gratifikaci,7719
 kompliment,赞ᴷᴹ,0,kompliment,1754
+hematit,赤铁矿,0,hematit,4584
 absolv,赦ᴬᴮ,0,absolv,7544
 metacentr,超ᴹ央,0,metacentr,9616
 metastabil,超ᴹ稳,0,metastabil,9620
@@ -6716,6 +6720,7 @@ rabi,狂ᴿ,0,rabi,3957
 frenez,狂ᶠ,0,frenez,3954
 karnaval,狂欢,0,karnaval,5840
 izatis,狐ᴵ,0,izatis,1479
+korsak,狐ᴷ,0,korsak,1482
 apart,独ᴬ,0,apart,1997
 diktator,独裁,0,diktator,6417
 grif,狮鹰,0,grif,6859
@@ -6956,7 +6961,7 @@ vitriol,矾ⱽ,0,vitriol,6466
 selen,矿ˢ,0,selen,4579
 arsen,矿ᴬ,0,arsen,4581
 erc,矿ᴱ,0,erc,4578
-hematit,矿ᴴ,0,hematit,4584
+hematit,矿ᴴ,0,hematit,reverse-alias:20261121
 telur,矿ᵀ,0,telur,4580
 jard,码ᴶ,0,jard,4823
 koder,码元,0,koder,8293
@@ -10185,6 +10190,7 @@ kolor,色,0,kolor,1223
 art,艺,0,art,1004
 moks,艾,0,moks,6848
 diet,节,0,diet,5198
+kolokazi,芋,0,kolokazi,2477
 hibisk,芙,0,hibisk,7500
 mustard,芥,0,mustard,5131
 meĉ,芯,0,mec^,6865
