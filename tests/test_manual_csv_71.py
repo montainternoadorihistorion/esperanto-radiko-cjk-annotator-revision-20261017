@@ -126,6 +126,12 @@ LATER_CURRENT_ASSIGNMENTS = {
     'halofit': ('草ᴴᶠ', '盐ᴴ植ᶠ'),
     'deodar': ('木ᴰᴰ', '雪松ᴰ'),
     'duk': ('公爵', '爵ᴰ'),
+    'dig': ('拦', '堤'),
+    'ĝet': ('堤', '堤ᴳ̂'),
+    'izatis': ('兽ᴵ', '狐ᴵ'),
+    'mug': ('木ᴹᵁ', '松ᴹ'),
+    'klementin': ('木ᴷᴸᴱ', '橘ᴷ'),
+    'hektar': ('公顷', '百亩ᴴ'),
 }
 
 def historical_current_bytes(raw):

@@ -279,3 +279,6 @@ inteligent＝智ᴵᴳ、其他汉字分配、注释和词根分解保持不变�
 
 
 新版将 baron（男爵）写作 爵，将 duk（公爵）写作 爵ᴰ。duko 和 @duk@o 的转换结果都是 爵ᴰo，固定旧版则为 公爵o。
+
+
+新版词根对应为 dig＝堤、ĝet＝堤ᴳ̂、izatis＝狐ᴵ、mug＝松ᴹ、表示水果的 klementin＝橘ᴷ、hektar＝百亩ᴴ。mole＝堤ᴹ。固定旧版将「堤o」还原为 ĝeto。
