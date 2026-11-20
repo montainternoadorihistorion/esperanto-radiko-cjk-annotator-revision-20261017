@@ -282,3 +282,5 @@ inteligent＝智ᴵᴳ、其他汉字分配、注释和词根分解保持不变�
 
 
 新版词根对应为 dig＝堤、ĝet＝堤ᴳ̂、izatis＝狐ᴵ、mug＝松ᴹ、表示水果的 klementin＝橘ᴷ、hektar＝百亩ᴴ。mole＝堤ᴹ。固定旧版将「堤o」还原为 ĝeto。
+
+新版将 korsak 写作 狐ᴷ，hematit 写作 赤铁矿，kolokazi 写作 芋，kolokasi 写作 芋ᴷˢ，orcin 写作 虎鲸ᴼᶜ，grosulari 写作 醋栗ᴳᴸ。grosulariacoj 按 grosulari 和 ac 两个词根转换为 醋栗ᴳᴸ科ᴬoj。

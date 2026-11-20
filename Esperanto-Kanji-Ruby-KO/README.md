@@ -345,3 +345,5 @@ inteligent＝智ᴵᴳ, 다른 한자 배정, 학습 주석 및 어근 분해는
 
 
 신판의 어근 표기는 dig＝堤, ĝet＝堤ᴳ̂, izatis＝狐ᴵ, mug＝松ᴹ, 과일 뜻의 klementin＝橘ᴷ, hektar＝百亩ᴴ입니다. mole은 堤ᴹ이며, 고정 구판에서는 堤o를 ĝeto로 복원합니다.
+
+신판에서는 korsak을 狐ᴷ, hematit를 赤铁矿, kolokazi를 芋, kolokasi를 芋ᴷˢ, orcin을 虎鲸ᴼᶜ, grosulari를 醋栗ᴳᴸ로 표기합니다. grosulariacoj는 어근 grosulari와 ac로 나뉘어 醋栗ᴳᴸ科ᴬoj로 변환됩니다.

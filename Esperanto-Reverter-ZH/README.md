@@ -1,3 +1,7 @@
+## 2026-11-21　六个词根的新版写法
+
+新版中，狐ᴷ、赤铁矿、芋、芋ᴷˢ、虎鲸ᴼᶜ、醋栗ᴳᴸ依次对应 korsak、hematit、kolokazi、kolokasi、orcin、grosulari。旧写法兽ᴷˢ、矿ᴴ、草ᴷᶻ、草ᴷᴼᴸ、兽ᴼᴿ、木ᴳˢ也能还原为原来的词根。例如，木ᴳˢ科ᴬoj 和醋栗ᴳᴸ科ᴬoj 都还原为 grosulariacoj。
+
 ## 2026-11-20　百亩、堤和生物名称的新版写法
 
 新版将「百亩ᴴo」还原为 hektaro，「百亩o」为 centaro，「百ᴴ亩o」为 hektoaro。「堤o」在新版中还原为 digo，在固定旧版中还原为 ĝeto。新版的「堤ᴳ̂o」对应 ĝeto。旧写法公顷、拦、兽ᴵ、木ᴹᵁ、木ᴷᴸᴱ仍对应原有词根。新版的狐ᴵ、松ᴹ、橘ᴷ分别对应 izatis、mug、klementin。

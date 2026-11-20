@@ -444,3 +444,5 @@ inteligent＝智ᴵᴳ、ほかの漢字割り当て、注釈、語根分解は�
 
 
 新版の語根表記は dig＝堤、ĝet＝堤ᴳ̂、izatis＝狐ᴵ、mug＝松ᴹ、果実の klementin＝橘ᴷ、hektar＝百亩ᴴ です。mole＝堤ᴹ。固定旧版で「堤o」を復元すると ĝeto になります。
+
+新版では korsak を 狐ᴷ、hematit を 赤铁矿、kolokazi を 芋、kolokasi を 芋ᴷˢ、orcin を 虎鲸ᴼᶜ、grosulari を 醋栗ᴳᴸ と表記します。grosulariacoj は grosulari と ac に分かれ、醋栗ᴳᴸ科ᴬoj になります。

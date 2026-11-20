@@ -1,0 +1,43 @@
+{
+  "revision": "six-roots-20261121",
+  "changes": {
+    "korsak": {
+      "old": "兽ᴷˢ",
+      "current": "狐ᴷ"
+    },
+    "hematit": {
+      "old": "矿ᴴ",
+      "current": "赤铁矿"
+    },
+    "kolokazi": {
+      "old": "草ᴷᶻ",
+      "current": "芋"
+    },
+    "kolokasi": {
+      "old": "草ᴷᴼᴸ",
+      "current": "芋ᴷˢ"
+    },
+    "orcin": {
+      "old": "兽ᴼᴿ",
+      "current": "虎鲸ᴼᶜ"
+    },
+    "grosulari": {
+      "old": "木ᴳˢ",
+      "current": "醋栗ᴳᴸ"
+    }
+  },
+  "safe_reverse_aliases": {
+    "兽ᴷˢ": "korsak",
+    "矿ᴴ": "hematit",
+    "草ᴷᶻ": "kolokazi",
+    "草ᴷᴼᴸ": "kolokasi",
+    "兽ᴼᴿ": "orcin",
+    "木ᴳˢ": "grosulari"
+  },
+  "ownership_transfers": {},
+  "canonical_sidecar_sha256": "b6e16a69cfca12215cce0b49b2cda7bcc96c97985b59e55686a6f4886d2291c0",
+  "monaco_all_sha256": "23183caa035ee1e30bc6bd08820677095b3a01cdc0b4d9f9c12976c8aa7f42a0",
+  "baseline_current_csv_count": 10716,
+  "current_csv_count": 10722,
+  "rationale": "The six approved spellings distinguish the fox, mineral, two plant roots, orca and gooseberry. All six previous spellings retain their former reverse readings."
+}

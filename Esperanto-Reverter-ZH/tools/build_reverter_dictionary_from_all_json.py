@@ -86,7 +86,13 @@ def rows_from_all_json(data: dict) -> list[dict[str, object]]:
             ("mug", "松ᴹ", "木ᴹᵁ"),
             ("dig", "堤", "拦"),
             ("klementin", "橘ᴷ", "木ᴷᴸᴱ"),
-            ("hektar", "百亩ᴴ", "公顷")):
+            ("hektar", "百亩ᴴ", "公顷"),
+            ("korsak", "狐ᴷ", "兽ᴷˢ"),
+            ("hematit", "赤铁矿", "矿ᴴ"),
+            ("kolokazi", "芋", "草ᴷᶻ"),
+            ("kolokasi", "芋ᴷˢ", "草ᴷᴼᴸ"),
+            ("orcin", "虎鲸ᴼᶜ", "兽ᴼᴿ"),
+            ("grosulari", "醋栗ᴳᴸ", "木ᴳˢ")):
         current = [row for row in rows if row["source_root"] == root and row["kanji"] == current_body]
         if not current:
             continue
@@ -96,7 +102,7 @@ def rows_from_all_json(data: dict) -> list[dict[str, object]]:
         if any(row["esperanto"] != to_unicode_esperanto_root(root) for row in existing):
             raise ValueError(f"Historical alias {old_body} conflicts with another root")
         if not existing:
-            rows.append({**current[0], "kanji": old_body, "source_line": "reverse-alias:20261120" if root in ("halofit", "deodar", "duk", "dig", "mug", "izatis", "klementin", "hektar") else "reverse-alias:20261118" if root in ("flan", "aline", "ekvator") else "reverse-alias:20261116" if root == "piktur" else "reverse-alias:20261115" if root in ("ego", "egoist", "rekrut", "grenat", "ŝaŭm", "kvorum") else "reverse-alias:20261114" if root in ("masaĝ", "paŭz", "gajn", "sor", "sakristi", "sambuk", "svarm", "beton") else "reverse-alias:20261113" if root in ("admir", "inteligent", "inund") else "reverse-alias:20261112" if root in ("vermic^el", "piruet") else "reverse-alias:20261111" if root == "invit" else "reverse-alias:20261108" if root in {"mitoz", "kariokinez", "ambl", "spekulativ"} else "reverse-alias:20261107" if root == "frog" else "reverse-alias:20261018" if root in {'dot', 'greft', 'spermati', 'silf', 'spermatofit', 'spermatogenez', 'spermatocit'} else "reverse-alias:20261017"})
+            rows.append({**current[0], "kanji": old_body, "source_line": "reverse-alias:20261121" if root in ("korsak", "hematit", "kolokazi", "kolokasi", "orcin", "grosulari") else "reverse-alias:20261120" if root in ("halofit", "deodar", "duk", "dig", "mug", "izatis", "klementin", "hektar") else "reverse-alias:20261118" if root in ("flan", "aline", "ekvator") else "reverse-alias:20261116" if root == "piktur" else "reverse-alias:20261115" if root in ("ego", "egoist", "rekrut", "grenat", "ŝaŭm", "kvorum") else "reverse-alias:20261114" if root in ("masaĝ", "paŭz", "gajn", "sor", "sakristi", "sambuk", "svarm", "beton") else "reverse-alias:20261113" if root in ("admir", "inteligent", "inund") else "reverse-alias:20261112" if root in ("vermic^el", "piruet") else "reverse-alias:20261111" if root == "invit" else "reverse-alias:20261108" if root in {"mitoz", "kariokinez", "ambl", "spekulativ"} else "reverse-alias:20261107" if root == "frog" else "reverse-alias:20261018" if root in {'dot', 'greft', 'spermati', 'silf', 'spermatofit', 'spermatogenez', 'spermatocit'} else "reverse-alias:20261017"})
 
     rows.sort(key=lambda row: (-len(row["kanji"]), row["priority"], row["kanji"], row["esperanto"]))
     return rows
