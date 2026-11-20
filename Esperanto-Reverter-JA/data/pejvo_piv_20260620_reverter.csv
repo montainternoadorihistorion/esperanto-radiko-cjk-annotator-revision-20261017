@@ -1066,7 +1066,7 @@ katalp,木ᴷᴬᵀ,0,katalp,513
 kazuaren,木ᴷᴬᶻ,0,kazuaren,574
 kenomel,木ᴷᴱᴺ,0,kenomel,540
 kinkon,木ᴷᴵᴺ,0,kinkon,624
-klementin,木ᴷᴸᴱ,0,klementin,591
+klementin,木ᴷᴸᴱ,0,klementin,reverse-alias:20261120
 kokolob,木ᴷᴼᴷ,0,kokolob,541
 kombret,木ᴷᴼᴹ,0,kombret,542
 kopaifer,木ᴷᴼᴾ,0,kopaifer,575
@@ -2069,6 +2069,7 @@ tipograf,型记ᴳ,0,tipograf,10135
 redut,垒ᴿᴰ,0,redut,8477
 bazament,基ᴮᴹ,0,bazament,3624
 fortres,堡ᶠᴿ,0,fortres,8644
+ĝet,堤ᴳ̂,0,g^et,7233
 okluzi,堵ᴼᴷ,0,okluzi,3562
 plastik,塑ᴾᴷ,0,plastik,5296
 plasti,塑ᴾᴸ,0,plasti,5298
@@ -2530,7 +2531,7 @@ musend,木ᴹᴺ,0,musend,522
 monodor,木ᴹᴼ,0,monodor,548
 mirik,木ᴹᴿ,0,mirik,497
 mangostan,木ᴹᵀ,0,mangostan,602
-mug,木ᴹᵁ,0,mug,472
+mug,木ᴹᵁ,0,mug,reverse-alias:20261120
 mangifer,木ᴹᶠ,0,mangifer,577
 mezere,木ᴹᶻ,0,mezere,521
 mangrov,木ᴹⱽ,0,mangrov,547
@@ -2912,6 +2913,7 @@ hektogram,百ᴴ克,0,hektogram,9275
 hektolitr,百ᴴ升,0,hektolitr,9276
 hektometr,百ᴴ米,0,hektometr,9277
 centezimal,百ᶜᶻ,0,centezimal,140
+hektar,百亩ᴴ,0,hektar,5800
 ŝutr,百叶窗,0,s^utr,8082
 kokluŝ,百日咳,0,koklus^,7937
 timian,百里香,0,timian,7765
@@ -4739,7 +4741,7 @@ plebiscit,公投,0,plebiscit,8679
 duk,公爵,0,duk,reverse-alias:20261120
 aksiom,公理,0,aksiom,7905
 notari,公证,0,notari,6916
-hektar,公顷,0,hektar,5800
+hektar,公顷,0,hektar,reverse-alias:20261120
 heks,六ᴴ,0,heks,144
 juni,六月,0,juni,644
 heksagon,六角,0,heksagon,8197
@@ -4770,7 +4772,7 @@ ding,兽ᴰ,0,ding,1457
 ekv,兽ᴱ,0,ekv,1454
 gaŭr,兽ᴳ,0,gau^r,1458
 hin,兽ᴴ,0,hin,1455
-izatis,兽ᴵ,0,izatis,1479
+izatis,兽ᴵ,0,izatis,reverse-alias:20261120
 kiang,兽ᴷ,0,kiang,1468
 lutr,兽ᴸ,0,lutr,1442
 mirmekofag,兽ᴹ,0,mirmekofag,1444
@@ -6173,6 +6175,7 @@ tas,杯ᵀ,0,tas,1701
 eminent,杰ᴱ,0,eminent,4286
 prod,杰ᴾ,0,prod,4287
 konifer,松ᴷ,0,konifer,4048
+mug,松ᴹ,0,mug,472
 cembr,松ᶜ,0,cembr,4047
 kolofon,松香,0,kolofon,8542
 garol,松鸦,0,garol,8498
@@ -6346,6 +6349,7 @@ rung,横档,0,rung,8396
 sakur,樱ˢ,0,sakur,4264
 meriz,樱ᴹ,0,meriz,4263
 oliv,橄榄,0,oliv,reverse-alias:20261017
+klementin,橘ᴷ,0,klementin,591
 glan,橡ᴳ,0,glan,4563
 vizier,檐ⱽ,0,vizier,7027
 debet,欠ᴰ,0,debet,3569
@@ -6711,6 +6715,7 @@ lunatik,狂ᴸ,0,lunatik,3956
 rabi,狂ᴿ,0,rabi,3957
 frenez,狂ᶠ,0,frenez,3954
 karnaval,狂欢,0,karnaval,5840
+izatis,狐ᴵ,0,izatis,1479
 apart,独ᴬ,0,apart,1997
 diktator,独裁,0,diktator,6417
 grif,狮鹰,0,grif,6859
@@ -9041,7 +9046,7 @@ kuz,堂,0,kuz,2722
 amas,堆,0,amas,1431
 abort,堕,0,abort,6148
 fuort,堡,0,fuort,7920
-ĝet,堤,0,g^et,7233
+dig,堤,0,dig,6603
 ŝtop,堵,0,ŝtop,3560
 plast,塑,0,plast,5295
 tur,塔,0,tur,3594
@@ -9370,7 +9375,7 @@ invit,招,0,invit,1893
 ador,拜,0,ador,4920
 simul,拟,0,simul,7509
 svarm,拥,0,svarm,reverse-alias:20261114
-dig,拦,0,dig,6603
+dig,拦,0,dig,reverse-alias:20261120
 tord,拧,0,tord,3729
 plektr,拨,0,plektr,8021
 parentez,括,0,parentez,5152
