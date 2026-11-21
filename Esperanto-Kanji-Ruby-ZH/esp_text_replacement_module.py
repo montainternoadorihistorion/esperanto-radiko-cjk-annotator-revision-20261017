@@ -915,7 +915,7 @@ def apply_ruby_html_header_and_footer(processed_text: str, format_type: str) -> 
     """
     if format_type in ('HTML格式_Ruby文字_大小调整','HTML格式_Ruby文字_大小调整_汉字替换'):
         ruby_style_head = """<!DOCTYPE html>
-<html lang="ja">
+<html lang="zh">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

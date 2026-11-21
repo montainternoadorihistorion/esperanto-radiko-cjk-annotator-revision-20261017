@@ -926,7 +926,7 @@ def apply_ruby_html_header_and_footer(processed_text: str, format_type: str) -> 
     if format_type in ('HTML格式_Ruby文字_大小调整','HTML格式_Ruby文字_大小调整_汉字替换'):
         # html形式におけるルビサイズの変更形式
         ruby_style_head="""<!DOCTYPE html>
-<html lang="ja">
+<html lang="ko">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -58,6 +58,7 @@ def worker(language,report=None):
                 at.text_area(key='text0_value').set_value(SOURCE)
                 at.button(key='convert_text').click();run(at)
                 generated=at.session_state['result_html']
+                assert f'<html lang="{language.lower()}">' in generated
                 assert MARKER not in generated and at.text_area(key='edited_html').value==generated
                 saved=save(at)
                 assert saved.startswith('<!-- assignment-edition:'+edition+' ')
