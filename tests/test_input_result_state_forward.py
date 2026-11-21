@@ -139,6 +139,9 @@ def check_language(language):
                 at.button(key="convert_text").click()
                 run()
                 expected = fixture_rows[(edition, mode)]["rendered"] if mode != "ruby" else None
+                if mode == "kanji":
+                    # The recorded Cloud fixture predates localized document languages.
+                    expected = expected.replace('<html lang="ja">', f'<html lang="{language.lower()}">', 1)
                 verify_download(edition, mode, expected)
                 if mode == "ruby":
                     assert recover_standard_html(at.session_state["result_html"], "annotation")["text"] == normalized_source
