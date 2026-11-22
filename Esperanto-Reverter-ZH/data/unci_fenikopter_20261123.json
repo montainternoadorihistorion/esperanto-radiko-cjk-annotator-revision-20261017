@@ -1,0 +1,69 @@
+{
+  "revision": "unci-fenikopter-20261123",
+  "changes": {
+    "unci": {
+      "old": "兽ᵁᶜ",
+      "current": "豹ᵁ"
+    },
+    "fenikopter": {
+      "old": "鸟ᶠᴾ",
+      "current": "火烈鸟ᶠᴱ"
+    }
+  },
+  "safe_reverse_aliases": {
+    "兽ᵁᶜ": "unci",
+    "鸟ᶠᴾ": "fenikopter"
+  },
+  "ownership_transfers": {},
+  "canonical_sidecar_sha256": "1d6a2f94fadfcaa90c85e54f27fd98cb7ecaccb0cecbb3c2431677c4a456884c",
+  "monaco_all_sha256": "2e28f3f39e6fcba460145cce33572885da2a493af64a65f7284cbc82d2dba889",
+  "baseline_current_csv_count": 10722,
+  "current_csv_count": 10724,
+  "rationale": "Unci denotes a snow leopard. The shorter character 豹 shares the leopard group. Fenikopter and flameng name the same bird. 火烈鸟 stays with flameng; the fe identifier preserves existing compound readings.",
+  "group_counts": {
+    "鸟": [
+      144,
+      143
+    ],
+    "兽": [
+      75,
+      74
+    ],
+    "豹": [
+      4,
+      5
+    ],
+    "火烈鸟": [
+      1,
+      2
+    ]
+  },
+  "expected_target_items": {
+    "fenikopter": {
+      "prefix": "fenikopter",
+      "body": "火烈鸟ᶠᴱ",
+      "kanji": "火烈鸟",
+      "detail": "fenikopter → 火烈鸟ᶠᴱ (piv, F=1)",
+      "documentation": "語根: fenikopter\n入力: fenikopter\n最終形: 火烈鸟ᶠᴱ\n漢字: 火烈鸟\n識別子: fe\n型: piv\nF(汎用性): 1\nグループ数: 2\n基本形: no\n出典: _identifier_sidecar.tsv:1157",
+      "priority": 0,
+      "sourceRoot": "fenikopter",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 1157
+    },
+    "unci": {
+      "prefix": "unci",
+      "body": "豹ᵁ",
+      "kanji": "豹",
+      "detail": "unci → 豹ᵁ (piv, F=1)",
+      "documentation": "語根: unci\n入力: unci\n最終形: 豹ᵁ\n漢字: 豹\n識別子: u\n型: piv\nF(汎用性): 1\nグループ数: 5\n基本形: no\n出典: _identifier_sidecar.tsv:1463",
+      "priority": 0,
+      "sourceRoot": "unci",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 1463
+    }
+  }
+}
