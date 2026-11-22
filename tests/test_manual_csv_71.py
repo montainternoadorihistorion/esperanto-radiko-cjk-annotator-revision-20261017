@@ -138,6 +138,8 @@ LATER_CURRENT_ASSIGNMENTS = {
     'kolokasi': ('草ᴷᴼᴸ', '芋ᴷˢ'),
     'orcin': ('兽ᴼᴿ', '虎鲸ᴼᶜ'),
     'grosulari': ('木ᴳˢ', '醋栗ᴳᴸ'),
+    'unci': ('兽ᵁᶜ', '豹ᵁ'),
+    'fenikopter': ('鸟ᶠᴾ', '火烈鸟ᶠᴱ'),
 }
 
 def historical_current_bytes(raw):

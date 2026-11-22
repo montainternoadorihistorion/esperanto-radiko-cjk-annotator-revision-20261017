@@ -477,6 +477,7 @@ sinoviit,滑ˢᴺ炎ᵀ,0,sinoviit,10014
 pirosulfat,火ᴾ硫盐ᴬ,0,pirosulfat,9861
 pirosulfit,火ᴾ硫盐ᴵ,0,pirosulfit,9862
 vulkanologi,火山学ᴸᴳ,0,vulkanologi,10208
+fenikopter,火烈鸟ᶠᴱ,0,fenikopter,1157
 poliomjelit,灰ᴾ髓炎ᵀ,0,poliomjelit,9894
 spiritualism,灵ˢᴸ主义,0,spiritualism,10038
 primatologi,灵长学ᴸᴳ,0,primatologi,9911
@@ -1851,7 +1852,7 @@ procion,兽ᴾᴿ,0,procion,1489
 pterop,兽ᴾᵀ,0,pterop,1486
 tragelaf,兽ᵀᴳ,0,tragelaf,1504
 tamandu,兽ᵀᴹ,0,tamandu,1498
-unci,兽ᵁᶜ,0,unci,1463
+unci,兽ᵁᶜ,0,unci,reverse-alias:20261123
 civet,兽ᶜᴵ,0,civet,1447
 falanger,兽ᶠᴸ,0,falanger,1499
 zibet,兽ᶻᴮ,0,zibet,1473
@@ -4283,7 +4284,7 @@ falarop,鸟ᶠᴬ,0,falarop,1040
 frankolin,鸟ᶠᴷ,0,frankolin,1043
 fulmar,鸟ᶠᴸ,0,fulmar,1089
 fenikur,鸟ᶠᴺ,0,fenikur,1110
-fenikopter,鸟ᶠᴾ,0,fenikopter,1157
+fenikopter,鸟ᶠᴾ,0,fenikopter,reverse-alias:20261123
 falaropod,鸟ᶠᴿ,0,falaropod,1131
 fraterkul,鸟ᶠᵀ,0,fraterkul,1044
 neoti,鸟巢兰,0,neoti,8485
@@ -7865,6 +7866,7 @@ kurkuli,象甲,0,kurkuli,7980
 gepard,豹ᴳ,0,gepard,7076
 jaguar,豹ᴶ,0,jaguar,7077
 leopard,豹ᴸ,0,leopard,7075
+unci,豹ᵁ,0,unci,1463
 skafark,贝ˢ,0,skafark,4867
 anodont,贝ᴬ,0,anodont,4862
 dorid,贝ᴰ,0,dorid,4855

@@ -1,3 +1,7 @@
+## 2026-11-23　雪豹和火烈鸟的新版写法
+
+新版可将「豹ᵁo」「火烈鸟ᶠᴱo」分别还原为 uncio、fenikoptero。新旧两版均可识别旧写法「兽ᵁᶜo」「鸟ᶠᴾo」。「火烈鸟o」仍为 flamengo，「雪豹o」「雪豹ᴸo」分别为 neĝpantero、neĝleopardo。
+
 ## 2026-11-21　六个词根的新版写法
 
 新版中，狐ᴷ、赤铁矿、芋、芋ᴷˢ、虎鲸ᴼᶜ、醋栗ᴳᴸ依次对应 korsak、hematit、kolokazi、kolokasi、orcin、grosulari。旧写法兽ᴷˢ、矿ᴴ、草ᴷᶻ、草ᴷᴼᴸ、兽ᴼᴿ、木ᴳˢ也能还原为原来的词根。例如，木ᴳˢ科ᴬoj 和醋栗ᴳᴸ科ᴬoj 都还原为 grosulariacoj。
