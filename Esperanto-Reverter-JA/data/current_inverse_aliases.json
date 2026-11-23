@@ -2,8 +2,8 @@
   "schema_version": 1,
   "revision": "current-compound-inverse-20261018-v3",
   "source_id": "pejvo-piv-20260620",
-  "dictionary_revision": "unci-fenikopter-20261123",
-  "current_csv_sha256": "4246a8e354e70001d8f784ebd40bf498ae2f08e03deb0be56b73ee8e4ee715d5",
+  "dictionary_revision": "polen-otari-pakiderm-20261123",
+  "current_csv_sha256": "3edca03c965a02d513a538de544d353d77e50dde3cc73f2a3300bf4c89d6b345",
   "required_canonical_owner": {
     "kanji": "丸ᴼ炎ᵀ",
     "esperanto": "orkidit"
