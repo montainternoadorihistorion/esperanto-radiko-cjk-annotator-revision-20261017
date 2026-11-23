@@ -1,0 +1,73 @@
+{
+  "revision": "impertinent-supermarkt-20261123",
+  "changes": {
+    "impertinent": {
+      "old": "放肆",
+      "current": "无礼"
+    },
+    "supermarkt": {
+      "old": "市ˢ",
+      "current": "超市"
+    },
+    "manat": {
+      "old": "兽ᴹᴬ",
+      "current": "海牛"
+    },
+    "dugong": {
+      "old": "兽ᴰᴳ",
+      "current": "海牛ᴰ"
+    },
+    "rosmar": {
+      "old": "海豹ᴿ",
+      "current": "海象"
+    }
+  },
+  "group_counts": {
+    "兽": [
+      72,
+      70
+    ],
+    "市": [
+      7,
+      6
+    ],
+    "放肆": [
+      1,
+      0
+    ],
+    "无礼": [
+      0,
+      1
+    ],
+    "海牛": [
+      0,
+      2
+    ],
+    "海象": [
+      0,
+      1
+    ],
+    "海豹": [
+      2,
+      1
+    ],
+    "超市": [
+      0,
+      1
+    ]
+  },
+  "safe_reverse_aliases": {
+    "放肆": "impertinent",
+    "市ˢ": "supermarkt",
+    "兽ᴹᴬ": "manat",
+    "兽ᴰᴳ": "dugong",
+    "海豹ᴿ": "rosmar"
+  },
+  "canonical_sidecar_sha256": "5a0538f7f9eda6c5ddfa9ee4dc69051b6f6141e7f46ece025ed8db6cbaa719b3",
+  "baseline_monaco_sha256": "280507c95ed5dbff22a739880ca7ff9ddcbecd4ed6e1276129e97074b96ba063",
+  "current_monaco_sha256": "6d37ca3fce1b9966d19f767f0e1ff83672629addb5e17d1bb887b7408bf59ebe",
+  "current_items": 10640,
+  "unchanged_assignment_count": 10635,
+  "group_count_documentation_changes": 77,
+  "rationale": "无礼 names impertinence directly; 超市 is the Chinese daily term. 海牛 groups two sirenians while 海象 identifies the tusked walrus. Only the two independent 海牛 roots need a distinguishing identifier."
+}

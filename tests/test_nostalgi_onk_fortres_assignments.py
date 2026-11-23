@@ -25,6 +25,7 @@ HISTORICAL_CONTROLS = dict(CONTROLS)
 CONTROLS.update({'satir':'讽','karikatur':'讽ᴷ','sarkasm':'讽ˢᴿ'})
 # Follow the later explicitly adopted sperm-cell assignments in current checks.
 CONTROLS.update({'spermat':'精子','spermati':'精子ˢᴵ','spermatozo':'精子ˢᶻ'})
+CONTROLS['impertinent'] = '无礼'
 TARGET_WORDS=[form for root in VALUES for base in
  (root+'o',root+'oj',root+'on',root+'ojn',root+'a',root+'aj',root+'ajn',root+'e',
   '@'+root+'@o','@'+root+'o@','@'+root+'@ojn') for form in (base,base.title(),base.upper())]
@@ -252,6 +253,7 @@ def runtime(root,after):
                 if mode!='ruby':
                     rt=word[:-1].lower()
                     expected=VALUES[rt][int(after)] if rt in VALUES else CONTROLS[rt]
+                    if rt == 'impertinent' and not after: expected = '放肆'
                     assert h.visible(value)==expected+word[-1],(word,value,expected)
                 manual_results.append({'language':lang,'mode':mode,'input':word,'output':value})
             print('runtime',lang,mode,len(final),'manual',len(actual),'PASS',flush=True)
