@@ -102,4 +102,12 @@ def test_all_effective_complete_keys_with_24_endings_preserve_existing_results(s
         for key in bucket:
             for suffix in suffixes:
                 text = key + suffix
-                assert app.convert_kanji_esperanto_to_alphabet(text, idx) == old_greedy(text, idx), text
+                # These two stems have both an unmarked root and a normal
+                # spelling with a literal linking i. A past-tense/participle
+                # suffix from @root@ starts with its own i.
+                root = {"多ᴾ足ᴾᴼ": "polipodi", "超ᴹ心ᴾˢ": "metapsiki"}.get(key)
+                if source == 'pejvo-piv-20260620' and root and suffix in ('is', 'ita', 'inta', 'ilo'):
+                    expected = root + suffix
+                else:
+                    expected = old_greedy(text, idx)
+                assert app.convert_kanji_esperanto_to_alphabet(text, idx) == expected, text
