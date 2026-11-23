@@ -1,5 +1,9 @@
 > **旧版の参考資料 / Historical reference**
 
+## 大学与驯鹿的词根写法
+
+新版将 universitat 写作“大学”，boac 写作“驯鹿ᴮ”，karibu 写作“驯鹿ᴷ”。不带标记的“驯鹿”仍对应 rangifer。新版也能从原有写法“学ᵁ”“鹿ᴮ”“兽ᴷᴿ”还原这三个词根。
+
 ## 无礼、超市、海牛、海象的词根对应
 
 impertinent＝**无礼** ／ supermarkt＝**超市** ／ manat＝**海牛** ／ dugong＝**海牛ᴰ** ／ rosmar＝**海象**

@@ -2,8 +2,8 @@
   "schema_version": 1,
   "revision": "current-compound-inverse-20261018-v3",
   "source_id": "pejvo-piv-20260620",
-  "dictionary_revision": "impertinent-supermarkt-20261123",
-  "current_csv_sha256": "a58fc5b6717d5fe46b9e2afa78ba2c3cf2daa3e9b6e56202faa4f627df6d2bf3",
+  "dictionary_revision": "university-reindeer-20261123",
+  "current_csv_sha256": "c1d4112c09bb8bf39f1440b63db516e7be75ae4ee68bddb0eea34833ba4ec345",
   "required_canonical_owner": {
     "kanji": "丸ᴼ炎ᵀ",
     "esperanto": "orkidit"
