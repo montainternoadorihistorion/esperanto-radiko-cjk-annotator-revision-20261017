@@ -1,0 +1,94 @@
+{
+  "revision": "singleton-roots-20261123",
+  "changes": {
+    "otari": {
+      "old": "海狮ᴼ",
+      "current": "海狮"
+    },
+    "pakiderm": {
+      "old": "厚皮ᴾᴷ",
+      "current": "厚皮"
+    },
+    "polen": {
+      "old": "花粉ᴾᴸ",
+      "current": "花粉"
+    },
+    "hektar": {
+      "old": "百亩ᴴ",
+      "current": "百亩"
+    },
+    "tripanosom": {
+      "old": "原兽ᵀ",
+      "current": "原兽"
+    },
+    "deism": {
+      "old": "神主义ᴰ",
+      "current": "神主义"
+    },
+    "deist": {
+      "old": "神家ᴰ",
+      "current": "神家"
+    },
+    "dodekaedr": {
+      "old": "十二面ᴱᴰ",
+      "current": "十二面ᴱ"
+    },
+    "kseroftalmi": {
+      "old": "干ᴷ目ᴼᶠᴷ",
+      "current": "干ᴷ目ᴼᶠ"
+    },
+    "metapsiki": {
+      "old": "超ᴹ心ᴾˢᴹ",
+      "current": "超ᴹ心ᴾˢ"
+    },
+    "pedofili": {
+      "old": "童ᴾ爱ᶠᴾ",
+      "current": "童ᴾ爱ᶠ"
+    },
+    "polifoni": {
+      "old": "多ᴾ声ᶠᴼᴾ",
+      "current": "多ᴾ声ᶠᴼ"
+    },
+    "polipodi": {
+      "old": "多ᴾ足ᴾᴼᴾ",
+      "current": "多ᴾ足ᴾᴼ"
+    },
+    "polenolog": {
+      "old": "花粉ᴾᴸ学家",
+      "current": "花粉学家"
+    },
+    "polenologi": {
+      "old": "花粉ᴾᴸ学ᴸᴳ",
+      "current": "花粉学ᴸᴳ"
+    },
+    "polenoz": {
+      "old": "花粉ᴾᴸ症ᴼ",
+      "current": "花粉症ᴼ"
+    }
+  },
+  "group_counts": {},
+  "safe_reverse_aliases": {
+    "海狮ᴼ": "otari",
+    "厚皮ᴾᴷ": "pakiderm",
+    "花粉ᴾᴸ": "polen",
+    "百亩ᴴ": "hektar",
+    "原兽ᵀ": "tripanosom",
+    "神主义ᴰ": "deism",
+    "神家ᴰ": "deist",
+    "十二面ᴱᴰ": "dodekaedr",
+    "干ᴷ目ᴼᶠᴷ": "kseroftalmi",
+    "超ᴹ心ᴾˢᴹ": "metapsiki",
+    "童ᴾ爱ᶠᴾ": "pedofili",
+    "多ᴾ声ᶠᴼᴾ": "polifoni",
+    "多ᴾ足ᴾᴼᴾ": "polipodi",
+    "花粉ᴾᴸ学家": "polenolog",
+    "花粉ᴾᴸ学ᴸᴳ": "polenologi",
+    "花粉ᴾᴸ症ᴼ": "polenoz"
+  },
+  "canonical_sidecar_sha256": "2435cd23dcaf33b39addf02f473d0aadafa69291bce17a3e58134fe24574ba19",
+  "baseline_monaco_sha256": "621d7215f47bebe27589dbd7fecccecf222ea06349e40f44a8336dbe182ac9ab",
+  "current_monaco_sha256": "280507c95ed5dbff22a739880ca7ff9ddcbecd4ed6e1276129e97074b96ba063",
+  "current_items": 10640,
+  "unchanged_assignment_count": 10624,
+  "rationale": "The only independent root owns the bare form. Historical spellings retain their readings. Three pollen derivatives follow their changed component."
+}

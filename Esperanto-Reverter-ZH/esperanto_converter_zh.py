@@ -555,6 +555,14 @@ def convert_kanji_esperanto_to_alphabet(text: str, mapping: MappingIndex) -> str
             replacement = mapping.by_length[length].get(substring)
             if replacement is None:
                 continue
+            # Two ordinary stems already carry their terminal i in the surface spelling.
+            # Protect @root@is, @root@igi, etc.: before a consonant this i starts
+            # the ending. A different custom owner never activates this treatment.
+            if (substring in ("超ᴹ心ᴾˢi", "多ᴾ足ᴾᴼi") and end < len(text)
+                    and text[end] in "bcĉdfgĝhĥjĵklmnprsŝtŭvz"
+                    and (substring, replacement) in (("超ᴹ心ᴾˢi", "metapsiki"), ("多ᴾ足ᴾᴼi", "polipodi"))
+                    and mapping.by_length.get(length - 1, {}).get(substring[:-1]) == replacement):
+                continue
             # Adding 招=invit must not newly consume the first character of
             # the established 招魂=nekromanci when its following identifier
             # is unknown. Keep the old scan behavior for this reviewed edge.

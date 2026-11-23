@@ -2,8 +2,8 @@
   "schema_version": 1,
   "revision": "current-compound-inverse-20261018-v3",
   "source_id": "pejvo-piv-20260620",
-  "dictionary_revision": "polen-otari-pakiderm-20261123",
-  "current_csv_sha256": "3edca03c965a02d513a538de544d353d77e50dde3cc73f2a3300bf4c89d6b345",
+  "dictionary_revision": "singleton-roots-20261123",
+  "current_csv_sha256": "f67eaebda6a8f14ab1c10b674a52a926d2e289e676ce9f99568c0defc83a74c3",
   "required_canonical_owner": {
     "kanji": "丸ᴼ炎ᵀ",
     "esperanto": "orkidit"

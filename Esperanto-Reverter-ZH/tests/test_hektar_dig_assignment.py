@@ -26,6 +26,7 @@ def test_roots_endings_and_historical_readings(edition, ending):
     pairs = {**OLD_KEYS, **NEIGHBORS}
     if edition == CURRENT:
         pairs.update(NEW_KEYS)
+        pairs["百亩"] = "hektar"
         pairs["果o饼ᶠ"] = "fruktoflan"
     else:
         pairs["堤"] = "ĝet"

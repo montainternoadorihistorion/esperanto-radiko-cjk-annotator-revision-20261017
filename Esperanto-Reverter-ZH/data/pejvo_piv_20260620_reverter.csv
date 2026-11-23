@@ -24,7 +24,10 @@ paleolitik,古ᴾ石ᴸᵀ学ᴵ,0,paleolitik,9801
 perikardiit,围ᴾ心ᴷᴰ炎ᵀ,0,perikardiit,9833
 geomorfologi,地ᴳ形ᴹ学ᴸᴳ,0,geomorfologi,9225
 geokronologi,地ᴳ时ᴷ学ᴸᴳ,0,geokronologi,9218
+polifonia,多ᴾ声ᶠᴼia,0,polifoni,learner-form:20261123
+polifonio,多ᴾ声ᶠᴼio,0,polifoni,learner-form:20261123
 radiofoni,射ᴿ声ᶠᴼᴿᴵ,0,radiofoni,9937
+kseroftalmio,干ᴷ目ᴼᶠio,0,kseroftalmi,learner-form:20261123
 mikrobiologi,微生ᴮᴼ学ᴸᴳ,0,mikrobiologi,9633
 bazidiomikot,担子菌ᴹᴵᴮᴼ,0,bazidiomikot,8891
 bazidiomicet,担子菌ᴹᶜᴮᴼ,0,bazidiomicet,8890
@@ -59,7 +62,7 @@ pubiotomi,耻骨ᴾᴵ切ᵀᴹ,0,pubiotomi,9932
 gastroskopi,胃ᴳ镜ˢᴷᴳᴵ,0,gastroskopi,9205
 aŭtobiografi,自ᴬ生ᴮᴼ志ᴳ,0,au^tobiografi,8864
 artritism,节ᴬᴿ炎ᵀ主义,0,artritism,8844
-polenologi,花粉ᴾᴸ学ᴸᴳ,0,polenologi,9888
+polenologi,花粉ᴾᴸ学ᴸᴳ,0,polenologi,reverse-alias:20261123
 bangiofic,藻ᴮ藻ᶠᶜᴮᴼ,0,bangiofic,10374
 epidiaskop,表ᴱ通ᴰ镜ˢᴷ,0,epidiaskop,9092
 kondrektomi,软骨ᴷᴺ除ᴱᴷ,0,kondrektomi,9492
@@ -106,16 +109,17 @@ fonometri,声ᶠᴼ测ᴹᵀ,0,fonometri,9156
 fonoskop,声ᶠᴼ镜ˢᴷ,0,fonoskop,9158
 ksenofob,外ᴷˢ怕ᶠᴼ,0,ksenofob,9533
 ksenartr,外ᴷˢ节ᴬᴿ,0,ksenartr,10441
-polifoni,多ᴾ声ᶠᴼᴾ,0,polifoni,9891
+polifoni,多ᴾ声ᶠᴼᴾ,0,polifoni,reverse-alias:20261123
 politeism,多ᴾ神ᵀ主义,0,politeism,9898
-polipodi,多ᴾ足ᴾᴼᴾ,0,polipodi,9896
+polipodi,多ᴾ足ᴾᴼi,0,polipodi,learner-form:20261123
+polipodi,多ᴾ足ᴾᴼᴾ,0,polipodi,reverse-alias:20261123
 kosmonaŭtik,宇航ᴺᴬ学ᴵ,0,kosmonau^tik,9510
 urologi,尿ᵁᴼ学ᴸᴳ,0,urologi,10174
 urogener,尿ᵁᴼ生ᴳᴿ,0,urogener,10468
 urgener,尿ᵁᴿ生ᴳᴿ,0,urgener,10467
 megafon,巨ᴹᴱ声ᶠᴼ,0,megafon,9601
 megalit,巨ᴹᴱ石ᴸᵀ,0,megalit,9602
-kseroftalmi,干ᴷ目ᴼᶠᴷ,0,kseroftalmi,9537
+kseroftalmi,干ᴷ目ᴼᶠᴷ,0,kseroftalmi,reverse-alias:20261123
 alofon,异ᴬᴸ声ᶠᴼ,0,alofon,8764
 ombropolarimetr,影极ᴾᴿ计ᴹ,0,ombropolarimetr,10452
 difeomorfi,微分同胚ᴰᴵ,0,difeomorfi,8051
@@ -168,6 +172,7 @@ mineralogi,矿ᴹᴵ学ᴸᴳ,0,mineralogi,9656
 siliciid,硅ˢᴵ化ᴵᴰ,0,siliciid,10006
 neŭrom,神经ᴺᵁ̆瘤,0,neu^rom,9713
 neŭropter,神经ᴺᵁ̆翅,0,neu^ropter,9715
+pedofilio,童ᴾ爱ᶠio,0,pedofili,learner-form:20261123
 semiologi,符ˢᴱ学ᴸᴳ,0,semiologi,9995
 polenologi,粉ᴾᴺ学ᴸᴳ,0,polenologi,reverse-alias:20261123
 granulocit,粒ᴳᴺ胞ᶜᴵ,0,granulocit,9256
@@ -190,8 +195,8 @@ kromofotografi,色ᴷᴹ拍志ᴳ,0,kromofotografi,9526
 kolorometri,色测ᴹᵀᴷᴼ,0,kolorometri,9487
 artrologi,节ᴬᴿ学ᴸᴳ,0,artrologi,8845
 artropod,节ᴬᴿ足ᴾᴼ,0,artropod,8846
-polenolog,花粉ᴾᴸ学家,0,polenolog,9887
-polenoz,花粉ᴾᴸ症ᴼ,0,polenoz,9889
+polenolog,花粉ᴾᴸ学家,0,polenolog,reverse-alias:20261123
+polenoz,花粉ᴾᴸ症ᴼ,0,polenoz,reverse-alias:20261123
 briofit,苔ᴮ植ᶠᴮᴼ,0,briofit,8925
 klematid,草ᴷᴸᴱᴹᴬ,0,klematid,2255
 micetologi,菌ᴹᶜ学ᴸᴳ,0,micetologi,8880
@@ -200,7 +205,8 @@ skizomicet,裂ˢᶻ菌ᴹᶜ,0,skizomicet,10019
 demonstrativ,证ᴰᴹ被能ᴵ,0,demonstrativ,8980
 spektroskopi,谱镜ˢᴷˢᴵ,0,spektroskopi,10030
 metamorfoz,超ᴹ形ᴹ症ᴼ,0,metamorfoz,10367
-metapsiki,超ᴹ心ᴾˢᴹ,0,metapsiki,9619
+metapsiki,超ᴹ心ᴾˢi,0,metapsiki,learner-form:20261123
+metapsiki,超ᴹ心ᴾˢᴹ,0,metapsiki,reverse-alias:20261123
 kondrit,软骨ᴷᴺ炎ᵀ,0,kondrit,9493
 peroksid,过ᴾᴱᴿ氧化,0,peroksid,9841
 scintilogram,闪ˢᶜ图ᴳᴹ,0,scintilogram,9979
@@ -276,7 +282,7 @@ dinamometr,力ᴰᴵ计ᴹ,0,dinamometr,10381
 kinezopati,动ᴷᶻ病ᴾ,0,kinezopati,9464
 dekalog,十ᴰᴬ戒ᴸ,0,dekalog,8974
 dodekafon,十二声ᶠᴼ,0,dodekafon,9027
-dodekaedr,十二面ᴱᴰ,0,dodekaedr,9026
+dodekaedr,十二面ᴱᴰ,0,dodekaedr,reverse-alias:20261123
 kilobit,千ᴷᴵ位ᴮ,0,kilobit,9459
 kilobajt,千ᴷᴵ字节,0,kilobajt,9458
 kilocikl,千ᴷᴵ环ᶜ,0,kilocikl,9460
@@ -337,7 +343,9 @@ ekzoterm,外ᴱᶻ热ᵀ,0,ekzoterm,9044
 ekzogen,外ᴱᶻ生ᴳ,0,ekzogen,9043
 ekzogami,外ᴱᶻ配ᴳ,0,ekzogami,9042
 ksenofobi,外ᴷˢ怕ᶠ,0,ksenofobi,9534
+polifoni,多ᴾ声ᶠᴼ,0,polifoni,9891
 politeist,多ᴾ神ᵀ家,0,politeist,9899
+polipodi,多ᴾ足ᴾᴼ,0,polipodi,9896
 sfinglipid,天蛾脂ᴸᴾ,0,sfinglipid,10004
 cefalopod,头ᶜ足ᴾᴼ,0,cefalopod,8937
 ginekologi,女ᴳ学ᴸᴳ,0,ginekologi,9233
@@ -363,6 +371,7 @@ stratigraf,层ˢᵀ记ᴳ,0,stratigraf,10063
 eksponometr,展ᴱᴺ计ᴹ,0,eksponometr,9035
 petroselin,岩ᴾ伞ˢᴸ,0,petroselin,9848
 petrologi,岩ᴾ学ᴸᴳ,0,petrologi,9847
+kseroftalmi,干ᴷ目ᴼᶠ,0,kseroftalmi,9537
 planimetri,平ᴾ测ᴹᵀ,0,planimetri,9868
 arĥitekt,建筑ᴬᴴ̂,0,arh^itekt,6877
 alotrofi,异ᴬᴸ养ᵀ,0,alotrofi,8766
@@ -559,7 +568,7 @@ stereofon,立体声ᶠᴼ,0,stereofon,10047
 stereometri,立体测ᴹᵀ,0,stereometri,10050
 stereoskop,立体镜ˢᴷ,0,stereoskop,10052
 pedologi,童ᴾ学ᴸᴳ,0,pedologi,9821
-pedofili,童ᴾ爱ᶠᴾ,0,pedofili,9820
+pedofili,童ᴾ爱ᶠᴾ,0,pedofili,reverse-alias:20261123
 izodinam,等ᴵ力ᴰᴵ,0,izodinam,9409
 izomorfi,等ᴵ形ᴹᴵ,0,izomorfi,9418
 izospin,等ᴵ旋ˢᴺ,0,izospin,9422
@@ -635,6 +644,7 @@ kolorometr,色计ᴹᴷᴼ,0,kolorometr,9485
 artrit,节ᴬᴿ炎ᵀ,0,artrit,8842
 artroz,节ᴬᴿ症ᴼ,0,artroz,8847
 artralgi,节ᴬᴿ痛ᴬ,0,artralgi,8841
+polenologi,花粉学ᴸᴳ,0,polenologi,9888
 kormofit,茎叶体植ᶠ,0,kormofit,9499
 salikari,草ˢᴬᴸᴵ,0,salikari,2257
 spekulari,草ˢᴾᴱᴷ,0,spekulari,2572
@@ -683,6 +693,7 @@ grafologi,记ᴳ学ᴸᴳ,0,grafologi,9254
 diplomologi,证ᴰ学ᴸᴳ,0,diplomologi,9014
 terminologi,词ᵀ学ᴸᴳ,0,terminologi,10106
 leksikologi,词汇学ᴸᴳ,0,leksikologi,9555
+metapsiki,超ᴹ心ᴾˢ,0,metapsiki,9619
 metastaz,超ᴹ滞ˢᶻ,0,metastaz,9621
 hiperestezi,超感ᴱᴴᴵ,0,hiperestezi,9335
 taksimetr,车ᵀᴷ计ᴹ,0,taksimetr,10080
@@ -822,6 +833,7 @@ dekagram,十ᴰᴬ克,0,dekagram,8972
 dekalitr,十ᴰᴬ升,0,dekalitr,8973
 dekametr,十ᴰᴬ米,0,dekametr,8975
 duoden,十二指肠,0,duoden,7254
+dodekaedr,十二面ᴱ,0,dodekaedr,9026
 sonet,十四行诗,0,sonet,7829
 kilogram,千ᴷᴵ克,0,kilogram,10287
 kilolitr,千ᴷᴵ升,0,kilolitr,9461
@@ -844,7 +856,7 @@ ovocit,卵胞ᶜᴵ,0,ovocit,9791
 barometr,压ᴮ计ᴹ,0,barometr,7993
 barograf,压ᴮ记ᴳ,0,barograf,8884
 tensimetr,压ᵀ计ᴹ,0,tensimetr,7994
-pakiderm,厚皮ᴾᴷ,0,pakiderm,1451
+pakiderm,厚皮ᴾᴷ,0,pakiderm,reverse-alias:20261123
 prototip,原ᴾᵀ型,0,prototip,8831
 protoplasm,原ᴾᵀ浆,0,protoplasm,9918
 protopter,原ᴾᵀ翅,0,protopter,9919
@@ -1271,12 +1283,13 @@ sociologi,社学ᴸᴳ,0,sociologi,10344
 teism,神ᵀ主义,0,teism,8968
 teolog,神ᵀ学家,0,teolog,10101
 teokrat,神ᵀ治ᴷ,0,teokrat,10099
-deism,神主义ᴰ,0,deism,8969
+deism,神主义ᴰ,0,deism,reverse-alias:20261123
 mitolog,神话学家,0,mitolog,9663
 jonosfer,离子球ˢ,0,jonosfer,9430
 galinul,秧鸡ᴳᵁ,0,galinul,8360
 stereografi,立体志ᴳ,0,stereografi,10049
 alce,立葵ᴬᶜ,0,alce,7914
+pedofili,童ᴾ爱ᶠ,0,pedofili,9820
 izoleŭcin,等ᴵ亮ᴸ,0,izoleu^cin,9413
 izoŝunt,等ᴵ分流,0,izos^unt,9421
 izobar,等ᴵ压ᴮ,0,izobar,9407
@@ -1405,7 +1418,9 @@ eŭritm,良ᴱ律ᴿ,0,eu^ritm,9121
 kolormetri,色测ᴹᵀ,0,kolormetri,9486
 gangliit,节ᴳ炎ᵀ,0,gangliit,8843
 aŭrikul,花ᴬᵁ̆,0,au^rikul,1668
-polen,花粉ᴾᴸ,0,polen,3945
+polen,花粉ᴾᴸ,0,polen,reverse-alias:20261123
+polenolog,花粉学家,0,polenolog,9887
+polenoz,花粉症ᴼ,0,polenoz,9889
 briozo,苔ᴮ兽ᶻ,0,briozo,10422
 brifit,苔ᴮ植ᶠ,0,brifit,8924
 pomologi,苹学ᴸᴳ,0,pomologi,9907
@@ -1966,7 +1981,7 @@ primitiv,原ᴾᴹ,0,primitiv,266
 pamp,原ᴾᴾ,0,pamp,269
 primar,原ᴾᴿ,0,primar,268
 proto,原ᴾᵀ,0,proto,267
-tripanosom,原兽ᵀ,0,tripanosom,7471
+tripanosom,原兽ᵀ,0,tripanosom,reverse-alias:20261123
 naftil,原油基,0,naftil,10447
 karoten,参ᴷ素,0,karoten,7255
 ĝemin,双ᴳ̂,0,g^emin,282
@@ -2761,7 +2776,7 @@ fluometr,流计ᴹ,0,fluometr,9147
 plasmogami,浆配ᴳ,0,plasmogami,9871
 metri,测ᴹᵀ,0,metri,2030
 ukij,浮世绘,0,ukij,7946
-otari,海狮ᴼ,0,otari,1443
+otari,海狮ᴼ,0,otari,reverse-alias:20261123
 rosmar,海豹ᴿ,0,rosmar,6536
 impregn,浸ᴵᴹ,0,impregn,4426
 marin,浸ᴹᴿ,0,marin,4423
@@ -2922,7 +2937,7 @@ hektogram,百ᴴ克,0,hektogram,9275
 hektolitr,百ᴴ升,0,hektolitr,9276
 hektometr,百ᴴ米,0,hektometr,9277
 centezimal,百ᶜᶻ,0,centezimal,140
-hektar,百亩ᴴ,0,hektar,5800
+hektar,百亩ᴴ,0,hektar,reverse-alias:20261123
 ŝutr,百叶窗,0,s^utr,8082
 kokluŝ,百日咳,0,koklus^,7937
 timian,百里香,0,timian,7765
@@ -2983,7 +2998,8 @@ societ,社ˢᵀ,0,societ,3545
 sociolog,社学家,0,sociolog,10023
 atavism,祖主义,0,atavism,8858
 teist,神ᵀ家,0,teist,8970
-deist,神家ᴰ,0,deist,8971
+deism,神主义,0,deism,8969
+deist,神家ᴰ,0,deist,reverse-alias:20261123
 mitomani,神话狂,0,mitomani,10309
 balot,票ᴮᴬ,0,balot,3317
 ĉek,票ᶜ̂,0,ĉek,3316
@@ -4752,7 +4768,7 @@ plebiscit,公投,0,plebiscit,8679
 duk,公爵,0,duk,reverse-alias:20261120
 aksiom,公理,0,aksiom,7905
 notari,公证,0,notari,6916
-hektar,公顷,0,hektar,reverse-alias:20261120
+hektar,公顷,0,hektar,reverse-alias:20261123
 heks,六ᴴ,0,heks,144
 juni,六月,0,juni,644
 heksagon,六角,0,heksagon,8197
@@ -5067,8 +5083,10 @@ centigram,厘克,0,centigram,8944
 centilitr,厘升,0,centilitr,8945
 centigrad,厘度,0,centigrad,8943
 krasul,厚叶,0,krasul,8446
+pakiderm,厚皮,0,pakiderm,1451
 original,原ᴼ,0,original,265
 aŭtokton,原住,0,au^tokton,8687
+tripanosom,原兽,0,tripanosom,7471
 primordi,原基,0,primordi,8019
 prokariot,原核,0,prokariot,7469
 naft,原油,0,naft,6968
@@ -6524,6 +6542,7 @@ asteri,海星,0,asteri,8088
 aŭreli,海月,0,au^reli,8264
 salp,海桶,0,salp,8113
 procelari,海燕,0,procelari,7296
+otari,海狮,0,otari,1443
 pirat,海盗,0,pirat,6660
 spong,海绵,0,spong,5940
 ekin,海胆,0,ekin,7081
@@ -6884,6 +6903,7 @@ platen,白金,0,platen,7508
 alburn,白鱼,0,alburn,7926
 hekto,百ᴴ,0,hekto,139
 milion,百万,0,milion,3114
+hektar,百亩,0,hektar,5800
 centifoli,百叶,0,centifoli,8942
 lili,百合,0,lili,5748
 centuri,百队,0,centuri,8060
@@ -7017,6 +7037,7 @@ tost,祝ᵀ,0,tost,4239
 numen,神ᴺ,0,numen,2856
 providenc,神ᴾ,0,providenc,2855
 apoteoz,神化,0,apoteoz,8183
+deist,神家,0,deist,8971
 teozof,神智,0,teozof,8607
 dajmon,神灵,0,dajmon,7710
 nerv,神经,0,nerv,4633
@@ -7453,6 +7474,7 @@ korol,花冠,0,korol,6063
 infloresk,花序,0,infloresk,6711
 girland,花环,0,girland,5792
 arakid,花生,0,arakid,7327
+polen,花粉,0,polen,3945
 punt,花边,0,punt,5909
 api,芹ᴬ,0,api,6460
 enant,芹ᴱ,0,enant,6461

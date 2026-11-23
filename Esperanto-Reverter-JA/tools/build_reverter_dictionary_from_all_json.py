@@ -170,6 +170,29 @@ def rows_from_all_json(data: dict) -> list[dict[str, object]]:
         ("polenolog", "花粉ᴾᴸ学家", "粉ᴾᴺ学家", "20261123"),
         ("polenologi", "花粉ᴾᴸ学ᴸᴳ", "粉ᴾᴺ学ᴸᴳ", "20261123"),
         ("polenoz", "花粉ᴾᴸ症ᴼ", "粉ᴾᴺ症ᴼ", "20261123"),
+        ("hektar", "百亩", "公顷", "20261123"),
+        ("polen", "花粉", "粉ᴾᴺ", "20261123"),
+        ("otari", "海狮", "兽ᴼ", "20261123"),
+        ("pakiderm", "厚皮", "兽ᴾᴷ", "20261123"),
+        ("polenolog", "花粉学家", "粉ᴾᴺ学家", "20261123"),
+        ("polenologi", "花粉学ᴸᴳ", "粉ᴾᴺ学ᴸᴳ", "20261123"),
+        ("polenoz", "花粉症ᴼ", "粉ᴾᴺ症ᴼ", "20261123"),
+        ("otari", "海狮", "海狮ᴼ", "20261123"),
+        ("pakiderm", "厚皮", "厚皮ᴾᴷ", "20261123"),
+        ("polen", "花粉", "花粉ᴾᴸ", "20261123"),
+        ("hektar", "百亩", "百亩ᴴ", "20261123"),
+        ("tripanosom", "原兽", "原兽ᵀ", "20261123"),
+        ("deism", "神主义", "神主义ᴰ", "20261123"),
+        ("deist", "神家", "神家ᴰ", "20261123"),
+        ("dodekaedr", "十二面ᴱ", "十二面ᴱᴰ", "20261123"),
+        ("kseroftalmi", "干ᴷ目ᴼᶠ", "干ᴷ目ᴼᶠᴷ", "20261123"),
+        ("metapsiki", "超ᴹ心ᴾˢ", "超ᴹ心ᴾˢᴹ", "20261123"),
+        ("pedofili", "童ᴾ爱ᶠ", "童ᴾ爱ᶠᴾ", "20261123"),
+        ("polifoni", "多ᴾ声ᶠᴼ", "多ᴾ声ᶠᴼᴾ", "20261123"),
+        ("polipodi", "多ᴾ足ᴾᴼ", "多ᴾ足ᴾᴼᴾ", "20261123"),
+        ("polenolog", "花粉学家", "花粉ᴾᴸ学家", "20261123"),
+        ("polenologi", "花粉学ᴸᴳ", "花粉ᴾᴸ学ᴸᴳ", "20261123"),
+        ("polenoz", "花粉症ᴼ", "花粉ᴾᴸ症ᴼ", "20261123"),
     )
     for root, current_body, old_body, date in aliases:
         current = [row for row in rows if row["source_root"] == root and row["kanji"] == current_body]
@@ -212,6 +235,25 @@ def current_rows_from_all_json(data: dict) -> list[dict[str, object]]:
     if senses.get("schema_version") != 1:
         raise ValueError("Unsupported explicit-sense assignment data")
     rows = rows_from_all_json(data)
+    # Some normal learner forms retain a literal linking i from their decomposition.
+    # Record only the spellings produced by the reviewed forward data in the bundled edition.
+    owners = {row["kanji"]: row for row in rows}
+    for root_name, body, retained_vowels in (
+        ("metapsiki", "超ᴹ心ᴾˢ", ("i",)),
+        ("polipodi", "多ᴾ足ᴾᴼ", ("i",)),
+        ("kseroftalmi", "干ᴷ目ᴼᶠ", ("io",)),
+        ("pedofili", "童ᴾ爱ᶠ", ("io",)),
+        ("polifoni", "多ᴾ声ᶠᴼ", ("io", "ia")),
+    ):
+        base = owners[body]
+        if base["esperanto"] != root_name:
+            raise ValueError(f"Unexpected single-root owner for {body}")
+        for vowels in retained_vowels:
+            key = body + vowels
+            if key in owners:
+                raise ValueError(f"Conflicting normal-form key {key}")
+            rows.append({**base, "kanji": key, "esperanto": root_name + vowels[1:],
+                         "source_line": "learner-form:20261123"})
     for sense in senses["senses"]:
         if sense.get("edition") != "current" or sense.get("selection") != "explicit_occurrence":
             raise ValueError("Only explicitly selected current-edition senses are supported")
