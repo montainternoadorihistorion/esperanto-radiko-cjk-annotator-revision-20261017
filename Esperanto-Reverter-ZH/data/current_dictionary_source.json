@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "polen-otari-pakiderm-20261123",
+  "revision": "singleton-roots-20261123",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "621d7215f47bebe27589dbd7fecccecf222ea06349e40f44a8336dbe182ac9ab",
+  "monaco_all_sha256": "280507c95ed5dbff22a739880ca7ff9ddcbecd4ed6e1276129e97074b96ba063",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "ddbe12c056172029de5b67b1e4775c933dfbd684430f3f6bc46c24414d74d70f",
+  "canonical_sidecar_sha256": "2435cd23dcaf33b39addf02f473d0aadafa69291bce17a3e58134fe24574ba19",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -674,8 +674,8 @@
       "current": "橘ᴷ"
     },
     "hektar": {
-      "old": "公顷",
-      "current": "百亩ᴴ"
+      "old": "百亩ᴴ",
+      "current": "百亩"
     },
     "korsak": {
       "old": "兽ᴷˢ",
@@ -710,32 +710,68 @@
       "current": "火烈鸟ᶠᴱ"
     },
     "polen": {
-      "old": "粉ᴾᴺ",
-      "current": "花粉ᴾᴸ"
+      "old": "花粉ᴾᴸ",
+      "current": "花粉"
     },
     "otari": {
-      "old": "兽ᴼ",
-      "current": "海狮ᴼ"
+      "old": "海狮ᴼ",
+      "current": "海狮"
     },
     "pakiderm": {
-      "old": "兽ᴾᴷ",
-      "current": "厚皮ᴾᴷ"
+      "old": "厚皮ᴾᴷ",
+      "current": "厚皮"
     },
     "polenolog": {
-      "old": "粉ᴾᴺ学家",
-      "current": "花粉ᴾᴸ学家"
+      "old": "花粉ᴾᴸ学家",
+      "current": "花粉学家"
     },
     "polenologi": {
-      "old": "粉ᴾᴺ学ᴸᴳ",
-      "current": "花粉ᴾᴸ学ᴸᴳ"
+      "old": "花粉ᴾᴸ学ᴸᴳ",
+      "current": "花粉学ᴸᴳ"
     },
     "polenoz": {
-      "old": "粉ᴾᴺ症ᴼ",
-      "current": "花粉ᴾᴸ症ᴼ"
+      "old": "花粉ᴾᴸ症ᴼ",
+      "current": "花粉症ᴼ"
+    },
+    "tripanosom": {
+      "old": "原兽ᵀ",
+      "current": "原兽"
+    },
+    "deism": {
+      "old": "神主义ᴰ",
+      "current": "神主义"
+    },
+    "deist": {
+      "old": "神家ᴰ",
+      "current": "神家"
+    },
+    "dodekaedr": {
+      "old": "十二面ᴱᴰ",
+      "current": "十二面ᴱ"
+    },
+    "kseroftalmi": {
+      "old": "干ᴷ目ᴼᶠᴷ",
+      "current": "干ᴷ目ᴼᶠ"
+    },
+    "metapsiki": {
+      "old": "超ᴹ心ᴾˢᴹ",
+      "current": "超ᴹ心ᴾˢ"
+    },
+    "pedofili": {
+      "old": "童ᴾ爱ᶠᴾ",
+      "current": "童ᴾ爱ᶠ"
+    },
+    "polifoni": {
+      "old": "多ᴾ声ᶠᴼᴾ",
+      "current": "多ᴾ声ᶠᴼ"
+    },
+    "polipodi": {
+      "old": "多ᴾ足ᴾᴼᴾ",
+      "current": "多ᴾ足ᴾᴼ"
     }
   },
-  "current_csv_sha256": "3edca03c965a02d513a538de544d353d77e50dde3cc73f2a3300bf4c89d6b345",
-  "current_snippet_csv_sha256": "decf4d0cd1d2aa90742a59abd1de6f66d0ce93cced991fe9d0e5e46a1792c916",
+  "current_csv_sha256": "f67eaebda6a8f14ab1c10b674a52a926d2e289e676ce9f99568c0defc83a74c3",
+  "current_snippet_csv_sha256": "5310d42b4d40bdceef3ecf6ad8ea57f633f2657379c15ae04057f3cb2abaf686",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -826,13 +862,29 @@
     "兽ᴾᴷ": "pakiderm",
     "粉ᴾᴺ学家": "polenolog",
     "粉ᴾᴺ学ᴸᴳ": "polenologi",
-    "粉ᴾᴺ症ᴼ": "polenoz"
+    "粉ᴾᴺ症ᴼ": "polenoz",
+    "海狮ᴼ": "otari",
+    "厚皮ᴾᴷ": "pakiderm",
+    "花粉ᴾᴸ": "polen",
+    "百亩ᴴ": "hektar",
+    "原兽ᵀ": "tripanosom",
+    "神主义ᴰ": "deism",
+    "神家ᴰ": "deist",
+    "十二面ᴱᴰ": "dodekaedr",
+    "干ᴷ目ᴼᶠᴷ": "kseroftalmi",
+    "超ᴹ心ᴾˢᴹ": "metapsiki",
+    "童ᴾ爱ᶠᴾ": "pedofili",
+    "多ᴾ声ᶠᴼᴾ": "polifoni",
+    "多ᴾ足ᴾᴼᴾ": "polipodi",
+    "花粉ᴾᴸ学家": "polenolog",
+    "花粉ᴾᴸ学ᴸᴳ": "polenologi",
+    "花粉ᴾᴸ症ᴼ": "polenoz"
   },
   "mirror_identifier_manifest": "data/mirror-identifiers-20261017.json",
   "mirror_identifier_manifest_sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
   "pre_mirror_csv_sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
   "current_item_count": 10640,
-  "current_csv_count": 10730,
+  "current_csv_count": 10752,
   "stafilokok_assignment_manifest": "data/stafilokok-assignment-20261017.json",
   "stafilokok_assignment_manifest_sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
   "four_shared_assignment_manifest": "data/four-shared-assignments-20261017.json",
@@ -1034,5 +1086,7 @@
   "unci_fenikopter_20261123_manifest": "data/unci_fenikopter_20261123.json",
   "unci_fenikopter_20261123_manifest_sha256": "ac457709097eea97b76933360930dc565e265b51756bbcf3fb1e172c14e08d2b",
   "polen_otari_pakiderm_20261123_manifest": "data/polen_otari_pakiderm_20261123.json",
-  "polen_otari_pakiderm_20261123_manifest_sha256": "f75d9ba5c3a5fcb4009ab8ffd4812f38cfdcd80f3d25cbfd8aaeb9046c1879fb"
+  "polen_otari_pakiderm_20261123_manifest_sha256": "f75d9ba5c3a5fcb4009ab8ffd4812f38cfdcd80f3d25cbfd8aaeb9046c1879fb",
+  "singleton_roots_20261123_manifest": "data/singleton_roots_20261123.json",
+  "singleton_roots_20261123_manifest_sha256": "661b0d0f23fc676faa4f35077acee22c3a9510216978aa0e90301a5188dd0dbb"
 }

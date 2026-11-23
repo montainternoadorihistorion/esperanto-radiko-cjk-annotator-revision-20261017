@@ -14,7 +14,7 @@ class HectareAndDikeAssignments(unittest.TestCase):
     def test_normal_localized_and_manual(self):
         expected = {
             "dig": "堤", "ĝet": "堤ᴳ̂", "izatis": "狐ᴵ", "mug": "松ᴹ",
-            "klementin": "橘ᴷ", "hektar": "百亩ᴴ", "mole": "堤ᴹ",
+            "klementin": "橘ᴷ", "hektar": "百亩", "mole": "堤ᴹ",
             "flan": "饼ᶠ", "sufle": "蛋奶酥",
         }
         for language in ("JA", "ZH", "KO"):

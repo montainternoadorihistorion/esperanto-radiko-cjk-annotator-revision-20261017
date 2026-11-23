@@ -44,6 +44,7 @@ def test_original_readings_and_compounds(edition):
     pairs = {**PROTECTED, **historical(edition)}
     if edition == CURRENT:
         pairs.update({new: root for root, new, _ in CHANGES})
+        pairs.update({"花粉": "polen", "海狮": "otari", "厚皮": "pakiderm", "厚皮者": "pakidermul"})
         pairs.update({"花粉ᴾᴸo学家": "polenolog", "花粉ᴾᴸo学ᴸᴳ": "polenologi"})
     for body, root in pairs.items():
         for ending in ENDINGS:
@@ -66,6 +67,7 @@ def test_downloaded_readings_and_identifier_boundaries(edition):
     pairs = {**PROTECTED, **historical(edition)}
     if edition == CURRENT:
         pairs.update({new: root for root, new, _ in CHANGES})
+        pairs.update({"花粉": "polen", "海狮": "otari", "厚皮": "pakiderm", "厚皮者": "pakidermul"})
     for payload in app.edition_download_data(edition):
         downloaded = app.build_mapping_index(app.read_assignment_csv(io.BytesIO(payload)))
         for key, root in pairs.items():

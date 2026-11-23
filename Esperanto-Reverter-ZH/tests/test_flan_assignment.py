@@ -62,7 +62,7 @@ def test_html_source_spaces_protected_characters_and_compound(edition,mode):
     assert result['assignment_edition']==edition
 def test_current_metadata_keeps_two_editions_and_existing_owners():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
-    assert source['revision']=='polen-otari-pakiderm-20261123' and source['current_csv_count']==10730 and source['current_item_count']==10640
+    assert source['revision']=='singleton-roots-20261123' and source['current_csv_count']==10752 and source['current_item_count']==10640
     assert source['reverse_only_aliases']['蛋奶']=='flan'
     assert not ({'饼ᶠ','蛋奶','蛋奶酥'} & source['ownership_transfers'].keys())
     assert source['ownership_transfers']['绘']=={'old':'desegn','current':'piktur','old_profile':LEGACY}

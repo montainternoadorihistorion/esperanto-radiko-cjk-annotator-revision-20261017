@@ -13,8 +13,8 @@ FROZEN = {
     "otari": "兽ᴼ", "pakiderm": "兽ᴾᴷ",
 }
 CURRENT = {
-    "polen": "花粉ᴾᴸ", "polenolog": "花粉ᴾᴸ学家", "polenologi": "花粉ᴾᴸ学ᴸᴳ",
-    "polenoz": "花粉ᴾᴸ症ᴼ", "otari": "海狮ᴼ", "pakiderm": "厚皮ᴾᴷ",
+    "polen": "花粉", "polenolog": "花粉学家", "polenologi": "花粉学ᴸᴳ",
+    "polenoz": "花粉症ᴼ", "otari": "海狮", "pakiderm": "厚皮",
 }
 RUBY = re.compile(r"<ruby>(.*?)<rt[^>]*>(.*?)</rt></ruby>", re.S)
 BREAK = re.compile(r"<br\s*/?>", re.I)

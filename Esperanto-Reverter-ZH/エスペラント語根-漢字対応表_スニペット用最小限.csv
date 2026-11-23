@@ -23,7 +23,10 @@ paleolitik,古ᴾ石ᴸᵀ学ᴵ
 perikardiit,围ᴾ心ᴷᴰ炎ᵀ
 geomorfologi,地ᴳ形ᴹ学ᴸᴳ
 geokronologi,地ᴳ时ᴷ学ᴸᴳ
+polifonia,多ᴾ声ᶠᴼia
+polifonio,多ᴾ声ᶠᴼio
 radiofoni,射ᴿ声ᶠᴼᴿᴵ
+kseroftalmio,干ᴷ目ᴼᶠio
 mikrobiologi,微生ᴮᴼ学ᴸᴳ
 bazidiomikot,担子菌ᴹᴵᴮᴼ
 bazidiomicet,担子菌ᴹᶜᴮᴼ
@@ -107,6 +110,7 @@ ksenofob,外ᴷˢ怕ᶠᴼ
 ksenartr,外ᴷˢ节ᴬᴿ
 polifoni,多ᴾ声ᶠᴼᴾ
 politeism,多ᴾ神ᵀ主义
+polipodi,多ᴾ足ᴾᴼi
 polipodi,多ᴾ足ᴾᴼᴾ
 kosmonaŭtik,宇航ᴺᴬ学ᴵ
 urologi,尿ᵁᴼ学ᴸᴳ
@@ -167,6 +171,7 @@ mineralogi,矿ᴹᴵ学ᴸᴳ
 siliciid,硅ˢᴵ化ᴵᴰ
 neŭrom,神经ᴺᵁ̆瘤
 neŭropter,神经ᴺᵁ̆翅
+pedofilio,童ᴾ爱ᶠio
 semiologi,符ˢᴱ学ᴸᴳ
 polenologi,粉ᴾᴺ学ᴸᴳ
 granulocit,粒ᴳᴺ胞ᶜᴵ
@@ -199,6 +204,7 @@ skizomicet,裂ˢᶻ菌ᴹᶜ
 demonstrativ,证ᴰᴹ被能ᴵ
 spektroskopi,谱镜ˢᴷˢᴵ
 metamorfoz,超ᴹ形ᴹ症ᴼ
+metapsiki,超ᴹ心ᴾˢi
 metapsiki,超ᴹ心ᴾˢᴹ
 kondrit,软骨ᴷᴺ炎ᵀ
 peroksid,过ᴾᴱᴿ氧化
@@ -336,7 +342,9 @@ ekzoterm,外ᴱᶻ热ᵀ
 ekzogen,外ᴱᶻ生ᴳ
 ekzogami,外ᴱᶻ配ᴳ
 ksenofobi,外ᴷˢ怕ᶠ
+polifoni,多ᴾ声ᶠᴼ
 politeist,多ᴾ神ᵀ家
+polipodi,多ᴾ足ᴾᴼ
 sfinglipid,天蛾脂ᴸᴾ
 cefalopod,头ᶜ足ᴾᴼ
 ginekologi,女ᴳ学ᴸᴳ
@@ -362,6 +370,7 @@ stratigraf,层ˢᵀ记ᴳ
 eksponometr,展ᴱᴺ计ᴹ
 petroselin,岩ᴾ伞ˢᴸ
 petrologi,岩ᴾ学ᴸᴳ
+kseroftalmi,干ᴷ目ᴼᶠ
 planimetri,平ᴾ测ᴹᵀ
 arĥitekt,建筑ᴬᴴ̂
 alotrofi,异ᴬᴸ养ᵀ
@@ -634,6 +643,7 @@ kolorometr,色计ᴹᴷᴼ
 artrit,节ᴬᴿ炎ᵀ
 artroz,节ᴬᴿ症ᴼ
 artralgi,节ᴬᴿ痛ᴬ
+polenologi,花粉学ᴸᴳ
 kormofit,茎叶体植ᶠ
 salikari,草ˢᴬᴸᴵ
 spekulari,草ˢᴾᴱᴷ
@@ -682,6 +692,7 @@ grafologi,记ᴳ学ᴸᴳ
 diplomologi,证ᴰ学ᴸᴳ
 terminologi,词ᵀ学ᴸᴳ
 leksikologi,词汇学ᴸᴳ
+metapsiki,超ᴹ心ᴾˢ
 metastaz,超ᴹ滞ˢᶻ
 hiperestezi,超感ᴱᴴᴵ
 taksimetr,车ᵀᴷ计ᴹ
@@ -821,6 +832,7 @@ dekagram,十ᴰᴬ克
 dekalitr,十ᴰᴬ升
 dekametr,十ᴰᴬ米
 duoden,十二指肠
+dodekaedr,十二面ᴱ
 sonet,十四行诗
 kilogram,千ᴷᴵ克
 kilolitr,千ᴷᴵ升
@@ -1276,6 +1288,7 @@ jonosfer,离子球ˢ
 galinul,秧鸡ᴳᵁ
 stereografi,立体志ᴳ
 alce,立葵ᴬᶜ
+pedofili,童ᴾ爱ᶠ
 izoleŭcin,等ᴵ亮ᴸ
 izoŝunt,等ᴵ分流
 izobar,等ᴵ压ᴮ
@@ -1405,6 +1418,8 @@ kolormetri,色测ᴹᵀ
 gangliit,节ᴳ炎ᵀ
 aŭrikul,花ᴬᵁ̆
 polen,花粉ᴾᴸ
+polenolog,花粉学家
+polenoz,花粉症ᴼ
 briozo,苔ᴮ兽ᶻ
 brifit,苔ᴮ植ᶠ
 pomologi,苹学ᴸᴳ
@@ -2982,6 +2997,7 @@ societ,社ˢᵀ
 sociolog,社学家
 atavism,祖主义
 teist,神ᵀ家
+deism,神主义
 deist,神家ᴰ
 mitomani,神话狂
 balot,票ᴮᴬ
@@ -5066,8 +5082,10 @@ centigram,厘克
 centilitr,厘升
 centigrad,厘度
 krasul,厚叶
+pakiderm,厚皮
 original,原ᴼ
 aŭtokton,原住
+tripanosom,原兽
 primordi,原基
 prokariot,原核
 naft,原油
@@ -6523,6 +6541,7 @@ asteri,海星
 aŭreli,海月
 salp,海桶
 procelari,海燕
+otari,海狮
 pirat,海盗
 spong,海绵
 ekin,海胆
@@ -6883,6 +6902,7 @@ platen,白金
 alburn,白鱼
 hekto,百ᴴ
 milion,百万
+hektar,百亩
 centifoli,百叶
 lili,百合
 centuri,百队
@@ -7016,6 +7036,7 @@ tost,祝ᵀ
 numen,神ᴺ
 providenc,神ᴾ
 apoteoz,神化
+deist,神家
 teozof,神智
 dajmon,神灵
 nerv,神经
@@ -7452,6 +7473,7 @@ korol,花冠
 infloresk,花序
 girland,花环
 arakid,花生
+polen,花粉
 punt,花边
 api,芹ᴬ
 enant,芹ᴱ
