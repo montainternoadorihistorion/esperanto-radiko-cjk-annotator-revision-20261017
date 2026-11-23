@@ -1849,7 +1849,7 @@ korsak,兽ᴷˢ,0,korsak,reverse-alias:20261121
 koendu,兽ᴷᴰ,0,koendu,1481
 kaguang,兽ᴷᴳ,0,kaguang,1496
 koal,兽ᴷᴸ,0,koal,1446
-karibu,兽ᴷᴿ,0,karibu,1480
+karibu,兽ᴷᴿ,0,karibu,reverse-alias:20261123
 kironekt,兽ᴷᵀ,0,kironekt,1501
 ljam,兽ᴸᴶ,0,ljam,1459
 lutreol,兽ᴸᴸ,0,lutreol,1497
@@ -4093,6 +4093,8 @@ latir,香豌豆,0,latir,6764
 hipopotam,马河ᴾ,0,hipopotam,9351
 hipogrif,马狮鹰,0,hipogrif,9347
 hipodrom,马道ᴰ,0,hipodrom,9343
+boac,驯鹿ᴮ,0,boac,4978
+karibu,驯鹿ᴷ,0,karibu,1480
 replik,驳ᴿᴾ,0,replik,5180
 empiri,验ᴱᴹ,0,empiri,1960
 empir,验ᴱᴾ,0,empir,1961
@@ -5410,6 +5412,7 @@ kaprimulg,夜鹰,0,kaprimulg,7912
 kvorum,够数,0,kvorum,7793
 majuskl,大ᴹ,0,majuskl,796
 versal,大ⱽ,0,versal,798
+universitat,大学,0,universitat,854
 sizigi,大潮,0,sizigi,7947
 fagot,大管,0,fagot,8494
 palt,大衣,0,palt,5263
@@ -5500,7 +5503,7 @@ prezerv,存ᴾ,0,prezerv,1869
 student,学ˢ,0,student,852
 ik,学ᴵ,0,ik,855
 nomi,学ᴺ,0,nomi,851
-universitat,学ᵁ,0,universitat,854
+universitat,学ᵁ,0,universitat,reverse-alias:20261123
 bakalaŭr,学士,0,bakalau^r,8361
 log,学家,0,log,181
 prefer,宁ᴾ,0,prefer,2766
@@ -8500,7 +8503,7 @@ gipaet,鹰ᴳ,0,gipaet,6102
 milv,鹰ᴹ,0,milv,6104
 niz,鹰ᴺ,0,niz,6099
 pandion,鹰ᴾ,0,pandion,6103
-boac,鹿ᴮ,0,boac,4978
+boac,鹿ᴮ,0,boac,reverse-alias:20261123
 dama,鹿ᴰ,0,dama,4976
 kapreol,鹿ᴷ,0,kapreol,4977
 tragol,鹿ᵀ,0,tragol,4979

@@ -1,5 +1,9 @@
 > **旧版の参考資料 / Historical reference**
 
+## 대학과 순록을 나타내는 표기
+
+신판에서 universitat는 ‘大学’, boac는 ‘驯鹿ᴮ’, karibu는 ‘驯鹿ᴷ’로 표기합니다. 식별자가 없는 ‘驯鹿’는 rangifer로 복원됩니다. 신판은 이전 표기 ‘学ᵁ’, ‘鹿ᴮ’, ‘兽ᴷᴿ’도 원래 어근으로 복원합니다.
+
 ## 无礼·超市·海牛·海象의 어근 표기
 
 impertinent＝**无礼** ／ supermarkt＝**超市** ／ manat＝**海牛** ／ dugong＝**海牛ᴰ** ／ rosmar＝**海象**

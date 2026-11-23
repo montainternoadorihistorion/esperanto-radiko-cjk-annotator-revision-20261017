@@ -1,3 +1,7 @@
+## 2026-11-23　大学与驯鹿的写法
+
+新版可将「大学o」「驯鹿ᴮo」「驯鹿ᴷo」分别还原为 universitato、boaco 和 karibuo。「驯鹿」仍对应 rangifer。此前使用的「学ᵁ」「鹿ᴮ」「兽ᴷᴿ」可在新旧两版中还原为原来的词根。遇到与复合词同形的「大学o」，新版在纯文本中优先采用 universitato。
+
 ## 2026-11-23　无礼、超市和三种海洋哺乳动物
 
 新版将「无礼a」「超市o」「海牛o」「海牛ᴰo」「海象o」分别还原为 impertinenta、supermarkto、manato、dugongo、rosmaro。原有的「放肆」「市ˢ」「兽ᴹᴬ」「兽ᴰᴳ」「海豹ᴿ」仍可还原为各自的词根。对与复合词同形的纯文本，新版优先采用独立词根。固定旧版仍将「海牛o」「海象o」还原为 marbovo、marelefanto。
