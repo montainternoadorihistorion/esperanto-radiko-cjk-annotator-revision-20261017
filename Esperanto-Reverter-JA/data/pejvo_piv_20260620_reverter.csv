@@ -1834,7 +1834,7 @@ bradip,兽ᴮᴿ,0,bradip,1513
 desmod,兽ᴰˢ,0,desmod,1475
 dazip,兽ᴰᴬ,0,dazip,1512
 dendrolag,兽ᴰᴰ,0,dendrolag,1506
-dugong,兽ᴰᴳ,0,dugong,1476
+dugong,兽ᴰᴳ,0,dugong,reverse-alias:20261123
 dazipod,兽ᴰᶻ,0,dazipod,1490
 ekidn,兽ᴱᴰ,0,ekidn,1466
 galeopitek,兽ᴳᴸ,0,galeopitek,1453
@@ -1854,7 +1854,7 @@ kironekt,兽ᴷᵀ,0,kironekt,1501
 ljam,兽ᴸᴶ,0,ljam,1459
 lutreol,兽ᴸᴸ,0,lutreol,1497
 marsupial,兽ᴹˢ,0,marsupial,1452
-manat,兽ᴹᴬ,0,manat,1449
+manat,兽ᴹᴬ,0,manat,reverse-alias:20261123
 megateri,兽ᴹᴳ,0,megateri,1502
 monodelf,兽ᴹᴺ,0,monodelf,1503
 marmoz,兽ᴹᴿ,0,marmoz,1483
@@ -2776,8 +2776,9 @@ fluometr,流计ᴹ,0,fluometr,9147
 plasmogami,浆配ᴳ,0,plasmogami,9871
 metri,测ᴹᵀ,0,metri,2030
 ukij,浮世绘,0,ukij,7946
+dugong,海牛ᴰ,0,dugong,1476
 otari,海狮ᴼ,0,otari,reverse-alias:20261123
-rosmar,海豹ᴿ,0,rosmar,6536
+rosmar,海豹ᴿ,0,rosmar,reverse-alias:20261123
 impregn,浸ᴵᴹ,0,impregn,4426
 marin,浸ᴹᴿ,0,marin,4423
 perkolat,浸ᴾ被,0,perkolat,9838
@@ -5621,7 +5622,7 @@ mamut,巨象,0,mamut,7964
 sklerot,巩膜,0,sklerot,8272
 egoist,己ᴱ,0,egoist,reverse-alias:20261115
 propr,己ᴾ,0,propr,725
-supermarkt,市ˢ,0,supermarkt,1385
+supermarkt,市ˢ,0,supermarkt,reverse-alias:20261123
 bors,市ᴮ,0,bors,1380
 merkat,市ᴹ,0,merkat,1383
 civit,市ᶜ,0,civit,1381
@@ -5991,7 +5992,7 @@ reformaci,改革,0,reformaci,8305
 ofensiv,攻ᴼ,0,ofensiv,2924
 razi,攻ᴿ,0,razi,2925
 emancip,放ᴱ,0,emancip,6613
-impertinent,放肆,0,impertinent,6534
+impertinent,放肆,0,impertinent,reverse-alias:20261123
 puĉ,政变,0,puc^,8474
 valid,效ⱽ,0,valid,2163
 rendiment,效率,0,rendiment,7531
@@ -6088,6 +6089,7 @@ neniam,无时,0,neniam,6
 neniel,无样,0,neniel,10
 aneroid,无液,0,aneroid,8179
 azo,无生,0,azo,8194
+impertinent,无礼,0,impertinent,6534
 inocent,无罪,0,inocent,8279
 neniom,无量,0,neniom,7
 diurn,日ᴰ,0,diurn,359
@@ -6542,6 +6544,7 @@ asteri,海星,0,asteri,8088
 aŭreli,海月,0,au^reli,8264
 salp,海桶,0,salp,8113
 procelari,海燕,0,procelari,7296
+manat,海牛,0,manat,1449
 otari,海狮,0,otari,1443
 pirat,海盗,0,pirat,6660
 spong,海绵,0,spong,5940
@@ -6549,6 +6552,7 @@ ekin,海胆,0,ekin,7081
 aktini,海葵,0,aktini,8352
 promontor,海角,0,promontor,8562
 delfen,海豚,0,delfen,8241
+rosmar,海象,0,rosmar,6536
 fok,海豹,0,fok,6535
 infiltr,浸ᴵ,0,infiltr,4425
 macer,浸ᴹ,0,macer,4422
@@ -7943,6 +7947,7 @@ ekvator,赤道,0,ekvator,5619
 kontraband,走私,0,kontraband,7057
 meta,超ᴹ,0,meta,6002
 transcend,超ᵀ,0,transcend,6003
+supermarkt,超市,0,supermarkt,1385
 ju,越ᴶ,0,ju,95
 ofsajd,越位,0,ofsajd,8670
 pland,足底,0,pland,5896
