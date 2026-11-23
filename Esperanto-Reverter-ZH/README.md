@@ -1,3 +1,7 @@
+## 2026-11-23　花粉、南美海狮和厚皮动物的新写法
+
+新版可将「花粉ᴾᴸo」「海狮ᴼo」「厚皮ᴾᴷo」还原为 poleno、otario、pakidermo。花粉学家、花粉学、花粉症的新版表记及原有六种写法也可还原。「花粉o」「海狮o」「厚皮ᴾo」仍分别对应 florfaruno、marleono、dikpelto。固定旧版中的「粉ᴾᴺo学家o」和「粉ᴾᴺo学ᴸᴳo」保留了连接元音，可分别还原为 polenologo 和 polenologio。
+
 ## 2026-11-23　雪豹和火烈鸟的新版写法
 
 新版可将「豹ᵁo」「火烈鸟ᶠᴱo」分别还原为 uncio、fenikoptero。新旧两版均可识别旧写法「兽ᵁᶜo」「鸟ᶠᴾo」。「火烈鸟o」仍为 flamengo，「雪豹o」「雪豹ᴸo」分别为 neĝpantero、neĝleopardo。

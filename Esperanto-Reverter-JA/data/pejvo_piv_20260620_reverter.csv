@@ -59,6 +59,7 @@ pubiotomi,耻骨ᴾᴵ切ᵀᴹ,0,pubiotomi,9932
 gastroskopi,胃ᴳ镜ˢᴷᴳᴵ,0,gastroskopi,9205
 aŭtobiografi,自ᴬ生ᴮᴼ志ᴳ,0,au^tobiografi,8864
 artritism,节ᴬᴿ炎ᵀ主义,0,artritism,8844
+polenologi,花粉ᴾᴸ学ᴸᴳ,0,polenologi,9888
 bangiofic,藻ᴮ藻ᶠᶜᴮᴼ,0,bangiofic,10374
 epidiaskop,表ᴱ通ᴰ镜ˢᴷ,0,epidiaskop,9092
 kondrektomi,软骨ᴷᴺ除ᴱᴷ,0,kondrektomi,9492
@@ -168,7 +169,7 @@ siliciid,硅ˢᴵ化ᴵᴰ,0,siliciid,10006
 neŭrom,神经ᴺᵁ̆瘤,0,neu^rom,9713
 neŭropter,神经ᴺᵁ̆翅,0,neu^ropter,9715
 semiologi,符ˢᴱ学ᴸᴳ,0,semiologi,9995
-polenologi,粉ᴾᴺ学ᴸᴳ,0,polenologi,9888
+polenologi,粉ᴾᴺ学ᴸᴳ,0,polenologi,reverse-alias:20261123
 granulocit,粒ᴳᴺ胞ᶜᴵ,0,granulocit,9256
 papirolog,纸草ᴾᴬ学家,0,papirolog,9809
 krimologi,罪ᴷᴿ学ᴸᴳ,0,krimologi,9515
@@ -189,6 +190,8 @@ kromofotografi,色ᴷᴹ拍志ᴳ,0,kromofotografi,9526
 kolorometri,色测ᴹᵀᴷᴼ,0,kolorometri,9487
 artrologi,节ᴬᴿ学ᴸᴳ,0,artrologi,8845
 artropod,节ᴬᴿ足ᴾᴼ,0,artropod,8846
+polenolog,花粉ᴾᴸ学家,0,polenolog,9887
+polenoz,花粉ᴾᴸ症ᴼ,0,polenoz,9889
 briofit,苔ᴮ植ᶠᴮᴼ,0,briofit,8925
 klematid,草ᴷᴸᴱᴹᴬ,0,klematid,2255
 micetologi,菌ᴹᶜ学ᴸᴳ,0,micetologi,8880
@@ -566,8 +569,8 @@ izopod,等ᴵ足ᴾᴼ,0,izopod,9419
 izocianat,等ᴵ青盐ᴬ,0,izocianat,9408
 tendenotomi,筋ᵀ切ᵀᴹ,0,tendenotomi,10095
 administrator,管ᴬ员ᴬᵀ,0,administrator,8713
-polenolog,粉ᴾᴺ学家,0,polenolog,9887
-polenoz,粉ᴾᴺ症ᴼ,0,polenoz,9889
+polenolog,粉ᴾᴺ学家,0,polenolog,reverse-alias:20261123
+polenoz,粉ᴾᴺ症ᴼ,0,polenoz,reverse-alias:20261123
 spermatocit,精ˢ胞ᶜᴵ,0,spermatocit,reverse-alias:20261018
 spermatocit,精子胞ᶜᴵ,0,spermatocit,10033
 spermogoni,精液源ᴳᴼ,0,spermogoni,10037
@@ -841,6 +844,7 @@ ovocit,卵胞ᶜᴵ,0,ovocit,9791
 barometr,压ᴮ计ᴹ,0,barometr,7993
 barograf,压ᴮ记ᴳ,0,barograf,8884
 tensimetr,压ᵀ计ᴹ,0,tensimetr,7994
+pakiderm,厚皮ᴾᴷ,0,pakiderm,1451
 prototip,原ᴾᵀ型,0,prototip,8831
 protoplasm,原ᴾᵀ浆,0,protoplasm,9918
 protopter,原ᴾᵀ翅,0,protopter,9919
@@ -1401,6 +1405,7 @@ eŭritm,良ᴱ律ᴿ,0,eu^ritm,9121
 kolormetri,色测ᴹᵀ,0,kolormetri,9486
 gangliit,节ᴳ炎ᵀ,0,gangliit,8843
 aŭrikul,花ᴬᵁ̆,0,au^rikul,1668
+polen,花粉ᴾᴸ,0,polen,3945
 briozo,苔ᴮ兽ᶻ,0,briozo,10422
 brifit,苔ᴮ植ᶠ,0,brifit,8924
 pomologi,苹学ᴸᴳ,0,pomologi,9907
@@ -1846,7 +1851,7 @@ okapi,兽ᴼᴷ,0,okapi,1470
 orcin,兽ᴼᴿ,0,orcin,reverse-alias:20261121
 orikterop,兽ᴼᵀ,0,orikterop,1507
 ocelot,兽ᴼᶜ,0,ocelot,1485
-pakiderm,兽ᴾᴷ,0,pakiderm,1451
+pakiderm,兽ᴾᴷ,0,pakiderm,reverse-alias:20261123
 pipistrel,兽ᴾᴾ,0,pipistrel,1508
 procion,兽ᴾᴿ,0,procion,1489
 pterop,兽ᴾᵀ,0,pterop,1486
@@ -2756,6 +2761,7 @@ fluometr,流计ᴹ,0,fluometr,9147
 plasmogami,浆配ᴳ,0,plasmogami,9871
 metri,测ᴹᵀ,0,metri,2030
 ukij,浮世绘,0,ukij,7946
+otari,海狮ᴼ,0,otari,1443
 rosmar,海豹ᴿ,0,rosmar,6536
 impregn,浸ᴵᴹ,0,impregn,4426
 marin,浸ᴹᴿ,0,marin,4423
@@ -3031,7 +3037,7 @@ kontener,箱ᴷᴺ,0,kontener,3063
 kofr,箱ᴷᶠ,0,kofr,3062
 kategori,类ᴷᵀ,0,kategori,4819
 pudr,粉ᴾᴰ,0,pudr,3944
-polen,粉ᴾᴺ,0,polen,3945
+polen,粉ᴾᴺ,0,polen,reverse-alias:20261123
 granul,粒ᴳᴺ,0,granul,211
 granol,粒ᴳᴼ,0,granol,214
 mukoz,粘症ᴼ,0,mukoz,9692
@@ -4782,7 +4788,7 @@ kiang,兽ᴷ,0,kiang,1468
 lutr,兽ᴸ,0,lutr,1442
 mirmekofag,兽ᴹ,0,mirmekofag,1444
 nazu,兽ᴺ,0,nazu,1460
-otari,兽ᴼ,0,otari,1443
+otari,兽ᴼ,0,otari,reverse-alias:20261123
 pudu,兽ᴾ,0,pudu,1461
 teri,兽ᵀ,0,teri,1456
 unaŭ,兽ᵁ,0,unau^,1462

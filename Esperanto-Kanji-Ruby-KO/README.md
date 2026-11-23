@@ -349,3 +349,5 @@ inteligent＝智ᴵᴳ, 다른 한자 배정, 학습 주석 및 어근 분해는
 신판에서는 korsak을 狐ᴷ, hematit를 赤铁矿, kolokazi를 芋, kolokasi를 芋ᴷˢ, orcin을 虎鲸ᴼᶜ, grosulari를 醋栗ᴳᴸ로 표기합니다. grosulariacoj는 어근 grosulari와 ac로 나뉘어 醋栗ᴳᴸ科ᴬoj로 변환됩니다.
 
 신판에서는 unci(눈표범)를 豹ᵁ, fenikopter(홍학)를 火烈鸟ᶠᴱ로 표기합니다. 표지 없는 火烈鸟는 동의어 flameng을 나타냅니다.
+
+신판에서는 polen(꽃가루)을 花粉ᴾᴸ, otari(남아메리카바다사자속)를 海狮ᴼ, pakiderm(옛 분류의 후피동물)을 厚皮ᴾᴷ로 표기합니다. 꽃가루학자, 꽃가루학, 꽃가루 알레르기를 나타내는 어근에도 花粉ᴾᴸ를 씁니다.

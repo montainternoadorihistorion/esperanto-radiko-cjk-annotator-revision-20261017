@@ -286,3 +286,5 @@ inteligent＝智ᴵᴳ、其他汉字分配、注释和词根分解保持不变�
 新版将 korsak 写作 狐ᴷ，hematit 写作 赤铁矿，kolokazi 写作 芋，kolokasi 写作 芋ᴷˢ，orcin 写作 虎鲸ᴼᶜ，grosulari 写作 醋栗ᴳᴸ。grosulariacoj 按 grosulari 和 ac 两个词根转换为 醋栗ᴳᴸ科ᴬoj。
 
 新版用 豹ᵁ 表示 unci（雪豹），用 火烈鸟ᶠᴱ 表示 fenikopter（火烈鸟）。不带标记的 火烈鸟 仍对应同义词 flameng。
+
+新版将 polen（花粉）写作 花粉ᴾᴸ，将 otari（南美海狮属）写作 海狮ᴼ，将旧分类中的 pakiderm（厚皮动物）写作 厚皮ᴾᴷ。花粉学家、花粉学、花粉症的词根也沿用 花粉ᴾᴸ。

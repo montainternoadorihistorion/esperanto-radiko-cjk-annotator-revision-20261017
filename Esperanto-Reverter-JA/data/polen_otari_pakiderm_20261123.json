@@ -1,0 +1,169 @@
+{
+  "revision": "polen-otari-pakiderm-20261123",
+  "changes": {
+    "polen": {
+      "old": "粉ᴾᴺ",
+      "current": "花粉ᴾᴸ"
+    },
+    "otari": {
+      "old": "兽ᴼ",
+      "current": "海狮ᴼ"
+    },
+    "pakiderm": {
+      "old": "兽ᴾᴷ",
+      "current": "厚皮ᴾᴷ"
+    },
+    "polenolog": {
+      "old": "粉ᴾᴺ学家",
+      "current": "花粉ᴾᴸ学家"
+    },
+    "polenologi": {
+      "old": "粉ᴾᴺ学ᴸᴳ",
+      "current": "花粉ᴾᴸ学ᴸᴳ"
+    },
+    "polenoz": {
+      "old": "粉ᴾᴺ症ᴼ",
+      "current": "花粉ᴾᴸ症ᴼ"
+    }
+  },
+  "safe_reverse_aliases": {
+    "粉ᴾᴺ": "polen",
+    "兽ᴼ": "otari",
+    "兽ᴾᴷ": "pakiderm",
+    "粉ᴾᴺ学家": "polenolog",
+    "粉ᴾᴺ学ᴸᴳ": "polenologi",
+    "粉ᴾᴺ症ᴼ": "polenoz"
+  },
+  "ownership_transfers": {},
+  "canonical_sidecar_sha256": "ddbe12c056172029de5b67b1e4775c933dfbd684430f3f6bc46c24414d74d70f",
+  "monaco_all_sha256": "621d7215f47bebe27589dbd7fecccecf222ea06349e40f44a8336dbe182ac9ab",
+  "baseline_current_csv_count": 10724,
+  "current_csv_count": 10730,
+  "rationale": "花粉 names pollen and keeps pollen science, specialists and pollinosis recognizable. 海狮 identifies a member of the sea lion family. 厚皮 reproduces Greek pakhys + derma while preserving the historical zoological sense. The identifiers preserve established readings of multi-root phrases.",
+  "group_counts": {
+    "粉ᴾᴺ学家": [
+      1,
+      0
+    ],
+    "花粉ᴾᴸ学家": [
+      0,
+      1
+    ],
+    "花粉": [
+      0,
+      1
+    ],
+    "厚皮": [
+      0,
+      1
+    ],
+    "海狮": [
+      0,
+      1
+    ],
+    "兽": [
+      74,
+      72
+    ],
+    "粉ᴾᴺ学ᴸᴳ": [
+      1,
+      0
+    ],
+    "粉": [
+      4,
+      3
+    ],
+    "粉ᴾᴺ症ᴼ": [
+      1,
+      0
+    ],
+    "花粉ᴾᴸ症ᴼ": [
+      0,
+      1
+    ],
+    "花粉ᴾᴸ学ᴸᴳ": [
+      0,
+      1
+    ]
+  },
+  "expected_target_items": {
+    "otari": {
+      "prefix": "otari",
+      "body": "海狮ᴼ",
+      "kanji": "海狮",
+      "detail": "otari → 海狮ᴼ (pejvo, F=1)",
+      "documentation": "語根: otari\n入力: otari\n最終形: 海狮ᴼ\n漢字: 海狮\n識別子: o\n型: pejvo\nF(汎用性): 1\nグループ数: 1\n基本形: no\n出典: _identifier_sidecar.tsv:1443",
+      "priority": 0,
+      "sourceRoot": "otari",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 1443
+    },
+    "pakiderm": {
+      "prefix": "pakiderm",
+      "body": "厚皮ᴾᴷ",
+      "kanji": "厚皮",
+      "detail": "pakiderm → 厚皮ᴾᴷ (pejvo, F=1)",
+      "documentation": "語根: pakiderm\n入力: pakiderm\n最終形: 厚皮ᴾᴷ\n漢字: 厚皮\n識別子: pk\n型: pejvo\nF(汎用性): 1\nグループ数: 1\n基本形: no\n出典: _identifier_sidecar.tsv:1451",
+      "priority": 0,
+      "sourceRoot": "pakiderm",
+      "type": "pejvo",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 1451
+    },
+    "polen": {
+      "prefix": "polen",
+      "body": "花粉ᴾᴸ",
+      "kanji": "花粉",
+      "detail": "polen → 花粉ᴾᴸ (pejvo, F=10)",
+      "documentation": "語根: polen\n入力: polen\n最終形: 花粉ᴾᴸ\n漢字: 花粉\n識別子: pl\n型: pejvo\nF(汎用性): 10\nグループ数: 1\n基本形: no\n出典: _identifier_sidecar.tsv:3945",
+      "priority": 0,
+      "sourceRoot": "polen",
+      "type": "pejvo",
+      "frequency": 10,
+      "base": false,
+      "sourceLine": 3945
+    },
+    "polenolog": {
+      "prefix": "polenolog",
+      "body": "花粉ᴾᴸ学家",
+      "kanji": "花粉ᴾᴸ学家",
+      "detail": "polenolog → 花粉ᴾᴸ学家 (piv, F=1, 基本形)",
+      "documentation": "語根: polenolog\n入力: polenolog\n最終形: 花粉ᴾᴸ学家\n漢字: 花粉ᴾᴸ学家\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9887",
+      "priority": 0,
+      "sourceRoot": "polenolog",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9887
+    },
+    "polenologi": {
+      "prefix": "polenologi",
+      "body": "花粉ᴾᴸ学ᴸᴳ",
+      "kanji": "花粉ᴾᴸ学ᴸᴳ",
+      "detail": "polenologi → 花粉ᴾᴸ学ᴸᴳ (piv, F=1, 基本形)",
+      "documentation": "語根: polenologi\n入力: polenologi\n最終形: 花粉ᴾᴸ学ᴸᴳ\n漢字: 花粉ᴾᴸ学ᴸᴳ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9888",
+      "priority": 0,
+      "sourceRoot": "polenologi",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9888
+    },
+    "polenoz": {
+      "prefix": "polenoz",
+      "body": "花粉ᴾᴸ症ᴼ",
+      "kanji": "花粉ᴾᴸ症ᴼ",
+      "detail": "polenoz → 花粉ᴾᴸ症ᴼ (piv, F=1, 基本形)",
+      "documentation": "語根: polenoz\n入力: polenoz\n最終形: 花粉ᴾᴸ症ᴼ\n漢字: 花粉ᴾᴸ症ᴼ\n識別子: なし\n型: piv\nF(汎用性): 1\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:9889",
+      "priority": 0,
+      "sourceRoot": "polenoz",
+      "type": "piv",
+      "frequency": 1,
+      "base": true,
+      "sourceLine": 9889
+    }
+  }
+}

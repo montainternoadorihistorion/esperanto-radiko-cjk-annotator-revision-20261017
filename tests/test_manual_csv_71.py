@@ -140,6 +140,12 @@ LATER_CURRENT_ASSIGNMENTS = {
     'grosulari': ('木ᴳˢ', '醋栗ᴳᴸ'),
     'unci': ('兽ᵁᶜ', '豹ᵁ'),
     'fenikopter': ('鸟ᶠᴾ', '火烈鸟ᶠᴱ'),
+    'polen': ('粉ᴾᴺ', '花粉ᴾᴸ'),
+    'otari': ('兽ᴼ', '海狮ᴼ'),
+    'pakiderm': ('兽ᴾᴷ', '厚皮ᴾᴷ'),
+    'polenolog': ('粉ᴾᴺ学家', '花粉ᴾᴸ学家'),
+    'polenologi': ('粉ᴾᴺ学ᴸᴳ', '花粉ᴾᴸ学ᴸᴳ'),
+    'polenoz': ('粉ᴾᴺ症ᴼ', '花粉ᴾᴸ症ᴼ'),
 }
 
 def historical_current_bytes(raw):

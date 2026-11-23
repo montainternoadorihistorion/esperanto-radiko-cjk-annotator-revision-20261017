@@ -448,3 +448,5 @@ inteligent＝智ᴵᴳ、ほかの漢字割り当て、注釈、語根分解は�
 新版では korsak を 狐ᴷ、hematit を 赤铁矿、kolokazi を 芋、kolokasi を 芋ᴷˢ、orcin を 虎鲸ᴼᶜ、grosulari を 醋栗ᴳᴸ と表記します。grosulariacoj は grosulari と ac に分かれ、醋栗ᴳᴸ科ᴬoj になります。
 
 新版では unci（ユキヒョウ）を 豹ᵁ、fenikopter（フラミンゴ）を 火烈鸟ᶠᴱ と表記します。無印の 火烈鸟 は同義語 flameng の表記です。
+
+新版では polen（花粉）を 花粉ᴾᴸ、otari（南米のオタリア属）を 海狮ᴼ、pakiderm（旧分類の厚皮動物）を 厚皮ᴾᴷ と表記します。花粉学者・花粉学・花粉症の表記にも 花粉ᴾᴸ を使います。
