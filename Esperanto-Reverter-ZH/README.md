@@ -1,3 +1,7 @@
+## 2026-11-24　药店的还原
+
+新版将「药店o」还原为 apoteko。旧写法「药ᴬo」也可还原为 apoteko。「药o」对应 medikamento（药物），「药ᴬᴺo」对应 antero（花药）。固定旧版仍将「药店o」还原为 medikamentbutiko。
+
 ## 2026-11-23　大学与驯鹿的写法
 
 新版可将「大学o」「驯鹿ᴮo」「驯鹿ᴷo」分别还原为 universitato、boaco 和 karibuo。「驯鹿」仍对应 rangifer。此前使用的「学ᵁ」「鹿ᴮ」「兽ᴷᴿ」可在新旧两版中还原为原来的词根。遇到与复合词同形的「大学o」，新版在纯文本中优先采用 universitato。

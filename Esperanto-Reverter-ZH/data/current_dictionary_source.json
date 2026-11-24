@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "university-reindeer-20261123",
+  "revision": "apotek-20261124",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "bd26fcb710adb16ce05a1c16c144936b5e1eb2397949ce4646919dc8d1b42217",
+  "monaco_all_sha256": "d5cd6b564a101d0764d82e8ab45ffedfa66f93a47d8a24134fe36277a298568e",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "d35e8cc866bf09aa2bcdbfd8ede5d5bfb0e161518b504f34d1d937dcdbc517b5",
+  "canonical_sidecar_sha256": "9e0a12e429fbb09e3b76756225cf8cd6cfe2c7835e1945915d4a223e5b99862b",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -800,10 +800,14 @@
     "karibu": {
       "old": "兽ᴷᴿ",
       "current": "驯鹿ᴷ"
+    },
+    "apotek": {
+      "old": "药ᴬ",
+      "current": "药店"
     }
   },
-  "current_csv_sha256": "c1d4112c09bb8bf39f1440b63db516e7be75ae4ee68bddb0eea34833ba4ec345",
-  "current_snippet_csv_sha256": "0f83b174e38e85e104357e56b860066dafd2b06bff9a1eb79a7ecfe68a6e286d",
+  "current_csv_sha256": "8192ae0c89ce9e2085c099bb35ca34540d223119523a468769e465f5b79109ca",
+  "current_snippet_csv_sha256": "e8bb219cc094718593df31b52a789213f0354295c068c5e75b86b29005f0f8ef",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -918,13 +922,14 @@
     "海豹ᴿ": "rosmar",
     "学ᵁ": "universitat",
     "鹿ᴮ": "boac",
-    "兽ᴷᴿ": "karibu"
+    "兽ᴷᴿ": "karibu",
+    "药ᴬ": "apotek"
   },
   "mirror_identifier_manifest": "data/mirror-identifiers-20261017.json",
   "mirror_identifier_manifest_sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
   "pre_mirror_csv_sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
   "current_item_count": 10640,
-  "current_csv_count": 10760,
+  "current_csv_count": 10761,
   "stafilokok_assignment_manifest": "data/stafilokok-assignment-20261017.json",
   "stafilokok_assignment_manifest_sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
   "four_shared_assignment_manifest": "data/four-shared-assignments-20261017.json",
@@ -1132,5 +1137,7 @@
   "impertinent_supermarkt_20261123_manifest": "data/impertinent_supermarkt_20261123.json",
   "impertinent_supermarkt_20261123_manifest_sha256": "0db4281ad4be8953264d5a663e453475a91a8de0e118f1d02c12e4aa4f2df34f",
   "university_reindeer_20261123_manifest": "data/university_reindeer_20261123.json",
-  "university_reindeer_20261123_manifest_sha256": "78a8a20c8ea17487a003e3e0e48e04921c3acfafa16717ac6d55f04b65333719"
+  "university_reindeer_20261123_manifest_sha256": "78a8a20c8ea17487a003e3e0e48e04921c3acfafa16717ac6d55f04b65333719",
+  "apotek_20261124_manifest": "data/apotek_20261124.json",
+  "apotek_20261124_manifest_sha256": "5cf84547092c5ade1dc67d02798b943682bdf19f30ad7c378d197c956f0b3cd3"
 }
