@@ -7545,10 +7545,11 @@ fluktu,荡ᶠ,0,fluktu,5406
 vagomani,荡狂,0,vagomani,10187
 prosper,荣ᴾ,0,prosper,4110
 fluoresk,荧光,0,fluoresk,6648
-apotek,药ᴬ,0,apotek,4199
+apotek,药ᴬ,0,apotek,reverse-alias:20261124
 drog,药ᴰ,0,drog,4200
 oficin,药ᴼ,0,oficin,4201
 farmak,药ᶠ,0,farmak,4202
+apotek,药店,0,apotek,4199
 kolocint,药瓜,0,kolocint,8213
 nelumb,莲ᴺ,0,nelumb,5873
 gajn,获ᴳ,0,gajn,2021

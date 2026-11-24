@@ -1,0 +1,29 @@
+{
+  "revision": "apotek-20261124",
+  "changes": {
+    "apotek": {
+      "old": "药ᴬ",
+      "current": "药店"
+    }
+  },
+  "group_counts": {
+    "药": [
+      7,
+      6
+    ],
+    "药店": [
+      0,
+      1
+    ]
+  },
+  "safe_reverse_aliases": {
+    "药ᴬ": "apotek"
+  },
+  "canonical_sidecar_sha256": "9e0a12e429fbb09e3b76756225cf8cd6cfe2c7835e1945915d4a223e5b99862b",
+  "baseline_monaco_sha256": "bd26fcb710adb16ce05a1c16c144936b5e1eb2397949ce4646919dc8d1b42217",
+  "current_monaco_sha256": "d5cd6b564a101d0764d82e8ab45ffedfa66f93a47d8a24134fe36277a298568e",
+  "current_items": 10640,
+  "unchanged_assignment_count": 10639,
+  "group_count_documentation_changes": 6,
+  "rationale": "药店 identifies the pharmacy where medicines are prepared or sold. 店 is already used by butik. The previous 药ᴬ still restores apotek and the longer 药ᴬᴺ still restores anter."
+}

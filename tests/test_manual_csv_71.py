@@ -154,6 +154,7 @@ LATER_CURRENT_ASSIGNMENTS = {
     'universitat': ('学ᵁ', '大学'),
     'boac': ('鹿ᴮ', '驯鹿ᴮ'),
     'karibu': ('兽ᴷᴿ', '驯鹿ᴷ'),
+    'apotek': ('药ᴬ', '药店'),
     'tripanosom': ('原兽ᵀ', '原兽'),
     'deism': ('神主义ᴰ', '神主义'),
     'deist': ('神家ᴰ', '神家'),
