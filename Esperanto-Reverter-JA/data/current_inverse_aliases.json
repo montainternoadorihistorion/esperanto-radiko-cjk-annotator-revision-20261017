@@ -2,8 +2,8 @@
   "schema_version": 1,
   "revision": "current-compound-inverse-20261018-v3",
   "source_id": "pejvo-piv-20260620",
-  "dictionary_revision": "apotek-20261124",
-  "current_csv_sha256": "8192ae0c89ce9e2085c099bb35ca34540d223119523a468769e465f5b79109ca",
+  "dictionary_revision": "banjan-farmaci-20261124",
+  "current_csv_sha256": "fddaf65154d27a8729c0817d5b66e97f80066877f45d9e0b1f677d3501cd2eb4",
   "required_canonical_owner": {
     "kanji": "丸ᴼ炎ᵀ",
     "esperanto": "orkidit"

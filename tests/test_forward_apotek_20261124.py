@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ROOTS = {
     "apotek": ("药ᴬ", "药店"),
-    "medikament": ("药", "药"), "farmaci": ("药ᶠᶜ", "药ᶠᶜ"),
+    "medikament": ("药", "药"), "farmaci": ("药ᶠᶜ", "药学"),
     "drog": ("药ᴰ", "药ᴰ"), "butik": ("店", "店"),
 }
 RUBY = re.compile(r"<ruby>(.*?)<rt[^>]*>(.*?)</rt></ruby>", re.S)

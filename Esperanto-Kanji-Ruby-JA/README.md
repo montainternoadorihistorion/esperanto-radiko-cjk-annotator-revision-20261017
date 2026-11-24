@@ -1,5 +1,9 @@
 > **旧版の参考資料 / Historical reference**
 
+## 5語根の新版表記
+
+ベンガルボダイジュ `banjan＝榕ᴮ`、鼻炎 `koriz＝鼻炎`、速さの単位ノット `knot＝节ᴷ`、薬学 `farmaci＝药学`、根絶する `eksterm＝灭ᴱᴷ` を使います。`药学o` は新版で `farmacio`、固定旧版で `farmakologio` に戻ります。
+
 ## 薬局の表記
 
 新版では apotek（薬局）を「药店」と書きます。旧表記「药ᴬ」でも apotek に戻せます。固定旧版の表記は「药ᴬ」です。

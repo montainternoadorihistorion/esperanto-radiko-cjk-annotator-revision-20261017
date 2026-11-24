@@ -2459,7 +2459,7 @@ budle,木ᴮᴰ,0,budle,419
 bignoni,木ᴮᴳ,0,bignoni,458
 biks,木ᴮᴷ,0,biks,403
 bold,木ᴮᴸ,0,bold,404
-banjan,木ᴮᴺ,0,banjan,438
+banjan,木ᴮᴺ,0,banjan,reverse-alias:20261124
 brusoneti,木ᴮᴼ,0,brusoneti,597
 bertoleti,木ᴮᴿ,0,bertoleti,595
 balat,木ᴮᵀ,0,balat,418
@@ -2811,6 +2811,7 @@ piroteknik,火ᴾ技,0,piroteknik,10322
 piroelektr,火ᴾ电,0,piroelektr,9856
 piromagnet,火ᴾ磁,0,piromagnet,9859
 flameng,火烈鸟,0,flameng,8372
+eksterm,灭ᴱᴷ,0,eksterm,6280
 lantern,灯ᴸᴺ,0,lantern,5858
 lucern,灯ᴸᶜ,0,lucern,3078
 spiritual,灵ˢᴸ,0,spiritual,2818
@@ -2818,7 +2819,7 @@ cibet,灵猫香,0,cibet,8393
 kataklism,灾ᴷᴷ,0,kataklism,4814
 kalorifer,炉ᴷᴸ,0,kalorifer,3831
 fornel,炉ᶠᴸ,0,fornel,3833
-koriz,炎ᴷᴿ,0,koriz,3990
+koriz,炎ᴷᴿ,0,koriz,reverse-alias:20261124
 poent,点ᴾᵀ,0,poent,1314
 cigar,烟ᶜᴵ,0,cigar,3003
 karbonar,烧炭党,0,karbonar,8102
@@ -3093,7 +3094,7 @@ bibliografi,经志ᴳ,0,bibliografi,8897
 bibliofil,经爱ᶠ,0,bibliofil,8894
 bibliograf,经记ᴳ,0,bibliograf,8896
 komisur,结ᴷᴹ,0,komisur,1783
-knot,结ᴷᵀ,0,knot,1784
+knot,结ᴷᵀ,0,knot,reverse-alias:20261124
 ligatur,结ᴸᵀ,0,ligatur,8432
 skrofol,结核ˢ,0,skrofol,6794
 tuberkulin,结核素,0,tuberkulin,6987
@@ -3486,7 +3487,7 @@ preri,草原ᴾ,0,preri,6786
 razen,草坪ᴿ,0,razen,7623
 vagabond,荡ⱽᴮ,0,vagabond,5408
 anter,药ᴬᴺ,0,anter,4204
-farmaci,药ᶠᶜ,0,farmaci,4203
+farmaci,药ᶠᶜ,0,farmaci,reverse-alias:20261124
 rubekol,莺ᴿᴮ,0,rubekol,7304
 silib,菊ˢᴮ,0,silib,5072
 skorzoner,菊ˢᴷ,0,skorzoner,5062
@@ -6371,6 +6372,7 @@ koncept,概ᴷ,0,koncept,4697
 noci,概ᴺ,0,noci,4700
 resum,概ᴿ,0,resum,4698
 sikomor,榕ˢ,0,sikomor,7790
+banjan,榕ᴮ,0,banjan,438
 punik,榴ᴾ,0,punik,6899
 grenat,榴石,0,grenat,7680
 limin,槛ᴸ,0,limin,4386
@@ -7463,6 +7465,7 @@ estragon,艾ᴱ,0,estragon,6851
 silab,节ˢ,0,silab,5199
 artik,节ᴬ,0,artik,5200
 gangli,节ᴳ,0,gangli,5203
+knot,节ᴷ,0,knot,1784
 mang,芒果,0,mang,7485
 sezam,芝麻,0,sezam,7129
 sinap,芥ˢ,0,sinap,5132
@@ -7549,6 +7552,7 @@ apotek,药ᴬ,0,apotek,reverse-alias:20261124
 drog,药ᴰ,0,drog,4200
 oficin,药ᴼ,0,oficin,4201
 farmak,药ᶠ,0,farmak,4202
+farmaci,药学,0,farmaci,4203
 apotek,药店,0,apotek,4199
 kolocint,药瓜,0,kolocint,8213
 nelumb,莲ᴺ,0,nelumb,5873
@@ -8551,6 +8555,7 @@ fur,鼠ᶠ,0,fur,4601
 zibel,鼠ᶻ,0,zibel,4596
 vizon,鼠ⱽ,0,vizon,4594
 rin,鼻ᴿ,0,rin,1794
+koriz,鼻炎,0,koriz,3990
 salv,齐射,0,salv,8638
 kanin,齿ᴷ,0,kanin,1529
 dentin,齿质,0,dentin,7849
@@ -9661,7 +9666,7 @@ paŝ,步,0,paŝ,2047
 arm,武,0,arm,2921
 diskriminaci,歧,0,diskriminaci,4517
 mort,死,0,mort,875
-eksterm,歼,0,eksterm,6280
+eksterm,歼,0,eksterm,reverse-alias:20261124
 martir,殉,0,martir,6556
 kruel,残,0,kruel,4553
 koloni,殖,0,koloni,4830
