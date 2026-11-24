@@ -56,7 +56,7 @@ def test_html_recorded_source_and_edition_are_preserved(edition,mode):
 
 def test_current_revision_no_ownership_transfer_or_extra_edition():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
-    assert source['revision']=='banjan-farmaci-20261124'
-    assert source['current_item_count']==10640 and source['current_csv_count']==10766
+    assert source['revision']=='kari-tenis-20261124'
+    assert source['current_item_count']==10640 and source['current_csv_count']==10771
     assert source['reverse_only_aliases']['聪']=='inteligent'
     assert all(key not in source['ownership_transfers'] for key in ('智','智ᴵ','智ᴵᴳ','聪','淹'))

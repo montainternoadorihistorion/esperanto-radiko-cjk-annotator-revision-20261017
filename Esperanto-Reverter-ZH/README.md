@@ -1,3 +1,7 @@
+## 2026-11-24　虫牙・纸板・犬齿・短歌・网球
+
+新版将「虫牙o」「纸板o」「犬齿o」「短歌o」「网球o」依次还原为 kario、kartono、kanino、tankao、teniso。旧写法「蛀牙」「板ᴷ」「齿ᴷ」「歌ᵀ」「网ᵀ」也可以还原为同一组词根。固定旧版保留原来的读法，例如「犬齿o」还原为 hunddento，新版还原为 kanino。
+
 ## 2026-11-24　榕、鼻炎、节、药学及灭的还原
 
 新版将「榕ᴮo」「鼻炎o」「节ᴷo」「药学o」「灭ᴱᴷi」分别还原为 banjano、korizo、knoto、farmacio、ekstermi。旧写法「木ᴮᴺ」「炎ᴷᴿ」「结ᴷᵀ」「药ᶠᶜ」「歼」也可以还原。「鼻ᴿ炎ᵀo」仍对应 rinito，「结ᴺo」对应 nodo，「灭i」对应 estingi。固定旧版将「鼻炎o」还原为 rinito，将「药学o」还原为 farmakologio。

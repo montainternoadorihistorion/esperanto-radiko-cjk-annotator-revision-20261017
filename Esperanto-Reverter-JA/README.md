@@ -1,3 +1,7 @@
+## 2026-11-24　虫牙・纸板・犬齿・短歌・网球
+
+新版では「虫牙o」「纸板o」「犬齿o」「短歌o」「网球o」を順に kario、kartono、kanino、tankao、teniso と読みます。旧表記「蛀牙」「板ᴷ」「齿ᴷ」「歌ᵀ」「网ᵀ」も同じ語根に戻せます。固定旧版は従来の読みを保ちます。たとえば「犬齿o」は固定旧版で hunddento、新版で kanino です。
+
 ## 2026-11-24　榕・鼻炎・ノット・薬学・根絶の読み
 
 新版では「榕ᴮo」「鼻炎o」「节ᴷo」「药学o」「灭ᴱᴷi」を banjano、korizo、knoto、farmacio、ekstermi と読みます。旧表記「木ᴮᴺ」「炎ᴷᴿ」「结ᴷᵀ」「药ᶠᶜ」「歼」も復元できます。「鼻ᴿ炎ᵀo」は rinito、「结ᴺo」は nodo、「灭i」は estingi です。固定旧版は「鼻炎o」を rinito、「药学o」を farmakologio と読みます。

@@ -1,5 +1,9 @@
 > **旧版の参考資料 / Historical reference**
 
+## 虫歯・板紙・犬歯・短歌・テニスの新版表記
+
+新版では `kari＝虫牙`、`karton＝纸板`、`kanin＝犬齿`、`tanka＝短歌`、`tenis＝网球` を使います。`poŝtkarton`（はがきを）の `kart＋on` と `Li tenis la libron.`（彼は本を持っていた）の `ten＋is` は従来どおりです。`犬齿o` と `网球o` は新版では `kanino` と `teniso`、固定旧版では `hunddento` と `retpilko` に戻ります。
+
 ## 5語根の新版表記
 
 ベンガルボダイジュ `banjan＝榕ᴮ`、鼻炎 `koriz＝鼻炎`、速さの単位ノット `knot＝节ᴷ`、薬学 `farmaci＝药学`、根絶する `eksterm＝灭ᴱᴷ` を使います。`药学o` は新版で `farmacio`、固定旧版で `farmakologio` に戻ります。
