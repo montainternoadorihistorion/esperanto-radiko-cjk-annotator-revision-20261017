@@ -1,5 +1,9 @@
 > **旧版の参考資料 / Historical reference**
 
+## 五个词根的新版写法
+
+新版使用 `banjan＝榕ᴮ`（孟加拉榕）、`koriz＝鼻炎`、`knot＝节ᴷ`（航速单位）、`farmaci＝药学` 和 `eksterm＝灭ᴱᴷ`（根除）。`药学o` 在新版还原为 `farmacio`，在固定旧版还原为 `farmakologio`。
+
 ## 药店的词根写法
 
 新版将 apotek（药店、药房）写作“药店”。旧写法“药ᴬ”也能还原为 apotek。固定旧版使用“药ᴬ”。

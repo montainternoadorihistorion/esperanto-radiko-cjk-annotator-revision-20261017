@@ -1,0 +1,81 @@
+{
+  "revision": "banjan-farmaci-20261124",
+  "changes": {
+    "banjan": {
+      "old": "木ᴮᴺ",
+      "current": "榕ᴮ"
+    },
+    "koriz": {
+      "old": "炎ᴷᴿ",
+      "current": "鼻炎"
+    },
+    "knot": {
+      "old": "结ᴷᵀ",
+      "current": "节ᴷ"
+    },
+    "farmaci": {
+      "old": "药ᶠᶜ",
+      "current": "药学"
+    },
+    "eksterm": {
+      "old": "歼",
+      "current": "灭ᴱᴷ"
+    }
+  },
+  "group_counts": {
+    "木": [
+      266,
+      265
+    ],
+    "榕": [
+      2,
+      3
+    ],
+    "歼": [
+      1,
+      0
+    ],
+    "灭": [
+      1,
+      2
+    ],
+    "炎": [
+      3,
+      2
+    ],
+    "结": [
+      8,
+      7
+    ],
+    "节": [
+      8,
+      9
+    ],
+    "药": [
+      6,
+      5
+    ],
+    "药学": [
+      0,
+      1
+    ],
+    "鼻炎": [
+      0,
+      1
+    ]
+  },
+  "safe_reverse_aliases": {
+    "木ᴮᴺ": "banjan",
+    "炎ᴷᴿ": "koriz",
+    "结ᴷᵀ": "knot",
+    "药ᶠᶜ": "farmaci",
+    "歼": "eksterm"
+  },
+  "canonical_sidecar_sha256": "6715fc64a80f99c54c7271de7c222c2767cc6da223f65631b1f1aceb2bdccf2e",
+  "baseline_monaco_sha256": "d5cd6b564a101d0764d82e8ab45ffedfa66f93a47d8a24134fe36277a298568e",
+  "current_monaco_sha256": "3a43e64c3ce05d68d71364efdf46a34261909ccc786ad8d24ad1e932428beb1f",
+  "current_items": 10640,
+  "unchanged_assignment_count": 10635,
+  "group_count_documentation_changes": 290,
+  "rationale": "Reviewed the two plant and disease spellings and three discipline, speed and eradication spellings. Every old independent key remains readable in the current edition; fixed legacy retains its own readings."
+}

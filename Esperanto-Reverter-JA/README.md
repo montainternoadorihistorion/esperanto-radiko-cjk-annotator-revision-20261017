@@ -1,3 +1,7 @@
+## 2026-11-24　榕・鼻炎・ノット・薬学・根絶の読み
+
+新版では「榕ᴮo」「鼻炎o」「节ᴷo」「药学o」「灭ᴱᴷi」を banjano、korizo、knoto、farmacio、ekstermi と読みます。旧表記「木ᴮᴺ」「炎ᴷᴿ」「结ᴷᵀ」「药ᶠᶜ」「歼」も復元できます。「鼻ᴿ炎ᵀo」は rinito、「结ᴺo」は nodo、「灭i」は estingi です。固定旧版は「鼻炎o」を rinito、「药学o」を farmakologio と読みます。
+
 ## 2026-11-24　薬局の読み
 
 新版では「药店o」を apoteko（薬局）に戻します。旧表記「药ᴬo」も apoteko と読めます。「药o」は medikamento（薬）、「药ᴬᴺo」は antero（葯）です。固定旧版では「药店o」を従来どおり medikamentbutiko と読みます。

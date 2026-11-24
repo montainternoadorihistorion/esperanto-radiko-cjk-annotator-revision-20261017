@@ -1,3 +1,7 @@
+## 2026-11-24　榕、鼻炎、节、药学及灭的还原
+
+新版将「榕ᴮo」「鼻炎o」「节ᴷo」「药学o」「灭ᴱᴷi」分别还原为 banjano、korizo、knoto、farmacio、ekstermi。旧写法「木ᴮᴺ」「炎ᴷᴿ」「结ᴷᵀ」「药ᶠᶜ」「歼」也可以还原。「鼻ᴿ炎ᵀo」仍对应 rinito，「结ᴺo」对应 nodo，「灭i」对应 estingi。固定旧版将「鼻炎o」还原为 rinito，将「药学o」还原为 farmakologio。
+
 ## 2026-11-24　药店的还原
 
 新版将「药店o」还原为 apoteko。旧写法「药ᴬo」也可还原为 apoteko。「药o」对应 medikamento（药物），「药ᴬᴺo」对应 antero（花药）。固定旧版仍将「药店o」还原为 medikamentbutiko。
