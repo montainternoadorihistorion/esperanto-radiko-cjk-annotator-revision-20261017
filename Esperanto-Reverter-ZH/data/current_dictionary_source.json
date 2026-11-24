@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "banjan-farmaci-20261124",
+  "revision": "kari-tenis-20261124",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "3a43e64c3ce05d68d71364efdf46a34261909ccc786ad8d24ad1e932428beb1f",
+  "monaco_all_sha256": "52e2ec450327fb5d7fafa30214252b00bd91a375de1b3258fe06fe6927ea307e",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "6715fc64a80f99c54c7271de7c222c2767cc6da223f65631b1f1aceb2bdccf2e",
+  "canonical_sidecar_sha256": "7848aa71561d6e49f63c5841a54293489cf2ca2c7850bb0a0c8bee1000aef7a0",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -824,10 +824,30 @@
     "eksterm": {
       "old": "歼",
       "current": "灭ᴱᴷ"
+    },
+    "kari": {
+      "old": "蛀牙",
+      "current": "虫牙"
+    },
+    "karton": {
+      "old": "板ᴷ",
+      "current": "纸板"
+    },
+    "kanin": {
+      "old": "齿ᴷ",
+      "current": "犬齿"
+    },
+    "tanka": {
+      "old": "歌ᵀ",
+      "current": "短歌"
+    },
+    "tenis": {
+      "old": "网ᵀ",
+      "current": "网球"
     }
   },
-  "current_csv_sha256": "fddaf65154d27a8729c0817d5b66e97f80066877f45d9e0b1f677d3501cd2eb4",
-  "current_snippet_csv_sha256": "e2d673db9276905bd53a0753e5d78a02c6f8a3854006f4ad5536daf5ac4b0f8c",
+  "current_csv_sha256": "4916867f9b76578d13b6c85eecaaf7391851af29c727dfdeaba75ab1d6dd347e",
+  "current_snippet_csv_sha256": "c9fffde131a7d592b846d54f942fd6f40c4ee7c08bd9145de0ddc47821cff95c",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -948,13 +968,18 @@
     "炎ᴷᴿ": "koriz",
     "结ᴷᵀ": "knot",
     "药ᶠᶜ": "farmaci",
-    "歼": "eksterm"
+    "歼": "eksterm",
+    "蛀牙": "kari",
+    "板ᴷ": "karton",
+    "齿ᴷ": "kanin",
+    "歌ᵀ": "tanka",
+    "网ᵀ": "tenis"
   },
   "mirror_identifier_manifest": "data/mirror-identifiers-20261017.json",
   "mirror_identifier_manifest_sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
   "pre_mirror_csv_sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
   "current_item_count": 10640,
-  "current_csv_count": 10766,
+  "current_csv_count": 10771,
   "stafilokok_assignment_manifest": "data/stafilokok-assignment-20261017.json",
   "stafilokok_assignment_manifest_sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
   "four_shared_assignment_manifest": "data/four-shared-assignments-20261017.json",
@@ -1166,5 +1191,7 @@
   "apotek_20261124_manifest": "data/apotek_20261124.json",
   "apotek_20261124_manifest_sha256": "5cf84547092c5ade1dc67d02798b943682bdf19f30ad7c378d197c956f0b3cd3",
   "banjan_farmaci_20261124_manifest": "data/banjan_farmaci_20261124.json",
-  "banjan_farmaci_20261124_manifest_sha256": "3b45b68920fbc58f0ffae41628144a0c88e91fd622c5c1a228cb4db4872c1641"
+  "banjan_farmaci_20261124_manifest_sha256": "3b45b68920fbc58f0ffae41628144a0c88e91fd622c5c1a228cb4db4872c1641",
+  "kari_tenis_20261124_manifest": "data/kari_tenis_20261124.json",
+  "kari_tenis_20261124_manifest_sha256": "81c932a2212e6132b1b32bf575fbd1fb46563bb31dc5f7b6a809079620953780"
 }

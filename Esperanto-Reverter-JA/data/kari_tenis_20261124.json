@@ -1,0 +1,81 @@
+{
+  "revision": "kari-tenis-20261124",
+  "changes": {
+    "kari": {
+      "old": "蛀牙",
+      "current": "虫牙"
+    },
+    "karton": {
+      "old": "板ᴷ",
+      "current": "纸板"
+    },
+    "kanin": {
+      "old": "齿ᴷ",
+      "current": "犬齿"
+    },
+    "tanka": {
+      "old": "歌ᵀ",
+      "current": "短歌"
+    },
+    "tenis": {
+      "old": "网ᵀ",
+      "current": "网球"
+    }
+  },
+  "group_counts": {
+    "板": [
+      8,
+      7
+    ],
+    "歌": [
+      2,
+      1
+    ],
+    "犬齿": [
+      0,
+      1
+    ],
+    "短歌": [
+      0,
+      1
+    ],
+    "纸板": [
+      0,
+      1
+    ],
+    "网": [
+      3,
+      2
+    ],
+    "网球": [
+      0,
+      1
+    ],
+    "虫牙": [
+      0,
+      1
+    ],
+    "蛀牙": [
+      1,
+      0
+    ],
+    "齿": [
+      3,
+      2
+    ]
+  },
+  "safe_reverse_aliases": {
+    "蛀牙": "kari",
+    "板ᴷ": "karton",
+    "齿ᴷ": "kanin",
+    "歌ᵀ": "tanka",
+    "网ᵀ": "tenis"
+  },
+  "canonical_sidecar_sha256": "7848aa71561d6e49f63c5841a54293489cf2ca2c7850bb0a0c8bee1000aef7a0",
+  "baseline_monaco_sha256": "3a43e64c3ce05d68d71364efdf46a34261909ccc786ad8d24ad1e932428beb1f",
+  "current_monaco_sha256": "52e2ec450327fb5d7fafa30214252b00bd91a375de1b3258fe06fe6927ea307e",
+  "current_items": 10640,
+  "unchanged_assignment_count": 10635,
+  "group_count_documentation_changes": 12,
+  "rationale": "Reviewed spellings for decay, cardboard, the canine tooth, tanka poetry, and tennis. Every old independent key remains readable in the current edition; fixed legacy retains its own readings."
+}

@@ -1,5 +1,9 @@
 > **旧版の参考資料 / Historical reference**
 
+## 虫牙、纸板、犬齿、短歌和网球的新版写法
+
+新版使用 `kari＝虫牙`、`karton＝纸板`、`kanin＝犬齿`、`tanka＝短歌` 和 `tenis＝网球`。`poŝtkarton`（明信片的宾格）中的 `kart＋on` 和 `Li tenis la libron.`（他拿着那本书）中的 `ten＋is` 仍按原方式拆分。`犬齿o`、`网球o` 在新版分别还原为 `kanino`、`teniso`，在固定旧版分别还原为 `hunddento`、`retpilko`。
+
 ## 五个词根的新版写法
 
 新版使用 `banjan＝榕ᴮ`（孟加拉榕）、`koriz＝鼻炎`、`knot＝节ᴷ`（航速单位）、`farmaci＝药学` 和 `eksterm＝灭ᴱᴷ`（根除）。`药学o` 在新版还原为 `farmacio`，在固定旧版还原为 `farmakologio`。

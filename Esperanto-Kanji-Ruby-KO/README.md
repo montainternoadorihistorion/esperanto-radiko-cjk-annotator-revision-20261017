@@ -1,5 +1,9 @@
 > **旧版の参考資料 / Historical reference**
 
+## 충치·판지·송곳니·단카·테니스의 새 표기
+
+새 버전에서는 `kari＝虫牙`, `karton＝纸板`, `kanin＝犬齿`, `tanka＝短歌`, `tenis＝网球`를 씁니다. `poŝtkarton`(엽서를)의 `kart＋on`과 `Li tenis la libron.`(그는 책을 들고 있었다)의 `ten＋is`는 기존 방식으로 분석합니다. `犬齿o`와 `网球o`는 새 버전에서 각각 `kanino`와 `teniso`로, 고정 구버전에서 각각 `hunddento`와 `retpilko`로 복원됩니다.
+
 ## 어근 다섯 개의 새 표기
 
 새 버전에서는 `banjan＝榕ᴮ`(벵골보리수), `koriz＝鼻炎`(비염), `knot＝节ᴷ`(속력 단위 노트), `farmaci＝药学`(약학), `eksterm＝灭ᴱᴷ`(근절하다)을 사용합니다. `药学o`는 새 버전에서 `farmacio`로, 고정 구버전에서 `farmakologio`로 복원됩니다.

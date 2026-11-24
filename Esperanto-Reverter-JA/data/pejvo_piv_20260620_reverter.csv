@@ -6217,7 +6217,7 @@ garol,松鸦,0,garol,8498
 sciur,松鼠,0,sciur,5928
 slab,板ˢ,0,slab,2058
 bret,板ᴮ,0,bret,2054
-karton,板ᴷ,0,karton,2055
+karton,板ᴷ,0,karton,reverse-alias:20261124
 lad,板ᴸ,0,lad,2052
 tabul,板ᵀ,0,tabul,2053
 ardez,板岩,0,ardez,7156
@@ -6397,7 +6397,7 @@ eŭroparlament,欧议,0,eu^roparlament,7677
 apetit,欲ᴬ,0,apetit,770
 klaŭz,款ᴷ,0,klau^z,4354
 regal,款ᴿ,0,regal,4353
-tanka,歌ᵀ,0,tanka,7159
+tanka,歌ᵀ,0,tanka,reverse-alias:20261124
 oper,歌剧,0,oper,5887
 apne,止ᴬ,0,apne,2149
 legitim,正ᴸ,0,legitim,1710
@@ -6747,6 +6747,7 @@ mops,犬ᴹ,0,mops,1716
 niktereŭt,犬ᴺ,0,niktereu^t,1722
 pudel,犬ᴾ,0,pudel,1717
 vertag,犬ⱽ,0,vertag,1720
+kanin,犬齿,0,kanin,1529
 amok,狂ᴬ,0,amok,3960
 delir,狂ᴰ,0,delir,3953
 histeri,狂ᴴ,0,histeri,3959
@@ -6976,6 +6977,7 @@ vektor,矢量,0,vektor,6532
 gnostik,知ᴳ,0,gnostik,952
 efemer,短ᴱ,0,efemer,6679
 kornet,短号,0,kornet,7821
+tanka,短歌,0,tanka,7159
 kulot,短裤,0,kulot,6651
 hajk,短诗,0,hajk,7336
 pone,矮马,0,pone,8302
@@ -7206,6 +7208,7 @@ gaz,纱ᴳ,0,gaz,4452
 ordinat,纵标,0,ordinat,8110
 orgi,纵欲,0,orgi,6885
 mediastin,纵隔,0,mediastin,8340
+karton,纸板,0,karton,2055
 papirus,纸草,0,papirus,7341
 arabesk,纹ᴬ,0,arabesk,6405
 fret,纹ᶠ,0,fret,6403
@@ -7274,7 +7277,8 @@ lakun,缺ᴸ,0,lakun,1251
 kontumac,缺席,0,kontumac,7816
 bokal,罐ᴮ,0,bokal,7900
 kanistr,罐ᴷ,0,kanistr,7901
-tenis,网ᵀ,0,tenis,3207
+tenis,网ᵀ,0,tenis,reverse-alias:20261124
+tenis,网球,0,tenis,3207
 tul,网纱,0,tul,8182
 retin,网膜,0,retin,6550
 kompas,罗盘,0,kompas,6610
@@ -7669,6 +7673,7 @@ zigen,虫ᶻ,0,zigen,2625
 verm,虫ⱽ,0,verm,2577
 apendic,虫垂,0,apendic,6942
 insekticid,虫杀,0,insekticid,9394
+kari,虫牙,0,kari,6383
 sifon,虹吸,0,sifon,6661
 iris,虹膜,0,iris,6455
 salikok,虾ˢ,0,salikok,5821
@@ -7689,7 +7694,7 @@ anofel,蚊ᴬ,0,anofel,4589
 kul,蚊ᴷ,0,kul,4588
 lima,蚌ᴸ,0,lima,6812
 mitul,蚌ᴹ,0,mitul,6811
-kari,蛀牙,0,kari,6383
+kari,蛀牙,0,kari,reverse-alias:20261124
 anakond,蛇ᴬ,0,anakond,3875
 botrop,蛇ᴮ,0,botrop,3871
 elap,蛇ᴱ,0,elap,3869
@@ -8557,7 +8562,7 @@ vizon,鼠ⱽ,0,vizon,4594
 rin,鼻ᴿ,0,rin,1794
 koriz,鼻炎,0,koriz,3990
 salv,齐射,0,salv,8638
-kanin,齿ᴷ,0,kanin,1529
+kanin,齿ᴷ,0,kanin,reverse-alias:20261124
 dentin,齿质,0,dentin,7849
 scink,龙ˢ,0,scink,6246
 agam,龙ᴬ,0,agam,6245
