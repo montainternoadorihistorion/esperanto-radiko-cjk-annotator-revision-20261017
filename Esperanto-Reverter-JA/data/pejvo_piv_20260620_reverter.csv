@@ -861,6 +861,7 @@ prototip,原ᴾᵀ型,0,prototip,8831
 protoplasm,原ᴾᵀ浆,0,protoplasm,9918
 protopter,原ᴾᵀ翅,0,protopter,9919
 antonim,反ᴬ名ᴼ,0,antonim,8807
+antarkt,反ᴬ极ᴬ,0,antarkt,3270
 refleks,反射ᴿˢ,0,refleks,5918
 oestrogen,发情生ᴳ,0,oestrogen,10451
 variometr,变ⱽ计ᴹ,0,variometr,10192
@@ -5037,7 +5038,7 @@ rek,单杠,0,rek,8130
 monomani,单狂,0,monomani,9678
 ocel,单眼,0,ocel,8116
 monoton,单调,0,monoton,10312
-antarkt,南ᴬ,0,antarkt,3270
+antarkt,南ᴬ,0,antarkt,reverse-alias:20261125
 erudici,博ᴱ,0,erudici,2966
 filantropi,博爱,0,filantropi,9139
 aŭgur,占ᴬ,0,au^gur,1276

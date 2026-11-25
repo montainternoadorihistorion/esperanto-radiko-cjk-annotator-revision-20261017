@@ -1,5 +1,9 @@
 > **旧版の参考資料 / Historical reference**
 
+## 南極大陸の新版表記
+
+新版は `Antarkto`（南極大陸）を `反ᴬ极ᴬo` と表します。北極地方の `Arkto＝极ᴬo` に「反対側」を示す字を加えました。語根は一つの `antarkt` です。旧表記 `南ᴬo` も `antarkto` に戻せます。
+
 ## 虫歯・板紙・犬歯・短歌・テニスの新版表記
 
 新版では `kari＝虫牙`、`karton＝纸板`、`kanin＝犬齿`、`tanka＝短歌`、`tenis＝网球` を使います。`poŝtkarton`（はがきを）の `kart＋on` と `Li tenis la libron.`（彼は本を持っていた）の `ten＋is` は従来どおりです。`犬齿o` と `网球o` は新版では `kanino` と `teniso`、固定旧版では `hunddento` と `retpilko` に戻ります。

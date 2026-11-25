@@ -2,8 +2,8 @@
   "schema_version": 1,
   "revision": "current-compound-inverse-20261018-v3",
   "source_id": "pejvo-piv-20260620",
-  "dictionary_revision": "kari-tenis-20261124",
-  "current_csv_sha256": "4916867f9b76578d13b6c85eecaaf7391851af29c727dfdeaba75ab1d6dd347e",
+  "dictionary_revision": "antarkt-20261125",
+  "current_csv_sha256": "65e53fb72d0c9cb6f30eec1a6d311622cfe2ee0517d6b6be5d19ab1f24c7f9e6",
   "required_canonical_owner": {
     "kanji": "丸ᴼ炎ᵀ",
     "esperanto": "orkidit"
