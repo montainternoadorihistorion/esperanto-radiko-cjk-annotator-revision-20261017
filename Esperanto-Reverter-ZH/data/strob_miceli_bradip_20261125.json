@@ -1,0 +1,55 @@
+{
+  "revision": "strob-miceli-bradip-20261125",
+  "changes": {
+    "strob": {
+      "old": "木ˢᵀ",
+      "current": "松ˢ"
+    },
+    "miceli": {
+      "old": "菌ᴹᴱ",
+      "current": "菌丝体"
+    },
+    "bradip": {
+      "old": "兽ᴮᴿ",
+      "current": "树懒ᴮ"
+    }
+  },
+  "group_counts": {
+    "兽": [
+      69,
+      68
+    ],
+    "木": [
+      265,
+      264
+    ],
+    "松": [
+      5,
+      6
+    ],
+    "树懒": [
+      1,
+      2
+    ],
+    "菌": [
+      90,
+      89
+    ],
+    "菌丝体": [
+      0,
+      1
+    ]
+  },
+  "safe_reverse_aliases": {
+    "木ˢᵀ": "strob",
+    "菌ᴹᴱ": "miceli",
+    "兽ᴮᴿ": "bradip"
+  },
+  "canonical_sidecar_sha256": "3774e0defaf5878f4a4a797f2f241c046cadd37e528e4dc71ab46459133bf8fe",
+  "baseline_monaco_sha256": "6d3a651565c1a3deb9f26911668865e551bf438177b7282c6bebd116232039de",
+  "current_monaco_sha256": "ed00546cc0ae00dae9b31c54ab7dd2fe8e898da929aa374bfffd13ef83241bd0",
+  "current_items": 10640,
+  "unchanged_assignment_count": 10637,
+  "group_count_documentation_changes": 427,
+  "rationale": "Strob is a pine species. Miceli refers to the vegetative body composed of hyphae, identified individually by hif. Bradip and ake share the zoological meaning and the same main spelling. Old independent spellings remain readable."
+}

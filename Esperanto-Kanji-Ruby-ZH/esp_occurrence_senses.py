@@ -1,19 +1,19 @@
-"""Explicit, source-bound mineral reading; never infer a meaning from spelling.
-
-The ordinary root table and custom JSON are unchanged. Only complete reviewed
-forms at user-selected source positions receive the separate canonical sense.
-"""
+"""Select a reviewed alternative meaning for an occurrence in the original input."""
 from pathlib import Path
 import hashlib
 import json
 import re
 
-_FORMS = frozenset(
-    form for ending in ('', 'o', 'on', 'oj', 'ojn', 'a', 'an', 'aj', 'ajn', 'e', 'en')
-    for word in ('nefrit' + ending,)
+_ENDINGS = ('', 'o', 'on', 'oj', 'ojn', 'a', 'an', 'aj', 'ajn', 'e', 'en')
+_SENSE_ROOTS = {'nefrit.mineral': 'nefrit', 'ake.achaean': 'ake'}
+_FORM_SENSES = {
+    form: sense for sense, root in _SENSE_ROOTS.items()
+    for ending in _ENDINGS for word in (root + ending,)
     for form in (word, word.capitalize(), word.upper())
-)
-_PATTERN = re.compile(r'(?<![\w\^])(?:' + '|'.join(sorted(_FORMS, key=len, reverse=True)) + r')(?![\w\^])')
+}
+# Forms of the originally supported mineral sense.
+_FORMS = frozenset(form for form, sense in _FORM_SENSES.items() if sense == 'nefrit.mineral')
+_PATTERN = re.compile(r'(?<![\w\^])(?:' + '|'.join(sorted(_FORM_SENSES, key=len, reverse=True)) + r')(?![\w\^])')
 
 
 def normalize_source(text):
@@ -35,20 +35,21 @@ def find_occurrences(text):
             if not any(m.start() < end and m.end() > start for start, end in excluded)]
 
 
-def load_sense(data_dir):
+def load_sense(data_dir, key='nefrit.mineral'):
     data = json.loads((Path(data_dir) / 'explicit_occurrence_senses.json').read_text(encoding='utf-8-sig'))
-    rows = data['senses']
-    found = [row for row in rows if row['sense_key'] == 'nefrit.mineral']
-    if len(found) != 1:
-        raise ValueError('Expected one reviewed mineral sense')
+    found = [row for row in data['senses'] if row['sense_key'] == key]
+    if len(found) != 1 or found[0]['root'] != _SENSE_ROOTS.get(key):
+        raise ValueError(f'Invalid occurrence sense: {key}')
     row = found[0]
-    if row['root'] != 'nefrit' or row['edition'] != 'current' or not row['display']:
+    if key == 'nefrit.mineral' and (row['edition'] != 'current' or not row['display']):
         raise ValueError('Invalid mineral sense definition')
+    if key == 'ake.achaean' and (row['edition'] != 'both' or row['display'] is not None):
+        raise ValueError('Invalid Achaean sense definition')
     return row
 
 
 def render_selections(text, selected, data_dir, format_type, *, edition, bundled):
-    if not selected or edition != 'current' or not bundled:
+    if not selected or edition not in ('current', 'legacy') or not bundled:
         return []
     import esp_overlay_module as overlay
     from esp_assignment_edition import language
@@ -56,16 +57,22 @@ def render_selections(text, selected, data_dir, format_type, *, edition, bundled
     candidates = find_occurrences(source)
     if len(set(selected)) != len(selected) or any(type(i) is not int or not 0 <= i < len(candidates) for i in selected):
         raise ValueError('Invalid occurrence selection')
-    sense = load_sense(data_dir)
-    annotation = sense['annotations'][language(data_dir)]
     widths = json.loads((Path(data_dir) / 'char_widths.json').read_text(encoding='utf-8'))
     helper = overlay._replacement_helper()
     result = []
     for index in sorted(selected):
         item = candidates[index]
         word = item['source']
-        root, ending = word[:6], word[6:]
-        if format_type == '替换后文字列のみ(仅)保留(简单替换)':
+        key = _FORM_SENSES[word]
+        if edition == 'legacy' and key != 'ake.achaean':
+            continue
+        sense = load_sense(data_dir, key)
+        length = len(sense['root'])
+        root, ending = word[:length], word[length:]
+        annotation = sense['annotations'][language(data_dir)]
+        if sense['display'] is None and format_type in (overlay.KANJI_FMT, '替换后文字列のみ(仅)保留(简单替换)'):
+            rendered = word
+        elif format_type == '替换后文字列のみ(仅)保留(简单替换)':
             rendered = sense['display'] + ending
         elif format_type in (overlay.KANJI_FMT, overlay.RUBY_FMT):
             meaning = sense['display'] if format_type == overlay.KANJI_FMT else annotation
@@ -83,7 +90,7 @@ def capture_explicit_occurrences(text, selections, percent_pattern, tokens, esca
     events = [(m.start(), m.end(), escape(text[m.start(1):m.end(1)])) for m in percent]
     digest = source_digest(text)
     for item in selections:
-        if (item['source_sha256'] != digest or item['sense_key'] != 'nefrit.mineral'
+        if (item['source_sha256'] != digest or item['sense_key'] != _FORM_SENSES.get(item['source'])
                 or (item['start'], item['end'], item['source']) not in candidates):
             raise ValueError('Source changed after sense selection')
         events.append((item['start'], item['end'], item['rendered']))
@@ -112,34 +119,51 @@ _TEXT = {
 }
 
 
+_AKE_TEXT = {
+    'JA': ('ake の動物義・民族義を選ぶ', '民族名「アカイア人」として読む箇所', '通常はナマケモノとして読みます。民族名として選ぶと、その箇所は原綴りを保ち、注釈ルビで「アカイア人」と表示します。'),
+    'ZH': ('选择 ake 的动物义或族名义', '选择表示亚该亚人的位置', '默认按树懒解读。所选位置保留原拼写，在注释模式显示“亚该亚人”。'),
+    'KO': ('ake의 동물 이름과 민족 이름 구분', '아카이아인을 뜻하는 위치', '기본값은 나무늘보입니다. 민족 이름으로 선택한 위치는 원래 철자를 유지하고 주석 모드에서 아카이아인으로 표시합니다.'),
+}
+
+
 def select_occurrences(text, data_dir, edition, bundled, format_type):
     import streamlit as st
     from esp_assignment_edition import language
-    raw_hash = source_digest(text)
-    state_key = '_nefrit_sense_choice'
-    state = st.session_state.get(state_key, {})
-    if state.get('source_sha256') != raw_hash:
-        state = {'source_sha256': raw_hash, 'selected': []}
-        st.session_state[state_key] = state
-        st.session_state.pop('_nefrit_sense_widget', None)
-    if edition != 'current' or not bundled:
-        return [], []
-    candidates = find_occurrences(text)
-    if not candidates:
-        return [], []
-    labels = _TEXT[language(data_dir)]
     normalized = normalize_source(text)
-    with st.expander(labels[0]):
-        st.caption(labels[2])
-        if '_nefrit_sense_widget' not in st.session_state:
-            st.session_state['_nefrit_sense_widget'] = state['selected']
-        def label(index):
-            item = candidates[index]
+    candidates = find_occurrences(normalized)
+    lang = language(data_dir)
+    raw_hash = source_digest(text)
+    result = []
+    for sense, labels, prefix in (
+        ('nefrit.mineral', _TEXT[lang], '_nefrit_sense'),
+        ('ake.achaean', _AKE_TEXT[lang], '_ake_sense'),
+    ):
+        state_key, widget_key = prefix + '_choice', prefix + '_widget'
+        state = st.session_state.get(state_key, {})
+        if state.get('source_sha256') != raw_hash:
+            state = {'source_sha256': raw_hash, 'selected': []}
+            st.session_state[state_key] = state
+            st.session_state.pop(widget_key, None)
+        if not bundled or (edition != 'current' and sense == 'nefrit.mineral'):
+            continue
+        indices = [i for i, item in enumerate(candidates) if _FORM_SENSES[item['source']] == sense]
+        if not indices:
+            continue
+        # Keep widget selections local to the sense, including sessions opened before Ake was added.
+        def label(local_index, indices=indices):
+            item = candidates[indices[local_index]]
             start, end = item['start'], item['end']
             context = normalized[max(0, start-24):start] + '【' + item['source'] + '】' + normalized[end:end+24]
-            return f'{index+1}: ' + context.replace('\n', ' ↵ ')
-        selected = st.multiselect(labels[1], range(len(candidates)), format_func=label, key='_nefrit_sense_widget')
-        state['selected'] = list(selected)
-        st.session_state[state_key] = state
-        st.caption(labels[3])
-    return render_selections(text, selected, data_dir, format_type, edition=edition, bundled=bundled), list(selected)
+            return f'{local_index+1}: ' + context.replace('\n', ' ↵ ')
+        with st.expander(labels[0]):
+            st.caption(labels[2])
+            if widget_key not in st.session_state:
+                st.session_state[widget_key] = list(state['selected'])
+            selected = st.multiselect(labels[1], range(len(indices)), format_func=label, key=widget_key)
+            state['selected'] = list(selected)
+            st.session_state[state_key] = state
+            if len(labels) > 3:
+                st.caption(labels[3])
+        result.extend(indices[i] for i in selected)
+    result.sort()
+    return render_selections(text, result, data_dir, format_type, edition=edition, bundled=bundled), result

@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "antarkt-20261125",
+  "revision": "strob-miceli-bradip-20261125",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "6d3a651565c1a3deb9f26911668865e551bf438177b7282c6bebd116232039de",
+  "monaco_all_sha256": "ed00546cc0ae00dae9b31c54ab7dd2fe8e898da929aa374bfffd13ef83241bd0",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "64b10a2149c776ca122fc2083686be0f99242407c014f57bf842d1aec42f1b81",
+  "canonical_sidecar_sha256": "3774e0defaf5878f4a4a797f2f241c046cadd37e528e4dc71ab46459133bf8fe",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -848,10 +848,22 @@
     "antarkt": {
       "old": "南ᴬ",
       "current": "反ᴬ极ᴬ"
+    },
+    "strob": {
+      "old": "木ˢᵀ",
+      "current": "松ˢ"
+    },
+    "miceli": {
+      "old": "菌ᴹᴱ",
+      "current": "菌丝体"
+    },
+    "bradip": {
+      "old": "兽ᴮᴿ",
+      "current": "树懒ᴮ"
     }
   },
-  "current_csv_sha256": "65e53fb72d0c9cb6f30eec1a6d311622cfe2ee0517d6b6be5d19ab1f24c7f9e6",
-  "current_snippet_csv_sha256": "32074734d00570b670912824ce934ce0acab0aae543ec06f256603385fd06187",
+  "current_csv_sha256": "7ffe36e332598eab5fe2f8cbf058b052e96e7e31ca4965dcd1ab799e94c20614",
+  "current_snippet_csv_sha256": "90fa3a8b03a79d70f3b0ae247ebd3c4c2b72093c148fd802e0173bda26f5ddd3",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -978,13 +990,16 @@
     "齿ᴷ": "kanin",
     "歌ᵀ": "tanka",
     "网ᵀ": "tenis",
-    "南ᴬ": "antarkt"
+    "南ᴬ": "antarkt",
+    "木ˢᵀ": "strob",
+    "菌ᴹᴱ": "miceli",
+    "兽ᴮᴿ": "bradip"
   },
   "mirror_identifier_manifest": "data/mirror-identifiers-20261017.json",
   "mirror_identifier_manifest_sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
   "pre_mirror_csv_sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
   "current_item_count": 10640,
-  "current_csv_count": 10772,
+  "current_csv_count": 10775,
   "stafilokok_assignment_manifest": "data/stafilokok-assignment-20261017.json",
   "stafilokok_assignment_manifest_sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
   "four_shared_assignment_manifest": "data/four-shared-assignments-20261017.json",
@@ -1200,5 +1215,7 @@
   "kari_tenis_20261124_manifest": "data/kari_tenis_20261124.json",
   "kari_tenis_20261124_manifest_sha256": "81c932a2212e6132b1b32bf575fbd1fb46563bb31dc5f7b6a809079620953780",
   "antarkt_20261125_manifest": "data/antarkt_20261125.json",
-  "antarkt_20261125_manifest_sha256": "55def374f5ca62d327ba0ae36a48fa3bc63554db3909a09b9336196c76269d14"
+  "antarkt_20261125_manifest_sha256": "55def374f5ca62d327ba0ae36a48fa3bc63554db3909a09b9336196c76269d14",
+  "strob_miceli_bradip_20261125_manifest": "data/strob_miceli_bradip_20261125.json",
+  "strob_miceli_bradip_20261125_manifest_sha256": "1f75e24562e93e82333fc7cb5733a63faf69f5f8b2418c6d2eaa99b3f5c32f2e"
 }
