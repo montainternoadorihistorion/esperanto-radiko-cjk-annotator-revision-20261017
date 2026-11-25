@@ -1,0 +1,29 @@
+{
+  "revision": "antarkt-20261125",
+  "changes": {
+    "antarkt": {
+      "old": "南ᴬ",
+      "current": "反ᴬ极ᴬ"
+    }
+  },
+  "group_counts": {
+    "南": [
+      2,
+      1
+    ],
+    "反ᴬ极ᴬ": [
+      0,
+      1
+    ]
+  },
+  "safe_reverse_aliases": {
+    "南ᴬ": "antarkt"
+  },
+  "canonical_sidecar_sha256": "64b10a2149c776ca122fc2083686be0f99242407c014f57bf842d1aec42f1b81",
+  "baseline_monaco_sha256": "52e2ec450327fb5d7fafa30214252b00bd91a375de1b3258fe06fe6927ea307e",
+  "current_monaco_sha256": "6d3a651565c1a3deb9f26911668865e551bf438177b7282c6bebd116232039de",
+  "current_items": 10640,
+  "unchanged_assignment_count": 10639,
+  "group_count_documentation_changes": 1,
+  "rationale": "The Antarctic name combines the historical opposition element represented in antonim with the existing spelling of arkt. The independent root has its own inverse entry and keeps its previous spelling as an alias."
+}

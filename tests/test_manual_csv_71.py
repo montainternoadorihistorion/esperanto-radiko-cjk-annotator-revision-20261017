@@ -157,6 +157,7 @@ LATER_CURRENT_ASSIGNMENTS = {
     'apotek': ('药ᴬ', '药店'),
     'banjan': ('木ᴮᴺ', '榕ᴮ'),
     'kari': ('蛀牙', '虫牙'),
+    'antarkt': ('南ᴬ', '反ᴬ极ᴬ'),
     'karton': ('板ᴷ', '纸板'),
     'kanin': ('齿ᴷ', '犬齿'),
     'tanka': ('歌ᵀ', '短歌'),

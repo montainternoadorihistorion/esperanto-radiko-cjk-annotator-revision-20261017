@@ -1,5 +1,9 @@
 > **旧版の参考資料 / Historical reference**
 
+## 남극 대륙의 개정 표기
+
+개정판에서 남극 대륙을 뜻하는 `Antarkto`는 `反ᴬ极ᴬo`로 씁니다. 북극 지방 `Arkto＝极ᴬo`의 표기 앞에 반대편을 뜻하는 글자를 더했습니다. 변환할 때 `antarkt`는 하나의 어근으로 처리합니다. 이전 표기 `南ᴬo`도 `antarkto`로 복원됩니다.
+
 ## 충치·판지·송곳니·단카·테니스의 새 표기
 
 새 버전에서는 `kari＝虫牙`, `karton＝纸板`, `kanin＝犬齿`, `tanka＝短歌`, `tenis＝网球`를 씁니다. `poŝtkarton`(엽서를)의 `kart＋on`과 `Li tenis la libron.`(그는 책을 들고 있었다)의 `ten＋is`는 기존 방식으로 분석합니다. `犬齿o`와 `网球o`는 새 버전에서 각각 `kanino`와 `teniso`로, 고정 구버전에서 각각 `hunddento`와 `retpilko`로 복원됩니다.
