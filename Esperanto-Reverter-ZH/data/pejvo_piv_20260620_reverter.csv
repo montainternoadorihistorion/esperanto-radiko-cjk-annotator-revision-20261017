@@ -1831,7 +1831,7 @@ armadel,兽ᴬᴿ,0,armadel,1492
 blastocer,兽ᴮˢ,0,blastocer,1505
 besti,兽ᴮᴵ,0,besti,1464
 boselaf,兽ᴮᴸ,0,boselaf,1493
-bradip,兽ᴮᴿ,0,bradip,1513
+bradip,兽ᴮᴿ,0,bradip,reverse-alias:20261125
 desmod,兽ᴰˢ,0,desmod,1475
 dazip,兽ᴰᴬ,0,dazip,1512
 dendrolag,兽ᴰᴰ,0,dendrolag,1506
@@ -2431,7 +2431,7 @@ strikn,木ˢᴺ,0,strikn,532
 strofant,木ˢᴼ,0,strofant,590
 spire,木ˢᴾ,0,spire,506
 sarak,木ˢᴿ,0,sarak,504
-strob,木ˢᵀ,0,strob,507
+strob,木ˢᵀ,0,strob,reverse-alias:20261125
 sumak,木ˢᵁ,0,sumak,508
 sofor,木ˢᶠ,0,sofor,505
 sviteni,木ˢⱽ,0,sviteni,554
@@ -2672,6 +2672,7 @@ kegl,柱ᴷᴳ,0,kegl,4308
 stigm,柱头ˢ,0,stigm,6796
 salikat,柳盐ᴬ,0,salikat,9975
 balustrad,栏ᴮᴸ,0,balustrad,5193
+bradip,树懒ᴮ,0,bradip,1513
 sampl,样ˢᴹ,0,sampl,5360
 ribosom,核糖体,0,ribosom,6797
 radikl,根ᴿᴸ,0,radikl,3525
@@ -3577,7 +3578,7 @@ laktari,菌ᴸᴿ,0,laktari,5536
 leptospir,菌ᴸᵀ,0,leptospir,5559
 lecide,菌ᴸᶜ,0,lecide,5519
 marasmi,菌ᴹˢ,0,marasmi,5538
-miceli,菌ᴹᴱ,0,miceli,5524
+miceli,菌ᴹᴱ,0,miceli,reverse-alias:20261125
 mikot,菌ᴹᴵ,0,mikot,5499
 morkel,菌ᴹᴷ,0,morkel,5571
 meruli,菌ᴹᴸ,0,meruli,5523
@@ -3610,6 +3611,7 @@ foliot,菌ᶠᴸ,0,foliot,5513
 fistulin,菌ᶠᵀ,0,fistulin,5547
 fitoftor,菌ᶠᶠ,0,fitoftor,5548
 volvariel,菌ⱽᴸ,0,volvariel,5564
+miceli,菌丝体,0,miceli,5524
 fungolog,菌学家,0,fungolog,8876
 asparag,菜ᴬˢ,0,asparag,3094
 amarant,菜ᴬᴹ,0,amarant,3086
@@ -6210,6 +6212,7 @@ pokal,杯ᴾ,0,pokal,1702
 tas,杯ᵀ,0,tas,1701
 eminent,杰ᴱ,0,eminent,4286
 prod,杰ᴾ,0,prod,4287
+strob,松ˢ,0,strob,507
 konifer,松ᴷ,0,konifer,4048
 mug,松ᴹ,0,mug,472
 cembr,松ᶜ,0,cembr,4047

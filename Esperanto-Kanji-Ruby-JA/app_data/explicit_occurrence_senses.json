@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "policy": "Only explicit selected occurrences in the current bundled edition; never infer from spelling alone.",
+  "policy": "Use only explicit selections in bundled dictionaries. Achaean is available in both editions, mineral nefrit in the current edition.",
   "senses": [
     {
       "sense_key": "nefrit.mineral",
@@ -14,6 +14,18 @@
         "JA": "軟玉",
         "ZH": "软玉",
         "KO": "연옥"
+      }
+    },
+    {
+      "sense_key": "ake.achaean",
+      "root": "ake",
+      "display": null,
+      "edition": "both",
+      "selection": "explicit_occurrence",
+      "annotations": {
+        "JA": "アカイア人",
+        "ZH": "亚该亚人",
+        "KO": "아카이아인"
       }
     }
   ]
