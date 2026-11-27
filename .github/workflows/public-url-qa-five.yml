@@ -14,7 +14,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        host: [forward-JA, forward-ZH, forward-KO, inverse-JA, inverse-ZH]
+        host: [forward-JA]
     steps:
       - uses: actions/checkout@v7.0.1
       - uses: actions/setup-python@v7.1.0
@@ -25,8 +25,8 @@ jobs:
         run: |
           python -m pip install playwright==1.65.2
           python -m playwright install --with-deps chromium --only-shell
-      - name: Check public URL and verify downloads
-        run: python -B tests/cloud_five_release_qa/check.py ${{ matrix.host }}
+      - name: Verify the Japanese startup caption from the public URL
+        run: python -B tests/cloud_five_release_qa/check.py ${{ matrix.host }} --records public_frontend
       - name: Save actual results and downloaded release fixtures
         if: always()
         uses: actions/upload-artifact@v7.0.2

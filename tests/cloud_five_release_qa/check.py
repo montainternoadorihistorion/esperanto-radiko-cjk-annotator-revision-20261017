@@ -22,6 +22,11 @@ HOSTS = {
 MARKERS = {"JA": ("新版", "旧版"), "ZH": ("新版", "旧版"), "KO": ("신판", "구판")}
 CONFIRM = {"JA": "保存内容を確認", "ZH": "确认保存内容", "KO": "저장 내용 확인"}
 MODE_INDEX = {"ruby": 0, "kanji": 1, "pure": 2}
+STARTUP_CAPTION = {
+    "JA":"下の入力欄に文章を入れ、「🔁 変換する」を押してください。",
+    "ZH":"请在下方输入文本，然后点击「🔁 开始转换」。",
+    "KO":"아래 입력란에 문장을 넣은 뒤 「🔁 변환하기」를 누르세요.",
+}
 WAKE = re.compile(r"^Yes,\s*get this app back up!?$", re.I)
 
 
@@ -78,6 +83,7 @@ async def enter_app(page, url, visit):
                 if not frame.is_detached():
                     raise
         await asyncio.sleep(0.8)
+    visit["frame_hosts"] = sorted({urlsplit(f.url).hostname for f in page.frames if urlsplit(f.url).hostname})
     raise CheckFailure("Public URL did not present the application's input and edition selector")
 
 
@@ -104,6 +110,10 @@ async def choose(frame, lang, case):
 
 
 async def verify_case(page, frame, url, lang, source, case, output, obs):
+    if case["mode"] == "frontend":
+        require(page.url == url, "Public address changed")
+        obs.update(stage="complete", startup_caption=STARTUP_CAPTION[lang])
+        return
     frame_dialog = frame.get_by_role("dialog")
     if await frame_dialog.count() and await frame_dialog.first.is_visible():
         await page.keyboard.press("Escape")
@@ -174,7 +184,7 @@ async def verify_case(page, frame, url, lang, source, case, output, obs):
 
 
 async def visit_host(browser, url, lang, source, rows, output, report, save):
-    visit = {"start":utc(), "wake_clicked":False, "http_errors":[]}
+    visit = {"start":utc(), "wake_clicked":False, "http_errors":[], "network_failures":[]}
     report["visits"].append(visit)
     context = await browser.new_context(accept_downloads=True, viewport={"width":1440, "height":950})
     context.set_default_timeout(15000)
@@ -189,6 +199,15 @@ async def visit_host(browser, url, lang, source, rows, output, report, save):
                 visit["http_errors"].append(sample)
 
     page.on("response", response_log)
+    def request_failure(request):
+        parts = urlsplit(request.url)
+        if parts.hostname == hostname and len(visit["network_failures"]) < 15:
+            code = re.search(r"net::ERR_[A-Z0-9_]+", request.failure or "")
+            sample = {"path":parts.path[:180], "type":request.resource_type, "error":code[0] if code else "failed"}
+            if sample not in visit["network_failures"]:
+                visit["network_failures"].append(sample)
+
+    page.on("requestfailed", request_failure)
     save()
     try:
         try:
@@ -201,6 +220,17 @@ async def visit_host(browser, url, lang, source, rows, output, report, save):
                     {"stage":"startup", "error":visit["startup_error"], "passed":False, "time":utc()})
             return
         visit["opened"] = True
+        if rows[0]["mode"] != "reverse":
+            marker = frame.locator("[data-testid=stCaptionContainer]").get_by_text(STARTUP_CAPTION[lang], exact=True)
+            try:
+                await marker.first.wait_for(state="visible", timeout=10000)
+                visit["startup_caption"] = STARTUP_CAPTION[lang]
+            except BrowserTimeout:
+                visit["startup_caption"] = "Release caption not visible"
+                for case in rows:
+                    report["records"][case_key(case)]["attempts"].append(
+                        {"stage":"frontend_release", "error":visit["startup_caption"], "passed":False, "time":utc()})
+                return
         for case in rows:
             record = report["records"][case_key(case)]
             obs = {"passed":False, "time":utc(), "stage":"start"}
@@ -219,10 +249,15 @@ async def visit_host(browser, url, lang, source, rows, output, report, save):
         await context.close()
 
 
-async def check(host, output):
+async def check(host, output, record_keys=()):
     kind, lang = host.split("-")
     url = HOSTS[host]
     rows = FIXTURE[kind][lang]
+    if record_keys:
+        available = {case_key(row):row for row in rows}
+        if kind == "forward":
+            available["public_frontend"] = {"edition":"public", "mode":"frontend"}
+        rows = [available[name] for name in record_keys]
     source = FIXTURE[kind+"_source"]
     output.mkdir(parents=True, exist_ok=True)
     report = {"host":host, "public_url":url, "source":source, "start":utc(), "visits":[],
@@ -255,7 +290,7 @@ async def check(host, output):
         save()
         if os.getenv("GITHUB_STEP_SUMMARY"):
             with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as stream:
-                stream.write(f"### {host}\n\n| Edition and mode | Verified download |\n|---|---|\n")
+                stream.write(f"### {host}\n\n| Edition and mode | Result |\n|---|---|\n")
                 for name, rec in report["records"].items():
                     stream.write(f"| {name} | {'Passed' if rec['passed'] else 'Unverified'} |\n")
     return report["passed"]
@@ -265,5 +300,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("host",choices=HOSTS)
     parser.add_argument("--results",type=Path,default=Path("cloud-qa-results"))
+    parser.add_argument("--records", nargs="+", default=(), help="Previously unverified cases or public_frontend")
     options = parser.parse_args()
-    raise SystemExit(0 if asyncio.run(check(options.host, options.results)) else 1)
+    raise SystemExit(0 if asyncio.run(check(options.host, options.results, options.records)) else 1)
