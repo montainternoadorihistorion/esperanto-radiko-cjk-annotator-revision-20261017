@@ -84,14 +84,13 @@ if "🈶" in selected_option or "✂️" in selected_option:
 
 # 在折叠框中提供一个示例 JSON 文件可下载
 with st.expander("【示例 JSON 文件（替换用）】"):
-    json_file_path = os.path.join(DATA_DIR, '置換リスト_ルビ.json')
-    with open(json_file_path, "rb") as file_json:
-        btn_json = st.download_button(
-            label="下载示例 JSON（替换用）",
-            data=file_json,
-            file_name="示例_替换用JSON文件.json",
-            mime="application/json"
-        )
+    if st.button("准备下载示例 JSON", key="prepare_sample_json"):
+        with open(os.path.join(DATA_DIR, "置換リスト_ルビ.json"), "rb") as sample:
+            st.download_button(
+                "下载示例 JSON（替换用）", data=sample,
+                file_name="示例_替换用JSON文件.json", mime="application/json",
+                key="download_sample_json", on_click="ignore",
+            )
 
 # 准备好这三个列表，以便之后进行替换
 replacements_final_list: List[Tuple[str, str, str]] = []
@@ -100,33 +99,12 @@ replacements_list_for_2char: List[Tuple[str, str, str]] = []
 
 if selected_option == "📖 注释Ruby（词根上方显示中文注释）":
     _bundled_html_ruby_mode = "annotation"
-    default_json_path = os.path.join(DATA_DIR, '置換リスト_ルビ.json')
-    _bundled_json_path = default_json_path
-    try:
-        replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(default_json_path)
-        st.success("✅ 注释Ruby模式准备就绪。")
-    except Exception as e:
-        st.error(f"读取默认 JSON 文件时出错: {e}")
-        st.stop()
+    _bundled_json_path = editions.resolve_path(DATA_DIR, "ruby", assignment_edition)
 elif selected_option == "🈶 汉字化（汉字＋词根Ruby）":
     _bundled_html_ruby_mode = "kanji"
-    kanji_json_path = editions.resolve_path(DATA_DIR, "kanji", assignment_edition)
-    _bundled_json_path = kanji_json_path
-    try:
-        replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(kanji_json_path)
-        st.success("✅ 汉字化模式准备就绪（汉字正文·词根Ruby）。")
-    except Exception as e:
-        st.error(f"读取汉字化版 JSON 时出错: {e}")
-        st.stop()
+    _bundled_json_path = editions.resolve_path(DATA_DIR, "kanji", assignment_edition)
 elif selected_option == "✂️ 汉字化·纯替换（无标签文本）":
-    pure_json_path = editions.resolve_path(DATA_DIR, "pure", assignment_edition)
-    _bundled_json_path = pure_json_path
-    try:
-        replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(pure_json_path)
-        st.success("已读取纯替换版JSON。世界语文本将被转换为无标签的汉字文本(例: amikeco → 友性o)。")
-    except Exception as e:
-        st.error(f"读取纯替换版JSON时出错: {e}")
-        st.stop()
+    _bundled_json_path = editions.resolve_path(DATA_DIR, "pure", assignment_edition)
 else:
     uploaded_file = st.file_uploader("请上传替换用 JSON 文件（文件名形如「○○(合并3个JSON文件).json」）", type="json")
     if uploaded_file is not None:
@@ -155,9 +133,8 @@ else:
         st.warning("尚未上传 JSON 文件，无法继续执行。")
         st.stop()
 
-reviewed_local_decompositions = bool(
-    _bundled_json_path and editions.supports_reviewed_local_decompositions(_bundled_json_path)
-)
+if _bundled_json_path:
+    st.caption("请在下方输入文本，然后点击「🔁 开始转换」。")
 
 # 1.5) 手动校正(轻量 overlay)以最高优先级应用
 #   在「语根分解手动校正」页面保存的校正(app_data/user_corrections.json),
@@ -183,31 +160,7 @@ with st.expander("📂 读取手动校正文件(user_corrections.json)(可选)")
         except Exception as _e:
             st.error(f"读取失败（{_e}）。请确认是否为在「词根分解的手动校正」页面下载的 user_corrections.json。")
 
-try:
-    import esp_overlay_module as _ov
-    _ov_mode = "kanji" if selected_option in ("🈶 汉字化（汉字＋词根Ruby）", "✂️ 汉字化·纯替换（无标签文本）") else "ruby"
-    _ov_entries_raw = _ov.load_overlay_entries(DATA_DIR, _ov_mode, assignment_edition)
-    if selected_option == "✂️ 汉字化·纯替换（无标签文本）":
-        import re as _re_ov
-        _ov_entries = [[o, _re_ov.sub(r"</?ruby>", "", _re_ov.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_ov.DOTALL | _re_ov.IGNORECASE), flags=_re_ov.IGNORECASE), ph] for o, n, ph in _ov_entries_raw]
-    else:
-        _ov_entries = _ov_entries_raw
-    if _ov_entries and not str(selected_option).startswith("📤"):
-        # 自作JSONモードは形式が不明のため補正オーバーレイ(HTML)は適用しない
-        replacements_final_list = _ov.merge_overlay(replacements_final_list, _ov_entries)
-        st.info(f"正在自动应用 {len(_ov.load_corrections(DATA_DIR))} 条词根分解质量校正（**无需操作**。可在「词根分解的手动校正」页面查看·编辑）。")
-except Exception:
-    pass
 
-# --------------------------------------------------------------------
-# 2) 读取一些与替换相关的 placeholder(占位符) 文件
-# --------------------------------------------------------------------
-placeholders_for_skipping_replacements: List[str] = import_placeholders(
-    os.path.join(DATA_DIR, 'placeholders_skip.txt')
-)
-placeholders_for_localized_replacement: List[str] = import_placeholders(
-    os.path.join(DATA_DIR, 'placeholders_localcapture.txt')
-)
 
 st.write("---")
 
@@ -336,11 +289,48 @@ if submit_btn and not (text0 or "").strip():
     st.warning("文本为空。请输入世界语文本后再点击「开始转换」。")
     st.stop()
 
-if submit_btn:
-    # text0 已通过 key="text0_value" 与 session_state 双向绑定，
-    # 此处手动赋值会在控件实例化后修改 session_state 而报错，故不再赋值。
 
-    # 根据是否勾选并行处理，调用不同函数
+def convert_submitted_text(
+    text0, uploaded_rules, *, bundled_path, assignment_edition, selected_option,
+    format_type, letter_type, use_parallel, num_processes, explicit_occurrences,
+):
+    if bundled_path:
+        try:
+            replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(bundled_path)
+        except Exception as e:
+            st.error(f"无法读取转换词典：{e}")
+            st.stop()
+    else:
+        replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = uploaded_rules
+
+    reviewed_local_decompositions = bool(
+        bundled_path and editions.supports_reviewed_local_decompositions(bundled_path)
+    )
+
+    if bundled_path:
+        try:
+            import esp_overlay_module as _ov
+            _ov_mode = "kanji" if selected_option in ("🈶 汉字化（汉字＋词根Ruby）", "✂️ 汉字化·纯替换（无标签文本）") else "ruby"
+            _ov_entries_raw = _ov.load_overlay_entries(DATA_DIR, _ov_mode, assignment_edition)
+            if selected_option == "✂️ 汉字化·纯替换（无标签文本）":
+                import re as _re_ov
+                _ov_entries = [[o, _re_ov.sub(r"</?ruby>", "", _re_ov.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_ov.DOTALL | _re_ov.IGNORECASE), flags=_re_ov.IGNORECASE), ph] for o, n, ph in _ov_entries_raw]
+            else:
+                _ov_entries = _ov_entries_raw
+            if _ov_entries:
+                # 自作JSONモードは形式が不明のため補正オーバーレイ(HTML)は適用しない
+                replacements_final_list = _ov.merge_overlay(replacements_final_list, _ov_entries)
+                st.info(f"正在自动应用 {len(_ov.load_corrections(DATA_DIR))} 条词根分解质量校正（**无需操作**。可在「词根分解的手动校正」页面查看·编辑）。")
+        except Exception:
+            pass
+
+    placeholders_for_skipping_replacements: List[str] = import_placeholders(
+        os.path.join(DATA_DIR, 'placeholders_skip.txt')
+    )
+    placeholders_for_localized_replacement: List[str] = import_placeholders(
+        os.path.join(DATA_DIR, 'placeholders_localcapture.txt')
+    )
+
     if use_parallel:
         processed_text = parallel_process(
             text=text0,
@@ -352,7 +342,7 @@ if submit_btn:
             replacements_list_for_2char=replacements_list_for_2char,
             format_type=format_type,
             reviewed_local_decompositions=reviewed_local_decompositions,
-            explicit_occurrences=_explicit_occurrences
+            explicit_occurrences=explicit_occurrences
         )
     else:
         processed_text = orchestrate_comprehensive_esperanto_text_replacement(
@@ -364,7 +354,7 @@ if submit_btn:
             replacements_list_for_2char=replacements_list_for_2char,
             format_type=format_type,
             reviewed_local_decompositions=reviewed_local_decompositions,
-            explicit_occurrences=_explicit_occurrences
+            explicit_occurrences=explicit_occurrences
         )
 
     # 第1遍若出现「词首单字游离」过度分解(辅音单字游离: fero->f/er/o 等),
@@ -389,7 +379,7 @@ if submit_btn:
                     replacements_list_for_2char=replacements_list_for_2char,
                     format_type=format_type,
                     reviewed_local_decompositions=reviewed_local_decompositions,
-            explicit_occurrences=_explicit_occurrences)
+                    explicit_occurrences=explicit_occurrences)
             else:
                 processed_text = orchestrate_comprehensive_esperanto_text_replacement(
                     text=text0,
@@ -400,7 +390,7 @@ if submit_btn:
                     replacements_list_for_2char=replacements_list_for_2char,
                     format_type=format_type,
                     reviewed_local_decompositions=reviewed_local_decompositions,
-            explicit_occurrences=_explicit_occurrences)
+                    explicit_occurrences=explicit_occurrences)
     except Exception:
         pass
 
@@ -415,7 +405,16 @@ if submit_btn:
         processed_text = replace_esperanto_chars(processed_text, x_to_hat)
         processed_text = replace_esperanto_chars(processed_text, circumflex_to_hat)
 
-    processed_text = apply_ruby_html_header_and_footer(processed_text, format_type)
+    return apply_ruby_html_header_and_footer(processed_text, format_type)
+
+
+if submit_btn:
+    processed_text = convert_submitted_text(
+        text0, (replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char),
+        bundled_path=_bundled_json_path, assignment_edition=assignment_edition, selected_option=selected_option,
+        format_type=format_type, letter_type=letter_type, use_parallel=use_parallel,
+        num_processes=num_processes, explicit_occurrences=_explicit_occurrences,
+    )
 
     # 将结果保存到 session_state（避免重跑时丢失，并使结果可编辑）
     st.session_state["result_html"] = processed_text
@@ -436,7 +435,7 @@ def _reset_edited_html():
 
 _result_meta = st.session_state.get("result_assignment_metadata")
 _matching_input = _source_ready and st.session_state.get("result_input_signature") == _current_input_signature
-_matching_result = editions.result_matches(_result_meta, DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type, "senses": _sense_settings}) and _matching_input
+_matching_result = bool(_result_meta) and _matching_input and editions.result_matches(_result_meta, DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type, "senses": _sense_settings})
 if st.session_state.get("result_html") and not _matching_result:
     if not _matching_input:
         st.info('输入内容或输入方式已更改。请重新转换后再保存。')

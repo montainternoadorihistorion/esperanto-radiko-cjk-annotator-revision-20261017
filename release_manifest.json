@@ -144,8 +144,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/main.py",
-      "bytes": 31343,
-      "sha256": "fe803baab4305ca3ae5ac4af3d5d18d53f2fa1a8d7b8822184513b0e2009c305"
+      "bytes": 30892,
+      "sha256": "9e3202875d8f7260eac7b10dfa602af55c9750014f0772d27798f3cbd6d5bb07"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/pages/1_🔧_語根分解の手動補正.py",
@@ -289,8 +289,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/main.py",
-      "bytes": 32606,
-      "sha256": "cd2b92297820dbcbcb3e52df744b61029d43f23d67cacb3ea71bdc5962db4a75"
+      "bytes": 32151,
+      "sha256": "97de0e773126a5b371721b201bf4bd7f0d7e79a430c072aa688bd7eba22b7567"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/pages/1_🔧_어근 분해 수동 보정.py",
@@ -424,8 +424,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/main.py",
-      "bytes": 29613,
-      "sha256": "8dd503b1fc55f8c4e5996253338be03c0e12ccded6d682296c93d614113b305b"
+      "bytes": 29389,
+      "sha256": "9da7fbfe2156411c557314c75294cd6b37fb4b03aacb93112d88a447f3b8716f"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/pages/1_🔧_词根分解的手动校正.py",
