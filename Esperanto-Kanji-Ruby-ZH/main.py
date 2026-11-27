@@ -84,14 +84,13 @@ if "🈶" in selected_option or "✂️" in selected_option:
 
 # 在折叠框中提供一个示例 JSON 文件可下载
 with st.expander("【示例 JSON 文件（替换用）】"):
-    json_file_path = os.path.join(DATA_DIR, '置換リスト_ルビ.json')
-    with open(json_file_path, "rb") as file_json:
-        btn_json = st.download_button(
-            label="下载示例 JSON（替换用）",
-            data=file_json,
-            file_name="示例_替换用JSON文件.json",
-            mime="application/json"
-        )
+    if st.button("准备下载示例 JSON", key="prepare_sample_json"):
+        with open(os.path.join(DATA_DIR, "置換リスト_ルビ.json"), "rb") as sample:
+            st.download_button(
+                "下载示例 JSON（替换用）", data=sample,
+                file_name="示例_替换用JSON文件.json", mime="application/json",
+                key="download_sample_json", on_click="ignore",
+            )
 
 # 准备好这三个列表，以便之后进行替换
 replacements_final_list: List[Tuple[str, str, str]] = []
