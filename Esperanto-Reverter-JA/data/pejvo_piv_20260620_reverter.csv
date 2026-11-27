@@ -1508,7 +1508,7 @@ kolokint,药瓜ᴷᴷ,0,kolokint,8214
 eŭpatori,菊ᴱᵁ̆,0,eu^patori,5100
 leŭkant,菊ᴸᵁ̆,0,leu^kant,5089
 taĝet,菊ᵀᴳ̂,0,tag^et,5073
-aŭrikulari,菌ᴬᵁ̆,0,au^rikulari,5565
+aŭrikulari,菌ᴬᵁ̆,0,au^rikulari,reverse-alias:20261127
 baktericid,菌ᴮᴬ杀,0,baktericid,8872
 bakteriofaĝ,菌ᴮ吞ᶠ,0,bakteriofag^,8874
 bakteriolog,菌ᴮ学家,0,bakteriolog,8877
@@ -2559,7 +2559,7 @@ mug,木ᴹᵁ,0,mug,reverse-alias:20261120
 mangifer,木ᴹᶠ,0,mangifer,577
 mezere,木ᴹᶻ,0,mezere,521
 mangrov,木ᴹⱽ,0,mangrov,547
-negund,木ᴺᴳ,0,negund,523
+negund,木ᴺᴳ,0,negund,reverse-alias:20261127
 neri,木ᴺᴿ,0,neri,379
 osmant,木ᴼˢ,0,osmant,388
 okrom,木ᴼᴷ,0,okrom,498
@@ -2582,7 +2582,7 @@ pitang,木ᴾᵀ,0,pitang,525
 pistaci,木ᴾᶜ,0,pistaci,552
 paŭlovni,木ᴾⱽ,0,pau^lovni,582
 rusk,木ᴿˢ,0,rusk,484
-robur,木ᴿᴮ,0,robur,503
+robur,木ᴿᴮ,0,robur,reverse-alias:20261127
 robini,木ᴿᴵ,0,robini,528
 ramn,木ᴿᴹ,0,ramn,483
 rambutan,木ᴿᵀ,0,rambutan,586
@@ -6182,6 +6182,7 @@ viburn,木ⱽ,0,viburn,372
 suber,木栓,0,suber,8386
 kapok,木棉,0,kapok,6904
 papaj,木瓜,0,papaj,6566
+aŭrikulari,木耳,0,au^rikulari,5565
 kreozot,木馏,0,kreozot,7535
 imperfekt,未完,0,imperfekt,8423
 apokalips,末启,0,apokalips,7936
@@ -6246,7 +6247,7 @@ nuks,果ᴺ,0,nuks,1191
 oksikok,果ᴼ,0,oksikok,1207
 pampelmus,果ᴾ,0,pampelmus,1205
 rezult,果ᴿ,0,rezult,1193
-citron,果ᶜ,0,citron,1198
+citron,果ᶜ,0,citron,reverse-alias:20261127
 hort,果园,0,hort,8629
 marmelad,果酱,0,marmelad,5878
 rabd,枝ᴿ,0,rabd,2943
@@ -6255,6 +6256,7 @@ kardinal,枢机,0,kardinal,6411
 jujub,枣ᴶ,0,jujub,5611
 zizif,枣ᶻ,0,zizif,5612
 pistol,枪ᴾ,0,pistol,6530
+negund,枫ᴺ,0,negund,523
 stabl,架ˢ,0,stabl,6368
 trus,架ᵀ,0,trus,6367
 stip,柄ˢ,0,stip,7511
@@ -6274,6 +6276,7 @@ supl,柔ˢ,0,supl,3475
 tener,柔ᵀ,0,tener,3474
 ĵud,柔道,0,j^ud,7110
 komod,柜ᴷ,0,komod,3258
+citron,柠ᶜ,0,citron,1198
 limon,柠檬,0,limon,reverse-alias:20261017
 limonad,柠水,0,limonad,8337
 sekvestr,查封,0,sekvestr,6975
@@ -6391,6 +6394,7 @@ meriz,樱ᴹ,0,meriz,4263
 oliv,橄榄,0,oliv,reverse-alias:20261017
 klementin,橘ᴷ,0,klementin,591
 glan,橡ᴳ,0,glan,4563
+robur,橡ᴿ,0,robur,503
 vizier,檐ⱽ,0,vizier,7027
 debet,欠ᴰ,0,debet,3569
 osced,欠ᴼ,0,osced,3570
@@ -6813,7 +6817,7 @@ perlamot,珠层,0,perlamot,8334
 sfer,球ˢ,0,sfer,3153
 bulb,球ᴮ,0,bulb,3154
 glob,球ᴳ,0,glob,3152
-futbal,球ᶠ,0,futbal,3156
+futbal,球ᶠ,0,futbal,reverse-alias:20261127
 kokcidi,球虫,0,kokcidi,8095
 gol,球门,0,gol,6421
 logik,理ᴸ,0,logik,2075
@@ -7970,6 +7974,7 @@ ofsajd,越位,0,ofsajd,8670
 pland,足底,0,pland,5896
 kvorum,足数,0,kvorum,reverse-alias:20261115
 tars,足根,0,tars,6762
+futbal,足球,0,futbal,3156
 tal,距ᵀ,0,tal,3929
 cirkvit,路ᶜ,0,cirkvit,986
 barikad,路障,0,barikad,8012

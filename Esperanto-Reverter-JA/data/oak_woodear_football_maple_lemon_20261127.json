@@ -1,0 +1,77 @@
+{
+  "revision": "oak-woodear-football-maple-lemon-20261127",
+  "changes": {
+    "robur": {
+      "old": "木ᴿᴮ",
+      "current": "橡ᴿ"
+    },
+    "au^rikulari": {
+      "old": "菌ᴬᵁ̆",
+      "current": "木耳"
+    },
+    "futbal": {
+      "old": "球ᶠ",
+      "current": "足球"
+    },
+    "negund": {
+      "old": "木ᴺᴳ",
+      "current": "枫ᴺ"
+    },
+    "citron": {
+      "old": "果ᶜ",
+      "current": "柠ᶜ"
+    }
+  },
+  "group_counts": {
+    "木": [
+      264,
+      262
+    ],
+    "木耳": [
+      0,
+      1
+    ],
+    "果": [
+      24,
+      23
+    ],
+    "枫": [
+      1,
+      2
+    ],
+    "柠": [
+      1,
+      2
+    ],
+    "橡": [
+      2,
+      3
+    ],
+    "球": [
+      8,
+      7
+    ],
+    "菌": [
+      89,
+      88
+    ],
+    "足球": [
+      0,
+      1
+    ]
+  },
+  "safe_reverse_aliases": {
+    "木ᴿᴮ": "robur",
+    "菌ᴬᵁ̆": "aŭrikulari",
+    "球ᶠ": "futbal",
+    "木ᴺᴳ": "negund",
+    "果ᶜ": "citron"
+  },
+  "canonical_sidecar_sha256": "2e689a122a93f10f938e8da24f373b381c231055325a508071b0a6eee02e0029",
+  "baseline_monaco_sha256": "ed00546cc0ae00dae9b31c54ab7dd2fe8e898da929aa374bfffd13ef83241bd0",
+  "current_monaco_sha256": "1e79afe23b90929bbdb784cdaa631059b263e7ead8ae713134f0212a6e9007e6",
+  "current_items": 10640,
+  "unchanged_assignment_count": 10635,
+  "group_count_documentation_changes": 384,
+  "rationale": "Robur shares oak with kverk, negund shares maple with acer, and citron shares 柠 with limon, which keeps the bare form. 木耳 and 足球 identify the fungus and sport directly. The new bare compounds resolve to the independent roots in this edition. Previous spellings remain readable."
+}

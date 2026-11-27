@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-25",
-  "scope": "Adopt strob, miceli and bradip and distinguish the two senses of ake and retain former spellings in reverse.",
+  "date": "2026-11-27",
+  "scope": "Adopt five reviewed root spellings, retain the unmarked reading limon, and preserve the previous spellings in reverse.",
   "files": [
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/E_stem.json",
@@ -84,8 +84,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 163363,
-      "sha256": "0f4573bf85dcca3fa9499e53d8bba1d0c7125516fe2c93a140063ebcedcfdcfa"
+      "bytes": 163352,
+      "sha256": "925a27dcc063a086042e02d82582945afc5387232567bc801915ade874b826bb"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/分解設定.json",
@@ -104,13 +104,13 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字.json",
-      "bytes": 57374957,
-      "sha256": "764244c3c55528c798959c3c005269f3ce2251e42edb1f7bbcd41515eed0bb9c"
+      "bytes": 57374801,
+      "sha256": "3bd2fbe1658d1caf0f1a0eb7843c998549138741e026980078db3e72937da4fa"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/置換リスト_漢字_純粋置換.json",
-      "bytes": 21521062,
-      "sha256": "89b15293f0289c61756311ccbee69ec20dfceb73b9343cd03fa796ef9734649c"
+      "bytes": 21520924,
+      "sha256": "cf3efa247a2430acfe7efe94be4be51b830f7999a785387764f4e7c48bbf1508"
     },
     {
       "path": "Esperanto-Kanji-Ruby-JA/app_data/에스페란토 어근-한국어 번역 루비 대응 목록.csv",
@@ -229,8 +229,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 163363,
-      "sha256": "0f4573bf85dcca3fa9499e53d8bba1d0c7125516fe2c93a140063ebcedcfdcfa"
+      "bytes": 163352,
+      "sha256": "925a27dcc063a086042e02d82582945afc5387232567bc801915ade874b826bb"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/分解設定.json",
@@ -249,8 +249,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/置換リスト_漢字.json",
-      "bytes": 57383023,
-      "sha256": "e7af6109ef7e9aae0a5a5d51f4f4b46fa3b01c5b94cab2dbc4599a1fa2cf3b48"
+      "bytes": 57382867,
+      "sha256": "2dc0c8694c7d83a25f3e091e44533050fac5d5312f31954647511dd615e7e798"
     },
     {
       "path": "Esperanto-Kanji-Ruby-KO/app_data/에스페란토 어근-일본어 번역 루비 대응 목록 (습득 레벨 포함).xlsx",
@@ -374,8 +374,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/世界语词根-汉字对应列表_参照2新割当_7791.csv",
-      "bytes": 163363,
-      "sha256": "0f4573bf85dcca3fa9499e53d8bba1d0c7125516fe2c93a140063ebcedcfdcfa"
+      "bytes": 163352,
+      "sha256": "925a27dcc063a086042e02d82582945afc5387232567bc801915ade874b826bb"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/分解設定.json",
@@ -394,8 +394,8 @@
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/app_data/置換リスト_漢字.json",
-      "bytes": 57383023,
-      "sha256": "b9a30c859ae29ce25199f77bb78643f27492b2ce1c8d77e8481052dc4d70edfa"
+      "bytes": 57382867,
+      "sha256": "5972b860358e56fc327f4c7fc1c511243feb4d19b051d78a784f97f2f2398828"
     },
     {
       "path": "Esperanto-Kanji-Ruby-ZH/esp_assignment_edition.py",
@@ -479,13 +479,13 @@
     },
     {
       "path": "Esperanto-Reverter-JA/data/current_dictionary_source.json",
-      "bytes": 36289,
-      "sha256": "8102165e3399bf9523cfc10d0cfdd83ac5d391993dafb73494aa088423a76db5"
+      "bytes": 37054,
+      "sha256": "a6ee63cbe883741d74ebf1552fed057b3e7add973ca9a3230b67088203108cf2"
     },
     {
       "path": "Esperanto-Reverter-JA/data/current_inverse_aliases.json",
-      "bytes": 3878,
-      "sha256": "d3c70cd9f10652f5977e31cbbc504e25336aa8e6d4b4e20b379a791107f3b189"
+      "bytes": 3891,
+      "sha256": "5f25f6a025b7d896b95ad22d27672a3eab13f1063032b5b61416d0b61d0454cd"
     },
     {
       "path": "Esperanto-Reverter-JA/data/desegn_piktur_20261116.json",
@@ -634,13 +634,18 @@
     },
     {
       "path": "Esperanto-Reverter-JA/data/monaco_source_20261017.json",
-      "bytes": 5360001,
-      "sha256": "ed00546cc0ae00dae9b31c54ab7dd2fe8e898da929aa374bfffd13ef83241bd0"
+      "bytes": 5360002,
+      "sha256": "1e79afe23b90929bbdb784cdaa631059b263e7ead8ae713134f0212a6e9007e6"
+    },
+    {
+      "path": "Esperanto-Reverter-JA/data/oak_woodear_football_maple_lemon_20261127.json",
+      "bytes": 1698,
+      "sha256": "aaa2d506ee2ab6d8b6bdd9328cc7d91d9731911eee2233bc1f60b1e0ede09789"
     },
     {
       "path": "Esperanto-Reverter-JA/data/pejvo_piv_20260620_reverter.csv",
-      "bytes": 322665,
-      "sha256": "7ffe36e332598eab5fe2f8cbf058b052e96e7e31ca4965dcd1ab799e94c20614"
+      "bytes": 322903,
+      "sha256": "c855fba51598ecedd487e7b4252d2d0a864fa00a10b0df29310ebcd9664af431"
     },
     {
       "path": "Esperanto-Reverter-JA/data/polen_otari_pakiderm_20261123.json",
@@ -729,8 +734,8 @@
     },
     {
       "path": "Esperanto-Reverter-JA/エスペラント語根-漢字対応表_スニペット用最小限.csv",
-      "bytes": 178403,
-      "sha256": "90fa3a8b03a79d70f3b0ae247ebd3c4c2b72093c148fd802e0173bda26f5ddd3"
+      "bytes": 178482,
+      "sha256": "80f53eac4d119247dc2a9e44e1713cd7d8d986ac3b29d0fd05ca73dbf4ebd11d"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/admir_20261113.json",
@@ -774,13 +779,13 @@
     },
     {
       "path": "Esperanto-Reverter-ZH/data/current_dictionary_source.json",
-      "bytes": 36289,
-      "sha256": "8102165e3399bf9523cfc10d0cfdd83ac5d391993dafb73494aa088423a76db5"
+      "bytes": 37054,
+      "sha256": "a6ee63cbe883741d74ebf1552fed057b3e7add973ca9a3230b67088203108cf2"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/current_inverse_aliases.json",
-      "bytes": 3878,
-      "sha256": "d3c70cd9f10652f5977e31cbbc504e25336aa8e6d4b4e20b379a791107f3b189"
+      "bytes": 3891,
+      "sha256": "5f25f6a025b7d896b95ad22d27672a3eab13f1063032b5b61416d0b61d0454cd"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/desegn_piktur_20261116.json",
@@ -929,13 +934,18 @@
     },
     {
       "path": "Esperanto-Reverter-ZH/data/monaco_source_20261017.json",
-      "bytes": 5360001,
-      "sha256": "ed00546cc0ae00dae9b31c54ab7dd2fe8e898da929aa374bfffd13ef83241bd0"
+      "bytes": 5360002,
+      "sha256": "1e79afe23b90929bbdb784cdaa631059b263e7ead8ae713134f0212a6e9007e6"
+    },
+    {
+      "path": "Esperanto-Reverter-ZH/data/oak_woodear_football_maple_lemon_20261127.json",
+      "bytes": 1698,
+      "sha256": "aaa2d506ee2ab6d8b6bdd9328cc7d91d9731911eee2233bc1f60b1e0ede09789"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/pejvo_piv_20260620_reverter.csv",
-      "bytes": 322665,
-      "sha256": "7ffe36e332598eab5fe2f8cbf058b052e96e7e31ca4965dcd1ab799e94c20614"
+      "bytes": 322903,
+      "sha256": "c855fba51598ecedd487e7b4252d2d0a864fa00a10b0df29310ebcd9664af431"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/polen_otari_pakiderm_20261123.json",
@@ -1024,8 +1034,8 @@
     },
     {
       "path": "Esperanto-Reverter-ZH/エスペラント語根-漢字対応表_スニペット用最小限.csv",
-      "bytes": 178403,
-      "sha256": "90fa3a8b03a79d70f3b0ae247ebd3c4c2b72093c148fd802e0173bda26f5ddd3"
+      "bytes": 178482,
+      "sha256": "80f53eac4d119247dc2a9e44e1713cd7d8d986ac3b29d0fd05ca73dbf4ebd11d"
     },
     {
       "path": "assignment_editions/README.md",
@@ -1094,28 +1104,28 @@
     },
     {
       "path": "references/kanji.html",
-      "bytes": 1182050,
-      "sha256": "10ff120d0ae20a3d3d017e63de506c3c0806dc8c640e48928d0052f1b75cfb26"
+      "bytes": 1182034,
+      "sha256": "9e9503671c21a98c5c7ef3eaea4b96fddb88bf6d0178e9cecc6913e6f936af64"
     },
     {
       "path": "references/kanji_reference_current.zip",
-      "bytes": 1675587,
-      "sha256": "237e75af489a67afb5c5dfa1c5c3e46bfed5d8204c60d52c645bc91b6feda4da"
+      "bytes": 1675606,
+      "sha256": "a930ff9247c8a03e566cb2f39650cfc4f566fc1d315f3b07d7eabea438cab23e"
     },
     {
       "path": "references/words.html",
-      "bytes": 4807025,
-      "sha256": "6da3c2f703bf5e353a1bb07a682f2c96ff457d1ca8e491b002238b74d521aa28"
+      "bytes": 4807014,
+      "sha256": "95e40fb66280b4fcf1a7cf81262ba7e04ab91c205fc01606f2287324615202f9"
     }
   ],
-  "assignment_revision": "strob-miceli-bradip-20261125",
-  "previous_release_commit": "cf8e7a59cf0feb37dadd8c543f6912359eeeb2da",
+  "assignment_revision": "robur-auriculari-futbal-negund-citron-20261127",
+  "previous_release_commit": "f21fc21deb432a1bbcafcee4094d29e3ad1c2774",
   "runtime_cache_revision": "edition-aware-single-decoded-table-20261018",
   "feature_revision": "two-editions-20261018",
   "legacy_manifest_sha256": "64aea654ea7f0ff2e0c1e2808754637a583cb7b2e1b201d11fc42fc926dfc86b",
-  "manual_dictionary_revision": "strob-miceli-bradip-20261125",
+  "manual_dictionary_revision": "robur-auriculari-futbal-negund-citron-20261127",
   "learning_revision": "reviewed-learning-semantics-20261101",
-  "reference_revision": "strob-miceli-bradip-20261125",
+  "reference_revision": "robur-auriculari-futbal-negund-citron-20261127",
   "previous_candidate_commit": "5f3813064de18a5c44afd47db89b15452c432144",
   "pure_word_fix_revision": "svarmaj-pure-fix-20261114",
   "generation_fix_revision": "ven-boundary-data-20261114",

@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "strob-miceli-bradip-20261125",
+  "revision": "oak-woodear-football-maple-lemon-20261127",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "ed00546cc0ae00dae9b31c54ab7dd2fe8e898da929aa374bfffd13ef83241bd0",
+  "monaco_all_sha256": "1e79afe23b90929bbdb784cdaa631059b263e7ead8ae713134f0212a6e9007e6",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "3774e0defaf5878f4a4a797f2f241c046cadd37e528e4dc71ab46459133bf8fe",
+  "canonical_sidecar_sha256": "2e689a122a93f10f938e8da24f373b381c231055325a508071b0a6eee02e0029",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -860,10 +860,30 @@
     "bradip": {
       "old": "兽ᴮᴿ",
       "current": "树懒ᴮ"
+    },
+    "robur": {
+      "old": "木ᴿᴮ",
+      "current": "橡ᴿ"
+    },
+    "au^rikulari": {
+      "old": "菌ᴬᵁ̆",
+      "current": "木耳"
+    },
+    "futbal": {
+      "old": "球ᶠ",
+      "current": "足球"
+    },
+    "negund": {
+      "old": "木ᴺᴳ",
+      "current": "枫ᴺ"
+    },
+    "citron": {
+      "old": "果ᶜ",
+      "current": "柠ᶜ"
     }
   },
-  "current_csv_sha256": "7ffe36e332598eab5fe2f8cbf058b052e96e7e31ca4965dcd1ab799e94c20614",
-  "current_snippet_csv_sha256": "90fa3a8b03a79d70f3b0ae247ebd3c4c2b72093c148fd802e0173bda26f5ddd3",
+  "current_csv_sha256": "c855fba51598ecedd487e7b4252d2d0a864fa00a10b0df29310ebcd9664af431",
+  "current_snippet_csv_sha256": "80f53eac4d119247dc2a9e44e1713cd7d8d986ac3b29d0fd05ca73dbf4ebd11d",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -993,13 +1013,18 @@
     "南ᴬ": "antarkt",
     "木ˢᵀ": "strob",
     "菌ᴹᴱ": "miceli",
-    "兽ᴮᴿ": "bradip"
+    "兽ᴮᴿ": "bradip",
+    "木ᴿᴮ": "robur",
+    "菌ᴬᵁ̆": "aŭrikulari",
+    "球ᶠ": "futbal",
+    "木ᴺᴳ": "negund",
+    "果ᶜ": "citron"
   },
   "mirror_identifier_manifest": "data/mirror-identifiers-20261017.json",
   "mirror_identifier_manifest_sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
   "pre_mirror_csv_sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
   "current_item_count": 10640,
-  "current_csv_count": 10775,
+  "current_csv_count": 10780,
   "stafilokok_assignment_manifest": "data/stafilokok-assignment-20261017.json",
   "stafilokok_assignment_manifest_sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
   "four_shared_assignment_manifest": "data/four-shared-assignments-20261017.json",
@@ -1217,5 +1242,7 @@
   "antarkt_20261125_manifest": "data/antarkt_20261125.json",
   "antarkt_20261125_manifest_sha256": "55def374f5ca62d327ba0ae36a48fa3bc63554db3909a09b9336196c76269d14",
   "strob_miceli_bradip_20261125_manifest": "data/strob_miceli_bradip_20261125.json",
-  "strob_miceli_bradip_20261125_manifest_sha256": "1f75e24562e93e82333fc7cb5733a63faf69f5f8b2418c6d2eaa99b3f5c32f2e"
+  "strob_miceli_bradip_20261125_manifest_sha256": "1f75e24562e93e82333fc7cb5733a63faf69f5f8b2418c6d2eaa99b3f5c32f2e",
+  "oak_woodear_football_maple_lemon_20261127_manifest": "data/oak_woodear_football_maple_lemon_20261127.json",
+  "oak_woodear_football_maple_lemon_20261127_manifest_sha256": "aaa2d506ee2ab6d8b6bdd9328cc7d91d9731911eee2233bc1f60b1e0ede09789"
 }
