@@ -1,0 +1,204 @@
+{
+  "forward_source": "roburo aŭrikulario futbalo negundo citrono limono\n@robur@o @aŭrikulari@o @futbal@o @negund@o @citron@o @limon@o\ncitronpremilo futbalisto usona futbalo kverko glano acero hordeo tritiko %citrono% @al@@ven@@ig@i",
+  "forward": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "6f683786c017487cf4b8dd0de935e6d04798453663fe8af4bf161208bd8caaec",
+        "core_sha256": "6f683786c017487cf4b8dd0de935e6d04798453663fe8af4bf161208bd8caaec",
+        "filename": "置換結果_current_b7e571885340.txt",
+        "signature": "b7e5718853405a258bacbceb9dca234cc84d542f9443dbf1cce6c1f6709e1146",
+        "expected_text": "橡ᴿo 木耳o 足球o 枫ᴺo 柠ᶜo 柠o\n橡ᴿo 木耳o 足球o 枫ᴺo 柠ᶜo 柠o\n柠ᶜ压具o 足球家o usona 足球o 橡o 橡ᴳo 枫o 麦ᴴo 麦o citrono 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "df8b7d5952e9d4a54031c1ffc4081dcc6f1222dcc250884a953e3a6dc6f07917",
+        "core_sha256": "bd89ed61986b21eb92de11044c8276d7851b6eb40d4ab8e56801cf5fdf90e2f2",
+        "filename": "置換結果_current_06afd87c2cfb.html",
+        "signature": "06afd87c2cfba64e0551491a029eac353aefb21d8e4bcc50b26171f1fe7c00a5"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "17a07160205f3fe4138970e1394bce4d5c6626b4370e8f104329183dfddc40b5",
+        "core_sha256": "5842d686c512e045b4f7dd8c217dc21a644054786b87cae7776ae2f5af81d272",
+        "filename": "置換結果_current_f4254192ac99.html",
+        "signature": "f4254192ac995e4fba44b6d559a34c588c7ead465888b073c64ad6591ee1d3fe"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "572797611de7c5b9a882caa6e66adaec677877db73dc24191fa24a11f9ec4f9a",
+        "core_sha256": "572797611de7c5b9a882caa6e66adaec677877db73dc24191fa24a11f9ec4f9a",
+        "filename": "置換結果_legacy_c2fab4a0e0b1.txt",
+        "signature": "c2fab4a0e0b162a36548b73fbcbd2d70255ec637bb05e006c3cbddf49da34b62",
+        "expected_text": "木ᴿᴮo 菌ᴬᵁ̆o 球ᶠo 木ᴺᴳo 果ᶜo 柠檬o\n木ᴿᴮo 菌ᴬᵁ̆o 球ᶠo 木ᴺᴳo 果ᶜo 柠檬o\n果ᶜ压具o 球ᶠ家o usona 球ᶠo 橡o 橡ᴳo 枫o 麦ᴴo 麦o citrono 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "62b35d607d6504289c7c139f610ab152a3ba694daeca58a01ced1452a9de1a0e",
+        "core_sha256": "10374c107647e5a903e18d8ddc4f8fe208599e6b5c938738e2315ac7814cb8b2",
+        "filename": "置換結果_legacy_2a452592adf0.html",
+        "signature": "2a452592adf05054c4065ff60dd158c7a152b23dd30a1ca6ac00a216c40fede9"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "17a07160205f3fe4138970e1394bce4d5c6626b4370e8f104329183dfddc40b5",
+        "core_sha256": "5842d686c512e045b4f7dd8c217dc21a644054786b87cae7776ae2f5af81d272",
+        "filename": "置換結果_legacy_50c3caa6484b.html",
+        "signature": "50c3caa6484bb2ee353eb7d28744a716367245a5a61d02edeadf9fb1c8afc3d4"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "6f683786c017487cf4b8dd0de935e6d04798453663fe8af4bf161208bd8caaec",
+        "core_sha256": "6f683786c017487cf4b8dd0de935e6d04798453663fe8af4bf161208bd8caaec",
+        "filename": "转换结果_current_9b69d33a3121.txt",
+        "signature": "9b69d33a31215e4343c20a6db7db1893a9bd24ce8883cbd9517ee7fec1f41305",
+        "expected_text": "橡ᴿo 木耳o 足球o 枫ᴺo 柠ᶜo 柠o\n橡ᴿo 木耳o 足球o 枫ᴺo 柠ᶜo 柠o\n柠ᶜ压具o 足球家o usona 足球o 橡o 橡ᴳo 枫o 麦ᴴo 麦o citrono 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "02db09e870bdd6be341152db58f26602bdc743877ceaf44b0aec5eaec08eb011",
+        "core_sha256": "36c06530388aac170647edfa3a038177e09b85e4e4379ddb9e4a3b3d3091589d",
+        "filename": "转换结果_current_09973061b9dd.html",
+        "signature": "09973061b9dda7059005e7e29b75c967659c62b5a4b62cff3949de0291ceb4c1"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "11a8685811ade7ff6dd577157e827b39ac0fa422db4c06f4c37ce4e62d21f3a9",
+        "core_sha256": "27195b237211af2d570fa8a3c5ad40ed84ce053fddf5f3ea373802487b19a097",
+        "filename": "转换结果_current_2e6261b2213a.html",
+        "signature": "2e6261b2213a12a6850de4b06f7f601abba3b83f19d09dc852a0e0d00310956f"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "572797611de7c5b9a882caa6e66adaec677877db73dc24191fa24a11f9ec4f9a",
+        "core_sha256": "572797611de7c5b9a882caa6e66adaec677877db73dc24191fa24a11f9ec4f9a",
+        "filename": "转换结果_legacy_923ee873a89b.txt",
+        "signature": "923ee873a89b7415df3bc0e0b0807cf0f507ba473584fae7a80ea3d4467fb0d5",
+        "expected_text": "木ᴿᴮo 菌ᴬᵁ̆o 球ᶠo 木ᴺᴳo 果ᶜo 柠檬o\n木ᴿᴮo 菌ᴬᵁ̆o 球ᶠo 木ᴺᴳo 果ᶜo 柠檬o\n果ᶜ压具o 球ᶠ家o usona 球ᶠo 橡o 橡ᴳo 枫o 麦ᴴo 麦o citrono 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "801b75d1c3ff6b54f1f5d1ca82d45c51968dd56048f838d243bc179d9394158f",
+        "core_sha256": "b0c943a421ef49c03c575c07fd319d4293eadfab15c4baf9e6ea4726ff66f60f",
+        "filename": "转换结果_legacy_033a030942bf.html",
+        "signature": "033a030942bf54803f4856dd1ccbd60e117fb20f5d5cf6738b6aff17ee5d34c0"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "11a8685811ade7ff6dd577157e827b39ac0fa422db4c06f4c37ce4e62d21f3a9",
+        "core_sha256": "27195b237211af2d570fa8a3c5ad40ed84ce053fddf5f3ea373802487b19a097",
+        "filename": "转换结果_legacy_dedb8bc01f41.html",
+        "signature": "dedb8bc01f410a6261a98f3375d52872f78de29ad98dbe6052a3c1f5357934b9"
+      }
+    ],
+    "KO": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "6f683786c017487cf4b8dd0de935e6d04798453663fe8af4bf161208bd8caaec",
+        "core_sha256": "6f683786c017487cf4b8dd0de935e6d04798453663fe8af4bf161208bd8caaec",
+        "filename": "치환결과_current_6fd6265b1816.txt",
+        "signature": "6fd6265b1816437f3d3ba8c4fa7dd507d6b5708e4011c8758a8aa9f1c09bb0bb",
+        "expected_text": "橡ᴿo 木耳o 足球o 枫ᴺo 柠ᶜo 柠o\n橡ᴿo 木耳o 足球o 枫ᴺo 柠ᶜo 柠o\n柠ᶜ压具o 足球家o usona 足球o 橡o 橡ᴳo 枫o 麦ᴴo 麦o citrono 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "9badfabf63c871b6468a93808824002ff3cb3274692f2c65c1de00d31296cab7",
+        "core_sha256": "0f5b1b8c88f58df9fdeb98ab18fb250aca6a5aeee7d1bf58626ef7ae5e0877f1",
+        "filename": "치환결과_current_0f751f40583c.html",
+        "signature": "0f751f40583c6e7c261a98a46a06649c76d253e9b242f362b5a0be38853d2042"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "373e98aa153952f99fd9b02773706393dfc8814cbec698c5c1383b331d109538",
+        "core_sha256": "798b50e13702686e58a6e0a7205d9431d64fccd8b82342f2c79db47bbddfd162",
+        "filename": "치환결과_current_217a0d5bd56a.html",
+        "signature": "217a0d5bd56a4100b55d6246ba067186f3a54a107dff356de98192ae052003dc"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "572797611de7c5b9a882caa6e66adaec677877db73dc24191fa24a11f9ec4f9a",
+        "core_sha256": "572797611de7c5b9a882caa6e66adaec677877db73dc24191fa24a11f9ec4f9a",
+        "filename": "치환결과_legacy_2ab68d8081ce.txt",
+        "signature": "2ab68d8081ce7b50b33af23d629a72282d149b022f66d6d4916961132ca98645",
+        "expected_text": "木ᴿᴮo 菌ᴬᵁ̆o 球ᶠo 木ᴺᴳo 果ᶜo 柠檬o\n木ᴿᴮo 菌ᴬᵁ̆o 球ᶠo 木ᴺᴳo 果ᶜo 柠檬o\n果ᶜ压具o 球ᶠ家o usona 球ᶠo 橡o 橡ᴳo 枫o 麦ᴴo 麦o citrono 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "c91ddbbecd5c404ba2ba3c2f563d543391dc9dbec651e76ec9c37d394262574c",
+        "core_sha256": "75c51bd5745cf7aaefe397a8a6dfeefe3e893365508cf17c6fe0d65d5952c31d",
+        "filename": "치환결과_legacy_67ea5fee8719.html",
+        "signature": "67ea5fee8719a9d4166dbccc9eb15f837cab668cbd1e00ac8d4c1abe14b70f40"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "373e98aa153952f99fd9b02773706393dfc8814cbec698c5c1383b331d109538",
+        "core_sha256": "798b50e13702686e58a6e0a7205d9431d64fccd8b82342f2c79db47bbddfd162",
+        "filename": "치환결과_legacy_142ec4695417.html",
+        "signature": "142ec4695417f22b38dbdfe979d52d0b3905d1fdfad49927ef7a0b152c62c539"
+      }
+    ]
+  },
+  "inverse": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "roburo aŭrikulario futbalo negundo citrono limono roburo aŭrikulario futbalo negundo citrono kverko glano acero hordeo",
+        "output_sha256": "ffb8a495ecc411f06c2984537df76392c4da22b6acf6c4b47b2b5dc28dd6a218",
+        "core_sha256": "ffb8a495ecc411f06c2984537df76392c4da22b6acf6c4b47b2b5dc28dd6a218",
+        "filename": "esperanto_new_oak-woodear-football-maple-lemon-20261127_c855fba51598_inverse_current-compound-inverse-20261018-v3_5f25f6a025b7.txt",
+        "provenance": "新版（更新中） / oak-woodear-football-maple-lemon-20261127 / c855fba51598 / inverse: current-compound-inverse-20261018-v3 / 5f25f6a025b7"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "橡ᴿo lignorelo piedpilko 枫ᴺo 柠ᶜo 柠o roburo aŭrikulario futbalo negundo citrono kverko glano acero hordeo",
+        "output_sha256": "25e878f31fd556c9614a26a3cbc9c0956f64dcbc7af9a8e28ae95a0408114125",
+        "core_sha256": "25e878f31fd556c9614a26a3cbc9c0956f64dcbc7af9a8e28ae95a0408114125",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "roburo aŭrikulario futbalo negundo citrono limono roburo aŭrikulario futbalo negundo citrono kverko glano acero hordeo",
+        "output_sha256": "ffb8a495ecc411f06c2984537df76392c4da22b6acf6c4b47b2b5dc28dd6a218",
+        "core_sha256": "ffb8a495ecc411f06c2984537df76392c4da22b6acf6c4b47b2b5dc28dd6a218",
+        "filename": "esperanto_new_oak-woodear-football-maple-lemon-20261127_c855fba51598_inverse_current-compound-inverse-20261018-v3_5f25f6a025b7.txt",
+        "provenance": "新版（更新中） / oak-woodear-football-maple-lemon-20261127 / c855fba51598 / inverse: current-compound-inverse-20261018-v3 / 5f25f6a025b7"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "橡ᴿo lignorelo piedpilko 枫ᴺo 柠ᶜo 柠o roburo aŭrikulario futbalo negundo citrono kverko glano acero hordeo",
+        "output_sha256": "25e878f31fd556c9614a26a3cbc9c0956f64dcbc7af9a8e28ae95a0408114125",
+        "core_sha256": "25e878f31fd556c9614a26a3cbc9c0956f64dcbc7af9a8e28ae95a0408114125",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ]
+  },
+  "inverse_source": "橡ᴿo 木耳o 足球o 枫ᴺo 柠ᶜo 柠o 木ᴿᴮo 菌ᴬᵁ̆o 球ᶠo 木ᴺᴳo 果ᶜo 橡o 橡ᴳo 枫o 麦ᴴo"
+}
