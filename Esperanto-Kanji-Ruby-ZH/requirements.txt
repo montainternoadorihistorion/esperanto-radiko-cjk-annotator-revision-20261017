@@ -1,2 +1,3 @@
+# Streamlit and pandas versions tested for both assignment editions.
 streamlit==1.50.0
 pandas==2.3.3
