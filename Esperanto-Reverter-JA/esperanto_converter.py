@@ -80,6 +80,7 @@ DEFAULT_DICTIONARY_ID = "pejvo-piv-20260620"
 CONVERTED_TEXT_KEY = "converted_text"
 CONVERTED_INPUT_KEY = "converted_input_text"
 CONVERTED_SOURCE_KEY = "converted_source_signature"
+CONVERTED_MAPPING_STATS_KEY = "converted_mapping_stats"
 
 # Fold ONLY ASCII A-Z. The 20 correlative keys (何a/全o/无u/某e/那o …) store their suffix
 # vowel in lowercase, so an uppercased vowel in the input (sentence-start / auto-capitalize)
@@ -155,7 +156,7 @@ def read_assignment_csv(source) -> pd.DataFrame:
     return pd.DataFrame(data)
 
 
-@st.cache_data(show_spinner=False)
+@st.cache_data(show_spinner=False, max_entries=len(VISIBLE_EDITION_IDS))
 def read_assignment_csv_from_path(path_text: str, mtime_ns: int) -> pd.DataFrame:
     return read_assignment_csv(Path(path_text))
 
@@ -214,8 +215,7 @@ def build_mapping_index(df: pd.DataFrame) -> MappingIndex:
 
 def dataframe_to_mapping_records(df: pd.DataFrame) -> tuple[tuple[str, str, str], ...]:
     # Vectorized column extraction instead of df.iterrows() (which materialises a Series per
-    # row). This builds the cache key on every Streamlit rerun, so it must be cheap; the
-    # tuple output is byte-identical to the previous per-row construction.
+    # row). Keep the tuple stable for index caching and CSV exports.
     def column(name: str) -> list[str]:
         if name in df.columns:
             return [str(value) for value in df[name].tolist()]
@@ -506,7 +506,7 @@ def legacy_effective_download_data(source_id: str) -> bytes:
     return output.getvalue().encode("utf-8")
 
 
-@st.cache_data(show_spinner=False)
+@st.cache_data(show_spinner=False, max_entries=len(VISIBLE_EDITION_IDS))
 def _build_mapping_index_payload_cached(
     records: tuple[tuple[str, str, str], ...],
 ) -> tuple[Dict[int, Dict[str, str]], List[int], int]:
@@ -929,15 +929,20 @@ def main() -> None:
             st.info("対応表を選択またはアップロードしてください。")
             return
 
-        mapping = build_mapping_index_cached(effective_mapping_records(source_id, df))
         st.success(f"{dictionary_label(source_id)} を読み込みました")
 
         if st.button("変換する", type="primary", use_container_width=True):
+            if source_id == "custom":
+                # Uploaded dictionaries belong to the current conversion only.
+                mapping = build_mapping_index(df)
+            else:
+                mapping = build_mapping_index_cached(effective_mapping_records(source_id, df))
             converted_text = convert_kanji_esperanto_to_alphabet(input_text, mapping)
             st.session_state[CONVERTED_TEXT_KEY] = converted_text
             st.session_state[CONVERTED_INPUT_KEY] = input_text
             st.session_state[CONVERTED_SOURCE_KEY] = source_signature
             st.session_state[CONVERTED_PROVENANCE_KEY] = dict(provenance)
+            st.session_state[CONVERTED_MAPPING_STATS_KEY] = (mapping.entry_count, mapping.max_length)
 
         converted_text = st.session_state.get(CONVERTED_TEXT_KEY, "")
         result_provenance = st.session_state.get(CONVERTED_PROVENANCE_KEY) or {}
@@ -965,13 +970,15 @@ def main() -> None:
                     "テキストをダウンロード", "plain_confirmed_download",
                 )
 
-            if result_is_current:
+            stats = st.session_state.get(CONVERTED_MAPPING_STATS_KEY)
+            if result_is_current and stats is not None:
+                entry_count, max_length = stats
                 st.markdown("---")
                 col_stat1, col_stat2, col_stat3, col_stat4 = st.columns(4)
                 col_stat1.metric("入力文字数", len(input_text))
                 col_stat2.metric("出力文字数", len(converted_text))
-                col_stat3.metric("辞書エントリ数", mapping.entry_count)
-                col_stat4.metric("最長エントリ", f"{mapping.max_length}文字")
+                col_stat3.metric("辞書エントリ数", entry_count)
+                col_stat4.metric("最長エントリ", f"{max_length}文字")
         else:
             st.info("変換ボタンをクリックしてください。")
 

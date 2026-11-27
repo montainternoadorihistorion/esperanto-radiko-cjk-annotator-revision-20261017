@@ -100,37 +100,12 @@ replacements_list_for_2char: List[Tuple[str, str, str]] = []
 # JSONファイルの読み込み方を分岐
 if selected_option == "📖 주석 루비（어근 위에 한국어 주석）":
     _bundled_html_ruby_mode = "annotation"
-    default_json_path = os.path.join(DATA_DIR, '置換リスト_ルビ.json')
-    _bundled_json_path = default_json_path
-    try:
-        (replacements_final_list,
-         replacements_list_for_localized_string,
-         replacements_list_for_2char) = load_replacements_lists(default_json_path)
-        st.success("✅ 주석 루비 모드 준비 완료.")
-    except Exception as e:
-        st.error(f"JSON 파일 불러오기에 실패했습니다: {e}")
-        st.stop()
+    _bundled_json_path = editions.resolve_path(DATA_DIR, "ruby", assignment_edition)
 elif selected_option == "🈶 한자화（한자＋어근 루비）":
     _bundled_html_ruby_mode = "kanji"
-    kanji_json_path = editions.resolve_path(DATA_DIR, "kanji", assignment_edition)
-    _bundled_json_path = kanji_json_path
-    try:
-        (replacements_final_list,
-         replacements_list_for_localized_string,
-         replacements_list_for_2char) = load_replacements_lists(kanji_json_path)
-        st.success("✅ 한자화 모드 준비 완료(한자 본문·어근 루비).")
-    except Exception as e:
-        st.error(f"한자화 버전 JSON 불러오기에 실패했습니다: {e}")
-        st.stop()
+    _bundled_json_path = editions.resolve_path(DATA_DIR, "kanji", assignment_edition)
 elif selected_option == "✂️ 한자화·순수 치환（태그 없는 텍스트）":
-    pure_json_path = editions.resolve_path(DATA_DIR, "pure", assignment_edition)
-    _bundled_json_path = pure_json_path
-    try:
-        replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(pure_json_path)
-        st.success("순수 치환판 JSON을 불러왔습니다. 에스페란토 문장이 태그 없는 한자 텍스트로 변환됩니다(예: amikeco → 友性o).")
-    except Exception as e:
-        st.error(f"순수 치환판 JSON 불러오기에 실패했습니다: {e}")
-        st.stop()
+    _bundled_json_path = editions.resolve_path(DATA_DIR, "pure", assignment_edition)
 else:
     uploaded_file = st.file_uploader("3개의 JSON을 병합한 치환용 .json 파일을 업로드해 주세요(파일명이 「○○(合并3个JSON文件).json」 형태)", type="json")
     if uploaded_file is not None:
@@ -159,9 +134,8 @@ else:
         st.warning("JSON 파일이 업로드되지 않았습니다. 처리를 중단합니다.")
         st.stop()
 
-reviewed_local_decompositions = bool(
-    _bundled_json_path and editions.supports_reviewed_local_decompositions(_bundled_json_path)
-)
+if _bundled_json_path:
+    st.caption("아래 입력란에 문장을 넣은 뒤 「🔁 변환하기」를 누르세요.")
 
 # 1.5) 수동 보정(경량 overlay)을 최우선으로 적용
 #   「어근 분해 수동 보정」페이지에서 저장한 보정(app_data/user_corrections.json)을,
@@ -187,32 +161,7 @@ with st.expander("📂 수동 보정 파일(user_corrections.json) 불러오기(
         except Exception as _e:
             st.error(f"불러오기 실패({_e}). 「어근 분해 수동 보정」 페이지에서 다운로드한 user_corrections.json 파일인지 확인해 주세요.")
 
-try:
-    import esp_overlay_module as _ov
-    _ov_mode = "kanji" if selected_option in ("🈶 한자화（한자＋어근 루비）", "✂️ 한자화·순수 치환（태그 없는 텍스트）") else "ruby"
-    _ov_entries_raw = _ov.load_overlay_entries(DATA_DIR, _ov_mode, assignment_edition)
-    if selected_option == "✂️ 한자화·순수 치환（태그 없는 텍스트）":
-        import re as _re_ov
-        _ov_entries = [[o, _re_ov.sub(r"</?ruby>", "", _re_ov.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_ov.DOTALL | _re_ov.IGNORECASE), flags=_re_ov.IGNORECASE), ph] for o, n, ph in _ov_entries_raw]
-    else:
-        _ov_entries = _ov_entries_raw
-    if _ov_entries and not str(selected_option).startswith("📤"):
-        # 自作JSONモードは形式が不明のため補正オーバーレイ(HTML)は適用しない
-        replacements_final_list = _ov.merge_overlay(replacements_final_list, _ov_entries)
-        st.info(f"어근 분해 품질 보정 데이터 {len(_ov.load_corrections(DATA_DIR))}건을 자동 적용 중입니다(**조작 불필요**. 내용은 「어근 분해 수동 보정」 페이지에서 확인·편집할 수 있습니다).")
-except Exception:
-    pass
 
-#=================================================================
-# 2) placeholders (占位符) の読み込み
-#    %...% や @...@ で囲った文字列を守るために使用する文字列群を読み込む
-#=================================================================
-placeholders_for_skipping_replacements: List[str] = import_placeholders(
-    os.path.join(DATA_DIR, 'placeholders_skip.txt')
-)
-placeholders_for_localized_replacement: List[str] = import_placeholders(
-    os.path.join(DATA_DIR, 'placeholders_localcapture.txt')
-)
 
 st.write("---")
 
@@ -343,9 +292,47 @@ if submit_btn and not (text0 or "").strip():
     st.warning("텍스트가 비어 있습니다. 에스페란토 문장을 입력한 뒤 「변환하기」를 눌러주세요.")
     st.stop()
 
-if submit_btn:
-    # text0 는 key="text0_value" 로 session_state 와 양방향 바인딩되어 있다.
-    # 여기서 수동 대입하면 위젯 생성 후 session_state 변경이 되어 오류가 나므로 하지 않는다.
+
+def convert_submitted_text(
+    text0, uploaded_rules, *, bundled_path, assignment_edition, selected_option,
+    format_type, letter_type, use_parallel, num_processes, explicit_occurrences,
+):
+    if bundled_path:
+        try:
+            replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = load_replacements_lists(bundled_path)
+        except Exception as e:
+            st.error(f"변환 사전을 불러오지 못했습니다：{e}")
+            st.stop()
+    else:
+        replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char = uploaded_rules
+
+    reviewed_local_decompositions = bool(
+        bundled_path and editions.supports_reviewed_local_decompositions(bundled_path)
+    )
+
+    if bundled_path:
+        try:
+            import esp_overlay_module as _ov
+            _ov_mode = "kanji" if selected_option in ("🈶 한자화（한자＋어근 루비）", "✂️ 한자화·순수 치환（태그 없는 텍스트）") else "ruby"
+            _ov_entries_raw = _ov.load_overlay_entries(DATA_DIR, _ov_mode, assignment_edition)
+            if selected_option == "✂️ 한자화·순수 치환（태그 없는 텍스트）":
+                import re as _re_ov
+                _ov_entries = [[o, _re_ov.sub(r"</?ruby>", "", _re_ov.sub(r"<rt[^>]*>.*?</rt>", "", n, flags=_re_ov.DOTALL | _re_ov.IGNORECASE), flags=_re_ov.IGNORECASE), ph] for o, n, ph in _ov_entries_raw]
+            else:
+                _ov_entries = _ov_entries_raw
+            if _ov_entries:
+                # 自作JSONモードは形式が不明のため補正オーバーレイ(HTML)は適用しない
+                replacements_final_list = _ov.merge_overlay(replacements_final_list, _ov_entries)
+                st.info(f"어근 분해 품질 보정 데이터 {len(_ov.load_corrections(DATA_DIR))}건을 자동 적용 중입니다(**조작 불필요**. 내용은 「어근 분해 수동 보정」 페이지에서 확인·편집할 수 있습니다).")
+        except Exception:
+            pass
+
+    placeholders_for_skipping_replacements: List[str] = import_placeholders(
+        os.path.join(DATA_DIR, 'placeholders_skip.txt')
+    )
+    placeholders_for_localized_replacement: List[str] = import_placeholders(
+        os.path.join(DATA_DIR, 'placeholders_localcapture.txt')
+    )
 
     if use_parallel:
         processed_text = parallel_process(
@@ -358,7 +345,7 @@ if submit_btn:
             replacements_list_for_2char=replacements_list_for_2char,
             format_type=format_type,
             reviewed_local_decompositions=reviewed_local_decompositions,
-            explicit_occurrences=_explicit_occurrences
+            explicit_occurrences=explicit_occurrences
         )
     else:
         processed_text = orchestrate_comprehensive_esperanto_text_replacement(
@@ -370,7 +357,7 @@ if submit_btn:
             replacements_list_for_2char=replacements_list_for_2char,
             format_type=format_type,
             reviewed_local_decompositions=reviewed_local_decompositions,
-            explicit_occurrences=_explicit_occurrences
+            explicit_occurrences=explicit_occurrences
         )
 
     # 1차 결과에 「어두 1자 고립」 과분해(자음 1자 고립: fero->f/er/o 등)가 있으면,
@@ -395,7 +382,7 @@ if submit_btn:
                     replacements_list_for_2char=replacements_list_for_2char,
                     format_type=format_type,
                     reviewed_local_decompositions=reviewed_local_decompositions,
-            explicit_occurrences=_explicit_occurrences)
+                    explicit_occurrences=explicit_occurrences)
             else:
                 processed_text = orchestrate_comprehensive_esperanto_text_replacement(
                     text=text0,
@@ -406,7 +393,7 @@ if submit_btn:
                     replacements_list_for_2char=replacements_list_for_2char,
                     format_type=format_type,
                     reviewed_local_decompositions=reviewed_local_decompositions,
-            explicit_occurrences=_explicit_occurrences)
+                    explicit_occurrences=explicit_occurrences)
     except Exception:
         pass
 
@@ -421,7 +408,16 @@ if submit_btn:
         processed_text = replace_esperanto_chars(processed_text, x_to_hat)
         processed_text = replace_esperanto_chars(processed_text, circumflex_to_hat)
 
-    processed_text = apply_ruby_html_header_and_footer(processed_text, format_type)
+    return apply_ruby_html_header_and_footer(processed_text, format_type)
+
+
+if submit_btn:
+    processed_text = convert_submitted_text(
+        text0, (replacements_final_list, replacements_list_for_localized_string, replacements_list_for_2char),
+        bundled_path=_bundled_json_path, assignment_edition=assignment_edition, selected_option=selected_option,
+        format_type=format_type, letter_type=letter_type, use_parallel=use_parallel,
+        num_processes=num_processes, explicit_occurrences=_explicit_occurrences,
+    )
 
     # 결과를 session_state 에 저장(재실행 시 사라지지 않도록＋결과를 편집 가능하게)
     st.session_state["result_html"] = processed_text
@@ -442,7 +438,7 @@ def _reset_edited_html():
 
 _result_meta = st.session_state.get("result_assignment_metadata")
 _matching_input = _source_ready and st.session_state.get("result_input_signature") == _current_input_signature
-_matching_result = editions.result_matches(_result_meta, DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type, "senses": _sense_settings}) and _matching_input
+_matching_result = bool(_result_meta) and _matching_input and editions.result_matches(_result_meta, DATA_DIR, assignment_edition, _custom_json_sha, {"mode": selected_option, "format": format_type, "letters": letter_type, "senses": _sense_settings})
 if st.session_state.get("result_html") and not _matching_result:
     if not _matching_input:
         st.info('입력 내용 또는 입력 방식이 변경되었습니다. 다시 변환한 후 저장해 주세요.')
