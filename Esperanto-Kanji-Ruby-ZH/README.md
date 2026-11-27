@@ -1,5 +1,10 @@
 > **旧版の参考資料 / Historical reference**
 
+## 11 月 27 日采纳的五个词根
+
+新版使用 robur＝橡ᴿ、aŭrikulari＝木耳、futbal＝足球、negund＝枫ᴺ、citron＝柠ᶜ。表示柠檬树的 limon 沿用不带标识符的「柠」。
+
+
 ## 北美白松、菌丝体与树懒
 
 新版用 strob＝松ˢ、miceli＝菌丝体、bradip＝树懒ᴮ。ake 的动物义用树懒。在两个版本中都可以在转换前选择表示族名的 ake。族名保留原拼写，注释显示“亚该亚人”。
