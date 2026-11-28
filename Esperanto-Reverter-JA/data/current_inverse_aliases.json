@@ -2,8 +2,8 @@
   "schema_version": 1,
   "revision": "current-compound-inverse-20261018-v3",
   "source_id": "pejvo-piv-20260620",
-  "dictionary_revision": "malus-kolibr-unau-mebl-20261128",
-  "current_csv_sha256": "ec2d8fb2cab700f5732b5dd2dae0b1a0b8b3a1da59e24508231503ed71d11f17",
+  "dictionary_revision": "gosipi-kupres-desmod-stakis-legend-20261128",
+  "current_csv_sha256": "bd00c51b49b861ab622f57daca3bdf7614eb10cde86d1a5505227742aafdbfa6",
   "required_canonical_owner": {
     "kanji": "丸ᴼ炎ᵀ",
     "esperanto": "orkidit"
