@@ -1,0 +1,204 @@
+{
+  "forward_source": "dafodilo pumilio labrusko kontralto\n@dafodil@o @pumili@o @labrusk@o @kontralt@o\nkontraltulino @kontralt@@ul@@in@o narciso jonkvilo pino mugo vito uvo soprano tenoro baritono %pumilio% @al@@ven@@ig@i",
+  "forward": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "978cf706fba1b6bbfc760a293148d447528996e696ec90f1467a51f788a78129",
+        "core_sha256": "978cf706fba1b6bbfc760a293148d447528996e696ec90f1467a51f788a78129",
+        "signature": "b24d1d396af936299e03dec7eb74354484f6707f74dee6cec3f9e90f0303d9b8",
+        "filename": "置換結果_current_b24d1d396af9.txt",
+        "expected_text": "水仙ᴰo 松ᴾᴹo 葡ᴸo 女低音o\n水仙ᴰo 松ᴾᴹo 葡ᴸo 女低音o\n女低音者女o 女低音者女o 水仙o 水仙ᴶo 松o 松ᴹo 葡o 葡ᵁo 女高音o 男高音o 男中音o pumilio 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "406bbf6a84377735bdea0de2211baf6bb5e8c722ee81db0d5e32a599009158fb",
+        "core_sha256": "9a5a132362aad8adb7f577025355c05afde26c0455f55896bd9ddc805e97a291",
+        "signature": "952407f3873000a43bc3c0f91d290df82b42359e71a575a7b1b249bf68cd6ace",
+        "filename": "置換結果_current_952407f38730.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "2f71137fdf231ebf87f34154d8c1e5f2cda9569a70e027b3a0303856a0a2c803",
+        "core_sha256": "c7835a76bb7842a9e16af9b0197b911ee3285ee9c092959088a1e91769d00527",
+        "signature": "b3b3b8771acaed7ebe143155373aeef1b46ca09ec14623351555d2624383cd6b",
+        "filename": "置換結果_current_b3b3b8771aca.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "95870a8e3fcc130aabb9e447b9a89923de6f5d697010c1694cfec8c826b8d918",
+        "core_sha256": "95870a8e3fcc130aabb9e447b9a89923de6f5d697010c1694cfec8c826b8d918",
+        "signature": "ed2691b7b9e3c91c913715992ab6ab5f2812b5eeda7192d81efb9b86121beb0e",
+        "filename": "置換結果_legacy_ed2691b7b9e3.txt",
+        "expected_text": "草ᴰᶠo 木ᴾᴹo 草ᴸᴮo 女低o\n草ᴰᶠo 木ᴾᴹo 草ᴸᴮo 女低o\n女低者女o 女低者女o 水仙o 水仙ᴶo 松o 木ᴹᵁo 葡o 葡萄o 女高音o 男高音o 男中音o pumilio 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "28a181e6d479a7d6dd44a949d84865dea9748d5b55713068fe014a8675c96ea4",
+        "core_sha256": "fb06e7b86b10d3dd449895613e27ac2fe1b958f1656076446257fb1cbb3d65ab",
+        "signature": "32ac1c57d2278dbd1652312a50dd0865a3876e9901e4f14612d29c493ed82d8d",
+        "filename": "置換結果_legacy_32ac1c57d227.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "2f71137fdf231ebf87f34154d8c1e5f2cda9569a70e027b3a0303856a0a2c803",
+        "core_sha256": "c7835a76bb7842a9e16af9b0197b911ee3285ee9c092959088a1e91769d00527",
+        "signature": "9fee39f107976bf23ee3bc2fa217b99e53c3b5d8edf8edc8de3400058e8643bb",
+        "filename": "置換結果_legacy_9fee39f10797.html"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "978cf706fba1b6bbfc760a293148d447528996e696ec90f1467a51f788a78129",
+        "core_sha256": "978cf706fba1b6bbfc760a293148d447528996e696ec90f1467a51f788a78129",
+        "signature": "c0162696f348872103483d8e27493af5464801b814e73dd3791cc08ddcee4d4c",
+        "filename": "转换结果_current_c0162696f348.txt",
+        "expected_text": "水仙ᴰo 松ᴾᴹo 葡ᴸo 女低音o\n水仙ᴰo 松ᴾᴹo 葡ᴸo 女低音o\n女低音者女o 女低音者女o 水仙o 水仙ᴶo 松o 松ᴹo 葡o 葡ᵁo 女高音o 男高音o 男中音o pumilio 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "6a4f1a4505f328efafee69b9c66b84b2cb9d2a07f8e2a66f466bb115056e37ec",
+        "core_sha256": "1380f8ffacc1d99ff02512b1d5c66b68c81b042ba8fbab8733ed10603b69c957",
+        "signature": "cdfc79340d82c60e72c735514439b16e3cf585dc10696882873ade40b76a3cea",
+        "filename": "转换结果_current_cdfc79340d82.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "c87ce221cecd26ab925b4207f680e1a6f190b2393699938ad2385115aa0467b4",
+        "core_sha256": "090c29470ab92970005072b1af0883afcf5bc8e2506dfe4e64dff152bed53918",
+        "signature": "b69bb8d69abc44673cbb98458b0f2906fc82a0cb47557f4968c0aae6dc1e0783",
+        "filename": "转换结果_current_b69bb8d69abc.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "95870a8e3fcc130aabb9e447b9a89923de6f5d697010c1694cfec8c826b8d918",
+        "core_sha256": "95870a8e3fcc130aabb9e447b9a89923de6f5d697010c1694cfec8c826b8d918",
+        "signature": "923ee873a89b7415df3bc0e0b0807cf0f507ba473584fae7a80ea3d4467fb0d5",
+        "filename": "转换结果_legacy_923ee873a89b.txt",
+        "expected_text": "草ᴰᶠo 木ᴾᴹo 草ᴸᴮo 女低o\n草ᴰᶠo 木ᴾᴹo 草ᴸᴮo 女低o\n女低者女o 女低者女o 水仙o 水仙ᴶo 松o 木ᴹᵁo 葡o 葡萄o 女高音o 男高音o 男中音o pumilio 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "50e19abcb7c1224c193cc044b17cd1badccf7a15058e2eeca346a19697eec711",
+        "core_sha256": "b14a37c8e237f95be322de5723dd8dd7c2e79524d7888279f9602a67c4103142",
+        "signature": "033a030942bf54803f4856dd1ccbd60e117fb20f5d5cf6738b6aff17ee5d34c0",
+        "filename": "转换结果_legacy_033a030942bf.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "c87ce221cecd26ab925b4207f680e1a6f190b2393699938ad2385115aa0467b4",
+        "core_sha256": "090c29470ab92970005072b1af0883afcf5bc8e2506dfe4e64dff152bed53918",
+        "signature": "dedb8bc01f410a6261a98f3375d52872f78de29ad98dbe6052a3c1f5357934b9",
+        "filename": "转换结果_legacy_dedb8bc01f41.html"
+      }
+    ],
+    "KO": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "978cf706fba1b6bbfc760a293148d447528996e696ec90f1467a51f788a78129",
+        "core_sha256": "978cf706fba1b6bbfc760a293148d447528996e696ec90f1467a51f788a78129",
+        "signature": "b60e89b05caafdd6febb459cbd412a684c955931795be5917966c3d6ae3ade44",
+        "filename": "치환결과_current_b60e89b05caa.txt",
+        "expected_text": "水仙ᴰo 松ᴾᴹo 葡ᴸo 女低音o\n水仙ᴰo 松ᴾᴹo 葡ᴸo 女低音o\n女低音者女o 女低音者女o 水仙o 水仙ᴶo 松o 松ᴹo 葡o 葡ᵁo 女高音o 男高音o 男中音o pumilio 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "56a0cbc0f5fb4324dffb545dac95ea03c0f6799f5a7cae375dbc12c94a67637e",
+        "core_sha256": "353fbac13e4cc62d2d267682f50062f5db85429b1a73cfec82369d5d44b83f07",
+        "signature": "defb33a510969263741c526c9c65cfa37ec7061f3eee7914aaf4f0b5eb15f237",
+        "filename": "치환결과_current_defb33a51096.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "f88bcda71bc83568d3ceba76e6b9005acc15a84ec7cd60e44f196494b033080e",
+        "core_sha256": "6a9d3ae717c8bf319ba9a5c2b461b38abdbe007e32a36b8e806bcf57a623b1b2",
+        "signature": "777230e33ad6d515cbbc4070edf395a0cf05742edca23b72cd0394cb95d7b2af",
+        "filename": "치환결과_current_777230e33ad6.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "95870a8e3fcc130aabb9e447b9a89923de6f5d697010c1694cfec8c826b8d918",
+        "core_sha256": "95870a8e3fcc130aabb9e447b9a89923de6f5d697010c1694cfec8c826b8d918",
+        "signature": "68b4f45d49b540250f82a6d85c42cbcf448f9381785055ea3d198f815b99698c",
+        "filename": "치환결과_legacy_68b4f45d49b5.txt",
+        "expected_text": "草ᴰᶠo 木ᴾᴹo 草ᴸᴮo 女低o\n草ᴰᶠo 木ᴾᴹo 草ᴸᴮo 女低o\n女低者女o 女低者女o 水仙o 水仙ᴶo 松o 木ᴹᵁo 葡o 葡萄o 女高音o 男高音o 男中音o pumilio 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "85998ce906e4a101a388704d38b72c0f4ac3baab18c1491dd4e831a1040960c7",
+        "core_sha256": "470c6032cd957e91bce029e87706b20d5f96bcbe476c67a7892b83960de1afe8",
+        "signature": "ef0e918cf44eb473fc46380a2f80761e7ea64a25ddcb5275341873ef2e445847",
+        "filename": "치환결과_legacy_ef0e918cf44e.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "f88bcda71bc83568d3ceba76e6b9005acc15a84ec7cd60e44f196494b033080e",
+        "core_sha256": "6a9d3ae717c8bf319ba9a5c2b461b38abdbe007e32a36b8e806bcf57a623b1b2",
+        "signature": "5cab5a903bea0ae55006d819c5de0acde805bbf6e1b57fb00d92ecf8581abc09",
+        "filename": "치환결과_legacy_5cab5a903bea.html"
+      }
+    ]
+  },
+  "inverse_source": "松ᴾᴹo 葡ᴸo 水仙ᴰo 女低音o\n木ᴾᴹo 草ᴸᴮo 草ᴰᶠo 女低o\n女低音者女o 女低者女o",
+  "inverse": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "pumilio labrusko dafodilo kontralto\npumilio labrusko dafodilo kontralto\nkontraltulino kontraltulino",
+        "output_sha256": "619a807216b6d8e46558bbc6346a3d56e06732434ccb216a7f208aa98d3b2feb",
+        "core_sha256": "619a807216b6d8e46558bbc6346a3d56e06732434ccb216a7f208aa98d3b2feb",
+        "filename": "esperanto_new_pumili-labrusk-dafodil-kontralt-20261128_5d157c0f9785_inverse_current-compound-inverse-20261018-v3_05143c2df9e3.txt",
+        "provenance": "新版（更新中） / pumili-labrusk-dafodil-kontralt-20261128 / 5d157c0f9785 / inverse: current-compound-inverse-20261018-v3 / 05143c2df9e3"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "松ᴾᴹo 葡ᴸo akv仙ᴰo kontraltprononco\npumilio labrusko dafodilo kontralto\nkontraltprononculino kontraltulino",
+        "output_sha256": "67cd6151e302d13391166ac662247d9db75f4a46d7ee8afff145e0d5e0aa9485",
+        "core_sha256": "67cd6151e302d13391166ac662247d9db75f4a46d7ee8afff145e0d5e0aa9485",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "pumilio labrusko dafodilo kontralto\npumilio labrusko dafodilo kontralto\nkontraltulino kontraltulino",
+        "output_sha256": "619a807216b6d8e46558bbc6346a3d56e06732434ccb216a7f208aa98d3b2feb",
+        "core_sha256": "619a807216b6d8e46558bbc6346a3d56e06732434ccb216a7f208aa98d3b2feb",
+        "filename": "esperanto_new_pumili-labrusk-dafodil-kontralt-20261128_5d157c0f9785_inverse_current-compound-inverse-20261018-v3_05143c2df9e3.txt",
+        "provenance": "新版（更新中） / pumili-labrusk-dafodil-kontralt-20261128 / 5d157c0f9785 / inverse: current-compound-inverse-20261018-v3 / 05143c2df9e3"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "松ᴾᴹo 葡ᴸo akv仙ᴰo kontraltprononco\npumilio labrusko dafodilo kontralto\nkontraltprononculino kontraltulino",
+        "output_sha256": "67cd6151e302d13391166ac662247d9db75f4a46d7ee8afff145e0d5e0aa9485",
+        "core_sha256": "67cd6151e302d13391166ac662247d9db75f4a46d7ee8afff145e0d5e0aa9485",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ]
+  }
+}
