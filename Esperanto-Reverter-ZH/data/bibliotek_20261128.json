@@ -1,0 +1,30 @@
+{
+  "revision": "bibliotek-20261128",
+  "changes": {
+    "bibliotek": {
+      "old": "库ᴮ",
+      "current": "书库"
+    }
+  },
+  "group_counts": {
+    "书库": [
+      0,
+      1
+    ],
+    "库": [
+      5,
+      4
+    ]
+  },
+  "safe_reverse_aliases": {
+    "库ᴮ": "bibliotek"
+  },
+  "canonical_sidecar_sha256": "e65e3d58a1017c75e7af8e548ec53273a5312b8c72a85162f34c6be52cc62c66",
+  "baseline_monaco_sha256": "f05b6004b28404c5a4667258c6bc7408f38634d80896d6a3b5de62c2155b9f60",
+  "current_monaco_sha256": "caf5ff9fac68bc509cf49d38461a35c62717d2dbc561f768c87118e0b66a3fe2",
+  "current_items": 10640,
+  "unchanged_assignment_count": 10639,
+  "group_count_documentation_changes": 4,
+  "prior_displayed_group_counts": {},
+  "rationale": "书 identifies books and 库 a place or collection that holds them. The current unmarked 书库 belongs to the independent root bibliotek. 库ᴮ remains a reverse-only alias; the fixed edition retains the compound librkas for 书库."
+}

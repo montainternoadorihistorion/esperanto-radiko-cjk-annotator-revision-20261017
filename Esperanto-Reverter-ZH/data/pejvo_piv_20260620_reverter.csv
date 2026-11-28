@@ -4518,6 +4518,7 @@ septembr,九月,0,septembr,637
 nek,也不,0,nek,703
 skrib,书ˢ,0,skrib,960
 uncial,书体,0,uncial,7775
+bibliotek,书库,0,bibliotek,3627
 kaligraf,书法,0,kaligraf,7191
 pelmel,乱ᴾ,0,pelmel,4532
 turbul,乱ᵀ,0,turbul,4531
@@ -5686,7 +5687,7 @@ mecenat,庇ᴹ,0,mecenat,4064
 sekvenc,序ˢ,0,sekvenc,2041
 uvertur,序曲,0,uvertur,8664
 arsenal,库ᴬ,0,arsenal,3629
-bibliotek,库ᴮ,0,bibliotek,3627
+bibliotek,库ᴮ,0,bibliotek,reverse-alias:20261128
 garaĝ,库ᴳ,0,garaĝ,3626
 remiz,库ᴿ,0,remiz,3628
 bent,底栖,0,bent,7367
