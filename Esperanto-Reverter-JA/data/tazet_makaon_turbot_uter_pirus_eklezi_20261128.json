@@ -1,0 +1,108 @@
+{
+  "revision": "tazet-makaon-turbot-uter-pirus-eklezi-20261128",
+  "changes": {
+    "tazet": {
+      "old": "草ᵀᶻ",
+      "current": "水仙ᵀ"
+    },
+    "makaon": {
+      "old": "虫ᴹᴷ",
+      "current": "蝶ᴹ"
+    },
+    "turbot": {
+      "old": "鱼ᵀᴮ",
+      "current": "比目鱼ᵀ"
+    },
+    "uter": {
+      "old": "宫ᵁ",
+      "current": "子宫"
+    },
+    "pirus": {
+      "old": "木ᴾᴵ",
+      "current": "梨ᴾˢ"
+    },
+    "eklezi": {
+      "old": "教ᴱ",
+      "current": "教会"
+    },
+    "uterit": {
+      "old": "宫ᵁ炎ᵀ",
+      "current": "子宫炎ᵀ"
+    }
+  },
+  "group_counts": {
+    "子宫": [
+      0,
+      1
+    ],
+    "子宫炎ᵀ": [
+      0,
+      1
+    ],
+    "宫": [
+      2,
+      1
+    ],
+    "宫ᵁ炎ᵀ": [
+      1,
+      0
+    ],
+    "教": [
+      6,
+      5
+    ],
+    "教会": [
+      0,
+      1
+    ],
+    "木": [
+      258,
+      257
+    ],
+    "梨": [
+      1,
+      2
+    ],
+    "比目鱼": [
+      4,
+      5
+    ],
+    "水仙": [
+      3,
+      4
+    ],
+    "草": [
+      375,
+      374
+    ],
+    "虫": [
+      105,
+      104
+    ],
+    "蝶": [
+      6,
+      7
+    ],
+    "鱼": [
+      106,
+      105
+    ]
+  },
+  "safe_reverse_aliases": {
+    "草ᵀᶻ": "tazet",
+    "虫ᴹᴷ": "makaon",
+    "鱼ᵀᴮ": "turbot",
+    "宫ᵁ": "uter",
+    "木ᴾᴵ": "pirus",
+    "教ᴱ": "eklezi",
+    "宫ᵁ炎ᵀ": "uterit"
+  },
+  "canonical_sidecar_sha256": "9c202ea3af4d635c85a495a967c98e5119772e3b5e5fdb08fff2f61d6d2a237a",
+  "baseline_monaco_sha256": "fab9bc39f6434469bf5857249dd627d0882f328d76c15f8f89aa4936495399f5",
+  "current_monaco_sha256": "f73d46f9b8d885e0171f3d7838f3e5260ade7fb5aae0f78e8be6c50f544f5e1c",
+  "current_items": 10640,
+  "unchanged_assignment_count": 10633,
+  "group_count_documentation_changes": 860,
+  "prior_displayed_group_counts": {},
+  "rationale": "Use shared groups for Narcissus tazetta, Papilio machaon, turbot and Pyrus, retaining the unmarked pir. 子宫 names the organ and extends to the documented uterit form. 教会 reflects the community. All earlier spellings remain readable."
+}

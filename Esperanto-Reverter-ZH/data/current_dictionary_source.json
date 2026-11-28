@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "revision": "gosipi-kupres-desmod-stakis-legend-20261128",
+  "revision": "tazet-makaon-turbot-uter-pirus-eklezi-20261128",
   "integrated_repository": "esperanto-kanji-project-revision-20261016",
   "monaco_all_path": "kanji-esperanto-monaco/all.json",
-  "monaco_all_sha256": "fab9bc39f6434469bf5857249dd627d0882f328d76c15f8f89aa4936495399f5",
+  "monaco_all_sha256": "f73d46f9b8d885e0171f3d7838f3e5260ade7fb5aae0f78e8be6c50f544f5e1c",
   "canonical_sidecar_path": "エスペラント語根＿漢字割り当て＿20260630/_identifier_sidecar.tsv",
-  "canonical_sidecar_sha256": "42e8bd9dec7825e865ce4dffd46c193ac775cab98e913060abcc90fd4bfc9acb",
+  "canonical_sidecar_sha256": "9c202ea3af4d635c85a495a967c98e5119772e3b5e5fdb08fff2f61d6d2a237a",
   "old_upstream_commit": "151bf3c3fe3d4845738cf1f686676f6eb58ac114",
   "old_csv_sha256": "eed2a8bfc21a97b719e40b703ca356a6b9cd37e772811bd6d62203cfc00c4c14",
   "assignment_changes": {
@@ -964,10 +964,38 @@
     "legend": {
       "old": "传ᴸ",
       "current": "读须"
+    },
+    "tazet": {
+      "old": "草ᵀᶻ",
+      "current": "水仙ᵀ"
+    },
+    "makaon": {
+      "old": "虫ᴹᴷ",
+      "current": "蝶ᴹ"
+    },
+    "turbot": {
+      "old": "鱼ᵀᴮ",
+      "current": "比目鱼ᵀ"
+    },
+    "uter": {
+      "old": "宫ᵁ",
+      "current": "子宫"
+    },
+    "pirus": {
+      "old": "木ᴾᴵ",
+      "current": "梨ᴾˢ"
+    },
+    "eklezi": {
+      "old": "教ᴱ",
+      "current": "教会"
+    },
+    "uterit": {
+      "old": "宫ᵁ炎ᵀ",
+      "current": "子宫炎ᵀ"
     }
   },
-  "current_csv_sha256": "bd00c51b49b861ab622f57daca3bdf7614eb10cde86d1a5505227742aafdbfa6",
-  "current_snippet_csv_sha256": "6f53e6f90f48951193d05824ee39a9f8b5042769b090e9160d5d3c5cc18506fa",
+  "current_csv_sha256": "6f8848ea63fb6bf8bc0ff6f6484c55f14efe7058701c8aeb7957146203d3caaf",
+  "current_snippet_csv_sha256": "eaeb567435d32b462dafb1274a62704f2e1554ffcde1c45acb5b042349ce629c",
   "bundled_monaco_source": "data/monaco_source_20261017.json",
   "reverse_only_aliases": {
     "菠萝": "ananas",
@@ -1123,13 +1151,20 @@
     "木ᴷˢ": "kupres",
     "兽ᴰˢ": "desmod",
     "草ˢᵀᴬ": "stakis",
-    "传ᴸ": "legend"
+    "传ᴸ": "legend",
+    "草ᵀᶻ": "tazet",
+    "虫ᴹᴷ": "makaon",
+    "鱼ᵀᴮ": "turbot",
+    "宫ᵁ": "uter",
+    "木ᴾᴵ": "pirus",
+    "教ᴱ": "eklezi",
+    "宫ᵁ炎ᵀ": "uterit"
   },
   "mirror_identifier_manifest": "data/mirror-identifiers-20261017.json",
   "mirror_identifier_manifest_sha256": "3c1b5b64f86a2223ac4c0253f34138303836156a59541e720668fb81d3a44f60",
   "pre_mirror_csv_sha256": "4e24c193334750b77bf5bae60b69fe3f06c413e63ff48c62bc5381168a651f7a",
   "current_item_count": 10640,
-  "current_csv_count": 10801,
+  "current_csv_count": 10808,
   "stafilokok_assignment_manifest": "data/stafilokok-assignment-20261017.json",
   "stafilokok_assignment_manifest_sha256": "186841dd9611294da99c00db43c8ec5185c423d97c5fb6c5c6f434950c60967a",
   "four_shared_assignment_manifest": "data/four-shared-assignments-20261017.json",
@@ -1361,5 +1396,7 @@
   "malus_kolibr_unau_mebl_20261128_manifest": "data/malus_kolibr_unau_mebl_20261128.json",
   "malus_kolibr_unau_mebl_20261128_manifest_sha256": "cc59558f486830c9bd9f684293b664f31c5e93262321fbe6a1c787a75afdf46d",
   "gosipi_kupres_desmod_stakis_legend_20261128_manifest": "data/gosipi_kupres_desmod_stakis_legend_20261128.json",
-  "gosipi_kupres_desmod_stakis_legend_20261128_manifest_sha256": "596af27a3f062c7331aea6425d528ee6f07e13d24a74ab398793aa8f80a28d68"
+  "gosipi_kupres_desmod_stakis_legend_20261128_manifest_sha256": "596af27a3f062c7331aea6425d528ee6f07e13d24a74ab398793aa8f80a28d68",
+  "tazet_makaon_turbot_uter_pirus_eklezi_20261128_manifest": "data/tazet_makaon_turbot_uter_pirus_eklezi_20261128.json",
+  "tazet_makaon_turbot_uter_pirus_eklezi_20261128_manifest_sha256": "9d458397e4fc01c76f716b01691fa6b61a8725780ed1c6b2846256fb9a4d052c"
 }

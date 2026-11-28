@@ -342,7 +342,7 @@ def convert_submitted_text(
             replacements_list_for_2char=replacements_list_for_2char,
             format_type=format_type,
             reviewed_local_decompositions=reviewed_local_decompositions,
-            explicit_occurrences=explicit_occurrences
+            explicit_occurrences=explicit_occurrences, assignment_edition=assignment_edition
         )
     else:
         processed_text = orchestrate_comprehensive_esperanto_text_replacement(
@@ -354,7 +354,7 @@ def convert_submitted_text(
             replacements_list_for_2char=replacements_list_for_2char,
             format_type=format_type,
             reviewed_local_decompositions=reviewed_local_decompositions,
-            explicit_occurrences=explicit_occurrences
+            explicit_occurrences=explicit_occurrences, assignment_edition=assignment_edition
         )
 
     # 第1遍若出现「词首单字游离」过度分解(辅音单字游离: fero->f/er/o 等),
@@ -379,7 +379,7 @@ def convert_submitted_text(
                     replacements_list_for_2char=replacements_list_for_2char,
                     format_type=format_type,
                     reviewed_local_decompositions=reviewed_local_decompositions,
-                    explicit_occurrences=explicit_occurrences)
+                    explicit_occurrences=explicit_occurrences, assignment_edition=assignment_edition)
             else:
                 processed_text = orchestrate_comprehensive_esperanto_text_replacement(
                     text=text0,
@@ -390,7 +390,7 @@ def convert_submitted_text(
                     replacements_list_for_2char=replacements_list_for_2char,
                     format_type=format_type,
                     reviewed_local_decompositions=reviewed_local_decompositions,
-                    explicit_occurrences=explicit_occurrences)
+                    explicit_occurrences=explicit_occurrences, assignment_edition=assignment_edition)
     except Exception:
         pass
 

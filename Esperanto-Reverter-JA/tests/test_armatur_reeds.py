@@ -57,7 +57,7 @@ def test_no_intermediate_profile_or_ambiguous_old_spelling_aliases():
 def test_current_manifest_downloads_and_group_descriptions():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     path=app.ROOT/source['armatur_reeds_manifest'];manifest=json.loads(path.read_bytes())
-    assert source['revision']=='gosipi-kupres-desmod-stakis-legend-20261128'
+    assert source['revision']=='tazet-makaon-turbot-uter-pirus-eklezi-20261128'
     assert manifest['revision']=='2026-10-25-armatur-reeds'
     assert manifest['changes']=={r:list(v) for r,v in CHANGES.items()}
     assert manifest['safe_reverse_aliases']=={}
@@ -88,6 +88,11 @@ def test_current_manifest_downloads_and_group_descriptions():
     reviewed = json.loads(reviewed_bytes)
     new_plant_ids = {'gosipi': ('棉', 'g'), 'stakis': ('水苏', 'ss')}
     assert set(manifest['documentation_only_changes']) & reviewed['changes'].keys() == new_plant_ids.keys()
+    later_path = app.ROOT / source['tazet_makaon_turbot_uter_pirus_eklezi_20261128_manifest']
+    later_bytes = later_path.read_bytes()
+    assert hashlib.sha256(later_bytes).hexdigest() == source['tazet_makaon_turbot_uter_pirus_eklezi_20261128_manifest_sha256']
+    later = json.loads(later_bytes)
+    assert set(manifest['documentation_only_changes']) & later['changes'].keys() == {'tazet'}
     for root in manifest['documentation_only_changes']:
         expected = latest['expected_target_items'].get(root, manifest['expected_target_items'][root])
         if root in plants['expected_target_items']:
@@ -118,25 +123,27 @@ def test_current_manifest_downloads_and_group_descriptions():
             expected_doc = expected_doc.replace(count_line, f'\nグループ数: {after}\n')
         body = expected['body']
         before_kanji = expected['kanji']
-        if root in new_plant_ids:
-            assert body == reviewed['changes'][root]['old']
-            body = reviewed['changes'][root]['current']
-            after_kanji, identifier = new_plant_ids[root]
-            fields = dict(line.split(': ', 1) for line in expected_doc.splitlines())
-            assert fields['最終形'] == expected['body'] and fields['漢字'] == before_kanji
-            assert fields['グループ数'] == str(reviewed['group_counts'][before_kanji][0])
-            fields.update({'最終形': body, '漢字': after_kanji, '識別子': identifier,
-                           'グループ数': str(reviewed['group_counts'][after_kanji][1])})
-            expected_doc = '\n'.join(f'{name}: {value}' for name, value in fields.items())
-        elif before_kanji in reviewed['group_counts']:
-            before, after = reviewed['group_counts'][before_kanji]
-            count_line = f'\nグループ数: {before}\n'
-            assert count_line in expected_doc
-            expected_doc = expected_doc.replace(count_line, f'\nグループ数: {after}\n')
+        for update, identifiers in ((reviewed, new_plant_ids), (later, {'tazet': ('水仙', 't')})):
+            if root in identifiers:
+                assert body == update['changes'][root]['old']
+                body = update['changes'][root]['current']
+                after_kanji, identifier = identifiers[root]
+                fields = dict(line.split(': ', 1) for line in expected_doc.splitlines())
+                assert fields['最終形'] == update['changes'][root]['old'] and fields['漢字'] == before_kanji
+                assert fields['グループ数'] == str(update['group_counts'][before_kanji][0])
+                fields.update({'最終形': body, '漢字': after_kanji, '識別子': identifier,
+                               'グループ数': str(update['group_counts'][after_kanji][1])})
+                expected_doc = '\n'.join(f'{name}: {value}' for name, value in fields.items())
+                before_kanji = after_kanji
+            elif before_kanji in update['group_counts']:
+                before, after = update['group_counts'][before_kanji]
+                count_line = f'\nグループ数: {before}\n'
+                assert count_line in expected_doc
+                expected_doc = expected_doc.replace(count_line, f'\nグループ数: {after}\n')
         row = next(row for row in monaco['items'] if row['sourceRoot']==root and row['body']==body)
         assert row['documentation'] == expected_doc
     for body,root in CONTROLS.items():assert items[root]['body']==body
-    rows=list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding='utf-8'))));assert len(rows)==10801
+    rows=list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding='utf-8'))));assert len(rows)==10808
     for root,(_,new) in CHANGES.items():assert [r['kanji'] for r in rows if r['source_root']==root]==[new]
     full,two=app.edition_download_data(CURRENT)
     assert hashlib.sha256(full).hexdigest()==source['current_csv_sha256']
