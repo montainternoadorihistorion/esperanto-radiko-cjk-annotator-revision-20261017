@@ -19,6 +19,7 @@ VALUES={norm(r['root']):r for r in SCOPE['changes']}
 # Current-value checks follow the later approved uve shortening. Keep the
 # historical scope and its fingerprint unchanged, including the before value.
 VALUES['uveit']={**VALUES['uveit'],'after':'葡膜炎ᵀ'}
+VALUES['uterit']={**VALUES['uterit'],'after':'子宫炎ᵀ'}
 # Later user-approved onk component propagates only to these two whole-root mirrors.
 VALUES['onkogen']={**VALUES['onkogen'],'after':'瘤ᴼ生ᴳ'}
 VALUES['onkologi']={**VALUES['onkologi'],'after':'瘤ᴼ学ᴸᴳ'}

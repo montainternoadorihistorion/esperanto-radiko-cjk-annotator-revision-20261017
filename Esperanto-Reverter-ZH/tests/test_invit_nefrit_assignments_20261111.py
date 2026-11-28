@@ -62,7 +62,7 @@ def test_current_downloads_include_only_the_distinct_mineral_key():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     data=json.loads((app.ROOT/'data/monaco_source_20261017.json').read_bytes())
     senses=json.loads((app.ROOT/'data/explicit_sense_assignments_20261111.json').read_bytes())
-    assert source['revision']=='gosipi-kupres-desmod-stakis-legend-20261128'
+    assert source['revision']=='tazet-makaon-turbot-uter-pirus-eklezi-20261128'
     assert len(data['items'])==source['current_item_count']==10640
     assert [x['body'] for x in data['items'] if x['sourceRoot']=='nefrit']==[MEDICAL]
     ordinary=rows_from_all_json(data)

@@ -73,14 +73,14 @@ def _render_probe(word, json_path, fmt, mode):
     text = " " + word + " "
     h = orchestrate_comprehensive_esperanto_text_replacement(
         text, _PS, GL, _PL, GG, G2, fmt,
-        reviewed_local_decompositions=editions.supports_reviewed_local_decompositions(json_path),
+        reviewed_local_decompositions=editions.supports_reviewed_local_decompositions(json_path), assignment_edition=assignment_edition,
     )
     try:
         automatic = ov.auto_overlay_entries(h, DATA, mode, assignment_edition)
         if automatic:
             h = orchestrate_comprehensive_esperanto_text_replacement(
                 text, _PS, GL, _PL, ov.merge_overlay(GG, automatic), G2, fmt,
-                reviewed_local_decompositions=editions.supports_reviewed_local_decompositions(json_path),
+                reviewed_local_decompositions=editions.supports_reviewed_local_decompositions(json_path), assignment_edition=assignment_edition,
             )
     except Exception:
         pass  # Match main.py: an optional autofix failure retains the first pass.

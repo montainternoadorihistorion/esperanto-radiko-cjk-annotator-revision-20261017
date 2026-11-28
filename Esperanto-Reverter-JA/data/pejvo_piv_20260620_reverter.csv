@@ -939,6 +939,7 @@ vaginalit,套ⱽ炎ᵀ,0,vaginalit,10184
 ginekolog,女ᴳ学家,0,ginekolog,9232
 feminist,女ᶠᴱ家,0,feminist,9131
 kaĵol,媚ᴷᴶ̂,0,kaj^ol,5718
+uterit,子宫炎ᵀ,0,uterit,10180
 ekzistencialist,存ᴱᴺ家,0,ekzistencialist,9041
 kosmologi,宇学ᴸᴳ,0,kosmologi,9508
 kosmogoni,宇源ᴳᴼ,0,kosmogoni,9504
@@ -946,7 +947,7 @@ kosmonaŭt,宇航ᴺᴬ,0,kosmonau^t,9509
 makrocefal,宏ᴹ头ᶜ,0,makrocefal,9581
 makrometr,宏ᴹ计ᴹ,0,makrometr,9584
 ependimit,室膜炎ᵀ,0,ependimit,9088
-uterit,宫ᵁ炎ᵀ,0,uterit,10180
+uterit,宫ᵁ炎ᵀ,0,uterit,reverse-alias:20261128
 deĉifr,密ᴰᶜ̂,0,dec^ifr,2962
 densometri,密测ᴹᵀ,0,densometri,8983
 treponem,密螺旋体,0,treponem,7415
@@ -1133,6 +1134,7 @@ nekroz,死ᴺ症ᴼ,0,nekroz,9702
 toksolog,毒ᵀ学家,0,toksolog,10142
 vipur,毒蛇ⱽᵁ,0,vipur,7940
 limand,比目鱼ᴸ,0,limand,7554
+turbot,比目鱼ᵀ,0,turbot,1626
 fles,比目鱼ᶠ,0,fles,7553
 trikopati,毛ᵀ病ᴾ,0,trikopati,10158
 gasogen,气ᴳ生ᴳ,0,gasogen,9193
@@ -2572,7 +2574,7 @@ psidi,木ᴾˢ,0,psidi,502
 pirakant,木ᴾᴬ,0,pirakant,584
 podokarp,木ᴾᴰ,0,podokarp,585
 pterokarp,木ᴾᴱ,0,pterokarp,604
-pirus,木ᴾᴵ,0,pirus,501
+pirus,木ᴾᴵ,0,pirus,reverse-alias:20261128
 pajen,木ᴾᴶ,0,pajen,499
 pilokarp,木ᴾᴷ,0,pilokarp,583
 palakvi,木ᴾᴸ,0,palakvi,549
@@ -2686,6 +2688,7 @@ pupitr,案ᴾᴾ,0,pupitr,5307
 dokument,档ᴰᴷ,0,dokument,3773
 ĉevron,梁ᶜ̂,0,c^evron,6009
 infarktogen,梗生ᴳ,0,infarktogen,9393
+pirus,梨ᴾˢ,0,pirus,501
 navet,梭ᴺᵀ,0,navet,6578
 meĥanism,械ᴹˢ,0,meĥanism,4125
 mekanism,械ᴹᴱ,0,mekanism,4126
@@ -2748,6 +2751,7 @@ hidrokarbon,水ᴴ碳,0,hidrokarbon,9314
 hidracid,水ᴴ酸,0,hidracid,9301
 dafodil,水仙ᴰ,0,dafodil,2412
 jonkvil,水仙ᴶ,0,jonkvil,6790
+tazet,水仙ᵀ,0,tazet,2333
 akvedukt,水管ᴰ,0,akvedukt,6051
 betonik,水苏ᴮ,0,betonik,8313
 postul,求ᴾˢ,0,postul,916
@@ -3452,7 +3456,7 @@ trap,草ᵀᴾ,0,trap,2273
 trili,草ᵀᴿ,0,trili,2335
 taliktr,草ᵀᵀ,0,taliktr,2445
 tife,草ᵀᶠ,0,tife,2301
-tazet,草ᵀᶻ,0,tazet,2333
+tazet,草ᵀᶻ,0,tazet,reverse-alias:20261128
 utrikulari,草ᵁᵀ,0,utrikulari,2550
 cerasti,草ᶜˢ,0,cerasti,2410
 cimbopogon,草ᶜᴮ,0,cimbopogon,2539
@@ -3708,7 +3712,7 @@ lepism,虫ᴸᴹ,0,lepism,2597
 leptinotars,虫ᴸᴺ,0,leptinotars,2673
 lept,虫ᴸᴾ,0,lept,2608
 licen,虫ᴸᶜ,0,licen,reverse-alias:20261128
-makaon,虫ᴹᴷ,0,makaon,2636
+makaon,虫ᴹᴷ,0,makaon,reverse-alias:20261128
 mant,虫ᴹᴺ,0,mant,2675
 mirmeleon,虫ᴹᴿ,0,mirmeleon,2602
 nere,虫ᴺᴱ,0,nere,2674
@@ -4194,7 +4198,7 @@ pilĉard,鱼ᴾᴿ,0,pilc^ard,1589
 petromiz,鱼ᴾᵀ,0,petromiz,1571
 remor,鱼ᴿᴹ,0,remor,1613
 rutel,鱼ᴿᵀ,0,rutel,1614
-turbot,鱼ᵀᴮ,0,turbot,1626
+turbot,鱼ᵀᴮ,0,turbot,reverse-alias:20261128
 tink,鱼ᵀᴵ,0,tink,1579
 trakin,鱼ᵀᴷ,0,trakin,1625
 timal,鱼ᵀᴹ,0,timal,1615
@@ -5503,6 +5507,7 @@ greft,嫁接,0,greft,reverse-alias:20261018
 atom,子ᴬ,0,atom,200
 meridian,子午,0,meridian,7380
 kotiledon,子叶,0,kotiledon,6191
+uter,子宫,0,uter,4678
 orific,孔ᴼ,0,orific,5471
 pav,孔雀,0,pav,5891
 koncip,孕ᴷ,0,koncip,5652
@@ -5550,7 +5555,7 @@ kamer,室ᴷ,0,kamer,763
 lokal,室ᴸ,0,lokal,765
 ependim,室膜,0,ependim,7999
 ĝendarm,宪兵,0,ĝendarm,5784
-uter,宫ᵁ,0,uter,4678
+uter,宫ᵁ,0,uter,reverse-alias:20261128
 palatin,宫伯,0,palatin,8239
 atenc,害ᴬ,0,atenc,6268
 banked,宴ᴮ,0,banked,4297
@@ -6019,10 +6024,11 @@ advers,敌ᴬ,0,advers,6697
 prompt,敏ᴾ,0,prompt,4369
 mesi,救世,0,mesi,7024
 didaktik,教ᴰ,0,didaktik,1892
-eklezi,教ᴱ,0,eklezi,1888
+eklezi,教ᴱ,0,eklezi,reverse-alias:20261128
 pedagog,教ᴾ,0,pedagog,1890
 civiliz,教ᶜ,0,civiliz,1889
 doktrin,教义,0,doktrin,7089
+eklezi,教会,0,eklezi,1888
 guvern,教养,0,guvern,7498
 edif,教化,0,edif,7105
 klerik,教士,0,klerik,7070
@@ -7764,6 +7770,7 @@ lokust,蝗ᴸ,0,lokust,5433
 desmod,蝠ᴰ,0,desmod,1475
 filostom,蝠ᶠ,0,filostom,8599
 lepidopter,蝶ᴸ,0,lepidopter,5276
+makaon,蝶ᴹ,0,makaon,2636
 helik,螺ᴴ,0,helik,4390
 limak,螺ᴸ,0,limak,4389
 spiril,螺菌,0,spiril,7258

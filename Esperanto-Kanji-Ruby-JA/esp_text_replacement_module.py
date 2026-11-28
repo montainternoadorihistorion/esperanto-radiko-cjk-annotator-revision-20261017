@@ -148,13 +148,14 @@ def _marker_tokens(placeholders, marker, source, used):
             yield token
 
 
-def _capture_marker_spans(text, matches, tokens, render):
+def _capture_marker_spans(text, matches, tokens, render, overrides=None):
     pieces, captured, end = [], [], 0
     for match in matches:
         token = next(tokens)
         payload = text[match.start(1):match.end(1)]
         pieces.extend((text[end:match.start()], token))
-        captured.append((token, render(payload)))
+        rendered = overrides[match.start()] if overrides and match.start() in overrides else render(payload)
+        captured.append((token, rendered))
         end = match.end()
     pieces.append(text[end:])
     return ''.join(pieces), captured
@@ -476,8 +477,51 @@ def _render_localized_payload(payload, local_rules, finalized, reviewed, escape)
     return safe_replace(escape(payload), local_rules)
 
 
+_MARKED_UTERITIS = re.compile(
+    r'(?<![\w@])@(uter@@it(?=@(?:oj?n?(?![\w@])|[^\w@]|$))|uterit(?:ojn|oj|on|o)?)@', re.I
+)
+
+
+def _medical_uterit_spans(text, matches, local_rules, global_rules):
+    """Reuse the clinical it in the ordinary uterit entry only at explicit noun boundaries."""
+    spans = {(m.start(), m.end()) for m in matches}
+    candidates = []
+    for m in _MARKED_UTERITIS.finditer(text):
+        start, end = m.span()
+        # Check the parser's spans so text inside a protected region or email cannot qualify.
+        parts = ((start, start + 6), (start + 6, end)) if '@@' in m[1] else ((start, end),)
+        if all(part in spans for part in parts):
+            candidates.append((m, parts))
+    if not candidates:
+        return matches, {}
+
+    words = {m[1].replace('@@', '') for m, _ in candidates}
+    ordinary = {}
+    for word, value, _ in global_rules:
+        if word in words:
+            ordinary.setdefault(word, value)
+    atom_keys = words | {word[:4] for word in words} | {word[:6] for word in words}
+    local = {word: value for word, value, _ in local_rules if word in atom_keys}
+    replacements = {}
+    removed = set()
+    combined = []
+    for m, parts in candidates:
+        word = m[1].replace('@@', '')
+        if word not in ordinary or (len(parts) == 1 and word[:6] in local):
+            continue  # Keep the independent local kanji entry when the user marks the whole root.
+        value = ordinary[word]
+        _, boundary, remainder = value.partition('</ruby>')
+        if boundary and remainder.startswith('<ruby>') and word[:4] in local:
+            value = local[word[:4]] + remainder
+        replacements[m.start()] = value
+        removed.update(parts)
+        combined.append(m)
+    return sorted([m for m in matches if m.span() not in removed] + combined,
+                  key=lambda m: m.start()), replacements
+
+
 def _protect_input_regions(text, skip_tokens, local_tokens, local_rules,
-                           global_rules, html_mode, reviewed_local_decompositions: bool = False, explicit_occurrences=()):
+                           global_rules, html_mode, reviewed_local_decompositions: bool = False, explicit_occurrences=(), assignment_edition=None):
     source, used = text, set()
     escape = _escape_input_symbols if html_mode else lambda value: value
     if explicit_occurrences:
@@ -492,6 +536,9 @@ def _protect_input_regions(text, skip_tokens, local_tokens, local_rules,
             _marker_tokens(skip_tokens, '%', source, used), escape,
         )
     matches = _at_enclosed_matches(text, [token for token, _ in skipped] if explicit_occurrences else ())
+    overrides = {}
+    if matches and reviewed_local_decompositions and assignment_edition == "current" and "uter" in text.lower():
+        matches, overrides = _medical_uterit_spans(text, matches, local_rules, global_rules)
     payloads = [text[m.start(1):m.end(1)] for m in matches]
     finalized = _finalized_global_renderings_for_exact_matches(payloads, global_rules)
 
@@ -504,7 +551,7 @@ def _protect_input_regions(text, skip_tokens, local_tokens, local_rules,
         return _render_localized_payload(payload, local_rules, finalized, reviewed, escape)
 
     text, localized = _capture_marker_spans(
-        text, matches, _marker_tokens(local_tokens, '@', source, used), render_local,
+        text, matches, _marker_tokens(local_tokens, '@', source, used), render_local, overrides,
     )
     normal_matches = list(_REVIEWED_NORMAL_PATTERN.finditer(text)) if reviewed_local_decompositions else []
     # Do not pre-empt a longer explicit correction (including a legacy phrase
@@ -637,7 +684,7 @@ def orchestrate_comprehensive_esperanto_text_replacement(
     placeholders_for_localized_replacement: List[str] , 
     replacements_final_list: List[Tuple[str, str, str]] , 
     replacements_list_for_2char: List[Tuple[str, str, str]] , 
-    format_type: str, reviewed_local_decompositions: bool = False, explicit_occurrences=()
+    format_type: str, reviewed_local_decompositions: bool = False, explicit_occurrences=(), assignment_edition=None
     )-> str:
     """
     複数の変換ルールに従ってエスペラント文を文字列(漢字)置換するメイン関数。
@@ -679,7 +726,7 @@ def orchestrate_comprehensive_esperanto_text_replacement(
         placeholders_for_localized_replacement,
         replacements_list_for_localized_string, replacements_final_list,
         "HTML" in format_type, reviewed_local_decompositions=reviewed_local_decompositions,
-        explicit_occurrences=explicit_occurrences,
+        explicit_occurrences=explicit_occurrences, assignment_edition=assignment_edition,
     )
     # 4.5) 約物パディング(v2): 約物の両側に番兵付き仮想スペースを挿入し、2字語根standalone
     # (' x 'パターン)が「両隣が非文字」の境界でも発火するようにする(出力前に除去・表示不変)。
@@ -822,13 +869,13 @@ def process_segment(lines: List[str],
                     
     placeholders_for_skipping_replacements: List[str] , replacements_list_for_localized_string: List[Tuple[str, str, str]] , 
     placeholders_for_localized_replacement: List[str] , replacements_final_list: List[Tuple[str, str, str]] , 
-    replacements_list_for_2char: List[Tuple[str, str, str]] , format_type: str, reviewed_local_decompositions: bool = False ) -> str:# orchestrate_comprehensive_esperanto_text_replacementの引数をそのまま持って来た。
+    replacements_list_for_2char: List[Tuple[str, str, str]] , format_type: str, reviewed_local_decompositions: bool = False, assignment_edition=None ) -> str:# orchestrate_comprehensive_esperanto_text_replacementの引数をそのまま持って来た。
 
     # 文字列のリストを結合してから置換処理を実行 linesには\nが含まれていない状態の文字列群が格納されている。
     segment = ''.join(lines)# 202502変更
     result = orchestrate_comprehensive_esperanto_text_replacement(
     segment, placeholders_for_skipping_replacements, replacements_list_for_localized_string, 
-    placeholders_for_localized_replacement, replacements_final_list, replacements_list_for_2char, format_type, reviewed_local_decompositions=reviewed_local_decompositions)# ここでメインの文字列(漢字)置換関数'orchestrate_comprehensive_esperanto_text_replacement'の実行!
+    placeholders_for_localized_replacement, replacements_final_list, replacements_list_for_2char, format_type, reviewed_local_decompositions=reviewed_local_decompositions, assignment_edition=assignment_edition)# ここでメインの文字列(漢字)置換関数'orchestrate_comprehensive_esperanto_text_replacement'の実行!
 
     return result
 
@@ -837,7 +884,7 @@ def parallel_process(text: str, num_processes: int ,
 
     placeholders_for_skipping_replacements: List[str] , replacements_list_for_localized_string: List[Tuple[str, str, str]] , 
     placeholders_for_localized_replacement: List[str] , replacements_final_list: List[Tuple[str, str, str]] , 
-    replacements_list_for_2char: List[Tuple[str, str, str]] , format_type: str, reviewed_local_decompositions: bool = False, explicit_occurrences=() ) -> str:# orchestrate_comprehensive_esperanto_text_replacementの引数をそのまま持って来た。
+    replacements_list_for_2char: List[Tuple[str, str, str]] , format_type: str, reviewed_local_decompositions: bool = False, explicit_occurrences=(), assignment_edition=None ) -> str:# orchestrate_comprehensive_esperanto_text_replacementの引数をそのまま持って来た。
     """
     与えられた text を行単位で分割し、'process_segment' をマルチプロセスで並列実行した結果を結合。
     """
@@ -850,7 +897,7 @@ def parallel_process(text: str, num_processes: int ,
             placeholders_for_localized_replacement, replacements_final_list,
             replacements_list_for_2char, format_type,
             reviewed_local_decompositions=reviewed_local_decompositions,
-            explicit_occurrences=explicit_occurrences,
+            explicit_occurrences=explicit_occurrences, assignment_edition=assignment_edition,
         )
     if num_processes <= 1:
         # ここで「シングルコアで orche～ を直呼び」する
@@ -861,7 +908,7 @@ def parallel_process(text: str, num_processes: int ,
             placeholders_for_localized_replacement,
             replacements_final_list,
             replacements_list_for_2char,
-            format_type, reviewed_local_decompositions=reviewed_local_decompositions
+            format_type, reviewed_local_decompositions=reviewed_local_decompositions, assignment_edition=assignment_edition
         )
     
     lines = re.findall(r'.*?\n|.+$', text)# 202502変更 '\n'を末尾に残したまま分割。(split('\n')は、'\n'を消してしまう。)
@@ -878,7 +925,7 @@ def parallel_process(text: str, num_processes: int ,
             placeholders_for_localized_replacement,
             replacements_final_list,
             replacements_list_for_2char,
-            format_type, reviewed_local_decompositions=reviewed_local_decompositions
+            format_type, reviewed_local_decompositions=reviewed_local_decompositions, assignment_edition=assignment_edition
         )
 
     # 通常ケース: 行数が2以上
@@ -893,7 +940,7 @@ def parallel_process(text: str, num_processes: int ,
         results = pool.starmap(process_segment,
             [(lines[start:end],
                 placeholders_for_skipping_replacements,replacements_list_for_localized_string,placeholders_for_localized_replacement,
-                replacements_final_list,replacements_list_for_2char,format_type, reviewed_local_decompositions)
+                replacements_final_list,replacements_list_for_2char,format_type, reviewed_local_decompositions, assignment_edition)
                 for (start, end) in ranges])
     # 結果を結合
     return ''.join(results)# 202502変更
