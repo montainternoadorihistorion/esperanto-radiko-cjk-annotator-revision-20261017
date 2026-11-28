@@ -1,3 +1,7 @@
+## 2026-11-28　拍手、卫星和蝴蝶的还原
+
+新版将「拍手i」「卫星o」「蝶ᴸᶜo」分别还原为 aplaŭdi、satelito、liceno。旧写法「鼓ᴬ」「星ˢᵀ」「虫ᴸᶜ」仍可还原为相应词根。固定旧版分别将「拍手o」「卫星o」读作 fotmano、gvardistelo。「蝶ᴸ」对应 lepidopter，「糖ᴷᴰ」对应 kand。
+
 ## 2026-11-28　四个词根的还原
 
 新版将「松ᴾᴹo」「葡ᴸo」「水仙ᴰo」「女低音o」分别还原为 pumilio、labrusko、dafodilo、kontralto。旧写法「木ᴾᴹ」「草ᴸᴮ」「草ᴰᶠ」「女低」也可还原为原来的词根。「女低音者女o」与旧写法「女低者女o」均还原为 kontraltulino，指女低音歌手。固定旧版沿用「女低音o」的旧读法 kontraltprononco。

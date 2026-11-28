@@ -1,0 +1,56 @@
+{
+  "revision": "aplaud-satelit-licen-20261128",
+  "changes": {
+    "aplaŭd": {
+      "old": "鼓ᴬ",
+      "current": "拍手"
+    },
+    "satelit": {
+      "old": "星ˢᵀ",
+      "current": "卫星"
+    },
+    "licen": {
+      "old": "虫ᴸᶜ",
+      "current": "蝶ᴸᶜ"
+    }
+  },
+  "group_counts": {
+    "卫星": [
+      0,
+      1
+    ],
+    "拍手": [
+      0,
+      1
+    ],
+    "星": [
+      5,
+      4
+    ],
+    "虫": [
+      106,
+      105
+    ],
+    "蝶": [
+      5,
+      6
+    ],
+    "鼓": [
+      3,
+      2
+    ]
+  },
+  "safe_reverse_aliases": {
+    "鼓ᴬ": "aplaŭd",
+    "星ˢᵀ": "satelit",
+    "虫ᴸᶜ": "licen"
+  },
+  "canonical_sidecar_sha256": "cbb1279d8720322a8c3a49c6499704b8debe2f1aa3fd53960bb560967cedc65c",
+  "baseline_monaco_sha256": "fc93b8086363a873b7cee37ac862df694111b1ebcab8933645ac2e2fdc67bf04",
+  "current_monaco_sha256": "f05b6004b28404c5a4667258c6bc7408f38634d80896d6a3b5de62c2155b9f60",
+  "current_items": 10640,
+  "unchanged_assignment_count": 10637,
+  "group_count_documentation_changes": 116,
+  "prior_displayed_group_counts": {},
+  "rationale": "拍手 expresses the gesture of approval, 卫星 identifies natural and artificial satellites, and 蝶 identifies licen as a butterfly. The incumbent 蝶ᴸ remains lepidopter and 糖ᴷᴰ remains kand."
+}

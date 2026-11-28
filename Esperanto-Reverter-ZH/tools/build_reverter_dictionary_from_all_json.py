@@ -225,6 +225,9 @@ def rows_from_all_json(data: dict) -> list[dict[str, object]]:
         ("labrusk", "葡ᴸ", "草ᴸᴮ", "20261128"),
         ("dafodil", "水仙ᴰ", "草ᴰᶠ", "20261128"),
         ("kontralt", "女低音", "女低", "20261128"),
+        ("aplaŭd", "拍手", "鼓ᴬ", "20261128"),
+        ("satelit", "卫星", "星ˢᵀ", "20261128"),
+        ("licen", "蝶ᴸᶜ", "虫ᴸᶜ", "20261128"),
     )
     for root, current_body, old_body, date in aliases:
         current = [row for row in rows if row["source_root"] == root and row["kanji"] == current_body]

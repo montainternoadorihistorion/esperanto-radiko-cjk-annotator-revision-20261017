@@ -2,8 +2,8 @@
   "schema_version": 1,
   "revision": "current-compound-inverse-20261018-v3",
   "source_id": "pejvo-piv-20260620",
-  "dictionary_revision": "pumili-labrusk-dafodil-kontralt-20261128",
-  "current_csv_sha256": "5d157c0f9785cf1599a99d9ecaae9018915aafc5409b51c4937cedff6f8c23a8",
+  "dictionary_revision": "aplaud-satelit-licen-20261128",
+  "current_csv_sha256": "871740adfc71ace62911df05eea3c966595caa25117acf64201d126dcd81b070",
   "required_canonical_owner": {
     "kanji": "丸ᴼ炎ᵀ",
     "esperanto": "orkidit"
