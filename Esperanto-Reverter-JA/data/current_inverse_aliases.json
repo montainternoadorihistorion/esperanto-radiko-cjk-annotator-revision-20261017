@@ -2,8 +2,8 @@
   "schema_version": 1,
   "revision": "current-compound-inverse-20261018-v3",
   "source_id": "pejvo-piv-20260620",
-  "dictionary_revision": "bibliotek-20261128",
-  "current_csv_sha256": "1937970f485a388079a305943b86bf3a7d0aac79377dd262a2bf82edb223a455",
+  "dictionary_revision": "kastane-hipermetrop-kalson-streptopeli-20261128",
+  "current_csv_sha256": "4bb62e5c936d9d0215efa7c59e37c57e20d07214fcf7a9f6e59eed171f6265f9",
   "required_canonical_owner": {
     "kanji": "丸ᴼ炎ᵀ",
     "esperanto": "orkidit"

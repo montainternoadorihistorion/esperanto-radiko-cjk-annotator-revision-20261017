@@ -1,0 +1,69 @@
+{
+  "revision": "kastane-hipermetrop-kalson-streptopeli-20261128",
+  "changes": {
+    "kastane": {
+      "old": "木ᴷᴬˢ",
+      "current": "栗ᴷˢ"
+    },
+    "hipermetrop": {
+      "old": "远ᴴ",
+      "current": "远视"
+    },
+    "kalson": {
+      "old": "裤ᴷ",
+      "current": "内裤"
+    },
+    "streptopeli": {
+      "old": "鸟ˢᴱ",
+      "current": "鸽ˢ"
+    }
+  },
+  "group_counts": {
+    "内裤": [
+      0,
+      1
+    ],
+    "木": [
+      261,
+      260
+    ],
+    "栗": [
+      2,
+      3
+    ],
+    "裤": [
+      2,
+      1
+    ],
+    "远": [
+      4,
+      3
+    ],
+    "远视": [
+      0,
+      1
+    ],
+    "鸟": [
+      143,
+      142
+    ],
+    "鸽": [
+      5,
+      6
+    ]
+  },
+  "safe_reverse_aliases": {
+    "木ᴷᴬˢ": "kastane",
+    "远ᴴ": "hipermetrop",
+    "裤ᴷ": "kalson",
+    "鸟ˢᴱ": "streptopeli"
+  },
+  "canonical_sidecar_sha256": "a2da737f459fcfbcfc6869fbb880952ca3f1f6d5f75e7c4dedeec63fbb24fe5f",
+  "baseline_monaco_sha256": "caf5ff9fac68bc509cf49d38461a35c62717d2dbc561f768c87118e0b66a3fe2",
+  "current_monaco_sha256": "8f9f9af2191459cb36c926e3e6fd265072cec3a840cb8c2b158da0e474947978",
+  "current_items": 10640,
+  "unchanged_assignment_count": 10636,
+  "group_count_documentation_changes": 413,
+  "prior_displayed_group_counts": {},
+  "rationale": "The independent roots use the approved chestnut and dove group forms, and the explicit meanings of farsightedness and underwear. Previous individual identifiers remain reserved as reverse aliases. The fixed edition keeps its previous compound readings."
+}

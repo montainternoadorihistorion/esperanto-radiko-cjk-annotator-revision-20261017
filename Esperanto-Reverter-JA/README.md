@@ -1,3 +1,7 @@
+## 2026-11-28　クリ・遠視・下着・キジバト属の逆変換
+
+新版は「栗ᴷˢo」「远视o」「内裤o」「鸽ˢo」をそれぞれ kastaneo、hipermetropo、kalsono、streptopelio に戻します。以前の「木ᴷᴬˢ」「远ᴴ」「裤ᴷ」「鸟ˢᴱ」は引き続き両版で復元できます。固定旧版の「远视o」「内裤o」は従来どおり teletelevido、enpantalono と読み、「栗ᴷˢo」「鸽ˢo」は入力のままです。「近ᴹo」は miopo、「座ᵀo」は trono です。
+
 ## 2026-11-28　図書館の逆変換
 
 新版では「书库o」と旧表記「库ᴮo」が、どちらも biblioteko〈図書館・蔵書〉に戻ります。固定旧版では「书库o」の従来の読み librkaso を維持し、「库ᴮo」は biblioteko と読みます。
