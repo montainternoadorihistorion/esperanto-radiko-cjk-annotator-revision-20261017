@@ -1,0 +1,204 @@
+{
+  "forward_source": "aplaŭdo satelito liceno\n@aplaŭd@o @satelit@o @licen@o\naplaŭdado vetersatelito lepidoptero kando @lepidopter@o @kand@o %liceno% @al@@ven@@ig@i",
+  "forward": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "6b0b1d91c848704824b72b79846ab428af1c9b927466f2d34a25d06b5a7c6a5d",
+        "core_sha256": "6b0b1d91c848704824b72b79846ab428af1c9b927466f2d34a25d06b5a7c6a5d",
+        "signature": "8fa869b0247527847fbbaf26b1b18149014f410924ee75a48cbdac4c58051441",
+        "filename": "置換結果_current_8fa869b02475.txt",
+        "expected_text": "拍手o 卫星o 蝶ᴸᶜo\n拍手o 卫星o 蝶ᴸᶜo\n拍手行o 气ⱽ卫星o 蝶ᴸo 糖ᴷᴰo 蝶ᴸo 糖ᴷᴰo liceno 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "f5847035964e3ad444a1b96cfe2be8a89819ed2a30cccdaf7264f047d88a7819",
+        "core_sha256": "9b3618e8252caf0efb72e26e9326dd77547a47043e3af40593c083eefd18c139",
+        "signature": "a9cf104a4b4440b6388afd748cf8cd5a7d21c46091ecc9e22304fd665138872e",
+        "filename": "置換結果_current_a9cf104a4b44.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "6df902f4cd8640eff590718f27eb483775f53ab8722f93352d55f540f44a387c",
+        "core_sha256": "c5808b6ff8631bcb200938d05b5a3fa968f4172f15fa42ac5c66a0e3d6d924f6",
+        "signature": "0cff0899cb06d3ceeab186891db4e364578bfbab1dc06fc6e42a3d37974fce66",
+        "filename": "置換結果_current_0cff0899cb06.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "c1ba06a9cc3c55f016c3dba4161117b875daa14e7c6ef4f78eb2f1f9ac65cfaa",
+        "core_sha256": "c1ba06a9cc3c55f016c3dba4161117b875daa14e7c6ef4f78eb2f1f9ac65cfaa",
+        "signature": "ed2691b7b9e3c91c913715992ab6ab5f2812b5eeda7192d81efb9b86121beb0e",
+        "filename": "置換結果_legacy_ed2691b7b9e3.txt",
+        "expected_text": "鼓ᴬo 星ˢᵀo 虫ᴸᶜo\n鼓ᴬo 星ˢᵀo 虫ᴸᶜo\n鼓ᴬ行o 气ⱽ星ˢᵀo 蝶ᴸo 糖ᴷᴰo 蝶ᴸo 糖ᴷᴰo liceno 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "5324bd019811598817dfc488662f434539224dca01b69919d3b7abc84bbf1164",
+        "core_sha256": "d9747eb71b57248ed87e076f11a241d1b446a94cc2ce69bde89400bc9222381f",
+        "signature": "32ac1c57d2278dbd1652312a50dd0865a3876e9901e4f14612d29c493ed82d8d",
+        "filename": "置換結果_legacy_32ac1c57d227.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "6df902f4cd8640eff590718f27eb483775f53ab8722f93352d55f540f44a387c",
+        "core_sha256": "c5808b6ff8631bcb200938d05b5a3fa968f4172f15fa42ac5c66a0e3d6d924f6",
+        "signature": "9fee39f107976bf23ee3bc2fa217b99e53c3b5d8edf8edc8de3400058e8643bb",
+        "filename": "置換結果_legacy_9fee39f10797.html"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "6b0b1d91c848704824b72b79846ab428af1c9b927466f2d34a25d06b5a7c6a5d",
+        "core_sha256": "6b0b1d91c848704824b72b79846ab428af1c9b927466f2d34a25d06b5a7c6a5d",
+        "signature": "0cfdb44ad34d57efb370913e35cfb29f4b37419792857e561befe8663a4e86cb",
+        "filename": "转换结果_current_0cfdb44ad34d.txt",
+        "expected_text": "拍手o 卫星o 蝶ᴸᶜo\n拍手o 卫星o 蝶ᴸᶜo\n拍手行o 气ⱽ卫星o 蝶ᴸo 糖ᴷᴰo 蝶ᴸo 糖ᴷᴰo liceno 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "4b3af6f454483f52e2058d1de96037c5775e059611673459cd78a52a867882b9",
+        "core_sha256": "fb5a2366782894e4d65d0a970fd24f652fded5e9f338c526c08685575f60c4cd",
+        "signature": "c446f05d29c937e952cb2cb42412fc6c69ead0b7149cbbbb572f4a4094c61be4",
+        "filename": "转换结果_current_c446f05d29c9.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "142b83527ed1b2153880e1ee898cb1b10e61f576f43e341dd3d3366fae762d3c",
+        "core_sha256": "537e922ccd7396fc49c851bdd4061f824ba77716531e3d1657eb68689aa11eb7",
+        "signature": "83a6a1ad22161c6fe1c2d5d1221c455d74772fa8ad88d44b78d666057b4de7af",
+        "filename": "转换结果_current_83a6a1ad2216.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "c1ba06a9cc3c55f016c3dba4161117b875daa14e7c6ef4f78eb2f1f9ac65cfaa",
+        "core_sha256": "c1ba06a9cc3c55f016c3dba4161117b875daa14e7c6ef4f78eb2f1f9ac65cfaa",
+        "signature": "923ee873a89b7415df3bc0e0b0807cf0f507ba473584fae7a80ea3d4467fb0d5",
+        "filename": "转换结果_legacy_923ee873a89b.txt",
+        "expected_text": "鼓ᴬo 星ˢᵀo 虫ᴸᶜo\n鼓ᴬo 星ˢᵀo 虫ᴸᶜo\n鼓ᴬ行o 气ⱽ星ˢᵀo 蝶ᴸo 糖ᴷᴰo 蝶ᴸo 糖ᴷᴰo liceno 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "3bd7f5e19fbaaebc5e5d05b04b2bf88c732e0e7cbc7e5746b98ef8bbf4917789",
+        "core_sha256": "f971161dc40f3678d4131e4b6f6638436cbb5f3b3090b86f431b0ee7ff841164",
+        "signature": "033a030942bf54803f4856dd1ccbd60e117fb20f5d5cf6738b6aff17ee5d34c0",
+        "filename": "转换结果_legacy_033a030942bf.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "142b83527ed1b2153880e1ee898cb1b10e61f576f43e341dd3d3366fae762d3c",
+        "core_sha256": "537e922ccd7396fc49c851bdd4061f824ba77716531e3d1657eb68689aa11eb7",
+        "signature": "dedb8bc01f410a6261a98f3375d52872f78de29ad98dbe6052a3c1f5357934b9",
+        "filename": "转换结果_legacy_dedb8bc01f41.html"
+      }
+    ],
+    "KO": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "6b0b1d91c848704824b72b79846ab428af1c9b927466f2d34a25d06b5a7c6a5d",
+        "core_sha256": "6b0b1d91c848704824b72b79846ab428af1c9b927466f2d34a25d06b5a7c6a5d",
+        "signature": "497d0d0583e18de5ae9139e78d5f1b8c423d4efbf086526036aeb0c2153c0532",
+        "filename": "치환결과_current_497d0d0583e1.txt",
+        "expected_text": "拍手o 卫星o 蝶ᴸᶜo\n拍手o 卫星o 蝶ᴸᶜo\n拍手行o 气ⱽ卫星o 蝶ᴸo 糖ᴷᴰo 蝶ᴸo 糖ᴷᴰo liceno 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "71d5bdcc0fe4af3f5b5af90c6a418164d6820b5db0be6c6890fccc5e7c986ee9",
+        "core_sha256": "3f7335338cc4bc35e7eee8a1dc0529bbcbe2aa8651ef5c318aa5bd057fdc9b90",
+        "signature": "1ad8395d5055e9370c4203f3335f7b392611b61a6086bee4267d4258d9814c68",
+        "filename": "치환결과_current_1ad8395d5055.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "9126a28f227f0b739fcc5e51145e504bd3b20c12de8c11fdcb3d02570c9c6ccb",
+        "core_sha256": "ed2e601936bd7373dc470cb0d35f5f1311bbfe3b0f8ef081443571cffb8574a8",
+        "signature": "9fee875f89fd52d61fe336825e44af038ad5616d0a622fbfab7307385ef4aab9",
+        "filename": "치환결과_current_9fee875f89fd.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "c1ba06a9cc3c55f016c3dba4161117b875daa14e7c6ef4f78eb2f1f9ac65cfaa",
+        "core_sha256": "c1ba06a9cc3c55f016c3dba4161117b875daa14e7c6ef4f78eb2f1f9ac65cfaa",
+        "signature": "68b4f45d49b540250f82a6d85c42cbcf448f9381785055ea3d198f815b99698c",
+        "filename": "치환결과_legacy_68b4f45d49b5.txt",
+        "expected_text": "鼓ᴬo 星ˢᵀo 虫ᴸᶜo\n鼓ᴬo 星ˢᵀo 虫ᴸᶜo\n鼓ᴬ行o 气ⱽ星ˢᵀo 蝶ᴸo 糖ᴷᴰo 蝶ᴸo 糖ᴷᴰo liceno 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "20600a55145838ee013f73bf7587d825f263af49681c04f49d63db582323ec04",
+        "core_sha256": "7237bb29047843268f5ee8c814103b68c672cb89ca4de314e31c51d9fdc12049",
+        "signature": "ef0e918cf44eb473fc46380a2f80761e7ea64a25ddcb5275341873ef2e445847",
+        "filename": "치환결과_legacy_ef0e918cf44e.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "9126a28f227f0b739fcc5e51145e504bd3b20c12de8c11fdcb3d02570c9c6ccb",
+        "core_sha256": "ed2e601936bd7373dc470cb0d35f5f1311bbfe3b0f8ef081443571cffb8574a8",
+        "signature": "5cab5a903bea0ae55006d819c5de0acde805bbf6e1b57fb00d92ecf8581abc09",
+        "filename": "치환결과_legacy_5cab5a903bea.html"
+      }
+    ]
+  },
+  "inverse_source": "拍手i 卫星o 蝶ᴸᶜo\n鼓ᴬi 星ˢᵀo 虫ᴸᶜo\n蝶ᴸo 糖ᴷᴰo",
+  "inverse": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "aplaŭdi satelito liceno\naplaŭdi satelito liceno\nlepidoptero kando",
+        "output_sha256": "b0e2665b80aaa5c8e9a24d12f0608a3e1f58137a35e0129fae87976177317c58",
+        "core_sha256": "b0e2665b80aaa5c8e9a24d12f0608a3e1f58137a35e0129fae87976177317c58",
+        "filename": "esperanto_new_aplaud-satelit-licen-20261128_871740adfc71_inverse_current-compound-inverse-20261018-v3_5a8075612ec5.txt",
+        "provenance": "新版（更新中） / aplaud-satelit-licen-20261128 / 871740adfc71 / inverse: current-compound-inverse-20261018-v3 / 5a8075612ec5"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "fotmani gvardistelo 蝶ᴸᶜo\naplaŭdi satelito liceno\nlepidoptero kando",
+        "output_sha256": "28be534a8acc7b0f71001c70816589572dfd54d3756f136e2c8cf0d97ef3d285",
+        "core_sha256": "28be534a8acc7b0f71001c70816589572dfd54d3756f136e2c8cf0d97ef3d285",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "aplaŭdi satelito liceno\naplaŭdi satelito liceno\nlepidoptero kando",
+        "output_sha256": "b0e2665b80aaa5c8e9a24d12f0608a3e1f58137a35e0129fae87976177317c58",
+        "core_sha256": "b0e2665b80aaa5c8e9a24d12f0608a3e1f58137a35e0129fae87976177317c58",
+        "filename": "esperanto_new_aplaud-satelit-licen-20261128_871740adfc71_inverse_current-compound-inverse-20261018-v3_5a8075612ec5.txt",
+        "provenance": "新版（更新中） / aplaud-satelit-licen-20261128 / 871740adfc71 / inverse: current-compound-inverse-20261018-v3 / 5a8075612ec5"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "fotmani gvardistelo 蝶ᴸᶜo\naplaŭdi satelito liceno\nlepidoptero kando",
+        "output_sha256": "28be534a8acc7b0f71001c70816589572dfd54d3756f136e2c8cf0d97ef3d285",
+        "core_sha256": "28be534a8acc7b0f71001c70816589572dfd54d3756f136e2c8cf0d97ef3d285",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ]
+  }
+}
