@@ -1,0 +1,204 @@
+{
+  "forward_source": "maluso kolibro unaŭo meblo\n@malus@o @kolibr@o @unaŭ@o @mebl@o\nmalusoideo meblaro meblisto meblovendejo pruo pomo bradipo %meblo% @al@@ven@@ig@i",
+  "forward": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "f97b6e082ee0262e8e03fe0824ce5a607fb35d812d3f8de681637b6c12e48205",
+        "core_sha256": "f97b6e082ee0262e8e03fe0824ce5a607fb35d812d3f8de681637b6c12e48205",
+        "signature": "04562cb2e6599d4ec58e3a565872ca98bbc8a896b250ca42981c0416b38de16d",
+        "filename": "置換結果_current_04562cb2e659.txt",
+        "expected_text": "苹ᴹo 蜂鸟o 树懒ᵁo 家具o\n苹ᴹo 蜂鸟o 树懒ᵁo 家具o\n苹ᴹoideo 家具群o 家具家o 家具o卖所o 头ᴾo 苹o 树懒ᴮo meblo 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "24a6e123c713cd2c413efde9d0680146451c1a564e92983ba827f636790889b8",
+        "core_sha256": "8c4b8da72a55032322fca6910792844a723d9ceedc3bdf7f1a00cd72e0bb9648",
+        "signature": "3f63305a05d7ba611d5b1684ea53768ae04440f5df3cf94db9377b688f790156",
+        "filename": "置換結果_current_3f63305a05d7.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "88e7b1771be4560ff578e999cb07c0fe10ea4f814125c04f29a4ffa18216cf6c",
+        "core_sha256": "876d977a233ef785f216c83afa6274e50f5ec4a2712b0d816b529271d4d4091c",
+        "signature": "b0e3b1ce1835a95a7bb5c55746473e9e55da695af14946811209a58753db94fe",
+        "filename": "置換結果_current_b0e3b1ce1835.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "244b109c2adc5663a67cfdd156ce3e77b4b17242b7eea5df94009d9c3f5b2624",
+        "core_sha256": "244b109c2adc5663a67cfdd156ce3e77b4b17242b7eea5df94009d9c3f5b2624",
+        "signature": "ed2691b7b9e3c91c913715992ab6ab5f2812b5eeda7192d81efb9b86121beb0e",
+        "filename": "置換結果_legacy_ed2691b7b9e3.txt",
+        "expected_text": "木ᴹˢo 鸟ᴷᴮo 兽ᵁo 具ᴹo\n木ᴹˢo 鸟ᴷᴮo 兽ᵁo 具ᴹo\n木ᴹˢoideo 具ᴹ群o 具ᴹ家o 具ᴹo卖所o 头ᴾo 苹o 兽ᴮᴿo meblo 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "d19c06330d99eb0176b2c5f7d877e4479c4b1e76d5475fbef1b5424b51831a50",
+        "core_sha256": "0899290560787e94c1ea9fc2bb526a758d23e20a2a32578ea44558e3a03eb9a0",
+        "signature": "32ac1c57d2278dbd1652312a50dd0865a3876e9901e4f14612d29c493ed82d8d",
+        "filename": "置換結果_legacy_32ac1c57d227.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "88e7b1771be4560ff578e999cb07c0fe10ea4f814125c04f29a4ffa18216cf6c",
+        "core_sha256": "876d977a233ef785f216c83afa6274e50f5ec4a2712b0d816b529271d4d4091c",
+        "signature": "9fee39f107976bf23ee3bc2fa217b99e53c3b5d8edf8edc8de3400058e8643bb",
+        "filename": "置換結果_legacy_9fee39f10797.html"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "f97b6e082ee0262e8e03fe0824ce5a607fb35d812d3f8de681637b6c12e48205",
+        "core_sha256": "f97b6e082ee0262e8e03fe0824ce5a607fb35d812d3f8de681637b6c12e48205",
+        "signature": "cd3e835b038fd96ffdd21d7a23f06e75cd3a836d8194ba84af45f2bc99e6a07a",
+        "filename": "转换结果_current_cd3e835b038f.txt",
+        "expected_text": "苹ᴹo 蜂鸟o 树懒ᵁo 家具o\n苹ᴹo 蜂鸟o 树懒ᵁo 家具o\n苹ᴹoideo 家具群o 家具家o 家具o卖所o 头ᴾo 苹o 树懒ᴮo meblo 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "1fdc1b834377844cf3ad6d1a1a3a6304445c88b3127abb23e4e8ef610fa0bc9e",
+        "core_sha256": "8c36d882e9f3b7fbf2e6e056ba8ef746b9bfb2d04768ff2ee3845068550d8e60",
+        "signature": "3f5cc1ab4aecd64c338466775066327c4a9b73c290db007eb2db53d52a06b98e",
+        "filename": "转换结果_current_3f5cc1ab4aec.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "e50a09d726240ff11c8dec82ab0b75b7fe7e7ecb82605a941e19a637b88d6f9a",
+        "core_sha256": "f8a7a2c9d2e435c735c7e336df9fbbeb233fec230efcaed000f7cd79d4185228",
+        "signature": "d8c284d2b806c8ab3077a5185e0698f575879ced06cd04717be854a83b0b9bc6",
+        "filename": "转换结果_current_d8c284d2b806.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "244b109c2adc5663a67cfdd156ce3e77b4b17242b7eea5df94009d9c3f5b2624",
+        "core_sha256": "244b109c2adc5663a67cfdd156ce3e77b4b17242b7eea5df94009d9c3f5b2624",
+        "signature": "923ee873a89b7415df3bc0e0b0807cf0f507ba473584fae7a80ea3d4467fb0d5",
+        "filename": "转换结果_legacy_923ee873a89b.txt",
+        "expected_text": "木ᴹˢo 鸟ᴷᴮo 兽ᵁo 具ᴹo\n木ᴹˢo 鸟ᴷᴮo 兽ᵁo 具ᴹo\n木ᴹˢoideo 具ᴹ群o 具ᴹ家o 具ᴹo卖所o 头ᴾo 苹o 兽ᴮᴿo meblo 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "c8a0113f5f13b41d8e0e197a6f7a144a375f15298ef7d582811a3429612b29cc",
+        "core_sha256": "3fa5db2ebd65203200401b8f404ed874611b6403a92fb1dd0b7ccd12563954a5",
+        "signature": "033a030942bf54803f4856dd1ccbd60e117fb20f5d5cf6738b6aff17ee5d34c0",
+        "filename": "转换结果_legacy_033a030942bf.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "e50a09d726240ff11c8dec82ab0b75b7fe7e7ecb82605a941e19a637b88d6f9a",
+        "core_sha256": "f8a7a2c9d2e435c735c7e336df9fbbeb233fec230efcaed000f7cd79d4185228",
+        "signature": "dedb8bc01f410a6261a98f3375d52872f78de29ad98dbe6052a3c1f5357934b9",
+        "filename": "转换结果_legacy_dedb8bc01f41.html"
+      }
+    ],
+    "KO": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "f97b6e082ee0262e8e03fe0824ce5a607fb35d812d3f8de681637b6c12e48205",
+        "core_sha256": "f97b6e082ee0262e8e03fe0824ce5a607fb35d812d3f8de681637b6c12e48205",
+        "signature": "05576bcbc5ae952c94b5596d2af364dffc3f840e725c4d7b374777ef2fafb289",
+        "filename": "치환결과_current_05576bcbc5ae.txt",
+        "expected_text": "苹ᴹo 蜂鸟o 树懒ᵁo 家具o\n苹ᴹo 蜂鸟o 树懒ᵁo 家具o\n苹ᴹoideo 家具群o 家具家o 家具o卖所o 头ᴾo 苹o 树懒ᴮo meblo 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "0c9c14a408de2a012c1f92d665f3a2d12edbcd5c057809f72011437416f01188",
+        "core_sha256": "e732f7592889a4935947d01c3a9b1bd18934ce09505a8ddf62cb8e1230f71884",
+        "signature": "766891cc415ea1abff8abeec870e50afb0b65601f6d986125a57605ce4d27de4",
+        "filename": "치환결과_current_766891cc415e.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "826e368d80155425c0eaca269587da94b736f6ff41cee68add120ba6456dfb8f",
+        "core_sha256": "7aad2d5953a165f94efb62c3c017ed6235e930049f27d327a2f55cc55faed5a1",
+        "signature": "f14e1dea924f5f02b691415435f8edf7dc102db7fef6193dad4ff5204511b611",
+        "filename": "치환결과_current_f14e1dea924f.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "244b109c2adc5663a67cfdd156ce3e77b4b17242b7eea5df94009d9c3f5b2624",
+        "core_sha256": "244b109c2adc5663a67cfdd156ce3e77b4b17242b7eea5df94009d9c3f5b2624",
+        "signature": "68b4f45d49b540250f82a6d85c42cbcf448f9381785055ea3d198f815b99698c",
+        "filename": "치환결과_legacy_68b4f45d49b5.txt",
+        "expected_text": "木ᴹˢo 鸟ᴷᴮo 兽ᵁo 具ᴹo\n木ᴹˢo 鸟ᴷᴮo 兽ᵁo 具ᴹo\n木ᴹˢoideo 具ᴹ群o 具ᴹ家o 具ᴹo卖所o 头ᴾo 苹o 兽ᴮᴿo meblo 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "e89d6e56eca9ed4d18edd06e5c7797aad3a04b99a1c1d7ed7ecf30b425386e51",
+        "core_sha256": "7e0f42fc388f7f2f3c76ca4b6845839a8eb063df81b19595a607f77ada4f622a",
+        "signature": "ef0e918cf44eb473fc46380a2f80761e7ea64a25ddcb5275341873ef2e445847",
+        "filename": "치환결과_legacy_ef0e918cf44e.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "826e368d80155425c0eaca269587da94b736f6ff41cee68add120ba6456dfb8f",
+        "core_sha256": "7aad2d5953a165f94efb62c3c017ed6235e930049f27d327a2f55cc55faed5a1",
+        "signature": "5cab5a903bea0ae55006d819c5de0acde805bbf6e1b57fb00d92ecf8581abc09",
+        "filename": "치환결과_legacy_5cab5a903bea.html"
+      }
+    ]
+  },
+  "inverse_source": "苹ᴹo 蜂鸟o 树懒ᵁo 家具o\n木ᴹˢo 鸟ᴷᴮo 兽ᵁo 具ᴹo\n苹o 树懒o 树懒ᴮo 头ᴾo 船头o\n家具家o 具ᴹ家o 苹ᴹᴷo 鸟ᴷᴮᴹo",
+  "inverse": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "maluso kolibro unaŭo meblo\nmaluso kolibro unaŭo meblo\npomo akeo bradipo pruo ŝipkapo\nmeblisto meblisto 苹ᴹᴷo 鸟ᴷᴮᴹo",
+        "output_sha256": "363c4adeed6bcc56c009230c7aab54d8d44ff219b1b2478bdf84d35527125520",
+        "core_sha256": "363c4adeed6bcc56c009230c7aab54d8d44ff219b1b2478bdf84d35527125520",
+        "filename": "esperanto_new_malus-kolibr-unau-mebl-20261128_ec2d8fb2cab7_inverse_current-compound-inverse-20261018-v3_f113ab9b06c6.txt",
+        "provenance": "新版（更新中） / malus-kolibr-unau-mebl-20261128 / ec2d8fb2cab7 / inverse: current-compound-inverse-20261018-v3 / f113ab9b06c6"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "苹ᴹo abelbirdo arb懒ᵁo istilo\nmaluso kolibro unaŭo meblo\npomo akeo arb懒ᴮo pruo ŝipkapo\nistilisto meblisto 苹ᴹᴷo 鸟ᴷᴮᴹo",
+        "output_sha256": "048912f7630c3af2e2e68027e64097a761e915be756d36619bf1876842092882",
+        "core_sha256": "048912f7630c3af2e2e68027e64097a761e915be756d36619bf1876842092882",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "maluso kolibro unaŭo meblo\nmaluso kolibro unaŭo meblo\npomo akeo bradipo pruo ŝipkapo\nmeblisto meblisto 苹ᴹᴷo 鸟ᴷᴮᴹo",
+        "output_sha256": "363c4adeed6bcc56c009230c7aab54d8d44ff219b1b2478bdf84d35527125520",
+        "core_sha256": "363c4adeed6bcc56c009230c7aab54d8d44ff219b1b2478bdf84d35527125520",
+        "filename": "esperanto_new_malus-kolibr-unau-mebl-20261128_ec2d8fb2cab7_inverse_current-compound-inverse-20261018-v3_f113ab9b06c6.txt",
+        "provenance": "新版（更新中） / malus-kolibr-unau-mebl-20261128 / ec2d8fb2cab7 / inverse: current-compound-inverse-20261018-v3 / f113ab9b06c6"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "苹ᴹo abelbirdo arb懒ᵁo istilo\nmaluso kolibro unaŭo meblo\npomo akeo arb懒ᴮo pruo ŝipkapo\nistilisto meblisto 苹ᴹᴷo 鸟ᴷᴮᴹo",
+        "output_sha256": "048912f7630c3af2e2e68027e64097a761e915be756d36619bf1876842092882",
+        "core_sha256": "048912f7630c3af2e2e68027e64097a761e915be756d36619bf1876842092882",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ]
+  }
+}
