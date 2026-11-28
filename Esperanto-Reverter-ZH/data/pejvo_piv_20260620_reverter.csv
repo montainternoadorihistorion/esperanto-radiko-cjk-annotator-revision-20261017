@@ -1076,7 +1076,7 @@ baŭhini,木ᴮᵁ̆,0,bau^hini,457
 eŭgeni,木ᴱᵁ̆,0,eu^geni,446
 gaŭlteri,木ᴳᵁ̆,0,gau^lteri,568
 ksiloste,木ᴷˢᴵ,0,ksiloste,576
-kastane,木ᴷᴬˢ,0,kastane,539
+kastane,木ᴷᴬˢ,0,kastane,reverse-alias:20261128
 kalitris,木ᴷᴬᴸ,0,kalitris,571
 kamerops,木ᴷᴬᴹ,0,kamerops,572
 karagan,木ᴷᴬᴿ,0,karagan,538
@@ -2675,6 +2675,7 @@ stigm,柱头ˢ,0,stigm,6796
 salikat,柳盐ᴬ,0,salikat,9975
 balustrad,栏ᴮᴸ,0,balustrad,5193
 bradip,树懒ᴮ,0,bradip,1513
+kastane,栗ᴷˢ,0,kastane,539
 sampl,样ˢᴹ,0,sampl,5360
 ribosom,核糖体,0,ribosom,6797
 radikl,根ᴿᴸ,0,radikl,3525
@@ -4205,7 +4206,7 @@ karas,鲤ᴷˢ,0,karas,5843
 kajman,鳄ᴷᴶ,0,kajman,5742
 saksikol,鸟ˢˢ,0,saksikol,1127
 ŝtern,鸟ˢ̂,0,s^tern,1081
-streptopeli,鸟ˢᴱ,0,streptopeli,1139
+streptopeli,鸟ˢᴱ,0,streptopeli,reverse-alias:20261128
 sit,鸟ˢᴵ,0,sit,1046
 sterkorari,鸟ˢᴷ,0,sterkorari,1136
 sul,鸟ˢᴸ,0,sul,1050
@@ -4832,6 +4833,7 @@ pale,内壳,0,pale,6298
 endosmoz,内渗,0,endosmoz,9081
 introspekt,内省,0,introspekt,7283
 konkub,内缘,0,konkub,7109
+kalson,内裤,0,kalson,3139
 album,册ᴬ,0,album,3055
 broŝur,册ᴮ,0,broŝur,3057
 ekzempler,册ᴱ,0,ekzempler,3058
@@ -7806,7 +7808,7 @@ garn,装ᴳ,0,garn,4137
 instal,装ᴵ,0,instal,4136
 kostum,装ᴷ,0,kostum,4135
 munt,装ᴹ,0,munt,4133
-kalson,裤ᴷ,0,kalson,3139
+kalson,裤ᴷ,0,kalson,reverse-alias:20261128
 gimnosperm,裸子,0,gimnosperm,7724
 uest,西ᵁ,0,uest,3127
 sagu,西米,0,sagu,7533
@@ -8041,12 +8043,13 @@ ankoraŭ,还ᴬ,0,ankoraŭ,654
 avanc,进ᴬ,0,avanc,3189
 import,进ᴵ,0,import,3188
 apoge,远ᴬ,0,apoge,5997
-hipermetrop,远ᴴ,0,hipermetrop,5998
+hipermetrop,远ᴴ,0,hipermetrop,reverse-alias:20261128
 lontan,远ᴸ,0,lontan,5999
 telefoni,远声,0,telefoni,10355
 telekopi,远复,0,telekopi,10090
 ekspedici,远征,0,ekspedici,8428
 telepati,远情,0,telepati,10093
+hipermetrop,远视,0,hipermetrop,5998
 faŭl,违规,0,fau^l,7904
 kupl,连ᴷ,0,kupl,667
 kompuls,迫ᴷ,0,kompuls,7664
@@ -8514,6 +8517,7 @@ opi,鸦片,0,opi,6497
 klangul,鸭ᴷ,0,klangul,4190
 fuligul,鸭ᶠ,0,fuligul,4189
 strut,鸵鸟,0,strut,reverse-alias:20261017
+streptopeli,鸽ˢ,0,streptopeli,1139
 enad,鸽ᴱ,0,enad,5726
 livi,鸽ᴸ,0,livi,5725
 palumb,鸽ᴾ,0,palumb,5727

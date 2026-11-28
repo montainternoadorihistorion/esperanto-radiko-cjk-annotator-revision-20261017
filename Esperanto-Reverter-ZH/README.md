@@ -1,3 +1,7 @@
+## 2026-11-28　栗属、远视、内裤和斑鸠属的还原
+
+新版将「栗ᴷˢo」「远视o」「内裤o」「鸽ˢo」分别还原为 kastaneo、hipermetropo、kalsono、streptopelio。两个版本都能还原旧写法「木ᴷᴬˢ」「远ᴴ」「裤ᴷ」「鸟ˢᴱ」。固定旧版仍把「远视o」「内裤o」读作 teletelevido、enpantalono，并保留原样输入的「栗ᴷˢo」「鸽ˢo」。「近ᴹo」读作 miopo，「座ᵀo」读作 trono。
+
 ## 2026-11-28　图书馆的还原
 
 新版将「书库o」和旧写法「库ᴮo」都还原为 biblioteko（图书馆、藏书）。固定旧版保留「书库o」的读法 librkaso，并将「库ᴮo」还原为 biblioteko。
