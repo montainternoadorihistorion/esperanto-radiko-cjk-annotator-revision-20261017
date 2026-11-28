@@ -1,6 +1,6 @@
 ## 2026-11-28　スイセン・キアゲハ・イシビラメ・子宮・ナシ属・教会の逆変換
 
-新版で「水仙ᵀo」「蝶ᴹo」「比目鱼ᵀo」「子宫o」「梨ᴾˢo」「教会o」は tazeto、makaono、turboto、utero、piruso、eklezio に戻ります。「子宫炎ᵀo」は uterito、「梨o」は piro、「库ᴳo」は garaĝo です。旧表記「草ᵀᶻ」「虫ᴹᴷ」「鱼ᵀᴮ」「宫ᵁ」「木ᴾᴵ」「教ᴱ」「宫ᵁ炎ᵀ」は両版で復元できます。固定旧版の「教会o」「子宫o」は従来どおり instrukongreso、idpalaco と読みます。
+新版で「水仙ᵀo」「蝶ᴹo」「比目鱼ᵀo」「子宫o」「梨ᴾˢo」「教会o」は tazeto、makaono、turboto、utero、piruso、eklezio に戻ります。「子宫炎ᵀo」は uterito、「梨o」は piro、「库ᴳo」は garaĝo です。旧表記「草ᵀᶻ」「虫ᴹᴷ」「鱼ᵀᴮ」「宫ᵁ」「木ᴾᴵ」「教ᴱ」「宫ᵁ炎ᵀ」は両版で復元できます。固定旧版の「教会o」「子宫o」は従来どおり instrukongreso、idpalaco と読みます。固定旧版の画面と補助読みを含むCSVは「宫ᵁ炎ᵀo」を uterito に戻します。固定旧版の元の5列・2列CSVを単独で使うと、従来どおり uter炎ᵀo になります。
 
 ## 2026-11-28　綿・イトスギ・チスイコウモリ・イヌゴマ属・伝説の逆変換
 

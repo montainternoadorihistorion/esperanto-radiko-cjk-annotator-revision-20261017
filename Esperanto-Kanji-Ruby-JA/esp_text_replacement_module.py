@@ -537,7 +537,7 @@ def _protect_input_regions(text, skip_tokens, local_tokens, local_rules,
         )
     matches = _at_enclosed_matches(text, [token for token, _ in skipped] if explicit_occurrences else ())
     overrides = {}
-    if reviewed_local_decompositions and assignment_edition == "current" and "uter" in text.lower():
+    if matches and reviewed_local_decompositions and assignment_edition == "current" and "uter" in text.lower():
         matches, overrides = _medical_uterit_spans(text, matches, local_rules, global_rules)
     payloads = [text[m.start(1):m.end(1)] for m in matches]
     finalized = _finalized_global_renderings_for_exact_matches(payloads, global_rules)

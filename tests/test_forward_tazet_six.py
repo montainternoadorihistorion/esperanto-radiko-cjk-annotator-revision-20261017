@@ -36,12 +36,16 @@ class TazetSixTests(unittest.TestCase):
                 labels = {r: v[edition == 'current'] for r, v in LABELS.items()}
                 for group in (GLOBAL, LOCAL):
                     rows = {k: v for k, v, _ in rules[group] if k in LABELS}
+                    expected = {r: [(v, r)] for r, v in labels.items()}
+                    if group == GLOBAL:
+                        # The bare global form also reads as the participle turb/ot.
+                        expected['turbot'] = [('旋ᵀ', 'turb'), ('待', 'ot')]
                     with self.subTest(lang=lang, edition=edition, group=group):
-                        self.assertEqual({r: roots(v) for r, v in rows.items()},
-                                         {r: [(v, r)] for r, v in labels.items()})
-                normal = {k: v for k, v, _ in rules[GLOBAL] if k in ('uterito', 'ekleziano')}
+                        self.assertEqual({r: roots(v) for r, v in rows.items()}, expected)
+                normal = {k: v for k, v, _ in rules[GLOBAL] if k in ('uterito', 'ŝtateklezi', 'turboto')}
+                self.assertEqual(roots(normal['turboto']), [(labels['turbot'], 'turbot')])
                 self.assertEqual(roots(normal['uterito']), [(labels['uter'], 'uter'), ('炎ᵀ', 'it')])
-                self.assertEqual(roots(normal['ekleziano']), [(labels['eklezi'], 'eklezi'), ('员', 'an')])
+                self.assertEqual(roots(normal['ŝtateklezi']), [('国ˢ̂', 'ŝtat'), (labels['eklezi'], 'eklezi')])
                 local = next(v for k, v, _ in rules[LOCAL] if k == 'uterit')
                 expected = '子宫炎ᵀ' if edition == 'current' else '宫炎'
                 self.assertEqual(roots(local), [(expected, 'uterit')])

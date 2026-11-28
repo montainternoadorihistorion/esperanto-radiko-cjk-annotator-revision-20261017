@@ -1,6 +1,6 @@
 ## 2026-11-28　水仙、凤蝶、比目鱼、子宫、梨属和教会的逆向转换
 
-新版将“水仙ᵀo”“蝶ᴹo”“比目鱼ᵀo”“子宫o”“梨ᴾˢo”“教会o”依次还原为 tazeto、makaono、turboto、utero、piruso、eklezio。“子宫炎ᵀo”还原为 uterito，“梨o”为 piro，“库ᴳo”为 garaĝo。两个版本均保留“草ᵀᶻ”“虫ᴹᴷ”“鱼ᵀᴮ”“宫ᵁ”“木ᴾᴵ”“教ᴱ”“宫ᵁ炎ᵀ”的原有读法。固定旧版继续将“教会o”“子宫o”还原为 instrukongreso 和 idpalaco。
+新版将“水仙ᵀo”“蝶ᴹo”“比目鱼ᵀo”“子宫o”“梨ᴾˢo”“教会o”依次还原为 tazeto、makaono、turboto、utero、piruso、eklezio。“子宫炎ᵀo”还原为 uterito，“梨o”为 piro，“库ᴳo”为 garaĝo。两个版本均保留“草ᵀᶻ”“虫ᴹᴷ”“鱼ᵀᴮ”“宫ᵁ”“木ᴾᴵ”“教ᴱ”“宫ᵁ炎ᵀ”的原有读法。固定旧版继续将“教会o”“子宫o”还原为 instrukongreso 和 idpalaco。固定旧版的页面和含补充读法的 CSV 将“宫ᵁ炎ᵀo”还原为 uterito。单独使用固定旧版原始五列或两列 CSV 时，结果仍是 uter炎ᵀo。
 
 ## 2026-11-28　棉属、柏属、吸血蝠属、水苏属与传说的逆向转换
 
