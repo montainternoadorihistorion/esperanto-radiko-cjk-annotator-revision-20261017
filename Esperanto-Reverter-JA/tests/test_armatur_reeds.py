@@ -57,7 +57,7 @@ def test_no_intermediate_profile_or_ambiguous_old_spelling_aliases():
 def test_current_manifest_downloads_and_group_descriptions():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
     path=app.ROOT/source['armatur_reeds_manifest'];manifest=json.loads(path.read_bytes())
-    assert source['revision']=='oak-woodear-football-maple-lemon-20261127'
+    assert source['revision']=='pumili-labrusk-dafodil-kontralt-20261128'
     assert manifest['revision']=='2026-10-25-armatur-reeds'
     assert manifest['changes']=={r:list(v) for r,v in CHANGES.items()}
     assert manifest['safe_reverse_aliases']=={}
@@ -76,6 +76,12 @@ def test_current_manifest_downloads_and_group_descriptions():
     six_path = app.ROOT / source['six_roots_20261121_manifest']
     assert hashlib.sha256(six_path.read_bytes()).hexdigest() == source['six_roots_20261121_manifest_sha256']
     six = json.loads(six_path.read_bytes())
+    shared_path = app.ROOT / source['pumili_labrusk_dafodil_kontralt_20261128_manifest']
+    shared_bytes = shared_path.read_bytes()
+    assert hashlib.sha256(shared_bytes).hexdigest() == source['pumili_labrusk_dafodil_kontralt_20261128_manifest_sha256']
+    shared = json.loads(shared_bytes)
+    assert shared['group_counts']['草'] == [379, 377]
+    assert set(manifest['documentation_only_changes']) & shared['changes'].keys() == {'labrusk', 'dafodil'}
     for root in manifest['documentation_only_changes']:
         expected = latest['expected_target_items'].get(root, manifest['expected_target_items'][root])
         if root in plants['expected_target_items']:
@@ -94,10 +100,20 @@ def test_current_manifest_downloads_and_group_descriptions():
             count_line = f'\nグループ数: {before}\n'
             assert count_line in expected_doc
             expected_doc = expected_doc.replace(count_line, f'\nグループ数: {after}\n')
+        if root in shared['changes']:
+            assert expected['body'] == shared['changes'][root]['old']
+            expected = shared['expected_target_items'][root]
+            assert expected['body'] == shared['changes'][root]['current']
+            expected_doc = expected['documentation']
+        elif expected['kanji'] in shared['group_counts']:
+            before, after = shared['group_counts'][expected['kanji']]
+            count_line = f'\nグループ数: {before}\n'
+            assert count_line in expected_doc
+            expected_doc = expected_doc.replace(count_line, f'\nグループ数: {after}\n')
         row = next(row for row in monaco['items'] if row['sourceRoot']==root and row['body']==expected['body'])
         assert row['documentation'] == expected_doc
     for body,root in CONTROLS.items():assert items[root]['body']==body
-    rows=list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding='utf-8'))));assert len(rows)==10780
+    rows=list(csv.DictReader(io.StringIO(app.PEJVO_PIV_20260620_CSV.read_text(encoding='utf-8'))));assert len(rows)==10784
     for root,(_,new) in CHANGES.items():assert [r['kanji'] for r in rows if r['source_root']==root]==[new]
     full,two=app.edition_download_data(CURRENT)
     assert hashlib.sha256(full).hexdigest()==source['current_csv_sha256']

@@ -1,5 +1,9 @@
 > **旧版の参考資料 / Historical reference**
 
+## 11 月 28 日采纳的四个词根
+
+新版使用 dafodil＝水仙ᴰ（喇叭水仙）、pumili＝松ᴾᴹ（欧洲山松）、labrusk＝葡ᴸ（美洲葡萄）、kontralt＝女低音。固定旧版保留此前的汉字写法。
+
 ## 11 月 27 日采纳的五个词根
 
 新版使用 robur＝橡ᴿ、aŭrikulari＝木耳、futbal＝足球、negund＝枫ᴺ、citron＝柠ᶜ。表示柠檬树的 limon 沿用不带标识符的「柠」。

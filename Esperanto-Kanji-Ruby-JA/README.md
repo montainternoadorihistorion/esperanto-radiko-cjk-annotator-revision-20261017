@@ -1,5 +1,9 @@
 > **旧版の参考資料 / Historical reference**
 
+## 11月28日採用の4語根
+
+新版では dafodil＝水仙ᴰ（ラッパスイセン）、pumili＝松ᴾᴹ（ムゴマツ）、labrusk＝葡ᴸ（アメリカブドウ）、kontralt＝女低音（コントラルト）です。固定旧版では従来の漢字を使用します。
+
 ## 11月27日採用の5語根
 
 新版では robur＝橡ᴿ、aŭrikulari＝木耳、futbal＝足球、negund＝枫ᴺ、citron＝柠ᶜ です。レモンの木 limon の無印は「柠」です。

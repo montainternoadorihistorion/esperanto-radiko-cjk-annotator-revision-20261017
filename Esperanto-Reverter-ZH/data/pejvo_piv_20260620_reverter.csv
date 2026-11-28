@@ -2136,6 +2136,7 @@ cefalospin,头ᶜ脊,0,cefalospin,8938
 klem,夹ᴷᴸ,0,klem,4883
 klip,夹ᴷᴾ,0,klip,4884
 femin,女ᶠᴱ,0,femin,241
+kontralt,女低音,0,kontralt,8426
 sopran,女高音,0,sopran,6771
 ŝmink,妆ˢ̂,0,s^mink,3905
 putin,妓ᴾᵀ,0,putin,6309
@@ -2574,7 +2575,7 @@ pirus,木ᴾᴵ,0,pirus,501
 pajen,木ᴾᴶ,0,pajen,499
 pilokarp,木ᴾᴷ,0,pilokarp,583
 palakvi,木ᴾᴸ,0,palakvi,549
-pumili,木ᴾᴹ,0,pumili,526
+pumili,木ᴾᴹ,0,pumili,reverse-alias:20261128
 pandan,木ᴾᴺ,0,pandan,524
 papaŭ,木ᴾᴾ,0,papau^,500
 pinastr,木ᴾᴿ,0,pinastr,551
@@ -2636,6 +2637,7 @@ teniicid,条虫杀,0,teniicid,10096
 kalikl,杯ᴷᴸ,0,kalikl,1706
 kup,杯ᴷᴾ,0,kup,1704
 pini,松ᴾᴵ,0,pini,4046
+pumili,松ᴾᴹ,0,pumili,526
 pinofit,松植ᶠ,0,pinofit,9851
 zizel,松鼠ᶻ,0,zizel,5929
 vajr,松鼠皮,0,vajr,8382
@@ -2741,6 +2743,7 @@ hidroelektr,水ᴴ电,0,hidroelektr,9304
 hidroterapi,水ᴴ疗,0,hidroterapi,9326
 hidrokarbon,水ᴴ碳,0,hidrokarbon,9314
 hidracid,水ᴴ酸,0,hidracid,9301
+dafodil,水仙ᴰ,0,dafodil,2412
 jonkvil,水仙ᴶ,0,jonkvil,6790
 akvedukt,水管ᴰ,0,akvedukt,6051
 betonik,水苏ᴮ,0,betonik,8313
@@ -3282,7 +3285,7 @@ delfini,草ᴰᴸ,0,delfini,2241
 drimi,草ᴰᴹ,0,drimi,2312
 dione,草ᴰᴺ,0,dione,2310
 dioskore,草ᴰᴿ,0,dioskore,2464
-dafodil,草ᴰᶠ,0,dafodil,2412
+dafodil,草ᴰᶠ,0,dafodil,reverse-alias:20261128
 drozer,草ᴰᶻ,0,drozer,2352
 eglanteri,草ᴱᴬ,0,eglanteri,2514
 ebul,草ᴱᴮ,0,ebul,2191
@@ -3356,7 +3359,7 @@ kolokazi,草ᴷᶻ,0,kolokazi,reverse-alias:20261121
 kvino,草ᴷⱽ,0,kvino,2218
 litops,草ᴸˢ,0,litops,2378
 logani,草ᴸᴬ,0,logani,2380
-labrusk,草ᴸᴮ,0,labrusk,2429
+labrusk,草ᴸᴮ,0,labrusk,reverse-alias:20261128
 leguzi,草ᴸᴱ,0,leguzi,2373
 lige,草ᴸᴳ,0,lige,2292
 lentibulari,草ᴸᴵ,0,lentibulari,2552
@@ -5460,7 +5463,7 @@ galoŝ,套鞋,0,galoŝ,5782
 ginek,女ᴳ,0,ginek,242
 nj,女ᴺ,0,nj,240
 feminism,女ᶠ,0,feminism,239
-kontralt,女低,0,kontralt,8426
+kontralt,女低,0,kontralt,reverse-alias:20261128
 ligustr,女贞,0,ligustr,8243
 puding,奶冻,0,puding,7941
 stukaĉ,奸ˢ,0,stukac^,6365
@@ -7626,6 +7629,7 @@ kazern,营ᴷ,0,kazern,6944
 decidu,落ᴰ,0,decidu,1175
 larik,落松,0,larik,6909
 ampelops,葡ᴬ,0,ampelops,4165
+labrusk,葡ᴸ,0,labrusk,2429
 uv,葡ᵁ,0,uv,8049
 uve,葡膜,0,uve,8089
 uv,葡萄,0,uv,reverse-alias:20261017

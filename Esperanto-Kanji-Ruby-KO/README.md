@@ -1,5 +1,9 @@
 > **旧版の参考資料 / Historical reference**
 
+## 11월 28일에 채택한 네 어근
+
+신판에서는 dafodil＝水仙ᴰ(나팔수선화), pumili＝松ᴾᴹ(무고소나무), labrusk＝葡ᴸ(미국포도), kontralt＝女低音(콘트랄토)으로 표기합니다. 고정 구판은 기존 한자 표기를 사용합니다.
+
 ## 11월 27일에 채택한 어근 다섯 개
 
 개정판에서는 robur＝橡ᴿ, aŭrikulari＝木耳, futbal＝足球, negund＝枫ᴺ, citron＝柠ᶜ로 씁니다. 레몬나무를 뜻하는 limon에는 식별자 없이 柠을 씁니다.

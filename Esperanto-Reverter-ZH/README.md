@@ -1,3 +1,7 @@
+## 2026-11-28　四个词根的还原
+
+新版将「松ᴾᴹo」「葡ᴸo」「水仙ᴰo」「女低音o」分别还原为 pumilio、labrusko、dafodilo、kontralto。旧写法「木ᴾᴹ」「草ᴸᴮ」「草ᴰᶠ」「女低」也可还原为原来的词根。「女低音者女o」与旧写法「女低者女o」均还原为 kontraltulino，指女低音歌手。固定旧版沿用「女低音o」的旧读法 kontraltprononco。
+
 ## 2026-11-27　木耳、足球、树木和柑橘的还原
 
 新版将「橡ᴿo」「木耳o」「足球o」「枫ᴺo」「柠ᶜo」分别还原为 roburo、aŭrikulario、futbalo、negundo、citrono。「柠o」仍还原为 limono。新版也保留旧写法「木ᴿᴮ」「菌ᴬᵁ̆」「球ᶠ」「木ᴺᴳ」「果ᶜ」的原读法。在固定旧版中，「木耳o」和「足球o」仍按合成词还原为 lignorelo 和 piedpilko。
