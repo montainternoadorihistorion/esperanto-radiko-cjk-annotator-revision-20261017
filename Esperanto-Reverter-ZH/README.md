@@ -1,3 +1,7 @@
+## 2026-11-28　图书馆的还原
+
+新版将「书库o」和旧写法「库ᴮo」都还原为 biblioteko（图书馆、藏书）。固定旧版保留「书库o」的读法 librkaso，并将「库ᴮo」还原为 biblioteko。
+
 ## 2026-11-28　拍手、卫星和蝴蝶的还原
 
 新版将「拍手i」「卫星o」「蝶ᴸᶜo」分别还原为 aplaŭdi、satelito、liceno。旧写法「鼓ᴬ」「星ˢᵀ」「虫ᴸᶜ」仍可还原为相应词根。固定旧版分别将「拍手o」「卫星o」读作 fotmano、gvardistelo。「蝶ᴸ」对应 lepidopter，「糖ᴷᴰ」对应 kand。

@@ -161,6 +161,7 @@ LATER_CURRENT_ASSIGNMENTS = {
     'aplaŭd': ('鼓ᴬ', '拍手'),
     'satelit': ('星ˢᵀ', '卫星'),
     'licen': ('虫ᴸᶜ', '蝶ᴸᶜ'),
+    'bibliotek': ('库ᴮ', '书库'),
     'pumili': ('木ᴾᴹ', '松ᴾᴹ'),
     'labrusk': ('草ᴸᴮ', '葡ᴸ'),
     'kontralt': ('女低', '女低音'),
