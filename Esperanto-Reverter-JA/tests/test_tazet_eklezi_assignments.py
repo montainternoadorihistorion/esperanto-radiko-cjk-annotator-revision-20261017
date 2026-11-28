@@ -53,6 +53,28 @@ EDITION_READINGS = {
 }
 
 
+
+def rows_outside_verified_tazet_eklezi_changes(oldrows, newrows):
+    roots = {root for root, _, _, _ in CASES}
+    old_targets = [row for row in oldrows if row['source_root'] in roots]
+    new_targets = [row for row in newrows if row['source_root'] in roots]
+    old_by_root = {row['source_root']: row for row in old_targets}
+    assert len(old_targets) == len(roots)
+    assert set(old_by_root) == roots
+    expected = {}
+    for root, earlier, current, _ in CASES:
+        row = old_by_root[root]
+        assert (row['kanji'], row['esperanto']) == (earlier, root)
+        expected[current] = dict(row, kanji=current)
+        expected[earlier] = dict(row, source_line='reverse-alias:20261128')
+    assert len(new_targets) == len(expected) == 2 * len(roots)
+    assert {row['kanji']: row for row in new_targets} == expected
+    return (
+        [row for row in oldrows if row['source_root'] not in roots],
+        [row for row in newrows if row['source_root'] not in roots],
+    )
+
+
 @pytest.mark.parametrize('edition', [CURRENT, LEGACY])
 def test_approved_six_and_derivative_in_edition_and_downloads(edition):
     source = app.load_dictionary_source(edition)
