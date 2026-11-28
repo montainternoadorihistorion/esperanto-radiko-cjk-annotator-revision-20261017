@@ -1,0 +1,68 @@
+{
+  "revision": "pumili-labrusk-dafodil-kontralt-20261128",
+  "changes": {
+    "pumili": {
+      "old": "木ᴾᴹ",
+      "current": "松ᴾᴹ"
+    },
+    "labrusk": {
+      "old": "草ᴸᴮ",
+      "current": "葡ᴸ"
+    },
+    "dafodil": {
+      "old": "草ᴰᶠ",
+      "current": "水仙ᴰ"
+    },
+    "kontralt": {
+      "old": "女低",
+      "current": "女低音"
+    }
+  },
+  "group_counts": {
+    "女低": [
+      1,
+      0
+    ],
+    "女低音": [
+      0,
+      1
+    ],
+    "木": [
+      262,
+      261
+    ],
+    "松": [
+      6,
+      7
+    ],
+    "水仙": [
+      2,
+      3
+    ],
+    "草": [
+      379,
+      377
+    ],
+    "葡": [
+      3,
+      4
+    ]
+  },
+  "safe_reverse_aliases": {
+    "木ᴾᴹ": "pumili",
+    "草ᴸᴮ": "labrusk",
+    "草ᴰᶠ": "dafodil",
+    "女低": "kontralt"
+  },
+  "canonical_sidecar_sha256": "ac58f0e5fe92aed5b389f8c58e985842908d6aa0d90e5acc5019cac2f808d451",
+  "baseline_monaco_sha256": "1e79afe23b90929bbdb784cdaa631059b263e7ead8ae713134f0212a6e9007e6",
+  "current_monaco_sha256": "fc93b8086363a873b7cee37ac862df694111b1ebcab8933645ac2e2fdc67bf04",
+  "current_items": 10640,
+  "unchanged_assignment_count": 10636,
+  "group_count_documentation_changes": 649,
+  "prior_displayed_group_counts": {
+    "vit": 2,
+    "ampelops": 2
+  },
+  "rationale": "Pumili shares pine with pin, labrusk shares grape with vit, and dafodil shares narcissus with narcis. Kontralt shares the 音 pattern with sopran, tenor and bariton. All four earlier spellings remain readable, including the singer form of kontralt."
+}

@@ -66,8 +66,8 @@ def test_html_preserves_root_source_spaces_and_protected_text(edition,mode):
 
 def test_revision_no_new_owner_transfer_or_third_edition():
     source=json.loads((app.ROOT/'data/current_dictionary_source.json').read_bytes())
-    assert source['revision']=='oak-woodear-football-maple-lemon-20261127'
-    assert source['current_item_count']==10640 and source['current_csv_count']==10780
+    assert source['revision']=='pumili-labrusk-dafodil-kontralt-20261128'
+    assert source['current_item_count']==10640 and source['current_csv_count']==10784
     for root,new,old in CHANGES:
         assert source['reverse_only_aliases'][old]==root
         assert old not in source['ownership_transfers'] and new not in source['ownership_transfers']
