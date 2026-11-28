@@ -1,0 +1,204 @@
+{
+  "forward_source": "kastaneo hipermetropa kalsono streptopelio\n@kastane@o @hipermetrop@a @kalson@o @streptopeli@o\nhipermetropeco bankalsono naĝkalsoneto ŝtrumpokalsono miopa trono %kalsono% @al@@ven@@ig@i",
+  "forward": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "372c54f16e95f5fc1efb1d41ee9dbcad3aa489d7aeef48af8b4e2522403dd2ba",
+        "core_sha256": "372c54f16e95f5fc1efb1d41ee9dbcad3aa489d7aeef48af8b4e2522403dd2ba",
+        "signature": "a4dacb7a0f1753f9f89b01861e8b04ca7009cc0cc8f5900a99bcc2a45dfc409f",
+        "filename": "置換結果_current_a4dacb7a0f17.txt",
+        "expected_text": "栗ᴷˢo 远视a 内裤o 鸽ˢo\n栗ᴷˢo 远视a 内裤o 鸽ˢo\n远视性o 浴内裤o 游内裤小o 袜o内裤o 近ᴹa 座ᵀo kalsono 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "df5cd042c7e10ad334e4f7a24579f8a314c08f91bf942f3a29f234e28543baab",
+        "core_sha256": "431a6be90cf09f5c2187fa0fb482e6b617d682a821a7c35c0537f763dbf3cf88",
+        "signature": "af0397411ac8eda341d8763dc1a636251fe3901c52c133426cc658bc624766a5",
+        "filename": "置換結果_current_af0397411ac8.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "6df41d02c5b5dc8761749feb87a676e827060e04c8f5dac7c7000361e0d47f97",
+        "core_sha256": "75453a5a7e3f28991ef904f1f745e96e0b34482a1b0e48026a0f8d861e286c55",
+        "signature": "c5cfd867d2030400ff4b002dc36c0d8ef60feb54a94b8fa28a5b3b5cce548f6e",
+        "filename": "置換結果_current_c5cfd867d203.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "315361e575376939400c6bf4926dfb457ea6e2d57a86639b474a20a27019ff20",
+        "core_sha256": "315361e575376939400c6bf4926dfb457ea6e2d57a86639b474a20a27019ff20",
+        "signature": "ed2691b7b9e3c91c913715992ab6ab5f2812b5eeda7192d81efb9b86121beb0e",
+        "filename": "置換結果_legacy_ed2691b7b9e3.txt",
+        "expected_text": "木ᴷᴬˢo 远ᴴa 裤ᴷo 鸟ˢᴱo\n木ᴷᴬˢo 远ᴴa 裤ᴷo 鸟ˢᴱo\n远ᴴ性o 浴裤ᴷo 游裤ᴷ小o 袜o裤ᴷo 近ᴹa 座ᵀo kalsono 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "30821f250766234e256d61232423114b85766527443ba23f4e17ed8afa4c50d2",
+        "core_sha256": "3837b8056da833d8ff8546cfc77f03ded53fb2af76d9f016b9864d677007429b",
+        "signature": "32ac1c57d2278dbd1652312a50dd0865a3876e9901e4f14612d29c493ed82d8d",
+        "filename": "置換結果_legacy_32ac1c57d227.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "6df41d02c5b5dc8761749feb87a676e827060e04c8f5dac7c7000361e0d47f97",
+        "core_sha256": "75453a5a7e3f28991ef904f1f745e96e0b34482a1b0e48026a0f8d861e286c55",
+        "signature": "9fee39f107976bf23ee3bc2fa217b99e53c3b5d8edf8edc8de3400058e8643bb",
+        "filename": "置換結果_legacy_9fee39f10797.html"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "372c54f16e95f5fc1efb1d41ee9dbcad3aa489d7aeef48af8b4e2522403dd2ba",
+        "core_sha256": "372c54f16e95f5fc1efb1d41ee9dbcad3aa489d7aeef48af8b4e2522403dd2ba",
+        "signature": "dc7b696e8c5ac1bda2a1280608def2862b21400459f47ba8cb32299d400eed90",
+        "filename": "转换结果_current_dc7b696e8c5a.txt",
+        "expected_text": "栗ᴷˢo 远视a 内裤o 鸽ˢo\n栗ᴷˢo 远视a 内裤o 鸽ˢo\n远视性o 浴内裤o 游内裤小o 袜o内裤o 近ᴹa 座ᵀo kalsono 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "da632e55f2e33dadf3febf05c44ffdfb826848681ac80bbca232659a6ee7ae7e",
+        "core_sha256": "0d2f6893e8530552a6161f34f23bfdda404eeec5591ebe3fa28cd2d50efe164a",
+        "signature": "8fc934c6f5cb0abb9d13fc714a8a10ccd0e56ede5b9e854f5292fcd2efea5ceb",
+        "filename": "转换结果_current_8fc934c6f5cb.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "e3eb768537f60170a668ba95559128339789ed092753aca10191f4036e0ae621",
+        "core_sha256": "5c71f64549e04ed330dd3e45e6abf0158e90fe167c4f534fb61fa0ec5a370726",
+        "signature": "15d3b0716f5b443dcc93647cabd5d4cd7386f2ee5c94a4a9797ea49dc64d5b91",
+        "filename": "转换结果_current_15d3b0716f5b.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "315361e575376939400c6bf4926dfb457ea6e2d57a86639b474a20a27019ff20",
+        "core_sha256": "315361e575376939400c6bf4926dfb457ea6e2d57a86639b474a20a27019ff20",
+        "signature": "923ee873a89b7415df3bc0e0b0807cf0f507ba473584fae7a80ea3d4467fb0d5",
+        "filename": "转换结果_legacy_923ee873a89b.txt",
+        "expected_text": "木ᴷᴬˢo 远ᴴa 裤ᴷo 鸟ˢᴱo\n木ᴷᴬˢo 远ᴴa 裤ᴷo 鸟ˢᴱo\n远ᴴ性o 浴裤ᴷo 游裤ᴷ小o 袜o裤ᴷo 近ᴹa 座ᵀo kalsono 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "69af1448ec672208b267daf7e4a5bf923628b030dd95686af0b18291c48d38c5",
+        "core_sha256": "89c53ebe7ddb9648d8cd44f1d0f2671dee17aa7ed55314d527e815731d6f6433",
+        "signature": "033a030942bf54803f4856dd1ccbd60e117fb20f5d5cf6738b6aff17ee5d34c0",
+        "filename": "转换结果_legacy_033a030942bf.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "e3eb768537f60170a668ba95559128339789ed092753aca10191f4036e0ae621",
+        "core_sha256": "5c71f64549e04ed330dd3e45e6abf0158e90fe167c4f534fb61fa0ec5a370726",
+        "signature": "dedb8bc01f410a6261a98f3375d52872f78de29ad98dbe6052a3c1f5357934b9",
+        "filename": "转换结果_legacy_dedb8bc01f41.html"
+      }
+    ],
+    "KO": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "372c54f16e95f5fc1efb1d41ee9dbcad3aa489d7aeef48af8b4e2522403dd2ba",
+        "core_sha256": "372c54f16e95f5fc1efb1d41ee9dbcad3aa489d7aeef48af8b4e2522403dd2ba",
+        "signature": "3371fd5a6f9096f51004991b1772dd915663b453362ebcadcade21b31b0b5de8",
+        "filename": "치환결과_current_3371fd5a6f90.txt",
+        "expected_text": "栗ᴷˢo 远视a 内裤o 鸽ˢo\n栗ᴷˢo 远视a 内裤o 鸽ˢo\n远视性o 浴内裤o 游内裤小o 袜o内裤o 近ᴹa 座ᵀo kalsono 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "ddb8ae85a34353fc77f5319610dcfca41586a38861d986533da7b6a9daaba20e",
+        "core_sha256": "9cd12fefd4fda5106082909112cdc28e005af050f505f8bb27de718674989518",
+        "signature": "86ec764b4b0bacf39ab192fc48d8e9459c1288398b33e53e7d7d5eb1592262ea",
+        "filename": "치환결과_current_86ec764b4b0b.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "05c994a959ecaef962a7ae90d2788b32156ee9ca7ec364e50ee68661180e012a",
+        "core_sha256": "d4ad7be999ff490a19aa29d4223acfb7098d663dcf546c524f6c4a51e1a0b3c3",
+        "signature": "ebcd1e861845201222e419d36dd185ef73e7b6378e0f2879490a2d52066135c9",
+        "filename": "치환결과_current_ebcd1e861845.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "315361e575376939400c6bf4926dfb457ea6e2d57a86639b474a20a27019ff20",
+        "core_sha256": "315361e575376939400c6bf4926dfb457ea6e2d57a86639b474a20a27019ff20",
+        "signature": "68b4f45d49b540250f82a6d85c42cbcf448f9381785055ea3d198f815b99698c",
+        "filename": "치환결과_legacy_68b4f45d49b5.txt",
+        "expected_text": "木ᴷᴬˢo 远ᴴa 裤ᴷo 鸟ˢᴱo\n木ᴷᴬˢo 远ᴴa 裤ᴷo 鸟ˢᴱo\n远ᴴ性o 浴裤ᴷo 游裤ᴷ小o 袜o裤ᴷo 近ᴹa 座ᵀo kalsono 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "a7bc9090990f768402b036aa2ed4c0c5e89a00407eec73b74bb8cbdff73b9b16",
+        "core_sha256": "2ce9e2b8e69f58e92e27652c64ab9d12e8ff37317779e36fc4da9a4495d03614",
+        "signature": "ef0e918cf44eb473fc46380a2f80761e7ea64a25ddcb5275341873ef2e445847",
+        "filename": "치환결과_legacy_ef0e918cf44e.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "05c994a959ecaef962a7ae90d2788b32156ee9ca7ec364e50ee68661180e012a",
+        "core_sha256": "d4ad7be999ff490a19aa29d4223acfb7098d663dcf546c524f6c4a51e1a0b3c3",
+        "signature": "5cab5a903bea0ae55006d819c5de0acde805bbf6e1b57fb00d92ecf8581abc09",
+        "filename": "치환결과_legacy_5cab5a903bea.html"
+      }
+    ]
+  },
+  "inverse_source": "栗ᴷˢo 远视o 内裤o 鸽ˢo\n木ᴷᴬˢo 远ᴴo 裤ᴷo 鸟ˢᴱo\n近ᴹo 座ᵀo 栗o 鸽o 浴内裤o\n栗ᴷˢᴹo 鸽ˢᴷo 近视o 王座o",
+  "inverse": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "kastaneo hipermetropo kalsono streptopelio\nkastaneo hipermetropo kalsono streptopelio\nmiopo trono kaŝtano kolombo bankalsono\n栗ᴷˢᴹo 鸽ˢᴷo proksimtelevido reĝingo",
+        "output_sha256": "609dd860e32791796f964c533672d3da9712eee97beae920c691dcb5a6cae66e",
+        "core_sha256": "609dd860e32791796f964c533672d3da9712eee97beae920c691dcb5a6cae66e",
+        "filename": "esperanto_new_kastane-hipermetrop-kalson-streptopeli-20261128_4bb62e5c936d_inverse_current-compound-inverse-20261018-v3_dbfdfc2a9872.txt",
+        "provenance": "新版（更新中） / kastane-hipermetrop-kalson-streptopeli-20261128 / 4bb62e5c936d / inverse: current-compound-inverse-20261018-v3 / dbfdfc2a9872"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "栗ᴷˢo teletelevido enpantalono 鸽ˢo\nkastaneo hipermetropo kalsono streptopelio\nmiopo trono kaŝtano kolombo banenpantalono\n栗ᴷˢᴹo 鸽ˢᴷo proksimtelevido reĝingo",
+        "output_sha256": "830b04fb813e12bec674a4e2cb2d67a2fef6b7c641c8fb5bb5c36251fedf8431",
+        "core_sha256": "830b04fb813e12bec674a4e2cb2d67a2fef6b7c641c8fb5bb5c36251fedf8431",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "kastaneo hipermetropo kalsono streptopelio\nkastaneo hipermetropo kalsono streptopelio\nmiopo trono kaŝtano kolombo bankalsono\n栗ᴷˢᴹo 鸽ˢᴷo proksimtelevido reĝingo",
+        "output_sha256": "609dd860e32791796f964c533672d3da9712eee97beae920c691dcb5a6cae66e",
+        "core_sha256": "609dd860e32791796f964c533672d3da9712eee97beae920c691dcb5a6cae66e",
+        "filename": "esperanto_new_kastane-hipermetrop-kalson-streptopeli-20261128_4bb62e5c936d_inverse_current-compound-inverse-20261018-v3_dbfdfc2a9872.txt",
+        "provenance": "新版（更新中） / kastane-hipermetrop-kalson-streptopeli-20261128 / 4bb62e5c936d / inverse: current-compound-inverse-20261018-v3 / dbfdfc2a9872"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "栗ᴷˢo teletelevido enpantalono 鸽ˢo\nkastaneo hipermetropo kalsono streptopelio\nmiopo trono kaŝtano kolombo banenpantalono\n栗ᴷˢᴹo 鸽ˢᴷo proksimtelevido reĝingo",
+        "output_sha256": "830b04fb813e12bec674a4e2cb2d67a2fef6b7c641c8fb5bb5c36251fedf8431",
+        "core_sha256": "830b04fb813e12bec674a4e2cb2d67a2fef6b7c641c8fb5bb5c36251fedf8431",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ]
+  }
+}
