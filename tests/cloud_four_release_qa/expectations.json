@@ -1,0 +1,204 @@
+{
+  "forward_source": "gosipio kupreso desmodo stakiso legendo\n@gosipi@o @kupres@o @desmod@o @stakis@o @legend@o\nstakio stakiozo betoniko @legend@a @leg@@end@a %legendo%",
+  "forward": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "a0e292cf09e27bd7211aa4a7194d12221ec88eb16a481119ef153e18b42dab49",
+        "core_sha256": "a0e292cf09e27bd7211aa4a7194d12221ec88eb16a481119ef153e18b42dab49",
+        "signature": "95ddeab6fc8bff8e6ccb17472a5de70d52bc84f5ff96ab1e206dd9d71b09badc",
+        "filename": "置換結果_current_95ddeab6fc8b.txt",
+        "expected_text": "棉ᴳo 柏ᴷo 蝠ᴰo 水苏ˢˢo 读须o\n棉ᴳo 柏ᴷo 蝠ᴰo 水苏ˢˢo 读须o\n水苏o 水苏糖ᴼo 水苏ᴮo 读须a 读须a legendo"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "ee57f23f9f2687540720ed74a556adbd958e638a4cb5c956f5d836acda6d1ba0",
+        "core_sha256": "4ab93824fcfcc88d277935c8aa6f0a5e4292087957f8bec371c52946ea14f216",
+        "signature": "7221c4a4656937d189d0f9ea4d0e85bb21fb23d5c52010ea64a96615411156c8",
+        "filename": "置換結果_current_7221c4a46569.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "d1efd12814127a5b2ffa0e57ea9ca06934a08871f160898d2df8228b50ceb9b4",
+        "core_sha256": "119708f709a9f472167b2c53de7e1ff1fbe49a8e129ccbd8608185fd3dfe4edd",
+        "signature": "446191c36541ec5a0fe3aa3f6879b8ee4e568ec823f067ea2c6b411b4a37508c",
+        "filename": "置換結果_current_446191c36541.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "b3c59ec84bd8472b54ee8d4b12dd9304002f4887156d4f2859e2b27266f43036",
+        "core_sha256": "b3c59ec84bd8472b54ee8d4b12dd9304002f4887156d4f2859e2b27266f43036",
+        "signature": "ed2691b7b9e3c91c913715992ab6ab5f2812b5eeda7192d81efb9b86121beb0e",
+        "filename": "置換結果_legacy_ed2691b7b9e3.txt",
+        "expected_text": "草ᴳˢo 木ᴷˢo 兽ᴰˢo 草ˢᵀᴬo 传ᴸo\n草ᴳˢo 木ᴷˢo 兽ᴰˢo 草ˢᵀᴬo 传ᴸo\n水苏o 水苏糖ᴼo 水苏ᴮo 传ᴸa 读须a legendo"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "002062a0e2614ca4d37455a298701a5ea73dc2c93640d56a8e309714b2f34e37",
+        "core_sha256": "8a98843fa3a043d2344a004f84c5de8e7dd997631a06e7b9e1b2203c310022c3",
+        "signature": "32ac1c57d2278dbd1652312a50dd0865a3876e9901e4f14612d29c493ed82d8d",
+        "filename": "置換結果_legacy_32ac1c57d227.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "d1efd12814127a5b2ffa0e57ea9ca06934a08871f160898d2df8228b50ceb9b4",
+        "core_sha256": "119708f709a9f472167b2c53de7e1ff1fbe49a8e129ccbd8608185fd3dfe4edd",
+        "signature": "9fee39f107976bf23ee3bc2fa217b99e53c3b5d8edf8edc8de3400058e8643bb",
+        "filename": "置換結果_legacy_9fee39f10797.html"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "a0e292cf09e27bd7211aa4a7194d12221ec88eb16a481119ef153e18b42dab49",
+        "core_sha256": "a0e292cf09e27bd7211aa4a7194d12221ec88eb16a481119ef153e18b42dab49",
+        "signature": "4fc47e0c9842cfe5dc65cf5a3c7a6132b963c287102c735d602a4b87a27a9562",
+        "filename": "转换结果_current_4fc47e0c9842.txt",
+        "expected_text": "棉ᴳo 柏ᴷo 蝠ᴰo 水苏ˢˢo 读须o\n棉ᴳo 柏ᴷo 蝠ᴰo 水苏ˢˢo 读须o\n水苏o 水苏糖ᴼo 水苏ᴮo 读须a 读须a legendo"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "802e4ffd95fa55323a531867b4e8bbca242e5348584d15e4c9d192f4fdbf1fc3",
+        "core_sha256": "4a1814a3ce5c5398654ae394ee7f46899e62caa0a3fd54b362c45cd526f04088",
+        "signature": "85d09da50b52e3b61d9ee581e389aa783e6a5ff7ff0baf9d281accfd8673d313",
+        "filename": "转换结果_current_85d09da50b52.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "dfe0acd40ee92cc6149cdbc555c3eb24a611a0e0ee7e399dc3f92e42fdbc7994",
+        "core_sha256": "ac62d58b85a9e384511b007fd370fe0f80195ff9f892eba0a8fe60f00212256f",
+        "signature": "fa9407eeea0c9deee07021b0b691260c5a49a8b9554823a370eb9d481bf2d530",
+        "filename": "转换结果_current_fa9407eeea0c.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "b3c59ec84bd8472b54ee8d4b12dd9304002f4887156d4f2859e2b27266f43036",
+        "core_sha256": "b3c59ec84bd8472b54ee8d4b12dd9304002f4887156d4f2859e2b27266f43036",
+        "signature": "923ee873a89b7415df3bc0e0b0807cf0f507ba473584fae7a80ea3d4467fb0d5",
+        "filename": "转换结果_legacy_923ee873a89b.txt",
+        "expected_text": "草ᴳˢo 木ᴷˢo 兽ᴰˢo 草ˢᵀᴬo 传ᴸo\n草ᴳˢo 木ᴷˢo 兽ᴰˢo 草ˢᵀᴬo 传ᴸo\n水苏o 水苏糖ᴼo 水苏ᴮo 传ᴸa 读须a legendo"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "da7c3448b4a581a1291913a52517734e3af5ea538613028c90c78209aadfc666",
+        "core_sha256": "a76fb6d11c00c49f6edbcabeec14d2a6ae29276365559d3a6f1c533f19f9e23b",
+        "signature": "033a030942bf54803f4856dd1ccbd60e117fb20f5d5cf6738b6aff17ee5d34c0",
+        "filename": "转换结果_legacy_033a030942bf.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "dfe0acd40ee92cc6149cdbc555c3eb24a611a0e0ee7e399dc3f92e42fdbc7994",
+        "core_sha256": "ac62d58b85a9e384511b007fd370fe0f80195ff9f892eba0a8fe60f00212256f",
+        "signature": "dedb8bc01f410a6261a98f3375d52872f78de29ad98dbe6052a3c1f5357934b9",
+        "filename": "转换结果_legacy_dedb8bc01f41.html"
+      }
+    ],
+    "KO": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "a0e292cf09e27bd7211aa4a7194d12221ec88eb16a481119ef153e18b42dab49",
+        "core_sha256": "a0e292cf09e27bd7211aa4a7194d12221ec88eb16a481119ef153e18b42dab49",
+        "signature": "bea7ede06056e5654d7f907b594268cc03c9fce69df2bae848967a62bcd88185",
+        "filename": "치환결과_current_bea7ede06056.txt",
+        "expected_text": "棉ᴳo 柏ᴷo 蝠ᴰo 水苏ˢˢo 读须o\n棉ᴳo 柏ᴷo 蝠ᴰo 水苏ˢˢo 读须o\n水苏o 水苏糖ᴼo 水苏ᴮo 读须a 读须a legendo"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "b8726a6fcc97bee096ebdee908b9f7a6224bc592dde0ec9c53d3609d72828b38",
+        "core_sha256": "6e69dc6221c7d23b846e81d40dfd3ff93add495e3390645f98c96dd90d7e63f0",
+        "signature": "ff77c5ed0b416a3058d5d5d14f12d3e230b92800e988b126db731fd92a619242",
+        "filename": "치환결과_current_ff77c5ed0b41.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "103b563e2a62df7bdeebe24ca11edc531351cca911f9dc734dbfab8b1a5668b8",
+        "core_sha256": "2f0e9e7f5405b4e6620bb0b55558b60154063b5e8ca46de1436439af524d5bd0",
+        "signature": "761c82348be55375ff4d38538dda93b25740195570dbd15c4e994aae35b01215",
+        "filename": "치환결과_current_761c82348be5.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "b3c59ec84bd8472b54ee8d4b12dd9304002f4887156d4f2859e2b27266f43036",
+        "core_sha256": "b3c59ec84bd8472b54ee8d4b12dd9304002f4887156d4f2859e2b27266f43036",
+        "signature": "68b4f45d49b540250f82a6d85c42cbcf448f9381785055ea3d198f815b99698c",
+        "filename": "치환결과_legacy_68b4f45d49b5.txt",
+        "expected_text": "草ᴳˢo 木ᴷˢo 兽ᴰˢo 草ˢᵀᴬo 传ᴸo\n草ᴳˢo 木ᴷˢo 兽ᴰˢo 草ˢᵀᴬo 传ᴸo\n水苏o 水苏糖ᴼo 水苏ᴮo 传ᴸa 读须a legendo"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "3296c02596f847880cb6cc0586719918e4f28565c405d4c90d236f2f50963d4d",
+        "core_sha256": "f8739c77a429ad8e831243508ba37fc6f196b468eafdcb187494457ce51bdcd0",
+        "signature": "ef0e918cf44eb473fc46380a2f80761e7ea64a25ddcb5275341873ef2e445847",
+        "filename": "치환결과_legacy_ef0e918cf44e.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "103b563e2a62df7bdeebe24ca11edc531351cca911f9dc734dbfab8b1a5668b8",
+        "core_sha256": "2f0e9e7f5405b4e6620bb0b55558b60154063b5e8ca46de1436439af524d5bd0",
+        "signature": "5cab5a903bea0ae55006d819c5de0acde805bbf6e1b57fb00d92ecf8581abc09",
+        "filename": "치환결과_legacy_5cab5a903bea.html"
+      }
+    ]
+  },
+  "inverse_source": "棉ᴳo 柏ᴷo 蝠ᴰo 水苏ˢˢo 读须o\n草ᴳˢo 木ᴷˢo 兽ᴰˢo 草ˢᵀᴬo 传ᴸo\n水苏o 水苏ᴮo 水苏糖ᴼo 读须a 传ᴸa",
+  "inverse": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "gosipio kupreso desmodo stakiso legendo\ngosipio kupreso desmodo stakiso legendo\nstakio betoniko stakiozo legenda legenda",
+        "output_sha256": "1c20223181ed395b161ca2d4d51f27c978ed352c5009670d12035b5dffb1e5ea",
+        "core_sha256": "1c20223181ed395b161ca2d4d51f27c978ed352c5009670d12035b5dffb1e5ea",
+        "filename": "esperanto_new_gosipi-kupres-desmod-stakis-legend-20261128_bd00c51b49b8_inverse_current-compound-inverse-20261018-v3_baa507e49007.txt",
+        "provenance": "新版（更新中） / gosipi-kupres-desmod-stakis-legend-20261128 / bd00c51b49b8 / inverse: current-compound-inverse-20261018-v3 / baa507e49007"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "棉ᴳo 柏ᴷo 蝠ᴰo akv苏ˢˢo legendo\ngosipio kupreso desmodo stakiso legendo\nstakio betoniko stakiozo legenda legenda",
+        "output_sha256": "8b0e839ff2e5f700d815598d74a10b5c79f5e1652de25bd237491a9310d55ab7",
+        "core_sha256": "8b0e839ff2e5f700d815598d74a10b5c79f5e1652de25bd237491a9310d55ab7",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "gosipio kupreso desmodo stakiso legendo\ngosipio kupreso desmodo stakiso legendo\nstakio betoniko stakiozo legenda legenda",
+        "output_sha256": "1c20223181ed395b161ca2d4d51f27c978ed352c5009670d12035b5dffb1e5ea",
+        "core_sha256": "1c20223181ed395b161ca2d4d51f27c978ed352c5009670d12035b5dffb1e5ea",
+        "filename": "esperanto_new_gosipi-kupres-desmod-stakis-legend-20261128_bd00c51b49b8_inverse_current-compound-inverse-20261018-v3_baa507e49007.txt",
+        "provenance": "新版（更新中） / gosipi-kupres-desmod-stakis-legend-20261128 / bd00c51b49b8 / inverse: current-compound-inverse-20261018-v3 / baa507e49007"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "棉ᴳo 柏ᴷo 蝠ᴰo akv苏ˢˢo legendo\ngosipio kupreso desmodo stakiso legendo\nstakio betoniko stakiozo legenda legenda",
+        "output_sha256": "8b0e839ff2e5f700d815598d74a10b5c79f5e1652de25bd237491a9310d55ab7",
+        "core_sha256": "8b0e839ff2e5f700d815598d74a10b5c79f5e1652de25bd237491a9310d55ab7",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ]
+  }
+}
