@@ -1,0 +1,204 @@
+{
+  "forward_source": "tazeto makaono turboto utero piruso eklezio uterito\n@tazet@o @makaon@o @turbot@o @uter@o @pirus@o @eklezi@o @uterit@o\n@uter@@it@o ekleziano ŝtateklezio piro @pir@o garaĝo %piruso%",
+  "forward": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "1d9db04eb9982718f254e8a110726f1fd2bd3717839107161098fdd104afd0a1",
+        "core_sha256": "1d9db04eb9982718f254e8a110726f1fd2bd3717839107161098fdd104afd0a1",
+        "signature": "0322d50639235a8c05661517950dbd33b96a0beecacb9955c6349823226096ab",
+        "filename": "置換結果_current_0322d5063923.txt",
+        "expected_text": "水仙ᵀo 蝶ᴹo 比目鱼ᵀo 子宫o 梨ᴾˢo 教会o 子宫炎ᵀo\n水仙ᵀo 蝶ᴹo 比目鱼ᵀo 子宫o 梨ᴾˢo 教会o 子宫炎ᵀo\n子宫炎ᵀo 教会员o 国ˢ̂教会o 梨o 梨o 库ᴳo piruso"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "6cadc19476e7ec3c2360ca9c7d7ff0ff66f340a01eba44fe48f5e815d8fbfe27",
+        "core_sha256": "3276969be7a22274d0ee555a108c08eda0c580502f429b5752b19431597d70a4",
+        "signature": "d68cdf8ecd2f3fe60df7ebf831a501d2d96efa8ae4c5466da16615edbcaf6e3e",
+        "filename": "置換結果_current_d68cdf8ecd2f.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "5fd51cc0bb780042f48ea653a91d4286296ea10df4c66d7899c46219bbc02324",
+        "core_sha256": "e8b5caba0279094d634d9bdb33583247901bff4109aa63334164476e3bb0d003",
+        "signature": "05b5ff2e0979d1ac1ed17df7631bdd8a6594c1d2475d3fd4eceb1a96af4890da",
+        "filename": "置換結果_current_05b5ff2e0979.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "224a1a736af3c8652a3292bea9f31380613e98e7cd8b9cfb740036c42a56e067",
+        "core_sha256": "224a1a736af3c8652a3292bea9f31380613e98e7cd8b9cfb740036c42a56e067",
+        "signature": "ea75605916d0f69ea1129e48b16c5bb9b423098783fcb598e6c81d80db165bef",
+        "filename": "置換結果_legacy_ea75605916d0.txt",
+        "expected_text": "草ᵀᶻo 虫ᴹᴷo 鱼ᵀᴮo 宫ᵁo 木ᴾᴵo 教ᴱo 宫ᵁ炎ᵀo\n草ᵀᶻo 虫ᴹᴷo 鱼ᵀᴮo 宫ᵁo 木ᴾᴵo 教ᴱo 宫炎o\n宫ᵁ受o 教ᴱ员o 国ˢ̂教ᴱo 梨o 梨o 库ᴳo piruso"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "7568faf8918bb52bf17c7114981108d44723f80fe3759a3e87730e6fc1d45c94",
+        "core_sha256": "7eb585241045f5ad2766253361b6cc34a4c782b6fa38f67589bfee3431558bcf",
+        "signature": "1ce5c98f3c44c9f4c9a7066c9e7d88deabc69db5707cc848807b78e512d7465b",
+        "filename": "置換結果_legacy_1ce5c98f3c44.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "b0e6e50782e8148027d4a31c58530d9cf3ce59762de54f4e751e000787969c34",
+        "core_sha256": "9427eac2523350a0f1d5393206b5b417b577cb8a5c3b85c07d4173ff455cb59e",
+        "signature": "8a0d719e57a89dc9c0aed8c1ea0fa9f768fee758a04966a1e364b59c9b4172b9",
+        "filename": "置換結果_legacy_8a0d719e57a8.html"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "1d9db04eb9982718f254e8a110726f1fd2bd3717839107161098fdd104afd0a1",
+        "core_sha256": "1d9db04eb9982718f254e8a110726f1fd2bd3717839107161098fdd104afd0a1",
+        "signature": "79260d2ae39fb884d1e88b90f727fd25bbb763c73e8733cda70fb04460aeb1cd",
+        "filename": "转换结果_current_79260d2ae39f.txt",
+        "expected_text": "水仙ᵀo 蝶ᴹo 比目鱼ᵀo 子宫o 梨ᴾˢo 教会o 子宫炎ᵀo\n水仙ᵀo 蝶ᴹo 比目鱼ᵀo 子宫o 梨ᴾˢo 教会o 子宫炎ᵀo\n子宫炎ᵀo 教会员o 国ˢ̂教会o 梨o 梨o 库ᴳo piruso"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "5725107a698a920cd91d37470f54f78333cc8731391c39586d7c3c2db684ee01",
+        "core_sha256": "e8cc40a2a3eb1f8fed0f7d36701385550acdead542fd63f8e8e57c615dc29348",
+        "signature": "e755572927693afd26e269f41984f97649f35a456a9ee77cf4d1de0f9059eae6",
+        "filename": "转换结果_current_e75557292769.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "7b857d4793c2f2819574ab9d57c6d1f28608fce9e57b4a684a59a2dcf86f6d89",
+        "core_sha256": "42afeae8c592277ebcfbfd6e25c0835f4055cdab7c7cd3bcb1ceef0adde6ba28",
+        "signature": "a06c4685c3b1ddd4f6150dcada04e60cf01858e02f57ca9df2ff4bbd741a6c01",
+        "filename": "转换结果_current_a06c4685c3b1.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "224a1a736af3c8652a3292bea9f31380613e98e7cd8b9cfb740036c42a56e067",
+        "core_sha256": "224a1a736af3c8652a3292bea9f31380613e98e7cd8b9cfb740036c42a56e067",
+        "signature": "2c37c34ae91312377dcdc2dd5ac6c5b0a507f02e18ee3188b7d68cdbd76b6f07",
+        "filename": "转换结果_legacy_2c37c34ae913.txt",
+        "expected_text": "草ᵀᶻo 虫ᴹᴷo 鱼ᵀᴮo 宫ᵁo 木ᴾᴵo 教ᴱo 宫ᵁ炎ᵀo\n草ᵀᶻo 虫ᴹᴷo 鱼ᵀᴮo 宫ᵁo 木ᴾᴵo 教ᴱo 宫炎o\n宫ᵁ受o 教ᴱ员o 国ˢ̂教ᴱo 梨o 梨o 库ᴳo piruso"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "0185850f9124d78e1a75531a8d8ce72be50510ba7f9c88242ade8f7267e209ef",
+        "core_sha256": "9d184e4e565b2e9e4e76b8a9ae48d383ea9c45e51db5d273a997f26ff9317a18",
+        "signature": "1b7c430589c96c2e017a5eb0bba12bbcff8e8cfdb18f3be59ca532c8ce86a2a7",
+        "filename": "转换结果_legacy_1b7c430589c9.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "04548cf660a7e0718cca74f72d61643279ebd3457b14fdaef2acc710661833df",
+        "core_sha256": "1b3140d96606d5d04c850c1dc52864f04a090b77b9479fbfeb2e22a7fda599cb",
+        "signature": "780632533b4dc44594b6cb006e32343e41eba86e48b27457978ede161dbd8514",
+        "filename": "转换结果_legacy_780632533b4d.html"
+      }
+    ],
+    "KO": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "1d9db04eb9982718f254e8a110726f1fd2bd3717839107161098fdd104afd0a1",
+        "core_sha256": "1d9db04eb9982718f254e8a110726f1fd2bd3717839107161098fdd104afd0a1",
+        "signature": "6c277f6821c8fbc4eeb98d310632204ac59e6d07a0640cd0b459b1613d4c258f",
+        "filename": "치환결과_current_6c277f6821c8.txt",
+        "expected_text": "水仙ᵀo 蝶ᴹo 比目鱼ᵀo 子宫o 梨ᴾˢo 教会o 子宫炎ᵀo\n水仙ᵀo 蝶ᴹo 比目鱼ᵀo 子宫o 梨ᴾˢo 教会o 子宫炎ᵀo\n子宫炎ᵀo 教会员o 国ˢ̂教会o 梨o 梨o 库ᴳo piruso"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "73465755abf9c4c5235237b70f2a5a2888a3c74730a7673b8671c81d7ea20a05",
+        "core_sha256": "b4ef3574c0342679c194eee11c53f22eac783a35a90f63ccb30e2292803669bb",
+        "signature": "b6be2a227a39a4daa07edd22d801f8098a415f562626e05add0128b6c7506cb0",
+        "filename": "치환결과_current_b6be2a227a39.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "b2bbb2b7ca786cd21077e2dfcac4b42b6118a4e6352fd22a189a440ebdea56ea",
+        "core_sha256": "914ac3beea2a8568c3ecff6a583887a0b7155827616b701ff96f27205bb0cd40",
+        "signature": "90ebbb9cd3a58b549e9921e9b02b02b339e4402eb13332b698fe40c64096a377",
+        "filename": "치환결과_current_90ebbb9cd3a5.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "224a1a736af3c8652a3292bea9f31380613e98e7cd8b9cfb740036c42a56e067",
+        "core_sha256": "224a1a736af3c8652a3292bea9f31380613e98e7cd8b9cfb740036c42a56e067",
+        "signature": "7d99a089f76c3ab774616bd53a5e2f0780d05fcc0fba5ff444ae08b7b963c248",
+        "filename": "치환결과_legacy_7d99a089f76c.txt",
+        "expected_text": "草ᵀᶻo 虫ᴹᴷo 鱼ᵀᴮo 宫ᵁo 木ᴾᴵo 教ᴱo 宫ᵁ炎ᵀo\n草ᵀᶻo 虫ᴹᴷo 鱼ᵀᴮo 宫ᵁo 木ᴾᴵo 教ᴱo 宫炎o\n宫ᵁ受o 教ᴱ员o 国ˢ̂教ᴱo 梨o 梨o 库ᴳo piruso"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "6ea29ddd2d98d74050dd11c490b2b4e1e706e72c1507451aeabf5744ebe2e5d7",
+        "core_sha256": "22fdd0dae6933e07bba4fd5e6fe040d55ce5e108c85808b9dfe625cfb61e3023",
+        "signature": "2c96037209ea9621c9f2ccd373051a20305735c91b4fb82ffaf5fd3211634c4e",
+        "filename": "치환결과_legacy_2c96037209ea.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "53e6ec82aef512b84c0987c7f61cfe0b5e517f11a143384e4dcb6d0b396b4b37",
+        "core_sha256": "9e06a40284317ece69ade8889ba82e8432bfc969da41a8df9c34ec58f0c23261",
+        "signature": "74404087fd48011ff611206781fb246dbb76529299d37c3fa062555daf232191",
+        "filename": "치환결과_legacy_74404087fd48.html"
+      }
+    ]
+  },
+  "inverse_source": "水仙ᵀo 蝶ᴹo 比目鱼ᵀo 子宫o 梨ᴾˢo 教会o 子宫炎ᵀo\n草ᵀᶻo 虫ᴹᴷo 鱼ᵀᴮo 宫ᵁo 木ᴾᴵo 教ᴱo 宫ᵁ炎ᵀo\n梨o 库ᴳo 水仙o 蝶o 比目鱼o 子宫颈ᶜo 教会员o 国ˢ̂教会o",
+  "inverse": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "tazeto makaono turboto utero piruso eklezio uterito\ntazeto makaono turboto utero piruso eklezio uterito\npiro garaĝo narciso papilio pleŭronekto utercerviko ekleziano ŝtateklezio",
+        "output_sha256": "7aae803f15d33e435d7f7682c446d48786ee8deb3d3c79d76a08bbadd7cc6871",
+        "core_sha256": "7aae803f15d33e435d7f7682c446d48786ee8deb3d3c79d76a08bbadd7cc6871",
+        "filename": "esperanto_new_tazet-makaon-turbot-uter-pirus-eklezi-20261128_6f8848ea63fb_inverse_current-compound-inverse-20261018-v3_252115425c0c.txt",
+        "provenance": "新版（更新中） / tazet-makaon-turbot-uter-pirus-eklezi-20261128 / 6f8848ea63fb / inverse: current-compound-inverse-20261018-v3 / 252115425c0c"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "akv仙ᵀo 蝶ᴹo olokultinuso idpalaco 梨ᴾˢo instrukongreso idpalacito\ntazeto makaono turboto utero piruso eklezio uterito\npiro garaĝo narciso papilio pleŭronekto idpalaccerviko instrukongresano ŝtatinstrukongreso",
+        "output_sha256": "7ba70d399f087808ef7f7609635f3916549f4244f8620908a5e98571d8934443",
+        "core_sha256": "7ba70d399f087808ef7f7609635f3916549f4244f8620908a5e98571d8934443",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "tazeto makaono turboto utero piruso eklezio uterito\ntazeto makaono turboto utero piruso eklezio uterito\npiro garaĝo narciso papilio pleŭronekto utercerviko ekleziano ŝtateklezio",
+        "output_sha256": "7aae803f15d33e435d7f7682c446d48786ee8deb3d3c79d76a08bbadd7cc6871",
+        "core_sha256": "7aae803f15d33e435d7f7682c446d48786ee8deb3d3c79d76a08bbadd7cc6871",
+        "filename": "esperanto_new_tazet-makaon-turbot-uter-pirus-eklezi-20261128_6f8848ea63fb_inverse_current-compound-inverse-20261018-v3_252115425c0c.txt",
+        "provenance": "新版（更新中） / tazet-makaon-turbot-uter-pirus-eklezi-20261128 / 6f8848ea63fb / inverse: current-compound-inverse-20261018-v3 / 252115425c0c"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "akv仙ᵀo 蝶ᴹo olokultinuso idpalaco 梨ᴾˢo instrukongreso idpalacito\ntazeto makaono turboto utero piruso eklezio uterito\npiro garaĝo narciso papilio pleŭronekto idpalaccerviko instrukongresano ŝtatinstrukongreso",
+        "output_sha256": "7ba70d399f087808ef7f7609635f3916549f4244f8620908a5e98571d8934443",
+        "core_sha256": "7ba70d399f087808ef7f7609635f3916549f4244f8620908a5e98571d8934443",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ]
+  }
+}
