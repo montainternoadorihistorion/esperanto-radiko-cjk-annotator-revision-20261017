@@ -2543,7 +2543,7 @@ larici,木ᴸᴿ,0,larici,517
 lorant,木ᴸᵀ,0,lorant,519
 lecitid,木ᴸᶜ,0,lecitid,545
 lavsoni,木ᴸⱽ,0,lavsoni,544
-malus,木ᴹˢ,0,malus,496
+malus,木ᴹˢ,0,malus,reverse-alias:20261128
 manilkar,木ᴹᴬ,0,manilkar,578
 maduk,木ᴹᴰ,0,maduk,495
 metroksil,木ᴹᴱ,0,metroksil,603
@@ -2675,6 +2675,7 @@ stigm,柱头ˢ,0,stigm,6796
 salikat,柳盐ᴬ,0,salikat,9975
 balustrad,栏ᴮᴸ,0,balustrad,5193
 bradip,树懒ᴮ,0,bradip,1513
+unaŭ,树懒ᵁ,0,unau^,1462
 kastane,栗ᴷˢ,0,kastane,539
 sampl,样ˢᴹ,0,sampl,5360
 ribosom,核糖体,0,ribosom,6797
@@ -4251,7 +4252,7 @@ himantop,鸟ᴴᴺ,0,himantop,1123
 jabiru,鸟ᴶᴮ,0,jabiru,1091
 kreks,鸟ᴷˢ,0,kreks,1072
 katart,鸟ᴷᴬ,0,katart,1083
-kolibr,鸟ᴷᴮ,0,kolibr,1037
+kolibr,鸟ᴷᴮ,0,kolibr,reverse-alias:20261128
 karduel,鸟ᴷᴰ,0,karduel,1114
 karadri,鸟ᴷᴵ,0,karadri,1103
 kokotraŭst,鸟ᴷᴷ,0,kokotrau^st,1132
@@ -4800,7 +4801,7 @@ resonanc,共鸣,0,resonanc,8453
 dogan,关ᴰ,0,dogan,3211
 ator,具ᴬ,0,ator,192
 konkret,具ᴷ,0,konkret,191
-mebl,具ᴹ,0,mebl,190
+mebl,具ᴹ,0,mebl,reverse-alias:20261128
 enciklopedi,典ᴱ,0,enciklopedi,3784
 bred,养ᴮ,0,bred,3494
 trofi,养ᵀ,0,trofi,3496
@@ -4820,7 +4821,7 @@ nazu,兽ᴺ,0,nazu,1460
 otari,兽ᴼ,0,otari,reverse-alias:20261123
 pudu,兽ᴾ,0,pudu,1461
 teri,兽ᵀ,0,teri,1456
-unaŭ,兽ᵁ,0,unau^,1462
+unaŭ,兽ᵁ,0,unau^,reverse-alias:20261128
 civetikt,兽ᶜ,0,civetikt,1500
 focen,兽ᶠ,0,focen,1467
 zo,兽ᶻ,0,zo,1439
@@ -5554,6 +5555,7 @@ atenc,害ᴬ,0,atenc,6268
 banked,宴ᴮ,0,banked,4297
 hejm,家ᴴ,0,hejm,246
 famili,家ᶠ,0,famili,247
+mebl,家具,0,mebl,190
 kapacit,容ᴷ,0,kapacit,3112
 konsign,寄ᴷ,0,konsign,7656
 parazit,寄生,0,parazit,6265
@@ -7526,6 +7528,7 @@ amar,苦ᴬ,0,amar,2098
 absint,苦艾,0,absint,6880
 endivi,苦菜,0,endivi,7481
 asket,苦行,0,asket,8035
+malus,苹ᴹ,0,malus,496
 solan,茄ˢ,0,solan,5383
 alkekeng,茄ᴬ,0,alkekeng,5389
 datur,茄ᴰ,0,datur,5384
@@ -7745,6 +7748,7 @@ cinip,蜂ᶜ,0,cinip,4169
 vesp,蜂ⱽ,0,vesp,4167
 esamen,蜂群,0,esamen,8046
 melis,蜂草,0,melis,7497
+kolibr,蜂鸟,0,kolibr,1037
 nektar,蜜ᴺ,0,nektar,5247
 enkaŭstik,蜡画,0,enkau^stik,8024
 stencil,蜡纸,0,stencil,8439

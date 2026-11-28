@@ -1,3 +1,7 @@
+## 2026-11-28　苹果属、蜂鸟、二趾树懒和家具的还原
+
+新版把「苹ᴹo、蜂鸟o、树懒ᵁo、家具o」分别还原为 maluso、kolibro、unaŭo、meblo。两个版本都可还原旧写法「木ᴹˢ、鸟ᴷᴮ、兽ᵁ、具ᴹ」。固定旧版原样保留「苹ᴹo」，将「蜂鸟o、树懒ᵁo、家具o」分别读作 abelbirdo、arb懒ᵁo、istilo。「头ᴾo」在两个版本中都读作 pruo。
+
 ## 2026-11-28　栗属、远视、内裤和斑鸠属的还原
 
 新版将「栗ᴷˢo」「远视o」「内裤o」「鸽ˢo」分别还原为 kastaneo、hipermetropo、kalsono、streptopelio。两个版本都能还原旧写法「木ᴷᴬˢ」「远ᴴ」「裤ᴷ」「鸟ˢᴱ」。固定旧版仍把「远视o」「内裤o」读作 teletelevido、enpantalono，并保留原样输入的「栗ᴷˢo」「鸽ˢo」。「近ᴹo」读作 miopo，「座ᵀo」读作 trono。
