@@ -67,8 +67,18 @@ def test_current_downloads_include_only_the_distinct_mineral_key():
     assert [x['body'] for x in data['items'] if x['sourceRoot']=='nefrit']==[MEDICAL]
     ordinary=rows_from_all_json(data)
     current=current_rows_from_all_json(data)
-    assert len(ordinary)==10789 and len(current)==source['current_csv_count']==10801
-    assert [x for x in current if x not in ordinary and x['source_line'] != 'learner-form:20261123']==[
+    assert len(ordinary) + 7 == len(current) == source['current_csv_count']
+    ordinary_keys = {row['kanji'] for row in ordinary}
+    extra = [row for row in current if row['kanji'] not in ordinary_keys]
+    assert len(extra) == 7
+    learner_forms = {(row['kanji'], row['esperanto']) for row in extra
+                     if row['source_line'] == 'learner-form:20261123'}
+    assert learner_forms == {
+        ('多ᴾ声ᶠᴼia', 'polifonia'), ('多ᴾ声ᶠᴼio', 'polifonio'),
+        ('多ᴾ足ᴾᴼi', 'polipodi'), ('干ᴷ目ᴼᶠio', 'kseroftalmio'),
+        ('童ᴾ爱ᶠio', 'pedofilio'), ('超ᴹ心ᴾˢi', 'metapsiki'),
+    }
+    assert [row for row in extra if row['source_line'] != 'learner-form:20261123'] == [
         dict(next(x for x in ordinary if x['source_root']=='nefrit'),kanji=MINERAL,
              source_line='explicit-sense:nefrit.mineral:20261111')]
     assert senses['senses'][0]['reserved_bare']=='软玉'
