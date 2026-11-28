@@ -2402,7 +2402,7 @@ preskript,时效ᴾ,0,preskript,7371
 stupor,昏ˢᵀ,0,stupor,4410
 komat,昏ᴷᴹ,0,komat,4409
 sider,星ˢᴰ,0,sider,2826
-satelit,星ˢᵀ,0,satelit,2825
+satelit,星ˢᵀ,0,satelit,reverse-alias:20261128
 jaroviz,春化ᴶ,0,jaroviz,8538
 haloo,晕ᴴᴼ,0,haloo,6963
 vespr,晚ⱽᴿ,0,vespr,1400
@@ -3704,7 +3704,7 @@ libel,虫ᴸᴸ,0,libel,2676
 lepism,虫ᴸᴹ,0,lepism,2597
 leptinotars,虫ᴸᴺ,0,leptinotars,2673
 lept,虫ᴸᴾ,0,lept,2608
-licen,虫ᴸᶜ,0,licen,2620
+licen,虫ᴸᶜ,0,licen,reverse-alias:20261128
 makaon,虫ᴹᴷ,0,makaon,2636
 mant,虫ᴹᴺ,0,mant,2675
 mirmeleon,虫ᴹᴿ,0,mirmeleon,2602
@@ -3772,6 +3772,7 @@ silen,蝇子草,0,silen,8308
 cukcukcikad,蝉ᶜᶜ,0,cukcukcikad,5598
 cikadomorf,蝉形ᴹ,0,cikadomorf,8952
 vespertilion,蝠ⱽᴸ,0,vespertilion,8600
+licen,蝶ᴸᶜ,0,licen,2620
 pieris,蝶ᴾˢ,0,pieris,5278
 papilion,蝶ᴾᴺ,0,papilion,5275
 pierid,蝶ᴾᴿ,0,pierid,5277
@@ -5053,6 +5054,7 @@ astaten,卤ᴬ,0,astaten,6858
 brom,卤ᴮ,0,brom,6857
 sanitar,卫ˢ,0,sanitar,5659
 higien,卫ᴴ,0,higien,5658
+satelit,卫星,0,satelit,2825
 mortez,卯眼,0,mortez,reverse-alias:20261017
 stamp,印ˢ,0,stamp,3177
 impres,印ᴵ,0,impres,3179
@@ -5918,6 +5920,7 @@ takt,拍ᵀ,0,takt,2865
 aŭkci,拍卖,0,au^kci,7604
 fototip,拍型,0,fototip,9178
 fotostat,拍态,0,fotostat,9174
+aplaŭd,拍手,0,aplaŭd,4895
 trol,拖网,0,trol,6981
 remork,拖车,0,remork,7278
 pantofl,拖鞋,0,pantofl,5268
@@ -8554,7 +8557,7 @@ jut,黄麻,0,jut,8109
 melan,黑ᴹ,0,melan,1272
 ĵargon,黑话,0,j^argon,7352
 sekal,黑麦,0,sekal,5930
-aplaŭd,鼓ᴬ,0,aplaŭd,4895
+aplaŭd,鼓ᴬ,0,aplaŭd,reverse-alias:20261128
 timpan,鼓室,0,timpan,6799
 miring,鼓膜,0,miring,7374
 sorik,鼠ˢ,0,sorik,4599
