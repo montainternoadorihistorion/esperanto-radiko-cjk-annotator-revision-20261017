@@ -76,6 +76,12 @@ def test_current_manifest_downloads_and_group_descriptions():
     six_path = app.ROOT / source['six_roots_20261121_manifest']
     assert hashlib.sha256(six_path.read_bytes()).hexdigest() == source['six_roots_20261121_manifest_sha256']
     six = json.loads(six_path.read_bytes())
+    shared_path = app.ROOT / source['pumili_labrusk_dafodil_kontralt_20261128_manifest']
+    shared_bytes = shared_path.read_bytes()
+    assert hashlib.sha256(shared_bytes).hexdigest() == source['pumili_labrusk_dafodil_kontralt_20261128_manifest_sha256']
+    shared = json.loads(shared_bytes)
+    assert shared['group_counts']['草'] == [379, 377]
+    assert set(manifest['documentation_only_changes']) & shared['changes'].keys() == {'labrusk', 'dafodil'}
     for root in manifest['documentation_only_changes']:
         expected = latest['expected_target_items'].get(root, manifest['expected_target_items'][root])
         if root in plants['expected_target_items']:
@@ -91,6 +97,16 @@ def test_current_manifest_downloads_and_group_descriptions():
             expected_doc = expected['documentation']
         elif expected['kanji'] in six['group_counts']:
             before, after = six['group_counts'][expected['kanji']]
+            count_line = f'\nグループ数: {before}\n'
+            assert count_line in expected_doc
+            expected_doc = expected_doc.replace(count_line, f'\nグループ数: {after}\n')
+        if root in shared['changes']:
+            assert expected['body'] == shared['changes'][root]['old']
+            expected = shared['expected_target_items'][root]
+            assert expected['body'] == shared['changes'][root]['current']
+            expected_doc = expected['documentation']
+        elif expected['kanji'] in shared['group_counts']:
+            before, after = shared['group_counts'][expected['kanji']]
             count_line = f'\nグループ数: {before}\n'
             assert count_line in expected_doc
             expected_doc = expected_doc.replace(count_line, f'\nグループ数: {after}\n')

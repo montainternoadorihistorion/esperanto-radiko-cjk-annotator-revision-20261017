@@ -64,5 +64,59 @@
     "vit": 2,
     "ampelops": 2
   },
-  "rationale": "Pumili shares pine with pin, labrusk shares grape with vit, and dafodil shares narcissus with narcis. Kontralt shares the 音 pattern with sopran, tenor and bariton. All four earlier spellings remain readable, including the singer form of kontralt."
+  "rationale": "Pumili shares pine with pin, labrusk shares grape with vit, and dafodil shares narcissus with narcis. Kontralt shares the 音 pattern with sopran, tenor and bariton. All four earlier spellings remain readable, including the singer form of kontralt.",
+  "expected_target_items": {
+    "dafodil": {
+      "prefix": "dafodil",
+      "body": "水仙ᴰ",
+      "kanji": "水仙",
+      "detail": "dafodil → 水仙ᴰ (piv, F=1)",
+      "documentation": "語根: dafodil\n入力: dafodil\n最終形: 水仙ᴰ\n漢字: 水仙\n識別子: d\n型: piv\nF(汎用性): 1\nグループ数: 3\n基本形: no\n出典: _identifier_sidecar.tsv:2412",
+      "priority": 0,
+      "sourceRoot": "dafodil",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2412
+    },
+    "kontralt": {
+      "prefix": "kontralt",
+      "body": "女低音",
+      "kanji": "女低音",
+      "detail": "kontralt → 女低音 (pejvo, F=2, 基本形)",
+      "documentation": "語根: kontralt\n入力: kontralt\n最終形: 女低音\n漢字: 女低音\n識別子: なし\n型: pejvo\nF(汎用性): 2\nグループ数: 1\n基本形: yes\n出典: _identifier_sidecar.tsv:8426",
+      "priority": 0,
+      "sourceRoot": "kontralt",
+      "type": "pejvo",
+      "frequency": 2,
+      "base": true,
+      "sourceLine": 8426
+    },
+    "labrusk": {
+      "prefix": "labrusk",
+      "body": "葡ᴸ",
+      "kanji": "葡",
+      "detail": "labrusk → 葡ᴸ (piv, F=1)",
+      "documentation": "語根: labrusk\n入力: labrusk\n最終形: 葡ᴸ\n漢字: 葡\n識別子: l\n型: piv\nF(汎用性): 1\nグループ数: 4\n基本形: no\n出典: _identifier_sidecar.tsv:2429",
+      "priority": 0,
+      "sourceRoot": "labrusk",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 2429
+    },
+    "pumili": {
+      "prefix": "pumili",
+      "body": "松ᴾᴹ",
+      "kanji": "松",
+      "detail": "pumili → 松ᴾᴹ (piv, F=1)",
+      "documentation": "語根: pumili\n入力: pumili\n最終形: 松ᴾᴹ\n漢字: 松\n識別子: pm\n型: piv\nF(汎用性): 1\nグループ数: 7\n基本形: no\n出典: _identifier_sidecar.tsv:526",
+      "priority": 0,
+      "sourceRoot": "pumili",
+      "type": "piv",
+      "frequency": 1,
+      "base": false,
+      "sourceLine": 526
+    }
+  }
 }
