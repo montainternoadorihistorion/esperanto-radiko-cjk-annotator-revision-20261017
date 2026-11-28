@@ -1,0 +1,204 @@
+{
+  "forward_source": "biblioteko bibliotekisto migranta biblioteko rondiranta biblioteko\n@bibliotek@o @bibliotek@@ist@o\nlibro kaso akonito @akonit@o %biblioteko% @al@@ven@@ig@i",
+  "forward": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "18cfe534fe8cf170077cc6c59a301be8779de2247136a64d143c06d0ff392755",
+        "core_sha256": "18cfe534fe8cf170077cc6c59a301be8779de2247136a64d143c06d0ff392755",
+        "signature": "2d25900474df12f278c9f0f3f577f57f9179e9be8d3bac6498c944366f90f79d",
+        "filename": "置換結果_current_2d25900474df.txt",
+        "expected_text": "书库o 书库家o 迁在a 书库o 圆往在a 书库o\n书库o 书库家o\n书o 库o 草ᴬᴷᴼo 草ᴬᴷᴼo biblioteko 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "4f6f5e9724458d6d3145efb0aa56309779a7e2fa5b39aefdd1caae850ff8cafc",
+        "core_sha256": "c237f64a036f3be037a91e2f260e2ae734eef315bd87f87cce1b036110685de3",
+        "signature": "53cb927f18ef849dbf5c917a25a30f70a70a311a3f773ab80eca45e38d4a30de",
+        "filename": "置換結果_current_53cb927f18ef.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "e0ff0aa6c8f7160474cffac6aa2ab8bde26c5225c571806f1000f4be0f3ce4f6",
+        "core_sha256": "ca8906266e2bf8cd4bd4dbdf64acb652eb1e68003c55173c2bc090c2131e4ba3",
+        "signature": "5cc0eb7040e0bbfb3df2ad4d79ce2fa82998941d0769fd82a0b9ae0f26fe5b01",
+        "filename": "置換結果_current_5cc0eb7040e0.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "4ccb056d335393868e0777186691990dbbe251243a14e88709574b05ddebcc26",
+        "core_sha256": "4ccb056d335393868e0777186691990dbbe251243a14e88709574b05ddebcc26",
+        "signature": "ed2691b7b9e3c91c913715992ab6ab5f2812b5eeda7192d81efb9b86121beb0e",
+        "filename": "置換結果_legacy_ed2691b7b9e3.txt",
+        "expected_text": "库ᴮo 库ᴮ家o 迁在a 库ᴮo 圆往在a 库ᴮo\n库ᴮo 库ᴮ家o\n书o 库o 草ᴬᴷᴼo 草ᴬᴷᴼo biblioteko 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "dbec70343064a19b704fb65402abd7c1275f722d7b76a04f477323e2f2af5417",
+        "core_sha256": "81900f4fea77fd4807e3c8b81425e07fa5123662a0a85e951ca350476e2d0927",
+        "signature": "32ac1c57d2278dbd1652312a50dd0865a3876e9901e4f14612d29c493ed82d8d",
+        "filename": "置換結果_legacy_32ac1c57d227.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "e0ff0aa6c8f7160474cffac6aa2ab8bde26c5225c571806f1000f4be0f3ce4f6",
+        "core_sha256": "ca8906266e2bf8cd4bd4dbdf64acb652eb1e68003c55173c2bc090c2131e4ba3",
+        "signature": "9fee39f107976bf23ee3bc2fa217b99e53c3b5d8edf8edc8de3400058e8643bb",
+        "filename": "置換結果_legacy_9fee39f10797.html"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "18cfe534fe8cf170077cc6c59a301be8779de2247136a64d143c06d0ff392755",
+        "core_sha256": "18cfe534fe8cf170077cc6c59a301be8779de2247136a64d143c06d0ff392755",
+        "signature": "dd3c4267a2c7c4dd92c29edf56106e0f4891654bae55f7571fd6cfba3f4062c8",
+        "filename": "转换结果_current_dd3c4267a2c7.txt",
+        "expected_text": "书库o 书库家o 迁在a 书库o 圆往在a 书库o\n书库o 书库家o\n书o 库o 草ᴬᴷᴼo 草ᴬᴷᴼo biblioteko 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "ec6abcf17755a1396357604f13b794d8fb32b68ff8489862c539cb9a4a03002b",
+        "core_sha256": "110aef1374fa59e115f36afb40d12ae8476955572fa51e8c1f96cd8f345f289f",
+        "signature": "1888401ad36d0a81bb4b1637c30c7ff3f6a3a088068f8d2c644b88a3f7dad516",
+        "filename": "转换结果_current_1888401ad36d.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "3212a024d6e99a63d3b21eb1a7aa367395e3e9f7d3305967d0ede7f12aac5e6a",
+        "core_sha256": "f83ab02a3f1f3708c0712243ec0b257cbb4e5e15a9015e46becf08c9c8d3f81d",
+        "signature": "a92f5efe0258b3c762c3128514a83a9d5548fbb8e3549b3d61de50f0c1f1db87",
+        "filename": "转换结果_current_a92f5efe0258.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "4ccb056d335393868e0777186691990dbbe251243a14e88709574b05ddebcc26",
+        "core_sha256": "4ccb056d335393868e0777186691990dbbe251243a14e88709574b05ddebcc26",
+        "signature": "923ee873a89b7415df3bc0e0b0807cf0f507ba473584fae7a80ea3d4467fb0d5",
+        "filename": "转换结果_legacy_923ee873a89b.txt",
+        "expected_text": "库ᴮo 库ᴮ家o 迁在a 库ᴮo 圆往在a 库ᴮo\n库ᴮo 库ᴮ家o\n书o 库o 草ᴬᴷᴼo 草ᴬᴷᴼo biblioteko 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "f47faf5ef91b3d5fea97e32e32e3642a83895058c536251a8c164a20afc05f90",
+        "core_sha256": "649c9f88b48b455b8cff9e1cf326a3ea2af7ddaaeeec5a5376621993046ff8f4",
+        "signature": "033a030942bf54803f4856dd1ccbd60e117fb20f5d5cf6738b6aff17ee5d34c0",
+        "filename": "转换结果_legacy_033a030942bf.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "3212a024d6e99a63d3b21eb1a7aa367395e3e9f7d3305967d0ede7f12aac5e6a",
+        "core_sha256": "f83ab02a3f1f3708c0712243ec0b257cbb4e5e15a9015e46becf08c9c8d3f81d",
+        "signature": "dedb8bc01f410a6261a98f3375d52872f78de29ad98dbe6052a3c1f5357934b9",
+        "filename": "转换结果_legacy_dedb8bc01f41.html"
+      }
+    ],
+    "KO": [
+      {
+        "edition": "current",
+        "mode": "pure",
+        "output_sha256": "18cfe534fe8cf170077cc6c59a301be8779de2247136a64d143c06d0ff392755",
+        "core_sha256": "18cfe534fe8cf170077cc6c59a301be8779de2247136a64d143c06d0ff392755",
+        "signature": "27473bb18f42e80a8244ad3aeee99b5e029d0cb5084cb76162a63b73125ccd02",
+        "filename": "치환결과_current_27473bb18f42.txt",
+        "expected_text": "书库o 书库家o 迁在a 书库o 圆往在a 书库o\n书库o 书库家o\n书o 库o 草ᴬᴷᴼo 草ᴬᴷᴼo biblioteko 向来使i"
+      },
+      {
+        "edition": "current",
+        "mode": "kanji",
+        "output_sha256": "37819e6c3b933c4ed806f7094c2dfbfba9667e8dde1769e2cd059634e516c939",
+        "core_sha256": "0f61adcf468a5a9a6bee08d8073b9e74709e9cdba44d9024923102ce14b4c952",
+        "signature": "338f5d045aeb184ca94494461892df2a0f16e9cfe1e0285edc9931c933e2c60b",
+        "filename": "치환결과_current_338f5d045aeb.html"
+      },
+      {
+        "edition": "current",
+        "mode": "ruby",
+        "output_sha256": "e776aac29234a743bba9bc8b9b2bf626d01d108e7ef74b33652642f69705b7a5",
+        "core_sha256": "3d825bb01da57623043e811bc50f50de66c60fa2af3ac923085e0f78ea623d56",
+        "signature": "0c68d7c149880bec20aedf24234f0ff55848a33b5905e22b232a6e4666e522d8",
+        "filename": "치환결과_current_0c68d7c14988.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "pure",
+        "output_sha256": "4ccb056d335393868e0777186691990dbbe251243a14e88709574b05ddebcc26",
+        "core_sha256": "4ccb056d335393868e0777186691990dbbe251243a14e88709574b05ddebcc26",
+        "signature": "68b4f45d49b540250f82a6d85c42cbcf448f9381785055ea3d198f815b99698c",
+        "filename": "치환결과_legacy_68b4f45d49b5.txt",
+        "expected_text": "库ᴮo 库ᴮ家o 迁在a 库ᴮo 圆往在a 库ᴮo\n库ᴮo 库ᴮ家o\n书o 库o 草ᴬᴷᴼo 草ᴬᴷᴼo biblioteko 向来使i"
+      },
+      {
+        "edition": "legacy",
+        "mode": "kanji",
+        "output_sha256": "900adb52f639dceaaf36a17989ad87bbbdbf5c70a55e618716213fc36d4f51dd",
+        "core_sha256": "e85f5eddaed80b2edb6e2c1e60360a9e8a605f6c209fde5445d74c4a9dd051e2",
+        "signature": "ef0e918cf44eb473fc46380a2f80761e7ea64a25ddcb5275341873ef2e445847",
+        "filename": "치환결과_legacy_ef0e918cf44e.html"
+      },
+      {
+        "edition": "legacy",
+        "mode": "ruby",
+        "output_sha256": "e776aac29234a743bba9bc8b9b2bf626d01d108e7ef74b33652642f69705b7a5",
+        "core_sha256": "3d825bb01da57623043e811bc50f50de66c60fa2af3ac923085e0f78ea623d56",
+        "signature": "5cab5a903bea0ae55006d819c5de0acde805bbf6e1b57fb00d92ecf8581abc09",
+        "filename": "치환결과_legacy_5cab5a903bea.html"
+      }
+    ]
+  },
+  "inverse_source": "书库o 库ᴮo 草ᴬᴷᴼo\n书库家o 库ᴮ家o 书o板ᴮo\n库o 书o 书库ᴳo 库ᴮᴷo",
+  "inverse": {
+    "JA": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "biblioteko biblioteko akonito\nbibliotekisto bibliotekisto librobreto\nkaso libro librgaraĝo 库ᴮᴷo",
+        "output_sha256": "452fd2b02d3a4aa328003775f597a66393c222ea1e64e41969307e3b5ef38e9d",
+        "core_sha256": "452fd2b02d3a4aa328003775f597a66393c222ea1e64e41969307e3b5ef38e9d",
+        "filename": "esperanto_new_bibliotek-20261128_1937970f485a_inverse_current-compound-inverse-20261018-v3_2d95762b4bb4.txt",
+        "provenance": "新版（更新中） / bibliotek-20261128 / 1937970f485a / inverse: current-compound-inverse-20261018-v3 / 2d95762b4bb4"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "librkaso biblioteko akonito\nlibrkasisto bibliotekisto librobreto\nkaso libro librgaraĝo 库ᴮᴷo",
+        "output_sha256": "74558101a1cf922c62adcf44f65202b9449e7672e6e679fb899bd6c482152b28",
+        "core_sha256": "74558101a1cf922c62adcf44f65202b9449e7672e6e679fb899bd6c482152b28",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ],
+    "ZH": [
+      {
+        "edition": "current",
+        "mode": "reverse",
+        "expected_text": "biblioteko biblioteko akonito\nbibliotekisto bibliotekisto librobreto\nkaso libro librgaraĝo 库ᴮᴷo",
+        "output_sha256": "452fd2b02d3a4aa328003775f597a66393c222ea1e64e41969307e3b5ef38e9d",
+        "core_sha256": "452fd2b02d3a4aa328003775f597a66393c222ea1e64e41969307e3b5ef38e9d",
+        "filename": "esperanto_new_bibliotek-20261128_1937970f485a_inverse_current-compound-inverse-20261018-v3_2d95762b4bb4.txt",
+        "provenance": "新版（更新中） / bibliotek-20261128 / 1937970f485a / inverse: current-compound-inverse-20261018-v3 / 2d95762b4bb4"
+      },
+      {
+        "edition": "legacy",
+        "mode": "reverse",
+        "expected_text": "librkaso biblioteko akonito\nlibrkasisto bibliotekisto librobreto\nkaso libro librgaraĝo 库ᴮᴷo",
+        "output_sha256": "74558101a1cf922c62adcf44f65202b9449e7672e6e679fb899bd6c482152b28",
+        "core_sha256": "74558101a1cf922c62adcf44f65202b9449e7672e6e679fb899bd6c482152b28",
+        "filename": "esperanto_old_4c16c8937c60_eed2a8bfc21a_inverse_legacy-compound-inverse-20261120-v4_a0b0522d50e8.txt",
+        "provenance": "旧版（固定） / 4c16c8937c60 / eed2a8bfc21a / inverse: legacy-compound-inverse-20261120-v4 / a0b0522d50e8"
+      }
+    ]
+  }
+}
