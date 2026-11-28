@@ -1167,6 +1167,7 @@ hidroliz,水ᴴ解ᴸ,0,hidroliz,9317
 hidrometr,水ᴴ计ᴹ,0,hidrometr,9320
 hidrograf,水ᴴ记ᴳ,0,hidrograf,9311
 hidrostatik,水ᴴ静ˢ,0,hidrostatik,9324
+stakis,水苏ˢˢ,0,stakis,2565
 stakioz,水苏糖ᴼ,0,stakioz,10391
 postulat,求ᴾˢ被,0,postulat,9908
 benzinometr,汽油计ᴹ,0,benzinometr,8892
@@ -1435,7 +1436,7 @@ sklerant,草ˢᴷᴸ,0,sklerant,2500
 skrofulari,草ˢᴷᴿ,0,skrofulari,2548
 spargani,草ˢᴾᴬ,0,spargani,2501
 spergulari,草ˢᴾᴱ,0,spergulari,2549
-stakis,草ˢᵀᴬ,0,stakis,2565
+stakis,草ˢᵀᴬ,0,stakis,reverse-alias:20261128
 stratiot,草ˢᵀᴿ,0,stratiot,2502
 staŭd,草ˢᵁ̆,0,stau^d,2221
 aspidistr,草ᴬˢᴾ,0,aspidistr,2509
@@ -1832,7 +1833,7 @@ blastocer,兽ᴮˢ,0,blastocer,1505
 besti,兽ᴮᴵ,0,besti,1464
 boselaf,兽ᴮᴸ,0,boselaf,1493
 bradip,兽ᴮᴿ,0,bradip,reverse-alias:20261125
-desmod,兽ᴰˢ,0,desmod,1475
+desmod,兽ᴰˢ,0,desmod,reverse-alias:20261128
 dazip,兽ᴰᴬ,0,dazip,1512
 dendrolag,兽ᴰᴰ,0,dendrolag,1506
 dugong,兽ᴰᴳ,0,dugong,reverse-alias:20261123
@@ -2512,7 +2513,7 @@ jasmen,木ᴶˢ,0,jasmen,385
 jaborand,木ᴶᴮ,0,jaborand,569
 johimb,木ᴶᴴ,0,johimb,510
 jakarand,木ᴶᴷ,0,jakarand,570
-kupres,木ᴷˢ,0,kupres,427
+kupres,木ᴷˢ,0,kupres,reverse-alias:20261128
 kvasi,木ᴷᴬ,0,kvasi,494
 kobe,木ᴷᴮ,0,kobe,475
 kad,木ᴷᴰ,0,kad,470
@@ -3304,7 +3305,7 @@ erodi,草ᴱᴿ,0,erodi,2314
 eritre,草ᴱᵀ,0,eritre,2337
 erofil,草ᴱᶠ,0,erofil,2355
 eŭfrazi,草ᴱᶻ,0,eu^frazi,2414
-gosipi,草ᴳˢ,0,gosipi,2359
+gosipi,草ᴳˢ,0,gosipi,reverse-alias:20261128
 globulari,草ᴳᴮ,0,globulari,2260
 glekom,草ᴳᴷ,0,glekom,2230
 galeops,草ᴳᴸ,0,galeops,2418
@@ -4620,7 +4621,7 @@ tapsi,伞ᵀ,0,tapsi,4667
 umbel,伞ᵁ,0,umbel,4644
 cerefoli,伞ᶜ,0,cerefoli,4655
 ferol,伞ᶠ,0,ferol,4646
-legend,传ᴸ,0,legend,3429
+legend,传ᴸ,0,legend,reverse-alias:20261128
 propagand,传ᴾ,0,propagand,3430
 transmisi,传ᵀ,0,transmisi,3431
 faks,传真,0,faks,6894
@@ -6271,6 +6272,7 @@ negund,枫ᴺ,0,negund,523
 stabl,架ˢ,0,stabl,6368
 trus,架ᵀ,0,trus,6367
 stip,柄ˢ,0,stip,7511
+kupres,柏ᴷ,0,kupres,427
 taksus,柏ᵀ,0,taksus,8501
 ia,某a,0,ia,31
 ie,某e,0,ie,32
@@ -6364,6 +6366,7 @@ ekzamen,检ᴱ,0,ekzamen,3340
 inspektor,检ᴵ,0,inspektor,3341
 prokuror,检察,0,prokuror,7545
 nekropsi,检尸,0,nekropsi,8247
+gosipi,棉ᴳ,0,gosipi,2359
 koton,棉ᴷ,0,koton,4001
 tampon,棉塞,0,tampon,6972
 madz,棍ᴹ,0,madz,8031
@@ -7758,6 +7761,7 @@ kanacikad,蝉ᴷ,0,kanacikad,5597
 mincikad,蝉ᴹ,0,mincikad,5596
 skorpen,蝎鱼,0,skorpen,7969
 lokust,蝗ᴸ,0,lokust,5433
+desmod,蝠ᴰ,0,desmod,1475
 filostom,蝠ᶠ,0,filostom,8599
 lepidopter,蝶ᴸ,0,lepidopter,5276
 helik,螺ᴴ,0,helik,4390
@@ -7894,6 +7898,7 @@ idiom,语ᴵ,0,idiom,1245
 gramatik,语法,0,gramatik,5647
 morfem,语素,0,morfem,7856
 indukt,诱ᴵ,0,indukt,4074
+legend,读须,0,legend,3429
 lecion,课ᴸ,0,lecion,3080
 agord,调ᴬ,0,agord,3724
 klimatiz,调ᴷ,0,klimatiz,3726

@@ -1,0 +1,78 @@
+{
+  "revision": "gosipi-kupres-desmod-stakis-legend-20261128",
+  "changes": {
+    "gosipi": {
+      "old": "草ᴳˢ",
+      "current": "棉ᴳ"
+    },
+    "kupres": {
+      "old": "木ᴷˢ",
+      "current": "柏ᴷ"
+    },
+    "desmod": {
+      "old": "兽ᴰˢ",
+      "current": "蝠ᴰ"
+    },
+    "stakis": {
+      "old": "草ˢᵀᴬ",
+      "current": "水苏ˢˢ"
+    },
+    "legend": {
+      "old": "传ᴸ",
+      "current": "读须"
+    }
+  },
+  "group_counts": {
+    "传": [
+      4,
+      3
+    ],
+    "兽": [
+      67,
+      66
+    ],
+    "木": [
+      259,
+      258
+    ],
+    "柏": [
+      2,
+      3
+    ],
+    "棉": [
+      2,
+      3
+    ],
+    "水苏": [
+      2,
+      3
+    ],
+    "草": [
+      377,
+      375
+    ],
+    "蝠": [
+      3,
+      4
+    ],
+    "读须": [
+      0,
+      1
+    ]
+  },
+  "safe_reverse_aliases": {
+    "草ᴳˢ": "gosipi",
+    "木ᴷˢ": "kupres",
+    "兽ᴰˢ": "desmod",
+    "草ˢᵀᴬ": "stakis",
+    "传ᴸ": "legend"
+  },
+  "canonical_sidecar_sha256": "42e8bd9dec7825e865ce4dffd46c193ac775cab98e913060abcc90fd4bfc9acb",
+  "baseline_monaco_sha256": "c4a9bb2dab29a1ee25662d986238fabc3fd1097a8a3ee4a60b570e4d39676c20",
+  "current_monaco_sha256": "fab9bc39f6434469bf5857249dd627d0882f328d76c15f8f89aa4936495399f5",
+  "current_items": 10640,
+  "unchanged_assignment_count": 10635,
+  "group_count_documentation_changes": 711,
+  "prior_displayed_group_counts": {},
+  "rationale": "Existing symbols identify cotton, cypresses, vampire bats, and the Stachys synonym. The name 水苏 keeps the distinction from Perilla, and 读须 represents the origin of legend in Latin legenda. The old spellings remain reverse aliases."
+}
