@@ -480,7 +480,7 @@
     {
       "path": "Esperanto-Reverter-JA/data/current_dictionary_source.json",
       "bytes": 37711,
-      "sha256": "01164c4ab1ef8ee5be1a7fb3847bf63dc3dcea4851e00b253f66b41e40078e52"
+      "sha256": "f5d0551b32299c6466b5a420dc6b3a33030e63187424cf261a0f97e52082ff84"
     },
     {
       "path": "Esperanto-Reverter-JA/data/current_inverse_aliases.json",
@@ -654,8 +654,8 @@
     },
     {
       "path": "Esperanto-Reverter-JA/data/pumili_labrusk_dafodil_kontralt_20261128.json",
-      "bytes": 1572,
-      "sha256": "1d294e3726608062416ca03bfe63d7e7056b8c87c6ffd87bcb88148710d41798"
+      "bytes": 3639,
+      "sha256": "873987e10b5d723d8ed42927b1a40efa5a6ce0bc8a80ad83d5c714b2838dcc85"
     },
     {
       "path": "Esperanto-Reverter-JA/data/rekrut_20261115.json",
@@ -785,7 +785,7 @@
     {
       "path": "Esperanto-Reverter-ZH/data/current_dictionary_source.json",
       "bytes": 37711,
-      "sha256": "01164c4ab1ef8ee5be1a7fb3847bf63dc3dcea4851e00b253f66b41e40078e52"
+      "sha256": "f5d0551b32299c6466b5a420dc6b3a33030e63187424cf261a0f97e52082ff84"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/current_inverse_aliases.json",
@@ -959,8 +959,8 @@
     },
     {
       "path": "Esperanto-Reverter-ZH/data/pumili_labrusk_dafodil_kontralt_20261128.json",
-      "bytes": 1572,
-      "sha256": "1d294e3726608062416ca03bfe63d7e7056b8c87c6ffd87bcb88148710d41798"
+      "bytes": 3639,
+      "sha256": "873987e10b5d723d8ed42927b1a40efa5a6ce0bc8a80ad83d5c714b2838dcc85"
     },
     {
       "path": "Esperanto-Reverter-ZH/data/rekrut_20261115.json",
